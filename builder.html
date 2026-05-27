@@ -877,7 +877,7 @@ function openUnitBrowser(slotKey) {
   const slot = SLOTS.find(s => s.key === slotKey);
   factionView.style.display = 'none';
   armyView.style.display = 'none';
-  unitsView.style.display = '';
+  unitsView.style.display = 'block';
   D('view-units-title').textContent = `Add ${slot.label}`;
   D('unit-slot-label').textContent = state.faction?.name ?? '';
   D('unit-search').value = '';
