@@ -1,0 +1,52 @@
+{
+  "id": "kraken",
+  "name": "Kraken Codex",
+  "difficulty": 3,
+  "subfactions": [
+    {
+      "name": "Average"
+    }
+  ],
+  "slots": {
+    "advisors": [
+      {
+        "name": "The Red Terror",
+        "points_base": 139,
+        "composition": "1 Red Terror",
+        "models": [
+          {
+            "name": "Red Terror",
+            "stats": {
+              "M": "8",
+              "WS": "3+",
+              "BS": "5+",
+              "S": "5",
+              "T": "5",
+              "W": "6",
+              "I": "5",
+              "A": "5",
+              "Ld": "5",
+              "Sv": "3+"
+            },
+            "rules": [
+              "Independent Character",
+              "Unique",
+              "Kraken",
+              "Monstrous Infantry",
+              "Very Bulky",
+              "Deepstrike",
+              "Feeding Frenzy",
+              "Gulp"
+            ]
+          }
+        ],
+        "fixed_wargear": [
+          "Scything Talons",
+          "Scything Talons",
+          "Prehensile Tail"
+        ],
+        "options": []
+      }
+    ]
+  }
+}

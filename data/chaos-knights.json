@@ -1,0 +1,946 @@
+{
+  "id": "chaos-knights",
+  "name": "Chaos Knights",
+  "difficulty": 4,
+  "subfactions": [
+    {
+      "name": "Average"
+    }
+  ],
+  "slots": {
+    "hq": [
+      {
+        "name": "Commander",
+        "points_base": 648,
+        "composition": "1 Commander",
+        "models": [
+          {
+            "name": "Commander",
+            "stats": {
+              "M": "12",
+              "WS": "2+",
+              "BS": "2+",
+              "S": "8",
+              "FA": "13",
+              "SA": "12",
+              "RA": "12",
+              "W": "24",
+              "I": "4",
+              "A": "6",
+              "Ld": "9",
+              "Sv": "3+"
+            },
+            "rules": [
+              "Titanic Vehicle",
+              "Combat Walker",
+              "Unique",
+              "Corrupted Protector",
+              "Imperial God Engine",
+              "Rotate Ion Shields",
+              "Fearless",
+              "Night Vision",
+              "Objective Secured",
+              "Steady",
+              "Spiteful Scourge"
+            ]
+          }
+        ],
+        "fixed_wargear": [
+          "2 Avenger Gatling Cannons",
+          "Heavy Flamer",
+          "Reinforced Shielding"
+        ],
+        "options": [
+          {
+            "description": "May swap any Avenger Gatling Cannon for H or M",
+            "choices": []
+          },
+          {
+            "description": "May swap Heavy Flamer for S",
+            "choices": []
+          },
+          {
+            "description": "May take one T or E",
+            "choices": []
+          },
+          {
+            "description": "May take one B If this model took one B, it may take one corresponding C",
+            "choices": []
+          }
+        ]
+      }
+    ],
+    "troops": [
+      {
+        "name": "War Dog",
+        "points_base": 184,
+        "composition": "1 War Dog",
+        "models": [
+          {
+            "name": "War Dog",
+            "stats": {
+              "M": "12",
+              "WS": "3+",
+              "BS": "3+",
+              "S": "6",
+              "FA": "12",
+              "SA": "12",
+              "RA": "10",
+              "W": "12",
+              "I": "4",
+              "A": "4",
+              "Ld": "6",
+              "Sv": "3+"
+            },
+            "rules": [
+              "Vehicle",
+              "Combat Walker",
+              "Mercenary",
+              "Rotate Ion Shields",
+              "Night Vision",
+              "Objective Secured",
+              "Steady"
+            ]
+          }
+        ],
+        "fixed_wargear": [
+          "2 Slaughter Claws",
+          "Heavy Stubber"
+        ],
+        "options": [
+          {
+            "description": "May swap any Slaughter Claw for H",
+            "choices": []
+          },
+          {
+            "description": "May swap Heavy Stubber for T",
+            "choices": []
+          },
+          {
+            "description": "May take one B",
+            "choices": []
+          }
+        ]
+      },
+      {
+        "name": "Armiger Moiraxes",
+        "points_base": 147,
+        "composition": "1 Moirax",
+        "models": [
+          {
+            "name": "Moirax",
+            "stats": {
+              "M": "10",
+              "WS": "3+",
+              "BS": "3+",
+              "S": "6",
+              "FA": "12",
+              "SA": "12",
+              "RA": "10",
+              "W": "12",
+              "I": "4",
+              "A": "4",
+              "Ld": "6",
+              "Sv": "3+"
+            },
+            "rules": [
+              "Vehicle",
+              "Combat Walker",
+              "Mercenary",
+              "Rotate Ion Shields",
+              "Night Vision",
+              "Objective Secured",
+              "Steady",
+              "Unstable Core"
+            ]
+          }
+        ],
+        "fixed_wargear": [
+          "2 Rad Cleansors"
+        ],
+        "options": [
+          {
+            "description": "May swap any Rad Cleansor for H or M",
+            "choices": []
+          },
+          {
+            "description": "May take one B",
+            "choices": []
+          }
+        ]
+      },
+      {
+        "name": "Knight",
+        "points_base": 488,
+        "composition": "1 Knight",
+        "models": [
+          {
+            "name": "Knight",
+            "stats": {
+              "M": "12",
+              "WS": "3+",
+              "BS": "3+",
+              "S": "8",
+              "FA": "13",
+              "SA": "12",
+              "RA": "12",
+              "W": "24",
+              "I": "4",
+              "A": "6",
+              "Ld": "6",
+              "Sv": "3+"
+            },
+            "rules": [
+              "Titanic Vehicle",
+              "Combat Walker",
+              "Corrupted Protector",
+              "Imperial God Engine",
+              "Rotate Ion Shields",
+              "Fearless",
+              "Night Vision",
+              "Objective Secured",
+              "Steady",
+              "Toss"
+            ]
+          }
+        ],
+        "fixed_wargear": [
+          "2 Avenger Gatling Cannons",
+          "Heavy Flamer"
+        ],
+        "options": [
+          {
+            "description": "May swap any Avenger Gatling Cannon for H or M",
+            "choices": []
+          },
+          {
+            "description": "May swap Heavy Flamer for S",
+            "choices": []
+          },
+          {
+            "description": "May take one T or E",
+            "choices": []
+          },
+          {
+            "description": "May take one B If this model took one B, it may take one corresponding C",
+            "choices": [
+              {
+                "name": "Mark of Khorne",
+                "pts_delta": 17
+              },
+              {
+                "name": "Mark of Nurgle",
+                "pts_delta": 30
+              },
+              {
+                "name": "Mark of Slaanesh",
+                "pts_delta": 13
+              },
+              {
+                "name": "Mark of Tzeentch",
+                "pts_delta": 12
+              },
+              {
+                "name": "Mark of Undivided",
+                "pts_delta": 10
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "elites": [
+      {
+        "name": "Atrapos",
+        "points_base": 684,
+        "composition": "1 Atrapos",
+        "models": [
+          {
+            "name": "Atrapos",
+            "stats": {
+              "M": "12",
+              "WS": "3+",
+              "BS": "3+",
+              "S": "8",
+              "FA": "13",
+              "SA": "12",
+              "RA": "12",
+              "W": "26",
+              "I": "4",
+              "A": "6",
+              "Ld": "6",
+              "Sv": "3+"
+            },
+            "rules": [
+              "Titanic Vehicle",
+              "Combat Walker",
+              "Corrupted Protector",
+              "Imperial God Engine",
+              "Rotate Ion Shields",
+              "Fearless",
+              "Night Vision",
+              "Steady"
+            ]
+          }
+        ],
+        "fixed_wargear": [
+          "Graviton Singularity Cannon",
+          "Atrapos Lascutter"
+        ],
+        "options": [
+          {
+            "description": "May take one B If this model took one B, it may take one corresponding C",
+            "choices": [
+              {
+                "name": "Mark of Khorne",
+                "pts_delta": 17
+              },
+              {
+                "name": "Mark of Nurgle",
+                "pts_delta": 30
+              },
+              {
+                "name": "Mark of Slaanesh",
+                "pts_delta": 13
+              },
+              {
+                "name": "Mark of Tzeentch",
+                "pts_delta": 12
+              },
+              {
+                "name": "Mark of Undivided",
+                "pts_delta": 10
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Gallant",
+        "points_base": 653,
+        "composition": "1 Gallant",
+        "models": [
+          {
+            "name": "Gallant",
+            "stats": {
+              "M": "12",
+              "WS": "3+",
+              "BS": "3+",
+              "S": "8",
+              "FA": "13",
+              "SA": "12",
+              "RA": "12",
+              "W": "24",
+              "I": "4",
+              "A": "6",
+              "Ld": "6",
+              "Sv": "3+"
+            },
+            "rules": [
+              "Titanic Vehicle",
+              "Combat Walker",
+              "Corrupted Protector",
+              "Imperial God Engine",
+              "Rotate Ion Shields",
+              "Fearless",
+              "Night Vision",
+              "Steady",
+              "Close Quarter Expert",
+              "Toss"
+            ]
+          }
+        ],
+        "fixed_wargear": [
+          "Reaper Chainsword",
+          "Thunder Gauntlet",
+          "Heavy Flamer"
+        ],
+        "options": [
+          {
+            "description": "May swap Heavy Flamer for S",
+            "choices": []
+          },
+          {
+            "description": "May take one T",
+            "choices": []
+          },
+          {
+            "description": "May take one B If this model took one B, it may take one corresponding C",
+            "choices": [
+              {
+                "name": "Mark of Khorne",
+                "pts_delta": 17
+              },
+              {
+                "name": "Mark of Nurgle",
+                "pts_delta": 30
+              },
+              {
+                "name": "Mark of Slaanesh",
+                "pts_delta": 13
+              },
+              {
+                "name": "Mark of Tzeentch",
+                "pts_delta": 12
+              },
+              {
+                "name": "Mark of Undivided",
+                "pts_delta": 10
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Magaera",
+        "points_base": 509,
+        "composition": "1 Magaera",
+        "models": [
+          {
+            "name": "Magaera",
+            "stats": {
+              "M": "12",
+              "WS": "3+",
+              "BS": "3+",
+              "S": "8",
+              "FA": "13",
+              "SA": "12",
+              "RA": "12",
+              "W": "24",
+              "I": "4",
+              "A": "6",
+              "Ld": "6",
+              "Sv": "3+"
+            },
+            "rules": [
+              "Titanic Vehicle",
+              "Combat Walker",
+              "Corrupted Protector",
+              "Imperial God Engine",
+              "Rotate Ion Shields",
+              "Fearless",
+              "Night Vision",
+              "Steady",
+              "Empyreal Sight",
+              "Ranged Attacks."
+            ]
+          }
+        ],
+        "fixed_wargear": [
+          "Lightning Cannon",
+          "Reaper Chainsword",
+          "Phased Plasma Fusil"
+        ],
+        "options": [
+          {
+            "description": "May swap Reaper Chainsword for M",
+            "choices": []
+          },
+          {
+            "description": "May take one B If this model took one B, it may take one corresponding C",
+            "choices": [
+              {
+                "name": "Mark of Khorne",
+                "pts_delta": 17
+              },
+              {
+                "name": "Mark of Nurgle",
+                "pts_delta": 30
+              },
+              {
+                "name": "Mark of Slaanesh",
+                "pts_delta": 13
+              },
+              {
+                "name": "Mark of Tzeentch",
+                "pts_delta": 12
+              },
+              {
+                "name": "Mark of Undivided",
+                "pts_delta": 10
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Styrix",
+        "points_base": 510,
+        "composition": "1 Styrix",
+        "models": [
+          {
+            "name": "Styrix",
+            "stats": {
+              "M": "12",
+              "WS": "3+",
+              "BS": "3+",
+              "S": "8",
+              "FA": "13",
+              "SA": "12",
+              "RA": "12",
+              "W": "24",
+              "I": "4",
+              "A": "6",
+              "Ld": "6",
+              "Sv": "3+"
+            },
+            "rules": [
+              "Titanic Vehicle",
+              "Combat Walker",
+              "Corrupted Protector",
+              "Imperial God Engine",
+              "Rotate Ion Shields",
+              "Fearless",
+              "Night Vision",
+              "Steady"
+            ]
+          }
+        ],
+        "fixed_wargear": [
+          "Graviton Crusher",
+          "Reaper Chainsword",
+          "Volkite Chieoroville"
+        ],
+        "options": [
+          {
+            "description": "May swap Reaper Chainsword for M",
+            "choices": []
+          },
+          {
+            "description": "May take one B If this model took one B, it may take one corresponding C",
+            "choices": [
+              {
+                "name": "Mark of Khorne",
+                "pts_delta": 17
+              },
+              {
+                "name": "Mark of Nurgle",
+                "pts_delta": 30
+              },
+              {
+                "name": "Mark of Slaanesh",
+                "pts_delta": 13
+              },
+              {
+                "name": "Mark of Tzeentch",
+                "pts_delta": 12
+              },
+              {
+                "name": "Mark of Undivided",
+                "pts_delta": 10
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "fast_attack": [
+      {
+        "name": "Acheron",
+        "points_base": 689,
+        "composition": "1 Acheron",
+        "models": [
+          {
+            "name": "Acheron",
+            "stats": {
+              "M": "12",
+              "WS": "3+",
+              "BS": "3+",
+              "S": "8",
+              "FA": "13",
+              "SA": "12",
+              "RA": "12",
+              "W": "26",
+              "I": "4",
+              "A": "6",
+              "Ld": "6",
+              "Sv": "3+"
+            },
+            "rules": [
+              "Titanic Vehicle",
+              "Combat Walker",
+              "Corrupted Protector",
+              "Imperial God Engine",
+              "Rotate Ion Shields",
+              "Fearless",
+              "Night Vision",
+              "Steady"
+            ]
+          }
+        ],
+        "fixed_wargear": [
+          "2 Linked Acheron Flame",
+          "Cannons",
+          "2 Linked Heavy Bolters",
+          "Reaper Chain Fist"
+        ],
+        "options": [
+          {
+            "description": "May take one B If this model took one B, it may take one corresponding C",
+            "choices": [
+              {
+                "name": "Mark of Khorne",
+                "pts_delta": 17
+              },
+              {
+                "name": "Mark of Nurgle",
+                "pts_delta": 30
+              },
+              {
+                "name": "Mark of Slaanesh",
+                "pts_delta": 13
+              },
+              {
+                "name": "Mark of Tzeentch",
+                "pts_delta": 12
+              },
+              {
+                "name": "Mark of Undivided",
+                "pts_delta": 10
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Castigator",
+        "points_base": 527,
+        "composition": "1 Castigator",
+        "models": [
+          {
+            "name": "Castigator",
+            "stats": {
+              "M": "12",
+              "WS": "3+",
+              "BS": "3+",
+              "S": "8",
+              "FA": "13",
+              "SA": "12",
+              "RA": "12",
+              "W": "26",
+              "I": "4",
+              "A": "6",
+              "Ld": "6",
+              "Sv": "3+"
+            },
+            "rules": [
+              "Titanic Vehicle",
+              "Combat Walker",
+              "Corrupted Protector",
+              "Imperial God Engine",
+              "Rotate Ion Shields",
+              "Fearless",
+              "Night Vision",
+              "Steady"
+            ]
+          }
+        ],
+        "fixed_wargear": [
+          "Castigator Bolt Cannon",
+          "Tempest Warblade"
+        ],
+        "options": [
+          {
+            "description": "May take one B If this model took one B, it may take one corresponding C",
+            "choices": [
+              {
+                "name": "Mark of Khorne",
+                "pts_delta": 17
+              },
+              {
+                "name": "Mark of Nurgle",
+                "pts_delta": 30
+              },
+              {
+                "name": "Mark of Slaanesh",
+                "pts_delta": 13
+              },
+              {
+                "name": "Mark of Tzeentch",
+                "pts_delta": 12
+              },
+              {
+                "name": "Mark of Undivided",
+                "pts_delta": 10
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Lancer",
+        "points_base": 497,
+        "composition": "1 Lancer",
+        "models": [
+          {
+            "name": "Lancer",
+            "stats": {
+              "M": "12",
+              "WS": "3+",
+              "BS": "3+",
+              "S": "8",
+              "FA": "13",
+              "SA": "12",
+              "RA": "12",
+              "W": "26",
+              "I": "4",
+              "A": "6",
+              "Ld": "6",
+              "Sv": "3+"
+            },
+            "rules": [
+              "Titanic Vehicle",
+              "Combat Walker",
+              "Corrupted Protector",
+              "Imperial God Engine",
+              "Rotate Ion Shields",
+              "Fearless",
+              "Night Vision",
+              "Steady"
+            ]
+          }
+        ],
+        "fixed_wargear": [
+          "Cerastus Shock Lance",
+          "Ion Gauntlet Shield"
+        ],
+        "options": [
+          {
+            "description": "May take one B If this model took one B, it may take one corresponding C",
+            "choices": [
+              {
+                "name": "Mark of Khorne",
+                "pts_delta": 17
+              },
+              {
+                "name": "Mark of Nurgle",
+                "pts_delta": 30
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "heavy_support": [
+      {
+        "name": "Asterius",
+        "points_base": 604,
+        "composition": "1 Asterius",
+        "models": [
+          {
+            "name": "Asterius",
+            "stats": {
+              "M": "10",
+              "WS": "4+",
+              "BS": "3+",
+              "S": "8",
+              "FA": "14",
+              "SA": "13",
+              "RA": "13",
+              "W": "30",
+              "I": "4",
+              "A": "6",
+              "Ld": "6",
+              "Sv": "3+"
+            },
+            "rules": [
+              "Titanic Vehicle",
+              "Combat Walker",
+              "Corrupted Protector",
+              "Imperial God Engine",
+              "Rotate Ion Shields",
+              "Fearless",
+              "Night Vision",
+              "Steady"
+            ]
+          }
+        ],
+        "fixed_wargear": [
+          "2 Sets of 2 Linked Conversion",
+          "Beam Cannons",
+          "2 Asterius Volkite Culverins",
+          "Karacnos Mortar Battery"
+        ],
+        "options": [
+          {
+            "description": "May take one B If this model took one B, it may take one corresponding C",
+            "choices": [
+              {
+                "name": "Mark of Khorne",
+                "pts_delta": 17
+              },
+              {
+                "name": "Mark of Nurgle",
+                "pts_delta": 30
+              },
+              {
+                "name": "Mark of Slaanesh",
+                "pts_delta": 13
+              },
+              {
+                "name": "Mark of Tzeentch",
+                "pts_delta": 12
+              },
+              {
+                "name": "Mark of Undivided",
+                "pts_delta": 10
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Tyrant",
+        "points_base": 735,
+        "composition": "1 Tyrant",
+        "models": [
+          {
+            "name": "Tyrant",
+            "stats": {
+              "M": "10",
+              "WS": "3+",
+              "BS": "3+",
+              "S": "8",
+              "FA": "14",
+              "SA": "13",
+              "RA": "12",
+              "W": "28",
+              "I": "4",
+              "A": "6",
+              "Ld": "6",
+              "Sv": "3+"
+            },
+            "rules": [
+              "Titanic Vehicle",
+              "Combat Walker",
+              "Corrupted Protector",
+              "Imperial God Engine",
+              "Rotate Ion Shields",
+              "Fearless",
+              "Night Vision",
+              "Steady"
+            ]
+          }
+        ],
+        "fixed_wargear": [
+          "2 Volcano Lances",
+          "3 Sets of 2 Linked Siege Breaker",
+          "Cannons",
+          "2 Sets of 2 Linked Meltaguns"
+        ],
+        "options": [
+          {
+            "description": "May swap any Volcano Cannon for H",
+            "choices": []
+          },
+          {
+            "description": "May swap any 2 Linked Siege Breaker Cannons for T",
+            "choices": []
+          },
+          {
+            "description": "May take one B If this model took one B, it may take one corresponding C",
+            "choices": [
+              {
+                "name": "Mark of Khorne",
+                "pts_delta": 17
+              },
+              {
+                "name": "Mark of Nurgle",
+                "pts_delta": 30
+              },
+              {
+                "name": "Mark of Slaanesh",
+                "pts_delta": 13
+              },
+              {
+                "name": "Mark of Tzeentch",
+                "pts_delta": 12
+              },
+              {
+                "name": "Mark of Undivided",
+                "pts_delta": 10
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "lord_of_war": [
+      {
+        "name": "Porphyrion",
+        "points_base": 644,
+        "composition": "1 Porphyrion",
+        "models": [
+          {
+            "name": "Porphyrion",
+            "stats": {
+              "M": "8",
+              "WS": "4+",
+              "BS": "3+",
+              "S": "8",
+              "FA": "14",
+              "SA": "14",
+              "RA": "13",
+              "W": "30",
+              "I": "4",
+              "A": "6",
+              "Ld": "6",
+              "Sv": "3+"
+            },
+            "rules": [
+              "Titanic Vehicle",
+              "Combat Walker",
+              "Corrupted Protector",
+              "Imperial God Engine",
+              "Rotate Ion Shields",
+              "Fearless",
+              "Night Vision",
+              "Steady"
+            ]
+          }
+        ],
+        "fixed_wargear": [
+          "2 sets of 2 Linked Magma",
+          "Lascannons",
+          "2 Autocannons",
+          "Helios Defense Missiles"
+        ],
+        "options": [
+          {
+            "description": "May swap 2 Autocannons for S",
+            "choices": []
+          },
+          {
+            "description": "May swap Helios Defense Missiles for T",
+            "choices": []
+          },
+          {
+            "description": "May take one B If this model took one B, it may take one corresponding C",
+            "choices": [
+              {
+                "name": "Mark of Khorne",
+                "pts_delta": 17
+              },
+              {
+                "name": "Mark of Nurgle",
+                "pts_delta": 30
+              },
+              {
+                "name": "Mark of Slaanesh",
+                "pts_delta": 13
+              },
+              {
+                "name": "Mark of Tzeentch",
+                "pts_delta": 12
+              },
+              {
+                "name": "Mark of Undivided",
+                "pts_delta": 10
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

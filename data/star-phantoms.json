@@ -1,0 +1,60 @@
+{
+  "id": "star-phantoms",
+  "name": "Star Phantoms",
+  "difficulty": 1,
+  "subfactions": [
+    {
+      "name": "Average"
+    },
+    {
+      "name": "Star Phantoms"
+    }
+  ],
+  "slots": {
+    "hq": [
+      {
+        "name": "Captain Zhrukhal Androcles",
+        "points_base": 279,
+        "composition": "1 Zhrukhal",
+        "models": [
+          {
+            "name": "Zhrukhal",
+            "stats": {
+              "M": "6",
+              "WS": "2+",
+              "BS": "2+",
+              "S": "4",
+              "T": "4",
+              "W": "5",
+              "I": "4",
+              "A": "4",
+              "Ld": "10",
+              "Sv": "3+"
+            },
+            "rules": [
+              "Independent Character",
+              "Infantry",
+              "Unique",
+              "Star Phantoms",
+              "Bolter Discipline",
+              "Know No Fear",
+              "Night Vision",
+              "Objective Secured",
+              "Shock Assault",
+              "Battle Drills",
+              "Master of Destruction"
+            ]
+          }
+        ],
+        "fixed_wargear": [
+          "Combi Melta",
+          "Powerfist",
+          "Frag Grenades",
+          "Krak Grenades",
+          "Iron Halo"
+        ],
+        "options": []
+      }
+    ]
+  }
+}

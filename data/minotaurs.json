@@ -1,0 +1,120 @@
+{
+  "id": "minotaurs",
+  "name": "Minotaurs",
+  "difficulty": 1,
+  "subfactions": [
+    {
+      "name": "Average"
+    },
+    {
+      "name": "Minotaurs"
+    }
+  ],
+  "slots": {
+    "hq": [
+      {
+        "name": "Chief Chaplain Ivanus Enkomi",
+        "points_base": 288,
+        "composition": "1 Ivanus",
+        "models": [
+          {
+            "name": "Ivanus",
+            "stats": {
+              "M": "6",
+              "WS": "2+",
+              "BS": "2+",
+              "S": "4",
+              "T": "4",
+              "W": "6",
+              "I": "4",
+              "A": "5",
+              "Ld": "10",
+              "Sv": "3+"
+            },
+            "rules": [
+              "Independent Character",
+              "Infantry",
+              "Unique",
+              "Chief Chaplain",
+              "Minotaurs",
+              "Adjusted Tactics",
+              "Know No Fear",
+              "Night Vision",
+              "Objective Secured",
+              "Shock Assault",
+              "Bane of Hatred",
+              "Canticle of Hate",
+              "Exhortation of Rage",
+              "Zealot",
+              "Charged."
+            ]
+          }
+        ],
+        "fixed_wargear": [
+          "Auxiliary Grenade Launcher",
+          "Powerfist",
+          "Crozium Arcanum",
+          "Frag Grenades",
+          "Krak Grenades",
+          "Rosarius"
+        ],
+        "options": [
+          {
+            "description": "May take one B",
+            "choices": [
+              {
+                "name": "Jump Pack",
+                "pts_delta": 20
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Lord Asterion Moloc",
+        "points_base": 371,
+        "composition": "1 Captain",
+        "models": [
+          {
+            "name": "Asterion",
+            "stats": {
+              "M": "4",
+              "WS": "2+",
+              "BS": "2+",
+              "S": "4",
+              "T": "4",
+              "W": "7",
+              "I": "4",
+              "A": "5",
+              "Ld": "10",
+              "Sv": "3+"
+            },
+            "rules": [
+              "Independent Character",
+              "Monstrous Infantry",
+              "Unique",
+              "Chapter Master",
+              "Minotaurs",
+              "Know No Fear",
+              "Deepstrike",
+              "Shock Assault",
+              "Steady",
+              "Very Bulky",
+              "Battle Drills",
+              "Dark Fury",
+              "The Hour is Nigh",
+              "T Minus 5"
+            ]
+          }
+        ],
+        "fixed_wargear": [
+          "The Black Spear",
+          "Orbital Strike",
+          "Stormshield",
+          "Iron Halo"
+        ],
+        "options": []
+      }
+    ]
+  }
+}

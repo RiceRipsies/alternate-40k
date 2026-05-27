@@ -1,0 +1,1510 @@
+{
+  "id": "khorne",
+  "name": "Khorne",
+  "difficulty": 2,
+  "subfactions": [
+    {
+      "name": "Average"
+    },
+    {
+      "name": "Brazen Beasts"
+    },
+    {
+      "name": "Disciples of the Red Angel"
+    },
+    {
+      "name": "Fire Riders"
+    },
+    {
+      "name": "The Butcherhorde"
+    },
+    {
+      "name": "World Eaters"
+    }
+  ],
+  "slots": {
+    "hq": [
+      {
+        "name": "Blood Throne",
+        "points_base": 331,
+        "composition": "1 Blood Throne",
+        "models": [
+          {
+            "name": "Blood Throne",
+            "stats": {
+              "M": "8",
+              "WS": "2+",
+              "BS": "5+",
+              "S": "4",
+              "T": "6",
+              "W": "8",
+              "I": "4",
+              "A": "5",
+              "Ld": "8",
+              "Sv": "3+"
+            },
+            "rules": [
+              "Independent Character",
+              "Monster",
+              "Daemonic",
+              "Deepstrike",
+              "Fearless",
+              "Furious Charge",
+              "Shock Assault",
+              "Chariot",
+              "Gorefeast",
+              "Wounds.",
+              "Locus of Khorne"
+            ]
+          }
+        ],
+        "fixed_wargear": [
+          "Blade of Blood",
+          "Hellblades",
+          "Sigil of Chaos"
+        ],
+        "options": [
+          {
+            "description": "May take one C",
+            "choices": []
+          }
+        ]
+      },
+      {
+        "name": "Slaughterbound",
+        "points_base": 207,
+        "composition": "1 Slaughterbound",
+        "models": [
+          {
+            "name": "Slaughterbound",
+            "stats": {
+              "M": "8",
+              "WS": "2+",
+              "BS": "5+",
+              "S": "6",
+              "T": "6",
+              "W": "6",
+              "I": "4",
+              "A": "5",
+              "Ld": "9",
+              "Sv": "3+"
+            },
+            "rules": [
+              "Character",
+              "Monstrous Infantry",
+              "World Eaters",
+              "Daemonic",
+              "Deepstrike",
+              "Fearless",
+              "Furious Charge",
+              "Shock Assault",
+              "Very Bulky",
+              "Rage Eternal",
+              "Rampage"
+            ]
+          }
+        ],
+        "fixed_wargear": [
+          "Lacerator",
+          "Daemonic Claw",
+          "Sigil of Chaos"
+        ],
+        "options": []
+      },
+      {
+        "name": "Angron",
+        "points_base": 666,
+        "composition": "1 Angron",
+        "models": [
+          {
+            "name": "Angron",
+            "stats": {
+              "M": "12",
+              "WS": "2+",
+              "BS": "5+",
+              "S": "7",
+              "T": "7",
+              "W": "16",
+              "I": "9",
+              "A": "8",
+              "Ld": "10",
+              "Sv": "3+"
+            },
+            "rules": [
+              "Independent Character",
+              "Monster",
+              "Unique",
+              "World Eaters",
+              "Daemonic",
+              "Deepstrike",
+              "Fearless",
+              "Flying",
+              "Furious Charge",
+              "Psychic Mastery Level 1",
+              "Shock Assault",
+              "Infectious Rage",
+              "Lord of Chaos",
+              "Righteous Slaughter",
+              "Veil Torn Asunder",
+              "Wounds."
+            ]
+          }
+        ],
+        "fixed_wargear": [
+          "Spinegrinder",
+          "Sam\u2019arius",
+          "Sigil of Corruption"
+        ],
+        "options": [
+          {
+            "description": "May take one S from the Khorne Spell List for each level of Psychic Mastery.",
+            "choices": []
+          }
+        ]
+      },
+      {
+        "name": "Ka\u2019Bandha",
+        "points_base": 1018,
+        "composition": "1 Ka\u2019Bandha",
+        "models": [
+          {
+            "name": "Ka\u2019Bandha",
+            "stats": {
+              "M": "12",
+              "WS": "2+",
+              "BS": "2+",
+              "S": "8",
+              "T": "8",
+              "W": "20",
+              "I": "9",
+              "A": "7",
+              "Ld": "10",
+              "Sv": "3+"
+            },
+            "rules": [
+              "Independent Character",
+              "Titanic Monster",
+              "Unique",
+              "Daemonic",
+              "Deepstrike",
+              "Fearless",
+              "Flying",
+              "Furious Charge",
+              "Shock Assault",
+              "Lord of Chaos",
+              "Miasma of Rage",
+              "Regenerate",
+              "Command Phases."
+            ]
+          }
+        ],
+        "fixed_wargear": [
+          "Lash of Khorne",
+          "Scythe of Hate",
+          "Axe of Raging Fury",
+          "Sigil of Corruption"
+        ],
+        "options": []
+      },
+      {
+        "name": "Kharn the Betrayer",
+        "points_base": 199,
+        "composition": "1 Kharn",
+        "models": [
+          {
+            "name": "Kharn",
+            "stats": {
+              "M": "6",
+              "WS": "2+",
+              "BS": "2+",
+              "S": "5",
+              "T": "5",
+              "W": "4",
+              "I": "4",
+              "A": "6",
+              "Ld": "9",
+              "Sv": "3+"
+            },
+            "rules": [
+              "Independent Character",
+              "Infantry",
+              "Unique",
+              "World Eaters",
+              "Furious Charge",
+              "Shock Assault",
+              "Murderous Assault",
+              "The Betrayer",
+              "Kharn."
+            ]
+          }
+        ],
+        "fixed_wargear": [
+          "Plasma Pistol",
+          "Gore Child",
+          "Frag Grenades",
+          "Krak Grenades",
+          "Sigil of Corruption"
+        ],
+        "options": []
+      },
+      {
+        "name": "Lord Invocatus",
+        "points_base": 286,
+        "composition": "1 Invocatus",
+        "models": [
+          {
+            "name": "Invocatus",
+            "stats": {
+              "M": "8",
+              "WS": "2+",
+              "BS": "2+",
+              "S": "4",
+              "T": "5",
+              "W": "7",
+              "I": "4",
+              "A": "6",
+              "Ld": "9",
+              "Sv": "3+"
+            },
+            "rules": [
+              "Independent Character",
+              "Infantry",
+              "Steed",
+              "World Eaters",
+              "Fearless",
+              "Furious Charge",
+              "Shock Assault",
+              "Bridge of Fire",
+              "Flying.",
+              "Leading the Charge",
+              "Lord of Chaos"
+            ]
+          }
+        ],
+        "fixed_wargear": [
+          "Bolt Pistol",
+          "Coward\u2019s Bane",
+          "Goring Horn",
+          "Sigil of Corruption"
+        ],
+        "options": []
+      },
+      {
+        "name": "Samus",
+        "points_base": 302,
+        "composition": "1 Samus",
+        "models": [
+          {
+            "name": "Samus",
+            "stats": {
+              "M": "8",
+              "WS": "2+",
+              "BS": "5+",
+              "S": "7",
+              "T": "7",
+              "W": "12",
+              "I": "8",
+              "A": "7",
+              "Ld": "9",
+              "Sv": "-"
+            },
+            "rules": [
+              "Independent Character",
+              "Monster",
+              "Unique",
+              "Daemonic",
+              "Deepstrike",
+              "Fearless",
+              "Furious Charge",
+              "Shock Assault",
+              "Ruinstorm",
+              "Lord of Chaos",
+              "Whispers of Madness"
+            ]
+          }
+        ],
+        "fixed_wargear": [
+          "Slaughtering Blade",
+          "Sigil of Corruption"
+        ],
+        "options": []
+      },
+      {
+        "name": "Skarbrand",
+        "points_base": 704,
+        "composition": "1 Skarbrand",
+        "models": [
+          {
+            "name": "Skarbrand",
+            "stats": {
+              "M": "8",
+              "WS": "2+",
+              "BS": "5+",
+              "S": "7",
+              "T": "7",
+              "W": "16",
+              "I": "8",
+              "A": "7",
+              "Ld": "9",
+              "Sv": "-"
+            },
+            "rules": [
+              "Independent Character",
+              "Monster",
+              "Unique",
+              "Daemonic",
+              "Deepstrike",
+              "Fearless",
+              "Furious Charge",
+              "Shock Assault",
+              "Lord of Chaos",
+              "Rage Embodied"
+            ]
+          }
+        ],
+        "fixed_wargear": [
+          "Carnage",
+          "Slaughter",
+          "Sigil of Corruption"
+        ],
+        "options": []
+      },
+      {
+        "name": "Uraka the Warfiend",
+        "points_base": 323,
+        "composition": "1 Uraka",
+        "models": [
+          {
+            "name": "Uraka the Warfiend",
+            "stats": {
+              "M": "8",
+              "WS": "2+",
+              "BS": "2+",
+              "S": "7",
+              "T": "6",
+              "W": "9",
+              "I": "8",
+              "A": "7",
+              "Ld": "9",
+              "Sv": "3+"
+            },
+            "rules": [
+              "Independent Character",
+              "Monster",
+              "Unique",
+              "Daemonic",
+              "Deepstrike",
+              "Fearless",
+              "Furious Charge",
+              "Shock Assault",
+              "Collar of Khorne",
+              "Mastery Level 0.",
+              "Executioner",
+              "Lord of Chaos"
+            ]
+          }
+        ],
+        "fixed_wargear": [
+          "Executioner\u2019s Axe",
+          "Sigil of Corruption"
+        ],
+        "options": []
+      },
+      {
+        "name": "Zhufor the Impaler",
+        "points_base": 250,
+        "composition": "1 Zhufor",
+        "models": [
+          {
+            "name": "Zhufor",
+            "stats": {
+              "M": "4",
+              "WS": "2+",
+              "BS": "2+",
+              "S": "5",
+              "T": "4",
+              "W": "6",
+              "I": "4",
+              "A": "6",
+              "Ld": "9",
+              "Sv": "3+"
+            },
+            "rules": [
+              "Independent Character",
+              "Monstrous Infantry",
+              "Unique",
+              "World Eaters",
+              "Malicious Volleys",
+              "Deepstrike",
+              "Furious Charge",
+              "Shock Assault",
+              "Steady",
+              "Very Bulky",
+              "Collar of Khorne",
+              "Mastery Level 0.",
+              "Icon of Slaughter",
+              "Lord of Chaos"
+            ]
+          }
+        ],
+        "fixed_wargear": [
+          "Stormbolter",
+          "Skulltaker Axe",
+          "Claw of Demnos",
+          "Sigil of Corruption"
+        ],
+        "options": []
+      }
+    ],
+    "advisors": [
+      {
+        "name": "Exalted Eightbound",
+        "points_base": 132,
+        "composition": "1 Exalted",
+        "models": [
+          {
+            "name": "Exalted",
+            "stats": {
+              "M": "8",
+              "WS": "2+",
+              "BS": "5+",
+              "S": "5",
+              "T": "5",
+              "W": "5",
+              "I": "4",
+              "A": "5",
+              "Ld": "8",
+              "Sv": "3+"
+            },
+            "rules": [
+              "Independent Character",
+              "Monstrous Infantry",
+              "Daemonic",
+              "World Eaters",
+              "Deepstrike",
+              "Fearless",
+              "Furious Charge",
+              "Shock Assault",
+              "Very Bulky",
+              "Blood for the Blood God"
+            ]
+          }
+        ],
+        "fixed_wargear": [
+          "Dual Lacerators"
+        ],
+        "options": [
+          {
+            "description": "May swap Dual Lacerators for one SM or two M",
+            "choices": []
+          },
+          {
+            "description": "May take one C",
+            "choices": []
+          }
+        ]
+      },
+      {
+        "name": "Herald of Khorne",
+        "points_base": 229,
+        "composition": "1 Herald",
+        "models": [
+          {
+            "name": "Herald",
+            "stats": {
+              "M": "6",
+              "WS": "2+",
+              "BS": "5+",
+              "S": "4",
+              "T": "4",
+              "W": "4",
+              "I": "4",
+              "A": "4",
+              "Ld": "8",
+              "Sv": "-"
+            },
+            "rules": [
+              "Independent Character",
+              "Infantry",
+              "Daemonic",
+              "Deepstrike",
+              "Fearless",
+              "Furious Charge",
+              "Shock Assault",
+              "Gorefeast",
+              "Wounds.",
+              "Locus of Khorne"
+            ]
+          }
+        ],
+        "fixed_wargear": [
+          "Blade of Blood"
+        ],
+        "options": [
+          {
+            "description": "May take one B",
+            "choices": [
+              {
+                "name": "Juggernaut Mount",
+                "pts_delta": 35
+              }
+            ]
+          },
+          {
+            "description": "May take one C",
+            "choices": []
+          }
+        ]
+      },
+      {
+        "name": "Karanak",
+        "points_base": 140,
+        "composition": "1 Karanak",
+        "models": [
+          {
+            "name": "Karanak",
+            "stats": {
+              "M": "12",
+              "WS": "2+",
+              "BS": "5+",
+              "S": "5",
+              "T": "5",
+              "W": "5",
+              "I": "4",
+              "A": "5",
+              "Ld": "8",
+              "Sv": "-"
+            },
+            "rules": [
+              "Independent Character",
+              "Infantry",
+              "Daemonic",
+              "Deepstrike",
+              "Fearless",
+              "Furious Charge",
+              "Animalistic",
+              "Markers.",
+              "Vengeance",
+              "Level 2.",
+              "Prey of the Blood God"
+            ]
+          }
+        ],
+        "fixed_wargear": [
+          "Soul Rending Fangs"
+        ],
+        "options": []
+      },
+      {
+        "name": "Skulltaker",
+        "points_base": 157,
+        "composition": "1 Skulltaker",
+        "models": [
+          {
+            "name": "Skulltaker",
+            "stats": {
+              "M": "6",
+              "WS": "2+",
+              "BS": "5+",
+              "S": "4",
+              "T": "4",
+              "W": "4",
+              "I": "4",
+              "A": "5",
+              "Ld": "8",
+              "Sv": "-"
+            },
+            "rules": [
+              "Independent Character",
+              "Infantry",
+              "Unique",
+              "Daemonic",
+              "Deepstrike",
+              "Fearless",
+              "Furious Charge",
+              "Shock Assault",
+              "Executioner",
+              "Gorefeast",
+              "Wounds.",
+              "Locus of Decapitation"
+            ]
+          }
+        ],
+        "fixed_wargear": [
+          "The Slayer Sword"
+        ],
+        "options": [
+          {
+            "description": "May take one B",
+            "choices": [
+              {
+                "name": "Juggernaut Mount",
+                "pts_delta": 35
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "troops": [
+      {
+        "name": "Jakhals",
+        "points_base": 83,
+        "composition": "1 Champion 9-29 Jakhals",
+        "models": [
+          {
+            "name": "Champion",
+            "stats": {
+              "M": "6",
+              "WS": "4+",
+              "BS": "4+",
+              "S": "3",
+              "T": "3",
+              "W": "1",
+              "I": "3",
+              "A": "3",
+              "Ld": "6",
+              "Sv": "6+"
+            },
+            "rules": [
+              "Character",
+              "Infantry",
+              "World Eaters",
+              "Furious Charge",
+              "Deranged Cultists",
+              "Stimms",
+              "Assault"
+            ]
+          },
+          {
+            "name": "Jakhal",
+            "stats": {
+              "M": "6",
+              "WS": "4+",
+              "BS": "4+",
+              "S": "3",
+              "T": "3",
+              "W": "1",
+              "I": "3",
+              "A": "2",
+              "Ld": "5",
+              "Sv": "6+"
+            },
+            "rules": [
+              "Infantry",
+              "World Eaters",
+              "Furious Charge",
+              "Deranged Cultists",
+              "Stimms",
+              "Assault"
+            ]
+          }
+        ],
+        "fixed_wargear": [
+          "2 Autopistols",
+          "2 Autopistols"
+        ],
+        "options": [
+          {
+            "description": "May take up to 20 more Jakhals for +8 points each Champion may swap both Autopistols for S Any model may swap either Autopistol for M Up to three Jakhals may swap both Autopistols for S The entire unit may take one C",
+            "choices": []
+          }
+        ]
+      },
+      {
+        "name": "Khorne Bloodletters",
+        "points_base": 243,
+        "composition": "1 Champion 9-29 Bloodletters",
+        "models": [
+          {
+            "name": "Champion",
+            "stats": {
+              "M": "6",
+              "WS": "3+",
+              "BS": "5+",
+              "S": "4",
+              "T": "4",
+              "W": "2",
+              "I": "4",
+              "A": "3",
+              "Ld": "7",
+              "Sv": "6"
+            },
+            "rules": [
+              "Character",
+              "Infantry",
+              "Daemonic",
+              "Deepstrike",
+              "Fearless",
+              "Furious Charge"
+            ]
+          },
+          {
+            "name": "Bloodletter",
+            "stats": {},
+            "rules": [
+              "Infantry",
+              "Daemonic",
+              "Deepstrike",
+              "Fearless",
+              "Furious Charge"
+            ]
+          }
+        ],
+        "fixed_wargear": [
+          "Hellblade",
+          "Hellblade"
+        ],
+        "options": [
+          {
+            "description": "May take up to 20 more Bloodletters for +24 points each One Bloodletter may take one E The entire unit may take one C",
+            "choices": [
+              {
+                "name": "Banner of Khorne",
+                "pts_delta": 30
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "elites": [
+      {
+        "name": "Bloodcrushers",
+        "points_base": 144,
+        "composition": "1 Champion 2-5 Bloodcrushers",
+        "models": [
+          {
+            "name": "Champion",
+            "stats": {
+              "M": "8",
+              "WS": "3+",
+              "BS": "5+",
+              "S": "4",
+              "T": "5",
+              "W": "4",
+              "I": "4",
+              "A": "3",
+              "Ld": "7",
+              "Sv": "3+"
+            },
+            "rules": [
+              "Character",
+              "Infantry",
+              "Steed",
+              "Daemonic",
+              "Deepstrike",
+              "Fearless",
+              "Furious Charge",
+              "Shock Assault"
+            ]
+          },
+          {
+            "name": "Bloodcrusher",
+            "stats": {
+              "M": "8",
+              "WS": "3+",
+              "BS": "5+",
+              "S": "4",
+              "T": "5",
+              "W": "4",
+              "I": "4",
+              "A": "2",
+              "Ld": "7",
+              "Sv": "3+"
+            },
+            "rules": [
+              "Infantry",
+              "Steed",
+              "Daemonic",
+              "Deepstrike",
+              "Fearless",
+              "Furious Charge",
+              "Shock Assault"
+            ]
+          }
+        ],
+        "fixed_wargear": [
+          "Hellblade",
+          "Goring Horn",
+          "Hellblade",
+          "Goring Horn"
+        ],
+        "options": [
+          {
+            "description": "May take up to 3 more Bloodcrushers for +46 points each The entire unit may take one C",
+            "choices": []
+          }
+        ]
+      },
+      {
+        "name": "Khorne Berzerkers",
+        "points_base": 139,
+        "composition": "1 Champion 4-19 Berzerkers",
+        "models": [
+          {
+            "name": "Champion",
+            "stats": {
+              "M": "6",
+              "WS": "3+",
+              "BS": "3+",
+              "S": "4",
+              "T": "4",
+              "W": "2",
+              "I": "4",
+              "A": "3",
+              "Ld": "9",
+              "Sv": "3+"
+            },
+            "rules": [
+              "Character",
+              "Infantry",
+              "Fearless",
+              "Furious Charge",
+              "Shock Assault"
+            ]
+          },
+          {
+            "name": "Berzerker",
+            "stats": {
+              "M": "6",
+              "WS": "3+",
+              "BS": "3+",
+              "S": "4",
+              "T": "4",
+              "W": "2",
+              "I": "4",
+              "A": "2",
+              "Ld": "8",
+              "Sv": "3+"
+            },
+            "rules": [
+              "Infantry",
+              "Fearless",
+              "Furious Charge",
+              "Shock Assault"
+            ]
+          }
+        ],
+        "fixed_wargear": [
+          "2 Chainswords",
+          "2 Chainswords"
+        ],
+        "options": [
+          {
+            "description": "May take up to 15 more Berzerkers for +27 points each Champion may swap one Chainsword for O Champion may swap any Chainsword for M, P, or S Up to four Berzerkers may swap a Chainsword for S Any model may swap any Chainsword for M or P The entire unit may take up to one of each G The entire unit may take one C",
+            "choices": []
+          }
+        ]
+      },
+      {
+        "name": "Eightbound",
+        "points_base": 260,
+        "composition": "1 Champion 2-5 Eightbound",
+        "models": [
+          {
+            "name": "Champion",
+            "stats": {
+              "M": "8",
+              "WS": "3+",
+              "BS": "5+",
+              "S": "5",
+              "T": "5",
+              "W": "3",
+              "I": "4",
+              "A": "5",
+              "Ld": "7",
+              "Sv": "3+"
+            },
+            "rules": [
+              "Character",
+              "Monstrous Infantry",
+              "World Eaters",
+              "Daemonic",
+              "Deepstrike",
+              "Fearless",
+              "Furious Charge",
+              "Shock Assault",
+              "Very Bulky"
+            ]
+          },
+          {
+            "name": "Eightbound",
+            "stats": {
+              "M": "8",
+              "WS": "3+",
+              "BS": "5+",
+              "S": "5",
+              "T": "5",
+              "W": "3",
+              "I": "4",
+              "A": "4",
+              "Ld": "7",
+              "Sv": "3+"
+            },
+            "rules": [
+              "Monstrous Infantry",
+              "World Eaters",
+              "Daemonic",
+              "Fearless",
+              "Furious Charge",
+              "Shock Assault",
+              "Very Bulky"
+            ]
+          }
+        ],
+        "fixed_wargear": [
+          "Dual Lacerators",
+          "Dual Eviscerators"
+        ],
+        "options": [
+          {
+            "description": "May take up to 3 more Eightbound for +88 points each Champion may swap Dual Lacerators for OM The entire unit may take one C",
+            "choices": []
+          }
+        ]
+      }
+    ],
+    "fast_attack": [
+      {
+        "name": "Flesh Hounds of Khorne",
+        "points_base": 184,
+        "composition": "1-3 Slaughterers",
+        "models": [
+          {
+            "name": "Flesh Hound",
+            "stats": {
+              "M": "12",
+              "WS": "3+",
+              "BS": "5+",
+              "S": "4",
+              "T": "4",
+              "W": "2",
+              "I": "4",
+              "A": "2",
+              "Ld": "7",
+              "Sv": "-"
+            },
+            "rules": [
+              "Vehicle",
+              "Combat Walker",
+              "Daemonic Engine",
+              "Fearless",
+              "Furious Charge",
+              "Night Vision",
+              "Shock Assault"
+            ]
+          }
+        ],
+        "fixed_wargear": [
+          "Teeth and Claws"
+        ],
+        "options": [
+          {
+            "description": "May take up to 15 more Flesh Hounds for +26 points each The entire unit may take one C",
+            "choices": []
+          }
+        ]
+      },
+      {
+        "name": "Flesh Hounds of Khorne",
+        "points_base": 130,
+        "composition": "5-20 Flesh Hounds",
+        "models": [
+          {
+            "name": "Flesh Hound",
+            "stats": {
+              "M": "12",
+              "WS": "3+",
+              "BS": "5+",
+              "S": "4",
+              "T": "4",
+              "W": "2",
+              "I": "4",
+              "A": "2",
+              "Ld": "7",
+              "Sv": "-"
+            },
+            "rules": [
+              "Infantry",
+              "Daemonic",
+              "Deepstrike",
+              "Fearless",
+              "Furious Charge",
+              "Animalistic",
+              "Markers.",
+              "Collar of Khorne",
+              "Mastery Level 0."
+            ]
+          }
+        ],
+        "fixed_wargear": [
+          "Teeth and Claws"
+        ],
+        "options": [
+          {
+            "description": "May take up to 15 more Flesh Hounds for +26 points each The entire unit may take one C",
+            "choices": []
+          }
+        ]
+      },
+      {
+        "name": "Goremongers",
+        "points_base": 68,
+        "composition": "1 Champion 7-29 Cultists",
+        "models": [
+          {
+            "name": "Champion",
+            "stats": {
+              "M": "8",
+              "WS": "4+",
+              "BS": "4+",
+              "S": "3",
+              "T": "3",
+              "W": "1",
+              "I": "3",
+              "A": "3",
+              "Ld": "6",
+              "Sv": "6+"
+            },
+            "rules": [
+              "Character",
+              "Infantry",
+              "Furious Charge",
+              "Scout"
+            ]
+          },
+          {
+            "name": "Cultist",
+            "stats": {
+              "M": "8",
+              "WS": "4+",
+              "BS": "4+",
+              "S": "3",
+              "T": "3",
+              "W": "1",
+              "I": "3",
+              "A": "2",
+              "Ld": "5",
+              "Sv": "6+"
+            },
+            "rules": [
+              "Infantry",
+              "Furious Charge",
+              "Scout"
+            ]
+          }
+        ],
+        "fixed_wargear": [
+          "Autogun",
+          "Frag Grenades",
+          "Autogun",
+          "Frag Grenades"
+        ],
+        "options": [
+          {
+            "description": "May take up to 22 more Cultists for +8 points each Any model may swap Autogun for R The entire unit may take one B",
+            "choices": []
+          }
+        ]
+      }
+    ],
+    "heavy_support": [
+      {
+        "name": "Skull Cannon of Khorne",
+        "points_base": 170,
+        "composition": "1-3 Skull Cannons",
+        "models": [
+          {
+            "name": "Skull Cannon",
+            "stats": {
+              "M": "8",
+              "WS": "3+",
+              "BS": "3+",
+              "S": "4",
+              "T": "6",
+              "W": "7",
+              "I": "4",
+              "A": "4",
+              "Ld": "7",
+              "Sv": "3+"
+            },
+            "rules": [
+              "Monster",
+              "Daemonic",
+              "Deepstrike",
+              "Fearless",
+              "Furious Charge",
+              "Shock Assault",
+              "Chariot"
+            ]
+          }
+        ],
+        "fixed_wargear": [
+          "Skull Cannon",
+          "Hellblade"
+        ],
+        "options": [
+          {
+            "description": "May take up to 2 more Skull Cannons for +170 points each The entire unit may take one C",
+            "choices": []
+          }
+        ]
+      }
+    ],
+    "lord_of_war": [
+      {
+        "name": "An\u2019ggrath the Unbound",
+        "points_base": 888,
+        "composition": "1 An\u2019ggrath",
+        "models": [
+          {
+            "name": "An\u2019ggrath",
+            "stats": {
+              "M": "12",
+              "WS": "2+",
+              "BS": "2+",
+              "S": "10",
+              "T": "8",
+              "W": "24",
+              "I": "9",
+              "A": "8",
+              "Ld": "10",
+              "Sv": "3+"
+            },
+            "rules": [
+              "Titanic Monster",
+              "Unique",
+              "Daemonic",
+              "Deepstrike",
+              "Fearless",
+              "Flying",
+              "Furious Charge",
+              "Shock Assault",
+              "Scorn of the Blood God",
+              "The Deathbringer"
+            ]
+          }
+        ],
+        "fixed_wargear": [
+          "An\u2019ggrath\u2019s Lash of Khorne",
+          "An\u2019ggrath\u2019s Axe of Khorne"
+        ],
+        "options": []
+      },
+      {
+        "name": "Bloodthirsters",
+        "points_base": 338,
+        "composition": "1-3 Bloodthirsters",
+        "models": [
+          {
+            "name": "Bloodthirster",
+            "stats": {
+              "M": "12",
+              "WS": "2+",
+              "BS": "2+",
+              "S": "7",
+              "T": "7",
+              "W": "16",
+              "I": "4",
+              "A": "6",
+              "Ld": "10",
+              "Sv": "3+"
+            },
+            "rules": [
+              "Monster",
+              "Daemonic",
+              "Deepstrike",
+              "Fearless",
+              "Flying",
+              "Furious Charge",
+              "Shock Assault"
+            ]
+          }
+        ],
+        "fixed_wargear": [
+          "Great Axe of Khorne",
+          "Demolisher Cannon",
+          "Scorpion Cannon",
+          "Hellmaw Flame Cannon",
+          "Hellcrusher Claws"
+        ],
+        "options": [
+          {
+            "description": "May take up to 2 more Bloodthirsters for +338 points each Any model may swap Great Axe of Khorne for M The entire unit may take one C",
+            "choices": []
+          }
+        ]
+      },
+      {
+        "name": "Assault 6",
+        "points_base": 623,
+        "composition": "1 Brass Scorpion",
+        "models": [
+          {
+            "name": "Or",
+            "stats": {
+              "M": "8",
+              "WS": "3+",
+              "BS": "3+",
+              "S": "8",
+              "FA": "14",
+              "SA": "13",
+              "RA": "12",
+              "W": "28",
+              "I": "4",
+              "A": "7",
+              "Ld": "8",
+              "Sv": "3+"
+            },
+            "rules": []
+          },
+          {
+            "name": "None",
+            "stats": {},
+            "rules": [
+              "Titanic Vehicle",
+              "Combat Walker",
+              "Daemonic Engine",
+              "Fearless",
+              "Furious Charge",
+              "Night Vision",
+              "Shock Assault",
+              "Steady",
+              "Doomsday Reactor",
+              "Infernal Machine"
+            ]
+          },
+          {
+            "name": "Assault 1, Destroyer,",
+            "stats": {},
+            "rules": []
+          },
+          {
+            "name": "Monsterbane Or",
+            "stats": {},
+            "rules": []
+          },
+          {
+            "name": "None",
+            "stats": {},
+            "rules": []
+          }
+        ],
+        "fixed_wargear": [],
+        "options": [
+          {
+            "description": "May take one C",
+            "choices": []
+          }
+        ]
+      },
+      {
+        "name": "Khorne Lord of Skulls",
+        "points_base": 537,
+        "composition": "1 Lord of Skulls",
+        "models": [
+          {
+            "name": "Lord of Skulls",
+            "stats": {
+              "M": "8",
+              "WS": "3+",
+              "BS": "3+",
+              "S": "8",
+              "FA": "13",
+              "SA": "13",
+              "RA": "11",
+              "W": "28",
+              "I": "4",
+              "A": "7",
+              "Ld": "8",
+              "Sv": "3+"
+            },
+            "rules": [
+              "Titanic Vehicle",
+              "Tank",
+              "Daemonic Engine",
+              "Fearless",
+              "Furious Charge",
+              "Night Vision",
+              "Shock Assault",
+              "Steady",
+              "Infernal Machine"
+            ]
+          }
+        ],
+        "fixed_wargear": [
+          "Hades Gatling Cannon",
+          "Daemongorge Cannon",
+          "Great Cleaver of Khorne"
+        ],
+        "options": [
+          {
+            "description": "May swap Hades Gatling Cannon for H",
+            "choices": []
+          },
+          {
+            "description": "May take one C",
+            "choices": []
+          }
+        ]
+      },
+      {
+        "name": "Khorne Tower of Skulls",
+        "points_base": 649,
+        "composition": "1 Tower of Skulls",
+        "models": [
+          {
+            "name": "Tower of Skulls",
+            "stats": {
+              "M": "6",
+              "WS": "5+",
+              "BS": "3+",
+              "S": "9",
+              "FA": "14",
+              "SA": "13",
+              "RA": "12",
+              "W": "28",
+              "I": "1",
+              "A": "10",
+              "Ld": "8",
+              "Sv": "3+"
+            },
+            "rules": [
+              "Titanic Vehicle",
+              "Tank",
+              "Daemonic Engine",
+              "Fearless",
+              "Furious Charge",
+              "Night Vision",
+              "Consumes All",
+              "Doomsday Reactor",
+              "Infernal Machine"
+            ]
+          }
+        ],
+        "fixed_wargear": [
+          "Balemaw Cannon",
+          "2 Sets of 6 Linked Skullreaper",
+          "Cannons",
+          "2 Thunderfire Cannons",
+          "2 Sets of 2 Linked",
+          "Skullshredders"
+        ],
+        "options": [
+          {
+            "description": "May take one C",
+            "choices": []
+          }
+        ]
+      },
+      {
+        "name": "Kytan Ravager",
+        "points_base": 727,
+        "composition": "1 Kytan",
+        "models": [
+          {
+            "name": "Kytan",
+            "stats": {
+              "M": "12",
+              "WS": "3+",
+              "BS": "3+",
+              "S": "8",
+              "FA": "13",
+              "SA": "13",
+              "RA": "11",
+              "W": "26",
+              "I": "5",
+              "A": "7",
+              "Ld": "8",
+              "Sv": "3+"
+            },
+            "rules": [
+              "Titanic Vehicle",
+              "Combat Walker",
+              "Daemonic Engine",
+              "Fearless",
+              "Furious Charge",
+              "Night Vision",
+              "Shock Assault",
+              "Steady",
+              "Doomsday Reactor",
+              "Infernal Machine"
+            ]
+          }
+        ],
+        "fixed_wargear": [
+          "Kytan Gatling Cannon",
+          "Kytan Cleaver"
+        ],
+        "options": [
+          {
+            "description": "May take one C",
+            "choices": []
+          }
+        ]
+      },
+      {
+        "name": "Kytan Ravager",
+        "points_base": 2972,
+        "composition": "1 Banelord",
+        "models": [
+          {
+            "name": "Kytan",
+            "stats": {
+              "M": "12",
+              "WS": "3+",
+              "BS": "3+",
+              "S": "8",
+              "FA": "13",
+              "SA": "13",
+              "RA": "11",
+              "W": "26",
+              "I": "5",
+              "A": "7",
+              "Ld": "8",
+              "Sv": "3+"
+            },
+            "rules": [
+              "Titanic Vehicle",
+              "Combat Walker",
+              "Daemonic Engine",
+              "Fearless",
+              "Furious Charge",
+              "Night Vision",
+              "Steady",
+              "Void Shields 6",
+              "Create Panic",
+              "Nuclear Meltdown",
+              "Radius.",
+              "Towering God Engine",
+              "Titanic God Engine",
+              "Charging.",
+              "World Ending Hammer \u2013"
+            ]
+          }
+        ],
+        "fixed_wargear": [
+          "Kytan Gatling Cannon",
+          "Kytan Cleaver",
+          "Hellstrike Cannon",
+          "Gatling Cannon",
+          "Apocalypse Missile Launcher",
+          "Doomfist",
+          "Chaos Titan Tail of Khorne",
+          "Crushing Feet"
+        ],
+        "options": [
+          {
+            "description": "May take one C",
+            "choices": []
+          },
+          {
+            "description": "May take one C",
+            "choices": []
+          }
+        ]
+      }
+    ]
+  }
+}

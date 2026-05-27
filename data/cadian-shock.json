@@ -1,0 +1,629 @@
+{
+  "id": "cadian-shock",
+  "name": "Cadian Shock",
+  "difficulty": 3,
+  "subfactions": [
+    {
+      "name": "Average"
+    },
+    {
+      "name": "Cadian Shock"
+    }
+  ],
+  "slots": {
+    "hq": [
+      {
+        "name": "Cadian Castellan",
+        "points_base": 169,
+        "composition": "1 Castellan",
+        "models": [
+          {
+            "name": "Castellan",
+            "stats": {
+              "M": "6",
+              "WS": "2+",
+              "BS": "2+",
+              "S": "3",
+              "T": "3",
+              "W": "5",
+              "I": "3",
+              "A": "4",
+              "Ld": "10",
+              "Sv": "4+"
+            },
+            "rules": [
+              "Cadian Shock",
+              "Infantry Orders 1",
+              "Independent Character",
+              "Infantry",
+              "Castellan Rank"
+            ]
+          }
+        ],
+        "fixed_wargear": [
+          "Laspistol",
+          "Chainsword",
+          "Refractor Field"
+        ],
+        "options": [
+          {
+            "description": "May swap Laspistol for P or R",
+            "choices": []
+          },
+          {
+            "description": "May swap Chainsword for M",
+            "choices": []
+          }
+        ]
+      },
+      {
+        "name": "M WS BS S T W I A Ld Sv",
+        "points_base": 435,
+        "composition": "1 Colonel Snake Stranski 4 Veterans 1 Chimera",
+        "models": [
+          {
+            "name": "6 3+ 3+ 3 3 5 3 3 9 5+",
+            "stats": {
+              "M": "12",
+              "WS": "5+",
+              "BS": "3+",
+              "S": "6",
+              "FA": "12",
+              "SA": "10",
+              "RA": "10",
+              "W": "10",
+              "I": "1",
+              "A": "3",
+              "Ld": "9",
+              "Sv": "3+"
+            },
+            "rules": []
+          },
+          {
+            "name": "6 4+ 3+ 3 3 1 3 1 7 5+",
+            "stats": {},
+            "rules": [
+              "Independent Character",
+              "Cadian Shock",
+              "Infantry",
+              "Unique",
+              "Infantry Orders 2",
+              "Mechanized Regiment",
+              "Ramps.",
+              "Guns Blazing",
+              "Ports.",
+              "Infantry",
+              "Vehicle",
+              "Tank",
+              "Aquatic",
+              "Transport 12",
+              "Command Tank",
+              "Shroud"
+            ]
+          }
+        ],
+        "fixed_wargear": [],
+        "options": [
+          {
+            "description": "May take Augar Array",
+            "choices": [
+              {
+                "name": "Augar Array",
+                "pts_delta": 5
+              }
+            ]
+          },
+          {
+            "description": "May take Camo Netting",
+            "choices": [
+              {
+                "name": "Camo Netting",
+                "pts_delta": 6
+              }
+            ]
+          },
+          {
+            "description": "May take Extra Armour",
+            "choices": [
+              {
+                "name": "Extra Armour",
+                "pts_delta": 5
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Frag Grenades",
+        "points_base": 333,
+        "composition": "1 Lord Castellan Creed 4 Veterans",
+        "models": [
+          {
+            "name": "Refractor Field",
+            "stats": {
+              "M": "6",
+              "WS": "3+",
+              "BS": "3+",
+              "S": "3",
+              "T": "3",
+              "W": "5",
+              "I": "3",
+              "A": "3",
+              "Ld": "10",
+              "Sv": "4+"
+            },
+            "rules": []
+          },
+          {
+            "name": "Veterans:",
+            "stats": {
+              "M": "6",
+              "WS": "4+",
+              "BS": "3+",
+              "S": "3",
+              "T": "3",
+              "W": "1",
+              "I": "3",
+              "A": "1",
+              "Ld": "7",
+              "Sv": "5+"
+            },
+            "rules": [
+              "Cadian Shock",
+              "Infantry Orders 4",
+              "Independent Character",
+              "Unique",
+              "Infantry",
+              "Supreme Commander",
+              "Tactical Genius"
+            ]
+          },
+          {
+            "name": "Lasgun",
+            "stats": {
+              "M": "6",
+              "WS": "4+",
+              "BS": "3+",
+              "S": "3",
+              "T": "3",
+              "W": "2",
+              "I": "3",
+              "A": "2",
+              "Ld": "7",
+              "Sv": "5+"
+            },
+            "rules": [
+              "Infantry"
+            ]
+          },
+          {
+            "name": "Frag Grenades",
+            "stats": {},
+            "rules": [
+              "Infantry",
+              "Bulky",
+              "Pain",
+              "Sv4+",
+              "Shroud"
+            ]
+          },
+          {
+            "name": "Veteran Heavy Weapon Team:",
+            "stats": {},
+            "rules": []
+          },
+          {
+            "name": "Heavy Flamer",
+            "stats": {},
+            "rules": []
+          },
+          {
+            "name": "Lasgun",
+            "stats": {},
+            "rules": []
+          },
+          {
+            "name": "Frag Grenades",
+            "stats": {},
+            "rules": []
+          }
+        ],
+        "fixed_wargear": [],
+        "options": [
+          {
+            "description": "May take Vox Caster",
+            "choices": [
+              {
+                "name": "Vox Caster",
+                "pts_delta": 5
+              }
+            ]
+          },
+          {
+            "description": "May take Standard",
+            "choices": [
+              {
+                "name": "Standard",
+                "pts_delta": 40
+              }
+            ]
+          },
+          {
+            "description": "May take Medicae Pack",
+            "choices": [
+              {
+                "name": "Medicae Pack",
+                "pts_delta": 75
+              }
+            ]
+          },
+          {
+            "description": "May take Camo Gear",
+            "choices": [
+              {
+                "name": "Camo Gear",
+                "pts_delta": 18
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Knight Commander Pask",
+        "points_base": 266,
+        "composition": "1 Hand of Steel",
+        "models": [
+          {
+            "name": "Hand of Steel",
+            "stats": {
+              "M": "8",
+              "WS": "4+",
+              "BS": "2+",
+              "S": "7",
+              "FA": "14",
+              "SA": "13",
+              "RA": "10",
+              "W": "12",
+              "I": "1",
+              "A": "3",
+              "Ld": "9",
+              "Sv": "3+"
+            },
+            "rules": [
+              "Cadian Shock",
+              "Independent Character",
+              "Unique",
+              "Vehicle",
+              "Tank",
+              "Tank Orders 2",
+              "Grinding Advance",
+              "Ordnance Weapons.",
+              "Crack Shot",
+              "Shroud",
+              "Shooting Phase Only."
+            ]
+          }
+        ],
+        "fixed_wargear": [
+          "Nova Eradicator Cannon",
+          "Heavy Flamer H"
+        ],
+        "options": [
+          {
+            "description": "May take Augar Array",
+            "choices": [
+              {
+                "name": "Augar Array",
+                "pts_delta": 5
+              }
+            ]
+          },
+          {
+            "description": "May take Camo Netting",
+            "choices": [
+              {
+                "name": "Camo Netting",
+                "pts_delta": 6
+              }
+            ]
+          },
+          {
+            "description": "May take Extra Armour",
+            "choices": [
+              {
+                "name": "Extra Armour",
+                "pts_delta": 5
+              }
+            ]
+          },
+          {
+            "description": "May take Recovery Gear",
+            "choices": [
+              {
+                "name": "Recovery Gear",
+                "pts_delta": 2
+              }
+            ]
+          },
+          {
+            "description": "May take Searchlight",
+            "choices": [
+              {
+                "name": "Searchlight",
+                "pts_delta": 1
+              }
+            ]
+          },
+          {
+            "description": "May take Smoke Launchers",
+            "choices": [
+              {
+                "name": "Smoke Launchers",
+                "pts_delta": 10
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Ursula Creed",
+        "points_base": 180,
+        "composition": "1 Ursula Creed",
+        "models": [
+          {
+            "name": "Ursula Creed",
+            "stats": {
+              "M": "6",
+              "WS": "3+",
+              "BS": "3+",
+              "S": "3",
+              "T": "3",
+              "W": "5",
+              "I": "3",
+              "A": "3",
+              "Ld": "10",
+              "Sv": "4+"
+            },
+            "rules": [
+              "Cadian Shock",
+              "Independent Character",
+              "Unique",
+              "Infantry",
+              "Infantry Orders 3",
+              "Tactical Genius",
+              "Lord Castellan\u2019s Fury",
+              "Furious Charge"
+            ]
+          }
+        ],
+        "fixed_wargear": [
+          "Duty and Vengeance",
+          "Power Sword",
+          "Refractor Field"
+        ],
+        "options": []
+      }
+    ],
+    "advisors": [
+      {
+        "name": "Colour Sergeant Kell",
+        "points_base": 97,
+        "composition": "1 Colour Sergeant Kell",
+        "models": [
+          {
+            "name": "Colour Sergeant Kell",
+            "stats": {
+              "M": "6",
+              "WS": "3+",
+              "BS": "3+",
+              "S": "3",
+              "T": "3",
+              "W": "4",
+              "I": "3",
+              "A": "3",
+              "Ld": "8",
+              "Sv": "4+"
+            },
+            "rules": [
+              "Cadian Shock",
+              "Independent Character",
+              "Unique",
+              "Infantry",
+              "Bodyguard",
+              "Listen Up Maggots!"
+            ]
+          }
+        ],
+        "fixed_wargear": [
+          "Laspistol",
+          "Powerfist",
+          "Power Sword",
+          "Frag Grenades",
+          "Standard"
+        ],
+        "options": []
+      },
+      {
+        "name": "Sergeant Bastonne",
+        "points_base": 90,
+        "composition": "1 Sergeant Bastonne",
+        "models": [
+          {
+            "name": "Sergeant Bastonne",
+            "stats": {
+              "M": "6",
+              "WS": "3+",
+              "BS": "3+",
+              "S": "3",
+              "T": "3",
+              "W": "4",
+              "I": "3",
+              "A": "3",
+              "Ld": "10",
+              "Sv": "4+"
+            },
+            "rules": [
+              "Cadian Shock",
+              "Independent Character",
+              "Unique",
+              "Infantry",
+              "Infantry Orders 1",
+              "Never Give Up! Never",
+              "Surrender!",
+              "Command Phase"
+            ]
+          }
+        ],
+        "fixed_wargear": [
+          "Hotshot Laspistol",
+          "Power Sword",
+          "Frag Grenades",
+          "Krak Grenades",
+          "Star of Terra"
+        ],
+        "options": []
+      },
+      {
+        "name": "Power Maul",
+        "points_base": 71,
+        "composition": "1 Arminka 0-1 each of Shand, Talbeas, Grawnya, Jaromir",
+        "models": [
+          {
+            "name": "Standard",
+            "stats": {
+              "M": "6",
+              "WS": "3+",
+              "BS": "3+",
+              "S": "3",
+              "T": "3",
+              "W": "4",
+              "I": "3",
+              "A": "3",
+              "Ld": "9",
+              "Sv": "5+"
+            },
+            "rules": []
+          },
+          {
+            "name": "Grawnya:",
+            "stats": {
+              "M": "6",
+              "WS": "2+",
+              "BS": "2+",
+              "S": "3",
+              "T": "3",
+              "W": "5",
+              "I": "3",
+              "A": "3",
+              "Ld": "10",
+              "Sv": "5+"
+            },
+            "rules": [
+              "Cadian Shock",
+              "Independent Character",
+              "Unique",
+              "Infantry",
+              "Infantry Orders 1",
+              "Command Staff",
+              "Defiant"
+            ]
+          },
+          {
+            "name": "Hot Shot Las Pistol",
+            "stats": {
+              "M": "6",
+              "WS": "3+",
+              "BS": "3+",
+              "S": "3",
+              "T": "3",
+              "W": "4",
+              "I": "3",
+              "A": "3",
+              "Ld": "9",
+              "Sv": "5+"
+            },
+            "rules": [
+              "Cadian Shock",
+              "Character",
+              "Unique",
+              "Infantry",
+              "Fearless",
+              "Stubborn",
+              "Devoted Follower",
+              "Summary Execution"
+            ]
+          },
+          {
+            "name": "Combat Knife",
+            "stats": {
+              "M": "6",
+              "WS": "3+",
+              "BS": "3+",
+              "S": "3",
+              "T": "3",
+              "W": "4",
+              "I": "3",
+              "A": "3",
+              "Ld": "9",
+              "Sv": "5+"
+            },
+            "rules": [
+              "Cadian Shock",
+              "Character"
+            ]
+          },
+          {
+            "name": "Jaromir:",
+            "stats": {
+              "M": "6",
+              "WS": "3+",
+              "BS": "3+",
+              "S": "3",
+              "T": "3",
+              "W": "4",
+              "I": "3",
+              "A": "3",
+              "Ld": "9",
+              "Sv": "5+"
+            },
+            "rules": []
+          },
+          {
+            "name": "Meltagun",
+            "stats": {},
+            "rules": []
+          },
+          {
+            "name": "Demolition Charge",
+            "stats": {},
+            "rules": []
+          },
+          {
+            "name": "Combat Knife",
+            "stats": {},
+            "rules": []
+          }
+        ],
+        "fixed_wargear": [],
+        "options": [
+          {
+            "description": "May take Shand for +110 points",
+            "choices": []
+          },
+          {
+            "description": "May take Talbeas for +131 points",
+            "choices": []
+          },
+          {
+            "description": "May take Grawnya for +86 points",
+            "choices": []
+          },
+          {
+            "description": "May take Jaromir for +80 points",
+            "choices": []
+          }
+        ]
+      }
+    ]
+  }
+}

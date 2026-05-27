@@ -1,0 +1,649 @@
+{
+  "id": "blood-angels",
+  "name": "Blood Angels",
+  "difficulty": 1,
+  "subfactions": [
+    {
+      "name": "Average"
+    },
+    {
+      "name": "Blood Angels"
+    }
+  ],
+  "slots": {
+    "hq": [
+      {
+        "name": "Captain Karleen",
+        "points_base": 284,
+        "composition": "1 Karleen",
+        "models": [
+          {
+            "name": "Karleen",
+            "stats": {
+              "M": "4",
+              "WS": "2+",
+              "BS": "2+",
+              "S": "4",
+              "T": "4",
+              "W": "6",
+              "I": "5",
+              "A": "4",
+              "Ld": "10",
+              "Sv": "3+"
+            },
+            "rules": [
+              "Independent Character",
+              "Blood Angels",
+              "Infantry",
+              "Unique",
+              "Know No Fear",
+              "Counterattack",
+              "Deepstrike",
+              "Night Vision",
+              "Shock Assault",
+              "Steady",
+              "Battle Drills",
+              "Close Quarter Expert",
+              "Charge.",
+              "Strategic Genius",
+              "Infiltrate."
+            ]
+          }
+        ],
+        "fixed_wargear": [
+          "Stormbolter",
+          "Hammer of Baal",
+          "Iron Halo"
+        ],
+        "options": []
+      },
+      {
+        "name": "Captain Tycho",
+        "points_base": 241,
+        "composition": "1 Tycho",
+        "models": [
+          {
+            "name": "Tycho",
+            "stats": {
+              "M": "6",
+              "WS": "2+",
+              "BS": "2+",
+              "S": "4",
+              "T": "4",
+              "W": "5",
+              "I": "5",
+              "A": "4",
+              "Ld": "10",
+              "Sv": "3+"
+            },
+            "rules": [
+              "Independent Character",
+              "Blood Angels",
+              "Infantry",
+              "Unique",
+              "Know No Fear",
+              "Counterattack",
+              "Furious Charge",
+              "Night Vision",
+              "Objective Secured",
+              "Shock Assault",
+              "Battle Drills",
+              "Hyper Aggression",
+              "Rampage"
+            ]
+          }
+        ],
+        "fixed_wargear": [
+          "Blood Song",
+          "Bolt Pistol",
+          "Dead Man\u2019s Hand",
+          "Frag Grenades",
+          "Krak Grenades",
+          "Iron Halo"
+        ],
+        "options": []
+      },
+      {
+        "name": "Chief Librarian Mephiston",
+        "points_base": 330,
+        "composition": "1 Mephiston",
+        "models": [
+          {
+            "name": "Mephiston",
+            "stats": {
+              "M": "6",
+              "WS": "2+",
+              "BS": "2+",
+              "S": "5",
+              "T": "5",
+              "W": "6",
+              "I": "6",
+              "A": "5",
+              "Ld": "10",
+              "Sv": "3+"
+            },
+            "rules": [
+              "Independent Character",
+              "Blood Angels",
+              "Infantry",
+              "Unique",
+              "Chief Librarian",
+              "Adjusted Tactics",
+              "Know No Fear",
+              "Bulky",
+              "Counterattack",
+              "Furious Charge",
+              "Night Vision",
+              "Objective Secured",
+              "Psychic Mastery 3",
+              "Shock Assault",
+              "Chief Librarian",
+              "Psychic Phase.",
+              "Lord of Death"
+            ]
+          }
+        ],
+        "fixed_wargear": [
+          "Plasma Pistol",
+          "Vitarus",
+          "Frag Grenades",
+          "Krak Grenades",
+          "Iron Halo",
+          "Psychic Hood",
+          "Sanguine Sword"
+        ],
+        "options": [
+          {
+            "description": "May take up to one S for each level of Psychic Mastery.",
+            "choices": []
+          },
+          {
+            "description": "May take one C",
+            "choices": [
+              {
+                "name": "Rubicon Primaris",
+                "pts_delta": 17
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Commander Dante",
+        "points_base": 270,
+        "composition": "1 Dante",
+        "models": [
+          {
+            "name": "Dante",
+            "stats": {
+              "M": "6",
+              "WS": "2+",
+              "BS": "2+",
+              "S": "4",
+              "T": "4",
+              "W": "7",
+              "I": "7",
+              "A": "5",
+              "Ld": "10",
+              "Sv": "3+"
+            },
+            "rules": [
+              "Independent Character",
+              "Blood Angels",
+              "Infantry",
+              "Unique",
+              "Chapter Master",
+              "Adjusted Tactics",
+              "Know No Fear",
+              "Counterattack",
+              "Night Vision",
+              "Objective Secured",
+              "Shock Assault",
+              "Where\u2019s Horus?!",
+              "Battle Drills",
+              "The Hour is Nigh",
+              "T Minus 5"
+            ]
+          }
+        ],
+        "fixed_wargear": [
+          "Perdition Pistol",
+          "The Axe Mortalis",
+          "Frag Grenades",
+          "Krak Grenades",
+          "Orbital Strike",
+          "Iron Halo",
+          "The Death Mask of Sanquinus"
+        ],
+        "options": [
+          {
+            "description": "May take one A",
+            "choices": []
+          },
+          {
+            "description": "May take one B Target unit suffers T-1 until your next Psychic Phase Target unit gains T+1 until your next Psychic Phase Assault 1, Armourbane, Beam",
+            "choices": []
+          }
+        ]
+      },
+      {
+        "name": "Lemartes",
+        "points_base": 309,
+        "composition": "1 Chaplain",
+        "models": [
+          {
+            "name": "Lemartes",
+            "stats": {
+              "M": "12",
+              "WS": "2+",
+              "BS": "2+",
+              "S": "5",
+              "T": "4",
+              "W": "6",
+              "I": "7",
+              "A": "4",
+              "Ld": "10",
+              "Sv": "3+"
+            },
+            "rules": [
+              "Independent Character",
+              "Unique",
+              "Infantry",
+              "Know No Fear",
+              "Bulky",
+              "Counterattack",
+              "Deepstrike",
+              "Fly",
+              "Objective Secured",
+              "Shock Assault",
+              "Canticle of Hate",
+              "Exhortation of Rage",
+              "Guardian of the Lost"
+            ]
+          }
+        ],
+        "fixed_wargear": [
+          "Bolt Pistol",
+          "The Blood Crozius",
+          "Frag Grenades",
+          "Krak Grenades",
+          "Rosarius"
+        ],
+        "options": [
+          {
+            "description": "May take one B M+6, Fly, Deepstrike A+1. Gain Transhuman Physiology, Bulky, Stubborn. Lose Objective Secured, Grenades.",
+            "choices": []
+          }
+        ]
+      }
+    ],
+    "advisors": [
+      {
+        "name": "Astorath the Grim",
+        "points_base": 289,
+        "composition": "1 Astorath",
+        "models": [
+          {
+            "name": "Astorath",
+            "stats": {
+              "M": "12",
+              "WS": "2+",
+              "BS": "2+",
+              "S": "4",
+              "T": "4",
+              "W": "6",
+              "I": "5",
+              "A": "4",
+              "Ld": "10",
+              "Sv": "3+"
+            },
+            "rules": [
+              "Independent Character",
+              "Unique",
+              "Blood Angels",
+              "Infantry",
+              "Know No Fear",
+              "Bulky",
+              "Counterattack",
+              "Deepstrike",
+              "Fly",
+              "Furious Charge",
+              "Objective Secured",
+              "Shock Assault",
+              "Liturgies of Blood",
+              "Mass of Doom",
+              "Zealot",
+              "Charged."
+            ]
+          }
+        ],
+        "fixed_wargear": [
+          "Bolt Pistol",
+          "The Executioner\u2019s Axe",
+          "Frag Grenades",
+          "Krak Grenades",
+          "Rosarius"
+        ],
+        "options": [
+          {
+            "description": "May take one B",
+            "choices": [
+              {
+                "name": "Rubicon Primaris",
+                "pts_delta": 17
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Brother Corbulo",
+        "points_base": 241,
+        "composition": "1 Corbulo",
+        "models": [
+          {
+            "name": "Corbulo",
+            "stats": {
+              "M": "6",
+              "WS": "2+",
+              "BS": "2+",
+              "S": "4",
+              "T": "4",
+              "W": "4",
+              "I": "5",
+              "A": "4",
+              "Ld": "10",
+              "Sv": "3+"
+            },
+            "rules": [
+              "Independent Character",
+              "Unique",
+              "Chief Apothecary",
+              "Blood Angels",
+              "Infantry",
+              "Adjusted Tactics",
+              "Know No Fear",
+              "Night Vision",
+              "Counterattack",
+              "Furious Charge",
+              "Objective Secured",
+              "Shock Assault",
+              "Far Seeing Eye",
+              "Narthecium",
+              "The Red Grail"
+            ]
+          }
+        ],
+        "fixed_wargear": [
+          "Bolt Pistol",
+          "Heaven\u2019s Teeth",
+          "Frag Grenades",
+          "Krak Grenades"
+        ],
+        "options": [
+          {
+            "description": "May take one B",
+            "choices": [
+              {
+                "name": "Jump Pack",
+                "pts_delta": 20
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Cassor the Damned",
+        "points_base": 241,
+        "composition": "1 Cassor",
+        "models": [
+          {
+            "name": "Cassor",
+            "stats": {
+              "M": "6",
+              "WS": "2+",
+              "BS": "2+",
+              "S": "6",
+              "FA": "13",
+              "SA": "12",
+              "RA": "10",
+              "W": "10",
+              "I": "5",
+              "A": "4",
+              "Ld": "10",
+              "Sv": "3+"
+            },
+            "rules": [
+              "Independent Character",
+              "Blood Angels",
+              "Vehicle",
+              "Combat Walker",
+              "Unique",
+              "Bolter Discipline",
+              "Know No Fear",
+              "Counterattack",
+              "Night Vision",
+              "Shock Assault",
+              "Steady",
+              "None Can Stay my Wrath",
+              "Damage.",
+              "Rampage",
+              "A+d3."
+            ]
+          }
+        ],
+        "fixed_wargear": [
+          "Dual Blood Talons",
+          "Stormbolter",
+          "Meltagun"
+        ],
+        "options": []
+      },
+      {
+        "name": "Raphen\u2019s Death Company",
+        "points_base": 160,
+        "composition": "1 Raphen 0-4 Veterans",
+        "models": [
+          {
+            "name": "Raphen",
+            "stats": {
+              "M": "12",
+              "WS": "2+",
+              "BS": "2+",
+              "S": "4",
+              "T": "4",
+              "W": "4",
+              "I": "5",
+              "A": "4",
+              "Ld": "10",
+              "Sv": "3+"
+            },
+            "rules": [
+              "Character",
+              "Blood Angels",
+              "Unique",
+              "Infantry",
+              "Know No Fear",
+              "Counterattack",
+              "Deepstrike",
+              "Fearless",
+              "Fly",
+              "Furious Charge",
+              "Objective Secured",
+              "Shock Assault",
+              "The Black Rage"
+            ]
+          },
+          {
+            "name": "Veteran",
+            "stats": {
+              "M": "12",
+              "WS": "2+",
+              "BS": "2+",
+              "S": "4",
+              "T": "4",
+              "W": "2",
+              "I": "5",
+              "A": "2",
+              "Ld": "10",
+              "Sv": "3+"
+            },
+            "rules": [
+              "Infantry",
+              "Adjusted Tactics",
+              "Know No Fear",
+              "Tactical Squads",
+              "Deepstrike",
+              "Fly",
+              "Night Vision",
+              "Objective Secured",
+              "Shock Assault",
+              "The Black Rage"
+            ]
+          }
+        ],
+        "fixed_wargear": [
+          "Bolt Pistol",
+          "Thunderhammer",
+          "Frag Grenades",
+          "Krak Grenades",
+          "Bolt Pistol",
+          "Chainsword",
+          "Frag Grenades",
+          "Krak Grenades"
+        ],
+        "options": [
+          {
+            "description": "May take up to 4 Veterans for +58 points each Any Veteran may swap Bolt Pistol for P Any Veteran may swap Chainsword for M",
+            "choices": []
+          }
+        ]
+      },
+      {
+        "name": "Sanguinary Guard",
+        "points_base": 342,
+        "composition": "1 Sergeant 4-9 Guards",
+        "models": [
+          {
+            "name": "Sergeant",
+            "stats": {
+              "M": "12",
+              "WS": "2+",
+              "BS": "2+",
+              "S": "4",
+              "T": "4",
+              "W": "2",
+              "I": "5",
+              "A": "4",
+              "Ld": "9",
+              "Sv": "3+"
+            },
+            "rules": [
+              "Character",
+              "Blood Angels",
+              "Infantry",
+              "Adjusted Tactics",
+              "Know No Fear",
+              "Tactical Squads",
+              "Bodyguard",
+              "Counterattack",
+              "Deepstrike",
+              "Fly",
+              "Objective Secured",
+              "Shock Assault"
+            ]
+          },
+          {
+            "name": "Guard",
+            "stats": {
+              "M": "12",
+              "WS": "2+",
+              "BS": "2+",
+              "S": "4",
+              "T": "4",
+              "W": "2",
+              "I": "5",
+              "A": "3",
+              "Ld": "8",
+              "Sv": "3+"
+            },
+            "rules": [
+              "Blood Angels",
+              "Infantry",
+              "Adjusted Tactics",
+              "Know No Fear",
+              "Tactical Squads",
+              "Bodyguard",
+              "Deepstrike",
+              "Fly",
+              "Objective Secured",
+              "Shock Assault"
+            ]
+          }
+        ],
+        "fixed_wargear": [
+          "Angelus Bolt Gun",
+          "Power Sword",
+          "Frag Grenades",
+          "Krak Grenades",
+          "Angelus Bolt Gun",
+          "Power Sword",
+          "Frag Grenades",
+          "Krak Grenades"
+        ],
+        "options": [
+          {
+            "description": "May take up to 5 more Guards for +67 points each Sergeant may swap Krak Grenades for G Any model may swap Bolt Angelus Bolt Gun for P Any model may swap Power Sword for M",
+            "choices": []
+          }
+        ]
+      }
+    ],
+    "lord_of_war": [
+      {
+        "name": "The Sanguinor",
+        "points_base": 364,
+        "composition": "1 Sanguinor",
+        "models": [
+          {
+            "name": "Sanguinor",
+            "stats": {
+              "M": "12",
+              "WS": "2+",
+              "BS": "2+",
+              "S": "4",
+              "T": "4",
+              "W": "6",
+              "I": "7",
+              "A": "6",
+              "Ld": "10",
+              "Sv": "-"
+            },
+            "rules": [
+              "Independent Character",
+              "Blood Angels",
+              "Infantry",
+              "Know No Fear",
+              "Counterattack",
+              "Deepstrike",
+              "Fly",
+              "Furious Charge",
+              "Objective Secured",
+              "Shock Assault",
+              "Aura of Fervor",
+              "Divine Manifestation",
+              "Avenging Angel",
+              "Challenge."
+            ]
+          }
+        ],
+        "fixed_wargear": [
+          "Glaive Encarmine",
+          "Frag Grenades",
+          "Krak Grenades"
+        ],
+        "options": []
+      }
+    ]
+  }
+}

@@ -1,0 +1,218 @@
+{
+  "id": "salamanders",
+  "name": "Salamanders",
+  "difficulty": 1,
+  "subfactions": [
+    {
+      "name": "Average"
+    },
+    {
+      "name": "Salamanders"
+    }
+  ],
+  "slots": {
+    "hq": [
+      {
+        "name": "Adrax Agatone",
+        "points_base": 263,
+        "composition": "1 Adrax",
+        "models": [
+          {
+            "name": "Adrax",
+            "stats": {
+              "M": "6",
+              "WS": "2+",
+              "BS": "2+",
+              "S": "4",
+              "T": "4",
+              "W": "5",
+              "I": "4",
+              "A": "4",
+              "Ld": "10",
+              "Sv": "3+"
+            },
+            "rules": [
+              "Independent Character",
+              "Salamanders",
+              "Infantry",
+              "Unique",
+              "Know No Fear",
+              "Objective Secured",
+              "Shock Assault",
+              "Battle Drills",
+              "Sheer Pragmatism"
+            ]
+          }
+        ],
+        "fixed_wargear": [
+          "Drakkis",
+          "Malleus Noctum",
+          "Arridian Drakehide Cloak"
+        ],
+        "options": [
+          {
+            "description": "May take one B",
+            "choices": [
+              {
+                "name": "Rubicon Primaris",
+                "pts_delta": 20
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Bray\u2019arth Ashmantle",
+        "points_base": 200,
+        "composition": "1 Bray\u2019arth",
+        "models": [
+          {
+            "name": "Bray\u2019arth",
+            "stats": {
+              "M": "6",
+              "WS": "2+",
+              "BS": "2+",
+              "S": "6",
+              "FA": "14",
+              "SA": "13",
+              "RA": "11",
+              "W": "10",
+              "I": "4",
+              "A": "4",
+              "Ld": "10",
+              "Sv": "3+"
+            },
+            "rules": [
+              "Independent Character",
+              "Vehicle",
+              "Combat Walker",
+              "Unique",
+              "Salamanders",
+              "Know No Fear",
+              "Shock Assault",
+              "Steady",
+              "Burning Wrath"
+            ]
+          }
+        ],
+        "fixed_wargear": [
+          "2 Dreadnought Combat",
+          "Weapons and Dreadfires",
+          "Iron Halo"
+        ],
+        "options": [
+          {
+            "description": "May take up to one of each E",
+            "choices": [
+              {
+                "name": "Extra Armour",
+                "pts_delta": 5
+              },
+              {
+                "name": "Smoke Launchers",
+                "pts_delta": 10
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Pellas Mir\u2019San",
+        "points_base": 231,
+        "composition": "1 Pellas",
+        "models": [
+          {
+            "name": "Pellas",
+            "stats": {
+              "M": "6",
+              "WS": "2+",
+              "BS": "2+",
+              "S": "4",
+              "T": "4",
+              "W": "5",
+              "I": "4",
+              "A": "4",
+              "Ld": "10",
+              "Sv": "3+"
+            },
+            "rules": [
+              "Independent Character",
+              "Salamanders",
+              "Infantry",
+              "Unique",
+              "Know No Fear",
+              "Objective Secured",
+              "Shock Assault",
+              "Battle Drills",
+              "Glory Hunter",
+              "Unflinching Resolve"
+            ]
+          }
+        ],
+        "fixed_wargear": [
+          "Combi Flamer",
+          "Cinder Edge",
+          "Frag Grenades",
+          "Krak Grenades",
+          "Iron Halo"
+        ],
+        "options": []
+      },
+      {
+        "name": "Vulkan He\u2019Stan",
+        "points_base": 308,
+        "composition": "1 Vulkan",
+        "models": [
+          {
+            "name": "Vulkan",
+            "stats": {
+              "M": "6",
+              "WS": "2+",
+              "BS": "2+",
+              "S": "4",
+              "T": "4",
+              "W": "5",
+              "I": "4",
+              "A": "4",
+              "Ld": "10",
+              "Sv": "3+"
+            },
+            "rules": [
+              "Independent Character",
+              "Salamanders",
+              "Infantry",
+              "Unique",
+              "Know No Fear",
+              "Objective Secured",
+              "Shock Assault",
+              "Stubborn",
+              "Battle Drills",
+              "The Forgefather",
+              "Objective Markers.",
+              "Iron Resolve"
+            ]
+          }
+        ],
+        "fixed_wargear": [
+          "Gauntlet of the Forge",
+          "Bolt Pistol",
+          "Spear of Vulkan",
+          "Frag Grenades",
+          "Krak Grenades",
+          "Kesare\u2019s Mantle"
+        ],
+        "options": [
+          {
+            "description": "May take one C",
+            "choices": [
+              {
+                "name": "Rubicon Primaris",
+                "pts_delta": 17
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,1505 @@
+{
+  "id": "custodes",
+  "name": "Custode",
+  "difficulty": 4,
+  "subfactions": [
+    {
+      "name": "Average"
+    }
+  ],
+  "slots": {
+    "hq": [
+      {
+        "name": "Shield Captain",
+        "points_base": 233,
+        "composition": "1 Shield Captain",
+        "models": [
+          {
+            "name": "Shield Captain",
+            "stats": {
+              "M": "6",
+              "WS": "2+",
+              "BS": "2+",
+              "S": "5",
+              "T": "5",
+              "W": "6",
+              "I": "5",
+              "A": "5",
+              "Ld": "10",
+              "Sv": "3+"
+            },
+            "rules": [
+              "Independent Character",
+              "Monstrous Infantry",
+              "Binding Oaths",
+              "Counterattack",
+              "Fearless",
+              "Night Vision",
+              "Objective Secured",
+              "Shock Assault",
+              "Very Bulky",
+              "Commanding Figure"
+            ]
+          }
+        ],
+        "fixed_wargear": [
+          "Guardian Spear",
+          "Iron Halo"
+        ],
+        "options": [
+          {
+            "description": "May swap Guardian Spear for M",
+            "choices": []
+          },
+          {
+            "description": "May take one K",
+            "choices": []
+          },
+          {
+            "description": "May take one A",
+            "choices": [
+              {
+                "name": "Stormshield",
+                "pts_delta": 12
+              }
+            ]
+          },
+          {
+            "description": "May take one B",
+            "choices": [
+              {
+                "name": "Dawneagle Jetbike",
+                "pts_delta": 58
+              }
+            ]
+          },
+          {
+            "description": "May swap Guardian Spear for SM if Dawneagle Jetbike is taken",
+            "choices": []
+          },
+          {
+            "description": "May swap Hurricane Bolter for S if Dawneagle Jetbike is taken",
+            "choices": []
+          }
+        ]
+      },
+      {
+        "name": "Shield Captain",
+        "points_base": 259,
+        "composition": "1 Trajann Valoris",
+        "models": [
+          {
+            "name": "Shield Captain",
+            "stats": {
+              "M": "6",
+              "WS": "2+",
+              "BS": "2+",
+              "S": "5",
+              "T": "5",
+              "W": "6",
+              "I": "5",
+              "A": "5",
+              "Ld": "10",
+              "Sv": "3+"
+            },
+            "rules": [
+              "Independent Character",
+              "Unique",
+              "Monstrous Infantry",
+              "Binding Oaths",
+              "Counterattack",
+              "Fearless",
+              "Night Vision",
+              "Objective Secured",
+              "Shock Assault",
+              "Very Bulky",
+              "Legendary Commander",
+              "To Wound."
+            ]
+          }
+        ],
+        "fixed_wargear": [
+          "Guardian Spear",
+          "Iron Halo",
+          "Watcher\u2019s Axe",
+          "Misericordia",
+          "Auromite Halo"
+        ],
+        "options": [
+          {
+            "description": "May swap Guardian Spear for M",
+            "choices": []
+          },
+          {
+            "description": "May take one K",
+            "choices": []
+          },
+          {
+            "description": "May take one A",
+            "choices": [
+              {
+                "name": "Stormshield",
+                "pts_delta": 12
+              }
+            ]
+          },
+          {
+            "description": "May take one B",
+            "choices": [
+              {
+                "name": "Dawneagle Jetbike",
+                "pts_delta": 58
+              }
+            ]
+          },
+          {
+            "description": "May swap Guardian Spear for SM if Dawneagle Jetbike is taken",
+            "choices": []
+          },
+          {
+            "description": "May swap Hurricane Bolter for S if Dawneagle Jetbike is taken",
+            "choices": []
+          }
+        ]
+      },
+      {
+        "name": "Valerian and Aleya",
+        "points_base": 383,
+        "composition": "1 Valerian 1 Aleya",
+        "models": [
+          {
+            "name": "Valerian",
+            "stats": {
+              "M": "6",
+              "WS": "2+",
+              "BS": "2+",
+              "S": "5",
+              "T": "5",
+              "W": "6",
+              "I": "5",
+              "A": "5",
+              "Ld": "10",
+              "Sv": "3+"
+            },
+            "rules": [
+              "Independent Character",
+              "Unique",
+              "Monstrous Infantry",
+              "Binding Oaths",
+              "Counterattack",
+              "Fearless",
+              "Night Vision",
+              "Objective Secured",
+              "Shock Assault",
+              "Very Bulky",
+              "Inspirational"
+            ]
+          },
+          {
+            "name": "Aleya",
+            "stats": {
+              "M": "6",
+              "WS": "2+",
+              "BS": "2+",
+              "S": "3",
+              "T": "3",
+              "W": "5",
+              "I": "4",
+              "A": "4",
+              "Ld": "10",
+              "Sv": "3+"
+            },
+            "rules": [
+              "Independent Character",
+              "Unique",
+              "Infantry",
+              "Binding Oaths",
+              "Counterattack",
+              "Fearless",
+              "Objective Secured",
+              "Shock Assault",
+              "Stealth",
+              "Psychic Null",
+              "Will of the Emperor"
+            ]
+          }
+        ],
+        "fixed_wargear": [
+          "Gnosis",
+          "Misericordia",
+          "Iron Halo",
+          "Somnus Blade",
+          "Psykout Grenades"
+        ],
+        "options": []
+      }
+    ],
+    "advisors": [
+      {
+        "name": "Blademaster",
+        "points_base": 177,
+        "composition": "1 Blademaster",
+        "models": [
+          {
+            "name": "Blademaster",
+            "stats": {
+              "M": "6",
+              "WS": "2+",
+              "BS": "5+",
+              "S": "5",
+              "T": "5",
+              "W": "5",
+              "I": "5",
+              "A": "6",
+              "Ld": "10",
+              "Sv": "3+"
+            },
+            "rules": [
+              "Independent Character",
+              "Monstrous Infantry",
+              "Binding Oaths",
+              "Counterattack",
+              "Fearless",
+              "Objective Secured",
+              "Shock Assault",
+              "Very Bulky",
+              "Executioner",
+              "Ka\u2019Tah Martial Arts"
+            ]
+          }
+        ],
+        "fixed_wargear": [
+          "Vaultswords"
+        ],
+        "options": []
+      },
+      {
+        "name": "Knight Centura",
+        "points_base": 194,
+        "composition": "1 Knight Centura",
+        "models": [
+          {
+            "name": "Knight Centura",
+            "stats": {
+              "M": "6",
+              "WS": "2+",
+              "BS": "2+",
+              "S": "3",
+              "T": "3",
+              "W": "4",
+              "I": "4",
+              "A": "4",
+              "Ld": "10",
+              "Sv": "3+"
+            },
+            "rules": [
+              "Independent Character",
+              "Infantry",
+              "Binding Oaths",
+              "Counterattack",
+              "Fearless",
+              "Night Vision",
+              "Objective Secured",
+              "Stealth",
+              "Cadre Tactics",
+              "Psychic Null",
+              "Will of the Emperor"
+            ]
+          }
+        ],
+        "fixed_wargear": [
+          "Special Issue Bolter",
+          "Executioner Sword",
+          "Psykout Grenades"
+        ],
+        "options": [
+          {
+            "description": "May swap Special Issue Bolter for S",
+            "choices": []
+          }
+        ]
+      },
+      {
+        "name": "Vexilus Praetor",
+        "points_base": 181,
+        "composition": "1 Vexilus Praetor",
+        "models": [
+          {
+            "name": "Vexilus Praetor",
+            "stats": {
+              "M": "6",
+              "WS": "2+",
+              "BS": "2+",
+              "S": "5",
+              "T": "5",
+              "W": "5",
+              "I": "5",
+              "A": "4",
+              "Ld": "10",
+              "Sv": "3+"
+            },
+            "rules": [
+              "Independent Character",
+              "Monstrous Infantry",
+              "Binding Oaths",
+              "Counterattack",
+              "Fearless",
+              "Night Vision",
+              "Objective Secured",
+              "Shock Assault",
+              "Very Bulky",
+              "B Allarus Terminator Armour +30"
+            ]
+          }
+        ],
+        "fixed_wargear": [
+          "Guardian Spear"
+        ],
+        "options": [
+          {
+            "description": "May swap Guardian Spear for M",
+            "choices": []
+          },
+          {
+            "description": "May take one K",
+            "choices": []
+          },
+          {
+            "description": "May take one A",
+            "choices": [
+              {
+                "name": "Stormshield",
+                "pts_delta": 24
+              }
+            ]
+          },
+          {
+            "description": "May take one B",
+            "choices": []
+          },
+          {
+            "description": "May take one C",
+            "choices": []
+          }
+        ]
+      }
+    ],
+    "troops": [
+      {
+        "name": "Guard Squad",
+        "points_base": 173,
+        "composition": "1-6 Guards",
+        "models": [
+          {
+            "name": "Guard",
+            "stats": {
+              "M": "6",
+              "WS": "2+",
+              "BS": "2+",
+              "S": "5",
+              "T": "5",
+              "W": "4",
+              "I": "5",
+              "A": "4",
+              "Ld": "10",
+              "Sv": "3+"
+            },
+            "rules": [
+              "Monstrous Infantry",
+              "Advanced Tactical Squads",
+              "Binding Oaths",
+              "Counterattack",
+              "Fearless",
+              "Night Vision",
+              "Objective Secured",
+              "Shock Assault",
+              "Very Bulky",
+              "Home Guard"
+            ]
+          }
+        ],
+        "fixed_wargear": [
+          "Guardian Spear"
+        ],
+        "options": [
+          {
+            "description": "May take up to 5 more Guards for +173 points each Any model may swap Guardian Spear for M Any model may take one K Any model may take one A",
+            "choices": [
+              {
+                "name": "Stormshield",
+                "pts_delta": 24
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Sagittarum Squad",
+        "points_base": 183,
+        "composition": "1-6 Sagittarus",
+        "models": [
+          {
+            "name": "Sagittarus",
+            "stats": {
+              "M": "6",
+              "WS": "2+",
+              "BS": "2+",
+              "S": "5",
+              "T": "5",
+              "W": "4",
+              "I": "5",
+              "A": "4",
+              "Ld": "10",
+              "Sv": "3+"
+            },
+            "rules": [
+              "Monstrous Infantry",
+              "Advanced Tactical Squads",
+              "Binding Oaths",
+              "Counterattack",
+              "Fearless",
+              "Night Vision",
+              "Objective Secured",
+              "Shock Assault",
+              "Very Bulky",
+              "Home Guard"
+            ]
+          }
+        ],
+        "fixed_wargear": [
+          "Adrastus Bolt Cavalier"
+        ],
+        "options": [
+          {
+            "description": "May take up to 5 more Sagittarus for +183 points each Any model may take one K",
+            "choices": []
+          }
+        ]
+      }
+    ],
+    "elites": [
+      {
+        "name": "Sisters of Silence",
+        "points_base": 231,
+        "composition": "1 Superior 4-9 Sisters",
+        "models": [
+          {
+            "name": "Superior",
+            "stats": {
+              "M": "6",
+              "WS": "3+",
+              "BS": "3+",
+              "S": "3",
+              "T": "3",
+              "W": "2",
+              "I": "4",
+              "A": "3",
+              "Ld": "9",
+              "Sv": "3+"
+            },
+            "rules": [
+              "Character",
+              "Infantry",
+              "Binding Oaths",
+              "Counterattack",
+              "Fearless",
+              "Night Vision",
+              "Stealth",
+              "Psychic Null",
+              "Will of the Emperor"
+            ]
+          },
+          {
+            "name": "Sister",
+            "stats": {
+              "M": "6",
+              "WS": "3+",
+              "BS": "3+",
+              "S": "3",
+              "T": "3",
+              "W": "2",
+              "I": "4",
+              "A": "2",
+              "Ld": "8",
+              "Sv": "3+"
+            },
+            "rules": [
+              "Infantry",
+              "Binding Oaths",
+              "Counterattack",
+              "Fearless",
+              "Night Vision",
+              "Stealth",
+              "Will of the Emperor"
+            ]
+          }
+        ],
+        "fixed_wargear": [
+          "Special Issue Boltgun",
+          "Psykout Grenades",
+          "Special Issue Boltgun",
+          "Psykout Grenades"
+        ],
+        "options": [
+          {
+            "description": "May take up to 5 more Sisters for +45 points each Any model may swap Special Issue Boltgun for S or M",
+            "choices": []
+          }
+        ]
+      },
+      {
+        "name": "Allarus Squad",
+        "points_base": 188,
+        "composition": "1-6 Allarus",
+        "models": [
+          {
+            "name": "Allarus",
+            "stats": {
+              "M": "6",
+              "WS": "2+",
+              "BS": "2+",
+              "S": "5",
+              "T": "5",
+              "W": "5",
+              "I": "5",
+              "A": "4",
+              "Ld": "10",
+              "Sv": "3+"
+            },
+            "rules": [
+              "Monstrous Infantry",
+              "Advanced Tactical Squads",
+              "Binding Oaths",
+              "Counterattack",
+              "Deepstrike",
+              "Fearless",
+              "Night Vision",
+              "Shock Assault",
+              "Steady",
+              "Very Bulky",
+              "Slayers of Tyrants"
+            ]
+          }
+        ],
+        "fixed_wargear": [
+          "Guardian Spear",
+          "Ballistus Grenade Launcher"
+        ],
+        "options": [
+          {
+            "description": "May take up to 5 more models for +188 points each Any model may swap Guardian Spear for M Any model may take one K",
+            "choices": []
+          }
+        ]
+      },
+      {
+        "name": "Aquilon Squad",
+        "points_base": 191,
+        "composition": "1-6 Aquilon",
+        "models": [
+          {
+            "name": "Aquilon",
+            "stats": {
+              "M": "6",
+              "WS": "2+",
+              "BS": "2+",
+              "S": "5",
+              "T": "5",
+              "W": "5",
+              "I": "5",
+              "A": "4",
+              "Ld": "10",
+              "Sv": "3+"
+            },
+            "rules": [
+              "Monstrous Infantry",
+              "Advanced Tactical Squads",
+              "Binding Oaths",
+              "Counterattack",
+              "Deepstrike",
+              "Fearless",
+              "Night Vision",
+              "Shock Assault",
+              "Steady",
+              "Very Bulky",
+              "Hunter of Tyrants"
+            ]
+          }
+        ],
+        "fixed_wargear": [
+          "Solerite Power Talon",
+          "Lastrum Stormbolter"
+        ],
+        "options": [
+          {
+            "description": "May take up to 5 more models for +191 points each Any model may swap Solerite Power Talon for M Any model may swap Lastrum Stormbolter for R Any model may take one K",
+            "choices": []
+          }
+        ]
+      },
+      {
+        "name": "Warden Squad",
+        "points_base": 187,
+        "composition": "1-6 Wardens",
+        "models": [
+          {
+            "name": "Warden",
+            "stats": {
+              "M": "6",
+              "WS": "2+",
+              "BS": "2+",
+              "S": "5",
+              "T": "5",
+              "W": "4",
+              "I": "5",
+              "A": "4",
+              "Ld": "10",
+              "Sv": "3+"
+            },
+            "rules": [
+              "Monstrous Infantry",
+              "Advanced Tactical Squads",
+              "Binding Oaths",
+              "Counterattack",
+              "Fearless",
+              "Night Vision",
+              "Shock Assault",
+              "Very Bulky",
+              "Bodyguard Phalanx",
+              "Warden."
+            ]
+          }
+        ],
+        "fixed_wargear": [
+          "Guardian Spear"
+        ],
+        "options": [
+          {
+            "description": "May take up to 5 more models for +187 points each Any model may swap Guardian Spear for M Any model may take one K",
+            "choices": []
+          }
+        ]
+      },
+      {
+        "name": "Contemptor Achillus:",
+        "points_base": 257,
+        "composition": "1 Contemptor Achillus",
+        "models": [
+          {
+            "name": "Achillus Dreadspear",
+            "stats": {
+              "M": "8",
+              "WS": "2+",
+              "BS": "2+",
+              "S": "7",
+              "FA": "12",
+              "SA": "12",
+              "RA": "10",
+              "W": "9",
+              "I": "5",
+              "A": "5",
+              "Ld": "10",
+              "Sv": "3+"
+            },
+            "rules": []
+          },
+          {
+            "name": "2 Lastrum Stormbolters",
+            "stats": {},
+            "rules": [
+              "Vehicle",
+              "Combat Walker",
+              "Binding Oaths",
+              "Counterattack",
+              "Fearless",
+              "Night Vision",
+              "Shock Assault",
+              "Steady"
+            ]
+          }
+        ],
+        "fixed_wargear": [],
+        "options": [
+          {
+            "description": "May swap any Lastrum Stormbolter for S",
+            "choices": []
+          }
+        ]
+      },
+      {
+        "name": "Assault 1, Reroll failed To",
+        "points_base": 286,
+        "composition": "1 Contemptor Glatus",
+        "models": [
+          {
+            "name": "Wound Rolls, Sponson",
+            "stats": {
+              "M": "8",
+              "WS": "2+",
+              "BS": "2+",
+              "S": "7",
+              "FA": "12",
+              "SA": "12",
+              "RA": "10",
+              "W": "9",
+              "I": "5",
+              "A": "5",
+              "Ld": "10",
+              "Sv": "3+"
+            },
+            "rules": [
+              "Vehicle",
+              "Combat Walker",
+              "Binding Oaths",
+              "Counterattack",
+              "Fearless",
+              "Shock Assault",
+              "Steady"
+            ]
+          }
+        ],
+        "fixed_wargear": [],
+        "options": []
+      },
+      {
+        "name": "Contemptor:",
+        "points_base": 211,
+        "composition": "1 Contemptor",
+        "models": [
+          {
+            "name": "2 Volkite Culverins",
+            "stats": {
+              "M": "8",
+              "WS": "2+",
+              "BS": "2+",
+              "S": "7",
+              "FA": "12",
+              "SA": "12",
+              "RA": "10",
+              "W": "9",
+              "I": "5",
+              "A": "5",
+              "Ld": "10",
+              "Sv": "3+"
+            },
+            "rules": [
+              "Vehicle",
+              "Combat Walker",
+              "Binding Oaths",
+              "Counterattack",
+              "Fearless",
+              "Night Vision",
+              "Shock Assault",
+              "Steady"
+            ]
+          }
+        ],
+        "fixed_wargear": [],
+        "options": [
+          {
+            "description": "May swap any Volkite Culverin for H",
+            "choices": []
+          }
+        ]
+      }
+    ],
+    "fast_attack": [
+      {
+        "name": "Agamatus Squad",
+        "points_base": 235,
+        "composition": "1-6 Agamatus",
+        "models": [
+          {
+            "name": "Agamatus",
+            "stats": {
+              "M": "18",
+              "WS": "2+",
+              "BS": "2+",
+              "S": "5",
+              "T": "6",
+              "W": "5",
+              "I": "5",
+              "A": "4",
+              "Ld": "10",
+              "Sv": "3+"
+            },
+            "rules": [
+              "Monstrous Infantry",
+              "Steed",
+              "Advanced Tactical Squads",
+              "Binding Oaths",
+              "Counterattack",
+              "Fearless",
+              "Flying",
+              "Night Vision",
+              "Outflank",
+              "Shock Assault"
+            ]
+          }
+        ],
+        "fixed_wargear": [
+          "Interceptor Lance",
+          "Lastrum Bolt Cannon"
+        ],
+        "options": [
+          {
+            "description": "May take up to 5 more models for +235 points each Any model may swap Lastrum Bolt Cannon for H Any model may take one K",
+            "choices": []
+          }
+        ]
+      },
+      {
+        "name": "Ventari Squad",
+        "points_base": 201,
+        "composition": "1-6 Ventari",
+        "models": [
+          {
+            "name": "Ventari",
+            "stats": {
+              "M": "12",
+              "WS": "2+",
+              "BS": "2+",
+              "S": "5",
+              "T": "5",
+              "W": "4",
+              "I": "5",
+              "A": "4",
+              "Ld": "10",
+              "Sv": "4+"
+            },
+            "rules": [
+              "Monstrous Infantry",
+              "Advanced Tactical Squads",
+              "Binding Oaths",
+              "Counterattack",
+              "Deepstrike",
+              "Fearless",
+              "Flying",
+              "Night Vision",
+              "Shock Assault",
+              "Very Bulky"
+            ]
+          }
+        ],
+        "fixed_wargear": [
+          "Ventari Lance",
+          "Kinetic Destroyer",
+          "Tarsus Buckler"
+        ],
+        "options": [
+          {
+            "description": "May take up to 5 more models for +201 points each Any model may take one K",
+            "choices": []
+          }
+        ]
+      },
+      {
+        "name": "Vertus Praetor Squad",
+        "points_base": 221,
+        "composition": "1-6 Agamatus",
+        "models": [
+          {
+            "name": "Vertus Praetor",
+            "stats": {
+              "M": "14",
+              "WS": "2+",
+              "BS": "2+",
+              "S": "5",
+              "T": "6",
+              "W": "5",
+              "I": "5",
+              "A": "4",
+              "Ld": "10",
+              "Sv": "3+"
+            },
+            "rules": [
+              "Monstrous Infantry",
+              "Steed",
+              "Advanced Tactical Squads",
+              "Binding Oaths",
+              "Counterattack",
+              "Deepstrike",
+              "Fearless",
+              "Flying",
+              "Night Vision",
+              "Shock Assault",
+              "Steady"
+            ]
+          }
+        ],
+        "fixed_wargear": [
+          "Interceptor Lance",
+          "Hurricane Bolter"
+        ],
+        "options": [
+          {
+            "description": "May take up to 5 more models for +221 points each Any model may swap Hurricane Bolter for H Any model may take one K",
+            "choices": []
+          }
+        ]
+      },
+      {
+        "name": "Pallas Grav Attack",
+        "points_base": 225,
+        "composition": "1 Pallas Grav Attack",
+        "models": [
+          {
+            "name": "Pallas Grav Attack",
+            "stats": {
+              "M": "16",
+              "WS": "4+",
+              "BS": "2+",
+              "S": "5",
+              "FA": "12",
+              "SA": "11",
+              "RA": "10",
+              "W": "10",
+              "I": "1",
+              "A": "3",
+              "Ld": "10",
+              "Sv": "3+"
+            },
+            "rules": [
+              "Vehicle",
+              "Tank",
+              "Binding Oaths",
+              "Fearless",
+              "Flying",
+              "Night Vision"
+            ]
+          }
+        ],
+        "fixed_wargear": [
+          "2 Linked Arachnus Blaze",
+          "Cannons"
+        ],
+        "options": []
+      }
+    ],
+    "heavy_support": [
+      {
+        "name": "Caladius Grav Tank",
+        "points_base": 342,
+        "composition": "1 Caladius",
+        "models": [
+          {
+            "name": "Caladius",
+            "stats": {
+              "M": "14",
+              "WS": "4+",
+              "BS": "2+",
+              "S": "7",
+              "FA": "13",
+              "SA": "13",
+              "RA": "12",
+              "W": "18",
+              "I": "1",
+              "A": "6",
+              "Ld": "10",
+              "Sv": "3+"
+            },
+            "rules": [
+              "Vehicle",
+              "Tank",
+              "Binding Oaths",
+              "Fearless",
+              "Flying",
+              "Night Vision"
+            ]
+          }
+        ],
+        "fixed_wargear": [
+          "2 Linked Ilastus Accelerator",
+          "Cannons",
+          "2 Linked Lastrum Bolt Cannons"
+        ],
+        "options": [
+          {
+            "description": "May swap 2 Linked Ilastus Accelerator Cannons for T",
+            "choices": []
+          }
+        ]
+      },
+      {
+        "name": "Telemon Heavy Dreadnought",
+        "points_base": 268,
+        "composition": "1 Telemon",
+        "models": [
+          {
+            "name": "Telemon",
+            "stats": {
+              "M": "8",
+              "WS": "2+",
+              "BS": "2+",
+              "S": "8",
+              "FA": "14",
+              "SA": "13",
+              "RA": "10",
+              "W": "14",
+              "I": "5",
+              "A": "5",
+              "Ld": "10",
+              "Sv": "3+"
+            },
+            "rules": [
+              "Vehicle",
+              "Combat Walker",
+              "Binding Oaths",
+              "Counterattack",
+              "Fearless",
+              "Night Vision",
+              "Shock Assault",
+              "Steady",
+              "Volley Fire"
+            ]
+          }
+        ],
+        "fixed_wargear": [
+          "2 Ilastus Accelerator Cannons",
+          "Spiculus Bolt Launcher"
+        ],
+        "options": [
+          {
+            "description": "May swap any Ilastus Accelerator Cannon for H",
+            "choices": []
+          }
+        ]
+      },
+      {
+        "name": "Venerable Landraider",
+        "points_base": 377,
+        "composition": "1 Landraider",
+        "models": [
+          {
+            "name": "Landraider",
+            "stats": {
+              "M": "6",
+              "WS": "4+",
+              "BS": "2+",
+              "S": "8",
+              "FA": "15",
+              "SA": "14",
+              "RA": "14",
+              "W": "16",
+              "I": "1",
+              "A": "6",
+              "Ld": "10",
+              "Sv": "3+"
+            },
+            "rules": [
+              "Vehicle",
+              "Binding Oaths",
+              "Assault Ramps",
+              "Fearless",
+              "Night Vision",
+              "Transport 16"
+            ]
+          }
+        ],
+        "fixed_wargear": [
+          "2 Linked Heavy Bolters",
+          "2 sets of 2 Linked Lascannons"
+        ],
+        "options": [
+          {
+            "description": "May take one M",
+            "choices": []
+          },
+          {
+            "description": "May take one P",
+            "choices": []
+          }
+        ]
+      }
+    ],
+    "flyers": [
+      {
+        "name": "Ares Gunship",
+        "points_base": 663,
+        "composition": "1 Ares Gunship",
+        "models": [
+          {
+            "name": "Ares Gunship",
+            "stats": {
+              "M": "50",
+              "WS": "4+",
+              "BS": "2+",
+              "S": "8",
+              "FA": "14",
+              "SA": "13",
+              "RA": "10",
+              "W": "22",
+              "I": "1",
+              "A": "6",
+              "Ld": "10",
+              "Sv": "3+"
+            },
+            "rules": [
+              "Titanic Vehicle",
+              "Binding Oaths",
+              "Fearless",
+              "High Altitude",
+              "Hover",
+              "Night Vision"
+            ]
+          }
+        ],
+        "fixed_wargear": [
+          "Arachnus Magna Blaze Cannon",
+          "2 Linked Heavy Arachnus Blaze",
+          "Cannons",
+          "Infernus Bombs"
+        ],
+        "options": []
+      },
+      {
+        "name": "Orion Assault Dropship",
+        "points_base": 692,
+        "composition": "1 Dropship",
+        "models": [
+          {
+            "name": "Dropship",
+            "stats": {
+              "M": "50",
+              "WS": "4+",
+              "BS": "2+",
+              "S": "8",
+              "FA": "14",
+              "SA": "13",
+              "RA": "10",
+              "W": "22",
+              "I": "1",
+              "A": "6",
+              "Ld": "10",
+              "Sv": "3+"
+            },
+            "rules": [
+              "Titanic Vehicle",
+              "Binding Oaths",
+              "Fearless",
+              "High Altitude",
+              "Hover",
+              "Night Vision",
+              "Contemptor Harness",
+              "Transport 24"
+            ]
+          }
+        ],
+        "fixed_wargear": [
+          "2 Linked Heavy Arachnus Blaze",
+          "Cannons",
+          "2 Linked Lastrum Bolt Cannons",
+          "2 Spiculus Heavy Bolt Launchers"
+        ],
+        "options": []
+      }
+    ],
+    "dedicated_transport": [
+      {
+        "name": "Rhino",
+        "points_base": 422,
+        "composition": "1 Coronus Grav Carrier",
+        "models": [
+          {
+            "name": "Rhino",
+            "stats": {
+              "M": "12",
+              "WS": "5+",
+              "BS": "3+",
+              "S": "6",
+              "FA": "11",
+              "SA": "11",
+              "RA": "10",
+              "W": "10",
+              "I": "1",
+              "A": "3",
+              "Ld": "9",
+              "Sv": "3+"
+            },
+            "rules": [
+              "Vehicle",
+              "Tank",
+              "Binding Oaths",
+              "Fearless",
+              "Flying",
+              "Night Vision",
+              "Transport 18",
+              "Points: 131"
+            ]
+          }
+        ],
+        "fixed_wargear": [
+          "None"
+        ],
+        "options": [
+          {
+            "description": "May take one M",
+            "choices": []
+          },
+          {
+            "description": "May take up to two P",
+            "choices": []
+          }
+        ]
+      },
+      {
+        "name": "Rhino",
+        "points_base": 131,
+        "composition": "1 Coronus Grav Carrier",
+        "models": [
+          {
+            "name": "Rhino",
+            "stats": {
+              "M": "12",
+              "WS": "5+",
+              "BS": "3+",
+              "S": "6",
+              "FA": "11",
+              "SA": "11",
+              "RA": "10",
+              "W": "10",
+              "I": "1",
+              "A": "3",
+              "Ld": "9",
+              "Sv": "3+"
+            },
+            "rules": [
+              "Vehicle",
+              "Tank",
+              "Fearless",
+              "Night Vision",
+              "Transport 10"
+            ]
+          }
+        ],
+        "fixed_wargear": [
+          "None"
+        ],
+        "options": [
+          {
+            "description": "May take one M",
+            "choices": []
+          },
+          {
+            "description": "May take up to two P",
+            "choices": []
+          }
+        ]
+      }
+    ],
+    "lord_of_war": [
+      {
+        "name": "Imperial Fortress",
+        "points_base": 2339,
+        "composition": "1 Gate 2 Gate Towers 2 Walls 2 Towers",
+        "models": [
+          {
+            "name": "Gate",
+            "stats": {},
+            "rules": [
+              "Building",
+              "Titanic"
+            ]
+          },
+          {
+            "name": "Gate Towers",
+            "stats": {},
+            "rules": []
+          },
+          {
+            "name": "Walls",
+            "stats": {},
+            "rules": []
+          },
+          {
+            "name": "Towers",
+            "stats": {},
+            "rules": []
+          }
+        ],
+        "fixed_wargear": [
+          "Heavy Gate",
+          "2 Linked Heavy Bolters",
+          "None",
+          "2 Linked Autocannons"
+        ],
+        "options": [
+          {
+            "description": "May add as many sets of 1 Gate and 2 Gate Towers as you want for +967 points",
+            "choices": []
+          },
+          {
+            "description": "May add as many Walls as you want for +299 points each",
+            "choices": []
+          },
+          {
+            "description": "May add as many Towers as you want for +387 points",
+            "choices": []
+          }
+        ]
+      }
+    ],
+    "fortifications": [
+      {
+        "name": "Primaris Redoubt",
+        "points_base": 629,
+        "composition": "1 Primaris Redoubt",
+        "models": [
+          {
+            "name": "Primaris Redoubt",
+            "stats": {},
+            "rules": [
+              "Building"
+            ]
+          }
+        ],
+        "fixed_wargear": [
+          "2 Linked Turbolaser Destructors"
+        ],
+        "options": []
+      },
+      {
+        "name": "Aegis Weapon Emplacement",
+        "points_base": 66,
+        "composition": "1 Aegis Weapon Emplacement",
+        "models": [
+          {
+            "name": "Platform",
+            "stats": {},
+            "rules": [
+              "Building"
+            ]
+          }
+        ],
+        "fixed_wargear": [
+          "Long Lascannon"
+        ],
+        "options": [
+          {
+            "description": "May swap Long Lascannon for H",
+            "choices": []
+          }
+        ]
+      },
+      {
+        "name": "Aquila Strongpoint",
+        "points_base": 448,
+        "composition": "1 Aquila Strongpoint",
+        "models": [
+          {
+            "name": "Aquila Strongpoint",
+            "stats": {},
+            "rules": [
+              "Building"
+            ]
+          }
+        ],
+        "fixed_wargear": [
+          "Plasma Obliterator"
+        ],
+        "options": []
+      },
+      {
+        "name": "Firestorm Redoubt",
+        "points_base": 397,
+        "composition": "1 Firestorm Redoubt",
+        "models": [
+          {
+            "name": "Firestorm Redoubt",
+            "stats": {},
+            "rules": [
+              "Building"
+            ]
+          }
+        ],
+        "fixed_wargear": [
+          "Punisher Gatling Cannon",
+          "Punisher Gatling Cannon"
+        ],
+        "options": [
+          {
+            "description": "May swap any Punisher Gatling Cannon for H",
+            "choices": []
+          }
+        ]
+      },
+      {
+        "name": "Plasma Obliterator",
+        "points_base": 429,
+        "composition": "1 Imperial Bastion",
+        "models": [
+          {
+            "name": "Plasma Obliterator",
+            "stats": {},
+            "rules": [
+              "Building"
+            ]
+          }
+        ],
+        "fixed_wargear": [
+          "Plasma Obliterator"
+        ],
+        "options": []
+      },
+      {
+        "name": "Plasma Obliterator",
+        "points_base": 474,
+        "composition": "1 Plasma Obliterator",
+        "models": [
+          {
+            "name": "Plasma Obliterator",
+            "stats": {},
+            "rules": [
+              "Building"
+            ]
+          }
+        ],
+        "fixed_wargear": [
+          "Plasma Obliterator"
+        ],
+        "options": []
+      },
+      {
+        "name": "Vengeance Weapon Battery",
+        "points_base": 267,
+        "composition": "1 Firestorm Redoubt",
+        "models": [
+          {
+            "name": "Vengeance Weapon Battery",
+            "stats": {},
+            "rules": [
+              "Building"
+            ]
+          }
+        ],
+        "fixed_wargear": [
+          "Punisher Gatling Cannon"
+        ],
+        "options": [
+          {
+            "description": "May swap Punisher Gatling Cannon for H",
+            "choices": []
+          }
+        ]
+      },
+      {
+        "name": "Void Shield Generator",
+        "points_base": 307,
+        "composition": "1 Void Shield Generator",
+        "models": [
+          {
+            "name": "Void Shield Generator",
+            "stats": {},
+            "rules": [
+              "Building"
+            ]
+          }
+        ],
+        "fixed_wargear": [
+          "none"
+        ],
+        "options": []
+      }
+    ]
+  }
+}

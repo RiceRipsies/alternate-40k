@@ -1,0 +1,375 @@
+{
+  "id": "tanith-first-and-only",
+  "name": "Tanith First and Only",
+  "difficulty": 3,
+  "subfactions": [
+    {
+      "name": "Average"
+    },
+    {
+      "name": "Tanith First and Only"
+    }
+  ],
+  "slots": {
+    "hq": [
+      {
+        "name": "Colonel Commissar Gaunt",
+        "points_base": 156,
+        "composition": "1 Colonel Commissar Gaunt",
+        "models": [
+          {
+            "name": "Colonel Commissar Gaunt",
+            "stats": {
+              "M": "6",
+              "WS": "2+",
+              "BS": "2+",
+              "S": "3",
+              "T": "3",
+              "W": "5",
+              "I": "3",
+              "A": "3",
+              "Ld": "10",
+              "Sv": "5+"
+            },
+            "rules": [
+              "Independent Character",
+              "Unique",
+              "Infantry",
+              "Infantry Orders 1",
+              "Infiltrate",
+              "Stubborn",
+              "Aura of Discipline",
+              "Against All Odds",
+              "Objective Secured."
+            ]
+          }
+        ],
+        "fixed_wargear": [
+          "Bolt Pistol",
+          "Chainsword",
+          "Straight Silver",
+          "Frag Grenades",
+          "Refractor Field"
+        ],
+        "options": [
+          {
+            "description": "May swap Chainsword for OM",
+            "choices": []
+          }
+        ]
+      },
+      {
+        "name": "Colonel Colm Corbec",
+        "points_base": 119,
+        "composition": "1 Colonel Colm Corbec",
+        "models": [
+          {
+            "name": "Colonel Colm Corbec",
+            "stats": {
+              "M": "6",
+              "WS": "3+",
+              "BS": "3+",
+              "S": "3",
+              "T": "3",
+              "W": "5",
+              "I": "3",
+              "A": "3",
+              "Ld": "10",
+              "Sv": "5+"
+            },
+            "rules": [
+              "Independent Character",
+              "Unique",
+              "Infantry",
+              "Infantry Orders 2",
+              "Stealth",
+              "Infiltrate",
+              "Intense Tenacity",
+              "Stubborn"
+            ]
+          }
+        ],
+        "fixed_wargear": [
+          "Lasgun",
+          "Straight Silver",
+          "Frag Grenades"
+        ],
+        "options": []
+      }
+    ],
+    "advisors": [
+      {
+        "name": "AP",
+        "points_base": 131,
+        "composition": "1 Doc Dorden",
+        "models": [
+          {
+            "name": "-",
+            "stats": {},
+            "rules": [
+              "Independent Character",
+              "Unique",
+              "Infantry",
+              "Chief Surgeon",
+              "Feel No Pain"
+            ]
+          }
+        ],
+        "fixed_wargear": [],
+        "options": []
+      },
+      {
+        "name": "AP",
+        "points_base": 89,
+        "composition": "",
+        "models": [
+          {
+            "name": "-",
+            "stats": {},
+            "rules": []
+          }
+        ],
+        "fixed_wargear": [],
+        "options": []
+      },
+      {
+        "name": "General Grizmund",
+        "points_base": 271,
+        "composition": "1 Grace of the Throne",
+        "models": [
+          {
+            "name": "Grace of the Throne",
+            "stats": {
+              "M": "6",
+              "WS": "4+",
+              "BS": "3+",
+              "S": "7",
+              "FA": "14",
+              "SA": "13",
+              "RA": "10",
+              "W": "18",
+              "I": "1",
+              "A": "3",
+              "Ld": "9",
+              "Sv": "3+"
+            },
+            "rules": [
+              "Vehicle",
+              "Tank",
+              "Independent Character",
+              "Unique",
+              "Tank Orders 1",
+              "Grinding Advance",
+              "Ordnance Weapons.",
+              "Shroud"
+            ]
+          }
+        ],
+        "fixed_wargear": [
+          "Battle Cannon",
+          "Heavy Bolter",
+          "Trench Crossers"
+        ],
+        "options": [
+          {
+            "description": "May take one P",
+            "choices": []
+          },
+          {
+            "description": "May take one M",
+            "choices": []
+          },
+          {
+            "description": "May take any E one time each",
+            "choices": []
+          },
+          {
+            "description": "May take Augar Array",
+            "choices": [
+              {
+                "name": "Augar Array",
+                "pts_delta": 5
+              }
+            ]
+          },
+          {
+            "description": "May take Camo Netting",
+            "choices": [
+              {
+                "name": "Camo Netting",
+                "pts_delta": 6
+              }
+            ]
+          },
+          {
+            "description": "May take Extra Armour",
+            "choices": [
+              {
+                "name": "Extra Armour",
+                "pts_delta": 5
+              }
+            ]
+          },
+          {
+            "description": "May take Recovery Gear",
+            "choices": [
+              {
+                "name": "Recovery Gear",
+                "pts_delta": 2
+              }
+            ]
+          },
+          {
+            "description": "May take Searchlight",
+            "choices": [
+              {
+                "name": "Searchlight",
+                "pts_delta": 1
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Scout Sergeant Oan Mkoll",
+        "points_base": 124,
+        "composition": "1 Scout Sergeant Oan Mkoll",
+        "models": [
+          {
+            "name": "Scout Sergeant Oan Mkoll",
+            "stats": {
+              "M": "6",
+              "WS": "2+",
+              "BS": "2+",
+              "S": "3",
+              "T": "3",
+              "W": "4",
+              "I": "3",
+              "A": "4",
+              "Ld": "8",
+              "Sv": "6+"
+            },
+            "rules": [
+              "Independent Character",
+              "Unique",
+              "Infantry",
+              "Flank",
+              "Martial Arts Expert"
+            ]
+          }
+        ],
+        "fixed_wargear": [
+          "Lasgun",
+          "Straight Silver",
+          "Demolition Charge",
+          "Frag Grenades"
+        ],
+        "options": []
+      },
+      {
+        "name": "Trooper Brin Milo",
+        "points_base": 75,
+        "composition": "1 Sniper Hlaine Larkin",
+        "models": [
+          {
+            "name": "Trooper Brin Milo",
+            "stats": {
+              "M": "6",
+              "WS": "3+",
+              "BS": "3+",
+              "S": "3",
+              "T": "3",
+              "W": "4",
+              "I": "3",
+              "A": "3",
+              "Ld": "9",
+              "Sv": "6+"
+            },
+            "rules": [
+              "Independent Character",
+              "Unique",
+              "Infantry",
+              "Infiltrate",
+              "Tanith\u2019s Marksman"
+            ]
+          }
+        ],
+        "fixed_wargear": [
+          "Lasgun",
+          "Straight Silver",
+          "Frag Grenades"
+        ],
+        "options": []
+      },
+      {
+        "name": "Trooper Brin Milo",
+        "points_base": 45,
+        "composition": "1 Trooper Brin Milo",
+        "models": [
+          {
+            "name": "Trooper Brin Milo",
+            "stats": {
+              "M": "6",
+              "WS": "3+",
+              "BS": "3+",
+              "S": "3",
+              "T": "3",
+              "W": "4",
+              "I": "3",
+              "A": "3",
+              "Ld": "9",
+              "Sv": "6+"
+            },
+            "rules": [
+              "Independent Character",
+              "Unique",
+              "Infantry",
+              "Good Luck Charm"
+            ]
+          }
+        ],
+        "fixed_wargear": [
+          "Lasgun",
+          "Straight Silver",
+          "Frag Grenades"
+        ],
+        "options": []
+      },
+      {
+        "name": "Trooper Try Again Braggs",
+        "points_base": 64,
+        "composition": "1 Trooper Braggs",
+        "models": [
+          {
+            "name": "Trooper Braggs",
+            "stats": {
+              "M": "6",
+              "WS": "3+",
+              "BS": "3+",
+              "S": "3",
+              "T": "3",
+              "W": "4",
+              "I": "3",
+              "A": "3",
+              "Ld": "8",
+              "Sv": "6+"
+            },
+            "rules": [
+              "Trooper Braggs",
+              "Independent Character",
+              "Unique",
+              "Infantry",
+              "Hip Shooter"
+            ]
+          }
+        ],
+        "fixed_wargear": [
+          "Autocannon",
+          "Straight Silver",
+          "Frag Grenades"
+        ],
+        "options": []
+      }
+    ]
+  }
+}

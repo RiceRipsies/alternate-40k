@@ -1,0 +1,1199 @@
+{
+  "id": "slaanesh",
+  "name": "Slaanesh",
+  "difficulty": 1,
+  "subfactions": [
+    {
+      "name": "Average"
+    },
+    {
+      "name": "Carnival of Excess"
+    },
+    {
+      "name": "Coterie of the Conceited"
+    },
+    {
+      "name": "Faultless"
+    },
+    {
+      "name": "Glittering Myriad"
+    },
+    {
+      "name": "Konstrictus"
+    },
+    {
+      "name": "Mercurial Host"
+    },
+    {
+      "name": "Peerless Bladesmen"
+    },
+    {
+      "name": "Rapid Evisceration"
+    },
+    {
+      "name": "Threnodic Choir"
+    },
+    {
+      "name": "Thrill Seekers"
+    },
+    {
+      "name": "Transcendent Spectacle"
+    }
+  ],
+  "slots": {
+    "hq": [
+      {
+        "name": "Herald Seeker Chariot",
+        "points_base": 323,
+        "composition": "1 Herald Seeker Chariot",
+        "models": [
+          {
+            "name": "Herald Seeker Chariot",
+            "stats": {
+              "M": "12",
+              "WS": "2+",
+              "BS": "2+",
+              "S": "4",
+              "T": "6",
+              "W": "8",
+              "I": "5",
+              "A": "4",
+              "Ld": "7",
+              "Sv": "-"
+            },
+            "rules": [
+              "Independent Character",
+              "Monster",
+              "Daemonic",
+              "Counterattack",
+              "Deepstrike",
+              "Fearless",
+              "Impact Hits",
+              "AP3+.",
+              "Locus of Slaanesh"
+            ]
+          }
+        ],
+        "fixed_wargear": [
+          "2 Lashes of Torment",
+          "Chariot Piercing Claws",
+          "Chariot Claws",
+          "Sigil of Corruption"
+        ],
+        "options": [
+          {
+            "description": "May take one C",
+            "choices": []
+          }
+        ]
+      },
+      {
+        "name": "Lord Exultant",
+        "points_base": 196,
+        "composition": "1 Lord Exultant",
+        "models": [
+          {
+            "name": "Lord Exultant",
+            "stats": {
+              "M": "6",
+              "WS": "2+",
+              "BS": "2+",
+              "S": "4",
+              "T": "4",
+              "W": "5",
+              "I": "5",
+              "A": "4",
+              "Ld": "9",
+              "Sv": "3+"
+            },
+            "rules": [
+              "Independent Character",
+              "Infantry",
+              "Bulky",
+              "Counterattack",
+              "Shock Assault",
+              "Lord of Chaos",
+              "Pursuit for Perfectionism"
+            ]
+          }
+        ],
+        "fixed_wargear": [
+          "Bolt Pistol",
+          "Power Sword",
+          "Rapture Lash",
+          "Sigil of Corruption"
+        ],
+        "options": [
+          {
+            "description": "May swap Power Sword for MM",
+            "choices": []
+          },
+          {
+            "description": "May swap Rapture Lash for SM",
+            "choices": []
+          },
+          {
+            "description": "May take one C",
+            "choices": []
+          }
+        ]
+      },
+      {
+        "name": "Lord Kakophonist",
+        "points_base": 205,
+        "composition": "1 Lord Kakophonist",
+        "models": [
+          {
+            "name": "Lord Kakophonist",
+            "stats": {
+              "M": "6",
+              "WS": "2+",
+              "BS": "2+",
+              "S": "4",
+              "T": "4",
+              "W": "6",
+              "I": "5",
+              "A": "4",
+              "Ld": "9",
+              "Sv": "3+"
+            },
+            "rules": [
+              "Independent Character",
+              "Monstrous Infantry",
+              "Counterattack",
+              "Shock Assault",
+              "Very Bulky",
+              "Aural Barrage",
+              "Lord of Chaos",
+              "Obsessive Annunciation"
+            ]
+          }
+        ],
+        "fixed_wargear": [
+          "Doom Siren",
+          "Screamer Pistol",
+          "Brutal Weapon"
+        ],
+        "options": [
+          {
+            "description": "May take one P",
+            "choices": []
+          },
+          {
+            "description": "May swap Brutal Weapon for M",
+            "choices": []
+          },
+          {
+            "description": "May take one C",
+            "choices": []
+          }
+        ]
+      },
+      {
+        "name": "Fulgrim",
+        "points_base": 483,
+        "composition": "1 Fulgrim",
+        "models": [
+          {
+            "name": "Fulgrim",
+            "stats": {
+              "M": "12",
+              "WS": "2+",
+              "BS": "2+",
+              "S": "6",
+              "T": "6",
+              "W": "16",
+              "I": "12",
+              "A": "4",
+              "Ld": "10",
+              "Sv": "3+"
+            },
+            "rules": [
+              "Independent Character",
+              "Monster",
+              "Unique",
+              "Counterattack",
+              "Deepstrike",
+              "Fearless",
+              "Fleet",
+              "Flying",
+              "Shock Assault",
+              "Arch Perfectionist",
+              "Charge Rolls.",
+              "Duelist",
+              "Lord of Chaos",
+              "The Art of Superiority",
+              "Resolution.",
+              "Warp Abomination",
+              "Whimsical Nature*"
+            ]
+          }
+        ],
+        "fixed_wargear": [
+          "Fighting Style*",
+          "Sigil of Corruption"
+        ],
+        "options": []
+      },
+      {
+        "name": "Lucius the Eternal",
+        "points_base": 250,
+        "composition": "1 Lucius",
+        "models": [
+          {
+            "name": "Lucius",
+            "stats": {
+              "M": "6",
+              "WS": "2+",
+              "BS": "2+",
+              "S": "4",
+              "T": "4",
+              "W": "4",
+              "I": "7",
+              "A": "4",
+              "Ld": "9",
+              "Sv": "3+"
+            },
+            "rules": [
+              "Independent Character",
+              "Infantry",
+              "Unique",
+              "Faultless",
+              "Counterattack",
+              "Deepstrike",
+              "Fearless",
+              "Fleet",
+              "Shock Assault",
+              "Commorite Stimm Rack",
+              "Only.",
+              "Deranged",
+              "Wound.",
+              "Duelist",
+              "Duelist Pride",
+              "Challenge."
+            ]
+          }
+        ],
+        "fixed_wargear": [
+          "Lash of Torment",
+          "Blade of the Laer",
+          "Frag Grenades",
+          "Krak Grenades",
+          "Armour of Shrieking Souls"
+        ],
+        "options": [
+          {
+            "description": "May take one A",
+            "choices": []
+          }
+        ]
+      },
+      {
+        "name": "Shalaxi Helbane",
+        "points_base": 507,
+        "composition": "1 Shalaxi",
+        "models": [
+          {
+            "name": "Shalaxi",
+            "stats": {
+              "M": "12",
+              "WS": "2+",
+              "BS": "2+",
+              "S": "6",
+              "T": "7",
+              "W": "16",
+              "I": "11",
+              "A": "5",
+              "Ld": "10",
+              "Sv": "-"
+            },
+            "rules": [
+              "Independent Character",
+              "Monster",
+              "Unique",
+              "Daemonic",
+              "Counterattack",
+              "Deepstrike",
+              "Fearless",
+              "Fleet",
+              "Psychic Mastery Level 4",
+              "Cloak of Constriction",
+              "Delicate Precision",
+              "Mesmerizing Aura",
+              "Melee."
+            ]
+          }
+        ],
+        "fixed_wargear": [
+          "Living Whip",
+          "Soulpiercer",
+          "Sigil of Corruption"
+        ],
+        "options": [
+          {
+            "description": "May take one Spell for each Psychic Mastery Level",
+            "choices": []
+          }
+        ]
+      },
+      {
+        "name": "Syll\u2019Esske the Vengeful Alliance",
+        "points_base": 465,
+        "composition": "1 Syll\u2019Esske",
+        "models": [
+          {
+            "name": "Syll\u2019Esske",
+            "stats": {
+              "M": "10",
+              "WS": "2+",
+              "BS": "2+",
+              "S": "4",
+              "T": "6",
+              "W": "6",
+              "I": "10",
+              "A": "5",
+              "Ld": "9",
+              "Sv": "-"
+            },
+            "rules": [
+              "Independent Character",
+              "Infantry",
+              "Unique",
+              "Daemonic",
+              "Counterattack",
+              "Deepstrike",
+              "Fearless",
+              "Fleet",
+              "Psychic Mastery Level 3",
+              "Locus of Slaanesh",
+              "Prince of Slaanesh"
+            ]
+          }
+        ],
+        "fixed_wargear": [
+          "Scourging Whip",
+          "Axe of Domination",
+          "Sigil of Corruption"
+        ],
+        "options": [
+          {
+            "description": "May take one Spell for each Psychic Mastery Level",
+            "choices": []
+          }
+        ]
+      }
+    ],
+    "advisors": [
+      {
+        "name": "Herald of Slaanesh",
+        "points_base": 156,
+        "composition": "1 Epitome",
+        "models": [
+          {
+            "name": "Herald",
+            "stats": {
+              "M": "6",
+              "WS": "2+",
+              "BS": "5+",
+              "S": "4",
+              "T": "4",
+              "W": "4",
+              "I": "5",
+              "A": "4",
+              "Ld": "8",
+              "Sv": "-"
+            },
+            "rules": [
+              "Independent Character",
+              "Monster",
+              "Daemonic",
+              "Counterattack",
+              "Deepstrike",
+              "Fearless",
+              "Psychic Mastery Level 2",
+              "Horrible Fascination"
+            ]
+          }
+        ],
+        "fixed_wargear": [
+          "Ravaging Claws"
+        ],
+        "options": [
+          {
+            "description": "May take one B",
+            "choices": [
+              {
+                "name": "Seeker Steed",
+                "pts_delta": 19
+              }
+            ]
+          },
+          {
+            "description": "May take one C",
+            "choices": []
+          }
+        ]
+      },
+      {
+        "name": "Herald of Slaanesh",
+        "points_base": 205,
+        "composition": "1 Herald",
+        "models": [
+          {
+            "name": "Herald",
+            "stats": {
+              "M": "6",
+              "WS": "2+",
+              "BS": "5+",
+              "S": "4",
+              "T": "4",
+              "W": "4",
+              "I": "5",
+              "A": "4",
+              "Ld": "8",
+              "Sv": "-"
+            },
+            "rules": [
+              "Independent Character",
+              "Infantry",
+              "Daemonic",
+              "Counterattack",
+              "Deepstrike",
+              "Fearless",
+              "Locus of Slaanesh"
+            ]
+          }
+        ],
+        "fixed_wargear": [
+          "Ravaging Claws"
+        ],
+        "options": [
+          {
+            "description": "May take one B",
+            "choices": [
+              {
+                "name": "Seeker Steed",
+                "pts_delta": 19
+              }
+            ]
+          },
+          {
+            "description": "May take one C",
+            "choices": []
+          }
+        ]
+      },
+      {
+        "name": "Infernal Enrapturess",
+        "points_base": 147,
+        "composition": "1 Enrapturess",
+        "models": [
+          {
+            "name": "Enrapturess",
+            "stats": {
+              "M": "6",
+              "WS": "2+",
+              "BS": "2+",
+              "S": "4",
+              "T": "4",
+              "W": "4",
+              "I": "5",
+              "A": "4",
+              "Ld": "8",
+              "Sv": "-"
+            },
+            "rules": [
+              "Independent Character",
+              "Infantry",
+              "Daemonic",
+              "Counterattack",
+              "Deepstrike",
+              "Fearless",
+              "Haunting Music"
+            ]
+          }
+        ],
+        "fixed_wargear": [
+          "Heartstring Lyre",
+          "Ravaging Claws"
+        ],
+        "options": [
+          {
+            "description": "May take one C",
+            "choices": []
+          }
+        ]
+      },
+      {
+        "name": "Doomrider",
+        "points_base": 304,
+        "composition": "1 Doomrider",
+        "models": [
+          {
+            "name": "Doomrider",
+            "stats": {
+              "M": "12",
+              "WS": "2+",
+              "BS": "2+",
+              "S": "5",
+              "T": "6",
+              "W": "6",
+              "I": "11",
+              "A": "5",
+              "Ld": "7",
+              "Sv": "3+"
+            },
+            "rules": [
+              "Independent Character",
+              "Infantry",
+              "Unique",
+              "Counterattack",
+              "Deepstrike",
+              "Fearless",
+              "Fleet"
+            ]
+          }
+        ],
+        "fixed_wargear": [
+          "2 Linked Meltaguns",
+          "Plasma Pistol",
+          "Bolt Pistol",
+          "Daemonic Blade",
+          "Frag Grenades",
+          "Krak Grenades",
+          "Sigil of Corruption"
+        ],
+        "options": []
+      },
+      {
+        "name": "The Masque of Slaanesh",
+        "points_base": 165,
+        "composition": "1 Masque",
+        "models": [
+          {
+            "name": "Masque",
+            "stats": {
+              "M": "6",
+              "WS": "2+",
+              "BS": "5+",
+              "S": "4",
+              "T": "4",
+              "W": "4",
+              "I": "7",
+              "A": "4",
+              "Ld": "9",
+              "Sv": "-"
+            },
+            "rules": [
+              "Independent Character",
+              "Infantry",
+              "Unique",
+              "Daemonic",
+              "Counterattack",
+              "Deepstrike",
+              "Fearless",
+              "Fleet",
+              "Dazzline Acrobatics",
+              "The Eternal Dance"
+            ]
+          }
+        ],
+        "fixed_wargear": [
+          "Serrated Claws"
+        ],
+        "options": []
+      }
+    ],
+    "troops": [
+      {
+        "name": "Daemonettes of Slaanesh",
+        "points_base": 123,
+        "composition": "1 Champion 9-29 Daemonettes",
+        "models": [
+          {
+            "name": "Champion",
+            "stats": {
+              "M": "6",
+              "WS": "4+",
+              "BS": "5+",
+              "S": "3",
+              "T": "4",
+              "W": "1",
+              "I": "5",
+              "A": "2",
+              "Ld": "7",
+              "Sv": "6"
+            },
+            "rules": [
+              "Character",
+              "Infantry",
+              "Daemonic",
+              "Counterattack",
+              "Deepstrike",
+              "Fearless",
+              "Alluring",
+              "Invulnerability Saves."
+            ]
+          },
+          {
+            "name": "Daemonette",
+            "stats": {},
+            "rules": [
+              "Infantry",
+              "Daemonic",
+              "Counterattack",
+              "Deepstrike",
+              "Fearless",
+              "Alluring",
+              "Invulnerability Saves."
+            ]
+          }
+        ],
+        "fixed_wargear": [
+          "Claws",
+          "Claws"
+        ],
+        "options": [
+          {
+            "description": "May add up to 20 more Daemonettes for +12 points each The entire unit may take one C",
+            "choices": []
+          }
+        ]
+      }
+    ],
+    "elites": [
+      {
+        "name": "Exalted Noise Marines",
+        "points_base": 305,
+        "composition": "1 Champion 4-9 Marines",
+        "models": [
+          {
+            "name": "Champion",
+            "stats": {
+              "M": "6",
+              "WS": "3+",
+              "BS": "3+",
+              "S": "4",
+              "T": "4",
+              "W": "3",
+              "I": "5",
+              "A": "3",
+              "Ld": "9",
+              "Sv": "3+"
+            },
+            "rules": [
+              "Character",
+              "Monstrous Infantry",
+              "Counterattack",
+              "Fearless",
+              "Shock Assault",
+              "Very Bulky"
+            ]
+          },
+          {
+            "name": "Marine",
+            "stats": {
+              "M": "6",
+              "WS": "3+",
+              "BS": "3+",
+              "S": "4",
+              "T": "4",
+              "W": "3",
+              "I": "5",
+              "A": "2",
+              "Ld": "8",
+              "Sv": "3+"
+            },
+            "rules": [
+              "Monstrous Infantry",
+              "Counterattack",
+              "Fearless",
+              "Shock Assault",
+              "Very Bulky"
+            ]
+          }
+        ],
+        "fixed_wargear": [
+          "Heavy Sonic Blaster",
+          "Heavy Sonic Blaster"
+        ],
+        "options": [
+          {
+            "description": "May add up to 5 more Marines for +60 points each Champion may take one P Champion may take one M Up to two Marines may swap Heavy Sonic Blaster for S The entire unit may take one C",
+            "choices": []
+          }
+        ]
+      },
+      {
+        "name": "Fiends of Slaanesh",
+        "points_base": 198,
+        "composition": "1 Champion 3-9 Fiends",
+        "models": [
+          {
+            "name": "Champion",
+            "stats": {
+              "M": "12",
+              "WS": "3+",
+              "BS": "5+",
+              "S": "4",
+              "T": "4",
+              "W": "4",
+              "I": "5",
+              "A": "3",
+              "Ld": "7",
+              "Sv": "12"
+            },
+            "rules": [
+              "Character",
+              "Monstrous Infantry",
+              "Daemonic",
+              "Counterattack",
+              "Deepstrike",
+              "Fearless",
+              "Very Bulky",
+              "Disruptive Song"
+            ]
+          },
+          {
+            "name": "Fiend",
+            "stats": {},
+            "rules": [
+              "Monstrous Infantry",
+              "Daemonic",
+              "Counterattack",
+              "Deepstrike",
+              "Fearless",
+              "Very Bulky",
+              "Disruptive Song"
+            ]
+          }
+        ],
+        "fixed_wargear": [
+          "Dissecting Claws",
+          "Dissecting Claws"
+        ],
+        "options": [
+          {
+            "description": "May add up to 7 more Fiends for +65 points each The entire unit may take one C",
+            "choices": []
+          }
+        ]
+      },
+      {
+        "name": "Flawless Blades",
+        "points_base": 206,
+        "composition": "1 Champion 2-10 Flawless Blades",
+        "models": [
+          {
+            "name": "Champion",
+            "stats": {
+              "M": "8",
+              "WS": "3+",
+              "BS": "3+",
+              "S": "4",
+              "T": "4",
+              "W": "3",
+              "I": "5",
+              "A": "3",
+              "Ld": "9",
+              "Sv": "3+"
+            },
+            "rules": [
+              "Character",
+              "Monstrous Infantry",
+              "Counterattack",
+              "Fearless",
+              "Shock Assault",
+              "Very Bulky"
+            ]
+          },
+          {
+            "name": "Flawless Blade",
+            "stats": {
+              "M": "8",
+              "WS": "3+",
+              "BS": "3+",
+              "S": "4",
+              "T": "4",
+              "W": "3",
+              "I": "5",
+              "A": "2",
+              "Ld": "8",
+              "Sv": "3+"
+            },
+            "rules": [
+              "Monstrous Infantry",
+              "Counterattack",
+              "Fearless",
+              "Shock Assault",
+              "Very Bulky"
+            ]
+          }
+        ],
+        "fixed_wargear": [
+          "Bolt Pistol",
+          "Blissblade",
+          "Frag Grenades",
+          "Krak Grenades",
+          "Bolt Pistol",
+          "Blissblade",
+          "Frag Grenades",
+          "Krak Grenades"
+        ],
+        "options": [
+          {
+            "description": "May add up to 7 more Flawless Blades for +67 points each The entire unit may take one C",
+            "choices": []
+          }
+        ]
+      },
+      {
+        "name": "Noise Marines",
+        "points_base": 182,
+        "composition": "1 Champion 5-19 Marines",
+        "models": [
+          {
+            "name": "Champion",
+            "stats": {
+              "M": "6",
+              "WS": "3+",
+              "BS": "3+",
+              "S": "4",
+              "T": "4",
+              "W": "2",
+              "I": "5",
+              "A": "2",
+              "Ld": "9",
+              "Sv": "3+"
+            },
+            "rules": [
+              "Character",
+              "Infantry",
+              "Counterattack",
+              "Fearless",
+              "Shock Assault"
+            ]
+          },
+          {
+            "name": "Marine",
+            "stats": {
+              "M": "6",
+              "WS": "3+",
+              "BS": "3+",
+              "S": "4",
+              "T": "4",
+              "W": "2",
+              "I": "5",
+              "A": "1",
+              "Ld": "8",
+              "Sv": "3+"
+            },
+            "rules": [
+              "Infantry",
+              "Counterattack",
+              "Fearless",
+              "Shock Assault"
+            ]
+          }
+        ],
+        "fixed_wargear": [
+          "Doom Siren",
+          "Chain Axe",
+          "Frag Grenades",
+          "Krak Grenades",
+          "Sonic Blaster",
+          "Bolt Pistol",
+          "Frag Grenades",
+          "Krak Grenades"
+        ],
+        "options": [
+          {
+            "description": "May add up to 15 more Marines for +34 points each Champion may swap Chain Axe for P or M Up to three Marines may swap Sonic Blaster for S The entire unit may take one C",
+            "choices": []
+          }
+        ]
+      },
+      {
+        "name": "Sonic Dreadnoughts",
+        "points_base": 215,
+        "composition": "1-3 Dreadnoughts",
+        "models": [
+          {
+            "name": "Dreadnought",
+            "stats": {
+              "M": "6",
+              "WS": "3+",
+              "BS": "3+",
+              "S": "6",
+              "FA": "12",
+              "SA": "12",
+              "RA": "10",
+              "W": "8",
+              "I": "4",
+              "A": "4",
+              "Ld": "7",
+              "Sv": "3+"
+            },
+            "rules": [
+              "Vehicle",
+              "Combat Walker",
+              "Daemonic Engine",
+              "Counterattack",
+              "Fearless",
+              "Night Vision",
+              "Shock Assault",
+              "Steady",
+              "Dirge Caster"
+            ]
+          }
+        ],
+        "fixed_wargear": [
+          "2 linked Blastmasters",
+          "Havoc Launcher"
+        ],
+        "options": [
+          {
+            "description": "May add up to 2 more Dreadnoughts for +215 points each The entire unit may take one C",
+            "choices": []
+          }
+        ]
+      }
+    ],
+    "fast_attack": [
+      {
+        "name": "Hellflayers of Slaanesh",
+        "points_base": 123,
+        "composition": "1-3 Hellflayers",
+        "models": [
+          {
+            "name": "Hellflayer",
+            "stats": {
+              "M": "12",
+              "WS": "3+",
+              "BS": "3+",
+              "S": "4",
+              "T": "6",
+              "W": "6",
+              "I": "5",
+              "A": "3",
+              "Ld": "7",
+              "Sv": "-"
+            },
+            "rules": [
+              "Monster",
+              "Daemonic",
+              "Counterattack",
+              "Deepstrike",
+              "Fearless",
+              "Impact Hits",
+              "AP3+."
+            ]
+          }
+        ],
+        "fixed_wargear": [
+          "2 Lashes of Torment",
+          "Chariot Piercing Claws",
+          "Chariot Claws"
+        ],
+        "options": [
+          {
+            "description": "May add up to 2 more Hellflayers for +123 points each The entire unit may take one C",
+            "choices": []
+          }
+        ]
+      },
+      {
+        "name": "Seekers of Slaanesh",
+        "points_base": 153,
+        "composition": "1 Champion 4-9 Seekers",
+        "models": [
+          {
+            "name": "Champion",
+            "stats": {
+              "M": "12",
+              "WS": "3+",
+              "BS": "5+",
+              "S": "4",
+              "T": "5",
+              "W": "2",
+              "I": "5",
+              "A": "2",
+              "Ld": "7",
+              "Sv": "12"
+            },
+            "rules": [
+              "Character",
+              "Infantry",
+              "Steed",
+              "Daemonic",
+              "Counterattack",
+              "Deepstrike",
+              "Fearless",
+              "Very Bulky",
+              "Acute Senses",
+              "Deepstrike."
+            ]
+          },
+          {
+            "name": "Seeker",
+            "stats": {},
+            "rules": [
+              "Infantry",
+              "Steed",
+              "Daemonic",
+              "Counterattack",
+              "Deepstrike",
+              "Fearless",
+              "Very Bulky",
+              "Acute Senses",
+              "Deepstrike."
+            ]
+          }
+        ],
+        "fixed_wargear": [
+          "Claws",
+          "Piercing Claws",
+          "Claws",
+          "Piercing Claws"
+        ],
+        "options": [
+          {
+            "description": "May add up to 5 more Seekers for +30 points each The entire unit may take one C",
+            "choices": []
+          }
+        ]
+      }
+    ],
+    "heavy_support": [
+      {
+        "name": "Exalted Seeker Chariot",
+        "points_base": 236,
+        "composition": "1-3 Seeker Chariots",
+        "models": [
+          {
+            "name": "Seeker Chariot",
+            "stats": {
+              "M": "10",
+              "WS": "3+",
+              "BS": "3+",
+              "S": "4",
+              "T": "7",
+              "W": "12",
+              "I": "5",
+              "A": "4",
+              "Ld": "7",
+              "Sv": "-"
+            },
+            "rules": [
+              "Monster",
+              "Daemonic",
+              "Counterattack",
+              "Deepstrike",
+              "Fearless",
+              "Exalted Impact Hits"
+            ]
+          }
+        ],
+        "fixed_wargear": [
+          "2 Lashes of Torment",
+          "Exalted Chariot Piercing Claws",
+          "Exalted Chariot Claws"
+        ],
+        "options": [
+          {
+            "description": "May add up to 2 more Seeker Chariots for +236 points each The entire unit may take one C",
+            "choices": []
+          }
+        ]
+      }
+    ],
+    "lord_of_war": [
+      {
+        "name": "Keepers of Secrets",
+        "points_base": 395,
+        "composition": "1-3 Keepers of Secrets",
+        "models": [
+          {
+            "name": "Keeper of Secrets",
+            "stats": {
+              "M": "12",
+              "WS": "2+",
+              "BS": "2+",
+              "S": "6",
+              "T": "7",
+              "W": "16",
+              "I": "9",
+              "A": "5",
+              "Ld": "10",
+              "Sv": "-"
+            },
+            "rules": [
+              "Monster",
+              "Daemonic",
+              "Counterattack",
+              "Deepstrike",
+              "Fearless",
+              "Psychic Mastery Level 3",
+              "Delicate Precision",
+              "Shining Aegis",
+              "Whitstealer Sword"
+            ]
+          }
+        ],
+        "fixed_wargear": [
+          "Whitstealer Sword",
+          "Snapping Claws"
+        ],
+        "options": [
+          {
+            "description": "May take up to 2 more Keepers of Secrets for +395 points each Any model may take one S Any model may take one Spell for each Psychic Mastery Level The entire unit may take one C",
+            "choices": []
+          }
+        ]
+      },
+      {
+        "name": "Zarakynel",
+        "points_base": 822,
+        "composition": "1 Zarakynel",
+        "models": [
+          {
+            "name": "Zarakynel",
+            "stats": {
+              "M": "12",
+              "WS": "2+",
+              "BS": "2+",
+              "S": "7",
+              "T": "7",
+              "W": "24",
+              "I": "11",
+              "A": "6",
+              "Ld": "10",
+              "Sv": "-"
+            },
+            "rules": [
+              "Monster",
+              "Daemonic",
+              "Unique",
+              "Counterattack",
+              "Deepstrike",
+              "Fearless",
+              "Fleet",
+              "Psychic Mastery Level 3",
+              "Dance of Serpents"
+            ]
+          }
+        ],
+        "fixed_wargear": [
+          "Deathly Rapture",
+          "The Souleater Sword"
+        ],
+        "options": [
+          {
+            "description": "May take one Spell for each Psychic Mastery Level",
+            "choices": []
+          }
+        ]
+      }
+    ]
+  }
+}

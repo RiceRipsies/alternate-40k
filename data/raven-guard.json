@@ -1,0 +1,134 @@
+{
+  "id": "raven-guard",
+  "name": "Raven Guard",
+  "difficulty": 1,
+  "subfactions": [
+    {
+      "name": "Average"
+    },
+    {
+      "name": "Raven Guard"
+    }
+  ],
+  "slots": {
+    "hq": [
+      {
+        "name": "Captain Shrike",
+        "points_base": 240,
+        "composition": "1 Shrike",
+        "models": [
+          {
+            "name": "Shrike",
+            "stats": {
+              "M": "12",
+              "WS": "2+",
+              "BS": "2+",
+              "S": "4",
+              "T": "4",
+              "W": "5",
+              "I": "4",
+              "A": "4",
+              "Ld": "10",
+              "Sv": "3+"
+            },
+            "rules": [
+              "Independent Character",
+              "Raven Guard",
+              "Infantry",
+              "Unique",
+              "Know No Fear",
+              "Deepstrike",
+              "Fly",
+              "Objective Secured",
+              "Shock Assault",
+              "Shroud",
+              "Battle Drills",
+              "Master of Shadows"
+            ]
+          }
+        ],
+        "fixed_wargear": [
+          "Bolt Pistol",
+          "The Raven\u2019s Talons",
+          "Frag Grenades",
+          "Krak Grenades",
+          "Iron Halo"
+        ],
+        "options": [
+          {
+            "description": "May take one B",
+            "choices": [
+              {
+                "name": "Rubicon Primaris",
+                "pts_delta": 18
+              }
+            ]
+          },
+          {
+            "description": "May take one C",
+            "choices": [
+              {
+                "name": "Chapter Master",
+                "pts_delta": 140
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Chapter Master Shaan",
+        "points_base": 409,
+        "composition": "1 Shrike",
+        "models": [
+          {
+            "name": "Shaan",
+            "stats": {
+              "M": "12",
+              "WS": "2+",
+              "BS": "2+",
+              "S": "4",
+              "T": "4",
+              "W": "6",
+              "I": "4",
+              "A": "6",
+              "Ld": "10",
+              "Sv": "3+"
+            },
+            "rules": [
+              "Independent Character",
+              "Raven Guard",
+              "Infantry",
+              "Unique",
+              "Know No Fear",
+              "Transhuman Physiology",
+              "Bulky",
+              "Deepstrike",
+              "Fly",
+              "Shock Assault",
+              "Shroud",
+              "Stubborn",
+              "Battle Drills",
+              "Rising Strike Leader"
+            ]
+          }
+        ],
+        "fixed_wargear": [
+          "Heavy Bolt Pistol",
+          "Claws of Severax",
+          "Orbital Strike",
+          "Iron Halo"
+        ],
+        "options": [
+          {
+            "description": "May take one B",
+            "choices": []
+          },
+          {
+            "description": "May take one C",
+            "choices": []
+          }
+        ]
+      }
+    ]
+  }
+}

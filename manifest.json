@@ -1,0 +1,36 @@
+{
+  "name": "Alternate 40k Rules",
+  "short_name": "Alt 40k",
+  "description": "Unofficial fan-made Warhammer 40k rules, codexes, and army builder",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#0e0e0e",
+  "theme_color": "#c9a84c",
+  "orientation": "any",
+  "icons": [
+    {
+      "src": "icons/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "icons/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ],
+  "shortcuts": [
+    {
+      "name": "Core Rules",
+      "url": "/index.html",
+      "description": "Open the core rulebook"
+    },
+    {
+      "name": "Army Builder",
+      "url": "/builder.html",
+      "description": "Build an army list"
+    }
+  ]
+}

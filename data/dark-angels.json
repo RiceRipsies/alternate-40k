@@ -1,0 +1,900 @@
+{
+  "id": "dark-angels",
+  "name": "Dark Angels",
+  "difficulty": 1,
+  "subfactions": [
+    {
+      "name": "Average"
+    },
+    {
+      "name": "Dark Angels"
+    }
+  ],
+  "slots": {
+    "hq": [
+      {
+        "name": "Asmodai",
+        "points_base": 244,
+        "composition": "1 Asmodai",
+        "models": [
+          {
+            "name": "Asmodai",
+            "stats": {
+              "M": "6",
+              "WS": "2+",
+              "BS": "2+",
+              "S": "4",
+              "T": "4",
+              "W": "5",
+              "I": "4",
+              "A": "4",
+              "Ld": "10",
+              "Sv": "3+"
+            },
+            "rules": [
+              "Independent Character",
+              "Unique",
+              "Dark Angels",
+              "Infantry",
+              "Know No Fear",
+              "Night Vision",
+              "Objective Secured",
+              "Shock Assault",
+              "Canticle of Hate",
+              "Glory Hunter",
+              "Litany of Intimidation",
+              "Master of Repentance",
+              "Zealot"
+            ]
+          }
+        ],
+        "fixed_wargear": [
+          "Crozium Arcanum",
+          "Blades of Reason",
+          "Bolt Pistol",
+          "Frag Grenades",
+          "Krak Grenades",
+          "Rosarius"
+        ],
+        "options": [
+          {
+            "description": "May take one B",
+            "choices": []
+          }
+        ]
+      },
+      {
+        "name": "Azrael",
+        "points_base": 435,
+        "composition": "1 Azrael",
+        "models": [
+          {
+            "name": "Azrael",
+            "stats": {
+              "M": "6",
+              "WS": "2+",
+              "BS": "2+",
+              "S": "4",
+              "T": "4",
+              "W": "7",
+              "I": "4",
+              "A": "5",
+              "Ld": "10",
+              "Sv": "3+"
+            },
+            "rules": [
+              "Independent Character",
+              "Unique",
+              "Chapter Master",
+              "Dark Angels",
+              "Infantry",
+              "Bolter Discipline",
+              "Know No Fear",
+              "Night Vision",
+              "Objective Secured",
+              "Shock Assault",
+              "Battle Drills",
+              "Master Tactician",
+              "Quiet Endurance",
+              "Pain.",
+              "The Hour is Nigh"
+            ]
+          }
+        ],
+        "fixed_wargear": [
+          "Lion\u2019s Wrath",
+          "Bolt Pistol",
+          "Sword of Secrets",
+          "Orbital Strike",
+          "Frag Grenades",
+          "Krak Grenades",
+          "Iron Halo",
+          "Lion\u2019s Helm"
+        ],
+        "options": [
+          {
+            "description": "May take one B A+1. Gain Transhuman Physiology, Stubborn. Lose Objective Secured, Grenades.",
+            "choices": []
+          }
+        ]
+      },
+      {
+        "name": "Belial",
+        "points_base": 229,
+        "composition": "1 Belial",
+        "models": [
+          {
+            "name": "Belial",
+            "stats": {
+              "M": "4",
+              "WS": "2+",
+              "BS": "2+",
+              "S": "4",
+              "T": "4",
+              "W": "6",
+              "I": "4",
+              "A": "4",
+              "Ld": "10",
+              "Sv": "3+"
+            },
+            "rules": [
+              "Independent Character",
+              "Dark Angels",
+              "Monstrous Infantry",
+              "Bolter Discipline",
+              "Know No Fear",
+              "Deepstrike",
+              "Night Vision",
+              "Shock Assault",
+              "Steady",
+              "Stubborn",
+              "Very Bulky",
+              "Glory Hunter",
+              "Marked for Retribution",
+              "Tactical Precision",
+              "Deepstrike."
+            ]
+          }
+        ],
+        "fixed_wargear": [
+          "Stormbolter",
+          "Sword of Silence",
+          "Thunderhammer",
+          "Iron Halo"
+        ],
+        "options": [
+          {
+            "description": "May take one B",
+            "choices": [
+              {
+                "name": "Rubicon Primaris",
+                "pts_delta": 25
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Ezekiel",
+        "points_base": 295,
+        "composition": "1 Ezekiel",
+        "models": [
+          {
+            "name": "Ezekiel",
+            "stats": {
+              "M": "6",
+              "WS": "2+",
+              "BS": "2+",
+              "S": "4",
+              "T": "4",
+              "W": "7",
+              "I": "4",
+              "A": "5",
+              "Ld": "10",
+              "Sv": "3+"
+            },
+            "rules": [
+              "Independent Character",
+              "Unique",
+              "Chief Librarian",
+              "Dark Angels",
+              "Infantry",
+              "Adjusted Tactics",
+              "Know No Fear",
+              "Night Vision",
+              "Objective Secured",
+              "Psychic Mastery 3",
+              "Shock Assault",
+              "Book of Salvation",
+              "Chief Librarian"
+            ]
+          }
+        ],
+        "fixed_wargear": [
+          "Mastercraft Bolt Pistol",
+          "Traitor\u2019s Bane",
+          "Frag Grenades",
+          "Krak Grenades",
+          "Iron Halo",
+          "Psychic Hood"
+        ],
+        "options": [
+          {
+            "description": "May take one S for each Psychic Mastery Level",
+            "choices": []
+          },
+          {
+            "description": "May take one B",
+            "choices": [
+              {
+                "name": "Rubicon Primaris",
+                "pts_delta": 16
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Master Lazarus",
+        "points_base": 210,
+        "composition": "1 Lazarus",
+        "models": [
+          {
+            "name": "Lazarus",
+            "stats": {
+              "M": "6",
+              "WS": "2+",
+              "BS": "2+",
+              "S": "4",
+              "T": "4",
+              "W": "5",
+              "I": "4",
+              "A": "4",
+              "Ld": "10",
+              "Sv": "3+"
+            },
+            "rules": [
+              "Independent Character",
+              "Unique",
+              "Dark Angels",
+              "Infantry",
+              "Know No Fear",
+              "Objective Secured",
+              "Shock Assault",
+              "Battle Drills",
+              "Psychic Hunter",
+              "Spiritshield Helm",
+              "Powers."
+            ]
+          }
+        ],
+        "fixed_wargear": [
+          "Bolt Pistol",
+          "Enmity\u2019s Edge",
+          "Iron Halo",
+          "Spiritshield Helm"
+        ],
+        "options": [
+          {
+            "description": "May take one B",
+            "choices": []
+          }
+        ]
+      },
+      {
+        "name": "Lion El\u2019Jonson",
+        "points_base": 538,
+        "composition": "1 Lion El\u2019Jonson",
+        "models": [
+          {
+            "name": "Lion El\u2019Jonson",
+            "stats": {
+              "M": "6",
+              "WS": "2+",
+              "BS": "2+",
+              "S": "6",
+              "T": "6",
+              "W": "9",
+              "I": "8",
+              "A": "6",
+              "Ld": "10",
+              "Sv": "3+"
+            },
+            "rules": [
+              "Independent Character",
+              "Unique",
+              "Chapter Master",
+              "Dark Angels",
+              "Monster",
+              "Know No Fear",
+              "Counterattack",
+              "Deepstrike",
+              "Night Vision",
+              "Objective Secured",
+              "Shock Assault",
+              "Battle Drills",
+              "Mysterious Ways",
+              "The Hour is Nigh",
+              "T Minus 5"
+            ]
+          }
+        ],
+        "fixed_wargear": [
+          "Arma Luminis",
+          "Fealty",
+          "Orbital Strike",
+          "The Emperor\u2019s Shield"
+        ],
+        "options": []
+      },
+      {
+        "name": "Pistol 2",
+        "points_base": 286,
+        "composition": "1 Corvex Or 1 Sableclaw",
+        "models": [
+          {
+            "name": "Extra Attack 2",
+            "stats": {},
+            "rules": []
+          },
+          {
+            "name": "Heavy 1, 15\u201d Blast, Destroyer,",
+            "stats": {},
+            "rules": [
+              "Independent Character",
+              "Unique",
+              "Dark Angels",
+              "Infantry",
+              "Steed",
+              "Bolter Discipline",
+              "Know No Fear",
+              "Deepstrike",
+              "Fly",
+              "Night Vision",
+              "Objective Secured",
+              "Scout",
+              "Shock Assault",
+              "Stubborn",
+              "Battle Drills"
+            ]
+          },
+          {
+            "name": "Ordnance, Monsterbane,",
+            "stats": {},
+            "rules": [
+              "Independent Character",
+              "Unique",
+              "Dark Angels",
+              "Vehicle",
+              "Tank",
+              "Know No Fear",
+              "Deepstrike",
+              "Fly",
+              "Night Vision",
+              "Open Topped",
+              "Scout",
+              "Shock Assault",
+              "Stubborn"
+            ]
+          },
+          {
+            "name": "Indirect Fire, Ignores Cover, The",
+            "stats": {},
+            "rules": []
+          },
+          {
+            "name": "Hour is Nigh, T Minus 5, One Use",
+            "stats": {},
+            "rules": []
+          },
+          {
+            "name": "Only, Turret",
+            "stats": {},
+            "rules": []
+          }
+        ],
+        "fixed_wargear": [],
+        "options": []
+      }
+    ],
+    "elites": [
+      {
+        "name": "Deathwing Terminators",
+        "points_base": 643,
+        "composition": "1 Sergeant 4-9 Terminators",
+        "models": [
+          {
+            "name": "Sergeant",
+            "stats": {
+              "M": "4",
+              "WS": "2+",
+              "BS": "2+",
+              "S": "4",
+              "T": "4",
+              "W": "3",
+              "I": "4",
+              "A": "4",
+              "Ld": "9",
+              "Sv": "3+"
+            },
+            "rules": [
+              "Character",
+              "Dark Angels",
+              "Monstrous Infantry",
+              "Adjusted Tactics",
+              "Bolter Discipline",
+              "Know No Fear",
+              "Tactical Squads",
+              "Deepstrike",
+              "Night Vision",
+              "Shock Assault",
+              "Steady",
+              "Very Bulky"
+            ]
+          },
+          {
+            "name": "Terminator",
+            "stats": {
+              "M": "4",
+              "WS": "2+",
+              "BS": "2+",
+              "S": "4",
+              "T": "4",
+              "W": "3",
+              "I": "4",
+              "A": "3",
+              "Ld": "8",
+              "Sv": "3+"
+            },
+            "rules": [
+              "Dark Angels",
+              "Monstrous Infantry",
+              "Adjusted Tactics",
+              "Bolter Discipline",
+              "Know No Fear",
+              "Tactical Squads",
+              "Deepstrike",
+              "Night Vision",
+              "Shock Assault",
+              "Steady",
+              "Very Bulky"
+            ]
+          }
+        ],
+        "fixed_wargear": [
+          "Stormbolter",
+          "Power Sword",
+          "Terminator Honours",
+          "Stormbolter",
+          "Power Sword",
+          "Terminator Honours"
+        ],
+        "options": [
+          {
+            "description": "May take up to 5 more Terminators for +127 points each Sergeant may swap Power Sword for DAM or M Any model may swap Stormbolter for S or E Any model may swap Power Sword for M",
+            "choices": []
+          },
+          {
+            "description": "May take Stormshield",
+            "choices": [
+              {
+                "name": "Stormshield",
+                "pts_delta": 17
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Inner Circle Companions",
+        "points_base": 201,
+        "composition": "3 Inner Circles",
+        "models": [
+          {
+            "name": "Inner Circle",
+            "stats": {
+              "M": "6",
+              "WS": "2+",
+              "BS": "2+",
+              "S": "4",
+              "T": "4",
+              "W": "3",
+              "I": "4",
+              "A": "3",
+              "Ld": "9",
+              "Sv": "3+"
+            },
+            "rules": [
+              "Character",
+              "Dark Angels",
+              "Infantry",
+              "Know No Fear",
+              "Transhuman Physiology",
+              "Bodyguard",
+              "Night Vision",
+              "Shock Assault",
+              "Stubborn",
+              "Bulky"
+            ]
+          }
+        ],
+        "fixed_wargear": [
+          "Heavy Bolt Pistol",
+          "Calibanite Greatsword"
+        ],
+        "options": [
+          {
+            "description": "May take Censer",
+            "choices": [
+              {
+                "name": "Censer",
+                "pts_delta": 10
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Special Wargear:",
+        "points_base": 753,
+        "composition": "1 Sergeant 4-9 Terminators",
+        "models": [
+          {
+            "name": "Special Wargear:",
+            "stats": {
+              "M": "4",
+              "WS": "2+",
+              "BS": "2+",
+              "S": "4",
+              "T": "4",
+              "W": "4",
+              "I": "4",
+              "A": "3",
+              "Ld": "8",
+              "Sv": "3+"
+            },
+            "rules": [
+              "Character",
+              "Dark Angels",
+              "Monstrous Infantry",
+              "Bolter Discipline",
+              "Know No Fear",
+              "Transhuman Physiology",
+              "Deepstrike",
+              "Night Vision",
+              "Shock Assault",
+              "Steady",
+              "Stubborn",
+              "Very Bulky",
+              "Dark Angels",
+              "Monstrous Infantry",
+              "Bolter Discipline",
+              "Know No Fear",
+              "Transhuman Physiology",
+              "Deepstrike",
+              "Night Vision",
+              "Shock Assault",
+              "Steady",
+              "Stubborn",
+              "Very Bulky"
+            ]
+          }
+        ],
+        "fixed_wargear": [],
+        "options": [
+          {
+            "description": "May take up to 5 more Terminators for +149 points each Sergeant may swap Power Sword for DAM or M Any model may swap Stormbolter for S or E Any model may swap Power Sword for M",
+            "choices": []
+          }
+        ]
+      }
+    ],
+    "fast_attack": [
+      {
+        "name": "Ravenwing Black Knights",
+        "points_base": 373,
+        "composition": "1 Sergeant 2-9 Veterans",
+        "models": [
+          {
+            "name": "Sergeant",
+            "stats": {
+              "M": "12",
+              "WS": "2+",
+              "BS": "2+",
+              "S": "4",
+              "T": "5",
+              "W": "3",
+              "I": "4",
+              "A": "3",
+              "Ld": "9",
+              "Sv": "3+"
+            },
+            "rules": [
+              "Character",
+              "Dark Angels",
+              "Infantry",
+              "Steed",
+              "Adjusted Tactics",
+              "Bolter Discipline",
+              "Know No Fear",
+              "Tactical Squads",
+              "Night Vision",
+              "Objective Secured",
+              "Scout",
+              "Shock Assault"
+            ]
+          },
+          {
+            "name": "Veteran",
+            "stats": {
+              "M": "12",
+              "WS": "2+",
+              "BS": "2+",
+              "S": "4",
+              "T": "5",
+              "W": "3",
+              "I": "4",
+              "A": "2",
+              "Ld": "8",
+              "Sv": "3+"
+            },
+            "rules": [
+              "Dark Angels",
+              "Infantry",
+              "Adjusted Tactics",
+              "Bolter Discipline",
+              "Know No Fear",
+              "Tactical Squads",
+              "Night Vision",
+              "Objective Secured",
+              "Scout",
+              "Shock Assault"
+            ]
+          }
+        ],
+        "fixed_wargear": [
+          "Plasma Talon",
+          "Bolt Pistol",
+          "Corvus Hammer",
+          "Frag Grenades",
+          "Krak Grenades",
+          "Stormbolter",
+          "Bolt Pistol",
+          "Combat Knife",
+          "Frag Grenades",
+          "Krak Grenades"
+        ],
+        "options": [
+          {
+            "description": "May take up to seven additional Veterans for +72 points each Sergeant may swap Corvus Hammer for M Sergeant may swap Krak Grenades for G Up to three Veterans may swap Stormbolter for S One Veteran may take one C One Veteran may take one E",
+            "choices": [
+              {
+                "name": "Apothecary",
+                "pts_delta": 68
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Ravenwing Land Speeder",
+        "points_base": 126,
+        "composition": "1 Land Speeders",
+        "models": [
+          {
+            "name": "Land Speeder",
+            "stats": {
+              "M": "16",
+              "WS": "5+",
+              "BS": "3+",
+              "S": "5",
+              "FA": "12",
+              "SA": "12",
+              "RA": "10",
+              "W": "9",
+              "I": "1",
+              "A": "2",
+              "Ld": "9",
+              "Sv": "3+"
+            },
+            "rules": [
+              "Dark Angels",
+              "Vehicle",
+              "Tank",
+              "Adjusted Tactics",
+              "Know No Fear",
+              "Deepstrike",
+              "Fly",
+              "Night Vision",
+              "Open Topped",
+              "Shock Assault"
+            ]
+          }
+        ],
+        "fixed_wargear": [
+          "Icon of Old Caliban",
+          "Heavy Bolter"
+        ],
+        "options": [
+          {
+            "description": "May swap Icon of Old Caliban for T Any model may swap Heavy Flamer H for H Any model may take up to one of each E",
+            "choices": [
+              {
+                "name": "Extra Armour",
+                "pts_delta": 5
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "heavy_support": [
+      {
+        "name": "Land Raider Ares",
+        "points_base": 305,
+        "composition": "1 Land Raider Ares",
+        "models": [
+          {
+            "name": "Land Raider Ares",
+            "stats": {
+              "M": "6",
+              "WS": "5+",
+              "BS": "3+",
+              "S": "8",
+              "FA": "14",
+              "SA": "14",
+              "RA": "14",
+              "W": "16",
+              "I": "1",
+              "A": "6",
+              "Ld": "9",
+              "Sv": "3+"
+            },
+            "rules": [
+              "Dark Angels",
+              "Vehicle",
+              "Tank",
+              "Bolter Discipline",
+              "Know No Fear",
+              "Night Vision",
+              "Shock Assault",
+              "Reroll Dangerous Terrain Tests"
+            ]
+          }
+        ],
+        "fixed_wargear": [
+          "Demolisher Cannon",
+          "2 Sets of 2 Heavy Flamers"
+        ],
+        "options": [
+          {
+            "description": "May take one M",
+            "choices": []
+          },
+          {
+            "description": "May take one P",
+            "choices": []
+          },
+          {
+            "description": "May take up to one of each E",
+            "choices": []
+          }
+        ]
+      }
+    ],
+    "flyers": [
+      {
+        "name": "Nephilim Jetfighter",
+        "points_base": 223,
+        "composition": "1 Dark Talon",
+        "models": [
+          {
+            "name": "Nephilim Jetfighter",
+            "stats": {
+              "M": "50",
+              "WS": "5+",
+              "BS": "3+",
+              "S": "6",
+              "FA": "12",
+              "SA": "11",
+              "RA": "11",
+              "W": "8",
+              "I": "1",
+              "A": "3",
+              "Ld": "9",
+              "Sv": "3+"
+            },
+            "rules": [
+              "Dark Angels",
+              "Vehicle",
+              "Adjusted Tactics",
+              "Bolter Discipline",
+              "Know No Fear",
+              "Deepstrike",
+              "High Altitude",
+              "Hover",
+              "Night Vision",
+              "Shock Assault"
+            ]
+          }
+        ],
+        "fixed_wargear": [
+          "Avenger Bolt Cannon",
+          "2 Linked Heavy Bolters",
+          "2 Linked Blacksword Missile",
+          "Racks"
+        ],
+        "options": [
+          {
+            "description": "May swap Avenger Bolt Cannon for T",
+            "choices": []
+          },
+          {
+            "description": "May take up to one of each E",
+            "choices": [
+              {
+                "name": "Flare Launchers",
+                "pts_delta": 9
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Nephilim Jetfighter",
+        "points_base": 206,
+        "composition": "1 Nephilim Jetfighter",
+        "models": [
+          {
+            "name": "Nephilim Jetfighter",
+            "stats": {
+              "M": "50",
+              "WS": "5+",
+              "BS": "3+",
+              "S": "6",
+              "FA": "12",
+              "SA": "11",
+              "RA": "11",
+              "W": "8",
+              "I": "1",
+              "A": "3",
+              "Ld": "9",
+              "Sv": "3+"
+            },
+            "rules": [
+              "Dark Angels",
+              "Vehicle",
+              "Adjusted Tactics",
+              "Know No Fear",
+              "Deepstrike",
+              "High Altitude",
+              "Night Vision",
+              "Shock Assault"
+            ]
+          }
+        ],
+        "fixed_wargear": [
+          "Avenger Bolt Cannon",
+          "2 Linked Heavy Bolters",
+          "2 Linked Blacksword Missile",
+          "Racks"
+        ],
+        "options": [
+          {
+            "description": "May swap Avenger Bolt Cannon for T",
+            "choices": []
+          },
+          {
+            "description": "May take up to one of each E",
+            "choices": [
+              {
+                "name": "Flare Launchers",
+                "pts_delta": 9
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

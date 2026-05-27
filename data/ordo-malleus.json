@@ -1,0 +1,141 @@
+{
+  "id": "ordo-malleus",
+  "name": "Ordo Malleus",
+  "difficulty": 3,
+  "subfactions": [
+    {
+      "name": "Average"
+    }
+  ],
+  "slots": {
+    "hq": [
+      {
+        "name": "Lord Inquisitor Coteaz",
+        "points_base": 447,
+        "composition": "1 Inquisitor",
+        "models": [
+          {
+            "name": "Coteaz",
+            "stats": {
+              "M": "4",
+              "WS": "2+",
+              "BS": "2+",
+              "S": "3",
+              "T": "3",
+              "W": "7",
+              "I": "3",
+              "A": "5",
+              "Ld": "10",
+              "Sv": "3+"
+            },
+            "rules": [
+              "Independent Character",
+              "Monstrous Infantry",
+              "Lord Inquisitor",
+              "Unique",
+              "Ordo Malleus",
+              "Quarry",
+              "Requisition Approved",
+              "Deepstrike",
+              "Psychic Mastery Level 2",
+              "Steady",
+              "Stubborn",
+              "Very Bulky",
+              "Spy Network",
+              "Terrifying Presence",
+              "Test.",
+              "The Hour is Nigh",
+              "T Minus 5"
+            ]
+          }
+        ],
+        "fixed_wargear": [
+          "Bolt Pistol",
+          "Nemesis Daemon Hammer",
+          "Psyber Eagle",
+          "Orbital Strike",
+          "Force Field"
+        ],
+        "options": [
+          {
+            "description": "May swap one Chainsword for S, P, or M",
+            "choices": []
+          },
+          {
+            "description": "May swap one Chainsword for M",
+            "choices": []
+          },
+          {
+            "description": "May swap Krak Grenades for G",
+            "choices": []
+          },
+          {
+            "description": "May take one A",
+            "choices": []
+          },
+          {
+            "description": "May take one B",
+            "choices": []
+          },
+          {
+            "description": "May take up to one Inquisitor Spell for each Psychic Mastery Level",
+            "choices": []
+          }
+        ]
+      },
+      {
+        "name": "Lord Inquisitor Hector Rex",
+        "points_base": 456,
+        "composition": "1 Hector",
+        "models": [
+          {
+            "name": "Hector",
+            "stats": {
+              "M": "4",
+              "WS": "2+",
+              "BS": "2+",
+              "S": "3",
+              "T": "3",
+              "W": "7",
+              "I": "3",
+              "A": "5",
+              "Ld": "10",
+              "Sv": "3+"
+            },
+            "rules": [
+              "Independent Character",
+              "Monstrous Infantry",
+              "Lord Inquisitor",
+              "Unique",
+              "Ordo Malleus",
+              "Quarry",
+              "Requisition Approved",
+              "Deepstrike",
+              "Psychic Mastery Level 2",
+              "Steady",
+              "Stubborn",
+              "Very Bulky",
+              "Astropath",
+              "Exorcist",
+              "Sword Bearer",
+              "The Hour is Nigh",
+              "T Minus 5"
+            ]
+          }
+        ],
+        "fixed_wargear": [
+          "Psibolt Pistol",
+          "Arias",
+          "Santic Shield",
+          "Orbital Strike"
+        ],
+        "options": [
+          {
+            "description": "May take up to one Inquisitor Spell for each Psychic Mastery Level",
+            "choices": []
+          }
+        ]
+      }
+    ]
+  }
+}

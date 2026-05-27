@@ -1,0 +1,304 @@
+{
+  "id": "goff-codex",
+  "name": "Goff Codex",
+  "difficulty": 1,
+  "subfactions": [
+    {
+      "name": "Average"
+    },
+    {
+      "name": "Goff"
+    }
+  ],
+  "slots": {
+    "hq": [
+      {
+        "name": "Ghazghkull Thraka",
+        "points_base": 385,
+        "composition": "1 Ghazghkull",
+        "models": [
+          {
+            "name": "Ghazghkull",
+            "stats": {
+              "M": "6",
+              "WS": "2+",
+              "BS": "5+",
+              "S": "7",
+              "T": "7",
+              "W": "12",
+              "I": "2",
+              "A": "6",
+              "Ld": "10",
+              "Sv": "3+"
+            },
+            "rules": [
+              "Independent Character",
+              "Monster",
+              "Unique",
+              "Goff",
+              "Ork",
+              "\u2018Ere We Go!",
+              "Breakin\u2019 \u2018Eads!",
+              "Cybernetic Body",
+              "Da Biggest of Dem All",
+              "Hit.",
+              "Waaagh!"
+            ]
+          }
+        ],
+        "fixed_wargear": [
+          "Mork\u2019s Roar",
+          "Gork\u2019s Klaw",
+          "Stikkbombz",
+          "Forcefield"
+        ],
+        "options": []
+      },
+      {
+        "name": "Grukk Face Rippa",
+        "points_base": 306,
+        "composition": "1 Grukk",
+        "models": [
+          {
+            "name": "Grukk",
+            "stats": {
+              "M": "6",
+              "WS": "2+",
+              "BS": "5+",
+              "S": "6",
+              "T": "5",
+              "W": "6",
+              "I": "2",
+              "A": "5",
+              "Ld": "9",
+              "Sv": "4+"
+            },
+            "rules": [
+              "Independent Character",
+              "Monstrous Infantry",
+              "Unique",
+              "Goff",
+              "Ork",
+              "\u2018Ere We Go!",
+              "Very Bulky",
+              "Breakin\u2019 \u2018Eads!",
+              "Pain.",
+              "Waaagh!"
+            ]
+          }
+        ],
+        "fixed_wargear": [
+          "Kombi Rokkit",
+          "Git Rippa",
+          "Stikkbombz",
+          "Forcefield",
+          "Waaagh! Banner"
+        ],
+        "options": []
+      }
+    ],
+    "dedicated_transport": [
+      {
+        "name": "Forcefield",
+        "points_base": 204,
+        "composition": "1 Buzzgob 0-1 Nitnuckle 0-1 Lunk 0-1 Buzzgob\u2019s Stompa",
+        "models": [
+          {
+            "name": "Nitnuckle:",
+            "stats": {
+              "M": "6",
+              "WS": "2+",
+              "BS": "5+",
+              "S": "6",
+              "T": "5",
+              "W": "5",
+              "I": "2",
+              "A": "4",
+              "Ld": "9",
+              "Sv": "4+"
+            },
+            "rules": []
+          },
+          {
+            "name": "Grot Blasta",
+            "stats": {
+              "M": "6",
+              "WS": "5+",
+              "BS": "4+",
+              "S": "2",
+              "T": "2",
+              "W": "4",
+              "I": "4",
+              "A": "3",
+              "Ld": "6",
+              "Sv": "6"
+            },
+            "rules": [
+              "Independent Character",
+              "Monstrous Infantry",
+              "Goff",
+              "Ork",
+              "\u2018Ere We Go!",
+              "Very Bulky",
+              "Breakin\u2019 \u2018Eads!",
+              "Buzzgob\u2019s Dredheadz",
+              "Repair",
+              "Weapon Destroyed.",
+              "Waaagh!"
+            ]
+          },
+          {
+            "name": "Lunk:",
+            "stats": {
+              "M": "8",
+              "WS": "2+",
+              "BS": "5+",
+              "S": "10",
+              "T": "13",
+              "W": "13",
+              "I": "12",
+              "A": "40",
+              "Ld": "2",
+              "Sv": "6"
+            },
+            "rules": [
+              "Independent Character",
+              "Infantry",
+              "Goff",
+              "Grot",
+              "\u2018Ere We Go!",
+              "Propa Grot Oiler"
+            ]
+          },
+          {
+            "name": "Grot Blasta",
+            "stats": {},
+            "rules": [
+              "Independent Character",
+              "Infantry",
+              "Goff"
+            ]
+          },
+          {
+            "name": "Buzzgob\u2019s Stompa:",
+            "stats": {},
+            "rules": []
+          },
+          {
+            "name": "2 Deff Kannonz",
+            "stats": {},
+            "rules": []
+          },
+          {
+            "name": "Lifta Droppa",
+            "stats": {},
+            "rules": []
+          },
+          {
+            "name": "Gaze of Mork",
+            "stats": {},
+            "rules": []
+          }
+        ],
+        "fixed_wargear": [],
+        "options": [
+          {
+            "description": "May take Nitnuckle for +25 points",
+            "choices": []
+          },
+          {
+            "description": "May take Lunk for +25 points",
+            "choices": []
+          },
+          {
+            "description": "May take Buzzgob\u2019s Stompa as a Dedicated Transport for +844 points Buzzgob\u2019s Stompa may swap any Deff Kannon for A Buzzgob\u2019s Stompa may take one H Buzzgob\u2019s Stompa may take up to two C Buzzgob\u2019s Stompa may take up to one of each E",
+            "choices": []
+          }
+        ]
+      }
+    ],
+    "advisors": [
+      {
+        "name": "Makari",
+        "points_base": 149,
+        "composition": "1 Makari",
+        "models": [
+          {
+            "name": "Makari",
+            "stats": {
+              "M": "6",
+              "WS": "4+",
+              "BS": "5+",
+              "S": "3",
+              "T": "3",
+              "W": "4",
+              "I": "4",
+              "A": "3",
+              "Ld": "6",
+              "Sv": "-"
+            },
+            "rules": [
+              "Independent Character",
+              "Infantry",
+              "Unique",
+              "Goff",
+              "Grot",
+              "\u2018Ere We Go!",
+              "Accidental Figurehead",
+              "Packed Like Squigs",
+              "Suspiciously Lucky"
+            ]
+          }
+        ],
+        "fixed_wargear": [
+          "Choppa",
+          "Waaagh! Banner"
+        ],
+        "options": []
+      },
+      {
+        "name": "Zhadsnark Da Rippa",
+        "points_base": 215,
+        "composition": "1 Da Beast",
+        "models": [
+          {
+            "name": "Da Beast",
+            "stats": {
+              "M": "12",
+              "WS": "2+",
+              "BS": "5+",
+              "S": "6",
+              "T": "6",
+              "W": "6",
+              "I": "2",
+              "A": "4",
+              "Ld": "9",
+              "Sv": "4+"
+            },
+            "rules": [
+              "Independent Character",
+              "Infantry",
+              "Steed",
+              "Unique",
+              "Goff",
+              "Ork",
+              "\u2018Ere We Go!",
+              "Very Bulky",
+              "Breakin\u2019 \u2018Eads!",
+              "Exhaust Cloud",
+              "Waaagh!"
+            ]
+          }
+        ],
+        "fixed_wargear": [
+          "2 Linked Big Shootaz",
+          "Slugga",
+          "Da Pain Klaw",
+          "Stikkbombz",
+          "Forcefield"
+        ],
+        "options": []
+      }
+    ]
+  }
+}

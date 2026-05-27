@@ -1,0 +1,61 @@
+{
+  "id": "carcharodons",
+  "name": "Carcharodons",
+  "difficulty": 1,
+  "subfactions": [
+    {
+      "name": "Average"
+    },
+    {
+      "name": "Carcharodons"
+    }
+  ],
+  "slots": {
+    "hq": [
+      {
+        "name": "Tyberos the Red Wake",
+        "points_base": 375,
+        "composition": "1 Tyberos",
+        "models": [
+          {
+            "name": "Tyberos",
+            "stats": {
+              "M": "6",
+              "WS": "2+",
+              "BS": "2+",
+              "S": "5",
+              "T": "5",
+              "W": "7",
+              "I": "4",
+              "A": "5",
+              "Ld": "10",
+              "Sv": "3+"
+            },
+            "rules": [
+              "Independent Character",
+              "Monstrous Infantry",
+              "Unique",
+              "Chapter Master",
+              "Carcharodons",
+              "Know No Fear",
+              "Deepstrike",
+              "Shock Assault",
+              "Very Bulky",
+              "Battle Drills",
+              "Rage",
+              "A+d3.",
+              "The Hour is Nigh",
+              "T Minus 5"
+            ]
+          }
+        ],
+        "fixed_wargear": [
+          "Hunger and Wake",
+          "Orbital Strike",
+          "Iron Halo"
+        ],
+        "options": []
+      }
+    ]
+  }
+}

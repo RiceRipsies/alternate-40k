@@ -1,0 +1,64 @@
+{
+  "id": "flesh-tearers",
+  "name": "Flesh Tearers",
+  "difficulty": 1,
+  "subfactions": [
+    {
+      "name": "Average"
+    },
+    {
+      "name": "Flesh Tearers"
+    }
+  ],
+  "slots": {
+    "hq": [
+      {
+        "name": "Gabriel Seth",
+        "points_base": 362,
+        "composition": "1 Gabriel",
+        "models": [
+          {
+            "name": "Gabriel",
+            "stats": {
+              "M": "6",
+              "WS": "2+",
+              "BS": "2+",
+              "S": "4",
+              "T": "4",
+              "W": "6",
+              "I": "5",
+              "A": "5",
+              "Ld": "10",
+              "Sv": "3+"
+            },
+            "rules": [
+              "Independent Character",
+              "Flesh Tearers",
+              "Infantry",
+              "Unique",
+              "Chapter Master",
+              "Know No Fear",
+              "Objective Secured",
+              "Shock Assault",
+              "Battle Drills",
+              "Rampage",
+              "Melee.",
+              "Whirlwind of Gore",
+              "The Hour is Nigh",
+              "T Minus 5"
+            ]
+          }
+        ],
+        "fixed_wargear": [
+          "Bolt Pistol",
+          "Blood Reaver",
+          "Frag Grenades",
+          "Krak Grenades",
+          "Orbital Strike",
+          "Iron Halo"
+        ],
+        "options": []
+      }
+    ]
+  }
+}

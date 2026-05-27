@@ -1,0 +1,74 @@
+{
+  "id": "evil-sunz",
+  "name": "Evil Sunz",
+  "difficulty": 1,
+  "subfactions": [
+    {
+      "name": "Average"
+    },
+    {
+      "name": "Evil Sunz"
+    }
+  ],
+  "slots": {
+    "hq": [
+      {
+        "name": "Wazdakka Gutsmek",
+        "points_base": 296,
+        "composition": "0-1 The Bike of the Aporkalypse 0-1 Big Revva",
+        "models": [
+          {
+            "name": "The Bike of the Aporkalypse",
+            "stats": {
+              "M": "12",
+              "WS": "2+",
+              "BS": "5+",
+              "S": "7",
+              "T": "6",
+              "W": "7",
+              "I": "2",
+              "A": "5",
+              "Ld": "9",
+              "Sv": "12"
+            },
+            "rules": []
+          },
+          {
+            "name": "Big Revva",
+            "stats": {},
+            "rules": [
+              "Independent Character",
+              "Monstrous Infantry",
+              "Steed",
+              "Unique",
+              "Evil Sunz",
+              "Ork",
+              "Da Big Boss",
+              "\u2018Ere We Go!",
+              "Breakin\u2019 \u2018Eads!",
+              "Fixit da Grot",
+              "Command Phases.",
+              "Waaagh!"
+            ]
+          }
+        ],
+        "fixed_wargear": [
+          "2 Linked Kustom Shootaz",
+          "Kustom Mega Blasta",
+          "Dakkakannon",
+          "Power Klaw",
+          "Forcefield",
+          "Psyko-Gatler",
+          "Grabba Dragga",
+          "Forcefield"
+        ],
+        "options": [
+          {
+            "description": "May trade The Bike of the Aporkalypse for Big Revva for +0 points",
+            "choices": []
+          }
+        ]
+      }
+    ]
+  }
+}

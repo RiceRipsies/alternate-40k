@@ -1,0 +1,250 @@
+{
+  "id": "order-of-our-martyred-lady-1",
+  "name": "Order of Our Martyred Lady",
+  "difficulty": 2,
+  "subfactions": [
+    {
+      "name": "Average"
+    }
+  ],
+  "slots": {
+    "hq": [
+      {
+        "name": "Canoness Veridyan",
+        "points_base": 264,
+        "composition": "1 Veridyan",
+        "models": [
+          {
+            "name": "Canoness",
+            "stats": {
+              "M": "6",
+              "WS": "2+",
+              "BS": "2+",
+              "S": "3",
+              "T": "3",
+              "W": "5",
+              "I": "3",
+              "A": "4",
+              "Ld": "10",
+              "Sv": "3+"
+            },
+            "rules": [
+              "Independent Character",
+              "Infantry",
+              "Unique",
+              "Faith 2",
+              "Martyrdom 5",
+              "Stubborn",
+              "Back Door",
+              "Purity and Dedication",
+              "The Passion"
+            ]
+          }
+        ],
+        "fixed_wargear": [
+          "Bolt Pistol",
+          "Power Sword",
+          "Frag Grenades",
+          "Krak Grenades",
+          "Rosarius"
+        ],
+        "options": []
+      },
+      {
+        "name": "Celestine the Living Saint",
+        "points_base": 404,
+        "composition": "1 Celestine 0-2 Geminae Superia",
+        "models": [
+          {
+            "name": "Celestine",
+            "stats": {
+              "M": "12",
+              "WS": "2+",
+              "BS": "2+",
+              "S": "3",
+              "T": "3",
+              "W": "6",
+              "I": "7",
+              "A": "5",
+              "Ld": "10",
+              "Sv": "3+"
+            },
+            "rules": [
+              "Character",
+              "Infantry",
+              "Unique",
+              "Faith 5",
+              "Martyrdom 10*",
+              "Deepstrike",
+              "Flying",
+              "Stubborn",
+              "Miraculous Intervention",
+              "The Passion",
+              "The Hour is Nigh",
+              "T Minus 5"
+            ]
+          },
+          {
+            "name": "Geminae Superia",
+            "stats": {
+              "M": "12",
+              "WS": "2+",
+              "BS": "2+",
+              "S": "3",
+              "T": "3",
+              "W": "5",
+              "I": "3",
+              "A": "4",
+              "Ld": "10",
+              "Sv": "3+"
+            },
+            "rules": []
+          }
+        ],
+        "fixed_wargear": [
+          "The Ardent blade",
+          "Frag Grenades",
+          "Krak Grenades",
+          "Orbital Strike",
+          "Rosarius",
+          "Bolt Pistol",
+          "Power Sword",
+          "Frag Grenades",
+          "Krak Grenades",
+          "Rosarius"
+        ],
+        "options": [
+          {
+            "description": "May add up to two Geminae Superia for +166 points each",
+            "choices": []
+          }
+        ]
+      },
+      {
+        "name": "Intranzia Fraye",
+        "points_base": 258,
+        "composition": "1 Throne of Blame",
+        "models": [
+          {
+            "name": "Throne of Blame",
+            "stats": {
+              "M": "8",
+              "WS": "2+",
+              "BS": "2+",
+              "S": "6",
+              "FA": "10",
+              "SA": "10",
+              "RA": "10",
+              "W": "8",
+              "I": "3",
+              "A": "4",
+              "Ld": "10",
+              "Sv": "3+"
+            },
+            "rules": [
+              "Independent Character",
+              "Vehicle",
+              "Combat Walker",
+              "Unique",
+              "Faith 2",
+              "Martyrdom 5",
+              "Open Topped",
+              "Shock Assault",
+              "Steady",
+              "Stubborn",
+              "Judgement"
+            ]
+          }
+        ],
+        "fixed_wargear": [
+          "Melta Missile Array",
+          "2 Linked Heavy Bolters",
+          "2 Linked Heavy Flamers",
+          "Mace of Saint Praxedes",
+          "Throne of Blame",
+          "Rosarius"
+        ],
+        "options": []
+      },
+      {
+        "name": "Junith Eruita",
+        "points_base": 346,
+        "composition": "1 Junith",
+        "models": [
+          {
+            "name": "Junith",
+            "stats": {
+              "M": "10",
+              "WS": "2+",
+              "BS": "2+",
+              "S": "3",
+              "T": "4",
+              "W": "7",
+              "I": "3",
+              "A": "5",
+              "Ld": "10",
+              "Sv": "3+"
+            },
+            "rules": [
+              "Independent Character",
+              "Infantry",
+              "Steed",
+              "Unique",
+              "Faith 5",
+              "Martyrdom 10",
+              "Stubborn",
+              "Basilica",
+              "Invulnerability Save (Improves",
+              "The Passion"
+            ]
+          }
+        ],
+        "fixed_wargear": [
+          "2 Linked Heavy Flamers",
+          "Mace of Castigation",
+          "Rosarius"
+        ],
+        "options": []
+      }
+    ],
+    "advisors": [
+      {
+        "name": "Sister Tariana Palos",
+        "points_base": 70,
+        "composition": "1 Tariana",
+        "models": [
+          {
+            "name": "Tariana",
+            "stats": {
+              "M": "6",
+              "WS": "3+",
+              "BS": "3+",
+              "S": "3",
+              "T": "3",
+              "W": "4",
+              "I": "3",
+              "A": "3",
+              "Ld": "9",
+              "Sv": "3+"
+            },
+            "rules": [
+              "Independent Character",
+              "Infantry",
+              "Unique",
+              "Faith 1",
+              "Martyrdom 2",
+              "Stubborn",
+              "Iconic"
+            ]
+          }
+        ],
+        "fixed_wargear": [
+          "Boltgun",
+          "Frag Grenades",
+          "Krak Grenades"
+        ],
+        "options": []
+      }
+    ]
+  }
+}

@@ -1,0 +1,59 @@
+{
+  "id": "freebooterz-codex",
+  "name": "Freebooterz",
+  "difficulty": 1,
+  "subfactions": [
+    {
+      "name": "Average"
+    },
+    {
+      "name": "Freebooterz"
+    }
+  ],
+  "slots": {
+    "hq": [
+      {
+        "name": "Kaptin Badrukk",
+        "points_base": 182,
+        "composition": "1 Badrukk",
+        "models": [
+          {
+            "name": "Badrukk",
+            "stats": {
+              "M": "6",
+              "WS": "2+",
+              "BS": "5+",
+              "S": "5",
+              "T": "5",
+              "W": "5",
+              "I": "2",
+              "A": "4",
+              "Ld": "9",
+              "Sv": "3+"
+            },
+            "rules": [
+              "Independent Character",
+              "Monster",
+              "Unique",
+              "Freebooterz",
+              "Ork",
+              "\u2018Ere We Go!",
+              "Breakin\u2019 \u2018Eads!",
+              "Flashiest Gitz",
+              "Waaagh!"
+            ]
+          }
+        ],
+        "fixed_wargear": [
+          "Da Rippa",
+          "Slugga",
+          "Choppa",
+          "Stikkbombz",
+          "Gold Toof Armour",
+          "Git Finder"
+        ],
+        "options": []
+      }
+    ]
+  }
+}

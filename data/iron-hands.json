@@ -1,0 +1,143 @@
+{
+  "id": "iron-hands",
+  "name": "Iron Hands",
+  "difficulty": 1,
+  "subfactions": [
+    {
+      "name": "Average"
+    },
+    {
+      "name": "Iron Hands"
+    }
+  ],
+  "slots": {
+    "hq": [
+      {
+        "name": "Caanok Var",
+        "points_base": 256,
+        "composition": "1 Khan",
+        "models": [
+          {
+            "name": "Caanok",
+            "stats": {
+              "M": "4",
+              "WS": "2+",
+              "BS": "2+",
+              "S": "4",
+              "T": "4",
+              "W": "6",
+              "I": "7",
+              "A": "5",
+              "Ld": "10",
+              "Sv": "3+"
+            },
+            "rules": [
+              "Independent Character",
+              "Iron Hands",
+              "Infantry",
+              "Unique",
+              "Bolter Discipline",
+              "Know No Fear",
+              "Transhuman Physiology",
+              "Night Vision",
+              "Shock Assault",
+              "Steady",
+              "Very Bulky",
+              "More Machine Than Man \u2013",
+              "Cerebrex",
+              "Counterattack."
+            ]
+          }
+        ],
+        "fixed_wargear": [
+          "Stormbolter",
+          "Axiom",
+          "Iron Halo"
+        ],
+        "options": []
+      },
+      {
+        "name": "Iron Father Feirros",
+        "points_base": 224,
+        "composition": "1 Feirros 0-9 Servitors",
+        "models": [
+          {
+            "name": "Feirros",
+            "stats": {
+              "M": "6",
+              "WS": "3+",
+              "BS": "3+",
+              "S": "4",
+              "T": "4",
+              "W": "5",
+              "I": "4",
+              "A": "5",
+              "Ld": "9",
+              "Sv": "3+"
+            },
+            "rules": [
+              "Independent Character",
+              "Infantry",
+              "Unique",
+              "Iron Hands",
+              "Transhuman Physiology",
+              "Know No Fear",
+              "Bulky",
+              "Night Vision",
+              "Shock Assault",
+              "Stubborn",
+              "Awaken the Machine",
+              "Defiant of Pure Logic",
+              "Combat Resolution.",
+              "Master of the Forge",
+              "Repair"
+            ]
+          },
+          {
+            "name": "Servitor",
+            "stats": {
+              "M": "6",
+              "WS": "4+",
+              "BS": "4+",
+              "S": "3",
+              "T": "4",
+              "W": "1",
+              "I": "3",
+              "A": "1",
+              "Ld": "8",
+              "Sv": "4+"
+            },
+            "rules": [
+              "Infantry",
+              "Adjusted Tactics",
+              "Know No Fear",
+              "Night Vision",
+              "Steady",
+              "Lobotomized"
+            ]
+          }
+        ],
+        "fixed_wargear": [
+          "Gorgon\u2019s Wrath",
+          "Harrowhand",
+          "Servo Arm",
+          "Servo Arm"
+        ],
+        "options": [
+          {
+            "description": "May swap Krak Grenades for G",
+            "choices": []
+          },
+          {
+            "description": "May take one C",
+            "choices": []
+          },
+          {
+            "description": "May take up to 9 Servitors for +24 points each Any Servitor may swap Servo Arm for H",
+            "choices": []
+          }
+        ]
+      }
+    ]
+  }
+}

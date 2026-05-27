@@ -1,0 +1,122 @@
+{
+  "id": "imperial-fist",
+  "name": "Imperial Fists",
+  "difficulty": 1,
+  "subfactions": [
+    {
+      "name": "Average"
+    },
+    {
+      "name": "Imperial Fists"
+    }
+  ],
+  "slots": {
+    "hq": [
+      {
+        "name": "Captain Lysander",
+        "points_base": 305,
+        "composition": "1 Lysander",
+        "models": [
+          {
+            "name": "Lysander",
+            "stats": {
+              "M": "4",
+              "WS": "2+",
+              "BS": "5+",
+              "S": "4",
+              "T": "4",
+              "W": "6",
+              "I": "4",
+              "A": "4",
+              "Ld": "10",
+              "Sv": "3+"
+            },
+            "rules": [
+              "Independent Character",
+              "Imperial Fists",
+              "Monstrous Infantry",
+              "Unique",
+              "Know No Fear",
+              "Deepstrike",
+              "Shock Assault",
+              "Steady",
+              "Very Bulky",
+              "Battle Drills",
+              "Icon of Obstinacy",
+              "Iron Will",
+              "Feel No Pain.",
+              "Scout Bolter Drills"
+            ]
+          }
+        ],
+        "fixed_wargear": [
+          "Fist of Dorn",
+          "Storm Shield"
+        ],
+        "options": [
+          {
+            "description": "May take one B",
+            "choices": [
+              {
+                "name": "Rubicon Primaris",
+                "pts_delta": 56
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Tor Garadon",
+        "points_base": 249,
+        "composition": "1 Tor",
+        "models": [
+          {
+            "name": "Tor",
+            "stats": {
+              "M": "4",
+              "WS": "2+",
+              "BS": "2+",
+              "S": "4",
+              "T": "5",
+              "W": "6",
+              "I": "4",
+              "A": "4",
+              "Ld": "10",
+              "Sv": "3+"
+            },
+            "rules": [
+              "Independent Character",
+              "Imperial Fists",
+              "Monstrous Infantry",
+              "Unique",
+              "Know No Fear",
+              "Deepstrike",
+              "Shock Assault",
+              "Steady",
+              "Very Bulky",
+              "Battle Drills",
+              "Defy Orders"
+            ]
+          }
+        ],
+        "fixed_wargear": [
+          "Grav Gun",
+          "Spartean",
+          "Hand of Defiance",
+          "Iron Halo"
+        ],
+        "options": [
+          {
+            "description": "May take one B",
+            "choices": [
+              {
+                "name": "Rubicon Primaris",
+                "pts_delta": 25
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

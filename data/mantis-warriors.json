@@ -1,0 +1,80 @@
+{
+  "id": "mantis-warriors",
+  "name": "Mantis Warriors",
+  "difficulty": 1,
+  "subfactions": [
+    {
+      "name": "Average"
+    },
+    {
+      "name": "Mantis Warriors"
+    }
+  ],
+  "slots": {
+    "hq": [
+      {
+        "name": "Ahazra Redth",
+        "points_base": 261,
+        "composition": "1 Ahazra",
+        "models": [
+          {
+            "name": "Ahazra",
+            "stats": {
+              "M": "6",
+              "WS": "2+",
+              "BS": "2+",
+              "S": "4",
+              "T": "4",
+              "W": "6",
+              "I": "4",
+              "A": "5",
+              "Ld": "10",
+              "Sv": "3+"
+            },
+            "rules": [
+              "Independent Character",
+              "Infantry",
+              "Unique",
+              "Chief Librarian",
+              "Mantis Warriors",
+              "Adjusted Tactics",
+              "Know No Fear",
+              "Night Vision",
+              "Objective Secured",
+              "Psychic Mastery 2",
+              "Shock Assault",
+              "Chief Librarian",
+              "Psychic Phase.",
+              "Whispers on the Wind"
+            ]
+          }
+        ],
+        "fixed_wargear": [
+          "Bolt Pistol",
+          "Force Sword",
+          "Frag Grenades",
+          "Krak Grenades",
+          "Mirage",
+          "Iron Halo",
+          "Psychic Hood",
+          "Talisman of Sundered Souls"
+        ],
+        "options": [
+          {
+            "description": "May take up to one S",
+            "choices": []
+          },
+          {
+            "description": "May take Terminator Armour",
+            "choices": [
+              {
+                "name": "Terminator Armour",
+                "pts_delta": 10
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,520 @@
+{
+  "id": "black-templar",
+  "name": "Black Templar",
+  "difficulty": 1,
+  "subfactions": [
+    {
+      "name": "Average"
+    },
+    {
+      "name": "Black Templar"
+    }
+  ],
+  "slots": {
+    "hq": [
+      {
+        "name": "Grimaldus",
+        "points_base": 301,
+        "composition": "1 Grimaldus 0-4 Cenobyte Servitors",
+        "models": [
+          {
+            "name": "Grimaldus",
+            "stats": {
+              "M": "6",
+              "WS": "2+",
+              "BS": "2+",
+              "S": "4",
+              "T": "4",
+              "W": "6",
+              "I": "4",
+              "A": "5",
+              "Ld": "11",
+              "Sv": "3+"
+            },
+            "rules": [
+              "Independent Character",
+              "Infantry",
+              "Unique",
+              "Chief Chaplain",
+              "Black Templars",
+              "Adjusted Tactics",
+              "Bolter Discipline",
+              "Know No Fear",
+              "Objective Secured",
+              "Shock Assault",
+              "Canticle of Hate",
+              "Litany of Faith",
+              "Save.",
+              "Unmatched Zeal",
+              "Charging.",
+              "You Swore to Me"
+            ]
+          },
+          {
+            "name": "Cenobyte Servitor",
+            "stats": {
+              "M": "6",
+              "WS": "4+",
+              "BS": "4+",
+              "S": "4",
+              "T": "4",
+              "W": "1",
+              "I": "3",
+              "A": "1",
+              "Ld": "8",
+              "Sv": "4+"
+            },
+            "rules": []
+          }
+        ],
+        "fixed_wargear": [
+          "Plasma Pistol",
+          "Crozium Arcanum",
+          "Frag Grenades",
+          "Krak Grenades",
+          "Rosarius",
+          "Relics of Helsreach"
+        ],
+        "options": [
+          {
+            "description": "May take one B",
+            "choices": [
+              {
+                "name": "Jump Pack",
+                "pts_delta": 20
+              }
+            ]
+          },
+          {
+            "description": "May take one C",
+            "choices": [
+              {
+                "name": "Rubicon Primaris",
+                "pts_delta": 26
+              }
+            ]
+          },
+          {
+            "description": "May take a unit of 4 Cenobyte Servitors for +82 points",
+            "choices": []
+          }
+        ]
+      },
+      {
+        "name": "High Marshal Helbrecht",
+        "points_base": 531,
+        "composition": "1 Helbrecht",
+        "models": [
+          {
+            "name": "Helbrecht",
+            "stats": {
+              "M": "4",
+              "WS": "2+",
+              "BS": "2+",
+              "S": "4",
+              "T": "4",
+              "W": "7",
+              "I": "5",
+              "A": "5",
+              "Ld": "11",
+              "Sv": "3+"
+            },
+            "rules": [
+              "Independent Character",
+              "Monstrous Infantry",
+              "Chapter Master",
+              "Black Templars",
+              "Bolter Discipline",
+              "Know No Fear",
+              "Deepstrike",
+              "Furious Charge",
+              "Night Vision",
+              "Shock Assault",
+              "Steady",
+              "Very Bulky",
+              "Battle Drills",
+              "Crusade of Wrath",
+              "The Hour is Nigh"
+            ]
+          }
+        ],
+        "fixed_wargear": [
+          "Combi Melta",
+          "Sword of the High Marshals",
+          "Frag Grenades",
+          "Krak Grenades",
+          "Orbital Strike",
+          "Iron Halo"
+        ],
+        "options": [
+          {
+            "description": "May take one B",
+            "choices": []
+          }
+        ]
+      }
+    ],
+    "advisors": [
+      {
+        "name": "Emperor\u2019s Champion",
+        "points_base": 200,
+        "composition": "1 Champion",
+        "models": [
+          {
+            "name": "Champion",
+            "stats": {
+              "M": "6",
+              "WS": "2+",
+              "BS": "2+",
+              "S": "4",
+              "T": "4",
+              "W": "5",
+              "I": "6",
+              "A": "5",
+              "Ld": "10",
+              "Sv": "3+"
+            },
+            "rules": [
+              "Independent Character",
+              "Infantry",
+              "Chapter Champion",
+              "Black Templars",
+              "Know No Fear",
+              "Counterattack",
+              "Objective Secured",
+              "Shock Assault",
+              "Chapter Champion",
+              "Glory Hunter"
+            ]
+          }
+        ],
+        "fixed_wargear": [
+          "Bolt Pistol",
+          "The Black Sword",
+          "Frag Grenades",
+          "Krak Grenades",
+          "Armour of Faith"
+        ],
+        "options": [
+          {
+            "description": "May take one B",
+            "choices": [
+              {
+                "name": "Rubicon Primaris",
+                "pts_delta": 16
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "troops": [
+      {
+        "name": "Crusader Squad",
+        "points_base": 199,
+        "composition": "1 Sword Brother 4-9 Initiates 0-10 Neophytes",
+        "models": [
+          {
+            "name": "Sword Brother",
+            "stats": {
+              "M": "6",
+              "WS": "3+",
+              "BS": "3+",
+              "S": "4",
+              "T": "4",
+              "W": "2",
+              "I": "4",
+              "A": "2",
+              "Ld": "10",
+              "Sv": "3+"
+            },
+            "rules": [
+              "Character",
+              "Infantry",
+              "Black Templars",
+              "Adjusted Tactics",
+              "Bolter Discipline",
+              "Know No Fear",
+              "Tactical Squads",
+              "Night Vision",
+              "Objective Secured",
+              "Shock Assault"
+            ]
+          },
+          {
+            "name": "Initiate",
+            "stats": {
+              "M": "6",
+              "WS": "3+",
+              "BS": "3+",
+              "S": "4",
+              "T": "4",
+              "W": "2",
+              "I": "4",
+              "A": "1",
+              "Ld": "9",
+              "Sv": "3+"
+            },
+            "rules": [
+              "Infantry",
+              "Black Templars",
+              "Adjusted Tactics",
+              "Bolter Discipline",
+              "Know No Fear",
+              "Tactical Squads",
+              "Night Vision",
+              "Objective Secured",
+              "Shock Assault"
+            ]
+          },
+          {
+            "name": "Neophyte",
+            "stats": {
+              "M": "6",
+              "WS": "3+",
+              "BS": "3+",
+              "S": "4",
+              "T": "4",
+              "W": "2",
+              "I": "4",
+              "A": "1",
+              "Ld": "8",
+              "Sv": "4+"
+            },
+            "rules": [
+              "Infantry",
+              "Black Templars",
+              "Adjusted Tactics",
+              "Bolter Discipline",
+              "Know No Fear",
+              "Tactical Squads",
+              "Night Vision",
+              "Objective Secured",
+              "Shock Assault"
+            ]
+          }
+        ],
+        "fixed_wargear": [
+          "Boltgun",
+          "Bolt Pistol",
+          "Combat Knife",
+          "Frag Grenades",
+          "Krak Grenades",
+          "Boltgun",
+          "Bolt Pistol",
+          "Combat Knife",
+          "Frag Grenades",
+          "Krak Grenades",
+          "Shotgun",
+          "Bolt Pistol",
+          "Combat Knife",
+          "Frag Grenades",
+          "Krak Grenades"
+        ],
+        "options": [
+          {
+            "description": "May take up to 5 more Initiates for +39 points each",
+            "choices": []
+          },
+          {
+            "description": "May take up to 10 Neophytes for +33 points each Sergeant may swap Boltgun for OR, P, M, or A Sergeant may swap Bolt Pistol for P or M Sergeant may swap Krak Grenades for G Up to two Initiates may swap Boltgun for H, M, or S Any Initiate may swap Combat Knife for Chainsword Any Neophyte may swap Shotgun for NR",
+            "choices": []
+          },
+          {
+            "description": "May take Stormshield",
+            "choices": [
+              {
+                "name": "Stormshield",
+                "pts_delta": 10
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Primaris Crusader Squad",
+        "points_base": 204,
+        "composition": "1 Sword Brother 4-9 Initiate 0-10 Neophytes",
+        "models": [
+          {
+            "name": "Sword Brother",
+            "stats": {
+              "M": "6",
+              "WS": "3+",
+              "BS": "3+",
+              "S": "4",
+              "T": "4",
+              "W": "2",
+              "I": "4",
+              "A": "3",
+              "Ld": "10",
+              "Sv": "3+"
+            },
+            "rules": [
+              "Character",
+              "Infantry",
+              "Black Templars",
+              "Bolter Discipline",
+              "Know No Fear",
+              "Transhuman Physiology",
+              "Bulky",
+              "Night Vision",
+              "Shock Assault",
+              "Stubborn"
+            ]
+          },
+          {
+            "name": "Initiate",
+            "stats": {
+              "M": "6",
+              "WS": "3+",
+              "BS": "3+",
+              "S": "4",
+              "T": "4",
+              "W": "2",
+              "I": "4",
+              "A": "2",
+              "Ld": "9",
+              "Sv": "3+"
+            },
+            "rules": [
+              "Infantry",
+              "Black Templars",
+              "Bolter Discipline",
+              "Know No Fear",
+              "Transhuman Physiology",
+              "Bulky",
+              "Night Vision",
+              "Shock Assault",
+              "Stubborn"
+            ]
+          },
+          {
+            "name": "Neophyte",
+            "stats": {
+              "M": "6",
+              "WS": "3+",
+              "BS": "3+",
+              "S": "4",
+              "T": "4",
+              "W": "2",
+              "I": "4",
+              "A": "2",
+              "Ld": "8",
+              "Sv": "4+"
+            },
+            "rules": [
+              "Infantry",
+              "Black Templars",
+              "Bolter Discipline",
+              "Know No Fear",
+              "Transhuman Physiology",
+              "Bulky",
+              "Night Vision",
+              "Shock Assault",
+              "Stubborn"
+            ]
+          }
+        ],
+        "fixed_wargear": [
+          "Heavy Bolt Pistol",
+          "Power sword",
+          "Frag Grenades",
+          "Krak Grenades",
+          "Heavy Bolt Pistol",
+          "Combat Knife",
+          "Frag Grenades",
+          "Krak Grenades",
+          "Bolt Pistol",
+          "Chainsword",
+          "Frag Grenades",
+          "Krak Grenades"
+        ],
+        "options": [
+          {
+            "description": "May take up to 5 more Initiates for +40 points each",
+            "choices": []
+          },
+          {
+            "description": "May take up to 10 Neophytes for +35 points each Sergeant may swap Heavy Bolt Pistol for OP Sergeant may swap Power Sword for OM Sergeant may swap Krak Grenades for G Any Initiate may swap Heavy Bolt Pistol for IP or IR Any Initiate may swap Combat Knife for IM Any Neophyte may swap Bolt Pistol for NR",
+            "choices": []
+          }
+        ]
+      },
+      {
+        "name": "Sword Brethren",
+        "points_base": 272,
+        "composition": "1 Sergeant 4-9 Marines",
+        "models": [
+          {
+            "name": "Sergeant",
+            "stats": {
+              "M": "6",
+              "WS": "2+",
+              "BS": "2+",
+              "S": "4",
+              "T": "4",
+              "W": "2",
+              "I": "4",
+              "A": "4",
+              "Ld": "10",
+              "Sv": "3+"
+            },
+            "rules": [
+              "Character",
+              "Infantry",
+              "Black Templars",
+              "Know No Fear",
+              "Transhuman Physiology",
+              "Bulky",
+              "Night Vision",
+              "Shock Assault",
+              "Stubborn"
+            ]
+          },
+          {
+            "name": "Marine",
+            "stats": {
+              "M": "6",
+              "WS": "2+",
+              "BS": "2+",
+              "S": "4",
+              "T": "4",
+              "W": "2",
+              "I": "4",
+              "A": "3",
+              "Ld": "9",
+              "Sv": "3+"
+            },
+            "rules": [
+              "Infantry",
+              "Black Templars",
+              "Know No Fear",
+              "Transhuman Physiology",
+              "Bulky",
+              "Night Vision",
+              "Shock Assault",
+              "Stubborn"
+            ]
+          }
+        ],
+        "fixed_wargear": [
+          "Heavy Bolt Pistol",
+          "Chainsword",
+          "Frag Grenades",
+          "Krak Grenades",
+          "Heavy Bolt Pistol",
+          "Chainsword",
+          "Frag Grenades",
+          "Krak Grenades"
+        ],
+        "options": [
+          {
+            "description": "May take up to 5 more Marines for +53 points each Sergeant may swap Krak Grenades for G Any model may swap Heavy Bolt Pistol for P Any model may swap Chainsword for M Any model may swap Heavy Bolt Pistol and Chainsword for SM",
+            "choices": []
+          }
+        ]
+      }
+    ]
+  }
+}

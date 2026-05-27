@@ -1,0 +1,2691 @@
+{
+  "id": "necrons",
+  "name": "Necron",
+  "difficulty": 1,
+  "subfactions": [
+    {
+      "name": "Average"
+    },
+    {
+      "name": "Maynarkh"
+    },
+    {
+      "name": "Mephrit"
+    },
+    {
+      "name": "Nephrekh"
+    },
+    {
+      "name": "Nihilakh"
+    },
+    {
+      "name": "Novokh"
+    },
+    {
+      "name": "Szarekhan"
+    },
+    {
+      "name": "Sautekh"
+    }
+  ],
+  "slots": {
+    "hq": [
+      {
+        "name": "Command Barge",
+        "points_base": 187,
+        "composition": "1 Command Barge",
+        "models": [
+          {
+            "name": "Command Barge",
+            "stats": {
+              "M": "12",
+              "WS": "2+",
+              "BS": "2+",
+              "S": "5",
+              "FA": "11",
+              "SA": "11",
+              "RA": "11",
+              "W": "8",
+              "I": "2",
+              "A": "4",
+              "Ld": "10",
+              "Sv": "3+"
+            },
+            "rules": [
+              "Independent Character",
+              "Vehicle",
+              "Tank",
+              "Living Metal",
+              "Quantum Shielding",
+              "Fearless",
+              "Soulless Machine",
+              "Flying",
+              "Open Topped",
+              "Steady",
+              "My Will Be Done",
+              "Relentless March"
+            ]
+          }
+        ],
+        "fixed_wargear": [
+          "Void Blade",
+          "Tesla Carbine"
+        ],
+        "options": [
+          {
+            "description": "May swap Staff of Light for M",
+            "choices": []
+          },
+          {
+            "description": "May swap Gauss Cannon for H",
+            "choices": []
+          },
+          {
+            "description": "May take one W",
+            "choices": []
+          },
+          {
+            "description": "May take up to one of each E",
+            "choices": [
+              {
+                "name": "Phase Shifter",
+                "pts_delta": 24
+              },
+              {
+                "name": "Resurrection Orb",
+                "pts_delta": 30
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Lokhust Lord",
+        "points_base": 187,
+        "composition": "1 Lokhust Lord",
+        "models": [
+          {
+            "name": "Lokhust Lord",
+            "stats": {
+              "M": "8",
+              "WS": "2+",
+              "BS": "2+",
+              "S": "5",
+              "T": "6",
+              "W": "6",
+              "I": "2",
+              "A": "4",
+              "Ld": "10",
+              "Sv": "3+"
+            },
+            "rules": [
+              "Independent Character",
+              "Monstrous Infantry",
+              "Living Metal",
+              "Reanimation",
+              "Fearless",
+              "Soulless Machine",
+              "Flying",
+              "Steady",
+              "Very Bulky",
+              "Improved Living Metal",
+              "Command Phase. This",
+              "Rule."
+            ]
+          }
+        ],
+        "fixed_wargear": [
+          "Void Blade"
+        ],
+        "options": [
+          {
+            "description": "May swap Void Blade for M",
+            "choices": []
+          },
+          {
+            "description": "May take one W",
+            "choices": []
+          },
+          {
+            "description": "May take up to one of each E",
+            "choices": [
+              {
+                "name": "Phase Shifter",
+                "pts_delta": 24
+              },
+              {
+                "name": "Resurrection Orb",
+                "pts_delta": 30
+              },
+              {
+                "name": "Sempiternal Weave",
+                "pts_delta": 10
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Lord",
+        "points_base": 100,
+        "composition": "1 Lord",
+        "models": [
+          {
+            "name": "Lord",
+            "stats": {
+              "M": "4",
+              "WS": "3+",
+              "BS": "3+",
+              "S": "5",
+              "T": "5",
+              "W": "5",
+              "I": "2",
+              "A": "3",
+              "Ld": "10",
+              "Sv": "3+"
+            },
+            "rules": [
+              "Independent Character",
+              "Infantry",
+              "Living Metal",
+              "Reanimation",
+              "Fearless",
+              "Soulless Machine",
+              "My Will Be Done"
+            ]
+          }
+        ],
+        "fixed_wargear": [
+          "Void Blade"
+        ],
+        "options": [
+          {
+            "description": "May swap Void Blade for M",
+            "choices": []
+          },
+          {
+            "description": "May take one W",
+            "choices": []
+          },
+          {
+            "description": "May take up to one of each E",
+            "choices": [
+              {
+                "name": "Phase Shifter",
+                "pts_delta": 24
+              },
+              {
+                "name": "Resurrection Orb",
+                "pts_delta": 30
+              },
+              {
+                "name": "Sempiternal Weave",
+                "pts_delta": 11
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Skorpekh Lord",
+        "points_base": 208,
+        "composition": "1 Skorpekh Lord",
+        "models": [
+          {
+            "name": "Skorpekh Lord",
+            "stats": {
+              "M": "8",
+              "WS": "2+",
+              "BS": "2+",
+              "S": "6",
+              "T": "6",
+              "W": "6",
+              "I": "2",
+              "A": "4",
+              "Ld": "10",
+              "Sv": "3+"
+            },
+            "rules": [
+              "Independent Character",
+              "Monstrous Infantry",
+              "Living Metal",
+              "Reanimation",
+              "Fearless",
+              "Soulless Machine",
+              "Very Bulky",
+              "United in Destruction"
+            ]
+          }
+        ],
+        "fixed_wargear": [
+          "Enmitic Annihilator",
+          "Flensing Claw",
+          "Hyperphase Harvester"
+        ],
+        "options": [
+          {
+            "description": "May take Phase Shifter",
+            "choices": [
+              {
+                "name": "Phase Shifter",
+                "pts_delta": 24
+              }
+            ]
+          },
+          {
+            "description": "May take Resurrection Orb",
+            "choices": [
+              {
+                "name": "Resurrection Orb",
+                "pts_delta": 30
+              }
+            ]
+          },
+          {
+            "description": "May take Sempiternal Weave",
+            "choices": [
+              {
+                "name": "Sempiternal Weave",
+                "pts_delta": 10
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Anrakyr the Traveler",
+        "points_base": 309,
+        "composition": "1 Anrakyr the Traveler",
+        "models": [
+          {
+            "name": "Anrakyr the Traveler",
+            "stats": {
+              "M": "4",
+              "WS": "2+",
+              "BS": "2+",
+              "S": "6",
+              "T": "5",
+              "W": "7",
+              "I": "2",
+              "A": "5",
+              "Ld": "10",
+              "Sv": "3+"
+            },
+            "rules": [
+              "Independent Character",
+              "Unique",
+              "Infantry",
+              "Living Metal",
+              "Reanimation",
+              "Fearless",
+              "Soulless Machine",
+              "Relentless March",
+              "My Will Be Done",
+              "Mind in the Machine"
+            ]
+          }
+        ],
+        "fixed_wargear": [
+          "Warscythe",
+          "Tachyon Arrow",
+          "Phase Shifter"
+        ],
+        "options": []
+      },
+      {
+        "name": "Illuminor Szeras",
+        "points_base": 305,
+        "composition": "1 Illuminor Szeras",
+        "models": [
+          {
+            "name": "Illuminor Szeras",
+            "stats": {
+              "M": "8",
+              "WS": "3+",
+              "BS": "3+",
+              "S": "6",
+              "T": "6",
+              "W": "7",
+              "I": "2",
+              "A": "4",
+              "Ld": "10",
+              "Sv": "3+"
+            },
+            "rules": [
+              "Independent Character",
+              "Unique",
+              "Monstrous Infantry",
+              "Living Metal",
+              "Reanimation",
+              "Fearless",
+              "Soulless Machine",
+              "Very Bulky",
+              "Empyric Overcharge",
+              "Mechanical Augmentation",
+              "Lord of Technology"
+            ]
+          }
+        ],
+        "fixed_wargear": [
+          "Eldritch Lance"
+        ],
+        "options": []
+      },
+      {
+        "name": "Nekrosor Ammentar",
+        "points_base": 291,
+        "composition": "1 Ammentar Lord",
+        "models": [
+          {
+            "name": "Ammentar",
+            "stats": {
+              "M": "10",
+              "WS": "2+",
+              "BS": "2+",
+              "S": "6",
+              "T": "6",
+              "W": "7",
+              "I": "2",
+              "A": "5",
+              "Ld": "10",
+              "Sv": "3+"
+            },
+            "rules": [
+              "Independent Character",
+              "Monstrous Infantry",
+              "Unique",
+              "Living Metal",
+              "Reanimation",
+              "Deepstrike",
+              "Fearless",
+              "Infiltrate",
+              "Soulless Machine",
+              "Very Bulky",
+              "Destroyer Madness",
+              "Only Moderately Insane",
+              "Destroyer Madness Test.",
+              "Lord of Destruction",
+              "Writhing Bodies"
+            ]
+          }
+        ],
+        "fixed_wargear": [
+          "Enmitic Annihilator",
+          "Unmaker Gauntlet",
+          "Nullstone Field Generator"
+        ],
+        "options": []
+      },
+      {
+        "name": "Nemesor Zahndrekh",
+        "points_base": 328,
+        "composition": "1 Nemesor Zahndrekh",
+        "models": [
+          {
+            "name": "Nemesor Zahndrekh",
+            "stats": {
+              "M": "4",
+              "WS": "2+",
+              "BS": "2+",
+              "S": "5",
+              "T": "5",
+              "W": "7",
+              "I": "2",
+              "A": "5",
+              "Ld": "10",
+              "Sv": "3+"
+            },
+            "rules": [
+              "Independent Character",
+              "Sautekh",
+              "Unique",
+              "Infantry",
+              "Living Metal",
+              "Reanimation",
+              "Fearless",
+              "Soulless Machine",
+              "Relentless March",
+              "My Will Be Done",
+              "Counter Tactics",
+              "Wargear.",
+              "Adaptive Strategy",
+              "Assault #."
+            ]
+          }
+        ],
+        "fixed_wargear": [
+          "Staff of Light",
+          "Phase Shifter"
+        ],
+        "options": []
+      },
+      {
+        "name": "Overlord",
+        "points_base": 230,
+        "composition": "1 Orikan the Diviner",
+        "models": [
+          {
+            "name": "Overlord",
+            "stats": {
+              "M": "4",
+              "WS": "2+",
+              "BS": "2+",
+              "S": "5",
+              "T": "5",
+              "W": "6",
+              "I": "2",
+              "A": "5",
+              "Ld": "10",
+              "Sv": "3+"
+            },
+            "rules": [
+              "Independent Character",
+              "Unique",
+              "Infantry",
+              "Canoptek",
+              "Living Metal",
+              "Reanimation",
+              "Fearless",
+              "Soulless Machine",
+              "Prescient Strike",
+              "The Stars are Right"
+            ]
+          }
+        ],
+        "fixed_wargear": [
+          "Void Blade"
+        ],
+        "options": [
+          {
+            "description": "May swap Void Blade for M",
+            "choices": []
+          },
+          {
+            "description": "May take one W",
+            "choices": []
+          },
+          {
+            "description": "May take up to one of each E",
+            "choices": []
+          }
+        ]
+      },
+      {
+        "name": "Overlord",
+        "points_base": 185,
+        "composition": "1 Overlord",
+        "models": [
+          {
+            "name": "Overlord",
+            "stats": {
+              "M": "4",
+              "WS": "2+",
+              "BS": "2+",
+              "S": "5",
+              "T": "5",
+              "W": "6",
+              "I": "2",
+              "A": "5",
+              "Ld": "10",
+              "Sv": "3+"
+            },
+            "rules": [
+              "Independent Character",
+              "Infantry",
+              "Unique",
+              "Living Metal",
+              "Reanimation",
+              "Fearless",
+              "Soulless Machine",
+              "My Will Be Done",
+              "Relentless March"
+            ]
+          }
+        ],
+        "fixed_wargear": [
+          "Void Blade"
+        ],
+        "options": [
+          {
+            "description": "May swap Void Blade for M",
+            "choices": []
+          },
+          {
+            "description": "May take one W",
+            "choices": []
+          },
+          {
+            "description": "May take up to one of each E Points: 230 1 Orikan the Diviner",
+            "choices": []
+          }
+        ]
+      },
+      {
+        "name": "Trazyn the Infinite",
+        "points_base": 348,
+        "composition": "1 Trazyn the Infinite",
+        "models": [
+          {
+            "name": "Trazyn the Infinite",
+            "stats": {
+              "M": "4",
+              "WS": "2+",
+              "BS": "5+",
+              "S": "5",
+              "T": "5",
+              "W": "7",
+              "I": "2",
+              "A": "5",
+              "Ld": "10",
+              "Sv": "3+"
+            },
+            "rules": [
+              "Independent Character",
+              "Unique",
+              "Infantry",
+              "Living Metal",
+              "Fearless",
+              "Soulless Machine",
+              "Relentless March",
+              "My Will Be Done",
+              "Surrogate Hosts"
+            ]
+          }
+        ],
+        "fixed_wargear": [
+          "Emphatic Obliterator",
+          "Phase Shifter"
+        ],
+        "options": []
+      }
+    ],
+    "advisors": [
+      {
+        "name": "Chronomancer",
+        "points_base": 169,
+        "composition": "1 Chronomancer",
+        "models": [
+          {
+            "name": "Chronomancer",
+            "stats": {
+              "M": "8",
+              "WS": "3+",
+              "BS": "3+",
+              "S": "4",
+              "T": "4",
+              "W": "4",
+              "I": "2",
+              "A": "1",
+              "Ld": "10",
+              "Sv": "4+"
+            },
+            "rules": [
+              "Independent Character",
+              "Infantry",
+              "Canoptek",
+              "Living Metal",
+              "Reanimation",
+              "Fearless",
+              "Soulless Machine"
+            ]
+          }
+        ],
+        "fixed_wargear": [
+          "Aeon Staff",
+          "Chronotendrils",
+          "Chronometron",
+          "Timesplinter Mantle"
+        ],
+        "options": [
+          {
+            "description": "May swap Aeon Staff for M",
+            "choices": []
+          },
+          {
+            "description": "May take one E",
+            "choices": []
+          }
+        ]
+      },
+      {
+        "name": "Plasmancer",
+        "points_base": 75,
+        "composition": "1 Cryptothrall",
+        "models": [
+          {
+            "name": "Plasmancer",
+            "stats": {
+              "M": "4",
+              "WS": "3+",
+              "BS": "3+",
+              "S": "4",
+              "T": "4",
+              "W": "4",
+              "I": "2",
+              "A": "1",
+              "Ld": "10",
+              "Sv": "4+"
+            },
+            "rules": [
+              "Infantry",
+              "Canoptek",
+              "Living Metal",
+              "Reanimation",
+              "Fearless",
+              "Soulless Machine",
+              "Bodyguard"
+            ]
+          }
+        ],
+        "fixed_wargear": [
+          "Plasmic Lance"
+        ],
+        "options": [
+          {
+            "description": "May take one E",
+            "choices": []
+          }
+        ]
+      },
+      {
+        "name": "Plasmancer",
+        "points_base": 96,
+        "composition": "1 Plasmancer",
+        "models": [
+          {
+            "name": "Plasmancer",
+            "stats": {
+              "M": "4",
+              "WS": "3+",
+              "BS": "3+",
+              "S": "4",
+              "T": "4",
+              "W": "4",
+              "I": "2",
+              "A": "1",
+              "Ld": "10",
+              "Sv": "4+"
+            },
+            "rules": [
+              "Independent Character",
+              "Infantry",
+              "Canoptek",
+              "Living Metal",
+              "Reanimation",
+              "Fearless",
+              "Soulless Machine",
+              "Living Lightning"
+            ]
+          }
+        ],
+        "fixed_wargear": [
+          "Plasmic Lance"
+        ],
+        "options": [
+          {
+            "description": "May take one E",
+            "choices": []
+          }
+        ]
+      },
+      {
+        "name": "Psychomancer",
+        "points_base": 82,
+        "composition": "1 Plasmancer",
+        "models": [
+          {
+            "name": "Psychomancer",
+            "stats": {
+              "M": "4",
+              "WS": "3+",
+              "BS": "3+",
+              "S": "4",
+              "T": "4",
+              "W": "4",
+              "I": "2",
+              "A": "1",
+              "Ld": "10",
+              "Sv": "4+"
+            },
+            "rules": [
+              "Independent Character",
+              "Infantry",
+              "Canoptek",
+              "Living Metal",
+              "Reanimation",
+              "Fearless",
+              "Soulless Machine",
+              "Harbringer of Doom",
+              "Psychokinesis"
+            ]
+          }
+        ],
+        "fixed_wargear": [
+          "Staff of Light"
+        ],
+        "options": [
+          {
+            "description": "May take one E",
+            "choices": []
+          }
+        ]
+      },
+      {
+        "name": "Technomancer",
+        "points_base": 56,
+        "composition": "1 Technomancer",
+        "models": [
+          {
+            "name": "Technomancer",
+            "stats": {
+              "M": "4",
+              "WS": "3+",
+              "BS": "3+",
+              "S": "4",
+              "T": "4",
+              "W": "4",
+              "I": "2",
+              "A": "1",
+              "Ld": "10",
+              "Sv": "4+"
+            },
+            "rules": [
+              "Independent Character",
+              "Infantry",
+              "Canoptek",
+              "Living Metal",
+              "Reanimation",
+              "Fearless",
+              "Soulless Machine",
+              "Nanoscarabs"
+            ]
+          }
+        ],
+        "fixed_wargear": [
+          "Staff of Light"
+        ],
+        "options": [
+          {
+            "description": "May take up to one each of T",
+            "choices": [
+              {
+                "name": "Canoptek Cloak",
+                "pts_delta": 18
+              }
+            ]
+          },
+          {
+            "description": "May take one E",
+            "choices": []
+          }
+        ]
+      },
+      {
+        "name": "Royal Warden",
+        "points_base": 104,
+        "composition": "1 Royal Warden",
+        "models": [
+          {
+            "name": "Royal Warden",
+            "stats": {
+              "M": "4",
+              "WS": "3+",
+              "BS": "3+",
+              "S": "5",
+              "T": "5",
+              "W": "4",
+              "I": "2",
+              "A": "3",
+              "Ld": "10",
+              "Sv": "3+"
+            },
+            "rules": [
+              "Independent Character",
+              "Infantry",
+              "Living Metal",
+              "Reanimation",
+              "Fearless",
+              "Soulless Machine",
+              "Vanquish the Living"
+            ]
+          }
+        ],
+        "fixed_wargear": [
+          "Relic Gauss Blaster"
+        ],
+        "options": []
+      },
+      {
+        "name": "Vargard Obyron",
+        "points_base": 158,
+        "composition": "1 Vargard Obyron",
+        "models": [
+          {
+            "name": "Vargard Obyron",
+            "stats": {
+              "M": "4",
+              "WS": "2+",
+              "BS": "5+",
+              "S": "5",
+              "T": "5",
+              "W": "4",
+              "I": "2",
+              "A": "3",
+              "Ld": "10",
+              "Sv": "2+"
+            },
+            "rules": [
+              "Independent Character",
+              "Infantry",
+              "Living Metal",
+              "Reanimation",
+              "Fearless",
+              "Soulless Machine",
+              "Bodyguard",
+              "Cleaving Counterblow",
+              "Step Slow.",
+              "Ghostwalk Mantle"
+            ]
+          }
+        ],
+        "fixed_wargear": [
+          "Warscythe"
+        ],
+        "options": []
+      }
+    ],
+    "troops": [
+      {
+        "name": "Warriors",
+        "points_base": 150,
+        "composition": "5-10 Immortals",
+        "models": [
+          {
+            "name": "Warriors",
+            "stats": {
+              "M": "4",
+              "WS": "3+",
+              "BS": "3+",
+              "S": "4",
+              "T": "4",
+              "W": "1",
+              "I": "1",
+              "A": "1",
+              "Ld": "10",
+              "Sv": "4+"
+            },
+            "rules": [
+              "Infantry",
+              "Reanimation",
+              "Fearless",
+              "Soulless Machine",
+              "Points: 200"
+            ]
+          }
+        ],
+        "fixed_wargear": [
+          "Gauss Flayer"
+        ],
+        "options": [
+          {
+            "description": "May add up to 10 more Warriors for +20 points each The entire unit may swap their Gauss Flayer for R",
+            "choices": []
+          }
+        ]
+      },
+      {
+        "name": "Warriors",
+        "points_base": 200,
+        "composition": "10-20 Warriors",
+        "models": [
+          {
+            "name": "Warriors",
+            "stats": {
+              "M": "4",
+              "WS": "3+",
+              "BS": "3+",
+              "S": "4",
+              "T": "4",
+              "W": "1",
+              "I": "1",
+              "A": "1",
+              "Ld": "10",
+              "Sv": "4+"
+            },
+            "rules": [
+              "Infantry",
+              "Reanimation",
+              "Fearless",
+              "Soulless Machine",
+              "Their Number is Legion",
+              "Reanimate."
+            ]
+          }
+        ],
+        "fixed_wargear": [
+          "Gauss Flayer"
+        ],
+        "options": [
+          {
+            "description": "May add up to 10 more Warriors for +20 points each The entire unit may swap their Gauss Flayer for R",
+            "choices": []
+          }
+        ]
+      }
+    ],
+    "elites": [
+      {
+        "name": "Flayed Ones",
+        "points_base": 195,
+        "composition": "5-10 Deathmarks",
+        "models": [
+          {
+            "name": "Flayed One",
+            "stats": {
+              "M": "4",
+              "WS": "3+",
+              "BS": "5+",
+              "S": "4",
+              "T": "4",
+              "W": "1",
+              "I": "2",
+              "A": "1",
+              "Ld": "10",
+              "Sv": "4+"
+            },
+            "rules": [
+              "Infantry",
+              "Reanimation",
+              "Fearless",
+              "Soulless Machine"
+            ]
+          }
+        ],
+        "fixed_wargear": [
+          "Flayer Claw"
+        ],
+        "options": [
+          {
+            "description": "May add up to 15 more Flayed Ones for +15 points each",
+            "choices": []
+          }
+        ]
+      },
+      {
+        "name": "Flayed Ones",
+        "points_base": 75,
+        "composition": "5-20 Flayed Ones",
+        "models": [
+          {
+            "name": "Flayed One",
+            "stats": {
+              "M": "4",
+              "WS": "3+",
+              "BS": "5+",
+              "S": "4",
+              "T": "4",
+              "W": "1",
+              "I": "2",
+              "A": "1",
+              "Ld": "10",
+              "Sv": "4+"
+            },
+            "rules": [
+              "Infantry",
+              "Reanimation",
+              "Fearless",
+              "Soulless Machine",
+              "Deepstrike",
+              "Their Number is Legion",
+              "Reanimate.",
+              "Flayer Virus"
+            ]
+          }
+        ],
+        "fixed_wargear": [
+          "Flayer Claw"
+        ],
+        "options": [
+          {
+            "description": "May add up to 15 more Flayed Ones for +15 points each",
+            "choices": []
+          }
+        ]
+      },
+      {
+        "name": "Pariahs",
+        "points_base": 245,
+        "composition": "5-10 Lychguard",
+        "models": [
+          {
+            "name": "Pariah",
+            "stats": {
+              "M": "4",
+              "WS": "3+",
+              "BS": "3+",
+              "S": "5",
+              "T": "5",
+              "W": "2",
+              "I": "2",
+              "A": "3",
+              "Ld": "10",
+              "Sv": "3+"
+            },
+            "rules": [
+              "Infantry",
+              "Living Metal",
+              "Reanimation",
+              "Fearless",
+              "Soulless Machine",
+              "Bodyguard"
+            ]
+          }
+        ],
+        "fixed_wargear": [
+          "Staff of Light"
+        ],
+        "options": [
+          {
+            "description": "May add up to 5 more Pariahs for +53 points each",
+            "choices": []
+          }
+        ]
+      },
+      {
+        "name": "Pariahs",
+        "points_base": 265,
+        "composition": "5-10 Pariahs",
+        "models": [
+          {
+            "name": "Pariah",
+            "stats": {
+              "M": "4",
+              "WS": "3+",
+              "BS": "3+",
+              "S": "5",
+              "T": "5",
+              "W": "2",
+              "I": "2",
+              "A": "3",
+              "Ld": "10",
+              "Sv": "3+"
+            },
+            "rules": [
+              "Infantry",
+              "Living Metal",
+              "Reanimation",
+              "Fearless",
+              "Soulless Machine",
+              "Empyric Overcharge"
+            ]
+          }
+        ],
+        "fixed_wargear": [
+          "Staff of Light"
+        ],
+        "options": [
+          {
+            "description": "May add up to 5 more Pariahs for +53 points each",
+            "choices": []
+          }
+        ]
+      },
+      {
+        "name": "Canoptek Reanimator",
+        "points_base": 195,
+        "composition": "1 Canoptek Reanimator",
+        "models": [
+          {
+            "name": "Canoptek Reanimator",
+            "stats": {
+              "M": "8",
+              "WS": "4+",
+              "BS": "4+",
+              "S": "5",
+              "T": "6",
+              "W": "6",
+              "I": "1",
+              "A": "3",
+              "Ld": "10",
+              "Sv": "3+"
+            },
+            "rules": [
+              "Monster",
+              "Canoptek",
+              "Living Metal",
+              "Fearless",
+              "Soulless Machine",
+              "Monster Escort",
+              "Character.",
+              "Reanimation Beam",
+              "Pain."
+            ]
+          }
+        ],
+        "fixed_wargear": [
+          "2 Linked Atomizer Beams",
+          "Reanimator Claws"
+        ],
+        "options": []
+      },
+      {
+        "name": "Canoptek Spyders",
+        "points_base": 105,
+        "composition": "1-3 Canoptek Spyders",
+        "models": [
+          {
+            "name": "Canoptek Spyder",
+            "stats": {
+              "M": "10",
+              "WS": "4+",
+              "BS": "4+",
+              "S": "4",
+              "T": "6",
+              "W": "6",
+              "I": "1",
+              "A": "4",
+              "Ld": "10",
+              "Sv": "3+"
+            },
+            "rules": [
+              "Monster",
+              "Canoptek",
+              "Living Metal",
+              "Fearless",
+              "Soulless Machine",
+              "Steady"
+            ]
+          }
+        ],
+        "fixed_wargear": [
+          "Automation Claws"
+        ],
+        "options": [
+          {
+            "description": "May take up to 2 more Canoptek Spyders for +105 points each Any model may take one H Any model may take one E option Any model may take one G option",
+            "choices": [
+              {
+                "name": "Repair Drones",
+                "pts_delta": 6
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Canoptek Tomb Stalker",
+        "points_base": 197,
+        "composition": "1 Canoptek Tomb Stalker",
+        "models": [
+          {
+            "name": "Canoptek Tomb Stalker",
+            "stats": {
+              "M": "10",
+              "WS": "4+",
+              "BS": "4+",
+              "S": "6",
+              "T": "7",
+              "W": "9",
+              "I": "2",
+              "A": "6",
+              "Ld": "10",
+              "Sv": "3+"
+            },
+            "rules": [
+              "Monster",
+              "Canoptek",
+              "Living Metal",
+              "Fearless",
+              "Soulless Machine",
+              "Deepstrike",
+              "Fleet",
+              "Outflank",
+              "Steady",
+              "War Construct",
+              "Rampage"
+            ]
+          }
+        ],
+        "fixed_wargear": [
+          "2 Linked Gauss Flayers",
+          "Tomb Sentinel Claws"
+        ],
+        "options": [
+          {
+            "description": "May take one H",
+            "choices": []
+          },
+          {
+            "description": "May take one G",
+            "choices": [
+              {
+                "name": "Gloom Prison",
+                "pts_delta": 2
+              }
+            ]
+          },
+          {
+            "description": "May take one S",
+            "choices": [
+              {
+                "name": "Sepulchral Scarabs",
+                "pts_delta": 2
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Hexmark Destroyers",
+        "points_base": 95,
+        "composition": "1-3 Hexmark Destroyers",
+        "models": [
+          {
+            "name": "Hexmark Destroyers",
+            "stats": {
+              "M": "8",
+              "WS": "3+",
+              "BS": "5+",
+              "S": "5",
+              "T": "5",
+              "W": "3",
+              "I": "2",
+              "A": "3",
+              "Ld": "10",
+              "Sv": "3+"
+            },
+            "rules": [
+              "Monstrous Infantry",
+              "Living Metal",
+              "Reanimation",
+              "Fearless",
+              "Soulless Machine",
+              "Deepstrike",
+              "Very Bulky",
+              "Never Stop Firing",
+              "P Canoptek Plasmacyte +30"
+            ]
+          }
+        ],
+        "fixed_wargear": [
+          "6 Linked Enmitic Disintegrator",
+          "Pistols",
+          "Enmitic Disintegrator Melee"
+        ],
+        "options": [
+          {
+            "description": "May add up to 2 more Hexmark Destroyers for +95 points This unit may take up to one of each P",
+            "choices": []
+          }
+        ]
+      },
+      {
+        "name": "Skorpekh Destroyers",
+        "points_base": 165,
+        "composition": "3-6 Skorpekh Destroyers",
+        "models": [
+          {
+            "name": "Skorpekh Destroyer",
+            "stats": {
+              "M": "8",
+              "WS": "3+",
+              "BS": "5+",
+              "S": "5",
+              "T": "5",
+              "W": "3",
+              "I": "2",
+              "A": "3",
+              "Ld": "10",
+              "Sv": "3+"
+            },
+            "rules": [
+              "Monstrous Infantry",
+              "Living Metal",
+              "Reanimation",
+              "Fearless",
+              "Soulless Machine",
+              "Very Bulky"
+            ]
+          }
+        ],
+        "fixed_wargear": [
+          "Hyperphase Threshers"
+        ],
+        "options": [
+          {
+            "description": "May add up to 6 more Skorpekh Destroyers for +55 points each Any model may swap Hyperphase Threshers for M The unit may take up to one of each P",
+            "choices": []
+          }
+        ]
+      },
+      {
+        "name": "Triarch Stalkers",
+        "points_base": 157,
+        "composition": "1-3 Triarch Stalkers",
+        "models": [
+          {
+            "name": "Triarch Stalker",
+            "stats": {
+              "M": "10",
+              "WS": "3+",
+              "BS": "3+",
+              "S": "7",
+              "FA": "11",
+              "SA": "11",
+              "RA": "11",
+              "W": "12",
+              "I": "2",
+              "A": "3",
+              "Ld": "10",
+              "Sv": "3+"
+            },
+            "rules": [
+              "Vehicle",
+              "Combat Walker",
+              "Living Metal",
+              "Quantum Shielding",
+              "Fearless",
+              "Soulless Machine",
+              "Open Topped",
+              "Steady",
+              "Targeting Relay"
+            ]
+          }
+        ],
+        "fixed_wargear": [
+          "Particle Shredder",
+          "Stalker Forelimbs"
+        ],
+        "options": [
+          {
+            "description": "May add up to 2 more Triarch Stalkers for +157 points each Any model may swap Particle Shredder for H",
+            "choices": []
+          }
+        ]
+      }
+    ],
+    "fast_attack": [
+      {
+        "name": "Tomb Blades",
+        "points_base": 126,
+        "composition": "3-9 Tomb Blades",
+        "models": [
+          {
+            "name": "Tomb Blade",
+            "stats": {
+              "M": "14",
+              "WS": "3+",
+              "BS": "3+",
+              "S": "4",
+              "T": "5",
+              "W": "2",
+              "I": "1",
+              "A": "1",
+              "Ld": "10",
+              "Sv": "4+"
+            },
+            "rules": [
+              "Infantry",
+              "Bike",
+              "Living Metal",
+              "Reanimation",
+              "Soulless Machine",
+              "Deepstrike",
+              "Fearless",
+              "Flying",
+              "Very Bulky",
+              "Shroud"
+            ]
+          }
+        ],
+        "fixed_wargear": [
+          "Particle Beamer"
+        ],
+        "options": [
+          {
+            "description": "May take up to 6 more Tomb Blades for +42 points each The entire unit may swap Particle Beamer for H The entire unit may take one S The entire unit may take one V",
+            "choices": [
+              {
+                "name": "Nebuloscope",
+                "pts_delta": 2
+              },
+              {
+                "name": "Shadowloom",
+                "pts_delta": 3
+              },
+              {
+                "name": "Shield Vanes",
+                "pts_delta": 2
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Triarch Praetorians",
+        "points_base": 295,
+        "composition": "5-10 Triarch Praetorians",
+        "models": [
+          {
+            "name": "Triarch Praetorian",
+            "stats": {
+              "M": "10",
+              "WS": "2+",
+              "BS": "2+",
+              "S": "4",
+              "T": "5",
+              "W": "2",
+              "I": "2",
+              "A": "3",
+              "Ld": "10",
+              "Sv": "3+"
+            },
+            "rules": [
+              "Infantry",
+              "Reanimation",
+              "Soulless Machine",
+              "Bulky",
+              "Deepstrike",
+              "Fearless",
+              "Flying",
+              "Agents of the Silent King"
+            ]
+          }
+        ],
+        "fixed_wargear": [
+          "Void Blade",
+          "Particle Caster"
+        ],
+        "options": [
+          {
+            "description": "May take up to 5 more Triarch Praetorians for +59 points each The entire unit may swap their Void Blade and Particle Caster for M",
+            "choices": []
+          }
+        ]
+      },
+      {
+        "name": "Canoptek Tomb Sentinel",
+        "points_base": 120,
+        "composition": "3-10 Scarab Swarms",
+        "models": [
+          {
+            "name": "Canoptek Tomb Sentinel",
+            "stats": {
+              "M": "10",
+              "WS": "4+",
+              "BS": "4+",
+              "S": "6",
+              "T": "7",
+              "W": "9",
+              "I": "2",
+              "A": "6",
+              "Ld": "10",
+              "Sv": "3+"
+            },
+            "rules": [
+              "Swarm",
+              "Canoptek",
+              "Reanimation",
+              "Living Metal",
+              "Fearless",
+              "Soulless Machine",
+              "Flying",
+              "Deepstrike",
+              "Clog the Barrels"
+            ]
+          }
+        ],
+        "fixed_wargear": [
+          "Exile Cannon",
+          "Tomb Sentinel Claws"
+        ],
+        "options": [
+          {
+            "description": "May take one H",
+            "choices": []
+          },
+          {
+            "description": "May take one G",
+            "choices": []
+          },
+          {
+            "description": "May take one S",
+            "choices": []
+          }
+        ]
+      },
+      {
+        "name": "Canoptek Tomb Sentinel",
+        "points_base": 232,
+        "composition": "1 Canoptek Tomb Sentinel",
+        "models": [
+          {
+            "name": "Canoptek Tomb Sentinel",
+            "stats": {
+              "M": "10",
+              "WS": "4+",
+              "BS": "4+",
+              "S": "6",
+              "T": "7",
+              "W": "9",
+              "I": "2",
+              "A": "6",
+              "Ld": "10",
+              "Sv": "3+"
+            },
+            "rules": [
+              "Monster",
+              "Canoptek",
+              "Living Metal",
+              "Fearless",
+              "Soulless Machine",
+              "Deepstrike",
+              "Fleet",
+              "Outflank",
+              "Steady",
+              "War Construct",
+              "Rampage"
+            ]
+          }
+        ],
+        "fixed_wargear": [
+          "Exile Cannon",
+          "Tomb Sentinel Claws"
+        ],
+        "options": [
+          {
+            "description": "May take one H",
+            "choices": []
+          },
+          {
+            "description": "May take one G",
+            "choices": []
+          },
+          {
+            "description": "May take one S",
+            "choices": []
+          }
+        ]
+      },
+      {
+        "name": "Canoptek Acanthrites",
+        "points_base": 273,
+        "composition": "3-6 Canoptek Acanthrites",
+        "models": [
+          {
+            "name": "Canoptek Acanthrite",
+            "stats": {
+              "M": "12",
+              "WS": "4+",
+              "BS": "4+",
+              "S": "4",
+              "T": "5",
+              "W": "3",
+              "I": "2",
+              "A": "2",
+              "Ld": "10",
+              "Sv": "3+"
+            },
+            "rules": [
+              "Monstrous Infantry",
+              "Canoptek",
+              "Reanimation",
+              "Living Metal",
+              "Fearless",
+              "Soulless Machine",
+              "Flying",
+              "Deepstrike",
+              "Stealth",
+              "Very Bulky"
+            ]
+          }
+        ],
+        "fixed_wargear": [
+          "Cutting Beam",
+          "Void Blade"
+        ],
+        "options": [
+          {
+            "description": "May add up to 6 more Canoptek Acanthrites for +91 points each",
+            "choices": []
+          }
+        ]
+      },
+      {
+        "name": "Canoptek Wraiths",
+        "points_base": 300,
+        "composition": "3-6 Canoptek Wraiths",
+        "models": [
+          {
+            "name": "Canoptek Wraith",
+            "stats": {
+              "M": "12",
+              "WS": "4+",
+              "BS": "4+",
+              "S": "4",
+              "T": "5",
+              "W": "3",
+              "I": "2",
+              "A": "4",
+              "Ld": "10",
+              "Sv": "3+"
+            },
+            "rules": [
+              "Monstrous Infantry",
+              "Canoptek",
+              "Reanimation",
+              "Living Metal",
+              "Fearless",
+              "Soulless Machine",
+              "Very Bulky",
+              "Wrath Form",
+              "Phase Generator"
+            ]
+          }
+        ],
+        "fixed_wargear": [
+          "Vicious Blades"
+        ],
+        "options": [
+          {
+            "description": "May add up to 6 more Canoptek Wraiths for +100 points each Any Wraith may take one S",
+            "choices": []
+          }
+        ]
+      },
+      {
+        "name": "Ophydian Destroyers",
+        "points_base": 168,
+        "composition": "3-6 Ophydian Destroyers",
+        "models": [
+          {
+            "name": "Ophydian Destroyer",
+            "stats": {
+              "M": "10",
+              "WS": "3+",
+              "BS": "5+",
+              "S": "4",
+              "T": "4",
+              "W": "3",
+              "I": "2",
+              "A": "3",
+              "Ld": "10",
+              "Sv": "4+"
+            },
+            "rules": [
+              "Monstrous Infantry",
+              "Hard Wired For Destruction",
+              "Living Metal",
+              "Reanimation",
+              "Fearless",
+              "Soulless Machine",
+              "Infiltrate",
+              "Stealth",
+              "Very Bulky",
+              "Writhing Bodies"
+            ]
+          }
+        ],
+        "fixed_wargear": [
+          "Hyperphase Threshers"
+        ],
+        "options": [
+          {
+            "description": "May add up to 6 more Ophydian Destroyers for +56 points each Any Ophydian may swap Hyperphase Threshers for M The unit may take one of each P",
+            "choices": []
+          }
+        ]
+      }
+    ],
+    "heavy_support": [
+      {
+        "name": "Canoptek Doomstalkers",
+        "points_base": 231,
+        "composition": "1-3 Canoptek Doomstalkers",
+        "models": [
+          {
+            "name": "Canoptek Doomstalker",
+            "stats": {
+              "M": "10",
+              "WS": "4+",
+              "BS": "4+",
+              "S": "6",
+              "T": "7",
+              "W": "8",
+              "I": "2",
+              "A": "3",
+              "Ld": "10",
+              "Sv": "3+"
+            },
+            "rules": [
+              "Monster",
+              "Canoptek",
+              "Living Metal",
+              "Fearless",
+              "Soulless Machine"
+            ]
+          }
+        ],
+        "fixed_wargear": [
+          "Doomsday Blaster",
+          "2 Linked Gauss Flayers",
+          "Containment Field"
+        ],
+        "options": [
+          {
+            "description": "May add up to 2 more Canoptek Doomstalkers for +231 points each",
+            "choices": []
+          }
+        ]
+      },
+      {
+        "name": "Heavy Lokhust Destroyers",
+        "points_base": 222,
+        "composition": "3-6 Lokhust Destroyers",
+        "models": [
+          {
+            "name": "Heavy Lokhust Destroyer",
+            "stats": {
+              "M": "8",
+              "WS": "3+",
+              "BS": "3+",
+              "S": "4",
+              "T": "5",
+              "W": "4",
+              "I": "2",
+              "A": "2",
+              "Ld": "10",
+              "Sv": "3+"
+            },
+            "rules": [
+              "Monstrous Infantry",
+              "Hard Wired For Destruction",
+              "Living Metal",
+              "Reanimation",
+              "Fearless",
+              "Soulless Machine",
+              "Flying",
+              "Steady"
+            ]
+          }
+        ],
+        "fixed_wargear": [
+          "Gauss Destructor"
+        ],
+        "options": [
+          {
+            "description": "May add up to 2 more Heavy Lokhust Destroyers for +98 points each Any Heavy Lokhust Destroyer",
+            "choices": []
+          },
+          {
+            "description": "may swap Gauss Destructor for H The Unit may take one P",
+            "choices": []
+          }
+        ]
+      },
+      {
+        "name": "Heavy Lokhust Destroyers",
+        "points_base": 98,
+        "composition": "1-3 Heavy Lokhust Destroyers",
+        "models": [
+          {
+            "name": "Heavy Lokhust Destroyer",
+            "stats": {
+              "M": "8",
+              "WS": "3+",
+              "BS": "3+",
+              "S": "4",
+              "T": "5",
+              "W": "4",
+              "I": "2",
+              "A": "2",
+              "Ld": "10",
+              "Sv": "3+"
+            },
+            "rules": [
+              "Monstrous Infantry",
+              "Hard Wired For Destruction",
+              "Living Metal",
+              "Reanimation",
+              "Fearless",
+              "Soulless Machine",
+              "Flying",
+              "Steady"
+            ]
+          }
+        ],
+        "fixed_wargear": [
+          "Gauss Destructor"
+        ],
+        "options": [
+          {
+            "description": "May add up to 2 more Heavy Lokhust Destroyers for +98 points each Any Heavy Lokhust Destroyer",
+            "choices": []
+          },
+          {
+            "description": "may swap Gauss Destructor for H The Unit may take one P",
+            "choices": []
+          }
+        ]
+      },
+      {
+        "name": "Annihilation Barges",
+        "points_base": 113,
+        "composition": "1-3 Annihilation Barges",
+        "models": [
+          {
+            "name": "Annihilation Barge",
+            "stats": {
+              "M": "12",
+              "WS": "5+",
+              "BS": "3+",
+              "S": "5",
+              "FA": "11",
+              "SA": "11",
+              "RA": "11",
+              "W": "8",
+              "I": "1",
+              "A": "3",
+              "Ld": "10",
+              "Sv": "3+"
+            },
+            "rules": [
+              "Vehicle",
+              "Tank",
+              "Living Metal",
+              "Quantum Shielding",
+              "Fearless",
+              "Soulless Machine",
+              "Flying",
+              "Open Topped"
+            ]
+          }
+        ],
+        "fixed_wargear": [
+          "2 Linked Tesla Destroyers",
+          "Tesla Cannon"
+        ],
+        "options": [
+          {
+            "description": "May add up to 2 more Annihilation Barges for +113 points each Any Annihilation Barge may swap Tesla Cannon for Gauss Cannon",
+            "choices": []
+          }
+        ]
+      },
+      {
+        "name": "Doomsday Ark",
+        "points_base": 149,
+        "composition": "1 Doomsday Ark",
+        "models": [
+          {
+            "name": "Doomsday Ark",
+            "stats": {
+              "M": "12",
+              "WS": "5+",
+              "BS": "3+",
+              "S": "6",
+              "FA": "11",
+              "SA": "11",
+              "RA": "11",
+              "W": "14",
+              "I": "1",
+              "A": "3",
+              "Ld": "10",
+              "Sv": "3+"
+            },
+            "rules": [
+              "Vehicle",
+              "Tank",
+              "Living Metal",
+              "Quantum Shielding",
+              "Fearless",
+              "Soulless Machine",
+              "Flying",
+              "Open Topped"
+            ]
+          }
+        ],
+        "fixed_wargear": [
+          "Doomsday Blaster",
+          "5 Linked Gauss Flayers",
+          "5 Linked Gauss Flayers"
+        ],
+        "options": []
+      },
+      {
+        "name": "Tesseract Ark",
+        "points_base": 112,
+        "composition": "1 Tesseract Ark",
+        "models": [
+          {
+            "name": "Tesseract Ark",
+            "stats": {
+              "M": "12",
+              "WS": "5+",
+              "BS": "3+",
+              "S": "5",
+              "FA": "12",
+              "SA": "12",
+              "RA": "12",
+              "W": "10",
+              "I": "1",
+              "A": "3",
+              "Ld": "10",
+              "Sv": "3+"
+            },
+            "rules": [
+              "Vehicle",
+              "Tank",
+              "Living Metal",
+              "Quantum Shielding",
+              "Fearless",
+              "Soulless Machine",
+              "Flying",
+              "Open Topped"
+            ]
+          }
+        ],
+        "fixed_wargear": [
+          "Tesseract Singularity Chamber",
+          "2 Linked Tesla Carbines"
+        ],
+        "options": [
+          {
+            "description": "May swap 2 Linked Tesla Carbines for S",
+            "choices": []
+          }
+        ]
+      },
+      {
+        "name": "Sentry Pylons",
+        "points_base": 81,
+        "composition": "1-3 Sentry Pylons",
+        "models": [
+          {
+            "name": "Sentry Pylon",
+            "stats": {},
+            "rules": [
+              "Monster",
+              "Living Metal",
+              "Fearless",
+              "Soulless Machine",
+              "Immobile",
+              "Deepstrike"
+            ]
+          }
+        ],
+        "fixed_wargear": [
+          "Focused Death Ray",
+          "Sepulchral Scarabs"
+        ],
+        "options": [
+          {
+            "description": "May add up to 2 more Sentry Pylons for +81 points each Any model may swap Focused Death Ray for T",
+            "choices": []
+          }
+        ]
+      }
+    ],
+    "flyers": [
+      {
+        "name": "Doom Scythe",
+        "points_base": 194,
+        "composition": "1 Doom Scythe",
+        "models": [
+          {
+            "name": "Doom Scythe",
+            "stats": {
+              "M": "50",
+              "WS": "5+",
+              "BS": "3+",
+              "S": "6",
+              "FA": "11",
+              "SA": "11",
+              "RA": "11",
+              "W": "12",
+              "I": "1",
+              "A": "3",
+              "Ld": "10",
+              "Sv": "3+"
+            },
+            "rules": [
+              "Vehicle",
+              "Living Metal",
+              "Fearless",
+              "High Altitude"
+            ]
+          }
+        ],
+        "fixed_wargear": [
+          "2 Linked Tesla Destructors",
+          "Death Ray"
+        ],
+        "options": []
+      },
+      {
+        "name": "Night Shroud Bomber",
+        "points_base": 157,
+        "composition": "1 Night Scythe",
+        "models": [
+          {
+            "name": "Night Shroud Bomber",
+            "stats": {
+              "M": "50",
+              "WS": "5+",
+              "BS": "3+",
+              "S": "6",
+              "FA": "12",
+              "SA": "12",
+              "RA": "12",
+              "W": "14",
+              "I": "1",
+              "A": "3",
+              "Ld": "10",
+              "Sv": "3+"
+            },
+            "rules": [
+              "Vehicle",
+              "Living Metal",
+              "Fearless",
+              "High Altitude",
+              "Invasion Beam",
+              "Points: 221"
+            ]
+          }
+        ],
+        "fixed_wargear": [
+          "2 Linked Tesla Destructors",
+          "Death Sphere"
+        ],
+        "options": []
+      },
+      {
+        "name": "Night Shroud Bomber",
+        "points_base": 221,
+        "composition": "1 Night Shroud Bomber",
+        "models": [
+          {
+            "name": "Night Shroud Bomber",
+            "stats": {
+              "M": "50",
+              "WS": "5+",
+              "BS": "3+",
+              "S": "6",
+              "FA": "12",
+              "SA": "12",
+              "RA": "12",
+              "W": "14",
+              "I": "1",
+              "A": "3",
+              "Ld": "10",
+              "Sv": "3+"
+            },
+            "rules": [
+              "Vehicle",
+              "Living Metal",
+              "Fearless",
+              "High Altitude"
+            ]
+          }
+        ],
+        "fixed_wargear": [
+          "2 Linked Tesla Destructors",
+          "Death Sphere"
+        ],
+        "options": []
+      }
+    ],
+    "dedicated_transport": [
+      {
+        "name": "Ghost Ark",
+        "points_base": 185,
+        "composition": "1 Ghost Ark",
+        "models": [
+          {
+            "name": "Ghost Ark",
+            "stats": {
+              "M": "12",
+              "WS": "5+",
+              "BS": "3+",
+              "S": "6",
+              "FA": "11",
+              "SA": "11",
+              "RA": "11",
+              "W": "14",
+              "I": "1",
+              "A": "3",
+              "Ld": "10",
+              "Sv": "3+"
+            },
+            "rules": [
+              "Vehicle",
+              "Tank",
+              "Living Metal",
+              "Quantum Shielding",
+              "Fearless",
+              "Soulless Machine",
+              "Flying",
+              "Open Topped",
+              "Transport 10",
+              "Repair Barge"
+            ]
+          }
+        ],
+        "fixed_wargear": [
+          "5 Linked Gauss Flayers",
+          "5 Linked Gauss Flayers"
+        ],
+        "options": []
+      }
+    ],
+    "lord_of_war": [
+      {
+        "name": "C\u2019Tan Shards",
+        "points_base": 374,
+        "composition": "1 C\u2019Tan Shard of the Deceiver",
+        "models": [
+          {
+            "name": "C\u2019Tan Shard of the Deceiver",
+            "stats": {
+              "M": "8",
+              "WS": "2+",
+              "BS": "2+",
+              "S": "6",
+              "T": "8",
+              "W": "12",
+              "I": "4",
+              "A": "6",
+              "Ld": "10",
+              "Sv": "3+"
+            },
+            "rules": []
+          },
+          {
+            "name": "Deceiver",
+            "stats": {},
+            "rules": [
+              "Monster",
+              "Unique",
+              "Living Metal",
+              "Fearless",
+              "Soulless Machine",
+              "Dread",
+              "Grand Illusion",
+              "Monsterbane."
+            ]
+          }
+        ],
+        "fixed_wargear": [
+          "Golden Fists",
+          "Necrodermis"
+        ],
+        "options": [
+          {
+            "description": "May choose one C\u2019Tan Power or randomly choose one each turn for +27 points",
+            "choices": []
+          }
+        ]
+      },
+      {
+        "name": "C\u2019Tan Shard of the Nightbringer",
+        "points_base": 338,
+        "composition": "1 C\u2019Tan Shard of the Nightbringer",
+        "models": [
+          {
+            "name": "Nightbringer",
+            "stats": {
+              "M": "8",
+              "WS": "2+",
+              "BS": "2+",
+              "S": "6",
+              "T": "8",
+              "W": "12",
+              "I": "4",
+              "A": "6",
+              "Ld": "10",
+              "Sv": "-"
+            },
+            "rules": [
+              "Monster",
+              "Unique",
+              "Living Metal",
+              "Fearless",
+              "Soulless Machine",
+              "Death",
+              "Gaze of Death",
+              "Monsterbane."
+            ]
+          }
+        ],
+        "fixed_wargear": [
+          "Scythe of the Nightbringer",
+          "Necrodermis"
+        ],
+        "options": [
+          {
+            "description": "May choose one C\u2019Tan Power or randomly choose one each turn for +27 points",
+            "choices": []
+          }
+        ]
+      },
+      {
+        "name": "C\u2019Tan Shard of the Void Dragon",
+        "points_base": 382,
+        "composition": "1 C\u2019Tan Shard of the Void Dragon",
+        "models": [
+          {
+            "name": "Void Dragon",
+            "stats": {
+              "M": "8",
+              "WS": "2+",
+              "BS": "2+",
+              "S": "6",
+              "T": "8",
+              "W": "12",
+              "I": "4",
+              "A": "6",
+              "Ld": "10",
+              "Sv": "-"
+            },
+            "rules": [
+              "Monster",
+              "Unique",
+              "Living Metal",
+              "Fearless",
+              "Soulless Machine",
+              "Matter Absorption",
+              "Monsterbane."
+            ]
+          }
+        ],
+        "fixed_wargear": [
+          "Spear of the Void Dragon",
+          "Canoptek Tail Blades",
+          "Necrodermis"
+        ],
+        "options": [
+          {
+            "description": "May choose one C\u2019Tan Power or randomly choose one each turn for +27 points",
+            "choices": []
+          }
+        ]
+      },
+      {
+        "name": "C\u2019Tan Shard Transcendent",
+        "points_base": 275,
+        "composition": "1 C\u2019Tan Shard of the Transcendent",
+        "models": [
+          {
+            "name": "Transcendent",
+            "stats": {
+              "M": "8",
+              "WS": "2+",
+              "BS": "2+",
+              "S": "6",
+              "T": "8",
+              "W": "12",
+              "I": "4",
+              "A": "6",
+              "Ld": "10",
+              "Sv": "-"
+            },
+            "rules": [
+              "Monster",
+              "Living Metal",
+              "Fearless",
+              "Soulless Machine",
+              "Monsterbane."
+            ]
+          }
+        ],
+        "fixed_wargear": [
+          "Crackling Tendrils",
+          "Necrodermis"
+        ],
+        "options": [
+          {
+            "description": "May choose up to two C\u2019Tan Powers or randomly choose two each turn for +54 points",
+            "choices": []
+          }
+        ]
+      },
+      {
+        "name": "Gauss Pylon",
+        "points_base": 462,
+        "composition": "1 Gauss Pylon",
+        "models": [
+          {
+            "name": "Gauss Pylon",
+            "stats": {},
+            "rules": [
+              "Titanic Vehicle",
+              "Living Metal",
+              "Fearless",
+              "Soulless Machine",
+              "Deep Strike",
+              "Immobile",
+              "Phase Shift Generator",
+              "Save.",
+              "Doomsday Weapon"
+            ]
+          }
+        ],
+        "fixed_wargear": [
+          "Gauss Annihilator"
+        ],
+        "options": []
+      },
+      {
+        "name": "Seraptek Heavy Construct",
+        "points_base": 749,
+        "composition": "1 Seraptek Heavy Construct",
+        "models": [
+          {
+            "name": "Seraptek Heavy Construct",
+            "stats": {
+              "M": "12",
+              "WS": "3+",
+              "BS": "3+",
+              "S": "8",
+              "FA": "14",
+              "SA": "14",
+              "RA": "14",
+              "W": "28",
+              "I": "2",
+              "A": "6",
+              "Ld": "10",
+              "Sv": "3+"
+            },
+            "rules": [
+              "Titanic Vehicle",
+              "Combat Walker",
+              "Canoptek",
+              "Living Metal",
+              "Fearless",
+              "Soulless Machine",
+              "Steady"
+            ]
+          }
+        ],
+        "fixed_wargear": [
+          "Titanic Forelimbs",
+          "2 Linked Singularity Generators",
+          "Containment Field"
+        ],
+        "options": [
+          {
+            "description": "May swap 2 Linked Singularity Generators for H",
+            "choices": []
+          }
+        ]
+      },
+      {
+        "name": "Obelisk",
+        "points_base": 621,
+        "composition": "1 Obelisk",
+        "models": [
+          {
+            "name": "Obelisk",
+            "stats": {
+              "M": "4",
+              "WS": "5+",
+              "BS": "3+",
+              "S": "8",
+              "FA": "14",
+              "SA": "14",
+              "RA": "14",
+              "W": "28",
+              "I": "1",
+              "A": "9",
+              "Ld": "10",
+              "Sv": "3+"
+            },
+            "rules": [
+              "Titanic Tank",
+              "Canoptek",
+              "Living Metal",
+              "Fearless",
+              "Soulless Machine",
+              "Flying",
+              "Deepstrike",
+              "Massive Battery Unit",
+              "Phase."
+            ]
+          }
+        ],
+        "fixed_wargear": [
+          "4 Tesla Spheres",
+          "Grav Pulse"
+        ],
+        "options": []
+      },
+      {
+        "name": "Tesseract Vault",
+        "points_base": 461,
+        "composition": "1 Tesseract Vault",
+        "models": [
+          {
+            "name": "Tesseract Vault",
+            "stats": {
+              "M": "4",
+              "WS": "5+",
+              "BS": "2+",
+              "S": "8",
+              "FA": "14",
+              "SA": "14",
+              "RA": "14",
+              "W": "28",
+              "I": "1",
+              "A": "9",
+              "Ld": "10",
+              "Sv": "3+"
+            },
+            "rules": [
+              "Titanic Tank",
+              "Canoptek",
+              "Living Metal",
+              "Fearless",
+              "Soulless Machine",
+              "Flying",
+              "Deepstrike",
+              "Open Topped"
+            ]
+          }
+        ],
+        "fixed_wargear": [
+          "4 Tesla Spheres",
+          "Star God Forcefield"
+        ],
+        "options": []
+      },
+      {
+        "name": "Monolith",
+        "points_base": 557,
+        "composition": "1 Monolith",
+        "models": [
+          {
+            "name": "Monolith",
+            "stats": {
+              "M": "4",
+              "WS": "5+",
+              "BS": "3+",
+              "S": "8",
+              "FA": "14",
+              "SA": "14",
+              "RA": "14",
+              "W": "24",
+              "I": "1",
+              "A": "9",
+              "Ld": "10",
+              "Sv": "3+"
+            },
+            "rules": [
+              "Titanic Tank",
+              "Living Metal",
+              "Fearless",
+              "Soulless Machine",
+              "Deepstrike",
+              "Eternity Portal",
+              "Access Front."
+            ]
+          }
+        ],
+        "fixed_wargear": [
+          "Particle Whip",
+          "4 Gauss Arc Fluxes"
+        ],
+        "options": []
+      },
+      {
+        "name": "Doomsday Monolith",
+        "points_base": 668,
+        "composition": "1 Doomsday Monolith",
+        "models": [
+          {
+            "name": "Doomsday Monolith",
+            "stats": {
+              "M": "4",
+              "WS": "5+",
+              "BS": "3+",
+              "S": "8",
+              "FA": "14",
+              "SA": "14",
+              "RA": "14",
+              "W": "36",
+              "I": "1",
+              "A": "9",
+              "Ld": "10",
+              "Sv": "3+"
+            },
+            "rules": [
+              "Titanic Tank",
+              "Living Metal",
+              "Fearless",
+              "Soulless Machine",
+              "Deepstrike",
+              "Particle Focus",
+              "Eternity Portal",
+              "Access Front."
+            ]
+          }
+        ],
+        "fixed_wargear": [
+          "Gauss Obliterator",
+          "4 Gauss Arc Fluxes"
+        ],
+        "options": []
+      },
+      {
+        "name": "Megalith",
+        "points_base": 1622,
+        "composition": "1 Megalith",
+        "models": [
+          {
+            "name": "Megalith",
+            "stats": {
+              "M": "4",
+              "WS": "5+",
+              "BS": "3+",
+              "S": "10",
+              "FA": "14",
+              "SA": "14",
+              "RA": "14",
+              "W": "80",
+              "I": "1",
+              "A": "15",
+              "Ld": "10",
+              "Sv": "3+"
+            },
+            "rules": [
+              "Titanic Tank",
+              "Living Metal",
+              "Fearless",
+              "Soulless Machine",
+              "Deepstrike",
+              "Monolith Vault",
+              "Particle Focus",
+              "Eternity Portal",
+              "Turn. Access Front."
+            ]
+          }
+        ],
+        "fixed_wargear": [
+          "Gauss Eradicator",
+          "4 Gauss Arc Fluxes",
+          "4 Gauss Arc Fluxes",
+          "4 Gauss Arc Fluxes"
+        ],
+        "options": []
+      }
+    ],
+    "fortifications": [
+      {
+        "name": "Power Crucible",
+        "points_base": 175,
+        "composition": "1 Convergence of Dominion",
+        "models": [
+          {
+            "name": "Power Crucible",
+            "stats": {},
+            "rules": [
+              "Building",
+              "Living Metal",
+              "Immobile",
+              "Deepstrike",
+              "Translocation Protocols",
+              "Relentless March"
+            ]
+          }
+        ],
+        "fixed_wargear": [
+          "Defense Field"
+        ],
+        "options": []
+      },
+      {
+        "name": "Power Crucible",
+        "points_base": 255,
+        "composition": "1 Power Crucible",
+        "models": [
+          {
+            "name": "Power Crucible",
+            "stats": {},
+            "rules": [
+              "Building",
+              "Living Metal",
+              "Immobile"
+            ]
+          }
+        ],
+        "fixed_wargear": [
+          "Defense Field"
+        ],
+        "options": []
+      },
+      {
+        "name": "Tomb Ziggurat",
+        "points_base": 334,
+        "composition": "1 Tomb Ziggurat",
+        "models": [
+          {
+            "name": "Tomb Ziggurat",
+            "stats": {},
+            "rules": [
+              "Titanic Building",
+              "Living Metal",
+              "Immobile",
+              "Ziggurat Dock",
+              "Resurrection Amplifier",
+              "Eternity Portal",
+              "Access Front."
+            ]
+          }
+        ],
+        "fixed_wargear": [
+          "Defense Field"
+        ],
+        "options": []
+      }
+    ]
+  }
+}

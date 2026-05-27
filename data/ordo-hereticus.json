@@ -1,0 +1,175 @@
+{
+  "id": "ordo-hereticus",
+  "name": "Ordo Hereticus",
+  "difficulty": 3,
+  "subfactions": [
+    {
+      "name": "Average"
+    }
+  ],
+  "slots": {
+    "hq": [
+      {
+        "name": "Inquisitor Greyfax",
+        "points_base": 344,
+        "composition": "1 Greyfax",
+        "models": [
+          {
+            "name": "Greyfax",
+            "stats": {
+              "M": "6",
+              "WS": "2+",
+              "BS": "2+",
+              "S": "3",
+              "T": "3",
+              "W": "5",
+              "I": "3",
+              "A": "4",
+              "Ld": "10",
+              "Sv": "3+"
+            },
+            "rules": [
+              "Independent Character",
+              "Infantry",
+              "Unique",
+              "Ordo Hereticus",
+              "Quarry",
+              "Requisition Approved",
+              "Psychic Mastery Level 1",
+              "Stubborn",
+              "Seek Out Corruption",
+              "Telepath",
+              "The Hour is Nigh",
+              "T Minus 5"
+            ]
+          }
+        ],
+        "fixed_wargear": [
+          "Condemnor Boltgun",
+          "Force Sword",
+          "Psykout Grenades",
+          "Frag Grenades",
+          "Krak Grenades",
+          "Orbital Strike",
+          "Force Field"
+        ],
+        "options": [
+          {
+            "description": "May take up to one Inquisitor Spell for each Psychic Mastery Level",
+            "choices": []
+          }
+        ]
+      },
+      {
+        "name": "Inquisitor Ostromandeus",
+        "points_base": 463,
+        "composition": "1 Ostromandeus 1 Stentor-I-52",
+        "models": [
+          {
+            "name": "Ostromandeus",
+            "stats": {
+              "M": "6",
+              "WS": "2+",
+              "BS": "2+",
+              "S": "3",
+              "T": "3",
+              "W": "5",
+              "I": "3",
+              "A": "4",
+              "Ld": "10",
+              "Sv": "4+"
+            },
+            "rules": [
+              "Independent Character",
+              "Infantry",
+              "Unique",
+              "Ordo Hereticus",
+              "Quarry",
+              "Requisition Approved",
+              "Psychic Mastery Level 1",
+              "Heretical Hunter",
+              "Tests.",
+              "The Hour is Nigh",
+              "T Minus 5"
+            ]
+          },
+          {
+            "name": "Stentor-I-52",
+            "stats": {
+              "M": "6",
+              "WS": "3+",
+              "BS": "5+",
+              "S": "3",
+              "T": "4",
+              "W": "4",
+              "I": "3",
+              "A": "3",
+              "Ld": "10",
+              "Sv": "4+"
+            },
+            "rules": []
+          }
+        ],
+        "fixed_wargear": [
+          "Inferno Pistol",
+          "Force Sword",
+          "Psykout Grenades",
+          "Frag Grenades",
+          "Krak Grenades",
+          "Orbital Strike",
+          "Force Field",
+          "None"
+        ],
+        "options": [
+          {
+            "description": "May take up to one Inquisitor Spell for each Psychic Mastery Level",
+            "choices": []
+          }
+        ]
+      },
+      {
+        "name": "Lord Inquisitor Karamazov",
+        "points_base": 431,
+        "composition": "1 Karamazov",
+        "models": [
+          {
+            "name": "Karamazov",
+            "stats": {
+              "M": "6",
+              "WS": "2+",
+              "BS": "2+",
+              "S": "6",
+              "FA": "13",
+              "SA": "12",
+              "RA": "10",
+              "W": "10",
+              "I": "3",
+              "A": "4",
+              "Ld": "10",
+              "Sv": "3+"
+            },
+            "rules": [
+              "Independent Character",
+              "Vehicle",
+              "Combat Walker",
+              "Lord Inquisitor",
+              "Unique",
+              "Ordo Hereticus",
+              "Quarry",
+              "Requisition Approved",
+              "Shock Assault",
+              "Steady"
+            ]
+          }
+        ],
+        "fixed_wargear": [
+          "Multimelta",
+          "Power Sword",
+          "Force Field",
+          "Orbital Strike"
+        ],
+        "options": []
+      }
+    ]
+  }
+}

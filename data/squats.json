@@ -1,0 +1,1657 @@
+{
+  "id": "squats",
+  "name": "Squats",
+  "difficulty": 2,
+  "subfactions": [
+    {
+      "name": "Average"
+    }
+  ],
+  "slots": {
+    "hq": [
+      {
+        "name": "Kahl",
+        "points_base": 140,
+        "composition": "1 Kahl",
+        "models": [
+          {
+            "name": "Kahl",
+            "stats": {
+              "M": "4",
+              "WS": "3+",
+              "BS": "3+",
+              "S": "4",
+              "T": "4",
+              "W": "5",
+              "I": "2",
+              "A": "4",
+              "Ld": "10",
+              "Sv": "-"
+            },
+            "rules": [
+              "Independent Character",
+              "Infantry",
+              "Dishonour",
+              "Judgement",
+              "Steady Advance",
+              "Stubborn",
+              "Eye of the Ancestors"
+            ]
+          }
+        ],
+        "fixed_wargear": [
+          "Volkite Disintegrator",
+          "Forgewrought Plasma Axe",
+          "Wavefield Crest"
+        ],
+        "options": [
+          {
+            "description": "May swap Volkite Disintegrator for R",
+            "choices": []
+          },
+          {
+            "description": "May swap Forgewrought Plasma Axe for M",
+            "choices": []
+          },
+          {
+            "description": "May take one A",
+            "choices": [
+              {
+                "name": "Teleport Crest",
+                "pts_delta": 20
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Uthar the Destined",
+        "points_base": 266,
+        "composition": "1 Uthar",
+        "models": [
+          {
+            "name": "Uthar",
+            "stats": {
+              "M": "4",
+              "WS": "2+",
+              "BS": "2+",
+              "S": "5",
+              "T": "5",
+              "W": "6",
+              "I": "2",
+              "A": "5",
+              "Ld": "10",
+              "Sv": "3+"
+            },
+            "rules": [
+              "Independent Character",
+              "Infantry",
+              "Dishonour",
+              "Judgement",
+              "Steady Advance",
+              "Steady",
+              "Stubborn",
+              "Destined",
+              "Eye of the Ancestors"
+            ]
+          }
+        ],
+        "fixed_wargear": [
+          "Volkanite Disintegrator",
+          "Blade of the Ancestors",
+          "Wavefield Crest"
+        ],
+        "options": []
+      },
+      {
+        "name": "Einhyr Hearthguard",
+        "points_base": 198,
+        "composition": "1 Hesyr 4-9 Hearthguard",
+        "models": [
+          {
+            "name": "Hesyr",
+            "stats": {
+              "M": "4",
+              "WS": "3+",
+              "BS": "3+",
+              "S": "4",
+              "T": "4",
+              "W": "3",
+              "I": "2",
+              "A": "3",
+              "Ld": "9",
+              "Sv": "3+"
+            },
+            "rules": [
+              "Character",
+              "Infantry",
+              "Dishonour",
+              "Steady Advance",
+              "Bulky",
+              "Deepstrike",
+              "Steady",
+              "Stubborn"
+            ]
+          },
+          {
+            "name": "Hearthguard",
+            "stats": {
+              "M": "4",
+              "WS": "3+",
+              "BS": "3+",
+              "S": "4",
+              "T": "4",
+              "W": "2",
+              "I": "2",
+              "A": "2",
+              "Ld": "8",
+              "Sv": "3+"
+            },
+            "rules": [
+              "Infantry",
+              "Dishonour",
+              "Steady Advance",
+              "Bulky",
+              "Deepstrike",
+              "Steady",
+              "Stubborn"
+            ]
+          }
+        ],
+        "fixed_wargear": [
+          "Volkanite Disintegrator",
+          "Grenade Launcher",
+          "Plasma Blade Gauntlet",
+          "Wavefield Crest",
+          "Volkanite Disintegrator",
+          "Grenade Launcher",
+          "Plasma Blade Gauntlet",
+          "Exo Armour"
+        ],
+        "options": [
+          {
+            "description": "May take up to five more Hearthguard for +37 points each Theyn may swap Plasma Blade Gauntlet for M or OM Any model may swap Volkanite Disintegrator for R Any model may swap Plasma Blade Gauntlet for M",
+            "choices": []
+          }
+        ]
+      },
+      {
+        "name": "Ironkin Steeljacks",
+        "points_base": 153,
+        "composition": "3-6 Steeljacks",
+        "models": [
+          {
+            "name": "Steeljack",
+            "stats": {
+              "M": "4",
+              "WS": "3+",
+              "BS": "3+",
+              "S": "5",
+              "T": "5",
+              "W": "3",
+              "I": "2",
+              "A": "3",
+              "Ld": "8",
+              "Sv": "3+"
+            },
+            "rules": [
+              "Monstrous Infantry",
+              "Dishonour",
+              "Steady Advance",
+              "Stubborn",
+              "Very Bulky"
+            ]
+          }
+        ],
+        "fixed_wargear": [
+          "Boltgun",
+          "Plasma Sword",
+          "Preymark Crest"
+        ],
+        "options": [
+          {
+            "description": "May take up to three more Steeljacks for +51 points each Any model may swap Plasma Sword for M Any model may swap both Boltgun and Plasma Sword for S",
+            "choices": []
+          }
+        ]
+      },
+      {
+        "name": "Vartijan Exo Driller",
+        "points_base": 131,
+        "composition": "1-3 Exo Drillers",
+        "models": [
+          {
+            "name": "Exo Driller",
+            "stats": {
+              "M": "6",
+              "WS": "4+",
+              "BS": "4+",
+              "S": "6",
+              "FA": "12",
+              "SA": "12",
+              "RA": "10",
+              "W": "8",
+              "I": "2",
+              "A": "4",
+              "Ld": "8",
+              "Sv": "3+"
+            },
+            "rules": [
+              "Vehicle",
+              "Tank",
+              "Dishonour",
+              "Steady",
+              "Stubborn"
+            ]
+          }
+        ],
+        "fixed_wargear": [
+          "Heavy Flamer",
+          "Seismic Crusher"
+        ],
+        "options": [
+          {
+            "description": "May add up to two more Exo Drillers for +131 points each Any model may swap L7 Missile Launcher for T",
+            "choices": []
+          }
+        ]
+      },
+      {
+        "name": "Sagitaurs",
+        "points_base": 65,
+        "composition": "1 Defender",
+        "models": [
+          {
+            "name": "Sagitaur",
+            "stats": {
+              "M": "12",
+              "WS": "5+",
+              "BS": "4+",
+              "S": "6",
+              "FA": "12",
+              "SA": "12",
+              "RA": "10",
+              "W": "9",
+              "I": "1",
+              "A": "3",
+              "Ld": "8",
+              "Sv": "3+"
+            },
+            "rules": [
+              "Vehicle",
+              "Dishonour",
+              "Open Topped",
+              "Stubborn"
+            ]
+          }
+        ],
+        "fixed_wargear": [
+          "L7 Missile Launcher",
+          "2 Linked Bolt Cannons"
+        ],
+        "options": [
+          {
+            "description": "May add up to two more Sagitaurs for +130 points each Any model may swap L7 Missile Launcher for T",
+            "choices": []
+          }
+        ]
+      },
+      {
+        "name": "Sagitaurs",
+        "points_base": 130,
+        "composition": "1-3 Sagitaurs",
+        "models": [
+          {
+            "name": "Sagitaur",
+            "stats": {
+              "M": "12",
+              "WS": "5+",
+              "BS": "4+",
+              "S": "6",
+              "FA": "12",
+              "SA": "12",
+              "RA": "10",
+              "W": "9",
+              "I": "1",
+              "A": "3",
+              "Ld": "8",
+              "Sv": "3+"
+            },
+            "rules": [
+              "Vehicle",
+              "Tank",
+              "Dishonour",
+              "Stubborn",
+              "Transport 6: Access Rear."
+            ]
+          }
+        ],
+        "fixed_wargear": [
+          "L7 Missile Launcher",
+          "2 Linked Bolt Cannons"
+        ],
+        "options": [
+          {
+            "description": "May add up to two more Sagitaurs for +130 points each Any model may swap L7 Missile Launcher for T",
+            "choices": []
+          }
+        ]
+      }
+    ],
+    "advisors": [
+      {
+        "name": "Arkanyst Evaluator",
+        "points_base": 85,
+        "composition": "1 Evaluator",
+        "models": [
+          {
+            "name": "Evaluator",
+            "stats": {
+              "M": "4",
+              "WS": "3+",
+              "BS": "3+",
+              "S": "4",
+              "T": "4",
+              "W": "4",
+              "I": "2",
+              "A": "3",
+              "Ld": "9",
+              "Sv": "3+"
+            },
+            "rules": [
+              "Independent Character",
+              "Infantry",
+              "Dishonour",
+              "Steady Advance",
+              "Stubborn",
+              "Experimental Weapon"
+            ]
+          }
+        ],
+        "fixed_wargear": [
+          "Transmitter Inverter"
+        ],
+        "options": []
+      },
+      {
+        "name": "models are in the way like",
+        "points_base": 119,
+        "composition": "1 Iron Master 1 Ironkin Assistant 0-3 E-COGs",
+        "models": [
+          {
+            "name": "normal.",
+            "stats": {
+              "M": "4",
+              "WS": "3+",
+              "BS": "3+",
+              "S": "4",
+              "T": "4",
+              "W": "4",
+              "I": "2",
+              "A": "3",
+              "Ld": "9",
+              "Sv": "4+"
+            },
+            "rules": []
+          },
+          {
+            "name": "Brokhyr Iron Master",
+            "stats": {
+              "M": "4",
+              "WS": "3+",
+              "BS": "3+",
+              "S": "4",
+              "T": "4",
+              "W": "4",
+              "I": "2",
+              "A": "3",
+              "Ld": "7",
+              "Sv": "4+"
+            },
+            "rules": []
+          },
+          {
+            "name": "Iron Master",
+            "stats": {
+              "M": "4",
+              "WS": "4+",
+              "BS": "4+",
+              "S": "3",
+              "T": "4",
+              "W": "3",
+              "I": "2",
+              "A": "1",
+              "Ld": "8",
+              "Sv": "4+"
+            },
+            "rules": [
+              "Independent Character",
+              "Infantry",
+              "Dishonour",
+              "Steady Advance",
+              "Stubborn",
+              "Repair",
+              "Weapon Destroyed."
+            ]
+          },
+          {
+            "name": "Ironkin Assistant",
+            "stats": {},
+            "rules": [
+              "Independent Character",
+              "Infantry",
+              "Dishonour",
+              "Steady Advance",
+              "Assistant"
+            ]
+          },
+          {
+            "name": "E-COG",
+            "stats": {},
+            "rules": [
+              "Monstrous Infantry",
+              "Dishonour",
+              "Steady Advance"
+            ]
+          }
+        ],
+        "fixed_wargear": [
+          "Graviton Rifle",
+          "Graviton Hammer",
+          "Las Beam Cutter",
+          "Manipulator Arms",
+          "Manipulator Arms"
+        ],
+        "options": [
+          {
+            "description": "May take up to three E-COGs for +18 points each Any E-COG may swap Manipulator Arms for M or P",
+            "choices": []
+          }
+        ]
+      },
+      {
+        "name": "Buri Aegnirssen",
+        "points_base": 146,
+        "composition": "1 Buri",
+        "models": [
+          {
+            "name": "Buri",
+            "stats": {
+              "M": "4",
+              "WS": "2+",
+              "BS": "2+",
+              "S": "4",
+              "T": "4",
+              "W": "5",
+              "I": "2",
+              "A": "5",
+              "Ld": "9",
+              "Sv": "3+"
+            },
+            "rules": [
+              "Independent Character",
+              "Infantry",
+              "Dishonour",
+              "Steady Advance",
+              "Stubborn",
+              "Legend of the League",
+              "Save.",
+              "Lone Emberg-Aegnir Bloc",
+              "Survivor",
+              "Markers.",
+              "Oath of Vengeance",
+              "Monsters.",
+              "Thrice Devoured"
+            ]
+          }
+        ],
+        "fixed_wargear": [
+          "Bolt Pistol",
+          "Bane"
+        ],
+        "options": []
+      },
+      {
+        "name": "Einhyr Champion",
+        "points_base": 88,
+        "composition": "1 Claim Jumper",
+        "models": [
+          {
+            "name": "Champion",
+            "stats": {
+              "M": "4",
+              "WS": "3+",
+              "BS": "3+",
+              "S": "4",
+              "T": "4",
+              "W": "5",
+              "I": "2",
+              "A": "3",
+              "Ld": "9",
+              "Sv": "3+"
+            },
+            "rules": [
+              "Independent Character",
+              "Infantry",
+              "Dishonour",
+              "Steady Advance",
+              "Stubborn",
+              "Prospector",
+              "Objective Secured.",
+              "Repair",
+              "Weapon Destroyed."
+            ]
+          }
+        ],
+        "fixed_wargear": [
+          "Stormbolter",
+          "Darkstar Axe",
+          "Wave Crest"
+        ],
+        "options": [
+          {
+            "description": "May swap Darkstar Axe for M",
+            "choices": []
+          },
+          {
+            "description": "May take one A",
+            "choices": []
+          }
+        ]
+      },
+      {
+        "name": "Einhyr Champion",
+        "points_base": 101,
+        "composition": "1 Champion",
+        "models": [
+          {
+            "name": "Champion",
+            "stats": {
+              "M": "4",
+              "WS": "3+",
+              "BS": "3+",
+              "S": "4",
+              "T": "4",
+              "W": "5",
+              "I": "2",
+              "A": "3",
+              "Ld": "9",
+              "Sv": "3+"
+            },
+            "rules": [
+              "Independent Character",
+              "Infantry",
+              "Dishonour",
+              "Steady Advance",
+              "Bulky",
+              "Deepstrike",
+              "Steady",
+              "Stubborn"
+            ]
+          }
+        ],
+        "fixed_wargear": [
+          "Stormbolter",
+          "Darkstar Axe",
+          "Wave Crest"
+        ],
+        "options": [
+          {
+            "description": "May swap Darkstar Axe for M",
+            "choices": []
+          },
+          {
+            "description": "May take one A",
+            "choices": []
+          }
+        ]
+      },
+      {
+        "name": "Grimnyr",
+        "points_base": 79,
+        "composition": "1 Grimnyr 0-4 CORV",
+        "models": [
+          {
+            "name": "Grimnyr",
+            "stats": {
+              "M": "4",
+              "WS": "3+",
+              "BS": "3+",
+              "S": "4",
+              "T": "4",
+              "W": "4",
+              "I": "2",
+              "A": "3",
+              "Ld": "9",
+              "Sv": "4+"
+            },
+            "rules": [
+              "Independent Character",
+              "Infantry",
+              "Dishonour",
+              "Steady Advance",
+              "Psychic Mastery Level 1",
+              "Stubborn"
+            ]
+          },
+          {
+            "name": "CORV",
+            "stats": {
+              "M": "4",
+              "WS": "4+",
+              "BS": "4+",
+              "S": "3",
+              "T": "4",
+              "W": "1",
+              "I": "2",
+              "A": "1",
+              "Ld": "7",
+              "Sv": "4+"
+            },
+            "rules": [
+              "Infantry",
+              "Dishonour",
+              "Steady Advance"
+            ]
+          }
+        ],
+        "fixed_wargear": [
+          "Ancestral Ward Staff",
+          "Ancestral Ward Crest",
+          "Boltgun"
+        ],
+        "options": [
+          {
+            "description": "May swap Psychic Mastery Level 1 for Psychic Mastery Level 2 for +15 points",
+            "choices": []
+          },
+          {
+            "description": "May take up to one S for each Psychic Mastery Level",
+            "choices": []
+          },
+          {
+            "description": "May take up to four CORVs for +8 points each",
+            "choices": []
+          }
+        ]
+      },
+      {
+        "name": "Memnyr Strategist",
+        "points_base": 68,
+        "composition": "1 Strategist",
+        "models": [
+          {
+            "name": "Champion",
+            "stats": {
+              "M": "4",
+              "WS": "3+",
+              "BS": "3+",
+              "S": "4",
+              "T": "4",
+              "W": "4",
+              "I": "2",
+              "A": "3",
+              "Ld": "9",
+              "Sv": "4+"
+            },
+            "rules": [
+              "Independent Character",
+              "Infantry",
+              "Dishonour",
+              "Steady Advance",
+              "Stubborn",
+              "Strategist",
+              "Scatter Dice.",
+              "Tactician"
+            ]
+          }
+        ],
+        "fixed_wargear": [
+          "Bolt Pistol",
+          "Combat Knife"
+        ],
+        "options": []
+      }
+    ],
+    "troops": [
+      {
+        "name": "Hearthkyn Warriors",
+        "points_base": 92,
+        "composition": "1 Theyn 4-9 Hearthkyn",
+        "models": [
+          {
+            "name": "Theyn",
+            "stats": {
+              "M": "4",
+              "WS": "4+",
+              "BS": "4+",
+              "S": "4",
+              "T": "4",
+              "W": "2",
+              "I": "2",
+              "A": "2",
+              "Ld": "8",
+              "Sv": "4"
+            },
+            "rules": [
+              "Character",
+              "Infantry",
+              "Dishonour",
+              "Steady Advance",
+              "Stubborn"
+            ]
+          },
+          {
+            "name": "Hearthkyn",
+            "stats": {},
+            "rules": [
+              "Infantry",
+              "Dishonour",
+              "Steady Advance",
+              "Stubborn"
+            ]
+          }
+        ],
+        "fixed_wargear": [
+          "Boltgun",
+          "Bolt Pistol",
+          "Combat Knife",
+          "Gravitic Grenades",
+          "Wavefield Crest",
+          "Boltgun",
+          "Bolt Pistol",
+          "Combat Knife",
+          "Gravitic Grenades"
+        ],
+        "options": [
+          {
+            "description": "May take up to five more Hearthkyn for +16 points each Theyn may swap Boltgun for Or Theyn may swap Bolt Pistol for OP Theyn may swap Combat Knife for M or OM Any Hearthkyn may swap Boltgun for R Up to two Hearthkyn may swap Boltgun for S or take one SD Up to two Hearthkyn may swap Boltgun for H Any Hearthkyn may swap Combat Knife for M Up to three Hearthkyn that have a R choice may take one A",
+            "choices": []
+          }
+        ]
+      }
+    ],
+    "elites": [
+      {
+        "name": "Cthonian Berserks",
+        "points_base": 132,
+        "composition": "4-8 Berserks 0-2 Mole Units",
+        "models": [
+          {
+            "name": "Berserk",
+            "stats": {
+              "M": "6",
+              "WS": "3+",
+              "BS": "5+",
+              "S": "5",
+              "T": "5",
+              "W": "2",
+              "I": "2",
+              "A": "2",
+              "Ld": "8",
+              "Sv": "5+"
+            },
+            "rules": [
+              "Infantry",
+              "Dishonour",
+              "Steady Advance",
+              "Stubborn",
+              "Augmented",
+              "Cyberstimms"
+            ]
+          },
+          {
+            "name": "Mole Unit",
+            "stats": {
+              "M": "6",
+              "WS": "3+",
+              "BS": "3+",
+              "S": "5",
+              "T": "5",
+              "W": "4",
+              "I": "2",
+              "A": "2",
+              "Ld": "8",
+              "Sv": "5+"
+            },
+            "rules": [
+              "Infantry",
+              "Dishonour",
+              "Steady Advance",
+              "Stubborn",
+              "Augmented",
+              "Cyberstimms"
+            ]
+          }
+        ],
+        "fixed_wargear": [
+          "Heavy Plasma Axe",
+          "Mole Grenade Launcher",
+          "Heavy Plasma Axe"
+        ],
+        "options": [
+          {
+            "description": "May take up to four more Berserks for +33 points each Any model may swap Heavy Plasma Axe for M",
+            "choices": []
+          },
+          {
+            "description": "May take up to two Mole Units for +60 points each",
+            "choices": []
+          },
+          {
+            "description": "May take Medipack",
+            "choices": [
+              {
+                "name": "Medipack",
+                "pts_delta": 50
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "fast_attack": [
+      {
+        "name": "Hearthkyn Jump Packs",
+        "points_base": 148,
+        "composition": "1 Theyn 4-9 Hearthkyn",
+        "models": [
+          {
+            "name": "Theyn",
+            "stats": {
+              "M": "12",
+              "WS": "4+",
+              "BS": "4+",
+              "S": "4",
+              "T": "4",
+              "W": "2",
+              "I": "2",
+              "A": "2",
+              "Ld": "8",
+              "Sv": "12"
+            },
+            "rules": [
+              "Character",
+              "Infantry",
+              "Dishonour",
+              "Deepstrike",
+              "Fly",
+              "Steady Advance",
+              "Stubborn"
+            ]
+          },
+          {
+            "name": "Hearthkyn",
+            "stats": {},
+            "rules": [
+              "Infantry",
+              "Dishonour",
+              "Deepstrike",
+              "Fly",
+              "Steady Advance",
+              "Stubborn"
+            ]
+          }
+        ],
+        "fixed_wargear": [
+          "Bolt Pistol",
+          "Plasma Axe",
+          "Gravitic Grenades",
+          "Wavefield Crest",
+          "Bolt Pistol",
+          "Plasma Axe",
+          "Gravitic Grenades"
+        ],
+        "options": [
+          {
+            "description": "May take up to five more Hearthkyn for +27 points each Theyn may swap Bolt Pistol for P Theyn may swap Combat Knife for M or OM Up to two Hearthkyn may swap Bolt Pistol for P",
+            "choices": []
+          }
+        ]
+      },
+      {
+        "name": "Hearthkyn Pioneer",
+        "points_base": 102,
+        "composition": "2-4 Pioneers 0-2 Attack Bikes",
+        "models": [
+          {
+            "name": "Pioneer",
+            "stats": {
+              "M": "12",
+              "WS": "4+",
+              "BS": "4+",
+              "S": "4",
+              "T": "5",
+              "W": "3",
+              "I": "2",
+              "A": "1",
+              "Ld": "7",
+              "Sv": "4+"
+            },
+            "rules": [
+              "Infantry",
+              "Steed",
+              "Dishonour",
+              "Very Bulky",
+              "Steady",
+              "Stubborn",
+              "Weapons Platform"
+            ]
+          },
+          {
+            "name": "Attack Bike",
+            "stats": {
+              "M": "12",
+              "WS": "4+",
+              "BS": "4+",
+              "S": "4",
+              "T": "5",
+              "W": "4",
+              "I": "2",
+              "A": "2",
+              "Ld": "7",
+              "Sv": "4+"
+            },
+            "rules": [
+              "Infantry",
+              "Steed",
+              "Dishonour",
+              "Steady Advance",
+              "Very Bulky",
+              "Steady",
+              "Stubborn",
+              "Weapons Platform"
+            ]
+          }
+        ],
+        "fixed_wargear": [
+          "Magna Coil Autocannon",
+          "Bolt Shotgun",
+          "Bolt Pistol",
+          "Combat Knife",
+          "Gravitic Grenades",
+          "Ion Beamer",
+          "Magna Coil Autocannon",
+          "Bolt Shotgun",
+          "Bolt Pistol",
+          "Combat Knife",
+          "Gravitic Grenades"
+        ],
+        "options": [
+          {
+            "description": "May add up to two more Pioneers for +51 points each Any Pioneer may take one A",
+            "choices": [
+              {
+                "name": "Search Light",
+                "pts_delta": 1
+              }
+            ]
+          },
+          {
+            "description": "May add up to two Attack Bikes for +71 points each Any Attack Bike may swap Ion Beamer for T",
+            "choices": []
+          }
+        ]
+      }
+    ],
+    "heavy_support": [
+      {
+        "name": "Brokhyr Thunderkyn",
+        "points_base": 130,
+        "composition": "2-4 Pioneers 0-2 Attack Bikes",
+        "models": [
+          {
+            "name": "Theyn",
+            "stats": {
+              "M": "4",
+              "WS": "4+",
+              "BS": "4+",
+              "S": "5",
+              "T": "5",
+              "W": "3",
+              "I": "2",
+              "A": "2",
+              "Ld": "8",
+              "Sv": "4+"
+            },
+            "rules": [
+              "Character",
+              "Monstrous Infantry",
+              "Dishonour",
+              "Very Bulky",
+              "Steady",
+              "Stubborn"
+            ]
+          },
+          {
+            "name": "Thunderkyn",
+            "stats": {
+              "M": "4",
+              "WS": "4+",
+              "BS": "4+",
+              "S": "5",
+              "T": "5",
+              "W": "3",
+              "I": "2",
+              "A": "1",
+              "Ld": "7",
+              "Sv": "4+"
+            },
+            "rules": [
+              "Monstrous Infantry",
+              "Dishonour",
+              "Very Bulky",
+              "Steady",
+              "Stubborn",
+              "Omnivisor"
+            ]
+          }
+        ],
+        "fixed_wargear": [
+          "Bolt Cannon",
+          "Omnivisor",
+          "Bolt Cannon",
+          "Omnivisor"
+        ],
+        "options": [
+          {
+            "description": "May add up to three more Thunderkyn for +41 points each Any model may swap Bolt Cannon for H",
+            "choices": []
+          }
+        ]
+      },
+      {
+        "name": "Hekaton Land Fortress",
+        "points_base": 77,
+        "composition": "1-6 Earthshakers",
+        "models": [
+          {
+            "name": "Hekaton",
+            "stats": {
+              "M": "10",
+              "WS": "5+",
+              "BS": "4+",
+              "S": "7",
+              "FA": "13",
+              "SA": "14",
+              "RA": "13",
+              "W": "16",
+              "I": "1",
+              "A": "6",
+              "Ld": "8",
+              "Sv": "3+"
+            },
+            "rules": [
+              "Monster",
+              "Dishonour",
+              "Stubborn",
+              "Points: 316"
+            ]
+          }
+        ],
+        "fixed_wargear": [
+          "Heavy Beam Matter Converter",
+          "MATR Autocannon",
+          "2 Bolt Cannons",
+          "2 Linked Bolt Cannons",
+          "Pan Spectral Scanner"
+        ],
+        "options": [
+          {
+            "description": "May swap Heavy Beam Matter Converter for T",
+            "choices": []
+          },
+          {
+            "description": "May swap 2 Bolt Cannons for S",
+            "choices": []
+          },
+          {
+            "description": "May swap 2 Linked Bolt Cannons for H",
+            "choices": []
+          },
+          {
+            "description": "May swap Pan Spectral Scanner for M",
+            "choices": []
+          }
+        ]
+      },
+      {
+        "name": "Hekaton Land Fortress",
+        "points_base": 316,
+        "composition": "1 Hekaton",
+        "models": [
+          {
+            "name": "Hekaton",
+            "stats": {
+              "M": "10",
+              "WS": "5+",
+              "BS": "4+",
+              "S": "7",
+              "FA": "13",
+              "SA": "14",
+              "RA": "13",
+              "W": "16",
+              "I": "1",
+              "A": "6",
+              "Ld": "8",
+              "Sv": "3+"
+            },
+            "rules": [
+              "Vehicle",
+              "Tank",
+              "Dishonour",
+              "Stubborn",
+              "Rear."
+            ]
+          }
+        ],
+        "fixed_wargear": [
+          "Heavy Beam Matter Converter",
+          "MATR Autocannon",
+          "2 Bolt Cannons",
+          "2 Linked Bolt Cannons",
+          "Pan Spectral Scanner"
+        ],
+        "options": [
+          {
+            "description": "May swap Heavy Beam Matter Converter for T",
+            "choices": []
+          },
+          {
+            "description": "May swap 2 Bolt Cannons for S",
+            "choices": []
+          },
+          {
+            "description": "May swap 2 Linked Bolt Cannons for H",
+            "choices": []
+          },
+          {
+            "description": "May swap Pan Spectral Scanner for M",
+            "choices": []
+          }
+        ]
+      }
+    ],
+    "dedicated_transport": [
+      {
+        "name": "Kapricus Carrier",
+        "points_base": 83,
+        "composition": "1 Carrier",
+        "models": [
+          {
+            "name": "Carrier",
+            "stats": {
+              "M": "12",
+              "WS": "5+",
+              "BS": "4+",
+              "S": "5",
+              "FA": "10",
+              "SA": "10",
+              "RA": "10",
+              "W": "7",
+              "I": "1",
+              "A": "3",
+              "Ld": "8",
+              "Sv": "4+"
+            },
+            "rules": [
+              "Vehicle",
+              "Dishonour",
+              "Open Topped",
+              "Stubborn",
+              "Transport 6",
+              "Shooting Phase Only."
+            ]
+          }
+        ],
+        "fixed_wargear": [
+          "Magna Coil Autocannon",
+          "2 Linked Magna Coil",
+          "Autocannons"
+        ],
+        "options": [
+          {
+            "description": "May take one E",
+            "choices": [
+              {
+                "name": "Smoke Launchers",
+                "pts_delta": 10
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "flyers": [
+      {
+        "name": "Gyrocopter",
+        "points_base": 248,
+        "composition": "1 Gyrocopter",
+        "models": [
+          {
+            "name": "Gyrocopter",
+            "stats": {
+              "M": "50",
+              "WS": "5+",
+              "BS": "4+",
+              "S": "7",
+              "FA": "13",
+              "SA": "12",
+              "RA": "10",
+              "W": "18",
+              "I": "1",
+              "A": "6",
+              "Ld": "8",
+              "Sv": "3+"
+            },
+            "rules": [
+              "Vehicle",
+              "Dishonour",
+              "Deepstrike"
+            ]
+          }
+        ],
+        "fixed_wargear": [
+          "Multimelta and 2 Linked",
+          "Battlehammer Rocket Pods"
+        ],
+        "options": [
+          {
+            "description": "May swap Multimelta and 2 Linked Battlehammer Rocket Pods for H",
+            "choices": []
+          },
+          {
+            "description": "May take up to one of each E",
+            "choices": [
+              {
+                "name": "Chaff Launcher",
+                "pts_delta": 9
+              },
+              {
+                "name": "Data Link",
+                "pts_delta": 10
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "lord_of_war": [
+      {
+        "name": "Colossus",
+        "points_base": 2552,
+        "composition": "1 Colossus",
+        "models": [
+          {
+            "name": "Colossus",
+            "stats": {
+              "M": "6",
+              "WS": "5+",
+              "BS": "4+",
+              "S": "10",
+              "FA": "14",
+              "SA": "14",
+              "RA": "13",
+              "W": "120",
+              "I": "1",
+              "A": "12",
+              "Ld": "8",
+              "Sv": "3+"
+            },
+            "rules": [
+              "Titanic Vehicle",
+              "Tank",
+              "Dishonour",
+              "Fearless",
+              "Stubborn",
+              "Void Shields 6",
+              "Create Panic",
+              "Immense Bulk",
+              "Landing Pad",
+              "The Hour is Nigh",
+              "T Minus 5"
+            ]
+          }
+        ],
+        "fixed_wargear": [
+          "Doomsday Cannon",
+          "Thunderer Cannon",
+          "2 Linked Battle Cannons",
+          "2 Linked Battle Cannons",
+          "2 Linked Battle Cannons",
+          "2 Linked Battle Cannons",
+          "8 Linked Bolt Cannons",
+          "8 Linked Bolt Cannons",
+          "Deathstrike Missile Rack"
+        ],
+        "options": []
+      },
+      {
+        "name": "Cyclops",
+        "points_base": 2605,
+        "composition": "1 Cyclops",
+        "models": [
+          {
+            "name": "Cyclops",
+            "stats": {
+              "M": "6",
+              "WS": "5+",
+              "BS": "4+",
+              "S": "10",
+              "FA": "14",
+              "SA": "14",
+              "RA": "13",
+              "W": "120",
+              "I": "1",
+              "A": "12",
+              "Ld": "8",
+              "Sv": "3+"
+            },
+            "rules": [
+              "Titanic Vehicle",
+              "Tank",
+              "Dishonour",
+              "Fearless",
+              "Stubborn",
+              "Void Shields 6",
+              "Create Panic",
+              "Immense Bulk",
+              "Earthshock",
+              "Sustained Beam"
+            ]
+          }
+        ],
+        "fixed_wargear": [
+          "Hellfury Cannon",
+          "2 Linked Magma Cannons",
+          "Rapid Fire Battle Cannon",
+          "4 Bolt Cannons",
+          "2 Deathstrike Missile Racks"
+        ],
+        "options": []
+      },
+      {
+        "name": "Mammoth Land Train",
+        "points_base": 1453,
+        "composition": "1 Train 0+ Cars",
+        "models": [
+          {
+            "name": "Train",
+            "stats": {
+              "M": "8",
+              "WS": "5+",
+              "BS": "4+",
+              "S": "12",
+              "FA": "14",
+              "SA": "14",
+              "RA": "13",
+              "W": "50",
+              "I": "1",
+              "A": "9",
+              "Ld": "8",
+              "Sv": "3+"
+            },
+            "rules": [
+              "Titanic Vehicle",
+              "Tank",
+              "Dishonour",
+              "Fearless",
+              "Stubborn",
+              "Create Panic",
+              "Land Train"
+            ]
+          },
+          {
+            "name": "Car",
+            "stats": {},
+            "rules": [
+              "Titanic Vehicle",
+              "Tank",
+              "Repair Facility",
+              "Penetration Table.",
+              "Train Car",
+              "Transport 50",
+              "Cannon.",
+              "Gain Rad Bomb.",
+              "Gain Dragon Fire Thrower."
+            ]
+          }
+        ],
+        "fixed_wargear": [
+          "Doomsday Cannon",
+          "2 Mega Battle Cannons",
+          "12 Linked Bolt Cannons",
+          "12 Linked Bolt Cannons",
+          "4 Linked Bolt Cannons",
+          "4 Linked Bolt Cannons"
+        ],
+        "options": [
+          {
+            "description": "May take 0+ Cars for +241 points each Each Car may take one C",
+            "choices": [
+              {
+                "name": "Bomb Battlecar",
+                "pts_delta": 94
+              },
+              {
+                "name": "Dragon Battlecar",
+                "pts_delta": 104
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Imperial Fortress",
+        "points_base": 2339,
+        "composition": "1 Gate 2 Gate Towers 2 Walls 2 Towers",
+        "models": [
+          {
+            "name": "Gate",
+            "stats": {},
+            "rules": [
+              "Building",
+              "Titanic"
+            ]
+          },
+          {
+            "name": "Gate Towers",
+            "stats": {},
+            "rules": []
+          },
+          {
+            "name": "Walls",
+            "stats": {},
+            "rules": []
+          },
+          {
+            "name": "Towers",
+            "stats": {},
+            "rules": []
+          }
+        ],
+        "fixed_wargear": [
+          "Heavy Gate",
+          "2 Linked Heavy Bolters",
+          "None",
+          "2 Linked Autocannons"
+        ],
+        "options": [
+          {
+            "description": "May add as many sets of 1 Gate and 2 Gate Towers as you want for +967 points",
+            "choices": []
+          },
+          {
+            "description": "May add as many Walls as you want for +299 points each",
+            "choices": []
+          },
+          {
+            "description": "May add as many Towers as you want for +387 points",
+            "choices": []
+          }
+        ]
+      }
+    ],
+    "fortifications": [
+      {
+        "name": "Primaris Redoubt",
+        "points_base": 629,
+        "composition": "1 Primaris Redoubt",
+        "models": [
+          {
+            "name": "Primaris Redoubt",
+            "stats": {},
+            "rules": [
+              "Building"
+            ]
+          }
+        ],
+        "fixed_wargear": [
+          "2 Linked Turbolaser Destructors"
+        ],
+        "options": []
+      },
+      {
+        "name": "Aegis Weapon Emplacement",
+        "points_base": 66,
+        "composition": "1 Aegis Weapon Emplacement",
+        "models": [
+          {
+            "name": "Platform",
+            "stats": {},
+            "rules": [
+              "Building"
+            ]
+          }
+        ],
+        "fixed_wargear": [
+          "Long Lascannon"
+        ],
+        "options": [
+          {
+            "description": "May swap Long Lascannon for H",
+            "choices": []
+          }
+        ]
+      },
+      {
+        "name": "Aquila Strongpoint",
+        "points_base": 448,
+        "composition": "1 Aquila Strongpoint",
+        "models": [
+          {
+            "name": "Aquila Strongpoint",
+            "stats": {},
+            "rules": [
+              "Building"
+            ]
+          }
+        ],
+        "fixed_wargear": [
+          "Plasma Obliterator"
+        ],
+        "options": []
+      },
+      {
+        "name": "Imperial Bastion",
+        "points_base": 397,
+        "composition": "1 Firestorm Redoubt",
+        "models": [
+          {
+            "name": "Imperial Bastion",
+            "stats": {},
+            "rules": [
+              "Building"
+            ]
+          }
+        ],
+        "fixed_wargear": [
+          "4 Heavy Bolters"
+        ],
+        "options": []
+      },
+      {
+        "name": "Imperial Bastion",
+        "points_base": 429,
+        "composition": "1 Imperial Bastion",
+        "models": [
+          {
+            "name": "Imperial Bastion",
+            "stats": {},
+            "rules": [
+              "Building"
+            ]
+          }
+        ],
+        "fixed_wargear": [
+          "4 Heavy Bolters"
+        ],
+        "options": []
+      },
+      {
+        "name": "Vengeance Weapon Battery",
+        "points_base": 474,
+        "composition": "1 Plasma Obliterator",
+        "models": [
+          {
+            "name": "Vengeance Weapon Battery",
+            "stats": {},
+            "rules": [
+              "Building"
+            ]
+          }
+        ],
+        "fixed_wargear": [
+          "Avenger Gatling Cannon"
+        ],
+        "options": [
+          {
+            "description": "May swap Avenger Gatling Cannon for H",
+            "choices": []
+          }
+        ]
+      },
+      {
+        "name": "Vengeance Weapon Battery",
+        "points_base": 249,
+        "composition": "1 Vengeance Weapon Battery",
+        "models": [
+          {
+            "name": "Vengeance Weapon Battery",
+            "stats": {},
+            "rules": [
+              "Building"
+            ]
+          }
+        ],
+        "fixed_wargear": [
+          "Avenger Gatling Cannon"
+        ],
+        "options": [
+          {
+            "description": "May swap Avenger Gatling Cannon for H",
+            "choices": []
+          }
+        ]
+      },
+      {
+        "name": "Void Shield Generator",
+        "points_base": 307,
+        "composition": "1 Void Shield Generator",
+        "models": [
+          {
+            "name": "Void Shield Generator",
+            "stats": {},
+            "rules": [
+              "Building"
+            ]
+          }
+        ],
+        "fixed_wargear": [
+          "none"
+        ],
+        "options": []
+      }
+    ]
+  }
+}

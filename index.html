@@ -1,0 +1,1473 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Alternate 40k — Core Rule Book</title>
+<link rel="manifest" href="manifest.json">
+<link rel="apple-touch-icon" href="icons/apple-touch-icon.png">
+<meta name="theme-color" content="#c9a84c">
+<style>
+:root {
+  --bg: #0e0e0e;
+  --bg2: #161616;
+  --bg3: #1e1e1e;
+  --border: #2e2e2e;
+  --gold: #c9a84c;
+  --gold2: #e8c878;
+  --red: #9b2020;
+  --red2: #c43030;
+  --text: #ccc;
+  --text-dim: #888;
+  --link: #c9a84c;
+  --link-hover: #e8c878;
+  --sidebar-w: 280px;
+  --note-purple: #9b6bc9;
+  --note-blue: #4a8fc9;
+  --note-green: #4aaa60;
+}
+
+* { box-sizing: border-box; margin: 0; padding: 0; }
+
+body {
+  background: var(--bg);
+  color: var(--text);
+  font-family: 'Georgia', serif;
+  font-size: 15px;
+  line-height: 1.7;
+  display: flex;
+}
+
+/* SIDEBAR */
+#sidebar {
+  width: var(--sidebar-w);
+  min-width: var(--sidebar-w);
+  background: var(--bg2);
+  border-right: 1px solid var(--border);
+  height: 100vh;
+  position: sticky;
+  top: 0;
+  overflow-y: auto;
+  flex-shrink: 0;
+}
+
+#sidebar-header {
+  padding: 16px;
+  border-bottom: 1px solid var(--border);
+  background: var(--bg3);
+}
+
+#sidebar-header h2 {
+  font-size: 11px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  color: var(--gold);
+  margin-bottom: 8px;
+}
+
+#sidebar-close { display: none; }
+
+#search {
+  width: 100%;
+  background: var(--bg);
+  border: 1px solid var(--border);
+  color: var(--text);
+  padding: 6px 10px;
+  font-size: 13px;
+  border-radius: 3px;
+  outline: none;
+}
+
+#search:focus { border-color: var(--gold); }
+
+#sidebar nav { padding: 8px 0; }
+
+.nav-section { font-size: 10px; text-transform: uppercase; letter-spacing: 2px; color: var(--gold); padding: 12px 16px 4px; }
+
+#sidebar nav a {
+  display: block;
+  padding: 5px 16px 5px 24px;
+  color: var(--text-dim);
+  text-decoration: none;
+  font-size: 13px;
+  border-left: 2px solid transparent;
+  transition: all 0.15s;
+}
+
+#sidebar nav a:hover, #sidebar nav a.active {
+  color: var(--gold2);
+  border-left-color: var(--gold);
+  background: rgba(201,168,76,0.06);
+}
+
+/* MAIN CONTENT */
+#content {
+  flex: 1;
+  max-width: 860px;
+  padding: 48px 56px;
+  min-height: 100vh;
+}
+
+h1 {
+  font-size: 32px;
+  color: var(--gold);
+  letter-spacing: 1px;
+  border-bottom: 2px solid var(--red);
+  padding-bottom: 12px;
+  margin-bottom: 8px;
+}
+
+.subtitle {
+  color: var(--text-dim);
+  font-style: italic;
+  font-size: 13px;
+  margin-bottom: 40px;
+}
+
+h2 {
+  font-size: 22px;
+  color: var(--gold);
+  margin-top: 56px;
+  margin-bottom: 20px;
+  padding-bottom: 6px;
+  border-bottom: 1px solid var(--border);
+}
+
+h3 {
+  font-size: 17px;
+  color: var(--gold2);
+  margin-top: 32px;
+  margin-bottom: 12px;
+}
+
+p { margin-bottom: 14px; }
+
+ul, ol { margin: 0 0 14px 24px; }
+li { margin-bottom: 6px; }
+
+a {
+  color: var(--link);
+  text-decoration: none;
+  border-bottom: 1px dotted rgba(201,168,76,0.4);
+}
+a:hover { color: var(--link-hover); border-bottom-color: var(--link-hover); }
+
+/* keyword link style — subtle */
+a.kw {
+  color: #b8956a;
+  border-bottom: 1px dotted rgba(184,149,106,0.5);
+  font-style: normal;
+}
+a.kw:hover { color: var(--gold2); }
+
+/* RECAP BOX */
+.recap {
+  background: var(--bg3);
+  border-left: 3px solid var(--gold);
+  padding: 14px 18px;
+  margin: 24px 0;
+  border-radius: 0 4px 4px 0;
+}
+.recap-title {
+  font-size: 10px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  color: var(--gold);
+  margin-bottom: 8px;
+}
+.recap ul { margin-left: 18px; }
+.recap li { font-size: 14px; color: var(--text); }
+
+/* DESIGNER NOTES */
+.note-purple { color: var(--note-purple); font-style: italic; font-size: 14px; margin: 10px 0; }
+.note-blue { color: var(--note-blue); font-style: italic; font-size: 14px; margin: 10px 0; }
+.note-green { color: var(--note-green); font-style: italic; font-size: 14px; margin: 10px 0; }
+
+/* TABLES */
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 20px 0;
+  font-size: 14px;
+}
+th {
+  background: var(--bg3);
+  color: var(--gold);
+  padding: 8px 12px;
+  text-align: left;
+  border: 1px solid var(--border);
+  font-size: 12px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+td {
+  padding: 7px 12px;
+  border: 1px solid var(--border);
+  vertical-align: top;
+}
+tr:nth-child(even) td { background: rgba(255,255,255,0.02); }
+
+/* STAT LINE */
+.statline {
+  display: flex;
+  gap: 0;
+  margin: 16px 0;
+  font-size: 13px;
+}
+.stat {
+  flex: 1;
+  text-align: center;
+  border: 1px solid var(--border);
+  padding: 6px 4px;
+}
+.stat-label {
+  font-size: 10px;
+  text-transform: uppercase;
+  color: var(--gold);
+  letter-spacing: 1px;
+  border-bottom: 1px solid var(--border);
+  padding-bottom: 3px;
+  margin-bottom: 3px;
+}
+.stat-val { font-size: 16px; font-weight: bold; }
+
+/* SLOT BOXES */
+.slot-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 12px; margin: 20px 0; }
+.slot-box {
+  background: var(--bg3);
+  border: 1px solid var(--border);
+  border-top: 2px solid var(--red);
+  padding: 12px 14px;
+  border-radius: 0 0 4px 4px;
+}
+.slot-box h4 { color: var(--gold); font-size: 13px; text-transform: uppercase; letter-spacing: 1px; margin-bottom: 6px; }
+.slot-box p { font-size: 13px; color: var(--text-dim); margin: 0; }
+
+/* DAMAGE CHART */
+.dmg-chart { margin: 20px 0; }
+.dmg-row {
+  display: flex;
+  border: 1px solid var(--border);
+  border-bottom: none;
+}
+.dmg-row:last-child { border-bottom: 1px solid var(--border); }
+.dmg-result {
+  background: var(--red);
+  color: #fff;
+  font-weight: bold;
+  width: 60px;
+  min-width: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 16px;
+}
+.dmg-text { padding: 10px 14px; font-size: 14px; }
+.dmg-text strong { color: var(--gold2); }
+
+/* OBJECTIVE TABLE */
+.obj-table { font-size: 13px; }
+.obj-table td:first-child {
+  font-weight: bold;
+  color: var(--gold);
+  width: 50px;
+  text-align: center;
+}
+
+/* GLOSSARY */
+.glossary dt {
+  color: var(--gold2);
+  font-weight: bold;
+  font-size: 15px;
+  margin-top: 20px;
+  padding-top: 20px;
+  border-top: 1px solid var(--border);
+  scroll-margin-top: 20px;
+}
+.glossary dt:first-child { border-top: none; padding-top: 0; }
+.glossary dd { margin-left: 0; margin-top: 6px; font-size: 14px; }
+
+/* WOUND CHART */
+.wound-matrix { font-size: 13px; }
+.wound-matrix th { text-align: center; }
+.wound-matrix td { text-align: center; }
+.hit { color: #4aaa60; }
+.miss { color: #888; }
+
+/* HIGHLIGHT on target */
+:target { animation: flashHighlight 1.2s ease; }
+@keyframes flashHighlight {
+  0% { background: rgba(201,168,76,0.25); }
+  100% { background: transparent; }
+}
+
+/* BACK TO TOP */
+#back-top {
+  position: fixed;
+  bottom: 24px;
+  right: 24px;
+  background: var(--red);
+  color: #fff;
+  border: none;
+  padding: 8px 14px;
+  cursor: pointer;
+  font-size: 12px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  border-radius: 2px;
+  opacity: 0;
+  transition: opacity 0.2s;
+}
+#back-top.visible { opacity: 1; }
+#back-top:hover { background: var(--red2); }
+
+/* SEARCH HIGHLIGHT */
+.search-hl { background: rgba(201,168,76,0.3); border-radius: 2px; }
+
+/* Section marker */
+.section-anchor { scroll-margin-top: 24px; }
+
+hr.section-rule {
+  border: none;
+  border-top: 1px solid var(--border);
+  margin: 48px 0;
+}
+
+/* HAMBURGER BUTTON */
+#menu-toggle {
+  display: none;
+  position: fixed;
+  top: 12px;
+  left: 12px;
+  z-index: 200;
+  background: var(--bg3);
+  border: 1px solid var(--border);
+  color: var(--gold);
+  width: 40px;
+  height: 40px;
+  font-size: 20px;
+  line-height: 1;
+  cursor: pointer;
+  border-radius: 3px;
+  align-items: center;
+  justify-content: center;
+  transition: background 0.15s;
+}
+#menu-toggle:hover { background: var(--bg2); }
+
+/* OVERLAY */
+#overlay {
+  display: none;
+  position: fixed;
+  inset: 0;
+  background: rgba(0,0,0,0.65);
+  z-index: 99;
+}
+#overlay.visible { display: block; }
+
+@media (max-width: 768px) {
+  body { display: block; }
+
+  #menu-toggle { display: flex; }
+
+  #sidebar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: min(280px, 85vw);
+    min-width: 0;
+    height: 100dvh;
+    height: 100vh;
+    z-index: 100;
+    transform: translateX(-105%);
+    transition: transform 0.25s ease;
+    border-right: 1px solid var(--border);
+  }
+  #sidebar.open { transform: translateX(0); }
+
+  /* Close button inside sidebar */
+  #sidebar-close {
+    display: flex !important;
+    align-items: center;
+    justify-content: center;
+    width: 32px;
+    height: 32px;
+    background: transparent;
+    border: none;
+    color: var(--text-dim);
+    font-size: 20px;
+    cursor: pointer;
+    margin-left: auto;
+    margin-top: -4px;
+  }
+  #sidebar-close:hover { color: var(--gold); }
+  #sidebar-header { display: flex; flex-wrap: wrap; gap: 8px; align-items: center; }
+  #sidebar-header h2 { flex: 1; margin-bottom: 0; }
+  #sidebar-header #search { width: 100%; }
+
+  #content {
+    padding: 64px 16px 32px;
+    max-width: 100%;
+  }
+
+  /* Horizontal scroll for tables */
+  table {
+    display: block;
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+    max-width: 100%;
+  }
+
+  /* Stat line horizontal scroll */
+  .statline {
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+    flex-wrap: nowrap;
+  }
+  .stat { min-width: 44px; }
+
+  /* Damage chart stack on very small screens */
+  .dmg-row { flex-direction: column; }
+  .dmg-result { width: 100%; padding: 6px 12px; font-size: 13px; }
+
+  .slot-grid { grid-template-columns: 1fr; }
+
+  #back-top { bottom: 16px; right: 16px; font-size: 11px; padding: 7px 11px; }
+
+  h1 { font-size: 24px; }
+  h2 { font-size: 19px; }
+}
+</style>
+</head>
+<body>
+
+<button id="menu-toggle" aria-label="Open navigation" aria-expanded="false" aria-controls="sidebar">☰</button>
+<div id="overlay"></div>
+
+<aside id="sidebar">
+  <div id="sidebar-header">
+    <h2>Alternate 40k</h2>
+    <button id="sidebar-close" aria-label="Close navigation">✕</button>
+    <input id="search" type="search" placeholder="Search rules…" autocomplete="off">
+  </div>
+  <nav>
+    <div class="nav-section">Core Rules</div>
+    <a href="#introduction">Introduction</a>
+    <a href="#force-composition">Building a Force</a>
+    <a href="#battlefield-setup">Battlefield Setup</a>
+    <a href="#initiative">Initiative</a>
+    <a href="#deployment">Deployment</a>
+    <div class="nav-section">Turn Sequence</div>
+    <a href="#battle-rounds">Battle Rounds</a>
+    <a href="#command-phase">Command Phase</a>
+    <a href="#movement-phase">Movement Phase</a>
+    <a href="#psychic-phase">Psychic Phase</a>
+    <a href="#shooting-phase">Shooting Phase</a>
+    <a href="#assault-phase">Assault Phase</a>
+    <a href="#end-phase">End Phase</a>
+    <div class="nav-section">Rules</div>
+    <a href="#unit-types">Unit Types</a>
+    <a href="#objectives">Objectives</a>
+    <a href="#terrain">Terrain</a>
+    <a href="#terminology">Terminology &amp; Keywords</a>
+    <div class="nav-section">Quick Reference</div>
+    <a href="#scatter-chart">Scatter Chart</a>
+    <a href="#template-chart">Template Chart</a>
+    <a href="#wound-chart">To Wound Chart</a>
+  </nav>
+</aside>
+
+<main id="content">
+
+<h1>Alternate 40k Core Rule Book</h1>
+<p class="subtitle">An unofficial set of rules for fans of Warhammer 40,000 — free for public use, not affiliated with Games Workshop. &nbsp;→&nbsp;<a href="builder.html">Army Builder</a></p>
+
+<p class="note-purple">Q&amp;A notes appear in <em>purple</em> and can generally be ignored when learning the rules.</p>
+<p class="note-blue">Optional Rules for advanced/narrative play appear in <em>blue</em>. Agree with your opponent before building your army.</p>
+<p class="note-green">Designer Notes appear in <em>green</em> to clarify intent in grey-area situations.</p>
+
+<!-- ═══════════════════════════════════════════════════════════ -->
+<h2 id="introduction" class="section-anchor">Introduction</h2>
+
+<p>This FREE fan-made and unofficial rulebook creates a stable and balanced set of hybrid rules bridging modern and classic editions. It incorporates some homebrew rules and rules borrowed from other editions, aiming for a fair system free from sales-driven power creep.</p>
+<p>Send questions or feedback to <strong>alternate40krules@gmail.com</strong>.</p>
+<p>Recaps are listed at the end of each section for brief summaries — handy during a game.</p>
+
+<!-- ═══════════════════════════════════════════════════════════ -->
+<h2 id="force-composition" class="section-anchor">Building a Force</h2>
+
+<p>Each side needs an Army. Reference your faction's Codex and the following guidelines.</p>
+
+<h3>Army Organisation</h3>
+<p>Each Codex offers army-wide rule-altering formations. Any datasheet requiring a specific keyword is highlighted in Blue on the right side of the datasheet (e.g. Colonel Iron Hand Straken, who must be fielded as part of a Catachan Jungle Fighters army). Your entire force must be from the same Army Organisation.</p>
+<p class="note-blue">If playing an Apocalypse game, make each force its own Army as needed. So long as each side has the same point value, the number of teams and slot numbers do not matter.</p>
+
+<div class="slot-grid">
+  <div class="slot-box">
+    <h4>HQ — 1–2 Slots</h4>
+    <p>At least one HQ is required. One HQ model or independent character may act as the <strong>Warlord</strong> — mandatory to field an army. Unused HQ Slots may upgrade a terrain piece to a <a href="#terrain-tower">Tower</a>.</p>
+  </div>
+  <div class="slot-box">
+    <h4>Troops — 2–6 Slots</h4>
+    <p>At least two Troop Choices required. Unused Troop Slots may upgrade a Terrain Piece to a <a href="#terrain-buildings">Building</a> or add a level to an existing Building. May also convert a Building to a <a href="#terrain-trees">Grove of Trees</a>.</p>
+  </div>
+  <div class="slot-box">
+    <h4>Advisors — 0–3 per Troop Slot</h4>
+    <p>Specialist/minor characters that augment a unit. Count as part of the Slot they are taken with for <a class="kw" href="#term-objective-secured">Objective</a> purposes.</p>
+  </div>
+  <div class="slot-box">
+    <h4>Elites — 0–3 Slots</h4>
+    <p>Specialised units focused on specific goals. Unused Elite Slots may place an Obstacle (e.g. Fence or Minefield).</p>
+  </div>
+  <div class="slot-box">
+    <h4>Fast Attack — 0–3 Slots</h4>
+    <p>Speed-specialists that hold key points. Unused Fast Attack Slots may place <a href="#terrain-utility">Utility Terrain</a> (River, Trench, or Road).</p>
+  </div>
+  <div class="slot-box">
+    <h4>Heavy Support — 0–3 Slots</h4>
+    <p>Defensive gun platforms, battle tanks, and heavily armoured units. Unused Heavy Support Slots may upgrade existing Terrain to a Fortified version.</p>
+  </div>
+  <div class="slot-box">
+    <h4>Flyers — 0–2 Slots</h4>
+    <p>Dedicated aircraft — immune to most melee, incredibly fast, difficult to manoeuvre. Unused Flyer Slots <em>cannot</em> modify Terrain.</p>
+  </div>
+  <div class="slot-box">
+    <h4>Fortification — 0–1 per 1,000 pts</h4>
+    <p>Replaces one Terrain piece in your Deployment Zone. Treated as <a class="kw" href="#unit-monsters">Monsters</a> for Wounds but do not use the Vehicle Damage Chart. Weapon Arc limitations apply like Vehicles.</p>
+  </div>
+  <div class="slot-box">
+    <h4>Lord of War — 0–1 Slot</h4>
+    <p>Massive models — gigantic monsters, mobile fortresses, colossal aircraft, or skyscraper-sized titans. Unused Lord of War Slots may upgrade an existing Terrain piece to <a href="#terrain-titanic">Titanic</a>.</p>
+  </div>
+  <div class="slot-box">
+    <h4>Dedicated Transports — 0–* </h4>
+    <p>Do not take a traditional slot; count as part of the Slot they were purchased with for Objective purposes. One may be purchased per eligible unit (including multiple units within a Slot, e.g. IG Infantry Platoon).</p>
+  </div>
+</div>
+
+<div class="recap">
+  <div class="recap-title">Recap — Force Composition</div>
+  <ul>
+    <li>1–2 HQ Slots required (min 1 with a Warlord).</li>
+    <li>2–6 Troop Slots required.</li>
+    <li>Up to 3 Slots each: Elite, Fast Attack, Heavy Support.</li>
+    <li>Up to 2 Flyer Slots.</li>
+    <li>Up to 1 Lord of War Slot.</li>
+    <li>Up to 1 Fortification per 1,000 points.</li>
+    <li>Optional: swap unused Slots for Terrain upgrades before deployment.</li>
+  </ul>
+</div>
+
+<h3>Points and Datasheets</h3>
+<p>Datasheets define a unit's model composition, stat line, Wargear, rules, and available upgrades. Each unit has a point cost reflecting battlefield effectiveness. Optional Wargear and additional models adjust this cost.</p>
+<p>Power Ratings are not used — they are wildly inaccurate and fail to balance the game.</p>
+<p>Upgrades specify whether costs are <em>per model</em> or <em>per unit</em>.</p>
+
+<h3>The Stat Line</h3>
+<div class="statline">
+  <div class="stat"><div class="stat-label">M</div><div class="stat-val">6"</div></div>
+  <div class="stat"><div class="stat-label">WS</div><div class="stat-val">4+</div></div>
+  <div class="stat"><div class="stat-label">BS</div><div class="stat-val">4+</div></div>
+  <div class="stat"><div class="stat-label">S</div><div class="stat-val">3</div></div>
+  <div class="stat"><div class="stat-label">T</div><div class="stat-val">3</div></div>
+  <div class="stat"><div class="stat-label">W</div><div class="stat-val">1</div></div>
+  <div class="stat"><div class="stat-label">I</div><div class="stat-val">3</div></div>
+  <div class="stat"><div class="stat-label">A</div><div class="stat-val">1</div></div>
+  <div class="stat"><div class="stat-label">Ld</div><div class="stat-val">7</div></div>
+  <div class="stat"><div class="stat-label">Sv</div><div class="stat-val">5+</div></div>
+</div>
+
+<table>
+  <tr><th>Stat</th><th>Description</th></tr>
+  <tr><td><strong>M</strong></td><td>Movement — max inches a model may move in the <a href="#movement-phase">Movement Phase</a>. Average infantry = 6", average tank = 10".</td></tr>
+  <tr><td><strong>WS</strong></td><td>Weapon Skill — roll this or higher to Hit with a Melee Attack. Lower = better. Average = 4+. Natural 1 always fails.</td></tr>
+  <tr><td><strong>BS</strong></td><td>Ballistic Skill — roll this or higher to Hit with a Ranged Attack. Lower = better. Average = 4+. Natural 1 always fails.</td></tr>
+  <tr><td><strong>S</strong></td><td>Strength — how hard the model hits in Melee. Average human = 3, average tank = 6.</td></tr>
+  <tr><td><strong>T</strong></td><td>Toughness — resilience to Wounds. Average human = 3. Vehicles use <a class="kw" href="#term-armour-facing">Armour Facings</a> instead.</td></tr>
+  <tr><td><strong>W</strong></td><td>Wounds — lethal wounds a model can sustain before destruction. Soldiers = 1, generals ≈ 5, tanks ≈ 12.</td></tr>
+  <tr><td><strong>I</strong></td><td>Initiative — determines order of attack in ongoing Melee. Higher = faster. Humans = 3, Tanks = 1.</td></tr>
+  <tr><td><strong>A</strong></td><td>Attacks — number of Melee Attacks. Humans = 1, generals = 3–4, tanks = 3.</td></tr>
+  <tr><td><strong>Ld</strong></td><td>Leadership — morale and teamwork. Soldiers = 7, Champions/Sergeants = 8.</td></tr>
+  <tr><td><strong>Sv</strong></td><td>Armour Save — roll equal or higher to avoid a lethal injury. Hordes = 5–6+, well-equipped = 4+, heavy troopers = 3+.</td></tr>
+</table>
+
+<h3>Weapons</h3>
+<p>Each weapon entry includes: <strong>Selection</strong> (category and point cost), <strong>Name</strong>, <strong>Range</strong> (in inches; "Melee" means <a class="kw" href="#term-base-contact">Base Contact</a>), <strong>S</strong> (Strength), <strong>AP</strong> (<a class="kw" href="#term-armour-piercing">Armour Piercing</a>), and <strong>Rules</strong> (type such as <a class="kw" href="#term-rapid-fire">Rapid Fire</a> 1, plus special rules).</p>
+
+<div class="recap">
+  <div class="recap-title">Recap — Points &amp; Datasheets</div>
+  <ul>
+    <li>Datasheets dictate minimum models and Wargear at base point cost.</li>
+    <li>Weapons and special Wargear are defined on the datasheet.</li>
+    <li>Upgrades and additional models can be purchased as specified.</li>
+  </ul>
+</div>
+
+<!-- ═══════════════════════════════════════════════════════════ -->
+<h2 id="battlefield-setup" class="section-anchor">Setting up the Battlefield</h2>
+
+<p>For most games use a 4'×6' table. Sub-1,500 pt games suit a 4'×4' table; games above 3,000 pts suit 4'×8' or larger. Deployment Zones must be at least 24" apart.</p>
+<p>Recommended: one basic terrain piece per 1'×1' section. Place mostly Trees and Buildings.</p>
+
+<h3>Night Rules</h3>
+<p>Before rolling for Initiative, a player rolls a d6. On a <strong>4+</strong>, Night Rules are in effect during Battle Round 1: models further than 12" automatically gain a <strong>4+ Cover Save</strong>. Certain Wargear and special rules can circumvent this.</p>
+
+<!-- ═══════════════════════════════════════════════════════════ -->
+<h2 id="initiative" class="section-anchor">Initiative</h2>
+
+<p>Both players roll a d6 (reroll ties). The highest roller decides who goes first and who goes second.</p>
+<p>The first player picks their table edge. Players then alternate modifying Terrain with unused Slots or placing purchased Fortifications/Buildings, starting with the first player. First player then deploys their entire army (except <a class="kw" href="#term-infiltrator">Infiltrators</a> or Reserve units).</p>
+<p><strong>First player restriction:</strong> may not score any Objectives during Turn 1 and may not declare Charges.</p>
+<p><strong>Second player advantage:</strong> sees most enemy deployment, may score Objectives and declare Charges on Turn 1, but cannot shoot first.</p>
+
+<!-- ═══════════════════════════════════════════════════════════ -->
+<h2 id="deployment" class="section-anchor">Deployment</h2>
+
+<p>Roll a d6 to determine deployment type:</p>
+<table>
+  <tr><th>Roll</th><th>Type</th><th>Description</th></tr>
+  <tr><td>1–3</td><td><strong>Dawn of War</strong></td><td>Deploy longwise. Deployment Zone extends up to 12" from the middle line to your table edge.</td></tr>
+  <tr><td>4–6</td><td><strong>Attrition</strong></td><td>Deploy with short sides. Deployment Zone extends up to 24" from the centre line to your table edge.</td></tr>
+</table>
+
+<p>After deployment type, roll for Objectives (see <a href="#objectives">Objectives</a>). Then First Player deploys.</p>
+
+<h3>Post-Deployment Steps</h3>
+<ol>
+  <li><strong>Infiltrators:</strong> First player places one Infiltrator unit at least 12" from all enemy models. Second player does likewise. Alternate until all Infiltrators are placed. May be placed anywhere, including the enemy Deployment Zone.</li>
+  <li><strong>Scouts:</strong> First player moves all Scout units up to 12". Then second player does likewise. Scouts do not alternate — both sides move all their Scouts after Infiltrators are placed. Scouts have no minimum distance from enemy models.</li>
+</ol>
+
+<div class="recap">
+  <div class="recap-title">Recap — Initiative &amp; Deployment</div>
+  <ul>
+    <li>Highest d6 roll picks who goes First or Second.</li>
+    <li>1st Player picks table side; deploys army; forgoes Turn 1 Objectives and Charges.</li>
+    <li>2nd Player deploys; forgoes Turn 0 Shooting.</li>
+    <li>Infiltrators placed in alternating order (12" from enemies).</li>
+    <li>Scouts moved (no minimum distance from enemies).</li>
+  </ul>
+</div>
+
+<!-- ═══════════════════════════════════════════════════════════ -->
+<h2 id="battle-rounds" class="section-anchor">Battle Rounds and Turns</h2>
+
+<p>A <strong>Battle Round</strong> is the First Player's Turn followed by the Second Player's Turn. Each Turn consists of six phases:</p>
+<ol>
+  <li><a href="#command-phase">Command Phase</a></li>
+  <li><a href="#movement-phase">Movement Phase</a></li>
+  <li><a href="#psychic-phase">Psychic Phase</a></li>
+  <li><a href="#shooting-phase">Shooting Phase</a></li>
+  <li><a href="#assault-phase">Assault Phase</a></li>
+  <li><a href="#end-phase">End Phase</a></li>
+</ol>
+
+<!-- ═══════════════════════════════════════════════════════════ -->
+<h2 id="command-phase" class="section-anchor">Command Phase</h2>
+
+<p>The Command Phase proceeds in this order:</p>
+<ol>
+  <li>All <a class="kw" href="#term-aura">Auras</a> you have cast end and are eligible to be used again.</li>
+  <li>Attempt to rally any <strong>Fleeing</strong> troops: roll 2d6 and try to roll equal to or below the unit's <strong>Ld</strong>. On a pass, the unit rallies. On a fail, they continue to fall back their base Movement toward your deployment edge (a <strong>Compulsory Move</strong>). Fleeing units may still Shoot or Cast, but may not declare Charges. If charged, they stand and fight and are no longer Fleeing.</li>
+  <li>Roll for new Objectives to replace completed ones. You may reroll each Objective once per Command Phase (including new ones). No duplicate d66 results — reroll duplicates as needed.</li>
+  <li>Any other Compulsory Moves listed as occurring in the Command Phase.</li>
+</ol>
+
+<div class="recap">
+  <div class="recap-title">Recap — Command Phase</div>
+  <ul>
+    <li>Auras end — can be cast again this turn.</li>
+    <li>Fleeing units attempt to rally (roll 2d6 ≤ Ld).</li>
+    <li>Roll for and reroll Objectives as needed.</li>
+  </ul>
+</div>
+
+<!-- ═══════════════════════════════════════════════════════════ -->
+<h2 id="movement-phase" class="section-anchor">Movement Phase</h2>
+
+<p>Nominate one unit at a time to move up to its maximum M value. All units must be nominated.</p>
+
+<table>
+  <tr><th>Terrain Type</th><th>Effect</th></tr>
+  <tr><td><strong>Open Ground</strong></td><td>Unhindered movement.</td></tr>
+  <tr><td><strong>Rough/Difficult Terrain</strong></td><td>Costs double movement to pass through (rivers, quicksand, etc.).</td></tr>
+  <tr><td><strong>Dangerous Terrain</strong></td><td>Roll a d6 per model (<a class="kw" href="#term-dangerous-terrain-test">Dangerous Terrain Test</a>). Each 1 = 1 <a class="kw" href="#term-mortal-wound">Mortal Wound</a>.</td></tr>
+  <tr><td><strong>Impassable Terrain</strong></td><td>Cannot be entered (unless Flying or similar).</td></tr>
+</table>
+
+<h3 id="term-unit-coherency">Unit Coherency</h3>
+<p>All models in a unit must remain within the required distance of at least one other model in the unit. A unit <strong>Out of Coherency</strong> must spend all available movement following the most direct route possible before doing any other movement.</p>
+<table>
+  <tr><th>Unit Type</th><th>Coherency Distance</th></tr>
+  <tr><td>Infantry, Monstrous Infantry, Swarms</td><td>2"</td></tr>
+  <tr><td>Monsters, Vehicles</td><td>6"</td></tr>
+  <tr><td>High Altitude Flyers, Titanic</td><td>12"</td></tr>
+</table>
+<p>Models <a class="kw" href="#term-base-contact">in Base Contact</a> due to Melee ignore coherency requirements.</p>
+
+<h3>Special Movement</h3>
+<ul>
+  <li><strong>Flying:</strong> Flyers ignore terrain and vertical distance for movement. If they cannot be safely positioned, they must move or land elsewhere.</li>
+  <li><strong>High Altitude:</strong> Must move a minimum of 20" in a straight line with a single turn of up to 90° at the end of movement each phase. May opt to move off any table edge to enter Reserves; they may return from your Deployment Zone the following turn.</li>
+</ul>
+
+<h3>Reserves</h3>
+<p>At the end of any Movement Phase after Turn 1, you may deploy units from Reserve. Any model in Reserve may instead deploy by moving in from the centre of your Deployment Zone table edge. Units entering this way may still Declare Charges the turn they arrive.</p>
+
+<p class="note-purple">Advancing happens in the <a href="#shooting-phase">Shooting Phase</a>, not the Movement Phase (unlike modern editions).</p>
+
+<div class="recap">
+  <div class="recap-title">Recap — Movement Phase</div>
+  <ul>
+    <li>Models move up to their M value in inches.</li>
+    <li>Difficult Terrain costs twice the movement to traverse.</li>
+    <li>Dangerous Terrain triggers a <a class="kw" href="#term-dangerous-terrain-test">Dangerous Terrain Test</a>.</li>
+    <li>Impassable Terrain cannot be entered without Flying or similar.</li>
+    <li>Advancing happens in the Shooting Phase.</li>
+  </ul>
+</div>
+
+<!-- ═══════════════════════════════════════════════════════════ -->
+<h2 id="psychic-phase" class="section-anchor">Psychic Phase</h2>
+
+<h3>Casting Spells</h3>
+<p>Nominate a unit or model with Psychic abilities. Roll <strong>2d6</strong> and add the model's <strong>Psychic Mastery Level</strong>. If the result ties or exceeds the spell's Cast value, it succeeds.</p>
+<ul>
+  <li>Each <strong>1</strong> rolled causes the Caster to suffer a <a class="kw" href="#term-mortal-wound">Mortal Wound</a> (unit-based psychics distribute this like Shooting).</li>
+  <li><strong>Double 6:</strong> cast with <strong>Irresistible Force</strong> — cannot be stopped by <a class="kw" href="#term-deny-the-witch">Deny the Witch</a> unless the Deny is also double 6.</li>
+  <li><strong>Double 1:</strong> always fails; suffer two Mortal Wounds.</li>
+  <li>A Psychic model may cast one spell per Psychic Mastery Level per friendly Psychic Phase, but each known spell only once per phase.</li>
+</ul>
+
+<h3 id="term-deny-the-witch">Deny the Witch</h3>
+<p>Each Psychic unit/model may attempt to Deny the Witch once per Psychic Phase. Declare before your opponent manifests the power (after announcement). Must be within 18" of the Caster or Target. No <a class="kw" href="#term-line-of-sight">Line of Sight</a> required.</p>
+<p>Roll 2d6 + Psychic Mastery Level. Tie or beat the cast result to negate the power. Units that can Deny without a Psychic Mastery treat it as Psychic Mastery 0. No Mortal Wounds from 1s when Denying, but double 1s always fail and double 6s always succeed.</p>
+
+<div class="recap">
+  <div class="recap-title">Recap — Psychic Phase</div>
+  <ul>
+    <li>Cast by rolling 2d6 + Psychic Mastery Level.</li>
+    <li>May cast up to Psychic Mastery Level # spells per phase; each spell once per phase.</li>
+    <li>Each model/unit may Deny the Witch once per phase.</li>
+    <li>1s To Cast cause Mortal Wounds to the Caster.</li>
+    <li>Double 6s auto-succeed; only stoppable by double 6s on Deny.</li>
+  </ul>
+</div>
+
+<!-- ═══════════════════════════════════════════════════════════ -->
+<h2 id="shooting-phase" class="section-anchor">Shooting Phase</h2>
+
+<p>Each unit may either <strong>Shoot</strong> or <strong>Advance</strong>.</p>
+
+<h3 id="term-advance">Advancing</h3>
+<p>Roll 1d6 and move up to that many inches, ignoring Terrain movement penalties (but still taking <a class="kw" href="#term-dangerous-terrain-test">Dangerous Terrain Tests</a>). A unit that Advances may not Shoot or Charge this turn.</p>
+
+<h3>To Hit Rolls</h3>
+<p>Most weapons fire by rolling a d6 per shot, trying to meet or beat the model's <strong>BS</strong>. A natural 1 always fails. Models cannot receive more than a net +1 or −1 to hit from all modifiers combined. A dice can never be rerolled more than once.</p>
+
+<h3 id="term-template-weapons">Template Weapons</h3>
+<p>Templates come in two categories:</p>
+
+<h4>Flame Throwers</h4>
+<p>Place the narrow tip at the weapon's muzzle. Pivot within the weapon's arc. Any model underneath is automatically hit. The template may overlap the firing model without causing hits on itself, but may not touch any friendly model. <a class="kw" href="#term-flame">Flame Thrower</a> templates ignore <a class="kw" href="#term-cover-save">Cover Saves</a>.</p>
+
+<h4>Blast Weapons</h4>
+<p>Pick a target model within range (noting any minimum range). Centre the template on the target model (or vehicle facing centre). Roll a scatter die and 2d6:</p>
+<ul>
+  <li><strong>Direct Hit</strong> (2 of 6 scatter die faces): template does not move.</li>
+  <li><strong>Arrow:</strong> move the template that many inches in the direction shown, minus the BS scatter reduction below.</li>
+</ul>
+
+<table id="scatter-chart">
+  <tr><th>BS</th><th>Inches Reduced on Scatter</th></tr>
+  <tr><td>2+</td><td>5"</td></tr>
+  <tr><td>3+</td><td>4"</td></tr>
+  <tr><td>4+</td><td>3"</td></tr>
+  <tr><td>5+</td><td>2"</td></tr>
+  <tr><td>6+</td><td>1"</td></tr>
+</table>
+
+<p>If the centre hole ends up off the table, the shot is a total miss. Blast weapons fired at second-story targets scatter differently — if you miss the building entirely the round goes far off-table. <a class="kw" href="#term-indirect">Indirect</a> Fire blast weapons lob in from above and are unaffected by this.</p>
+<p>For Vehicles, the Blast template is centred on the armour facing applicable (from the target's perspective), regardless of visibility or range.</p>
+
+<h3 id="term-snap-shot">Snap Shots</h3>
+<p>Snap Shots are exceptional shots that only hit on a <strong>6+</strong> and cannot receive bonuses or penalties to hit (but may be rerolled). They occur when:</p>
+<ul>
+  <li>Firing <a class="kw" href="#term-overwatch">Overwatch</a>.</li>
+  <li>An Infantry model fires a <a class="kw" href="#term-heavy">Heavy</a> weapon after moving.</li>
+  <li>A model is <a class="kw" href="#term-pinned">Pinned</a> or has a weapon disabled.</li>
+</ul>
+<p>Snap Shots are always in optimum range for special rules (e.g. <a class="kw" href="#term-melta">Melta</a>, <a class="kw" href="#term-rapid-fire">Rapid Fire</a>). Vehicles, Monsters, Monstrous Infantry, and Titanic variants are never penalised by the Heavy weapon movement rule.</p>
+<p>Template weapons that fire Snap Shots cannot score more than 1 hit per target model per weapon. See the <a href="#template-chart">Template Snap Shot Chart</a>.</p>
+
+<h3>Rolling to Wound or Penetrate</h3>
+<p>After hits, compare the weapon's <strong>Strength</strong> to the target's <strong>Toughness</strong> or <strong>Armour Facing</strong>:</p>
+
+<table id="wound-chart" class="wound-matrix">
+  <tr><th>Strength vs Toughness</th><th>To Wound</th></tr>
+  <tr><td>Double or more the target's T</td><td class="hit">2+</td></tr>
+  <tr><td>Greater than target's T</td><td class="hit">3+</td></tr>
+  <tr><td>Equal to target's T</td><td class="hit">4+</td></tr>
+  <tr><td>Less than target's T</td><td class="miss">5+</td></tr>
+  <tr><td>Half or less of target's T</td><td class="miss">6+</td></tr>
+  <tr><td>Natural 1</td><td class="miss">Always fails</td></tr>
+</table>
+
+<p>For <strong>Vehicles</strong>: roll a d6 + weapon Strength. If you <em>tie</em> the Armour Value (or roll a natural 6 but still fall short), you cause a <a class="kw" href="#term-glancing-hit">Glancing Hit</a> (1 damage; Armour Save applies). If you <em>exceed</em> the Armour Value, you cause a <a class="kw" href="#term-penetrating-hit">Penetrating Hit</a> (no Armour Save; roll on the <a href="#vehicle-damage-chart">Vehicle Damage Chart</a>).</p>
+<p>Defending units use the majority Toughness or Armour Facing unless a specific model is targeted by a rule like <a class="kw" href="#term-sniper">Sniper</a>.</p>
+<p>Any ability that allows Rerolls To Wound also works on To Penetrate rolls.</p>
+
+<h3>Saves</h3>
+<p>You may make <strong>only one Save</strong> versus an attack. Natural 1s always fail.</p>
+<ul>
+  <li><strong id="term-armour-save">Armour Save (Sv):</strong> Compare the weapon's AP to the model's Sv. If AP equals or is lower than the Sv number, the save is negated. Example: Boltgun AP5+ negates Sv5+ and Sv6+ but not Sv4+.</li>
+  <li><strong id="term-cover-save">Cover Save:</strong> Usually 4+. Not affected by AP. Does not work against Melee. Granted if a model is 50%+ obscured. Bunkers = 3+; fences/obstacles = 5+. Intervening models grant 4+ regardless of their stats. Partial cover: exposed models take wounds first. Cannot exceed 3+ maximum.</li>
+  <li><strong id="term-invulnerability-save">Invulnerability Save:</strong> Granted by forcefields, magic, or reflexes. Not affected by AP. Usable against any attack source including Melee.</li>
+</ul>
+
+<h3 id="term-feel-no-pain">Feel No Pain</h3>
+<p>Not a Save — a supplemental roll taken <em>after</em> a failed Save. Not affected by AP. Applies universally except against <a class="kw" href="#term-destroyer">Destroyer</a> weapons and <a class="kw" href="#term-mortal-wound">Mortal Wounds</a>. Cannot be granted to Vehicles from an Aura unless specified.</p>
+
+<h3 id="term-go-to-ground">Going to Ground / Pinned</h3>
+<p>A unit may choose to <strong>Go to Ground</strong> after seeing wound results but before rolling Saves. In the open: gain a 6+ Cover Save. In cover: −1 improvement to Cover Save (max 3+). Going to Ground causes the unit to become <a class="kw" href="#term-pinned">Pinned</a>. A unit already Pinned gains the same bonus without choosing to Go to Ground.</p>
+
+<h3>Wound Allocation</h3>
+<p>After wound rolls, the Defender allocates wounds. All wounds must be assigned to the same model until it is destroyed, then start again. All models of the same name share the wound pool (assigned to the Defender's choice of model of that name). Champions and Independent Characters may intervene — each phase they may save up to their remaining Wounds to shield the unit.</p>
+
+<h3>Weapon Types</h3>
+<table>
+  <tr><th>Type</th><th>Rules</th></tr>
+  <tr>
+    <td><strong id="term-rapid-fire">Rapid Fire #</strong></td>
+    <td>Doubles the number of attacks when within half range. Most common weapon type. Example: Rapid Fire 1 boltgun gets 2 shots at half range.</td>
+  </tr>
+  <tr>
+    <td><strong id="term-assault">Assault #</strong></td>
+    <td>May declare Charges after firing. Hip-fire weapons that don't prevent follow-up melee.</td>
+  </tr>
+  <tr>
+    <td><strong id="term-heavy">Heavy #</strong></td>
+    <td>When carried by Infantry, can only fire <a class="kw" href="#term-snap-shot">Snap Shots</a> when moving and shooting in the same turn. Vehicles, Monsters, and Monstrous Infantry are unaffected.</td>
+  </tr>
+  <tr>
+    <td><strong id="term-pistol">Pistol #</strong></td>
+    <td>Treated like Assault weapons; additionally, Infantry may fire them in Melee against the engaged unit. Pistols hit on 5+ during <a class="kw" href="#term-overwatch">Overwatch</a> (instead of 6+). No −1 To Hit penalty in Melee.</td>
+  </tr>
+  <tr>
+    <td><strong id="term-grenade">Grenade</strong></td>
+    <td>One model per unit may use a grenade profile per shooting phase (one per grenade type). Allows unit to ignore the penalty for charging into cover if at least one model is equipped. Non-Blast Grenades may be used in Melee as a single attack instead of fighting normally — multiple models may use the same grenade in Melee. Cannot use Auxiliary weapons with grenades in Melee.</td>
+  </tr>
+</table>
+
+<div class="recap">
+  <div class="recap-title">Recap — Shooting Phase</div>
+  <ul>
+    <li>Units may Advance or Shoot. Advancing and some weapon types prevent Charges.</li>
+    <li>Snap Shots hit on 6+; Templates use special dice tables.</li>
+    <li>Choose one Save: Armour, Cover, or Invulnerability.</li>
+    <li>Feel No Pain stacks with Saves.</li>
+    <li>Go to Ground to become Pinned in exchange for a better Cover Save.</li>
+  </ul>
+</div>
+
+<!-- ═══════════════════════════════════════════════════════════ -->
+<h2 id="assault-phase" class="section-anchor">Assault Phase</h2>
+
+<h3>Declaring Charges</h3>
+<p>Nominate each eligible unit to charge, choosing one or more enemy units within 12". A unit is eligible if it has only fired <a class="kw" href="#term-assault">Assault</a>, <a class="kw" href="#term-pistol">Pistol</a>, or <a class="kw" href="#term-grenade">Grenade</a> weapons and has not Advanced.</p>
+
+<h3 id="term-overwatch">Overwatch</h3>
+<p>After Charges are declared but before Charge rolls, targeted units may fire Overwatch — <a class="kw" href="#term-snap-shot">Snap Shots</a> against the charging unit. Each weapon may only target one unit. Template or multi-shot weapons cannot designate attacks against multiple units. <a class="kw" href="#term-pinning">Pinning</a> weapons that succeed during Overwatch inflict the Pinning test immediately.</p>
+
+<h3>Charge Rolls</h3>
+<p>Roll <strong>2d6</strong> for each charging unit. The result is the maximum inches the unit may move. If at least one model cannot make <a class="kw" href="#term-base-contact">Base Contact</a> with the target, the charge fails — the unit does not move. No model may move further than the Charge roll result.</p>
+<p>Once a model makes base contact, it is <strong>Locked in Melee</strong> and cannot move. Move remaining models in the charging unit to maximise base contact. Defending units must then move each model up to 3" to engage in base contact if possible (unless already Locked).</p>
+
+<h3>Challenges</h3>
+<p>When a Melee is nominated, the active player may nominate an <a class="kw" href="#term-independent-character">Independent Character</a> or <a class="kw" href="#term-character">Character</a> to issue a Challenge. The other player may accept. During a Challenge, no other models may intervene (except Auras and non-damaging spells).</p>
+<p>If a Challenge is issued and not matched, the non-Challenging player nominates an Independent Character or Character to sit out — they may still take Wounds and Saves but may not attack. Independent Characters alone cannot Challenge or be Challenged.</p>
+
+<h3>Fighting</h3>
+<p><strong>Chargers fight first</strong> on the turn they Charged. If a unit Charges through Terrain or models inside Terrain, they perform a <strong>Disorganised Charge</strong> and fight at <strong>Initiative 0</strong> this phase (cannot be modified). Units with at least one model equipped with <a class="kw" href="#term-grenade">Grenades</a> ignore this penalty.</p>
+<p>Each model in base contact (or within 1" of a friendly model in base contact) may make Melee Attacks. After Chargers, fighting proceeds in <strong>Initiative order</strong>. Simultaneous fighting occurs if units have equal Initiative or if an ability makes them count as Charging.</p>
+<p>In Melee, models may forgo all attacks and move to get on a weaker armour facing of a Vehicle (up to full M value, remaining in base contact with the same Vehicle).</p>
+
+<h3>Combat Resolution</h3>
+<p>After all units in a Melee have fought, compare total Wounds suffered. The army that suffered more has lost combat. Each losing unit takes an Ld test penalised by the margin of loss.</p>
+<p>Example: Chaos Cultists suffer 8 Wounds, Space Wolves suffer 3 — Chaos Cultists test at Ld−5.</p>
+<p>If the Ld test is failed, the unit immediately <strong>Flees</strong> 2d6" toward your table edge (Deployment Zone boundary). Enemy units may Pursue 2d6" or choose to restrain (Ld test declared before distance is rolled — failure means they must pursue).</p>
+
+<h3>Fleeing and Pursuit</h3>
+<ul>
+  <li>Fleeing units move 2d6" toward the closest point of their Deployment Zone table edge, moving around Impassable Terrain. They move through friendly/enemy models but do not end in their space (back up to 1").</li>
+  <li>Pursuers move back into base contact if they rolled equal to or higher than the Flee roll. Otherwise they stay the difference away.</li>
+  <li>If a Fleeing unit moves off the table edge, it is destroyed.</li>
+  <li>If Pursuers leave the table, they enter temporary Reserve; they must re-enter from that point at the end of their next Movement Phase as if they had <a class="kw" href="#term-outflank">Outflank</a>.</li>
+  <li>Tanks, Monsters, and Titanic models that Flee through Terrain or units inflict 1 Auto Hit at their base S (AP−) to affected models.</li>
+</ul>
+
+<p>Extra Wounds assigned to an already-slain unit are lost and do not count toward Combat Resolution (except Challenge Wounds, which still count). <a class="kw" href="#term-fearless">Fearless</a> and We Shall Know No Fear units auto-pass Ld tests for rallying fleeing allies.</p>
+<p>If all enemies in the Melee are destroyed, the winning unit may move 3" as a Consolidation move.</p>
+
+<div class="recap">
+  <div class="recap-title">Recap — Assault Phase</div>
+  <ul>
+    <li>Declare Charges (eligible units only; target must be within 12").</li>
+    <li>Targeted units fire Overwatch (Snap Shots).</li>
+    <li>Charge roll: 2d6" — all models must be able to reach or the charge fails.</li>
+    <li>Chargers fight first, then Initiative order.</li>
+    <li>Combat Resolution: compare Wounds suffered; losing units take Ld tests penalised by the margin.</li>
+    <li>Fleeing units move toward their Deployment Zone edge; Pursuers follow.</li>
+    <li>Tanks, Monsters, and Titanic units crush anything they flee through.</li>
+  </ul>
+</div>
+
+<!-- ═══════════════════════════════════════════════════════════ -->
+<h2 id="end-phase" class="section-anchor">End Phase</h2>
+
+<p>Remove casualty models, confirm Victory Points, and check whether the game continues.</p>
+<table>
+  <tr><th>End of Battle Round</th><th>Continuation Roll</th></tr>
+  <tr><td>5</td><td>Roll d6 — on 4+, game continues.</td></tr>
+  <tr><td>6</td><td>Roll d6 — on 4+, game continues.</td></tr>
+  <tr><td>7</td><td>Roll d6 — on 4+, game continues. If it continues, roll a further d6 — on 4+, Battle Round 8 has Night Fighting rules.</td></tr>
+  <tr><td>8</td><td>Game ends.</td></tr>
+</table>
+
+<div class="recap">
+  <div class="recap-title">Recap — End Phase</div>
+  <ul>
+    <li>Victory Points are calculated at the end of each Player Turn from Objectives completed (possible to score during the opponent's Turn).</li>
+    <li>Game lasts 5–8 Battle Rounds (variable length).</li>
+    <li>Night Fighting Rules may apply in Round 8.</li>
+  </ul>
+</div>
+
+<!-- ═══════════════════════════════════════════════════════════ -->
+<h2 id="unit-types" class="section-anchor">Unit Types</h2>
+
+<h3>Fortifications</h3>
+<p>Placed during Terrain modification step. May only be placed in your Deployment Zone, replacing one existing Terrain piece.</p>
+
+<h3>Infantry</h3>
+<p>The only unit type that can claim Objectives. Typically on 25mm or 32mm bases. Bikes or Steed-mounted Infantry retain Infantry benefits but must make <a class="kw" href="#term-dangerous-terrain-test">Dangerous Terrain Tests</a> entering non-Hill Terrain. They may not climb Buildings, board Transports, or reach objectives on elevated levels unless on Hills.</p>
+<p>Independent Characters that are Infantry can join Infantry or Monstrous Infantry units.</p>
+
+<h3 id="unit-monstrous-infantry">Monstrous Infantry</h3>
+<p>Generally 40mm–50mm bases. Bridges the gap between Monsters and Infantry. May fire any weapon while in Melee at −1 To Hit and +1 To Scatter (provided Templates don't hit friendlies). May even fire out of Melee. <a class="kw" href="#term-monsterbane">Monsterbane</a> weapons must reroll failed To Wound rolls against Monstrous Infantry.</p>
+<p>Independent Characters that are Monstrous Infantry can join Infantry or Monstrous Infantry.</p>
+
+<h3 id="unit-monsters">Monsters</h3>
+<p>The organic equivalent of tanks — high Toughness and strong melee. More susceptible to mid-strength weapons than Vehicles but suffer no permanent side effects. <a class="kw" href="#term-monsterbane">Monsterbane</a> adds 1 extra Wound when they fail saves. Monsters may not climb terrain other than Hills. Like Monstrous Infantry, may fire in or out of Melee at −1 To Hit/+1 Scatter.</p>
+<p>Monsters may move through Occupiable Terrain (not solid walls), both inflicting and receiving an Auto Hit at the respective S values (AP−).</p>
+<p>Independent Characters that are Monsters may join Monstrous Infantry or Monster units.</p>
+
+<h3>Titanic Monsters</h3>
+<p>Towering monstrosities. Operate like Monsters but immediately remove any non-Titanic Terrain they move into. Always considered stationary for firing (can fire <a class="kw" href="#term-ordnance">Ordnance</a> while moving). <a class="kw" href="#term-fearless">Fearless</a>. All Melee attacks are AP2+ unless using a specific weapon. Do not suffer −1 To Hit or +1 Scatter for shooting while in Melee.</p>
+
+<h3 id="unit-vehicles">Vehicles</h3>
+<p>Unique stat line: <strong>Front Armour (FA)</strong>, <strong>Side Armour (SA)</strong>, and <strong>Rear Armour (RA)</strong> instead of T and Sv. To attack, perform a Penetration Roll (d6 + weapon Strength):</p>
+<ul>
+  <li>Tie the Armour Value, or roll a natural 6 (even if under): <a class="kw" href="#term-glancing-hit"><strong>Glancing Hit</strong></a> — 1 Damage; Armour Save may apply.</li>
+  <li>Exceed the Armour Value: <a class="kw" href="#term-penetrating-hit"><strong>Penetrating Hit</strong></a> — no Armour Save; roll on the Vehicle Damage Chart.</li>
+</ul>
+
+<p>Vehicles may not climb terrain other than Hills. Attempting to pass through occupiable terrain: inflict 1 hit at the Vehicle's S on the Terrain, then roll d6 — on a 1, the Vehicle is <strong>stuck</strong> (Immobilised) facing the direction of travel for the rest of the game.</p>
+
+<h4 id="vehicle-damage-chart">Vehicle Damage Chart</h4>
+<div class="dmg-chart">
+  <div class="dmg-row">
+    <div class="dmg-result">−1–3</div>
+    <div class="dmg-text"><strong>Crew Shaken:</strong> A randomised weapon may only fire <a class="kw" href="#term-snap-shot">Snap Shots</a> for a full Battle Round (ending in the same phase next turn). The Vehicle suffers 1 additional Wound.</div>
+  </div>
+  <div class="dmg-row">
+    <div class="dmg-result">4</div>
+    <div class="dmg-text"><strong>Crew Stunned:</strong> Vehicle only Moves, Advances, Charges, and Flees at half speed for a full Battle Round. Suffers 1 additional Wound. Stackable — rounds down to nearest whole number; at 0, the vehicle cannot move at all including pivoting.</div>
+  </div>
+  <div class="dmg-row">
+    <div class="dmg-result">5</div>
+    <div class="dmg-text"><strong>Immobilised:</strong> Vehicle permanently Moves at half speed for the rest of the game. Stackable (rounds down). Suffers 2 additional Wounds.</div>
+  </div>
+  <div class="dmg-row">
+    <div class="dmg-result">6+</div>
+    <div class="dmg-text"><strong>Weapon Destroyed:</strong> A randomised weapon is destroyed. Primary weapons are instead disabled. Suffers 2 additional Wounds.</div>
+  </div>
+</div>
+
+<p><strong>Modifiers to Damage Chart roll:</strong> AP1+ = +1; AP− = −2; Open Topped = +2 (stackable).</p>
+<p><strong>Destruction:</strong> When a Vehicle is destroyed, roll d6. On 6+, it <strong>explodes</strong> in a d6" radius, dealing a S User AP− hit to all models within range. Otherwise it becomes <a class="kw" href="#term-wreckage">Wreckage Terrain</a>.</p>
+
+<h3>Weapon Arcs (Vehicles)</h3>
+<table>
+  <tr><th>Mount Type</th><th>Fire Arc</th></tr>
+  <tr><td>Hull mounted</td><td>90° from its facing</td></tr>
+  <tr><td>Sponson</td><td>90°–180°</td></tr>
+  <tr><td>Turret</td><td>270°–360°</td></tr>
+  <tr><td>Pintle</td><td>360°</td></tr>
+  <tr><td>Firing points (embarked)</td><td>90° (unless stated otherwise)</td></tr>
+</table>
+
+<p><a class="kw" href="#term-combat-walker">Combat Walkers</a> always use FA in Melee unless their M is reduced to 0 (then always struck in RA). Combat Walkers may fire any weapon in Melee at −1 To Hit/+1 Scatter and may fire out of Melee entirely.</p>
+
+<h3>Titanic Vehicles</h3>
+<p>Operate like Vehicles but are <a class="kw" href="#term-fearless">Fearless</a>, always considered stationary for firing, all Melee attacks are AP2+ unless using a weapon, and non-Titanic Terrain or Vehicle Wrecks they move into are destroyed. Use a different Damage Chart:</p>
+
+<div class="dmg-chart">
+  <div class="dmg-row">
+    <div class="dmg-result">−1–4</div>
+    <div class="dmg-text">Suffer 1 additional Wound.</div>
+  </div>
+  <div class="dmg-row">
+    <div class="dmg-result">5</div>
+    <div class="dmg-text"><strong>Mobility Damaged:</strong> Vehicle moves at half speed (rounded down). Stackable — at 0, Immobilised. Suffer 2 additional Wounds.</div>
+  </div>
+  <div class="dmg-row">
+    <div class="dmg-result">6+</div>
+    <div class="dmg-text"><strong>Weapon Disabled:</strong> Like standard Vehicle Weapon Disabled. Suffer 2 additional Wounds. No weapon can be permanently destroyed on a Titanic Vehicle.</div>
+  </div>
+</div>
+
+<p><strong>Destruction:</strong> Roll d6. On 6+, explodes in a 2d6" radius dealing S User AP2+ hits. Otherwise becomes <strong>Titanic Wreckage Terrain</strong>.</p>
+
+<h3>Swarms</h3>
+<p>When a Monstrous Infantry, Monster, or Vehicle (including Titanic) is in base contact with a Swarm in Close Combat, it may not fire weapons at targets outside its Melee except Flame Throwers. Swarms cannot Clog the Barrels of Titanic models. Swarms take 1 extra Wound when wounded by Blast or Flame weapons.</p>
+
+<!-- ═══════════════════════════════════════════════════════════ -->
+<h2 id="objectives" class="section-anchor">Objectives</h2>
+
+<p>Alternate placing Objective Markers (one at a time, starting with the Initiative winner). Each marker must be at least 12" from any other marker and 6" from the table edge. Markers should be 60mm in base size. Number them 1–6 in placement order.</p>
+<p>Only <strong>Infantry</strong> models can score Objectives. A unit must have at least one model within 3" of the marker. If a unit is in range of multiple markers, its controlling player chooses which to score. If both players have scoring models within range, the player with the most models controls it — ties mean neither player scores.</p>
+<p>The <strong>First Player</strong> may not score Objective Points during their first Turn. You may discard one Objective during your Command Phase and reroll it once per phase. No duplicate d66 results (reroll all duplicates).</p>
+<p>To roll a d66: roll 2d6, nominate one as the tens digit and one as the units digit.</p>
+
+<h3>Objectives Table (d66)</h3>
+<table class="obj-table">
+  <tr><th>d66</th><th>Objective</th></tr>
+  <tr><td>11</td><td>Control Objective Marker 1 at the end of your End Phase.</td></tr>
+  <tr><td>12</td><td>Control Objective Marker 2 at the end of your End Phase.</td></tr>
+  <tr><td>13</td><td>Control Objective Marker 3 at the end of your End Phase.</td></tr>
+  <tr><td>14</td><td>Control Objective Marker 4 at the end of your End Phase.</td></tr>
+  <tr><td>15</td><td>Control Objective Marker 5 at the end of your End Phase.</td></tr>
+  <tr><td>16</td><td>Control Objective Marker 6 at the end of your End Phase.</td></tr>
+  <tr><td>21</td><td>Control Objective Marker 1 at the end of your End Phase.</td></tr>
+  <tr><td>22</td><td>Control Objective Marker 2 at the end of your End Phase.</td></tr>
+  <tr><td>23</td><td>Control Objective Marker 3 at the end of your End Phase.</td></tr>
+  <tr><td>24</td><td>Control Objective Marker 4 at the end of your End Phase.</td></tr>
+  <tr><td>25</td><td>Control Objective Marker 5 at the end of your End Phase.</td></tr>
+  <tr><td>26</td><td>Control Objective Marker 6 at the end of your End Phase.</td></tr>
+  <tr><td>31</td><td>Control Objective Marker 1 at the end of your End Phase.</td></tr>
+  <tr><td>32</td><td>Control Objective Marker 2 at the end of your End Phase.</td></tr>
+  <tr><td>33</td><td>Control Objective Marker 3 at the end of your End Phase.</td></tr>
+  <tr><td>34</td><td>Control Objective Marker 4 at the end of your End Phase.</td></tr>
+  <tr><td>35</td><td>Control Objective Marker 5 at the end of your End Phase.</td></tr>
+  <tr><td>36</td><td>Control Objective Marker 6 at the end of your End Phase.</td></tr>
+  <tr><td>41</td><td><strong>Recon:</strong> Score an Objective Marker not in your Deployment Zone at the end of your End Phase.</td></tr>
+  <tr><td>42</td><td><strong>Behind Enemy Lines:</strong> Have at least 1 scoring model inside the enemy Deployment Zone. Score D2 VP if you have 3+ scoring units there.</td></tr>
+  <tr><td>43</td><td><strong>Hold the Line:</strong> Have at least one scoring model in your Deployment Zone and no enemy scoring units there.</td></tr>
+  <tr><td>44</td><td><strong>Ascendency:</strong> Score D2 VP if you control at least 3 Objective Markers at the end of your End Phase.</td></tr>
+  <tr><td>45</td><td><strong>Supremacy:</strong> Score D3 VP if you control twice as many Objective Markers as your opponent.</td></tr>
+  <tr><td>46</td><td><strong>Domination:</strong> Score D3+3 VP if you control every Objective Marker.</td></tr>
+  <tr><td>51</td><td><strong>Overwhelming Fire Power:</strong> Remove an enemy Slot during a Shooting Phase. Score D2 VP if you remove 3+ Slots.</td></tr>
+  <tr><td>52</td><td><strong>Blood and Guts:</strong> Remove an enemy Slot during an Assault Phase. Score D2 VP if you remove 3+ Slots.</td></tr>
+  <tr><td>53</td><td><strong>No Prisoners:</strong> Remove an enemy Slot during a turn. Score D3 VP if you remove 5+ Slots.</td></tr>
+  <tr><td>54</td><td><strong>Hungry for Glory:</strong> Issue a Challenge during an Assault Phase. Score D2 VP if you issue 3+ Challenges during an Assault Phase.</td></tr>
+  <tr><td>55</td><td><strong>Psychological Warfare:</strong> Make an enemy unit fail a Pinning, Fear, or Morale test. Score D2 VP if you cause 3+ such failures.</td></tr>
+  <tr><td>56</td><td><strong>Harness the Warp:</strong> Successfully cast a Spell or Deny the Witch. Score D2 VP if you cast/Deny 3+ spells in one phase.</td></tr>
+  <tr><td>61</td><td><strong>Kingslayer:</strong> Score D3 VP if your models slay the enemy Warlord. Cannot score if Warlord is already slain.</td></tr>
+  <tr><td>62</td><td><strong>Witch Hunter:</strong> Kill an enemy Psyker during a turn. Score D2 VP if you kill 3+ Psykers. Multi-model Psyker units count only when the last model is destroyed.</td></tr>
+  <tr><td>63</td><td><strong>Scour the Skies:</strong> Kill an enemy Flyer or High Altitude unit during a turn. Score D2 VP if you kill 3+.</td></tr>
+  <tr><td>64</td><td><strong>Assassinate:</strong> Kill an enemy Independent Character during a turn. Score D2 VP if you kill 3+.</td></tr>
+  <tr><td>65</td><td><strong>Demolitions:</strong> Destroy a piece of Terrain during a turn.</td></tr>
+  <tr><td>66</td><td><strong>Big Game Hunter:</strong> Destroy an enemy Vehicle or Monster. Score D3 VP if you destroy a Titanic Vehicle or Titanic Monster.</td></tr>
+</table>
+
+<!-- ═══════════════════════════════════════════════════════════ -->
+<h2 id="terrain" class="section-anchor">Terrain</h2>
+
+<p>One basic Terrain piece per 1'×1' of table is recommended. Alternate placing one piece each before determining sides or Initiative. After Initiative (but before Deployment), use unused Slots to upgrade or add Terrain — alternate one at a time starting with the designated Attacker.</p>
+<p>Any unit Charging an enemy unit <em>manning cover</em> suffers a <strong>Disorganised Charge</strong> (loses all Charging bonuses, fights at Initiative 0). This is negated if the charging unit has Grenades.</p>
+<p>Terrain can be destroyed — see T and W values per type. No Terrain has a Save but can benefit from cover from intervening Terrain or models.</p>
+
+<h3 id="terrain-buildings">Buildings</h3>
+<p><strong>T7, 10 Wounds per floor. Cover Save: 4+.</strong> Recommended size: no more than 6"×6" unless combined with adjacent 1'×1' sections.</p>
+<p>As Building Terrain loses Wounds equal to a floor's total, the top habitable level becomes uninhabitable. Models on that floor drop down a level. If they cannot, they must Force Disembark and are <a class="kw" href="#term-pinned">Pinned</a> (make a <a class="kw" href="#term-dangerous-terrain-test">Dangerous Terrain Test</a> — each 1 inflicts a Mortal Wound per model). Further destroyed levels become Impassable Terrain from the top down.</p>
+
+<h3>Fences</h3>
+<p><strong>T5, 5 Wounds per section. Cover Save: 5+.</strong> Wooden fences, hedge rows, light walls. Should not exceed 6" in length unless combined.</p>
+
+<h3 id="terrain-fortifications">Fortifications</h3>
+<p>Fortification upgrades do not place new Terrain — nominate an existing piece and add <strong>+1 Toughness</strong> and <strong>+5 Wounds per floor</strong>. Trees gain T+1 only (but the whole grove gets the bonus).</p>
+
+<h3 id="terrain-titanic">Titanic Terrain</h3>
+<p>Epic centrepieces up to 12"×12" (expandable with adjacent sections). The Titanic upgrade adds <strong>+1 Toughness</strong> and <strong>+5 Wounds per floor</strong> (Trees gain T+1 across the whole grove).</p>
+
+<h3 id="terrain-tower">Towers</h3>
+<p><strong>T7, 10 Wounds per level. Cover Save: 4+.</strong> Must dominate all non-Titanic Terrain in height. Must be able to host models on at least the top level.</p>
+
+<h3 id="terrain-trees">Trees</h3>
+<p><strong>T7, 1 Wound each.</strong> Rarely block Line of Sight completely but grant a <strong>4+ Cover Save</strong>. Distribute hits like a unit. Maximum 6"×6" per section. Remove starting from the closest tree to the attacker.</p>
+
+<h3 id="terrain-utility">Utility Terrain</h3>
+<p>Flat or near-flat feature terrain, max 6" in length unless combined. Not destroyed by Titanic units or weapons.</p>
+<table>
+  <tr><th>Type</th><th>Effect</th></tr>
+  <tr><td><strong>Trench Line</strong></td><td>3+ Cover Save. Difficult Terrain. Non-Flying/High-Altitude Vehicles must roll d6 when passing through — on a 1, Immobilised for the rest of the game. Can only house Monstrous Infantry or smaller.</td></tr>
+  <tr><td><strong>Water Feature</strong></td><td>Difficult Terrain. Same Vehicle Immobilisation risk (d6, 1 = stuck) as Trench Lines.</td></tr>
+  <tr><td><strong>Road</strong></td><td>12" long, max 6" wide. Non-Flying/High-Altitude Mounted Infantry, Monsters, Titanic Monsters, Vehicles, or Titanic Vehicles moving their <em>entire</em> movement along the road gain +2M.</td></tr>
+  <tr><td><strong>Smoke Screen</strong></td><td>Causes −1 To Hit for any unit shooting through the Smoke. Units inside suffer the same penalty. Blast weapons entering/shooting through add +1 to scatter (except Direct Hits). No Cover Save.</td></tr>
+  <tr><td><strong>Mine Fields</strong></td><td>All non-Flyer/High-Altitude models moving through must make Dangerous Terrain Tests. Applies to Advancing, Charging, or Falling Back. No further tests if the model stays still in later turns.</td></tr>
+</table>
+
+<!-- ═══════════════════════════════════════════════════════════ -->
+<h2 id="terminology" class="section-anchor">Terminology &amp; Keywords</h2>
+
+<p>All keywords used in rules text link back to this section. When in doubt, find the keyword here.</p>
+
+<dl class="glossary">
+
+<dt id="term-aa">AA</dt>
+<dd>Weapons with AA ignore the −1 To Hit vs <a class="kw" href="#term-high-altitude">High Altitude</a> models, gain +1 To Hit against Flyers and High Altitude, and ignore the <a class="kw" href="#term-cover-save">Cover Save</a> Flyers and High Altitude models receive from <a class="kw" href="#term-deep-strike">Deepstriking</a>.</dd>
+
+<dt id="term-accurate">Accurate</dt>
+<dd>This weapon has +1 To Hit.</dd>
+
+<dt id="term-aquatic">Aquatic</dt>
+<dd>This model ignores the Difficult Terrain penalty for moving through Water Terrain.</dd>
+
+<dt id="term-armourbane">Armourbane</dt>
+<dd>Roll 2d6 to penetrate Vehicles and Titanic Vehicles instead of 1d6.</dd>
+
+<dt id="term-armour-facing">Armour Facing</dt>
+<dd>Vehicles have Front Armour (FA), Side Armour (SA), and Rear Armour (RA). Determine facing using 90° arcs drawn from the corners of the main body from the <em>defending</em> vehicle's perspective. Wider vehicles (e.g. Dreadnoughts) have a more prominent Front Facing; longer vehicles (e.g. Malcador) have a more prominent Side Facing. For unusual shapes (e.g. Eldar Falcons), construct an imaginary box around the main structure.</dd>
+
+<dt id="term-armour-piercing">Armour Piercing (AP)</dt>
+<dd>If the weapon's AP number is equal to or lower than the target's Sv number, the Armour Save is negated. AP− never negates any save. Example: AP5+ negates Sv5+ and Sv6+, but not Sv4+. See <a href="#term-armour-save">Armour Save</a>.</dd>
+
+<dt id="term-assault-ramp">Assault Ramp</dt>
+<dd>Models disembarking from a Transport with Assault Ramps may declare Charges on the same turn they Disembark.</dd>
+
+<dt id="term-aura">Aura</dt>
+<dd>Auras affect the user and/or a specified target unit (see description). A unit cannot benefit from Auras of the same name simultaneously, but may benefit from Auras of different names with the same effect. All Auras end at the start of your Command Phase and may be cast again.</dd>
+
+<dt id="term-auto-hit">Auto Hit</dt>
+<dd>Always succeeds in hitting — much like a Template overlapping a model. No To Hit roll required.</dd>
+
+<dt id="term-auto-wound">Auto Wound</dt>
+<dd>An automatic successful Wound with AP− distributed as Shooting. Units still get their full Armour and Invulnerability Saves and Feel No Pain, but not Cover Saves.</dd>
+
+<dt id="term-auxiliary">Auxiliary</dt>
+<dd>Auxiliary weapons can never have Base Attacks assigned to them. They operate like an additional Melee Weapon with one Attack that may only receive more from the Extra Attack rule.</dd>
+
+<dt id="term-base-contact">Base Contact</dt>
+<dd>When a model's base is touching another model's base. Required for Melee attacks and Charging. When a model has no base, treat physical contact with the model as Base Contact.</dd>
+
+<dt id="term-blast">Blast Templates</dt>
+<dd>Templates ranging from 3" to the Apocalypse Barrage. See <a href="#term-template-weapons">Template Weapons</a> and <a href="#template-chart">Template Snap Shot Chart</a>.</dd>
+
+<dt id="term-bodyguard">Bodyguard</dt>
+<dd>A model with Bodyguard may attempt to intercept Wounds, Glances, or Penetrations that get through a Character or Independent Character's Saves and Feel No Pains. For each Wound the Character would suffer, roll a d6 — on 2+, the Bodyguard suffers that Mortal Wound instead. On a 1, the Character suffers normally.</dd>
+
+<dt id="term-bomb">Bomb</dt>
+<dd>Select a target model you moved over in the Movement Phase. Apply the appropriate Template and roll the scatter die (tear-drop end pointing away, round end pointing at the model). Scatter works like Blast weapons (BS reduces scatter). A Direct Hit never scatters.</dd>
+
+<dt id="term-bulky">Bulky</dt>
+<dd>This model takes two Transport spaces, including when using Firing Ports.</dd>
+
+<dt id="term-character">Character</dt>
+<dd>Characters may issue and accept Challenges. On a natural 6+ To Hit (Ranged or Melee), they may choose the target model instead of the Defending Player selecting it. This is declared before the To Wound or Penetrate roll.</dd>
+
+<dt id="term-co-axial">Co-Axial</dt>
+<dd>Co-Axial weapons must be fired at the same target as their paired weapon. Select one weapon to shoot first. If it scores at least 1 hit, the paired weapon may reroll misses or scatter dice.</dd>
+
+<dt id="term-combat-walker">Combat Walker</dt>
+<dd>Always uses Front Armour (FA) for defence when in Melee unless M is reduced to 0 (then always struck in Rear Armour regardless of facing). Can fire any weapon in Melee at −1 To Hit/+1 Scatter and may even fire out of Melee entirely.</dd>
+
+<dt id="term-concussion">Concussion</dt>
+<dd>If a Concussive weapon wounds the target, it suffers A−1 until the next Melee Phase of the Player's Turn who inflicted it. A model cannot be reduced below A1.</dd>
+
+<dt id="term-dangerous-terrain-test">Dangerous Terrain Test</dt>
+<dd>For each model in the unit, roll a d6. On a 1, the model suffers a <a class="kw" href="#term-mortal-wound">Mortal Wound</a> (consolidate Wounds as necessary for multi-Wound models).</dd>
+
+<dt id="term-deep-strike">Deep Strike</dt>
+<dd>Place the model with the highest Leadership on the table (choose one if tied) and roll to scatter (like a Blast template). Place all other models in base contact around them forming rings (complete each ring before starting the next). If any model overlaps Impassable Terrain or another model, move the whole unit the minimum distance to be 1" away. The entire unit is forced to Go to Ground and become <a class="kw" href="#term-pinned">Pinned</a> — no test required, and immunity to Pinning does not prevent this.</dd>
+
+<dt id="term-deny-the-witch">Deny the Witch</dt>
+<dd>See <a href="#term-deny-the-witch">Psychic Phase</a>. Roll 2d6 + Psychic Mastery Level, within 18" of Caster or Target. Tie or exceed the cast result to negate the power. No Mortal Wounds from 1s; double 1s always fail; double 6s always succeed.</dd>
+
+<dt id="term-destroyer">Destroyer</dt>
+<dd>Always Wounds and Penetrates on a 2+. Will never Glance. Wounds and Penetrations ignore Armour Saves, Cover Saves, Invulnerability Saves, and Feel No Pain. Titanic targets suffer +2 Damage per Destroyer Wound inflicted (plus additional sources like <a class="kw" href="#term-monsterbane">Monsterbane</a>).</dd>
+
+<dt id="term-disembark">Disembark</dt>
+<dd>Units that Disembark move up to their full M value from one of the transport's access points, ignoring other models during movement. See also <a class="kw" href="#term-force-disembark">Force Disembark</a>.</dd>
+
+<dt id="term-fearless">Fearless</dt>
+<dd>Fearless units automatically pass Fear tests, Pinning Tests, and do not fall back when losing Combat Resolution. If they fail Combat Resolution, for each point they fail the Ld test they suffer one Auto Wound distributed as Shooting.</dd>
+
+<dt id="term-feel-no-pain">Feel No Pain</dt>
+<dd>Taken after Saves on a unit. Succeeds on the printed number or higher. Does not apply vs <a class="kw" href="#term-destroyer">Destroyer</a> Weapons or <a class="kw" href="#term-mortal-wound">Mortal Wounds</a>. Cannot be granted to Vehicles from an Aura unless specifically stated.</dd>
+
+<dt id="term-fire-ports">Fire Ports</dt>
+<dd>Standard Fire Ports have a facing like a Hull weapon — used by one model. 360° Fire Ports fire in any direction. Bulky models use two Fire Ports; Very Bulky models use three. Only Embarked models may use Fire Ports.</dd>
+
+<dt id="term-flame">Flame Throwers</dt>
+<dd>Non-scattering tear-drop templates providing automatic hits in close quarters. Any model under the template is hit. May not touch friendly models. Ignores Cover Saves. See <a href="#shooting-phase">Shooting Phase</a>.</dd>
+
+<dt id="term-force-disembark">Force Disembark</dt>
+<dd>When a Building or Transport is destroyed, embarked models must Force Disembark — like normal Disembark but they are immediately <a class="kw" href="#term-pinned">Pinned</a> (even if immune to Pinning Tests). They must also make a <a class="kw" href="#term-dangerous-terrain-test">Dangerous Terrain Test</a>.</dd>
+
+<dt id="term-furious-charge">Furious Charge</dt>
+<dd>This model gains S+1 in a Melee Phase where it is considered to be Charging.</dd>
+
+<dt id="term-gauss">Gauss</dt>
+<dd>A Gauss weapon inflicts an Auto Wound on a natural 6+ To Hit. Continue rolling To Wound or Penetrate normally with the remaining dice in the pool.</dd>
+
+<dt id="term-gets-hot">Gets Hot!</dt>
+<dd>When rolling To Hit, all natural 1s cause 1 Mortal Wound to the bearer. For templates, roll d6 per template placed and suffer a Mortal Wound for each 1. Continue resolving the attack normally regardless of whether the bearer is slain.</dd>
+
+<dt id="term-glancing-hit">Glancing Hit</dt>
+<dd>Caused when a To Penetrate roll ties the Vehicle's Armour Value (or rolls a natural 6 but still falls short). Deals 1 Damage; the Vehicle may make its Armour Save or other Save if applicable.</dd>
+
+<dt id="term-grav">Grav</dt>
+<dd>Always wounds Infantry, Monstrous Infantry, Monsters, Swarms, and Titanic Monsters on a 4+. Vehicles and Titanic Vehicles are Glanced on a 6+. Every Hit from a Grav weapon reduces all Movement, Advances, Charges, and Fleeing by 1" per Hit until the same Player's Phase next Turn (can reduce M to 0).</dd>
+
+<dt id="term-haywire">Haywire (#+)</dt>
+<dd>Haywire always Glances a Vehicle or Titanic Vehicle on the stated number or higher. A natural 6 to Penetrate is always a Penetration regardless of value.</dd>
+
+<dt id="term-heal">Heal</dt>
+<dd>A model or unit with Heal restores 1 Wound during their Command Phase, up to starting Wound count. A model cannot benefit from Healing more than once per turn.</dd>
+
+<dt id="term-high-altitude">High Altitude</dt>
+<dd>These models must move a minimum of 20" in a straight line with one turn of up to 90° at the end of movement each phase. May voluntarily move off any table edge to enter Reserves. They return from your Deployment Zone the following turn. Cannot be targeted by Indirect Fire weapons.</dd>
+
+<dt id="term-ignores-cover">Ignores Cover</dt>
+<dd>Attacks from this weapon ignore any Cover Saves for any unit Hit.</dd>
+
+<dt id="term-independent-character">Independent Character</dt>
+<dd>May join units of the same model type. Monstrous Infantry may also join Infantry; Monster Independent Characters may join Monstrous Infantry. While joined, Hits are resolved at the unit's Toughness/Armour Value (unless Sniper or similar overrides). May attempt to save up to their current Wound value's worth of Wounds per phase. Must be at least 2 models in the base unit per Independent Character joined. If too few models remain, immediately separate the excess Independent Characters. Cannot be Challenged or Issue Challenges when alone.</dd>
+
+<dt id="term-indirect">Indirect Fire</dt>
+<dd>May fire at units without Line of Sight. For Blast weapons without LoS, add BS to the scatter on the 2d6 instead of subtracting. A Direct Hit result never scatters. If LoS can be drawn, Indirect penalties do not apply. May never target <a class="kw" href="#term-high-altitude">High Altitude</a> Flyers.</dd>
+
+<dt id="term-infiltrator">Infiltrator</dt>
+<dd>After deployment, placed in alternating order (starting with the First Player). Must be placed at least 12" from all enemy models. Can be placed anywhere on the table, including the enemy Deployment Zone.</dd>
+
+<dt id="term-interceptor">Interceptor</dt>
+<dd>All weapons on this model ignore the −1 To Hit vs High Altitude, gain +1 To Hit vs Flying or High Altitude, and ignore the Cover Save Flying and High Altitude units gain from Deepstriking.</dd>
+
+<dt id="term-linked">Linked</dt>
+<dd>Linked weapons must all target the same unit when firing.</dd>
+
+<dt id="term-line-of-sight">Line of Sight (LoS)</dt>
+<dd>A straight unobstructed line from the attacking model to the target. Required for most ranged attacks. Some abilities (e.g. Deny the Witch, Indirect Fire) do not require LoS.</dd>
+
+<dt id="term-melee-weapons">Melee Weapons</dt>
+<dd>May only be used in close combat. If a model has multiple Melee weapons, it uses its full Attack value with one and makes one additional attack with each additional Melee weapon. Special rules (e.g. Extra Attack) may allow more than one additional attack with extra weapons.</dd>
+
+<dt id="term-melta">Melta</dt>
+<dd>When within half range, this weapon gains <a class="kw" href="#term-armourbane">Armourbane</a> and <a class="kw" href="#term-monsterbane">Monsterbane</a>.</dd>
+
+<dt id="term-monsterbane">Monsterbane</dt>
+<dd>Inflicts +1 Wound when successfully wounding a Monster or Building after saves and Feel No Pains (also Titanic Monster). Against Monstrous Infantry, the user must reroll failed To Wound rolls instead.</dd>
+
+<dt id="term-mortal-wound">Mortal Wound</dt>
+<dd>Mortal Wounds do not allow any Save or Feel No Pain test to be taken. Distributed as the owner sees fit within normal restraints (e.g. must go on single-wound models in turn). Caused by Dangerous Terrain, Psychic misfires, and various special rules.</dd>
+
+<dt id="term-night-vision">Night Vision</dt>
+<dd>This model ignores all penalties for Night Fighting Rules (including Battle Round 1 Night Rules and Battle Round 8 Night Fighting).</dd>
+
+<dt id="term-objective-secured">Objective Secured</dt>
+<dd>A model with this rule always claims an Objective Marker even if it normally cannot score or is outnumbered. If opposing units both have Objective Secured, the side with the most models within range controls the marker.</dd>
+
+<dt id="term-one-use-only">One Use Only</dt>
+<dd>Once used, the weapon or ability is expended and cannot be used again this game.</dd>
+
+<dt id="term-ordnance">Ordnance</dt>
+<dd>Ordnance weapons are <a class="kw" href="#term-pinning">Pinning</a> weapons. When rolling to Penetrate Vehicles or Titanic Vehicles, roll 2d6 and pick the highest result (discard the lowest).</dd>
+
+<dt id="term-outflank">Outflank</dt>
+<dd>Models with Outflank may be held in Reserve. After Turn 1, at the end of any of your Movement Phases, deploy them: roll d6 — 1–2 = left table edge, 3–4 = middle enemy deployment edge, 5–6 = right table edge. Move their full M value from the entry point. Models arriving by Outflank may not declare Charges the turn they arrive.</dd>
+
+<dt id="term-penetrating-hit">Penetrating Hit</dt>
+<dd>Caused when a To Penetrate roll exceeds a Vehicle's Armour Value. The Vehicle may not make an Armour Save regardless of AP but may still make other Saves. Roll on the <a href="#vehicle-damage-chart">Vehicle Damage Chart</a>.</dd>
+
+<dt id="term-pinned">Pinned</dt>
+<dd>A Pinned unit gains +1 to its Cover Save (or a 6+ Cover Save if in the open), cannot Move, Advance, Declare Charges, or Cast Spells. They may still fire Snap Shots and cast Auras, and may Deny the Witch.<br>
+At the end of your next Movement Phase, roll a Ld test. On a pass, the unit rallies (but counts as having moved for Shooting purposes that turn). On a fail, they remain Pinned.</dd>
+
+<dt id="term-pinning">Pinning</dt>
+<dd>At the end of the Phase where a unit suffers Wounds from a Pinning weapon, make a Ld Test penalised by the number of unsaved Pinning Wounds. If failed, the unit becomes <a class="kw" href="#term-pinned">Pinned</a>. Pinning weapons that succeed during Overwatch inflict the Pinning test immediately (before the Charge is resolved) — on failure, the unit Goes to Ground before the Charger moves and the Charge automatically fails.</dd>
+
+<dt id="term-pistol-rule">Pistol #</dt>
+<dd>Pistols may be fired in close combat during your Shooting Phase (targeting the engaged unit only). They do not suffer the −1 To Hit in Melee. Pistols also Overwatch on a 5+ instead of the usual 6+.</dd>
+
+<dt id="term-poisoned">Poisoned (#+)</dt>
+<dd>Always wounds Infantry, Monstrous Infantry, Monsters, and Titanic Monsters on the stated number or higher. Can only Wound or Glance Buildings, Vehicles, and Titanic Vehicles on a 6+.</dd>
+
+<dt id="term-psychicbane">Psychicbane</dt>
+<dd>This model may reroll failed To Wound rolls against models with a Psychic Mastery Level.</dd>
+
+<dt id="term-psychic-disruption">Psychic Disruption</dt>
+<dd>Units hit by a Psychic Disruption weapon lose one ongoing Spell effect of the Defender's choosing.</dd>
+
+<dt id="term-rending">Rending</dt>
+<dd>On a natural 5+ To Wound or Glance, this attack ignores the target's Armour Save. If a 5 would not normally Wound or Glance, it does nothing.</dd>
+
+<dt id="term-repair">Repair</dt>
+<dd>Two forms: (1) Restores 1d3 Wounds to a target Vehicle. (2) Restores 1 Wound and on a 5+ may restore one destroyed weapon, remove one weapon disable, step mobility back up 1 stage, or remove a Crew Shaken. A model may receive only one Wound-restoring Repair per turn but may receive as many secondary-effect Repairs as desired. Secondary repairs do not restore the additional Wounds caused by the Penetration result.</dd>
+
+<dt id="term-scatter">Scatter (weapon)</dt>
+<dd>If a Scatter weapon hits a target within half its maximum range, add S+1 to the weapon profile for resolving the To Wound roll. (This refers to Scatter Gun / shotgun-style weapons — not to be confused with Blast weapon scatter rules.)</dd>
+
+<dt id="term-scout">Scout</dt>
+<dd>Units with Scout may move up to 12" after Infiltrators are placed but before the first turn. The Initiative-winning player moves all their Scouts first, then the second player moves theirs. Scouts do not alternate placement like Infiltrators.</dd>
+
+<dt id="term-shock-assault">Shock Assault</dt>
+<dd>This model gains A+1 on the Melee Phase it is considered to be Charging.</dd>
+
+<dt id="term-shroud">Shroud</dt>
+<dd>This model gains +1 to Cover Saves. If in the open, it always has at least a 6+ Cover Save. If the unit Goes to Ground or is Pinned, it gains an additional +1 to Cover Saves (max 3+).</dd>
+
+<dt id="term-sniper">Sniper (#+)</dt>
+<dd>The attacker (not the defender) selects the target model for attacks. Automatically wounds Infantry, Monstrous Infantry, Monsters, Titanic Monsters, and Swarms on the stated number or higher — and is also <a class="kw" href="#term-rending">Rending</a>. Wounds caused by Snipers also trigger Pinning Tests. Useful for bypassing high-save models screening the unit.</dd>
+
+<dt id="term-steady">Steady</dt>
+<dd>This model may fire weapons and still Charge later in the turn regardless of weapon type, but cannot exceed 8" in the Charge distance regardless of modifiers — whether or not it fires.</dd>
+
+<dt id="term-stubborn">Stubborn</dt>
+<dd>This model cannot have its Ld modified by friend or foe. It is also unaffected by how badly a unit loses Combat Resolution.</dd>
+
+<dt id="term-tesla">Tesla</dt>
+<dd>When rolling To Hit, a natural 6+ generates 2 additional hits added to the dice pool to wound the target.</dd>
+
+<dt id="term-titanic">Titanic</dt>
+<dd>Titanic units destroy all non-Titanic Terrain or non-Titanic Vehicle Wrecks they move into. Always considered stationary for firing (including <a class="kw" href="#term-ordnance">Ordnance</a>). <a class="kw" href="#term-fearless">Fearless</a>. Do not suffer −1 To Hit or +1 To Scatter for template weapons while in Melee.</dd>
+
+<dt id="term-transport">Transport #</dt>
+<dd>Models may Embark or Disembark in the Movement Phase by moving into base contact or from designated exit points, up to their full M value (ignoring models during Disembarkation). Infantry = 1 space; <a class="kw" href="#term-bulky">Bulky</a> = 2 spaces; <a class="kw" href="#term-very-bulky">Very Bulky</a> = 3 spaces. If a Transport is Destroyed, all models are Force Disembarked and Pinned (even if immune to Pinning Tests). Multi-model Transport units may pool capacity, but if one is Force Disembarked, all must Disembark.</dd>
+
+<dt id="term-very-bulky">Very Bulky</dt>
+<dd>This model takes 3 Transport spaces, including when using Firing Ports.</dd>
+
+<dt id="term-void-shields">Void Shields #</dt>
+<dd>While any Void Shields remain, treat all Armour Facings as 12. Each time a ranged attack Penetrates this value, ignore the result and remove one Shield. Once all Shields fall, use normal Armour Facings.<br>
+— The attacking player may declare which unit fires first (instead of simultaneous) to coordinate bringing Shields down before hitting the hull.<br>
+— Against ranged attacks that Penetrate once Shields are down: 5+ Invulnerability Save.<br>
+— Against all ranged Glancing attacks (even if Shields are down): 5+ Invulnerability Save.</dd>
+
+<dt id="term-wreckage">Wreckage</dt>
+<dd>A Vehicle or Titanic Vehicle that becomes Wrecked and does not explode remains as a new piece of terrain. T7 with W equal to its original Wound count (excess Wounds that caused destruction are lost). A Wreckage purchased with a Slot during deployment has W10. Wreckage can be pushed by Monsters or Vehicles with Melee Weapons at half speed as if moving through Difficult Terrain.</dd>
+
+</dl>
+
+<!-- ═══════════════════════════════════════════════════════════ -->
+<hr class="section-rule">
+<h2 id="template-chart" class="section-anchor">Quick Reference — Template Snap Shot Chart</h2>
+
+<table>
+  <tr><th>Template</th><th>Snap Shot Dice</th></tr>
+  <tr><td>Flame Thrower</td><td>D3 automatic hits (no To Hit roll)</td></tr>
+  <tr><td>Hellstorm</td><td>2D3 automatic hits (no To Hit roll)</td></tr>
+  <tr><td>3" Blast</td><td>1D6</td></tr>
+  <tr><td>5" Blast</td><td>3D6</td></tr>
+  <tr><td>7" Blast</td><td>5D6</td></tr>
+  <tr><td>10" Blast</td><td>7D6</td></tr>
+  <tr><td>15" Blast</td><td>10D6 (use first printed S, AP, and rules)</td></tr>
+  <tr><td>Apocalypse Barrage</td><td>15D6</td></tr>
+</table>
+<p>Blast weapons may fire Snap Shots at High Altitude Flyers. Indirect Fire weapons may <em>never</em> target High Altitude Flyers.</p>
+
+</main>
+
+<button id="back-top" onclick="window.scrollTo({top:0,behavior:'smooth'})">↑ Top</button>
+
+<script>
+// Back-to-top visibility
+window.addEventListener('scroll', () => {
+  const btn = document.getElementById('back-top');
+  btn.classList.toggle('visible', window.scrollY > 400);
+}, { passive: true });
+
+// Active sidebar link on scroll
+const sections = document.querySelectorAll('[id]');
+const navLinks = document.querySelectorAll('#sidebar nav a');
+const observer = new IntersectionObserver((entries) => {
+  entries.forEach(entry => {
+    if (entry.isIntersecting) {
+      navLinks.forEach(a => {
+        a.classList.toggle('active', a.getAttribute('href') === '#' + entry.target.id);
+      });
+    }
+  });
+}, { rootMargin: '-20% 0px -70% 0px' });
+sections.forEach(s => observer.observe(s));
+
+// Sidebar drawer (mobile)
+const sidebar = document.getElementById('sidebar');
+const overlay = document.getElementById('overlay');
+const menuToggle = document.getElementById('menu-toggle');
+const sidebarClose = document.getElementById('sidebar-close');
+
+function openSidebar() {
+  sidebar.classList.add('open');
+  overlay.classList.add('visible');
+  menuToggle.setAttribute('aria-expanded', 'true');
+  document.body.style.overflow = 'hidden';
+}
+
+function closeSidebar() {
+  sidebar.classList.remove('open');
+  overlay.classList.remove('visible');
+  menuToggle.setAttribute('aria-expanded', 'false');
+  document.body.style.overflow = '';
+}
+
+menuToggle.addEventListener('click', openSidebar);
+sidebarClose.addEventListener('click', closeSidebar);
+overlay.addEventListener('click', closeSidebar);
+
+// Close sidebar when a nav link is tapped on mobile
+navLinks.forEach(a => {
+  a.addEventListener('click', () => {
+    if (window.innerWidth <= 768) closeSidebar();
+  });
+});
+
+// Close sidebar on Escape key
+document.addEventListener('keydown', (e) => {
+  if (e.key === 'Escape') closeSidebar();
+});
+
+// Search
+const searchInput = document.getElementById('search');
+const mainContent = document.getElementById('content');
+let originalHTML = null;
+
+function clearHighlights() {
+  if (originalHTML !== null) {
+    mainContent.innerHTML = originalHTML;
+    originalHTML = null;
+    document.querySelectorAll('[id]').forEach(s => observer.observe(s));
+  }
+}
+
+function highlightText(query) {
+  if (!query.trim()) { clearHighlights(); return; }
+  if (originalHTML === null) originalHTML = mainContent.innerHTML;
+  const escaped = query.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
+  const regex = new RegExp(`(${escaped})`, 'gi');
+  mainContent.innerHTML = originalHTML.replace(regex, '<mark class="search-hl">$1</mark>');
+  const first = mainContent.querySelector('.search-hl');
+  if (first) first.scrollIntoView({ behavior: 'smooth', block: 'center' });
+}
+
+searchInput.addEventListener('input', (e) => highlightText(e.target.value));
+searchInput.addEventListener('keydown', (e) => {
+  if (e.key === 'Escape') { searchInput.value = ''; clearHighlights(); }
+});
+
+if ('serviceWorker' in navigator) {
+  navigator.serviceWorker.register('sw.js').catch(() => {});
+}
+</script>
+</body>
+</html>

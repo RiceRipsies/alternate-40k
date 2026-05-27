@@ -1,0 +1,1481 @@
+{
+  "id": "space-wolves",
+  "name": "Space Wolves",
+  "difficulty": 1,
+  "subfactions": [
+    {
+      "name": "Average"
+    },
+    {
+      "name": "Space Wolves"
+    }
+  ],
+  "slots": {
+    "hq": [
+      {
+        "name": "Bjorn the Fell Handed",
+        "points_base": 331,
+        "composition": "1 Bjorn",
+        "models": [
+          {
+            "name": "Bjorn",
+            "stats": {
+              "M": "6",
+              "WS": "2+",
+              "BS": "2+",
+              "S": "7",
+              "FA": "13",
+              "SA": "12",
+              "RA": "10",
+              "W": "10",
+              "I": "4",
+              "A": "6",
+              "Ld": "10",
+              "Sv": "3+"
+            },
+            "rules": [
+              "Vehicle",
+              "Combat Walker",
+              "Space Wolf",
+              "Adjusted Tactics",
+              "Know No Fear",
+              "Furious Charge",
+              "Night Vision",
+              "Shock Assault",
+              "Steady",
+              "Done it All",
+              "Venerable",
+              "Ward of the Primarch",
+              "Invulnerability Save."
+            ]
+          }
+        ],
+        "fixed_wargear": [
+          "True Claw and Heavy Flamer",
+          "Assault Cannon",
+          "Extra Armour",
+          "Smoke Launchers"
+        ],
+        "options": [
+          {
+            "description": "May swap Assault Cannon for H",
+            "choices": []
+          },
+          {
+            "description": "May take Flare Launchers",
+            "choices": [
+              {
+                "name": "Flare Launchers",
+                "pts_delta": 9
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Harald Deathwolf",
+        "points_base": 294,
+        "composition": "1 Harald",
+        "models": [
+          {
+            "name": "Harald",
+            "stats": {
+              "M": "12",
+              "WS": "2+",
+              "BS": "2+",
+              "S": "4",
+              "T": "5",
+              "W": "7",
+              "I": "5",
+              "A": "4",
+              "Ld": "10",
+              "Sv": "3+"
+            },
+            "rules": [
+              "Independent Character",
+              "Infantry",
+              "Steed",
+              "Unique",
+              "Space Wolf",
+              "Know No Fear",
+              "Counterattack",
+              "Furious Charge",
+              "Objective Secured",
+              "Outflank",
+              "Shock Assault",
+              "Battle Drills",
+              "Lord of the Wolfkin",
+              "Stubborn."
+            ]
+          }
+        ],
+        "fixed_wargear": [
+          "Bolt Pistol",
+          "Frost Axe",
+          "Ice Fang",
+          "Frag Grenades",
+          "Krak Grenades",
+          "Mantle of the Ice Troll King",
+          "Storm Shield"
+        ],
+        "options": []
+      },
+      {
+        "name": "Logan Grimnar",
+        "points_base": 372,
+        "composition": "1 Logan",
+        "models": [
+          {
+            "name": "Logan",
+            "stats": {
+              "M": "4",
+              "WS": "2+",
+              "BS": "2+",
+              "S": "4",
+              "T": "4",
+              "W": "7",
+              "I": "5",
+              "A": "5",
+              "Ld": "10",
+              "Sv": "3+"
+            },
+            "rules": [
+              "Independent Character",
+              "Monstrous Infantry",
+              "Unique",
+              "Chapter Master",
+              "Space Wolf",
+              "Know No Fear",
+              "Furious Charge",
+              "Night Vision",
+              "Shock Assault",
+              "Very Bulky",
+              "Betrayed",
+              "Battle Drills",
+              "Honour Before Duty",
+              "Marker.",
+              "The Hour is Nigh",
+              "T Minus 5"
+            ]
+          }
+        ],
+        "fixed_wargear": [
+          "Stormbolter",
+          "Morkai",
+          "Iron Halo"
+        ],
+        "options": [
+          {
+            "description": "May take one B",
+            "choices": [
+              {
+                "name": "Rubicon Primaris",
+                "pts_delta": 25
+              }
+            ]
+          },
+          {
+            "description": "May take one C",
+            "choices": [
+              {
+                "name": "Stormrider",
+                "pts_delta": 54
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Njal Stormcaller",
+        "points_base": 335,
+        "composition": "1 Njal",
+        "models": [
+          {
+            "name": "Njal",
+            "stats": {
+              "M": "4",
+              "WS": "2+",
+              "BS": "2+",
+              "S": "4",
+              "T": "4",
+              "W": "7",
+              "I": "4",
+              "A": "5",
+              "Ld": "10",
+              "Sv": "3+"
+            },
+            "rules": [
+              "Independent Character",
+              "Monstrous Infantry",
+              "Unique",
+              "Chief Librarian",
+              "Space Wolf",
+              "Adjusted Tactics",
+              "Know No Fear",
+              "Counterattack",
+              "Deepstrike",
+              "Furious Charge",
+              "Night Vision",
+              "Psychic Mastery 4",
+              "Shock Assault",
+              "Steady",
+              "Very Bulky",
+              "Slow",
+              "Phase."
+            ]
+          }
+        ],
+        "fixed_wargear": [
+          "Bolt Pistol",
+          "Night Wing",
+          "Staff of the Stormcaller",
+          "Iron Halo",
+          "Psychic Hood",
+          "Blizzard",
+          "Thunderbolt"
+        ],
+        "options": [
+          {
+            "description": "May take up to 2 additional S",
+            "choices": []
+          },
+          {
+            "description": "May take one B",
+            "choices": [
+              {
+                "name": "Rubicon Primaris",
+                "pts_delta": 25
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Ragnar Blackmane",
+        "points_base": 225,
+        "composition": "1 Ragnar",
+        "models": [
+          {
+            "name": "Ragnar",
+            "stats": {
+              "M": "6",
+              "WS": "2+",
+              "BS": "2+",
+              "S": "4",
+              "T": "4",
+              "W": "6",
+              "I": "5",
+              "A": "5",
+              "Ld": "10",
+              "Sv": "3+"
+            },
+            "rules": [
+              "Independent Character",
+              "Infantry",
+              "Unique",
+              "Space Wolf",
+              "Know No Fear",
+              "Counterattack",
+              "Furious Charge",
+              "Objective Secured",
+              "Shock Assault",
+              "Battle Drills",
+              "Prideful",
+              "Rampage",
+              "A+d3.",
+              "War Howl"
+            ]
+          }
+        ],
+        "fixed_wargear": [
+          "Bolt Pistol",
+          "Frostfang",
+          "Frag Grenades",
+          "Meltabombs",
+          "Iron Halo"
+        ],
+        "options": [
+          {
+            "description": "May take one B",
+            "choices": [
+              {
+                "name": "Rubicon Primaris",
+                "pts_delta": 17
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Ulric the Slayer",
+        "points_base": 280,
+        "composition": "1 Ulric",
+        "models": [
+          {
+            "name": "Ulric",
+            "stats": {
+              "M": "6",
+              "WS": "2+",
+              "BS": "2+",
+              "S": "4",
+              "T": "4",
+              "W": "6",
+              "I": "5",
+              "A": "5",
+              "Ld": "10",
+              "Sv": "3+"
+            },
+            "rules": [
+              "Independent Character",
+              "Infantry",
+              "Unique",
+              "Chief Chaplain",
+              "Space Wolf",
+              "Adjusted Tactics",
+              "Know No Fear",
+              "Counterattack",
+              "Furious Charge",
+              "Objective Secured",
+              "Shock Assault",
+              "Canticle of Hate",
+              "Healing Balms",
+              "Feel No Pain.",
+              "Zealot",
+              "Charged."
+            ]
+          }
+        ],
+        "fixed_wargear": [
+          "Plasma Pistol",
+          "Crozium Arcanum",
+          "Frag Grenades",
+          "Krak Grenades",
+          "Rosarius",
+          "Wolf Helm of Russ"
+        ],
+        "options": [
+          {
+            "description": "May take one C",
+            "choices": [
+              {
+                "name": "Rubicon Primaris",
+                "pts_delta": 16
+              }
+            ]
+          },
+          {
+            "description": "May take up to two H",
+            "choices": []
+          }
+        ]
+      }
+    ],
+    "advisors": [
+      {
+        "name": "Arjac Rockfist",
+        "points_base": 233,
+        "composition": "1 Arjac",
+        "models": [
+          {
+            "name": "Arjac",
+            "stats": {
+              "M": "4",
+              "WS": "2+",
+              "BS": "2+",
+              "S": "4",
+              "T": "4",
+              "W": "6",
+              "I": "7",
+              "A": "5",
+              "Ld": "10",
+              "Sv": "3+"
+            },
+            "rules": [
+              "Independent Character",
+              "Monstrous Infantry",
+              "Unique",
+              "Chapter Champion",
+              "Space Wolf",
+              "Know No Fear",
+              "Bodyguard",
+              "Counterattack",
+              "Furious Charge",
+              "Deepstrike",
+              "Shock Assault",
+              "Steady",
+              "Very Bulky",
+              "Glory Hunter",
+              "Chapter Champion",
+              "Challenge."
+            ]
+          }
+        ],
+        "fixed_wargear": [
+          "Foehammer",
+          "Anvil Shield",
+          "Stormshield"
+        ],
+        "options": [
+          {
+            "description": "May take one B",
+            "choices": [
+              {
+                "name": "Rubicon Primaris",
+                "pts_delta": 25
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Canis Wolfborn",
+        "points_base": 248,
+        "composition": "1 Canis",
+        "models": [
+          {
+            "name": "Canis",
+            "stats": {
+              "M": "12",
+              "WS": "2+",
+              "BS": "2+",
+              "S": "5",
+              "T": "6",
+              "W": "6",
+              "I": "5",
+              "A": "3",
+              "Ld": "10",
+              "Sv": "3+"
+            },
+            "rules": [
+              "Independent Character",
+              "Infantry",
+              "Steed",
+              "Unique",
+              "Space Wolf",
+              "Know No Fear",
+              "Counterattack",
+              "Furious Charge",
+              "Objective Secured",
+              "Shock Assault",
+              "Battle Drills",
+              "Born of Wolves"
+            ]
+          }
+        ],
+        "fixed_wargear": [
+          "Bolt Pistol",
+          "Dual Wolf Claws",
+          "Thunderwolf Mount",
+          "Frag Grenades",
+          "Krak Grenades",
+          "Iron Halo"
+        ],
+        "options": []
+      },
+      {
+        "name": "Iron Priest",
+        "points_base": 169,
+        "composition": "1 Iron Priest",
+        "models": [
+          {
+            "name": "Iron Priest",
+            "stats": {
+              "M": "6",
+              "WS": "3+",
+              "BS": "3+",
+              "S": "4",
+              "T": "4",
+              "W": "4",
+              "I": "4",
+              "A": "4",
+              "Ld": "9",
+              "Sv": "3+"
+            },
+            "rules": [
+              "Independent Character",
+              "Infantry",
+              "Space Wolf",
+              "Know No Fear",
+              "Transhuman Physiology",
+              "Furious Charge",
+              "Shock Assault",
+              "Stubborn",
+              "Awaken the Machine",
+              "Repair"
+            ]
+          }
+        ],
+        "fixed_wargear": [
+          "Helfrost Pistol",
+          "Tempest Hammer",
+          "Servo Arm"
+        ],
+        "options": [
+          {
+            "description": "May take Master of the Forge",
+            "choices": [
+              {
+                "name": "Master of the Forge",
+                "pts_delta": 34
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Lukas the Trickster",
+        "points_base": 149,
+        "composition": "1 Lukas",
+        "models": [
+          {
+            "name": "Lukas",
+            "stats": {
+              "M": "6",
+              "WS": "2+",
+              "BS": "2+",
+              "S": "4",
+              "T": "4",
+              "W": "4",
+              "I": "5",
+              "A": "3",
+              "Ld": "10",
+              "Sv": "3+"
+            },
+            "rules": [
+              "Independent Character",
+              "Infantry",
+              "Unique",
+              "Space Wolf",
+              "Know No Fear",
+              "Counterattack",
+              "Furious Charge",
+              "Objective Secured",
+              "Shock Assault",
+              "Public Nuisance",
+              "The Last Laugh",
+              "Monsterbane."
+            ]
+          }
+        ],
+        "fixed_wargear": [
+          "Plasma Pistol",
+          "Claw of the Jackalwolf",
+          "Frag Grenades",
+          "Krak Grenades",
+          "Pelt of the Doppelgangrel"
+        ],
+        "options": []
+      },
+      {
+        "name": "Murderfang",
+        "points_base": 191,
+        "composition": "1 Murderfang",
+        "models": [
+          {
+            "name": "Murderfang",
+            "stats": {
+              "M": "6",
+              "WS": "2+",
+              "BS": "2+",
+              "S": "7",
+              "FA": "13",
+              "SA": "12",
+              "RA": "10",
+              "W": "10",
+              "I": "4",
+              "A": "6",
+              "Ld": "10",
+              "Sv": "3+"
+            },
+            "rules": [
+              "Vehicle",
+              "Combat Walker",
+              "Space Wolf",
+              "Bolter Discipline",
+              "Fearless",
+              "Furious Charge",
+              "Night Vision",
+              "Shock Assault",
+              "Steady",
+              "Stubborn",
+              "Psychotic Rampaging Machine",
+              "Rampage",
+              "Melee."
+            ]
+          }
+        ],
+        "fixed_wargear": [
+          "Dual Lightning Claws",
+          "Stormbolter",
+          "Heavy Flamer",
+          "Extra Armour"
+        ],
+        "options": []
+      },
+      {
+        "name": "Wolf Guard Battle Leader",
+        "points_base": 165,
+        "composition": "1 Space Wolf Lieutenant",
+        "models": [
+          {
+            "name": "Space Wolf Lieutenant",
+            "stats": {
+              "M": "6",
+              "WS": "2+",
+              "BS": "2+",
+              "S": "4",
+              "T": "4",
+              "W": "4",
+              "I": "4",
+              "A": "4",
+              "Ld": "9",
+              "Sv": "3+"
+            },
+            "rules": [
+              "Independent Character",
+              "Infantry",
+              "Space Wolf",
+              "Know No Fear",
+              "Transhuman Physiology",
+              "Furious Charge",
+              "Shock Assault",
+              "Stubborn",
+              "Bulky",
+              "Brutal Drills",
+              "Melee."
+            ]
+          }
+        ],
+        "fixed_wargear": [
+          "Heavy Bolt Pistol",
+          "Power Sword"
+        ],
+        "options": [
+          {
+            "description": "May swap Heavy Bolt Pistol for A or P",
+            "choices": [
+              {
+                "name": "Storm Shield",
+                "pts_delta": 19
+              }
+            ]
+          },
+          {
+            "description": "May swap Power Sword for M",
+            "choices": []
+          }
+        ]
+      },
+      {
+        "name": "Wolf Priest",
+        "points_base": 215,
+        "composition": "1 Wolf Priest",
+        "models": [
+          {
+            "name": "Wolf Priest",
+            "stats": {
+              "M": "6",
+              "WS": "2+",
+              "BS": "2+",
+              "S": "4",
+              "T": "4",
+              "W": "5",
+              "I": "4",
+              "A": "5",
+              "Ld": "10",
+              "Sv": "3+"
+            },
+            "rules": [
+              "Independent Character",
+              "Infantry",
+              "Space Wolf",
+              "Know No Fear",
+              "Transhuman Physiology",
+              "Bulky",
+              "Furious Charge",
+              "Shock Assault",
+              "Stubborn",
+              "Shaman",
+              "Zealot",
+              "Charged."
+            ]
+          }
+        ],
+        "fixed_wargear": [
+          "Absolver Bolt Pistol",
+          "Crozium Arcanum",
+          "Ritual Dagger",
+          "Rosarius"
+        ],
+        "options": [
+          {
+            "description": "May take one H",
+            "choices": [
+              {
+                "name": "Omen of Potency",
+                "pts_delta": 18
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "troops": [
+      {
+        "name": "Blood Claws",
+        "points_base": 189,
+        "composition": "1 Sergeant 4-9 Marines",
+        "models": [
+          {
+            "name": "Sergeant",
+            "stats": {
+              "M": "6",
+              "WS": "3+",
+              "BS": "3+",
+              "S": "4",
+              "T": "4",
+              "W": "2",
+              "I": "4",
+              "A": "3",
+              "Ld": "9",
+              "Sv": "3+"
+            },
+            "rules": [
+              "Character",
+              "Infantry",
+              "Space Wolf",
+              "Know No Fear",
+              "Transhuman Physiology",
+              "Bulky",
+              "Furious Charge",
+              "Shock Assault",
+              "Stubborn"
+            ]
+          },
+          {
+            "name": "Marine",
+            "stats": {
+              "M": "6",
+              "WS": "3+",
+              "BS": "3+",
+              "S": "4",
+              "T": "4",
+              "W": "2",
+              "I": "4",
+              "A": "2",
+              "Ld": "8",
+              "Sv": "3+"
+            },
+            "rules": [
+              "Infantry",
+              "Space Wolf",
+              "Know No Fear",
+              "Transhuman Physiology",
+              "Bulky",
+              "Furious Charge",
+              "Shock Assault",
+              "Stubborn"
+            ]
+          }
+        ],
+        "fixed_wargear": [
+          "Bolt Pistol",
+          "Chainsword",
+          "Combat Knife",
+          "Bolt Pistol",
+          "Chainsword",
+          "Combat Knife"
+        ],
+        "options": [
+          {
+            "description": "May take up to 5 more Marines for +37 points each Sergeant may swap Bolt Pistol for P Sergeant may swap Chainsword for M The entire unit may take one B",
+            "choices": []
+          }
+        ]
+      },
+      {
+        "name": "Grey Hunters",
+        "points_base": 224,
+        "composition": "1 Sergeant 4-9 Marines",
+        "models": [
+          {
+            "name": "Sergeant",
+            "stats": {
+              "M": "6",
+              "WS": "3+",
+              "BS": "3+",
+              "S": "4",
+              "T": "4",
+              "W": "2",
+              "I": "4",
+              "A": "3",
+              "Ld": "9",
+              "Sv": "3+"
+            },
+            "rules": [
+              "Character",
+              "Infantry",
+              "Bolter Discipline",
+              "Know No Fear",
+              "Transhuman Physiology",
+              "Bulky",
+              "Night Vision",
+              "Shock Assault",
+              "Stubborn"
+            ]
+          },
+          {
+            "name": "Marine",
+            "stats": {
+              "M": "6",
+              "WS": "3+",
+              "BS": "3+",
+              "S": "4",
+              "T": "4",
+              "W": "2",
+              "I": "4",
+              "A": "2",
+              "Ld": "8",
+              "Sv": "3+"
+            },
+            "rules": [
+              "Infantry",
+              "Bolter Discipline",
+              "Know No Fear",
+              "Transhuman Physiology",
+              "Bulky",
+              "Night Vision",
+              "Shock Assault",
+              "Stubborn"
+            ]
+          }
+        ],
+        "fixed_wargear": [
+          "Boltgun",
+          "Bolt Pistol",
+          "Chainsword",
+          "Frag Grenades",
+          "Krak Grenades",
+          "Boltgun",
+          "Bolt Pistol",
+          "Chainsword",
+          "Frag Grenades",
+          "Krak Grenades"
+        ],
+        "options": [
+          {
+            "description": "May take up to 5 more Marines for +44 points each Sergeant may swap Bolt Pistol for P Sergeant may swap Chainsword for M",
+            "choices": []
+          }
+        ]
+      }
+    ],
+    "elites": [
+      {
+        "name": "Hounds of Morkai",
+        "points_base": 289,
+        "composition": "1 Sergeant 4-9 Marines",
+        "models": [
+          {
+            "name": "Sergeant",
+            "stats": {
+              "M": "6",
+              "WS": "3+",
+              "BS": "3+",
+              "S": "4",
+              "T": "4",
+              "W": "2",
+              "I": "4",
+              "A": "3",
+              "Ld": "9",
+              "Sv": "3+"
+            },
+            "rules": [
+              "Character",
+              "Infantry",
+              "Space Wolf",
+              "Know No Fear",
+              "Transhuman Physiology",
+              "Bulky",
+              "Deepstrike",
+              "Furious Charge",
+              "Night Vision",
+              "Shock Assault",
+              "Stubborn",
+              "Morkai\u2019s Howl",
+              "Witch Hunters"
+            ]
+          },
+          {
+            "name": "Marine",
+            "stats": {
+              "M": "6",
+              "WS": "3+",
+              "BS": "3+",
+              "S": "4",
+              "T": "4",
+              "W": "2",
+              "I": "4",
+              "A": "2",
+              "Ld": "8",
+              "Sv": "3+"
+            },
+            "rules": [
+              "Infantry",
+              "Space Wolf",
+              "Know No Fear",
+              "Transhuman Physiology",
+              "Deepstrike",
+              "Furious Charge",
+              "Night Vision",
+              "Shock Assault",
+              "Stubborn",
+              "Morkai\u2019s Howl",
+              "Witch Hunters"
+            ]
+          }
+        ],
+        "fixed_wargear": [
+          "Auto Bolt Rifle",
+          "Special Issue Bolt Pistol",
+          "Combat Knife",
+          "Frag Grenades",
+          "Krak Grenades",
+          "Auto Bolt Rifle",
+          "Special Issue Bolt Pistol",
+          "Combat Knife",
+          "Frag Grenades",
+          "Krak Grenades"
+        ],
+        "options": [
+          {
+            "description": "May take up to 5 more Marines for +57 points each The entire Squad can take up to one of each E",
+            "choices": [
+              {
+                "name": "Grapnel Launcher",
+                "pts_delta": 1
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Wolf Guard Terminators",
+        "points_base": 510,
+        "composition": "1 Sergeant 4-9 Terminators",
+        "models": [
+          {
+            "name": "Sergeant",
+            "stats": {
+              "M": "4",
+              "WS": "3+",
+              "BS": "3+",
+              "S": "4",
+              "T": "4",
+              "W": "4",
+              "I": "4",
+              "A": "3",
+              "Ld": "9",
+              "Sv": "3+"
+            },
+            "rules": [
+              "Character",
+              "Monstrous Infantry",
+              "Bolter Discipline",
+              "Know No Fear",
+              "Transhuman Physiology",
+              "Deepstrike",
+              "Night Vision",
+              "Shock Assault",
+              "Steady",
+              "Stubborn",
+              "Very Bulky"
+            ]
+          },
+          {
+            "name": "Terminator",
+            "stats": {
+              "M": "4",
+              "WS": "3+",
+              "BS": "3+",
+              "S": "4",
+              "T": "4",
+              "W": "4",
+              "I": "4",
+              "A": "2",
+              "Ld": "8",
+              "Sv": "3+"
+            },
+            "rules": [
+              "Monstrous Infantry",
+              "Bolter Discipline",
+              "Know No Fear",
+              "Transhuman Physiology",
+              "Deepstrike",
+              "Night Vision",
+              "Shock Assault",
+              "Steady",
+              "Stubborn",
+              "Very Bulky"
+            ]
+          }
+        ],
+        "fixed_wargear": [
+          "Stormbolter",
+          "Power Sword",
+          "Terminator Honours",
+          "Stormbolter",
+          "Power Sword",
+          "Terminator Honours"
+        ],
+        "options": [
+          {
+            "description": "May take up to 5 more Terminators for +101 points each Sergeant may swap Power Sword for OM or M Up to Two models may swap Stormbolters for S Any Terminator may swap Power Sword for M",
+            "choices": []
+          }
+        ]
+      },
+      {
+        "name": "Wulfen",
+        "points_base": 156,
+        "composition": "1 Pack Leader 4-9 Wulfen",
+        "models": [
+          {
+            "name": "Pack Leader",
+            "stats": {
+              "M": "6",
+              "WS": "3+",
+              "BS": "5+",
+              "S": "5",
+              "T": "5",
+              "W": "2",
+              "I": "5",
+              "A": "4",
+              "Ld": "7",
+              "Sv": "4+"
+            },
+            "rules": []
+          },
+          {
+            "name": "Wulfen",
+            "stats": {
+              "M": "6",
+              "WS": "3+",
+              "BS": "5+",
+              "S": "5",
+              "T": "5",
+              "W": "2",
+              "I": "5",
+              "A": "3",
+              "Ld": "7",
+              "Sv": "4+"
+            },
+            "rules": [
+              "Character",
+              "Infantry",
+              "Space Wolf",
+              "Adjusted Tactics",
+              "Know No Fear",
+              "Counterattack",
+              "Furious Charge",
+              "Shock Assault",
+              "Bestial Rampage",
+              "Infantry",
+              "Space Wolf",
+              "Adjusted Tactics",
+              "Know No Fear",
+              "Counterattack",
+              "Furious Charge",
+              "Shock Assault",
+              "Bestial Rampage"
+            ]
+          }
+        ],
+        "fixed_wargear": [
+          "None",
+          "None"
+        ],
+        "options": [
+          {
+            "description": "May take up to 5 more Wulfen for +30 points each Any model may take one M or SM Any model may take one A if it did not take SM None None Slow, Monsterbane Extra Attack 1, Slow, Monsterbane",
+            "choices": []
+          }
+        ]
+      }
+    ],
+    "fast_attack": [
+      {
+        "name": "Cyber Wolves",
+        "points_base": 66,
+        "composition": "3-10 Cyber Wolves",
+        "models": [
+          {
+            "name": "Cyber Wolf",
+            "stats": {
+              "M": "12",
+              "WS": "3+",
+              "BS": "5+",
+              "S": "4",
+              "T": "4",
+              "W": "2",
+              "I": "4",
+              "A": "3",
+              "Ld": "7",
+              "Sv": "4+"
+            },
+            "rules": [
+              "Character",
+              "Infantry",
+              "Space Wolf",
+              "Furious Charge",
+              "Beast",
+              "Markers."
+            ]
+          }
+        ],
+        "fixed_wargear": [
+          "Cyber Claws and Teeth"
+        ],
+        "options": [
+          {
+            "description": "May take up to 7 more Cyber Wolves for +22 points each",
+            "choices": []
+          }
+        ]
+      },
+      {
+        "name": "Fenrisian Wolves",
+        "points_base": 70,
+        "composition": "0-1 Cyber Wolves 5-15 Fenrisian Wolves",
+        "models": [
+          {
+            "name": "Cyber Wolf",
+            "stats": {
+              "M": "12",
+              "WS": "3+",
+              "BS": "5+",
+              "S": "4",
+              "T": "4",
+              "W": "2",
+              "I": "4",
+              "A": "3",
+              "Ld": "7",
+              "Sv": "4+"
+            },
+            "rules": [
+              "Character",
+              "Infantry",
+              "Space Wolf",
+              "Furious Charge",
+              "Beast",
+              "Markers."
+            ]
+          },
+          {
+            "name": "Fenrisian Wolf",
+            "stats": {
+              "M": "12",
+              "WS": "3+",
+              "BS": "5+",
+              "S": "4",
+              "T": "4",
+              "W": "2",
+              "I": "4",
+              "A": "2",
+              "Ld": "5",
+              "Sv": "-"
+            },
+            "rules": [
+              "Infantry",
+              "Space Wolf",
+              "Furious Charge",
+              "Beast",
+              "Markers."
+            ]
+          }
+        ],
+        "fixed_wargear": [
+          "Cyber Claws and Teeth",
+          "Claws and Teeth"
+        ],
+        "options": [
+          {
+            "description": "May take a Cyber Wolf for +22 points",
+            "choices": []
+          },
+          {
+            "description": "May take up to 10 more Fenrisian Wolves for +14 points each",
+            "choices": []
+          }
+        ]
+      },
+      {
+        "name": "Thunderwolf Cavalry",
+        "points_base": 157,
+        "composition": "1 Sergeant 2-5 Marines",
+        "models": [
+          {
+            "name": "Sergeant",
+            "stats": {
+              "M": "12",
+              "WS": "3+",
+              "BS": "3+",
+              "S": "4",
+              "T": "5",
+              "W": "4",
+              "I": "4",
+              "A": "2",
+              "Ld": "9",
+              "Sv": "3+"
+            },
+            "rules": [
+              "Character",
+              "Infantry",
+              "Steed",
+              "Space Wolf",
+              "Adjusted Tactics",
+              "Know No Fear",
+              "Furious Charge",
+              "Shock Assault"
+            ]
+          },
+          {
+            "name": "Marine",
+            "stats": {
+              "M": "12",
+              "WS": "3+",
+              "BS": "3+",
+              "S": "4",
+              "T": "5",
+              "W": "4",
+              "I": "4",
+              "A": "1",
+              "Ld": "8",
+              "Sv": "3+"
+            },
+            "rules": [
+              "Infantry",
+              "Steed",
+              "Space Wolf",
+              "Adjusted Tactics",
+              "Know No Fear",
+              "Furious Charge",
+              "Shock Assault"
+            ]
+          }
+        ],
+        "fixed_wargear": [
+          "Bolt Pistol",
+          "Combat Knife",
+          "Thunderwolf Mount",
+          "Frag Grenades",
+          "Krak Grenades",
+          "Bolt Pistol",
+          "Combat Knife",
+          "Thunderwolf Mount",
+          "Frag Grenades",
+          "Krak Grenades"
+        ],
+        "options": [
+          {
+            "description": "May take up to 3 more Marines for +51 points each Sergeant may swap Krak Grenades for G Any model may swap Bolt Pistol for P or A Any model may swap Combat Knife for M Any model may swap Combat Knife and Bolt Pistol for SM",
+            "choices": []
+          },
+          {
+            "description": "May take Stormshield",
+            "choices": [
+              {
+                "name": "Stormshield",
+                "pts_delta": 11
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Wolf Guard Headtakers",
+        "points_base": 159,
+        "composition": "3-6 Marines 3-6 Fenrisian Wolves",
+        "models": [
+          {
+            "name": "Marine",
+            "stats": {
+              "M": "6",
+              "WS": "3+",
+              "BS": "5+",
+              "S": "4",
+              "T": "4",
+              "W": "2",
+              "I": "4",
+              "A": "2",
+              "Ld": "8",
+              "Sv": "3+"
+            },
+            "rules": []
+          },
+          {
+            "name": "Fenrisian Wolf",
+            "stats": {
+              "M": "12",
+              "WS": "3+",
+              "BS": "5+",
+              "S": "4",
+              "T": "4",
+              "W": "2",
+              "I": "4",
+              "A": "2",
+              "Ld": "5",
+              "Sv": "-"
+            },
+            "rules": [
+              "Infantry",
+              "Space Wolf",
+              "Know No Fear",
+              "Transhuman Physiology",
+              "Bulky",
+              "Furious Charge",
+              "Shock Assault",
+              "Stubborn",
+              "Infantry",
+              "Space Wolf",
+              "Furious Charge",
+              "Beast",
+              "Markers."
+            ]
+          }
+        ],
+        "fixed_wargear": [
+          "2 Power Axes",
+          "Claws and Teeth"
+        ],
+        "options": [
+          {
+            "description": "May take up to 3 more Marines for +39 points each",
+            "choices": []
+          },
+          {
+            "description": "May take up to 3 more Fenrisian Wolves for +14 points each Any Marine may swap one Power Axe for A",
+            "choices": []
+          }
+        ]
+      }
+    ],
+    "flyers": [
+      {
+        "name": "Stormfang Gunship",
+        "points_base": 285,
+        "composition": "1 Stormfang Gunship",
+        "models": [
+          {
+            "name": "Stormfang Gunship",
+            "stats": {
+              "M": "50",
+              "WS": "5+",
+              "BS": "3+",
+              "S": "6",
+              "FA": "12",
+              "SA": "12",
+              "RA": "12",
+              "W": "14",
+              "I": "1",
+              "A": "3",
+              "Ld": "9",
+              "Sv": "3+"
+            },
+            "rules": [
+              "Vehicle",
+              "Space Wolf",
+              "Adjusted Tactics",
+              "Know No Fear",
+              "Deepstrike",
+              "Furious Charge",
+              "High Altitude",
+              "Hover",
+              "Night Vision",
+              "Shock Assault",
+              "Transport 6"
+            ]
+          }
+        ],
+        "fixed_wargear": [
+          "Helfrost Destructor",
+          "2 Linked Stormstrike Missile",
+          "Launchers",
+          "2 Skyhammer Missile Launchers"
+        ],
+        "options": [
+          {
+            "description": "May swap 2 Linked Stormstrike Missile Launchers for H",
+            "choices": []
+          },
+          {
+            "description": "May take up to one of each E",
+            "choices": [
+              {
+                "name": "Flare Launchers",
+                "pts_delta": 9
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Stormwolf Gunship",
+        "points_base": 352,
+        "composition": "1 Stormwolf Gunship",
+        "models": [
+          {
+            "name": "Stormwolf Gunship",
+            "stats": {
+              "M": "50",
+              "WS": "5+",
+              "BS": "3+",
+              "S": "6",
+              "FA": "12",
+              "SA": "12",
+              "RA": "12",
+              "W": "14",
+              "I": "1",
+              "A": "3",
+              "Ld": "9",
+              "Sv": "3+"
+            },
+            "rules": [
+              "Vehicle",
+              "Space Wolf",
+              "Adjusted Tactics",
+              "Know No Fear",
+              "Deepstrike",
+              "Furious Charge",
+              "High Altitude",
+              "Hover",
+              "Night Vision",
+              "Shock Assault",
+              "Transport 16"
+            ]
+          }
+        ],
+        "fixed_wargear": [
+          "2 Linked Helfrost Cannons",
+          "2 Linked Lascannons",
+          "2 Skyhammer Missile Launchers"
+        ],
+        "options": [
+          {
+            "description": "May swap 2 Linked Stormstrike Missile Launchers for H",
+            "choices": []
+          },
+          {
+            "description": "May take up to one of each E",
+            "choices": [
+              {
+                "name": "Flare Launchers",
+                "pts_delta": 9
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

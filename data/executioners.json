@@ -1,0 +1,65 @@
+{
+  "id": "executioners",
+  "name": "Executioners",
+  "difficulty": 1,
+  "subfactions": [
+    {
+      "name": "Average"
+    },
+    {
+      "name": "Executioners"
+    }
+  ],
+  "slots": {
+    "hq": [
+      {
+        "name": "High Chaplain Thulsa Kane",
+        "points_base": 286,
+        "composition": "1 Chaplain",
+        "models": [
+          {
+            "name": "Thulsa",
+            "stats": {
+              "M": "6",
+              "WS": "2+",
+              "BS": "2+",
+              "S": "4",
+              "T": "4",
+              "W": "6",
+              "I": "4",
+              "A": "5",
+              "Ld": "10",
+              "Sv": "3+"
+            },
+            "rules": [
+              "Independent Character",
+              "Infantry",
+              "Unique",
+              "Chief Chaplain",
+              "Executioners",
+              "Know No Fear",
+              "Objective Secured",
+              "Shock Assault",
+              "Aenigmata Ferrum",
+              "Canticle of Hate",
+              "Honour of the Chapter",
+              "Litany of Intimidation",
+              "Zealot",
+              "Charged."
+            ]
+          }
+        ],
+        "fixed_wargear": [
+          "Plasma Pistol",
+          "Crozium Arcanum",
+          "The Lifetaker",
+          "Frag Grenades",
+          "Krak Grenades",
+          "Grehdalin\u2019s Bones",
+          "Rosarius"
+        ],
+        "options": []
+      }
+    ]
+  }
+}

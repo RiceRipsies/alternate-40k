@@ -1,0 +1,90 @@
+{
+  "id": "death-korp-of-krieg",
+  "name": "Death Korp of Krieg",
+  "difficulty": 3,
+  "subfactions": [
+    {
+      "name": "Average"
+    },
+    {
+      "name": "Death Korp of Krieg"
+    }
+  ],
+  "slots": {
+    "hq": [
+      {
+        "name": "Marshal Karis Venner",
+        "points_base": 316,
+        "composition": "1 Dreir",
+        "models": [
+          {
+            "name": "Marshal Karis Venner",
+            "stats": {
+              "M": "6",
+              "WS": "3+",
+              "BS": "3+",
+              "S": "3",
+              "T": "3",
+              "W": "5",
+              "I": "3",
+              "A": "3",
+              "Ld": "10",
+              "Sv": "4+"
+            },
+            "rules": [
+              "Independent Character",
+              "Unique",
+              "Infantry",
+              "Steed",
+              "Very Bulky",
+              "Infantry Orders 3",
+              "Leading the Charge",
+              "Assault."
+            ]
+          }
+        ],
+        "fixed_wargear": [
+          "Hot Shot Laspistol",
+          "Power Sword",
+          "Frag Grenades",
+          "Krak Grenades"
+        ],
+        "options": []
+      },
+      {
+        "name": "Marshal Karis Venner",
+        "points_base": 139,
+        "composition": "1 Marshal Karis Venner",
+        "models": [
+          {
+            "name": "Marshal Karis Venner",
+            "stats": {
+              "M": "6",
+              "WS": "3+",
+              "BS": "3+",
+              "S": "3",
+              "T": "3",
+              "W": "5",
+              "I": "3",
+              "A": "3",
+              "Ld": "10",
+              "Sv": "4+"
+            },
+            "rules": [
+              "Independent Character",
+              "Unique",
+              "Infantry"
+            ]
+          }
+        ],
+        "fixed_wargear": [
+          "Hot Shot Laspistol",
+          "Power Sword",
+          "Frag Grenades",
+          "Krak Grenades"
+        ],
+        "options": []
+      }
+    ]
+  }
+}

@@ -1,0 +1,636 @@
+#!/usr/bin/env python3
+"""
+tools/extract.py
+Extracts unit data from Alternate 40k codex PDFs → writes JSON to data/
+
+Usage (run from the project root):
+    python3 tools/extract.py                  # process all PDFs
+    python3 tools/extract.py ork-codex.pdf    # process one PDF
+
+PDFs must be in the project root alongside this tools/ folder.
+Requires: pdftotext (brew install poppler)
+"""
+
+import re
+import json
+import subprocess
+import sys
+from pathlib import Path
+
+# ── Paths ────────────────────────────────────────────────────────────────────
+ROOT     = Path(__file__).parent.parent
+SOURCE_DIR = ROOT / 'source'
+DATA_DIR = ROOT / 'data'
+DATA_DIR.mkdir(exist_ok=True)
+
+# ── Slot header recognition ───────────────────────────────────────────────────
+# Maps regex → slot key.  Ordered so the most-specific patterns come first.
+SLOT_PATTERNS = [
+    (re.compile(r'^HQ\b',                   re.I), 'hq'),
+    (re.compile(r'^Advisors?\b',            re.I), 'advisors'),
+    (re.compile(r'^Troops\b',               re.I), 'troops'),
+    (re.compile(r'^Elites?\b',              re.I), 'elites'),
+    (re.compile(r'^Fast Attacks?\b',        re.I), 'fast_attack'),
+    (re.compile(r'^Heavy Support\b',        re.I), 'heavy_support'),
+    (re.compile(r'^Flyers?\b',              re.I), 'flyers'),
+    (re.compile(r'^Dedicated Transports?\b',re.I), 'dedicated_transport'),
+    (re.compile(r'^Lords? of War\b',        re.I), 'lord_of_war'),
+    (re.compile(r'^Fortifications?\b',      re.I), 'fortifications'),
+]
+
+# Lines that look like slot headers but are actually table-of-contents entries
+# (they contain lots of dots used for page number alignment)
+TOC_LINE_RE = re.compile(r'\.{4,}')
+
+# ── Line-level regexes ────────────────────────────────────────────────────────
+STAT_HEADER_RE   = re.compile(r'^M\s+WS\s+BS\s+S\s+(?:FA\s+SA\s+RA\s+)?T?\s*W\s+I\s+A\s+Ld\s+Sv\s*$', re.I)
+STAT_VALUES_RE   = re.compile(r'^-?\d+\s+[\d\+\-]+\s+[\d\+\-]+')   # starts with numeric stats
+POINTS_RE        = re.compile(r'^Points:\s*(\d+)')
+COMPOSITION_RE   = re.compile(r'^Composition:\s*$')
+RULES_HDR_RE     = re.compile(r'^Rules\s*$')
+WARGEAR_HDR_RE   = re.compile(r'^Wargear\s*$', re.I)
+OPTIONS_HDR_RE   = re.compile(r'^Options\s*$', re.I)
+SP_WG_HDR_RE     = re.compile(r'^Special Wargear:\s*$', re.I)
+SP_WG_UPG_RE     = re.compile(r'^Special Wargear Upgrades:\s*$', re.I)
+UPGRADE_LINE_RE  = re.compile(r'^([A-Z]+(?:\s*\+\d+\s*points?)?)\s+(.+?)\s+\+(\d+)\s+points?', re.I)
+OPTION_LINE_RE   = re.compile(r'^May\b', re.I)
+# Lines that are clearly weapon-table column headers or noise
+WEAPON_HDR_RE    = re.compile(r'^Selection\s*$|^Name\s*$|^Range\s*$|^AP\s*$|^Rules\s*$')
+# Lone single-letter / selection-code lines that are weapon-table rows
+WEAPON_ROW_RE    = re.compile(r'^[A-Z]{1,3}(?:\s+\+\d+\s+points?)?\s*$')
+# Vehicle stat header has FA SA RA columns
+VEHICLE_RE       = re.compile(r'FA\s+SA\s+RA', re.I)
+
+# Sub-section labels that appear between slot headers and unit names — not unit names
+SUBSECTION_LABELS = {
+    'generic', 'unique', 'infantry', 'monstrous infantry', 'vehicles', 'vehicle',
+    'tanks', 'tank', 'monsters', 'monster', 'artillery', 'steeds', 'steed',
+    'dragstaz', 'swarms', 'swarm', 'combat walkers', 'combat walker',
+    'weapon platforms', 'armoured cars', 'sentinels', 'aircraft',
+    'fellblade chassis', 'spartan chassis', 'baneblade chassis', 'macharius chassis',
+    'marauder chassis', 'support', 'c\'tan shards', 'other', 'monoliths',
+    'fast attacks', 'heavy support', 'support tanks',
+}
+
+
+# ── Helper ────────────────────────────────────────────────────────────────────
+def pdf_to_text(pdf_path: Path) -> str:
+    result = subprocess.run(
+        ['pdftotext', str(pdf_path), '-'],
+        capture_output=True, text=True
+    )
+    if result.returncode != 0:
+        raise RuntimeError(f"pdftotext failed for {pdf_path}: {result.stderr}")
+    return result.stdout
+
+
+def identify_slot(line: str) -> str | None:
+    """Return slot key if line is a slot-section header, else None."""
+    s = line.strip()
+    if TOC_LINE_RE.search(s):
+        return None
+    for pattern, key in SLOT_PATTERNS:
+        if pattern.match(s):
+            return key
+    return None
+
+
+def parse_stat_values(line: str, is_vehicle: bool) -> dict:
+    """Parse a stat-value line into a dict.  Returns {} on failure."""
+    parts = line.split()
+    keys_inf = ['M','WS','BS','S','T','W','I','A','Ld','Sv']
+    keys_veh = ['M','WS','BS','S','FA','SA','RA','W','I','A','Ld','Sv']
+    keys = keys_veh if is_vehicle else keys_inf
+    if len(parts) < len(keys):
+        return {}
+    return {k: parts[i] for i, k in enumerate(keys)}
+
+
+# ── Core parser ───────────────────────────────────────────────────────────────
+def parse_codex(text: str, source_name: str) -> dict:
+    """
+    Parse raw pdftotext output for one codex.
+    Returns a dict with faction metadata and slot→units mapping.
+    """
+    lines = [l.rstrip() for l in text.split('\n')]
+    n = len(lines)
+
+    # ── 1. Assign each line to a slot key (forward scan) ────────────────────
+    line_slot = [None] * n          # slot key for each line
+    current_slot = None
+    for i, raw in enumerate(lines):
+        s = identify_slot(raw)
+        if s:
+            current_slot = s
+        line_slot[i] = current_slot
+
+    # ── 2. Find all stat-header positions ────────────────────────────────────
+    stat_header_idx = [
+        i for i, l in enumerate(lines)
+        if STAT_HEADER_RE.match(l.strip())
+    ]
+
+    # ── 3. Find all Points: positions ────────────────────────────────────────
+    points_idx = [
+        i for i, l in enumerate(lines)
+        if POINTS_RE.match(l.strip())
+    ]
+
+    if not points_idx:
+        print(f"  [warn] No 'Points:' lines found in {source_name}")
+        return {'name': source_name, 'slots': {}}
+
+    # ── 4. Build unit blocks ──────────────────────────────────────────────────
+    # Each unit block is anchored at its Points: line.
+    # We scan backwards to find the stat header, then parse everything.
+    units_by_slot: dict[str, list] = {}
+
+    for pi in points_idx:
+        pts_match = POINTS_RE.match(lines[pi].strip())
+        if not pts_match:
+            continue
+        points_base = int(pts_match.group(1))
+
+        # ── Find the stat header above this Points: line ──────────────────
+        stat_hi = None
+        for sh in reversed(stat_header_idx):
+            if sh < pi:
+                stat_hi = sh
+                break
+        if stat_hi is None:
+            continue
+
+        is_vehicle = bool(VEHICLE_RE.search(lines[stat_hi]))
+
+        # ── Stat value lines (one per model, immediately follow header) ───
+        stat_val_lines = []
+        j = stat_hi + 1
+        while j < pi and j < stat_hi + 10:
+            stripped = lines[j].strip()
+            if not stripped:
+                j += 1
+                continue
+            if STAT_VALUES_RE.match(stripped):
+                stat_val_lines.append(stripped)
+                j += 1
+            else:
+                break
+
+        # ── Model names (lines between previous blank/header and stat_hi) ─
+        # Collect non-empty lines going backwards; skip sub-section labels.
+        # Stop at a blank line once we have at least one name — the blank line
+        # separates the unit name block from the weapon-table noise above it.
+        raw_names = []
+        k = stat_hi - 1
+        while k >= max(0, stat_hi - 10):
+            stripped = lines[k].strip()
+            if not stripped:
+                if raw_names:
+                    break   # blank line after names = end of name block
+                k -= 1
+                continue
+            # Stop at slot headers, section starts, or a previous unit's content
+            if (identify_slot(lines[k]) or
+                    WARGEAR_HDR_RE.match(stripped) or
+                    OPTIONS_HDR_RE.match(stripped) or
+                    POINTS_RE.match(stripped) or
+                    COMPOSITION_RE.match(stripped)):
+                break
+            # Skip known sub-section label lines
+            if stripped.lower() not in SUBSECTION_LABELS:
+                raw_names.insert(0, stripped)
+            k -= 1
+
+        # raw_names is [unit_name, model1, model2, ...]
+        # If unit_name == model1 (common for single-model units), deduplicate.
+        if not raw_names:
+            unit_name = source_name
+            model_name_list = [source_name]
+        elif len(raw_names) == 1:
+            unit_name = raw_names[0]
+            model_name_list = [raw_names[0]]
+        else:
+            unit_name = raw_names[0]
+            model_name_list = raw_names[1:]
+            # Deduplicate: if first model name repeats the unit name, keep just one
+            if model_name_list and model_name_list[0] == unit_name:
+                model_name_list = model_name_list  # keep — it IS the model name
+
+        # Build model entries
+        models = []
+        for mi, mn in enumerate(model_name_list):
+            stats = {}
+            if mi < len(stat_val_lines):
+                stats = parse_stat_values(stat_val_lines[mi], is_vehicle)
+            models.append({'name': mn, 'stats': stats, 'rules': []})
+        # If more stat lines than named models, keep extra stats on last model
+        if len(stat_val_lines) > len(models) and models:
+            models[-1]['stats'] = parse_stat_values(stat_val_lines[-1], is_vehicle)
+
+        # ── Section between stat values and Points: ───────────────────────
+        section_start = stat_hi + 1 + len(stat_val_lines)
+        section_lines = [l.strip() for l in lines[section_start:pi] if l.strip()]
+
+        fixed_wargear = []
+        options_text  = []
+        upgrades      = []   # list of {code, name, pts_delta}
+
+        state = 'NONE'
+        current_model_wg = None
+
+        for sl in section_lines:
+            # Section headers
+            if WARGEAR_HDR_RE.match(sl):
+                state = 'WARGEAR'; continue
+            if OPTIONS_HDR_RE.match(sl):
+                state = 'OPTIONS'; continue
+            if SP_WG_UPG_RE.match(sl):
+                state = 'UPGRADES'; continue
+            if SP_WG_HDR_RE.match(sl):
+                state = 'SP_WG'; continue
+            # Weapon table noise – skip
+            if WEAPON_HDR_RE.match(sl):
+                state = 'WEAPON_TABLE'; continue
+            if state == 'WEAPON_TABLE':
+                continue
+
+            if state == 'WARGEAR':
+                # "ModelName:" lines introduce per-model wargear sections
+                if sl.endswith(':') and not sl.startswith('Special'):
+                    current_model_wg = sl[:-1]
+                else:
+                    fixed_wargear.append(sl)
+
+            elif state == 'OPTIONS':
+                if OPTION_LINE_RE.match(sl):
+                    options_text.append(sl)
+                # Multi-line options (continuation lines)
+                elif options_text and not sl.endswith(':'):
+                    options_text[-1] += ' ' + sl
+
+            elif state == 'UPGRADES':
+                m = UPGRADE_LINE_RE.match(sl)
+                if m:
+                    upgrades.append({
+                        'code': m.group(1).strip(),
+                        'name': m.group(2).strip(),
+                        'pts_delta': int(m.group(3)),
+                    })
+                elif upgrades:
+                    # Effect text on the next line (stat modifier descriptions)
+                    upgrades[-1].setdefault('effects', []).append(sl)
+
+        # ── Composition ───────────────────────────────────────────────────
+        composition = ''
+        if pi + 1 < n and COMPOSITION_RE.match(lines[pi + 1].strip()):
+            comp_parts = []
+            cj = pi + 2
+            while cj < n and cj < pi + 6:
+                stripped = lines[cj].strip()
+                if not stripped or RULES_HDR_RE.match(stripped):
+                    break
+                comp_parts.append(stripped)
+                cj += 1
+            composition = ' '.join(comp_parts)
+
+        # ── Rules ─────────────────────────────────────────────────────────
+        rules_start = None
+        for ri in range(pi, min(pi + 8, n)):
+            if RULES_HDR_RE.match(lines[ri].strip()):
+                rules_start = ri + 1
+                break
+
+        if rules_start is not None:
+            current_model_idx = 0
+            # Weapon type line, e.g. "Pistol 1, Dakka" — weapon stat, not a rule
+            WEAPON_TYPE_RE = re.compile(
+                r'^(?:Pistol|Assault|Heavy|Rapid Fire|Grenade|Melee)\s+[\d1]', re.I)
+            # Stat modifier line: "M-2, W+1..." or "FA +1, SA..." or "Sv-1..."
+            STAT_MOD_RE = re.compile(
+                r'^(?:[MWTSAI]|FA|SA|RA|BS|WS)\s*[+\-]\d|^Sv\s*[+\-]|^Ld\s*[+\-]', re.I)
+            # Upgrade cost in rules section, e.g. "A Mega Armour +18 points"
+            UPGRADE_COST_RE = re.compile(r'\+\d+\s+points?\s*$', re.I)
+            # Em-dash or spaced hyphen separating rule name from description
+            RULE_DASH_RE = re.compile(r'\s[–\-]\s')
+
+            skip_continuation = False   # True after stat-modifier lines
+            in_named_rule = False       # True after a rule-with-dash line
+
+            for ri in range(rules_start, min(rules_start + 80, n)):
+                raw_line = lines[ri]
+                stripped = raw_line.strip()
+
+                # Hard stops
+                if STAT_HEADER_RE.match(stripped) or identify_slot(raw_line):
+                    break
+                if WEAPON_HDR_RE.match(stripped) or WEAPON_ROW_RE.match(stripped):
+                    break
+                # Form-feed = PDF page break; column interleaving starts here
+                if '\x0c' in raw_line:
+                    break
+
+                if not stripped:
+                    skip_continuation = False
+                    continue
+
+                # "ModelName:" line — switches which model receives rules
+                if (stripped.endswith(':') and
+                        not stripped.startswith(('–', '-')) and
+                        len(stripped) < 40):
+                    skip_continuation = False
+                    in_named_rule = False
+                    mn_candidate = stripped[:-1]
+                    found = next(
+                        (idx for idx, m in enumerate(models)
+                         if m['name'] == mn_candidate),
+                        None
+                    )
+                    if found is not None:
+                        current_model_idx = found
+                    elif current_model_idx + 1 < len(models):
+                        current_model_idx += 1   # label doesn't match; advance
+                    continue
+
+                # Skip lines starting with lowercase or digit (description continuations)
+                if stripped[0].islower() or stripped[0].isdigit():
+                    continue
+
+                # Skip stat modifier lines and mark continuation skip
+                if STAT_MOD_RE.match(stripped) or UPGRADE_COST_RE.search(stripped):
+                    skip_continuation = True
+                    in_named_rule = False
+                    continue
+
+                # Skip continuation lines after stat modifiers
+                if skip_continuation:
+                    # A line with a dash signals a new named rule; allow it through
+                    if not RULE_DASH_RE.search(stripped):
+                        continue
+
+                # Skip weapon type lines
+                if WEAPON_TYPE_RE.match(stripped):
+                    continue
+
+                # Extract rule name: text before the first dash separator
+                rule_name = RULE_DASH_RE.split(stripped)[0].strip()
+                has_dash = bool(RULE_DASH_RE.search(stripped))
+
+                if has_dash:
+                    skip_continuation = False
+                    in_named_rule = True
+                else:
+                    # Bare keyword line
+                    words = rule_name.split()
+                    # Reject if any word starts with lowercase
+                    if any(w[0].islower() for w in words
+                           if w and not w[0].isdigit() and w[0] not in '+-()'):
+                        continue
+                    # Reject list fragments (first word ends with comma,
+                    # or entire line ends with comma)
+                    if words and words[0].endswith(','):
+                        continue
+                    if rule_name.endswith(','):
+                        continue
+                    # After a named-rule description, reject long lines (≥4 words)
+                    # — they're likely description continuations, not rule names.
+                    if in_named_rule and len(words) >= 4:
+                        continue
+                    in_named_rule = False
+
+                # Final noise filters
+                if (not rule_name or
+                        WEAPON_HDR_RE.match(rule_name) or
+                        WEAPON_ROW_RE.match(rule_name) or
+                        STAT_MOD_RE.match(rule_name) or
+                        re.match(r'^[\d\+\-]', rule_name) or
+                        len(rule_name) > 60):
+                    continue
+
+                if models:
+                    models[current_model_idx]['rules'].append(rule_name)
+
+        # ── Determine slot ────────────────────────────────────────────────
+        slot = line_slot[pi] or 'unknown'
+
+        # ── Build options list for builder ────────────────────────────────
+        # Group options_text with upgrades where the letter code matches
+        options = []
+        for opt_line in options_text:
+            options.append({'description': opt_line, 'choices': []})
+
+        # Attach upgrade costs to matching option descriptions
+        for upg in upgrades:
+            code = upg['code'].rstrip('0123456789 ')
+            matched = False
+            for opt in options:
+                if f'for {code}' in opt['description'] or \
+                   f'one {code}' in opt['description'] or \
+                   f'up to one {code}' in opt['description'] or \
+                   opt['description'].endswith(f' {code}'):
+                    opt['choices'].append({
+                        'name': upg['name'],
+                        'pts_delta': upg['pts_delta'],
+                    })
+                    matched = True
+                    break
+            if not matched:
+                # Create a freestanding option group for unmatched upgrades
+                options.append({
+                    'description': f'May take {upg["name"]}',
+                    'choices': [{'name': upg['name'], 'pts_delta': upg['pts_delta']}],
+                })
+
+        unit = {
+            'name':         unit_name,
+            'points_base':  points_base,
+            'composition':  composition,
+            'models':       models,
+            'fixed_wargear':fixed_wargear,
+            'options':      options,
+        }
+
+        units_by_slot.setdefault(slot, []).append(unit)
+
+    return units_by_slot
+
+
+# ── Faction name extraction ────────────────────────────────────────────────────
+def extract_faction_name(text: str) -> str:
+    """First non-empty line of the PDF is usually the faction name."""
+    for line in text.split('\n'):
+        s = line.strip()
+        if s and not s.startswith('"'):
+            return s
+    return 'Unknown'
+
+
+def extract_subfactions(text: str) -> list[dict]:
+    """
+    Find Chapter / Clan / Dynasty / Regiment sections and extract subfaction names.
+    Returns list of {name} dicts.
+    """
+    SUBFACTION_SECTION = re.compile(
+        r'^(Chapters?|Clans?|Dynasties|Regiments?|Sects?|Brotherhoods?|Warbands?)\s*$', re.I
+    )
+    SUBFACTION_NAME = re.compile(r'^([A-Z][A-Za-z\s\'-]+):$')
+    AVERAGE_RE = re.compile(r'^Average:', re.I)
+
+    lines = text.split('\n')
+    in_section = False
+    subfactions = [{'name': 'Average'}]  # always include Average as first option
+    seen = {'average'}
+
+    for line in lines:
+        s = line.strip()
+        if SUBFACTION_SECTION.match(s):
+            in_section = True
+            continue
+        if in_section:
+            # Section ends when we hit a slot header
+            if identify_slot(line):
+                break
+            if AVERAGE_RE.match(s):
+                continue  # already added
+            m = SUBFACTION_NAME.match(s)
+            if m:
+                name = m.group(1).strip()
+                if name.lower() not in seen:
+                    subfactions.append({'name': name})
+                    seen.add(name.lower())
+
+    return subfactions
+
+
+# ── Per-codex metadata ────────────────────────────────────────────────────────
+def extract_metadata(text: str) -> dict:
+    """Extract difficulty, description snippets."""
+    diff_re = re.compile(r'Army Difficulty\s+1-5:\s*(\d)', re.I)
+    desc_re = re.compile(r'What (?:are|is) the? (.+?)\?', re.I)
+
+    diff = 2
+    m = diff_re.search(text)
+    if m:
+        diff = int(m.group(1))
+
+    return {'difficulty': diff}
+
+
+# ── Main entry point ──────────────────────────────────────────────────────────
+# Map PDF filename stems to the IDs used in factions.json
+FILENAME_TO_ID = {
+    'space-marines-codex': 'space-marines',
+    'ork-codex':           'orks',
+    'imperial-guard-codex':'imperial-guard',
+    'eldar-codex':         'eldar',
+    'necron-codex':        'necrons',
+    'tyranid-codex':       'tyranids',
+    'chaos-undivided-codex': 'chaos-undivided',
+    'tau-empire-codex':    'tau-empire',
+    'dark-eldar-codex-1':  'dark-eldar',
+    'grey-knight-codex':   'grey-knights',
+    'custode-codex':       'custodes',
+    'imperial-knight-codex': 'imperial-knights',
+    'chaos-knights-codex': 'chaos-knights',
+    'inquisition-codex':   'inquisition',
+    'sisters-of-battle-codex-2': 'sisters-of-battle',
+    'squat-codex':         'squats',
+    'genestealer-cults-1': 'genestealer-cults',
+    'leviathan-codex':     'leviathan',
+    'behemoth-codex':      'behemoth',
+    'kraken-codex':        'kraken',
+}
+
+
+def process_pdf(pdf_path: Path) -> dict | None:
+    stem = pdf_path.stem
+    faction_id = FILENAME_TO_ID.get(stem, stem)
+
+    print(f"Processing {pdf_path.name}…", end=' ', flush=True)
+    try:
+        text = pdf_to_text(pdf_path)
+    except RuntimeError as e:
+        print(f"SKIP ({e})")
+        return None
+
+    faction_name = extract_faction_name(text)
+    meta         = extract_metadata(text)
+    subfactions  = extract_subfactions(text)
+    slots        = parse_codex(text, faction_name)
+
+    unit_count = sum(len(v) for v in slots.values())
+    print(f"→ {unit_count} units across {len(slots)} slots")
+
+    return {
+        'id':          faction_id,
+        'name':        faction_name,
+        'difficulty':  meta['difficulty'],
+        'subfactions': subfactions,
+        'slots':       slots,
+    }
+
+
+def update_factions_index(processed: list[dict]):
+    """Merge newly extracted faction metadata into data/factions.json."""
+    index_path = DATA_DIR / 'factions.json'
+    existing = []
+    if index_path.exists():
+        with open(index_path) as f:
+            existing = json.load(f)
+
+    existing_by_id = {f['id']: f for f in existing}
+    for codex in processed:
+        fid = codex['id']
+        entry = existing_by_id.get(fid, {'id': fid})
+        entry.setdefault('name', codex['name'])
+        entry.setdefault('category', 'Unknown')
+        entry['difficulty'] = codex['difficulty']
+        entry['file'] = f"{fid}.json"
+        existing_by_id[fid] = entry
+
+    with open(index_path, 'w') as f:
+        json.dump(list(existing_by_id.values()), f, indent=2)
+    print(f"\nUpdated data/factions.json ({len(existing_by_id)} factions)")
+
+
+def main():
+    targets = sys.argv[1:]
+
+    # PDFs that are not unit codexes (core rules, scenarios, etc.)
+    NON_CODEX = {
+        'alternate-40k-core-rule-book.pdf',
+        'alternate-40k-rules-scenario-the-meat-grinder.pdf',
+        'alternate-40k-rules-slow-grow-packet.pdf',
+    }
+
+    if targets:
+        pdf_paths = [SOURCE_DIR / t for t in targets]
+    else:
+        pdf_paths = sorted(
+            p for p in SOURCE_DIR.glob('*.pdf')
+            if p.name not in NON_CODEX
+        )
+
+    if not pdf_paths:
+        print("No PDFs found. Run from the project root with PDFs present.")
+        sys.exit(1)
+
+    processed = []
+    for pdf_path in pdf_paths:
+        if not pdf_path.exists():
+            print(f"Not found: {pdf_path}")
+            continue
+        codex = process_pdf(pdf_path)
+        if codex is None:
+            continue
+        out_path = DATA_DIR / f"{codex['id']}.json"
+        with open(out_path, 'w') as f:
+            json.dump(codex, f, indent=2)
+        processed.append(codex)
+
+    if processed:
+        update_factions_index(processed)
+        print(f"\nDone. {len(processed)} codex file(s) written to data/")
+
+
+if __name__ == '__main__':
+    main()

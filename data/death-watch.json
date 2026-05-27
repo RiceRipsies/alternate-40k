@@ -1,0 +1,695 @@
+{
+  "id": "death-watch",
+  "name": "Death Watch",
+  "difficulty": 1,
+  "subfactions": [
+    {
+      "name": "Average"
+    },
+    {
+      "name": "Death Watch"
+    }
+  ],
+  "slots": {
+    "hq": [
+      {
+        "name": "Jensus Natorian",
+        "points_base": 226,
+        "composition": "1 Jensus",
+        "models": [
+          {
+            "name": "Jensus Natorian",
+            "stats": {
+              "M": "6",
+              "WS": "2+",
+              "BS": "2+",
+              "S": "4",
+              "T": "4",
+              "W": "5",
+              "I": "4",
+              "A": "4",
+              "Ld": "10",
+              "Sv": "3+"
+            },
+            "rules": [
+              "Independent Character",
+              "Infantry",
+              "Unique",
+              "Death Watch",
+              "Adjusted Tactics",
+              "Bolter Discipline",
+              "Know No Fear",
+              "Night Vision",
+              "Objective Secured",
+              "Psychic Mastery 2",
+              "Shock Assault",
+              "Rampage",
+              "Melee."
+            ]
+          }
+        ],
+        "fixed_wargear": [
+          "Special Issue Bolt Pistol",
+          "Force Sword",
+          "Frag Grenades",
+          "Krak Grenades",
+          "Iron Halo",
+          "Psychic Hood",
+          "Rending Rampage"
+        ],
+        "options": [
+          {
+            "description": "May take up to 1 additional S",
+            "choices": []
+          }
+        ]
+      },
+      {
+        "name": "Primaris Watch Master",
+        "points_base": 217,
+        "composition": "1 Watch Master",
+        "models": [
+          {
+            "name": "Watch Master",
+            "stats": {
+              "M": "6",
+              "WS": "2+",
+              "BS": "2+",
+              "S": "4",
+              "T": "4",
+              "W": "6",
+              "I": "4",
+              "A": "5",
+              "Ld": "10",
+              "Sv": "3+"
+            },
+            "rules": [
+              "Independent Character",
+              "Monstrous Infantry",
+              "Bolter Discipline",
+              "Know No Fear",
+              "Transhuman Physiology",
+              "Night Vision",
+              "Shock Assault",
+              "Stubborn",
+              "Very Bulky",
+              "Battle Drills",
+              "The Hour is Nigh",
+              "T Minus 5"
+            ]
+          }
+        ],
+        "fixed_wargear": [
+          "Stormbolter",
+          "Bolt Pistol",
+          "Combat Knife",
+          "Frag Grenades",
+          "Krak Grenades",
+          "Iron Halo"
+        ],
+        "options": [
+          {
+            "description": "May swap Stormbolter for R",
+            "choices": []
+          },
+          {
+            "description": "May swap Bolt Pistol for P",
+            "choices": []
+          },
+          {
+            "description": "May swap Combat Knife for M",
+            "choices": []
+          },
+          {
+            "description": "May swap Krak Grenades for G",
+            "choices": []
+          },
+          {
+            "description": "May take one A",
+            "choices": [
+              {
+                "name": "Stormshield",
+                "pts_delta": 12
+              }
+            ]
+          },
+          {
+            "description": "May take one B",
+            "choices": [
+              {
+                "name": "Camo Cloak",
+                "pts_delta": 8
+              },
+              {
+                "name": "Terminator Armour",
+                "pts_delta": 9
+              }
+            ]
+          },
+          {
+            "description": "May take one C",
+            "choices": []
+          }
+        ]
+      },
+      {
+        "name": "Watch Captain Artemis",
+        "points_base": 225,
+        "composition": "1 Artemis",
+        "models": [
+          {
+            "name": "Artemis",
+            "stats": {
+              "M": "6",
+              "WS": "2+",
+              "BS": "2+",
+              "S": "4",
+              "T": "4",
+              "W": "5",
+              "I": "4",
+              "A": "4",
+              "Ld": "11",
+              "Sv": "3+"
+            },
+            "rules": [
+              "Independent Character",
+              "Infantry",
+              "Unique",
+              "Death Watch",
+              "Bolter Discipline",
+              "Know No Fear",
+              "Night Vision",
+              "Objective Secured",
+              "Shock Assault",
+              "Battle Drills",
+              "Tribal Savage"
+            ]
+          }
+        ],
+        "fixed_wargear": [
+          "Special Issue Combi Flamer",
+          "Special Issue Bolt Pistol",
+          "Power Sword",
+          "Frag Grenades",
+          "Krak Grenades",
+          "Stasis Bomb"
+        ],
+        "options": [
+          {
+            "description": "May take one B",
+            "choices": [
+              {
+                "name": "Rubicon Primaris",
+                "pts_delta": 17
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Watch Master",
+        "points_base": 190,
+        "composition": "1 Watch Master",
+        "models": [
+          {
+            "name": "Watch Master",
+            "stats": {
+              "M": "6",
+              "WS": "2+",
+              "BS": "2+",
+              "S": "4",
+              "T": "4",
+              "W": "5",
+              "I": "4",
+              "A": "4",
+              "Ld": "10",
+              "Sv": "3+"
+            },
+            "rules": [
+              "Independent Character",
+              "Infantry",
+              "Adjusted Tactics",
+              "Bolter Discipline",
+              "Know No Fear",
+              "Night Vision",
+              "Objective Secured",
+              "Shock Assault",
+              "Battle Drills",
+              "The Hour is Nigh",
+              "T Minus 5"
+            ]
+          }
+        ],
+        "fixed_wargear": [
+          "Stormbolter",
+          "Bolt Pistol",
+          "Combat Knife",
+          "Frag Grenades",
+          "Krak Grenades",
+          "Iron Halo"
+        ],
+        "options": [
+          {
+            "description": "May swap Stormbolter for R or A",
+            "choices": [
+              {
+                "name": "Stormshield",
+                "pts_delta": 12
+              }
+            ]
+          },
+          {
+            "description": "May swap Bolt Pistol for P",
+            "choices": []
+          },
+          {
+            "description": "May swap Combat Knife for M",
+            "choices": []
+          },
+          {
+            "description": "May swap Krak Grenades for G",
+            "choices": []
+          },
+          {
+            "description": "May take one B",
+            "choices": [
+              {
+                "name": "Terminator Armour",
+                "pts_delta": 7
+              },
+              {
+                "name": "Jump Pack",
+                "pts_delta": 20
+              },
+              {
+                "name": "Bike",
+                "pts_delta": 34
+              }
+            ]
+          },
+          {
+            "description": "May take one C",
+            "choices": [
+              {
+                "name": "Chapter Master",
+                "pts_delta": 140
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "advisors": [
+      {
+        "name": "Edryc Setorax",
+        "points_base": 150,
+        "composition": "1 Antor",
+        "models": [
+          {
+            "name": "Edryc",
+            "stats": {
+              "M": "12",
+              "WS": "2+",
+              "BS": "2+",
+              "S": "4",
+              "T": "4",
+              "W": "4",
+              "I": "4",
+              "A": "3",
+              "Ld": "11",
+              "Sv": "3+"
+            },
+            "rules": [
+              "Independent Character",
+              "Infantry",
+              "Unique",
+              "Death Watch",
+              "Know No Fear",
+              "Deepstrike",
+              "Fly",
+              "Furious Charge",
+              "Night Vision",
+              "Objective Secured",
+              "Shock Assault",
+              "Rampage",
+              "Melee."
+            ]
+          }
+        ],
+        "fixed_wargear": [
+          "Dual Lightning Claws",
+          "Frag Grenades",
+          "Krak Grenades"
+        ],
+        "options": []
+      },
+      {
+        "name": "Edryc Setorax",
+        "points_base": 167,
+        "composition": "1 Edryc",
+        "models": [
+          {
+            "name": "Edryc",
+            "stats": {
+              "M": "12",
+              "WS": "2+",
+              "BS": "2+",
+              "S": "4",
+              "T": "4",
+              "W": "4",
+              "I": "4",
+              "A": "3",
+              "Ld": "11",
+              "Sv": "3+"
+            },
+            "rules": [
+              "Independent Character",
+              "Infantry",
+              "Unique",
+              "Death Watch",
+              "Know No Fear",
+              "Deepstrike",
+              "Fly",
+              "Objective Secured",
+              "Shock Assault",
+              "Unnatural Stealth",
+              "Shroud."
+            ]
+          }
+        ],
+        "fixed_wargear": [
+          "Dual Lightning Claws",
+          "Frag Grenades",
+          "Krak Grenades"
+        ],
+        "options": []
+      },
+      {
+        "name": "Garran Branatar",
+        "points_base": 149,
+        "composition": "1 Garren",
+        "models": [
+          {
+            "name": "Garran",
+            "stats": {
+              "M": "4",
+              "WS": "2+",
+              "BS": "2+",
+              "S": "4",
+              "T": "4",
+              "W": "5",
+              "I": "4",
+              "A": "3",
+              "Ld": "11",
+              "Sv": "3+"
+            },
+            "rules": [
+              "Independent Character",
+              "Monstrous Infantry",
+              "Unique",
+              "Death Watch",
+              "Know No Fear",
+              "Deepstrike",
+              "Shock Assault",
+              "Steady",
+              "Very Bulky",
+              "Flamecraft"
+            ]
+          }
+        ],
+        "fixed_wargear": [
+          "Heavy Flamer",
+          "Meltagun",
+          "Powerfist",
+          "Terminator Honours"
+        ],
+        "options": []
+      },
+      {
+        "name": "Jetek Suberei",
+        "points_base": 156,
+        "composition": "1 Jetek",
+        "models": [
+          {
+            "name": "Jetek",
+            "stats": {
+              "M": "12",
+              "WS": "2+",
+              "BS": "2+",
+              "S": "4",
+              "T": "4",
+              "W": "5",
+              "I": "4",
+              "A": "3",
+              "Ld": "11",
+              "Sv": "3+"
+            },
+            "rules": [
+              "Independent Character",
+              "Infantry",
+              "Steed",
+              "Unique",
+              "Death Watch",
+              "Know No Fear",
+              "Furious Charge",
+              "Night Vision",
+              "Objective Secured",
+              "Shock Assault",
+              "Very Bulky",
+              "Born in the Saddle",
+              "Tests.",
+              "Jink",
+              "Invulnerability Save."
+            ]
+          }
+        ],
+        "fixed_wargear": [
+          "Special Issue Stormbolter",
+          "Power Sword",
+          "Frag Grenades",
+          "Krak Grenades"
+        ],
+        "options": []
+      },
+      {
+        "name": "Venerable Dreadnought Nihilus",
+        "points_base": 268,
+        "composition": "1 Nihilus",
+        "models": [
+          {
+            "name": "Nihilus",
+            "stats": {
+              "M": "6",
+              "WS": "2+",
+              "BS": "2+",
+              "S": "6",
+              "FA": "13",
+              "SA": "12",
+              "RA": "10",
+              "W": "10",
+              "I": "4",
+              "A": "5",
+              "Ld": "11",
+              "Sv": "3+"
+            },
+            "rules": [
+              "Independent Character",
+              "Vehicle",
+              "Unique",
+              "Death Watch",
+              "Combat Walker",
+              "Bolter Discipline",
+              "Know No Fear",
+              "Night Vision",
+              "Shock Assault",
+              "Steady",
+              "Thrice Blessed Hull",
+              "Venerable",
+              "Shooting Phase Only."
+            ]
+          }
+        ],
+        "fixed_wargear": [
+          "Dreadnought Combat Weapon",
+          "and Stormbolter",
+          "Heavy Plasma Cannon"
+        ],
+        "options": [
+          {
+            "description": "May take Extra Armour",
+            "choices": [
+              {
+                "name": "Extra Armour",
+                "pts_delta": 5
+              }
+            ]
+          },
+          {
+            "description": "May take Smoke Launchers",
+            "choices": [
+              {
+                "name": "Smoke Launchers",
+                "pts_delta": 10
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "elites": [
+      {
+        "name": "Death Watch Terminators",
+        "points_base": 643,
+        "composition": "1 Sergeant 4-9 Terminators",
+        "models": [
+          {
+            "name": "Sergeant",
+            "stats": {
+              "M": "4",
+              "WS": "2+",
+              "BS": "2+",
+              "S": "4",
+              "T": "4",
+              "W": "3",
+              "I": "4",
+              "A": "4",
+              "Ld": "10",
+              "Sv": "3+"
+            },
+            "rules": [
+              "Character",
+              "Monstrous Infantry",
+              "Death Watch",
+              "Adjusted Tactics",
+              "Bolter Discipline",
+              "Know No Fear",
+              "Tactical Squads",
+              "Deepstrike",
+              "Night Vision",
+              "Shock Assault",
+              "Steady",
+              "Very Bulky"
+            ]
+          },
+          {
+            "name": "Terminator",
+            "stats": {
+              "M": "4",
+              "WS": "2+",
+              "BS": "2+",
+              "S": "4",
+              "T": "4",
+              "W": "3",
+              "I": "4",
+              "A": "3",
+              "Ld": "9",
+              "Sv": "3+"
+            },
+            "rules": [
+              "Monstrous Infantry",
+              "Death Watch",
+              "Adjusted Tactics",
+              "Bolter Discipline",
+              "Know No Fear",
+              "Tactical Squads",
+              "Deepstrike",
+              "Night Vision",
+              "Shock Assault",
+              "Steady",
+              "Very Bulky"
+            ]
+          }
+        ],
+        "fixed_wargear": [
+          "Stormbolter",
+          "Power Sword",
+          "Terminator Honours",
+          "Stormbolter",
+          "Power Sword",
+          "Terminator Honours"
+        ],
+        "options": [
+          {
+            "description": "May take up to 5 more Terminators for +127 points each Any model may swap Stormbolter for S, A, or a Lightning Claw Any model may swap Power Sword for M",
+            "choices": []
+          },
+          {
+            "description": "May take Storm Shield",
+            "choices": [
+              {
+                "name": "Storm Shield",
+                "pts_delta": 24
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "flyers": [
+      {
+        "name": "Corvus Blackstar",
+        "points_base": 271,
+        "composition": "1 Corvus Blackstar",
+        "models": [
+          {
+            "name": "Corvus Blackstar",
+            "stats": {
+              "M": "50",
+              "WS": "5+",
+              "BS": "3+",
+              "S": "6",
+              "FA": "12",
+              "SA": "12",
+              "RA": "11",
+              "W": "14",
+              "I": "1",
+              "A": "3",
+              "Ld": "10",
+              "Sv": "3+"
+            },
+            "rules": [
+              "Vehicle",
+              "Adjusted Tactics",
+              "Know No Fear",
+              "Deepstrike",
+              "High Altitude",
+              "Hover",
+              "Night Vision",
+              "Shock Assault",
+              "Transport 12",
+              "Bike Transport"
+            ]
+          }
+        ],
+        "fixed_wargear": [
+          "2 Linked Lascannons",
+          "2 Linked Blackstar Rocket",
+          "Launchers"
+        ],
+        "options": [
+          {
+            "description": "May swap 2 Linked Lascannons for T",
+            "choices": []
+          },
+          {
+            "description": "May swap 2 Linked Blackstar Rocket Launchers for W",
+            "choices": []
+          },
+          {
+            "description": "May take one S",
+            "choices": []
+          },
+          {
+            "description": "May take up to one of each E",
+            "choices": [
+              {
+                "name": "Flare Launchers",
+                "pts_delta": 9
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

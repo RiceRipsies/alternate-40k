@@ -1,0 +1,148 @@
+{
+  "id": "drakeslayers",
+  "name": "Drakeslayers",
+  "difficulty": 1,
+  "subfactions": [
+    {
+      "name": "Average"
+    },
+    {
+      "name": "Drake Slayers"
+    }
+  ],
+  "slots": {
+    "hq": [
+      {
+        "name": "Krom Dragongaze",
+        "points_base": 345,
+        "composition": "1 Krom",
+        "models": [
+          {
+            "name": "Krom",
+            "stats": {
+              "M": "4",
+              "WS": "2+",
+              "BS": "2+",
+              "S": "4",
+              "T": "5",
+              "W": "7",
+              "I": "5",
+              "A": "5",
+              "Ld": "10",
+              "Sv": "3+"
+            },
+            "rules": [
+              "Independent Character",
+              "Monstrous Infantry",
+              "Unique",
+              "Chapter Master",
+              "Drakeslayers",
+              "Know No Fear",
+              "Deepstrike",
+              "Shock Assault",
+              "Steady",
+              "Very Bulky",
+              "Battle Drills",
+              "Reckless Assault",
+              "The Fierce Eye",
+              "The Hour is Nigh",
+              "T Minus 5"
+            ]
+          }
+        ],
+        "fixed_wargear": [
+          "Bolt Pistol",
+          "Wyrmclaw",
+          "Frag Grenades",
+          "Krak Grenades",
+          "Orbital Strike",
+          "Wolf Amulet"
+        ],
+        "options": []
+      }
+    ],
+    "advisors": [
+      {
+        "name": "Egil Redfist",
+        "points_base": 149,
+        "composition": "1 Egil",
+        "models": [
+          {
+            "name": "Egil",
+            "stats": {
+              "M": "4",
+              "WS": "2+",
+              "BS": "2+",
+              "S": "4",
+              "T": "4",
+              "W": "4",
+              "I": "4",
+              "A": "3",
+              "Ld": "10",
+              "Sv": "3+"
+            },
+            "rules": [
+              "Independent Character",
+              "Infantry",
+              "Unique",
+              "Drakeslayers",
+              "Know No Fear",
+              "Counterattack",
+              "Objective Secured",
+              "Shock Assault",
+              "Aggressive",
+              "Charging."
+            ]
+          }
+        ],
+        "fixed_wargear": [
+          "Bolt Pistol",
+          "Powerfist",
+          "Frag Grenades",
+          "Krak Grenades"
+        ],
+        "options": []
+      },
+      {
+        "name": "Hengist Ironaxe",
+        "points_base": 169,
+        "composition": "1 Egil",
+        "models": [
+          {
+            "name": "Hengist",
+            "stats": {
+              "M": "6",
+              "WS": "2+",
+              "BS": "2+",
+              "S": "4",
+              "T": "4",
+              "W": "4",
+              "I": "4",
+              "A": "3",
+              "Ld": "10",
+              "Sv": "3+"
+            },
+            "rules": [
+              "Independent Character",
+              "Infantry",
+              "Unique",
+              "Drakeslayers",
+              "Know No Fear",
+              "Counterattack",
+              "Objective Secured",
+              "Shock Assault",
+              "Suppressive Fire"
+            ]
+          }
+        ],
+        "fixed_wargear": [
+          "Bolt Pistol",
+          "Power Axe",
+          "Frag Grenades",
+          "Krak Grenades"
+        ],
+        "options": []
+      }
+    ]
+  }
+}

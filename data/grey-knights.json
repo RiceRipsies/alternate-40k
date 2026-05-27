@@ -1,0 +1,2183 @@
+{
+  "id": "grey-knights",
+  "name": "Grey Knights",
+  "difficulty": 2,
+  "subfactions": [
+    {
+      "name": "Average"
+    },
+    {
+      "name": "Blades of Victory"
+    },
+    {
+      "name": "Exactors"
+    },
+    {
+      "name": "Prescient Brethren"
+    },
+    {
+      "name": "Preservers"
+    },
+    {
+      "name": "Rapiers"
+    },
+    {
+      "name": "Silver Blades"
+    },
+    {
+      "name": "Swordbearers"
+    },
+    {
+      "name": "Wardmakers"
+    }
+  ],
+  "slots": {
+    "hq": [
+      {
+        "name": "Brother Captain",
+        "points_base": 187,
+        "composition": "1 Captain",
+        "models": [
+          {
+            "name": "Captain",
+            "stats": {
+              "M": "4",
+              "WS": "2+",
+              "BS": "2+",
+              "S": "4",
+              "T": "4",
+              "W": "6",
+              "I": "4",
+              "A": "4",
+              "Ld": "10",
+              "Sv": "3+"
+            },
+            "rules": [
+              "Independent Character",
+              "Monstrous Infantry",
+              "Adjusted Tactics",
+              "Bolter Discipline",
+              "Know No Fear",
+              "Deepstrike",
+              "Night Vision",
+              "Psychic Mastery Level 1",
+              "Shock Assault",
+              "Steady",
+              "Stubborn",
+              "Very Bulky",
+              "Battle Drills",
+              "The Hour is Nigh",
+              "T Minus 5"
+            ]
+          }
+        ],
+        "fixed_wargear": [
+          "Stormbolter",
+          "Nemesis Force Halberd",
+          "Iron Halo"
+        ],
+        "options": [
+          {
+            "description": "May swap Stormbolter for S",
+            "choices": []
+          },
+          {
+            "description": "May swap Nemesis Force Halberd for M",
+            "choices": []
+          },
+          {
+            "description": "May take one Spell for each level of Psychic Mastery",
+            "choices": []
+          },
+          {
+            "description": "May take one C",
+            "choices": [
+              {
+                "name": "Grand Master",
+                "pts_delta": 155
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Chaplain",
+        "points_base": 210,
+        "composition": "1 Chaplain",
+        "models": [
+          {
+            "name": "Chaplain",
+            "stats": {
+              "M": "4",
+              "WS": "2+",
+              "BS": "2+",
+              "S": "4",
+              "T": "4",
+              "W": "6",
+              "I": "4",
+              "A": "4",
+              "Ld": "10",
+              "Sv": "3+"
+            },
+            "rules": [
+              "Independent Character",
+              "Monstrous Infantry",
+              "Adjusted Tactics",
+              "Bolter Discipline",
+              "Know No Fear",
+              "Deepstrike",
+              "Night Vision",
+              "Psychic Mastery Level 1",
+              "Shock Assault",
+              "Steady",
+              "Stubborn",
+              "Very Bulky",
+              "Canticle of Hate",
+              "Zealot",
+              "Charged.",
+              "Invulnerability Save."
+            ]
+          }
+        ],
+        "fixed_wargear": [
+          "Stormbolter",
+          "Crozium Arcanum",
+          "Rosarius"
+        ],
+        "options": [
+          {
+            "description": "May take one Spell for each level of Psychic Mastery",
+            "choices": []
+          },
+          {
+            "description": "May take one H",
+            "choices": [
+              {
+                "name": "Omen of Potency",
+                "pts_delta": 18
+              },
+              {
+                "name": "Litany of Faith",
+                "pts_delta": 40
+              },
+              {
+                "name": "True Sight",
+                "pts_delta": 50
+              },
+              {
+                "name": "Exhortation of Rage",
+                "pts_delta": 60
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Grand Master Dreadknight",
+        "points_base": 455,
+        "composition": "1 Grand Dreadknight",
+        "models": [
+          {
+            "name": "Grand Dreadknight",
+            "stats": {
+              "M": "8",
+              "WS": "2+",
+              "BS": "2+",
+              "S": "6",
+              "FA": "12",
+              "SA": "12",
+              "RA": "10",
+              "W": "12",
+              "I": "4",
+              "A": "5",
+              "Ld": "10",
+              "Sv": "3+"
+            },
+            "rules": [
+              "Independent Character",
+              "Vehicle",
+              "Combat Walker",
+              "Grand Master",
+              "Unique",
+              "Adjusted Tactics",
+              "Know No Fear",
+              "Deepstrike",
+              "Night Vision",
+              "Psychic Mastery Level 2",
+              "Shock Assault",
+              "Steady",
+              "Stubborn",
+              "Battle Drills",
+              "The Hour is Nigh",
+              "T Minus 5"
+            ]
+          }
+        ],
+        "fixed_wargear": [
+          "2 Gatling Psilencers",
+          "Nemesis Greatsword",
+          "Orbital Strike",
+          "Iron Halo"
+        ],
+        "options": [
+          {
+            "description": "May swap any Gatling Psilencer for H",
+            "choices": []
+          },
+          {
+            "description": "May swap Nemesis Greatsword for M",
+            "choices": []
+          },
+          {
+            "description": "May take up to one Spell for each Psychic Mastery",
+            "choices": []
+          }
+        ]
+      },
+      {
+        "name": "Librarian",
+        "points_base": 229,
+        "composition": "1 Librarian",
+        "models": [
+          {
+            "name": "Librarian",
+            "stats": {
+              "M": "4",
+              "WS": "2+",
+              "BS": "2+",
+              "S": "4",
+              "T": "4",
+              "W": "6",
+              "I": "4",
+              "A": "4",
+              "Ld": "10",
+              "Sv": "3+"
+            },
+            "rules": [
+              "Independent Character",
+              "Monstrous Infantry",
+              "Adjusted Tactics",
+              "Bolter Discipline",
+              "Know No Fear",
+              "Deepstrike",
+              "Night Vision",
+              "Psychic Mastery 2",
+              "Shock Assault",
+              "Steady",
+              "Stubborn",
+              "Very Bulky",
+              "Psychic Locus"
+            ]
+          }
+        ],
+        "fixed_wargear": [
+          "Stormbolter",
+          "Nemesis Force Halberd",
+          "Iron Halo",
+          "Psychic Hood"
+        ],
+        "options": [
+          {
+            "description": "May swap Stormbolter for S",
+            "choices": []
+          },
+          {
+            "description": "May swap Nemesis Force Halberd for M",
+            "choices": []
+          },
+          {
+            "description": "May take Psychic Mastery Level +1 for +50 points",
+            "choices": []
+          },
+          {
+            "description": "May take one Spell for each level of Psychic Mastery",
+            "choices": []
+          }
+        ]
+      },
+      {
+        "name": "Brother Captain Stern",
+        "points_base": 233,
+        "composition": "1 Stern",
+        "models": [
+          {
+            "name": "Stern",
+            "stats": {
+              "M": "4",
+              "WS": "2+",
+              "BS": "2+",
+              "S": "4",
+              "T": "4",
+              "W": "6",
+              "I": "5",
+              "A": "4",
+              "Ld": "10",
+              "Sv": "3+"
+            },
+            "rules": [
+              "Independent Character",
+              "Monstrous Infantry",
+              "Unique",
+              "Adjusted Tactics",
+              "Bolter Discipline",
+              "Know No Fear",
+              "Deepstrike",
+              "Night Vision",
+              "Psychic Mastery Level 2",
+              "Shock Assault",
+              "Steady",
+              "Stubborn",
+              "Very Bulky",
+              "Battle Drills",
+              "Fate Entwined",
+              "Psychic Locus"
+            ]
+          }
+        ],
+        "fixed_wargear": [
+          "Stormbolter",
+          "Nemesis Force Halberd",
+          "Iron Halo"
+        ],
+        "options": [
+          {
+            "description": "May take one Spell for each level of Psychic Mastery",
+            "choices": []
+          }
+        ]
+      },
+      {
+        "name": "Castellan Crowe",
+        "points_base": 294,
+        "composition": "1 Castellan",
+        "models": [
+          {
+            "name": "Castellan",
+            "stats": {
+              "M": "6",
+              "WS": "2+",
+              "BS": "2+",
+              "S": "4",
+              "T": "4",
+              "W": "5",
+              "I": "5",
+              "A": "5",
+              "Ld": "10",
+              "Sv": "3+"
+            },
+            "rules": [
+              "Independent Character",
+              "Infantry",
+              "Unique",
+              "Adjusted Tactics",
+              "Bolter Discipline",
+              "Know No Fear",
+              "Night Vision",
+              "Objective Secured",
+              "Psychic Mastery Level 1",
+              "Shock Assault",
+              "Stubborn",
+              "Battle Drills",
+              "Psychic Locus",
+              "Sword Master",
+              "Melee.",
+              "Helps or Hinders"
+            ]
+          }
+        ],
+        "fixed_wargear": [
+          "Stormbolter",
+          "The Black Blade of Antwyr",
+          "Iron Halo"
+        ],
+        "options": [
+          {
+            "description": "May take one Spell for each level of Psychic Mastery",
+            "choices": []
+          }
+        ]
+      },
+      {
+        "name": "Grand Master Voldus",
+        "points_base": 473,
+        "composition": "1 Voldus",
+        "models": [
+          {
+            "name": "Voldus",
+            "stats": {
+              "M": "4",
+              "WS": "2+",
+              "BS": "2+",
+              "S": "4",
+              "T": "4",
+              "W": "7",
+              "I": "5",
+              "A": "5",
+              "Ld": "10",
+              "Sv": "3+"
+            },
+            "rules": [
+              "Independent Character",
+              "Monstrous Infantry",
+              "Grand Master",
+              "Unique",
+              "Adjusted Tactics",
+              "Bolter Discipline",
+              "Know No Fear",
+              "Deepstrike",
+              "Night Vision",
+              "Psychic Mastery Level 3",
+              "Shock Assault",
+              "Steady",
+              "Stubborn",
+              "Very Bulky",
+              "Battle Drills",
+              "Purity of Spirit",
+              "The Hour is Nigh",
+              "T Minus 5"
+            ]
+          }
+        ],
+        "fixed_wargear": [
+          "Stormbolter",
+          "Malleus Argyrum",
+          "Orbital Strike",
+          "Iron Halo"
+        ],
+        "options": [
+          {
+            "description": "May take one Spell for each level of Psychic Mastery",
+            "choices": []
+          }
+        ]
+      },
+      {
+        "name": "Lord Draigo",
+        "points_base": 444,
+        "composition": "1 Draigo",
+        "models": [
+          {
+            "name": "Draigo",
+            "stats": {
+              "M": "4",
+              "WS": "2+",
+              "BS": "2+",
+              "S": "4",
+              "T": "4",
+              "W": "7",
+              "I": "5",
+              "A": "5",
+              "Ld": "10",
+              "Sv": "3+"
+            },
+            "rules": [
+              "Independent Character",
+              "Monstrous Infantry",
+              "Unique",
+              "Adjusted Tactics",
+              "Bolter Discipline",
+              "Know No Fear",
+              "Deepstrike",
+              "Night Vision",
+              "Psychic Mastery Level 2",
+              "Shock Assault",
+              "Steady",
+              "Stubborn",
+              "Very Bulky",
+              "Bane of Evil",
+              "Battle Drills",
+              "The Hour is Nigh",
+              "T Minus 5"
+            ]
+          }
+        ],
+        "fixed_wargear": [
+          "Stormbolter",
+          "The Titansword",
+          "Orbital Strike",
+          "Stormshield"
+        ],
+        "options": [
+          {
+            "description": "May take one Spell for each level of Psychic Mastery",
+            "choices": []
+          }
+        ]
+      }
+    ],
+    "advisors": [
+      {
+        "name": "Apothecary",
+        "points_base": 204,
+        "composition": "1 Apothecary",
+        "models": [
+          {
+            "name": "Apothecary",
+            "stats": {
+              "M": "4",
+              "WS": "2+",
+              "BS": "2+",
+              "S": "4",
+              "T": "4",
+              "W": "5",
+              "I": "4",
+              "A": "4",
+              "Ld": "10",
+              "Sv": "3+"
+            },
+            "rules": [
+              "Independent Character",
+              "Monstrous Infantry",
+              "Adjusted Tactics",
+              "Bolter Discipline",
+              "Know No Fear",
+              "Deepstrike",
+              "Night Vision",
+              "Psychic Mastery Level 1",
+              "Shock Assault",
+              "Steady",
+              "Stubborn",
+              "Very Bulky",
+              "Apothecary",
+              "Feel No Pain."
+            ]
+          }
+        ],
+        "fixed_wargear": [
+          "Stormbolter",
+          "Nemesis Force Halberd"
+        ],
+        "options": [
+          {
+            "description": "May swap Nemesis Force Halberd for M",
+            "choices": []
+          },
+          {
+            "description": "May take one Spell for each level of Psychic Mastery",
+            "choices": []
+          }
+        ]
+      },
+      {
+        "name": "Brotherhood Ancient",
+        "points_base": 191,
+        "composition": "1 Ancient",
+        "models": [
+          {
+            "name": "Ancient",
+            "stats": {
+              "M": "4",
+              "WS": "2+",
+              "BS": "2+",
+              "S": "4",
+              "T": "4",
+              "W": "5",
+              "I": "4",
+              "A": "4",
+              "Ld": "10",
+              "Sv": "3+"
+            },
+            "rules": [
+              "Independent Character",
+              "Monstrous Infantry",
+              "Adjusted Tactics",
+              "Bolter Discipline",
+              "Know No Fear",
+              "Deepstrike",
+              "Night Vision",
+              "Psychic Mastery Level 1",
+              "Shock Assault",
+              "Steady",
+              "Stubborn"
+            ]
+          }
+        ],
+        "fixed_wargear": [
+          "Stormbolter",
+          "Nemesis Falchion",
+          "Company Standard"
+        ],
+        "options": [
+          {
+            "description": "May take one Spell for each level of Psychic Mastery",
+            "choices": []
+          }
+        ]
+      },
+      {
+        "name": "Brotherhood Champion",
+        "points_base": 183,
+        "composition": "1 Champion",
+        "models": [
+          {
+            "name": "Champion",
+            "stats": {
+              "M": "6",
+              "WS": "2+",
+              "BS": "2+",
+              "S": "4",
+              "T": "4",
+              "W": "4",
+              "I": "6",
+              "A": "4",
+              "Ld": "10",
+              "Sv": "3+"
+            },
+            "rules": [
+              "Independent Character",
+              "Infantry",
+              "Adjusted Tactics",
+              "Bolter Discipline",
+              "Know No Fear",
+              "Bodyguard",
+              "Counterattack",
+              "Night Vision",
+              "Objective Secured",
+              "Psychic Mastery Level 1",
+              "Shock Assault",
+              "Stubborn",
+              "Glory Hunter"
+            ]
+          }
+        ],
+        "fixed_wargear": [
+          "Stormbolter",
+          "Nemesis Force Halberd",
+          "Frag Grenades",
+          "Krak Grenades",
+          "Psykout Grenades",
+          "Refractor Field"
+        ],
+        "options": [
+          {
+            "description": "May swap Nemesis Force Halberd for M",
+            "choices": []
+          },
+          {
+            "description": "May take one Spell for each level of Psychic Mastery",
+            "choices": []
+          }
+        ]
+      },
+      {
+        "name": "Brotherhood Techmarine",
+        "points_base": 191,
+        "composition": "1 Techmarine",
+        "models": [
+          {
+            "name": "Techmarine",
+            "stats": {
+              "M": "6",
+              "WS": "2+",
+              "BS": "2+",
+              "S": "4",
+              "T": "4",
+              "W": "4",
+              "I": "4",
+              "A": "3",
+              "Ld": "9",
+              "Sv": "3+"
+            },
+            "rules": [
+              "Independent Character",
+              "Infantry",
+              "Adjusted Tactics",
+              "Bolter Discipline",
+              "Know No Fear",
+              "Night Vision",
+              "Objective Secured",
+              "Psychic Mastery Level 1",
+              "Shock Assault",
+              "Stubborn",
+              "Awaken the Machine",
+              "Repair"
+            ]
+          }
+        ],
+        "fixed_wargear": [
+          "Flamer",
+          "Plasma Pistol",
+          "Bolt Pistol",
+          "Nemesis Power Axe",
+          "Servo Arms",
+          "Frag Grenades",
+          "Krak Grenades",
+          "Psykout Grenades"
+        ],
+        "options": [
+          {
+            "description": "May swap Bolt Pistol for R",
+            "choices": []
+          },
+          {
+            "description": "May swap all H weapons for S",
+            "choices": []
+          }
+        ]
+      }
+    ],
+    "troops": [
+      {
+        "name": "Strike Squad",
+        "points_base": 255,
+        "composition": "1 Justicar 4-9 Knights",
+        "models": [
+          {
+            "name": "Justicar",
+            "stats": {
+              "M": "6",
+              "WS": "3+",
+              "BS": "3+",
+              "S": "4",
+              "T": "4",
+              "W": "2",
+              "I": "4",
+              "A": "2",
+              "Ld": "9",
+              "Sv": "3+"
+            },
+            "rules": [
+              "Character",
+              "Infantry",
+              "Adjusted Tactics",
+              "Bolter Discipline",
+              "Know No Fear",
+              "Tactical Squads",
+              "Deepstrike",
+              "Night Vision",
+              "Objective Secured",
+              "Psychic Mastery Level 1",
+              "Shock Assault",
+              "Stubborn"
+            ]
+          },
+          {
+            "name": "Knight",
+            "stats": {
+              "M": "6",
+              "WS": "3+",
+              "BS": "3+",
+              "S": "4",
+              "T": "4",
+              "W": "2",
+              "I": "4",
+              "A": "1",
+              "Ld": "8",
+              "Sv": "3+"
+            },
+            "rules": [
+              "Infantry",
+              "Adjusted Tactics",
+              "Bolter Discipline",
+              "Know No Fear",
+              "Tactical Squads",
+              "Deepstrike",
+              "Night Vision",
+              "Objective Secured",
+              "Shock Assault",
+              "Stubborn"
+            ]
+          }
+        ],
+        "fixed_wargear": [
+          "Stormbolter",
+          "Nemesis Force Halberd",
+          "Frag Grenades",
+          "Krak Grenades",
+          "Psykout Grenades",
+          "Stormbolter",
+          "Nemesis Force Sword",
+          "Frag Grenades",
+          "Krak Grenades",
+          "Psykout Grenades"
+        ],
+        "options": [
+          {
+            "description": "May take up to 5 more Knights for +49 points each Justicar may swap Stormbolter for S Justicar may swap Nemesis Force Halberd for M Justicar may swap Krak Grenades for G Justicar may take one Spell for each Psychic Mastery Level Up to two Knights may swap Stormbolter for S",
+            "choices": []
+          }
+        ]
+      },
+      {
+        "name": "Terminators",
+        "points_base": 445,
+        "composition": "1 Justicar 4-9 Terminators",
+        "models": [
+          {
+            "name": "Justicar",
+            "stats": {
+              "M": "4",
+              "WS": "3+",
+              "BS": "3+",
+              "S": "4",
+              "T": "4",
+              "W": "3",
+              "I": "4",
+              "A": "3",
+              "Ld": "9",
+              "Sv": "3+"
+            },
+            "rules": [
+              "Character",
+              "Monstrous Infantry",
+              "Adjusted Tactics",
+              "Bolter Discipline",
+              "Know No Fear",
+              "Tactical Squads",
+              "Deepstrike",
+              "Night Vision",
+              "Psychic Mastery Level 1",
+              "Shock Assault",
+              "Steady",
+              "Stubborn",
+              "Very Bulky"
+            ]
+          },
+          {
+            "name": "Terminator",
+            "stats": {
+              "M": "4",
+              "WS": "3+",
+              "BS": "3+",
+              "S": "4",
+              "T": "4",
+              "W": "3",
+              "I": "4",
+              "A": "2",
+              "Ld": "8",
+              "Sv": "3+"
+            },
+            "rules": [
+              "Monstrous Infantry",
+              "Adjusted Tactics",
+              "Bolter Discipline",
+              "Know No Fear",
+              "Tactical Squads",
+              "Deepstrike",
+              "Night Vision",
+              "Shock Assault",
+              "Steady",
+              "Stubborn",
+              "Very Bulky"
+            ]
+          }
+        ],
+        "fixed_wargear": [
+          "Stormbolter",
+          "Nemesis Force Halberd",
+          "Terminator Honours",
+          "Stormbolter",
+          "Powerfist",
+          "Terminator Honours"
+        ],
+        "options": [
+          {
+            "description": "May take up to 5 more Terminators for +86 points each Justicar may swap Stormbolter for S Justicar may take up to one Spell for each Psychic Mastery Level Up to Two Terminators may swap Stormbolter for S Any model may swap Nemesis Force Halberd for M",
+            "choices": []
+          }
+        ]
+      }
+    ],
+    "elites": [
+      {
+        "name": "Dreadnoughts",
+        "points_base": 152,
+        "composition": "1-3 Dreadnoughts",
+        "models": [
+          {
+            "name": "Dreadnought",
+            "stats": {
+              "M": "6",
+              "WS": "3+",
+              "BS": "3+",
+              "S": "6",
+              "FA": "12",
+              "SA": "12",
+              "RA": "10",
+              "W": "8",
+              "I": "4",
+              "A": "4",
+              "Ld": "8",
+              "Sv": "3+"
+            },
+            "rules": [
+              "Vehicle",
+              "Combat Walker",
+              "Adjusted Tactics",
+              "Bolter Discipline",
+              "Know No Fear",
+              "Night Vision",
+              "Psychic Mastery Level 1",
+              "Shock Assault",
+              "Steady"
+            ]
+          }
+        ],
+        "fixed_wargear": [
+          "2 Dreadnought Missile",
+          "Launchers"
+        ],
+        "options": [
+          {
+            "description": "May add up to two more Dreadnoughts for +152 points each Any Dreadnought may swap any Dreadnought Missile Launcher for H Any Dreadnought may take up to one of each E Any Dreadnought may each take up to one Spell per Psychic Mastery Level. These are cast by each model Independently.",
+            "choices": []
+          },
+          {
+            "description": "May take Extra Armour",
+            "choices": [
+              {
+                "name": "Extra Armour",
+                "pts_delta": 5
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Ironclad Dreadnoughts",
+        "points_base": 157,
+        "composition": "1-2 Ironclad Dreadnoughts",
+        "models": [
+          {
+            "name": "Ironclad Dreadnought",
+            "stats": {
+              "M": "6",
+              "WS": "3+",
+              "BS": "3+",
+              "S": "6",
+              "FA": "13",
+              "SA": "12",
+              "RA": "10",
+              "W": "8",
+              "I": "4",
+              "A": "4",
+              "Ld": "8",
+              "Sv": "3+"
+            },
+            "rules": [
+              "Vehicle",
+              "Combat Walker",
+              "Adjusted Tactics",
+              "Bolter Discipline",
+              "Know No Fear",
+              "Night Vision",
+              "Psychic Mastery Level 1",
+              "Shock Assault",
+              "Steady",
+              "Stubborn",
+              "Shooting Phase Only."
+            ]
+          }
+        ],
+        "fixed_wargear": [
+          "2 Dreadnought Missile",
+          "Launchers"
+        ],
+        "options": [
+          {
+            "description": "May add up to two more Dreadnoughts for +157 points each Any Dreadnought may swap any Dreadnought Missile Launcher for H Any Dreadnought may take up to 2 M Any Dreadnought may take up to one of each E Any Dreadnought may each take up to one Spell per Psychic Mastery Level. These are cast by each model Independently.",
+            "choices": []
+          },
+          {
+            "description": "May take Extra Armour",
+            "choices": [
+              {
+                "name": "Extra Armour",
+                "pts_delta": 5
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Paladins",
+        "points_base": 673,
+        "composition": "1 Justicar 4-9 Terminators",
+        "models": [
+          {
+            "name": "Justicar",
+            "stats": {
+              "M": "4",
+              "WS": "2+",
+              "BS": "2+",
+              "S": "4",
+              "T": "4",
+              "W": "3",
+              "I": "4",
+              "A": "4",
+              "Ld": "9",
+              "Sv": "3+"
+            },
+            "rules": [
+              "Character",
+              "Monstrous Infantry",
+              "Adjusted Tactics",
+              "Bolter Discipline",
+              "Know No Fear",
+              "Tactical Squads",
+              "Deepstrike",
+              "Night Vision",
+              "Psychic Mastery Level 1",
+              "Shock Assault",
+              "Steady",
+              "Stubborn",
+              "Very Bulky"
+            ]
+          },
+          {
+            "name": "Terminator",
+            "stats": {
+              "M": "4",
+              "WS": "2+",
+              "BS": "2+",
+              "S": "4",
+              "T": "4",
+              "W": "3",
+              "I": "4",
+              "A": "3",
+              "Ld": "8",
+              "Sv": "3+"
+            },
+            "rules": [
+              "Monstrous Infantry",
+              "Adjusted Tactics",
+              "Bolter Discipline",
+              "Know No Fear",
+              "Tactical Squads",
+              "Deepstrike",
+              "Night Vision",
+              "Shock Assault",
+              "Steady",
+              "Stubborn",
+              "Very Bulky"
+            ]
+          }
+        ],
+        "fixed_wargear": [
+          "Stormbolter",
+          "Nemesis Force Halberd",
+          "Terminator Honours",
+          "Stormbolter",
+          "Powerfist",
+          "Terminator Honours"
+        ],
+        "options": [
+          {
+            "description": "May take up to 5 more Terminators for +131 points each Justicar may take up to one Spell for each Psychic Mastery Level Any model may swap Stormbolter for S Any model may swap Nemesis Force Halberd for M",
+            "choices": []
+          }
+        ]
+      },
+      {
+        "name": "Purifier Squad",
+        "points_base": 300,
+        "composition": "1 Knight of the Flame 4-9 Purifiers",
+        "models": [
+          {
+            "name": "Knight of the Flame",
+            "stats": {
+              "M": "6",
+              "WS": "2+",
+              "BS": "2+",
+              "S": "4",
+              "T": "4",
+              "W": "2",
+              "I": "4",
+              "A": "2",
+              "Ld": "9",
+              "Sv": "3+"
+            },
+            "rules": [
+              "Character",
+              "Infantry",
+              "Adjusted Tactics",
+              "Bolter Discipline",
+              "Know No Fear",
+              "Tactical Squads",
+              "Deepstrike",
+              "Night Vision",
+              "Objective Secured",
+              "Psychic Mastery Level 1",
+              "Shock Assault",
+              "Stubborn"
+            ]
+          },
+          {
+            "name": "Purifier",
+            "stats": {
+              "M": "6",
+              "WS": "2+",
+              "BS": "2+",
+              "S": "4",
+              "T": "4",
+              "W": "2",
+              "I": "4",
+              "A": "1",
+              "Ld": "8",
+              "Sv": "3+"
+            },
+            "rules": [
+              "Infantry",
+              "Adjusted Tactics",
+              "Bolter Discipline",
+              "Know No Fear",
+              "Tactical Squads",
+              "Deepstrike",
+              "Night Vision",
+              "Objective Secured",
+              "Shock Assault",
+              "Stubborn"
+            ]
+          }
+        ],
+        "fixed_wargear": [
+          "Stormbolter",
+          "Nemesis Force Halberd",
+          "Frag Grenades",
+          "Krak Grenades",
+          "Psykout Grenades",
+          "Stormbolter",
+          "Nemesis Force Halberd",
+          "Frag Grenades",
+          "Krak Grenades",
+          "Psykout Grenades"
+        ],
+        "options": [
+          {
+            "description": "May take up to 5 more Purifiers for +57 points each Justicar may swap Krak Grenades for G Knight of the Flame may take one Spell for each Psychic Mastery Level Any model may swap Stormbolter for S Any model may swap Nemesis Force Halberd for M",
+            "choices": []
+          }
+        ]
+      }
+    ],
+    "fast_attack": [
+      {
+        "name": "Interceptor Squad",
+        "points_base": 285,
+        "composition": "1 Justicar 4-9 Knights",
+        "models": [
+          {
+            "name": "Justicar",
+            "stats": {
+              "M": "12",
+              "WS": "3+",
+              "BS": "3+",
+              "S": "4",
+              "T": "4",
+              "W": "2",
+              "I": "4",
+              "A": "2",
+              "Ld": "9",
+              "Sv": "3+"
+            },
+            "rules": [
+              "Character",
+              "Infantry",
+              "Adjusted Tactics",
+              "Bolter Discipline",
+              "Know No Fear",
+              "Tactical Squads",
+              "Deepstrike",
+              "Night Vision",
+              "Objective Secured",
+              "Psychic Mastery Level 1",
+              "Shock Assault",
+              "Stubborn"
+            ]
+          },
+          {
+            "name": "Knight",
+            "stats": {
+              "M": "12",
+              "WS": "3+",
+              "BS": "3+",
+              "S": "4",
+              "T": "4",
+              "W": "2",
+              "I": "4",
+              "A": "1",
+              "Ld": "8",
+              "Sv": "3+"
+            },
+            "rules": [
+              "Infantry",
+              "Adjusted Tactics",
+              "Bolter Discipline",
+              "Know No Fear",
+              "Tactical Squads",
+              "Deepstrike",
+              "Night Vision",
+              "Objective Secured",
+              "Shock Assault",
+              "Stubborn"
+            ]
+          }
+        ],
+        "fixed_wargear": [
+          "Stormbolter",
+          "Nemesis Force Halberd",
+          "Frag Grenades",
+          "Krak Grenades",
+          "Psykout Grenades",
+          "Personal Teleporter",
+          "Stormbolter",
+          "Nemesis Force Sword",
+          "Frag Grenades",
+          "Krak Grenades",
+          "Psykout Grenades",
+          "Personal Teleporter"
+        ],
+        "options": [
+          {
+            "description": "May take up to 5 more Knights for +55 points each Justicar may swap Stormbolter for S Justicar may swap Nemesis Force Halberd for M Justicar may swap Krak Grenades for G Justicar may take one Spell for each Psychic Mastery Level Up to two Knights may swap Stormbolter for S",
+            "choices": []
+          }
+        ]
+      }
+    ],
+    "heavy_support": [
+      {
+        "name": "Land Raider",
+        "points_base": 297,
+        "composition": "1 Land Raider",
+        "models": [
+          {
+            "name": "Land Raider",
+            "stats": {
+              "M": "6",
+              "WS": "5+",
+              "BS": "3+",
+              "S": "8",
+              "FA": "14",
+              "SA": "14",
+              "RA": "14",
+              "W": "16",
+              "I": "1",
+              "A": "6",
+              "Ld": "9",
+              "Sv": "3+"
+            },
+            "rules": [
+              "Vehicle",
+              "Tank",
+              "Adjusted Tactics",
+              "Bolter Discipline",
+              "Know No Fear",
+              "Night Vision",
+              "Shock Assault",
+              "Stubborn",
+              "Transport 16",
+              "Assault Ramps",
+              "Reroll Dangerous Terrain Tests"
+            ]
+          }
+        ],
+        "fixed_wargear": [
+          "2 Linked Heavy Bolters",
+          "2 Hurricane Bolters"
+        ],
+        "options": [
+          {
+            "description": "May swap 2 Linked Heavy Bolters for T",
+            "choices": []
+          },
+          {
+            "description": "May swap 2 Hurricane Bolters for S",
+            "choices": []
+          },
+          {
+            "description": "May take one D",
+            "choices": []
+          },
+          {
+            "description": "May take one M",
+            "choices": []
+          },
+          {
+            "description": "May take one P",
+            "choices": []
+          },
+          {
+            "description": "May take up to one of each E",
+            "choices": [
+              {
+                "name": "Recovery Gear",
+                "pts_delta": 2
+              },
+              {
+                "name": "Extra Armour",
+                "pts_delta": 5
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Dreadknight",
+        "points_base": 215,
+        "composition": "1 Dreadknight",
+        "models": [
+          {
+            "name": "Dreadknight",
+            "stats": {
+              "M": "8",
+              "WS": "3+",
+              "BS": "3+",
+              "S": "6",
+              "FA": "12",
+              "SA": "12",
+              "RA": "10",
+              "W": "12",
+              "I": "4",
+              "A": "4",
+              "Ld": "9",
+              "Sv": "3+"
+            },
+            "rules": [
+              "Independent Character",
+              "Vehicle",
+              "Combat Walker",
+              "Grand Master",
+              "Unique",
+              "Adjusted Tactics",
+              "Know No Fear",
+              "Deepstrike",
+              "Night Vision",
+              "Psychic Mastery Level 1",
+              "Shock Assault",
+              "Steady",
+              "Stubborn"
+            ]
+          }
+        ],
+        "fixed_wargear": [
+          "2 Gatling Psilencers",
+          "Nemesis Greatsword",
+          "Force Shielding"
+        ],
+        "options": [
+          {
+            "description": "May swap any Gatling Psilencer for H",
+            "choices": []
+          },
+          {
+            "description": "May swap Nemesis Greatsword for M",
+            "choices": []
+          },
+          {
+            "description": "May take up to one Spell for each Psychic Mastery",
+            "choices": []
+          }
+        ]
+      },
+      {
+        "name": "Purgation Squad",
+        "points_base": 255,
+        "composition": "1 Justicar 4-9 Knights",
+        "models": [
+          {
+            "name": "Justicar",
+            "stats": {
+              "M": "6",
+              "WS": "3+",
+              "BS": "3+",
+              "S": "4",
+              "T": "4",
+              "W": "2",
+              "I": "4",
+              "A": "2",
+              "Ld": "9",
+              "Sv": "3+"
+            },
+            "rules": [
+              "Character",
+              "Infantry",
+              "Adjusted Tactics",
+              "Bolter Discipline",
+              "Know No Fear",
+              "Tactical Squads",
+              "Deepstrike",
+              "Night Vision",
+              "Objective Secured",
+              "Psychic Mastery Level 1",
+              "Shock Assault",
+              "Stubborn"
+            ]
+          },
+          {
+            "name": "Knight",
+            "stats": {
+              "M": "6",
+              "WS": "3+",
+              "BS": "3+",
+              "S": "4",
+              "T": "4",
+              "W": "2",
+              "I": "4",
+              "A": "1",
+              "Ld": "8",
+              "Sv": "3+"
+            },
+            "rules": [
+              "Infantry",
+              "Adjusted Tactics",
+              "Bolter Discipline",
+              "Know No Fear",
+              "Tactical Squads",
+              "Deepstrike",
+              "Night Vision",
+              "Objective Secured",
+              "Shock Assault",
+              "Stubborn"
+            ]
+          }
+        ],
+        "fixed_wargear": [
+          "Stormbolter",
+          "Nemesis Force Halberd",
+          "Frag Grenades",
+          "Krak Grenades",
+          "Psykout Grenades",
+          "Stormbolter",
+          "Nemesis Force Sword",
+          "Frag Grenades",
+          "Krak Grenades",
+          "Psykout Grenades"
+        ],
+        "options": [
+          {
+            "description": "May take up to 5 more Knights for +49 points each Justicar may swap Stormbolter for S Justicar may swap Nemesis Force Halberd for M Justicar may swap Krak Grenades for G Justicar may take one Spell for each Psychic Mastery Level Up to four Knights may swap Stormbolter for S",
+            "choices": []
+          }
+        ]
+      }
+    ],
+    "flyers": [
+      {
+        "name": "Stormhawk Interceptor",
+        "points_base": 222,
+        "composition": "1 Stormhawk",
+        "models": [
+          {
+            "name": "Stormhawk",
+            "stats": {
+              "M": "50",
+              "WS": "5+",
+              "BS": "3+",
+              "S": "6",
+              "FA": "12",
+              "SA": "11",
+              "RA": "11",
+              "W": "8",
+              "I": "1",
+              "A": "3",
+              "Ld": "9",
+              "Sv": "3+"
+            },
+            "rules": [
+              "Vehicle",
+              "Adjusted Tactics",
+              "Know No Fear",
+              "Deepstrike",
+              "High Altitude",
+              "Hover",
+              "Interceptor",
+              "Night Vision",
+              "Shock Assault",
+              "Stubborn",
+              "Ranged Attacks"
+            ]
+          }
+        ],
+        "fixed_wargear": [
+          "Skyhammer Missile Launcher",
+          "Las Talon",
+          "2 Linked Assault Cannons"
+        ],
+        "options": [
+          {
+            "description": "May swap Skyhammer Missile Launcher for T",
+            "choices": []
+          },
+          {
+            "description": "May swap Las Talon for S",
+            "choices": []
+          },
+          {
+            "description": "May take up to one of each E",
+            "choices": [
+              {
+                "name": "Flare Launchers",
+                "pts_delta": 9
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Stormraven Gunship",
+        "points_base": 321,
+        "composition": "1 Stormraven",
+        "models": [
+          {
+            "name": "Stormraven",
+            "stats": {
+              "M": "50",
+              "WS": "5+",
+              "BS": "3+",
+              "S": "7",
+              "FA": "12",
+              "SA": "12",
+              "RA": "12",
+              "W": "14",
+              "I": "1",
+              "A": "3",
+              "Ld": "9",
+              "Sv": "3+"
+            },
+            "rules": [
+              "Vehicle",
+              "Adjusted Tactics",
+              "Know No Fear",
+              "Deepstrike",
+              "High Altitude",
+              "Hover",
+              "Night Vision",
+              "Shock Assault",
+              "Stubborn",
+              "Transport 12",
+              "Dreadnought Transport",
+              "Grav Chute Insertion",
+              "Insertion.",
+              "Ranged Attacks"
+            ]
+          }
+        ],
+        "fixed_wargear": [
+          "2 Linked Plasma Cannons",
+          "Cyclone Missile Launcher"
+        ],
+        "options": [
+          {
+            "description": "May swap 2 Linked Plasma Cannons for T",
+            "choices": []
+          },
+          {
+            "description": "May swap Cyclone Missile Launcher for H",
+            "choices": []
+          },
+          {
+            "description": "May take one S",
+            "choices": []
+          },
+          {
+            "description": "May take up to one of each E",
+            "choices": [
+              {
+                "name": "Flare Launchers",
+                "pts_delta": 9
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Stormtalon Gunship",
+        "points_base": 228,
+        "composition": "1 Stormtalon",
+        "models": [
+          {
+            "name": "Stormtalon",
+            "stats": {
+              "M": "50",
+              "WS": "5+",
+              "BS": "3+",
+              "S": "6",
+              "FA": "11",
+              "SA": "11",
+              "RA": "11",
+              "W": "8",
+              "I": "1",
+              "A": "3",
+              "Ld": "9",
+              "Sv": "3+"
+            },
+            "rules": [
+              "Vehicle",
+              "Adjusted Tactics",
+              "Know No Fear",
+              "Deepstrike",
+              "High Altitude",
+              "Hover",
+              "Night Vision",
+              "Shock Assault",
+              "Stubborn",
+              "Ranged Attacks"
+            ]
+          }
+        ],
+        "fixed_wargear": [
+          "Skyhammer Missile Launcher",
+          "2 Linked Assault Cannons"
+        ],
+        "options": [
+          {
+            "description": "May swap Skyhammer Missile Launcher for T",
+            "choices": []
+          },
+          {
+            "description": "May take up to one of each E",
+            "choices": [
+              {
+                "name": "Flare Launchers",
+                "pts_delta": 9
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Xiphon Interceptor",
+        "points_base": 236,
+        "composition": "1 Xiphon",
+        "models": [
+          {
+            "name": "Xiphon",
+            "stats": {
+              "M": "60",
+              "WS": "5+",
+              "BS": "3+",
+              "S": "6",
+              "FA": "12",
+              "SA": "12",
+              "RA": "10",
+              "W": "12",
+              "I": "1",
+              "A": "3",
+              "Ld": "9",
+              "Sv": "3+"
+            },
+            "rules": [
+              "Vehicle",
+              "Know No Fear",
+              "Deepstrike",
+              "High Altitude",
+              "Interceptor",
+              "Night Vision",
+              "Shock Assault",
+              "Stubborn",
+              "Ranged Attacks"
+            ]
+          }
+        ],
+        "fixed_wargear": [
+          "4 Linked Lascannons",
+          "Xiphon Missile Battery"
+        ],
+        "options": [
+          {
+            "description": "May take up to one of each E",
+            "choices": [
+              {
+                "name": "Flare Launchers",
+                "pts_delta": 9
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "dedicated_transport": [
+      {
+        "name": "Razorback",
+        "points_base": 146,
+        "composition": "1 Razorback",
+        "models": [
+          {
+            "name": "Razorback",
+            "stats": {
+              "M": "12",
+              "WS": "5+",
+              "BS": "3+",
+              "S": "6",
+              "FA": "11",
+              "SA": "11",
+              "RA": "10",
+              "W": "10",
+              "I": "1",
+              "A": "3",
+              "Ld": "9",
+              "Sv": "3+"
+            },
+            "rules": [
+              "Vehicle",
+              "Tank",
+              "Adjusted Tactics",
+              "Bolter Discipline",
+              "Know No Fear",
+              "Night Vision",
+              "Shock Assault",
+              "Stubborn",
+              "Transport 6",
+              "Shooting Phase Only."
+            ]
+          }
+        ],
+        "fixed_wargear": [
+          "2 Linked Heavy Bolters"
+        ],
+        "options": [
+          {
+            "description": "May swap 2 Linked Heavy Bolters for T",
+            "choices": []
+          },
+          {
+            "description": "May take one D",
+            "choices": []
+          },
+          {
+            "description": "May take one M",
+            "choices": []
+          },
+          {
+            "description": "May take one P",
+            "choices": []
+          },
+          {
+            "description": "May take up to one of each E",
+            "choices": [
+              {
+                "name": "Recovery Gear",
+                "pts_delta": 2
+              },
+              {
+                "name": "Extra Armour",
+                "pts_delta": 5
+              },
+              {
+                "name": "Smoke Launchers",
+                "pts_delta": 10
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Rhino",
+        "points_base": 142,
+        "composition": "1 Rhino",
+        "models": [
+          {
+            "name": "Rhino",
+            "stats": {
+              "M": "12",
+              "WS": "5+",
+              "BS": "3+",
+              "S": "6",
+              "FA": "11",
+              "SA": "11",
+              "RA": "10",
+              "W": "10",
+              "I": "1",
+              "A": "3",
+              "Ld": "9",
+              "Sv": "3+"
+            },
+            "rules": [
+              "Vehicle",
+              "Tank",
+              "Bolter Discipline",
+              "Know No Fear",
+              "Night Vision",
+              "Shock Assault",
+              "Stubborn",
+              "Transport 12",
+              "Shooting Phase Only."
+            ]
+          }
+        ],
+        "fixed_wargear": [
+          "None"
+        ],
+        "options": [
+          {
+            "description": "May take one D",
+            "choices": []
+          },
+          {
+            "description": "May take one M",
+            "choices": []
+          },
+          {
+            "description": "May take up to two P",
+            "choices": []
+          },
+          {
+            "description": "May take up to one of each E",
+            "choices": [
+              {
+                "name": "Recovery Gear",
+                "pts_delta": 2
+              },
+              {
+                "name": "Extra Armour",
+                "pts_delta": 5
+              },
+              {
+                "name": "Smoke Launchers",
+                "pts_delta": 10
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "lord_of_war": [
+      {
+        "name": "Thunderhawk Gunship",
+        "points_base": 847,
+        "composition": "1 Thunderhawk",
+        "models": [
+          {
+            "name": "Thunderhawk",
+            "stats": {
+              "M": "50",
+              "WS": "5+",
+              "BS": "3+",
+              "S": "10",
+              "FA": "12",
+              "SA": "12",
+              "RA": "10",
+              "W": "30",
+              "I": "1",
+              "A": "9",
+              "Ld": "9",
+              "Sv": "3+"
+            },
+            "rules": [
+              "Titanic Vehicle",
+              "Adjusted Tactics",
+              "Deepstrike",
+              "Fearless",
+              "High Altitude",
+              "Hover",
+              "Night Vision",
+              "Shock Assault",
+              "Stubborn",
+              "Transport 30",
+              "Ranged Attacks"
+            ]
+          }
+        ],
+        "fixed_wargear": [
+          "Thunderhawk Heavy Cannon",
+          "2 Linked Lascannons",
+          "4 Sets of 2 Linked Heavy Bolters",
+          "2 Linked Hellstrike Missile Racks"
+        ],
+        "options": [
+          {
+            "description": "May swap Thunderhawk Heavy Cannon for T",
+            "choices": []
+          },
+          {
+            "description": "May swap 2 Linked Hellstrike Missile Racks for W",
+            "choices": []
+          },
+          {
+            "description": "May take up to one of each E",
+            "choices": [
+              {
+                "name": "Chaff Launchers",
+                "pts_delta": 18
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Thunderhawk Transporter",
+        "points_base": 774,
+        "composition": "1 Thunderhawk",
+        "models": [
+          {
+            "name": "Thunderhawk",
+            "stats": {
+              "M": "50",
+              "WS": "5+",
+              "BS": "3+",
+              "S": "10",
+              "FA": "12",
+              "SA": "12",
+              "RA": "10",
+              "W": "30",
+              "I": "1",
+              "A": "9",
+              "Ld": "9",
+              "Sv": "3+"
+            },
+            "rules": [
+              "Titanic Vehicle",
+              "Adjusted Tactics",
+              "Deepstrike",
+              "Fearless",
+              "High Altitude",
+              "Hover",
+              "Night Vision",
+              "Shock Assault",
+              "Stubborn",
+              "Transport 15",
+              "Tank Transport",
+              "Ranged Attacks"
+            ]
+          }
+        ],
+        "fixed_wargear": [
+          "2 Linked Lascannons",
+          "4 Sets of 2 Linked Heavy Bolters",
+          "2 Linked Hellstrike Missile Racks"
+        ],
+        "options": [
+          {
+            "description": "May swap 2 Linked Hellstrike Missile Racks for W",
+            "choices": []
+          },
+          {
+            "description": "May take up to one of each E",
+            "choices": [
+              {
+                "name": "Chaff Launchers",
+                "pts_delta": 18
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Imperial Fortress",
+        "points_base": 2339,
+        "composition": "1 Gate 2 Gate Towers 2 Walls 2 Towers",
+        "models": [
+          {
+            "name": "Gate",
+            "stats": {},
+            "rules": [
+              "Building",
+              "Titanic"
+            ]
+          },
+          {
+            "name": "Gate Towers",
+            "stats": {},
+            "rules": []
+          },
+          {
+            "name": "Walls",
+            "stats": {},
+            "rules": []
+          },
+          {
+            "name": "Towers",
+            "stats": {},
+            "rules": []
+          }
+        ],
+        "fixed_wargear": [
+          "Heavy Gate",
+          "2 Linked Heavy Bolters",
+          "None",
+          "2 Linked Autocannons"
+        ],
+        "options": [
+          {
+            "description": "May add as many sets of 1 Gate and 2 Gate Towers as you want for +967 points",
+            "choices": []
+          },
+          {
+            "description": "May add as many Walls as you want for +299 points each",
+            "choices": []
+          },
+          {
+            "description": "May add as many Towers as you want for +387 points",
+            "choices": []
+          }
+        ]
+      }
+    ],
+    "fortifications": [
+      {
+        "name": "Primaris Redoubt",
+        "points_base": 629,
+        "composition": "1 Primaris Redoubt",
+        "models": [
+          {
+            "name": "Primaris Redoubt",
+            "stats": {},
+            "rules": [
+              "Building"
+            ]
+          }
+        ],
+        "fixed_wargear": [
+          "2 Linked Turbolaser Destructors"
+        ],
+        "options": []
+      },
+      {
+        "name": "Aegis Weapon Emplacement",
+        "points_base": 66,
+        "composition": "1 Aegis Weapon Emplacement",
+        "models": [
+          {
+            "name": "Platform",
+            "stats": {},
+            "rules": [
+              "Building"
+            ]
+          }
+        ],
+        "fixed_wargear": [
+          "Long Lascannon"
+        ],
+        "options": [
+          {
+            "description": "May swap Long Lascannon for H",
+            "choices": []
+          }
+        ]
+      },
+      {
+        "name": "Aquila Strongpoint",
+        "points_base": 448,
+        "composition": "1 Aquila Strongpoint",
+        "models": [
+          {
+            "name": "Aquila Strongpoint",
+            "stats": {},
+            "rules": [
+              "Building"
+            ]
+          }
+        ],
+        "fixed_wargear": [
+          "Plasma Obliterator"
+        ],
+        "options": []
+      },
+      {
+        "name": "Hammerfall Bunker",
+        "points_base": 397,
+        "composition": "1 Firestorm Redoubt",
+        "models": [
+          {
+            "name": "Hammerfall Bunker",
+            "stats": {},
+            "rules": [
+              "Building"
+            ]
+          }
+        ],
+        "fixed_wargear": [
+          "2 Linked Super Missile",
+          "Launchers",
+          "4 Sets of 2 Linked Heavy",
+          "Flamers"
+        ],
+        "options": []
+      },
+      {
+        "name": "Hammerfall Bunker",
+        "points_base": 352,
+        "composition": "1 Imperial Bastion",
+        "models": [
+          {
+            "name": "Hammerfall Bunker",
+            "stats": {},
+            "rules": [
+              "Building"
+            ]
+          }
+        ],
+        "fixed_wargear": [
+          "2 Linked Super Missile",
+          "Launchers",
+          "4 Sets of 2 Linked Heavy",
+          "Flamers"
+        ],
+        "options": []
+      },
+      {
+        "name": "Plasma Obliterator",
+        "points_base": 429,
+        "composition": "1 Imperial Bastion",
+        "models": [
+          {
+            "name": "Plasma Obliterator",
+            "stats": {},
+            "rules": [
+              "Building"
+            ]
+          }
+        ],
+        "fixed_wargear": [
+          "Plasma Obliterator"
+        ],
+        "options": []
+      },
+      {
+        "name": "Plasma Obliterator",
+        "points_base": 474,
+        "composition": "1 Plasma Obliterator",
+        "models": [
+          {
+            "name": "Plasma Obliterator",
+            "stats": {},
+            "rules": [
+              "Building"
+            ]
+          }
+        ],
+        "fixed_wargear": [
+          "Plasma Obliterator"
+        ],
+        "options": []
+      },
+      {
+        "name": "Void Shield Generator",
+        "points_base": 267,
+        "composition": "1 Firestorm Redoubt",
+        "models": [
+          {
+            "name": "Void Shield Generator",
+            "stats": {},
+            "rules": [
+              "Building"
+            ]
+          }
+        ],
+        "fixed_wargear": [
+          "none"
+        ],
+        "options": []
+      },
+      {
+        "name": "Void Shield Generator",
+        "points_base": 307,
+        "composition": "1 Void Shield Generator",
+        "models": [
+          {
+            "name": "Void Shield Generator",
+            "stats": {},
+            "rules": [
+              "Building"
+            ]
+          }
+        ],
+        "fixed_wargear": [
+          "none"
+        ],
+        "options": []
+      }
+    ]
+  }
+}

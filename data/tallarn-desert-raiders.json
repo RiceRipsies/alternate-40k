@@ -1,0 +1,92 @@
+{
+  "id": "tallarn-desert-raiders",
+  "name": "Tallarn Desert Raiders",
+  "difficulty": 3,
+  "subfactions": [
+    {
+      "name": "Average"
+    },
+    {
+      "name": "Tallarn Desert Raiders"
+    }
+  ],
+  "slots": {
+    "advisors": [
+      {
+        "name": "Captain Al\u2019Rahem",
+        "points_base": 101,
+        "composition": "1 Captain Al\u2019Rahem",
+        "models": [
+          {
+            "name": "Captain Al\u2019Rahem",
+            "stats": {
+              "M": "6",
+              "WS": "3+",
+              "BS": "3+",
+              "S": "3",
+              "T": "3",
+              "W": "4",
+              "I": "3",
+              "A": "3",
+              "Ld": "9",
+              "Sv": "-"
+            },
+            "rules": [
+              "Tallarn Desert Raiders",
+              "Independent Character",
+              "Unique",
+              "Infantry",
+              "Infantry Orders 2",
+              "Like the Wind!"
+            ]
+          }
+        ],
+        "fixed_wargear": [
+          "Claw of the Desert Tiger",
+          "Plasma Pistol",
+          "Frag Grenades"
+        ],
+        "options": []
+      },
+      {
+        "name": "Mogul Kamir",
+        "points_base": 97,
+        "composition": "1 Mogul Kamir",
+        "models": [
+          {
+            "name": "Mogul Kamir",
+            "stats": {
+              "M": "12",
+              "WS": "3+",
+              "BS": "3+",
+              "S": "3",
+              "T": "4",
+              "W": "5",
+              "I": "3",
+              "A": "3",
+              "Ld": "8",
+              "Sv": "-"
+            },
+            "rules": [
+              "Tallarn Desert Raiders",
+              "Independent Character",
+              "Unique",
+              "Infantry",
+              "Steed",
+              "Khansan\u2019s Fiercest",
+              "Furious Charge",
+              "Vicious Temperament"
+            ]
+          }
+        ],
+        "fixed_wargear": [
+          "Hunting Lance",
+          "Chainsword",
+          "Bolt Pistol",
+          "Frag Grenades"
+        ],
+        "options": []
+      }
+    ]
+  }
+}

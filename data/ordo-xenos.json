@@ -1,0 +1,206 @@
+{
+  "id": "ordo-xenos",
+  "name": "Ordo Xenos",
+  "difficulty": 3,
+  "subfactions": [
+    {
+      "name": "Average"
+    }
+  ],
+  "slots": {
+    "hq": [
+      {
+        "name": "Inquisitor Eisenhorn",
+        "points_base": 661,
+        "composition": "1 Eisenhorn",
+        "models": [
+          {
+            "name": "Eisenhorn",
+            "stats": {
+              "M": "6",
+              "WS": "2+",
+              "BS": "2+",
+              "S": "3",
+              "T": "3",
+              "W": "5",
+              "I": "3",
+              "A": "4",
+              "Ld": "10",
+              "Sv": "3+"
+            },
+            "rules": [
+              "Independent Character",
+              "Infantry",
+              "Unique",
+              "Ordo Xenos",
+              "Quarry",
+              "Requisition Approved",
+              "Stubborn",
+              "Malus Codicium",
+              "No Stranger to Pain",
+              "Radical Bond",
+              "The Hour is Nigh",
+              "T Minus 5"
+            ]
+          }
+        ],
+        "fixed_wargear": [
+          "Psibolt Pistol",
+          "Barbarisater",
+          "Nemesis Warding Staff",
+          "Orbital Strike",
+          "Force Field"
+        ],
+        "options": []
+      },
+      {
+        "name": "Inquisitor Kroyle",
+        "points_base": 377,
+        "composition": "1 Kroyle",
+        "models": [
+          {
+            "name": "Kroyle",
+            "stats": {
+              "M": "12",
+              "WS": "2+",
+              "BS": "2+",
+              "S": "3",
+              "T": "4",
+              "W": "7",
+              "I": "3",
+              "A": "4",
+              "Ld": "10",
+              "Sv": "4+"
+            },
+            "rules": [
+              "Independent Character",
+              "Infantry",
+              "Steed",
+              "Unique",
+              "Ordo Xenos",
+              "Quarry",
+              "Requisition Approved",
+              "Psychic Mastery Level 1",
+              "Very Bulky",
+              "The Hour is Nigh",
+              "T Minus 5",
+              "Xenos Prime Hunter"
+            ]
+          }
+        ],
+        "fixed_wargear": [
+          "Jindarii Tox-Cycler",
+          "Butcher Blade",
+          "Garralisk",
+          "Psykout Grenades",
+          "Frag Grenades",
+          "Krak Grenades",
+          "Orbital Strike",
+          "Force Field"
+        ],
+        "options": [
+          {
+            "description": "May take up to one Inquisitor Spell for each Psychic Mastery Level",
+            "choices": []
+          }
+        ]
+      },
+      {
+        "name": "Lord Inquisitor Kyria Draxus",
+        "points_base": 357,
+        "composition": "1 Kyria",
+        "models": [
+          {
+            "name": "Kyria",
+            "stats": {
+              "M": "6",
+              "WS": "2+",
+              "BS": "2+",
+              "S": "3",
+              "T": "3",
+              "W": "6",
+              "I": "3",
+              "A": "5",
+              "Ld": "10",
+              "Sv": "3+"
+            },
+            "rules": [
+              "Independent Character",
+              "Infantry",
+              "Lord Inquisitor",
+              "Unique",
+              "Ordo Xenos",
+              "Quarry",
+              "Requisition Approved",
+              "Psychic Mastery Level 1",
+              "Stubborn",
+              "Xenos Training",
+              "The Hour is Nigh",
+              "T Minus 5"
+            ]
+          }
+        ],
+        "fixed_wargear": [
+          "Diresinger",
+          "Powerfist",
+          "Orbital Strike",
+          "Force Field",
+          "Shang"
+        ],
+        "options": [
+          {
+            "description": "May take up to one Inquisitor Spell for each Psychic Mastery Level",
+            "choices": []
+          }
+        ]
+      },
+      {
+        "name": "Lord Inquisitor Solomon Lok",
+        "points_base": 388,
+        "composition": "1 Solomon",
+        "models": [
+          {
+            "name": "Solomon",
+            "stats": {
+              "M": "6",
+              "WS": "2+",
+              "BS": "2+",
+              "S": "3",
+              "T": "3",
+              "W": "6",
+              "I": "3",
+              "A": "5",
+              "Ld": "10",
+              "Sv": "3+"
+            },
+            "rules": [
+              "Independent Character",
+              "Infantry",
+              "Lord Inquisitor",
+              "Unique",
+              "Ordo Xenos",
+              "Quarry",
+              "Requisition Approved",
+              "Stubborn",
+              "Autosavant Wassily",
+              "Servo Scribe Skull",
+              "Objective Secured.",
+              "The Hour is Nigh",
+              "T Minus 5"
+            ]
+          }
+        ],
+        "fixed_wargear": [
+          "Psibolt Pistol",
+          "Power Sword",
+          "Psykout Grenades",
+          "Frag Grenades",
+          "Krak Grenades",
+          "Orbital Strike",
+          "Force Field"
+        ],
+        "options": []
+      }
+    ]
+  }
+}

@@ -1,0 +1,198 @@
+{
+  "id": "catachan-jungle-troops",
+  "name": "Catachan Jungle Troops",
+  "difficulty": 3,
+  "subfactions": [
+    {
+      "name": "Average"
+    },
+    {
+      "name": "Catachan Jungle Troops"
+    }
+  ],
+  "slots": {
+    "hq": [
+      {
+        "name": "Special Wargear:",
+        "points_base": 230,
+        "composition": "1 Colonel Iron Hand Straken 4 Veterans",
+        "models": [
+          {
+            "name": "Refractor Field: 5+",
+            "stats": {
+              "M": "6",
+              "WS": "2+",
+              "BS": "3+",
+              "S": "6",
+              "T": "4",
+              "W": "5",
+              "I": "3",
+              "A": "4",
+              "Ld": "9",
+              "Sv": "3+"
+            },
+            "rules": []
+          },
+          {
+            "name": "Invulnerability Save",
+            "stats": {
+              "M": "6",
+              "WS": "4+",
+              "BS": "3+",
+              "S": "3",
+              "T": "4",
+              "W": "2",
+              "I": "3",
+              "A": "2",
+              "Ld": "7",
+              "Sv": "5+"
+            },
+            "rules": [
+              "Catachan Jungle Fighters",
+              "Independent Character",
+              "Unique",
+              "Infantry",
+              "Infantry Orders 2",
+              "Gung Ho",
+              "Cold Steel and Courage",
+              "Infantry",
+              "Infantry",
+              "Bulky",
+              "Pain",
+              "Sv4+",
+              "Shroud"
+            ]
+          }
+        ],
+        "fixed_wargear": [],
+        "options": [
+          {
+            "description": "May take Vox Caster",
+            "choices": [
+              {
+                "name": "Vox Caster",
+                "pts_delta": 5
+              }
+            ]
+          },
+          {
+            "description": "May take Standard",
+            "choices": [
+              {
+                "name": "Standard",
+                "pts_delta": 40
+              }
+            ]
+          },
+          {
+            "description": "May take Medicae Pack",
+            "choices": [
+              {
+                "name": "Medicae Pack",
+                "pts_delta": 75
+              }
+            ]
+          },
+          {
+            "description": "May take Camo Gear",
+            "choices": [
+              {
+                "name": "Camo Gear",
+                "pts_delta": 18
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "advisors": [
+      {
+        "name": "Sergeant Stone Tooth Harker",
+        "points_base": 104,
+        "composition": "1 Sergeant Harker",
+        "models": [
+          {
+            "name": "Sergeant Harker",
+            "stats": {
+              "M": "6",
+              "WS": "3+",
+              "BS": "3+",
+              "S": "4",
+              "T": "4",
+              "W": "4",
+              "I": "3",
+              "A": "3",
+              "Ld": "8",
+              "Sv": "-"
+            },
+            "rules": [
+              "Catachan Jungle Troops",
+              "Independent Character",
+              "Unique",
+              "Infantry",
+              "Infantry Orders 1",
+              "Fearless",
+              "Payback",
+              "Catachan Devils",
+              "Stealth",
+              "Tougher Than Cerakrete",
+              "Feel No Pain"
+            ]
+          }
+        ],
+        "fixed_wargear": [
+          "Payback",
+          "Frag Grenades",
+          "Krak Grenades"
+        ],
+        "options": []
+      },
+      {
+        "name": "0-1 Lord of War Slots",
+        "points_base": 298,
+        "composition": "1 Guardsman Marbo",
+        "models": [
+          {
+            "name": "Guardsman Sly Marbo",
+            "stats": {
+              "M": "6",
+              "WS": "2+",
+              "BS": "2+",
+              "S": "3",
+              "T": "4",
+              "W": "6",
+              "I": "5",
+              "A": "6",
+              "Ld": "7",
+              "Sv": "-"
+            },
+            "rules": []
+          },
+          {
+            "name": "Guardsman Marbo",
+            "stats": {},
+            "rules": [
+              "Catachan Jungle Troops",
+              "Independent Character",
+              "Unique",
+              "Infantry",
+              "Counterattack",
+              "Deepstrike",
+              "Fearless",
+              "Fleet",
+              "Scout"
+            ]
+          }
+        ],
+        "fixed_wargear": [
+          "Envenomed Blade",
+          "Envenomed Ripper Pistol",
+          "Demolition Charge",
+          "Frag Grenades",
+          "Melta Bombs"
+        ],
+        "options": []
+      }
+    ]
+  }
+}

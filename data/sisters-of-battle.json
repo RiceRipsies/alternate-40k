@@ -1,0 +1,1548 @@
+{
+  "id": "sisters-of-battle",
+  "name": "Sisters of Battle",
+  "difficulty": 2,
+  "subfactions": [
+    {
+      "name": "Average"
+    }
+  ],
+  "slots": {
+    "hq": [
+      {
+        "name": "Canoness",
+        "points_base": 181,
+        "composition": "1 Canoness",
+        "models": [
+          {
+            "name": "Canoness",
+            "stats": {
+              "M": "6",
+              "WS": "2+",
+              "BS": "2+",
+              "S": "3",
+              "T": "3",
+              "W": "5",
+              "I": "3",
+              "A": "4",
+              "Ld": "10",
+              "Sv": "3+"
+            },
+            "rules": [
+              "Independent Character",
+              "Infantry",
+              "Faith 2",
+              "Martyrdom 5",
+              "Stubborn",
+              "The Passion"
+            ]
+          }
+        ],
+        "fixed_wargear": [
+          "Bolt Pistol",
+          "Chain Sword",
+          "Frag Grenades",
+          "Krak Grenades",
+          "Rosarius"
+        ],
+        "options": [
+          {
+            "description": "May swap Bolt Pistol for P",
+            "choices": []
+          },
+          {
+            "description": "May swap Chainsword for M",
+            "choices": []
+          },
+          {
+            "description": "May swap Krak Grenades for G",
+            "choices": []
+          },
+          {
+            "description": "May take one A",
+            "choices": [
+              {
+                "name": "Canoness Superior",
+                "pts_delta": 159
+              }
+            ]
+          },
+          {
+            "description": "May take Jump Pack",
+            "choices": [
+              {
+                "name": "Jump Pack",
+                "pts_delta": 19
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Morvenn Vahl",
+        "points_base": 266,
+        "composition": "1 Purgator Mirabilis",
+        "models": [
+          {
+            "name": "Purgator Mirabilis",
+            "stats": {
+              "M": "8",
+              "WS": "2+",
+              "BS": "2+",
+              "S": "5",
+              "FA": "11",
+              "SA": "11",
+              "RA": "10",
+              "W": "7",
+              "I": "3",
+              "A": "5",
+              "Ld": "10",
+              "Sv": "3+"
+            },
+            "rules": [
+              "Independent Character",
+              "Vehicle",
+              "Combat Walker",
+              "Unique",
+              "Faith 3",
+              "Martyrdom 5",
+              "Steady",
+              "Righteous Rage"
+            ]
+          }
+        ],
+        "fixed_wargear": [
+          "Fidelis",
+          "Cyclone Missile Launcher",
+          "Lance of Illumination",
+          "Rosarius"
+        ],
+        "options": []
+      }
+    ],
+    "advisors": [
+      {
+        "name": "Pronatus",
+        "points_base": 103,
+        "composition": "1 Pronatus",
+        "models": [
+          {
+            "name": "Pronatus",
+            "stats": {
+              "M": "6",
+              "WS": "3+",
+              "BS": "3+",
+              "S": "3",
+              "T": "3",
+              "W": "4",
+              "I": "3",
+              "A": "3",
+              "Ld": "9",
+              "Sv": "3+"
+            },
+            "rules": [
+              "Independent Character",
+              "Infantry",
+              "Faith 1",
+              "Martyrdom 2",
+              "Stubborn"
+            ]
+          }
+        ],
+        "fixed_wargear": [
+          "Bolt Pistol",
+          "Chain Sword",
+          "Frag Grenades",
+          "Krak Grenades",
+          "Standard"
+        ],
+        "options": [
+          {
+            "description": "May swap Bolt Pistol for P",
+            "choices": []
+          },
+          {
+            "description": "May swap Chainsword for M",
+            "choices": []
+          }
+        ]
+      },
+      {
+        "name": "Dialogus",
+        "points_base": 159,
+        "composition": "1 Chirugeon",
+        "models": [
+          {
+            "name": "Dialogus",
+            "stats": {
+              "M": "6",
+              "WS": "3+",
+              "BS": "3+",
+              "S": "3",
+              "T": "3",
+              "W": "4",
+              "I": "3",
+              "A": "3",
+              "Ld": "9",
+              "Sv": "3+"
+            },
+            "rules": [
+              "Independent Character",
+              "Infantry",
+              "Faith 1",
+              "Martyrdom 2",
+              "Stubborn",
+              "Chirugeon",
+              "Feel No Pain."
+            ]
+          }
+        ],
+        "fixed_wargear": [
+          "Bolt Pistol",
+          "Chain Sword",
+          "Frag Grenades",
+          "Krak Grenades",
+          "Laud Hailer"
+        ],
+        "options": [
+          {
+            "description": "May swap Bolt Pistol for P",
+            "choices": []
+          }
+        ]
+      },
+      {
+        "name": "Dialogus",
+        "points_base": 69,
+        "composition": "1 Dialogus",
+        "models": [
+          {
+            "name": "Dialogus",
+            "stats": {
+              "M": "6",
+              "WS": "3+",
+              "BS": "3+",
+              "S": "3",
+              "T": "3",
+              "W": "4",
+              "I": "3",
+              "A": "3",
+              "Ld": "9",
+              "Sv": "3+"
+            },
+            "rules": [
+              "Independent Character",
+              "Infantry",
+              "Faith 1",
+              "Martyrdom 2",
+              "Stubborn"
+            ]
+          }
+        ],
+        "fixed_wargear": [
+          "Bolt Pistol",
+          "Chain Sword",
+          "Frag Grenades",
+          "Krak Grenades",
+          "Laud Hailer"
+        ],
+        "options": [
+          {
+            "description": "May swap Bolt Pistol for P",
+            "choices": []
+          }
+        ]
+      },
+      {
+        "name": "Sister Dogmata",
+        "points_base": 114,
+        "composition": "1 Palatine",
+        "models": [
+          {
+            "name": "Dogmata",
+            "stats": {
+              "M": "6",
+              "WS": "3+",
+              "BS": "5+",
+              "S": "3",
+              "T": "3",
+              "W": "4",
+              "I": "3",
+              "A": "3",
+              "Ld": "9",
+              "Sv": "3+"
+            },
+            "rules": [
+              "Independent Character",
+              "Infantry",
+              "Faith 1",
+              "Martyrdom 2",
+              "Stubborn",
+              "Fire Discipline",
+              "Turn."
+            ]
+          }
+        ],
+        "fixed_wargear": [
+          "Colossal Mace"
+        ],
+        "options": []
+      },
+      {
+        "name": "Sister Dogmata",
+        "points_base": 63,
+        "composition": "1 Dogmata",
+        "models": [
+          {
+            "name": "Dogmata",
+            "stats": {
+              "M": "6",
+              "WS": "3+",
+              "BS": "5+",
+              "S": "3",
+              "T": "3",
+              "W": "4",
+              "I": "3",
+              "A": "3",
+              "Ld": "9",
+              "Sv": "3+"
+            },
+            "rules": [
+              "Independent Character",
+              "Infantry",
+              "Faith 1",
+              "Martyrdom 2",
+              "Stubborn",
+              "Judgement Day"
+            ]
+          }
+        ],
+        "fixed_wargear": [
+          "Colossal Mace"
+        ],
+        "options": []
+      },
+      {
+        "name": "Superior Amalia Novena",
+        "points_base": 80,
+        "composition": "1 Novena",
+        "models": [
+          {
+            "name": "Novena",
+            "stats": {
+              "M": "6",
+              "WS": "3+",
+              "BS": "3+",
+              "S": "3",
+              "T": "3",
+              "W": "4",
+              "I": "3",
+              "A": "3",
+              "Ld": "9",
+              "Sv": "3+"
+            },
+            "rules": [
+              "Character",
+              "Infantry",
+              "Faith 2",
+              "Martyrdom 3",
+              "Poster Material",
+              "Objective Secured."
+            ]
+          }
+        ],
+        "fixed_wargear": [
+          "Boltgun",
+          "Frag Grenades",
+          "Krak Grenades"
+        ],
+        "options": []
+      }
+    ],
+    "troops": [
+      {
+        "name": "Battle Sisters",
+        "points_base": 115,
+        "composition": "1 Superior 4-19 Sisters",
+        "models": [
+          {
+            "name": "Superior",
+            "stats": {
+              "M": "6",
+              "WS": "3+",
+              "BS": "3+",
+              "S": "3",
+              "T": "3",
+              "W": "2",
+              "I": "3",
+              "A": "2",
+              "Ld": "9",
+              "Sv": "3+"
+            },
+            "rules": [
+              "Character",
+              "Infantry",
+              "Faith 1",
+              "Martyrdom 2"
+            ]
+          },
+          {
+            "name": "Sister",
+            "stats": {
+              "M": "6",
+              "WS": "3+",
+              "BS": "3+",
+              "S": "3",
+              "T": "3",
+              "W": "2",
+              "I": "3",
+              "A": "1",
+              "Ld": "8",
+              "Sv": "3+"
+            },
+            "rules": [
+              "Infantry",
+              "Martyrdom 1"
+            ]
+          }
+        ],
+        "fixed_wargear": [
+          "Bolt Pistol",
+          "Chain Sword",
+          "Frag Grenades",
+          "Krak Grenades",
+          "Boltgun",
+          "Frag Grenades",
+          "Krak Grenades"
+        ],
+        "options": [
+          {
+            "description": "May take up to 15 more Sisters for +21 points each Superior may swap Bolt Pistol for OP Superior may swap Chainsword for M Superior may swap Krak Grenades for G Up to two Sisters may swap Boltgun for S or H Any Sister may swap Boltgun for P One Sister who did not swap their Boltgun for S or H may take one E",
+            "choices": []
+          }
+        ]
+      },
+      {
+        "name": "Novitiates",
+        "points_base": 92,
+        "composition": "1 Superior 9-19 Militants",
+        "models": [
+          {
+            "name": "Superior",
+            "stats": {
+              "M": "6",
+              "WS": "3+",
+              "BS": "3+",
+              "S": "3",
+              "T": "3",
+              "W": "2",
+              "I": "3",
+              "A": "2",
+              "Ld": "9",
+              "Sv": "3+"
+            },
+            "rules": [
+              "Character",
+              "Infantry",
+              "Faith 1",
+              "Martyrdom 2"
+            ]
+          },
+          {
+            "name": "Militant",
+            "stats": {
+              "M": "6",
+              "WS": "4+",
+              "BS": "4+",
+              "S": "3",
+              "T": "3",
+              "W": "1",
+              "I": "3",
+              "A": "1",
+              "Ld": "7",
+              "Sv": "5+"
+            },
+            "rules": [
+              "Infantry",
+              "Martyrdom 1",
+              "Faith +1."
+            ]
+          }
+        ],
+        "fixed_wargear": [
+          "Bolt Pistol",
+          "Chain Sword",
+          "Frag Grenades",
+          "Krak Grenades",
+          "Autopistol",
+          "Frag Grenades"
+        ],
+        "options": [
+          {
+            "description": "May take up to 10 more Militants for +7 points each Superior may swap Bolt Pistol for OP Superior may swap Chainsword for OM Superior may swap Krak Grenades for G Any Militant may swap Autopistol for S or M Any Militant who did not swap their Autopistol may take one E without repeating the selection",
+            "choices": [
+              {
+                "name": "Scriptorum",
+                "pts_delta": 4
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Redemptionists",
+        "points_base": 34,
+        "composition": "1 Priest 9-19 Cultists",
+        "models": [
+          {
+            "name": "Priest",
+            "stats": {
+              "M": "6",
+              "WS": "5+",
+              "BS": "5+",
+              "S": "3",
+              "T": "3",
+              "W": "1",
+              "I": "3",
+              "A": "2",
+              "Ld": "7",
+              "Sv": "5+"
+            },
+            "rules": [
+              "Character",
+              "Infantry"
+            ]
+          },
+          {
+            "name": "Cultist",
+            "stats": {
+              "M": "6",
+              "WS": "5+",
+              "BS": "5+",
+              "S": "3",
+              "T": "3",
+              "W": "1",
+              "I": "3",
+              "A": "1",
+              "Ld": "5",
+              "Sv": "5+"
+            },
+            "rules": [
+              "Infantry"
+            ]
+          }
+        ],
+        "fixed_wargear": [
+          "Autopistol",
+          "Brutal Weapon",
+          "Autopistol",
+          "Brutal Weapon"
+        ],
+        "options": [
+          {
+            "description": "May take up to 10 more Cultists for +3 points each Priest may swap Autopistol for OP Priest may swap Chainsword for OM Any Cultist may swap Autopistol for R Any Cultist may swap Brutal Weapon for M",
+            "choices": []
+          }
+        ]
+      }
+    ],
+    "elites": [
+      {
+        "name": "Acro Flagellants",
+        "points_base": 65,
+        "composition": "5-20 Flagellants",
+        "models": [
+          {
+            "name": "Flagellant",
+            "stats": {
+              "M": "8",
+              "WS": "3+",
+              "BS": "5+",
+              "S": "3",
+              "T": "3",
+              "W": "1",
+              "I": "3",
+              "A": "2",
+              "Ld": "7",
+              "Sv": "-"
+            },
+            "rules": [
+              "Infantry",
+              "Frenzon",
+              "Feel No Pain."
+            ]
+          }
+        ],
+        "fixed_wargear": [
+          "Acro Flail"
+        ],
+        "options": [
+          {
+            "description": "May take up to 15 more Flagellants for +13 points each",
+            "choices": []
+          }
+        ]
+      },
+      {
+        "name": "Incarcerator",
+        "points_base": 156,
+        "composition": "1 Incarcerator",
+        "models": [
+          {
+            "name": "Incarcerator",
+            "stats": {
+              "M": "12",
+              "WS": "5+",
+              "BS": "3+",
+              "S": "6",
+              "FA": "11",
+              "SA": "11",
+              "RA": "10",
+              "W": "12",
+              "I": "1",
+              "A": "3",
+              "Ld": "9",
+              "Sv": "3+"
+            },
+            "rules": []
+          }
+        ],
+        "fixed_wargear": [],
+        "options": []
+      },
+      {
+        "name": "Repentia",
+        "points_base": 99,
+        "composition": "1 Mistress 4-19 Repentias",
+        "models": [
+          {
+            "name": "Mistress",
+            "stats": {
+              "M": "6",
+              "WS": "3+",
+              "BS": "3+",
+              "S": "3",
+              "T": "3",
+              "W": "2",
+              "I": "3",
+              "A": "2",
+              "Ld": "9",
+              "Sv": "3+"
+            },
+            "rules": [
+              "Character",
+              "Infantry",
+              "Faith 1",
+              "Martyrdom 2",
+              "Driven To Redemption"
+            ]
+          },
+          {
+            "name": "Repentia",
+            "stats": {
+              "M": "6",
+              "WS": "3+",
+              "BS": "5+",
+              "S": "3",
+              "T": "3",
+              "W": "1",
+              "I": "3",
+              "A": "1",
+              "Ld": "6",
+              "Sv": "-"
+            },
+            "rules": [
+              "Infantry",
+              "Atonement"
+            ]
+          }
+        ],
+        "fixed_wargear": [
+          "Neuro Whip",
+          "Frag Grenades",
+          "Krak Grenades",
+          "Eviscerator"
+        ],
+        "options": [
+          {
+            "description": "May take up to 15 more Repentias for +12 points each Mistress may swap Krak Grenades for G",
+            "choices": []
+          }
+        ]
+      },
+      {
+        "name": "Sacresants",
+        "points_base": 292,
+        "composition": "1 Superior 4-9 Sacresants",
+        "models": [
+          {
+            "name": "Superior",
+            "stats": {
+              "M": "6",
+              "WS": "2+",
+              "BS": "2+",
+              "S": "3",
+              "T": "3",
+              "W": "2",
+              "I": "3",
+              "A": "3",
+              "Ld": "10",
+              "Sv": "3+"
+            },
+            "rules": [
+              "Character",
+              "Infantry",
+              "Faith 1",
+              "Martyrdom 2",
+              "Bodyguard"
+            ]
+          },
+          {
+            "name": "Sacresant",
+            "stats": {
+              "M": "6",
+              "WS": "2+",
+              "BS": "2+",
+              "S": "3",
+              "T": "3",
+              "W": "2",
+              "I": "3",
+              "A": "2",
+              "Ld": "9",
+              "Sv": "3+"
+            },
+            "rules": [
+              "Infantry",
+              "Martyrdom 1",
+              "Bodyguard"
+            ]
+          }
+        ],
+        "fixed_wargear": [
+          "Bolt Pistol",
+          "Hollowed Mace",
+          "Frag Grenades",
+          "Krak Grenades",
+          "Storm Shield",
+          "Bolt Pistol",
+          "Hollowed Mace",
+          "Frag Grenades",
+          "Krak Grenades",
+          "Storm Shield"
+        ],
+        "options": [
+          {
+            "description": "May take up to 5 more Sacresants for +57 points each Superior may swap Bolt Pistol for P Superior may swap Krak Grenades for G Any model may swap Hollowed Mace for M",
+            "choices": []
+          }
+        ]
+      }
+    ],
+    "fast_attack": [
+      {
+        "name": "Dominion Squad",
+        "points_base": 125,
+        "composition": "1 Superior 4-19 Sisters",
+        "models": [
+          {
+            "name": "Superior",
+            "stats": {
+              "M": "6",
+              "WS": "3+",
+              "BS": "3+",
+              "S": "3",
+              "T": "3",
+              "W": "2",
+              "I": "3",
+              "A": "2",
+              "Ld": "9",
+              "Sv": "3+"
+            },
+            "rules": [
+              "Character",
+              "Infantry",
+              "Faith 1",
+              "Martyrdom 2",
+              "Scout"
+            ]
+          },
+          {
+            "name": "Sister",
+            "stats": {
+              "M": "6",
+              "WS": "3+",
+              "BS": "3+",
+              "S": "3",
+              "T": "3",
+              "W": "2",
+              "I": "3",
+              "A": "1",
+              "Ld": "8",
+              "Sv": "3+"
+            },
+            "rules": [
+              "Infantry",
+              "Martyrdom 1",
+              "Scout"
+            ]
+          }
+        ],
+        "fixed_wargear": [
+          "Bolt Pistol",
+          "Chain Sword",
+          "Frag Grenades",
+          "Krak Grenades",
+          "Boltgun",
+          "Frag Grenades",
+          "Krak Grenades"
+        ],
+        "options": [
+          {
+            "description": "May take up to 15 more Sisters for +23 points each Superior may swap Bolt Pistol for OP Superior may swap Chainsword for M Superior may swap Krak Grenades for G Up to four Sisters may swap Boltgun for S Any Sister may swap Boltgun for P One Sister who did not swap their Boltgun for S or H may take one E",
+            "choices": []
+          }
+        ]
+      },
+      {
+        "name": "Seraphim Squad",
+        "points_base": 141,
+        "composition": "1 Superior 4-9 Sisters",
+        "models": [
+          {
+            "name": "Superior",
+            "stats": {
+              "M": "12",
+              "WS": "3+",
+              "BS": "3+",
+              "S": "3",
+              "T": "3",
+              "W": "2",
+              "I": "3",
+              "A": "2",
+              "Ld": "9",
+              "Sv": "3+"
+            },
+            "rules": [
+              "Character",
+              "Infantry",
+              "Faith 1",
+              "Martyrdom 2",
+              "Deepstrike",
+              "Fly"
+            ]
+          },
+          {
+            "name": "Sister",
+            "stats": {
+              "M": "12",
+              "WS": "3+",
+              "BS": "3+",
+              "S": "3",
+              "T": "3",
+              "W": "2",
+              "I": "3",
+              "A": "1",
+              "Ld": "8",
+              "Sv": "3+"
+            },
+            "rules": [
+              "Infantry",
+              "Martyrdom 1",
+              "Deepstrike",
+              "Fly"
+            ]
+          }
+        ],
+        "fixed_wargear": [
+          "Bolt Pistol",
+          "Chain Sword",
+          "Frag Grenades",
+          "Krak Grenades",
+          "2 Bolt Pistols",
+          "Frag Grenades",
+          "Krak Grenades"
+        ],
+        "options": [
+          {
+            "description": "May take up to 5 more Sisters for +28 points each Superior may swap Bolt Pistol for OP Superior may swap Chainsword for OM Superior may swap Krak Grenades for G Up to two Sisters may swap 2 Bolt Pistols for P Any Sister may swap a Bolt Pistol for M",
+            "choices": []
+          }
+        ]
+      },
+      {
+        "name": "Paragon Warsuits",
+        "points_base": 293,
+        "composition": "1 Superior 2-6 Paragons",
+        "models": [
+          {
+            "name": "Superior",
+            "stats": {
+              "M": "8",
+              "WS": "3+",
+              "BS": "3+",
+              "S": "5",
+              "FA": "11",
+              "SA": "11",
+              "RA": "10",
+              "W": "5",
+              "I": "3",
+              "A": "3",
+              "Ld": "9",
+              "Sv": "3+"
+            },
+            "rules": [
+              "Character",
+              "Vehicle",
+              "Combat Walker",
+              "Faith 1",
+              "Martyrdom 2",
+              "Steady"
+            ]
+          },
+          {
+            "name": "Paragon",
+            "stats": {
+              "M": "8",
+              "WS": "3+",
+              "BS": "3+",
+              "S": "5",
+              "FA": "11",
+              "SA": "11",
+              "RA": "10",
+              "W": "5",
+              "I": "3",
+              "A": "2",
+              "Ld": "8",
+              "Sv": "3+"
+            },
+            "rules": [
+              "Vehicle",
+              "Combat Walker",
+              "Martyrdom 1",
+              "Steady"
+            ]
+          }
+        ],
+        "fixed_wargear": [
+          "Heavy Flamer",
+          "2 Linked Stormbolters",
+          "Hollowed Mace",
+          "Heavy Flamer",
+          "2 Linked Stormbolters",
+          "Hollowed Mace"
+        ],
+        "options": [
+          {
+            "description": "May add up to 4 more Paragons for +94 points each Any model may swap Heavy Flamer for H Any model may swap 2 Linked Stormbolters for S Any model may swap Hollowed Mace for M",
+            "choices": []
+          }
+        ]
+      }
+    ],
+    "heavy_support": [
+      {
+        "name": "Castigators",
+        "points_base": 166,
+        "composition": "1-3 Castigators",
+        "models": [
+          {
+            "name": "Castigator",
+            "stats": {
+              "M": "12",
+              "WS": "5+",
+              "BS": "3+",
+              "S": "6",
+              "FA": "13",
+              "SA": "11",
+              "RA": "10",
+              "W": "12",
+              "I": "1",
+              "A": "3",
+              "Ld": "9",
+              "Sv": "3+"
+            },
+            "rules": []
+          }
+        ],
+        "fixed_wargear": [],
+        "options": []
+      },
+      {
+        "name": "Exorcists",
+        "points_base": 154,
+        "composition": "1-3 Exorcists",
+        "models": [
+          {
+            "name": "Exorcist",
+            "stats": {
+              "M": "12",
+              "WS": "5+",
+              "BS": "3+",
+              "S": "6",
+              "FA": "11",
+              "SA": "11",
+              "RA": "10",
+              "W": "12",
+              "I": "1",
+              "A": "3",
+              "Ld": "9",
+              "Sv": "3+"
+            },
+            "rules": []
+          }
+        ],
+        "fixed_wargear": [],
+        "options": []
+      },
+      {
+        "name": "Penitent Engines",
+        "points_base": 106,
+        "composition": "2-6 Penitents",
+        "models": [
+          {
+            "name": "Penitent",
+            "stats": {
+              "M": "8",
+              "WS": "3+",
+              "BS": "3+",
+              "S": "5",
+              "FA": "10",
+              "SA": "10",
+              "RA": "10",
+              "W": "5",
+              "I": "3",
+              "A": "2",
+              "Ld": "7",
+              "Sv": "3+"
+            },
+            "rules": []
+          }
+        ],
+        "fixed_wargear": [],
+        "options": []
+      },
+      {
+        "name": "Retributor Squad",
+        "points_base": 115,
+        "composition": "1 Superior 4-19 Sisters",
+        "models": [
+          {
+            "name": "Superior",
+            "stats": {
+              "M": "6",
+              "WS": "3+",
+              "BS": "3+",
+              "S": "3",
+              "T": "3",
+              "W": "2",
+              "I": "3",
+              "A": "2",
+              "Ld": "9",
+              "Sv": "3+"
+            },
+            "rules": [
+              "Character",
+              "Infantry",
+              "Faith 1",
+              "Martyrdom 2"
+            ]
+          },
+          {
+            "name": "Sister",
+            "stats": {
+              "M": "6",
+              "WS": "3+",
+              "BS": "3+",
+              "S": "3",
+              "T": "3",
+              "W": "2",
+              "I": "3",
+              "A": "1",
+              "Ld": "8",
+              "Sv": "3+"
+            },
+            "rules": [
+              "Infantry",
+              "Martyrdom 1"
+            ]
+          }
+        ],
+        "fixed_wargear": [
+          "Bolt Pistol",
+          "Chain Sword",
+          "Frag Grenades",
+          "Krak Grenades",
+          "Boltgun",
+          "Frag Grenades",
+          "Krak Grenades"
+        ],
+        "options": [
+          {
+            "description": "May take up to 15 more Sisters for +21 points each Superior may swap Bolt Pistol for OP Superior may swap Chainsword for M Superior may swap Krak Grenades for G Up to four Sisters may swap Boltgun for H Any Sister may swap Boltgun for P One Sister who did not swap their Boltgun for S or H may take one E",
+            "choices": []
+          }
+        ]
+      }
+    ],
+    "flyers": [
+      {
+        "name": "Arvus Lighter Fleet",
+        "points_base": 133,
+        "composition": "1-3 Arvus Lighters",
+        "models": [
+          {
+            "name": "Arvus Lighter",
+            "stats": {
+              "M": "50",
+              "WS": "5+",
+              "BS": "3+",
+              "S": "5",
+              "FA": "10",
+              "SA": "10",
+              "RA": "10",
+              "W": "8",
+              "I": "1",
+              "A": "3",
+              "Ld": "8",
+              "Sv": "3+"
+            },
+            "rules": [
+              "Vehicle",
+              "High Altitude",
+              "Hover",
+              "Deep Strike",
+              "Transport 12"
+            ]
+          }
+        ],
+        "fixed_wargear": [
+          "none",
+          "Avenger Bolt Cannon",
+          "2 Linked Lascannons",
+          "Heavy Stubber"
+        ],
+        "options": [
+          {
+            "description": "May take up to 2 more Arvus Lighters for +132 points each Any Arvus Lighter may take H Any Arvus Lighter may take up to one E each",
+            "choices": [
+              {
+                "name": "Chaff Launcher",
+                "pts_delta": 9
+              },
+              {
+                "name": "Searchlight",
+                "pts_delta": 1
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Heavy 2 x2, Monsterbane,",
+        "points_base": 203,
+        "composition": "1-3 Avenger Strike Fighters",
+        "models": [
+          {
+            "name": "Turret, Primary",
+            "stats": {
+              "M": "50",
+              "WS": "5+",
+              "BS": "3+",
+              "S": "6",
+              "FA": "12",
+              "SA": "10",
+              "RA": "10",
+              "W": "14",
+              "I": "1",
+              "A": "3",
+              "Ld": "8",
+              "Sv": "3+"
+            },
+            "rules": []
+          },
+          {
+            "name": "Heavy 1 x2, Ordnance,",
+            "stats": {},
+            "rules": [
+              "Vehicle",
+              "High Altitude",
+              "Deep Strike"
+            ]
+          },
+          {
+            "name": "Monsterbane, One Use Only,",
+            "stats": {},
+            "rules": []
+          },
+          {
+            "name": "Hull, Primary",
+            "stats": {},
+            "rules": []
+          }
+        ],
+        "fixed_wargear": [],
+        "options": [
+          {
+            "description": "May take up to 2 more Avenger Strike Fighters for +202 points each Any Avenger Strike Fighter may take W Any Avenger Strike Fighter may take up to one E each",
+            "choices": [
+              {
+                "name": "Chaff Launcher",
+                "pts_delta": 9
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "dedicated_transport": [
+      {
+        "name": "Immolator",
+        "points_base": 113,
+        "composition": "1 Immolator",
+        "models": [
+          {
+            "name": "Immolator",
+            "stats": {
+              "M": "12",
+              "WS": "5+",
+              "BS": "3+",
+              "S": "6",
+              "FA": "11",
+              "SA": "11",
+              "RA": "10",
+              "W": "12",
+              "I": "1",
+              "A": "3",
+              "Ld": "9",
+              "Sv": "3+"
+            },
+            "rules": []
+          }
+        ],
+        "fixed_wargear": [],
+        "options": []
+      },
+      {
+        "name": "Repressor",
+        "points_base": 168,
+        "composition": "1 Repressor",
+        "models": [
+          {
+            "name": "Repressor",
+            "stats": {
+              "M": "12",
+              "WS": "5+",
+              "BS": "3+",
+              "S": "6",
+              "FA": "11",
+              "SA": "11",
+              "RA": "10",
+              "W": "10",
+              "I": "1",
+              "A": "3",
+              "Ld": "9",
+              "Sv": "3+"
+            },
+            "rules": []
+          }
+        ],
+        "fixed_wargear": [],
+        "options": []
+      },
+      {
+        "name": "Rhino",
+        "points_base": 124,
+        "composition": "1 Immolator",
+        "models": [
+          {
+            "name": "Rhino",
+            "stats": {
+              "M": "12",
+              "WS": "5+",
+              "BS": "3+",
+              "S": "6",
+              "FA": "11",
+              "SA": "11",
+              "RA": "10",
+              "W": "10",
+              "I": "1",
+              "A": "3",
+              "Ld": "9",
+              "Sv": "3+"
+            },
+            "rules": []
+          }
+        ],
+        "fixed_wargear": [],
+        "options": []
+      }
+    ],
+    "lord_of_war": [
+      {
+        "name": "Triumph of Saint Kathrine",
+        "points_base": 606,
+        "composition": "1 Triumph",
+        "models": [
+          {
+            "name": "Triumph",
+            "stats": {
+              "M": "6",
+              "WS": "2+",
+              "BS": "2+",
+              "S": "3",
+              "T": "3",
+              "W": "12",
+              "I": "3",
+              "A": "4",
+              "Ld": "10",
+              "Sv": "3+"
+            },
+            "rules": [
+              "Independent Character",
+              "Infantry",
+              "Unique",
+              "Faith 5",
+              "Martyrdom 20",
+              "Stubborn",
+              "Parade"
+            ]
+          }
+        ],
+        "fixed_wargear": [
+          "Relic Blade",
+          "Attendants",
+          "Storm Shield",
+          "Censor of the Sacred Rose",
+          "Icon of the Valorous Heart",
+          "Petals of the Bloody Rose",
+          "Praesidium Protectiva",
+          "Simulacrum of the Ebon Chalice",
+          "Simulacron of the Ardent",
+          "Shroud",
+          "The Fiery Heart"
+        ],
+        "options": []
+      },
+      {
+        "name": "Imperial Fortress",
+        "points_base": 2339,
+        "composition": "1 Gate 2 Gate Towers 2 Walls 2 Towers",
+        "models": [
+          {
+            "name": "Gate",
+            "stats": {},
+            "rules": [
+              "Building",
+              "Titanic"
+            ]
+          },
+          {
+            "name": "Gate Towers",
+            "stats": {},
+            "rules": []
+          },
+          {
+            "name": "Walls",
+            "stats": {},
+            "rules": []
+          },
+          {
+            "name": "Towers",
+            "stats": {},
+            "rules": []
+          }
+        ],
+        "fixed_wargear": [
+          "Heavy Gate",
+          "2 Linked Heavy Bolters",
+          "None",
+          "2 Linked Autocannons"
+        ],
+        "options": [
+          {
+            "description": "May add as many sets of 1 Gate and 2 Gate Towers as you want for +967 points",
+            "choices": []
+          },
+          {
+            "description": "May add as many Walls as you want for +299 points each",
+            "choices": []
+          },
+          {
+            "description": "May add as many Towers as you want for +387 points",
+            "choices": []
+          }
+        ]
+      }
+    ],
+    "fortifications": [
+      {
+        "name": "Primaris Redoubt",
+        "points_base": 629,
+        "composition": "1 Primaris Redoubt",
+        "models": [
+          {
+            "name": "Primaris Redoubt",
+            "stats": {},
+            "rules": [
+              "Building"
+            ]
+          }
+        ],
+        "fixed_wargear": [
+          "2 Linked Turbolaser Destructors"
+        ],
+        "options": []
+      },
+      {
+        "name": "Monument",
+        "points_base": 209,
+        "composition": "1 Monument",
+        "models": [
+          {
+            "name": "Monument",
+            "stats": {},
+            "rules": [
+              "Building"
+            ]
+          }
+        ],
+        "fixed_wargear": [
+          "none"
+        ],
+        "options": []
+      },
+      {
+        "name": "Aquila Strongpoint",
+        "points_base": 66,
+        "composition": "1 Aegis Weapon Emplacement",
+        "models": [
+          {
+            "name": "Aquila Strongpoint",
+            "stats": {},
+            "rules": [
+              "Building"
+            ]
+          }
+        ],
+        "fixed_wargear": [
+          "Plasma Obliterator"
+        ],
+        "options": []
+      },
+      {
+        "name": "Aquila Strongpoint",
+        "points_base": 448,
+        "composition": "1 Aquila Strongpoint",
+        "models": [
+          {
+            "name": "Aquila Strongpoint",
+            "stats": {},
+            "rules": [
+              "Building"
+            ]
+          }
+        ],
+        "fixed_wargear": [
+          "Plasma Obliterator"
+        ],
+        "options": []
+      },
+      {
+        "name": "Firestorm Redoubt",
+        "points_base": 397,
+        "composition": "1 Firestorm Redoubt",
+        "models": [
+          {
+            "name": "Firestorm Redoubt",
+            "stats": {},
+            "rules": [
+              "Building"
+            ]
+          }
+        ],
+        "fixed_wargear": [
+          "Punisher Gatling Cannon",
+          "Punisher Gatling Cannon"
+        ],
+        "options": [
+          {
+            "description": "May swap any Punisher Gatling Cannon for H",
+            "choices": []
+          }
+        ]
+      },
+      {
+        "name": "Plasma Obliterator",
+        "points_base": 429,
+        "composition": "1 Imperial Bastion",
+        "models": [
+          {
+            "name": "Plasma Obliterator",
+            "stats": {},
+            "rules": [
+              "Building"
+            ]
+          }
+        ],
+        "fixed_wargear": [
+          "Plasma Obliterator"
+        ],
+        "options": []
+      },
+      {
+        "name": "Plasma Obliterator",
+        "points_base": 474,
+        "composition": "1 Plasma Obliterator",
+        "models": [
+          {
+            "name": "Plasma Obliterator",
+            "stats": {},
+            "rules": [
+              "Building"
+            ]
+          }
+        ],
+        "fixed_wargear": [
+          "Plasma Obliterator"
+        ],
+        "options": []
+      },
+      {
+        "name": "Void Shield Generator",
+        "points_base": 249,
+        "composition": "1 Vengeance Weapon Battery",
+        "models": [
+          {
+            "name": "Void Shield Generator",
+            "stats": {},
+            "rules": [
+              "Building"
+            ]
+          }
+        ],
+        "fixed_wargear": [
+          "none"
+        ],
+        "options": []
+      },
+      {
+        "name": "Void Shield Generator",
+        "points_base": 307,
+        "composition": "1 Void Shield Generator",
+        "models": [
+          {
+            "name": "Void Shield Generator",
+            "stats": {},
+            "rules": [
+              "Building"
+            ]
+          }
+        ],
+        "fixed_wargear": [
+          "none"
+        ],
+        "options": []
+      }
+    ]
+  }
+}

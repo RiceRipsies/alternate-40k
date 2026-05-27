@@ -1,0 +1,90 @@
+{
+  "id": "order-pronatus",
+  "name": "Order Pronatus",
+  "difficulty": 2,
+  "subfactions": [
+    {
+      "name": "Average"
+    }
+  ],
+  "slots": {
+    "advisors": [
+      {
+        "name": "Aestred:",
+        "points_base": 146,
+        "composition": "1 Aestred",
+        "models": [
+          {
+            "name": "Bolt Pistol",
+            "stats": {
+              "M": "6",
+              "WS": "3+",
+              "BS": "3+",
+              "S": "3",
+              "T": "3",
+              "W": "4",
+              "I": "3",
+              "A": "3",
+              "Ld": "9",
+              "Sv": "3+"
+            },
+            "rules": []
+          },
+          {
+            "name": "Blade of Vigil",
+            "stats": {
+              "M": "6",
+              "WS": "3+",
+              "BS": "3+",
+              "S": "3",
+              "T": "3",
+              "W": "4",
+              "I": "3",
+              "A": "3",
+              "Ld": "7",
+              "Sv": "Options"
+            },
+            "rules": [
+              "Independent Character",
+              "Infantry",
+              "Unique",
+              "Order Pronatus",
+              "Faith 1",
+              "Martyrdom 2",
+              "Stubborn"
+            ]
+          },
+          {
+            "name": "Auto-Tapestry of the Emperor\u2019s",
+            "stats": {},
+            "rules": [
+              "Independent Character",
+              "Infantry",
+              "Unique",
+              "Martyrdom 1",
+              "Hagiolater",
+              "Fearless."
+            ]
+          },
+          {
+            "name": "Judgement",
+            "stats": {},
+            "rules": []
+          },
+          {
+            "name": "Agathae Dolan:",
+            "stats": {},
+            "rules": []
+          },
+          {
+            "name": "Bolt Pistol",
+            "stats": {},
+            "rules": []
+          }
+        ],
+        "fixed_wargear": [],
+        "options": []
+      }
+    ]
+  }
+}

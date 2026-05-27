@@ -1,0 +1,3741 @@
+{
+  "id": "tau-empire",
+  "name": "Tau Empire",
+  "difficulty": 1,
+  "subfactions": [
+    {
+      "name": "Average"
+    }
+  ],
+  "slots": {
+    "hq": [
+      {
+        "name": "Ethereal",
+        "points_base": 109,
+        "composition": "1 Ethereal 0-2 Drones",
+        "models": [
+          {
+            "name": "Ethereal",
+            "stats": {
+              "M": "6",
+              "WS": "4+",
+              "BS": "5+",
+              "S": "3",
+              "T": "3",
+              "W": "5",
+              "I": "2",
+              "A": "3",
+              "Ld": "10",
+              "Sv": "5+"
+            },
+            "rules": [
+              "Independent Character",
+              "Infantry",
+              "Ethereal",
+              "Revered Figure",
+              "Zephyr\u2019s Grace"
+            ]
+          },
+          {
+            "name": "Drone",
+            "stats": {
+              "M": "6",
+              "WS": "5+",
+              "BS": "4+",
+              "S": "3",
+              "T": "3",
+              "W": "1",
+              "I": "2",
+              "A": "1",
+              "Ld": "5",
+              "Sv": "4+"
+            },
+            "rules": [
+              "Infantry",
+              "Primitive AI",
+              "Savior Protocols",
+              "Jump"
+            ]
+          }
+        ],
+        "fixed_wargear": [
+          "Equalizers",
+          "Marker Light"
+        ],
+        "options": [
+          {
+            "description": "May take up to 2 Drones for +8 points each Ethereal may swap Equalizers for M Ethereal may take up to one of each B Any Drone may swap Marker Light for D or F",
+            "choices": [
+              {
+                "name": "Shield Generator",
+                "pts_delta": 6
+              }
+            ]
+          },
+          {
+            "description": "May take Combat Armour",
+            "choices": [
+              {
+                "name": "Combat Armour",
+                "pts_delta": 2
+              }
+            ]
+          },
+          {
+            "description": "May take Hover Drone",
+            "choices": [
+              {
+                "name": "Hover Drone",
+                "pts_delta": 17
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Special Wargear:",
+        "points_base": 78,
+        "composition": "1 Gue\u2019ves\u2019ui Commander 4 Gue\u2019vesa\u2019la Veterans",
+        "models": [
+          {
+            "name": "Special Wargear:",
+            "stats": {
+              "M": "6",
+              "WS": "4+",
+              "BS": "3+",
+              "S": "3",
+              "T": "3",
+              "W": "2",
+              "I": "3",
+              "A": "1",
+              "Ld": "7",
+              "Sv": "5+"
+            },
+            "rules": [
+              "Character",
+              "Infantry",
+              "Never Going Back",
+              "Infantry",
+              "Infantry",
+              "Bulky"
+            ]
+          }
+        ],
+        "fixed_wargear": [],
+        "options": [
+          {
+            "description": "May take Standard",
+            "choices": [
+              {
+                "name": "Standard",
+                "pts_delta": 40
+              }
+            ]
+          },
+          {
+            "description": "May take Combat Armour",
+            "choices": [
+              {
+                "name": "Combat Armour",
+                "pts_delta": 6
+              }
+            ]
+          },
+          {
+            "description": "May take Blind Grenades",
+            "choices": [
+              {
+                "name": "Blind Grenades",
+                "pts_delta": 5
+              }
+            ]
+          },
+          {
+            "description": "May take Frag Grenades",
+            "choices": [
+              {
+                "name": "Frag Grenades",
+                "pts_delta": 5
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Kroot Chieftain",
+        "points_base": 90,
+        "composition": "1 Chieftain",
+        "models": [
+          {
+            "name": "Chieftain",
+            "stats": {
+              "M": "8",
+              "WS": "2+",
+              "BS": "3+",
+              "S": "3",
+              "T": "3",
+              "W": "5",
+              "I": "3",
+              "A": "4",
+              "Ld": "9",
+              "Sv": "-"
+            },
+            "rules": [
+              "Independent Character",
+              "Infantry",
+              "Kroot",
+              "Infiltrate",
+              "Stealth",
+              "Wisest of Their Kind"
+            ]
+          }
+        ],
+        "fixed_wargear": [
+          "Kroot Rifle"
+        ],
+        "options": [
+          {
+            "description": "May swap Kroot Rifle for S or M",
+            "choices": []
+          },
+          {
+            "description": "May take up to one of each E",
+            "choices": [
+              {
+                "name": "Blind Grenades",
+                "pts_delta": 1
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "M WS BS S FA SA RA W I A Ld Sv",
+        "points_base": 123,
+        "composition": "1 Commander 0-2 Drones",
+        "models": [
+          {
+            "name": "8 4+ 3+ 5 10 10 10 7 2 4 9 3+",
+            "stats": {
+              "M": "6",
+              "WS": "5+",
+              "BS": "4+",
+              "S": "3",
+              "T": "3",
+              "W": "1",
+              "I": "2",
+              "A": "1",
+              "Ld": "5",
+              "Sv": "4+"
+            },
+            "rules": [
+              "Independent Character",
+              "Vehicle",
+              "Combat Walker",
+              "Deepstrike",
+              "Jump",
+              "Master of War",
+              "Infantry",
+              "Primitive AI",
+              "Savior Protocols",
+              "Deepstrike",
+              "Jump"
+            ]
+          }
+        ],
+        "fixed_wargear": [],
+        "options": [
+          {
+            "description": "May take up to 2 Drones for +10 points each Commander may swap any Flamer for S Commander may take one B Commander may take up to one of each E Any Drone may swap Marker Light for D or F",
+            "choices": [
+              {
+                "name": "Shield Generator",
+                "pts_delta": 6
+              }
+            ]
+          },
+          {
+            "description": "May take Black Sun Filters",
+            "choices": [
+              {
+                "name": "Black Sun Filters",
+                "pts_delta": 2
+              }
+            ]
+          },
+          {
+            "description": "May take Vectored Thrusters",
+            "choices": [
+              {
+                "name": "Vectored Thrusters",
+                "pts_delta": 4
+              }
+            ]
+          },
+          {
+            "description": "May take Positional Relay",
+            "choices": [
+              {
+                "name": "Positional Relay",
+                "pts_delta": 5
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Aun\u2019Do",
+        "points_base": 105,
+        "composition": "1 Aun\u2019Do 0-2 Drones",
+        "models": [
+          {
+            "name": "Aun\u2019Do",
+            "stats": {
+              "M": "12",
+              "WS": "4+",
+              "BS": "5+",
+              "S": "3",
+              "T": "3",
+              "W": "6",
+              "I": "2",
+              "A": "3",
+              "Ld": "10",
+              "Sv": "4+"
+            },
+            "rules": [
+              "Independent Character",
+              "Infantry",
+              "Unique",
+              "Ethereal",
+              "Revered Figure",
+              "Zephyr\u2019s Grace",
+              "Bulky",
+              "Jump",
+              "XV84"
+            ]
+          },
+          {
+            "name": "Drone",
+            "stats": {
+              "M": "6",
+              "WS": "5+",
+              "BS": "4+",
+              "S": "3",
+              "T": "3",
+              "W": "1",
+              "I": "2",
+              "A": "1",
+              "Ld": "5",
+              "Sv": "4+"
+            },
+            "rules": []
+          }
+        ],
+        "fixed_wargear": [
+          "Honour Stave",
+          "Marker Light"
+        ],
+        "options": [
+          {
+            "description": "May take up to 2 Drones for +8 points each Any Drone may swap Marker Light for D or F",
+            "choices": []
+          }
+        ]
+      },
+      {
+        "name": "Aun\u2019Shi",
+        "points_base": 223,
+        "composition": "1 Aun\u2019Shi 0-2 Drones",
+        "models": [
+          {
+            "name": "Aun\u2019Shi",
+            "stats": {
+              "M": "6",
+              "WS": "2+",
+              "BS": "2+",
+              "S": "3",
+              "T": "3",
+              "W": "5",
+              "I": "2",
+              "A": "5",
+              "Ld": "10",
+              "Sv": "6"
+            },
+            "rules": [
+              "Independent Character",
+              "Infantry",
+              "Unique",
+              "Ethereal",
+              "Revered Figure",
+              "Zephyr\u2019s Grace",
+              "Stubborn"
+            ]
+          },
+          {
+            "name": "Drone",
+            "stats": {},
+            "rules": [
+              "Infantry",
+              "Primitive AI",
+              "Savior Protocols",
+              "Jump"
+            ]
+          }
+        ],
+        "fixed_wargear": [
+          "Honour Stave",
+          "Blind Grenades",
+          "EMP Grenades",
+          "Advanced Shield Generator",
+          "Marker Light"
+        ],
+        "options": [
+          {
+            "description": "May take up to 2 Drones for +8 points each Any Drone may swap Marker Light for D or F",
+            "choices": [
+              {
+                "name": "Shield Generator",
+                "pts_delta": 6
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Aun\u2019Va",
+        "points_base": 287,
+        "composition": "1 Aun\u2019Va 0-2 Drones",
+        "models": [
+          {
+            "name": "Aun\u2019Va",
+            "stats": {
+              "M": "6",
+              "WS": "4+",
+              "BS": "5+",
+              "S": "3",
+              "T": "4",
+              "W": "6",
+              "I": "2",
+              "A": "3",
+              "Ld": "10",
+              "Sv": "5+"
+            },
+            "rules": [
+              "Independent Character",
+              "Infantry",
+              "Steed",
+              "Unique",
+              "Ethereal",
+              "Revered Figure",
+              "Zephyr\u2019s Grace",
+              "Stubborn",
+              "Very Bulky"
+            ]
+          },
+          {
+            "name": "Drone",
+            "stats": {
+              "M": "6",
+              "WS": "5+",
+              "BS": "4+",
+              "S": "3",
+              "T": "3",
+              "W": "1",
+              "I": "2",
+              "A": "1",
+              "Ld": "5",
+              "Sv": "4+"
+            },
+            "rules": [
+              "Infantry",
+              "Primitive AI",
+              "Savior Protocols",
+              "Jump"
+            ]
+          }
+        ],
+        "fixed_wargear": [
+          "Honour Stave",
+          "Advanced Shield Generator",
+          "Marker Light"
+        ],
+        "options": [
+          {
+            "description": "May take up to 2 Drones for +8 points each Any Drone may swap Marker Light for D or F",
+            "choices": [
+              {
+                "name": "Shield Generator",
+                "pts_delta": 6
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "M WS BS S FA SA RA W I A Ld Sv",
+        "points_base": 201,
+        "composition": "1 Longknife 0-2 Drones",
+        "models": [
+          {
+            "name": "8 4+ 2+ 5 10 10 10 7 2 4 9 3+",
+            "stats": {
+              "M": "6",
+              "WS": "5+",
+              "BS": "4+",
+              "S": "3",
+              "T": "3",
+              "W": "1",
+              "I": "2",
+              "A": "1",
+              "Ld": "5",
+              "Sv": "4+"
+            },
+            "rules": [
+              "Independent Character",
+              "Vehicle",
+              "Combat Walker",
+              "Unique",
+              "Deepstrike",
+              "Jump",
+              "Master of War",
+              "Vengeful",
+              "Wound.",
+              "Infantry",
+              "Primitive AI",
+              "Savior Protocols",
+              "Deepstrike",
+              "Jump",
+              "E Early Warning System +0",
+              "E Counterfire Defense Systems"
+            ]
+          }
+        ],
+        "fixed_wargear": [],
+        "options": [
+          {
+            "description": "May take up to 2 Drones for +10 points each Longknife may take up to one of each E Any Drone may swap Marker Light for D or F",
+            "choices": []
+          }
+        ]
+      },
+      {
+        "name": "Commander Shadowsun",
+        "points_base": 235,
+        "composition": "1 Shadowsun 0-1 MV37s 0-1 MV62s",
+        "models": [
+          {
+            "name": "Shadowsun",
+            "stats": {
+              "M": "6",
+              "WS": "2+",
+              "BS": "2+",
+              "S": "3",
+              "T": "4",
+              "W": "6",
+              "I": "2",
+              "A": "4",
+              "Ld": "10",
+              "Sv": "3+"
+            },
+            "rules": [
+              "Character",
+              "Infantry",
+              "Infiltrate",
+              "Shroud",
+              "Jump",
+              "Genius of Kauyon",
+              "Master of War"
+            ]
+          },
+          {
+            "name": "MV37 Guardian Drone",
+            "stats": {
+              "M": "6",
+              "WS": "5+",
+              "BS": "4+",
+              "S": "3",
+              "T": "3",
+              "W": "1",
+              "I": "2",
+              "A": "1",
+              "Ld": "5",
+              "Sv": "4+"
+            },
+            "rules": [
+              "Infantry",
+              "Primitive AI",
+              "Savior Protocols",
+              "Jump"
+            ]
+          },
+          {
+            "name": "MV62 Command Link Drone",
+            "stats": {},
+            "rules": [
+              "Infantry",
+              "Primitive AI",
+              "Savior Protocols",
+              "Jump"
+            ]
+          }
+        ],
+        "fixed_wargear": [
+          "2 Fusion Blasters",
+          "Guardian Shield Generator",
+          "Command Link"
+        ],
+        "options": [
+          {
+            "description": "May take one MV37 for +27 points",
+            "choices": []
+          },
+          {
+            "description": "May take one MV62 for +25 points",
+            "choices": []
+          }
+        ]
+      }
+    ],
+    "advisors": [
+      {
+        "name": "Cadre Fireblade",
+        "points_base": 52,
+        "composition": "1 Fireblade 0-2 Drones",
+        "models": [
+          {
+            "name": "Fireblade",
+            "stats": {
+              "M": "6",
+              "WS": "4+",
+              "BS": "3+",
+              "S": "3",
+              "T": "3",
+              "W": "4",
+              "I": "2",
+              "A": "3",
+              "Ld": "8",
+              "Sv": "4+"
+            },
+            "rules": [
+              "Independent Character",
+              "Infantry",
+              "Volley Fire"
+            ]
+          },
+          {
+            "name": "Drone",
+            "stats": {
+              "M": "6",
+              "WS": "5+",
+              "BS": "4+",
+              "S": "3",
+              "T": "3",
+              "W": "1",
+              "I": "2",
+              "A": "1",
+              "Ld": "5",
+              "Sv": "4+"
+            },
+            "rules": [
+              "Infantry",
+              "Primitive AI",
+              "Savior Protocols",
+              "Jump"
+            ]
+          }
+        ],
+        "fixed_wargear": [
+          "Pulse Rifle",
+          "Marker Light",
+          "Blind Grenades",
+          "Marker Light"
+        ],
+        "options": [
+          {
+            "description": "May take up to 2 Drones for +8 points each Fireblade may swap Pulse Rifle for R Fireblade may take one G Any Drone may swap Marker Light for D or F",
+            "choices": [
+              {
+                "name": "Shield Generator",
+                "pts_delta": 5
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Fire Warrior Bodyguard",
+        "points_base": 41,
+        "composition": "1 Bodyguard 0-2 Drones",
+        "models": [
+          {
+            "name": "Bodyguard",
+            "stats": {
+              "M": "6",
+              "WS": "4+",
+              "BS": "3+",
+              "S": "3",
+              "T": "3",
+              "W": "4",
+              "I": "2",
+              "A": "3",
+              "Ld": "8",
+              "Sv": "4+"
+            },
+            "rules": [
+              "Independent Character",
+              "Infantry",
+              "Bodyguard"
+            ]
+          },
+          {
+            "name": "Drone",
+            "stats": {
+              "M": "6",
+              "WS": "5+",
+              "BS": "4+",
+              "S": "3",
+              "T": "3",
+              "W": "1",
+              "I": "2",
+              "A": "1",
+              "Ld": "5",
+              "Sv": "4+"
+            },
+            "rules": [
+              "Infantry",
+              "Primitive AI",
+              "Savior Protocols",
+              "Jump"
+            ]
+          }
+        ],
+        "fixed_wargear": [
+          "Pulse Rifle",
+          "Blind Grenades",
+          "Marker Light"
+        ],
+        "options": [
+          {
+            "description": "May take up to 2 Drones for +8 points each Bodyguard may swap Pulse Rifle for R Bodyguard may take one G Any Drone may swap Marker Light for D or F",
+            "choices": [
+              {
+                "name": "Shield Generator",
+                "pts_delta": 5
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Firesight Marksman",
+        "points_base": 77,
+        "composition": "1 Marksman 0-2 Drones",
+        "models": [
+          {
+            "name": "Marksman",
+            "stats": {
+              "M": "6",
+              "WS": "4+",
+              "BS": "3+",
+              "S": "3",
+              "T": "3",
+              "W": "4",
+              "I": "2",
+              "A": "3",
+              "Ld": "8",
+              "Sv": "4+"
+            },
+            "rules": [
+              "Independent Character",
+              "Infantry",
+              "Drone Uplink"
+            ]
+          },
+          {
+            "name": "Drone",
+            "stats": {
+              "M": "6",
+              "WS": "5+",
+              "BS": "4+",
+              "S": "3",
+              "T": "3",
+              "W": "1",
+              "I": "2",
+              "A": "1",
+              "Ld": "5",
+              "Sv": "4+"
+            },
+            "rules": [
+              "Infantry",
+              "Primitive AI",
+              "Savior Protocols",
+              "Jump"
+            ]
+          }
+        ],
+        "fixed_wargear": [
+          "Pulse Pistol",
+          "Marker Light",
+          "Blind Grenades",
+          "Marker Light"
+        ],
+        "options": [
+          {
+            "description": "May take up to 2 Drones for +8 points each Any Drone may swap Marker Light for D or F",
+            "choices": []
+          }
+        ]
+      },
+      {
+        "name": "Human Helper Commissar",
+        "points_base": 63,
+        "composition": "1 Commissar",
+        "models": [
+          {
+            "name": "Commissar",
+            "stats": {
+              "M": "6",
+              "WS": "3+",
+              "BS": "3+",
+              "S": "3",
+              "T": "3",
+              "W": "4",
+              "I": "3",
+              "A": "3",
+              "Ld": "9",
+              "Sv": "5+"
+            },
+            "rules": [
+              "Independent Character",
+              "Infantry",
+              "Stubborn",
+              "Aura of Discipline",
+              "Encouragement"
+            ]
+          }
+        ],
+        "fixed_wargear": [
+          "Laspistol",
+          "Chainsword"
+        ],
+        "options": [
+          {
+            "description": "May swap Laspistol for OP or OM",
+            "choices": []
+          },
+          {
+            "description": "May swap Chainsword for any OM weapon",
+            "choices": []
+          },
+          {
+            "description": "May take up to one of each B",
+            "choices": [
+              {
+                "name": "Combat Suit",
+                "pts_delta": 2
+              },
+              {
+                "name": "Steed",
+                "pts_delta": 24
+              }
+            ]
+          },
+          {
+            "description": "May take up to one of each G",
+            "choices": []
+          }
+        ]
+      },
+      {
+        "name": "Kroot Flesh Shaper",
+        "points_base": 73,
+        "composition": "1 Flesh Shaper",
+        "models": [
+          {
+            "name": "Flesh Shaper",
+            "stats": {
+              "M": "8",
+              "WS": "3+",
+              "BS": "3+",
+              "S": "3",
+              "T": "3",
+              "W": "4",
+              "I": "3",
+              "A": "3",
+              "Ld": "9",
+              "Sv": "-"
+            },
+            "rules": [
+              "Independent Character",
+              "Infantry",
+              "Kroot",
+              "Infiltrate",
+              "Stealth",
+              "Flesh Shaper"
+            ]
+          }
+        ],
+        "fixed_wargear": [
+          "Kroot Scattergun",
+          "Carving Blades"
+        ],
+        "options": [
+          {
+            "description": "May take up to one of each E",
+            "choices": [
+              {
+                "name": "Blind Grenades",
+                "pts_delta": 1
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Kroot Trail Shaper",
+        "points_base": 93,
+        "composition": "1 Lone-Spear",
+        "models": [
+          {
+            "name": "Trail Shaper",
+            "stats": {
+              "M": "8",
+              "WS": "3+",
+              "BS": "3+",
+              "S": "3",
+              "T": "3",
+              "W": "4",
+              "I": "3",
+              "A": "3",
+              "Ld": "9",
+              "Sv": "-"
+            },
+            "rules": [
+              "Independent Character",
+              "Infantry",
+              "Kroot",
+              "Steed",
+              "Infiltrate",
+              "Stealth",
+              "Lone Hunter"
+            ]
+          }
+        ],
+        "fixed_wargear": [
+          "Kroot Rifle",
+          "Shaper\u2019s Blade"
+        ],
+        "options": [
+          {
+            "description": "May take up to one of each E",
+            "choices": [
+              {
+                "name": "Blind Grenades",
+                "pts_delta": 1
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Kroot Trail Shaper",
+        "points_base": 61,
+        "composition": "1 Trail Shaper",
+        "models": [
+          {
+            "name": "Trail Shaper",
+            "stats": {
+              "M": "8",
+              "WS": "3+",
+              "BS": "3+",
+              "S": "3",
+              "T": "3",
+              "W": "4",
+              "I": "3",
+              "A": "3",
+              "Ld": "9",
+              "Sv": "-"
+            },
+            "rules": [
+              "Independent Character",
+              "Infantry",
+              "Kroot",
+              "Stealth",
+              "Trail Shaper"
+            ]
+          }
+        ],
+        "fixed_wargear": [
+          "Kroot Rifle",
+          "Shaper\u2019s Blade"
+        ],
+        "options": [
+          {
+            "description": "May take up to one of each E",
+            "choices": [
+              {
+                "name": "Blind Grenades",
+                "pts_delta": 1
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Kroot War Shaper",
+        "points_base": 82,
+        "composition": "1 War Shaper",
+        "models": [
+          {
+            "name": "War Shaper",
+            "stats": {
+              "M": "8",
+              "WS": "3+",
+              "BS": "3+",
+              "S": "3",
+              "T": "3",
+              "W": "4",
+              "I": "3",
+              "A": "3",
+              "Ld": "9",
+              "Sv": "-"
+            },
+            "rules": [
+              "Independent Character",
+              "Infantry",
+              "Kroot",
+              "Infiltrate",
+              "Stealth",
+              "War Shaper"
+            ]
+          }
+        ],
+        "fixed_wargear": [
+          "Bladestave",
+          "Kroot Pistol",
+          "Preyhook",
+          "Shaper\u2019s Blade",
+          "2 Flamers",
+          "Marker Light"
+        ],
+        "options": [
+          {
+            "description": "May trade Bladestave for S",
+            "choices": []
+          },
+          {
+            "description": "May take one additional P",
+            "choices": []
+          },
+          {
+            "description": "May trade Preyhook for T",
+            "choices": []
+          },
+          {
+            "description": "May take up to one of each E",
+            "choices": [
+              {
+                "name": "Blind Grenades",
+                "pts_delta": 1
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "M WS BS S FA SA RA W I A Ld Sv",
+        "points_base": 72,
+        "composition": "1 Bodyguard 0-2 Drones",
+        "models": [
+          {
+            "name": "8 5+ 3+ 5 10 10 10 5 2 3 8 3+",
+            "stats": {
+              "M": "6",
+              "WS": "5+",
+              "BS": "4+",
+              "S": "3",
+              "T": "3",
+              "W": "1",
+              "I": "2",
+              "A": "1",
+              "Ld": "5",
+              "Sv": "4+"
+            },
+            "rules": [
+              "Independent Character",
+              "Vehicle",
+              "Combat Walker",
+              "Bodyguard",
+              "Deepstrike",
+              "Jump",
+              "Infantry",
+              "Primitive AI",
+              "Savior Protocols",
+              "Deepstrike",
+              "Jump"
+            ]
+          }
+        ],
+        "fixed_wargear": [],
+        "options": [
+          {
+            "description": "May take up to 2 Drones for +10 points each Bodyguard may swap any Flamer for S Bodyguard may take one B Bodyguard may take up to one of each E Any Drone may swap Marker Light for D or F",
+            "choices": []
+          }
+        ]
+      },
+      {
+        "name": "Dahyak Grekh",
+        "points_base": 107,
+        "composition": "1 Anghkor",
+        "models": [
+          {
+            "name": "Dahyak",
+            "stats": {
+              "M": "8",
+              "WS": "3+",
+              "BS": "3+",
+              "S": "3",
+              "T": "3",
+              "W": "4",
+              "I": "3",
+              "A": "3",
+              "Ld": "8",
+              "Sv": "-"
+            },
+            "rules": [
+              "Independent Character",
+              "Infantry",
+              "Unique",
+              "Kroot",
+              "Infiltrate",
+              "Stealth",
+              "Inspirational Presence"
+            ]
+          }
+        ],
+        "fixed_wargear": [
+          "Kroot Rifle",
+          "Kroot Pistol"
+        ],
+        "options": []
+      },
+      {
+        "name": "Dahyak Grekh",
+        "points_base": 83,
+        "composition": "1 Dahyak",
+        "models": [
+          {
+            "name": "Dahyak",
+            "stats": {
+              "M": "8",
+              "WS": "3+",
+              "BS": "3+",
+              "S": "3",
+              "T": "3",
+              "W": "4",
+              "I": "3",
+              "A": "3",
+              "Ld": "8",
+              "Sv": "-"
+            },
+            "rules": [
+              "Independent Character",
+              "Infantry",
+              "Unique",
+              "Kroot",
+              "Infiltrate",
+              "Stealth",
+              "Bounty Hunter",
+              "Relic Hunter",
+              "Objective Secured."
+            ]
+          }
+        ],
+        "fixed_wargear": [
+          "Kroot Rifle",
+          "Kroot Pistol"
+        ],
+        "options": []
+      },
+      {
+        "name": "Darkstrider",
+        "points_base": 132,
+        "composition": "1 Darkstrider",
+        "models": [
+          {
+            "name": "Darkstrider",
+            "stats": {
+              "M": "6",
+              "WS": "3+",
+              "BS": "2+",
+              "S": "3",
+              "T": "3",
+              "W": "4",
+              "I": "2",
+              "A": "3",
+              "Ld": "9",
+              "Sv": "4+"
+            },
+            "rules": [
+              "Independent Character",
+              "Infantry",
+              "Unique",
+              "Scout",
+              "Fighting Retreat"
+            ]
+          }
+        ],
+        "fixed_wargear": [
+          "Shade",
+          "Marker Light",
+          "Blind Grenades",
+          "Structural Analyzer",
+          "2 Linked Long Burst Cannons",
+          "XV02 Pilot Battlesuit",
+          "Marker Light"
+        ],
+        "options": []
+      },
+      {
+        "name": "M WS BS S FA SA RA W I A Ld Sv",
+        "points_base": 209,
+        "composition": "1 Longstrike 2 Drones",
+        "models": [
+          {
+            "name": "12 4+ 2+ 6 13 12 10 13 2 4 9 3+",
+            "stats": {
+              "M": "6",
+              "WS": "5+",
+              "BS": "4+",
+              "S": "3",
+              "T": "3",
+              "W": "1",
+              "I": "2",
+              "A": "1",
+              "Ld": "5",
+              "Sv": "4+"
+            },
+            "rules": [
+              "Independent Character",
+              "Vehicle",
+              "Tank",
+              "Unique",
+              "Drone Dock 2",
+              "Jump",
+              "Infantry",
+              "Primitive AI",
+              "Savior Protocols",
+              "Deepstrike",
+              "Jump"
+            ]
+          }
+        ],
+        "fixed_wargear": [],
+        "options": []
+      },
+      {
+        "name": "M WS BS S FA SA RA W I A Ld Sv",
+        "points_base": 241,
+        "composition": "1 Sunsear, 1 Scatterflare 0-2 Drones",
+        "models": [
+          {
+            "name": "8 5+ 3+ 5 11 11 10 6 2 3 8 3+",
+            "stats": {
+              "M": "6",
+              "WS": "5+",
+              "BS": "4+",
+              "S": "3",
+              "T": "3",
+              "W": "1",
+              "I": "2",
+              "A": "1",
+              "Ld": "5",
+              "Sv": "4+"
+            },
+            "rules": [
+              "Primary",
+              "Primary"
+            ]
+          },
+          {
+            "name": "8 5+ 3+ 5 11 11 10 6 2 3 8 3+",
+            "stats": {},
+            "rules": []
+          }
+        ],
+        "fixed_wargear": [],
+        "options": [
+          {
+            "description": "May take up to 2 Drones for +10 points each Any Drone may swap Marker Light for D or F",
+            "choices": []
+          },
+          {
+            "description": "May take Black Sun Filters",
+            "choices": [
+              {
+                "name": "Black Sun Filters",
+                "pts_delta": 2
+              }
+            ]
+          },
+          {
+            "description": "May take Vectored Thrusters",
+            "choices": [
+              {
+                "name": "Vectored Thrusters",
+                "pts_delta": 4
+              }
+            ]
+          },
+          {
+            "description": "May take Positional Relay",
+            "choices": [
+              {
+                "name": "Positional Relay",
+                "pts_delta": 5
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "troops": [
+      {
+        "name": "Fire Warriors",
+        "points_base": 54,
+        "composition": "1 Shas\u2019ui 4-9 Fire Warriors 0-2 Drones 0-1 DS8",
+        "models": [
+          {
+            "name": "Shas\u2019ui",
+            "stats": {
+              "M": "6",
+              "WS": "5+",
+              "BS": "4+",
+              "S": "3",
+              "T": "3",
+              "W": "1",
+              "I": "2",
+              "A": "2",
+              "Ld": "8",
+              "Sv": "4+"
+            },
+            "rules": [
+              "Character",
+              "Infantry"
+            ]
+          },
+          {
+            "name": "Fire Warrior",
+            "stats": {
+              "M": "6",
+              "WS": "5+",
+              "BS": "4+",
+              "S": "3",
+              "T": "3",
+              "W": "1",
+              "I": "2",
+              "A": "1",
+              "Ld": "7",
+              "Sv": "4+"
+            },
+            "rules": [
+              "Infantry"
+            ]
+          },
+          {
+            "name": "Drone",
+            "stats": {
+              "M": "6",
+              "WS": "5+",
+              "BS": "4+",
+              "S": "3",
+              "T": "3",
+              "W": "1",
+              "I": "2",
+              "A": "1",
+              "Ld": "5",
+              "Sv": "4+"
+            },
+            "rules": [
+              "Infantry",
+              "Primitive AI",
+              "Savior Protocols",
+              "Jump"
+            ]
+          },
+          {
+            "name": "DS8",
+            "stats": {},
+            "rules": [
+              "Infantry",
+              "Primitive AI",
+              "Immobile",
+              "Deployable Turret"
+            ]
+          }
+        ],
+        "fixed_wargear": [
+          "Pulse Rifle",
+          "Blind Grenades",
+          "Pulse Rifle",
+          "Blind Grenades",
+          "Marker Light",
+          "Smart Missile System"
+        ],
+        "options": [
+          {
+            "description": "May take up to 5 more Fire Warriors for +10 points each",
+            "choices": []
+          },
+          {
+            "description": "May take up to 2 Drones for +8 points each",
+            "choices": []
+          },
+          {
+            "description": "May take up to 1 DS8 for +8 points Any Shas\u2019ui or Fire Warrior may swap Pulse Rifle for R The entire unit except Drones",
+            "choices": []
+          },
+          {
+            "description": "may take one G Any Drone may swap Marker Light for D or F Any DS8 may swap Smart Missile System for T",
+            "choices": []
+          },
+          {
+            "description": "May take Shield Generator",
+            "choices": [
+              {
+                "name": "Shield Generator",
+                "pts_delta": 5
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Human Helpers Platoon",
+        "points_base": 50,
+        "composition": "1-5 Human Helpers Squads (1 Gue\u2019ves\u2019ui and 9 Gue\u2019vesa\u2019la each)",
+        "models": [
+          {
+            "name": "Gue\u2019ves\u2019ui",
+            "stats": {
+              "M": "6",
+              "WS": "4+",
+              "BS": "4+",
+              "S": "3",
+              "T": "3",
+              "W": "1",
+              "I": "3",
+              "A": "2",
+              "Ld": "8",
+              "Sv": "5+"
+            },
+            "rules": [
+              "Character",
+              "Infantry"
+            ]
+          },
+          {
+            "name": "Gue\u2019vesa\u2019la",
+            "stats": {
+              "M": "6",
+              "WS": "4+",
+              "BS": "4+",
+              "S": "3",
+              "T": "3",
+              "W": "1",
+              "I": "3",
+              "A": "1",
+              "Ld": "7",
+              "Sv": "5+"
+            },
+            "rules": [
+              "Infantry"
+            ]
+          },
+          {
+            "name": "Heavy Weapon Team",
+            "stats": {
+              "M": "6",
+              "WS": "4+",
+              "BS": "4+",
+              "S": "3",
+              "T": "3",
+              "W": "2",
+              "I": "3",
+              "A": "1",
+              "Ld": "7",
+              "Sv": "5+"
+            },
+            "rules": [
+              "Infantry",
+              "Bulky"
+            ]
+          }
+        ],
+        "fixed_wargear": [
+          "Laspistol",
+          "Chainsword",
+          "Lasgun",
+          "Heavy Flamer",
+          "Lasgun"
+        ],
+        "options": [
+          {
+            "description": "May take up to 4 more squads of Human Helpers for +50 points each Any Gue\u2019ves\u2019ui may swap Laspistol for O Any Gue\u2019ves\u2019ui may swap Chainsword for M In each squad, two Gue\u2019vesa\u2019la",
+            "choices": []
+          },
+          {
+            "description": "may form a Heavy Weapons Team for +6 points Any Heavy Weapon Team may swap Heavy Flamer for H One Gue\u2019vesa\u2019la per Squad may swap Lasgun for S Any model may swap Lasgun for R One Gue\u2019vesa\u2019la per Squad that did not swap their Lasgun may take one A Any Squad may take up to one of each E Any Squad may take up to one of each G",
+            "choices": [
+              {
+                "name": "Frag Grenades",
+                "pts_delta": 10
+              }
+            ]
+          },
+          {
+            "description": "May take Combat Armour",
+            "choices": [
+              {
+                "name": "Combat Armour",
+                "pts_delta": 10
+              }
+            ]
+          },
+          {
+            "description": "May take Blind Grenades",
+            "choices": [
+              {
+                "name": "Blind Grenades",
+                "pts_delta": 10
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Kroot Carnivores",
+        "points_base": 64,
+        "composition": "1 Shaper 4-19 Kroot",
+        "models": [
+          {
+            "name": "Shaper",
+            "stats": {
+              "M": "8",
+              "WS": "3+",
+              "BS": "4+",
+              "S": "3",
+              "T": "3",
+              "W": "1",
+              "I": "3",
+              "A": "2",
+              "Ld": "8",
+              "Sv": "8"
+            },
+            "rules": [
+              "Character",
+              "Infantry",
+              "Kroot",
+              "Infiltrate",
+              "Stealth"
+            ]
+          },
+          {
+            "name": "Kroot",
+            "stats": {},
+            "rules": [
+              "Infantry",
+              "Kroot",
+              "Infiltrate",
+              "Stealth"
+            ]
+          }
+        ],
+        "fixed_wargear": [
+          "Kroot Rifle",
+          "Kroot Rifle"
+        ],
+        "options": [
+          {
+            "description": "May take up to 15 more Kroot for +12 points each Shaper may swap Kroot Rifle for S or M Shaper may take one P Up to two Kroot may swap Kroot Rifle for S or M Up to two Kroot may swap Kroot Rifle for H The unit may take up to two of each B The entire unit may take up to one of each E",
+            "choices": []
+          },
+          {
+            "description": "May take Kroot Hound",
+            "choices": [
+              {
+                "name": "Kroot Hound",
+                "pts_delta": 2
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "elites": [
+      {
+        "name": "DX4 Technical Drones",
+        "points_base": 19,
+        "composition": "1-6 DX4s",
+        "models": [
+          {
+            "name": "DX4",
+            "stats": {
+              "M": "6",
+              "WS": "5+",
+              "BS": "4+",
+              "S": "3",
+              "T": "3",
+              "W": "1",
+              "I": "2",
+              "A": "1",
+              "Ld": "5",
+              "Sv": "4+"
+            },
+            "rules": [
+              "Infantry",
+              "Primitive AI",
+              "Savior Protocols",
+              "Jump",
+              "Repair"
+            ]
+          }
+        ],
+        "fixed_wargear": [
+          "Defensive Charge"
+        ],
+        "options": [
+          {
+            "description": "May take up to 5 DX4s for +19 points each",
+            "choices": []
+          }
+        ]
+      },
+      {
+        "name": "Special Wargear:",
+        "points_base": 75,
+        "composition": "1 Gue\u2019ves\u2019ui Veteran 9 Gue\u2019vesa\u2019la Veterans",
+        "models": [
+          {
+            "name": "Special Wargear:",
+            "stats": {
+              "M": "6",
+              "WS": "4+",
+              "BS": "3+",
+              "S": "3",
+              "T": "3",
+              "W": "2",
+              "I": "3",
+              "A": "1",
+              "Ld": "7",
+              "Sv": "5+"
+            },
+            "rules": [
+              "Character",
+              "Infantry",
+              "Infantry",
+              "Infantry",
+              "Bulky"
+            ]
+          }
+        ],
+        "fixed_wargear": [],
+        "options": [
+          {
+            "description": "may swap Heavy Flamer for H Up to three Gue\u2019vesa\u2019la may swap Lasgun for S Any model may swap Lasgun for R Any Gue\u2019vesa\u2019la Veteran that did not swap their Lasgun may take one A The unit may take up to one of each E The unit may take up to one of each G",
+            "choices": [
+              {
+                "name": "Frag Grenades",
+                "pts_delta": 10
+              }
+            ]
+          },
+          {
+            "description": "May take Combat Armour",
+            "choices": [
+              {
+                "name": "Combat Armour",
+                "pts_delta": 10
+              }
+            ]
+          },
+          {
+            "description": "May take Blind Grenades",
+            "choices": [
+              {
+                "name": "Blind Grenades",
+                "pts_delta": 10
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Krootox Riders",
+        "points_base": 94,
+        "composition": "1 Shaper 2-6 Rampagers",
+        "models": [
+          {
+            "name": "Shaper",
+            "stats": {
+              "M": "8",
+              "WS": "3+",
+              "BS": "4+",
+              "S": "3",
+              "T": "4",
+              "W": "4",
+              "I": "3",
+              "A": "2",
+              "Ld": "8",
+              "Sv": "8"
+            },
+            "rules": [
+              "Character",
+              "Infantry",
+              "Steed",
+              "Kroot",
+              "Stealth"
+            ]
+          },
+          {
+            "name": "Krootox",
+            "stats": {},
+            "rules": [
+              "Infantry",
+              "Steed",
+              "Stealth"
+            ]
+          }
+        ],
+        "fixed_wargear": [
+          "Kroot Gun",
+          "Krootox Fists",
+          "Kroot Gun",
+          "Krootox Fists"
+        ],
+        "options": [
+          {
+            "description": "May take up to 3 more Krootox for +39 points each Any model may swap Kroot Gun for S",
+            "choices": []
+          }
+        ]
+      },
+      {
+        "name": "Krootox Riders",
+        "points_base": 121,
+        "composition": "1 Shaper 2-6 Krootox",
+        "models": [
+          {
+            "name": "Shaper",
+            "stats": {
+              "M": "8",
+              "WS": "3+",
+              "BS": "4+",
+              "S": "3",
+              "T": "4",
+              "W": "4",
+              "I": "3",
+              "A": "2",
+              "Ld": "8",
+              "Sv": "8"
+            },
+            "rules": [
+              "Character",
+              "Infantry",
+              "Steed",
+              "Kroot",
+              "Stealth"
+            ]
+          },
+          {
+            "name": "Krootox",
+            "stats": {},
+            "rules": [
+              "Infantry",
+              "Steed",
+              "Stealth"
+            ]
+          }
+        ],
+        "fixed_wargear": [
+          "Kroot Gun",
+          "Krootox Fists",
+          "Kroot Gun",
+          "Krootox Fists"
+        ],
+        "options": [
+          {
+            "description": "May take up to 3 more Krootox for +39 points each Any model may swap Kroot Gun for S",
+            "choices": []
+          }
+        ]
+      },
+      {
+        "name": "XV25 Stealth Battlesuits",
+        "points_base": 149,
+        "composition": "1 Shas\u2019ui 4-9 Shas\u2019vre 0-2 Drones",
+        "models": [
+          {
+            "name": "Shas\u2019ui",
+            "stats": {
+              "M": "6",
+              "WS": "5+",
+              "BS": "4+",
+              "S": "4",
+              "T": "4",
+              "W": "2",
+              "I": "2",
+              "A": "2",
+              "Ld": "8",
+              "Sv": "3+"
+            },
+            "rules": [
+              "Character",
+              "Infantry",
+              "Infiltrate",
+              "Shroud",
+              "Jump"
+            ]
+          },
+          {
+            "name": "Shas\u2019vre",
+            "stats": {
+              "M": "6",
+              "WS": "5+",
+              "BS": "4+",
+              "S": "4",
+              "T": "4",
+              "W": "2",
+              "I": "2",
+              "A": "1",
+              "Ld": "7",
+              "Sv": "3+"
+            },
+            "rules": [
+              "Infantry",
+              "Infiltrate",
+              "Shroud",
+              "Jump"
+            ]
+          },
+          {
+            "name": "Drone",
+            "stats": {
+              "M": "6",
+              "WS": "5+",
+              "BS": "4+",
+              "S": "3",
+              "T": "3",
+              "W": "1",
+              "I": "2",
+              "A": "1",
+              "Ld": "5",
+              "Sv": "4+"
+            },
+            "rules": [
+              "Infantry",
+              "Primitive AI",
+              "Savior Protocols",
+              "Jump"
+            ]
+          }
+        ],
+        "fixed_wargear": [
+          "Burst Cannon",
+          "Burst Cannon",
+          "Marker Light"
+        ],
+        "options": [
+          {
+            "description": "May take up to 5 more Shas\u2019vre for +29 points each",
+            "choices": []
+          },
+          {
+            "description": "May take up to 2 Drones for +8 points each Any Shas\u2019ui or Shas\u2019vre may swap Burst Cannon for S Any Drone may swap Marker Light for D or F",
+            "choices": [
+              {
+                "name": "Shield Generator",
+                "pts_delta": 5
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "M WS BS S FA SA RA W I A Ld Sv",
+        "points_base": 167,
+        "composition": "1 Shas\u2019vre 2-5 Shas\u2019ui 0-12 Drones",
+        "models": [
+          {
+            "name": "8 5+ 4+ 5 10 10 10 5 2 3 8 3+",
+            "stats": {
+              "M": "6",
+              "WS": "5+",
+              "BS": "4+",
+              "S": "3",
+              "T": "3",
+              "W": "1",
+              "I": "2",
+              "A": "1",
+              "Ld": "5",
+              "Sv": "4+"
+            },
+            "rules": []
+          },
+          {
+            "name": "8 5+ 4+ 5 10 10 10 5 2 2 7 3+",
+            "stats": {},
+            "rules": [
+              "Character",
+              "Vehicle",
+              "Combat Walker",
+              "Deepstrike",
+              "Jump",
+              "Vehicle",
+              "Combat Walker",
+              "Deepstrike",
+              "Jump",
+              "Infantry",
+              "Primitive AI",
+              "Savior Protocols",
+              "Deepstrike",
+              "Jump"
+            ]
+          }
+        ],
+        "fixed_wargear": [
+          "2 Flamers",
+          "2 Flamers",
+          "Marker Light"
+        ],
+        "options": [
+          {
+            "description": "May take up to 3 more Shas\u2019ui for +54 points each",
+            "choices": []
+          },
+          {
+            "description": "May take up to 2 Drones for +10 points each for each XV8 model in the unit Any XV8 model may swap any Flamer for S Any XV8 model may take up to one of each E Any Drone may swap Marker Light for D or F Drone",
+            "choices": []
+          },
+          {
+            "description": "May take Black Sun Filters",
+            "choices": [
+              {
+                "name": "Black Sun Filters",
+                "pts_delta": 2
+              }
+            ]
+          },
+          {
+            "description": "May take Vectored Thrusters",
+            "choices": [
+              {
+                "name": "Vectored Thrusters",
+                "pts_delta": 4
+              }
+            ]
+          },
+          {
+            "description": "May take Positional Relay",
+            "choices": [
+              {
+                "name": "Positional Relay",
+                "pts_delta": 5
+              }
+            ]
+          },
+          {
+            "description": "May take Shield Generator",
+            "choices": [
+              {
+                "name": "Shield Generator",
+                "pts_delta": 13
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "M WS BS S FA SA RA W I A Ld Sv",
+        "points_base": 87,
+        "composition": "1-3 Shas\u2019vre",
+        "models": [
+          {
+            "name": "8 5+ 3+ 5 11 11 10 6 2 3 8 3+",
+            "stats": {
+              "M": "6",
+              "WS": "5+",
+              "BS": "4+",
+              "S": "3",
+              "T": "3",
+              "W": "1",
+              "I": "2",
+              "A": "1",
+              "Ld": "5",
+              "Sv": "4+"
+            },
+            "rules": [
+              "Character",
+              "Vehicle",
+              "Combat Walker",
+              "Deepstrike",
+              "Jump",
+              "Infantry",
+              "Primitive AI",
+              "Savior Protocols",
+              "Deepstrike",
+              "Jump",
+              "E Early Warning System +0",
+              "E Counterfire Defense Systems"
+            ]
+          }
+        ],
+        "fixed_wargear": [],
+        "options": [
+          {
+            "description": "May take up to 1 more Shas\u2019vre for +87 points each",
+            "choices": []
+          },
+          {
+            "description": "May take up to 2 Drones for +10 points each for each Shas\u2019vre in the unit Any Shas\u2019vre may swap any 2 Linked Burst Cannons for S Any Shas\u2019vre may take up to one of each E Any Drone may swap Marker Light for D or F",
+            "choices": []
+          }
+        ]
+      },
+      {
+        "name": "M WS BS S FA SA RA W I A Ld Sv",
+        "points_base": 146,
+        "composition": "1-3 Ghostkeels 0-6 MV5s",
+        "models": [
+          {
+            "name": "12 5+ 3+ 5 12 12 10 10 2 3 9 3+",
+            "stats": {
+              "M": "12",
+              "WS": "5+",
+              "BS": "4+",
+              "S": "3",
+              "T": "3",
+              "W": "1",
+              "I": "2",
+              "A": "1",
+              "Ld": "5",
+              "Sv": "4+"
+            },
+            "rules": [
+              "Vehicle",
+              "Combat Walker",
+              "Deepstrike",
+              "Infiltrator",
+              "Jump",
+              "Shroud",
+              "Nova Reactor",
+              "Infantry",
+              "Primitive AI",
+              "Savior Protocols",
+              "Deepstrike",
+              "Infiltrator",
+              "Jump",
+              "Shroud",
+              "E Early Warning System +0",
+              "E Counterfire Defense Systems"
+            ]
+          }
+        ],
+        "fixed_wargear": [],
+        "options": [
+          {
+            "description": "May take up to 2 more Ghostkeels for +146 points each",
+            "choices": []
+          },
+          {
+            "description": "May take up to 2 MV5s for +16 points each for each Ghostkeel in the unit Any Ghostkeel may swap Cyclic Ion Raker for S Any Ghostkeel may swap 2 Linked Flamers for H Any Ghostkeel may take up to one of each E",
+            "choices": []
+          }
+        ]
+      }
+    ],
+    "fast_attack": [
+      {
+        "name": "Drone Swarm",
+        "points_base": 40,
+        "composition": "4-12 Drones",
+        "models": [
+          {
+            "name": "Drone",
+            "stats": {
+              "M": "6",
+              "WS": "5+",
+              "BS": "4+",
+              "S": "3",
+              "T": "3",
+              "W": "1",
+              "I": "2",
+              "A": "1",
+              "Ld": "5",
+              "Sv": "4+"
+            },
+            "rules": [
+              "Infantry",
+              "Primitive AI",
+              "Savior Protocols",
+              "Deepstrike",
+              "Jump"
+            ]
+          }
+        ],
+        "fixed_wargear": [
+          "Marker Light"
+        ],
+        "options": [
+          {
+            "description": "May take up to 8 more Drones for +10 points each Any Drone may swap Marker Light for D or F",
+            "choices": [
+              {
+                "name": "Shield Generator",
+                "pts_delta": 13
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Kroot Hounds",
+        "points_base": 149,
+        "composition": "1 Shaper 4-9 Kroot",
+        "models": [
+          {
+            "name": "Hound",
+            "stats": {
+              "M": "12",
+              "WS": "4+",
+              "BS": "5+",
+              "S": "3",
+              "T": "3",
+              "W": "1",
+              "I": "3",
+              "A": "2",
+              "Ld": "5",
+              "Sv": "-"
+            },
+            "rules": [
+              "Character",
+              "Infantry",
+              "Steed",
+              "Kroot",
+              "Outflank",
+              "Stealth",
+              "Infantry",
+              "Steed",
+              "Kroot",
+              "Outflank",
+              "Stealth"
+            ]
+          }
+        ],
+        "fixed_wargear": [
+          "Ripping Fangs"
+        ],
+        "options": [
+          {
+            "description": "May take up to 15 more Hounds for +7 points each",
+            "choices": []
+          }
+        ]
+      },
+      {
+        "name": "Kroot Hounds",
+        "points_base": 35,
+        "composition": "1 Shaper 5-20 Hounds",
+        "models": [
+          {
+            "name": "Hound",
+            "stats": {
+              "M": "12",
+              "WS": "4+",
+              "BS": "5+",
+              "S": "3",
+              "T": "3",
+              "W": "1",
+              "I": "3",
+              "A": "2",
+              "Ld": "5",
+              "Sv": "-"
+            },
+            "rules": [
+              "Infantry",
+              "Kroot",
+              "Animalistic",
+              "Markers."
+            ]
+          }
+        ],
+        "fixed_wargear": [
+          "Ripping Fangs"
+        ],
+        "options": [
+          {
+            "description": "May take up to 15 more Hounds for +7 points each",
+            "choices": []
+          }
+        ]
+      },
+      {
+        "name": "Pathfinders",
+        "points_base": 64,
+        "composition": "1 Shas\u2019ui 4-9 Pathfinders 0-2 Drones 0-1 MV31",
+        "models": [
+          {
+            "name": "Shas\u2019ui",
+            "stats": {
+              "M": "6",
+              "WS": "5+",
+              "BS": "4+",
+              "S": "3",
+              "T": "3",
+              "W": "1",
+              "I": "2",
+              "A": "2",
+              "Ld": "8",
+              "Sv": "4+"
+            },
+            "rules": []
+          },
+          {
+            "name": "Pathfinder",
+            "stats": {
+              "M": "6",
+              "WS": "5+",
+              "BS": "4+",
+              "S": "3",
+              "T": "3",
+              "W": "1",
+              "I": "2",
+              "A": "1",
+              "Ld": "7",
+              "Sv": "4+"
+            },
+            "rules": []
+          },
+          {
+            "name": "Drone",
+            "stats": {
+              "M": "6",
+              "WS": "5+",
+              "BS": "4+",
+              "S": "3",
+              "T": "3",
+              "W": "1",
+              "I": "2",
+              "A": "1",
+              "Ld": "5",
+              "Sv": "4+"
+            },
+            "rules": []
+          },
+          {
+            "name": "MV31",
+            "stats": {
+              "M": "6",
+              "WS": "5+",
+              "BS": "4+",
+              "S": "3",
+              "T": "3",
+              "W": "1",
+              "I": "2",
+              "A": "1",
+              "Ld": "5",
+              "Sv": "4+"
+            },
+            "rules": []
+          },
+          {
+            "name": "MV33",
+            "stats": {
+              "M": "6",
+              "WS": "5+",
+              "BS": "4+",
+              "S": "3",
+              "T": "3",
+              "W": "1",
+              "I": "2",
+              "A": "1",
+              "Ld": "5",
+              "Sv": "4+"
+            },
+            "rules": []
+          },
+          {
+            "name": "MB3",
+            "stats": {
+              "M": "6",
+              "WS": "5+",
+              "BS": "4+",
+              "S": "3",
+              "T": "3",
+              "W": "2",
+              "I": "2",
+              "A": "1",
+              "Ld": "5",
+              "Sv": "4+"
+            },
+            "rules": []
+          }
+        ],
+        "fixed_wargear": [
+          "Pulse Carbine",
+          "Blind Grenades",
+          "Pulse Carbine",
+          "Blind Grenades",
+          "Marker Light",
+          "Advanced Targeting Array",
+          "Grav Wave Projector",
+          "Burst Cannon",
+          "Homing Beacon"
+        ],
+        "options": [
+          {
+            "description": "May take up to 5 more Pathfinders for +12 points each Up to three Pathfinders may swap Pulse Carbine for S Any Shas\u2019ui or Pathfinder that did not swap Pulse Carbine for S",
+            "choices": []
+          },
+          {
+            "description": "may take one L",
+            "choices": []
+          },
+          {
+            "description": "May take up to 2 Drones for +10 points each The entire unit except Drones",
+            "choices": []
+          },
+          {
+            "description": "may take one G Any Drone may swap Marker Light for D or F",
+            "choices": [
+              {
+                "name": "Shield Generator",
+                "pts_delta": 5
+              }
+            ]
+          },
+          {
+            "description": "May take one MV31 for +15 points",
+            "choices": []
+          },
+          {
+            "description": "May take one MV33 for +15 points",
+            "choices": []
+          },
+          {
+            "description": "May take one MB3 for +22 points",
+            "choices": []
+          }
+        ]
+      },
+      {
+        "name": "Vespid Stingwings",
+        "points_base": 170,
+        "composition": "1 Strain Leader 4-9 Vespid 0-1 Oversight Drones",
+        "models": [
+          {
+            "name": "Strain Leader",
+            "stats": {
+              "M": "12",
+              "WS": "4+",
+              "BS": "4+",
+              "S": "3",
+              "T": "4",
+              "W": "2",
+              "I": "5",
+              "A": "2",
+              "Ld": "9",
+              "Sv": "4+"
+            },
+            "rules": [
+              "Character",
+              "Infantry",
+              "Deepstrike",
+              "Fly"
+            ]
+          },
+          {
+            "name": "Vespid",
+            "stats": {
+              "M": "12",
+              "WS": "4+",
+              "BS": "4+",
+              "S": "3",
+              "T": "4",
+              "W": "2",
+              "I": "5",
+              "A": "1",
+              "Ld": "6",
+              "Sv": "4+"
+            },
+            "rules": [
+              "Infantry",
+              "Deepstrike",
+              "Fly"
+            ]
+          },
+          {
+            "name": "Oversight Drone",
+            "stats": {
+              "M": "12",
+              "WS": "5+",
+              "BS": "4+",
+              "S": "3",
+              "T": "3",
+              "W": "1",
+              "I": "2",
+              "A": "1",
+              "Ld": "5",
+              "Sv": "4+"
+            },
+            "rules": [
+              "Infantry",
+              "Savior Protocols",
+              "Deepstrike",
+              "Fly",
+              "Oversight"
+            ]
+          }
+        ],
+        "fixed_wargear": [
+          "Neutron Blaster",
+          "Neutron Blaster",
+          "None"
+        ],
+        "options": [
+          {
+            "description": "May take up to 5 more Vespids for +33 points each Up to three models may swap Neutron Blaster for S",
+            "choices": []
+          },
+          {
+            "description": "May take one Oversight Drone for +20 points",
+            "choices": []
+          }
+        ]
+      },
+      {
+        "name": "DX6 Remora Drones",
+        "points_base": 282,
+        "composition": "2-6 DX6s",
+        "models": [
+          {
+            "name": "DX6",
+            "stats": {
+              "M": "50",
+              "WS": "5+",
+              "BS": "4+",
+              "S": "4",
+              "T": "5",
+              "W": "4",
+              "I": "2",
+              "A": "2",
+              "Ld": "5",
+              "Sv": "4+"
+            },
+            "rules": [
+              "Monstrous Infantry",
+              "Primitive AI",
+              "Deepstrike",
+              "High Altitude"
+            ]
+          }
+        ],
+        "fixed_wargear": [
+          "2 Linked Long Burst Cannons",
+          "2 Seeker Missiles",
+          "Marker Light",
+          "Stealth Field"
+        ],
+        "options": [
+          {
+            "description": "May take up to 4 more DX6s for +141 points each",
+            "choices": []
+          }
+        ]
+      },
+      {
+        "name": "Goaded Great Knarloc",
+        "points_base": 176,
+        "composition": "1 Great Knarloc 1 Shaper 4-9 Kroot",
+        "models": [
+          {
+            "name": "Great Knarloc",
+            "stats": {
+              "M": "8",
+              "WS": "3+",
+              "BS": "5+",
+              "S": "7",
+              "T": "7",
+              "W": "9",
+              "I": "3",
+              "A": "4",
+              "Ld": "6",
+              "Sv": "8"
+            },
+            "rules": [
+              "Monster",
+              "Kroot",
+              "Infiltrate",
+              "Stealth",
+              "Goaded"
+            ]
+          },
+          {
+            "name": "Shaper",
+            "stats": {},
+            "rules": [
+              "Character",
+              "Infantry",
+              "Infiltrate",
+              "Stealth"
+            ]
+          },
+          {
+            "name": "Kroot",
+            "stats": {},
+            "rules": [
+              "Infantry",
+              "Infiltrate",
+              "Stealth"
+            ]
+          }
+        ],
+        "fixed_wargear": [
+          "Great Talons",
+          "Kroot Rifle",
+          "Kroot Rifle"
+        ],
+        "options": [
+          {
+            "description": "May take up to 5 more Kroot for +12 points each",
+            "choices": []
+          }
+        ]
+      },
+      {
+        "name": "Tetras",
+        "points_base": 63,
+        "composition": "1-6 Tetra Options",
+        "models": [
+          {
+            "name": "Tetra",
+            "stats": {
+              "M": "12",
+              "WS": "5+",
+              "BS": "4+",
+              "S": "5",
+              "FA": "10",
+              "SA": "10",
+              "RA": "10",
+              "W": "6",
+              "I": "1",
+              "A": "2",
+              "Ld": "8",
+              "Sv": "3+"
+            },
+            "rules": [
+              "Vehicle",
+              "Jump",
+              "Open Topped",
+              "Scout",
+              "E Early Warning System +0",
+              "E Counterfire Defense Systems"
+            ]
+          }
+        ],
+        "fixed_wargear": [
+          "2 Linked Pulse Rifles",
+          "3 Linked Marker Lights"
+        ],
+        "options": []
+      },
+      {
+        "name": "M WS BS S FA SA RA W I A Ld Sv",
+        "points_base": 83,
+        "composition": "1-3 Piranhas 2-6 Drones",
+        "models": [
+          {
+            "name": "12 5+ 4+ 5 11 10 10 8 1 3 8 3+",
+            "stats": {
+              "M": "6",
+              "WS": "5+",
+              "BS": "4+",
+              "S": "3",
+              "T": "3",
+              "W": "1",
+              "I": "2",
+              "A": "1",
+              "Ld": "5",
+              "Sv": "4+"
+            },
+            "rules": [
+              "Vehicle",
+              "Tank",
+              "Drone Dock 2",
+              "Jump",
+              "Open Topped",
+              "Infantry",
+              "Primitive AI",
+              "Savior Protocols",
+              "Deepstrike",
+              "Jump",
+              "E Early Warning System +0",
+              "E Counterfire Defense Systems"
+            ]
+          }
+        ],
+        "fixed_wargear": [
+          "Burst Cannon",
+          "Marker Light"
+        ],
+        "options": [
+          {
+            "description": "May take up to 2 more sets of 1 Piranha and 2 Drones for +83 points each Any Piranha may swap Burst Cannon for H Any Piranha may take up to two of each M Any Piranha may take up to one of each E Any Drone may swap Marker Light for D or F",
+            "choices": []
+          }
+        ]
+      },
+      {
+        "name": "TX2 Piranhas",
+        "points_base": 64,
+        "composition": "1-3 Piranhas",
+        "models": [
+          {
+            "name": "Piranha",
+            "stats": {
+              "M": "12",
+              "WS": "5+",
+              "BS": "4+",
+              "S": "5",
+              "FA": "11",
+              "SA": "10",
+              "RA": "10",
+              "W": "8",
+              "I": "1",
+              "A": "3",
+              "Ld": "8",
+              "Sv": "3+"
+            },
+            "rules": [
+              "Vehicle",
+              "Tank",
+              "Jump",
+              "Open Topped"
+            ]
+          }
+        ],
+        "fixed_wargear": [
+          "2 Linked Plasma Rifles"
+        ],
+        "options": [
+          {
+            "description": "May take up to 2 more Piranhas for +64 points each Any Piranha may swap 2 Linked Plasma Rifles for H Any Piranha may take up to two of each M Any Piranha may take up to one of each E",
+            "choices": [
+              {
+                "name": "Black Sun Filters",
+                "pts_delta": 2
+              },
+              {
+                "name": "Vectored Thrusters",
+                "pts_delta": 4
+              },
+              {
+                "name": "Positional Relay",
+                "pts_delta": 5
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "M WS BS S FA SA RA W I A Ld Sv",
+        "points_base": 259,
+        "composition": "1 XV109 0-2 Drones",
+        "models": [
+          {
+            "name": "16 5+ 3+ 6 13 13 11 14 2 4 9 3+",
+            "stats": {
+              "M": "6",
+              "WS": "5+",
+              "BS": "4+",
+              "S": "3",
+              "T": "3",
+              "W": "1",
+              "I": "2",
+              "A": "1",
+              "Ld": "5",
+              "Sv": "4+"
+            },
+            "rules": [
+              "Vehicle",
+              "Combat Walker",
+              "Deepstrike",
+              "Jump",
+              "Nova Reactor",
+              "Infantry",
+              "Primitive AI",
+              "Savior Protocols",
+              "Deepstrike",
+              "Jump",
+              "E Early Warning System +0",
+              "E Counterfire Defense Systems"
+            ]
+          }
+        ],
+        "fixed_wargear": [],
+        "options": [
+          {
+            "description": "May take up to 2 Drones for +10 points each XV109 may take up to one of each E Any Drone may swap Marker Light for D or F",
+            "choices": []
+          }
+        ]
+      }
+    ],
+    "heavy_support": [
+      {
+        "name": "AP",
+        "points_base": 18,
+        "composition": "2-6 Heavy Drones",
+        "models": [
+          {
+            "name": "5+",
+            "stats": {
+              "M": "6",
+              "WS": "4+",
+              "BS": "4+",
+              "S": "3",
+              "T": "3",
+              "W": "2",
+              "I": "3",
+              "A": "1",
+              "Ld": "7",
+              "Sv": "5+"
+            },
+            "rules": [
+              "Infantry",
+              "Primitive AI",
+              "Savior Protocols",
+              "Jump",
+              "Heavy Drone"
+            ]
+          }
+        ],
+        "fixed_wargear": [],
+        "options": [
+          {
+            "description": "May take up to 6 more Heavy Weapon Teams for +16 points each Any Heavy Weapon Team may swap Heavy Flamer for H Any model may swap Lasgun for R One model may take one A The unit may take up to one of each E The unit may take up to one of each G",
+            "choices": [
+              {
+                "name": "Frag Grenades",
+                "pts_delta": 1
+              }
+            ]
+          },
+          {
+            "description": "May take Combat Armour",
+            "choices": [
+              {
+                "name": "Combat Armour",
+                "pts_delta": 1
+              }
+            ]
+          },
+          {
+            "description": "May take Blind Grenades",
+            "choices": [
+              {
+                "name": "Blind Grenades",
+                "pts_delta": 1
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "AP",
+        "points_base": 48,
+        "composition": "3-9 Heavy Weapon Teams",
+        "models": [
+          {
+            "name": "5+",
+            "stats": {
+              "M": "6",
+              "WS": "4+",
+              "BS": "4+",
+              "S": "3",
+              "T": "3",
+              "W": "2",
+              "I": "3",
+              "A": "1",
+              "Ld": "7",
+              "Sv": "5+"
+            },
+            "rules": [
+              "Infantry",
+              "Bulky"
+            ]
+          }
+        ],
+        "fixed_wargear": [],
+        "options": [
+          {
+            "description": "May take up to 6 more Heavy Weapon Teams for +16 points each Any Heavy Weapon Team may swap Heavy Flamer for H Any model may swap Lasgun for R One model may take one A The unit may take up to one of each E The unit may take up to one of each G",
+            "choices": [
+              {
+                "name": "Frag Grenades",
+                "pts_delta": 1
+              }
+            ]
+          },
+          {
+            "description": "May take Combat Armour",
+            "choices": [
+              {
+                "name": "Combat Armour",
+                "pts_delta": 1
+              }
+            ]
+          },
+          {
+            "description": "May take Blind Grenades",
+            "choices": [
+              {
+                "name": "Blind Grenades",
+                "pts_delta": 1
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Sniper Drones",
+        "points_base": 92,
+        "composition": "4-12 Drones",
+        "models": [
+          {
+            "name": "Drone",
+            "stats": {
+              "M": "6",
+              "WS": "5+",
+              "BS": "4+",
+              "S": "3",
+              "T": "3",
+              "W": "1",
+              "I": "2",
+              "A": "1",
+              "Ld": "5",
+              "Sv": "4+"
+            },
+            "rules": [
+              "Infantry",
+              "Primitive AI",
+              "Savior Protocols",
+              "Deepstrike",
+              "Jump"
+            ]
+          }
+        ],
+        "fixed_wargear": [
+          "Longshot Pulse Rifle"
+        ],
+        "options": [
+          {
+            "description": "May take up to 8 more Drones for +23 points each",
+            "choices": []
+          }
+        ]
+      },
+      {
+        "name": "Great Knarloc",
+        "points_base": 147,
+        "composition": "1-3 Great Knarlocs",
+        "models": [
+          {
+            "name": "Great Knarloc",
+            "stats": {
+              "M": "8",
+              "WS": "3+",
+              "BS": "5+",
+              "S": "7",
+              "T": "7",
+              "W": "9",
+              "I": "3",
+              "A": "4",
+              "Ld": "6",
+              "Sv": "-"
+            },
+            "rules": [
+              "Monster",
+              "Kroot",
+              "Infiltrate",
+              "Stealth"
+            ]
+          }
+        ],
+        "fixed_wargear": [
+          "2 Kroot Rifles",
+          "Great Talons"
+        ],
+        "options": [
+          {
+            "description": "May take up to 2 more Great Knarlocs for +147 points each Any Great Knarloc may swap one Kroot Rifle for S",
+            "choices": []
+          }
+        ]
+      },
+      {
+        "name": "M WS BS S FA SA RA W I A Ld Sv",
+        "points_base": 181,
+        "composition": "1-3 TX7s 2-6 Drones",
+        "models": [
+          {
+            "name": "12 5+ 4+ 6 13 12 10 13 1 3 8 3+",
+            "stats": {
+              "M": "6",
+              "WS": "5+",
+              "BS": "4+",
+              "S": "3",
+              "T": "3",
+              "W": "1",
+              "I": "2",
+              "A": "1",
+              "Ld": "5",
+              "Sv": "4+"
+            },
+            "rules": [
+              "Vehicle",
+              "Tank",
+              "Drone Dock 2",
+              "Jump",
+              "Infantry",
+              "Primitive AI",
+              "Savior Protocols",
+              "Deepstrike",
+              "Jump"
+            ]
+          }
+        ],
+        "fixed_wargear": [],
+        "options": [
+          {
+            "description": "May take up to 2 more sets of 1 TX7 and 2 Drones for +181 points each Any TX7 may swap 2 Linked Long Burst Cannons for T Any TX7 may take up to two of each M Any TX7 may take up to one of each E Any Drone may swap Marker Light for D or F",
+            "choices": [
+              {
+                "name": "Shield Generator",
+                "pts_delta": 18
+              }
+            ]
+          },
+          {
+            "description": "May take Black Sun Filters",
+            "choices": [
+              {
+                "name": "Black Sun Filters",
+                "pts_delta": 2
+              }
+            ]
+          },
+          {
+            "description": "May take Vectored Thrusters",
+            "choices": [
+              {
+                "name": "Vectored Thrusters",
+                "pts_delta": 4
+              }
+            ]
+          },
+          {
+            "description": "May take Positional Relay",
+            "choices": [
+              {
+                "name": "Positional Relay",
+                "pts_delta": 5
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "M WS BS S FA SA RA W I A Ld Sv",
+        "points_base": 195,
+        "composition": "1-3 TX78s 2-6 Drones",
+        "models": [
+          {
+            "name": "12 5+ 4+ 6 13 12 10 13 1 3 8 3+",
+            "stats": {
+              "M": "6",
+              "WS": "5+",
+              "BS": "4+",
+              "S": "3",
+              "T": "3",
+              "W": "1",
+              "I": "2",
+              "A": "1",
+              "Ld": "5",
+              "Sv": "4+"
+            },
+            "rules": [
+              "Vehicle",
+              "Tank",
+              "Drone Dock 2",
+              "Jump",
+              "Infantry",
+              "Primitive AI",
+              "Savior Protocols",
+              "Deepstrike",
+              "Jump",
+              "E Early Warning System +0",
+              "E Counterfire Defense Systems"
+            ]
+          }
+        ],
+        "fixed_wargear": [],
+        "options": [
+          {
+            "description": "May take up to 2 more sets of 1 TX78 and 2 Drones for +195 points each Any TX78 may take up to 2 M Any TX78 may take up to one of each E Any Drone may swap Marker Light for D or F",
+            "choices": []
+          }
+        ]
+      },
+      {
+        "name": "M WS BS S FA SA RA W I A Ld Sv",
+        "points_base": 248,
+        "composition": "1 XV104 0-2 Drones",
+        "models": [
+          {
+            "name": "12 5+ 3+ 6 13 13 11 14 2 4 9 3+",
+            "stats": {
+              "M": "6",
+              "WS": "5+",
+              "BS": "4+",
+              "S": "3",
+              "T": "3",
+              "W": "1",
+              "I": "2",
+              "A": "1",
+              "Ld": "5",
+              "Sv": "4+"
+            },
+            "rules": [
+              "Vehicle",
+              "Combat Walker",
+              "Deepstrike",
+              "Jump",
+              "Nova Reactor",
+              "Infantry",
+              "Primitive AI",
+              "Savior Protocols",
+              "Deepstrike",
+              "Jump"
+            ]
+          }
+        ],
+        "fixed_wargear": [],
+        "options": [
+          {
+            "description": "May take up to 2 Drones for +10 points each XV104 may swap Heavy Burst Cannon for S XV104 may swap 2 Linked Smart Missile Pods for H XV104 may take up to one of each E Any Drone may swap Marker Light for D or F",
+            "choices": []
+          }
+        ]
+      },
+      {
+        "name": "M WS BS S FA SA RA W I A Ld Sv",
+        "points_base": 250,
+        "composition": "1 XV107 0-2 Drones",
+        "models": [
+          {
+            "name": "12 5+ 3+ 6 13 13 11 14 2 4 9 3+",
+            "stats": {
+              "M": "6",
+              "WS": "5+",
+              "BS": "4+",
+              "S": "3",
+              "T": "3",
+              "W": "1",
+              "I": "2",
+              "A": "1",
+              "Ld": "5",
+              "Sv": "4+"
+            },
+            "rules": [
+              "Vehicle",
+              "Combat Walker",
+              "Deepstrike",
+              "Jump",
+              "Nova Reactor"
+            ]
+          }
+        ],
+        "fixed_wargear": [],
+        "options": [
+          {
+            "description": "May take up to 2 Drones for +10 points each XV104 may take up to one of each E Any Drone may swap Marker Light for D or F",
+            "choices": []
+          }
+        ]
+      },
+      {
+        "name": "M WS BS S FA SA RA W I A Ld Sv",
+        "points_base": 113,
+        "composition": "1 Shas\u2019vre 0-5 Shas\u2019ui 0-12 Drones",
+        "models": [
+          {
+            "name": "8 5+ 4+ 6 12 12 10 8 2 3 8 3+",
+            "stats": {
+              "M": "6",
+              "WS": "5+",
+              "BS": "4+",
+              "S": "3",
+              "T": "3",
+              "W": "1",
+              "I": "2",
+              "A": "1",
+              "Ld": "5",
+              "Sv": "4+"
+            },
+            "rules": []
+          },
+          {
+            "name": "8 5+ 4+ 6 12 12 10 8 2 2 7 3+",
+            "stats": {},
+            "rules": [
+              "Character",
+              "Vehicle",
+              "Combat Walker",
+              "Deepstrike",
+              "Jump",
+              "Vehicle",
+              "Combat Walker",
+              "Deepstrike",
+              "Jump",
+              "Infantry",
+              "Primitive AI",
+              "Savior Protocols",
+              "Deepstrike",
+              "Jump",
+              "E Early Warning System +0",
+              "E Counterfire Defense Systems"
+            ]
+          }
+        ],
+        "fixed_wargear": [],
+        "options": [
+          {
+            "description": "May take up to 5 Shas\u2019ui for +108 points each",
+            "choices": []
+          },
+          {
+            "description": "May take up to 2 Drones for +10 points each for each XV88 model in the unit Any XV88 model may swap any Flamer for S Any XV88 may take one H Any XV88 may take one M Any XV88 model may take up to one of each E Any Drone may swap Marker Light for D or F",
+            "choices": []
+          }
+        ]
+      }
+    ],
+    "flyers": [
+      {
+        "name": "AX-5-2 Barracudas",
+        "points_base": 220,
+        "composition": "1-3 AX-5-2s",
+        "models": [
+          {
+            "name": "AX-5-2",
+            "stats": {
+              "M": "60",
+              "WS": "5+",
+              "BS": "4+",
+              "S": "6",
+              "FA": "11",
+              "SA": "11",
+              "RA": "10",
+              "W": "14",
+              "I": "1",
+              "A": "3",
+              "Ld": "8",
+              "Sv": "3+"
+            },
+            "rules": [
+              "Vehicle",
+              "Deepstrike",
+              "High Altitude",
+              "Interceptor"
+            ]
+          }
+        ],
+        "fixed_wargear": [
+          "Swiftstrike Railgun",
+          "2 Linked Missile Pods",
+          "2 Cyclic Ion Blasters"
+        ],
+        "options": [
+          {
+            "description": "May take up to 2 more AX-5-2s for +220 points each Any AX-5-2 may swap Swiftstrike Railgun for T Any AX-5-2 may swap 2 Cyclic Ion Blasters for S Any AX-5-2 may take up to 2 of each M Any AX-5-2 may take up to one of each E",
+            "choices": [
+              {
+                "name": "Black Sun Filters",
+                "pts_delta": 2
+              },
+              {
+                "name": "Vectored Thrusters",
+                "pts_delta": 4
+              },
+              {
+                "name": "Positional Relay",
+                "pts_delta": 5
+              },
+              {
+                "name": "Decoy Launcher",
+                "pts_delta": 9
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "AX3 Razorsharks",
+        "points_base": 250,
+        "composition": "1-3 AX3s",
+        "models": [
+          {
+            "name": "AX3",
+            "stats": {
+              "M": "50",
+              "WS": "5+",
+              "BS": "4+",
+              "S": "6",
+              "FA": "11",
+              "SA": "11",
+              "RA": "10",
+              "W": "12",
+              "I": "1",
+              "A": "3",
+              "Ld": "8",
+              "Sv": "3+"
+            },
+            "rules": [
+              "Vehicle",
+              "Deepstrike",
+              "High Altitude",
+              "Agile"
+            ]
+          }
+        ],
+        "fixed_wargear": [
+          "Burst Cannon",
+          "Quad Ion Cannon",
+          "2 Seeker Missiles"
+        ],
+        "options": [
+          {
+            "description": "May take up to 2 more AX3s for +250 points each Any AX3 may swap Burst Cannon for S Any AX3 may take up to one of each E",
+            "choices": [
+              {
+                "name": "Black Sun Filters",
+                "pts_delta": 2
+              },
+              {
+                "name": "Vectored Thrusters",
+                "pts_delta": 4
+              },
+              {
+                "name": "Positional Relay",
+                "pts_delta": 5
+              },
+              {
+                "name": "Decoy Launcher",
+                "pts_delta": 9
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "M WS BS S FA SA RA W I A Ld Sv",
+        "points_base": 253,
+        "composition": "1-3 AX39s 2-6 Interceptor Drones",
+        "models": [
+          {
+            "name": "50 5+ 4+ 6 11 11 10 12 1 3 8 3+",
+            "stats": {
+              "M": "6",
+              "WS": "5+",
+              "BS": "4+",
+              "S": "3",
+              "T": "3",
+              "W": "1",
+              "I": "2",
+              "A": "1",
+              "Ld": "5",
+              "Sv": "4+"
+            },
+            "rules": [
+              "Vehicle",
+              "Docking Ports 2",
+              "Deepstrike",
+              "High Altitude",
+              "Infantry",
+              "Primitive AI",
+              "Savior Protocols",
+              "Deepstrike",
+              "Fly",
+              "E Early Warning System +0",
+              "E Counterfire Defense Systems"
+            ]
+          }
+        ],
+        "fixed_wargear": [],
+        "options": [
+          {
+            "description": "May take up to 2 more sets of 1 AX39 and 2 Interceptor Drones for +253 points each Any AX39 may swap Burst Cannon for S Any AX39 may take up to one of each E",
+            "choices": []
+          }
+        ]
+      }
+    ],
+    "dedicated_transport": [
+      {
+        "name": "M WS BS S FA SA RA W I A Ld Sv",
+        "points_base": 168,
+        "composition": "1 TY7 2 Drones",
+        "models": [
+          {
+            "name": "12 5+ 4+ 6 12 11 10 12 1 3 8 3+",
+            "stats": {
+              "M": "6",
+              "WS": "5+",
+              "BS": "4+",
+              "S": "3",
+              "T": "3",
+              "W": "1",
+              "I": "2",
+              "A": "1",
+              "Ld": "5",
+              "Sv": "4+"
+            },
+            "rules": [
+              "Vehicle",
+              "Tank",
+              "Drone Dock 2",
+              "Jump",
+              "Transport 12",
+              "Infantry",
+              "Primitive AI",
+              "Savior Protocols",
+              "Deepstrike",
+              "Jump",
+              "E Early Warning System +0",
+              "E Counterfire Defense Systems"
+            ]
+          }
+        ],
+        "fixed_wargear": [
+          "Burst Cannon",
+          "Marker Light"
+        ],
+        "options": []
+      }
+    ],
+    "lord_of_war": [
+      {
+        "name": "Tiger Shark AX-1-0",
+        "points_base": 418,
+        "composition": "1 AX-1-0 0-14 Drones",
+        "models": [
+          {
+            "name": "AX-1-0",
+            "stats": {
+              "M": "50",
+              "WS": "5+",
+              "BS": "4+",
+              "S": "7",
+              "FA": "12",
+              "SA": "12",
+              "RA": "10",
+              "W": "18",
+              "I": "1",
+              "A": "6",
+              "Ld": "8",
+              "Sv": "3+"
+            },
+            "rules": [
+              "Titanic Vehicle",
+              "Deepstrike",
+              "High Altitude",
+              "E Early Warning System +0",
+              "E Counterfire Defense Systems"
+            ]
+          }
+        ],
+        "fixed_wargear": [
+          "2 Linked Heavy Railguns",
+          "2 Linked Missile Pods",
+          "2 Burst Cannons",
+          "Marker Light"
+        ],
+        "options": [
+          {
+            "description": "May take one M",
+            "choices": []
+          },
+          {
+            "description": "May take up to one of each E",
+            "choices": []
+          }
+        ]
+      },
+      {
+        "name": "Tiger Shark Fighter Bomber",
+        "points_base": 426,
+        "composition": "1 Fighter Bomber",
+        "models": [
+          {
+            "name": "Fighter Bomber",
+            "stats": {
+              "M": "50",
+              "WS": "5+",
+              "BS": "4+",
+              "S": "7",
+              "FA": "12",
+              "SA": "12",
+              "RA": "10",
+              "W": "18",
+              "I": "1",
+              "A": "6",
+              "Ld": "8",
+              "Sv": "3+"
+            },
+            "rules": [
+              "Titanic Vehicle",
+              "Deepstrike",
+              "High Altitude",
+              "Infantry",
+              "Primitive AI",
+              "Savior Protocols",
+              "Jump",
+              "E Early Warning System +0",
+              "E Counterfire Defense Systems"
+            ]
+          }
+        ],
+        "fixed_wargear": [
+          "2 Linked Ion Cannons",
+          "2 Linked Missile Pods",
+          "2 Burst Cannons",
+          "Marker Light"
+        ],
+        "options": [
+          {
+            "description": "May take one M or DB If DB was taken, any Drone may swap Marker Light for D",
+            "choices": []
+          },
+          {
+            "description": "May take up to one of each E",
+            "choices": []
+          },
+          {
+            "description": "May take Drone Bay",
+            "choices": [
+              {
+                "name": "Drone Bay",
+                "pts_delta": 142
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Tiger Shark Fighter Bomber",
+        "points_base": 1804,
+        "composition": "1 Manta 4 Drones",
+        "models": [
+          {
+            "name": "Fighter Bomber",
+            "stats": {
+              "M": "50",
+              "WS": "5+",
+              "BS": "4+",
+              "S": "7",
+              "FA": "12",
+              "SA": "12",
+              "RA": "10",
+              "W": "18",
+              "I": "1",
+              "A": "6",
+              "Ld": "8",
+              "Sv": "3+"
+            },
+            "rules": [
+              "Titanic Vehicle",
+              "Drone Docks 4",
+              "Deepstrike",
+              "High Altitude",
+              "Hover",
+              "Transport Top 55",
+              "Vehicle Bay",
+              "Infantry",
+              "Primitive AI",
+              "Savior Protocols",
+              "Deepstrike",
+              "Jump",
+              "E Early Warning System +0",
+              "E Counterfire Defense Systems"
+            ]
+          }
+        ],
+        "fixed_wargear": [
+          "2 Linked Ion Cannons",
+          "2 Linked Missile Pods",
+          "2 Burst Cannons",
+          "Marker Light",
+          "2 Linked Heavy Railguns",
+          "6 Linked Ion Cannons",
+          "2 Linked Missile Pods",
+          "12 Long Burst Cannons",
+          "2 Seeker Missile Racks",
+          "Marker Light",
+          "Shield Generator",
+          "Long Burst Cannon"
+        ],
+        "options": [
+          {
+            "description": "May take one M or DB If DB was taken, any Drone may swap Marker Light for D",
+            "choices": []
+          },
+          {
+            "description": "May take up to one of each E",
+            "choices": []
+          },
+          {
+            "description": "May take up to one of each E",
+            "choices": []
+          },
+          {
+            "description": "May take Drone Bay",
+            "choices": [
+              {
+                "name": "Drone Bay",
+                "pts_delta": 142
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Orca",
+        "points_base": 588,
+        "composition": "1 Orca",
+        "models": [
+          {
+            "name": "Orca",
+            "stats": {
+              "M": "50",
+              "WS": "5+",
+              "BS": "4+",
+              "S": "7",
+              "FA": "12",
+              "SA": "12",
+              "RA": "10",
+              "W": "28",
+              "I": "1",
+              "A": "6",
+              "Ld": "8",
+              "Sv": "3+"
+            },
+            "rules": [
+              "Titanic Vehicle",
+              "Deepstrike",
+              "High Altitude",
+              "Hover",
+              "Jetpack Deployment",
+              "Terrain Test.",
+              "Transport 48",
+              "Battlesuit Rack"
+            ]
+          }
+        ],
+        "fixed_wargear": [
+          "2 Linked Long Burst Cannons",
+          "Missile Pod"
+        ],
+        "options": [
+          {
+            "description": "May take up to 4 M",
+            "choices": []
+          },
+          {
+            "description": "May take up to one of each E",
+            "choices": [
+              {
+                "name": "Black Sun Filters",
+                "pts_delta": 5
+              },
+              {
+                "name": "Vectored Thrusters",
+                "pts_delta": 5
+              },
+              {
+                "name": "Positional Relay",
+                "pts_delta": 5
+              },
+              {
+                "name": "Decoy Launcher",
+                "pts_delta": 18
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "KV128 Stormsurge",
+        "points_base": 489,
+        "composition": "1 KV128 Options",
+        "models": [
+          {
+            "name": "KV128",
+            "stats": {
+              "M": "12",
+              "WS": "5+",
+              "BS": "3+",
+              "S": "8",
+              "FA": "13",
+              "SA": "13",
+              "RA": "11",
+              "W": "20",
+              "I": "2",
+              "A": "6",
+              "Ld": "9",
+              "Sv": "3+"
+            },
+            "rules": []
+          }
+        ],
+        "fixed_wargear": [
+          "Pulse Blast Cannon",
+          "2 Linked Cluster Rocket Pods",
+          "2 Linked Smart Missile Pods",
+          "2 Linked Flamers",
+          "4 Seeker Missiles"
+        ],
+        "options": []
+      },
+      {
+        "name": "KX139 Ta\u2019unar Supremacy Suit",
+        "points_base": 792,
+        "composition": "1 KX139",
+        "models": [
+          {
+            "name": "KX139",
+            "stats": {
+              "M": "10",
+              "WS": "5+",
+              "BS": "3+",
+              "S": "9",
+              "FA": "14",
+              "SA": "13",
+              "RA": "10",
+              "W": "35",
+              "I": "2",
+              "A": "6",
+              "Ld": "9",
+              "Sv": "3+"
+            },
+            "rules": [
+              "Titanic Vehicle",
+              "Combat Walker",
+              "E Early Warning System +0",
+              "E Counterfire Defense Systems"
+            ]
+          }
+        ],
+        "fixed_wargear": [
+          "3 Linked Pulse Ordnance Drivers",
+          "2 Tri-Axis Ion Cannons",
+          "2 Linked Smart Missile Pods",
+          "2 Linked Smart Missile Pods",
+          "2 Linked Burst Cannons",
+          "2 Linked Burst Cannons",
+          "Shield Generator"
+        ],
+        "options": [
+          {
+            "description": "May swap 3 Linked Pulse Ordnance Drivers for T",
+            "choices": []
+          },
+          {
+            "description": "May swap either Tri-Axis Ion Cannon for S",
+            "choices": []
+          },
+          {
+            "description": "May take up to one of each E",
+            "choices": []
+          }
+        ]
+      }
+    ],
+    "fortifications": [
+      {
+        "name": "M WS BS S T W I A Ld Sv",
+        "points_base": 143,
+        "composition": "1 Droneport 4 Drones",
+        "models": [
+          {
+            "name": "4 - - - 7 10 - - - 3+",
+            "stats": {
+              "M": "6",
+              "WS": "5+",
+              "BS": "4+",
+              "S": "3",
+              "T": "3",
+              "W": "1",
+              "I": "2",
+              "A": "1",
+              "Ld": "5",
+              "Sv": "4+"
+            },
+            "rules": [
+              "Building",
+              "Drone Port 4",
+              "Mobile Bunker",
+              "Infantry",
+              "Primitive AI",
+              "Savior Protocols",
+              "Jump"
+            ]
+          }
+        ],
+        "fixed_wargear": [],
+        "options": []
+      },
+      {
+        "name": "Tidewall Shieldline",
+        "points_base": 203,
+        "composition": "1 Shieldline",
+        "models": [
+          {
+            "name": "Shieldline",
+            "stats": {
+              "M": "4",
+              "WS": "-",
+              "BS": "-",
+              "S": "-",
+              "T": "7",
+              "W": "20",
+              "I": "-",
+              "A": "-",
+              "Ld": "-",
+              "Sv": "3+"
+            },
+            "rules": [
+              "Building",
+              "Mobile Bunker"
+            ]
+          }
+        ],
+        "fixed_wargear": [
+          "None"
+        ],
+        "options": []
+      }
+    ]
+  }
+}

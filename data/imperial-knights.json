@@ -1,0 +1,994 @@
+{
+  "id": "imperial-knights",
+  "name": "Imperial Knights",
+  "difficulty": 4,
+  "subfactions": [
+    {
+      "name": "Average"
+    }
+  ],
+  "slots": {
+    "hq": [
+      {
+        "name": "Commander",
+        "points_base": 662,
+        "composition": "1 Commander",
+        "models": [
+          {
+            "name": "Commander",
+            "stats": {
+              "M": "12",
+              "WS": "2+",
+              "BS": "2+",
+              "S": "8",
+              "FA": "13",
+              "SA": "12",
+              "RA": "12",
+              "W": "24",
+              "I": "4",
+              "A": "6",
+              "Ld": "10",
+              "Sv": "3+"
+            },
+            "rules": [
+              "Titanic Vehicle",
+              "Combat Walker",
+              "Unique",
+              "Knight Protector",
+              "Imperial God Engine",
+              "Rotate Ion Shields",
+              "Fearless",
+              "Night Vision",
+              "Objective Secured",
+              "Stubborn",
+              "Steady",
+              "Solemn Duty",
+              "Toss"
+            ]
+          }
+        ],
+        "fixed_wargear": [
+          "2 Avenger Gatling Cannons",
+          "Heavy Flamer",
+          "Reinforced Shielding"
+        ],
+        "options": [
+          {
+            "description": "May swap any Avenger Gatling Cannon for H or M",
+            "choices": []
+          },
+          {
+            "description": "May swap Heavy Flamer for S",
+            "choices": []
+          },
+          {
+            "description": "May take one T or E",
+            "choices": []
+          }
+        ]
+      }
+    ],
+    "advisors": [
+      {
+        "name": "M WS BS S FA SA RA W I A Ld Sv",
+        "points_base": 1099,
+        "composition": "1 Canis Rex 1 Sir Hekhtur",
+        "models": [
+          {
+            "name": "12 2+ 2+ 8 13 12 12 24 4 6 10 3+",
+            "stats": {
+              "M": "6",
+              "WS": "2+",
+              "BS": "2+",
+              "S": "3",
+              "T": "3",
+              "W": "5",
+              "I": "3",
+              "A": "4",
+              "Ld": "10",
+              "Sv": "4+"
+            },
+            "rules": [
+              "Titanic Vehicle",
+              "Combat Walker",
+              "Unique",
+              "Free Lancer",
+              "Imperial God Engine",
+              "Knight Protector",
+              "Counterattack",
+              "Fearless",
+              "Night Vision",
+              "Objective Secured",
+              "Stubborn",
+              "Steady",
+              "Chainbreaker",
+              "Solemn Duty",
+              "Toss",
+              "Independent Character",
+              "Infantry",
+              "Unique",
+              "Free Lancer",
+              "Fearless",
+              "Stubborn"
+            ]
+          }
+        ],
+        "fixed_wargear": [],
+        "options": [
+          {
+            "description": "May swap any Avenger Gatling Cannon for H or M",
+            "choices": []
+          },
+          {
+            "description": "May swap Heavy Flamer for S",
+            "choices": []
+          },
+          {
+            "description": "May take one T",
+            "choices": []
+          }
+        ]
+      }
+    ],
+    "troops": [
+      {
+        "name": "Armigers",
+        "points_base": 196,
+        "composition": "1 Armiger",
+        "models": [
+          {
+            "name": "Armiger",
+            "stats": {
+              "M": "12",
+              "WS": "3+",
+              "BS": "3+",
+              "S": "6",
+              "FA": "12",
+              "SA": "12",
+              "RA": "10",
+              "W": "12",
+              "I": "4",
+              "A": "4",
+              "Ld": "8",
+              "Sv": "3+"
+            },
+            "rules": [
+              "Vehicle",
+              "Combat Walker",
+              "Honour Bound Protector",
+              "Rotate Ion Shields",
+              "Night Vision",
+              "Objective Secured",
+              "Stubborn",
+              "Steady"
+            ]
+          }
+        ],
+        "fixed_wargear": [
+          "2 Reaper Chain Strikes",
+          "Heavy Stubber"
+        ],
+        "options": [
+          {
+            "description": "May swap any Reaper Chain Strike for H",
+            "choices": []
+          },
+          {
+            "description": "May swap Heavy Stubber for T",
+            "choices": []
+          }
+        ]
+      },
+      {
+        "name": "Armiger Moiraxes",
+        "points_base": 155,
+        "composition": "1 Moirax",
+        "models": [
+          {
+            "name": "Moirax",
+            "stats": {
+              "M": "10",
+              "WS": "3+",
+              "BS": "3+",
+              "S": "6",
+              "FA": "12",
+              "SA": "12",
+              "RA": "10",
+              "W": "12",
+              "I": "4",
+              "A": "4",
+              "Ld": "8",
+              "Sv": "3+"
+            },
+            "rules": [
+              "Vehicle",
+              "Combat Walker",
+              "Honor Bound Protector",
+              "Rotate Ion Shields",
+              "Night Vision",
+              "Objective Secured",
+              "Stubborn",
+              "Steady",
+              "Unstable Core"
+            ]
+          }
+        ],
+        "fixed_wargear": [
+          "2 Rad Cleansors"
+        ],
+        "options": [
+          {
+            "description": "May swap any Rad Cleansor for H or M",
+            "choices": []
+          }
+        ]
+      },
+      {
+        "name": "Knight",
+        "points_base": 514,
+        "composition": "1 Knight",
+        "models": [
+          {
+            "name": "Knight",
+            "stats": {
+              "M": "12",
+              "WS": "3+",
+              "BS": "3+",
+              "S": "8",
+              "FA": "13",
+              "SA": "12",
+              "RA": "12",
+              "W": "24",
+              "I": "4",
+              "A": "6",
+              "Ld": "10",
+              "Sv": "3+"
+            },
+            "rules": [
+              "Titanic Vehicle",
+              "Combat Walker",
+              "Imperial God Engine",
+              "Knight Protector",
+              "Rotate Ion Shields",
+              "Fearless",
+              "Night Vision",
+              "Objective Secured",
+              "Stubborn",
+              "Steady",
+              "Toss"
+            ]
+          }
+        ],
+        "fixed_wargear": [
+          "2 Avenger Gatling Cannons",
+          "Heavy Flamer"
+        ],
+        "options": [
+          {
+            "description": "May swap any Avenger Gatling Cannon for H or M",
+            "choices": []
+          },
+          {
+            "description": "May swap Heavy Flamer for S",
+            "choices": []
+          },
+          {
+            "description": "May take one T or E",
+            "choices": []
+          }
+        ]
+      }
+    ],
+    "elites": [
+      {
+        "name": "Atrapos",
+        "points_base": 706,
+        "composition": "1 Atrapos",
+        "models": [
+          {
+            "name": "Atrapos",
+            "stats": {
+              "M": "12",
+              "WS": "3+",
+              "BS": "3+",
+              "S": "8",
+              "FA": "13",
+              "SA": "12",
+              "RA": "12",
+              "W": "26",
+              "I": "4",
+              "A": "6",
+              "Ld": "10",
+              "Sv": "3+"
+            },
+            "rules": [
+              "Titanic Vehicle",
+              "Combat Walker",
+              "Imperial God Engine",
+              "Knight Protector",
+              "Rotate Ion Shields",
+              "Fearless",
+              "Night Vision",
+              "Stubborn",
+              "Steady"
+            ]
+          }
+        ],
+        "fixed_wargear": [
+          "Graviton Singularity Cannon",
+          "Atrapos Lascutter"
+        ],
+        "options": []
+      },
+      {
+        "name": "Gallant",
+        "points_base": 675,
+        "composition": "1 Gallant",
+        "models": [
+          {
+            "name": "Gallant",
+            "stats": {
+              "M": "12",
+              "WS": "3+",
+              "BS": "3+",
+              "S": "8",
+              "FA": "13",
+              "SA": "12",
+              "RA": "12",
+              "W": "24",
+              "I": "4",
+              "A": "6",
+              "Ld": "10",
+              "Sv": "3+"
+            },
+            "rules": [
+              "Titanic Vehicle",
+              "Combat Walker",
+              "Imperial God Engine",
+              "Knight Protector",
+              "Rotate Ion Shields",
+              "Fearless",
+              "Night Vision",
+              "Stubborn",
+              "Steady",
+              "Close Quarter Expert",
+              "Toss"
+            ]
+          }
+        ],
+        "fixed_wargear": [
+          "Reaper Chainsword",
+          "Thunder Gauntlet",
+          "Heavy Flamer"
+        ],
+        "options": [
+          {
+            "description": "May swap Heavy Flamer for S",
+            "choices": []
+          },
+          {
+            "description": "May take one T",
+            "choices": []
+          }
+        ]
+      },
+      {
+        "name": "Magaera",
+        "points_base": 531,
+        "composition": "1 Magaera",
+        "models": [
+          {
+            "name": "Magaera",
+            "stats": {
+              "M": "12",
+              "WS": "3+",
+              "BS": "3+",
+              "S": "8",
+              "FA": "13",
+              "SA": "12",
+              "RA": "12",
+              "W": "24",
+              "I": "4",
+              "A": "6",
+              "Ld": "10",
+              "Sv": "3+"
+            },
+            "rules": [
+              "Titanic Vehicle",
+              "Combat Walker",
+              "Imperial God Engine",
+              "Knight Protector",
+              "Rotate Ion Shields",
+              "Fearless",
+              "Night Vision",
+              "Stubborn",
+              "Steady",
+              "Empyreal Sight",
+              "Ranged Attacks."
+            ]
+          }
+        ],
+        "fixed_wargear": [
+          "Lightning Cannon",
+          "Reaper Chainsword",
+          "Phased Plasma Fusil"
+        ],
+        "options": [
+          {
+            "description": "May swap Reaper Chainsword for M",
+            "choices": []
+          }
+        ]
+      },
+      {
+        "name": "Styrix",
+        "points_base": 532,
+        "composition": "1 Styrix",
+        "models": [
+          {
+            "name": "Styrix",
+            "stats": {
+              "M": "12",
+              "WS": "3+",
+              "BS": "3+",
+              "S": "8",
+              "FA": "13",
+              "SA": "12",
+              "RA": "12",
+              "W": "24",
+              "I": "4",
+              "A": "6",
+              "Ld": "10",
+              "Sv": "3+"
+            },
+            "rules": [
+              "Titanic Vehicle",
+              "Combat Walker",
+              "Imperial God Engine",
+              "Knight Protector",
+              "Rotate Ion Shields",
+              "Fearless",
+              "Night Vision",
+              "Stubborn",
+              "Steady"
+            ]
+          }
+        ],
+        "fixed_wargear": [
+          "Graviton Crusher",
+          "Reaper Chainsword",
+          "Volkite Chieoroville"
+        ],
+        "options": [
+          {
+            "description": "May swap Reaper Chainsword for M",
+            "choices": []
+          }
+        ]
+      }
+    ],
+    "fast_attack": [
+      {
+        "name": "Acheron",
+        "points_base": 711,
+        "composition": "1 Acheron",
+        "models": [
+          {
+            "name": "Acheron",
+            "stats": {
+              "M": "12",
+              "WS": "3+",
+              "BS": "3+",
+              "S": "8",
+              "FA": "13",
+              "SA": "12",
+              "RA": "12",
+              "W": "26",
+              "I": "4",
+              "A": "6",
+              "Ld": "10",
+              "Sv": "3+"
+            },
+            "rules": [
+              "Titanic Vehicle",
+              "Combat Walker",
+              "Imperial God Engine",
+              "Knight Protector",
+              "Rotate Ion Shields",
+              "Fearless",
+              "Night Vision",
+              "Stubborn"
+            ]
+          }
+        ],
+        "fixed_wargear": [
+          "2 Linked Acheron Flame",
+          "Cannons",
+          "2 Linked Heavy Bolters",
+          "Reaper Chain Fist"
+        ],
+        "options": []
+      },
+      {
+        "name": "Castigator",
+        "points_base": 549,
+        "composition": "1 Castigator",
+        "models": [
+          {
+            "name": "Castigator",
+            "stats": {
+              "M": "12",
+              "WS": "3+",
+              "BS": "3+",
+              "S": "8",
+              "FA": "13",
+              "SA": "12",
+              "RA": "12",
+              "W": "26",
+              "I": "4",
+              "A": "6",
+              "Ld": "10",
+              "Sv": "3+"
+            },
+            "rules": [
+              "Titanic Vehicle",
+              "Combat Walker",
+              "Imperial God Engine",
+              "Knight Protector",
+              "Rotate Ion Shields",
+              "Fearless",
+              "Night Vision",
+              "Stubborn",
+              "Steady"
+            ]
+          }
+        ],
+        "fixed_wargear": [
+          "Castigator Bolt Cannon",
+          "Tempest Warblade"
+        ],
+        "options": []
+      },
+      {
+        "name": "Destrier",
+        "points_base": 411,
+        "composition": "1 Destrier",
+        "models": [
+          {
+            "name": "Destrier",
+            "stats": {
+              "M": "12",
+              "WS": "3+",
+              "BS": "3+",
+              "S": "7",
+              "FA": "12",
+              "SA": "12",
+              "RA": "10",
+              "W": "18",
+              "I": "4",
+              "A": "6",
+              "Ld": "10",
+              "Sv": "3+"
+            },
+            "rules": [
+              "Titanic Vehicle",
+              "Combat Walker",
+              "Imperial God Engine",
+              "Knight Protector",
+              "Rotate Ion Shields",
+              "Fearless",
+              "Night Vision",
+              "Stubborn",
+              "Steady"
+            ]
+          }
+        ],
+        "fixed_wargear": [
+          "2 Thundershock Spears",
+          "Heavy Stubber"
+        ],
+        "options": [
+          {
+            "description": "May swap any Thundershock Spear for H or M",
+            "choices": []
+          }
+        ]
+      },
+      {
+        "name": "Lancer",
+        "points_base": 519,
+        "composition": "1 Lancer",
+        "models": [
+          {
+            "name": "Lancer",
+            "stats": {
+              "M": "12",
+              "WS": "3+",
+              "BS": "3+",
+              "S": "8",
+              "FA": "13",
+              "SA": "12",
+              "RA": "12",
+              "W": "26",
+              "I": "4",
+              "A": "6",
+              "Ld": "10",
+              "Sv": "3+"
+            },
+            "rules": [
+              "Titanic Vehicle",
+              "Combat Walker",
+              "Imperial God Engine",
+              "Knight Protector",
+              "Rotate Ion Shields",
+              "Fearless",
+              "Night Vision",
+              "Stubborn",
+              "Steady"
+            ]
+          }
+        ],
+        "fixed_wargear": [
+          "Cerastus Shock Lance",
+          "Ion Gauntlet Shield"
+        ],
+        "options": []
+      }
+    ],
+    "heavy_support": [
+      {
+        "name": "Asterius",
+        "points_base": 626,
+        "composition": "1 Asterius",
+        "models": [
+          {
+            "name": "Asterius",
+            "stats": {
+              "M": "10",
+              "WS": "4+",
+              "BS": "3+",
+              "S": "8",
+              "FA": "14",
+              "SA": "13",
+              "RA": "13",
+              "W": "30",
+              "I": "4",
+              "A": "6",
+              "Ld": "10",
+              "Sv": "3+"
+            },
+            "rules": [
+              "Titanic Vehicle",
+              "Combat Walker",
+              "Imperial God Engine",
+              "Knight Protector",
+              "Rotate Ion Shields",
+              "Fearless",
+              "Night Vision",
+              "Stubborn",
+              "Steady"
+            ]
+          }
+        ],
+        "fixed_wargear": [
+          "2 Sets of 2 Linked Conversion",
+          "Beam Cannons",
+          "2 Asterius Volkite Culverins",
+          "Karacnos Mortar Battery"
+        ],
+        "options": []
+      },
+      {
+        "name": "Valiant",
+        "points_base": 757,
+        "composition": "1 Valiant",
+        "models": [
+          {
+            "name": "Valiant",
+            "stats": {
+              "M": "10",
+              "WS": "3+",
+              "BS": "3+",
+              "S": "8",
+              "FA": "14",
+              "SA": "13",
+              "RA": "12",
+              "W": "28",
+              "I": "4",
+              "A": "6",
+              "Ld": "10",
+              "Sv": "3+"
+            },
+            "rules": [
+              "Titanic Vehicle",
+              "Combat Walker",
+              "Imperial God Engine",
+              "Knight Protector",
+              "Rotate Ion Shields",
+              "Fearless",
+              "Night Vision",
+              "Stubborn",
+              "Steady"
+            ]
+          }
+        ],
+        "fixed_wargear": [
+          "2 Volcano Lances",
+          "3 Sets of 2 Linked Siege Breaker",
+          "Cannons",
+          "2 Sets of 2 Linked Meltaguns"
+        ],
+        "options": [
+          {
+            "description": "May swap any Volcano Cannon for H",
+            "choices": []
+          },
+          {
+            "description": "May swap any 2 Linked Siege Breaker Cannons for T",
+            "choices": []
+          }
+        ]
+      }
+    ],
+    "lord_of_war": [
+      {
+        "name": "Imperial Fortress",
+        "points_base": 666,
+        "composition": "1 Porphyrion",
+        "models": [
+          {
+            "name": "Gate",
+            "stats": {},
+            "rules": []
+          },
+          {
+            "name": "Gate Towers",
+            "stats": {},
+            "rules": [
+              "Titanic Vehicle",
+              "Combat Walker",
+              "Imperial God Engine",
+              "Knight Protector",
+              "Rotate Ion Shields",
+              "Fearless",
+              "Night Vision",
+              "Stubborn",
+              "Steady"
+            ]
+          },
+          {
+            "name": "Walls",
+            "stats": {},
+            "rules": []
+          },
+          {
+            "name": "Towers",
+            "stats": {},
+            "rules": []
+          }
+        ],
+        "fixed_wargear": [
+          "Heavy Gate",
+          "2 Linked Heavy Bolters",
+          "None"
+        ],
+        "options": [
+          {
+            "description": "May add as many sets of 1 Gate and 2 Gate Towers as you want for +967 points",
+            "choices": []
+          },
+          {
+            "description": "May add as many Walls as you want for +299 points each",
+            "choices": []
+          }
+        ]
+      },
+      {
+        "name": "Imperial Fortress",
+        "points_base": 2339,
+        "composition": "1 Gate 2 Gate Towers 2 Walls 2 Towers",
+        "models": [
+          {
+            "name": "Gate",
+            "stats": {},
+            "rules": [
+              "Building",
+              "Titanic"
+            ]
+          },
+          {
+            "name": "Gate Towers",
+            "stats": {},
+            "rules": []
+          },
+          {
+            "name": "Walls",
+            "stats": {},
+            "rules": []
+          },
+          {
+            "name": "Towers",
+            "stats": {},
+            "rules": []
+          }
+        ],
+        "fixed_wargear": [
+          "Heavy Gate",
+          "2 Linked Heavy Bolters",
+          "None"
+        ],
+        "options": [
+          {
+            "description": "May add as many sets of 1 Gate and 2 Gate Towers as you want for +967 points",
+            "choices": []
+          },
+          {
+            "description": "May add as many Walls as you want for +299 points each Points: 666 1 Porphyrion",
+            "choices": []
+          }
+        ]
+      }
+    ],
+    "fortifications": [
+      {
+        "name": "Primaris Redoubt",
+        "points_base": 629,
+        "composition": "1 Primaris Redoubt",
+        "models": [
+          {
+            "name": "Primaris Redoubt",
+            "stats": {},
+            "rules": [
+              "Building"
+            ]
+          }
+        ],
+        "fixed_wargear": [
+          "2 Linked Turbolaser Destructors"
+        ],
+        "options": []
+      },
+      {
+        "name": "Aegis Weapon Emplacement",
+        "points_base": 66,
+        "composition": "1 Aegis Weapon Emplacement",
+        "models": [
+          {
+            "name": "Platform",
+            "stats": {},
+            "rules": [
+              "Building"
+            ]
+          }
+        ],
+        "fixed_wargear": [
+          "Long Lascannon"
+        ],
+        "options": [
+          {
+            "description": "May swap Long Lascannon for H",
+            "choices": []
+          }
+        ]
+      },
+      {
+        "name": "Aquila Strongpoint",
+        "points_base": 448,
+        "composition": "1 Aquila Strongpoint",
+        "models": [
+          {
+            "name": "Aquila Strongpoint",
+            "stats": {},
+            "rules": [
+              "Building"
+            ]
+          }
+        ],
+        "fixed_wargear": [
+          "Plasma Obliterator"
+        ],
+        "options": []
+      },
+      {
+        "name": "Imperial Bastion",
+        "points_base": 397,
+        "composition": "1 Firestorm Redoubt",
+        "models": [
+          {
+            "name": "Imperial Bastion",
+            "stats": {},
+            "rules": [
+              "Building"
+            ]
+          }
+        ],
+        "fixed_wargear": [
+          "4 Heavy Bolters"
+        ],
+        "options": []
+      },
+      {
+        "name": "Imperial Bastion",
+        "points_base": 429,
+        "composition": "1 Imperial Bastion",
+        "models": [
+          {
+            "name": "Imperial Bastion",
+            "stats": {},
+            "rules": [
+              "Building"
+            ]
+          }
+        ],
+        "fixed_wargear": [
+          "4 Heavy Bolters"
+        ],
+        "options": []
+      },
+      {
+        "name": "Vengeance Weapon Battery",
+        "points_base": 474,
+        "composition": "1 Plasma Obliterator",
+        "models": [
+          {
+            "name": "Vengeance Weapon Battery",
+            "stats": {},
+            "rules": [
+              "Building"
+            ]
+          }
+        ],
+        "fixed_wargear": [
+          "Punisher Gatling Cannon"
+        ],
+        "options": [
+          {
+            "description": "May swap Punisher Gatling Cannon for H",
+            "choices": []
+          }
+        ]
+      },
+      {
+        "name": "Vengeance Weapon Battery",
+        "points_base": 267,
+        "composition": "1 Firestorm Redoubt",
+        "models": [
+          {
+            "name": "Vengeance Weapon Battery",
+            "stats": {},
+            "rules": [
+              "Building"
+            ]
+          }
+        ],
+        "fixed_wargear": [
+          "Punisher Gatling Cannon"
+        ],
+        "options": [
+          {
+            "description": "May swap Punisher Gatling Cannon for H",
+            "choices": []
+          }
+        ]
+      },
+      {
+        "name": "Void Shield Generator",
+        "points_base": 307,
+        "composition": "1 Void Shield Generator",
+        "models": [
+          {
+            "name": "Void Shield Generator",
+            "stats": {},
+            "rules": [
+              "Building"
+            ]
+          }
+        ],
+        "fixed_wargear": [
+          "none"
+        ],
+        "options": []
+      }
+    ]
+  }
+}

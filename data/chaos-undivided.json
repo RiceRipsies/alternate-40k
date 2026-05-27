@@ -1,0 +1,6211 @@
+{
+  "id": "chaos-undivided",
+  "name": "Chaos Undivided",
+  "difficulty": 1,
+  "subfactions": [
+    {
+      "name": "Average"
+    },
+    {
+      "name": "Alpha Legion"
+    },
+    {
+      "name": "Black Legion"
+    },
+    {
+      "name": "Crimson Slaughter"
+    },
+    {
+      "name": "Iron Warriors"
+    }
+  ],
+  "slots": {
+    "hq": [
+      {
+        "name": "Chaos Lord",
+        "points_base": 169,
+        "composition": "1 Lord",
+        "models": [
+          {
+            "name": "Lord",
+            "stats": {
+              "M": "6",
+              "WS": "2+",
+              "BS": "2+",
+              "S": "4",
+              "T": "4",
+              "W": "5",
+              "I": "4",
+              "A": "4",
+              "Ld": "9",
+              "Sv": "3+"
+            },
+            "rules": [
+              "Independent Character",
+              "Infantry",
+              "Malicious Volleys",
+              "Night Vision",
+              "Shock Assault",
+              "Lord of Chaos"
+            ]
+          }
+        ],
+        "fixed_wargear": [
+          "Bolt Pistol",
+          "Brutal Weapon",
+          "Frag Grenades",
+          "Krak Grenades",
+          "Sigil of Corruption"
+        ],
+        "options": [
+          {
+            "description": "May swap Bolt Pistol for P, R, or M",
+            "choices": []
+          },
+          {
+            "description": "May swap Brutal Weapon for M",
+            "choices": []
+          },
+          {
+            "description": "May swap Krak Grenades for G",
+            "choices": []
+          },
+          {
+            "description": "May take one A If a model took the Mark of Khorne it may choose one A or KA",
+            "choices": [
+              {
+                "name": "Terminator Armour",
+                "pts_delta": 16
+              }
+            ]
+          },
+          {
+            "description": "May take one B If this model took one B, it may take one corresponding C",
+            "choices": []
+          }
+        ]
+      },
+      {
+        "name": "Chaos Sorcerer",
+        "points_base": 218,
+        "composition": "1 Sorcerer",
+        "models": [
+          {
+            "name": "Sorcerer",
+            "stats": {
+              "M": "6",
+              "WS": "2+",
+              "BS": "2+",
+              "S": "4",
+              "T": "4",
+              "W": "5",
+              "I": "4",
+              "A": "4",
+              "Ld": "9",
+              "Sv": "3+"
+            },
+            "rules": [
+              "Independent Character",
+              "Infantry",
+              "Night Vision",
+              "Psychic Mastery Level 3",
+              "Shock Assault"
+            ]
+          }
+        ],
+        "fixed_wargear": [
+          "Bolt Pistol",
+          "Force Staff",
+          "Frag Grenades",
+          "Krak Grenades",
+          "Sigil of Corruption"
+        ],
+        "options": [
+          {
+            "description": "May swap Bolt Pistol for P or R",
+            "choices": []
+          },
+          {
+            "description": "May swap Force Staff for M",
+            "choices": []
+          },
+          {
+            "description": "May swap Krak Grenades for G",
+            "choices": []
+          },
+          {
+            "description": "May take one A",
+            "choices": [
+              {
+                "name": "Terminator Armour",
+                "pts_delta": 16
+              }
+            ]
+          },
+          {
+            "description": "May take one B If this model took one B, it may take one corresponding C",
+            "choices": []
+          },
+          {
+            "description": "May swap Psychic Mastery Level 3 for Psychic Mastery Level 4 for +75 points",
+            "choices": []
+          },
+          {
+            "description": "May take up to one Spell for each level of Psychic Mastery that correlates to selected Mark of Chaos",
+            "choices": []
+          }
+        ]
+      },
+      {
+        "name": "Daemon Prince",
+        "points_base": 264,
+        "composition": "1 Prince",
+        "models": [
+          {
+            "name": "Prince",
+            "stats": {
+              "M": "8",
+              "WS": "2+",
+              "BS": "2+",
+              "S": "7",
+              "T": "6",
+              "W": "8",
+              "I": "8",
+              "A": "6",
+              "Ld": "10",
+              "Sv": "3+"
+            },
+            "rules": [
+              "Independent Character",
+              "Monster",
+              "Daemonic",
+              "Deepstrike",
+              "Fearless",
+              "Night Vision",
+              "Shock Assault",
+              "Lord of Chaos",
+              "Gain Psychic Mastery Level 1",
+              "Gain Psychic Mastery Level 2",
+              "Gain Psychic Mastery Level 3"
+            ]
+          }
+        ],
+        "fixed_wargear": [
+          "Malefic Talons",
+          "Sigil of Corruption"
+        ],
+        "options": [
+          {
+            "description": "May swap Malefic Talons for M",
+            "choices": []
+          },
+          {
+            "description": "May take one F",
+            "choices": []
+          },
+          {
+            "description": "May take one A",
+            "choices": [
+              {
+                "name": "Foetid Wings",
+                "pts_delta": 15
+              }
+            ]
+          },
+          {
+            "description": "May take one B If this model took one B, it may take one corresponding C",
+            "choices": [
+              {
+                "name": "Mark of Khorne",
+                "pts_delta": 8
+              },
+              {
+                "name": "Mark of Nurgle",
+                "pts_delta": 15
+              },
+              {
+                "name": "Mark of Slaanesh",
+                "pts_delta": 9
+              },
+              {
+                "name": "Mark of Tzeentch",
+                "pts_delta": 0
+              },
+              {
+                "name": "Mark of Undivided",
+                "pts_delta": 10
+              }
+            ]
+          },
+          {
+            "description": "May take one D",
+            "choices": [
+              {
+                "name": "Collar of Khorne",
+                "pts_delta": 5
+              }
+            ]
+          },
+          {
+            "description": "May take up to one Spell for each level of Psychic Mastery that correlates to selected Mark of Chaos",
+            "choices": []
+          }
+        ]
+      },
+      {
+        "name": "Dark Apostle",
+        "points_base": 167,
+        "composition": "1 Apostle",
+        "models": [
+          {
+            "name": "Apostle",
+            "stats": {
+              "M": "6",
+              "WS": "2+",
+              "BS": "2+",
+              "S": "4",
+              "T": "4",
+              "W": "5",
+              "I": "4",
+              "A": "4",
+              "Ld": "9",
+              "Sv": "3+"
+            },
+            "rules": [
+              "Independent Character",
+              "Infantry",
+              "Malicious Volleys",
+              "Night Vision",
+              "Shock Assault",
+              "Dark Zealotry",
+              "Melee."
+            ]
+          }
+        ],
+        "fixed_wargear": [
+          "Bolt Pistol",
+          "Brutal Weapon",
+          "Frag Grenades",
+          "Krak Grenades",
+          "Sigil of Corruption"
+        ],
+        "options": [
+          {
+            "description": "May swap Bolt Pistol for P or R",
+            "choices": []
+          },
+          {
+            "description": "May swap Brutal Weapon for M",
+            "choices": []
+          },
+          {
+            "description": "May swap Krak Grenades for G",
+            "choices": []
+          },
+          {
+            "description": "May take one A",
+            "choices": [
+              {
+                "name": "Terminator Armour",
+                "pts_delta": 16
+              },
+              {
+                "name": "Jump Pack",
+                "pts_delta": 20
+              },
+              {
+                "name": "Bike",
+                "pts_delta": 24
+              },
+              {
+                "name": "Palanquin",
+                "pts_delta": 31
+              }
+            ]
+          },
+          {
+            "description": "May take one B If this model took one B, it may take one corresponding C",
+            "choices": [
+              {
+                "name": "Mark of Khorne",
+                "pts_delta": 8
+              },
+              {
+                "name": "Mark of Nurgle",
+                "pts_delta": 15
+              },
+              {
+                "name": "Mark of Slaanesh",
+                "pts_delta": 7
+              },
+              {
+                "name": "Mark of Tzeentch",
+                "pts_delta": 12
+              },
+              {
+                "name": "Mark of Undivided",
+                "pts_delta": 10
+              }
+            ]
+          },
+          {
+            "description": "May take one H",
+            "choices": [
+              {
+                "name": "Omen of Potency",
+                "pts_delta": 18
+              },
+              {
+                "name": "Litany of Despair",
+                "pts_delta": 20
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Dark Commune",
+        "points_base": 266,
+        "composition": "1 Demagogue 1 Icon Bearer 1 Mindwitch 2 Blessed Blades",
+        "models": [
+          {
+            "name": "Demagogue",
+            "stats": {
+              "M": "6",
+              "WS": "3+",
+              "BS": "3+",
+              "S": "3",
+              "T": "3",
+              "W": "4",
+              "I": "3",
+              "A": "3",
+              "Ld": "7",
+              "Sv": "6+"
+            },
+            "rules": [
+              "Independent Character",
+              "Infantry",
+              "Lord of Chaos"
+            ]
+          },
+          {
+            "name": "Icon Bearer",
+            "stats": {
+              "M": "6",
+              "WS": "3+",
+              "BS": "3+",
+              "S": "3",
+              "T": "3",
+              "W": "4",
+              "I": "3",
+              "A": "3",
+              "Ld": "7",
+              "Sv": "6+"
+            },
+            "rules": [
+              "Character",
+              "Infantry"
+            ]
+          },
+          {
+            "name": "Mindwitch",
+            "stats": {
+              "M": "6",
+              "WS": "3+",
+              "BS": "3+",
+              "S": "3",
+              "T": "3",
+              "W": "4",
+              "I": "3",
+              "A": "3",
+              "Ld": "7",
+              "Sv": "6+"
+            },
+            "rules": [
+              "Character",
+              "Infantry",
+              "Psychic Mastery Level 2"
+            ]
+          },
+          {
+            "name": "Blessed Blade",
+            "stats": {
+              "M": "6",
+              "WS": "3+",
+              "BS": "3+",
+              "S": "3",
+              "T": "3",
+              "W": "4",
+              "I": "3",
+              "A": "3",
+              "Ld": "7",
+              "Sv": "6+"
+            },
+            "rules": [
+              "Character",
+              "Infantry",
+              "Bodyguard"
+            ]
+          }
+        ],
+        "fixed_wargear": [
+          "Autopistol",
+          "Brutal Weapon",
+          "Autopistol",
+          "Brutal Weapon",
+          "Icon of Chaos",
+          "Brutal Weapon",
+          "Great Weapon"
+        ],
+        "options": [
+          {
+            "description": "may take one corresponding C",
+            "choices": []
+          },
+          {
+            "description": "May take Mark of Khorne",
+            "choices": [
+              {
+                "name": "Mark of Khorne",
+                "pts_delta": 40
+              }
+            ]
+          },
+          {
+            "description": "May take Mark of Nurgle",
+            "choices": [
+              {
+                "name": "Mark of Nurgle",
+                "pts_delta": 75
+              }
+            ]
+          },
+          {
+            "description": "May take Mark of Slaanesh",
+            "choices": [
+              {
+                "name": "Mark of Slaanesh",
+                "pts_delta": 35
+              }
+            ]
+          },
+          {
+            "description": "May take Mark of Tzeentch",
+            "choices": [
+              {
+                "name": "Mark of Tzeentch",
+                "pts_delta": 60
+              }
+            ]
+          },
+          {
+            "description": "May take Mark of Undivided",
+            "choices": [
+              {
+                "name": "Mark of Undivided",
+                "pts_delta": 50
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Abaddon the Despoiler",
+        "points_base": 611,
+        "composition": "1 Abaddon",
+        "models": [
+          {
+            "name": "Abaddon",
+            "stats": {
+              "M": "6",
+              "WS": "2+",
+              "BS": "2+",
+              "S": "5",
+              "T": "5",
+              "W": "8",
+              "I": "10",
+              "A": "7",
+              "Ld": "10",
+              "Sv": "3+"
+            },
+            "rules": [
+              "Independent Character",
+              "Monstrous Infantry",
+              "Unique",
+              "Black Legion",
+              "Daemonic",
+              "Malicious Volleys",
+              "Deepstrike",
+              "Fearless",
+              "Night Vision",
+              "Shock Assault",
+              "Stubborn"
+            ]
+          }
+        ],
+        "fixed_wargear": [
+          "Talon of Horus",
+          "Drach\u2019nyen",
+          "Orbital Strike",
+          "Sigil of Corruption"
+        ],
+        "options": []
+      },
+      {
+        "name": "Be\u2019Lakor",
+        "points_base": 385,
+        "composition": "1 Be\u2019Lakor",
+        "models": [
+          {
+            "name": "Be\u2019Lakor",
+            "stats": {
+              "M": "8",
+              "WS": "2+",
+              "BS": "2+",
+              "S": "7",
+              "T": "6",
+              "W": "8",
+              "I": "8",
+              "A": "6",
+              "Ld": "10",
+              "Sv": "3+"
+            },
+            "rules": [
+              "Independent Character",
+              "Monster",
+              "Unique",
+              "Daemonic",
+              "Deepstrike",
+              "Fearless",
+              "Night Vision",
+              "Psychic Mastery Level 3",
+              "Shock Assault",
+              "Lord of Chaos",
+              "Lord of Torment",
+              "Shadow Form"
+            ]
+          }
+        ],
+        "fixed_wargear": [
+          "The Blade of Shadows",
+          "Sigil of Corruption"
+        ],
+        "options": [
+          {
+            "description": "May take one A",
+            "choices": [
+              {
+                "name": "Ascended",
+                "pts_delta": 111
+              }
+            ]
+          },
+          {
+            "description": "May take up to one Spell for each level of Psychic Mastery that correlates to selected Mark of Chaos",
+            "choices": []
+          }
+        ]
+      },
+      {
+        "name": "Huron Blackheart",
+        "points_base": 217,
+        "composition": "1 Haarken",
+        "models": [
+          {
+            "name": "Huron",
+            "stats": {
+              "M": "6",
+              "WS": "2+",
+              "BS": "2+",
+              "S": "4",
+              "T": "4",
+              "W": "5",
+              "I": "4",
+              "A": "5",
+              "Ld": "9",
+              "Sv": "3+"
+            },
+            "rules": [
+              "Independent Character",
+              "Infantry",
+              "Unique",
+              "Bulky",
+              "Deepstrike",
+              "Fly",
+              "Shock Assault",
+              "Lord of Chaos",
+              "Herald of Abaddon"
+            ]
+          }
+        ],
+        "fixed_wargear": [
+          "Tyrant\u2019s Claw",
+          "Power Axe",
+          "Frag Grenades",
+          "Krak Grenades",
+          "Sigil of Corruption"
+        ],
+        "options": [
+          {
+            "description": "May take one S for each level of Psychic Mastery",
+            "choices": []
+          },
+          {
+            "description": "May take one A",
+            "choices": [
+              {
+                "name": "Exalted",
+                "pts_delta": 11
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Huron Blackheart",
+        "points_base": 244,
+        "composition": "1 Huron",
+        "models": [
+          {
+            "name": "Huron",
+            "stats": {
+              "M": "6",
+              "WS": "2+",
+              "BS": "2+",
+              "S": "4",
+              "T": "4",
+              "W": "5",
+              "I": "4",
+              "A": "5",
+              "Ld": "9",
+              "Sv": "3+"
+            },
+            "rules": [
+              "Independent Character",
+              "Infantry",
+              "Unique",
+              "Red Corsairs",
+              "Night Vision",
+              "Psychic Mastery Level 1",
+              "Shock Assault",
+              "Lord of Chaos",
+              "Tyrant of Badab"
+            ]
+          }
+        ],
+        "fixed_wargear": [
+          "Tyrant\u2019s Claw",
+          "Power Axe",
+          "Frag Grenades",
+          "Krak Grenades",
+          "Sigil of Corruption"
+        ],
+        "options": [
+          {
+            "description": "May take one S for each level of Psychic Mastery",
+            "choices": []
+          },
+          {
+            "description": "May take one A",
+            "choices": [
+              {
+                "name": "Exalted",
+                "pts_delta": 11
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Kranon the Relentless",
+        "points_base": 241,
+        "composition": "1 Kranon",
+        "models": [
+          {
+            "name": "Kranon",
+            "stats": {
+              "M": "6",
+              "WS": "2+",
+              "BS": "2+",
+              "S": "4",
+              "T": "4",
+              "W": "5",
+              "I": "4",
+              "A": "4",
+              "Ld": "9",
+              "Sv": "3+"
+            },
+            "rules": [
+              "Independent Character",
+              "Infantry",
+              "Unique",
+              "Crimson Slaughter",
+              "Shock Assault",
+              "Lord of Chaos",
+              "The Hunt for the Stone"
+            ]
+          }
+        ],
+        "fixed_wargear": [
+          "Plasma Pistol",
+          "Power Sword",
+          "Frag Grenades",
+          "Krak Grenades",
+          "Sigil of Corruption"
+        ],
+        "options": []
+      },
+      {
+        "name": "Kravek Morne",
+        "points_base": 349,
+        "composition": "1 Morne",
+        "models": [
+          {
+            "name": "Morne",
+            "stats": {
+              "M": "4",
+              "WS": "2+",
+              "BS": "2+",
+              "S": "4",
+              "T": "5",
+              "W": "7",
+              "I": "4",
+              "A": "4",
+              "Ld": "9",
+              "Sv": "3+"
+            },
+            "rules": [
+              "Independent Character",
+              "Monstrous Infantry",
+              "Unique",
+              "Iron Warriors",
+              "Malicious Volleys",
+              "Deepstrike",
+              "Steady",
+              "Shock Assault",
+              "Very Bulky",
+              "Fortress Breaker",
+              "Repair",
+              "Weapon Destroyed."
+            ]
+          }
+        ],
+        "fixed_wargear": [
+          "Stormbolter",
+          "Baleflamer",
+          "Last Argument",
+          "Powerfist",
+          "Servo Arm",
+          "Sigil of Corruption"
+        ],
+        "options": []
+      },
+      {
+        "name": "Lord Arkos the Faithless",
+        "points_base": 368,
+        "composition": "1 Arkos",
+        "models": [
+          {
+            "name": "Arkos",
+            "stats": {
+              "M": "6",
+              "WS": "2+",
+              "BS": "2+",
+              "S": "4",
+              "T": "4",
+              "W": "5",
+              "I": "4",
+              "A": "4",
+              "Ld": "9",
+              "Sv": "3+"
+            },
+            "rules": [
+              "Independent Character",
+              "Infantry",
+              "Unique",
+              "The Faithless",
+              "Malicious Volleys",
+              "Night Vision",
+              "Shock Assault",
+              "Lord of Chaos",
+              "Sow Discontent"
+            ]
+          }
+        ],
+        "fixed_wargear": [
+          "Combi Melta",
+          "The Black Blade of Venom",
+          "Frag Grenades",
+          "Krak Grenades",
+          "Sigil of Corruption"
+        ],
+        "options": []
+      },
+      {
+        "name": "Vashtorr the Arkifane",
+        "points_base": 394,
+        "composition": "1 Vashtorr",
+        "models": [
+          {
+            "name": "Vashtorr",
+            "stats": {
+              "M": "12",
+              "WS": "2+",
+              "BS": "5+",
+              "S": "7",
+              "T": "7",
+              "W": "12",
+              "I": "8",
+              "A": "6",
+              "Ld": "10",
+              "Sv": "-"
+            },
+            "rules": [
+              "Independent Character",
+              "Monster",
+              "Unique",
+              "Daemonic",
+              "Deepstrike",
+              "Fearless",
+              "Fly",
+              "Shock Assault",
+              "Lord of Chaos",
+              "Lord of Terror",
+              "Mind in the Machine",
+              "Unholy Mechanisms"
+            ]
+          }
+        ],
+        "fixed_wargear": [
+          "Vashtorr\u2019s Hammer",
+          "Vashtorr\u2019s Claw",
+          "Sigil of Corruption"
+        ],
+        "options": []
+      }
+    ],
+    "advisors": [
+      {
+        "name": "Beastman Icon Bearer",
+        "points_base": 73,
+        "composition": "1 Beastman",
+        "models": [
+          {
+            "name": "Beastman",
+            "stats": {
+              "M": "6",
+              "WS": "3+",
+              "BS": "3+",
+              "S": "4",
+              "T": "4",
+              "W": "4",
+              "I": "3",
+              "A": "3",
+              "Ld": "7",
+              "Sv": "5+"
+            },
+            "rules": [
+              "Character",
+              "Infantry"
+            ]
+          }
+        ],
+        "fixed_wargear": [
+          "Autopistol",
+          "Brutal Weapon",
+          "Icon of Chaos"
+        ],
+        "options": [
+          {
+            "description": "May swap Autopistol for P",
+            "choices": []
+          },
+          {
+            "description": "May swap Brutal Weapon for M",
+            "choices": []
+          },
+          {
+            "description": "May take up to one of each G",
+            "choices": []
+          },
+          {
+            "description": "May take one B If this model took one B, it may take one corresponding C",
+            "choices": [
+              {
+                "name": "Mark of Khorne",
+                "pts_delta": 8
+              },
+              {
+                "name": "Mark of Nurgle",
+                "pts_delta": 15
+              },
+              {
+                "name": "Mark of Slaanesh",
+                "pts_delta": 7
+              },
+              {
+                "name": "Mark of Tzeentch",
+                "pts_delta": 12
+              },
+              {
+                "name": "Mark of Undivided",
+                "pts_delta": 10
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Cultist Icon Bearer",
+        "points_base": 72,
+        "composition": "1 Cultist",
+        "models": [
+          {
+            "name": "Cultist",
+            "stats": {
+              "M": "6",
+              "WS": "3+",
+              "BS": "3+",
+              "S": "3",
+              "T": "3",
+              "W": "4",
+              "I": "3",
+              "A": "3",
+              "Ld": "7",
+              "Sv": "6+"
+            },
+            "rules": [
+              "Independent Character",
+              "Infantry",
+              "Unholy Fire",
+              "Command Phase."
+            ]
+          }
+        ],
+        "fixed_wargear": [
+          "Autopistol",
+          "Brutal Weapon",
+          "Icon of Chaos"
+        ],
+        "options": [
+          {
+            "description": "May swap Brutal Weapon for M",
+            "choices": []
+          },
+          {
+            "description": "May take one B If this model took one B, it may take one corresponding C",
+            "choices": [
+              {
+                "name": "Mark of Khorne",
+                "pts_delta": 8
+              },
+              {
+                "name": "Mark of Nurgle",
+                "pts_delta": 15
+              },
+              {
+                "name": "Mark of Slaanesh",
+                "pts_delta": 7
+              },
+              {
+                "name": "Mark of Tzeentch",
+                "pts_delta": 12
+              },
+              {
+                "name": "Mark of Undivided",
+                "pts_delta": 10
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Cultist Icon Bearer",
+        "points_base": 68,
+        "composition": "1 Cultist",
+        "models": [
+          {
+            "name": "Cultist",
+            "stats": {
+              "M": "6",
+              "WS": "3+",
+              "BS": "3+",
+              "S": "3",
+              "T": "3",
+              "W": "4",
+              "I": "3",
+              "A": "3",
+              "Ld": "7",
+              "Sv": "6+"
+            },
+            "rules": [
+              "Independent Character",
+              "Infantry"
+            ]
+          }
+        ],
+        "fixed_wargear": [
+          "Autopistol",
+          "Brutal Weapon",
+          "Icon of Chaos"
+        ],
+        "options": [
+          {
+            "description": "May swap Brutal Weapon for M",
+            "choices": []
+          },
+          {
+            "description": "May take one B If this model took one B, it may take one corresponding C",
+            "choices": [
+              {
+                "name": "Mark of Khorne",
+                "pts_delta": 8
+              },
+              {
+                "name": "Mark of Nurgle",
+                "pts_delta": 15
+              },
+              {
+                "name": "Mark of Slaanesh",
+                "pts_delta": 7
+              },
+              {
+                "name": "Mark of Tzeentch",
+                "pts_delta": 12
+              },
+              {
+                "name": "Mark of Undivided",
+                "pts_delta": 10
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Hellwright",
+        "points_base": 33,
+        "composition": "1 Cultist",
+        "models": [
+          {
+            "name": "Hellwright",
+            "stats": {
+              "M": "6",
+              "WS": "3+",
+              "BS": "3+",
+              "S": "4",
+              "T": "4",
+              "W": "4",
+              "I": "4",
+              "A": "3",
+              "Ld": "7",
+              "Sv": "3+"
+            },
+            "rules": [
+              "Independent Character",
+              "Infantry",
+              "Points: 90"
+            ]
+          }
+        ],
+        "fixed_wargear": [
+          "Soulburner Pistol",
+          "Infernal Axe",
+          "Frag Grenades"
+        ],
+        "options": [
+          {
+            "description": "May take one A",
+            "choices": []
+          },
+          {
+            "description": "May take one B If this model took one B, it may take one corresponding C",
+            "choices": []
+          }
+        ]
+      },
+      {
+        "name": "Hellwright",
+        "points_base": 90,
+        "composition": "1 Hellwright",
+        "models": [
+          {
+            "name": "Hellwright",
+            "stats": {
+              "M": "6",
+              "WS": "3+",
+              "BS": "3+",
+              "S": "4",
+              "T": "4",
+              "W": "4",
+              "I": "4",
+              "A": "3",
+              "Ld": "7",
+              "Sv": "3+"
+            },
+            "rules": [
+              "Independent Character",
+              "Infantry",
+              "Night Vision",
+              "Gift of the Hellforge",
+              "Repair",
+              "Weapon Destroyed."
+            ]
+          }
+        ],
+        "fixed_wargear": [
+          "Soulburner Pistol",
+          "Infernal Axe",
+          "Frag Grenades"
+        ],
+        "options": [
+          {
+            "description": "May take one A",
+            "choices": []
+          },
+          {
+            "description": "May take one B If this model took one B, it may take one corresponding C",
+            "choices": []
+          }
+        ]
+      },
+      {
+        "name": "Lord Discordant on Helstalker",
+        "points_base": 264,
+        "composition": "1 Discordant",
+        "models": [
+          {
+            "name": "Discordant",
+            "stats": {
+              "M": "10",
+              "WS": "2+",
+              "BS": "2+",
+              "S": "7",
+              "T": "6",
+              "W": "10",
+              "I": "4",
+              "A": "4",
+              "Ld": "7",
+              "Sv": "3+"
+            },
+            "rules": [
+              "Independent Character",
+              "Monster",
+              "Daemonic",
+              "Night Vision",
+              "Steady",
+              "Aura of Discord"
+            ]
+          }
+        ],
+        "fixed_wargear": [
+          "Autocannon",
+          "Bolt Pistol",
+          "Bladed Limbs",
+          "Techno-Virus Injector",
+          "Frag Grenades",
+          "Krak Grenades"
+        ],
+        "options": [
+          {
+            "description": "May swap Autocannon for H",
+            "choices": []
+          },
+          {
+            "description": "May take one B If this model took one B, it may take one corresponding C",
+            "choices": [
+              {
+                "name": "Mark of Khorne",
+                "pts_delta": 8
+              },
+              {
+                "name": "Mark of Nurgle",
+                "pts_delta": 15
+              },
+              {
+                "name": "Mark of Slaanesh",
+                "pts_delta": 7
+              },
+              {
+                "name": "Mark of Tzeentch",
+                "pts_delta": 12
+              },
+              {
+                "name": "Mark of Undivided",
+                "pts_delta": 10
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Marine Icon Bearer",
+        "points_base": 97,
+        "composition": "1 Marine",
+        "models": [
+          {
+            "name": "Marine",
+            "stats": {
+              "M": "6",
+              "WS": "3+",
+              "BS": "3+",
+              "S": "4",
+              "T": "4",
+              "W": "4",
+              "I": "4",
+              "A": "3",
+              "Ld": "8",
+              "Sv": "3+"
+            },
+            "rules": [
+              "Independent Character",
+              "Infantry",
+              "Malicious Volleys",
+              "Night Vision",
+              "Shock Assault"
+            ]
+          }
+        ],
+        "fixed_wargear": [
+          "Bolt Pistol",
+          "Brutal Weapon",
+          "Frag Grenades",
+          "Krak Grenades",
+          "Icon of Chaos"
+        ],
+        "options": [
+          {
+            "description": "May swap Bolt Pistol for P or R",
+            "choices": []
+          },
+          {
+            "description": "May swap Brutal Weapon for M",
+            "choices": []
+          },
+          {
+            "description": "May take one B If this model took one B, it may take one corresponding C",
+            "choices": [
+              {
+                "name": "Mark of Khorne",
+                "pts_delta": 8
+              },
+              {
+                "name": "Mark of Nurgle",
+                "pts_delta": 15
+              },
+              {
+                "name": "Mark of Slaanesh",
+                "pts_delta": 7
+              },
+              {
+                "name": "Mark of Tzeentch",
+                "pts_delta": 12
+              },
+              {
+                "name": "Mark of Undivided",
+                "pts_delta": 10
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Master of Executions",
+        "points_base": 144,
+        "composition": "1 Master of Executions",
+        "models": [
+          {
+            "name": "Master of Executions",
+            "stats": {
+              "M": "6",
+              "WS": "2+",
+              "BS": "2+",
+              "S": "4",
+              "T": "4",
+              "W": "4",
+              "I": "4",
+              "A": "5",
+              "Ld": "8",
+              "Sv": "3+"
+            },
+            "rules": [
+              "Independent Character",
+              "Infantry",
+              "Shock Assault",
+              "Trophy Taker",
+              "Challenge.",
+              "Warp Sighted Butcher"
+            ]
+          }
+        ],
+        "fixed_wargear": [
+          "Bolt Pistol",
+          "Axe of Dismemberment",
+          "Frag Grenades",
+          "Krak Grenades"
+        ],
+        "options": [
+          {
+            "description": "May take one B If this model took one B, it may take one corresponding C",
+            "choices": [
+              {
+                "name": "Mark of Khorne",
+                "pts_delta": 8
+              },
+              {
+                "name": "Mark of Nurgle",
+                "pts_delta": 15
+              },
+              {
+                "name": "Mark of Slaanesh",
+                "pts_delta": 7
+              },
+              {
+                "name": "Mark of Tzeentch",
+                "pts_delta": 12
+              },
+              {
+                "name": "Mark of Undivided",
+                "pts_delta": 10
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Master of Possessions",
+        "points_base": 73,
+        "composition": "1 Master of Possessions",
+        "models": [
+          {
+            "name": "Master of Possessions",
+            "stats": {
+              "M": "6",
+              "WS": "3+",
+              "BS": "3+",
+              "S": "4",
+              "T": "4",
+              "W": "4",
+              "I": "4",
+              "A": "3",
+              "Ld": "8",
+              "Sv": "3+"
+            },
+            "rules": [
+              "Independent Character",
+              "Infantry",
+              "Psychic Mastery 1",
+              "Shock Assault"
+            ]
+          }
+        ],
+        "fixed_wargear": [
+          "Bolt Pistol",
+          "Force Staff",
+          "Frag Grenades",
+          "Krak Grenades"
+        ],
+        "options": [
+          {
+            "description": "May take one B If this model took one B, it may take one corresponding C",
+            "choices": [
+              {
+                "name": "Mark of Khorne",
+                "pts_delta": 8
+              },
+              {
+                "name": "Mark of Nurgle",
+                "pts_delta": 15
+              },
+              {
+                "name": "Mark of Slaanesh",
+                "pts_delta": 7
+              },
+              {
+                "name": "Mark of Tzeentch",
+                "pts_delta": 12
+              },
+              {
+                "name": "Mark of Undivided",
+                "pts_delta": 10
+              }
+            ]
+          },
+          {
+            "description": "May take one S for each Psychic Mastery Level, using the included Spell list INSTEAD of the Mark\u2019s Spell List",
+            "choices": []
+          }
+        ]
+      },
+      {
+        "name": "Rogue Psyker",
+        "points_base": 38,
+        "composition": "1 Psyker",
+        "models": [
+          {
+            "name": "Psyker",
+            "stats": {
+              "M": "6",
+              "WS": "3+",
+              "BS": "3+",
+              "S": "3",
+              "T": "3",
+              "W": "4",
+              "I": "3",
+              "A": "3",
+              "Ld": "7",
+              "Sv": "6+"
+            },
+            "rules": [
+              "Independent Character",
+              "Infantry",
+              "Psychic Mastery Level 1"
+            ]
+          }
+        ],
+        "fixed_wargear": [
+          "Autopistol",
+          "Brutal Weapon"
+        ],
+        "options": [
+          {
+            "description": "May swap Brutal Weapon for M",
+            "choices": []
+          },
+          {
+            "description": "May take Psychic Mastery Level +1 for +15 points",
+            "choices": []
+          },
+          {
+            "description": "May take one Spell for each level of Psychic Mastery",
+            "choices": []
+          },
+          {
+            "description": "May take one B If this model took one B, it may take one corresponding C",
+            "choices": [
+              {
+                "name": "Mark of Khorne",
+                "pts_delta": 8
+              },
+              {
+                "name": "Mark of Nurgle",
+                "pts_delta": 15
+              },
+              {
+                "name": "Mark of Slaanesh",
+                "pts_delta": 7
+              },
+              {
+                "name": "Mark of Tzeentch",
+                "pts_delta": 12
+              },
+              {
+                "name": "Mark of Undivided",
+                "pts_delta": 10
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Warpsmith",
+        "points_base": 123,
+        "composition": "1 Warpsmith",
+        "models": [
+          {
+            "name": "Warpsmith",
+            "stats": {
+              "M": "6",
+              "WS": "3+",
+              "BS": "3+",
+              "S": "4",
+              "T": "4",
+              "W": "4",
+              "I": "4",
+              "A": "3",
+              "Ld": "8",
+              "Sv": "3+"
+            },
+            "rules": [
+              "Independent Character",
+              "Infantry",
+              "Shock Assault",
+              "Repair",
+              "Weapon Destroyed."
+            ]
+          }
+        ],
+        "fixed_wargear": [
+          "Inferno Pistol",
+          "Plasma Pistol",
+          "Handflamer",
+          "Bolt Pistol",
+          "Power Axe",
+          "Servo Arm",
+          "Frag Grenades",
+          "Krak Grenades"
+        ],
+        "options": [
+          {
+            "description": "May take one B If this model took one B, it may take one corresponding C",
+            "choices": [
+              {
+                "name": "Mark of Khorne",
+                "pts_delta": 8
+              },
+              {
+                "name": "Mark of Nurgle",
+                "pts_delta": 15
+              },
+              {
+                "name": "Mark of Slaanesh",
+                "pts_delta": 7
+              },
+              {
+                "name": "Mark of Tzeentch",
+                "pts_delta": 12
+              },
+              {
+                "name": "Mark of Undivided",
+                "pts_delta": 10
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Captain Sargotta",
+        "points_base": 224,
+        "composition": "1 Sargotta",
+        "models": [
+          {
+            "name": "Sargotta",
+            "stats": {
+              "M": "6",
+              "WS": "3+",
+              "BS": "3+",
+              "S": "3",
+              "T": "3",
+              "W": "5",
+              "I": "5",
+              "A": "3",
+              "Ld": "8",
+              "Sv": "4+"
+            },
+            "rules": [
+              "Independent Character",
+              "Infantry",
+              "Unique",
+              "Red Corsairs",
+              "Command Platform",
+              "The Hour is Nigh",
+              "T Minus 5"
+            ]
+          }
+        ],
+        "fixed_wargear": [
+          "Laspistol",
+          "Power Sword",
+          "Orbital Strike"
+        ],
+        "options": []
+      },
+      {
+        "name": "Fabius Bile",
+        "points_base": 484,
+        "composition": "1 Fabius Bile",
+        "models": [
+          {
+            "name": "Fabius Bile",
+            "stats": {
+              "M": "6",
+              "WS": "2+",
+              "BS": "2+",
+              "S": "4",
+              "T": "4",
+              "W": "5",
+              "I": "4",
+              "A": "4",
+              "Ld": "9",
+              "Sv": "3+"
+            },
+            "rules": [
+              "Independent Character",
+              "Infantry",
+              "Unique",
+              "Night Vision",
+              "Shock Assault",
+              "Enhanced Warriors",
+              "Fallen Apothecary",
+              "The Chirugeon",
+              "Command Phases."
+            ]
+          }
+        ],
+        "fixed_wargear": [
+          "Xyclos Needler",
+          "The Chirugeon",
+          "Frag Grenades",
+          "Krak Grenades"
+        ],
+        "options": []
+      },
+      {
+        "name": "Garreon the Corpsemaster",
+        "points_base": 280,
+        "composition": "1 Garlon",
+        "models": [
+          {
+            "name": "Garreon",
+            "stats": {
+              "M": "6",
+              "WS": "3+",
+              "BS": "3+",
+              "S": "4",
+              "T": "4",
+              "W": "5",
+              "I": "4",
+              "A": "5",
+              "Ld": "9",
+              "Sv": "3+"
+            },
+            "rules": [
+              "Independent Character",
+              "Infantry",
+              "Unique",
+              "Red Corsairs",
+              "Night Vision",
+              "Psychic Mastery Level 4",
+              "Shock Assault",
+              "Spy Network"
+            ]
+          }
+        ],
+        "fixed_wargear": [
+          "Absolver Bolt Pistol",
+          "Reductor",
+          "Frag Grenades",
+          "Krak Grenades"
+        ],
+        "options": []
+      },
+      {
+        "name": "Garreon the Corpsemaster",
+        "points_base": 253,
+        "composition": "1 Garreon",
+        "models": [
+          {
+            "name": "Garreon",
+            "stats": {
+              "M": "6",
+              "WS": "3+",
+              "BS": "3+",
+              "S": "4",
+              "T": "4",
+              "W": "5",
+              "I": "4",
+              "A": "5",
+              "Ld": "9",
+              "Sv": "3+"
+            },
+            "rules": [
+              "Independent Character",
+              "Infantry",
+              "Unique",
+              "Red Corsairs",
+              "Night Vision",
+              "Shock Assault",
+              "Stubborn",
+              "Bulky",
+              "Corpsemaster",
+              "Feel No Pain."
+            ]
+          }
+        ],
+        "fixed_wargear": [
+          "Absolver Bolt Pistol",
+          "Reductor",
+          "Frag Grenades",
+          "Krak Grenades"
+        ],
+        "options": []
+      },
+      {
+        "name": "Katar Garrix",
+        "points_base": 154,
+        "composition": "1 Garrix",
+        "models": [
+          {
+            "name": "Garrix",
+            "stats": {
+              "M": "6",
+              "WS": "2+",
+              "BS": "2+",
+              "S": "4",
+              "T": "4",
+              "W": "4",
+              "I": "4",
+              "A": "5",
+              "Ld": "8",
+              "Sv": "3+"
+            },
+            "rules": [
+              "Independent Character",
+              "Infantry",
+              "Unique",
+              "Red Corsairs",
+              "Shock Assault",
+              "Executioner of the Pathetic",
+              "Trophy Taker",
+              "Challenge.",
+              "Warp Sighted Butcher"
+            ]
+          }
+        ],
+        "fixed_wargear": [
+          "Bolt Pistol",
+          "Axe of Ending"
+        ],
+        "options": []
+      },
+      {
+        "name": "The Enforcer",
+        "points_base": 95,
+        "composition": "1 The Enforcer 1 Plunder",
+        "models": [
+          {
+            "name": "The Enforcer",
+            "stats": {
+              "M": "6",
+              "WS": "3+",
+              "BS": "3+",
+              "S": "4",
+              "T": "4",
+              "W": "4",
+              "I": "3",
+              "A": "3",
+              "Ld": "8",
+              "Sv": "3+"
+            },
+            "rules": [
+              "Independent Character",
+              "Infantry",
+              "Unique",
+              "Red Corsairs",
+              "Assassin",
+              "Sniper (3+)."
+            ]
+          },
+          {
+            "name": "Plunder",
+            "stats": {
+              "M": "12",
+              "WS": "3+",
+              "BS": "5+",
+              "S": "4",
+              "T": "4",
+              "W": "4",
+              "I": "4",
+              "A": "3",
+              "Ld": "5",
+              "Sv": "-"
+            },
+            "rules": [
+              "Independent Character",
+              "Infantry",
+              "Unique",
+              "Red Corsairs",
+              "Animalistic",
+              "Markers."
+            ]
+          }
+        ],
+        "fixed_wargear": [
+          "Londaxi Maimer",
+          "Bionic Gauntlet",
+          "Plunder\u2019s Bite"
+        ],
+        "options": []
+      },
+      {
+        "name": "Vrash Tattersoul",
+        "points_base": 241,
+        "composition": "1 Vrash",
+        "models": [
+          {
+            "name": "Vrash",
+            "stats": {
+              "M": "6",
+              "WS": "2+",
+              "BS": "2+",
+              "S": "4",
+              "T": "4",
+              "W": "4",
+              "I": "4",
+              "A": "4",
+              "Ld": "8",
+              "Sv": "3+"
+            },
+            "rules": [
+              "Independent Character",
+              "Infantry",
+              "Unique",
+              "Crimson Slaughter",
+              "Malicious Volleys",
+              "Night Vision",
+              "Shock Assault",
+              "Aspire to Glory",
+              "For the Dark Gods",
+              "Characters.",
+              "Lord of Chaos"
+            ]
+          }
+        ],
+        "fixed_wargear": [
+          "Combi Melta",
+          "Power Axe",
+          "Frag Grenades",
+          "Krak Grenades"
+        ],
+        "options": []
+      }
+    ],
+    "troops": [
+      {
+        "name": "Beastmen Horde",
+        "points_base": 83,
+        "composition": "1 Champion 9-29 Beastmen",
+        "models": [
+          {
+            "name": "Champion",
+            "stats": {
+              "M": "6",
+              "WS": "4+",
+              "BS": "4+",
+              "S": "4",
+              "T": "4",
+              "W": "1",
+              "I": "3",
+              "A": "2",
+              "Ld": "6",
+              "Sv": "5+"
+            },
+            "rules": [
+              "Character",
+              "Infantry"
+            ]
+          },
+          {
+            "name": "Beastman",
+            "stats": {
+              "M": "6",
+              "WS": "4+",
+              "BS": "4+",
+              "S": "4",
+              "T": "4",
+              "W": "1",
+              "I": "3",
+              "A": "1",
+              "Ld": "5",
+              "Sv": "5+"
+            },
+            "rules": [
+              "Infantry"
+            ]
+          }
+        ],
+        "fixed_wargear": [
+          "Autopistol",
+          "Brutal Weapon",
+          "Autopistol",
+          "Brutal Weapon"
+        ],
+        "options": [
+          {
+            "description": "May take up to 20 more Beastmen for +8 points each Champion may swap Autopistol for P Any model may swap Brutal Weapon for M The entire unit may take up to one of each G The entire unit may take one B",
+            "choices": [
+              {
+                "name": "Mark of Khorne",
+                "pts_delta": 4
+              },
+              {
+                "name": "Mark of Nurgle",
+                "pts_delta": 5
+              },
+              {
+                "name": "Mark of Slaanesh",
+                "pts_delta": 3
+              },
+              {
+                "name": "Mark of Tzeentch",
+                "pts_delta": 4
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Chaos Space Marines",
+        "points_base": 134,
+        "composition": "1 Champion 4-19 Marines",
+        "models": [
+          {
+            "name": "Champion",
+            "stats": {
+              "M": "6",
+              "WS": "3+",
+              "BS": "3+",
+              "S": "4",
+              "T": "4",
+              "W": "2",
+              "I": "4",
+              "A": "2",
+              "Ld": "8",
+              "Sv": "3+"
+            },
+            "rules": [
+              "Character",
+              "Infantry",
+              "Malicious Volleys",
+              "Night Vision",
+              "Shock Assault"
+            ]
+          },
+          {
+            "name": "Marine",
+            "stats": {
+              "M": "6",
+              "WS": "3+",
+              "BS": "3+",
+              "S": "4",
+              "T": "4",
+              "W": "2",
+              "I": "4",
+              "A": "1",
+              "Ld": "7",
+              "Sv": "3+"
+            },
+            "rules": [
+              "Infantry",
+              "Malicious Volleys",
+              "Night Vision",
+              "Shock Assault"
+            ]
+          }
+        ],
+        "fixed_wargear": [
+          "Bolt Pistol",
+          "Brutal Weapon",
+          "Frag Grenades",
+          "Krak Grenades",
+          "Bolt Pistol",
+          "Brutal Weapon",
+          "Frag Grenades",
+          "Krak Grenades"
+        ],
+        "options": [
+          {
+            "description": "May take up to 15 more Marines for +26 points each Champion may swap Bolt Pistol for OR Champion may swap Brutal Weapon for OM Any Marine may swap Bolt Pistol for R Any Marine may swap Brutal Weapon for M One Marine may swap Bolt Pistol for S One Marine may swap Bolt Pistol for H or S The entire unit may take one B",
+            "choices": [
+              {
+                "name": "Mark of Khorne",
+                "pts_delta": 4
+              },
+              {
+                "name": "Mark of Nurgle",
+                "pts_delta": 5
+              },
+              {
+                "name": "Mark of Slaanesh",
+                "pts_delta": 3
+              },
+              {
+                "name": "Mark of Tzeentch",
+                "pts_delta": 4
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Cultists",
+        "points_base": 33,
+        "composition": "1 Champion 9-29 Cultists",
+        "models": [
+          {
+            "name": "Champion",
+            "stats": {
+              "M": "6",
+              "WS": "4+",
+              "BS": "4+",
+              "S": "3",
+              "T": "3",
+              "W": "1",
+              "I": "3",
+              "A": "2",
+              "Ld": "6",
+              "Sv": "6+"
+            },
+            "rules": [
+              "Character",
+              "Infantry"
+            ]
+          },
+          {
+            "name": "Cultist",
+            "stats": {
+              "M": "6",
+              "WS": "4+",
+              "BS": "4+",
+              "S": "3",
+              "T": "3",
+              "W": "1",
+              "I": "3",
+              "A": "1",
+              "Ld": "5",
+              "Sv": "6+"
+            },
+            "rules": [
+              "Infantry"
+            ]
+          }
+        ],
+        "fixed_wargear": [
+          "Autogun",
+          "Autogun"
+        ],
+        "options": [
+          {
+            "description": "May take up to 20 more Cultists for +3 points each Any model may swap Autogun for R For every 10 models in the unit, up to three models may swap their Autogun for S or M The entire unit may take one B",
+            "choices": []
+          }
+        ]
+      },
+      {
+        "name": "Accursed Cultists",
+        "points_base": 238,
+        "composition": "5-10 Mutants 3-6 Torments",
+        "models": [
+          {
+            "name": "Mutant",
+            "stats": {
+              "M": "6",
+              "WS": "3+",
+              "BS": "5+",
+              "S": "4",
+              "T": "4",
+              "W": "2",
+              "I": "4",
+              "A": "2",
+              "Ld": "7",
+              "Sv": "6"
+            },
+            "rules": [
+              "Infantry",
+              "Daemonic",
+              "Fearless"
+            ]
+          },
+          {
+            "name": "Torment",
+            "stats": {},
+            "rules": [
+              "Monstrous Infantry",
+              "Daemonic",
+              "Fearless"
+            ]
+          }
+        ],
+        "fixed_wargear": [
+          "Mutations",
+          "Lethal Mutations"
+        ],
+        "options": [
+          {
+            "description": "May take up to 5 more Mutants for +20 points each",
+            "choices": []
+          },
+          {
+            "description": "May take up to 3 more Torments for +46 points each The entire unit may take one B",
+            "choices": []
+          }
+        ]
+      }
+    ],
+    "elites": [
+      {
+        "name": "Chosen",
+        "points_base": 229,
+        "composition": "1 Champion 4-9 Chosen",
+        "models": [
+          {
+            "name": "Champion",
+            "stats": {
+              "M": "6",
+              "WS": "2+",
+              "BS": "2+",
+              "S": "4",
+              "T": "4",
+              "W": "2",
+              "I": "4",
+              "A": "3",
+              "Ld": "9",
+              "Sv": "3+"
+            },
+            "rules": [
+              "Character",
+              "Infantry",
+              "Malicious Volleys",
+              "Fearless",
+              "Night Vision",
+              "Shock Assault"
+            ]
+          },
+          {
+            "name": "Chosen",
+            "stats": {
+              "M": "6",
+              "WS": "2+",
+              "BS": "2+",
+              "S": "4",
+              "T": "4",
+              "W": "2",
+              "I": "4",
+              "A": "2",
+              "Ld": "8",
+              "Sv": "3+"
+            },
+            "rules": [
+              "Infantry",
+              "Malicious Volleys",
+              "Fearless",
+              "Night Vision",
+              "Shock Assault"
+            ]
+          }
+        ],
+        "fixed_wargear": [
+          "Boltgun",
+          "Bolt Pistol",
+          "Frag Grenades",
+          "Krak Grenades",
+          "Boltgun",
+          "Bolt Pistol",
+          "Frag Grenades",
+          "Krak Grenades"
+        ],
+        "options": [
+          {
+            "description": "May take up to 5 more Chosen for +45 points each Any model may swap Boltgun for R Any model may swap Bolt Pistol for P Any model may take one M The entire unit may take one B If the unit took one B, the entire unit may take one C of the corresponding Mark",
+            "choices": [
+              {
+                "name": "Mark of Khorne",
+                "pts_delta": 4
+              },
+              {
+                "name": "Mark of Nurgle",
+                "pts_delta": 5
+              },
+              {
+                "name": "Mark of Slaanesh",
+                "pts_delta": 3
+              },
+              {
+                "name": "Mark of Tzeentch",
+                "pts_delta": 4
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Mutilators",
+        "points_base": 225,
+        "composition": "3-6 Mutilators",
+        "models": [
+          {
+            "name": "Mutilator",
+            "stats": {
+              "M": "4",
+              "WS": "3+",
+              "BS": "5+",
+              "S": "5",
+              "T": "5",
+              "W": "4",
+              "I": "4",
+              "A": "3",
+              "Ld": "7",
+              "Sv": "3+"
+            },
+            "rules": [
+              "Monstrous Infantry",
+              "Daemonic",
+              "Deepstrike",
+              "Fearless",
+              "Shock Assault",
+              "Steady",
+              "Very Bulky"
+            ]
+          }
+        ],
+        "fixed_wargear": [
+          "Flesh Metal Weapons"
+        ],
+        "options": [
+          {
+            "description": "May take up to 3 more Mutilators for +75 points each The entire unit may take one B",
+            "choices": [
+              {
+                "name": "Mark of Khorne",
+                "pts_delta": 8
+              },
+              {
+                "name": "Mark of Nurgle",
+                "pts_delta": 15
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Possessed",
+        "points_base": 242,
+        "composition": "1 Champion 2-5 Possessed",
+        "models": [
+          {
+            "name": "Champion",
+            "stats": {
+              "M": "8",
+              "WS": "2+",
+              "BS": "5+",
+              "S": "4",
+              "T": "4",
+              "W": "3",
+              "I": "4",
+              "A": "4",
+              "Ld": "9",
+              "Sv": "3+"
+            },
+            "rules": [
+              "Character",
+              "Monstrous Infantry",
+              "Daemonic",
+              "Deepstrike",
+              "Fearless",
+              "Shock Assault",
+              "Very Bulky"
+            ]
+          },
+          {
+            "name": "Possessed",
+            "stats": {
+              "M": "8",
+              "WS": "2+",
+              "BS": "5+",
+              "S": "4",
+              "T": "4",
+              "W": "3",
+              "I": "4",
+              "A": "3",
+              "Ld": "8",
+              "Sv": "3+"
+            },
+            "rules": [
+              "Monstrous Infantry",
+              "Daemonic",
+              "Deepstrike",
+              "Fearless",
+              "Shock Assault",
+              "Very Bulky"
+            ]
+          }
+        ],
+        "fixed_wargear": [
+          "Brutal Weapon",
+          "Brutal Weapon"
+        ],
+        "options": [
+          {
+            "description": "May take up to 5 more Possessed for +78 points each Any model may swap Brutal Weapon for M The entire unit may take up to one of each A The entire unit may take one B If the unit took one B, the entire unit may take one C of the corresponding Mark",
+            "choices": [
+              {
+                "name": "Mark of Khorne",
+                "pts_delta": 8
+              },
+              {
+                "name": "Mark of Nurgle",
+                "pts_delta": 15
+              },
+              {
+                "name": "Mark of Slaanesh",
+                "pts_delta": 7
+              },
+              {
+                "name": "Mark of Tzeentch",
+                "pts_delta": 12
+              }
+            ]
+          },
+          {
+            "description": "May take Monstrous Stature",
+            "choices": [
+              {
+                "name": "Monstrous Stature",
+                "pts_delta": 8
+              }
+            ]
+          },
+          {
+            "description": "May take Wings",
+            "choices": [
+              {
+                "name": "Wings",
+                "pts_delta": 15
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Terminators",
+        "points_base": 320,
+        "composition": "1 Champion 4-9 Terminators",
+        "models": [
+          {
+            "name": "Champion",
+            "stats": {
+              "M": "4",
+              "WS": "3+",
+              "BS": "3+",
+              "S": "4",
+              "T": "4",
+              "W": "3",
+              "I": "4",
+              "A": "3",
+              "Ld": "8",
+              "Sv": "3+"
+            },
+            "rules": [
+              "Character",
+              "Monstrous Infantry",
+              "Malicious Volleys",
+              "Deepstrike",
+              "Night Vision",
+              "Shock Assault",
+              "Steady",
+              "Very Bulky"
+            ]
+          },
+          {
+            "name": "Terminator",
+            "stats": {
+              "M": "4",
+              "WS": "3+",
+              "BS": "3+",
+              "S": "4",
+              "T": "4",
+              "W": "3",
+              "I": "4",
+              "A": "2",
+              "Ld": "7",
+              "Sv": "3+"
+            },
+            "rules": [
+              "Monstrous Infantry",
+              "Malicious Volleys",
+              "Deepstrike",
+              "Night Vision",
+              "Shock Assault",
+              "Steady",
+              "Very Bulky"
+            ]
+          }
+        ],
+        "fixed_wargear": [
+          "Stormbolter",
+          "Chain Axe",
+          "Terminator Honours",
+          "Stormbolter",
+          "Chain Axe",
+          "Terminator Honours"
+        ],
+        "options": [
+          {
+            "description": "May take up to 5 more Terminators for +63 points each Champion may swap Chain Axe for M or OM Any Terminator may swap Stormbolter for R Any Terminator may swap Chain Axe for M Up to two Terminators may swap Stormbolter for H The entire unit may take one A The entire unit may take one B",
+            "choices": [
+              {
+                "name": "Mark of Khorne",
+                "pts_delta": 5
+              },
+              {
+                "name": "Mark of Nurgle",
+                "pts_delta": 15
+              },
+              {
+                "name": "Mark of Slaanesh",
+                "pts_delta": 7
+              },
+              {
+                "name": "Mark of Tzeentch",
+                "pts_delta": 12
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Contemptor Dreadnought",
+        "points_base": 141,
+        "composition": "1 Contemptor",
+        "models": [
+          {
+            "name": "Contemptor",
+            "stats": {
+              "M": "8",
+              "WS": "3+",
+              "BS": "3+",
+              "S": "7",
+              "FA": "12",
+              "SA": "12",
+              "RA": "10",
+              "W": "9",
+              "I": "4",
+              "A": "4",
+              "Ld": "7",
+              "Sv": "3+"
+            },
+            "rules": [
+              "Vehicle",
+              "Combat Walker",
+              "Malicious Volley",
+              "Night Vision",
+              "Shock Assault",
+              "Steady"
+            ]
+          }
+        ],
+        "fixed_wargear": [
+          "2 Volkite Culverins",
+          "Atomantic Shielding"
+        ],
+        "options": [
+          {
+            "description": "May swap any Volkite Culverin for H",
+            "choices": []
+          },
+          {
+            "description": "May take one B",
+            "choices": [
+              {
+                "name": "Mark of Khorne",
+                "pts_delta": 8
+              },
+              {
+                "name": "Mark of Nurgle",
+                "pts_delta": 15
+              },
+              {
+                "name": "Mark of Slaanesh",
+                "pts_delta": 7
+              }
+            ]
+          },
+          {
+            "description": "May take up to one of each E",
+            "choices": [
+              {
+                "name": "Extra Armour",
+                "pts_delta": 5
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Decimator",
+        "points_base": 180,
+        "composition": "1 Decimator",
+        "models": [
+          {
+            "name": "Decimator",
+            "stats": {
+              "M": "8",
+              "WS": "3+",
+              "BS": "3+",
+              "S": "7",
+              "FA": "12",
+              "SA": "12",
+              "RA": "10",
+              "W": "14",
+              "I": "4",
+              "A": "4",
+              "Ld": "7",
+              "Sv": "3+"
+            },
+            "rules": [
+              "Vehicle",
+              "Combat Walker",
+              "Daemonic Engine",
+              "Fearless",
+              "Night Vision",
+              "Shock Assault",
+              "Steady"
+            ]
+          }
+        ],
+        "fixed_wargear": [
+          "2 Heavy Flamers"
+        ],
+        "options": [
+          {
+            "description": "May swap any Hellfire Plasma Carronade for T",
+            "choices": []
+          },
+          {
+            "description": "May swap 2 Linked Heavy Flamers for H",
+            "choices": []
+          },
+          {
+            "description": "May take up to three M",
+            "choices": []
+          },
+          {
+            "description": "May take one B",
+            "choices": [
+              {
+                "name": "Mark of Khorne",
+                "pts_delta": 8
+              },
+              {
+                "name": "Mark of Nurgle",
+                "pts_delta": 15
+              },
+              {
+                "name": "Mark of Slaanesh",
+                "pts_delta": 7
+              },
+              {
+                "name": "Mark of Tzeentch",
+                "pts_delta": 12
+              }
+            ]
+          },
+          {
+            "description": "May take up to one of each E",
+            "choices": []
+          }
+        ]
+      },
+      {
+        "name": "Deredeo Dreadnought",
+        "points_base": 157,
+        "composition": "1 Deredeo",
+        "models": [
+          {
+            "name": "Deredeo",
+            "stats": {
+              "M": "8",
+              "WS": "3+",
+              "BS": "3+",
+              "S": "6",
+              "FA": "12",
+              "SA": "12",
+              "RA": "10",
+              "W": "12",
+              "I": "4",
+              "A": "4",
+              "Ld": "7",
+              "Sv": "3+"
+            },
+            "rules": [
+              "Vehicle",
+              "Combat Walker",
+              "Night Vision",
+              "Shock Assault",
+              "Steady"
+            ]
+          }
+        ],
+        "fixed_wargear": [
+          "2 Hellfire Plasma Carronades",
+          "2 Linked Heavy Flamers",
+          "Atomantic Shielding"
+        ],
+        "options": [
+          {
+            "description": "May swap any Hellfire Plasma Carronade for T",
+            "choices": []
+          },
+          {
+            "description": "May swap 2 Linked Heavy Flamers for H",
+            "choices": []
+          },
+          {
+            "description": "May take up to one M",
+            "choices": []
+          },
+          {
+            "description": "May take one B",
+            "choices": [
+              {
+                "name": "Mark of Khorne",
+                "pts_delta": 8
+              },
+              {
+                "name": "Mark of Nurgle",
+                "pts_delta": 15
+              },
+              {
+                "name": "Mark of Slaanesh",
+                "pts_delta": 7
+              }
+            ]
+          },
+          {
+            "description": "May take up to one of each E",
+            "choices": [
+              {
+                "name": "Extra Armour",
+                "pts_delta": 5
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Hellbrute Dreadnoughts",
+        "points_base": 126,
+        "composition": "1-3 Hellbrutes",
+        "models": [
+          {
+            "name": "Hellbrute",
+            "stats": {
+              "M": "6",
+              "WS": "3+",
+              "BS": "3+",
+              "S": "6",
+              "FA": "12",
+              "SA": "12",
+              "RA": "10",
+              "W": "8",
+              "I": "4",
+              "A": "4",
+              "Ld": "7",
+              "Sv": "3+"
+            },
+            "rules": [
+              "Vehicle",
+              "Combat Walker",
+              "Daemonic Engine",
+              "Malicious Volley",
+              "Fearless",
+              "Night Vision",
+              "Shock Assault",
+              "Steady"
+            ]
+          }
+        ],
+        "fixed_wargear": [
+          "2 Heavy Bolters"
+        ],
+        "options": [
+          {
+            "description": "May add up to 2 more Hellbrutes for +126 points each Any model may swap any Heavy Bolter for H or M The entire unit may take one B",
+            "choices": [
+              {
+                "name": "Mark of Khorne",
+                "pts_delta": 8
+              },
+              {
+                "name": "Mark of Nurgle",
+                "pts_delta": 15
+              },
+              {
+                "name": "Mark of Slaanesh",
+                "pts_delta": 7
+              },
+              {
+                "name": "Mark of Tzeentch",
+                "pts_delta": 12
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Leviathan Dreadnought",
+        "points_base": 181,
+        "composition": "1 Leviathan",
+        "models": [
+          {
+            "name": "Leviathan",
+            "stats": {
+              "M": "8",
+              "WS": "3+",
+              "BS": "3+",
+              "S": "7",
+              "FA": "13",
+              "SA": "12",
+              "RA": "10",
+              "W": "14",
+              "I": "4",
+              "A": "8",
+              "Ld": "7",
+              "Sv": "3+"
+            },
+            "rules": [
+              "Vehicle",
+              "Combat Walker",
+              "Night Vision",
+              "Shock Assault",
+              "Steady"
+            ]
+          }
+        ],
+        "fixed_wargear": [
+          "2 Hellfire Plasma Carronades",
+          "2 Linked Heavy Flamers",
+          "Atomantic Shielding"
+        ],
+        "options": [
+          {
+            "description": "May swap any Hellfire Plasma Carronade for T",
+            "choices": []
+          },
+          {
+            "description": "May swap 2 Linked Heavy Flamers for H",
+            "choices": []
+          },
+          {
+            "description": "May take one M",
+            "choices": []
+          },
+          {
+            "description": "May take one B",
+            "choices": [
+              {
+                "name": "Mark of Khorne",
+                "pts_delta": 8
+              },
+              {
+                "name": "Mark of Nurgle",
+                "pts_delta": 15
+              },
+              {
+                "name": "Mark of Slaanesh",
+                "pts_delta": 7
+              }
+            ]
+          },
+          {
+            "description": "May take up to one of each E",
+            "choices": [
+              {
+                "name": "Extra Armour",
+                "pts_delta": 5
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "fast_attack": [
+      {
+        "name": "Bikers",
+        "points_base": 136,
+        "composition": "1 Champion 2-9 Marines",
+        "models": [
+          {
+            "name": "Champion",
+            "stats": {
+              "M": "12",
+              "WS": "3+",
+              "BS": "3+",
+              "S": "4",
+              "T": "5",
+              "W": "3",
+              "I": "4",
+              "A": "2",
+              "Ld": "8",
+              "Sv": "3+"
+            },
+            "rules": [
+              "Character",
+              "Infantry",
+              "Steed",
+              "Malicious Volleys",
+              "Night Vision",
+              "Shock Assault",
+              "Very Bulky"
+            ]
+          },
+          {
+            "name": "Marine",
+            "stats": {
+              "M": "12",
+              "WS": "3+",
+              "BS": "3+",
+              "S": "4",
+              "T": "5",
+              "W": "3",
+              "I": "4",
+              "A": "1",
+              "Ld": "7",
+              "Sv": "3+"
+            },
+            "rules": [
+              "Infantry",
+              "Steed",
+              "Malicious Volleys",
+              "Night Vision",
+              "Shock Assault",
+              "Very Bulky"
+            ]
+          }
+        ],
+        "fixed_wargear": [
+          "Stormbolter",
+          "Bolt Pistol",
+          "Brutal Weapon",
+          "Frag Grenades",
+          "Krak Grenades",
+          "Stormbolter",
+          "Bolt Pistol",
+          "Brutal Weapon",
+          "Frag Grenades",
+          "Krak Grenades"
+        ],
+        "options": [
+          {
+            "description": "May take up to 6 more Marines for +44 points each Champion may swap Bolt Pistol for O Champion may swap Brutal Weapon for M or OM Up to two Marines may swap Bolt Pistol for S Any Marine may swap Brutal Weapon for M The entire unit may take one B",
+            "choices": [
+              {
+                "name": "Mark of Khorne",
+                "pts_delta": 4
+              },
+              {
+                "name": "Mark of Nurgle",
+                "pts_delta": 5
+              },
+              {
+                "name": "Mark of Slaanesh",
+                "pts_delta": 3
+              },
+              {
+                "name": "Mark of Tzeentch",
+                "pts_delta": 4
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Furies",
+        "points_base": 125,
+        "composition": "5-20 Furies",
+        "models": [
+          {
+            "name": "Fury",
+            "stats": {
+              "M": "12",
+              "WS": "3+",
+              "BS": "5+",
+              "S": "4",
+              "T": "4",
+              "W": "2",
+              "I": "4",
+              "A": "1",
+              "Ld": "7",
+              "Sv": "-"
+            },
+            "rules": [
+              "Infantry",
+              "Daemonic",
+              "Deepstrike",
+              "Fearless",
+              "Flying"
+            ]
+          }
+        ],
+        "fixed_wargear": [
+          "Claws"
+        ],
+        "options": [
+          {
+            "description": "May take up to 15 more Furies for +25 points each The entire unit may take one B",
+            "choices": [
+              {
+                "name": "Mark of Khorne",
+                "pts_delta": 4
+              },
+              {
+                "name": "Mark of Nurgle",
+                "pts_delta": 5
+              },
+              {
+                "name": "Mark of Slaanesh",
+                "pts_delta": 3
+              },
+              {
+                "name": "Mark of Tzeentch",
+                "pts_delta": 5
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Raptors",
+        "points_base": 174,
+        "composition": "1 Champion 4-14 Marines",
+        "models": [
+          {
+            "name": "Champion",
+            "stats": {
+              "M": "12",
+              "WS": "3+",
+              "BS": "3+",
+              "S": "4",
+              "T": "4",
+              "W": "2",
+              "I": "4",
+              "A": "2",
+              "Ld": "8",
+              "Sv": "3+"
+            },
+            "rules": [
+              "Character",
+              "Infantry",
+              "Bulky",
+              "Deepstrike",
+              "Flying",
+              "Night Vision",
+              "Shock Assault"
+            ]
+          },
+          {
+            "name": "Marine",
+            "stats": {
+              "M": "12",
+              "WS": "3+",
+              "BS": "3+",
+              "S": "4",
+              "T": "4",
+              "W": "2",
+              "I": "4",
+              "A": "1",
+              "Ld": "7",
+              "Sv": "3+"
+            },
+            "rules": [
+              "Infantry",
+              "Bulky",
+              "Deepstrike",
+              "Flying",
+              "Night Vision",
+              "Shock Assault"
+            ]
+          }
+        ],
+        "fixed_wargear": [
+          "Bolt Pistol",
+          "Chainsword",
+          "Frag Grenades",
+          "Krak Grenades",
+          "Bolt Pistol",
+          "Chainsword",
+          "Frag Grenades",
+          "Krak Grenades"
+        ],
+        "options": [
+          {
+            "description": "May take up to 10 more Marines for +34 points each Champion may swap Bolt Pistol for OR Champion may swap Chainsword for OM Up to two Marines may swap Bolt Pistol for S The entire unit may take one B",
+            "choices": [
+              {
+                "name": "Mark of Khorne",
+                "pts_delta": 4
+              },
+              {
+                "name": "Mark of Nurgle",
+                "pts_delta": 5
+              },
+              {
+                "name": "Mark of Slaanesh",
+                "pts_delta": 3
+              },
+              {
+                "name": "Mark of Tzeentch",
+                "pts_delta": 4
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Warp Talons",
+        "points_base": 239,
+        "composition": "1 Champion 4-9 Talons",
+        "models": [
+          {
+            "name": "Champion",
+            "stats": {
+              "M": "12",
+              "WS": "2+",
+              "BS": "5+",
+              "S": "4",
+              "T": "4",
+              "W": "2",
+              "I": "4",
+              "A": "3",
+              "Ld": "9",
+              "Sv": "3+"
+            },
+            "rules": [
+              "Character",
+              "Infantry",
+              "Daemonic",
+              "Bulky",
+              "Deepstrike",
+              "Fearless",
+              "Flying",
+              "Shock Assault",
+              "Warpflame Strike"
+            ]
+          },
+          {
+            "name": "Talon",
+            "stats": {
+              "M": "12",
+              "WS": "2+",
+              "BS": "5+",
+              "S": "4",
+              "T": "4",
+              "W": "2",
+              "I": "4",
+              "A": "2",
+              "Ld": "8",
+              "Sv": "3+"
+            },
+            "rules": [
+              "Infantry",
+              "Daemonic",
+              "Bulky",
+              "Deepstrike",
+              "Fearless",
+              "Flying",
+              "Shock Assault",
+              "Warpflame Strike"
+            ]
+          }
+        ],
+        "fixed_wargear": [
+          "Dual Lightning Claws",
+          "Dual Lightning Claws"
+        ],
+        "options": [
+          {
+            "description": "May take up to 5 more Talons for +47 points each The entire unit may take one B If the unit took one B, the entire unit may take one C of the corresponding Mark",
+            "choices": []
+          }
+        ]
+      },
+      {
+        "name": "Chaos Spawn",
+        "points_base": 67,
+        "composition": "1-5 Spawn",
+        "models": [
+          {
+            "name": "Spawn",
+            "stats": {
+              "M": "8",
+              "WS": "3+",
+              "BS": "5+",
+              "S": "5",
+              "T": "5",
+              "W": "4",
+              "I": "4",
+              "A": "2d3",
+              "Ld": "7",
+              "Sv": "-"
+            },
+            "rules": [
+              "Monstrous Infantry",
+              "Daemonic",
+              "Deepstrike",
+              "Fearless",
+              "Shock Assault",
+              "Very Bulky",
+              "Fearsome Presence",
+              "Monstrous Infantry"
+            ]
+          }
+        ],
+        "fixed_wargear": [
+          "Mutations"
+        ],
+        "options": [
+          {
+            "description": "May take up to 4 more Spawn for +67 points each The entire unit may take one B",
+            "choices": []
+          }
+        ]
+      }
+    ],
+    "heavy_support": [
+      {
+        "name": "Havocs",
+        "points_base": 174,
+        "composition": "1 Champion 4 Marines",
+        "models": [
+          {
+            "name": "Champion",
+            "stats": {
+              "M": "6",
+              "WS": "3+",
+              "BS": "3+",
+              "S": "4",
+              "T": "4",
+              "W": "2",
+              "I": "4",
+              "A": "2",
+              "Ld": "8",
+              "Sv": "3+"
+            },
+            "rules": [
+              "Character",
+              "Infantry",
+              "Malicious Volleys",
+              "Night Vision",
+              "Shock Assault"
+            ]
+          },
+          {
+            "name": "Marine",
+            "stats": {
+              "M": "6",
+              "WS": "3+",
+              "BS": "3+",
+              "S": "4",
+              "T": "4",
+              "W": "2",
+              "I": "4",
+              "A": "1",
+              "Ld": "7",
+              "Sv": "3+"
+            },
+            "rules": [
+              "Infantry",
+              "Night Vision",
+              "Shock Assault"
+            ]
+          }
+        ],
+        "fixed_wargear": [
+          "Bolt Pistol",
+          "Brutal Weapon",
+          "Frag Grenades",
+          "Krak Grenades",
+          "Heavy Bolter",
+          "Brutal Weapon",
+          "Frag Grenades",
+          "Krak Grenades"
+        ],
+        "options": []
+      },
+      {
+        "name": "Obliterators",
+        "points_base": 339,
+        "composition": "3-6 Obliterators",
+        "models": [
+          {
+            "name": "Obliterator",
+            "stats": {
+              "M": "4",
+              "WS": "3+",
+              "BS": "3+",
+              "S": "5",
+              "T": "5",
+              "W": "4",
+              "I": "4",
+              "A": "3",
+              "Ld": "7",
+              "Sv": "3+"
+            },
+            "rules": [
+              "Monstrous Infantry",
+              "Daemonic",
+              "Deepstrike",
+              "Fearless",
+              "Shock Assault",
+              "Steady",
+              "Very Bulky"
+            ]
+          }
+        ],
+        "fixed_wargear": [
+          "Flesh Metal Guns",
+          "Powerfists"
+        ],
+        "options": [
+          {
+            "description": "May take up to 3 more Obliterators for +113 points each The entire unit may take one B",
+            "choices": [
+              {
+                "name": "Mark of Khorne",
+                "pts_delta": 8
+              },
+              {
+                "name": "Mark of Nurgle",
+                "pts_delta": 15
+              },
+              {
+                "name": "Mark of Slaanesh",
+                "pts_delta": 7
+              },
+              {
+                "name": "Mark of Tzeentch",
+                "pts_delta": 12
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Defiler",
+        "points_base": 222,
+        "composition": "1 Defiler",
+        "models": [
+          {
+            "name": "Defiler",
+            "stats": {
+              "M": "8",
+              "WS": "3+",
+              "BS": "3+",
+              "S": "7",
+              "FA": "12",
+              "SA": "12",
+              "RA": "10",
+              "W": "14",
+              "I": "4",
+              "A": "4",
+              "Ld": "7",
+              "Sv": "3+"
+            },
+            "rules": [
+              "Vehicle",
+              "Combat Walker",
+              "Daemonic Engine",
+              "Malicious Volleys",
+              "Fearless",
+              "Night Vision",
+              "Shock Assault",
+              "Steady"
+            ]
+          }
+        ],
+        "fixed_wargear": [
+          "Daemon Cannon",
+          "Defiler Claws"
+        ],
+        "options": [
+          {
+            "description": "May swap Daemon Cannon for T",
+            "choices": []
+          },
+          {
+            "description": "May take up to two H",
+            "choices": []
+          },
+          {
+            "description": "May take one S",
+            "choices": []
+          },
+          {
+            "description": "May take one B",
+            "choices": [
+              {
+                "name": "Mark of Khorne",
+                "pts_delta": 8
+              },
+              {
+                "name": "Mark of Nurgle",
+                "pts_delta": 15
+              },
+              {
+                "name": "Mark of Slaanesh",
+                "pts_delta": 7
+              },
+              {
+                "name": "Mark of Tzeentch",
+                "pts_delta": 12
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Forgefiend",
+        "points_base": 171,
+        "composition": "1-3 Forgefiends",
+        "models": [
+          {
+            "name": "Forgefiend",
+            "stats": {
+              "M": "8",
+              "WS": "3+",
+              "BS": "3+",
+              "S": "6",
+              "FA": "12",
+              "SA": "12",
+              "RA": "10",
+              "W": "12",
+              "I": "4",
+              "A": "4",
+              "Ld": "7",
+              "Sv": "3+"
+            },
+            "rules": [
+              "Vehicle",
+              "Combat Walker",
+              "Daemonic Engine",
+              "Fearless",
+              "Night Vision",
+              "Shock Assault",
+              "Steady"
+            ]
+          }
+        ],
+        "fixed_wargear": [
+          "3 Ectoplasma Cannons",
+          "Daemon Jaws"
+        ],
+        "options": [
+          {
+            "description": "May add up to two additional Forgefiends for +171 points each Any model may swap up to 2 Ectoplasma Cannons for H The entire unit may take one B",
+            "choices": [
+              {
+                "name": "Mark of Khorne",
+                "pts_delta": 8
+              },
+              {
+                "name": "Mark of Nurgle",
+                "pts_delta": 15
+              },
+              {
+                "name": "Mark of Slaanesh",
+                "pts_delta": 7
+              },
+              {
+                "name": "Mark of Tzeentch",
+                "pts_delta": 12
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Maulerfiend",
+        "points_base": 174,
+        "composition": "1-3 Maulerfiends",
+        "models": [
+          {
+            "name": "Maulerfiend",
+            "stats": {
+              "M": "8",
+              "WS": "3+",
+              "BS": "3+",
+              "S": "6",
+              "FA": "12",
+              "SA": "12",
+              "RA": "10",
+              "W": "12",
+              "I": "4",
+              "A": "4",
+              "Ld": "7",
+              "Sv": "3+"
+            },
+            "rules": [
+              "Vehicle",
+              "Combat Walker",
+              "Daemonic Engine",
+              "Fearless",
+              "Shock Assault",
+              "Steady",
+              "Wall Climber"
+            ]
+          }
+        ],
+        "fixed_wargear": [
+          "Lasher Tendrils",
+          "Powerfists"
+        ],
+        "options": [
+          {
+            "description": "May add up to two additional Maulerfiends for +174 points each Any model may swap Lasher Tendrils for H The entire unit may take one B",
+            "choices": [
+              {
+                "name": "Mark of Khorne",
+                "pts_delta": 8
+              },
+              {
+                "name": "Mark of Nurgle",
+                "pts_delta": 15
+              },
+              {
+                "name": "Mark of Slaanesh",
+                "pts_delta": 7
+              },
+              {
+                "name": "Mark of Tzeentch",
+                "pts_delta": 12
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Soul Grinder",
+        "points_base": 191,
+        "composition": "1 Soul Grinder",
+        "models": [
+          {
+            "name": "Soul Grinder",
+            "stats": {
+              "M": "8",
+              "WS": "3+",
+              "BS": "3+",
+              "S": "7",
+              "FA": "13",
+              "SA": "13",
+              "RA": "11",
+              "W": "14",
+              "I": "4",
+              "A": "4",
+              "Ld": "7",
+              "Sv": "3+"
+            },
+            "rules": [
+              "Vehicle",
+              "Combat Walker",
+              "Daemonic Engine",
+              "Fearless",
+              "Night Vision",
+              "Shock Assault",
+              "Steady"
+            ]
+          }
+        ],
+        "fixed_wargear": [
+          "Warp Sword"
+        ],
+        "options": [
+          {
+            "description": "May swap Daemon Cannon for T",
+            "choices": []
+          },
+          {
+            "description": "May take up to two H",
+            "choices": []
+          },
+          {
+            "description": "May take one P",
+            "choices": []
+          },
+          {
+            "description": "May take one B",
+            "choices": [
+              {
+                "name": "Mark of Khorne",
+                "pts_delta": 8
+              },
+              {
+                "name": "Mark of Nurgle",
+                "pts_delta": 15
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Venomcrawler",
+        "points_base": 192,
+        "composition": "1-3 Venomcrawlers",
+        "models": [
+          {
+            "name": "Venomcrawler",
+            "stats": {
+              "M": "10",
+              "WS": "3+",
+              "BS": "3+",
+              "S": "6",
+              "FA": "12",
+              "SA": "12",
+              "RA": "10",
+              "W": "10",
+              "I": "4",
+              "A": "4",
+              "Ld": "7",
+              "Sv": "3+"
+            },
+            "rules": [
+              "Vehicle",
+              "Combat Walker",
+              "Daemonic Engine",
+              "Fearless",
+              "Night Vision",
+              "Shock Assault",
+              "Devourer of Souls",
+              "Repairs 1 Wound.",
+              "Soulshredding Explosion"
+            ]
+          }
+        ],
+        "fixed_wargear": [
+          "2 Linked Excruciator Cannons",
+          "Eviscerating Claws",
+          "Soulflayer Tendrils"
+        ],
+        "options": [
+          {
+            "description": "May add up to two more Venomcrawlers for +192 points each The entire unit may take one B",
+            "choices": [
+              {
+                "name": "Mark of Khorne",
+                "pts_delta": 8
+              },
+              {
+                "name": "Mark of Nurgle",
+                "pts_delta": 15
+              },
+              {
+                "name": "Mark of Slaanesh",
+                "pts_delta": 7
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Giant Chaos Spawn",
+        "points_base": 212,
+        "composition": "1 Giant Chaos Spawn",
+        "models": [
+          {
+            "name": "Spawn",
+            "stats": {},
+            "rules": [
+              "Monster",
+              "Daemonic",
+              "Deepstrike",
+              "Fearless",
+              "Shock Assault",
+              "Fearsome Presence"
+            ]
+          }
+        ],
+        "fixed_wargear": [
+          "Giant Mutations"
+        ],
+        "options": [
+          {
+            "description": "May take Mark of Khorne",
+            "choices": [
+              {
+                "name": "Mark of Khorne",
+                "pts_delta": 8
+              }
+            ]
+          },
+          {
+            "description": "May take Mark of Nurgle",
+            "choices": [
+              {
+                "name": "Mark of Nurgle",
+                "pts_delta": 15
+              }
+            ]
+          },
+          {
+            "description": "May take Mark of Slaanesh",
+            "choices": [
+              {
+                "name": "Mark of Slaanesh",
+                "pts_delta": 7
+              }
+            ]
+          },
+          {
+            "description": "May take Mark of Tzeentch",
+            "choices": [
+              {
+                "name": "Mark of Tzeentch",
+                "pts_delta": 12
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Rapier Carriers",
+        "points_base": 98,
+        "composition": "1-3 Rapiers",
+        "models": [
+          {
+            "name": "Rapier",
+            "stats": {
+              "M": "4",
+              "WS": "3+",
+              "BS": "3+",
+              "S": "4",
+              "T": "5",
+              "W": "5",
+              "I": "4",
+              "A": "1",
+              "Ld": "7",
+              "Sv": "3+"
+            },
+            "rules": [
+              "Monster",
+              "Malicious Volleys",
+              "Night Vision",
+              "Shock Assault"
+            ]
+          }
+        ],
+        "fixed_wargear": [
+          "Graviton Cannon",
+          "Boltgun",
+          "Bolt Pistol",
+          "Frag Grenades",
+          "Krak Grenades"
+        ],
+        "options": [
+          {
+            "description": "May add up to 2 more Rapiers for +98 points The entire unit may take one B",
+            "choices": []
+          }
+        ]
+      },
+      {
+        "name": "Spined Chaos Beast",
+        "points_base": 238,
+        "composition": "1 Beast",
+        "models": [
+          {
+            "name": "Beast",
+            "stats": {
+              "M": "10",
+              "WS": "3+",
+              "BS": "5+",
+              "S": "7",
+              "T": "7",
+              "W": "12",
+              "I": "4",
+              "A": "5",
+              "Ld": "7",
+              "Sv": "3+"
+            },
+            "rules": [
+              "Monster",
+              "Daemonic",
+              "Deepstrike",
+              "Fearless",
+              "Shock Assault"
+            ]
+          }
+        ],
+        "fixed_wargear": [
+          "Jagged Claws",
+          "Tusked Maw"
+        ],
+        "options": [
+          {
+            "description": "May take one B",
+            "choices": [
+              {
+                "name": "Mark of Khorne",
+                "pts_delta": 8
+              },
+              {
+                "name": "Mark of Nurgle",
+                "pts_delta": 15
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Deimos Predator",
+        "points_base": 149,
+        "composition": "1 Predator",
+        "models": [
+          {
+            "name": "Predator",
+            "stats": {
+              "M": "12",
+              "WS": "5+",
+              "BS": "3+",
+              "S": "6",
+              "FA": "13",
+              "SA": "11",
+              "RA": "10",
+              "W": "11",
+              "I": "1",
+              "A": "3",
+              "Ld": "9",
+              "Sv": "3+"
+            },
+            "rules": [
+              "Vehicle",
+              "Tank",
+              "Malicious Volley",
+              "Night Vision",
+              "Shock Assault",
+              "Revered Pattern"
+            ]
+          }
+        ],
+        "fixed_wargear": [
+          "Predator Autocannon"
+        ],
+        "options": [
+          {
+            "description": "May swap Predator Autocannon for T",
+            "choices": []
+          },
+          {
+            "description": "May take one S",
+            "choices": []
+          },
+          {
+            "description": "May take one D",
+            "choices": []
+          },
+          {
+            "description": "May take one M",
+            "choices": []
+          },
+          {
+            "description": "May take one P",
+            "choices": []
+          },
+          {
+            "description": "May take one B",
+            "choices": [
+              {
+                "name": "Mark of Khorne",
+                "pts_delta": 8
+              },
+              {
+                "name": "Mark of Nurgle",
+                "pts_delta": 15
+              },
+              {
+                "name": "Mark of Slaanesh",
+                "pts_delta": 7
+              }
+            ]
+          },
+          {
+            "description": "May take up to one of each E",
+            "choices": [
+              {
+                "name": "Recovery Gear",
+                "pts_delta": 2
+              },
+              {
+                "name": "Extra Armour",
+                "pts_delta": 5
+              },
+              {
+                "name": "Smoke Launchers",
+                "pts_delta": 10
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Kratos",
+        "points_base": 246,
+        "composition": "1 Kratos",
+        "models": [
+          {
+            "name": "Kratos",
+            "stats": {
+              "M": "10",
+              "WS": "5+",
+              "BS": "3+",
+              "S": "7",
+              "FA": "13",
+              "SA": "13",
+              "RA": "13",
+              "W": "14",
+              "I": "1",
+              "A": "3",
+              "Ld": "8",
+              "Sv": "3+"
+            },
+            "rules": [
+              "Vehicle",
+              "Tank",
+              "Night Vision",
+              "Shock Assault"
+            ]
+          }
+        ],
+        "fixed_wargear": [
+          "Volkite Cardanelle and",
+          "Autocannon",
+          "2 Heavy Flamers H",
+          "2 Heavy Flamers S"
+        ],
+        "options": [
+          {
+            "description": "May swap Volkite Cardanelle and Autocannon for T",
+            "choices": []
+          },
+          {
+            "description": "May swap 2 Heavy Flamers H for H",
+            "choices": []
+          },
+          {
+            "description": "May swap 2 Heavy Flamers S for S",
+            "choices": []
+          },
+          {
+            "description": "May take one D",
+            "choices": []
+          },
+          {
+            "description": "May take one M",
+            "choices": []
+          },
+          {
+            "description": "May take one P",
+            "choices": []
+          },
+          {
+            "description": "May take one B",
+            "choices": [
+              {
+                "name": "Mark of Khorne",
+                "pts_delta": 8
+              },
+              {
+                "name": "Mark of Nurgle",
+                "pts_delta": 15
+              },
+              {
+                "name": "Mark of Slaanesh",
+                "pts_delta": 7
+              }
+            ]
+          },
+          {
+            "description": "May take up to one of each E",
+            "choices": [
+              {
+                "name": "Extra Armour",
+                "pts_delta": 5
+              },
+              {
+                "name": "Smoke Launchers",
+                "pts_delta": 10
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Land Raider",
+        "points_base": 327,
+        "composition": "1 Land Raider",
+        "models": [
+          {
+            "name": "Land Raider",
+            "stats": {
+              "M": "6",
+              "WS": "5+",
+              "BS": "3+",
+              "S": "8",
+              "FA": "14",
+              "SA": "14",
+              "RA": "14",
+              "W": "16",
+              "I": "1",
+              "A": "6",
+              "Ld": "8",
+              "Sv": "3+"
+            },
+            "rules": [
+              "Vehicle",
+              "Tank",
+              "Malicious Volleys",
+              "Night Vision",
+              "Shock Assault",
+              "Transport 16",
+              "Assault Ramps"
+            ]
+          }
+        ],
+        "fixed_wargear": [
+          "2 Linked Heavy Bolters",
+          "2 Sets of 2 Linked Lascannons"
+        ],
+        "options": [
+          {
+            "description": "May take one T",
+            "choices": []
+          },
+          {
+            "description": "May take one D",
+            "choices": []
+          },
+          {
+            "description": "May take one M",
+            "choices": []
+          },
+          {
+            "description": "May take one P",
+            "choices": []
+          },
+          {
+            "description": "May take one B",
+            "choices": [
+              {
+                "name": "Mark of Khorne",
+                "pts_delta": 8
+              },
+              {
+                "name": "Mark of Nurgle",
+                "pts_delta": 15
+              },
+              {
+                "name": "Mark of Slaanesh",
+                "pts_delta": 7
+              }
+            ]
+          },
+          {
+            "description": "May take up to one of each E",
+            "choices": [
+              {
+                "name": "Recovery Gear",
+                "pts_delta": 2
+              },
+              {
+                "name": "Extra Armour",
+                "pts_delta": 5
+              },
+              {
+                "name": "Smoke Launchers",
+                "pts_delta": 10
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Land Raider Achilles",
+        "points_base": 285,
+        "composition": "1 Land Raider Achilles",
+        "models": [
+          {
+            "name": "Land Raider Achilles",
+            "stats": {
+              "M": "6",
+              "WS": "5+",
+              "BS": "3+",
+              "S": "8",
+              "FA": "15",
+              "SA": "14",
+              "RA": "14",
+              "W": "16",
+              "I": "1",
+              "A": "6",
+              "Ld": "8",
+              "Sv": "3+"
+            },
+            "rules": [
+              "Vehicle",
+              "Tank",
+              "Malicious Volleys",
+              "Night Vision",
+              "Shock Assault",
+              "Transport 6"
+            ]
+          }
+        ],
+        "fixed_wargear": [
+          "Thunderfire Cannon",
+          "2 Sets of 2 Linked Volkite",
+          "Culverins"
+        ],
+        "options": [
+          {
+            "description": "May swap 2 Sets of 2 Linked Volkite Culverins for S",
+            "choices": []
+          },
+          {
+            "description": "May take one D",
+            "choices": []
+          },
+          {
+            "description": "May take one M",
+            "choices": []
+          },
+          {
+            "description": "May take one P",
+            "choices": []
+          },
+          {
+            "description": "May take one B",
+            "choices": [
+              {
+                "name": "Mark of Khorne",
+                "pts_delta": 8
+              },
+              {
+                "name": "Mark of Nurgle",
+                "pts_delta": 15
+              },
+              {
+                "name": "Mark of Slaanesh",
+                "pts_delta": 7
+              }
+            ]
+          },
+          {
+            "description": "May take up to one of each E",
+            "choices": [
+              {
+                "name": "Recovery Gear",
+                "pts_delta": 2
+              },
+              {
+                "name": "Extra Armour",
+                "pts_delta": 5
+              },
+              {
+                "name": "Smoke Launchers",
+                "pts_delta": 10
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Land Raider Proteus",
+        "points_base": 302,
+        "composition": "1 Land Raider Proteus",
+        "models": [
+          {
+            "name": "Land Raider Proteus",
+            "stats": {
+              "M": "6",
+              "WS": "5+",
+              "BS": "3+",
+              "S": "8",
+              "FA": "14",
+              "SA": "14",
+              "RA": "14",
+              "W": "16",
+              "I": "1",
+              "A": "6",
+              "Ld": "8",
+              "Sv": "3+"
+            },
+            "rules": [
+              "Vehicle",
+              "Tank",
+              "Malicious Volleys",
+              "Night Vision",
+              "Shock Assault",
+              "Transport 10",
+              "Assault Ramps"
+            ]
+          }
+        ],
+        "fixed_wargear": [
+          "Heavy Flamer",
+          "2 sets of 2 Linked Lascannons"
+        ],
+        "options": [
+          {
+            "description": "May swap 2 Linked Heavy Bolters for T",
+            "choices": []
+          },
+          {
+            "description": "May take one M",
+            "choices": []
+          },
+          {
+            "description": "May take one P",
+            "choices": []
+          },
+          {
+            "description": "May take one B",
+            "choices": [
+              {
+                "name": "Mark of Khorne",
+                "pts_delta": 8
+              }
+            ]
+          },
+          {
+            "description": "May take up to one of each E",
+            "choices": []
+          }
+        ]
+      },
+      {
+        "name": "Predators",
+        "points_base": 137,
+        "composition": "1-3 Predators",
+        "models": [
+          {
+            "name": "Predator",
+            "stats": {
+              "M": "12",
+              "WS": "5+",
+              "BS": "3+",
+              "S": "6",
+              "FA": "13",
+              "SA": "11",
+              "RA": "10",
+              "W": "11",
+              "I": "1",
+              "A": "3",
+              "Ld": "8",
+              "Sv": "3+"
+            },
+            "rules": [
+              "Vehicle",
+              "Tank",
+              "Malicious Volleys",
+              "Night Vision",
+              "Shock Assault"
+            ]
+          }
+        ],
+        "fixed_wargear": [
+          "Predator Autocannon"
+        ],
+        "options": [
+          {
+            "description": "May take up to two more Predator for +137 points each Any model may swap Predator Autocannon for T Any model may take one S Any model may take one D Any model may take one M Any model may take one P The entire unit may take one B Any model may take up to one of each E",
+            "choices": [
+              {
+                "name": "Mark of Khorne",
+                "pts_delta": 8
+              },
+              {
+                "name": "Mark of Nurgle",
+                "pts_delta": 15
+              },
+              {
+                "name": "Mark of Slaanesh",
+                "pts_delta": 7
+              },
+              {
+                "name": "Mark of Tzeentch",
+                "pts_delta": 12
+              },
+              {
+                "name": "Recover Gear",
+                "pts_delta": 2
+              },
+              {
+                "name": "Extra Armour",
+                "pts_delta": 5
+              },
+              {
+                "name": "Smoke Launchers",
+                "pts_delta": 10
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Sicaran",
+        "points_base": 186,
+        "composition": "1 Sicaran",
+        "models": [
+          {
+            "name": "Sicaran",
+            "stats": {
+              "M": "10",
+              "WS": "5+",
+              "BS": "3+",
+              "S": "7",
+              "FA": "13",
+              "SA": "13",
+              "RA": "13",
+              "W": "14",
+              "I": "1",
+              "A": "3",
+              "Ld": "8",
+              "Sv": "3+"
+            },
+            "rules": [
+              "Vehicle",
+              "Tank",
+              "Night Vision",
+              "Shock Assault"
+            ]
+          }
+        ],
+        "fixed_wargear": [
+          "Sicaran Laser Cannon"
+        ],
+        "options": [
+          {
+            "description": "May swap Sicaran Laser Cannon for T",
+            "choices": []
+          },
+          {
+            "description": "May take one S",
+            "choices": []
+          },
+          {
+            "description": "May take one M",
+            "choices": []
+          },
+          {
+            "description": "May take one P",
+            "choices": []
+          },
+          {
+            "description": "May take one B",
+            "choices": [
+              {
+                "name": "Mark of Khorne",
+                "pts_delta": 8
+              },
+              {
+                "name": "Mark of Nurgle",
+                "pts_delta": 15
+              },
+              {
+                "name": "Mark of Slaanesh",
+                "pts_delta": 7
+              }
+            ]
+          },
+          {
+            "description": "May take up to one of each E",
+            "choices": [
+              {
+                "name": "Extra Armour",
+                "pts_delta": 5
+              },
+              {
+                "name": "Smoke Launchers",
+                "pts_delta": 10
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Vindicators",
+        "points_base": 152,
+        "composition": "1-3 Vindicators",
+        "models": [
+          {
+            "name": "Vindicator",
+            "stats": {
+              "M": "12",
+              "WS": "5+",
+              "BS": "3+",
+              "S": "6",
+              "FA": "13",
+              "SA": "11",
+              "RA": "10",
+              "W": "11",
+              "I": "1",
+              "A": "3",
+              "Ld": "8",
+              "Sv": "3+"
+            },
+            "rules": [
+              "Vehicle",
+              "Tank",
+              "Malicious Volleys",
+              "Night Vision",
+              "Shock Assault"
+            ]
+          }
+        ],
+        "fixed_wargear": [
+          "Demolisher"
+        ],
+        "options": [
+          {
+            "description": "May take up to two more Vindicators for +152 points each Any model may swap Demolisher for T Any model may take one D Any model may take one M Any model may take one P The entire unit may take one B Any model may take up to one of each E",
+            "choices": []
+          }
+        ]
+      },
+      {
+        "name": "Whirlwinds",
+        "points_base": 108,
+        "composition": "1-3 Whirlwinds",
+        "models": [
+          {
+            "name": "Whirlwind",
+            "stats": {
+              "M": "12",
+              "WS": "5+",
+              "BS": "3+",
+              "S": "6",
+              "FA": "11",
+              "SA": "11",
+              "RA": "10",
+              "W": "11",
+              "I": "1",
+              "A": "3",
+              "Ld": "8",
+              "Sv": "3+"
+            },
+            "rules": [
+              "Vehicle",
+              "Tank",
+              "Malicious Volleys",
+              "Night Vision",
+              "Shock Assault",
+              "Stationary"
+            ]
+          }
+        ],
+        "fixed_wargear": [
+          "Whirlwind Hyperios Launcher"
+        ],
+        "options": [
+          {
+            "description": "May take up to two more Whirlwinds for +108 points each Any model may swap Whirlwind Hyperios Launcher for T Any model may take one D Any model may take one M Any model may take one P The entire unit may take one B Any model may take up to one of each E",
+            "choices": []
+          }
+        ]
+      }
+    ],
+    "flyers": [
+      {
+        "name": "Helldrake",
+        "points_base": 171,
+        "composition": "1 Hellblade",
+        "models": [
+          {
+            "name": "Helldrake",
+            "stats": {
+              "M": "50",
+              "WS": "3+",
+              "BS": "3+",
+              "S": "7",
+              "FA": "12",
+              "SA": "12",
+              "RA": "10",
+              "W": "12",
+              "I": "1",
+              "A": "4",
+              "Ld": "7",
+              "Sv": "3+"
+            },
+            "rules": [
+              "Vehicle",
+              "Daemonic Engine",
+              "Deepstrike",
+              "High Altitude",
+              "Interceptor",
+              "Night Vision"
+            ]
+          }
+        ],
+        "fixed_wargear": [
+          "Hades Autocannon",
+          "Helldrake Claws"
+        ],
+        "options": [
+          {
+            "description": "May swap Hades Autocannon for S",
+            "choices": []
+          },
+          {
+            "description": "May take one B",
+            "choices": [
+              {
+                "name": "Mark of Khorne",
+                "pts_delta": 8
+              },
+              {
+                "name": "Mark of Nurgle",
+                "pts_delta": 15
+              },
+              {
+                "name": "Mark of Slaanesh",
+                "pts_delta": 7
+              },
+              {
+                "name": "Mark of Tzeentch",
+                "pts_delta": 12
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Helldrake",
+        "points_base": 238,
+        "composition": "1 Hell Talon",
+        "models": [
+          {
+            "name": "Helldrake",
+            "stats": {
+              "M": "50",
+              "WS": "3+",
+              "BS": "3+",
+              "S": "7",
+              "FA": "12",
+              "SA": "12",
+              "RA": "10",
+              "W": "12",
+              "I": "1",
+              "A": "4",
+              "Ld": "7",
+              "Sv": "3+"
+            },
+            "rules": [
+              "Vehicle",
+              "Combat Walker",
+              "Daemonic Engine",
+              "Deepstrike",
+              "High Altitude",
+              "Hover",
+              "Night Vision"
+            ]
+          }
+        ],
+        "fixed_wargear": [
+          "Hades Autocannon",
+          "Helldrake Claws"
+        ],
+        "options": [
+          {
+            "description": "May swap Hades Autocannon for S",
+            "choices": []
+          },
+          {
+            "description": "May take one B",
+            "choices": [
+              {
+                "name": "Mark of Khorne",
+                "pts_delta": 8
+              },
+              {
+                "name": "Mark of Nurgle",
+                "pts_delta": 15
+              },
+              {
+                "name": "Mark of Slaanesh",
+                "pts_delta": 7
+              },
+              {
+                "name": "Mark of Tzeentch",
+                "pts_delta": 12
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Hell Talon",
+        "points_base": 226,
+        "composition": "1 Hell Talon",
+        "models": [
+          {
+            "name": "Hell Talon",
+            "stats": {
+              "M": "50",
+              "WS": "5+",
+              "BS": "3+",
+              "S": "6",
+              "FA": "11",
+              "SA": "11",
+              "RA": "10",
+              "W": "14",
+              "I": "1",
+              "A": "3",
+              "Ld": "8",
+              "Sv": "3+"
+            },
+            "rules": [
+              "Vehicle",
+              "Daemonic Engine",
+              "Deepstrike",
+              "High Altitude",
+              "Night Vision"
+            ]
+          }
+        ],
+        "fixed_wargear": [
+          "2 Linked Lascannons",
+          "Havoc Launcher",
+          "2 Linked Infernal Bomb Racks"
+        ],
+        "options": [
+          {
+            "description": "May swap Havoc Launcher for S",
+            "choices": []
+          },
+          {
+            "description": "May take one B",
+            "choices": [
+              {
+                "name": "Mark of Khorne",
+                "pts_delta": 8
+              },
+              {
+                "name": "Mark of Nurgle",
+                "pts_delta": 15
+              },
+              {
+                "name": "Mark of Slaanesh",
+                "pts_delta": 7
+              },
+              {
+                "name": "Mark of Tzeentch",
+                "pts_delta": 12
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Xiphon Interceptor",
+        "points_base": 226,
+        "composition": "1 Xiphon",
+        "models": [
+          {
+            "name": "Xiphon",
+            "stats": {
+              "M": "60",
+              "WS": "5+",
+              "BS": "3+",
+              "S": "6",
+              "FA": "12",
+              "SA": "12",
+              "RA": "10",
+              "W": "12",
+              "I": "1",
+              "A": "3",
+              "Ld": "8",
+              "Sv": "3+"
+            },
+            "rules": [
+              "Vehicle",
+              "Deepstrike",
+              "High Altitude",
+              "Interceptor",
+              "Night Vision",
+              "Shock Assault"
+            ]
+          }
+        ],
+        "fixed_wargear": [
+          "4 Linked Lascannons",
+          "Xiphon Missile Battery"
+        ],
+        "options": [
+          {
+            "description": "May take one B",
+            "choices": [
+              {
+                "name": "Mark of Khorne",
+                "pts_delta": 8
+              },
+              {
+                "name": "Mark of Nurgle",
+                "pts_delta": 15
+              },
+              {
+                "name": "Mark of Slaanesh",
+                "pts_delta": 7
+              },
+              {
+                "name": "Mark of Tzeentch",
+                "pts_delta": 12
+              }
+            ]
+          },
+          {
+            "description": "May take up to one of each E",
+            "choices": [
+              {
+                "name": "Flare Launchers",
+                "pts_delta": 9
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "dedicated_transport": [
+      {
+        "name": "Dreadclaw Drop Pod",
+        "points_base": 210,
+        "composition": "1 Drop Pod",
+        "models": [
+          {
+            "name": "Drop Pod",
+            "stats": {
+              "M": "12",
+              "WS": "3+",
+              "BS": "3+",
+              "S": "6",
+              "FA": "12",
+              "SA": "12",
+              "RA": "12",
+              "W": "9",
+              "I": "4",
+              "A": "4",
+              "Ld": "7",
+              "Sv": "3+"
+            },
+            "rules": [
+              "Vehicle",
+              "Combat Walker",
+              "Deepstrike",
+              "Flying",
+              "Drop Pod",
+              "Transport 10",
+              "Dreadnought Module"
+            ]
+          }
+        ],
+        "fixed_wargear": [
+          "Thermal Jet",
+          "Bladed Struts"
+        ],
+        "options": [
+          {
+            "description": "May take one B",
+            "choices": [
+              {
+                "name": "Mark of Khorne",
+                "pts_delta": 8
+              },
+              {
+                "name": "Mark of Nurgle",
+                "pts_delta": 15
+              },
+              {
+                "name": "Mark of Slaanesh",
+                "pts_delta": 7
+              },
+              {
+                "name": "Mark of Tzeentch",
+                "pts_delta": 12
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Drop Pod",
+        "points_base": 115,
+        "composition": "1 Drop Pod",
+        "models": [
+          {
+            "name": "Drop Pod",
+            "stats": {},
+            "rules": [
+              "Vehicle",
+              "Tank",
+              "Malicious Volleys",
+              "Deepstrike",
+              "Immobile",
+              "Night Vision",
+              "Drop Pod",
+              "Transport 10",
+              "Dreadnought Module"
+            ]
+          }
+        ],
+        "fixed_wargear": [
+          "Stormbolter"
+        ],
+        "options": [
+          {
+            "description": "May take one B",
+            "choices": [
+              {
+                "name": "Mark of Khorne",
+                "pts_delta": 8
+              },
+              {
+                "name": "Mark of Nurgle",
+                "pts_delta": 15
+              },
+              {
+                "name": "Mark of Slaanesh",
+                "pts_delta": 7
+              },
+              {
+                "name": "Mark of Tzeentch",
+                "pts_delta": 12
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Rhino",
+        "points_base": 130,
+        "composition": "1 Rhino",
+        "models": [
+          {
+            "name": "Rhino",
+            "stats": {
+              "M": "12",
+              "WS": "5+",
+              "BS": "3+",
+              "S": "6",
+              "FA": "11",
+              "SA": "11",
+              "RA": "10",
+              "W": "10",
+              "I": "1",
+              "A": "3",
+              "Ld": "8",
+              "Sv": "3+"
+            },
+            "rules": [
+              "Vehicle",
+              "Tank",
+              "Malicious Volleys",
+              "Night Vision",
+              "Shock Assault",
+              "Transport 12"
+            ]
+          }
+        ],
+        "fixed_wargear": [
+          "None"
+        ],
+        "options": [
+          {
+            "description": "May take one D",
+            "choices": []
+          },
+          {
+            "description": "May take one M",
+            "choices": []
+          },
+          {
+            "description": "May take up to two P",
+            "choices": []
+          },
+          {
+            "description": "May take one B",
+            "choices": [
+              {
+                "name": "Mark of Khorne",
+                "pts_delta": 8
+              },
+              {
+                "name": "Mark of Nurgle",
+                "pts_delta": 15
+              }
+            ]
+          },
+          {
+            "description": "May take up to one of each E",
+            "choices": []
+          }
+        ]
+      },
+      {
+        "name": "Terrax Pattern Termite",
+        "points_base": 237,
+        "composition": "1 Terrax Pattern Termite",
+        "models": [
+          {
+            "name": "Terrax Pattern Termite",
+            "stats": {
+              "M": "8",
+              "WS": "5+",
+              "BS": "3+",
+              "S": "7",
+              "FA": "12",
+              "SA": "12",
+              "RA": "10",
+              "W": "14",
+              "I": "1",
+              "A": "3",
+              "Ld": "8",
+              "Sv": "3+"
+            },
+            "rules": [
+              "Vehicle",
+              "Tank",
+              "Malicious Volleys",
+              "Deepstrike",
+              "Night Vision",
+              "Shock Assault",
+              "Steady",
+              "Transport 12"
+            ]
+          }
+        ],
+        "fixed_wargear": [
+          "Termite Drill",
+          "Terrax Melta Cutter",
+          "2 Storm Bolters"
+        ],
+        "options": [
+          {
+            "description": "May swap either Storm Bolter for H",
+            "choices": []
+          },
+          {
+            "description": "May take one B",
+            "choices": [
+              {
+                "name": "Mark of Khorne",
+                "pts_delta": 8
+              },
+              {
+                "name": "Mark of Nurgle",
+                "pts_delta": 15
+              },
+              {
+                "name": "Mark of Slaanesh",
+                "pts_delta": 7
+              },
+              {
+                "name": "Mark of Tzeentch",
+                "pts_delta": 12
+              }
+            ]
+          },
+          {
+            "description": "May take any E one time each",
+            "choices": []
+          },
+          {
+            "description": "May take Augar Array",
+            "choices": [
+              {
+                "name": "Augar Array",
+                "pts_delta": 5
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "lord_of_war": [
+      {
+        "name": "Fire Raptor Gunship",
+        "points_base": 549,
+        "composition": "1 Fire Raptor",
+        "models": [
+          {
+            "name": "Fire Raptor",
+            "stats": {
+              "M": "50",
+              "WS": "5+",
+              "BS": "3+",
+              "S": "8",
+              "FA": "12",
+              "SA": "12",
+              "RA": "10",
+              "W": "18",
+              "I": "1",
+              "A": "6",
+              "Ld": "8",
+              "Sv": "3+"
+            },
+            "rules": [
+              "Titanic Vehicle",
+              "Deepstrike",
+              "Fearless",
+              "High Altitude",
+              "Hover",
+              "Night Vision",
+              "Shock Assault"
+            ]
+          }
+        ],
+        "fixed_wargear": [
+          "2 Linked Avenger Bolt Cannons",
+          "2 Sets of 2 Linked Autocannons",
+          "4 Linked Hellstrike Missiles"
+        ],
+        "options": [
+          {
+            "description": "May swap 2 Sets of 2 Linked Autocannons for S",
+            "choices": []
+          },
+          {
+            "description": "May swap 4 Linked Hellstrike Missiles for W",
+            "choices": []
+          },
+          {
+            "description": "May take one B",
+            "choices": [
+              {
+                "name": "Mark of Khorne",
+                "pts_delta": 17
+              },
+              {
+                "name": "Mark of Nurgle",
+                "pts_delta": 30
+              },
+              {
+                "name": "Mark of Slaanesh",
+                "pts_delta": 20
+              },
+              {
+                "name": "Mark of Tzeentch",
+                "pts_delta": 24
+              }
+            ]
+          },
+          {
+            "description": "May take up to one of each E",
+            "choices": [
+              {
+                "name": "Chaff Launchers",
+                "pts_delta": 18
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Sokar Stormbird",
+        "points_base": 878,
+        "composition": "1 Stormbird",
+        "models": [
+          {
+            "name": "Stormbird",
+            "stats": {
+              "M": "50",
+              "WS": "5+",
+              "BS": "3+",
+              "S": "10",
+              "FA": "12",
+              "SA": "12",
+              "RA": "10",
+              "W": "40",
+              "I": "1",
+              "A": "9",
+              "Ld": "8",
+              "Sv": "3+"
+            },
+            "rules": [
+              "Titanic Vehicle",
+              "Deepstrike",
+              "Fearless",
+              "High Altitude",
+              "Hover",
+              "Night Vision",
+              "Shock Assault",
+              "Transport 50",
+              "Rhino Transport"
+            ]
+          }
+        ],
+        "fixed_wargear": [
+          "2 Linked Heavy Bolters",
+          "2 Linked Heavy Bolters",
+          "2 Linked Heavy Bolters",
+          "2 Linked Heavy Bolters",
+          "2 Linked Heavy Bolters",
+          "2 Linked Hellstrike Missile Racks"
+        ],
+        "options": [
+          {
+            "description": "May swap any 2 Linked Heavy Bolters for S",
+            "choices": []
+          },
+          {
+            "description": "May take one B",
+            "choices": [
+              {
+                "name": "Mark of Khorne",
+                "pts_delta": 17
+              },
+              {
+                "name": "Mark of Nurgle",
+                "pts_delta": 30
+              },
+              {
+                "name": "Mark of Slaanesh",
+                "pts_delta": 20
+              },
+              {
+                "name": "Mark of Tzeentch",
+                "pts_delta": 24
+              }
+            ]
+          },
+          {
+            "description": "May take up to one of each E",
+            "choices": [
+              {
+                "name": "Chaff Launchers",
+                "pts_delta": 18
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Storm Eagle Gunship",
+        "points_base": 545,
+        "composition": "1 Storm Eagle",
+        "models": [
+          {
+            "name": "Storm Eagle",
+            "stats": {
+              "M": "50",
+              "WS": "5+",
+              "BS": "3+",
+              "S": "8",
+              "FA": "12",
+              "SA": "12",
+              "RA": "10",
+              "W": "18",
+              "I": "1",
+              "A": "6",
+              "Ld": "8",
+              "Sv": "3+"
+            },
+            "rules": [
+              "Titanic Vehicle",
+              "Deepstrike",
+              "Fearless",
+              "High Altitude",
+              "Hover",
+              "Night Vision",
+              "Shock Assault",
+              "Transport 20"
+            ]
+          }
+        ],
+        "fixed_wargear": [
+          "2 Linked Vengeance Launchers",
+          "2 Linked Heavy Bolters",
+          "4 Linked Hellstrike Missiles"
+        ],
+        "options": [
+          {
+            "description": "May swap 2 Sets of 2 Linked Autocannons for S",
+            "choices": []
+          },
+          {
+            "description": "May swap 4 Linked Hellstrike Missiles for W",
+            "choices": []
+          },
+          {
+            "description": "May take one B",
+            "choices": [
+              {
+                "name": "Mark of Khorne",
+                "pts_delta": 17
+              },
+              {
+                "name": "Mark of Nurgle",
+                "pts_delta": 30
+              },
+              {
+                "name": "Mark of Slaanesh",
+                "pts_delta": 20
+              },
+              {
+                "name": "Mark of Tzeentch",
+                "pts_delta": 24
+              }
+            ]
+          },
+          {
+            "description": "May take up to one of each E",
+            "choices": [
+              {
+                "name": "Chaff Launchers",
+                "pts_delta": 18
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Thunderhawk Gunship",
+        "points_base": 828,
+        "composition": "1 Thunderhawk",
+        "models": [
+          {
+            "name": "Thunderhawk",
+            "stats": {
+              "M": "50",
+              "WS": "5+",
+              "BS": "3+",
+              "S": "10",
+              "FA": "12",
+              "SA": "12",
+              "RA": "10",
+              "W": "30",
+              "I": "1",
+              "A": "9",
+              "Ld": "8",
+              "Sv": "3+"
+            },
+            "rules": [
+              "Titanic Vehicle",
+              "Deepstrike",
+              "Fearless",
+              "High Altitude",
+              "Hover",
+              "Night Vision",
+              "Shock Assault",
+              "Transport 30"
+            ]
+          }
+        ],
+        "fixed_wargear": [
+          "Thunderhawk Heavy Cannon",
+          "2 Linked Lascannons",
+          "4 Sets of 2 Linked Heavy Bolters",
+          "2 Linked Hellstrike Missile Racks"
+        ],
+        "options": [
+          {
+            "description": "May swap Thunderhawk Heavy Cannon for T",
+            "choices": []
+          },
+          {
+            "description": "May swap 2 Linked Hellstrike Missile Racks for W",
+            "choices": []
+          },
+          {
+            "description": "May take one B",
+            "choices": [
+              {
+                "name": "Mark of Khorne",
+                "pts_delta": 17
+              },
+              {
+                "name": "Mark of Nurgle",
+                "pts_delta": 30
+              },
+              {
+                "name": "Mark of Slaanesh",
+                "pts_delta": 20
+              },
+              {
+                "name": "Mark of Tzeentch",
+                "pts_delta": 24
+              }
+            ]
+          },
+          {
+            "description": "May take up to one of each E",
+            "choices": [
+              {
+                "name": "Chaff Launchers",
+                "pts_delta": 18
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Thunderhawk Transporter",
+        "points_base": 755,
+        "composition": "1 Thunderhawk",
+        "models": [
+          {
+            "name": "Thunderhawk",
+            "stats": {
+              "M": "50",
+              "WS": "5+",
+              "BS": "3+",
+              "S": "10",
+              "FA": "12",
+              "SA": "12",
+              "RA": "10",
+              "W": "30",
+              "I": "1",
+              "A": "9",
+              "Ld": "8",
+              "Sv": "3+"
+            },
+            "rules": [
+              "Titanic Vehicle",
+              "Deepstrike",
+              "Fearless",
+              "High Altitude",
+              "Hover",
+              "Night Vision",
+              "Shock Assault",
+              "Transport 15",
+              "Tank Transport"
+            ]
+          }
+        ],
+        "fixed_wargear": [
+          "2 Linked Lascannons",
+          "4 Sets of 2 Linked Heavy Bolters",
+          "2 Linked Hellstrike Missile Racks"
+        ],
+        "options": [
+          {
+            "description": "May swap 2 Linked Hellstrike Missile Racks for W",
+            "choices": []
+          },
+          {
+            "description": "May take one B",
+            "choices": [
+              {
+                "name": "Mark of Khorne",
+                "pts_delta": 17
+              },
+              {
+                "name": "Mark of Nurgle",
+                "pts_delta": 30
+              },
+              {
+                "name": "Mark of Slaanesh",
+                "pts_delta": 20
+              },
+              {
+                "name": "Mark of Tzeentch",
+                "pts_delta": 24
+              }
+            ]
+          },
+          {
+            "description": "May take up to one of each E",
+            "choices": [
+              {
+                "name": "Chaff Launchers",
+                "pts_delta": 18
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Falchion",
+        "points_base": 599,
+        "composition": "1 Falchion",
+        "models": [
+          {
+            "name": "Falchion",
+            "stats": {
+              "M": "6",
+              "WS": "5+",
+              "BS": "3+",
+              "S": "8",
+              "FA": "14",
+              "SA": "14",
+              "RA": "14",
+              "W": "26",
+              "I": "1",
+              "A": "9",
+              "Ld": "8",
+              "Sv": "3+"
+            },
+            "rules": [
+              "Titanic Vehicle",
+              "Malicious Volley",
+              "Fearless",
+              "Night Vision",
+              "Shock Assault"
+            ]
+          }
+        ],
+        "fixed_wargear": [
+          "2 Linked Volcano Cannons"
+        ],
+        "options": [
+          {
+            "description": "May take one S",
+            "choices": []
+          },
+          {
+            "description": "May take one M",
+            "choices": []
+          },
+          {
+            "description": "May take one P",
+            "choices": []
+          },
+          {
+            "description": "May take one B",
+            "choices": [
+              {
+                "name": "Mark of Khorne",
+                "pts_delta": 17
+              },
+              {
+                "name": "Mark of Nurgle",
+                "pts_delta": 30
+              },
+              {
+                "name": "Mark of Slaanesh",
+                "pts_delta": 20
+              },
+              {
+                "name": "Mark of Tzeentch",
+                "pts_delta": 24
+              }
+            ]
+          },
+          {
+            "description": "May take up to one of each E",
+            "choices": [
+              {
+                "name": "Recover Gear",
+                "pts_delta": 2
+              },
+              {
+                "name": "Smoke Launchers",
+                "pts_delta": 20
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Fellblade",
+        "points_base": 844,
+        "composition": "1 Fellblade",
+        "models": [
+          {
+            "name": "Fellblade",
+            "stats": {
+              "M": "6",
+              "WS": "5+",
+              "BS": "3+",
+              "S": "8",
+              "FA": "14",
+              "SA": "14",
+              "RA": "14",
+              "W": "26",
+              "I": "1",
+              "A": "9",
+              "Ld": "8",
+              "Sv": "3+"
+            },
+            "rules": [
+              "Titanic Vehicle",
+              "Malicious Volleys",
+              "Fearless",
+              "Night Vision",
+              "Shock Assault"
+            ]
+          }
+        ],
+        "fixed_wargear": [
+          "2 Linked Accelerator Cannons",
+          "Demolisher Cannon",
+          "2 Linked Heavy Flamers",
+          "2 Sets of 4 Linked Lascannons"
+        ],
+        "options": [
+          {
+            "description": "May swap 2 Linked Heavy Flamers for H2",
+            "choices": []
+          },
+          {
+            "description": "May swap 2 Sets of 4 Linked Lascannons for S",
+            "choices": []
+          },
+          {
+            "description": "May take one M",
+            "choices": []
+          },
+          {
+            "description": "May take one P",
+            "choices": []
+          },
+          {
+            "description": "May take one B",
+            "choices": [
+              {
+                "name": "Mark of Khorne",
+                "pts_delta": 17
+              },
+              {
+                "name": "Mark of Nurgle",
+                "pts_delta": 30
+              },
+              {
+                "name": "Mark of Slaanesh",
+                "pts_delta": 20
+              },
+              {
+                "name": "Mark of Tzeentch",
+                "pts_delta": 24
+              }
+            ]
+          },
+          {
+            "description": "May take up to one of each E",
+            "choices": [
+              {
+                "name": "Recover Gear",
+                "pts_delta": 2
+              },
+              {
+                "name": "Smoke Launchers",
+                "pts_delta": 20
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Cerberus",
+        "points_base": 473,
+        "composition": "1 Cerberus",
+        "models": [
+          {
+            "name": "Cerberus",
+            "stats": {
+              "M": "8",
+              "WS": "5+",
+              "BS": "3+",
+              "S": "8",
+              "FA": "14",
+              "SA": "14",
+              "RA": "14",
+              "W": "20",
+              "I": "1",
+              "A": "6",
+              "Ld": "8",
+              "Sv": "3+"
+            },
+            "rules": [
+              "Titanic Vehicle",
+              "Malicious Volleys",
+              "Fearless",
+              "Night Vision",
+              "Shock Assault"
+            ]
+          }
+        ],
+        "fixed_wargear": [
+          "3 Linked Neutron Pulses"
+        ],
+        "options": [
+          {
+            "description": "May take one S",
+            "choices": []
+          },
+          {
+            "description": "May take one M",
+            "choices": []
+          },
+          {
+            "description": "May take one P",
+            "choices": []
+          },
+          {
+            "description": "May take one B",
+            "choices": [
+              {
+                "name": "Mark of Khorne",
+                "pts_delta": 17
+              },
+              {
+                "name": "Mark of Nurgle",
+                "pts_delta": 30
+              },
+              {
+                "name": "Mark of Slaanesh",
+                "pts_delta": 20
+              },
+              {
+                "name": "Mark of Tzeentch",
+                "pts_delta": 24
+              }
+            ]
+          },
+          {
+            "description": "May take up to one of each E",
+            "choices": [
+              {
+                "name": "Recover Gear",
+                "pts_delta": 2
+              },
+              {
+                "name": "Smoke Launchers",
+                "pts_delta": 20
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Spartan",
+        "points_base": 599,
+        "composition": "1 Spartan",
+        "models": [
+          {
+            "name": "Spartan",
+            "stats": {
+              "M": "8",
+              "WS": "5+",
+              "BS": "3+",
+              "S": "8",
+              "FA": "14",
+              "SA": "14",
+              "RA": "14",
+              "W": "20",
+              "I": "1",
+              "A": "6",
+              "Ld": "8",
+              "Sv": "3+"
+            },
+            "rules": [
+              "Titanic Vehicle",
+              "Malicious Volleys",
+              "Fearless",
+              "Night Vision",
+              "Shock Assault",
+              "Transport 25",
+              "Assault Ramps."
+            ]
+          }
+        ],
+        "fixed_wargear": [
+          "2 Linked Heavy Flamers",
+          "2 Sets of 4 Linked Lascannons"
+        ],
+        "options": [
+          {
+            "description": "May swap 2 Linked Heavy Flamers for H",
+            "choices": []
+          },
+          {
+            "description": "May swap 2 Sets of 4 Linked Lascannons for S",
+            "choices": []
+          },
+          {
+            "description": "May take one M",
+            "choices": []
+          },
+          {
+            "description": "May take one P",
+            "choices": []
+          },
+          {
+            "description": "May take one B",
+            "choices": [
+              {
+                "name": "Mark of Khorne",
+                "pts_delta": 17
+              },
+              {
+                "name": "Mark of Nurgle",
+                "pts_delta": 30
+              },
+              {
+                "name": "Mark of Slaanesh",
+                "pts_delta": 20
+              },
+              {
+                "name": "Mark of Tzeentch",
+                "pts_delta": 24
+              }
+            ]
+          },
+          {
+            "description": "May take up to one of each E",
+            "choices": [
+              {
+                "name": "Recover Gear",
+                "pts_delta": 2
+              },
+              {
+                "name": "Smoke Launchers",
+                "pts_delta": 20
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Typhon",
+        "points_base": 482,
+        "composition": "1 Typhon",
+        "models": [
+          {
+            "name": "Typhon",
+            "stats": {
+              "M": "8",
+              "WS": "5+",
+              "BS": "3+",
+              "S": "8",
+              "FA": "14",
+              "SA": "14",
+              "RA": "14",
+              "W": "20",
+              "I": "1",
+              "A": "6",
+              "Ld": "8",
+              "Sv": "3+"
+            },
+            "rules": [
+              "Titanic Vehicle",
+              "Malicious Volley",
+              "Fearless",
+              "Night Vision",
+              "Shock Assault"
+            ]
+          }
+        ],
+        "fixed_wargear": [
+          "Dreadhammer Siege Cannon"
+        ],
+        "options": [
+          {
+            "description": "May take one S",
+            "choices": []
+          },
+          {
+            "description": "May take one M",
+            "choices": []
+          },
+          {
+            "description": "May take one P",
+            "choices": []
+          },
+          {
+            "description": "May take one B",
+            "choices": [
+              {
+                "name": "Mark of Khorne",
+                "pts_delta": 17
+              },
+              {
+                "name": "Mark of Nurgle",
+                "pts_delta": 30
+              },
+              {
+                "name": "Mark of Slaanesh",
+                "pts_delta": 20
+              },
+              {
+                "name": "Mark of Tzeentch",
+                "pts_delta": 24
+              }
+            ]
+          },
+          {
+            "description": "May take up to one of each E",
+            "choices": [
+              {
+                "name": "Recover Gear",
+                "pts_delta": 2
+              },
+              {
+                "name": "Smoke Launchers",
+                "pts_delta": 20
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Support Vehicles",
+        "points_base": 537,
+        "composition": "1 Assault Claw",
+        "models": [
+          {
+            "name": "Kharybdis Assault Claw",
+            "stats": {
+              "M": "12",
+              "WS": "3+",
+              "BS": "3+",
+              "S": "8",
+              "FA": "12",
+              "SA": "12",
+              "RA": "12",
+              "W": "20",
+              "I": "4",
+              "A": "6",
+              "Ld": "7",
+              "Sv": "3+"
+            },
+            "rules": []
+          },
+          {
+            "name": "Assault Claw",
+            "stats": {},
+            "rules": [
+              "Vehicle",
+              "Combat Walker",
+              "Deepstrike",
+              "Flying",
+              "Transport 20",
+              "Dreadnought Module"
+            ]
+          }
+        ],
+        "fixed_wargear": [
+          "Thermal Jet",
+          "Bladed Struts",
+          "5 Cyclone Missile Launchers"
+        ],
+        "options": [
+          {
+            "description": "May take one B",
+            "choices": [
+              {
+                "name": "Mark of Khorne",
+                "pts_delta": 17
+              },
+              {
+                "name": "Mark of Nurgle",
+                "pts_delta": 30
+              },
+              {
+                "name": "Mark of Slaanesh",
+                "pts_delta": 20
+              },
+              {
+                "name": "Mark of Tzeentch",
+                "pts_delta": 24
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Mastodon",
+        "points_base": 880,
+        "composition": "1 Mastodon",
+        "models": [
+          {
+            "name": "Mastodon",
+            "stats": {
+              "M": "6",
+              "WS": "5+",
+              "BS": "3+",
+              "S": "9",
+              "FA": "15",
+              "SA": "15",
+              "RA": "14",
+              "W": "30",
+              "I": "1",
+              "A": "9",
+              "Ld": "8",
+              "Sv": "3+"
+            },
+            "rules": [
+              "Titanic Vehicle",
+              "Fearless",
+              "Night Vision",
+              "Shock Assault",
+              "Void Shields 2",
+              "Transport 40",
+              "Dreadnought Transport",
+              "Wounds."
+            ]
+          }
+        ],
+        "fixed_wargear": [
+          "Siege Melta Array",
+          "2 Linked Sky Reaper Batteries",
+          "2 Lascannons",
+          "2 Heavy Flamers"
+        ],
+        "options": [
+          {
+            "description": "May take one B",
+            "choices": [
+              {
+                "name": "Mark of Khorne",
+                "pts_delta": 17
+              },
+              {
+                "name": "Mark of Nurgle",
+                "pts_delta": 30
+              },
+              {
+                "name": "Mark of Slaanesh",
+                "pts_delta": 20
+              },
+              {
+                "name": "Mark of Tzeentch",
+                "pts_delta": 24
+              }
+            ]
+          },
+          {
+            "description": "May take up to one of each E",
+            "choices": [
+              {
+                "name": "Recover Gear",
+                "pts_delta": 2
+              },
+              {
+                "name": "Smoke Launchers",
+                "pts_delta": 20
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Imperial Titans",
+        "points_base": 1451,
+        "composition": "1 Reaver",
+        "models": [
+          {
+            "name": "Reaver",
+            "stats": {
+              "M": "16",
+              "WS": "3+",
+              "BS": "3+",
+              "S": "9",
+              "FA": "14",
+              "SA": "14",
+              "RA": "13",
+              "W": "70",
+              "I": "4",
+              "A": "6",
+              "Ld": "8",
+              "Sv": "3+"
+            },
+            "rules": [
+              "Titanic Vehicle",
+              "Combat Walker",
+              "Fearless",
+              "Night Vision",
+              "Steady",
+              "Void Shields 4",
+              "Create Panic",
+              "Nuclear Meltdown",
+              "Radius.",
+              "Titanic God Engine",
+              "Charging.",
+              "The Hour is Nigh",
+              "T Minus 5"
+            ]
+          },
+          {
+            "name": "Reaver",
+            "stats": {},
+            "rules": []
+          }
+        ],
+        "fixed_wargear": [
+          "2 Melta Cannons",
+          "Crushing Feet"
+        ],
+        "options": [
+          {
+            "description": "May swap either Melta Cannon for H",
+            "choices": []
+          },
+          {
+            "description": "May take one T",
+            "choices": []
+          },
+          {
+            "description": "May take one B",
+            "choices": [
+              {
+                "name": "Mark of Khorne",
+                "pts_delta": 17
+              },
+              {
+                "name": "Mark of Nurgle",
+                "pts_delta": 30
+              },
+              {
+                "name": "Mark of Slaanesh",
+                "pts_delta": 20
+              },
+              {
+                "name": "Mark of Tzeentch",
+                "pts_delta": 24
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Warbringer Nemesis",
+        "points_base": 2047,
+        "composition": "1 Nemesis",
+        "models": [
+          {
+            "name": "Nemesis",
+            "stats": {
+              "M": "14",
+              "WS": "5+",
+              "BS": "3+",
+              "S": "9",
+              "FA": "14",
+              "SA": "14",
+              "RA": "13",
+              "W": "100",
+              "I": "4",
+              "A": "6",
+              "Ld": "8",
+              "Sv": "3+"
+            },
+            "rules": [
+              "Titanic Vehicle",
+              "Combat Walker",
+              "Fearless",
+              "Night Vision",
+              "Steady",
+              "Void Shields 6",
+              "Create Panic",
+              "Nuclear Meltdown",
+              "Radius.",
+              "Titanic God Engine",
+              "Charging.",
+              "Earthshock"
+            ]
+          }
+        ],
+        "fixed_wargear": [
+          "Nemesis Volcano Cannon",
+          "2 Melta Cannons",
+          "2 Sets of 4 Linked Anvillus",
+          "Defense Batteries",
+          "3 Ardex Defensor Maulers",
+          "Crushing Feet"
+        ],
+        "options": [
+          {
+            "description": "May swap Nemesis Volcano Cannon for T",
+            "choices": []
+          },
+          {
+            "description": "May swap either Melta Cannon for H",
+            "choices": []
+          },
+          {
+            "description": "May take one T",
+            "choices": []
+          },
+          {
+            "description": "May take one B",
+            "choices": [
+              {
+                "name": "Mark of Khorne",
+                "pts_delta": 17
+              },
+              {
+                "name": "Mark of Nurgle",
+                "pts_delta": 30
+              },
+              {
+                "name": "Mark of Slaanesh",
+                "pts_delta": 20
+              },
+              {
+                "name": "Mark of Tzeentch",
+                "pts_delta": 24
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Warhound",
+        "points_base": 975,
+        "composition": "1 Warhound",
+        "models": [
+          {
+            "name": "Warhound",
+            "stats": {
+              "M": "20",
+              "WS": "5+",
+              "BS": "3+",
+              "S": "9",
+              "FA": "14",
+              "SA": "13",
+              "RA": "12",
+              "W": "50",
+              "I": "4",
+              "A": "6",
+              "Ld": "8",
+              "Sv": "3+"
+            },
+            "rules": [
+              "Titanic Vehicle",
+              "Combat Walker",
+              "Fearless",
+              "Night Vision",
+              "Steady",
+              "Void Shields 1",
+              "Create Panic",
+              "Nuclear Meltdown",
+              "Radius.",
+              "Titanic God Engine",
+              "Charging."
+            ]
+          }
+        ],
+        "fixed_wargear": [
+          "2 Vulcan Megabolters",
+          "Crushing Feet"
+        ],
+        "options": [
+          {
+            "description": "May swap either Vulcan Megabolter for H",
+            "choices": []
+          },
+          {
+            "description": "May take one B",
+            "choices": [
+              {
+                "name": "Mark of Khorne",
+                "pts_delta": 17
+              },
+              {
+                "name": "Mark of Nurgle",
+                "pts_delta": 30
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Warhound",
+        "points_base": 2564,
+        "composition": "1 Warlord",
+        "models": [
+          {
+            "name": "Warhound",
+            "stats": {
+              "M": "20",
+              "WS": "5+",
+              "BS": "3+",
+              "S": "9",
+              "FA": "14",
+              "SA": "13",
+              "RA": "12",
+              "W": "50",
+              "I": "4",
+              "A": "6",
+              "Ld": "8",
+              "Sv": "3+"
+            },
+            "rules": [
+              "Titanic Vehicle",
+              "Combat Walker",
+              "Fearless",
+              "Night Vision",
+              "Steady",
+              "Void Shields 6",
+              "Create Panic",
+              "Nuclear Meltdown",
+              "Radius.",
+              "Towering God Engine",
+              "Titanic God Engine"
+            ]
+          }
+        ],
+        "fixed_wargear": [
+          "2 Vulcan Megabolters",
+          "Crushing Feet",
+          "2 sets of 2 Linked Turbo Laser",
+          "Destructors",
+          "2 Belicosa Volcano Cannons",
+          "2 Ardex Defensor Lascannons",
+          "2 Ardex Defensor Maulers",
+          "Crushing Feet",
+          "M WS BS S FA SA RA",
+          "12 3+ 3+ 10 14 14 13",
+          "W I A Ld Sv",
+          "120 4 9 8 3+"
+        ],
+        "options": [
+          {
+            "description": "May swap either Vulcan Megabolter for H",
+            "choices": []
+          },
+          {
+            "description": "May take one B",
+            "choices": [
+              {
+                "name": "Mark of Khorne",
+                "pts_delta": 17
+              },
+              {
+                "name": "Mark of Nurgle",
+                "pts_delta": 30
+              }
+            ]
+          },
+          {
+            "description": "May swap 2 Sets of 2 Linked Turbo Laser Destructors for T",
+            "choices": []
+          },
+          {
+            "description": "May swap either Belicosa Volcano Cannon for H",
+            "choices": []
+          },
+          {
+            "description": "May take one B",
+            "choices": []
+          }
+        ]
+      }
+    ],
+    "fortifications": [
+      {
+        "name": "Noctilth Crown",
+        "points_base": 176,
+        "composition": "1 Crown",
+        "models": [
+          {
+            "name": "Crown",
+            "stats": {},
+            "rules": [
+              "Building",
+              "Immobile",
+              "Daemonic",
+              "Loathsome Insights",
+              "Cast.",
+              "Malevolent Locus",
+              "Test.",
+              "Unstable Energies"
+            ]
+          }
+        ],
+        "fixed_wargear": [
+          "Lashing Warp Energies"
+        ],
+        "options": [
+          {
+            "description": "May take up to 5 more Talons for +48 points each The entire unit may take one B If the unit took one B, the entire unit may take one C of the corresponding Mark",
+            "choices": [
+              {
+                "name": "Mark of Khorne",
+                "pts_delta": 4
+              },
+              {
+                "name": "Mark of Nurgle",
+                "pts_delta": 5
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

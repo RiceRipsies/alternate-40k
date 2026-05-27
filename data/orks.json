@@ -1,0 +1,3751 @@
+{
+  "id": "orks",
+  "name": "Orks",
+  "difficulty": 1,
+  "subfactions": [
+    {
+      "name": "Average"
+    },
+    {
+      "name": "Bad Moons"
+    },
+    {
+      "name": "Blood Axes"
+    },
+    {
+      "name": "Da Red Revolution"
+    },
+    {
+      "name": "Deathskulls"
+    },
+    {
+      "name": "Evil Sunz"
+    },
+    {
+      "name": "Freebooterz"
+    },
+    {
+      "name": "Goff"
+    },
+    {
+      "name": "Snakebite"
+    }
+  ],
+  "slots": {
+    "hq": [
+      {
+        "name": "Deffkilla Wartrike",
+        "points_base": 212,
+        "composition": "1 Wartrike",
+        "models": [
+          {
+            "name": "Wartrike",
+            "stats": {
+              "M": "12",
+              "WS": "2+",
+              "BS": "5+",
+              "S": "6",
+              "T": "6",
+              "W": "7",
+              "I": "2",
+              "A": "4",
+              "Ld": "9",
+              "Sv": "-"
+            },
+            "rules": [
+              "Independent Character",
+              "Monstrous Infantry",
+              "Steed",
+              "Ork",
+              "\u2018Ere We Go!",
+              "Breakin\u2019 \u2018Eads!",
+              "Waaagh!"
+            ]
+          }
+        ],
+        "fixed_wargear": [
+          "3 Linked Boomstikkz",
+          "Killa Jet",
+          "Choppa",
+          "Stikkbombz",
+          "Forcefield"
+        ],
+        "options": [
+          {
+            "description": "May swap Choppa for M",
+            "choices": []
+          },
+          {
+            "description": "May take one B",
+            "choices": [
+              {
+                "name": "Da Big Boss",
+                "pts_delta": 29
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Warboss",
+        "points_base": 144,
+        "composition": "1 Warboss",
+        "models": [
+          {
+            "name": "Warboss",
+            "stats": {
+              "M": "6",
+              "WS": "2+",
+              "BS": "5+",
+              "S": "6",
+              "T": "5",
+              "W": "5",
+              "I": "2",
+              "A": "4",
+              "Ld": "9",
+              "Sv": "4+"
+            },
+            "rules": [
+              "Independent Character",
+              "Monstrous Infantry",
+              "Ork",
+              "\u2018Ere We Go!",
+              "Very Bulky",
+              "Breakin\u2019 \u2018Eads!",
+              "Waaagh!"
+            ]
+          }
+        ],
+        "fixed_wargear": [
+          "Slugga",
+          "Choppa",
+          "Stikkbombz",
+          "Forcefield"
+        ],
+        "options": [
+          {
+            "description": "May swap Slugga for R",
+            "choices": []
+          },
+          {
+            "description": "May swap Choppa for M",
+            "choices": []
+          },
+          {
+            "description": "May take one A",
+            "choices": [
+              {
+                "name": "Mega Armour",
+                "pts_delta": 18
+              },
+              {
+                "name": "Drill Boss",
+                "pts_delta": 20
+              },
+              {
+                "name": "Warbike",
+                "pts_delta": 29
+              }
+            ]
+          },
+          {
+            "description": "May take one B",
+            "choices": [
+              {
+                "name": "Da Big Boss",
+                "pts_delta": 30
+              }
+            ]
+          },
+          {
+            "description": "May take one C",
+            "choices": []
+          }
+        ]
+      },
+      {
+        "name": "Warboss on Squigosaur",
+        "points_base": 220,
+        "composition": "1 Squigosaur",
+        "models": [
+          {
+            "name": "Squigosaur",
+            "stats": {
+              "M": "12",
+              "WS": "2+",
+              "BS": "5+",
+              "S": "6",
+              "T": "7",
+              "W": "9",
+              "I": "2",
+              "A": "4",
+              "Ld": "9",
+              "Sv": "-"
+            },
+            "rules": [
+              "Independent Character",
+              "Monster",
+              "Ork",
+              "\u2018Ere We Go!",
+              "Shock Assault",
+              "Breakin\u2019 \u2018Eads!",
+              "Waaagh!"
+            ]
+          }
+        ],
+        "fixed_wargear": [
+          "Slugga",
+          "Choppa",
+          "Gorin\u2019 Horns",
+          "Stikkbombz",
+          "Forcefield"
+        ],
+        "options": [
+          {
+            "description": "May take one S",
+            "choices": []
+          },
+          {
+            "description": "May swap Choppa for M",
+            "choices": []
+          },
+          {
+            "description": "May take one B",
+            "choices": [
+              {
+                "name": "Da Big Boss",
+                "pts_delta": 29
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "advisors": [
+      {
+        "name": "Mek Boy",
+        "points_base": 35,
+        "composition": "1 Grot Herder",
+        "models": [
+          {
+            "name": "Mek Boy",
+            "stats": {
+              "M": "6",
+              "WS": "3+",
+              "BS": "5+",
+              "S": "4",
+              "T": "4",
+              "W": "4",
+              "I": "2",
+              "A": "3",
+              "Ld": "6",
+              "Sv": "6+"
+            },
+            "rules": [
+              "Independent Character",
+              "Infantry",
+              "Ork",
+              "\u2018Ere We Go!",
+              "Breakin\u2019 \u2018Ittle \u2018 Eads!"
+            ]
+          }
+        ],
+        "fixed_wargear": [
+          "Slugga",
+          "Choppa",
+          "Stikkbombz"
+        ],
+        "options": [
+          {
+            "description": "May take one W",
+            "choices": []
+          },
+          {
+            "description": "May take Grot Oiler",
+            "choices": [
+              {
+                "name": "Grot Oiler",
+                "pts_delta": 2
+              }
+            ]
+          },
+          {
+            "description": "May take Nob",
+            "choices": [
+              {
+                "name": "Nob",
+                "pts_delta": 14
+              }
+            ]
+          },
+          {
+            "description": "May take Kustom Forcefield",
+            "choices": [
+              {
+                "name": "Kustom Forcefield",
+                "pts_delta": 120
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Mek Boy",
+        "points_base": 36,
+        "composition": "1 Mek Boy",
+        "models": [
+          {
+            "name": "Mek Boy",
+            "stats": {
+              "M": "6",
+              "WS": "3+",
+              "BS": "5+",
+              "S": "4",
+              "T": "4",
+              "W": "4",
+              "I": "2",
+              "A": "3",
+              "Ld": "6",
+              "Sv": "6+"
+            },
+            "rules": [
+              "Independent Character",
+              "Infantry",
+              "Ork",
+              "\u2018Ere We Go!",
+              "Repair",
+              "Weapon Destroyed."
+            ]
+          }
+        ],
+        "fixed_wargear": [
+          "Slugga",
+          "Choppa",
+          "Stikkbombz"
+        ],
+        "options": [
+          {
+            "description": "May take one W",
+            "choices": []
+          },
+          {
+            "description": "May take Grot Oiler",
+            "choices": [
+              {
+                "name": "Grot Oiler",
+                "pts_delta": 2
+              }
+            ]
+          },
+          {
+            "description": "May take Nob",
+            "choices": [
+              {
+                "name": "Nob",
+                "pts_delta": 14
+              }
+            ]
+          },
+          {
+            "description": "May take Kustom Forcefield",
+            "choices": [
+              {
+                "name": "Kustom Forcefield",
+                "pts_delta": 120
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Pain Boy",
+        "points_base": 197,
+        "composition": "1 Pain Boy",
+        "models": [
+          {
+            "name": "Pain Boy",
+            "stats": {
+              "M": "6",
+              "WS": "3+",
+              "BS": "5+",
+              "S": "4",
+              "T": "4",
+              "W": "4",
+              "I": "2",
+              "A": "3",
+              "Ld": "6",
+              "Sv": "6+"
+            },
+            "rules": [
+              "Infantry",
+              "\u2018Ere We Go!",
+              "Ork",
+              "Dok\u2019s Toolz",
+              "Feel No Pain."
+            ]
+          }
+        ],
+        "fixed_wargear": [
+          "Power Klaw",
+          "\u2018Urty Syringe"
+        ],
+        "options": [
+          {
+            "description": "May take one A",
+            "choices": []
+          },
+          {
+            "description": "May take one B",
+            "choices": []
+          }
+        ]
+      },
+      {
+        "name": "Weird Boy",
+        "points_base": 47,
+        "composition": "1 Weird Boy",
+        "models": [
+          {
+            "name": "Weird Boy",
+            "stats": {
+              "M": "6",
+              "WS": "3+",
+              "BS": "5+",
+              "S": "4",
+              "T": "4",
+              "W": "4",
+              "I": "2",
+              "A": "3",
+              "Ld": "6",
+              "Sv": "6+"
+            },
+            "rules": [
+              "Infantry",
+              "\u2018Ere We Go!",
+              "Ork",
+              "Psychic Mastery Level 1"
+            ]
+          }
+        ],
+        "fixed_wargear": [
+          "Weird Boy Staff"
+        ],
+        "options": [
+          {
+            "description": "May take Psychic Mastery Level 2 for +15 points",
+            "choices": []
+          },
+          {
+            "description": "May take up to one S for each Psychic Mastery Level",
+            "choices": []
+          },
+          {
+            "description": "May take one B",
+            "choices": [
+              {
+                "name": "Nob",
+                "pts_delta": 14
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Waaagh! Banner",
+        "points_base": 120,
+        "composition": "1 Banner Boy",
+        "models": [
+          {
+            "name": "Banner Boy",
+            "stats": {
+              "M": "6",
+              "WS": "3+",
+              "BS": "5+",
+              "S": "4",
+              "T": "4",
+              "W": "4",
+              "I": "2",
+              "A": "3",
+              "Ld": "6",
+              "Sv": "6+"
+            },
+            "rules": [
+              "Infantry",
+              "\u2018Ere We Go!",
+              "Ork",
+              "Save"
+            ]
+          }
+        ],
+        "fixed_wargear": [
+          "Slugga",
+          "Choppa",
+          "Stikkbombz",
+          "Waaagh! Banner"
+        ],
+        "options": [
+          {
+            "description": "May swap Slugga for R or P",
+            "choices": []
+          },
+          {
+            "description": "May swap Choppa for M",
+            "choices": []
+          },
+          {
+            "description": "May swap Waaagh! Banner for A",
+            "choices": [
+              {
+                "name": "Boom Box",
+                "pts_delta": 30
+              }
+            ]
+          },
+          {
+            "description": "May take one B",
+            "choices": [
+              {
+                "name": "Nob",
+                "pts_delta": 14
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Boss Snikrot",
+        "points_base": 204,
+        "composition": "1 Snikrot",
+        "models": [
+          {
+            "name": "Snikrot",
+            "stats": {
+              "M": "6",
+              "WS": "2+",
+              "BS": "5+",
+              "S": "5",
+              "T": "5",
+              "W": "5",
+              "I": "2",
+              "A": "4",
+              "Ld": "9",
+              "Sv": "6+"
+            },
+            "rules": [
+              "Independent Character",
+              "Monstrous Infantry",
+              "Unique",
+              "\u2018Ere We Go!",
+              "Ork",
+              "Infiltrate",
+              "Stealth",
+              "Very Bulky",
+              "Kunin\u2019 Infiltrator",
+              "Red Skull Kommandoz",
+              "Terrifyin\u2019 Killa",
+              "Waaagh!"
+            ]
+          }
+        ],
+        "fixed_wargear": [
+          "Mork\u2019s Teef",
+          "Stikkbombz",
+          "Forcefield"
+        ],
+        "options": []
+      },
+      {
+        "name": "Boss Zagstruk",
+        "points_base": 235,
+        "composition": "1 Zagstruk",
+        "models": [
+          {
+            "name": "Zagstruk",
+            "stats": {
+              "M": "12",
+              "WS": "2+",
+              "BS": "5+",
+              "S": "6",
+              "T": "5",
+              "W": "5",
+              "I": "2",
+              "A": "4",
+              "Ld": "9",
+              "Sv": "6+"
+            },
+            "rules": [
+              "Independent Character",
+              "Monstrous Infantry",
+              "Unique",
+              "\u2018Ere We Go!",
+              "Ork",
+              "Deepstrike",
+              "Flying",
+              "Very Bulky",
+              "Cybork Body",
+              "Full Throttle",
+              "Goff Drill Boss",
+              "Waaagh!"
+            ]
+          }
+        ],
+        "fixed_wargear": [
+          "Blitz Missilez",
+          "Slugga",
+          "Choppa",
+          "Da Vulcha\u2019s Klawz",
+          "Forcefield"
+        ],
+        "options": []
+      },
+      {
+        "name": "Mazrog Skragbad",
+        "points_base": 226,
+        "composition": "1 Grotsnik",
+        "models": [
+          {
+            "name": "Gutrippa",
+            "stats": {
+              "M": "12",
+              "WS": "2+",
+              "BS": "5+",
+              "S": "6",
+              "T": "7",
+              "W": "9",
+              "I": "2",
+              "A": "4",
+              "Ld": "6",
+              "Sv": "-"
+            },
+            "rules": [
+              "Independent Character",
+              "Monstrous Infantry",
+              "Unique",
+              "\u2018Ere We Go!",
+              "Very Bulky",
+              "Pack",
+              "Saw Bones"
+            ]
+          }
+        ],
+        "fixed_wargear": [
+          "Thump Gun",
+          "Gorin\u2019 Horns",
+          "Gutrippa"
+        ],
+        "options": []
+      },
+      {
+        "name": "Mazrog Skragbad",
+        "points_base": 195,
+        "composition": "1 Gutrippa",
+        "models": [
+          {
+            "name": "Gutrippa",
+            "stats": {
+              "M": "12",
+              "WS": "2+",
+              "BS": "5+",
+              "S": "6",
+              "T": "7",
+              "W": "9",
+              "I": "2",
+              "A": "4",
+              "Ld": "6",
+              "Sv": "-"
+            },
+            "rules": [
+              "Independent Character",
+              "Monster",
+              "Unique",
+              "Ork",
+              "\u2018Ere We Go!",
+              "Shock Assault",
+              "Pain"
+            ]
+          }
+        ],
+        "fixed_wargear": [
+          "Thump Gun",
+          "Gorin\u2019 Horns",
+          "Gutrippa"
+        ],
+        "options": []
+      },
+      {
+        "name": "Zodgrod Wortsnagga",
+        "points_base": 149,
+        "composition": "1 Zodgrod",
+        "models": [
+          {
+            "name": "Zodgrod",
+            "stats": {
+              "M": "6",
+              "WS": "2+",
+              "BS": "5+",
+              "S": "5",
+              "T": "5",
+              "W": "4",
+              "I": "2",
+              "A": "3",
+              "Ld": "9",
+              "Sv": "6+"
+            },
+            "rules": [
+              "Independent Character",
+              "Monstrous Infantry",
+              "Unique",
+              "\u2018Ere We Go!",
+              "Very Bulky",
+              "Grot Kommandoz",
+              "Rule.",
+              "Waaagh!"
+            ]
+          }
+        ],
+        "fixed_wargear": [
+          "Slugga",
+          "Da Grabzzappa",
+          "Forcefield"
+        ],
+        "options": []
+      }
+    ],
+    "troops": [
+      {
+        "name": "Ork Boyz",
+        "points_base": 90,
+        "composition": "0-1 Boss Boyz 9-29 Boyz",
+        "models": [
+          {
+            "name": "Boss Boy",
+            "stats": {
+              "M": "6",
+              "WS": "3+",
+              "BS": "5+",
+              "S": "4",
+              "T": "4",
+              "W": "1",
+              "I": "2",
+              "A": "2",
+              "Ld": "6",
+              "Sv": "6+"
+            },
+            "rules": [
+              "Character",
+              "Infantry",
+              "Ork",
+              "\u2018Ere We Go!",
+              "Mob Rule"
+            ]
+          },
+          {
+            "name": "Boy",
+            "stats": {
+              "M": "6",
+              "WS": "3+",
+              "BS": "5+",
+              "S": "4",
+              "T": "4",
+              "W": "1",
+              "I": "2",
+              "A": "1",
+              "Ld": "5",
+              "Sv": "6+"
+            },
+            "rules": [
+              "Infantry",
+              "Ork",
+              "\u2018Ere We Go!",
+              "Mob Rule"
+            ]
+          }
+        ],
+        "fixed_wargear": [
+          "Slugga",
+          "Choppa",
+          "Stikkbombz",
+          "Slugga and Choppa",
+          "Stikkbombz"
+        ],
+        "options": [
+          {
+            "description": "May add a Boss Boy for +14 points Boss Boy may swap Slugga for OR Boss Boy may swap Choppa for M Boss Boy may take one B",
+            "choices": []
+          },
+          {
+            "description": "May take up to 20 more Boyz for +10 points each Up to 3 Boyz may swap Slugga and Choppa for S or take SG Any Boy may swap Slugga and Choppa for R The entire unit may take one E",
+            "choices": []
+          }
+        ]
+      },
+      {
+        "name": "Grots",
+        "points_base": 60,
+        "composition": "30-50 Grots",
+        "models": [
+          {
+            "name": "Grot",
+            "stats": {
+              "M": "6",
+              "WS": "5+",
+              "BS": "4+",
+              "S": "2",
+              "T": "2",
+              "W": "1",
+              "I": "4",
+              "A": "1",
+              "Ld": "5",
+              "Sv": "-"
+            },
+            "rules": [
+              "Infantry",
+              "\u2018Ere We Go!",
+              "Grot",
+              "Packed Like Squigs",
+              "Unruly Mob"
+            ]
+          }
+        ],
+        "fixed_wargear": [
+          "Grot Blaster"
+        ],
+        "options": [
+          {
+            "description": "May add up to 20 more Grots for +2 points each",
+            "choices": []
+          }
+        ]
+      }
+    ],
+    "elites": [
+      {
+        "name": "Burna Boyz",
+        "points_base": 60,
+        "composition": "0-1 Boss Boyz 4-14 Boyz",
+        "models": [
+          {
+            "name": "Spanner",
+            "stats": {
+              "M": "6",
+              "WS": "3+",
+              "BS": "5+",
+              "S": "4",
+              "T": "4",
+              "W": "1",
+              "I": "2",
+              "A": "2",
+              "Ld": "6",
+              "Sv": "6+"
+            },
+            "rules": [
+              "Character",
+              "Infantry",
+              "Ork",
+              "\u2018Ere We Go!",
+              "Mob Rule",
+              "Repair",
+              "Weapon Destroyed."
+            ]
+          },
+          {
+            "name": "Boy",
+            "stats": {
+              "M": "6",
+              "WS": "3+",
+              "BS": "5+",
+              "S": "4",
+              "T": "4",
+              "W": "1",
+              "I": "2",
+              "A": "1",
+              "Ld": "5",
+              "Sv": "6+"
+            },
+            "rules": [
+              "Infantry",
+              "Ork",
+              "\u2018Ere We Go!",
+              "Mob Rule"
+            ]
+          }
+        ],
+        "fixed_wargear": [
+          "Slugga",
+          "Choppa",
+          "Stikkbombz",
+          "Slugga and Choppa",
+          "Stikkbombz"
+        ],
+        "options": [
+          {
+            "description": "May add a Spanner for +20 points Spanner may swap Slugga for OR Spanner may swap Choppa for M Spanner may take one B Spanner may take up to one of each A",
+            "choices": []
+          },
+          {
+            "description": "May take up to 10 more Boyz for +15 points each The entire unit may take one E",
+            "choices": []
+          }
+        ]
+      },
+      {
+        "name": "Kommandoz",
+        "points_base": 56,
+        "composition": "0-1 Boss Boyz 4-14 Boyz",
+        "models": [
+          {
+            "name": "Boss Boy",
+            "stats": {
+              "M": "6",
+              "WS": "3+",
+              "BS": "5+",
+              "S": "4",
+              "T": "4",
+              "W": "1",
+              "I": "2",
+              "A": "2",
+              "Ld": "6",
+              "Sv": "6+"
+            },
+            "rules": [
+              "Character",
+              "Infantry",
+              "Ork",
+              "\u2018Ere We Go!",
+              "Mob Rule",
+              "Infiltrate",
+              "Stealth"
+            ]
+          },
+          {
+            "name": "Boy",
+            "stats": {
+              "M": "6",
+              "WS": "3+",
+              "BS": "5+",
+              "S": "4",
+              "T": "4",
+              "W": "1",
+              "I": "2",
+              "A": "1",
+              "Ld": "5",
+              "Sv": "6+"
+            },
+            "rules": [
+              "Infantry",
+              "Ork",
+              "\u2018Ere We Go!",
+              "Mob Rule",
+              "Infiltrate",
+              "Stealth"
+            ]
+          }
+        ],
+        "fixed_wargear": [
+          "Slugga",
+          "Choppa",
+          "Stikkbombz",
+          "Slugga and Choppa",
+          "Stikkbombz"
+        ],
+        "options": [
+          {
+            "description": "May add a Boss Boy for +18 points Boss Boy may swap Slugga for OR Boss Boy may swap Choppa for M Boss Boy may take one B",
+            "choices": []
+          },
+          {
+            "description": "May take up to 10 more Boyz for +14 points each Up to 3 Boyz may swap Slugga and Choppa for S or take SG The entire unit may take one E",
+            "choices": []
+          }
+        ]
+      },
+      {
+        "name": "Nobz",
+        "points_base": 68,
+        "composition": "0-1 Boss Nob 4-9 Nobz",
+        "models": [
+          {
+            "name": "Boss Nob",
+            "stats": {
+              "M": "6",
+              "WS": "3+",
+              "BS": "5+",
+              "S": "5",
+              "T": "4",
+              "W": "2",
+              "I": "2",
+              "A": "3",
+              "Ld": "6",
+              "Sv": "6+"
+            },
+            "rules": [
+              "Character",
+              "Infantry",
+              "Ork",
+              "\u2018Ere We Go!",
+              "Mob Rule",
+              "Bulky"
+            ]
+          },
+          {
+            "name": "Nob",
+            "stats": {
+              "M": "6",
+              "WS": "3+",
+              "BS": "5+",
+              "S": "5",
+              "T": "4",
+              "W": "2",
+              "I": "2",
+              "A": "2",
+              "Ld": "5",
+              "Sv": "6+"
+            },
+            "rules": [
+              "Infantry",
+              "Ork",
+              "\u2018Ere We Go!",
+              "Mob Rule",
+              "Bulky"
+            ]
+          }
+        ],
+        "fixed_wargear": [
+          "Slugga",
+          "Choppa",
+          "Stikkbombz",
+          "Slugga",
+          "Choppa",
+          "Stikkbombz"
+        ],
+        "options": [
+          {
+            "description": "May add a Boss Nob for +21 Points",
+            "choices": []
+          },
+          {
+            "description": "May add up to 5 more Nobz for +17 points each Any model may swap Slugga for R Any model may swap Choppa for M The entire unit may take one E",
+            "choices": [
+              {
+                "name": "\u2018Ard Boyz",
+                "pts_delta": 2
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Tank Bustas",
+        "points_base": 30,
+        "composition": "3-10 Snotlings",
+        "models": [
+          {
+            "name": "Boss Boy",
+            "stats": {
+              "M": "6",
+              "WS": "3+",
+              "BS": "5+",
+              "S": "4",
+              "T": "4",
+              "W": "1",
+              "I": "2",
+              "A": "2",
+              "Ld": "6",
+              "Sv": "6+"
+            },
+            "rules": []
+          },
+          {
+            "name": "Boy",
+            "stats": {
+              "M": "6",
+              "WS": "3+",
+              "BS": "5+",
+              "S": "4",
+              "T": "4",
+              "W": "1",
+              "I": "2",
+              "A": "1",
+              "Ld": "5",
+              "Sv": "6+"
+            },
+            "rules": [
+              "Swarm",
+              "\u2018Ere We Go!",
+              "I\u2019m Sad, I\u2019ll Kick a Snotling",
+              "Points: 88"
+            ]
+          }
+        ],
+        "fixed_wargear": [
+          "Rokkit Launcha",
+          "Choppa",
+          "Stikkbombz",
+          "Rokkit Launcha",
+          "Stikkbombz"
+        ],
+        "options": [
+          {
+            "description": "May add a Boss Boy for +26 points Boss Boy may swap Choppa for M Boss Boy may take one B",
+            "choices": [
+              {
+                "name": "Boss Nob",
+                "pts_delta": 8
+              }
+            ]
+          },
+          {
+            "description": "May take up to 10 more Boyz for +22 points each Up to 3 Boyz may swap Rokkit Launcha for S or take a SG The entire unit may take one E",
+            "choices": [
+              {
+                "name": "\u2018Ard Boyz",
+                "pts_delta": 2
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Tank Bustas",
+        "points_base": 88,
+        "composition": "0-1 Boss Boyz 4-14 Boyz",
+        "models": [
+          {
+            "name": "Boss Boy",
+            "stats": {
+              "M": "6",
+              "WS": "3+",
+              "BS": "5+",
+              "S": "4",
+              "T": "4",
+              "W": "1",
+              "I": "2",
+              "A": "2",
+              "Ld": "6",
+              "Sv": "6+"
+            },
+            "rules": [
+              "Character",
+              "Infantry",
+              "Ork",
+              "\u2018Ere We Go!",
+              "Mob Rule"
+            ]
+          },
+          {
+            "name": "Boy",
+            "stats": {
+              "M": "6",
+              "WS": "3+",
+              "BS": "5+",
+              "S": "4",
+              "T": "4",
+              "W": "1",
+              "I": "2",
+              "A": "1",
+              "Ld": "5",
+              "Sv": "6+"
+            },
+            "rules": [
+              "Infantry",
+              "Ork",
+              "\u2018Ere We Go!",
+              "Mob Rule"
+            ]
+          }
+        ],
+        "fixed_wargear": [
+          "Rokkit Launcha",
+          "Choppa",
+          "Stikkbombz",
+          "Rokkit Launcha",
+          "Stikkbombz"
+        ],
+        "options": [
+          {
+            "description": "May add a Boss Boy for +26 points Boss Boy may swap Choppa for M Boss Boy may take one B",
+            "choices": [
+              {
+                "name": "Boss Nob",
+                "pts_delta": 8
+              }
+            ]
+          },
+          {
+            "description": "May take up to 10 more Boyz for +22 points each Up to 3 Boyz may swap Rokkit Launcha for S or take a SG The entire unit may take one E",
+            "choices": [
+              {
+                "name": "\u2018Ard Boyz",
+                "pts_delta": 2
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Mega Nobz",
+        "points_base": 200,
+        "composition": "0-1 Boss Mega Nob 4-9 Mega Nobz",
+        "models": [
+          {
+            "name": "Boss Mega Nob",
+            "stats": {
+              "M": "4",
+              "WS": "3+",
+              "BS": "5+",
+              "S": "5",
+              "T": "4",
+              "W": "3",
+              "I": "2",
+              "A": "4",
+              "Ld": "6",
+              "Sv": "3+"
+            },
+            "rules": [
+              "Character",
+              "Monstrous Infantry",
+              "Ork",
+              "\u2018Ere We Go!",
+              "Mob Rule",
+              "Deepstrike",
+              "Steady",
+              "Very Bulky"
+            ]
+          },
+          {
+            "name": "Mega Nob",
+            "stats": {
+              "M": "4",
+              "WS": "3+",
+              "BS": "5+",
+              "S": "5",
+              "T": "4",
+              "W": "3",
+              "I": "2",
+              "A": "3",
+              "Ld": "5",
+              "Sv": "3+"
+            },
+            "rules": [
+              "Infantry",
+              "Ork",
+              "\u2018Ere We Go!",
+              "Mob Rule",
+              "Deepstrike",
+              "Steady",
+              "Very Bulky",
+              "Monstrous Infantry"
+            ]
+          }
+        ],
+        "fixed_wargear": [
+          "Kustom Shoota",
+          "Killsaw",
+          "Stikkbombz",
+          "Kustom Shoota",
+          "Killsaw",
+          "Stikkbombz"
+        ],
+        "options": [
+          {
+            "description": "May add a Boss Nob for +57 Points",
+            "choices": []
+          },
+          {
+            "description": "May add up to 5 more Mega Nobz for +50 points each Any model may swap Kustom Shoota for R Any model may swap Killsaw for M",
+            "choices": []
+          }
+        ]
+      },
+      {
+        "name": "Killa Kanz",
+        "points_base": 130,
+        "composition": "1 Killa Kommanda 2-9 Killa Kanz",
+        "models": [
+          {
+            "name": "Killa Kommanda",
+            "stats": {
+              "M": "6",
+              "WS": "5+",
+              "BS": "4+",
+              "S": "5",
+              "FA": "11",
+              "SA": "10",
+              "RA": "10",
+              "W": "5",
+              "I": "4",
+              "A": "3",
+              "Ld": "6",
+              "Sv": "3+"
+            },
+            "rules": [
+              "Character",
+              "Vehicle",
+              "Combat Walker",
+              "\u2018Ere We Go!",
+              "Grot",
+              "Poor Maintenance",
+              "Steady"
+            ]
+          },
+          {
+            "name": "Killa Kan",
+            "stats": {
+              "M": "6",
+              "WS": "5+",
+              "BS": "4+",
+              "S": "5",
+              "FA": "11",
+              "SA": "10",
+              "RA": "10",
+              "W": "5",
+              "I": "4",
+              "A": "2",
+              "Ld": "5",
+              "Sv": "3+"
+            },
+            "rules": [
+              "Character",
+              "Vehicle",
+              "Combat Walker",
+              "\u2018Ere We Go!",
+              "Poor Maintenance",
+              "Steady"
+            ]
+          }
+        ],
+        "fixed_wargear": [
+          "2 Skorchas",
+          "2 Skorchas"
+        ],
+        "options": [
+          {
+            "description": "May add up to 7 more Killa Kanz for +42 points each Any model may swap any Skorcha for H or M The entire unit may take up to one of each E",
+            "choices": [
+              {
+                "name": "Grot Riggas",
+                "pts_delta": 2
+              },
+              {
+                "name": "Fuel Mixa Grot",
+                "pts_delta": 2
+              },
+              {
+                "name": "Extra Armour",
+                "pts_delta": 2
+              },
+              {
+                "name": "Red Paint",
+                "pts_delta": 1
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Mek Boy Junka",
+        "points_base": 166,
+        "composition": "1 Mek Boy Junka",
+        "models": [
+          {
+            "name": "Mek Boy Junka",
+            "stats": {
+              "M": "12",
+              "WS": "5+",
+              "BS": "5+",
+              "S": "6",
+              "FA": "11",
+              "SA": "11",
+              "RA": "10",
+              "W": "10",
+              "I": "1",
+              "A": "3",
+              "Ld": "6",
+              "Sv": "3+"
+            },
+            "rules": [
+              "Vehicle",
+              "Tank",
+              "\u2018Ere We Go!",
+              "Poor Maintenance",
+              "Transport 10",
+              "Junka Forcefield",
+              "Ranged Attacks."
+            ]
+          }
+        ],
+        "fixed_wargear": [
+          "3 Burnas"
+        ],
+        "options": [
+          {
+            "description": "May swap any Burna for P",
+            "choices": []
+          },
+          {
+            "description": "May take one T",
+            "choices": []
+          },
+          {
+            "description": "May take one M",
+            "choices": []
+          },
+          {
+            "description": "May take one A",
+            "choices": []
+          },
+          {
+            "description": "May take up to one of each E",
+            "choices": [
+              {
+                "name": "Grot Riggas",
+                "pts_delta": 2
+              },
+              {
+                "name": "Fuel Mixa Grot",
+                "pts_delta": 2
+              },
+              {
+                "name": "Extra Armour",
+                "pts_delta": 2
+              },
+              {
+                "name": "Red Paint",
+                "pts_delta": 6
+              },
+              {
+                "name": "Turbo Charga",
+                "pts_delta": 7
+              },
+              {
+                "name": "Assault Ramps",
+                "pts_delta": 10
+              },
+              {
+                "name": "\u2018Ard Case",
+                "pts_delta": 20
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "fast_attack": [
+      {
+        "name": "Grot Bomm Launchaz",
+        "points_base": 21,
+        "composition": "1-3 Launchaz",
+        "models": [
+          {
+            "name": "Launcha",
+            "stats": {},
+            "rules": [
+              "Infantry",
+              "\u2018Ere We Go!",
+              "Grot",
+              "Immobile"
+            ]
+          }
+        ],
+        "fixed_wargear": [
+          "Grott Bomm"
+        ],
+        "options": [
+          {
+            "description": "May take up to 2 more Launchaz for +21 points each Any model may take one B",
+            "choices": [
+              {
+                "name": "Trike",
+                "pts_delta": 17
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Nob Warbikerz",
+        "points_base": 168,
+        "composition": "0-1 Boss Nob 4-9 Nobz",
+        "models": [
+          {
+            "name": "Boss Nob",
+            "stats": {
+              "M": "12",
+              "WS": "3+",
+              "BS": "5+",
+              "S": "5",
+              "T": "5",
+              "W": "3",
+              "I": "2",
+              "A": "3",
+              "Ld": "6",
+              "Sv": "4+"
+            },
+            "rules": [
+              "Character",
+              "Infantry",
+              "Steed",
+              "Ork",
+              "\u2018Ere We Go!",
+              "Mob Rule",
+              "Very Bulky"
+            ]
+          },
+          {
+            "name": "Nob",
+            "stats": {
+              "M": "12",
+              "WS": "3+",
+              "BS": "5+",
+              "S": "5",
+              "T": "5",
+              "W": "3",
+              "I": "2",
+              "A": "2",
+              "Ld": "5",
+              "Sv": "4+"
+            },
+            "rules": [
+              "Infantry",
+              "Steed",
+              "Ork",
+              "\u2018Ere We Go!",
+              "Mob Rule",
+              "Very Bulky"
+            ]
+          }
+        ],
+        "fixed_wargear": [
+          "2 Linked Dakka Gunz",
+          "Choppa",
+          "Stikkbombz",
+          "2 Linked Dakka Gunz",
+          "Choppa",
+          "Stikkbombz"
+        ],
+        "options": [
+          {
+            "description": "May add a Boss Nob for +46 Points Boss Nob may take one R Boss Nob\u2019s Rider may take one T",
+            "choices": [
+              {
+                "name": "Tandem Rider",
+                "pts_delta": 13
+              }
+            ]
+          },
+          {
+            "description": "May add up to 5 more Nobz for +42 points each Any model may take one P Any model may swap Choppa for M",
+            "choices": []
+          }
+        ]
+      },
+      {
+        "name": "Storm Boyz",
+        "points_base": 80,
+        "composition": "0-1 Boss Boyz 4-14 Boyz",
+        "models": [
+          {
+            "name": "Boss Boy",
+            "stats": {
+              "M": "12",
+              "WS": "3+",
+              "BS": "5+",
+              "S": "4",
+              "T": "4",
+              "W": "1",
+              "I": "2",
+              "A": "2",
+              "Ld": "6",
+              "Sv": "6+"
+            },
+            "rules": [
+              "Character",
+              "Infantry",
+              "Ork",
+              "\u2018Ere We Go!",
+              "Mob Rule",
+              "Deepstrike",
+              "Fly"
+            ]
+          },
+          {
+            "name": "Boy",
+            "stats": {
+              "M": "12",
+              "WS": "3+",
+              "BS": "5+",
+              "S": "4",
+              "T": "4",
+              "W": "1",
+              "I": "2",
+              "A": "1",
+              "Ld": "5",
+              "Sv": "6+"
+            },
+            "rules": [
+              "Infantry",
+              "Ork",
+              "\u2018Ere We Go!",
+              "Mob Rule",
+              "Deepstrike",
+              "Fly"
+            ]
+          }
+        ],
+        "fixed_wargear": [
+          "Slugga",
+          "Choppa",
+          "Stikkbombz",
+          "Slugga and Choppa",
+          "Stikkbombz"
+        ],
+        "options": [
+          {
+            "description": "May add a Boss Boy for +24 points Boss Boy may swap Slugga for OR Boss Boy may swap Choppa for M Boss Boy may take one B",
+            "choices": [
+              {
+                "name": "Boss Nob",
+                "pts_delta": 8
+              }
+            ]
+          },
+          {
+            "description": "May take up to 10 more Boyz for +20 points each Up to 3 Boyz may swap Slugga and Choppa for S or take SG The entire unit may take one E",
+            "choices": [
+              {
+                "name": "\u2018Ard Boyz",
+                "pts_delta": 2
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Warbikerz",
+        "points_base": 144,
+        "composition": "0-1 Boss Boy 4-9 Boyz",
+        "models": [
+          {
+            "name": "Boss Boy",
+            "stats": {
+              "M": "12",
+              "WS": "3+",
+              "BS": "5+",
+              "S": "4",
+              "T": "5",
+              "W": "2",
+              "I": "2",
+              "A": "2",
+              "Ld": "6",
+              "Sv": "6+"
+            },
+            "rules": [
+              "Character",
+              "Infantry",
+              "Steed",
+              "Ork",
+              "\u2018Ere We Go!",
+              "Mob Rule",
+              "Outflank",
+              "Very Bulky"
+            ]
+          },
+          {
+            "name": "Boy",
+            "stats": {
+              "M": "12",
+              "WS": "3+",
+              "BS": "5+",
+              "S": "4",
+              "T": "5",
+              "W": "2",
+              "I": "2",
+              "A": "1",
+              "Ld": "5",
+              "Sv": "6+"
+            },
+            "rules": [
+              "Infantry",
+              "Steed",
+              "Ork",
+              "\u2018Ere We Go!",
+              "Mob Rule",
+              "Outflank",
+              "Very Bulky"
+            ]
+          }
+        ],
+        "fixed_wargear": [
+          "2 Linked Dakka Gunz",
+          "Choppa",
+          "Stikkbombz",
+          "2 Linked Dakka Gunz",
+          "Choppa",
+          "Stikkbombz"
+        ],
+        "options": [
+          {
+            "description": "May add a Boss Boy for +40 Points",
+            "choices": []
+          },
+          {
+            "description": "May add up to 5 more Boyz for +36 points each Any model may take one P Any model may swap Choppa for M",
+            "choices": []
+          },
+          {
+            "description": "May take Boss Nob",
+            "choices": [
+              {
+                "name": "Boss Nob",
+                "pts_delta": 8
+              }
+            ]
+          },
+          {
+            "description": "May take \u2018Ard Boyz",
+            "choices": [
+              {
+                "name": "\u2018Ard Boyz",
+                "pts_delta": 2
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Warbuggiez",
+        "points_base": 72,
+        "composition": "3-6 Warbuggiez",
+        "models": [
+          {
+            "name": "Warbuggy",
+            "stats": {
+              "M": "12",
+              "WS": "5+",
+              "BS": "4+",
+              "S": "2",
+              "T": "3",
+              "W": "3",
+              "I": "4",
+              "A": "2",
+              "Ld": "5",
+              "Sv": "4+"
+            },
+            "rules": [
+              "Infantry",
+              "Steed",
+              "\u2018Ere We Go!",
+              "Very Bulky"
+            ]
+          }
+        ],
+        "fixed_wargear": [
+          "Big Shoota"
+        ],
+        "options": [
+          {
+            "description": "May add up to 3 more Warbuggiez for +24 points each Any model may swap Big Shoota for S The entire unit may take one B",
+            "choices": [
+              {
+                "name": "Ork Crew",
+                "pts_delta": 5
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Wartrakkz",
+        "points_base": 69,
+        "composition": "3-6 Wartrakkz",
+        "models": [
+          {
+            "name": "Wartrakk",
+            "stats": {
+              "M": "12",
+              "WS": "5+",
+              "BS": "4+",
+              "S": "2",
+              "T": "3",
+              "W": "3",
+              "I": "4",
+              "A": "2",
+              "Ld": "5",
+              "Sv": "4+"
+            },
+            "rules": [
+              "Infantry",
+              "Steed",
+              "\u2018Ere We Go!",
+              "Very Bulky",
+              "Flame Kart"
+            ]
+          }
+        ],
+        "fixed_wargear": [
+          "Big Shoota"
+        ],
+        "options": [
+          {
+            "description": "May add up to 3 more Wartrakkz for +23 points each Any model may swap Big Shoota for S",
+            "choices": []
+          }
+        ]
+      },
+      {
+        "name": "Boomdakka Snazzwagonz",
+        "points_base": 38,
+        "composition": "1-3 Boomdakkaz",
+        "models": [
+          {
+            "name": "Boomdakka",
+            "stats": {
+              "M": "12",
+              "WS": "5+",
+              "BS": "5+",
+              "S": "5",
+              "FA": "9",
+              "SA": "9",
+              "RA": "9",
+              "W": "8",
+              "I": "1",
+              "A": "3",
+              "Ld": "6",
+              "Sv": "4+"
+            },
+            "rules": [
+              "Vehicle",
+              "Tank",
+              "\u2018Ere We Go!",
+              "Ork",
+              "Poor Maintenance",
+              "Open Topped",
+              "One Use Only."
+            ]
+          }
+        ],
+        "fixed_wargear": [
+          "Big Shoota",
+          "Grot Blasta",
+          "Burna Bottles"
+        ],
+        "options": [
+          {
+            "description": "May add up to 2 more Boomdakkaz for +38 points each Any model may take one T The entire unit may take up to one of each E",
+            "choices": [
+              {
+                "name": "Grot Riggas",
+                "pts_delta": 2
+              },
+              {
+                "name": "Fuel Mixa Grot",
+                "pts_delta": 2
+              },
+              {
+                "name": "Extra Armour",
+                "pts_delta": 2
+              },
+              {
+                "name": "Red Paint",
+                "pts_delta": 6
+              },
+              {
+                "name": "Turbo Charga",
+                "pts_delta": 7
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Kustom Boosta Blastaz",
+        "points_base": 67,
+        "composition": "1-3 Boosta Blastaz",
+        "models": [
+          {
+            "name": "Boosta Blasta",
+            "stats": {
+              "M": "12",
+              "WS": "5+",
+              "BS": "5+",
+              "S": "5",
+              "FA": "9",
+              "SA": "9",
+              "RA": "9",
+              "W": "8",
+              "I": "1",
+              "A": "3",
+              "Ld": "6",
+              "Sv": "4+"
+            },
+            "rules": [
+              "Boosta Blasta",
+              "Vehicle",
+              "Tank",
+              "\u2018Ere We Go!",
+              "Ork",
+              "Poor Maintenance",
+              "Open Topped"
+            ]
+          }
+        ],
+        "fixed_wargear": [
+          "Rivet Cannon",
+          "Burna",
+          "Grot Blasta",
+          "Stikkbombz",
+          "Tusks"
+        ],
+        "options": [
+          {
+            "description": "May add up to 2 more Boomdakkaz for +67 points each The entire unit may take up to one of each E",
+            "choices": [
+              {
+                "name": "Grot Riggas",
+                "pts_delta": 2
+              },
+              {
+                "name": "Fuel Mixa Grot",
+                "pts_delta": 2
+              },
+              {
+                "name": "Extra Armour",
+                "pts_delta": 2
+              },
+              {
+                "name": "Red Paint",
+                "pts_delta": 6
+              },
+              {
+                "name": "Turbo Charga",
+                "pts_delta": 7
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Megatrakk Scrapjet",
+        "points_base": 199,
+        "composition": "1-3 Scrapjetz",
+        "models": [
+          {
+            "name": "Scrapjet",
+            "stats": {
+              "M": "12",
+              "WS": "5+",
+              "BS": "5+",
+              "S": "5",
+              "FA": "9",
+              "SA": "9",
+              "RA": "9",
+              "W": "8",
+              "I": "1",
+              "A": "3",
+              "Ld": "6",
+              "Sv": "4+"
+            },
+            "rules": [
+              "Vehicle",
+              "Tank",
+              "\u2018Ere We Go!",
+              "Ork",
+              "Poor Maintenance",
+              "Open Topped"
+            ]
+          }
+        ],
+        "fixed_wargear": [
+          "Rokkit Cannon",
+          "2 Linked Big Shootaz",
+          "2 Linked Wing Missile Rackz",
+          "Nose Drill"
+        ],
+        "options": [
+          {
+            "description": "May add up to 2 more Scrapjetz for +119 points each The entire unit may take up to one of each E",
+            "choices": [
+              {
+                "name": "Grot Riggas",
+                "pts_delta": 2
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Rukkatrukk Squigbuggiez",
+        "points_base": 82,
+        "composition": "1-3 Squigbuggiez",
+        "models": [
+          {
+            "name": "Squigbuggy",
+            "stats": {
+              "M": "12",
+              "WS": "5+",
+              "BS": "5+",
+              "S": "5",
+              "FA": "9",
+              "SA": "9",
+              "RA": "9",
+              "W": "8",
+              "I": "1",
+              "A": "3",
+              "Ld": "6",
+              "Sv": "4+"
+            },
+            "rules": [
+              "Vehicle",
+              "Tank",
+              "\u2018Ere We Go!",
+              "Ork",
+              "Poor Maintenance",
+              "Open Topped",
+              "Meal Wagon"
+            ]
+          }
+        ],
+        "fixed_wargear": [
+          "Heavy Squig Launcha",
+          "2 Linked Squig Launchaz",
+          "Shotgun",
+          "Saw Bladez",
+          "Stikkbombz"
+        ],
+        "options": [
+          {
+            "description": "May add up to 2 more Squigbuggy for +82 points each The entire unit may take up to one of each E",
+            "choices": [
+              {
+                "name": "Grot Riggas",
+                "pts_delta": 2
+              },
+              {
+                "name": "Fuel Mixa Grot",
+                "pts_delta": 2
+              },
+              {
+                "name": "Extra Armour",
+                "pts_delta": 2
+              },
+              {
+                "name": "Red Paint",
+                "pts_delta": 6
+              },
+              {
+                "name": "Turbo Charga",
+                "pts_delta": 7
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Shokjump Dragstaz",
+        "points_base": 36,
+        "composition": "1-3 Shokjumpz",
+        "models": [
+          {
+            "name": "Shokjump",
+            "stats": {
+              "M": "12",
+              "WS": "5+",
+              "BS": "5+",
+              "S": "5",
+              "FA": "9",
+              "SA": "9",
+              "RA": "9",
+              "W": "8",
+              "I": "1",
+              "A": "3",
+              "Ld": "6",
+              "Sv": "4+"
+            },
+            "rules": [
+              "Vehicle",
+              "Tank",
+              "\u2018Ere We Go!",
+              "Ork",
+              "Poor Maintenance",
+              "Open Topped"
+            ]
+          }
+        ],
+        "fixed_wargear": [
+          "Kustom Shokk Rifle",
+          "Rokkit Launcha",
+          "Saw Bladez"
+        ],
+        "options": [
+          {
+            "description": "May add up to 2 more Shokjump for +36 points each The entire unit may take up to one of each E",
+            "choices": [
+              {
+                "name": "Grot Riggas",
+                "pts_delta": 2
+              },
+              {
+                "name": "Fuel Mixa Grot",
+                "pts_delta": 2
+              },
+              {
+                "name": "Extra Armour",
+                "pts_delta": 2
+              },
+              {
+                "name": "Red Paint",
+                "pts_delta": 6
+              },
+              {
+                "name": "Turbo Charga",
+                "pts_delta": 7
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Grot Tankz",
+        "points_base": 93,
+        "composition": "1 Grot Kommanda 2-9 Grot Tankz",
+        "models": [
+          {
+            "name": "Grot Kommanda",
+            "stats": {
+              "M": "10",
+              "WS": "5+",
+              "BS": "4+",
+              "S": "5",
+              "FA": "10",
+              "SA": "10",
+              "RA": "10",
+              "W": "4",
+              "I": "1",
+              "A": "3",
+              "Ld": "6",
+              "Sv": "4+"
+            },
+            "rules": [
+              "Character",
+              "Vehicle",
+              "Tank",
+              "\u2018Ere We Go!",
+              "Grot",
+              "Poor Maintenance"
+            ]
+          },
+          {
+            "name": "Grot Tank",
+            "stats": {
+              "M": "10",
+              "WS": "5+",
+              "BS": "4+",
+              "S": "5",
+              "FA": "10",
+              "SA": "10",
+              "RA": "10",
+              "W": "4",
+              "I": "1",
+              "A": "2",
+              "Ld": "5",
+              "Sv": "4+"
+            },
+            "rules": [
+              "Vehicle",
+              "Tank",
+              "\u2018Ere We Go!",
+              "Grot",
+              "Poor Maintenance"
+            ]
+          }
+        ],
+        "fixed_wargear": [
+          "Skorcha T",
+          "Skorcha H",
+          "Skorcha T"
+        ],
+        "options": [
+          {
+            "description": "May add up to 7 more Grot Tankz for +28 points each Any model may swap Skorcha T for T The entire unit may take up to one of each E",
+            "choices": [
+              {
+                "name": "Grot Riggas",
+                "pts_delta": 2
+              },
+              {
+                "name": "Fuel Mixa Grot",
+                "pts_delta": 2
+              },
+              {
+                "name": "Extra Armour",
+                "pts_delta": 1
+              },
+              {
+                "name": "Red Paint",
+                "pts_delta": 6
+              },
+              {
+                "name": "Turbo Charga",
+                "pts_delta": 7
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "heavy_support": [
+      {
+        "name": "Flash Gitz",
+        "points_base": 149,
+        "composition": "1 Boss Nob 4-9 Nobz",
+        "models": [
+          {
+            "name": "Boss Nob",
+            "stats": {
+              "M": "6",
+              "WS": "3+",
+              "BS": "5+",
+              "S": "5",
+              "T": "4",
+              "W": "2",
+              "I": "2",
+              "A": "3",
+              "Ld": "6",
+              "Sv": "4+"
+            },
+            "rules": [
+              "Character",
+              "Infantry",
+              "Ork",
+              "\u2018Ere We Go!",
+              "Bulky"
+            ]
+          },
+          {
+            "name": "Nob",
+            "stats": {
+              "M": "6",
+              "WS": "3+",
+              "BS": "5+",
+              "S": "5",
+              "T": "4",
+              "W": "2",
+              "I": "2",
+              "A": "2",
+              "Ld": "5",
+              "Sv": "4+"
+            },
+            "rules": [
+              "Infantry",
+              "Ork",
+              "\u2018Ere We Go!",
+              "Bulky"
+            ]
+          }
+        ],
+        "fixed_wargear": [
+          "Snazzgun",
+          "Stikkbombz",
+          "Snazzgun",
+          "Stikkbombz"
+        ],
+        "options": [
+          {
+            "description": "May add up to 5 more Nobz for +29 points each",
+            "choices": []
+          }
+        ]
+      },
+      {
+        "name": "Lootaz",
+        "points_base": 208,
+        "composition": "1 Boss Nob 4-9 Nobz",
+        "models": [
+          {
+            "name": "Boss Nob",
+            "stats": {
+              "M": "6",
+              "WS": "3+",
+              "BS": "5+",
+              "S": "5",
+              "T": "4",
+              "W": "2",
+              "I": "2",
+              "A": "3",
+              "Ld": "6",
+              "Sv": "4+"
+            },
+            "rules": [
+              "Character",
+              "Infantry",
+              "Ork",
+              "\u2018Ere We Go!",
+              "Bulky",
+              "Repair",
+              "Weapon Destroyed."
+            ]
+          },
+          {
+            "name": "Nob",
+            "stats": {
+              "M": "6",
+              "WS": "3+",
+              "BS": "5+",
+              "S": "5",
+              "T": "4",
+              "W": "2",
+              "I": "2",
+              "A": "2",
+              "Ld": "5",
+              "Sv": "4+"
+            },
+            "rules": [
+              "Infantry",
+              "Ork",
+              "\u2018Ere We Go!",
+              "Bulky"
+            ]
+          }
+        ],
+        "fixed_wargear": [
+          "Big Shoota",
+          "Stikkbombz",
+          "Deffgun",
+          "Stikkbombz"
+        ],
+        "options": [
+          {
+            "description": "May add up to 5 more Nobz for +42 points each",
+            "choices": []
+          },
+          {
+            "description": "May take Grot Oiler",
+            "choices": [
+              {
+                "name": "Grot Oiler",
+                "pts_delta": 2
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Mek Gunz",
+        "points_base": 293,
+        "composition": "1 Big Squiggoth",
+        "models": [
+          {
+            "name": "Mek Gun",
+            "stats": {},
+            "rules": [
+              "Monster",
+              "\u2018Ere We Go!",
+              "Shock Assault",
+              "Enraged Demise",
+              "Transport 6"
+            ]
+          }
+        ],
+        "fixed_wargear": [
+          "Traktor Kannon"
+        ],
+        "options": [
+          {
+            "description": "May take up to two more for +68 points each Any model may swap Traktor Kannon for H",
+            "choices": []
+          }
+        ]
+      },
+      {
+        "name": "Mek Gunz",
+        "points_base": 68,
+        "composition": "1-3 Mek Gunz",
+        "models": [
+          {
+            "name": "Mek Gun",
+            "stats": {},
+            "rules": [
+              "Monster",
+              "Immobile"
+            ]
+          }
+        ],
+        "fixed_wargear": [
+          "Traktor Kannon"
+        ],
+        "options": [
+          {
+            "description": "May take up to two more for +68 points each Any model may swap Traktor Kannon for H",
+            "choices": []
+          }
+        ]
+      },
+      {
+        "name": "Pulsa Rokkit Launchaz",
+        "points_base": 128,
+        "composition": "1-3 Launchaz",
+        "models": [
+          {
+            "name": "Launcha",
+            "stats": {},
+            "rules": [
+              "Monster",
+              "Immobile",
+              "Pulsa",
+              "The Hour is Nigh",
+              "T Minus 5"
+            ]
+          }
+        ],
+        "fixed_wargear": [
+          "Pulsa Rokkit"
+        ],
+        "options": [
+          {
+            "description": "May take up to two more for +128 points each",
+            "choices": []
+          }
+        ]
+      },
+      {
+        "name": "Squig Rig",
+        "points_base": 58,
+        "composition": "1-3 Kannonz",
+        "models": [
+          {
+            "name": "Squig Rig",
+            "stats": {
+              "M": "10",
+              "WS": "3+",
+              "BS": "5+",
+              "S": "6",
+              "T": "8",
+              "W": "16",
+              "I": "2",
+              "A": "6",
+              "Ld": "6",
+              "Sv": "3+"
+            },
+            "rules": [
+              "Monster",
+              "Chained Rokkitz"
+            ]
+          }
+        ],
+        "fixed_wargear": [
+          "Lobba",
+          "Stikka Kannon",
+          "Gorin\u2019 Horns",
+          "Saw Bladez"
+        ],
+        "options": [
+          {
+            "description": "May take one T",
+            "choices": []
+          },
+          {
+            "description": "May swap Psychic Mastery 1 for Transport +5 and 360 Firing Ports +5 for +15 points",
+            "choices": []
+          },
+          {
+            "description": "May take up to one S for each Psychic Mastery Level",
+            "choices": []
+          }
+        ]
+      },
+      {
+        "name": "Squig Rig",
+        "points_base": 332,
+        "composition": "1 Squig Rig",
+        "models": [
+          {
+            "name": "Squig Rig",
+            "stats": {
+              "M": "10",
+              "WS": "3+",
+              "BS": "5+",
+              "S": "6",
+              "T": "8",
+              "W": "16",
+              "I": "2",
+              "A": "6",
+              "Ld": "6",
+              "Sv": "3+"
+            },
+            "rules": [
+              "Monster",
+              "\u2018Ere We Go!",
+              "Shock Assault",
+              "Psychic Mastery Level 1",
+              "Transport 1"
+            ]
+          }
+        ],
+        "fixed_wargear": [
+          "Lobba",
+          "Stikka Kannon",
+          "Gorin\u2019 Horns",
+          "Saw Bladez"
+        ],
+        "options": [
+          {
+            "description": "May take one T",
+            "choices": []
+          },
+          {
+            "description": "May swap Psychic Mastery 1 for Transport +5 and 360 Firing Ports +5 for +15 points",
+            "choices": []
+          },
+          {
+            "description": "May take up to one S for each Psychic Mastery Level",
+            "choices": []
+          }
+        ]
+      },
+      {
+        "name": "Deff Dread Mob",
+        "points_base": 111,
+        "composition": "1-3 Deff Dreadz",
+        "models": [
+          {
+            "name": "Deff Dread",
+            "stats": {
+              "M": "6",
+              "WS": "3+",
+              "BS": "5+",
+              "S": "6",
+              "FA": "12",
+              "SA": "12",
+              "RA": "10",
+              "W": "10",
+              "I": "2",
+              "A": "4",
+              "Ld": "5",
+              "Sv": "3+"
+            },
+            "rules": [
+              "Vehicle",
+              "Combat Walker",
+              "\u2018Ere We Go!",
+              "Ork",
+              "Poor Maintenance"
+            ]
+          }
+        ],
+        "fixed_wargear": [
+          "Dual Powerklawz"
+        ],
+        "options": [
+          {
+            "description": "May take up to two more Deff Dreadz for +111 points each Any model may take up to two H or M",
+            "choices": []
+          },
+          {
+            "description": "May take up to one of each E",
+            "choices": [
+              {
+                "name": "Grot Riggas",
+                "pts_delta": 2
+              },
+              {
+                "name": "Fuel Mixa Grot",
+                "pts_delta": 2
+              },
+              {
+                "name": "Extra Armour",
+                "pts_delta": 2
+              },
+              {
+                "name": "Red Paint",
+                "pts_delta": 1
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Gorkanaut",
+        "points_base": 356,
+        "composition": "1 Gorkanaut",
+        "models": [
+          {
+            "name": "Gorkanaut",
+            "stats": {
+              "M": "8",
+              "WS": "3+",
+              "BS": "5+",
+              "S": "8",
+              "FA": "13",
+              "SA": "13",
+              "RA": "12",
+              "W": "18",
+              "I": "2",
+              "A": "6",
+              "Ld": "6",
+              "Sv": "3+"
+            },
+            "rules": [
+              "Vehicle",
+              "Combat Walker",
+              "\u2018Ere We Go!",
+              "Ork",
+              "Poor Maintenance",
+              "Transport 6"
+            ]
+          }
+        ],
+        "fixed_wargear": [
+          "Deffstorm Mega Shoota",
+          "Rokkit Launcha",
+          "2 Linked Big Shootaz",
+          "2 Linked Big Shootaz",
+          "2 Skorchaz",
+          "Klaw of Gork",
+          "Kustom Forcefield"
+        ],
+        "options": [
+          {
+            "description": "May take up to one of each E",
+            "choices": []
+          }
+        ]
+      },
+      {
+        "name": "Mega Dread",
+        "points_base": 195,
+        "composition": "1 Mega Dread",
+        "models": [
+          {
+            "name": "Mega Dread",
+            "stats": {
+              "M": "8",
+              "WS": "3+",
+              "BS": "5+",
+              "S": "7",
+              "FA": "13",
+              "SA": "13",
+              "RA": "11",
+              "W": "16",
+              "I": "2",
+              "A": "5",
+              "Ld": "5",
+              "Sv": "3+"
+            },
+            "rules": [
+              "Vehicle",
+              "Combat Walker",
+              "\u2018Ere We Go!",
+              "Ork",
+              "Poor Maintenance"
+            ]
+          }
+        ],
+        "fixed_wargear": [
+          "2 Kustom Mega Blastaz",
+          "2 Kill Sawz"
+        ],
+        "options": [
+          {
+            "description": "May swap any Skorcha for H",
+            "choices": []
+          },
+          {
+            "description": "May swap any Kill Saw for M",
+            "choices": []
+          },
+          {
+            "description": "May take up to one of each E",
+            "choices": [
+              {
+                "name": "Grot Riggas",
+                "pts_delta": 2
+              },
+              {
+                "name": "Fuel Mixa Grot",
+                "pts_delta": 2
+              },
+              {
+                "name": "Extra Armour",
+                "pts_delta": 2
+              },
+              {
+                "name": "Red Paint",
+                "pts_delta": 5
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Meka Dread",
+        "points_base": 181,
+        "composition": "1 Meka Dread",
+        "models": [
+          {
+            "name": "Meka Dread",
+            "stats": {
+              "M": "8",
+              "WS": "3+",
+              "BS": "5+",
+              "S": "7",
+              "FA": "13",
+              "SA": "13",
+              "RA": "11",
+              "W": "16",
+              "I": "2",
+              "A": "5",
+              "Ld": "5",
+              "Sv": "3+"
+            },
+            "rules": [
+              "Vehicle",
+              "Combat Walker",
+              "\u2018Ere We Go!",
+              "Ork",
+              "Poor Maintenance",
+              "Jam!",
+              "Repair",
+              "Weapon Destroyed."
+            ]
+          }
+        ],
+        "fixed_wargear": [
+          "2 Rattler Kannonz"
+        ],
+        "options": [
+          {
+            "description": "May swap any Rattler Kannon for H or M",
+            "choices": []
+          },
+          {
+            "description": "May take one G",
+            "choices": []
+          },
+          {
+            "description": "May take up to one of each E",
+            "choices": [
+              {
+                "name": "Grot Riggas",
+                "pts_delta": 2
+              },
+              {
+                "name": "Fuel Mixa Grot",
+                "pts_delta": 2
+              },
+              {
+                "name": "Extra Armour",
+                "pts_delta": 2
+              },
+              {
+                "name": "Red Paint",
+                "pts_delta": 5
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Morkanaut",
+        "points_base": 402,
+        "composition": "1 Morkanaut",
+        "models": [
+          {
+            "name": "Morkanaut",
+            "stats": {
+              "M": "8",
+              "WS": "3+",
+              "BS": "5+",
+              "S": "8",
+              "FA": "13",
+              "SA": "13",
+              "RA": "12",
+              "W": "18",
+              "I": "2",
+              "A": "6",
+              "Ld": "6",
+              "Sv": "3+"
+            },
+            "rules": [
+              "Vehicle",
+              "Combat Walker",
+              "\u2018Ere We Go!",
+              "Ork",
+              "Poor Maintenance",
+              "Transport 6"
+            ]
+          }
+        ],
+        "fixed_wargear": [
+          "Kustom Mega Blasta Kannon",
+          "Rokkit Launcha",
+          "4 Linked Big Shootaz",
+          "Klaw of Mork",
+          "Kustom Forcefield"
+        ],
+        "options": [
+          {
+            "description": "May take up to one of each E",
+            "choices": [
+              {
+                "name": "Grot Riggas",
+                "pts_delta": 2
+              },
+              {
+                "name": "Fuel Mixa Grot",
+                "pts_delta": 2
+              },
+              {
+                "name": "Extra Armour",
+                "pts_delta": 2
+              },
+              {
+                "name": "Red Paint",
+                "pts_delta": 5
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "M",
+        "points_base": 203,
+        "composition": "1 Battlewagon",
+        "models": [
+          {
+            "name": "Battlewagon",
+            "stats": {
+              "M": "10",
+              "WS": "5+",
+              "BS": "5+",
+              "S": "8",
+              "FA": "13",
+              "SA": "12",
+              "RA": "10",
+              "W": "16",
+              "I": "1",
+              "A": "6",
+              "Ld": "6",
+              "Sv": "3+"
+            },
+            "rules": [
+              "Vehicle",
+              "Tank",
+              "\u2018Ere We Go!",
+              "Ork",
+              "Poor Maintenance",
+              "Open Topped",
+              "Transport 20"
+            ]
+          },
+          {
+            "name": "Battlewagon",
+            "stats": {},
+            "rules": []
+          }
+        ],
+        "fixed_wargear": [
+          "None"
+        ],
+        "options": [
+          {
+            "description": "May take one T",
+            "choices": []
+          },
+          {
+            "description": "May take one H",
+            "choices": []
+          },
+          {
+            "description": "May take up to two P",
+            "choices": []
+          },
+          {
+            "description": "May take up to two S",
+            "choices": []
+          },
+          {
+            "description": "May take one M",
+            "choices": []
+          },
+          {
+            "description": "May take one A1",
+            "choices": []
+          },
+          {
+            "description": "May take one A2",
+            "choices": []
+          },
+          {
+            "description": "May take one G",
+            "choices": []
+          },
+          {
+            "description": "May take up to one of each E",
+            "choices": [
+              {
+                "name": "Grot Riggas",
+                "pts_delta": 2
+              },
+              {
+                "name": "Fuel Mixa Grot",
+                "pts_delta": 2
+              },
+              {
+                "name": "Extra Armour",
+                "pts_delta": 2
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Big Trakkz",
+        "points_base": 122,
+        "composition": "1-2 Big Trakkz",
+        "models": [
+          {
+            "name": "Big Trakk",
+            "stats": {
+              "M": "12",
+              "WS": "5+",
+              "BS": "5+",
+              "S": "6",
+              "FA": "12",
+              "SA": "11",
+              "RA": "10",
+              "W": "12",
+              "I": "1",
+              "A": "3",
+              "Ld": "6",
+              "Sv": "3+"
+            },
+            "rules": [
+              "Vehicle",
+              "Tank",
+              "\u2018Ere We Go!",
+              "Ork",
+              "Poor Maintenance",
+              "Open Topped",
+              "Transport 12"
+            ]
+          }
+        ],
+        "fixed_wargear": [
+          "None"
+        ],
+        "options": [
+          {
+            "description": "May take up to one more Big Trakk for +122 points Any model may take one T Any model may take up to two S Any model may take one M Any model may take one A Any model may take one G The unit may take up to one of each E",
+            "choices": [
+              {
+                "name": "Grot Riggas",
+                "pts_delta": 2
+              },
+              {
+                "name": "Fuel Mixa Grot",
+                "pts_delta": 2
+              },
+              {
+                "name": "Extra Armour",
+                "pts_delta": 2
+              },
+              {
+                "name": "Red Paint",
+                "pts_delta": 6
+              },
+              {
+                "name": "Turbo Charga",
+                "pts_delta": 7
+              },
+              {
+                "name": "Assault Ramps",
+                "pts_delta": 10
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Grot Megatankz",
+        "points_base": 166,
+        "composition": "1-3 Megatankz",
+        "models": [
+          {
+            "name": "Megatank",
+            "stats": {
+              "M": "10",
+              "WS": "5+",
+              "BS": "4+",
+              "S": "6",
+              "FA": "12",
+              "SA": "11",
+              "RA": "10",
+              "W": "11",
+              "I": "1",
+              "A": "3",
+              "Ld": "6",
+              "Sv": "3+"
+            },
+            "rules": [
+              "Vehicle",
+              "Tank",
+              "\u2018Ere We Go!",
+              "Grot",
+              "Poor Maintenance"
+            ]
+          }
+        ],
+        "fixed_wargear": [
+          "2 Linked Skorchaz T",
+          "2 Linked Skorchaz T",
+          "2 Skorchaz S",
+          "Skorcha P",
+          "Reinforced Ram"
+        ],
+        "options": [
+          {
+            "description": "May add up to 2 more Megatankz for +166 points each Any model may swap any 2 Linked Skorchaz T for T Any model may swap 2 Skorchaz for S Any model may swap Skorcha P for P Any model may take one H Any model may take one A",
+            "choices": []
+          },
+          {
+            "description": "May take up to one of each E",
+            "choices": [
+              {
+                "name": "Grot Riggas",
+                "pts_delta": 2
+              },
+              {
+                "name": "Fuel Mixa Grot",
+                "pts_delta": 2
+              },
+              {
+                "name": "Extra Armour",
+                "pts_delta": 2
+              },
+              {
+                "name": "Red Paint",
+                "pts_delta": 6
+              },
+              {
+                "name": "Turbo Charga",
+                "pts_delta": 7
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Gun Trukk",
+        "points_base": 106,
+        "composition": "1-3 Trukkz",
+        "models": [
+          {
+            "name": "Trukkz",
+            "stats": {
+              "M": "12",
+              "WS": "5+",
+              "BS": "5+",
+              "S": "5",
+              "FA": "10",
+              "SA": "10",
+              "RA": "10",
+              "W": "10",
+              "I": "1",
+              "A": "3",
+              "Ld": "6",
+              "Sv": "3+"
+            },
+            "rules": [
+              "Vehicle",
+              "Tank",
+              "\u2018Ere We Go!",
+              "Ork",
+              "Poor Maintenance",
+              "Open Topped",
+              "Transport 12",
+              "Rear."
+            ]
+          }
+        ],
+        "fixed_wargear": [
+          "Skorcha"
+        ],
+        "options": [
+          {
+            "description": "May take up to two more Trukkz for +106 points each Any model may swap Skorcha for P Any model may take one T Any model may take one M Any model may take one A Any model may take one G The unit may take up to one of each E",
+            "choices": [
+              {
+                "name": "Grot Riggas",
+                "pts_delta": 2
+              },
+              {
+                "name": "Fuel Mixa Grot",
+                "pts_delta": 2
+              },
+              {
+                "name": "Extra Armour",
+                "pts_delta": 2
+              },
+              {
+                "name": "Red Paint",
+                "pts_delta": 6
+              },
+              {
+                "name": "Turbo Charga",
+                "pts_delta": 7
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Kill Tank",
+        "points_base": 226,
+        "composition": "1 Kill Tank",
+        "models": [
+          {
+            "name": "Kill Tank",
+            "stats": {
+              "M": "8",
+              "WS": "5+",
+              "BS": "5+",
+              "S": "8",
+              "FA": "14",
+              "SA": "12",
+              "RA": "10",
+              "W": "18",
+              "I": "1",
+              "A": "6",
+              "Ld": "6",
+              "Sv": "3+"
+            },
+            "rules": [
+              "Vehicle",
+              "Tank",
+              "\u2018Ere We Go!",
+              "Ork",
+              "Poor Maintenance",
+              "Transport 12"
+            ]
+          }
+        ],
+        "fixed_wargear": [
+          "Gigashoota"
+        ],
+        "options": [
+          {
+            "description": "May swap Gigashoota for T",
+            "choices": []
+          },
+          {
+            "description": "May take one S",
+            "choices": []
+          },
+          {
+            "description": "May take up to five H",
+            "choices": []
+          },
+          {
+            "description": "May take one B",
+            "choices": []
+          },
+          {
+            "description": "May take up to one of each E",
+            "choices": [
+              {
+                "name": "Grot Riggas",
+                "pts_delta": 2
+              },
+              {
+                "name": "Fuel Mixa Grot",
+                "pts_delta": 2
+              },
+              {
+                "name": "Extra Armour",
+                "pts_delta": 2
+              },
+              {
+                "name": "Red Paint",
+                "pts_delta": 5
+              },
+              {
+                "name": "Turbo Charga",
+                "pts_delta": 7
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "flyers": [
+      {
+        "name": "Attack Fightaz",
+        "points_base": 149,
+        "composition": "1-3 Attack Fightaz",
+        "models": [
+          {
+            "name": "Attack Fighta",
+            "stats": {
+              "M": "60",
+              "WS": "5+",
+              "BS": "5+",
+              "S": "6",
+              "FA": "10",
+              "SA": "10",
+              "RA": "10",
+              "W": "12",
+              "I": "1",
+              "A": "3",
+              "Ld": "6",
+              "Sv": "3+"
+            },
+            "rules": [
+              "Vehicle",
+              "\u2018Ere We Go!",
+              "Ork",
+              "Poor Maintenance",
+              "Deepstrike",
+              "High Altitude",
+              "Interceptor"
+            ]
+          }
+        ],
+        "fixed_wargear": [
+          "4 Linked Big Shootaz"
+        ],
+        "options": [
+          {
+            "description": "May add up to two more Attack Fightaz for +149 points each Any model may take one W The unit may take up to one of each E",
+            "choices": [
+              {
+                "name": "Grot Riggas",
+                "pts_delta": 2
+              },
+              {
+                "name": "Fuel Mixa Grot",
+                "pts_delta": 2
+              },
+              {
+                "name": "Aerial Red Paint",
+                "pts_delta": 6
+              },
+              {
+                "name": "Stikkbomb Flinga",
+                "pts_delta": 9
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Bommerz",
+        "points_base": 143,
+        "composition": "1-3 Bommerz",
+        "models": [
+          {
+            "name": "Bommer",
+            "stats": {
+              "M": "50",
+              "WS": "5+",
+              "BS": "5+",
+              "S": "6",
+              "FA": "10",
+              "SA": "10",
+              "RA": "10",
+              "W": "12",
+              "I": "1",
+              "A": "3",
+              "Ld": "6",
+              "Sv": "3+"
+            },
+            "rules": [
+              "Vehicle",
+              "\u2018Ere We Go!",
+              "Ork",
+              "Poor Maintenance",
+              "Deepstrike",
+              "High Altitude"
+            ]
+          }
+        ],
+        "fixed_wargear": [
+          "2 Linked Supa Shootaz",
+          "Big Shoota",
+          "2 Linked Burna Bommz"
+        ],
+        "options": [
+          {
+            "description": "May add up to two more Bommerz for +143 points each Any model may swap 2 Linked Burna Bommz for B Any model may take one W The unit may take up to one of each E",
+            "choices": [
+              {
+                "name": "Grot Riggas",
+                "pts_delta": 2
+              },
+              {
+                "name": "Fuel Mixa Grot",
+                "pts_delta": 2
+              },
+              {
+                "name": "Red Paint",
+                "pts_delta": 6
+              },
+              {
+                "name": "Stikkbomb Flinga",
+                "pts_delta": 9
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Wazbom Blastjetz",
+        "points_base": 144,
+        "composition": "1-3 Dakkajetz",
+        "models": [
+          {
+            "name": "Blastjet",
+            "stats": {
+              "M": "50",
+              "WS": "5+",
+              "BS": "5+",
+              "S": "6",
+              "FA": "10",
+              "SA": "10",
+              "RA": "10",
+              "W": "12",
+              "I": "1",
+              "A": "3",
+              "Ld": "6",
+              "Sv": "3+"
+            },
+            "rules": [
+              "Vehicle",
+              "\u2018Ere We Go!",
+              "Ork",
+              "Poor Maintenance",
+              "Deepstrike",
+              "High Altitude",
+              "Points: 156"
+            ]
+          }
+        ],
+        "fixed_wargear": [
+          "Smasha Gun",
+          "2 Linked Kustom Mega Kannonz"
+        ],
+        "options": [
+          {
+            "description": "May add up to two more Blastjetz for +156 points each Any model may swap 2 Linked Kustom Mega Kannonz for H Any model may take one T The unit may take up to one of each E",
+            "choices": []
+          }
+        ]
+      },
+      {
+        "name": "Wazbom Blastjetz",
+        "points_base": 156,
+        "composition": "1-3 Blastjet",
+        "models": [
+          {
+            "name": "Blastjet",
+            "stats": {
+              "M": "50",
+              "WS": "5+",
+              "BS": "5+",
+              "S": "6",
+              "FA": "10",
+              "SA": "10",
+              "RA": "10",
+              "W": "12",
+              "I": "1",
+              "A": "3",
+              "Ld": "6",
+              "Sv": "3+"
+            },
+            "rules": [
+              "Vehicle",
+              "\u2018Ere We Go!",
+              "Ork",
+              "Poor Maintenance",
+              "Deepstrike",
+              "High Altitude"
+            ]
+          }
+        ],
+        "fixed_wargear": [
+          "Smasha Gun",
+          "2 Linked Kustom Mega Kannonz"
+        ],
+        "options": [
+          {
+            "description": "May add up to two more Blastjetz for +156 points each Any model may swap 2 Linked Kustom Mega Kannonz for H Any model may take one T The unit may take up to one of each E",
+            "choices": []
+          }
+        ]
+      }
+    ],
+    "dedicated_transport": [
+      {
+        "name": "Warkopta",
+        "points_base": 116,
+        "composition": "1 Warkopta",
+        "models": [
+          {
+            "name": "Warkopta",
+            "stats": {
+              "M": "12",
+              "WS": "5+",
+              "BS": "5+",
+              "S": "6",
+              "FA": "10",
+              "SA": "10",
+              "RA": "10",
+              "W": "10",
+              "I": "1",
+              "A": "3",
+              "Ld": "6",
+              "Sv": "3+"
+            },
+            "rules": [
+              "Vehicle",
+              "\u2018Ere We Go!",
+              "Ork",
+              "Poor Maintenance",
+              "Deepstrike",
+              "Fly",
+              "Open Topped",
+              "Jam!",
+              "Transport 10"
+            ]
+          }
+        ],
+        "fixed_wargear": [
+          "2 Linked Rattler Kannonz",
+          "Skorcha"
+        ],
+        "options": [
+          {
+            "description": "May swap 2 Linked Rattler Kannonz for H",
+            "choices": []
+          },
+          {
+            "description": "May swap Big Shoota for S",
+            "choices": []
+          },
+          {
+            "description": "May take one B",
+            "choices": []
+          },
+          {
+            "description": "May take up to one of each E",
+            "choices": [
+              {
+                "name": "Grot Riggas",
+                "pts_delta": 2
+              },
+              {
+                "name": "Fuel Mixa Grot",
+                "pts_delta": 2
+              },
+              {
+                "name": "Red Paint",
+                "pts_delta": 6
+              },
+              {
+                "name": "Stikkbomb Flinga",
+                "pts_delta": 9
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "lord_of_war": [
+      {
+        "name": "Big Mek Stompa",
+        "points_base": 1648,
+        "composition": "1 Big Mek Stompa",
+        "models": [
+          {
+            "name": "Big Mek Stompa",
+            "stats": {},
+            "rules": [
+              "Titanic Vehicle",
+              "Ork",
+              "\u2018Ere We Go!",
+              "Poor Maintenance",
+              "Steady",
+              "Void Shields 2",
+              "Create Panic",
+              "Reactor Meltdown",
+              "Towering God Engine"
+            ]
+          }
+        ],
+        "fixed_wargear": [
+          "2 Deff Kannonz",
+          "Lifta Droppa",
+          "Gaze of Mork",
+          "3 Linked Big Shootaz",
+          "Crushing Feet"
+        ],
+        "options": [
+          {
+            "description": "May swap one Deff Kannon for M",
+            "choices": []
+          },
+          {
+            "description": "May take up to two C",
+            "choices": []
+          },
+          {
+            "description": "May take up to two H",
+            "choices": []
+          },
+          {
+            "description": "May take up to one of each E",
+            "choices": []
+          }
+        ]
+      },
+      {
+        "name": "Deffrolla Battle Fortress",
+        "points_base": 727,
+        "composition": "1 Deffrolla Battle Fortress",
+        "models": [
+          {
+            "name": "Deffrolla Battle Fortress",
+            "stats": {
+              "M": "8",
+              "WS": "5+",
+              "BS": "5+",
+              "S": "8",
+              "FA": "14",
+              "SA": "12",
+              "RA": "10",
+              "W": "24",
+              "I": "1",
+              "A": "9",
+              "Ld": "6",
+              "Sv": "3+"
+            },
+            "rules": [
+              "Titanic Vehicle",
+              "Tank",
+              "\u2018Ere We Go!",
+              "Ork",
+              "Poor Maintenance",
+              "Open Topped",
+              "Transport 20"
+            ]
+          }
+        ],
+        "fixed_wargear": [
+          "Titanic Deffrolla",
+          "3 Lobbaz"
+        ],
+        "options": [
+          {
+            "description": "May swap any Lobba for S1",
+            "choices": []
+          },
+          {
+            "description": "May take one T",
+            "choices": []
+          },
+          {
+            "description": "May take one S2",
+            "choices": []
+          },
+          {
+            "description": "May take up to five H",
+            "choices": []
+          },
+          {
+            "description": "May take one B",
+            "choices": []
+          },
+          {
+            "description": "May take one A",
+            "choices": []
+          },
+          {
+            "description": "May take up to one of each E",
+            "choices": [
+              {
+                "name": "Grot Riggas",
+                "pts_delta": 5
+              },
+              {
+                "name": "Fuel Mixa Grot",
+                "pts_delta": 5
+              },
+              {
+                "name": "Red Paint",
+                "pts_delta": 6
+              },
+              {
+                "name": "Turbo Charga",
+                "pts_delta": 7
+              },
+              {
+                "name": "Assault Ramps",
+                "pts_delta": 10
+              },
+              {
+                "name": "\u2018Ard Case",
+                "pts_delta": 97
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Gargantuan Squiggoth",
+        "points_base": 1020,
+        "composition": "1 Gargantuan Squiggoth",
+        "models": [
+          {
+            "name": "Gargantuan Squiggoth",
+            "stats": {
+              "M": "10",
+              "WS": "3+",
+              "BS": "5+",
+              "S": "10",
+              "T": "8",
+              "W": "36",
+              "I": "2",
+              "A": "6",
+              "Ld": "6",
+              "Sv": "3+"
+            },
+            "rules": [
+              "Titanic Monster",
+              "\u2018Ere We Go!",
+              "Shock Assault",
+              "Steady",
+              "Enraged Demise",
+              "Transport 20"
+            ]
+          }
+        ],
+        "fixed_wargear": [
+          "Big Lobba",
+          "2 Linked Big Shootaz",
+          "Gargantuan Horns"
+        ],
+        "options": [
+          {
+            "description": "May take up to two P",
+            "choices": []
+          }
+        ]
+      },
+      {
+        "name": "Stompa",
+        "points_base": 949,
+        "composition": "1 Stompa",
+        "models": [
+          {
+            "name": "Stompa",
+            "stats": {
+              "M": "8",
+              "WS": "3+",
+              "BS": "5+",
+              "S": "10",
+              "FA": "13",
+              "SA": "13",
+              "RA": "12",
+              "W": "40",
+              "I": "2",
+              "A": "6",
+              "Ld": "9",
+              "Sv": "3+"
+            },
+            "rules": [
+              "Titanic Vehicle",
+              "Ork",
+              "\u2018Ere We Go!",
+              "Poor Maintenance",
+              "Fearless",
+              "Steady",
+              "Transport 20",
+              "Rear."
+            ]
+          }
+        ],
+        "fixed_wargear": [
+          "Deff Kannon",
+          "Supa Gatler",
+          "Supa Rokkit Rack",
+          "4 Linked Big Shootaz",
+          "Big Shoota",
+          "Skorcha",
+          "Mega Klaw"
+        ],
+        "options": [
+          {
+            "description": "May take up to one of each E",
+            "choices": [
+              {
+                "name": "Grot Riggas",
+                "pts_delta": 5
+              },
+              {
+                "name": "Fuel Mixa Grot",
+                "pts_delta": 5
+              },
+              {
+                "name": "Red Paint",
+                "pts_delta": 6
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "fortifications": [
+      {
+        "name": "Big\u2019ed Bossbunka",
+        "points_base": 166,
+        "composition": "1 Bossbunka",
+        "models": [
+          {
+            "name": "Bossbunka",
+            "stats": {},
+            "rules": [
+              "Building"
+            ]
+          }
+        ],
+        "fixed_wargear": [
+          "Gaze of Gork",
+          "Big Shoota"
+        ],
+        "options": [
+          {
+            "description": "May take up to 3 S",
+            "choices": []
+          }
+        ]
+      },
+      {
+        "name": "Mek Boy Workshop",
+        "points_base": 100,
+        "composition": "1 Workshop",
+        "models": [
+          {
+            "name": "Workshop",
+            "stats": {},
+            "rules": [
+              "Building"
+            ]
+          }
+        ],
+        "fixed_wargear": [
+          "Grabbin Klaw"
+        ],
+        "options": []
+      }
+    ]
+  }
+}

@@ -1,0 +1,7481 @@
+{
+  "id": "genestealer-cults",
+  "name": "Genestealer Cults",
+  "difficulty": 3,
+  "subfactions": [
+    {
+      "name": "Average"
+    }
+  ],
+  "slots": {
+    "hq": [
+      {
+        "name": "Magus",
+        "points_base": 94,
+        "composition": "1 Magus",
+        "models": [
+          {
+            "name": "Magus",
+            "stats": {
+              "M": "6",
+              "WS": "3+",
+              "BS": "3+",
+              "S": "3",
+              "T": "3",
+              "W": "5",
+              "I": "4",
+              "A": "3",
+              "Ld": "9",
+              "Sv": "5+"
+            },
+            "rules": [
+              "Independent Character",
+              "Infantry",
+              "Emergence Hole 1",
+              "Unquestioning Loyalty",
+              "Psychic Mastery 1"
+            ]
+          }
+        ],
+        "fixed_wargear": [
+          "Autopistol",
+          "Force Staff"
+        ],
+        "options": [
+          {
+            "description": "May take Psychic Mastery Level +1 for +15 points",
+            "choices": []
+          },
+          {
+            "description": "May take up to one Spell for each level of Psychic Mastery",
+            "choices": []
+          },
+          {
+            "description": "May take up to two of each E",
+            "choices": [
+              {
+                "name": "Psychic Familiar",
+                "pts_delta": 5
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Salamander Command Vehicle",
+        "points_base": 84,
+        "composition": "1 Salamander Command",
+        "models": [
+          {
+            "name": "Salamander Command",
+            "stats": {
+              "M": "12",
+              "WS": "4+",
+              "BS": "3+",
+              "S": "6",
+              "FA": "12",
+              "SA": "10",
+              "RA": "10",
+              "W": "11",
+              "I": "1",
+              "A": "3",
+              "Ld": "9",
+              "Sv": "3+"
+            },
+            "rules": [
+              "Independent Character",
+              "Vehicle",
+              "Tank",
+              "Limited Ammo",
+              "Poor Maintenance",
+              "Open Topped",
+              "Propaganda"
+            ]
+          }
+        ],
+        "fixed_wargear": [
+          "2 Heavy Flamers"
+        ],
+        "options": [
+          {
+            "description": "May swap any Heavy Flamer for H",
+            "choices": []
+          },
+          {
+            "description": "May take one P",
+            "choices": []
+          },
+          {
+            "description": "May take one D",
+            "choices": []
+          },
+          {
+            "description": "May take one M",
+            "choices": []
+          },
+          {
+            "description": "May take any E one time each",
+            "choices": []
+          },
+          {
+            "description": "May take Augar Array",
+            "choices": [
+              {
+                "name": "Augar Array",
+                "pts_delta": 5
+              }
+            ]
+          },
+          {
+            "description": "May take Camo Netting",
+            "choices": [
+              {
+                "name": "Camo Netting",
+                "pts_delta": 6
+              }
+            ]
+          },
+          {
+            "description": "May take Extra Armour",
+            "choices": [
+              {
+                "name": "Extra Armour",
+                "pts_delta": 5
+              }
+            ]
+          },
+          {
+            "description": "May take Recovery Gear",
+            "choices": [
+              {
+                "name": "Recovery Gear",
+                "pts_delta": 2
+              }
+            ]
+          },
+          {
+            "description": "May take Searchlight",
+            "choices": [
+              {
+                "name": "Searchlight",
+                "pts_delta": 1
+              }
+            ]
+          },
+          {
+            "description": "May take Smoke Launchers",
+            "choices": [
+              {
+                "name": "Smoke Launchers",
+                "pts_delta": 10
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Tank Commander",
+        "points_base": 183,
+        "composition": "1 Tank Commander",
+        "models": [
+          {
+            "name": "Tank Commander",
+            "stats": {
+              "M": "8",
+              "WS": "5+",
+              "BS": "3+",
+              "S": "7",
+              "FA": "14",
+              "SA": "13",
+              "RA": "10",
+              "W": "12",
+              "I": "1",
+              "A": "3",
+              "Ld": "9",
+              "Sv": "3+"
+            },
+            "rules": [
+              "Independent Character",
+              "Vehicle",
+              "Tank",
+              "Grinding Advance",
+              "Limited Ammo",
+              "Poor Maintenance",
+              "Mighty Bastion",
+              "Rally."
+            ]
+          }
+        ],
+        "fixed_wargear": [
+          "Nova Eradicator Cannon",
+          "Heavy Flamer H"
+        ],
+        "options": [
+          {
+            "description": "May swap Nova Eradicator Cannon for T",
+            "choices": []
+          },
+          {
+            "description": "May swap Heavy Flamer H for H",
+            "choices": []
+          },
+          {
+            "description": "May take a set of S",
+            "choices": []
+          },
+          {
+            "description": "May take one P",
+            "choices": []
+          },
+          {
+            "description": "May take one D",
+            "choices": []
+          },
+          {
+            "description": "May take one M",
+            "choices": []
+          },
+          {
+            "description": "May take any E one time each",
+            "choices": []
+          },
+          {
+            "description": "May take Augar Array",
+            "choices": [
+              {
+                "name": "Augar Array",
+                "pts_delta": 5
+              }
+            ]
+          },
+          {
+            "description": "May take Camo Netting",
+            "choices": [
+              {
+                "name": "Camo Netting",
+                "pts_delta": 6
+              }
+            ]
+          },
+          {
+            "description": "May take Extra Armour",
+            "choices": [
+              {
+                "name": "Extra Armour",
+                "pts_delta": 5
+              }
+            ]
+          },
+          {
+            "description": "May take Recovery Gear",
+            "choices": [
+              {
+                "name": "Recovery Gear",
+                "pts_delta": 2
+              }
+            ]
+          },
+          {
+            "description": "May take Searchlight",
+            "choices": [
+              {
+                "name": "Searchlight",
+                "pts_delta": 1
+              }
+            ]
+          },
+          {
+            "description": "May take Smoke Launchers",
+            "choices": [
+              {
+                "name": "Smoke Launchers",
+                "pts_delta": 10
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Magus Orthan Trysst",
+        "points_base": 139,
+        "composition": "1 Orthan",
+        "models": [
+          {
+            "name": "Orthan",
+            "stats": {
+              "M": "6",
+              "WS": "3+",
+              "BS": "3+",
+              "S": "3",
+              "T": "3",
+              "W": "5",
+              "I": "4",
+              "A": "3",
+              "Ld": "9",
+              "Sv": "5+"
+            },
+            "rules": [
+              "Independent Character",
+              "Infantry",
+              "Unique",
+              "Four-Armed Emperor",
+              "Emergence Hole 1",
+              "Unquestioning Loyalty",
+              "Psychic Mastery 2",
+              "Masterful Efficiency"
+            ]
+          }
+        ],
+        "fixed_wargear": [
+          "Autopistol",
+          "Force Staff"
+        ],
+        "options": [
+          {
+            "description": "May take up to one Spell for each level of Psychic Mastery",
+            "choices": []
+          },
+          {
+            "description": "May take up to two of each E",
+            "choices": [
+              {
+                "name": "Psychic Familiar",
+                "pts_delta": 5
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Patriarch",
+        "points_base": 236,
+        "composition": "1 Patriarch",
+        "models": [
+          {
+            "name": "Patriarch",
+            "stats": {
+              "M": "8",
+              "WS": "2+",
+              "BS": "5+",
+              "S": "6",
+              "T": "5",
+              "W": "6",
+              "I": "7",
+              "A": "6",
+              "Ld": "10",
+              "Sv": "4+"
+            },
+            "rules": [
+              "Independent Character",
+              "Monstrous Infantry",
+              "Unique",
+              "Patriarch",
+              "Unquestioning Loyalty",
+              "Infiltrate",
+              "Psychic Mastery 1",
+              "Very Bulky",
+              "Brood Telepathy",
+              "Lightning Reflexes",
+              "Living Idol",
+              "Fleet",
+              "Charging."
+            ]
+          }
+        ],
+        "fixed_wargear": [
+          "Monstrous Claws",
+          "Rending Claws"
+        ],
+        "options": [
+          {
+            "description": "May take one A",
+            "choices": []
+          },
+          {
+            "description": "May take Psychic Mastery Level +1 for +15 points",
+            "choices": []
+          },
+          {
+            "description": "May take up to one S for each Psychic Mastery",
+            "choices": []
+          },
+          {
+            "description": "May take up to one of each B",
+            "choices": [
+              {
+                "name": "Adrenal Glands",
+                "pts_delta": 2
+              },
+              {
+                "name": "Flesh Hooks",
+                "pts_delta": 1
+              },
+              {
+                "name": "Patriarch Throne",
+                "pts_delta": 80
+              }
+            ]
+          },
+          {
+            "description": "May take up to two of each E",
+            "choices": [
+              {
+                "name": "Psychic Familiar",
+                "pts_delta": 5
+              }
+            ]
+          },
+          {
+            "description": "May take one P",
+            "choices": [
+              {
+                "name": "Extended Carapace",
+                "pts_delta": 8
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Patriarch Ghosar",
+        "points_base": 281,
+        "composition": "1 Ghosar",
+        "models": [
+          {
+            "name": "Ghosar",
+            "stats": {
+              "M": "8",
+              "WS": "2+",
+              "BS": "5+",
+              "S": "6",
+              "T": "5",
+              "W": "6",
+              "I": "7",
+              "A": "6",
+              "Ld": "10",
+              "Sv": "4+"
+            },
+            "rules": [
+              "Independent Character",
+              "Monstrous Infantry",
+              "Four-Armed Emperor",
+              "Unique",
+              "Patriarch",
+              "Unquestioning Loyalty",
+              "Infiltrate",
+              "Psychic Mastery 2",
+              "Very Bulky",
+              "Brood Telepathy",
+              "Lightning Reflexes",
+              "Living Idol",
+              "Masterful Efficiency"
+            ]
+          }
+        ],
+        "fixed_wargear": [
+          "Monstrous Claws",
+          "Rending Claws"
+        ],
+        "options": [
+          {
+            "description": "May take up to one Spell for each Psychic Mastery",
+            "choices": []
+          },
+          {
+            "description": "May take up to two of each E",
+            "choices": [
+              {
+                "name": "Psychic Familiar",
+                "pts_delta": 5
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "advisors": [
+      {
+        "name": "Acolyte Iconward",
+        "points_base": 122,
+        "composition": "1 Abominant",
+        "models": [
+          {
+            "name": "Iconward",
+            "stats": {
+              "M": "6",
+              "WS": "3+",
+              "BS": "3+",
+              "S": "4",
+              "T": "3",
+              "W": "4",
+              "I": "4",
+              "A": "3",
+              "Ld": "9",
+              "Sv": "5+"
+            },
+            "rules": [
+              "Independent Character",
+              "Monstrous Infantry",
+              "Unquestioning Loyalty",
+              "Heal",
+              "Bestial Howl",
+              "Bestial Vigour"
+            ]
+          }
+        ],
+        "fixed_wargear": [
+          "Autopistol",
+          "Rending Claws",
+          "Blasting Charges",
+          "Sacred Cult Banner"
+        ],
+        "options": []
+      },
+      {
+        "name": "Acolyte Iconward",
+        "points_base": 144,
+        "composition": "1 Iconward",
+        "models": [
+          {
+            "name": "Iconward",
+            "stats": {
+              "M": "6",
+              "WS": "3+",
+              "BS": "3+",
+              "S": "4",
+              "T": "3",
+              "W": "4",
+              "I": "4",
+              "A": "3",
+              "Ld": "9",
+              "Sv": "5+"
+            },
+            "rules": [
+              "Independent Character",
+              "Infantry",
+              "Emergence Hole 1",
+              "Unquestioning Loyalty",
+              "Infiltrate"
+            ]
+          }
+        ],
+        "fixed_wargear": [
+          "Autopistol",
+          "Rending Claws",
+          "Blasting Charges",
+          "Sacred Cult Banner"
+        ],
+        "options": []
+      },
+      {
+        "name": "Biophagus",
+        "points_base": 121,
+        "composition": "1 Benefictus",
+        "models": [
+          {
+            "name": "Biophagus",
+            "stats": {
+              "M": "6",
+              "WS": "3+",
+              "BS": "3+",
+              "S": "3",
+              "T": "3",
+              "W": "4",
+              "I": "4",
+              "A": "3",
+              "Ld": "9",
+              "Sv": "5+"
+            },
+            "rules": [
+              "Independent Character",
+              "Infantry",
+              "Emergence Hole 1",
+              "Unquestioning Loyalty",
+              "Psychic Mastery Level 2"
+            ]
+          }
+        ],
+        "fixed_wargear": [
+          "Autopistol",
+          "Injector Goad"
+        ],
+        "options": [
+          {
+            "description": "May take up to two of each E",
+            "choices": [
+              {
+                "name": "Bio Familiar",
+                "pts_delta": 5
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Biophagus",
+        "points_base": 107,
+        "composition": "1 Biophagus",
+        "models": [
+          {
+            "name": "Biophagus",
+            "stats": {
+              "M": "6",
+              "WS": "3+",
+              "BS": "3+",
+              "S": "3",
+              "T": "3",
+              "W": "4",
+              "I": "4",
+              "A": "3",
+              "Ld": "9",
+              "Sv": "5+"
+            },
+            "rules": [
+              "Independent Character",
+              "Infantry",
+              "Emergence Hole 1",
+              "Unquestioning Loyalty",
+              "Genomic Enhancement"
+            ]
+          }
+        ],
+        "fixed_wargear": [
+          "Autopistol",
+          "Injector Goad"
+        ],
+        "options": [
+          {
+            "description": "May take up to two of each E",
+            "choices": [
+              {
+                "name": "Bio Familiar",
+                "pts_delta": 5
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Jackal Alphus",
+        "points_base": 113,
+        "composition": "1 Clamavus",
+        "models": [
+          {
+            "name": "Alphus",
+            "stats": {
+              "M": "12",
+              "WS": "3+",
+              "BS": "3+",
+              "S": "3",
+              "T": "4",
+              "W": "5",
+              "I": "3",
+              "A": "3",
+              "Ld": "9",
+              "Sv": "5+"
+            },
+            "rules": [
+              "Independent Character",
+              "Infantry",
+              "Emergence Hole 1",
+              "Unquestioning Loyalty",
+              "Scrambler Array",
+              "Aura."
+            ]
+          }
+        ],
+        "fixed_wargear": [
+          "Jackal Sniper Rifle",
+          "Autopistol",
+          "Blasting Charges"
+        ],
+        "options": []
+      },
+      {
+        "name": "Jackal Alphus",
+        "points_base": 109,
+        "composition": "1 Alphus",
+        "models": [
+          {
+            "name": "Alphus",
+            "stats": {
+              "M": "12",
+              "WS": "3+",
+              "BS": "3+",
+              "S": "3",
+              "T": "4",
+              "W": "5",
+              "I": "3",
+              "A": "3",
+              "Ld": "9",
+              "Sv": "5+"
+            },
+            "rules": [
+              "Independent Character",
+              "Infantry",
+              "Steed",
+              "Emergence Hole 1",
+              "Unquestioning Loyalty",
+              "Outflank",
+              "Trick Shot"
+            ]
+          }
+        ],
+        "fixed_wargear": [
+          "Jackal Sniper Rifle",
+          "Autopistol",
+          "Blasting Charges"
+        ],
+        "options": []
+      },
+      {
+        "name": "Locus",
+        "points_base": 95,
+        "composition": "1 Kelemorph",
+        "models": [
+          {
+            "name": "Locus",
+            "stats": {
+              "M": "6",
+              "WS": "3+",
+              "BS": "3+",
+              "S": "3",
+              "T": "3",
+              "W": "4",
+              "I": "4",
+              "A": "3",
+              "Ld": "9",
+              "Sv": "5+"
+            },
+            "rules": [
+              "Independent Character",
+              "Infantry",
+              "Unquestioning Loyalty",
+              "Dynamic Assault",
+              "Prenatural Sense"
+            ]
+          }
+        ],
+        "fixed_wargear": [
+          "Locus Blades",
+          "Hypermorph Tail",
+          "Neurotrauma Rod"
+        ],
+        "options": []
+      },
+      {
+        "name": "Locus",
+        "points_base": 76,
+        "composition": "1 Locus",
+        "models": [
+          {
+            "name": "Locus",
+            "stats": {
+              "M": "6",
+              "WS": "3+",
+              "BS": "3+",
+              "S": "3",
+              "T": "3",
+              "W": "4",
+              "I": "4",
+              "A": "3",
+              "Ld": "9",
+              "Sv": "5+"
+            },
+            "rules": [
+              "Independent Character",
+              "Infantry",
+              "Bodyguard",
+              "Counterattack",
+              "Prenatural Sense"
+            ]
+          }
+        ],
+        "fixed_wargear": [
+          "Locus Blades",
+          "Hypermorph Tail",
+          "Neurotrauma Rod"
+        ],
+        "options": []
+      },
+      {
+        "name": "Primus",
+        "points_base": 93,
+        "composition": "1 Nexos",
+        "models": [
+          {
+            "name": "Primus",
+            "stats": {
+              "M": "6",
+              "WS": "3+",
+              "BS": "3+",
+              "S": "4",
+              "T": "3",
+              "W": "4",
+              "I": "4",
+              "A": "3",
+              "Ld": "9",
+              "Sv": "5+"
+            },
+            "rules": [
+              "Independent Character",
+              "Infantry",
+              "Emergence Hole 2",
+              "Unquestioning Loyalty",
+              "Data Processing"
+            ]
+          }
+        ],
+        "fixed_wargear": [
+          "Toxic Injector",
+          "Blasting Charges"
+        ],
+        "options": [
+          {
+            "description": "May take one P",
+            "choices": []
+          },
+          {
+            "description": "May take one S",
+            "choices": []
+          }
+        ]
+      },
+      {
+        "name": "Primus",
+        "points_base": 104,
+        "composition": "1 Primus",
+        "models": [
+          {
+            "name": "Primus",
+            "stats": {
+              "M": "6",
+              "WS": "3+",
+              "BS": "3+",
+              "S": "4",
+              "T": "3",
+              "W": "4",
+              "I": "4",
+              "A": "3",
+              "Ld": "9",
+              "Sv": "5+"
+            },
+            "rules": [
+              "Independent Character",
+              "Infantry",
+              "Emergence Hole 1",
+              "Unquestioning Loyalty",
+              "Infiltrate",
+              "Cult Demagogue",
+              "Melee."
+            ]
+          }
+        ],
+        "fixed_wargear": [
+          "Toxic Injector",
+          "Blasting Charges"
+        ],
+        "options": [
+          {
+            "description": "May take one P",
+            "choices": []
+          },
+          {
+            "description": "May take one S",
+            "choices": []
+          }
+        ]
+      },
+      {
+        "name": "Reductus Saboteur",
+        "points_base": 75,
+        "composition": "1 Saboteur",
+        "models": [
+          {
+            "name": "Saboteur",
+            "stats": {
+              "M": "6",
+              "WS": "3+",
+              "BS": "3+",
+              "S": "4",
+              "T": "3",
+              "W": "4",
+              "I": "4",
+              "A": "3",
+              "Ld": "9",
+              "Sv": "5+"
+            },
+            "rules": [
+              "Independent Character",
+              "Infantry",
+              "Unquestioning Loyalty",
+              "Fleet",
+              "Infiltrate",
+              "Stealth",
+              "Lightning Reflexes",
+              "Loner",
+              "Remote Explosive"
+            ]
+          }
+        ],
+        "fixed_wargear": [
+          "Remote Explosives",
+          "Autopistol",
+          "Demolition Charge",
+          "Blasting Charges"
+        ],
+        "options": []
+      },
+      {
+        "name": "Sanctus",
+        "points_base": 87,
+        "composition": "1 Sanctus",
+        "models": [
+          {
+            "name": "Sanctus",
+            "stats": {
+              "M": "6",
+              "WS": "3+",
+              "BS": "3+",
+              "S": "3",
+              "T": "3",
+              "W": "4",
+              "I": "3",
+              "A": "3",
+              "Ld": "9",
+              "Sv": "5+"
+            },
+            "rules": [
+              "Independent Character",
+              "Infantry",
+              "Unquestioning Loyalty",
+              "Infiltrate",
+              "Stealth"
+            ]
+          }
+        ],
+        "fixed_wargear": [
+          "Silencer Sniper Rifle",
+          "Sanctus Bio Dagger"
+        ],
+        "options": []
+      },
+      {
+        "name": "Pegasus Command",
+        "points_base": 111,
+        "composition": "1 Pegasus Command Vehicle",
+        "models": [
+          {
+            "name": "Pegasus Command Vehicle",
+            "stats": {
+              "M": "14",
+              "WS": "5+",
+              "BS": "4+",
+              "S": "6",
+              "FA": "12",
+              "SA": "10",
+              "RA": "10",
+              "W": "8",
+              "I": "1",
+              "A": "3",
+              "Ld": "9",
+              "Sv": "3+"
+            },
+            "rules": [
+              "Independent Character",
+              "Vehicle",
+              "Tank",
+              "Limited Ammo",
+              "Poor Maintenance",
+              "Recon"
+            ]
+          }
+        ],
+        "fixed_wargear": [
+          "Multilaser",
+          "Heavy Flamer"
+        ],
+        "options": [
+          {
+            "description": "May take Augar Array",
+            "choices": [
+              {
+                "name": "Augar Array",
+                "pts_delta": 5
+              }
+            ]
+          },
+          {
+            "description": "May take Camo Netting",
+            "choices": [
+              {
+                "name": "Camo Netting",
+                "pts_delta": 6
+              }
+            ]
+          },
+          {
+            "description": "May take Extra Armour",
+            "choices": [
+              {
+                "name": "Extra Armour",
+                "pts_delta": 5
+              }
+            ]
+          },
+          {
+            "description": "May take Recovery Gear",
+            "choices": [
+              {
+                "name": "Recovery Gear",
+                "pts_delta": 2
+              }
+            ]
+          },
+          {
+            "description": "May take Searchlight",
+            "choices": [
+              {
+                "name": "Searchlight",
+                "pts_delta": 1
+              }
+            ]
+          },
+          {
+            "description": "May take Smoke Launchers",
+            "choices": [
+              {
+                "name": "Smoke Launchers",
+                "pts_delta": 10
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Primus Vorgan Trysst",
+        "points_base": 146,
+        "composition": "1 Vorgan",
+        "models": [
+          {
+            "name": "Vorgan",
+            "stats": {
+              "M": "6",
+              "WS": "3+",
+              "BS": "3+",
+              "S": "4",
+              "T": "3",
+              "W": "4",
+              "I": "4",
+              "A": "3",
+              "Ld": "9",
+              "Sv": "5+"
+            },
+            "rules": [
+              "Independent Character",
+              "Infantry",
+              "Emergence Hole 1",
+              "Unquestioning Loyalty",
+              "Infiltrate",
+              "Cult Demagogue",
+              "Melee.",
+              "Masterful Efficiency"
+            ]
+          }
+        ],
+        "fixed_wargear": [
+          "Needle Pistol",
+          "Toxic Injector",
+          "Bonesword",
+          "Blasting Charges"
+        ],
+        "options": []
+      }
+    ],
+    "troops": [
+      {
+        "name": "Acolyte Hybrids",
+        "points_base": 79,
+        "composition": "1 Leader 4-19 Acolytes",
+        "models": [
+          {
+            "name": "Leader",
+            "stats": {
+              "M": "6",
+              "WS": "4+",
+              "BS": "4+",
+              "S": "4",
+              "T": "3",
+              "W": "1",
+              "I": "4",
+              "A": "2",
+              "Ld": "9",
+              "Sv": "5+"
+            },
+            "rules": [
+              "Character",
+              "Infantry",
+              "Infiltrate",
+              "Stealth"
+            ]
+          },
+          {
+            "name": "Acolyte",
+            "stats": {
+              "M": "6",
+              "WS": "4+",
+              "BS": "4+",
+              "S": "4",
+              "T": "3",
+              "W": "1",
+              "I": "4",
+              "A": "1",
+              "Ld": "8",
+              "Sv": "5+"
+            },
+            "rules": [
+              "Infantry",
+              "Infiltrate",
+              "Stealth"
+            ]
+          }
+        ],
+        "fixed_wargear": [
+          "Autopistol",
+          "Rending Claws",
+          "Blasting Charges",
+          "Autopistol",
+          "Rending Claws",
+          "Blasting Charges"
+        ],
+        "options": [
+          {
+            "description": "May take up to 15 more Acolytes for +15 points each Leader may swap Rending Claws for M Any model may swap Autopistol for P Up to two Acolytes may swap Rending Claws for M",
+            "choices": []
+          }
+        ]
+      },
+      {
+        "name": "Chainsword",
+        "points_base": 65,
+        "composition": "1 Leader 9 Brothers",
+        "models": [
+          {
+            "name": "Frag Grenades",
+            "stats": {
+              "M": "6",
+              "WS": "4+",
+              "BS": "4+",
+              "S": "3",
+              "T": "3",
+              "W": "1",
+              "I": "3",
+              "A": "2",
+              "Ld": "9",
+              "Sv": "5+"
+            },
+            "rules": []
+          },
+          {
+            "name": "Brother:",
+            "stats": {
+              "M": "6",
+              "WS": "4+",
+              "BS": "4+",
+              "S": "3",
+              "T": "3",
+              "W": "1",
+              "I": "3",
+              "A": "1",
+              "Ld": "8",
+              "Sv": "5+"
+            },
+            "rules": [
+              "Character",
+              "Infantry",
+              "Limited Ammo"
+            ]
+          },
+          {
+            "name": "Lasgun",
+            "stats": {
+              "M": "6",
+              "WS": "4+",
+              "BS": "4+",
+              "S": "3",
+              "T": "3",
+              "W": "2",
+              "I": "3",
+              "A": "2",
+              "Ld": "8",
+              "Sv": "5+"
+            },
+            "rules": [
+              "Infantry",
+              "Limited Ammo"
+            ]
+          },
+          {
+            "name": "Frag Grenades",
+            "stats": {},
+            "rules": [
+              "Infantry",
+              "Limited Ammo",
+              "Bulky"
+            ]
+          },
+          {
+            "name": "Heavy Weapons Team:",
+            "stats": {},
+            "rules": []
+          },
+          {
+            "name": "Heavy Flamer",
+            "stats": {},
+            "rules": []
+          },
+          {
+            "name": "Lasgun",
+            "stats": {},
+            "rules": []
+          },
+          {
+            "name": "Frag Grenades",
+            "stats": {},
+            "rules": []
+          }
+        ],
+        "fixed_wargear": [],
+        "options": []
+      },
+      {
+        "name": "Neophyte Hybrids",
+        "points_base": 104,
+        "composition": "1 Leader 9-19 Neophytes",
+        "models": [
+          {
+            "name": "Leader",
+            "stats": {
+              "M": "6",
+              "WS": "4+",
+              "BS": "4+",
+              "S": "3",
+              "T": "3",
+              "W": "1",
+              "I": "3",
+              "A": "2",
+              "Ld": "9",
+              "Sv": "5+"
+            },
+            "rules": [
+              "Character",
+              "Infantry",
+              "Stealth"
+            ]
+          },
+          {
+            "name": "Neophyte",
+            "stats": {
+              "M": "6",
+              "WS": "4+",
+              "BS": "4+",
+              "S": "3",
+              "T": "3",
+              "W": "1",
+              "I": "3",
+              "A": "1",
+              "Ld": "8",
+              "Sv": "5+"
+            },
+            "rules": [
+              "Infantry",
+              "Stealth"
+            ]
+          }
+        ],
+        "fixed_wargear": [
+          "Autopistol",
+          "Chainsword",
+          "Blasting Charges",
+          "Autogun",
+          "Autopistol",
+          "Blasting Charges"
+        ],
+        "options": [
+          {
+            "description": "May take up to 10 more Neophytes for +10 points each Leader may swap Autopistol for P Leader may swap Chainsword for M Any Neophyte may swap Autogun for R One Neophyte may swap Autogun for S One Neophyte may swap Autogun for H",
+            "choices": []
+          }
+        ]
+      }
+    ],
+    "elites": [
+      {
+        "name": "Genestealers",
+        "points_base": 164,
+        "composition": "1 Hypermorph 2-9 Aberrants",
+        "models": [
+          {
+            "name": "Genestealer",
+            "stats": {
+              "M": "8",
+              "WS": "3+",
+              "BS": "5+",
+              "S": "4",
+              "T": "4",
+              "W": "1",
+              "I": "6",
+              "A": "2",
+              "Ld": "7",
+              "Sv": "-"
+            },
+            "rules": [
+              "Character",
+              "Monstrous Infantry",
+              "Stubborn",
+              "Very Bulky",
+              "Mutant",
+              "Feel No Pain.",
+              "Monstrous Infantry",
+              "Stubborn",
+              "Very Bulky",
+              "Mutant",
+              "Feel No Pain.",
+              "Points: 100"
+            ]
+          }
+        ],
+        "fixed_wargear": [
+          "Rending Claws",
+          "Rending Claws"
+        ],
+        "options": [
+          {
+            "description": "May take up to 15 more Genestealers for +20 points each Any model may swap any Rending Claws for M Any model may take one A The entire unit may up to one of each B The entire unit may take one P",
+            "choices": []
+          },
+          {
+            "description": "May take Adrenal Glands",
+            "choices": [
+              {
+                "name": "Adrenal Glands",
+                "pts_delta": 1
+              }
+            ]
+          },
+          {
+            "description": "May take Flesh Hooks",
+            "choices": [
+              {
+                "name": "Flesh Hooks",
+                "pts_delta": 1
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Genestealers",
+        "points_base": 100,
+        "composition": "5-20 Genestealers",
+        "models": [
+          {
+            "name": "Genestealer",
+            "stats": {
+              "M": "8",
+              "WS": "3+",
+              "BS": "5+",
+              "S": "4",
+              "T": "4",
+              "W": "1",
+              "I": "6",
+              "A": "2",
+              "Ld": "7",
+              "Sv": "-"
+            },
+            "rules": [
+              "Infantry",
+              "Infiltrate",
+              "Lightning Reflexes",
+              "Invulnerability Save",
+              "Fleet",
+              "Charging Cover"
+            ]
+          }
+        ],
+        "fixed_wargear": [
+          "Rending Claws",
+          "Rending Claws"
+        ],
+        "options": [
+          {
+            "description": "May take up to 15 more Genestealers for +20 points each Any model may swap any Rending Claws for M Any model may take one A The entire unit may up to one of each B The entire unit may take one P",
+            "choices": []
+          },
+          {
+            "description": "May take Adrenal Glands",
+            "choices": [
+              {
+                "name": "Adrenal Glands",
+                "pts_delta": 1
+              }
+            ]
+          },
+          {
+            "description": "May take Flesh Hooks",
+            "choices": [
+              {
+                "name": "Flesh Hooks",
+                "pts_delta": 1
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Metamorph Hybrids",
+        "points_base": 109,
+        "composition": "1 Leader 4-19 Metamorphs",
+        "models": [
+          {
+            "name": "Leader",
+            "stats": {
+              "M": "6",
+              "WS": "3+",
+              "BS": "3+",
+              "S": "4",
+              "T": "4",
+              "W": "1",
+              "I": "5",
+              "A": "2",
+              "Ld": "9",
+              "Sv": "5+"
+            },
+            "rules": [
+              "Character",
+              "Infantry",
+              "Infiltrate",
+              "Stealth"
+            ]
+          },
+          {
+            "name": "Metamorph",
+            "stats": {
+              "M": "6",
+              "WS": "3+",
+              "BS": "3+",
+              "S": "4",
+              "T": "4",
+              "W": "1",
+              "I": "5",
+              "A": "1",
+              "Ld": "8",
+              "Sv": "5+"
+            },
+            "rules": [
+              "Infantry",
+              "Infiltrate",
+              "Stealth"
+            ]
+          }
+        ],
+        "fixed_wargear": [
+          "Autopistol",
+          "Rending Claws",
+          "Blasting Charges",
+          "Autopistol",
+          "Rending Claws",
+          "Blasting Charges"
+        ],
+        "options": [
+          {
+            "description": "May take up to 15 more Metamorphs for +21 points each Leader may swap Rending Claws for OM Any model may swap Autopistol for P Any model may swap Rending Claws for M",
+            "choices": []
+          }
+        ]
+      }
+    ],
+    "fast_attack": [
+      {
+        "name": "Goliath Rockgrinders",
+        "points_base": 167,
+        "composition": "1-3 Goliaths",
+        "models": [
+          {
+            "name": "Goliath",
+            "stats": {
+              "M": "10",
+              "WS": "5+",
+              "BS": "4+",
+              "S": "6",
+              "FA": "13",
+              "SA": "11",
+              "RA": "10",
+              "W": "10",
+              "I": "1",
+              "A": "3",
+              "Ld": "9",
+              "Sv": "3+"
+            },
+            "rules": [
+              "Vehicle",
+              "Tank",
+              "Transport 6",
+              "Rear."
+            ]
+          }
+        ],
+        "fixed_wargear": [
+          "Heavy Mining Laser",
+          "Heavy Stubber",
+          "Drilldozer Blade"
+        ],
+        "options": [
+          {
+            "description": "May take up to 2 more Goliaths for +167 points each Any model may swap Heavy Mining Laser for T Any model may take one G Any model may take up to one of each E",
+            "choices": []
+          }
+        ]
+      },
+      {
+        "name": "Atalan Jackals",
+        "points_base": 64,
+        "composition": "1 Leader 3-7 Jackals 0-2 Wolfquads",
+        "models": [
+          {
+            "name": "Leader",
+            "stats": {
+              "M": "12",
+              "WS": "4+",
+              "BS": "4+",
+              "S": "3",
+              "T": "4",
+              "W": "2",
+              "I": "3",
+              "A": "2",
+              "Ld": "9",
+              "Sv": "5+"
+            },
+            "rules": [
+              "Character",
+              "Infantry",
+              "Outflank",
+              "Very Bulky"
+            ]
+          },
+          {
+            "name": "Jackal",
+            "stats": {
+              "M": "12",
+              "WS": "4+",
+              "BS": "4+",
+              "S": "3",
+              "T": "4",
+              "W": "2",
+              "I": "3",
+              "A": "1",
+              "Ld": "8",
+              "Sv": "5+"
+            },
+            "rules": [
+              "Infantry",
+              "Outflank",
+              "Very Bulky"
+            ]
+          },
+          {
+            "name": "Wolfquad",
+            "stats": {
+              "M": "12",
+              "WS": "4+",
+              "BS": "4+",
+              "S": "3",
+              "T": "4",
+              "W": "3",
+              "I": "3",
+              "A": "1",
+              "Ld": "8",
+              "Sv": "5+"
+            },
+            "rules": [
+              "Infantry",
+              "Outflank",
+              "Very Bulky",
+              "Weapons Platform"
+            ]
+          }
+        ],
+        "fixed_wargear": [
+          "Autopistol",
+          "Blasting Charges",
+          "Autopistol",
+          "Blasting Charges",
+          "Light Stubber",
+          "Autopistol",
+          "Blasting Charges"
+        ],
+        "options": [
+          {
+            "description": "May take up to 4 more Jackals for +15 points each",
+            "choices": []
+          },
+          {
+            "description": "May take up to 2 Wolfquads for +33 points each Leader may swap Autopistol for P, R, or S Any model may swap Autopistol for R Up to two Jackals may swap Autopistol for S Any Wolfquad can swap its Light Stubber for H Any model may take one M",
+            "choices": []
+          }
+        ]
+      },
+      {
+        "name": "Hippogriff AFV Squadron",
+        "points_base": 86,
+        "composition": "1-3 Runners",
+        "models": [
+          {
+            "name": "Hippogriff",
+            "stats": {
+              "M": "12",
+              "WS": "5+",
+              "BS": "4+",
+              "S": "6",
+              "FA": "12",
+              "SA": "11",
+              "RA": "10",
+              "W": "8",
+              "I": "1",
+              "A": "3",
+              "Ld": "9",
+              "Sv": "3+"
+            },
+            "rules": [
+              "Vehicle",
+              "Tank",
+              "Outrider"
+            ]
+          }
+        ],
+        "fixed_wargear": [
+          "Vigilator Cannon",
+          "Coaxial Heavy Stubber"
+        ],
+        "options": [
+          {
+            "description": "May take up to 2 more Hippogriffs for +141 points each Any model may swap Vigilator Cannon for T Any model may swap Coaxial Heavy Stubber for C Any model may take any E one time each",
+            "choices": []
+          },
+          {
+            "description": "May take Augar Array",
+            "choices": [
+              {
+                "name": "Augar Array",
+                "pts_delta": 5
+              }
+            ]
+          },
+          {
+            "description": "May take Camo Netting",
+            "choices": [
+              {
+                "name": "Camo Netting",
+                "pts_delta": 6
+              }
+            ]
+          },
+          {
+            "description": "May take Extra Armour",
+            "choices": [
+              {
+                "name": "Extra Armour",
+                "pts_delta": 5
+              }
+            ]
+          },
+          {
+            "description": "May take Recovery Gear",
+            "choices": [
+              {
+                "name": "Recovery Gear",
+                "pts_delta": 2
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Hippogriff AFV Squadron",
+        "points_base": 141,
+        "composition": "1-3 Hippogriffs",
+        "models": [
+          {
+            "name": "Hippogriff",
+            "stats": {
+              "M": "12",
+              "WS": "5+",
+              "BS": "4+",
+              "S": "6",
+              "FA": "12",
+              "SA": "11",
+              "RA": "10",
+              "W": "8",
+              "I": "1",
+              "A": "3",
+              "Ld": "9",
+              "Sv": "3+"
+            },
+            "rules": [
+              "Vehicle",
+              "Tank",
+              "Grinding Advance",
+              "Limited Ammo",
+              "Poor Maintenance"
+            ]
+          }
+        ],
+        "fixed_wargear": [
+          "Vigilator Cannon",
+          "Coaxial Heavy Stubber"
+        ],
+        "options": [
+          {
+            "description": "May take up to 2 more Hippogriffs for +141 points each Any model may swap Vigilator Cannon for T Any model may swap Coaxial Heavy Stubber for C Any model may take any E one time each",
+            "choices": []
+          },
+          {
+            "description": "May take Augar Array",
+            "choices": [
+              {
+                "name": "Augar Array",
+                "pts_delta": 5
+              }
+            ]
+          },
+          {
+            "description": "May take Camo Netting",
+            "choices": [
+              {
+                "name": "Camo Netting",
+                "pts_delta": 6
+              }
+            ]
+          },
+          {
+            "description": "May take Extra Armour",
+            "choices": [
+              {
+                "name": "Extra Armour",
+                "pts_delta": 5
+              }
+            ]
+          },
+          {
+            "description": "May take Recovery Gear",
+            "choices": [
+              {
+                "name": "Recovery Gear",
+                "pts_delta": 2
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Pegasus Squadron",
+        "points_base": 96,
+        "composition": "1-3 Pegasus",
+        "models": [
+          {
+            "name": "Pegasus",
+            "stats": {
+              "M": "14",
+              "WS": "5+",
+              "BS": "4+",
+              "S": "6",
+              "FA": "12",
+              "SA": "10",
+              "RA": "10",
+              "W": "8",
+              "I": "1",
+              "A": "3",
+              "Ld": "9",
+              "Sv": "3+"
+            },
+            "rules": [
+              "Vehicle",
+              "Tank",
+              "Scout",
+              "Limited Ammo",
+              "Poor Maintenance"
+            ]
+          }
+        ],
+        "fixed_wargear": [
+          "Multilaser",
+          "Heavy Flamer"
+        ],
+        "options": [
+          {
+            "description": "May take up to 2 more Pegasus for +96 points each Any Pegasus may swap Multilaser for T Any Pegasus may swap Heavy Flamer for H Any Pegasus may take one P Any Pegasus may take one M Any Pegasus may take any E one time each",
+            "choices": []
+          },
+          {
+            "description": "May take Augar Array",
+            "choices": [
+              {
+                "name": "Augar Array",
+                "pts_delta": 5
+              }
+            ]
+          },
+          {
+            "description": "May take Camo Netting",
+            "choices": [
+              {
+                "name": "Camo Netting",
+                "pts_delta": 6
+              }
+            ]
+          },
+          {
+            "description": "May take Extra Armour",
+            "choices": [
+              {
+                "name": "Extra Armour",
+                "pts_delta": 5
+              }
+            ]
+          },
+          {
+            "description": "May take Recovery Gear",
+            "choices": [
+              {
+                "name": "Recovery Gear",
+                "pts_delta": 2
+              }
+            ]
+          },
+          {
+            "description": "May take Searchlight",
+            "choices": [
+              {
+                "name": "Searchlight",
+                "pts_delta": 1
+              }
+            ]
+          },
+          {
+            "description": "May take Smoke Launchers",
+            "choices": [
+              {
+                "name": "Smoke Launchers",
+                "pts_delta": 10
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Tauros Assault Squadron",
+        "points_base": 30,
+        "composition": "1-3 Tauros Assaults",
+        "models": [
+          {
+            "name": "Tauros Assault",
+            "stats": {
+              "M": "16",
+              "WS": "5+",
+              "BS": "4+",
+              "S": "5",
+              "FA": "9",
+              "SA": "9",
+              "RA": "9",
+              "W": "5",
+              "I": "1",
+              "A": "3",
+              "Ld": "9",
+              "Sv": "4+"
+            },
+            "rules": [
+              "Vehicle",
+              "Tank",
+              "Outflank",
+              "Open Topped",
+              "Limited Ammo",
+              "Poor Maintenance"
+            ]
+          }
+        ],
+        "fixed_wargear": [
+          "Heavy Flamer"
+        ],
+        "options": [
+          {
+            "description": "May take up to 2 more Tauros Assaults for +30 points Any Tauros Assault may swap Heavy Flamer for H Any Tauros Assault may take up to two M Any Tauros Assault may take any E one time each",
+            "choices": []
+          },
+          {
+            "description": "May take Augar Array",
+            "choices": [
+              {
+                "name": "Augar Array",
+                "pts_delta": 5
+              }
+            ]
+          },
+          {
+            "description": "May take Camo Netting",
+            "choices": [
+              {
+                "name": "Camo Netting",
+                "pts_delta": 6
+              }
+            ]
+          },
+          {
+            "description": "May take Extra Armour",
+            "choices": [
+              {
+                "name": "Extra Armour",
+                "pts_delta": 5
+              }
+            ]
+          },
+          {
+            "description": "May take Recovery Gear",
+            "choices": [
+              {
+                "name": "Recovery Gear",
+                "pts_delta": 2
+              }
+            ]
+          },
+          {
+            "description": "May take Searchlight",
+            "choices": [
+              {
+                "name": "Searchlight",
+                "pts_delta": 1
+              }
+            ]
+          },
+          {
+            "description": "May take Smoke Launchers",
+            "choices": [
+              {
+                "name": "Smoke Launchers",
+                "pts_delta": 10
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Tauros Venator Squadron",
+        "points_base": 54,
+        "composition": "1-3 Tauros Venators",
+        "models": [
+          {
+            "name": "Tauros Venator",
+            "stats": {
+              "M": "16",
+              "WS": "5+",
+              "BS": "4+",
+              "S": "5",
+              "FA": "9",
+              "SA": "9",
+              "RA": "9",
+              "W": "6",
+              "I": "1",
+              "A": "3",
+              "Ld": "9",
+              "Sv": "4+"
+            },
+            "rules": [
+              "Vehicle",
+              "Tank",
+              "Outflank",
+              "Open Topped",
+              "Limited Ammo",
+              "Poor Maintenance"
+            ]
+          }
+        ],
+        "fixed_wargear": [
+          "2 Linked Multilasers"
+        ],
+        "options": [
+          {
+            "description": "May take up to 2 more Tauros Venators for +54 points Any Tauros Venator may swap 2 Linked Multilasers for T Any Tauros Venators may take up to two M Any Tauros Venators may take any E one time each",
+            "choices": []
+          },
+          {
+            "description": "May take Augar Array",
+            "choices": [
+              {
+                "name": "Augar Array",
+                "pts_delta": 5
+              }
+            ]
+          },
+          {
+            "description": "May take Camo Netting",
+            "choices": [
+              {
+                "name": "Camo Netting",
+                "pts_delta": 6
+              }
+            ]
+          },
+          {
+            "description": "May take Extra Armour",
+            "choices": [
+              {
+                "name": "Extra Armour",
+                "pts_delta": 5
+              }
+            ]
+          },
+          {
+            "description": "May take Recovery Gear",
+            "choices": [
+              {
+                "name": "Recovery Gear",
+                "pts_delta": 2
+              }
+            ]
+          },
+          {
+            "description": "May take Searchlight",
+            "choices": [
+              {
+                "name": "Searchlight",
+                "pts_delta": 1
+              }
+            ]
+          },
+          {
+            "description": "May take Smoke Launchers",
+            "choices": [
+              {
+                "name": "Smoke Launchers",
+                "pts_delta": 10
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Armoured Sentinel Squadron",
+        "points_base": 170,
+        "composition": "1 Armoured Sentinel Sergeant 2-9 Armoured Sentinels",
+        "models": [
+          {
+            "name": "Armoured Sentinel Sergeant",
+            "stats": {
+              "M": "12",
+              "WS": "4+",
+              "BS": "4+",
+              "S": "5",
+              "FA": "12",
+              "SA": "10",
+              "RA": "10",
+              "W": "6",
+              "I": "3",
+              "A": "3",
+              "Ld": "9",
+              "Sv": "3+"
+            },
+            "rules": [
+              "Character",
+              "Vehicle",
+              "Combat Walker",
+              "Limited Ammo",
+              "Poor Maintenance"
+            ]
+          },
+          {
+            "name": "Armoured Sentinel",
+            "stats": {
+              "M": "12",
+              "WS": "4+",
+              "BS": "4+",
+              "S": "5",
+              "FA": "12",
+              "SA": "10",
+              "RA": "10",
+              "W": "6",
+              "I": "3",
+              "A": "2",
+              "Ld": "8",
+              "Sv": "3+"
+            },
+            "rules": [
+              "Vehicle",
+              "Combat Walker",
+              "Limited Ammo",
+              "Poor Maintenance"
+            ]
+          }
+        ],
+        "fixed_wargear": [
+          "Heavy Flamer",
+          "Heavy Flamer"
+        ],
+        "options": [
+          {
+            "description": "May add up to 7 more Armoured Sentinels for +55 points each Any model may swap Heavy Flamer for H Any model may take one MW Any model may take one M Any model may take any E one time each",
+            "choices": []
+          },
+          {
+            "description": "May take Augar Array",
+            "choices": [
+              {
+                "name": "Augar Array",
+                "pts_delta": 5
+              }
+            ]
+          },
+          {
+            "description": "May take Camo Netting",
+            "choices": [
+              {
+                "name": "Camo Netting",
+                "pts_delta": 6
+              }
+            ]
+          },
+          {
+            "description": "May take Extra Armour",
+            "choices": [
+              {
+                "name": "Extra Armour",
+                "pts_delta": 5
+              }
+            ]
+          },
+          {
+            "description": "May take Recovery Gear",
+            "choices": [
+              {
+                "name": "Recovery Gear",
+                "pts_delta": 2
+              }
+            ]
+          },
+          {
+            "description": "May take Searchlight",
+            "choices": [
+              {
+                "name": "Searchlight",
+                "pts_delta": 1
+              }
+            ]
+          },
+          {
+            "description": "May take Smoke Launchers",
+            "choices": [
+              {
+                "name": "Smoke Launchers",
+                "pts_delta": 10
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Drop Sentinel Squadron",
+        "points_base": 101,
+        "composition": "1 Drop Sentinel Sergeant 2-9 Drop Sentinels",
+        "models": [
+          {
+            "name": "Drop Sentinel Sergeant",
+            "stats": {
+              "M": "12",
+              "WS": "4+",
+              "BS": "4+",
+              "S": "5",
+              "FA": "10",
+              "SA": "10",
+              "RA": "10",
+              "W": "5",
+              "I": "3",
+              "A": "3",
+              "Ld": "9",
+              "Sv": "4+"
+            },
+            "rules": [
+              "Character",
+              "Vehicle",
+              "Combat Walker",
+              "Limited Ammo",
+              "Poor Maintenance",
+              "Deepstrike",
+              "Open Topped"
+            ]
+          },
+          {
+            "name": "Drop Sentinel",
+            "stats": {
+              "M": "12",
+              "WS": "4+",
+              "BS": "4+",
+              "S": "5",
+              "FA": "10",
+              "SA": "10",
+              "RA": "10",
+              "W": "5",
+              "I": "3",
+              "A": "2",
+              "Ld": "8",
+              "Sv": "4+"
+            },
+            "rules": [
+              "Vehicle",
+              "Combat Walker",
+              "Limited Ammo",
+              "Poor Maintenance",
+              "Deepstrike",
+              "Open Topped"
+            ]
+          }
+        ],
+        "fixed_wargear": [
+          "Heavy Flamer",
+          "Heavy Flamer"
+        ],
+        "options": [
+          {
+            "description": "May add up to 7 more Drop Sentinels for +32 points each Any model may swap Heavy Flamer for H Any model may take one MW Any model may take one M Any model may take any E one time each",
+            "choices": []
+          },
+          {
+            "description": "May take Augar Array",
+            "choices": [
+              {
+                "name": "Augar Array",
+                "pts_delta": 5
+              }
+            ]
+          },
+          {
+            "description": "May take Camo Netting",
+            "choices": [
+              {
+                "name": "Camo Netting",
+                "pts_delta": 6
+              }
+            ]
+          },
+          {
+            "description": "May take Extra Armour",
+            "choices": [
+              {
+                "name": "Extra Armour",
+                "pts_delta": 5
+              }
+            ]
+          },
+          {
+            "description": "May take Recovery Gear",
+            "choices": [
+              {
+                "name": "Recovery Gear",
+                "pts_delta": 2
+              }
+            ]
+          },
+          {
+            "description": "May take Searchlight",
+            "choices": [
+              {
+                "name": "Searchlight",
+                "pts_delta": 1
+              }
+            ]
+          },
+          {
+            "description": "May take Smoke Launchers",
+            "choices": [
+              {
+                "name": "Smoke Launchers",
+                "pts_delta": 10
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Powerlifter Sentinel Squadron",
+        "points_base": 176,
+        "composition": "1 Powerlifter Sentinel Sergeant 2-9 Powerlifter Sentinels",
+        "models": [
+          {
+            "name": "Powerlifter Sentinel Sergeant",
+            "stats": {
+              "M": "12",
+              "WS": "4+",
+              "BS": "4+",
+              "S": "5",
+              "FA": "10",
+              "SA": "10",
+              "RA": "10",
+              "W": "5",
+              "I": "3",
+              "A": "3",
+              "Ld": "9",
+              "Sv": "4+"
+            },
+            "rules": [
+              "Character",
+              "Vehicle",
+              "Combat Walker",
+              "Limited Ammo",
+              "Poor Maintenance",
+              "Open Topped"
+            ]
+          },
+          {
+            "name": "Powerlifter Sentinel",
+            "stats": {
+              "M": "12",
+              "WS": "4+",
+              "BS": "4+",
+              "S": "5",
+              "FA": "10",
+              "SA": "10",
+              "RA": "10",
+              "W": "5",
+              "I": "3",
+              "A": "2",
+              "Ld": "8",
+              "Sv": "4+"
+            },
+            "rules": [
+              "Vehicle",
+              "Combat Walker",
+              "Limited Ammo",
+              "Poor Maintenance",
+              "Open Topped"
+            ]
+          }
+        ],
+        "fixed_wargear": [
+          "Powerlifter",
+          "Powerlifter"
+        ],
+        "options": [
+          {
+            "description": "May add up to 7 more Powerlifter Sentinels for +57 points each Any model may take one M Any model may take any E one time each",
+            "choices": []
+          },
+          {
+            "description": "May take Augar Array",
+            "choices": [
+              {
+                "name": "Augar Array",
+                "pts_delta": 5
+              }
+            ]
+          },
+          {
+            "description": "May take Camo Netting",
+            "choices": [
+              {
+                "name": "Camo Netting",
+                "pts_delta": 6
+              }
+            ]
+          },
+          {
+            "description": "May take Extra Armour",
+            "choices": [
+              {
+                "name": "Extra Armour",
+                "pts_delta": 5
+              }
+            ]
+          },
+          {
+            "description": "May take Recovery Gear",
+            "choices": [
+              {
+                "name": "Recovery Gear",
+                "pts_delta": 2
+              }
+            ]
+          },
+          {
+            "description": "May take Searchlight",
+            "choices": [
+              {
+                "name": "Searchlight",
+                "pts_delta": 1
+              }
+            ]
+          },
+          {
+            "description": "May take Smoke Launchers",
+            "choices": [
+              {
+                "name": "Smoke Launchers",
+                "pts_delta": 10
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Scout Sentinel Squadron",
+        "points_base": 101,
+        "composition": "1 Scout Sentinel Sergeant 2-9 Scout Sentinels",
+        "models": [
+          {
+            "name": "Scout Sentinel Sergeant",
+            "stats": {
+              "M": "12",
+              "WS": "4+",
+              "BS": "4+",
+              "S": "5",
+              "FA": "10",
+              "SA": "10",
+              "RA": "10",
+              "W": "5",
+              "I": "3",
+              "A": "3",
+              "Ld": "9",
+              "Sv": "4+"
+            },
+            "rules": [
+              "Character",
+              "Vehicle",
+              "Combat Walker",
+              "Limited Ammo",
+              "Poor Maintenance",
+              "Open Topped",
+              "Scout"
+            ]
+          },
+          {
+            "name": "Scout Sentinel",
+            "stats": {
+              "M": "12",
+              "WS": "4+",
+              "BS": "4+",
+              "S": "5",
+              "FA": "10",
+              "SA": "10",
+              "RA": "10",
+              "W": "5",
+              "I": "3",
+              "A": "2",
+              "Ld": "8",
+              "Sv": "4+"
+            },
+            "rules": [
+              "Vehicle",
+              "Combat Walker",
+              "Limited Ammo",
+              "Poor Maintenance",
+              "Open Topped",
+              "Scout",
+              "Primary",
+              "Primary",
+              "Primary",
+              "Primary",
+              "Rending",
+              "Use Only, Hull"
+            ]
+          }
+        ],
+        "fixed_wargear": [
+          "Heavy Flamer",
+          "Heavy Flamer"
+        ],
+        "options": [
+          {
+            "description": "May add up to 7 more Scout Sentinels for +32 points each Any model may swap Heavy Flamer for H Any model may take one MW Any model may take one M Any model may take any E one time each",
+            "choices": []
+          },
+          {
+            "description": "May take Augar Array",
+            "choices": [
+              {
+                "name": "Augar Array",
+                "pts_delta": 5
+              }
+            ]
+          },
+          {
+            "description": "May take Camo Netting",
+            "choices": [
+              {
+                "name": "Camo Netting",
+                "pts_delta": 6
+              }
+            ]
+          },
+          {
+            "description": "May take Extra Armour",
+            "choices": [
+              {
+                "name": "Extra Armour",
+                "pts_delta": 5
+              }
+            ]
+          },
+          {
+            "description": "May take Recovery Gear",
+            "choices": [
+              {
+                "name": "Recovery Gear",
+                "pts_delta": 2
+              }
+            ]
+          },
+          {
+            "description": "May take Searchlight",
+            "choices": [
+              {
+                "name": "Searchlight",
+                "pts_delta": 1
+              }
+            ]
+          },
+          {
+            "description": "May take Smoke Launchers",
+            "choices": [
+              {
+                "name": "Smoke Launchers",
+                "pts_delta": 10
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Artemia Hellhound Squadron",
+        "points_base": 136,
+        "composition": "1-3 Artemia Hellhounds",
+        "models": [
+          {
+            "name": "Artemia Hellhound",
+            "stats": {
+              "M": "10",
+              "WS": "5+",
+              "BS": "4+",
+              "S": "6",
+              "FA": "12",
+              "SA": "12",
+              "RA": "11",
+              "W": "12",
+              "I": "1",
+              "A": "3",
+              "Ld": "9",
+              "Sv": "3+"
+            },
+            "rules": [
+              "Vehicle",
+              "Tank",
+              "Limited Ammo",
+              "Poor Maintenance",
+              "Enlarged Fuel Tanks"
+            ]
+          }
+        ],
+        "fixed_wargear": [
+          "Inferno Cannon",
+          "Heavy Flamer"
+        ],
+        "options": [
+          {
+            "description": "May take up to 2 more Artemia Hellhounds for +136 points Any Artemia Hellhound may swap Heavy Flamer for H Any Artemia Hellhound may take one D Any Artemia Hellhound may take one P Any Artemia Hellhound may take one M Any Artemia Hellhound may take any E one time each",
+            "choices": []
+          },
+          {
+            "description": "May take Augar Array",
+            "choices": [
+              {
+                "name": "Augar Array",
+                "pts_delta": 5
+              }
+            ]
+          },
+          {
+            "description": "May take Camo Netting",
+            "choices": [
+              {
+                "name": "Camo Netting",
+                "pts_delta": 6
+              }
+            ]
+          },
+          {
+            "description": "May take Extra Armour",
+            "choices": [
+              {
+                "name": "Extra Armour",
+                "pts_delta": 5
+              }
+            ]
+          },
+          {
+            "description": "May take Recovery Gear",
+            "choices": [
+              {
+                "name": "Recovery Gear",
+                "pts_delta": 2
+              }
+            ]
+          },
+          {
+            "description": "May take Searchlight",
+            "choices": [
+              {
+                "name": "Searchlight",
+                "pts_delta": 1
+              }
+            ]
+          },
+          {
+            "description": "May take Smoke Launchers",
+            "choices": [
+              {
+                "name": "Smoke Launchers",
+                "pts_delta": 10
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Hound Squadron",
+        "points_base": 110,
+        "composition": "1-3 Hounds",
+        "models": [
+          {
+            "name": "Hound",
+            "stats": {
+              "M": "12",
+              "WS": "5+",
+              "BS": "4+",
+              "S": "6",
+              "FA": "12",
+              "SA": "12",
+              "RA": "10",
+              "W": "11",
+              "I": "1",
+              "A": "3",
+              "Ld": "9",
+              "Sv": "3+"
+            },
+            "rules": [
+              "Vehicle",
+              "Tank",
+              "Limited Ammo",
+              "Poor Maintenance"
+            ]
+          }
+        ],
+        "fixed_wargear": [
+          "Chem Cannon",
+          "Heavy Flamer"
+        ],
+        "options": [
+          {
+            "description": "May take up to 2 more Hounds for +110 points Any Hound may swap Chem Cannon for T Any Hound may swap Heavy Flamer for H Any Hound may take one D Any Hound may take one P Any Hound may take one M Any Hound may take any E one time each",
+            "choices": []
+          },
+          {
+            "description": "May take Augar Array",
+            "choices": [
+              {
+                "name": "Augar Array",
+                "pts_delta": 5
+              }
+            ]
+          },
+          {
+            "description": "May take Camo Netting",
+            "choices": [
+              {
+                "name": "Camo Netting",
+                "pts_delta": 6
+              }
+            ]
+          },
+          {
+            "description": "May take Extra Armour",
+            "choices": [
+              {
+                "name": "Extra Armour",
+                "pts_delta": 5
+              }
+            ]
+          },
+          {
+            "description": "May take Recovery Gear",
+            "choices": [
+              {
+                "name": "Recovery Gear",
+                "pts_delta": 2
+              }
+            ]
+          },
+          {
+            "description": "May take Searchlight",
+            "choices": [
+              {
+                "name": "Searchlight",
+                "pts_delta": 1
+              }
+            ]
+          },
+          {
+            "description": "May take Smoke Launchers",
+            "choices": [
+              {
+                "name": "Smoke Launchers",
+                "pts_delta": 10
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Salamander Scout Squadron",
+        "points_base": 89,
+        "composition": "1-3 Salamander Scouts",
+        "models": [
+          {
+            "name": "Salamander Scout",
+            "stats": {
+              "M": "12",
+              "WS": "5+",
+              "BS": "4+",
+              "S": "6",
+              "FA": "12",
+              "SA": "10",
+              "RA": "10",
+              "W": "11",
+              "I": "1",
+              "A": "3",
+              "Ld": "9",
+              "Sv": "3+"
+            },
+            "rules": [
+              "Vehicle",
+              "Tank",
+              "Limited Ammo",
+              "Poor Maintenance",
+              "Open Topped",
+              "Scout"
+            ]
+          }
+        ],
+        "fixed_wargear": [
+          "Autocannon",
+          "Heavy Flamer",
+          "Auspex Array"
+        ],
+        "options": [
+          {
+            "description": "May take up to 2 more Salamander Scouts for +89 points Any Salamander Scout may swap Heavy Flamer for H Any Salamander Scout may take one D Any Salamander Scout may take one P Any Salamander Scout may take one M Any Salamander Scout may take any E one time each",
+            "choices": []
+          },
+          {
+            "description": "May take Augar Array",
+            "choices": [
+              {
+                "name": "Augar Array",
+                "pts_delta": 5
+              }
+            ]
+          },
+          {
+            "description": "May take Camo Netting",
+            "choices": [
+              {
+                "name": "Camo Netting",
+                "pts_delta": 6
+              }
+            ]
+          },
+          {
+            "description": "May take Extra Armour",
+            "choices": [
+              {
+                "name": "Extra Armour",
+                "pts_delta": 5
+              }
+            ]
+          },
+          {
+            "description": "May take Recovery Gear",
+            "choices": [
+              {
+                "name": "Recovery Gear",
+                "pts_delta": 2
+              }
+            ]
+          },
+          {
+            "description": "May take Searchlight",
+            "choices": [
+              {
+                "name": "Searchlight",
+                "pts_delta": 1
+              }
+            ]
+          },
+          {
+            "description": "May take Smoke Launchers",
+            "choices": [
+              {
+                "name": "Smoke Launchers",
+                "pts_delta": 10
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Scylla Squadron",
+        "points_base": 152,
+        "composition": "1 Scylla Sergeant 2-9 Scyllas",
+        "models": [
+          {
+            "name": "Scylla Sergeant",
+            "stats": {
+              "M": "12",
+              "WS": "5+",
+              "BS": "4+",
+              "S": "5",
+              "FA": "10",
+              "SA": "10",
+              "RA": "10",
+              "W": "5",
+              "I": "1",
+              "A": "3",
+              "Ld": "9",
+              "Sv": "3+"
+            },
+            "rules": [
+              "Character",
+              "Vehicle",
+              "Tank",
+              "Limited Ammo",
+              "Poor Maintenance",
+              "Outflank"
+            ]
+          },
+          {
+            "name": "Scylla",
+            "stats": {
+              "M": "12",
+              "WS": "5+",
+              "BS": "4+",
+              "S": "5",
+              "FA": "10",
+              "SA": "10",
+              "RA": "10",
+              "W": "5",
+              "I": "1",
+              "A": "2",
+              "Ld": "8",
+              "Sv": "3+"
+            },
+            "rules": [
+              "Vehicle",
+              "Tank",
+              "Limited Ammo",
+              "Poor Maintenance",
+              "Outflank"
+            ]
+          }
+        ],
+        "fixed_wargear": [
+          "Heavy Flamer",
+          "Heavy Flamer"
+        ],
+        "options": [
+          {
+            "description": "May take up to 7 more Scyllas for +49 points each Any model may swap Heavy Flamer for H Any model may take one M Any model may take any E one time each",
+            "choices": []
+          },
+          {
+            "description": "May take Augar Array",
+            "choices": [
+              {
+                "name": "Augar Array",
+                "pts_delta": 5
+              }
+            ]
+          },
+          {
+            "description": "May take Camo Netting",
+            "choices": [
+              {
+                "name": "Camo Netting",
+                "pts_delta": 6
+              }
+            ]
+          },
+          {
+            "description": "May take Extra Armour",
+            "choices": [
+              {
+                "name": "Extra Armour",
+                "pts_delta": 5
+              }
+            ]
+          },
+          {
+            "description": "May take Recovery Gear",
+            "choices": [
+              {
+                "name": "Recovery Gear",
+                "pts_delta": 2
+              }
+            ]
+          },
+          {
+            "description": "May take Searchlight",
+            "choices": [
+              {
+                "name": "Searchlight",
+                "pts_delta": 1
+              }
+            ]
+          },
+          {
+            "description": "May take Smoke Launchers",
+            "choices": [
+              {
+                "name": "Smoke Launchers",
+                "pts_delta": 10
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Siegfried Squadron",
+        "points_base": 152,
+        "composition": "1 Scylla Sergeant 2-9 Siegfried",
+        "models": [
+          {
+            "name": "Siegfried Sergeant",
+            "stats": {
+              "M": "10",
+              "WS": "5+",
+              "BS": "4+",
+              "S": "5",
+              "FA": "10",
+              "SA": "10",
+              "RA": "10",
+              "W": "6",
+              "I": "1",
+              "A": "3",
+              "Ld": "9",
+              "Sv": "3+"
+            },
+            "rules": [
+              "Character",
+              "Vehicle",
+              "Tank",
+              "Limited Ammo",
+              "Poor Maintenance"
+            ]
+          },
+          {
+            "name": "Siegfried",
+            "stats": {
+              "M": "10",
+              "WS": "5+",
+              "BS": "4+",
+              "S": "5",
+              "FA": "10",
+              "SA": "10",
+              "RA": "10",
+              "W": "6",
+              "I": "1",
+              "A": "2",
+              "Ld": "8",
+              "Sv": "3+"
+            },
+            "rules": [
+              "Vehicle",
+              "Tank",
+              "Limited Ammo",
+              "Poor Maintenance"
+            ]
+          }
+        ],
+        "fixed_wargear": [
+          "Heavy Flamer",
+          "Heavy Flamer"
+        ],
+        "options": [
+          {
+            "description": "May take up to 7 more Siegfrieds for +49 points each Any model may swap Heavy Flamer for T Any model may take one M Any model may take any E one time each",
+            "choices": []
+          },
+          {
+            "description": "May take Augar Array",
+            "choices": [
+              {
+                "name": "Augar Array",
+                "pts_delta": 5
+              }
+            ]
+          },
+          {
+            "description": "May take Camo Netting",
+            "choices": [
+              {
+                "name": "Camo Netting",
+                "pts_delta": 6
+              }
+            ]
+          },
+          {
+            "description": "May take Extra Armour",
+            "choices": [
+              {
+                "name": "Extra Armour",
+                "pts_delta": 5
+              }
+            ]
+          },
+          {
+            "description": "May take Recovery Gear",
+            "choices": [
+              {
+                "name": "Recovery Gear",
+                "pts_delta": 2
+              }
+            ]
+          },
+          {
+            "description": "May take Searchlight",
+            "choices": [
+              {
+                "name": "Searchlight",
+                "pts_delta": 1
+              }
+            ]
+          },
+          {
+            "description": "May take Smoke Launchers",
+            "choices": [
+              {
+                "name": "Smoke Launchers",
+                "pts_delta": 10
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "heavy_support": [
+      {
+        "name": "Heavy Weapons Squad",
+        "points_base": 63,
+        "composition": "3-9 Heavy Weapon Teams",
+        "models": [
+          {
+            "name": "Heavy Weapons Team",
+            "stats": {
+              "M": "6",
+              "WS": "4+",
+              "BS": "4+",
+              "S": "3",
+              "T": "3",
+              "W": "2",
+              "I": "3",
+              "A": "2",
+              "Ld": "8",
+              "Sv": "5+"
+            },
+            "rules": [
+              "Infantry",
+              "Limited Ammo",
+              "Bulky"
+            ]
+          }
+        ],
+        "fixed_wargear": [
+          "Heavy Flamer",
+          "Lasgun",
+          "Frag Grenades"
+        ],
+        "options": [
+          {
+            "description": "May add up to 6 more Heavy Weapon Teams for +21 points each Any model may swap Heavy Flamer for H One model may take up to one of each E",
+            "choices": [
+              {
+                "name": "Vox Caster",
+                "pts_delta": 10
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Battle Tanks",
+        "points_base": 127,
+        "composition": "1-3 Carnodons",
+        "models": [
+          {
+            "name": "Carnodon Squadron",
+            "stats": {
+              "M": "10",
+              "WS": "5+",
+              "BS": "4+",
+              "S": "6",
+              "FA": "13",
+              "SA": "11",
+              "RA": "10",
+              "W": "12",
+              "I": "1",
+              "A": "3",
+              "Ld": "8",
+              "Sv": "3+"
+            },
+            "rules": []
+          },
+          {
+            "name": "Carnodon",
+            "stats": {},
+            "rules": [
+              "Vehicle",
+              "Tank",
+              "Limited Ammo",
+              "Poor Maintenance"
+            ]
+          }
+        ],
+        "fixed_wargear": [
+          "Volkite Culverin",
+          "2 Heavy Flamers"
+        ],
+        "options": [
+          {
+            "description": "May take up to two more Carnodons for +127 points each Any Carnodon may swap Volkite Culverin for T Any Carnodon may swap 2 Heavy Flamers for S Any Carnodon may take one P Any Carnodon may take one D Any Carnodon may take one M Any Carnodon may take any E one time each",
+            "choices": []
+          },
+          {
+            "description": "May take Augar Array",
+            "choices": [
+              {
+                "name": "Augar Array",
+                "pts_delta": 5
+              }
+            ]
+          },
+          {
+            "description": "May take Camo Netting",
+            "choices": [
+              {
+                "name": "Camo Netting",
+                "pts_delta": 6
+              }
+            ]
+          },
+          {
+            "description": "May take Extra Armour",
+            "choices": [
+              {
+                "name": "Extra Armour",
+                "pts_delta": 5
+              }
+            ]
+          },
+          {
+            "description": "May take Recovery Gear",
+            "choices": [
+              {
+                "name": "Recovery Gear",
+                "pts_delta": 2
+              }
+            ]
+          },
+          {
+            "description": "May take Searchlight",
+            "choices": [
+              {
+                "name": "Searchlight",
+                "pts_delta": 1
+              }
+            ]
+          },
+          {
+            "description": "May take Smoke Launchers",
+            "choices": [
+              {
+                "name": "Smoke Launchers",
+                "pts_delta": 10
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Destroyer Squadron",
+        "points_base": 146,
+        "composition": "1-3 Destroyers",
+        "models": [
+          {
+            "name": "Destroyer",
+            "stats": {
+              "M": "8",
+              "WS": "5+",
+              "BS": "4+",
+              "S": "7",
+              "FA": "14",
+              "SA": "13",
+              "RA": "10",
+              "W": "12",
+              "I": "1",
+              "A": "3",
+              "Ld": "9",
+              "Sv": "3+"
+            },
+            "rules": [
+              "Vehicle",
+              "Tank",
+              "Grinding Advance",
+              "Limited Ammo",
+              "Poor Maintenance"
+            ]
+          }
+        ],
+        "fixed_wargear": [
+          "Heavy Laser Destroyer Array"
+        ],
+        "options": [
+          {
+            "description": "May take up to 2 more Destroyers for +146 points each Any Destroyer may swap Heavy Laser Destroyer Array for H Any Destroyer may take one M Any Destroyer may take one P Any Destroyer may take one D Any Destroyer may take any E one time each",
+            "choices": []
+          },
+          {
+            "description": "May take Augar Array",
+            "choices": [
+              {
+                "name": "Augar Array",
+                "pts_delta": 5
+              }
+            ]
+          },
+          {
+            "description": "May take Camo Netting",
+            "choices": [
+              {
+                "name": "Camo Netting",
+                "pts_delta": 6
+              }
+            ]
+          },
+          {
+            "description": "May take Extra Armour",
+            "choices": [
+              {
+                "name": "Extra Armour",
+                "pts_delta": 5
+              }
+            ]
+          },
+          {
+            "description": "May take Recovery Gear",
+            "choices": [
+              {
+                "name": "Recovery Gear",
+                "pts_delta": 2
+              }
+            ]
+          },
+          {
+            "description": "May take Searchlight",
+            "choices": [
+              {
+                "name": "Searchlight",
+                "pts_delta": 1
+              }
+            ]
+          },
+          {
+            "description": "May take Smoke Launchers",
+            "choices": [
+              {
+                "name": "Smoke Launchers",
+                "pts_delta": 10
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Leman Russ Squadron",
+        "points_base": 155,
+        "composition": "1-3 Leman Russ Tanks",
+        "models": [
+          {
+            "name": "Leman Russ",
+            "stats": {
+              "M": "8",
+              "WS": "5+",
+              "BS": "4+",
+              "S": "7",
+              "FA": "14",
+              "SA": "13",
+              "RA": "10",
+              "W": "12",
+              "I": "1",
+              "A": "3",
+              "Ld": "9",
+              "Sv": "3+"
+            },
+            "rules": [
+              "Vehicle",
+              "Tank",
+              "Grinding Advance",
+              "Limited Ammo",
+              "Poor Maintenance"
+            ]
+          }
+        ],
+        "fixed_wargear": [
+          "Nova Eradicator Cannon",
+          "Heavy Flamer H"
+        ],
+        "options": [
+          {
+            "description": "May take up to two more Leman Russ Tanks for +155 points each Any Leman Russ may swap Nova Eradicator Cannon for T Any Leman Russ may swap Heavy Flamer H for H Any Leman Russ may take a set of S Any Leman Russ may take one P Any Leman Russ may take one D Any Leman Russ may take one M Any Leman Russ may take any E one time each",
+            "choices": []
+          },
+          {
+            "description": "May take Augar Array",
+            "choices": [
+              {
+                "name": "Augar Array",
+                "pts_delta": 5
+              }
+            ]
+          },
+          {
+            "description": "May take Camo Netting",
+            "choices": [
+              {
+                "name": "Camo Netting",
+                "pts_delta": 6
+              }
+            ]
+          },
+          {
+            "description": "May take Extra Armour",
+            "choices": [
+              {
+                "name": "Extra Armour",
+                "pts_delta": 5
+              }
+            ]
+          },
+          {
+            "description": "May take Recovery Gear",
+            "choices": [
+              {
+                "name": "Recovery Gear",
+                "pts_delta": 2
+              }
+            ]
+          },
+          {
+            "description": "May take Searchlight",
+            "choices": [
+              {
+                "name": "Searchlight",
+                "pts_delta": 1
+              }
+            ]
+          },
+          {
+            "description": "May take Smoke Launchers",
+            "choices": [
+              {
+                "name": "Smoke Launchers",
+                "pts_delta": 10
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Malcador",
+        "points_base": 227,
+        "composition": "1 Malcador",
+        "models": [
+          {
+            "name": "Malcador",
+            "stats": {
+              "M": "6",
+              "WS": "5+",
+              "BS": "4+",
+              "S": "8",
+              "FA": "13",
+              "SA": "12",
+              "RA": "11",
+              "W": "18",
+              "I": "1",
+              "A": "6",
+              "Ld": "9",
+              "Sv": "3+"
+            },
+            "rules": [
+              "Vehicle",
+              "Tank",
+              "Grinding Advance",
+              "Limited Ammo",
+              "Poor Maintenance"
+            ]
+          }
+        ],
+        "fixed_wargear": [
+          "2 Linked Lascannons",
+          "Heavy Bolter",
+          "2 Heavy Flamers",
+          "Trench Crossers"
+        ],
+        "options": [
+          {
+            "description": "May swap 2 Linked Lascannons for T",
+            "choices": []
+          },
+          {
+            "description": "May swap 2 Heavy Flamers for H Malcador may swap 2 Heavy Flamers for S",
+            "choices": []
+          },
+          {
+            "description": "May take one P",
+            "choices": []
+          },
+          {
+            "description": "May take one D",
+            "choices": []
+          },
+          {
+            "description": "May take one M",
+            "choices": []
+          },
+          {
+            "description": "May take any E one time each",
+            "choices": []
+          },
+          {
+            "description": "May take Augar Array",
+            "choices": [
+              {
+                "name": "Augar Array",
+                "pts_delta": 5
+              }
+            ]
+          },
+          {
+            "description": "May take Camo Netting",
+            "choices": [
+              {
+                "name": "Camo Netting",
+                "pts_delta": 6
+              }
+            ]
+          },
+          {
+            "description": "May take Extra Armour",
+            "choices": [
+              {
+                "name": "Extra Armour",
+                "pts_delta": 5
+              }
+            ]
+          },
+          {
+            "description": "May take Recovery Gear",
+            "choices": [
+              {
+                "name": "Recovery Gear",
+                "pts_delta": 2
+              }
+            ]
+          },
+          {
+            "description": "May take Searchlight",
+            "choices": [
+              {
+                "name": "Searchlight",
+                "pts_delta": 1
+              }
+            ]
+          },
+          {
+            "description": "May take Smoke Launchers",
+            "choices": [
+              {
+                "name": "Smoke Launchers",
+                "pts_delta": 10
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Malcador Hunter",
+        "points_base": 232,
+        "composition": "1 Malcador Hunter",
+        "models": [
+          {
+            "name": "Malcador Hunter",
+            "stats": {
+              "M": "6",
+              "WS": "5+",
+              "BS": "4+",
+              "S": "8",
+              "FA": "13",
+              "SA": "12",
+              "RA": "11",
+              "W": "18",
+              "I": "1",
+              "A": "6",
+              "Ld": "9",
+              "Sv": "3+"
+            },
+            "rules": [
+              "Vehicle",
+              "Tank",
+              "Grinding Advance",
+              "Limited Ammo",
+              "Poor Maintenance",
+              "Enlarged Fuel Tanks"
+            ]
+          }
+        ],
+        "fixed_wargear": [
+          "Neutron Laser Projector",
+          "2 Heavy Flamers",
+          "Trench Crossers"
+        ],
+        "options": [
+          {
+            "description": "May swap Neutron Laser Projector for H",
+            "choices": []
+          },
+          {
+            "description": "May swap 2 Heavy Flamers for S",
+            "choices": []
+          },
+          {
+            "description": "May take one P",
+            "choices": []
+          },
+          {
+            "description": "May take one D",
+            "choices": []
+          },
+          {
+            "description": "May take one M",
+            "choices": []
+          },
+          {
+            "description": "May take any E one time each",
+            "choices": []
+          },
+          {
+            "description": "May take Augar Array",
+            "choices": [
+              {
+                "name": "Augar Array",
+                "pts_delta": 5
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "T +33 points",
+        "points_base": 169,
+        "composition": "1-3 Mars Alpha Leman Russ Tanks",
+        "models": [
+          {
+            "name": "T +39 points",
+            "stats": {
+              "M": "6",
+              "WS": "5+",
+              "BS": "4+",
+              "S": "7",
+              "FA": "14",
+              "SA": "13",
+              "RA": "10",
+              "W": "14",
+              "I": "1",
+              "A": "3",
+              "Ld": "9",
+              "Sv": "3+"
+            },
+            "rules": [
+              "Vehicle",
+              "Tank",
+              "Grinding Advance",
+              "Limited Ammo",
+              "Poor Maintenance"
+            ]
+          }
+        ],
+        "fixed_wargear": [],
+        "options": [
+          {
+            "description": "May take up to two more Mars Alpha Leman Russ Tanks for +169 points each Any Mars Alpha Leman Russ may swap Nova Eradicator Cannon for T Any Mars Alpha Leman Russ may swap Heavy Flamer H for H Any Mars Alpha Leman Russ may take a set of S Any Mars Alpha Leman Russ may take one P Any Mars Alpha Leman Russ may take one M Any Mars Alpha Leman Russ may take any E one time each",
+            "choices": []
+          },
+          {
+            "description": "May take Augar Array",
+            "choices": [
+              {
+                "name": "Augar Array",
+                "pts_delta": 5
+              }
+            ]
+          },
+          {
+            "description": "May take Camo Netting",
+            "choices": [
+              {
+                "name": "Camo Netting",
+                "pts_delta": 6
+              }
+            ]
+          },
+          {
+            "description": "May take Extra Armour",
+            "choices": [
+              {
+                "name": "Extra Armour",
+                "pts_delta": 5
+              }
+            ]
+          },
+          {
+            "description": "May take Recovery Gear",
+            "choices": [
+              {
+                "name": "Recovery Gear",
+                "pts_delta": 2
+              }
+            ]
+          },
+          {
+            "description": "May take Searchlight",
+            "choices": [
+              {
+                "name": "Searchlight",
+                "pts_delta": 1
+              }
+            ]
+          },
+          {
+            "description": "May take Smoke Launchers",
+            "choices": [
+              {
+                "name": "Smoke Launchers",
+                "pts_delta": 10
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Ragnorak Squadron",
+        "points_base": 192,
+        "composition": "1-3 Ragnoraks",
+        "models": [
+          {
+            "name": "Ragnorak",
+            "stats": {
+              "M": "6",
+              "WS": "5+",
+              "BS": "4+",
+              "S": "7",
+              "FA": "14",
+              "SA": "13",
+              "RA": "11",
+              "W": "14",
+              "I": "1",
+              "A": "3",
+              "Ld": "9",
+              "Sv": "3+"
+            },
+            "rules": [
+              "Vehicle",
+              "Tank",
+              "Grinding Advance",
+              "Limited Ammo",
+              "Poor Maintenance"
+            ]
+          }
+        ],
+        "fixed_wargear": [
+          "Nova Eradicator Cannon",
+          "Heavy Flamer H",
+          "2 Heavy Flamers S"
+        ],
+        "options": [
+          {
+            "description": "May take up to two more Ragnoraks for +192 points each Any Leman Russ may swap Nova Eradicator Cannon for T Any Ragnorak may swap Heavy Flamer H for H Any Ragnorak may swap 2 Heavy Flamers for S Any Ragnorak may take one P Any Ragnorak may take one D Any Ragnorak may take one M Any Ragnorak may take any E one time each",
+            "choices": []
+          },
+          {
+            "description": "May take Augar Array",
+            "choices": [
+              {
+                "name": "Augar Array",
+                "pts_delta": 5
+              }
+            ]
+          },
+          {
+            "description": "May take Camo Netting",
+            "choices": [
+              {
+                "name": "Camo Netting",
+                "pts_delta": 6
+              }
+            ]
+          },
+          {
+            "description": "May take Extra Armour",
+            "choices": [
+              {
+                "name": "Extra Armour",
+                "pts_delta": 5
+              }
+            ]
+          },
+          {
+            "description": "May take Recovery Gear",
+            "choices": [
+              {
+                "name": "Recovery Gear",
+                "pts_delta": 2
+              }
+            ]
+          },
+          {
+            "description": "May take Searchlight",
+            "choices": [
+              {
+                "name": "Searchlight",
+                "pts_delta": 1
+              }
+            ]
+          },
+          {
+            "description": "May take Smoke Launchers",
+            "choices": [
+              {
+                "name": "Smoke Launchers",
+                "pts_delta": 10
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Rogal Dorn Battle Tank",
+        "points_base": 294,
+        "composition": "1 Rogal Dorn",
+        "models": [
+          {
+            "name": "Rogal Dorn",
+            "stats": {
+              "M": "6",
+              "WS": "5+",
+              "BS": "4+",
+              "S": "8",
+              "FA": "14",
+              "SA": "13",
+              "RA": "12",
+              "W": "18",
+              "I": "1",
+              "A": "6",
+              "Ld": "9",
+              "Sv": "3+"
+            },
+            "rules": [
+              "Vehicle",
+              "Tank",
+              "Grinding Advance",
+              "Limited Ammo",
+              "Poor Maintenance"
+            ]
+          }
+        ],
+        "fixed_wargear": [
+          "Oppressor Cannon and",
+          "Autocannon",
+          "Castigator Gatling Cannon"
+        ],
+        "options": [
+          {
+            "description": "May swap Oppressor Cannon and Autocannon for T",
+            "choices": []
+          },
+          {
+            "description": "May swap Castigator Gatling Cannon for H1",
+            "choices": []
+          },
+          {
+            "description": "May take one H2",
+            "choices": []
+          },
+          {
+            "description": "May take one S",
+            "choices": []
+          },
+          {
+            "description": "May take one P",
+            "choices": []
+          },
+          {
+            "description": "May take one D",
+            "choices": []
+          },
+          {
+            "description": "May take one M",
+            "choices": []
+          },
+          {
+            "description": "May take any E one time each",
+            "choices": []
+          },
+          {
+            "description": "May take Augar Array",
+            "choices": [
+              {
+                "name": "Augar Array",
+                "pts_delta": 5
+              }
+            ]
+          },
+          {
+            "description": "May take Camo Netting",
+            "choices": [
+              {
+                "name": "Camo Netting",
+                "pts_delta": 6
+              }
+            ]
+          },
+          {
+            "description": "May take Extra Armour",
+            "choices": [
+              {
+                "name": "Extra Armour",
+                "pts_delta": 5
+              }
+            ]
+          },
+          {
+            "description": "May take Recovery Gear",
+            "choices": [
+              {
+                "name": "Recovery Gear",
+                "pts_delta": 2
+              }
+            ]
+          },
+          {
+            "description": "May take Searchlight",
+            "choices": [
+              {
+                "name": "Searchlight",
+                "pts_delta": 1
+              }
+            ]
+          },
+          {
+            "description": "May take Smoke Launchers",
+            "choices": [
+              {
+                "name": "Smoke Launchers",
+                "pts_delta": 10
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Self-Propelled Guns",
+        "points_base": 160,
+        "composition": "1-3 Colossus Siege Mortar",
+        "models": [
+          {
+            "name": "Colossus Bombard Battery",
+            "stats": {
+              "M": "8",
+              "WS": "5+",
+              "BS": "4+",
+              "S": "7",
+              "FA": "14",
+              "SA": "13",
+              "RA": "10",
+              "W": "12",
+              "I": "1",
+              "A": "3",
+              "Ld": "9",
+              "Sv": "3+"
+            },
+            "rules": []
+          },
+          {
+            "name": "Colossus Siege Mortar",
+            "stats": {},
+            "rules": [
+              "Vehicle",
+              "Tank",
+              "Limited Ammo",
+              "Poor Maintenance",
+              "Open Topped"
+            ]
+          }
+        ],
+        "fixed_wargear": [
+          "Colossus Siege Mortar"
+        ],
+        "options": [
+          {
+            "description": "May take up to two more Colossus Siege Mortars for +160 points each Any Colossus may take one H Any Colossus may take one P Any Colossus may take one D Any Colossus may take one M Any Colossus may take any E one time each",
+            "choices": []
+          },
+          {
+            "description": "May take Augar Array",
+            "choices": [
+              {
+                "name": "Augar Array",
+                "pts_delta": 5
+              }
+            ]
+          },
+          {
+            "description": "May take Camo Netting",
+            "choices": [
+              {
+                "name": "Camo Netting",
+                "pts_delta": 6
+              }
+            ]
+          },
+          {
+            "description": "May take Extra Armour",
+            "choices": [
+              {
+                "name": "Extra Armour",
+                "pts_delta": 5
+              }
+            ]
+          },
+          {
+            "description": "May take Recovery Gear",
+            "choices": [
+              {
+                "name": "Recovery Gear",
+                "pts_delta": 2
+              }
+            ]
+          },
+          {
+            "description": "May take Searchlight",
+            "choices": [
+              {
+                "name": "Searchlight",
+                "pts_delta": 1
+              }
+            ]
+          },
+          {
+            "description": "May take Smoke Launchers",
+            "choices": [
+              {
+                "name": "Smoke Launchers",
+                "pts_delta": 10
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Deathstrike Missile Battery",
+        "points_base": 206,
+        "composition": "1-3 Deathstrike Missile Carriers",
+        "models": [
+          {
+            "name": "Deathstrike Missile Carrier",
+            "stats": {
+              "M": "12",
+              "WS": "5+",
+              "BS": "4+",
+              "S": "6",
+              "FA": "12",
+              "SA": "10",
+              "RA": "10",
+              "W": "11",
+              "I": "1",
+              "A": "3",
+              "Ld": "9",
+              "Sv": "3+"
+            },
+            "rules": [
+              "Vehicle",
+              "Tank",
+              "Limited Ammo",
+              "Poor Maintenance",
+              "The Hour is Nigh",
+              "T Minus 5"
+            ]
+          }
+        ],
+        "fixed_wargear": [
+          "Deathstrike Missile",
+          "Heavy Flamer"
+        ],
+        "options": [
+          {
+            "description": "May take up to 2 more Deathstrike Missile Carriers for +206 points each Any Deathstrike Missile Carrier",
+            "choices": []
+          },
+          {
+            "description": "may swap Heavy Flamer for H Any Deathstrike Missile Carrier",
+            "choices": []
+          },
+          {
+            "description": "may take one D Any Deathstrike Missile Carrier",
+            "choices": []
+          },
+          {
+            "description": "may take one P Any Deathstrike Missile Carrier",
+            "choices": []
+          },
+          {
+            "description": "may take one M Any Deathstrike Missile Carrier",
+            "choices": []
+          },
+          {
+            "description": "may take any E one time each",
+            "choices": []
+          },
+          {
+            "description": "May take Augar Array",
+            "choices": [
+              {
+                "name": "Augar Array",
+                "pts_delta": 5
+              }
+            ]
+          },
+          {
+            "description": "May take Camo Netting",
+            "choices": [
+              {
+                "name": "Camo Netting",
+                "pts_delta": 6
+              }
+            ]
+          },
+          {
+            "description": "May take Extra Armour",
+            "choices": [
+              {
+                "name": "Extra Armour",
+                "pts_delta": 5
+              }
+            ]
+          },
+          {
+            "description": "May take Recovery Gear",
+            "choices": [
+              {
+                "name": "Recovery Gear",
+                "pts_delta": 2
+              }
+            ]
+          },
+          {
+            "description": "May take Searchlight",
+            "choices": [
+              {
+                "name": "Searchlight",
+                "pts_delta": 1
+              }
+            ]
+          },
+          {
+            "description": "May take Smoke Launchers",
+            "choices": [
+              {
+                "name": "Smoke Launchers",
+                "pts_delta": 10
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Manticore Battery",
+        "points_base": 176,
+        "composition": "1-3 Manticore Carriers",
+        "models": [
+          {
+            "name": "Manticore Carrier",
+            "stats": {
+              "M": "12",
+              "WS": "5+",
+              "BS": "4+",
+              "S": "6",
+              "FA": "12",
+              "SA": "10",
+              "RA": "10",
+              "W": "11",
+              "I": "1",
+              "A": "3",
+              "Ld": "9",
+              "Sv": "3+"
+            },
+            "rules": [
+              "Vehicle",
+              "Tank",
+              "Limited Ammo",
+              "Poor Maintenance"
+            ]
+          }
+        ],
+        "fixed_wargear": [
+          "Storm Eagle Missile Rack",
+          "Heavy Flamer"
+        ],
+        "options": [
+          {
+            "description": "May take up to 2 more Manticore Carriers for +176 points each Any model may swap Heavy Flamer for H Any model may take one D Any model may take one P Any model may take one M Any model may take any E one time each",
+            "choices": []
+          },
+          {
+            "description": "May take Augar Array",
+            "choices": [
+              {
+                "name": "Augar Array",
+                "pts_delta": 5
+              }
+            ]
+          },
+          {
+            "description": "May take Camo Netting",
+            "choices": [
+              {
+                "name": "Camo Netting",
+                "pts_delta": 6
+              }
+            ]
+          },
+          {
+            "description": "May take Extra Armour",
+            "choices": [
+              {
+                "name": "Extra Armour",
+                "pts_delta": 5
+              }
+            ]
+          },
+          {
+            "description": "May take Recovery Gear",
+            "choices": [
+              {
+                "name": "Recovery Gear",
+                "pts_delta": 2
+              }
+            ]
+          },
+          {
+            "description": "May take Searchlight",
+            "choices": [
+              {
+                "name": "Searchlight",
+                "pts_delta": 1
+              }
+            ]
+          },
+          {
+            "description": "May take Smoke Launchers",
+            "choices": [
+              {
+                "name": "Smoke Launchers",
+                "pts_delta": 10
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Ordnance Battery",
+        "points_base": 80,
+        "composition": "1-3 Self-Propelled Guns",
+        "models": [
+          {
+            "name": "Self-Propelled Gun",
+            "stats": {
+              "M": "12",
+              "WS": "5+",
+              "BS": "4+",
+              "S": "6",
+              "FA": "12",
+              "SA": "10",
+              "RA": "10",
+              "W": "11",
+              "I": "1",
+              "A": "3",
+              "Ld": "9",
+              "Sv": "3+"
+            },
+            "rules": [
+              "Vehicle",
+              "Tank",
+              "Limited Ammo",
+              "Poor Maintenance",
+              "Open Topped",
+              "Behemoth Shells"
+            ]
+          }
+        ],
+        "fixed_wargear": [
+          "Heavy Griffon Mortar",
+          "Heavy Flamer"
+        ],
+        "options": [
+          {
+            "description": "May take up to 2 more SelfPropelled Guns for +80 points each Any Self-Propelled Gun may swap Heavy Flamer for H Any Self-Propelled Gun may take one D Any Self-Propelled Gun may take one P Any Self-Propelled Gun may take one M Any Self-Propelled Gun may take any E one time each",
+            "choices": []
+          },
+          {
+            "description": "May take Augar Array",
+            "choices": [
+              {
+                "name": "Augar Array",
+                "pts_delta": 5
+              }
+            ]
+          },
+          {
+            "description": "May take Camo Netting",
+            "choices": [
+              {
+                "name": "Camo Netting",
+                "pts_delta": 6
+              }
+            ]
+          },
+          {
+            "description": "May take Extra Armour",
+            "choices": [
+              {
+                "name": "Extra Armour",
+                "pts_delta": 5
+              }
+            ]
+          },
+          {
+            "description": "May take Recovery Gear",
+            "choices": [
+              {
+                "name": "Recovery Gear",
+                "pts_delta": 2
+              }
+            ]
+          },
+          {
+            "description": "May take Searchlight",
+            "choices": [
+              {
+                "name": "Searchlight",
+                "pts_delta": 1
+              }
+            ]
+          },
+          {
+            "description": "May take Smoke Launchers",
+            "choices": [
+              {
+                "name": "Smoke Launchers",
+                "pts_delta": 10
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Earthshaker Platform Battery",
+        "points_base": 138,
+        "composition": "1-3 Platforms",
+        "models": [
+          {
+            "name": "Platform",
+            "stats": {},
+            "rules": [
+              "Vehicle",
+              "Tank",
+              "Open Topped",
+              "Stable Platform",
+              "Immobile Platform"
+            ]
+          }
+        ],
+        "fixed_wargear": [
+          "Earthshaker Cannon"
+        ],
+        "options": [
+          {
+            "description": "May take up to 2 more Platforms for +138 points each Any model may take up to one of each E",
+            "choices": [
+              {
+                "name": "Camo Netting",
+                "pts_delta": 6
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Field Artillery Battery",
+        "points_base": 85,
+        "composition": "1-6 Field Artillery Pieces",
+        "models": [
+          {
+            "name": "Field Artillery Piece",
+            "stats": {},
+            "rules": []
+          }
+        ],
+        "fixed_wargear": [],
+        "options": []
+      },
+      {
+        "name": "Heavy Artillery Battery",
+        "points_base": 227,
+        "composition": "1-3 Heavy Artillery Batteries",
+        "models": [
+          {
+            "name": "Heavy Artillery Piece",
+            "stats": {},
+            "rules": [
+              "Monster",
+              "Limited Ammo",
+              "Mobile Artillery"
+            ]
+          }
+        ],
+        "fixed_wargear": [
+          "Earthshaker Cannon"
+        ],
+        "options": [
+          {
+            "description": "May add up to 2 more Heavy Artillery pieces for +227 points each Any Heavy Artillery Piece may swap Earthshaker Cannon for H Any model may take up to one of each E",
+            "choices": [
+              {
+                "name": "Camo Netting",
+                "pts_delta": 6
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Hydra Platform Battery",
+        "points_base": 90,
+        "composition": "1-3 Platforms",
+        "models": [
+          {
+            "name": "Platform",
+            "stats": {},
+            "rules": [
+              "Vehicle",
+              "Limited Ammo",
+              "Immobile Platform"
+            ]
+          }
+        ],
+        "fixed_wargear": [
+          "4 Linked Long Autocannons"
+        ],
+        "options": [
+          {
+            "description": "May take up to 2 more Platforms for +90 points each Any model may take up to one of each E",
+            "choices": [
+              {
+                "name": "Camo Netting",
+                "pts_delta": 6
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Manticore Platform Battery",
+        "points_base": 200,
+        "composition": "1-3 Platforms",
+        "models": [
+          {
+            "name": "Platform",
+            "stats": {},
+            "rules": [
+              "Vehicle",
+              "Limited Ammo",
+              "Immobile Platform"
+            ]
+          }
+        ],
+        "fixed_wargear": [
+          "Storm Eagle Rack"
+        ],
+        "options": [
+          {
+            "description": "May take up to 2 more Platforms for +200 points each Any model may take up to one of each E",
+            "choices": []
+          }
+        ]
+      },
+      {
+        "name": "Sabre Gun Battery",
+        "points_base": 36,
+        "composition": "1-6 Sabre Gun Platforms",
+        "models": [
+          {
+            "name": "Sabre Platform",
+            "stats": {},
+            "rules": []
+          }
+        ],
+        "fixed_wargear": [],
+        "options": []
+      },
+      {
+        "name": "Rapier Battery",
+        "points_base": 92,
+        "composition": "1-3 Rapiers",
+        "models": [
+          {
+            "name": "Rapier",
+            "stats": {
+              "M": "4",
+              "WS": "4+",
+              "BS": "4+",
+              "S": "3",
+              "T": "5",
+              "W": "3",
+              "I": "3",
+              "A": "3",
+              "Ld": "9",
+              "Sv": "3+"
+            },
+            "rules": []
+          }
+        ],
+        "fixed_wargear": [],
+        "options": []
+      },
+      {
+        "name": "Tarantula Battery",
+        "points_base": 30,
+        "composition": "1-6 Tarantula",
+        "models": [
+          {
+            "name": "Tarantula",
+            "stats": {},
+            "rules": []
+          }
+        ],
+        "fixed_wargear": [],
+        "options": []
+      }
+    ],
+    "flyers": [
+      {
+        "name": "Aquila Lander",
+        "points_base": 193,
+        "composition": "1 Aquila Lander",
+        "models": [
+          {
+            "name": "Aquila Lander",
+            "stats": {
+              "M": "50",
+              "WS": "5+",
+              "BS": "4+",
+              "S": "6",
+              "FA": "11",
+              "SA": "11",
+              "RA": "11",
+              "W": "12",
+              "I": "1",
+              "A": "3",
+              "Ld": "9",
+              "Sv": "3+"
+            },
+            "rules": [
+              "Vehicle",
+              "Limited Ammo",
+              "Poor Maintenance",
+              "High Altitude",
+              "Hover",
+              "Deep Strike",
+              "Transport 7",
+              "Command Ship"
+            ]
+          }
+        ],
+        "fixed_wargear": [
+          "Heavy Bolter"
+        ],
+        "options": [
+          {
+            "description": "May swap Heavy Bolter for H",
+            "choices": []
+          },
+          {
+            "description": "May take up to one E each",
+            "choices": [
+              {
+                "name": "Chaff Launcher",
+                "pts_delta": 9
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Arvus Lighter Fleet",
+        "points_base": 125,
+        "composition": "1-3 Arvus Lighters",
+        "models": [
+          {
+            "name": "Arvus Lighter",
+            "stats": {
+              "M": "50",
+              "WS": "5+",
+              "BS": "4+",
+              "S": "5",
+              "FA": "10",
+              "SA": "10",
+              "RA": "10",
+              "W": "8",
+              "I": "1",
+              "A": "3",
+              "Ld": "9",
+              "Sv": "3+"
+            },
+            "rules": [
+              "Vehicle",
+              "Limited Ammo",
+              "Poor Maintenance",
+              "High Altitude",
+              "Hover",
+              "Deep Strike",
+              "Transport 12"
+            ]
+          }
+        ],
+        "fixed_wargear": [
+          "none"
+        ],
+        "options": [
+          {
+            "description": "May take up to 2 more Arvus Lighters for +125 points each Any Arvus Lighter may take H Any Arvus Lighter may take up to one E each",
+            "choices": [
+              {
+                "name": "Chaff Launcher",
+                "pts_delta": 9
+              },
+              {
+                "name": "Searchlight",
+                "pts_delta": 1
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "W +16 points",
+        "points_base": 195,
+        "composition": "1-3 Avenger Strike Fighters",
+        "models": [
+          {
+            "name": "W +18 points",
+            "stats": {
+              "M": "50",
+              "WS": "5+",
+              "BS": "4+",
+              "S": "6",
+              "FA": "12",
+              "SA": "10",
+              "RA": "10",
+              "W": "14",
+              "I": "1",
+              "A": "3",
+              "Ld": "9",
+              "Sv": "3+"
+            },
+            "rules": []
+          },
+          {
+            "name": "W +24 points",
+            "stats": {},
+            "rules": [
+              "Vehicle",
+              "Limited Ammo",
+              "Poor Maintenance",
+              "High Altitude",
+              "Deep Strike"
+            ]
+          }
+        ],
+        "fixed_wargear": [
+          "Long Barreled Autocannon",
+          "2 Linked Lascannons"
+        ],
+        "options": [
+          {
+            "description": "May take up to 2 more Avenger Strike Fighters for +195 points each Any Avenger Strike Fighter may take W Any Avenger Strike Fighter may take up to one E each",
+            "choices": [
+              {
+                "name": "Chaff Launcher",
+                "pts_delta": 9
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Heavy 1 x2, Ordnance,",
+        "points_base": 160,
+        "composition": "1-3 Lightning Strike Fighters",
+        "models": [
+          {
+            "name": "Monsterbane, One Use Only,",
+            "stats": {
+              "M": "60",
+              "WS": "5+",
+              "BS": "4+",
+              "S": "6",
+              "FA": "11",
+              "SA": "10",
+              "RA": "10",
+              "W": "10",
+              "I": "1",
+              "A": "3",
+              "Ld": "9",
+              "Sv": "3+"
+            },
+            "rules": []
+          },
+          {
+            "name": "Hull",
+            "stats": {},
+            "rules": [
+              "Vehicle",
+              "Limited Ammo",
+              "Poor Maintenance",
+              "High Altitude",
+              "Deep Strike",
+              "Interceptor"
+            ]
+          },
+          {
+            "name": "Heavy 1 x2, 3\u201d Blast, Pinning,",
+            "stats": {},
+            "rules": []
+          },
+          {
+            "name": "Hull",
+            "stats": {},
+            "rules": []
+          },
+          {
+            "name": "Heavy 1 x2, 5\u201d Blast, Ignores",
+            "stats": {},
+            "rules": []
+          },
+          {
+            "name": "Cover, One Use Only, Hull",
+            "stats": {},
+            "rules": []
+          },
+          {
+            "name": "Heavy 1 x2, Monsterbane, Hull",
+            "stats": {},
+            "rules": []
+          },
+          {
+            "name": "Heavy 1 x2, 3\u201d Blast, Hull",
+            "stats": {},
+            "rules": []
+          }
+        ],
+        "fixed_wargear": [],
+        "options": [
+          {
+            "description": "May take up to 2 more Lightning Strike Fighters for +160 points each Any Lightning Strike Fighter may take W Any Lightning Strike Fighter may take up to one E each",
+            "choices": []
+          }
+        ]
+      },
+      {
+        "name": "Thunderbolt Squadron",
+        "points_base": 200,
+        "composition": "1-3 Thunderbolts",
+        "models": [
+          {
+            "name": "Thunderbolt",
+            "stats": {
+              "M": "50",
+              "WS": "5+",
+              "BS": "4+",
+              "S": "6",
+              "FA": "11",
+              "SA": "11",
+              "RA": "10",
+              "W": "15",
+              "I": "1",
+              "A": "3",
+              "Ld": "9",
+              "Sv": "3+"
+            },
+            "rules": [
+              "Vehicle",
+              "Limited Ammo",
+              "Poor Maintenance",
+              "High Altitude",
+              "Deep Strike"
+            ]
+          }
+        ],
+        "fixed_wargear": [
+          "4 Linked Autocannons",
+          "2 Linked Lascannons"
+        ],
+        "options": [
+          {
+            "description": "May take up to 2 more Thunderbolts for +200 points each Any Thunderbolt may take W Any Thunderbolt may take up to one E each",
+            "choices": [
+              {
+                "name": "Chaff Launcher",
+                "pts_delta": 9
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Valkyrie Squadron",
+        "points_base": 213,
+        "composition": "1-3 Valkyries",
+        "models": [
+          {
+            "name": "Valkyrie",
+            "stats": {
+              "M": "50",
+              "WS": "5+",
+              "BS": "4+",
+              "S": "6",
+              "FA": "12",
+              "SA": "12",
+              "RA": "10",
+              "W": "14",
+              "I": "1",
+              "A": "3",
+              "Ld": "9",
+              "Sv": "3+"
+            },
+            "rules": [
+              "Vehicle",
+              "Limited Ammo",
+              "Poor Maintenance",
+              "High Altitude",
+              "Hover",
+              "Deep Strike",
+              "Transport 12",
+              "Terrain Test."
+            ]
+          }
+        ],
+        "fixed_wargear": [
+          "Multilaser",
+          "2 Linked Hellstrike Missiles",
+          "Searchlight"
+        ],
+        "options": [
+          {
+            "description": "May take up to 2 more Valkyries for +213 points each Any Valkyrie may swap Multilaser for H Any Valkyrie may take S Any Valkyrie may swap 2 Linked Hellstrike Missiles for W Any Valkyrie may take up to one E each",
+            "choices": [
+              {
+                "name": "Chaff Launcher",
+                "pts_delta": 9
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Valkyrie Sky Talon Squadron",
+        "points_base": 185,
+        "composition": "1-3 Valkyrie Sky Talons",
+        "models": [
+          {
+            "name": "Valkyrie Sky Talon",
+            "stats": {
+              "M": "50",
+              "WS": "5+",
+              "BS": "4+",
+              "S": "6",
+              "FA": "12",
+              "SA": "12",
+              "RA": "10",
+              "W": "14",
+              "I": "1",
+              "A": "3",
+              "Ld": "9",
+              "Sv": "3+"
+            },
+            "rules": [
+              "Vehicle",
+              "Limited Ammo",
+              "Poor Maintenance",
+              "High Altitude",
+              "Hover",
+              "Deep Strike",
+              "Transport *"
+            ]
+          }
+        ],
+        "fixed_wargear": [
+          "Multilaser",
+          "2 Linked Hellstrike Missiles",
+          "Searchlight",
+          "2 Linked Lascannons"
+        ],
+        "options": [
+          {
+            "description": "May take up to 2 more Valkyrie Sky Talons for +185 points each Any Valkyrie Sky Talon may swap Multilaser for H Any Valkyrie Sky Talon may swap 2 Linked Hellstrike Missiles for W Any Valkyrie Sky Talon may take up to one E each",
+            "choices": [
+              {
+                "name": "Chaff Launcher",
+                "pts_delta": 9
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Heavy 3, Hull, Primary",
+        "points_base": 174,
+        "composition": "1-3 Voss Strike Fighters",
+        "models": [
+          {
+            "name": "Heavy 1, Monsterbane, Hull,",
+            "stats": {
+              "M": "50",
+              "WS": "5+",
+              "BS": "4+",
+              "S": "6",
+              "FA": "12",
+              "SA": "10",
+              "RA": "10",
+              "W": "14",
+              "I": "1",
+              "A": "3",
+              "Ld": "9",
+              "Sv": "3+"
+            },
+            "rules": []
+          },
+          {
+            "name": "Primary",
+            "stats": {},
+            "rules": [
+              "Vehicle",
+              "Limited Ammo",
+              "Poor Maintenance",
+              "High Altitude",
+              "Deep Strike",
+              "Interceptor"
+            ]
+          },
+          {
+            "name": "Heavy 1 x2, Ordnance,",
+            "stats": {},
+            "rules": []
+          },
+          {
+            "name": "Monsterbane, One Use Only,",
+            "stats": {},
+            "rules": []
+          },
+          {
+            "name": "Hull",
+            "stats": {},
+            "rules": []
+          },
+          {
+            "name": "Heavy 1 x2, 5\u201d Blast, Ignores",
+            "stats": {},
+            "rules": []
+          },
+          {
+            "name": "Cover, One Use Only, Hull",
+            "stats": {},
+            "rules": []
+          },
+          {
+            "name": "Heavy 1 x2, 5\u201d Blast, Hull",
+            "stats": {},
+            "rules": []
+          }
+        ],
+        "fixed_wargear": [],
+        "options": [
+          {
+            "description": "May take up to 2 more Voss Strike Fighters for +174 points each Any Voss Strike Fighter may take W Any Voss Strike Fighter may take up to one E each",
+            "choices": [
+              {
+                "name": "Chaff Launcher",
+                "pts_delta": 9
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Vulture Gunship Squadron",
+        "points_base": 164,
+        "composition": "1-3 Vulture Gunships",
+        "models": [
+          {
+            "name": "Vulture Gunship",
+            "stats": {
+              "M": "50",
+              "WS": "5+",
+              "BS": "4+",
+              "S": "6",
+              "FA": "12",
+              "SA": "12",
+              "RA": "10",
+              "W": "14",
+              "I": "1",
+              "A": "3",
+              "Ld": "9",
+              "Sv": "3+"
+            },
+            "rules": [
+              "Vehicle",
+              "Limited Ammo",
+              "Poor Maintenance",
+              "High Altitude",
+              "Deep Strike"
+            ]
+          }
+        ],
+        "fixed_wargear": [
+          "Heavy Bolter",
+          "2 Linked Multilasers",
+          "2 Linked Multilasers"
+        ],
+        "options": [
+          {
+            "description": "May take up to 2 more Vulture Gunships for +164 points each Any Vulture Gunship may swap either 2 Linked Multilasers for W Any Vulture Gunship may instead swap both 2 Linked Multilasers for SW Any Vulture Gunship may take up to one E each",
+            "choices": [
+              {
+                "name": "Chaff Launcher",
+                "pts_delta": 9
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "dedicated_transport": [
+      {
+        "name": "Goliath",
+        "points_base": 155,
+        "composition": "1 Goliath",
+        "models": [
+          {
+            "name": "Goliath",
+            "stats": {
+              "M": "10",
+              "WS": "5+",
+              "BS": "4+",
+              "S": "6",
+              "FA": "12",
+              "SA": "11",
+              "RA": "10",
+              "W": "10",
+              "I": "1",
+              "A": "3",
+              "Ld": "9",
+              "Sv": "3+"
+            },
+            "rules": [
+              "Vehicle",
+              "Tank",
+              "Transport 10"
+            ]
+          }
+        ],
+        "fixed_wargear": [
+          "Heavy Mining Laser",
+          "Heavy Stubber"
+        ],
+        "options": [
+          {
+            "description": "May swap Heavy Mining Laser for T",
+            "choices": []
+          },
+          {
+            "description": "May take one G",
+            "choices": []
+          },
+          {
+            "description": "May take up to one of each E",
+            "choices": [
+              {
+                "name": "Recovery Gear",
+                "pts_delta": 2
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Centaur",
+        "points_base": 89,
+        "composition": "1 Centaur",
+        "models": [
+          {
+            "name": "Centaur",
+            "stats": {
+              "M": "12",
+              "WS": "5+",
+              "BS": "4+",
+              "S": "5",
+              "FA": "11",
+              "SA": "10",
+              "RA": "10",
+              "W": "7",
+              "I": "1",
+              "A": "3",
+              "Ld": "9",
+              "Sv": "3+"
+            },
+            "rules": [
+              "Vehicle",
+              "Tank",
+              "Limited Ammo",
+              "Poor Maintenance",
+              "Open Topped",
+              "Transport 6",
+              "Port Front.",
+              "Tow"
+            ]
+          }
+        ],
+        "fixed_wargear": [
+          "Heavy Stubber P"
+        ],
+        "options": [
+          {
+            "description": "May take one H",
+            "choices": []
+          },
+          {
+            "description": "May take one D",
+            "choices": []
+          },
+          {
+            "description": "May take one P",
+            "choices": []
+          },
+          {
+            "description": "May take one M",
+            "choices": []
+          },
+          {
+            "description": "May take any E one time each",
+            "choices": []
+          },
+          {
+            "description": "May take Augar Array",
+            "choices": [
+              {
+                "name": "Augar Array",
+                "pts_delta": 5
+              }
+            ]
+          },
+          {
+            "description": "May take Camo Netting",
+            "choices": [
+              {
+                "name": "Camo Netting",
+                "pts_delta": 6
+              }
+            ]
+          },
+          {
+            "description": "May take Extra Armour",
+            "choices": [
+              {
+                "name": "Extra Armour",
+                "pts_delta": 5
+              }
+            ]
+          },
+          {
+            "description": "May take Recovery Gear",
+            "choices": [
+              {
+                "name": "Recovery Gear",
+                "pts_delta": 2
+              }
+            ]
+          },
+          {
+            "description": "May take Searchlight",
+            "choices": [
+              {
+                "name": "Searchlight",
+                "pts_delta": 1
+              }
+            ]
+          },
+          {
+            "description": "May take Smoke Launchers",
+            "choices": [
+              {
+                "name": "Smoke Launchers",
+                "pts_delta": 10
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Chimera",
+        "points_base": 134,
+        "composition": "1 Chimera",
+        "models": [
+          {
+            "name": "Chimera",
+            "stats": {
+              "M": "12",
+              "WS": "5+",
+              "BS": "4+",
+              "S": "6",
+              "FA": "12",
+              "SA": "10",
+              "RA": "10",
+              "W": "10",
+              "I": "1",
+              "A": "3",
+              "Ld": "9",
+              "Sv": "3+"
+            },
+            "rules": [
+              "Vehicle",
+              "Tank",
+              "Limited Ammo",
+              "Poor Maintenance",
+              "Aquatic",
+              "Transport 12"
+            ]
+          }
+        ],
+        "fixed_wargear": [
+          "Heavy Flamer T",
+          "Heavy Flamer H",
+          "3 Linked Lasguns",
+          "3 Linked Lasguns"
+        ],
+        "options": [
+          {
+            "description": "May swap Heavy Flamer T for T",
+            "choices": []
+          },
+          {
+            "description": "May swap Heavy Flamer H for H",
+            "choices": []
+          },
+          {
+            "description": "May take one D",
+            "choices": []
+          },
+          {
+            "description": "May take one P",
+            "choices": []
+          },
+          {
+            "description": "May take one M",
+            "choices": []
+          },
+          {
+            "description": "May take any E one time each",
+            "choices": []
+          },
+          {
+            "description": "May take Augar Array",
+            "choices": [
+              {
+                "name": "Augar Array",
+                "pts_delta": 5
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Hades Breaching Drill",
+        "points_base": 123,
+        "composition": "1 Hades Breaching Drill",
+        "models": [
+          {
+            "name": "Hades Breaching Drill",
+            "stats": {
+              "M": "6",
+              "WS": "5+",
+              "BS": "4+",
+              "S": "6",
+              "FA": "10",
+              "SA": "10",
+              "RA": "10",
+              "W": "10",
+              "I": "1",
+              "A": "3",
+              "Ld": "9",
+              "Sv": "3+"
+            },
+            "rules": [
+              "Vehicle",
+              "Tank",
+              "Limited Ammo",
+              "Poor Maintenance",
+              "Deepstrike",
+              "Subterranean Assault"
+            ]
+          }
+        ],
+        "fixed_wargear": [
+          "Melta Cutter Drill"
+        ],
+        "options": []
+      },
+      {
+        "name": "Heracles Halftrack",
+        "points_base": 150,
+        "composition": "1 Heracles Halftrack",
+        "models": [
+          {
+            "name": "Heracles Halftrack",
+            "stats": {
+              "M": "12",
+              "WS": "5+",
+              "BS": "4+",
+              "S": "6",
+              "FA": "11",
+              "SA": "11",
+              "RA": "10",
+              "W": "10",
+              "I": "1",
+              "A": "3",
+              "Ld": "9",
+              "Sv": "3+"
+            },
+            "rules": [
+              "Vehicle",
+              "Tank",
+              "Limited Ammo",
+              "Poor Maintenance",
+              "Open Topped",
+              "Tow",
+              "Transport 12",
+              "Escort",
+              "Character"
+            ]
+          }
+        ],
+        "fixed_wargear": [
+          "Ammunition Cache"
+        ],
+        "options": [
+          {
+            "description": "May take one D",
+            "choices": []
+          },
+          {
+            "description": "May take one P",
+            "choices": []
+          },
+          {
+            "description": "May take one M",
+            "choices": []
+          },
+          {
+            "description": "May take one B",
+            "choices": [
+              {
+                "name": "Centaur RSV Pattern",
+                "pts_delta": 4
+              }
+            ]
+          },
+          {
+            "description": "May take any E one time each",
+            "choices": []
+          },
+          {
+            "description": "May take Augar Array",
+            "choices": [
+              {
+                "name": "Augar Array",
+                "pts_delta": 5
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Pegasus AAV",
+        "points_base": 131,
+        "composition": "1 Pegasus AAV",
+        "models": [
+          {
+            "name": "Pegasus AAV",
+            "stats": {
+              "M": "14",
+              "WS": "5+",
+              "BS": "4+",
+              "S": "6",
+              "FA": "10",
+              "SA": "10",
+              "RA": "10",
+              "W": "10",
+              "I": "1",
+              "A": "3",
+              "Ld": "9",
+              "Sv": "3+"
+            },
+            "rules": [
+              "Vehicle",
+              "Tank",
+              "Limited Ammo",
+              "Poor Maintenance",
+              "Aquatic",
+              "Transport 12"
+            ]
+          }
+        ],
+        "fixed_wargear": [
+          "Heavy Flamer"
+        ],
+        "options": [
+          {
+            "description": "May swap Heavy Flamer for T",
+            "choices": []
+          },
+          {
+            "description": "May take one P",
+            "choices": []
+          },
+          {
+            "description": "May take one M",
+            "choices": []
+          },
+          {
+            "description": "May take any E one time each",
+            "choices": []
+          },
+          {
+            "description": "May take Augar Array",
+            "choices": [
+              {
+                "name": "Augar Array",
+                "pts_delta": 5
+              }
+            ]
+          },
+          {
+            "description": "May take Camo Netting",
+            "choices": [
+              {
+                "name": "Camo Netting",
+                "pts_delta": 6
+              }
+            ]
+          },
+          {
+            "description": "May take Extra Armour",
+            "choices": [
+              {
+                "name": "Extra Armour",
+                "pts_delta": 5
+              }
+            ]
+          },
+          {
+            "description": "May take Recovery Gear",
+            "choices": [
+              {
+                "name": "Recovery Gear",
+                "pts_delta": 2
+              }
+            ]
+          },
+          {
+            "description": "May take Searchlight",
+            "choices": [
+              {
+                "name": "Searchlight",
+                "pts_delta": 1
+              }
+            ]
+          },
+          {
+            "description": "May take Smoke Launchers",
+            "choices": [
+              {
+                "name": "Smoke Launchers",
+                "pts_delta": 10
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Taurox",
+        "points_base": 87,
+        "composition": "1 Taurox",
+        "models": [
+          {
+            "name": "Taurox",
+            "stats": {
+              "M": "12",
+              "WS": "5+",
+              "BS": "4+",
+              "S": "6",
+              "FA": "11",
+              "SA": "10",
+              "RA": "10",
+              "W": "10",
+              "I": "1",
+              "A": "3",
+              "Ld": "8",
+              "Sv": "3+"
+            },
+            "rules": [
+              "Vehicle",
+              "Tank",
+              "Limited Ammo",
+              "Poor Maintenance",
+              "Transport 10",
+              "All Terrain"
+            ]
+          }
+        ],
+        "fixed_wargear": [
+          "2 Linked Hotshot Volleyguns"
+        ],
+        "options": [
+          {
+            "description": "May take one T",
+            "choices": []
+          },
+          {
+            "description": "May swap 2 Linked Hotshot Volleyguns for H",
+            "choices": []
+          },
+          {
+            "description": "May take one P",
+            "choices": []
+          },
+          {
+            "description": "May take one M",
+            "choices": []
+          },
+          {
+            "description": "May take any E one time each",
+            "choices": []
+          },
+          {
+            "description": "May take Augar Array",
+            "choices": [
+              {
+                "name": "Augar Array",
+                "pts_delta": 5
+              }
+            ]
+          },
+          {
+            "description": "May take Camo Netting",
+            "choices": [
+              {
+                "name": "Camo Netting",
+                "pts_delta": 6
+              }
+            ]
+          },
+          {
+            "description": "May take Extra Armour",
+            "choices": [
+              {
+                "name": "Extra Armour",
+                "pts_delta": 5
+              }
+            ]
+          },
+          {
+            "description": "May take Recovery Gear",
+            "choices": [
+              {
+                "name": "Recovery Gear",
+                "pts_delta": 2
+              }
+            ]
+          },
+          {
+            "description": "May take Searchlight",
+            "choices": [
+              {
+                "name": "Searchlight",
+                "pts_delta": 1
+              }
+            ]
+          },
+          {
+            "description": "May take Smoke Launchers",
+            "choices": [
+              {
+                "name": "Smoke Launchers",
+                "pts_delta": 10
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Terrax Pattern Termite",
+        "points_base": 213,
+        "composition": "1 Terrax Pattern Termite",
+        "models": [
+          {
+            "name": "Terrax Pattern Termite",
+            "stats": {
+              "M": "8",
+              "WS": "5+",
+              "BS": "4+",
+              "S": "7",
+              "FA": "12",
+              "SA": "12",
+              "RA": "10",
+              "W": "14",
+              "I": "1",
+              "A": "3",
+              "Ld": "9",
+              "Sv": "3+"
+            },
+            "rules": [
+              "Vehicle",
+              "Tank",
+              "Limited Ammo",
+              "Poor Maintenance",
+              "Deepstrike",
+              "Steady",
+              "Transport 12"
+            ]
+          }
+        ],
+        "fixed_wargear": [
+          "Termite Drill",
+          "Terrax Melta Cutter",
+          "2 Storm Bolters"
+        ],
+        "options": [
+          {
+            "description": "May swap either Storm Bolter for H",
+            "choices": []
+          },
+          {
+            "description": "May take any E one time each",
+            "choices": []
+          },
+          {
+            "description": "May take Augar Array",
+            "choices": [
+              {
+                "name": "Augar Array",
+                "pts_delta": 5
+              }
+            ]
+          },
+          {
+            "description": "May take Extra Armour",
+            "choices": [
+              {
+                "name": "Extra Armour",
+                "pts_delta": 5
+              }
+            ]
+          },
+          {
+            "description": "May take Recovery Gear",
+            "choices": [
+              {
+                "name": "Recovery Gear",
+                "pts_delta": 2
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Trojan Support Vehicle",
+        "points_base": 128,
+        "composition": "1 Trojan Support Vehicle",
+        "models": [
+          {
+            "name": "Trojan Support Vehicle",
+            "stats": {
+              "M": "12",
+              "WS": "5+",
+              "BS": "4+",
+              "S": "6",
+              "FA": "12",
+              "SA": "10",
+              "RA": "10",
+              "W": "10",
+              "I": "1",
+              "A": "3",
+              "Ld": "9",
+              "Sv": "3+"
+            },
+            "rules": [
+              "Vehicle",
+              "Tank",
+              "Limited Ammo",
+              "Poor Maintenance",
+              "Transport 6",
+              "Repair",
+              "Destroyed Result.",
+              "Escort",
+              "Character"
+            ]
+          }
+        ],
+        "fixed_wargear": [
+          "Heavy Flamer",
+          "Ammunition Cache"
+        ],
+        "options": [
+          {
+            "description": "May swap Heavy Flamer for H",
+            "choices": []
+          },
+          {
+            "description": "May take one D",
+            "choices": []
+          },
+          {
+            "description": "May take one P",
+            "choices": []
+          },
+          {
+            "description": "May take one M",
+            "choices": []
+          },
+          {
+            "description": "May take any E one time each",
+            "choices": []
+          },
+          {
+            "description": "May take Augar Array",
+            "choices": [
+              {
+                "name": "Augar Array",
+                "pts_delta": 5
+              }
+            ]
+          },
+          {
+            "description": "May take Camo Netting",
+            "choices": [
+              {
+                "name": "Camo Netting",
+                "pts_delta": 6
+              }
+            ]
+          },
+          {
+            "description": "May take Extra Armour",
+            "choices": [
+              {
+                "name": "Extra Armour",
+                "pts_delta": 5
+              }
+            ]
+          },
+          {
+            "description": "May take Recovery Gear",
+            "choices": [
+              {
+                "name": "Recovery Gear",
+                "pts_delta": 2
+              }
+            ]
+          },
+          {
+            "description": "May take Searchlight",
+            "choices": [
+              {
+                "name": "Searchlight",
+                "pts_delta": 1
+              }
+            ]
+          },
+          {
+            "description": "May take Smoke Launchers",
+            "choices": [
+              {
+                "name": "Smoke Launchers",
+                "pts_delta": 10
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "lord_of_war": [
+      {
+        "name": "Baneblade",
+        "points_base": 762,
+        "composition": "1 Baneblade",
+        "models": [
+          {
+            "name": "Baneblade",
+            "stats": {
+              "M": "6",
+              "WS": "5+",
+              "BS": "4+",
+              "S": "9",
+              "FA": "14",
+              "SA": "13",
+              "RA": "12",
+              "W": "26",
+              "I": "1",
+              "A": "9",
+              "Ld": "9",
+              "Sv": "3+"
+            },
+            "rules": []
+          }
+        ],
+        "fixed_wargear": [],
+        "options": []
+      },
+      {
+        "name": "Banehammer",
+        "points_base": 639,
+        "composition": "1 Banehammer",
+        "models": [
+          {
+            "name": "Banehammer",
+            "stats": {
+              "M": "6",
+              "WS": "5+",
+              "BS": "4+",
+              "S": "9",
+              "FA": "14",
+              "SA": "13",
+              "RA": "12",
+              "W": "26",
+              "I": "1",
+              "A": "9",
+              "Ld": "9",
+              "Sv": "3+"
+            },
+            "rules": [
+              "Titanic Vehicle",
+              "Tank",
+              "Limited Ammo",
+              "Poor Maintenance",
+              "Fearless",
+              "Transport 25",
+              "Earthshock"
+            ]
+          }
+        ],
+        "fixed_wargear": [
+          "Tremor Cannon",
+          "2 Linked Heavy Bolters"
+        ],
+        "options": [
+          {
+            "description": "May take up to 2 S or one SS",
+            "choices": []
+          },
+          {
+            "description": "May take one D",
+            "choices": []
+          },
+          {
+            "description": "May take one M",
+            "choices": []
+          },
+          {
+            "description": "May take one P",
+            "choices": []
+          },
+          {
+            "description": "May take up to one of each E",
+            "choices": [
+              {
+                "name": "Augar Array",
+                "pts_delta": 5
+              },
+              {
+                "name": "Recovery Gear",
+                "pts_delta": 2
+              },
+              {
+                "name": "Searchlight",
+                "pts_delta": 1
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Banesword",
+        "points_base": 574,
+        "composition": "1 Banesword",
+        "models": [
+          {
+            "name": "Banesword",
+            "stats": {
+              "M": "6",
+              "WS": "5+",
+              "BS": "4+",
+              "S": "9",
+              "FA": "14",
+              "SA": "13",
+              "RA": "12",
+              "W": "26",
+              "I": "1",
+              "A": "9",
+              "Ld": "9",
+              "Sv": "3+"
+            },
+            "rules": [
+              "Titanic Vehicle",
+              "Tank",
+              "Limited Ammo",
+              "Poor Maintenance",
+              "Fearless",
+              "Transport 12",
+              "Earthshock"
+            ]
+          }
+        ],
+        "fixed_wargear": [
+          "Quake Cannon",
+          "2 Linked Heavy Bolters"
+        ],
+        "options": [
+          {
+            "description": "May take up to 2 S or one SS",
+            "choices": [
+              {
+                "name": "Side Skirts",
+                "pts_delta": 10
+              }
+            ]
+          },
+          {
+            "description": "May take one D",
+            "choices": []
+          },
+          {
+            "description": "May take one M",
+            "choices": []
+          },
+          {
+            "description": "May take one P",
+            "choices": []
+          },
+          {
+            "description": "May take up to one of each E",
+            "choices": [
+              {
+                "name": "Augar Array",
+                "pts_delta": 5
+              },
+              {
+                "name": "Recovery Gear",
+                "pts_delta": 2
+              },
+              {
+                "name": "Searchlight",
+                "pts_delta": 1
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Doomhammer",
+        "points_base": 556,
+        "composition": "1 Doomhammer",
+        "models": [
+          {
+            "name": "Doomhammer",
+            "stats": {
+              "M": "6",
+              "WS": "5+",
+              "BS": "4+",
+              "S": "9",
+              "FA": "14",
+              "SA": "13",
+              "RA": "12",
+              "W": "26",
+              "I": "1",
+              "A": "9",
+              "Ld": "9",
+              "Sv": "3+"
+            },
+            "rules": [
+              "Titanic Vehicle",
+              "Tank",
+              "Limited Ammo",
+              "Poor Maintenance",
+              "Fearless",
+              "Transport 25"
+            ]
+          }
+        ],
+        "fixed_wargear": [
+          "Magma Cannon",
+          "2 Linked Heavy Bolters",
+          "May take up to 2 S or one SS",
+          "May take one D",
+          "May take one M",
+          "May take one P",
+          "May take up to one of each E"
+        ],
+        "options": [
+          {
+            "description": "May take Augar Array",
+            "choices": [
+              {
+                "name": "Augar Array",
+                "pts_delta": 5
+              }
+            ]
+          },
+          {
+            "description": "May take Recovery Gear",
+            "choices": [
+              {
+                "name": "Recovery Gear",
+                "pts_delta": 2
+              }
+            ]
+          },
+          {
+            "description": "May take Searchlight",
+            "choices": [
+              {
+                "name": "Searchlight",
+                "pts_delta": 1
+              }
+            ]
+          },
+          {
+            "description": "May take Side Skirts",
+            "choices": [
+              {
+                "name": "Side Skirts",
+                "pts_delta": 10
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Hellhammer",
+        "points_base": 744,
+        "composition": "1 Hellhammer",
+        "models": [
+          {
+            "name": "Hellhammer",
+            "stats": {
+              "M": "6",
+              "WS": "5+",
+              "BS": "4+",
+              "S": "9",
+              "FA": "14",
+              "SA": "13",
+              "RA": "12",
+              "W": "26",
+              "I": "1",
+              "A": "9",
+              "Ld": "9",
+              "Sv": "3+"
+            },
+            "rules": [
+              "Titanic Vehicle",
+              "Tank",
+              "Limited Ammo",
+              "Poor Maintenance",
+              "Fearless",
+              "Transport 12"
+            ]
+          }
+        ],
+        "fixed_wargear": [
+          "Hellhammer Cannon and",
+          "Coaxial Autocannon",
+          "Demolisher Cannon",
+          "2 Linked Heavy Bolters"
+        ],
+        "options": [
+          {
+            "description": "May take up to 2 S or one SS",
+            "choices": [
+              {
+                "name": "Side Skirts",
+                "pts_delta": 10
+              }
+            ]
+          },
+          {
+            "description": "May take one D",
+            "choices": []
+          },
+          {
+            "description": "May take one M",
+            "choices": []
+          },
+          {
+            "description": "May take one P",
+            "choices": []
+          },
+          {
+            "description": "May take up to one of each E",
+            "choices": [
+              {
+                "name": "Augar Array",
+                "pts_delta": 5
+              },
+              {
+                "name": "Recovery Gear",
+                "pts_delta": 2
+              },
+              {
+                "name": "Searchlight",
+                "pts_delta": 1
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Shadowsword",
+        "points_base": 517,
+        "composition": "1 Shadowsword",
+        "models": [
+          {
+            "name": "Shadowsword",
+            "stats": {
+              "M": "6",
+              "WS": "5+",
+              "BS": "4+",
+              "S": "9",
+              "FA": "14",
+              "SA": "13",
+              "RA": "12",
+              "W": "26",
+              "I": "1",
+              "A": "9",
+              "Ld": "9",
+              "Sv": "3+"
+            },
+            "rules": [
+              "Titanic Vehicle",
+              "Tank",
+              "Limited Ammo",
+              "Poor Maintenance",
+              "Fearless",
+              "Transport 12"
+            ]
+          }
+        ],
+        "fixed_wargear": [
+          "Volcano Cannon",
+          "2 Linked Heavy Bolters"
+        ],
+        "options": [
+          {
+            "description": "May take one B",
+            "choices": [
+              {
+                "name": "Mars Pattern",
+                "pts_delta": 0
+              }
+            ]
+          },
+          {
+            "description": "May take up to 2 S or one SS",
+            "choices": []
+          },
+          {
+            "description": "May take one D",
+            "choices": []
+          },
+          {
+            "description": "May take one M",
+            "choices": []
+          },
+          {
+            "description": "May take one P",
+            "choices": []
+          },
+          {
+            "description": "May take up to one of each E",
+            "choices": []
+          }
+        ]
+      },
+      {
+        "name": "Stormblade",
+        "points_base": 564,
+        "composition": "1 Stormblade",
+        "models": [
+          {
+            "name": "Stormblade",
+            "stats": {
+              "M": "6",
+              "WS": "5+",
+              "BS": "4+",
+              "S": "9",
+              "FA": "14",
+              "SA": "13",
+              "RA": "12",
+              "W": "26",
+              "I": "1",
+              "A": "9",
+              "Ld": "9",
+              "Sv": "3+"
+            },
+            "rules": [
+              "Titanic Vehicle",
+              "Tank",
+              "Limited Ammo",
+              "Poor Maintenance",
+              "Fearless",
+              "Transport 12"
+            ]
+          }
+        ],
+        "fixed_wargear": [
+          "Plasma Blastgun and Heavy",
+          "Bolter",
+          "2 Linked Heavy Bolters"
+        ],
+        "options": [
+          {
+            "description": "May take up to 2 S or one SS",
+            "choices": [
+              {
+                "name": "Side Skirts",
+                "pts_delta": 10
+              }
+            ]
+          },
+          {
+            "description": "May take one D",
+            "choices": []
+          },
+          {
+            "description": "May take one M",
+            "choices": []
+          },
+          {
+            "description": "May take one P",
+            "choices": []
+          },
+          {
+            "description": "May take up to one of each E",
+            "choices": [
+              {
+                "name": "Augar Array",
+                "pts_delta": 5
+              },
+              {
+                "name": "Recovery Gear",
+                "pts_delta": 2
+              },
+              {
+                "name": "Searchlight",
+                "pts_delta": 1
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Stormlord",
+        "points_base": 576,
+        "composition": "1 Stormlord",
+        "models": [
+          {
+            "name": "Stormlord",
+            "stats": {
+              "M": "6",
+              "WS": "5+",
+              "BS": "4+",
+              "S": "9",
+              "FA": "14",
+              "SA": "13",
+              "RA": "12",
+              "W": "26",
+              "I": "1",
+              "A": "9",
+              "Ld": "9",
+              "Sv": "3+"
+            },
+            "rules": [
+              "Titanic Vehicle",
+              "Tank",
+              "Limited Ammo",
+              "Poor Maintenance",
+              "Fearless",
+              "Transport 25",
+              "Phase."
+            ]
+          }
+        ],
+        "fixed_wargear": [
+          "Vulcan Megabolter",
+          "2 Linked Heavy Bolters",
+          "May take up to 2 S or one SS",
+          "May take one D",
+          "May take one M",
+          "May take one P",
+          "May take up to one of each E"
+        ],
+        "options": [
+          {
+            "description": "May take Augar Array",
+            "choices": [
+              {
+                "name": "Augar Array",
+                "pts_delta": 5
+              }
+            ]
+          },
+          {
+            "description": "May take Recovery Gear",
+            "choices": [
+              {
+                "name": "Recovery Gear",
+                "pts_delta": 2
+              }
+            ]
+          },
+          {
+            "description": "May take Searchlight",
+            "choices": [
+              {
+                "name": "Searchlight",
+                "pts_delta": 1
+              }
+            ]
+          },
+          {
+            "description": "May take Side Skirts",
+            "choices": [
+              {
+                "name": "Side Skirts",
+                "pts_delta": 10
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Stormhammer Lucius",
+        "points_base": 916,
+        "composition": "1 Stormhammer Lucius",
+        "models": [
+          {
+            "name": "Stormhammer Lucius",
+            "stats": {
+              "M": "8",
+              "WS": "5+",
+              "BS": "4+",
+              "S": "9",
+              "FA": "14",
+              "SA": "13",
+              "RA": "12",
+              "W": "28",
+              "I": "1",
+              "A": "9",
+              "Ld": "9",
+              "Sv": "3+"
+            },
+            "rules": [
+              "Titanic Vehicle",
+              "Tank",
+              "Limited Ammo",
+              "Poor Maintenance",
+              "Fearless",
+              "Transport 12"
+            ]
+          }
+        ],
+        "fixed_wargear": [
+          "2 Linked Battle Cannons",
+          "2 Linked Battle Cannons",
+          "4 Lascannons",
+          "2 Linked Heavy Flamers",
+          "2 Linked Heavy Flamers",
+          "2 Linked Heavy Flamers",
+          "2 Linked Heavy Flamers"
+        ],
+        "options": [
+          {
+            "description": "May swap any 2 Linked Heavy Flamers for S",
+            "choices": []
+          },
+          {
+            "description": "May take one D",
+            "choices": []
+          },
+          {
+            "description": "May take one M",
+            "choices": []
+          },
+          {
+            "description": "May take one P",
+            "choices": []
+          },
+          {
+            "description": "May take up to one of each E",
+            "choices": []
+          }
+        ]
+      },
+      {
+        "name": "Stormhammer Mars Alpha",
+        "points_base": 679,
+        "composition": "1 Stormhammer Mars Alpha",
+        "models": [
+          {
+            "name": "Stormhammer Mars Alpha",
+            "stats": {
+              "M": "6",
+              "WS": "5+",
+              "BS": "4+",
+              "S": "9",
+              "FA": "14",
+              "SA": "13",
+              "RA": "12",
+              "W": "26",
+              "I": "1",
+              "A": "9",
+              "Ld": "9",
+              "Sv": "3+"
+            },
+            "rules": [
+              "Titanic Vehicle",
+              "Tank",
+              "Limited Ammo",
+              "Poor Maintenance",
+              "Fearless",
+              "Transport 12"
+            ]
+          }
+        ],
+        "fixed_wargear": [
+          "Stormhammer Cannon and",
+          "Multilaser",
+          "2 Linked Battle Cannons",
+          "Lascannon",
+          "6 Multilasers"
+        ],
+        "options": [
+          {
+            "description": "May swap Stormhammer Cannon and Multilaser for T",
+            "choices": []
+          },
+          {
+            "description": "May swap 6 Multilasers for S",
+            "choices": []
+          },
+          {
+            "description": "May take one D",
+            "choices": []
+          },
+          {
+            "description": "May take one M",
+            "choices": []
+          },
+          {
+            "description": "May take one P",
+            "choices": []
+          },
+          {
+            "description": "May take up to one of each E",
+            "choices": [
+              {
+                "name": "Augar Array",
+                "pts_delta": 5
+              },
+              {
+                "name": "Recovery Gear",
+                "pts_delta": 2
+              },
+              {
+                "name": "Searchlight",
+                "pts_delta": 1
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Stormsword",
+        "points_base": 546,
+        "composition": "1 Stormsword",
+        "models": [
+          {
+            "name": "Stormsword",
+            "stats": {
+              "M": "6",
+              "WS": "5+",
+              "BS": "4+",
+              "S": "9",
+              "FA": "14",
+              "SA": "13",
+              "RA": "12",
+              "W": "26",
+              "I": "1",
+              "A": "9",
+              "Ld": "9",
+              "Sv": "3+"
+            },
+            "rules": [
+              "Titanic Vehicle",
+              "Tank",
+              "Limited Ammo",
+              "Poor Maintenance",
+              "Fearless",
+              "Transport 12"
+            ]
+          }
+        ],
+        "fixed_wargear": [
+          "Stormsword Siege Cannon",
+          "2 Linked Heavy Bolters"
+        ],
+        "options": [
+          {
+            "description": "May take up to 2 S or one SS",
+            "choices": [
+              {
+                "name": "Side Skirts",
+                "pts_delta": 10
+              }
+            ]
+          },
+          {
+            "description": "May take one D",
+            "choices": []
+          },
+          {
+            "description": "May take one M",
+            "choices": []
+          },
+          {
+            "description": "May take one P",
+            "choices": []
+          },
+          {
+            "description": "May take up to one of each E",
+            "choices": [
+              {
+                "name": "Augar Array",
+                "pts_delta": 5
+              },
+              {
+                "name": "Recovery Gear",
+                "pts_delta": 2
+              },
+              {
+                "name": "Searchlight",
+                "pts_delta": 1
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Dominus Bombard",
+        "points_base": 393,
+        "composition": "1 Crassus",
+        "models": [
+          {
+            "name": "Dominus Bombard",
+            "stats": {
+              "M": "8",
+              "WS": "5+",
+              "BS": "4+",
+              "S": "8",
+              "FA": "14",
+              "SA": "13",
+              "RA": "12",
+              "W": "20",
+              "I": "1",
+              "A": "6",
+              "Ld": "9",
+              "Sv": "3+"
+            },
+            "rules": [
+              "Titanic Vehicle",
+              "Tank",
+              "Limited Ammo",
+              "Poor Maintenance",
+              "Blasphemous Propaganda",
+              "Fearless",
+              "Transport 35"
+            ]
+          }
+        ],
+        "fixed_wargear": [
+          "3 Linked Colossus Siege Mortars",
+          "2 Heavy Flamers"
+        ],
+        "options": [
+          {
+            "description": "May swap any Heavy Flamer for S",
+            "choices": []
+          },
+          {
+            "description": "May take one M",
+            "choices": []
+          },
+          {
+            "description": "May take one P",
+            "choices": []
+          },
+          {
+            "description": "May take up to one of each E",
+            "choices": [
+              {
+                "name": "Augar Array",
+                "pts_delta": 5
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Dominus Bombard",
+        "points_base": 520,
+        "composition": "1 Dominus Bombard",
+        "models": [
+          {
+            "name": "Dominus Bombard",
+            "stats": {
+              "M": "8",
+              "WS": "5+",
+              "BS": "4+",
+              "S": "8",
+              "FA": "14",
+              "SA": "13",
+              "RA": "12",
+              "W": "20",
+              "I": "1",
+              "A": "6",
+              "Ld": "9",
+              "Sv": "3+"
+            },
+            "rules": [
+              "Titanic Vehicle",
+              "Tank",
+              "Limited Ammo",
+              "Poor Maintenance",
+              "Fearless"
+            ]
+          }
+        ],
+        "fixed_wargear": [
+          "3 Linked Colossus Siege Mortars",
+          "2 Heavy Flamers"
+        ],
+        "options": [
+          {
+            "description": "May swap any Heavy Flamer for S",
+            "choices": []
+          },
+          {
+            "description": "May take one M",
+            "choices": []
+          },
+          {
+            "description": "May take one P",
+            "choices": []
+          },
+          {
+            "description": "May take up to one of each E",
+            "choices": [
+              {
+                "name": "Augar Array",
+                "pts_delta": 5
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "P +5 points",
+        "points_base": 545,
+        "composition": "1 Gorgon",
+        "models": [
+          {
+            "name": "P +9 points",
+            "stats": {
+              "M": "8",
+              "WS": "5+",
+              "BS": "4+",
+              "S": "8",
+              "FA": "15",
+              "SA": "14",
+              "RA": "10",
+              "W": "24",
+              "I": "1",
+              "A": "6",
+              "Ld": "9",
+              "Sv": "3+"
+            },
+            "rules": []
+          },
+          {
+            "name": "P +11 points",
+            "stats": {},
+            "rules": []
+          },
+          {
+            "name": "Gorgon",
+            "stats": {},
+            "rules": [
+              "Titanic Vehicle",
+              "Tank",
+              "Limited Ammo",
+              "Poor Maintenance",
+              "Fearless",
+              "Aquatic",
+              "Open Topped",
+              "Transport 50"
+            ]
+          },
+          {
+            "name": "Gorgon",
+            "stats": {},
+            "rules": []
+          }
+        ],
+        "fixed_wargear": [
+          "Gorgon Armoured Prow",
+          "2 Gorgon Mortars",
+          "2 linked Heavy Stubbers",
+          "2 Linked Heavy Stubbers"
+        ],
+        "options": [
+          {
+            "description": "May swap 2 Gorgon Mortars for S",
+            "choices": []
+          },
+          {
+            "description": "May take one M",
+            "choices": []
+          },
+          {
+            "description": "May take up to one of each E",
+            "choices": [
+              {
+                "name": "Augar Array",
+                "pts_delta": 5
+              },
+              {
+                "name": "Recovery Gear",
+                "pts_delta": 2
+              },
+              {
+                "name": "Searchlight",
+                "pts_delta": 1
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Macharius Battle Tank",
+        "points_base": 580,
+        "composition": "1 Macharius Battle Tank",
+        "models": [
+          {
+            "name": "Macharius",
+            "stats": {
+              "M": "8",
+              "WS": "5+",
+              "BS": "4+",
+              "S": "8",
+              "FA": "14",
+              "SA": "13",
+              "RA": "12",
+              "W": "20",
+              "I": "1",
+              "A": "6",
+              "Ld": "9",
+              "Sv": "3+"
+            },
+            "rules": [
+              "Titanic Vehicle",
+              "Tank",
+              "Limited Ammo",
+              "Poor Maintenance",
+              "Fearless"
+            ]
+          }
+        ],
+        "fixed_wargear": [
+          "2 Linked Macharius Battle",
+          "Cannons",
+          "2 Linked Heavy Stubbers"
+        ],
+        "options": [
+          {
+            "description": "May take one S",
+            "choices": []
+          },
+          {
+            "description": "May take one M",
+            "choices": []
+          },
+          {
+            "description": "May take one P",
+            "choices": []
+          },
+          {
+            "description": "May take up to one of each E",
+            "choices": [
+              {
+                "name": "Augar Array",
+                "pts_delta": 5
+              },
+              {
+                "name": "Recovery Gear",
+                "pts_delta": 2
+              },
+              {
+                "name": "Searchlight",
+                "pts_delta": 1
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Macharius Vanquisher",
+        "points_base": 371,
+        "composition": "1 Macharius Omega",
+        "models": [
+          {
+            "name": "Macharius Vanquisher",
+            "stats": {
+              "M": "8",
+              "WS": "5+",
+              "BS": "4+",
+              "S": "8",
+              "FA": "14",
+              "SA": "13",
+              "RA": "12",
+              "W": "20",
+              "I": "1",
+              "A": "6",
+              "Ld": "9",
+              "Sv": "3+"
+            },
+            "rules": [
+              "Titanic Vehicle",
+              "Tank",
+              "Limited Ammo",
+              "Poor Maintenance",
+              "Fearless",
+              "Open Topped"
+            ]
+          }
+        ],
+        "fixed_wargear": [
+          "2 Linked Vanquisher Cannons",
+          "2 Linked Heavy Stubbers"
+        ],
+        "options": [
+          {
+            "description": "May take one S",
+            "choices": []
+          },
+          {
+            "description": "May take one M",
+            "choices": []
+          },
+          {
+            "description": "May take one P",
+            "choices": []
+          },
+          {
+            "description": "May take up to one of each E",
+            "choices": [
+              {
+                "name": "Augar Array",
+                "pts_delta": 5
+              },
+              {
+                "name": "Recovery Gear",
+                "pts_delta": 2
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Macharius Vanquisher",
+        "points_base": 443,
+        "composition": "1 Macharius Vanquisher",
+        "models": [
+          {
+            "name": "Macharius Vanquisher",
+            "stats": {
+              "M": "8",
+              "WS": "5+",
+              "BS": "4+",
+              "S": "8",
+              "FA": "14",
+              "SA": "13",
+              "RA": "12",
+              "W": "20",
+              "I": "1",
+              "A": "6",
+              "Ld": "9",
+              "Sv": "3+"
+            },
+            "rules": [
+              "Titanic Vehicle",
+              "Tank",
+              "Limited Ammo",
+              "Poor Maintenance",
+              "Fearless"
+            ]
+          }
+        ],
+        "fixed_wargear": [
+          "2 Linked Vanquisher Cannons",
+          "2 Linked Heavy Stubbers"
+        ],
+        "options": [
+          {
+            "description": "May take one S",
+            "choices": []
+          },
+          {
+            "description": "May take one M",
+            "choices": []
+          },
+          {
+            "description": "May take one P",
+            "choices": []
+          },
+          {
+            "description": "May take up to one of each E",
+            "choices": [
+              {
+                "name": "Augar Array",
+                "pts_delta": 5
+              },
+              {
+                "name": "Recovery Gear",
+                "pts_delta": 2
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Macharius Vulcan",
+        "points_base": 390,
+        "composition": "1 Macharius Vulcan",
+        "models": [
+          {
+            "name": "Macharius Vulcan",
+            "stats": {
+              "M": "8",
+              "WS": "5+",
+              "BS": "4+",
+              "S": "8",
+              "FA": "14",
+              "SA": "13",
+              "RA": "12",
+              "W": "20",
+              "I": "1",
+              "A": "6",
+              "Ld": "9",
+              "Sv": "3+"
+            },
+            "rules": [
+              "Titanic Vehicle",
+              "Tank",
+              "Limited Ammo",
+              "Poor Maintenance",
+              "Fearless"
+            ]
+          }
+        ],
+        "fixed_wargear": [
+          "Vulcan Megabolter",
+          "2 Linked Heavy Stubbers"
+        ],
+        "options": [
+          {
+            "description": "May take one S",
+            "choices": []
+          },
+          {
+            "description": "May take one M",
+            "choices": []
+          },
+          {
+            "description": "May take one P",
+            "choices": []
+          },
+          {
+            "description": "May take up to one of each E",
+            "choices": [
+              {
+                "name": "Augar Array",
+                "pts_delta": 5
+              },
+              {
+                "name": "Recovery Gear",
+                "pts_delta": 2
+              },
+              {
+                "name": "Searchlight",
+                "pts_delta": 1
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Minotaur Artillery",
+        "points_base": 362,
+        "composition": "1 Minotaur Artillery",
+        "models": [
+          {
+            "name": "Minotaur Artillery",
+            "stats": {
+              "M": "8",
+              "WS": "5+",
+              "BS": "4+",
+              "S": "8",
+              "FA": "14",
+              "SA": "13",
+              "RA": "12",
+              "W": "20",
+              "I": "1",
+              "A": "6",
+              "Ld": "9",
+              "Sv": "3+"
+            },
+            "rules": [
+              "Titanic Vehicle",
+              "Tank",
+              "Limited Ammo",
+              "Poor Maintenance",
+              "Fearless",
+              "Open Topped"
+            ]
+          }
+        ],
+        "fixed_wargear": [
+          "2 Linked Earthshakers",
+          "2 Heavy Flamers"
+        ],
+        "options": [
+          {
+            "description": "May swap any Heavy Flamer for S",
+            "choices": []
+          },
+          {
+            "description": "May take one M",
+            "choices": []
+          },
+          {
+            "description": "May take one P",
+            "choices": []
+          },
+          {
+            "description": "May take up to one of each E",
+            "choices": [
+              {
+                "name": "Augar Array",
+                "pts_delta": 5
+              },
+              {
+                "name": "Recovery Gear",
+                "pts_delta": 2
+              },
+              {
+                "name": "Searchlight",
+                "pts_delta": 1
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Praetor Launcher",
+        "points_base": 378,
+        "composition": "1 Praetor Launcher",
+        "models": [
+          {
+            "name": "Praetor Launcher",
+            "stats": {
+              "M": "8",
+              "WS": "5+",
+              "BS": "4+",
+              "S": "8",
+              "FA": "14",
+              "SA": "13",
+              "RA": "12",
+              "W": "20",
+              "I": "1",
+              "A": "6",
+              "Ld": "9",
+              "Sv": "3+"
+            },
+            "rules": [
+              "Titanic Vehicle",
+              "Tank",
+              "Limited Ammo",
+              "Poor Maintenance",
+              "Fearless"
+            ]
+          }
+        ],
+        "fixed_wargear": [
+          "Pilum Salvo",
+          "2 Heavy Flamers"
+        ],
+        "options": [
+          {
+            "description": "May swap Pilum Salvo for H",
+            "choices": []
+          },
+          {
+            "description": "May swap any Heavy Flamer for S",
+            "choices": []
+          },
+          {
+            "description": "May take one M",
+            "choices": []
+          },
+          {
+            "description": "May take one P",
+            "choices": []
+          },
+          {
+            "description": "May take up to one of each E",
+            "choices": [
+              {
+                "name": "Augar Array",
+                "pts_delta": 5
+              },
+              {
+                "name": "Recovery Gear",
+                "pts_delta": 2
+              },
+              {
+                "name": "Searchlight",
+                "pts_delta": 1
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Marauder Heavy Destroyer",
+        "points_base": 405,
+        "composition": "1 Marauder Heavy Bomber",
+        "models": [
+          {
+            "name": "Marauder Destroyer",
+            "stats": {
+              "M": "50",
+              "WS": "5+",
+              "BS": "4+",
+              "S": "8",
+              "FA": "11",
+              "SA": "11",
+              "RA": "10",
+              "W": "20",
+              "I": "1",
+              "A": "6",
+              "Ld": "9",
+              "Sv": "3+"
+            },
+            "rules": [
+              "Titanic Vehicle",
+              "Limited Ammo",
+              "Poor Maintenance",
+              "Fearless",
+              "High Altitude",
+              "Deep Strike"
+            ]
+          }
+        ],
+        "fixed_wargear": [
+          "6 Linked Autocannons",
+          "2 Linked Heavy Bolters",
+          "2 Linked Assault Cannons"
+        ],
+        "options": [
+          {
+            "description": "May take one B",
+            "choices": []
+          },
+          {
+            "description": "May take up to one of each E",
+            "choices": [
+              {
+                "name": "Chaff Launcher",
+                "pts_delta": 18
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Marauder Heavy Destroyer",
+        "points_base": 454,
+        "composition": "1 Marauder Heavy Destroyer",
+        "models": [
+          {
+            "name": "Marauder Destroyer",
+            "stats": {
+              "M": "50",
+              "WS": "5+",
+              "BS": "4+",
+              "S": "8",
+              "FA": "11",
+              "SA": "11",
+              "RA": "10",
+              "W": "20",
+              "I": "1",
+              "A": "6",
+              "Ld": "9",
+              "Sv": "3+"
+            },
+            "rules": [
+              "Titanic Vehicle",
+              "Limited Ammo",
+              "Poor Maintenance",
+              "Fearless",
+              "High Altitude",
+              "Deep Strike"
+            ]
+          }
+        ],
+        "fixed_wargear": [
+          "6 Linked Autocannons",
+          "2 Linked Heavy Bolters",
+          "2 Linked Assault Cannons"
+        ],
+        "options": [
+          {
+            "description": "May take one B",
+            "choices": []
+          },
+          {
+            "description": "May take up to one of each E",
+            "choices": [
+              {
+                "name": "Chaff Launcher",
+                "pts_delta": 18
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Defenses",
+        "points_base": 2339,
+        "composition": "1 Gate 2 Gate Towers 2 Walls 2 Towers",
+        "models": [
+          {
+            "name": "Imperial Fortress",
+            "stats": {},
+            "rules": []
+          },
+          {
+            "name": "Gate",
+            "stats": {},
+            "rules": [
+              "Building",
+              "Titanic"
+            ]
+          },
+          {
+            "name": "Gate Towers",
+            "stats": {},
+            "rules": []
+          },
+          {
+            "name": "Walls",
+            "stats": {},
+            "rules": []
+          },
+          {
+            "name": "Towers",
+            "stats": {},
+            "rules": []
+          }
+        ],
+        "fixed_wargear": [
+          "Heavy Gate",
+          "2 Linked Heavy Bolters",
+          "None",
+          "2 Linked Autocannons"
+        ],
+        "options": [
+          {
+            "description": "May add as many sets of 1 Gate and 2 Gate Towers as you want for +947 points each",
+            "choices": []
+          },
+          {
+            "description": "May add as many Walls as you want for +299 points each",
+            "choices": []
+          },
+          {
+            "description": "May add as many Towers as you want for +377 points each",
+            "choices": []
+          }
+        ]
+      }
+    ],
+    "fortifications": [
+      {
+        "name": "Primaris Redoubt",
+        "points_base": 619,
+        "composition": "1 Primaris Redoubt",
+        "models": [
+          {
+            "name": "Primaris Redoubt",
+            "stats": {},
+            "rules": [
+              "Titanic Building",
+              "Limited Ammo"
+            ]
+          }
+        ],
+        "fixed_wargear": [
+          "2 Linked Turbolaser Destructors"
+        ],
+        "options": []
+      },
+      {
+        "name": "Aegis Weapon Emplacement",
+        "points_base": 315,
+        "composition": "1 Fragdrill",
+        "models": [
+          {
+            "name": "Platform",
+            "stats": {},
+            "rules": [
+              "Titanic Building"
+            ]
+          }
+        ],
+        "fixed_wargear": [
+          "Long Lascannon"
+        ],
+        "options": [
+          {
+            "description": "May swap Long Lascannon for H",
+            "choices": []
+          }
+        ]
+      },
+      {
+        "name": "Aegis Weapon Emplacement",
+        "points_base": 61,
+        "composition": "1 Aegis Weapon Emplacement",
+        "models": [
+          {
+            "name": "Platform",
+            "stats": {},
+            "rules": [
+              "Building",
+              "Limited Ammo"
+            ]
+          }
+        ],
+        "fixed_wargear": [
+          "Long Lascannon"
+        ],
+        "options": [
+          {
+            "description": "May swap Long Lascannon for H",
+            "choices": []
+          }
+        ]
+      },
+      {
+        "name": "Aquila Strongpoint",
+        "points_base": 438,
+        "composition": "1 Aquila Strongpoint",
+        "models": [
+          {
+            "name": "Aquila Strongpoint",
+            "stats": {},
+            "rules": [
+              "Titanic Building",
+              "Limited Ammo"
+            ]
+          }
+        ],
+        "fixed_wargear": [
+          "Plasma Obliterator"
+        ],
+        "options": []
+      },
+      {
+        "name": "Imperial Bastion",
+        "points_base": 387,
+        "composition": "1 Firestorm Redoubt",
+        "models": [
+          {
+            "name": "Imperial Bastion",
+            "stats": {},
+            "rules": [
+              "Building",
+              "Limited Ammo"
+            ]
+          }
+        ],
+        "fixed_wargear": [
+          "4 Heavy Bolters"
+        ],
+        "options": []
+      },
+      {
+        "name": "Imperial Bastion",
+        "points_base": 419,
+        "composition": "1 Imperial Bastion",
+        "models": [
+          {
+            "name": "Imperial Bastion",
+            "stats": {},
+            "rules": [
+              "Building",
+              "Limited Ammo"
+            ]
+          }
+        ],
+        "fixed_wargear": [
+          "4 Heavy Bolters"
+        ],
+        "options": []
+      },
+      {
+        "name": "Vengeance Weapon Battery",
+        "points_base": 464,
+        "composition": "1 Plasma Obliterator",
+        "models": [
+          {
+            "name": "Vengeance Weapon Battery",
+            "stats": {},
+            "rules": [
+              "Building"
+            ]
+          }
+        ],
+        "fixed_wargear": [
+          "Avenger Gatling Cannon"
+        ],
+        "options": [
+          {
+            "description": "May swap Avenger Gatling Cannon for H",
+            "choices": []
+          }
+        ]
+      },
+      {
+        "name": "Vengeance Weapon Battery",
+        "points_base": 249,
+        "composition": "1 Vengeance Weapon Battery",
+        "models": [
+          {
+            "name": "Vengeance Weapon Battery",
+            "stats": {},
+            "rules": [
+              "Building"
+            ]
+          }
+        ],
+        "fixed_wargear": [
+          "Avenger Gatling Cannon"
+        ],
+        "options": [
+          {
+            "description": "May swap Avenger Gatling Cannon for H",
+            "choices": []
+          }
+        ]
+      },
+      {
+        "name": "Void Shield Generator",
+        "points_base": 307,
+        "composition": "1 Void Shield Generator",
+        "models": [
+          {
+            "name": "Void Shield Generator",
+            "stats": {},
+            "rules": [
+              "Building"
+            ]
+          }
+        ],
+        "fixed_wargear": [
+          "none"
+        ],
+        "options": []
+      }
+    ]
+  }
+}

@@ -1,0 +1,120 @@
+{
+  "id": "white-scars",
+  "name": "White Scars",
+  "difficulty": 1,
+  "subfactions": [
+    {
+      "name": "Average"
+    },
+    {
+      "name": "White Scars"
+    }
+  ],
+  "slots": {
+    "hq": [
+      {
+        "name": "Subdoden Khan",
+        "points_base": 286,
+        "composition": "1 Subdoden",
+        "models": [
+          {
+            "name": "Subdoden",
+            "stats": {
+              "M": "12",
+              "WS": "2+",
+              "BS": "2+",
+              "S": "4",
+              "T": "4",
+              "W": "7",
+              "I": "7",
+              "A": "5",
+              "Ld": "10",
+              "Sv": "3+"
+            },
+            "rules": [
+              "Independent Character",
+              "White Scars",
+              "Infantry",
+              "Unique",
+              "Know No Fear",
+              "Transhuman Physiology",
+              "Scout",
+              "Shock Assault",
+              "Steady",
+              "Stubborn",
+              "Battle Drills",
+              "Thunder"
+            ]
+          }
+        ],
+        "fixed_wargear": [
+          "Onslaught Gatling Cannon",
+          "Stormtooth",
+          "Iron Halo"
+        ],
+        "options": []
+      }
+    ],
+    "advisors": [
+      {
+        "name": "Kor\u2019sarro Khan",
+        "points_base": 203,
+        "composition": "1 Kor\u2019sarro",
+        "models": [
+          {
+            "name": "Khan",
+            "stats": {
+              "M": "6",
+              "WS": "2+",
+              "BS": "2+",
+              "S": "4",
+              "T": "4",
+              "W": "5",
+              "I": "7",
+              "A": "5",
+              "Ld": "9",
+              "Sv": "3+"
+            },
+            "rules": [
+              "Independent Character",
+              "White Scars",
+              "Infantry",
+              "Unique",
+              "Chapter Champion",
+              "Know No Fear",
+              "Bodyguard",
+              "Counterattack",
+              "Objective Secured",
+              "Scout",
+              "Shock Assault",
+              "Chapter Champion",
+              "Glory Hunter"
+            ]
+          }
+        ],
+        "fixed_wargear": [
+          "Bolt Pistol",
+          "Moonfang",
+          "Frag Grenades",
+          "Krak Grenades",
+          "Refractor Field"
+        ],
+        "options": [
+          {
+            "description": "May take one F",
+            "choices": []
+          },
+          {
+            "description": "May take one B",
+            "choices": [
+              {
+                "name": "Rubicon Primaris",
+                "pts_delta": 17
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

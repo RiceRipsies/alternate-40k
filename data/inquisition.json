@@ -1,0 +1,2385 @@
+{
+  "id": "inquisition",
+  "name": "Inquisition",
+  "difficulty": 3,
+  "subfactions": [
+    {
+      "name": "Average"
+    }
+  ],
+  "slots": {
+    "hq": [
+      {
+        "name": "Inquisitor",
+        "points_base": 304,
+        "composition": "1 Inquisitor",
+        "models": [
+          {
+            "name": "Inquisitor",
+            "stats": {
+              "M": "6",
+              "WS": "2+",
+              "BS": "2+",
+              "S": "3",
+              "T": "3",
+              "W": "5",
+              "I": "3",
+              "A": "4",
+              "Ld": "10",
+              "Sv": "4+"
+            },
+            "rules": [
+              "Independent Character",
+              "Infantry",
+              "Quarry",
+              "Requisition Approved",
+              "Psychic Mastery Level 1",
+              "The Hour is Nigh",
+              "T Minus 5",
+              "Terrifying Presence",
+              "Test."
+            ]
+          }
+        ],
+        "fixed_wargear": [
+          "2 Chainswords",
+          "Psykout Grenades",
+          "Frag Grenades",
+          "Krak Grenades",
+          "Orbital Strike",
+          "Force Field"
+        ],
+        "options": [
+          {
+            "description": "May swap one Chainsword for S, P, or M",
+            "choices": []
+          },
+          {
+            "description": "May swap one Chainsword for M",
+            "choices": []
+          },
+          {
+            "description": "May swap Krak Grenades for G",
+            "choices": []
+          },
+          {
+            "description": "May take one A",
+            "choices": [
+              {
+                "name": "Lord Inquisitor",
+                "pts_delta": 27
+              }
+            ]
+          },
+          {
+            "description": "May take one B",
+            "choices": [
+              {
+                "name": "Power Armour",
+                "pts_delta": 8
+              },
+              {
+                "name": "Terminator Armour",
+                "pts_delta": 19
+              }
+            ]
+          },
+          {
+            "description": "May take up to one Inquisitor Spell for each Psychic Mastery Level",
+            "choices": []
+          }
+        ]
+      }
+    ],
+    "advisors": [
+      {
+        "name": "Daemonifuge",
+        "points_base": 163,
+        "composition": "1 Ephrael Stern 1 Kyganil",
+        "models": [
+          {
+            "name": "Ephrael Stern",
+            "stats": {
+              "M": "6",
+              "WS": "3+",
+              "BS": "3+",
+              "S": "3",
+              "T": "3",
+              "W": "4",
+              "I": "3",
+              "A": "3",
+              "Ld": "9",
+              "Sv": "3+"
+            },
+            "rules": [
+              "Independent Character",
+              "Infantry",
+              "Unique",
+              "Outflank",
+              "Daemonifuge"
+            ]
+          },
+          {
+            "name": "Kyganil",
+            "stats": {
+              "M": "6",
+              "WS": "3+",
+              "BS": "3+",
+              "S": "3",
+              "T": "3",
+              "W": "4",
+              "I": "5",
+              "A": "3",
+              "Ld": "9",
+              "Sv": "-"
+            },
+            "rules": [
+              "Independent Character",
+              "Infantry",
+              "Unique",
+              "Bodyguard",
+              "Outflank"
+            ]
+          }
+        ],
+        "fixed_wargear": [
+          "Bolt Pistol",
+          "Bolts of Holy Judgement",
+          "Sanctify",
+          "Frag Grenades",
+          "Krak Grenades",
+          "Kyganil\u2019s Kiss",
+          "The Outcast\u2019s Blades",
+          "Plasma Grenades",
+          "Flip Belt"
+        ],
+        "options": []
+      },
+      {
+        "name": "Henchmen",
+        "points_base": 128,
+        "composition": "4-10 Henchmen 0-2 Mystics 0-2 Servitors",
+        "models": [
+          {
+            "name": "Henchman",
+            "stats": {
+              "M": "6",
+              "WS": "3+",
+              "BS": "3+",
+              "S": "3",
+              "T": "3",
+              "W": "4",
+              "I": "3",
+              "A": "2",
+              "Ld": "8",
+              "Sv": "5+"
+            },
+            "rules": [
+              "Infantry",
+              "Bodyguard"
+            ]
+          },
+          {
+            "name": "Mystics",
+            "stats": {
+              "M": "6",
+              "WS": "3+",
+              "BS": "3+",
+              "S": "3",
+              "T": "3",
+              "W": "4",
+              "I": "3",
+              "A": "3",
+              "Ld": "8",
+              "Sv": "5+"
+            },
+            "rules": [
+              "Infantry",
+              "Psychic Mastery Level 1"
+            ]
+          },
+          {
+            "name": "Servitors",
+            "stats": {
+              "M": "6",
+              "WS": "4+",
+              "BS": "4+",
+              "S": "3",
+              "T": "4",
+              "W": "1",
+              "I": "3",
+              "A": "1",
+              "Ld": "8",
+              "Sv": "4+"
+            },
+            "rules": [
+              "Infantry",
+              "Augmented"
+            ]
+          }
+        ],
+        "fixed_wargear": [
+          "Autopistol",
+          "Combat Knife",
+          "Frag Grenades",
+          "Autopistol",
+          "Autoquill"
+        ],
+        "options": [
+          {
+            "description": "May take up to 6 more Henchmen for +32 points each Any Henchman may swap Autopistol for S Any Henchman may swap Combat Knife for M",
+            "choices": []
+          },
+          {
+            "description": "May take up to 2 Mystics for +46 points each Any Mystic may swap Autopistol for P Any Mystic May take up to one Inquisitor Spell for each level of Psychic Mastery",
+            "choices": []
+          },
+          {
+            "description": "May take up to two Servitors for +16 points each Any Servitor may swap Autoquill for H The unit may take one E",
+            "choices": [
+              {
+                "name": "Ammo Cherub",
+                "pts_delta": 5
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Jokaero Weaponsmith",
+        "points_base": 168,
+        "composition": "1 Weaponsmith",
+        "models": [
+          {
+            "name": "Weaponsmith",
+            "stats": {
+              "M": "6",
+              "WS": "4+",
+              "BS": "4+",
+              "S": "2",
+              "T": "3",
+              "W": "4",
+              "I": "3",
+              "A": "3",
+              "Ld": "7",
+              "Sv": "-"
+            },
+            "rules": [
+              "Independent Character",
+              "Infantry",
+              "Quarry",
+              "Stubborn",
+              "Jokaero Ingenuity",
+              "Pain."
+            ]
+          }
+        ],
+        "fixed_wargear": [
+          "Digital Weapons",
+          "Refractor Field"
+        ],
+        "options": []
+      }
+    ],
+    "troops": [
+      {
+        "name": "Battle Sisters",
+        "points_base": 125,
+        "composition": "1 Superior 4-19 Sisters",
+        "models": [
+          {
+            "name": "Superior",
+            "stats": {
+              "M": "6",
+              "WS": "3+",
+              "BS": "3+",
+              "S": "3",
+              "T": "3",
+              "W": "2",
+              "I": "3",
+              "A": "2",
+              "Ld": "9",
+              "Sv": "3+"
+            },
+            "rules": [
+              "Character",
+              "Infantry",
+              "Faith 1",
+              "Martyrdom 2"
+            ]
+          },
+          {
+            "name": "Sister",
+            "stats": {
+              "M": "6",
+              "WS": "3+",
+              "BS": "3+",
+              "S": "3",
+              "T": "3",
+              "W": "2",
+              "I": "3",
+              "A": "1",
+              "Ld": "8",
+              "Sv": "3+"
+            },
+            "rules": [
+              "Infantry",
+              "Martyrdom 1"
+            ]
+          }
+        ],
+        "fixed_wargear": [
+          "Bolt Pistol",
+          "Chain Sword",
+          "Frag Grenades",
+          "Krak Grenades",
+          "Boltgun",
+          "Frag Grenades",
+          "Krak Grenades"
+        ],
+        "options": [
+          {
+            "description": "May take up to 15 more Sisters for +23 points each Superior may swap Bolt Pistol for OP Superior may swap Chainsword for M Superior may swap Krak Grenades for G Up to two Sisters may swap Boltgun for S or H Any Sister may swap Boltgun for P One Sister who did not swap their Boltgun for S or H may take one E",
+            "choices": []
+          }
+        ]
+      },
+      {
+        "name": "Deathwatch Veterans",
+        "points_base": 284,
+        "composition": "1 Sergeant 4-9 Veterans",
+        "models": [
+          {
+            "name": "Sergeant",
+            "stats": {
+              "M": "6",
+              "WS": "2+",
+              "BS": "2+",
+              "S": "4",
+              "T": "4",
+              "W": "2",
+              "I": "4",
+              "A": "3",
+              "Ld": "9",
+              "Sv": "3+"
+            },
+            "rules": [
+              "Character",
+              "Infantry",
+              "Adjusted Tactics",
+              "Bolter Discipline",
+              "Know No Fear",
+              "Tactical Squads",
+              "Night Vision",
+              "Objective Secured",
+              "Shock Assault"
+            ]
+          },
+          {
+            "name": "Veteran",
+            "stats": {
+              "M": "6",
+              "WS": "2+",
+              "BS": "2+",
+              "S": "4",
+              "T": "4",
+              "W": "2",
+              "I": "4",
+              "A": "2",
+              "Ld": "8",
+              "Sv": "3+"
+            },
+            "rules": [
+              "Infantry",
+              "Adjusted Tactics",
+              "Bolter Discipline",
+              "Know No Fear",
+              "Tactical Squads",
+              "Night Vision",
+              "Objective Secured",
+              "Shock Assault"
+            ]
+          }
+        ],
+        "fixed_wargear": [
+          "Special Issue Boltgun",
+          "Bolt Pistol",
+          "Combat Knife",
+          "Frag Grenades",
+          "Krak Grenades",
+          "Special Issue Boltgun",
+          "Bolt Pistol",
+          "Combat Knife",
+          "Frag Grenades",
+          "Krak Grenades"
+        ],
+        "options": [
+          {
+            "description": "May take up to 5 more Veterans for +56 points each Sergeant may swap Krak Grenades for G Any model may swap Special Issue Boltgun for R or S Up to two models may swap Special Issue Boltgun for H Any model may swap Bolt Pistol for P Any model may swap Combat Knife for M",
+            "choices": []
+          }
+        ]
+      },
+      {
+        "name": "Deathwatch Veterans",
+        "points_base": 1517,
+        "composition": "1 Calexus 1 Callidus 1 Eversor 1 Vindicare",
+        "models": [
+          {
+            "name": "Sergeant",
+            "stats": {
+              "M": "6",
+              "WS": "2+",
+              "BS": "2+",
+              "S": "4",
+              "T": "4",
+              "W": "2",
+              "I": "4",
+              "A": "3",
+              "Ld": "9",
+              "Sv": "3+"
+            },
+            "rules": []
+          },
+          {
+            "name": "Veteran",
+            "stats": {
+              "M": "6",
+              "WS": "2+",
+              "BS": "2+",
+              "S": "4",
+              "T": "4",
+              "W": "2",
+              "I": "4",
+              "A": "2",
+              "Ld": "8",
+              "Sv": "3+"
+            },
+            "rules": [
+              "Execution Force"
+            ]
+          }
+        ],
+        "fixed_wargear": [
+          "Special Issue Boltgun",
+          "Bolt Pistol",
+          "Combat Knife",
+          "Frag Grenades",
+          "Krak Grenades",
+          "Special Issue Boltgun",
+          "Bolt Pistol",
+          "Combat Knife",
+          "Frag Grenades",
+          "Krak Grenades"
+        ],
+        "options": [
+          {
+            "description": "May take up to 5 more Veterans for +56 points each Sergeant may swap Krak Grenades for G Any model may swap Special Issue Boltgun for R or S Up to two models may swap Special Issue Boltgun for H Any model may swap Bolt Pistol for P Any model may swap Combat Knife for M",
+            "choices": []
+          }
+        ]
+      },
+      {
+        "name": "Rules",
+        "points_base": 105,
+        "composition": "1 Sergeant 9 Veterans",
+        "models": [
+          {
+            "name": "Rules",
+            "stats": {
+              "M": "6",
+              "WS": "4+",
+              "BS": "3+",
+              "S": "3",
+              "T": "3",
+              "W": "2",
+              "I": "3",
+              "A": "2",
+              "Ld": "7",
+              "Sv": "5+"
+            },
+            "rules": [
+              "Character",
+              "Infantry",
+              "Infantry",
+              "Infantry",
+              "Bulky",
+              "Grenadier."
+            ]
+          }
+        ],
+        "fixed_wargear": [],
+        "options": [
+          {
+            "description": "may swap Heavy Flamer for H Up to three Veteran Guardsman",
+            "choices": []
+          },
+          {
+            "description": "may swap Lasgun for S or take one SD One Veteran Guardsman may swap for ES instead of S One Veteran that did not swap Lasgun for S or SD may take one E Any model may take one P The entire unit may take Krak Grenades for +10 points Veterans may take any of the Doctrines",
+            "choices": [
+              {
+                "name": "Vox Caster",
+                "pts_delta": 20
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Primaris Deathwatch Veterans",
+        "points_base": 279,
+        "composition": "1 Sergeant 4-9 Veterans",
+        "models": [
+          {
+            "name": "Sergeant",
+            "stats": {
+              "M": "6",
+              "WS": "2+",
+              "BS": "2+",
+              "S": "4",
+              "T": "4",
+              "W": "2",
+              "I": "4",
+              "A": "3",
+              "Ld": "9",
+              "Sv": "3+"
+            },
+            "rules": [
+              "Character",
+              "Infantry",
+              "Bolter Discipline",
+              "Know No Fear",
+              "Transhuman Physiology",
+              "Bulky",
+              "Night Vision",
+              "Shock Assault",
+              "Stubborn"
+            ]
+          },
+          {
+            "name": "Veteran",
+            "stats": {
+              "M": "6",
+              "WS": "2+",
+              "BS": "2+",
+              "S": "4",
+              "T": "4",
+              "W": "2",
+              "I": "4",
+              "A": "2",
+              "Ld": "8",
+              "Sv": "3+"
+            },
+            "rules": [
+              "Infantry",
+              "Bolter Discipline",
+              "Know No Fear",
+              "Transhuman Physiology",
+              "Bulky",
+              "Night Vision",
+              "Shock Assault",
+              "Stubborn"
+            ]
+          }
+        ],
+        "fixed_wargear": [
+          "Special Issue Bolt Rifle",
+          "Bolt Pistol",
+          "Combat Knife",
+          "Frag Grenades",
+          "Krak Grenades",
+          "Special Issue Bolt Rifle",
+          "Bolt Pistol",
+          "Combat Knife",
+          "Frag Grenades",
+          "Krak Grenades"
+        ],
+        "options": [
+          {
+            "description": "May take up to 5 more Veterans for +55 points each Sergeant may swap Krak Grenades for G Any model may swap Special Issue Bolt Rifle for R, S, or H Any model may swap Bolt Pistol for P Any model may swap Combat Knife for M",
+            "choices": []
+          }
+        ]
+      },
+      {
+        "name": "Grey Knight Purifier Squad",
+        "points_base": 300,
+        "composition": "1 Knight of the Flame 4-9 Purifiers",
+        "models": [
+          {
+            "name": "Knight of the Flame",
+            "stats": {
+              "M": "6",
+              "WS": "2+",
+              "BS": "2+",
+              "S": "4",
+              "T": "4",
+              "W": "2",
+              "I": "4",
+              "A": "2",
+              "Ld": "9",
+              "Sv": "3+"
+            },
+            "rules": [
+              "Character",
+              "Infantry",
+              "Adjusted Tactics",
+              "Bolter Discipline",
+              "Know No Fear",
+              "Tactical Squads",
+              "Deepstrike",
+              "Night Vision",
+              "Objective Secured",
+              "Psychic Mastery Level 1",
+              "Shock Assault",
+              "Stubborn"
+            ]
+          },
+          {
+            "name": "Purifier",
+            "stats": {
+              "M": "6",
+              "WS": "2+",
+              "BS": "2+",
+              "S": "4",
+              "T": "4",
+              "W": "2",
+              "I": "4",
+              "A": "1",
+              "Ld": "8",
+              "Sv": "3+"
+            },
+            "rules": [
+              "Infantry",
+              "Adjusted Tactics",
+              "Bolter Discipline",
+              "Know No Fear",
+              "Tactical Squads",
+              "Deepstrike",
+              "Night Vision",
+              "Objective Secured",
+              "Shock Assault",
+              "Stubborn"
+            ]
+          }
+        ],
+        "fixed_wargear": [
+          "Stormbolter",
+          "Nemesis Force Halberd",
+          "Frag Grenades",
+          "Krak Grenades",
+          "Psykout Grenades",
+          "Stormbolter",
+          "Nemesis Force Halberd",
+          "Frag Grenades",
+          "Krak Grenades",
+          "Psykout Grenades"
+        ],
+        "options": [
+          {
+            "description": "May take up to 5 more Purifiers for +57 points each Justicar may swap Krak Grenades for G Knight of the Flame may take one Spell for each Psychic Mastery Level Any model may swap Stormbolter for S Any model may swap Nemesis Force Halberd for M",
+            "choices": []
+          }
+        ]
+      }
+    ],
+    "elites": [
+      {
+        "name": "Dreadnoughts",
+        "points_base": 152,
+        "composition": "1-3 Dreadnoughts",
+        "models": [
+          {
+            "name": "Dreadnought",
+            "stats": {
+              "M": "6",
+              "WS": "3+",
+              "BS": "3+",
+              "S": "6",
+              "FA": "12",
+              "SA": "12",
+              "RA": "10",
+              "W": "8",
+              "I": "4",
+              "A": "4",
+              "Ld": "8",
+              "Sv": "3+"
+            },
+            "rules": [
+              "Vehicle",
+              "Combat Walker",
+              "Adjusted Tactics",
+              "Bolter Discipline",
+              "Know No Fear",
+              "Night Vision",
+              "Psychic Mastery Level 1",
+              "Shock Assault",
+              "Steady"
+            ]
+          }
+        ],
+        "fixed_wargear": [
+          "2 Dreadnought Missile",
+          "Launchers"
+        ],
+        "options": [
+          {
+            "description": "May add up to two more Dreadnoughts for +152 points each Any Dreadnought may swap any Dreadnought Missile Launcher for H Any Dreadnought may take up to one of each E Any Dreadnought may each take up to one Grey Knight Spell per Psychic Mastery Level. These are cast by each model Independently.",
+            "choices": []
+          },
+          {
+            "description": "May take Extra Armour",
+            "choices": [
+              {
+                "name": "Extra Armour",
+                "pts_delta": 5
+              }
+            ]
+          },
+          {
+            "description": "May take Smoke Launchers",
+            "choices": [
+              {
+                "name": "Smoke Launchers",
+                "pts_delta": 10
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Incarcerator",
+        "points_base": 156,
+        "composition": "1 Incarcerator",
+        "models": [
+          {
+            "name": "Incarcerator",
+            "stats": {
+              "M": "12",
+              "WS": "5+",
+              "BS": "3+",
+              "S": "6",
+              "FA": "11",
+              "SA": "11",
+              "RA": "10",
+              "W": "12",
+              "I": "1",
+              "A": "3",
+              "Ld": "9",
+              "Sv": "3+"
+            },
+            "rules": []
+          }
+        ],
+        "fixed_wargear": [],
+        "options": []
+      },
+      {
+        "name": "Ironclad Dreadnoughts",
+        "points_base": 157,
+        "composition": "1-2 Ironclad Dreadnoughts",
+        "models": [
+          {
+            "name": "Ironclad Dreadnought",
+            "stats": {
+              "M": "6",
+              "WS": "3+",
+              "BS": "3+",
+              "S": "6",
+              "FA": "13",
+              "SA": "12",
+              "RA": "10",
+              "W": "8",
+              "I": "4",
+              "A": "4",
+              "Ld": "8",
+              "Sv": "3+"
+            },
+            "rules": [
+              "Vehicle",
+              "Combat Walker",
+              "Adjusted Tactics",
+              "Bolter Discipline",
+              "Know No Fear",
+              "Night Vision",
+              "Psychic Mastery Level 1",
+              "Shock Assault",
+              "Steady",
+              "Stubborn"
+            ]
+          }
+        ],
+        "fixed_wargear": [
+          "2 Dreadnought Missile",
+          "Launchers"
+        ],
+        "options": [
+          {
+            "description": "May add up to two more Dreadnoughts for +157 points each Any Dreadnought may swap any Dreadnought Missile Launcher for H Any Dreadnought may take up to 2 M Any Dreadnought may take up to one of each E Any Dreadnought may each take up to one Grey Knight Spell per Psychic Mastery Level. These are cast by each model Independently.",
+            "choices": []
+          },
+          {
+            "description": "May take Extra Armour",
+            "choices": [
+              {
+                "name": "Extra Armour",
+                "pts_delta": 5
+              }
+            ]
+          },
+          {
+            "description": "May take Smoke Launchers",
+            "choices": [
+              {
+                "name": "Smoke Launchers",
+                "pts_delta": 10
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Paladins",
+        "points_base": 673,
+        "composition": "1 Justicar 4-9 Terminators",
+        "models": [
+          {
+            "name": "Justicar",
+            "stats": {
+              "M": "4",
+              "WS": "2+",
+              "BS": "2+",
+              "S": "4",
+              "T": "4",
+              "W": "3",
+              "I": "4",
+              "A": "4",
+              "Ld": "9",
+              "Sv": "3+"
+            },
+            "rules": [
+              "Character",
+              "Monstrous Infantry",
+              "Adjusted Tactics",
+              "Bolter Discipline",
+              "Know No Fear",
+              "Tactical Squads",
+              "Deepstrike",
+              "Night Vision",
+              "Psychic Mastery Level 1",
+              "Shock Assault",
+              "Steady",
+              "Stubborn",
+              "Very Bulky"
+            ]
+          },
+          {
+            "name": "Terminator",
+            "stats": {
+              "M": "4",
+              "WS": "2+",
+              "BS": "2+",
+              "S": "4",
+              "T": "4",
+              "W": "3",
+              "I": "4",
+              "A": "3",
+              "Ld": "8",
+              "Sv": "3+"
+            },
+            "rules": [
+              "Monstrous Infantry",
+              "Adjusted Tactics",
+              "Bolter Discipline",
+              "Know No Fear",
+              "Tactical Squads",
+              "Deepstrike",
+              "Night Vision",
+              "Shock Assault",
+              "Steady",
+              "Stubborn",
+              "Very Bulky"
+            ]
+          }
+        ],
+        "fixed_wargear": [
+          "Stormbolter",
+          "Nemesis Force Halberd",
+          "Terminator Honours",
+          "Stormbolter",
+          "Powerfist",
+          "Terminator Honours"
+        ],
+        "options": [
+          {
+            "description": "May take up to 5 more Terminators for +131 points each Justicar may take up to one Spell for each Psychic Mastery Level Any model may swap Stormbolter for S Any model may swap Nemesis Force Halberd for M",
+            "choices": []
+          }
+        ]
+      },
+      {
+        "name": "Primaris Scout Squad",
+        "points_base": 219,
+        "composition": "1 Sergeant 4-9 Scouts",
+        "models": [
+          {
+            "name": "Sergeant",
+            "stats": {
+              "M": "6",
+              "WS": "3+",
+              "BS": "3+",
+              "S": "4",
+              "T": "4",
+              "W": "2",
+              "I": "4",
+              "A": "3",
+              "Ld": "9",
+              "Sv": "4+"
+            },
+            "rules": [
+              "Character",
+              "Infantry",
+              "Bolter Discipline",
+              "Know No Fear",
+              "Transhuman Physiology",
+              "Infiltrate",
+              "Night Vision",
+              "Shock Assault",
+              "Stubborn"
+            ]
+          },
+          {
+            "name": "Scout",
+            "stats": {
+              "M": "6",
+              "WS": "3+",
+              "BS": "3+",
+              "S": "4",
+              "T": "4",
+              "W": "2",
+              "I": "4",
+              "A": "2",
+              "Ld": "8",
+              "Sv": "4+"
+            },
+            "rules": [
+              "Infantry",
+              "Bolter Discipline",
+              "Know No Fear",
+              "Infiltrate",
+              "Transhuman Physiology",
+              "Night Vision",
+              "Shock Assault",
+              "Stubborn",
+              "Stealth"
+            ]
+          }
+        ],
+        "fixed_wargear": [
+          "Shotgun",
+          "Bolt Pistol",
+          "Combat Knife",
+          "Frag Grenades",
+          "Krak Grenades",
+          "Shotgun",
+          "Bolt Pistol",
+          "Combat Knife",
+          "Frag Grenades",
+          "Krak Grenades"
+        ],
+        "options": [
+          {
+            "description": "May take up to 5 more Scouts for +43 points each Sergeant may swap Shotgun for OR or R Sergeant may swap Bolt Pistol for P Sergeant may swap Combat Knife for M Sergeant may swap Krak Grenades for G Any model may swap Shotgun for R Up to two Scouts may swap Shotgun for H The entire unit may take one of each E",
+            "choices": [
+              {
+                "name": "Camo Cloaks",
+                "pts_delta": 2
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Redemptor Dreadnought",
+        "points_base": 204,
+        "composition": "1 Redemptor Dreadnought",
+        "models": [
+          {
+            "name": "Redemptor Dreadnought",
+            "stats": {
+              "M": "8",
+              "WS": "3+",
+              "BS": "3+",
+              "S": "7",
+              "FA": "14",
+              "SA": "12",
+              "RA": "11",
+              "W": "13",
+              "I": "4",
+              "A": "4",
+              "Ld": "9",
+              "Sv": "3+"
+            },
+            "rules": [
+              "Vehicle",
+              "Combat Walker",
+              "Bolter Discipline",
+              "Know No Fear",
+              "Night Vision",
+              "Shock Assault",
+              "Steady",
+              "Stubborn"
+            ]
+          }
+        ],
+        "fixed_wargear": [
+          "2 Ballistus Missile Launchers",
+          "2 Linked Stormbolters"
+        ],
+        "options": [
+          {
+            "description": "May swap any Ballistus Missile Launcher for H",
+            "choices": []
+          },
+          {
+            "description": "May swap 2 Linked Stormbolters for S",
+            "choices": []
+          },
+          {
+            "description": "May take one M",
+            "choices": []
+          },
+          {
+            "description": "May take up to one of each E",
+            "choices": [
+              {
+                "name": "Extra Armour",
+                "pts_delta": 5
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Scout Squad",
+        "points_base": 189,
+        "composition": "1 Sergeant 4-9 Scouts",
+        "models": [
+          {
+            "name": "Sergeant",
+            "stats": {
+              "M": "6",
+              "WS": "3+",
+              "BS": "3+",
+              "S": "4",
+              "T": "4",
+              "W": "2",
+              "I": "4",
+              "A": "2",
+              "Ld": "9",
+              "Sv": "4+"
+            },
+            "rules": [
+              "Character",
+              "Infantry",
+              "Adjusted Tactics",
+              "Bolter Discipline",
+              "Know No Fear",
+              "Tactical Squads",
+              "Infiltrate",
+              "Night Vision",
+              "Objective Secured",
+              "Shock Assault"
+            ]
+          },
+          {
+            "name": "Scout",
+            "stats": {
+              "M": "6",
+              "WS": "3+",
+              "BS": "3+",
+              "S": "4",
+              "T": "4",
+              "W": "2",
+              "I": "4",
+              "A": "1",
+              "Ld": "8",
+              "Sv": "4+"
+            },
+            "rules": [
+              "Infantry",
+              "Adjusted Tactics",
+              "Bolter Discipline",
+              "Know No Fear",
+              "Tactical Squads",
+              "Infiltrate",
+              "Night Vision",
+              "Objective Secured",
+              "Shock Assault",
+              "Stealth"
+            ]
+          }
+        ],
+        "fixed_wargear": [
+          "Shotgun",
+          "Bolt Pistol",
+          "Combat Knife",
+          "Frag Grenades",
+          "Krak Grenades",
+          "Shotgun",
+          "Bolt Pistol",
+          "Combat Knife",
+          "Frag Grenades",
+          "Krak Grenades"
+        ],
+        "options": [
+          {
+            "description": "May take up to 5 more Scouts for +37 points each Sergeant may swap Shotgun for OR or R Sergeant may swap Bolt Pistol for P Sergeant may swap Combat Knife for M Sergeant may swap Krak Grenades for G Any model may swap Shotgun for R One Scout may swap Shotgun for S or H The entire unit may take one of each E",
+            "choices": [
+              {
+                "name": "Camo Cloaks",
+                "pts_delta": 2
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Stormtrooper Platoon",
+        "points_base": 90,
+        "composition": "0-1 Stormtrooper Platoon Command Squad (1 Stormtrooper Commander, 4",
+        "models": [
+          {
+            "name": "Stormtrooper Commander",
+            "stats": {
+              "M": "6",
+              "WS": "3+",
+              "BS": "3+",
+              "S": "3",
+              "T": "3",
+              "W": "4",
+              "I": "3",
+              "A": "3",
+              "Ld": "8",
+              "Sv": "4+"
+            },
+            "rules": []
+          },
+          {
+            "name": "Stormtrooper Sergeant",
+            "stats": {
+              "M": "6",
+              "WS": "4+",
+              "BS": "3+",
+              "S": "3",
+              "T": "3",
+              "W": "1",
+              "I": "3",
+              "A": "2",
+              "Ld": "8",
+              "Sv": "4+"
+            },
+            "rules": []
+          },
+          {
+            "name": "Stormtrooper",
+            "stats": {
+              "M": "6",
+              "WS": "4+",
+              "BS": "3+",
+              "S": "3",
+              "T": "3",
+              "W": "1",
+              "I": "3",
+              "A": "1",
+              "Ld": "7",
+              "Sv": "4+"
+            },
+            "rules": []
+          },
+          {
+            "name": "Stormtrooper Heavy Weapon",
+            "stats": {
+              "M": "6",
+              "WS": "4+",
+              "BS": "3+",
+              "S": "3",
+              "T": "3",
+              "W": "2",
+              "I": "3",
+              "A": "2",
+              "Ld": "7",
+              "Sv": "4+"
+            },
+            "rules": []
+          },
+          {
+            "name": "Team",
+            "stats": {},
+            "rules": []
+          }
+        ],
+        "fixed_wargear": [
+          "Hotshot Laspistol",
+          "Chainsword",
+          "Frag Grenades",
+          "Krak Grenades"
+        ],
+        "options": []
+      }
+    ],
+    "fast_attack": [
+      {
+        "name": "Daemonhost",
+        "points_base": 150,
+        "composition": "1 Daemonhost",
+        "models": [
+          {
+            "name": "Daemonhost",
+            "stats": {
+              "M": "12",
+              "WS": "2+",
+              "BS": "2+",
+              "S": "6",
+              "T": "6",
+              "W": "6",
+              "I": "5",
+              "A": "5",
+              "Ld": "7",
+              "Sv": "-"
+            },
+            "rules": [
+              "Independent Character",
+              "Infantry",
+              "Fearless",
+              "Flying",
+              "Heal",
+              "Bound Daemonic Entity",
+              "Contest Objective Markers.",
+              "Breaking Ritual Bindings"
+            ]
+          }
+        ],
+        "fixed_wargear": [
+          "Unholy Gaze",
+          "Warp Grasp"
+        ],
+        "options": []
+      },
+      {
+        "name": "Death Cult Assassins",
+        "points_base": 36,
+        "composition": "3-10 Cult Assassins",
+        "models": [
+          {
+            "name": "Cult Assassin",
+            "stats": {
+              "M": "6",
+              "WS": "4+",
+              "BS": "4+",
+              "S": "3",
+              "T": "3",
+              "W": "1",
+              "I": "3",
+              "A": "1",
+              "Ld": "7",
+              "Sv": "-"
+            },
+            "rules": [
+              "Infantry",
+              "Fearless",
+              "Fleet",
+              "Stealth",
+              "Death Cult",
+              "Markers."
+            ]
+          }
+        ],
+        "fixed_wargear": [
+          "Throwing Knives",
+          "Dual Power Swords"
+        ],
+        "options": [
+          {
+            "description": "May take up to 7 more Assassins for +12 points each",
+            "choices": []
+          }
+        ]
+      }
+    ],
+    "heavy_support": [
+      {
+        "name": "Land Raider",
+        "points_base": 297,
+        "composition": "1 Land Raider",
+        "models": [
+          {
+            "name": "Land Raider",
+            "stats": {
+              "M": "6",
+              "WS": "5+",
+              "BS": "3+",
+              "S": "8",
+              "FA": "14",
+              "SA": "14",
+              "RA": "14",
+              "W": "16",
+              "I": "1",
+              "A": "6",
+              "Ld": "9",
+              "Sv": "3+"
+            },
+            "rules": [
+              "Vehicle",
+              "Tank",
+              "Adjusted Tactics",
+              "Bolter Discipline",
+              "Know No Fear",
+              "Night Vision",
+              "Shock Assault",
+              "Stubborn",
+              "Transport 16",
+              "Assault Ramps"
+            ]
+          }
+        ],
+        "fixed_wargear": [
+          "2 Linked Heavy Bolters",
+          "2 Hurricane Bolters"
+        ],
+        "options": [
+          {
+            "description": "May swap 2 Linked Heavy Bolters for T",
+            "choices": []
+          },
+          {
+            "description": "May swap 2 Hurricane Bolters for S",
+            "choices": []
+          },
+          {
+            "description": "May take one D",
+            "choices": []
+          },
+          {
+            "description": "May take one M",
+            "choices": []
+          },
+          {
+            "description": "May take one P",
+            "choices": []
+          },
+          {
+            "description": "May take up to one of each E",
+            "choices": [
+              {
+                "name": "Recovery Gear",
+                "pts_delta": 2
+              },
+              {
+                "name": "Extra Armour",
+                "pts_delta": 5
+              },
+              {
+                "name": "Frag Launchers",
+                "pts_delta": 10
+              },
+              {
+                "name": "Smoke Launchers",
+                "pts_delta": 10
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "flyers": [
+      {
+        "name": "Corvus Blackstar",
+        "points_base": 271,
+        "composition": "1 Corvus Blackstar",
+        "models": [
+          {
+            "name": "Corvus Blackstar",
+            "stats": {
+              "M": "50",
+              "WS": "5+",
+              "BS": "3+",
+              "S": "6",
+              "FA": "12",
+              "SA": "12",
+              "RA": "11",
+              "W": "14",
+              "I": "1",
+              "A": "3",
+              "Ld": "10",
+              "Sv": "3+"
+            },
+            "rules": [
+              "Vehicle",
+              "Adjusted Tactics",
+              "Know No Fear",
+              "Deepstrike",
+              "High Altitude",
+              "Hover",
+              "Night Vision",
+              "Shock Assault",
+              "Transport 12",
+              "Bike Transport",
+              "Ranged Attacks"
+            ]
+          }
+        ],
+        "fixed_wargear": [
+          "2 Linked Lascannons",
+          "2 Linked Blackstar Rocket",
+          "Launchers"
+        ],
+        "options": [
+          {
+            "description": "May swap 2 Linked Lascannons for T",
+            "choices": []
+          },
+          {
+            "description": "May swap 2 Linked Blackstar Rocket Launchers for W",
+            "choices": []
+          },
+          {
+            "description": "May take one S",
+            "choices": []
+          },
+          {
+            "description": "May take up to one of each E",
+            "choices": [
+              {
+                "name": "Flare Launchers",
+                "pts_delta": 9
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Valkyrie Squadron",
+        "points_base": 233,
+        "composition": "1-3 Valkyries",
+        "models": [
+          {
+            "name": "Valkyrie",
+            "stats": {
+              "M": "50",
+              "WS": "5+",
+              "BS": "3+",
+              "S": "6",
+              "FA": "12",
+              "SA": "12",
+              "RA": "10",
+              "W": "14",
+              "I": "1",
+              "A": "3",
+              "Ld": "8",
+              "Sv": "3+"
+            },
+            "rules": [
+              "Vehicle",
+              "High Altitude",
+              "Hover",
+              "Deep Strike",
+              "Transport 12",
+              "Terrain Test.",
+              "Ranged Attacks"
+            ]
+          }
+        ],
+        "fixed_wargear": [
+          "Multilaser",
+          "2 Linked Hellstrike Missiles",
+          "Searchlight"
+        ],
+        "options": [
+          {
+            "description": "May take up to 2 more Valkyries for +233 points each Any Valkyrie may swap Multilaser for H Any Valkyrie may take S Any Valkyrie may swap 2 Linked Hellstrike Missiles for W Any Valkyrie may take up to one E each",
+            "choices": [
+              {
+                "name": "Chaff Launcher",
+                "pts_delta": 9
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "dedicated_transport": [
+      {
+        "name": "Chimera",
+        "points_base": 154,
+        "composition": "1 Chimera",
+        "models": [
+          {
+            "name": "Chimera",
+            "stats": {
+              "M": "12",
+              "WS": "5+",
+              "BS": "3+",
+              "S": "6",
+              "FA": "12",
+              "SA": "10",
+              "RA": "10",
+              "W": "10",
+              "I": "1",
+              "A": "3",
+              "Ld": "8",
+              "Sv": "3+"
+            },
+            "rules": [
+              "Vehicle",
+              "Tank",
+              "Aquatic",
+              "Transport 12"
+            ]
+          }
+        ],
+        "fixed_wargear": [
+          "Heavy Flamer T",
+          "Heavy Flamer H",
+          "3 Linked Lasguns",
+          "3 Linked Lasguns"
+        ],
+        "options": [
+          {
+            "description": "May swap Heavy Flamer T for T",
+            "choices": []
+          },
+          {
+            "description": "May swap Heavy Flamer H for H",
+            "choices": []
+          },
+          {
+            "description": "May take one D",
+            "choices": []
+          },
+          {
+            "description": "May take one P",
+            "choices": []
+          },
+          {
+            "description": "May take one M",
+            "choices": []
+          },
+          {
+            "description": "May take any E one time each",
+            "choices": []
+          },
+          {
+            "description": "May take Augar Array",
+            "choices": [
+              {
+                "name": "Augar Array",
+                "pts_delta": 5
+              }
+            ]
+          },
+          {
+            "description": "May take Camo Netting",
+            "choices": [
+              {
+                "name": "Camo Netting",
+                "pts_delta": 6
+              }
+            ]
+          },
+          {
+            "description": "May take Extra Armour",
+            "choices": [
+              {
+                "name": "Extra Armour",
+                "pts_delta": 5
+              }
+            ]
+          },
+          {
+            "description": "May take Recovery Gear",
+            "choices": [
+              {
+                "name": "Recovery Gear",
+                "pts_delta": 2
+              }
+            ]
+          },
+          {
+            "description": "May take Searchlight",
+            "choices": [
+              {
+                "name": "Searchlight",
+                "pts_delta": 1
+              }
+            ]
+          },
+          {
+            "description": "May take Smoke Launchers",
+            "choices": [
+              {
+                "name": "Smoke Launchers",
+                "pts_delta": 10
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Impulsor",
+        "points_base": 184,
+        "composition": "1 Impulsor",
+        "models": [
+          {
+            "name": "Impulsor",
+            "stats": {
+              "M": "8",
+              "WS": "5+",
+              "BS": "3+",
+              "S": "7",
+              "FA": "13",
+              "SA": "13",
+              "RA": "12",
+              "W": "12",
+              "I": "1",
+              "A": "3",
+              "Ld": "9",
+              "Sv": "3+"
+            },
+            "rules": [
+              "Vehicle",
+              "Tank",
+              "Know No Fear",
+              "Night Vision",
+              "Shock Assault",
+              "Stubborn",
+              "Transport 12",
+              "Assault Ramps.",
+              "The Hour is Nigh",
+              "T Minus 5",
+              "Save."
+            ]
+          }
+        ],
+        "fixed_wargear": [
+          "2 Fragstorm Grenade Launchers"
+        ],
+        "options": [
+          {
+            "description": "May swap 2 Fragstorm Grenade Launchers for S",
+            "choices": []
+          },
+          {
+            "description": "May take one T or SE",
+            "choices": [
+              {
+                "name": "Shield Dome",
+                "pts_delta": 40
+              }
+            ]
+          },
+          {
+            "description": "May take one P",
+            "choices": []
+          },
+          {
+            "description": "May take up to one of each E",
+            "choices": [
+              {
+                "name": "Extra Armour",
+                "pts_delta": 5
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Razorback",
+        "points_base": 146,
+        "composition": "1 Razorback",
+        "models": [
+          {
+            "name": "Razorback",
+            "stats": {
+              "M": "12",
+              "WS": "5+",
+              "BS": "3+",
+              "S": "6",
+              "FA": "11",
+              "SA": "11",
+              "RA": "10",
+              "W": "10",
+              "I": "1",
+              "A": "3",
+              "Ld": "9",
+              "Sv": "3+"
+            },
+            "rules": [
+              "Vehicle",
+              "Tank",
+              "Adjusted Tactics",
+              "Bolter Discipline",
+              "Know No Fear",
+              "Night Vision",
+              "Shock Assault",
+              "Stubborn",
+              "Transport 6"
+            ]
+          }
+        ],
+        "fixed_wargear": [
+          "2 Linked Heavy Bolters"
+        ],
+        "options": [
+          {
+            "description": "May swap 2 Linked Heavy Bolters for T",
+            "choices": []
+          },
+          {
+            "description": "May take one D",
+            "choices": []
+          },
+          {
+            "description": "May take one M",
+            "choices": []
+          },
+          {
+            "description": "May take one P",
+            "choices": []
+          },
+          {
+            "description": "May take up to one of each E",
+            "choices": [
+              {
+                "name": "Recovery Gear",
+                "pts_delta": 2
+              },
+              {
+                "name": "Extra Armour",
+                "pts_delta": 5
+              },
+              {
+                "name": "Smoke Launchers",
+                "pts_delta": 10
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Rhino",
+        "points_base": 142,
+        "composition": "1 Rhino",
+        "models": [
+          {
+            "name": "Rhino",
+            "stats": {
+              "M": "12",
+              "WS": "5+",
+              "BS": "3+",
+              "S": "6",
+              "FA": "11",
+              "SA": "11",
+              "RA": "10",
+              "W": "10",
+              "I": "1",
+              "A": "3",
+              "Ld": "9",
+              "Sv": "3+"
+            },
+            "rules": [
+              "Vehicle",
+              "Tank",
+              "Bolter Discipline",
+              "Know No Fear",
+              "Night Vision",
+              "Shock Assault",
+              "Stubborn",
+              "Transport 12"
+            ]
+          }
+        ],
+        "fixed_wargear": [
+          "None"
+        ],
+        "options": [
+          {
+            "description": "May take one D",
+            "choices": []
+          },
+          {
+            "description": "May take one M",
+            "choices": []
+          },
+          {
+            "description": "May take up to two P",
+            "choices": []
+          },
+          {
+            "description": "May take up to one of each E",
+            "choices": [
+              {
+                "name": "Recovery Gear",
+                "pts_delta": 2
+              },
+              {
+                "name": "Extra Armour",
+                "pts_delta": 5
+              },
+              {
+                "name": "Smoke Launchers",
+                "pts_delta": 10
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "lord_of_war": [
+      {
+        "name": "Assassins",
+        "points_base": 338,
+        "composition": "1 Calexus",
+        "models": [
+          {
+            "name": "Calexus Assassin",
+            "stats": {
+              "M": "8",
+              "WS": "2+",
+              "BS": "2+",
+              "S": "4",
+              "T": "4",
+              "W": "6",
+              "I": "7",
+              "A": "5",
+              "Ld": "9",
+              "Sv": "-"
+            },
+            "rules": []
+          },
+          {
+            "name": "Calexus",
+            "stats": {},
+            "rules": [
+              "Independent Character",
+              "Infantry",
+              "Lone Operative",
+              "Fearless",
+              "Fleet",
+              "Infiltrate",
+              "Objective Secured",
+              "Stealth",
+              "Stubborn",
+              "Etherium",
+              "Life Drain",
+              "Psychic Abomination"
+            ]
+          }
+        ],
+        "fixed_wargear": [
+          "Animus Speculum",
+          "Life Drain",
+          "Psykout Grenades"
+        ],
+        "options": []
+      },
+      {
+        "name": "Callidus Assassin",
+        "points_base": 454,
+        "composition": "1 Callidus",
+        "models": [
+          {
+            "name": "Callidus",
+            "stats": {
+              "M": "8",
+              "WS": "2+",
+              "BS": "2+",
+              "S": "4",
+              "T": "4",
+              "W": "6",
+              "I": "7",
+              "A": "5",
+              "Ld": "9",
+              "Sv": "-"
+            },
+            "rules": [
+              "Independent Character",
+              "Infantry",
+              "Lone Operative",
+              "Fearless",
+              "Fleet",
+              "Infiltrate",
+              "Objective Secured",
+              "Stealth",
+              "Stubborn",
+              "Polymorphine",
+              "Melee.",
+              "Command Phase.",
+              "Reign of Confusion"
+            ]
+          }
+        ],
+        "fixed_wargear": [
+          "Neural Shredder",
+          "Throwing Knives",
+          "Phase Sword"
+        ],
+        "options": []
+      },
+      {
+        "name": "Eversor Assassin",
+        "points_base": 338,
+        "composition": "1 Eversor",
+        "models": [
+          {
+            "name": "Eversor",
+            "stats": {
+              "M": "8",
+              "WS": "2+",
+              "BS": "2+",
+              "S": "4",
+              "T": "4",
+              "W": "6",
+              "I": "7",
+              "A": "5",
+              "Ld": "9",
+              "Sv": "-"
+            },
+            "rules": [
+              "Independent Character",
+              "Infantry",
+              "Lone Operative",
+              "Counterattack",
+              "Fearless",
+              "Fleet",
+              "Infiltrate",
+              "Objective Secured",
+              "Stealth",
+              "Stubborn",
+              "Frenzon",
+              "Insane Murderer",
+              "Rampage",
+              "Melee.",
+              "Stimulants",
+              "No Pain."
+            ]
+          }
+        ],
+        "fixed_wargear": [
+          "Ripper Pistol",
+          "Needle Pistol",
+          "Neuro Gauntlet",
+          "Power Sword",
+          "Meltabombs"
+        ],
+        "options": []
+      },
+      {
+        "name": "Vindicare Assassin",
+        "points_base": 387,
+        "composition": "1 Vindicare",
+        "models": [
+          {
+            "name": "Vindicare",
+            "stats": {
+              "M": "8",
+              "WS": "2+",
+              "BS": "2+",
+              "S": "4",
+              "T": "4",
+              "W": "6",
+              "I": "7",
+              "A": "5",
+              "Ld": "9",
+              "Sv": "-"
+            },
+            "rules": [
+              "Independent Character",
+              "Infantry",
+              "Lone Operative",
+              "Fearless",
+              "Fleet",
+              "Infiltrate",
+              "Objective Secured",
+              "Stealth",
+              "Stubborn",
+              "Exitus Rounds"
+            ]
+          }
+        ],
+        "fixed_wargear": [
+          "Exitus Rifle",
+          "Exitus Pistol",
+          "Combat Knife",
+          "Blind Grenades",
+          "Spy Mask"
+        ],
+        "options": []
+      },
+      {
+        "name": "Vindicare Assassin",
+        "points_base": 133,
+        "composition": "",
+        "models": [
+          {
+            "name": "Vindicare",
+            "stats": {
+              "M": "8",
+              "WS": "2+",
+              "BS": "2+",
+              "S": "4",
+              "T": "4",
+              "W": "6",
+              "I": "7",
+              "A": "5",
+              "Ld": "9",
+              "Sv": "-"
+            },
+            "rules": [
+              "Command Codes"
+            ]
+          }
+        ],
+        "fixed_wargear": [
+          "Exitus Rifle",
+          "Exitus Pistol",
+          "Combat Knife",
+          "Blind Grenades",
+          "Spy Mask"
+        ],
+        "options": []
+      },
+      {
+        "name": "Thunderhawk Gunship",
+        "points_base": 847,
+        "composition": "1 Thunderhawk",
+        "models": [
+          {
+            "name": "Thunderhawk",
+            "stats": {
+              "M": "50",
+              "WS": "5+",
+              "BS": "3+",
+              "S": "10",
+              "FA": "12",
+              "SA": "12",
+              "RA": "10",
+              "W": "30",
+              "I": "1",
+              "A": "9",
+              "Ld": "9",
+              "Sv": "3+"
+            },
+            "rules": [
+              "Titanic Vehicle",
+              "Adjusted Tactics",
+              "Deepstrike",
+              "Fearless",
+              "High Altitude",
+              "Hover",
+              "Night Vision",
+              "Shock Assault",
+              "Stubborn",
+              "Transport 30",
+              "Ranged Attacks"
+            ]
+          }
+        ],
+        "fixed_wargear": [
+          "Thunderhawk Heavy Cannon",
+          "2 Linked Lascannons",
+          "4 Sets of 2 Linked Heavy Bolters",
+          "2 Linked Hellstrike Missile Racks"
+        ],
+        "options": [
+          {
+            "description": "May swap Thunderhawk Heavy Cannon for T",
+            "choices": []
+          },
+          {
+            "description": "May swap 2 Linked Hellstrike Missile Racks for W",
+            "choices": []
+          },
+          {
+            "description": "May take up to one of each E",
+            "choices": [
+              {
+                "name": "Chaff Launchers",
+                "pts_delta": 18
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Thunderhawk Transporter",
+        "points_base": 774,
+        "composition": "1 Thunderhawk",
+        "models": [
+          {
+            "name": "Thunderhawk",
+            "stats": {
+              "M": "50",
+              "WS": "5+",
+              "BS": "3+",
+              "S": "10",
+              "FA": "12",
+              "SA": "12",
+              "RA": "10",
+              "W": "30",
+              "I": "1",
+              "A": "9",
+              "Ld": "9",
+              "Sv": "3+"
+            },
+            "rules": [
+              "Titanic Vehicle",
+              "Adjusted Tactics",
+              "Deepstrike",
+              "Fearless",
+              "High Altitude",
+              "Hover",
+              "Night Vision",
+              "Shock Assault",
+              "Stubborn",
+              "Transport 15",
+              "Tank Transport",
+              "Ranged Attacks"
+            ]
+          }
+        ],
+        "fixed_wargear": [
+          "2 Linked Lascannons",
+          "4 Sets of 2 Linked Heavy Bolters",
+          "2 Linked Hellstrike Missile Racks"
+        ],
+        "options": [
+          {
+            "description": "May swap 2 Linked Hellstrike Missile Racks for W",
+            "choices": []
+          },
+          {
+            "description": "May take up to one of each E",
+            "choices": [
+              {
+                "name": "Chaff Launchers",
+                "pts_delta": 18
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Imperial Fortress",
+        "points_base": 2339,
+        "composition": "1 Gate 2 Gate Towers 2 Walls 2 Towers",
+        "models": [
+          {
+            "name": "Gate",
+            "stats": {},
+            "rules": [
+              "Building",
+              "Titanic"
+            ]
+          },
+          {
+            "name": "Gate Towers",
+            "stats": {},
+            "rules": []
+          },
+          {
+            "name": "Walls",
+            "stats": {},
+            "rules": []
+          },
+          {
+            "name": "Towers",
+            "stats": {},
+            "rules": []
+          }
+        ],
+        "fixed_wargear": [
+          "Heavy Gate",
+          "2 Linked Heavy Bolters",
+          "None",
+          "2 Linked Autocannons"
+        ],
+        "options": [
+          {
+            "description": "May add as many sets of 1 Gate and 2 Gate Towers as you want for +967 points",
+            "choices": []
+          },
+          {
+            "description": "May add as many Walls as you want for +299 points each",
+            "choices": []
+          },
+          {
+            "description": "May add as many Towers as you want for +387 points",
+            "choices": []
+          }
+        ]
+      }
+    ],
+    "fortifications": [
+      {
+        "name": "Primaris Redoubt",
+        "points_base": 629,
+        "composition": "1 Primaris Redoubt",
+        "models": [
+          {
+            "name": "Primaris Redoubt",
+            "stats": {},
+            "rules": [
+              "Building"
+            ]
+          }
+        ],
+        "fixed_wargear": [
+          "2 Linked Turbolaser Destructors"
+        ],
+        "options": []
+      },
+      {
+        "name": "Aegis Weapon Emplacement",
+        "points_base": 66,
+        "composition": "1 Aegis Weapon Emplacement",
+        "models": [
+          {
+            "name": "Platform",
+            "stats": {},
+            "rules": [
+              "Building"
+            ]
+          }
+        ],
+        "fixed_wargear": [
+          "Long Lascannon"
+        ],
+        "options": [
+          {
+            "description": "May swap Long Lascannon for H",
+            "choices": []
+          }
+        ]
+      },
+      {
+        "name": "Aquila Strongpoint",
+        "points_base": 448,
+        "composition": "1 Aquila Strongpoint",
+        "models": [
+          {
+            "name": "Aquila Strongpoint",
+            "stats": {},
+            "rules": [
+              "Building"
+            ]
+          }
+        ],
+        "fixed_wargear": [
+          "Plasma Obliterator"
+        ],
+        "options": []
+      },
+      {
+        "name": "Imperial Bastion",
+        "points_base": 397,
+        "composition": "1 Firestorm Redoubt",
+        "models": [
+          {
+            "name": "Imperial Bastion",
+            "stats": {},
+            "rules": [
+              "Building"
+            ]
+          }
+        ],
+        "fixed_wargear": [
+          "4 Heavy Bolters"
+        ],
+        "options": []
+      },
+      {
+        "name": "Imperial Bastion",
+        "points_base": 429,
+        "composition": "1 Imperial Bastion",
+        "models": [
+          {
+            "name": "Imperial Bastion",
+            "stats": {},
+            "rules": [
+              "Building"
+            ]
+          }
+        ],
+        "fixed_wargear": [
+          "4 Heavy Bolters"
+        ],
+        "options": []
+      },
+      {
+        "name": "Vengeance Weapon Battery",
+        "points_base": 474,
+        "composition": "1 Plasma Obliterator",
+        "models": [
+          {
+            "name": "Vengeance Weapon Battery",
+            "stats": {},
+            "rules": [
+              "Building"
+            ]
+          }
+        ],
+        "fixed_wargear": [
+          "Avenger Gatling Cannon"
+        ],
+        "options": [
+          {
+            "description": "May swap Avenger Gatling Cannon for H",
+            "choices": []
+          }
+        ]
+      },
+      {
+        "name": "Vengeance Weapon Battery",
+        "points_base": 249,
+        "composition": "1 Vengeance Weapon Battery",
+        "models": [
+          {
+            "name": "Vengeance Weapon Battery",
+            "stats": {},
+            "rules": [
+              "Building"
+            ]
+          }
+        ],
+        "fixed_wargear": [
+          "Avenger Gatling Cannon"
+        ],
+        "options": [
+          {
+            "description": "May swap Avenger Gatling Cannon for H",
+            "choices": []
+          }
+        ]
+      },
+      {
+        "name": "Void Shield Generator",
+        "points_base": 307,
+        "composition": "1 Void Shield Generator",
+        "models": [
+          {
+            "name": "Void Shield Generator",
+            "stats": {},
+            "rules": [
+              "Building"
+            ]
+          }
+        ],
+        "fixed_wargear": [
+          "none"
+        ],
+        "options": []
+      }
+    ]
+  }
+}

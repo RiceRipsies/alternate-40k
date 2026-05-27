@@ -1,0 +1,80 @@
+{
+  "id": "behemoth",
+  "name": "Behemoth Codex",
+  "difficulty": 3,
+  "subfactions": [
+    {
+      "name": "Average"
+    }
+  ],
+  "slots": {
+    "advisors": [
+      {
+        "name": "Old One Eye",
+        "points_base": 282,
+        "composition": "1 Old One Eye",
+        "models": [
+          {
+            "name": "Old One Eye",
+            "stats": {
+              "M": "8",
+              "WS": "2+",
+              "BS": "5+",
+              "S": "10",
+              "T": "8",
+              "W": "10",
+              "I": "2",
+              "A": "5",
+              "Ld": "7",
+              "Sv": "3+"
+            },
+            "rules": [
+              "Independent Character",
+              "Unique",
+              "Behemoth",
+              "Monster",
+              "Infiltrate",
+              "Shock Assault",
+              "Immortal",
+              "Save",
+              "Range S"
+            ]
+          }
+        ],
+        "fixed_wargear": [
+          "Monstrous Scything Talons",
+          "Monstrous Crushing Claws",
+          "Bone Mace Tail"
+        ],
+        "options": [
+          {
+            "description": "May take up to one of each B",
+            "choices": [
+              {
+                "name": "Acid Blood",
+                "pts_delta": 6
+              },
+              {
+                "name": "Adrenal Glands",
+                "pts_delta": 2
+              },
+              {
+                "name": "Regeneration",
+                "pts_delta": 2
+              }
+            ]
+          },
+          {
+            "description": "May take one H",
+            "choices": [
+              {
+                "name": "Tusks",
+                "pts_delta": 2
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,2069 @@
+{
+  "id": "adeptus-mechanicus-codex",
+  "name": "Adeptus Mechanicus",
+  "difficulty": 2,
+  "subfactions": [
+    {
+      "name": "Average"
+    }
+  ],
+  "slots": {
+    "hq": [
+      {
+        "name": "Belisarius Cawl",
+        "points_base": 309,
+        "composition": "1 Cawl",
+        "models": [
+          {
+            "name": "Cawl",
+            "stats": {
+              "M": "6",
+              "WS": "2+",
+              "BS": "2+",
+              "S": "5",
+              "T": "6",
+              "W": "8",
+              "I": "5",
+              "A": "5",
+              "Ld": "10",
+              "Sv": "3+"
+            },
+            "rules": [
+              "Independent Character",
+              "Monstrous Infantry",
+              "Unique",
+              "Fearless",
+              "Heal",
+              "Invasive Hack",
+              "Hit.",
+              "Lord of the Machine Cult"
+            ]
+          }
+        ],
+        "fixed_wargear": [
+          "Solar Atomizer",
+          "Omnissian Axe",
+          "Arc Scourge",
+          "Mechandrite Hive",
+          "Force Field"
+        ],
+        "options": []
+      },
+      {
+        "name": "Thulia Ghuld",
+        "points_base": 334,
+        "composition": "1 Ghuld",
+        "models": [
+          {
+            "name": "Ghuld",
+            "stats": {
+              "M": "6",
+              "WS": "2+",
+              "BS": "2+",
+              "S": "6",
+              "T": "7",
+              "W": "8",
+              "I": "4",
+              "A": "4",
+              "Ld": "10",
+              "Sv": "3+"
+            },
+            "rules": [
+              "Independent Character",
+              "Monster",
+              "Unique",
+              "Mars",
+              "Fearless",
+              "Heal",
+              "Curator of Destruction",
+              "Lord of the Machine Cult",
+              "Master of War",
+              "Stubborn."
+            ]
+          }
+        ],
+        "fixed_wargear": [
+          "Jericho Class Conversion",
+          "Resonator",
+          "Rod of the War Forge",
+          "Force Field",
+          "Standard"
+        ],
+        "options": []
+      },
+      {
+        "name": "Tech Priest Dominus",
+        "points_base": 194,
+        "composition": "1 Marshall",
+        "models": [
+          {
+            "name": "Dominus",
+            "stats": {
+              "M": "6",
+              "WS": "3+",
+              "BS": "3+",
+              "S": "4",
+              "T": "4",
+              "W": "5",
+              "I": "3",
+              "A": "3",
+              "Ld": "10",
+              "Sv": "3+"
+            },
+            "rules": [
+              "Independent Character",
+              "Infantry",
+              "Fearless",
+              "Heal",
+              "Servo Skull Uplink",
+              "Objective Secured.",
+              "Skitarii Marshall",
+              "Points: 162"
+            ]
+          }
+        ],
+        "fixed_wargear": [
+          "Macrostubber",
+          "Volkite Blaster",
+          "Omnissian Axe",
+          "Force Field"
+        ],
+        "options": [
+          {
+            "description": "May swap Macrostubber for P",
+            "choices": []
+          },
+          {
+            "description": "May swap Volkite Blaster for S",
+            "choices": []
+          }
+        ]
+      },
+      {
+        "name": "Tech Priest Dominus",
+        "points_base": 162,
+        "composition": "1 Dominus",
+        "models": [
+          {
+            "name": "Dominus",
+            "stats": {
+              "M": "6",
+              "WS": "3+",
+              "BS": "3+",
+              "S": "4",
+              "T": "4",
+              "W": "5",
+              "I": "3",
+              "A": "3",
+              "Ld": "10",
+              "Sv": "3+"
+            },
+            "rules": [
+              "Independent Character",
+              "Infantry",
+              "Fearless",
+              "Heal",
+              "Lord of the Machine Cult"
+            ]
+          }
+        ],
+        "fixed_wargear": [
+          "Macrostubber",
+          "Volkite Blaster",
+          "Omnissian Axe",
+          "Force Field"
+        ],
+        "options": [
+          {
+            "description": "May swap Macrostubber for P",
+            "choices": []
+          },
+          {
+            "description": "May swap Volkite Blaster for S",
+            "choices": []
+          }
+        ]
+      }
+    ],
+    "advisors": [
+      {
+        "name": "Daedalosus",
+        "points_base": 123,
+        "composition": "1 Datasmith",
+        "models": [
+          {
+            "name": "Daedalosus",
+            "stats": {
+              "M": "6",
+              "WS": "3+",
+              "BS": "3+",
+              "S": "3",
+              "T": "4",
+              "W": "4",
+              "I": "3",
+              "A": "3",
+              "Ld": "8",
+              "Sv": "3+"
+            },
+            "rules": []
+          },
+          {
+            "name": "X-101",
+            "stats": {
+              "M": "6",
+              "WS": "4+",
+              "BS": "4+",
+              "S": "3",
+              "T": "4",
+              "W": "4",
+              "I": "3",
+              "A": "3",
+              "Ld": "8",
+              "Sv": "4+"
+            },
+            "rules": [
+              "Independent Character",
+              "Infantry",
+              "Fearless",
+              "Datasmith",
+              "Wound.",
+              "Escort",
+              "Monster."
+            ]
+          }
+        ],
+        "fixed_wargear": [
+          "Eradication Pistol",
+          "Servo Arm",
+          "Refractor Field",
+          "Archeotech Device",
+          "Grav Gun",
+          "Servo Arm"
+        ],
+        "options": []
+      },
+      {
+        "name": "Daedalosus",
+        "points_base": 200,
+        "composition": "1 Daedalosus 1 X-101",
+        "models": [
+          {
+            "name": "Daedalosus",
+            "stats": {
+              "M": "6",
+              "WS": "3+",
+              "BS": "3+",
+              "S": "3",
+              "T": "4",
+              "W": "4",
+              "I": "3",
+              "A": "3",
+              "Ld": "8",
+              "Sv": "3+"
+            },
+            "rules": [
+              "Independent Character",
+              "Infantry",
+              "Unique"
+            ]
+          },
+          {
+            "name": "X-101",
+            "stats": {
+              "M": "6",
+              "WS": "4+",
+              "BS": "4+",
+              "S": "3",
+              "T": "4",
+              "W": "4",
+              "I": "3",
+              "A": "3",
+              "Ld": "8",
+              "Sv": "4+"
+            },
+            "rules": [
+              "Independent Character",
+              "Infantry",
+              "Unique",
+              "Steady",
+              "Feel No Pain 5+"
+            ]
+          }
+        ],
+        "fixed_wargear": [
+          "Eradication Pistol",
+          "Servo Arm",
+          "Refractor Field",
+          "Archeotech Device",
+          "Grav Gun",
+          "Servo Arm"
+        ],
+        "options": []
+      },
+      {
+        "name": "Enginseer",
+        "points_base": 62,
+        "composition": "1 Enginseer 0-9 Servitors",
+        "models": [
+          {
+            "name": "Enginseer",
+            "stats": {
+              "M": "6",
+              "WS": "3+",
+              "BS": "3+",
+              "S": "3",
+              "T": "4",
+              "W": "4",
+              "I": "3",
+              "A": "3",
+              "Ld": "8",
+              "Sv": "3+"
+            },
+            "rules": [
+              "Independent Character",
+              "Infantry",
+              "Repair",
+              "Weapon Destroyed."
+            ]
+          },
+          {
+            "name": "Servitor",
+            "stats": {
+              "M": "6",
+              "WS": "4+",
+              "BS": "4+",
+              "S": "3",
+              "T": "4",
+              "W": "1",
+              "I": "3",
+              "A": "1",
+              "Ld": "8",
+              "Sv": "4+"
+            },
+            "rules": [
+              "Steady",
+              "Feel No Pain 5+"
+            ]
+          }
+        ],
+        "fixed_wargear": [
+          "Laspistol",
+          "Omnissian Axe",
+          "Servo Arm",
+          "Frag Grenades",
+          "Krak Grenades",
+          "Servo Arm"
+        ],
+        "options": [
+          {
+            "description": "May take up to 9 Servitors for +21 points each Any Servitor may swap its Servo Arm for A",
+            "choices": []
+          }
+        ]
+      },
+      {
+        "name": "Manipulus",
+        "points_base": 72,
+        "composition": "1 Enginseer 0-9 Servitors",
+        "models": [
+          {
+            "name": "Manipulus",
+            "stats": {
+              "M": "6",
+              "WS": "3+",
+              "BS": "3+",
+              "S": "3",
+              "T": "4",
+              "W": "5",
+              "I": "3",
+              "A": "3",
+              "Ld": "8",
+              "Sv": "3+"
+            },
+            "rules": []
+          },
+          {
+            "name": "Servitor",
+            "stats": {
+              "M": "6",
+              "WS": "4+",
+              "BS": "4+",
+              "S": "3",
+              "T": "4",
+              "W": "1",
+              "I": "3",
+              "A": "1",
+              "Ld": "8",
+              "Sv": "4+"
+            },
+            "rules": [
+              "Independent Character",
+              "Infantry",
+              "Repair",
+              "Weapon Destroyed.",
+              "Steady",
+              "Feel No Pain 5+"
+            ]
+          }
+        ],
+        "fixed_wargear": [
+          "Flamer",
+          "Omnissian Axe",
+          "Mechadendrites",
+          "Servo Arm"
+        ],
+        "options": [
+          {
+            "description": "May take up to 9 Servitors for +21 points each Any Servitor may swap its Servo Arm for A",
+            "choices": []
+          }
+        ]
+      },
+      {
+        "name": "Technoarcheologist",
+        "points_base": 80,
+        "composition": "1 Skatros",
+        "models": [
+          {
+            "name": "Technoarcheologist",
+            "stats": {
+              "M": "6",
+              "WS": "3+",
+              "BS": "3+",
+              "S": "3",
+              "T": "4",
+              "W": "4",
+              "I": "3",
+              "A": "3",
+              "Ld": "8",
+              "Sv": "3+"
+            },
+            "rules": [
+              "Independent Character",
+              "Infantry",
+              "Fearless",
+              "Infiltrate",
+              "Stealth",
+              "High Vantage Point",
+              "Falling Back.",
+              "Points: 108"
+            ]
+          }
+        ],
+        "fixed_wargear": [
+          "Eradication Pistol",
+          "Servo Arm",
+          "Refractor Field",
+          "Omniscrambler"
+        ],
+        "options": []
+      },
+      {
+        "name": "Technoarcheologist",
+        "points_base": 108,
+        "composition": "1 Technoarcheologist",
+        "models": [
+          {
+            "name": "Technoarcheologist",
+            "stats": {
+              "M": "6",
+              "WS": "3+",
+              "BS": "3+",
+              "S": "3",
+              "T": "4",
+              "W": "4",
+              "I": "3",
+              "A": "3",
+              "Ld": "8",
+              "Sv": "3+"
+            },
+            "rules": [
+              "Independent Character",
+              "Infantry",
+              "Unique"
+            ]
+          }
+        ],
+        "fixed_wargear": [
+          "Eradication Pistol",
+          "Servo Arm",
+          "Refractor Field",
+          "Omniscrambler"
+        ],
+        "options": []
+      }
+    ],
+    "troops": [
+      {
+        "name": "Kataphrons",
+        "points_base": 174,
+        "composition": "3-6 Kataphrons",
+        "models": [
+          {
+            "name": "Kataphron",
+            "stats": {
+              "M": "6",
+              "WS": "3+",
+              "BS": "3+",
+              "S": "5",
+              "T": "5",
+              "W": "3",
+              "I": "3",
+              "A": "3",
+              "Ld": "7",
+              "Sv": "4+"
+            },
+            "rules": [
+              "Monstrous Infantry",
+              "Fearless",
+              "Steady",
+              "Very Bulky"
+            ]
+          }
+        ],
+        "fixed_wargear": [
+          "Heavy Arc Rifle",
+          "Arc Claw"
+        ],
+        "options": [
+          {
+            "description": "May take up to 3 more Kataphrons for +58 points each Any model may swap Heavy Arc Rifle for H Any model may swap Arc Claw for M Any model may take one B",
+            "choices": [
+              {
+                "name": "Heavy Armour",
+                "pts_delta": 8
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Rangers",
+        "points_base": 81,
+        "composition": "1 Alpha 4-19 Rangers",
+        "models": [
+          {
+            "name": "Alpha",
+            "stats": {
+              "M": "6",
+              "WS": "3+",
+              "BS": "3+",
+              "S": "3",
+              "T": "4",
+              "W": "1",
+              "I": "3",
+              "A": "2",
+              "Ld": "8",
+              "Sv": "4+"
+            },
+            "rules": [
+              "Character",
+              "Infantry",
+              "Fearless"
+            ]
+          },
+          {
+            "name": "Ranger",
+            "stats": {
+              "M": "6",
+              "WS": "3+",
+              "BS": "3+",
+              "S": "3",
+              "T": "4",
+              "W": "1",
+              "I": "3",
+              "A": "1",
+              "Ld": "7",
+              "Sv": "4+"
+            },
+            "rules": [
+              "Infantry",
+              "Fearless"
+            ]
+          }
+        ],
+        "fixed_wargear": [
+          "Radium Pistol",
+          "Galvanic Rifle"
+        ],
+        "options": [
+          {
+            "description": "May take up to 15 more Rangers for +16 points each Alpha may swap Radium Pistol for P Alpha may take one M Up to three Rangers may swap Galvanic Rifle for R",
+            "choices": []
+          }
+        ]
+      },
+      {
+        "name": "Vanguards",
+        "points_base": 86,
+        "composition": "1 Alpha 4-19 Vanguards",
+        "models": [
+          {
+            "name": "Alpha",
+            "stats": {
+              "M": "6",
+              "WS": "3+",
+              "BS": "3+",
+              "S": "3",
+              "T": "4",
+              "W": "1",
+              "I": "3",
+              "A": "2",
+              "Ld": "8",
+              "Sv": "4+"
+            },
+            "rules": [
+              "Character",
+              "Infantry",
+              "Fearless",
+              "Scout"
+            ]
+          },
+          {
+            "name": "Vanguard",
+            "stats": {
+              "M": "6",
+              "WS": "3+",
+              "BS": "3+",
+              "S": "3",
+              "T": "4",
+              "W": "1",
+              "I": "3",
+              "A": "1",
+              "Ld": "7",
+              "Sv": "4+"
+            },
+            "rules": [
+              "Infantry",
+              "Fearless",
+              "Scout"
+            ]
+          }
+        ],
+        "fixed_wargear": [
+          "Radium Pistol",
+          "Radium Carbines"
+        ],
+        "options": [
+          {
+            "description": "May take up to 15 more Vanguards for +17 points each Alpha may swap Radium Pistol for P Alpha may take one M Up to three Vanguards may swap Galvanic Rifle for R",
+            "choices": []
+          }
+        ]
+      }
+    ],
+    "elites": [
+      {
+        "name": "Electro Priests",
+        "points_base": 74,
+        "composition": "1 Alpha 4-19 Priests",
+        "models": [
+          {
+            "name": "Alpha",
+            "stats": {
+              "M": "6",
+              "WS": "4+",
+              "BS": "4+",
+              "S": "3",
+              "T": "4",
+              "W": "1",
+              "I": "3",
+              "A": "2",
+              "Ld": "8",
+              "Sv": "6"
+            },
+            "rules": [
+              "Character",
+              "Infantry",
+              "Stubborn"
+            ]
+          },
+          {
+            "name": "Priest",
+            "stats": {},
+            "rules": [
+              "Infantry",
+              "Stubborn"
+            ]
+          }
+        ],
+        "fixed_wargear": [
+          "Electroleech Stave",
+          "Electrical Forcefield",
+          "Electroleech Stave",
+          "Electrical Forcefield"
+        ],
+        "options": [
+          {
+            "description": "May take up to 15 more Priests for +14 points each Any model may swap Electroleech Stave for M",
+            "choices": []
+          }
+        ]
+      },
+      {
+        "name": "Sicutarii Hoplites",
+        "points_base": 258,
+        "composition": "1 Alpha 4-9 Hoplites",
+        "models": [
+          {
+            "name": "Alpha",
+            "stats": {
+              "M": "6",
+              "WS": "2+",
+              "BS": "2+",
+              "S": "3",
+              "T": "4",
+              "W": "2",
+              "I": "3",
+              "A": "3",
+              "Ld": "9",
+              "Sv": "3+"
+            },
+            "rules": [
+              "Character",
+              "Infantry",
+              "Fearless",
+              "Titan Protector"
+            ]
+          },
+          {
+            "name": "Hoplite",
+            "stats": {
+              "M": "6",
+              "WS": "2+",
+              "BS": "2+",
+              "S": "3",
+              "T": "4",
+              "W": "2",
+              "I": "3",
+              "A": "2",
+              "Ld": "8",
+              "Sv": "3+"
+            },
+            "rules": [
+              "Infantry",
+              "Fearless",
+              "Titan Protector"
+            ]
+          }
+        ],
+        "fixed_wargear": [
+          "Radium Pistol",
+          "Storm Shield",
+          "Arc Lance",
+          "Storm Shield"
+        ],
+        "options": [
+          {
+            "description": "May take up to 5 more Hoplites for +52 points each Alpha may swap Radium Pistol for P Alpha may take one M",
+            "choices": []
+          }
+        ]
+      },
+      {
+        "name": "Sicutarii Peltasts",
+        "points_base": 206,
+        "composition": "1 Alpha 4-9 Peltasts",
+        "models": [
+          {
+            "name": "Alpha",
+            "stats": {
+              "M": "6",
+              "WS": "2+",
+              "BS": "2+",
+              "S": "3",
+              "T": "4",
+              "W": "2",
+              "I": "3",
+              "A": "3",
+              "Ld": "9",
+              "Sv": "3+"
+            },
+            "rules": [
+              "Character",
+              "Infantry",
+              "Fearless",
+              "Ignis Blaze",
+              "Use Only.",
+              "Titan Protector"
+            ]
+          },
+          {
+            "name": "Peltast",
+            "stats": {
+              "M": "6",
+              "WS": "2+",
+              "BS": "2+",
+              "S": "3",
+              "T": "4",
+              "W": "2",
+              "I": "3",
+              "A": "2",
+              "Ld": "8",
+              "Sv": "3+"
+            },
+            "rules": [
+              "Infantry",
+              "Fearless",
+              "Ignis Blaze",
+              "Use Only.",
+              "Titan Protector"
+            ]
+          }
+        ],
+        "fixed_wargear": [
+          "Radium Pistol",
+          "Kryptopatris Field Generator",
+          "Galvanic Caster",
+          "Kryptopatris Field Generator"
+        ],
+        "options": [
+          {
+            "description": "May take up to 5 more Peltasts for +42 points each Alpha may swap Radium Pistol for P Alpha may take one M",
+            "choices": []
+          }
+        ]
+      },
+      {
+        "name": "Sicarian Infiltrators",
+        "points_base": 154,
+        "composition": "1 Princeps 4-9 Infiltrators",
+        "models": [
+          {
+            "name": "Princeps",
+            "stats": {
+              "M": "6",
+              "WS": "3+",
+              "BS": "3+",
+              "S": "4",
+              "T": "4",
+              "W": "2",
+              "I": "3",
+              "A": "3",
+              "Ld": "9",
+              "Sv": "4+"
+            },
+            "rules": [
+              "Character",
+              "Infantry",
+              "Fearless",
+              "Infiltrator",
+              "Neurostatic Interference"
+            ]
+          },
+          {
+            "name": "Infiltrator",
+            "stats": {
+              "M": "6",
+              "WS": "3+",
+              "BS": "3+",
+              "S": "4",
+              "T": "4",
+              "W": "2",
+              "I": "3",
+              "A": "2",
+              "Ld": "8",
+              "Sv": "4+"
+            },
+            "rules": [
+              "Infantry",
+              "Fearless",
+              "Infiltrator",
+              "Neurostatic Interference"
+            ]
+          }
+        ],
+        "fixed_wargear": [
+          "Stubcarbine",
+          "Power Sword",
+          "Stubcarbine",
+          "Power Sword"
+        ],
+        "options": [
+          {
+            "description": "May take up to 5 more Infiltrators for +30 points each Any model may swap Stubcarbine for P Any model may swap Power Sword for M",
+            "choices": []
+          }
+        ]
+      },
+      {
+        "name": "Sicarian Ruststalkers",
+        "points_base": 139,
+        "composition": "1 Princeps 4-9 Ruststalker",
+        "models": [
+          {
+            "name": "Princeps",
+            "stats": {
+              "M": "6",
+              "WS": "3+",
+              "BS": "5+",
+              "S": "4",
+              "T": "4",
+              "W": "2",
+              "I": "3",
+              "A": "3",
+              "Ld": "9",
+              "Sv": "4+"
+            },
+            "rules": [
+              "Character",
+              "Infantry",
+              "Fearless",
+              "Furious Charge",
+              "Infiltrator"
+            ]
+          },
+          {
+            "name": "Ruststalker",
+            "stats": {
+              "M": "6",
+              "WS": "3+",
+              "BS": "5+",
+              "S": "4",
+              "T": "4",
+              "W": "2",
+              "I": "3",
+              "A": "2",
+              "Ld": "8",
+              "Sv": "4+"
+            },
+            "rules": [
+              "Infantry",
+              "Fearless",
+              "Furious Charge",
+              "Infiltrator"
+            ]
+          }
+        ],
+        "fixed_wargear": [
+          "Transonic Razors",
+          "Chordclaw",
+          "Transonic Razors",
+          "Chordclaw"
+        ],
+        "options": [
+          {
+            "description": "May take up to 5 more Ruststalkers for +27 points each Any model may swap both their Transonic Razors AND Chordclaw for M",
+            "choices": []
+          }
+        ]
+      }
+    ],
+    "fast_attack": [
+      {
+        "name": "Ironstrider Ballistarii",
+        "points_base": 55,
+        "composition": "1-6 Ironstriders",
+        "models": [
+          {
+            "name": "Ironstrider",
+            "stats": {
+              "M": "10",
+              "WS": "3+",
+              "BS": "3+",
+              "S": "5",
+              "FA": "11",
+              "SA": "10",
+              "RA": "10",
+              "W": "6",
+              "I": "3",
+              "A": "2",
+              "Ld": "8",
+              "Sv": "4+"
+            },
+            "rules": [
+              "Vehicle",
+              "Combat Walker",
+              "Fearless",
+              "Open Topped",
+              "Scout"
+            ]
+          }
+        ],
+        "fixed_wargear": [
+          "Taser Lance"
+        ],
+        "options": [
+          {
+            "description": "May take up to 5 more Ironstriders for +55 points each Any model may swap M for H Any model may take one P",
+            "choices": []
+          }
+        ]
+      },
+      {
+        "name": "Pteraxii",
+        "points_base": 135,
+        "composition": "1 Alpha 4-9 Pteraxii",
+        "models": [
+          {
+            "name": "Alpha",
+            "stats": {
+              "M": "12",
+              "WS": "3+",
+              "BS": "3+",
+              "S": "3",
+              "T": "4",
+              "W": "1",
+              "I": "3",
+              "A": "2",
+              "Ld": "8",
+              "Sv": "4+"
+            },
+            "rules": [
+              "Character",
+              "Infantry",
+              "Deepstrike",
+              "Fearless",
+              "Flying",
+              "Very Bulky",
+              "Accurate Arrival"
+            ]
+          },
+          {
+            "name": "Pteraxii",
+            "stats": {
+              "M": "12",
+              "WS": "3+",
+              "BS": "3+",
+              "S": "3",
+              "T": "4",
+              "W": "1",
+              "I": "3",
+              "A": "1",
+              "Ld": "7",
+              "Sv": "4+"
+            },
+            "rules": [
+              "Infantry",
+              "Deepstrike",
+              "Fearless",
+              "Flying",
+              "Very Bulky"
+            ]
+          }
+        ],
+        "fixed_wargear": [
+          "Radium Pistol",
+          "Flechette Carbine"
+        ],
+        "options": [
+          {
+            "description": "May take up to 5 more Pteraxii for +25 points each Alpha may swap Radium Pistol for P Alpha may take one OM Any Pteraxii may swap R for S",
+            "choices": []
+          }
+        ]
+      },
+      {
+        "name": "Serberys",
+        "points_base": 160,
+        "composition": "1 Alpha 4-9 Serberys",
+        "models": [
+          {
+            "name": "Alpha",
+            "stats": {
+              "M": "12",
+              "WS": "3+",
+              "BS": "3+",
+              "S": "3",
+              "T": "5",
+              "W": "2",
+              "I": "3",
+              "A": "2",
+              "Ld": "8",
+              "Sv": "4+"
+            },
+            "rules": [
+              "Character",
+              "Infantry",
+              "Steed",
+              "Fearless",
+              "Outflank",
+              "Very Bulky"
+            ]
+          },
+          {
+            "name": "Serberys",
+            "stats": {
+              "M": "12",
+              "WS": "3+",
+              "BS": "3+",
+              "S": "3",
+              "T": "5",
+              "W": "2",
+              "I": "3",
+              "A": "1",
+              "Ld": "7",
+              "Sv": "4+"
+            },
+            "rules": [
+              "Infantry",
+              "Steed",
+              "Fearless",
+              "Outflank",
+              "Very Bulky"
+            ]
+          }
+        ],
+        "fixed_wargear": [
+          "Radium Pistol",
+          "Cavalry Saber",
+          "Clawed Limbs",
+          "Galvanic Carbine",
+          "Cavalry Saber",
+          "Clawed Limbs"
+        ],
+        "options": [
+          {
+            "description": "May take up to 5 more Serberys for +32 points each Alpha may swap Radium Pistol for P Alpha may swap Cavalry Saber for OM Any Serberys may swap Galvanic Carbine for R Any Serberys may swap Cavalry Saber for M Any model may take one S",
+            "choices": []
+          }
+        ]
+      }
+    ],
+    "heavy_support": [
+      {
+        "name": "Kastelan Robot Maniple",
+        "points_base": 162,
+        "composition": "1 Alpha 4 Hastarii",
+        "models": [
+          {
+            "name": "Kastelan",
+            "stats": {
+              "M": "8",
+              "WS": "3+",
+              "BS": "3+",
+              "S": "6",
+              "T": "7",
+              "W": "8",
+              "I": "2",
+              "A": "4",
+              "Ld": "10",
+              "Sv": "3+"
+            },
+            "rules": [
+              "Character",
+              "Infantry",
+              "Fearless",
+              "Infantry",
+              "Fearless",
+              "Gyrostabilizer Arm",
+              "Shots.",
+              "Points: 171"
+            ]
+          }
+        ],
+        "fixed_wargear": [
+          "Dual Powerfists",
+          "Flamer",
+          "Repulsor Grid"
+        ],
+        "options": [
+          {
+            "description": "May take up to 2 more Kastelan for +171 points each Any model may swap Dual Powerfists for M Any model may swap Flamer for S",
+            "choices": []
+          }
+        ]
+      },
+      {
+        "name": "Kastelan Robot Maniple",
+        "points_base": 171,
+        "composition": "1-3 Kastelan",
+        "models": [
+          {
+            "name": "Kastelan",
+            "stats": {
+              "M": "8",
+              "WS": "3+",
+              "BS": "3+",
+              "S": "6",
+              "T": "7",
+              "W": "8",
+              "I": "2",
+              "A": "4",
+              "Ld": "10",
+              "Sv": "3+"
+            },
+            "rules": [
+              "Monstrous Infantry",
+              "Fearless",
+              "Steady"
+            ]
+          }
+        ],
+        "fixed_wargear": [
+          "Dual Powerfists",
+          "Flamer",
+          "Repulsor Grid"
+        ],
+        "options": [
+          {
+            "description": "May take up to 2 more Kastelan for +171 points each Any model may swap Dual Powerfists for M Any model may swap Flamer for S",
+            "choices": []
+          }
+        ]
+      },
+      {
+        "name": "Onager Dunecrawler",
+        "points_base": 159,
+        "composition": "1-3 Dunecrawlers",
+        "models": [
+          {
+            "name": "Dunecrawler",
+            "stats": {
+              "M": "8",
+              "WS": "3+",
+              "BS": "3+",
+              "S": "6",
+              "FA": "12",
+              "SA": "12",
+              "RA": "10",
+              "W": "11",
+              "I": "3",
+              "A": "4",
+              "Ld": "8",
+              "Sv": "3+"
+            },
+            "rules": [
+              "Vehicle",
+              "Combat Walker",
+              "Fearless",
+              "Steady"
+            ]
+          }
+        ],
+        "fixed_wargear": [
+          "2 Linked Heavy Phosphor",
+          "Blasters",
+          "Emnatus Force Field"
+        ],
+        "options": [
+          {
+            "description": "May take up to 2 more Dunecrawlers for +159 points each Any model may swap 2 Linked Heavy Phosphor Blasters for T Any model may take one P Any model may take up to one of each E",
+            "choices": [
+              {
+                "name": "Extra Armour",
+                "pts_delta": 5
+              },
+              {
+                "name": "Smoke Launchers",
+                "pts_delta": 10
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Skorpius Disintegrators",
+        "points_base": 155,
+        "composition": "1-3 Disintegrators",
+        "models": [
+          {
+            "name": "Disintegrators",
+            "stats": {
+              "M": "12",
+              "WS": "5+",
+              "BS": "3+",
+              "S": "6",
+              "FA": "13",
+              "SA": "11",
+              "RA": "10",
+              "W": "12",
+              "I": "1",
+              "A": "3",
+              "Ld": "8",
+              "Sv": "3+"
+            },
+            "rules": [
+              "Vehicle",
+              "Tank",
+              "Fearless",
+              "Open Topped"
+            ]
+          }
+        ],
+        "fixed_wargear": [
+          "Belleros Energy Cannon",
+          "2 Linked Disrupter Missile",
+          "Launchers",
+          "2 Heavy Stubbers",
+          "Heavy Stubber"
+        ],
+        "options": [
+          {
+            "description": "May take up to 2 more Disintegrators for +155 points each Any model may swap Belleros Energy Cannon for H Any model may take up to one of each E",
+            "choices": [
+              {
+                "name": "Augar Array",
+                "pts_delta": 5
+              },
+              {
+                "name": "Extra Armour",
+                "pts_delta": 5
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "flyers": [
+      {
+        "name": "Archaeopters",
+        "points_base": 181,
+        "composition": "1-3 Archaeopters",
+        "models": [
+          {
+            "name": "Archaeopter",
+            "stats": {
+              "M": "50",
+              "WS": "5+",
+              "BS": "3+",
+              "S": "6",
+              "FA": "11",
+              "SA": "11",
+              "RA": "10",
+              "W": "10",
+              "I": "1",
+              "A": "3",
+              "Ld": "8",
+              "Sv": "3+"
+            },
+            "rules": [
+              "Vehicle",
+              "Fearless",
+              "High Altitude",
+              "Hover",
+              "Nimble",
+              "Transport 6"
+            ]
+          }
+        ],
+        "fixed_wargear": [
+          "2 Linked Heavy Stubbers",
+          "Bomb Rack"
+        ],
+        "options": [
+          {
+            "description": "May take up to 2 more Archaeopters for +181 points each Any model may swap 2 Linked Heavy Stubbers for H Any model may take one S Any model may swap Bomb Rack for R",
+            "choices": []
+          }
+        ]
+      }
+    ],
+    "dedicated_transport": [
+      {
+        "name": "Skorpius Dunerider",
+        "points_base": 126,
+        "composition": "1 Dunerider",
+        "models": [
+          {
+            "name": "Dunerider",
+            "stats": {
+              "M": "12",
+              "WS": "5+",
+              "BS": "3+",
+              "S": "6",
+              "FA": "10",
+              "SA": "10",
+              "RA": "10",
+              "W": "12",
+              "I": "1",
+              "A": "3",
+              "Ld": "8",
+              "Sv": "3+"
+            },
+            "rules": [
+              "Vehicle",
+              "Tank",
+              "Fearless",
+              "Open Topped",
+              "Transport 12"
+            ]
+          }
+        ],
+        "fixed_wargear": [
+          "2 Linked Heavy Stubbers T",
+          "2 Linked Heavy Stubbers H"
+        ],
+        "options": [
+          {
+            "description": "May take up to one of each E",
+            "choices": [
+              {
+                "name": "Augar Array",
+                "pts_delta": 5
+              },
+              {
+                "name": "Extra Armour",
+                "pts_delta": 5
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Terrax Pattern Termite",
+        "points_base": 229,
+        "composition": "1 Terrax Pattern Termite",
+        "models": [
+          {
+            "name": "Terrax Pattern Termite",
+            "stats": {
+              "M": "8",
+              "WS": "5+",
+              "BS": "3+",
+              "S": "7",
+              "FA": "12",
+              "SA": "12",
+              "RA": "10",
+              "W": "14",
+              "I": "1",
+              "A": "3",
+              "Ld": "8",
+              "Sv": "3+"
+            },
+            "rules": [
+              "Vehicle",
+              "Tank",
+              "Deepstrike",
+              "Steady",
+              "Transport 12"
+            ]
+          }
+        ],
+        "fixed_wargear": [
+          "Termite Drill",
+          "Terrax Melta Cutter",
+          "2 Storm Bolters"
+        ],
+        "options": [
+          {
+            "description": "May swap either Storm Bolter for H",
+            "choices": []
+          },
+          {
+            "description": "May take any E one time each",
+            "choices": []
+          }
+        ]
+      }
+    ],
+    "lord_of_war": [
+      {
+        "name": "Terrax Pattern Termite",
+        "points_base": 4445,
+        "composition": "1 Emperor",
+        "models": [
+          {
+            "name": "Terrax Pattern Termite",
+            "stats": {
+              "M": "8",
+              "WS": "5+",
+              "BS": "3+",
+              "S": "7",
+              "FA": "12",
+              "SA": "12",
+              "RA": "10",
+              "W": "14",
+              "I": "1",
+              "A": "3",
+              "Ld": "8",
+              "Sv": "3+"
+            },
+            "rules": [
+              "Titanic Vehicle",
+              "Combat Walker",
+              "Fearless",
+              "Night Vision",
+              "Steady",
+              "Void Shields 8",
+              "Transport 104",
+              "Create Panic",
+              "Nuclear Meltdown"
+            ]
+          }
+        ],
+        "fixed_wargear": [
+          "Termite Drill",
+          "Terrax Melta Cutter",
+          "2 Storm Bolters",
+          "2 Vengeance Cannons",
+          "6 Emperor Vulcan Megabolters",
+          "24 Ardex Defensor Lascannons",
+          "Crushing Feet",
+          "M WS BS S FA SA RA",
+          "12 5+ 3+ 12 14 14 13",
+          "W I A Ld Sv",
+          "160 1 15 9 3+"
+        ],
+        "options": [
+          {
+            "description": "May swap either Storm Bolter for H",
+            "choices": []
+          },
+          {
+            "description": "May take any E one time each",
+            "choices": []
+          },
+          {
+            "description": "May swap either Vengeance Cannon for T",
+            "choices": []
+          },
+          {
+            "description": "May swap any Emperor Vulcan Megabolter for H",
+            "choices": []
+          }
+        ]
+      },
+      {
+        "name": "Reaver",
+        "points_base": 1453,
+        "composition": "1 Reaver",
+        "models": [
+          {
+            "name": "Reaver",
+            "stats": {
+              "M": "16",
+              "WS": "3+",
+              "BS": "3+",
+              "S": "9",
+              "FA": "14",
+              "SA": "14",
+              "RA": "13",
+              "W": "70",
+              "I": "4",
+              "A": "6",
+              "Ld": "9",
+              "Sv": "3+"
+            },
+            "rules": [
+              "Titanic Vehicle",
+              "Combat Walker",
+              "Fearless",
+              "Night Vision",
+              "Steady",
+              "Void Shields 4",
+              "Create Panic",
+              "Nuclear Meltdown",
+              "Radius.",
+              "Titanic God Engine",
+              "Charging.",
+              "The Hour is Nigh",
+              "T Minus 5"
+            ]
+          }
+        ],
+        "fixed_wargear": [
+          "2 Melta Cannons",
+          "Crushing Feet"
+        ],
+        "options": [
+          {
+            "description": "May swap either Melta Cannon for H",
+            "choices": []
+          },
+          {
+            "description": "May take one T",
+            "choices": []
+          }
+        ]
+      },
+      {
+        "name": "Warbringer Nemesis",
+        "points_base": 2049,
+        "composition": "1 Nemesis",
+        "models": [
+          {
+            "name": "Nemesis",
+            "stats": {
+              "M": "14",
+              "WS": "5+",
+              "BS": "3+",
+              "S": "9",
+              "FA": "14",
+              "SA": "14",
+              "RA": "13",
+              "W": "100",
+              "I": "4",
+              "A": "6",
+              "Ld": "9",
+              "Sv": "3+"
+            },
+            "rules": [
+              "Titanic Vehicle",
+              "Combat Walker",
+              "Fearless",
+              "Night Vision",
+              "Steady",
+              "Void Shields 6",
+              "Create Panic"
+            ]
+          }
+        ],
+        "fixed_wargear": [
+          "Nemesis Volcano Cannon",
+          "2 Melta Cannons",
+          "2 Sets of 4 Linked Anvillus",
+          "Defense Batteries",
+          "3 Ardex Defensor Maulers",
+          "Crushing Feet"
+        ],
+        "options": [
+          {
+            "description": "May swap Nemesis Volcano Cannon for T",
+            "choices": []
+          },
+          {
+            "description": "May swap either Melta Cannon for H",
+            "choices": []
+          },
+          {
+            "description": "May take one T",
+            "choices": []
+          }
+        ]
+      },
+      {
+        "name": "Warhound",
+        "points_base": 977,
+        "composition": "1 Warhound",
+        "models": [
+          {
+            "name": "Warhound",
+            "stats": {
+              "M": "20",
+              "WS": "5+",
+              "BS": "3+",
+              "S": "9",
+              "FA": "14",
+              "SA": "13",
+              "RA": "12",
+              "W": "50",
+              "I": "4",
+              "A": "6",
+              "Ld": "9",
+              "Sv": "3+"
+            },
+            "rules": [
+              "Titanic Vehicle",
+              "Combat Walker",
+              "Fearless",
+              "Night Vision",
+              "Steady",
+              "Void Shields 1",
+              "Create Panic",
+              "Nuclear Meltdown",
+              "Radius.",
+              "Titanic God Engine",
+              "Charging."
+            ]
+          }
+        ],
+        "fixed_wargear": [
+          "2 Vulcan Megabolters",
+          "Crushing Feet"
+        ],
+        "options": [
+          {
+            "description": "May swap either Vulcan Megabolter for H",
+            "choices": []
+          }
+        ]
+      },
+      {
+        "name": "Warhound",
+        "points_base": 2566,
+        "composition": "1 Warlord",
+        "models": [
+          {
+            "name": "Warhound",
+            "stats": {
+              "M": "20",
+              "WS": "5+",
+              "BS": "3+",
+              "S": "9",
+              "FA": "14",
+              "SA": "13",
+              "RA": "12",
+              "W": "50",
+              "I": "4",
+              "A": "6",
+              "Ld": "9",
+              "Sv": "3+"
+            },
+            "rules": [
+              "Titanic Vehicle",
+              "Combat Walker",
+              "Fearless",
+              "Night Vision",
+              "Steady",
+              "Void Shields 6",
+              "Create Panic",
+              "Nuclear Meltdown",
+              "Radius.",
+              "Towering God Engine",
+              "Titanic God Engine",
+              "Charging.",
+              "Uparmoured",
+              "Earthshock"
+            ]
+          }
+        ],
+        "fixed_wargear": [
+          "2 Vulcan Megabolters",
+          "Crushing Feet",
+          "2 sets of 2 Linked Turbo Laser",
+          "Destructors",
+          "2 Belicosa Volcano Cannons",
+          "2 Ardex Defensor Lascannons",
+          "2 Ardex Defensor Maulers",
+          "Crushing Feet",
+          "M WS BS S FA SA RA",
+          "12 3+ 3+ 10 14 14 13",
+          "W I A Ld Sv",
+          "120 4 9 9 3+"
+        ],
+        "options": [
+          {
+            "description": "May swap either Vulcan Megabolter for H",
+            "choices": []
+          },
+          {
+            "description": "May swap 2 Sets of 2 Linked Turbo Laser Destructors for T",
+            "choices": []
+          },
+          {
+            "description": "May swap either Belicosa Volcano Cannon for H",
+            "choices": []
+          }
+        ]
+      },
+      {
+        "name": "Ordinatus Aktaeus",
+        "points_base": 783,
+        "composition": "1 Aktaeus Drill 0-1 Aktaeus Catapult",
+        "models": [
+          {
+            "name": "Aktaeus Drill",
+            "stats": {
+              "M": "4",
+              "WS": "5+",
+              "BS": "3+",
+              "S": "9",
+              "FA": "14",
+              "SA": "13",
+              "RA": "12",
+              "W": "20",
+              "I": "1",
+              "A": "6",
+              "Ld": "9",
+              "Sv": "3+"
+            },
+            "rules": [
+              "Titanic Vehicle",
+              "Tank",
+              "Deepstrike",
+              "Fearless",
+              "Transport 20"
+            ]
+          },
+          {
+            "name": "Aktaeus Catapult",
+            "stats": {
+              "M": "8",
+              "WS": "5+",
+              "BS": "3+",
+              "S": "9",
+              "FA": "13",
+              "SA": "12",
+              "RA": "11",
+              "W": "20",
+              "I": "1",
+              "A": "9",
+              "Ld": "9",
+              "Sv": "3+"
+            },
+            "rules": [
+              "Titanic Vehicle",
+              "Tank",
+              "Fearless",
+              "Drill Catapult"
+            ]
+          }
+        ],
+        "fixed_wargear": [
+          "Melta Array",
+          "Titanic Drill",
+          "3 Volkite Culverins"
+        ],
+        "options": [
+          {
+            "description": "May take 1 Aktaeus Catapult for +441 points",
+            "choices": []
+          }
+        ]
+      },
+      {
+        "name": "Imperial Fortress",
+        "points_base": 719,
+        "composition": "1 Hunter",
+        "models": [
+          {
+            "name": "Gate",
+            "stats": {},
+            "rules": []
+          },
+          {
+            "name": "Gate Towers",
+            "stats": {},
+            "rules": [
+              "Titanic Vehicle",
+              "Tank",
+              "Fearless",
+              "Night Vision",
+              "Void Shields 2",
+              "Nuclear Meltdown",
+              "Radius."
+            ]
+          },
+          {
+            "name": "Walls",
+            "stats": {},
+            "rules": []
+          },
+          {
+            "name": "Towers",
+            "stats": {},
+            "rules": []
+          }
+        ],
+        "fixed_wargear": [
+          "Heavy Gate",
+          "2 Linked Heavy Bolters",
+          "None",
+          "2 Linked Autocannons"
+        ],
+        "options": [
+          {
+            "description": "May add as many sets of 1 Gate and 2 Gate Towers as you want for +967 points",
+            "choices": []
+          },
+          {
+            "description": "May add as many Walls as you want for +299 points each",
+            "choices": []
+          },
+          {
+            "description": "May add as many Towers as you want for +387 points",
+            "choices": []
+          }
+        ]
+      },
+      {
+        "name": "Imperial Fortress",
+        "points_base": 2339,
+        "composition": "1 Gate 2 Gate Towers 2 Walls 2 Towers",
+        "models": [
+          {
+            "name": "Gate",
+            "stats": {},
+            "rules": [
+              "Building",
+              "Titanic"
+            ]
+          },
+          {
+            "name": "Gate Towers",
+            "stats": {},
+            "rules": []
+          },
+          {
+            "name": "Walls",
+            "stats": {},
+            "rules": []
+          },
+          {
+            "name": "Towers",
+            "stats": {},
+            "rules": []
+          }
+        ],
+        "fixed_wargear": [
+          "Heavy Gate",
+          "2 Linked Heavy Bolters",
+          "None",
+          "2 Linked Autocannons"
+        ],
+        "options": [
+          {
+            "description": "May add as many sets of 1 Gate and 2 Gate Towers as you want for +967 points",
+            "choices": []
+          },
+          {
+            "description": "May add as many Walls as you want for +299 points each",
+            "choices": []
+          },
+          {
+            "description": "May add as many Towers as you want for +387 points Points: 719 1 Hunter",
+            "choices": []
+          }
+        ]
+      }
+    ],
+    "fortifications": [
+      {
+        "name": "Primaris Redoubt",
+        "points_base": 629,
+        "composition": "1 Primaris Redoubt",
+        "models": [
+          {
+            "name": "Primaris Redoubt",
+            "stats": {},
+            "rules": [
+              "Building"
+            ]
+          }
+        ],
+        "fixed_wargear": [
+          "2 Linked Turbolaser Destructors"
+        ],
+        "options": []
+      },
+      {
+        "name": "Aegis Weapon Emplacement",
+        "points_base": 66,
+        "composition": "1 Aegis Weapon Emplacement",
+        "models": [
+          {
+            "name": "Platform",
+            "stats": {},
+            "rules": [
+              "Building"
+            ]
+          }
+        ],
+        "fixed_wargear": [
+          "Long Lascannon"
+        ],
+        "options": [
+          {
+            "description": "May swap Long Lascannon for H",
+            "choices": []
+          }
+        ]
+      },
+      {
+        "name": "Aquila Strongpoint",
+        "points_base": 448,
+        "composition": "1 Aquila Strongpoint",
+        "models": [
+          {
+            "name": "Aquila Strongpoint",
+            "stats": {},
+            "rules": [
+              "Building"
+            ]
+          }
+        ],
+        "fixed_wargear": [
+          "Plasma Obliterator"
+        ],
+        "options": []
+      },
+      {
+        "name": "Firestorm Redoubt",
+        "points_base": 397,
+        "composition": "1 Firestorm Redoubt",
+        "models": [
+          {
+            "name": "Firestorm Redoubt",
+            "stats": {},
+            "rules": [
+              "Building"
+            ]
+          }
+        ],
+        "fixed_wargear": [
+          "Punisher Gatling Cannon",
+          "Punisher Gatling Cannon"
+        ],
+        "options": [
+          {
+            "description": "May swap any Punisher Gatling Cannon for H",
+            "choices": []
+          }
+        ]
+      },
+      {
+        "name": "Plasma Obliterator",
+        "points_base": 429,
+        "composition": "1 Imperial Bastion",
+        "models": [
+          {
+            "name": "Plasma Obliterator",
+            "stats": {},
+            "rules": [
+              "Building"
+            ]
+          }
+        ],
+        "fixed_wargear": [
+          "Plasma Obliterator"
+        ],
+        "options": []
+      },
+      {
+        "name": "Plasma Obliterator",
+        "points_base": 474,
+        "composition": "1 Plasma Obliterator",
+        "models": [
+          {
+            "name": "Plasma Obliterator",
+            "stats": {},
+            "rules": [
+              "Building"
+            ]
+          }
+        ],
+        "fixed_wargear": [
+          "Plasma Obliterator"
+        ],
+        "options": []
+      },
+      {
+        "name": "Heavy 1, 5\u201d Blast, Ordnance,",
+        "points_base": 249,
+        "composition": "1 Vengeance Weapon Battery",
+        "models": [
+          {
+            "name": "Monsterbane, Turret",
+            "stats": {},
+            "rules": [
+              "Building"
+            ]
+          }
+        ],
+        "fixed_wargear": [
+          "none"
+        ],
+        "options": []
+      },
+      {
+        "name": "Heavy 1, 5\u201d Blast, Ordnance,",
+        "points_base": 307,
+        "composition": "1 Void Shield Generator",
+        "models": [
+          {
+            "name": "Monsterbane, Turret",
+            "stats": {},
+            "rules": [
+              "Building"
+            ]
+          }
+        ],
+        "fixed_wargear": [
+          "none"
+        ],
+        "options": []
+      }
+    ]
+  }
+}

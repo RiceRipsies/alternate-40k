@@ -1,0 +1,54 @@
+{
+  "id": "valhallan-ice-warriors",
+  "name": "Valhallan Ice Warriors",
+  "difficulty": 3,
+  "subfactions": [
+    {
+      "name": "Average"
+    },
+    {
+      "name": "Valhallan Ice Warriors"
+    }
+  ],
+  "slots": {
+    "advisors": [
+      {
+        "name": "Commander Chenkov",
+        "points_base": 415,
+        "composition": "1 Commander Chenkov",
+        "models": [
+          {
+            "name": "Commander Chenkov",
+            "stats": {
+              "M": "6",
+              "WS": "3+",
+              "BS": "3+",
+              "S": "3",
+              "T": "3",
+              "W": "4",
+              "I": "3",
+              "A": "3",
+              "Ld": "9",
+              "Sv": "4+"
+            },
+            "rules": [
+              "Valhallan Ice Warriors",
+              "Independent Character",
+              "Infantry",
+              "Stubborn",
+              "Infantry Orders 2",
+              "Aura of Discipline",
+              "Send in the Next Wave"
+            ]
+          }
+        ],
+        "fixed_wargear": [
+          "Pietrov Mk45",
+          "Power Sword",
+          "Frag Grenades"
+        ],
+        "options": []
+      }
+    ]
+  }
+}

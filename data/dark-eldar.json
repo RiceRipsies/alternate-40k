@@ -1,0 +1,2231 @@
+{
+  "id": "dark-eldar",
+  "name": "Dark Eldar",
+  "difficulty": 5,
+  "subfactions": [
+    {
+      "name": "Average"
+    }
+  ],
+  "slots": {
+    "hq": [
+      {
+        "name": "Haemonculus",
+        "points_base": 193,
+        "composition": "1 Archon",
+        "models": [
+          {
+            "name": "Haemonculus",
+            "stats": {
+              "M": "8",
+              "WS": "2+",
+              "BS": "2+",
+              "S": "3",
+              "T": "4",
+              "W": "5",
+              "I": "5",
+              "A": "4",
+              "Ld": "10",
+              "Sv": "-"
+            },
+            "rules": [
+              "Independent Character",
+              "Infantry",
+              "Combat Stimulants",
+              "Fleet",
+              "Overlord",
+              "To Hit."
+            ]
+          }
+        ],
+        "fixed_wargear": [
+          "Splinter Pistol",
+          "Flesh Gauntlet",
+          "Clone Field"
+        ],
+        "options": [
+          {
+            "description": "May swap Splinter Pistol for P or S",
+            "choices": []
+          },
+          {
+            "description": "May swap Flesh Gauntlet for M",
+            "choices": []
+          }
+        ]
+      },
+      {
+        "name": "Haemonculus",
+        "points_base": 188,
+        "composition": "1 Haemonculus",
+        "models": [
+          {
+            "name": "Haemonculus",
+            "stats": {
+              "M": "8",
+              "WS": "2+",
+              "BS": "2+",
+              "S": "3",
+              "T": "4",
+              "W": "5",
+              "I": "5",
+              "A": "4",
+              "Ld": "10",
+              "Sv": "-"
+            },
+            "rules": [
+              "Independent Character",
+              "Infantry",
+              "Fleet",
+              "Jump",
+              "Master of Flesh",
+              "Spinal Stimulants"
+            ]
+          }
+        ],
+        "fixed_wargear": [
+          "Splinter Pistol",
+          "Flesh Gauntlet",
+          "Clone Field"
+        ],
+        "options": [
+          {
+            "description": "May swap Splinter Pistol for P or S",
+            "choices": []
+          },
+          {
+            "description": "May swap Flesh Gauntlet for M Points: 193 1 Archon",
+            "choices": []
+          }
+        ]
+      },
+      {
+        "name": "Succubus",
+        "points_base": 188,
+        "composition": "1 Succubus",
+        "models": [
+          {
+            "name": "Succubus",
+            "stats": {
+              "M": "8",
+              "WS": "2+",
+              "BS": "2+",
+              "S": "3",
+              "T": "3",
+              "W": "5",
+              "I": "5",
+              "A": "4",
+              "Ld": "10",
+              "Sv": "-"
+            },
+            "rules": [
+              "Independent Character",
+              "Infantry",
+              "Combat Stimulants",
+              "Fleet",
+              "Bride of Death",
+              "No Escape"
+            ]
+          }
+        ],
+        "fixed_wargear": [
+          "Splinter Pistol",
+          "Venom Blade",
+          "Clone Field",
+          "Soul Trap"
+        ],
+        "options": [
+          {
+            "description": "May swap Splinter Pistol for P",
+            "choices": []
+          },
+          {
+            "description": "May swap Venom Blade for M",
+            "choices": []
+          },
+          {
+            "description": "May take one L",
+            "choices": []
+          }
+        ]
+      },
+      {
+        "name": "Shadowseer",
+        "points_base": 172,
+        "composition": "1 Shadowseer",
+        "models": [
+          {
+            "name": "Shadowseer",
+            "stats": {
+              "M": "8",
+              "WS": "2+",
+              "BS": "2+",
+              "S": "3",
+              "T": "3",
+              "W": "5",
+              "I": "6",
+              "A": "5",
+              "Ld": "10",
+              "Sv": "-"
+            },
+            "rules": [
+              "Independent Character",
+              "Infantry",
+              "Harlequin",
+              "Fleet",
+              "Psychic Mastery Level 2",
+              "Outflank"
+            ]
+          }
+        ],
+        "fixed_wargear": [
+          "Shuriken Pistol",
+          "Miststave",
+          "Plasma Grenades",
+          "Flip Belt",
+          "Holosuit"
+        ],
+        "options": [
+          {
+            "description": "May swap Shuriken Pistol for P",
+            "choices": []
+          },
+          {
+            "description": "May swap Power Sword for M",
+            "choices": []
+          },
+          {
+            "description": "May take up to one S for each level of Psychic Mastery",
+            "choices": []
+          }
+        ]
+      },
+      {
+        "name": "Troupe Master",
+        "points_base": 164,
+        "composition": "1 Master",
+        "models": [
+          {
+            "name": "Master",
+            "stats": {
+              "M": "8",
+              "WS": "2+",
+              "BS": "2+",
+              "S": "3",
+              "T": "3",
+              "W": "5",
+              "I": "6",
+              "A": "5",
+              "Ld": "10",
+              "Sv": "-"
+            },
+            "rules": [
+              "Independent Character",
+              "Infantry",
+              "Harlequin",
+              "Fleet",
+              "Outflank",
+              "Choreographer of War",
+              "Disorganized."
+            ]
+          }
+        ],
+        "fixed_wargear": [
+          "Shuriken Pistol",
+          "Power Sword",
+          "Plasma Grenades",
+          "Flip Belt",
+          "Holosuit"
+        ],
+        "options": [
+          {
+            "description": "May swap Shuriken Pistol for P",
+            "choices": []
+          },
+          {
+            "description": "May swap Power Sword for M",
+            "choices": []
+          }
+        ]
+      },
+      {
+        "name": "Kruellagh",
+        "points_base": 229,
+        "composition": "1 Kruellagh",
+        "models": [
+          {
+            "name": "Kruellagh",
+            "stats": {
+              "M": "8",
+              "WS": "2+",
+              "BS": "2+",
+              "S": "3",
+              "T": "3",
+              "W": "5",
+              "I": "5",
+              "A": "4",
+              "Ld": "10",
+              "Sv": "4+"
+            },
+            "rules": [
+              "Independent Character",
+              "Unique",
+              "Infantry",
+              "Combat Stimulants",
+              "Fleet",
+              "Stolen Precious Fluids",
+              "Overlord",
+              "To Hit."
+            ]
+          }
+        ],
+        "fixed_wargear": [
+          "Damnation Grenades",
+          "Soul Flayer",
+          "Clone Field",
+          "Soul Trap"
+        ],
+        "options": []
+      },
+      {
+        "name": "Lelith Hesperax",
+        "points_base": 246,
+        "composition": "1 Lelith",
+        "models": [
+          {
+            "name": "Lelith",
+            "stats": {
+              "M": "8",
+              "WS": "2+",
+              "BS": "2+",
+              "S": "3",
+              "T": "3",
+              "W": "5",
+              "I": "5",
+              "A": "4",
+              "Ld": "10",
+              "Sv": "3+"
+            },
+            "rules": [
+              "Independent Character",
+              "Infantry",
+              "Unique",
+              "Combat Stimulants",
+              "Counterattack",
+              "Fleet",
+              "Bride of Death",
+              "Quicksilver"
+            ]
+          }
+        ],
+        "fixed_wargear": [
+          "Penetrating Blades",
+          "Hair Razors",
+          "Soul Trap"
+        ],
+        "options": []
+      },
+      {
+        "name": "Urien Rakarth",
+        "points_base": 211,
+        "composition": "1 Urien",
+        "models": [
+          {
+            "name": "Urien",
+            "stats": {
+              "M": "8",
+              "WS": "2+",
+              "BS": "2+",
+              "S": "3",
+              "T": "5",
+              "W": "5",
+              "I": "5",
+              "A": "4",
+              "Ld": "10",
+              "Sv": "-"
+            },
+            "rules": [
+              "Independent Character",
+              "Infantry",
+              "Unique",
+              "Fleet",
+              "Heal",
+              "Jump",
+              "Fresh Meat",
+              "Master of Flesh",
+              "Spinal Stimulants"
+            ]
+          }
+        ],
+        "fixed_wargear": [
+          "Casket of Flensing",
+          "Ichor Injector",
+          "Clone Field"
+        ],
+        "options": []
+      },
+      {
+        "name": "Yvraine",
+        "points_base": 199,
+        "composition": "1 Yvraine",
+        "models": [
+          {
+            "name": "Yvraine",
+            "stats": {
+              "M": "8",
+              "WS": "2+",
+              "BS": "2+",
+              "S": "3",
+              "T": "3",
+              "W": "5",
+              "I": "8",
+              "A": "5",
+              "Ld": "10",
+              "Sv": "-"
+            },
+            "rules": [
+              "Independent Character",
+              "Infantry",
+              "Unique",
+              "Fleet",
+              "Psychic Mastery Level 2",
+              "Stubborn",
+              "Follower of Ynnead",
+              "Herald of Ynnead",
+              "Wound.",
+              "Forcefield",
+              "Grynx Familiar",
+              "Blind",
+              "Disorganized."
+            ]
+          }
+        ],
+        "fixed_wargear": [
+          "Kha-Vir The Sword of Shadows",
+          "Plasma Grenades",
+          "Forcefield",
+          "Grynx Familiar"
+        ],
+        "options": [
+          {
+            "description": "May take up to one Spell for each level of Psychic Mastery",
+            "choices": []
+          }
+        ]
+      }
+    ],
+    "advisors": [
+      {
+        "name": "Death Jester",
+        "points_base": 115,
+        "composition": "1 Beast Master",
+        "models": [
+          {
+            "name": "Death Jester",
+            "stats": {
+              "M": "8",
+              "WS": "3+",
+              "BS": "3+",
+              "S": "3",
+              "T": "3",
+              "W": "4",
+              "I": "6",
+              "A": "3",
+              "Ld": "9",
+              "Sv": "-"
+            },
+            "rules": [
+              "Independent Character",
+              "Infantry",
+              "Combat Stimulants",
+              "Fleet",
+              "Beast Master",
+              "Wound."
+            ]
+          }
+        ],
+        "fixed_wargear": [
+          "Shrieker Cannon",
+          "Plasma Grenades",
+          "Flip Belt",
+          "Holosuit"
+        ],
+        "options": []
+      },
+      {
+        "name": "Death Jester",
+        "points_base": 108,
+        "composition": "1 Death Jester",
+        "models": [
+          {
+            "name": "Death Jester",
+            "stats": {
+              "M": "8",
+              "WS": "3+",
+              "BS": "3+",
+              "S": "3",
+              "T": "3",
+              "W": "4",
+              "I": "6",
+              "A": "3",
+              "Ld": "9",
+              "Sv": "-"
+            },
+            "rules": [
+              "Independent Character",
+              "Infantry",
+              "Harlequin",
+              "Fearless",
+              "Fleet",
+              "Outflank",
+              "Jester of Death",
+              "Test.",
+              "Disorganized."
+            ]
+          }
+        ],
+        "fixed_wargear": [
+          "Shrieker Cannon",
+          "Plasma Grenades",
+          "Flip Belt",
+          "Holosuit"
+        ],
+        "options": []
+      },
+      {
+        "name": "Medusae",
+        "points_base": 106,
+        "composition": "1 Lhamean",
+        "models": [
+          {
+            "name": "Medusae",
+            "stats": {
+              "M": "8",
+              "WS": "3+",
+              "BS": "5+",
+              "S": "3",
+              "T": "3",
+              "W": "4",
+              "I": "5",
+              "A": "3",
+              "Ld": "9",
+              "Sv": "5+"
+            },
+            "rules": [
+              "Independent Character",
+              "Infantry",
+              "Combat Stimulants",
+              "Fleet",
+              "Master of Poisons",
+              "(2+)."
+            ]
+          }
+        ],
+        "fixed_wargear": [
+          "Eyeburst"
+        ],
+        "options": []
+      },
+      {
+        "name": "Medusae",
+        "points_base": 68,
+        "composition": "1 Medusae",
+        "models": [
+          {
+            "name": "Medusae",
+            "stats": {
+              "M": "8",
+              "WS": "3+",
+              "BS": "5+",
+              "S": "3",
+              "T": "3",
+              "W": "4",
+              "I": "5",
+              "A": "3",
+              "Ld": "9",
+              "Sv": "5+"
+            },
+            "rules": [
+              "Independent Character",
+              "Infantry",
+              "Combat Stimulants",
+              "Fleet",
+              "Brain Fruit"
+            ]
+          }
+        ],
+        "fixed_wargear": [
+          "Eyeburst"
+        ],
+        "options": []
+      },
+      {
+        "name": "Solitaire",
+        "points_base": 108,
+        "composition": "1 Solitaire",
+        "models": [
+          {
+            "name": "Solitaire",
+            "stats": {
+              "M": "8",
+              "WS": "3+",
+              "BS": "3+",
+              "S": "3",
+              "T": "3",
+              "W": "4",
+              "I": "6",
+              "A": "4",
+              "Ld": "9",
+              "Sv": "-"
+            },
+            "rules": [
+              "Independent Character",
+              "Infantry",
+              "Harlequin",
+              "Counterattack",
+              "Fearless",
+              "Fleet",
+              "Infiltrate",
+              "Outflank",
+              "Stealth",
+              "Role of Slaanesh",
+              "Disorganized."
+            ]
+          }
+        ],
+        "fixed_wargear": [
+          "Harlequin\u2019s Kiss",
+          "Harlequin\u2019s Caress",
+          "Haywire Grenades",
+          "Plasma Grenades",
+          "Flip Belt",
+          "Holosuit"
+        ],
+        "options": []
+      },
+      {
+        "name": "Sslyth",
+        "points_base": 70,
+        "composition": "1 Sslyth",
+        "models": [
+          {
+            "name": "Sslyth",
+            "stats": {
+              "M": "8",
+              "WS": "3+",
+              "BS": "3+",
+              "S": "4",
+              "T": "4",
+              "W": "4",
+              "I": "4",
+              "A": "3",
+              "Ld": "5",
+              "Sv": "4+"
+            },
+            "rules": [
+              "Independent Character",
+              "Infantry",
+              "Combat Stimulants",
+              "Bodyguard",
+              "Four Armed Combatant"
+            ]
+          }
+        ],
+        "fixed_wargear": [
+          "Shard Carbine",
+          "Splinter Pistol",
+          "Battle Blade"
+        ],
+        "options": []
+      },
+      {
+        "name": "Drazhar Master of Blades",
+        "points_base": 57,
+        "composition": "1 Medusae",
+        "models": [
+          {
+            "name": "Drazhar",
+            "stats": {
+              "M": "8",
+              "WS": "2+",
+              "BS": "5+",
+              "S": "4",
+              "T": "4",
+              "W": "6",
+              "I": "7",
+              "A": "5",
+              "Ld": "10",
+              "Sv": "3+"
+            },
+            "rules": [
+              "Independent Character",
+              "Infantry",
+              "Combat Stimulants",
+              "Fleet",
+              "Tracker"
+            ]
+          }
+        ],
+        "fixed_wargear": [
+          "Demiklaives",
+          "Soul Trap"
+        ],
+        "options": []
+      },
+      {
+        "name": "Drazhar Master of Blades",
+        "points_base": 192,
+        "composition": "1 Drazhar",
+        "models": [
+          {
+            "name": "Drazhar",
+            "stats": {
+              "M": "8",
+              "WS": "2+",
+              "BS": "5+",
+              "S": "4",
+              "T": "4",
+              "W": "6",
+              "I": "7",
+              "A": "5",
+              "Ld": "10",
+              "Sv": "3+"
+            },
+            "rules": [
+              "Independent Character",
+              "Infantry",
+              "Unique",
+              "Combat Stimulants",
+              "Counterattack",
+              "Fearless",
+              "Murderous Assault",
+              "Rampage"
+            ]
+          }
+        ],
+        "fixed_wargear": [
+          "Demiklaives",
+          "Soul Trap"
+        ],
+        "options": []
+      },
+      {
+        "name": "Visarch",
+        "points_base": 191,
+        "composition": "1 Visarch",
+        "models": [
+          {
+            "name": "Visarch",
+            "stats": {
+              "M": "8",
+              "WS": "2+",
+              "BS": "5+",
+              "S": "3",
+              "T": "3",
+              "W": "5",
+              "I": "5",
+              "A": "4",
+              "Ld": "10",
+              "Sv": "3+"
+            },
+            "rules": [
+              "Independent Character",
+              "Infantry",
+              "Unique",
+              "Fleet",
+              "Stubborn",
+              "Champion of Ynnead",
+              "Follower of Ynnead",
+              "Rampage",
+              "Melee.",
+              "Warden of Yvraine"
+            ]
+          }
+        ],
+        "fixed_wargear": [
+          "Asu-Var",
+          "Forcefield"
+        ],
+        "options": []
+      }
+    ],
+    "troops": [
+      {
+        "name": "Harlequin Troupe",
+        "points_base": 178,
+        "composition": "1 Lead Player 4-9 Players",
+        "models": [
+          {
+            "name": "Lead Player",
+            "stats": {
+              "M": "8",
+              "WS": "3+",
+              "BS": "3+",
+              "S": "3",
+              "T": "3",
+              "W": "3",
+              "I": "6",
+              "A": "3",
+              "Ld": "9",
+              "Sv": "8"
+            },
+            "rules": [
+              "Character",
+              "Infantry",
+              "Harlequin",
+              "Fleet",
+              "Outflank"
+            ]
+          },
+          {
+            "name": "Player",
+            "stats": {},
+            "rules": [
+              "Infantry",
+              "Harlequin",
+              "Fleet",
+              "Outflank",
+              "Disorganized."
+            ]
+          }
+        ],
+        "fixed_wargear": [
+          "Shuriken Pistol",
+          "Harlequin Blade",
+          "Plasma Grenades",
+          "Flip Belt",
+          "Holosuit",
+          "Shuriken Pistol",
+          "Harlequin Blade",
+          "Plasma Grenades",
+          "Flip Belt",
+          "Holosuit"
+        ],
+        "options": [
+          {
+            "description": "May add up to 5 more Players for +34 points each Any model may swap Shuriken Pistol for P Any model may swap Harlequin Blade for M",
+            "choices": []
+          }
+        ]
+      },
+      {
+        "name": "Kabalite Warriors",
+        "points_base": 122,
+        "composition": "1 Sybarite 4-9 Kabalites",
+        "models": [
+          {
+            "name": "Sybarite",
+            "stats": {
+              "M": "8",
+              "WS": "3+",
+              "BS": "3+",
+              "S": "3",
+              "T": "3",
+              "W": "2",
+              "I": "5",
+              "A": "2",
+              "Ld": "10",
+              "Sv": "3+"
+            },
+            "rules": [
+              "Character",
+              "Infantry",
+              "Combat Stimulants"
+            ]
+          },
+          {
+            "name": "Kabalite",
+            "stats": {
+              "M": "8",
+              "WS": "3+",
+              "BS": "3+",
+              "S": "3",
+              "T": "3",
+              "W": "1",
+              "I": "5",
+              "A": "1",
+              "Ld": "8",
+              "Sv": "3+"
+            },
+            "rules": [
+              "Infantry",
+              "Combat Stimulants"
+            ]
+          }
+        ],
+        "fixed_wargear": [
+          "Splinter Rifle",
+          "Splinter Rifle"
+        ],
+        "options": [
+          {
+            "description": "May add up to 5 more Kabalites for +23 points each Sybarite may swap Splinter Rifle for P Sybarite may take one M Sybarite may take one L One Kabalite may swap Splinter Rifle for S One Kabalite may swap Splinter Rifle for H",
+            "choices": []
+          }
+        ]
+      },
+      {
+        "name": "Wyches",
+        "points_base": 117,
+        "composition": "1 Hekatrix 4-9 Wyches",
+        "models": [
+          {
+            "name": "Hekatrix",
+            "stats": {
+              "M": "8",
+              "WS": "3+",
+              "BS": "3+",
+              "S": "3",
+              "T": "3",
+              "W": "2",
+              "I": "5",
+              "A": "2",
+              "Ld": "10",
+              "Sv": "5+"
+            },
+            "rules": [
+              "Character",
+              "Infantry",
+              "Combat Stimulants",
+              "Fleet"
+            ]
+          },
+          {
+            "name": "Wyche",
+            "stats": {
+              "M": "8",
+              "WS": "3+",
+              "BS": "3+",
+              "S": "3",
+              "T": "3",
+              "W": "1",
+              "I": "5",
+              "A": "1",
+              "Ld": "8",
+              "Sv": "5+"
+            },
+            "rules": [
+              "Infantry",
+              "Combat Stimulants",
+              "Fleet"
+            ]
+          }
+        ],
+        "fixed_wargear": [
+          "Splinter Pistol",
+          "Knives",
+          "Splinter Pistol",
+          "Knives"
+        ],
+        "options": [
+          {
+            "description": "May add up to 5 more Wyches for +22 points each Hekatrix may swap Splinter Pistol for P Hekatrix may swap Knives for OM Hekatrix may take one L Up to two Wyches may swap Knives for M",
+            "choices": []
+          }
+        ]
+      }
+    ],
+    "elites": [
+      {
+        "name": "Bloodbrides",
+        "points_base": 152,
+        "composition": "1 Syren 4-9 Hekatrix",
+        "models": [
+          {
+            "name": "Syren",
+            "stats": {
+              "M": "8",
+              "WS": "2+",
+              "BS": "2+",
+              "S": "3",
+              "T": "3",
+              "W": "3",
+              "I": "5",
+              "A": "3",
+              "Ld": "10",
+              "Sv": "5+"
+            },
+            "rules": [
+              "Character",
+              "Infantry",
+              "Combat Stimulants",
+              "Fleet",
+              "Chosen Escort"
+            ]
+          },
+          {
+            "name": "Hekatrix",
+            "stats": {
+              "M": "8",
+              "WS": "3+",
+              "BS": "3+",
+              "S": "3",
+              "T": "3",
+              "W": "2",
+              "I": "5",
+              "A": "2",
+              "Ld": "10",
+              "Sv": "5+"
+            },
+            "rules": [
+              "Infantry",
+              "Combat Stimulants",
+              "Fleet",
+              "Chosen Escort"
+            ]
+          }
+        ],
+        "fixed_wargear": [
+          "Splinter Pistol",
+          "Knives",
+          "Splinter Pistol",
+          "Knives"
+        ],
+        "options": [
+          {
+            "description": "May add up to 5 more Hekatrix for +29 points each Syren may swap Splinter Pistol for P Syren may swap Knives for OM Syren may take one L Any model may swap Knives for M",
+            "choices": []
+          }
+        ]
+      },
+      {
+        "name": "Incubi",
+        "points_base": 186,
+        "composition": "1 Klaivex 4-9 Incubi",
+        "models": [
+          {
+            "name": "Klaivex",
+            "stats": {
+              "M": "8",
+              "WS": "2+",
+              "BS": "2+",
+              "S": "3",
+              "T": "3",
+              "W": "3",
+              "I": "5",
+              "A": "3",
+              "Ld": "10",
+              "Sv": "3+"
+            },
+            "rules": [
+              "Character",
+              "Infantry",
+              "Combat Stimulants",
+              "Bodyguard"
+            ]
+          },
+          {
+            "name": "Incubi",
+            "stats": {
+              "M": "8",
+              "WS": "3+",
+              "BS": "3+",
+              "S": "3",
+              "T": "3",
+              "W": "2",
+              "I": "5",
+              "A": "2",
+              "Ld": "10",
+              "Sv": "3+"
+            },
+            "rules": [
+              "Infantry",
+              "Combat Stimulants",
+              "Bodyguard"
+            ]
+          }
+        ],
+        "fixed_wargear": [
+          "Demiklaives",
+          "Demiklaives"
+        ],
+        "options": [
+          {
+            "description": "May add up to 5 more Incubi for +37 points each Klaivex may swap Demiklaives for M",
+            "choices": []
+          }
+        ]
+      },
+      {
+        "name": "Kabalite Trueborns",
+        "points_base": 132,
+        "composition": "1 Dracon 4-9 Kabalites",
+        "models": [
+          {
+            "name": "Dracon",
+            "stats": {
+              "M": "8",
+              "WS": "3+",
+              "BS": "3+",
+              "S": "3",
+              "T": "3",
+              "W": "2",
+              "I": "5",
+              "A": "2",
+              "Ld": "10",
+              "Sv": "3+"
+            },
+            "rules": [
+              "Character",
+              "Infantry",
+              "Combat Stimulants",
+              "Stubborn"
+            ]
+          },
+          {
+            "name": "Kabalite",
+            "stats": {
+              "M": "8",
+              "WS": "3+",
+              "BS": "3+",
+              "S": "3",
+              "T": "3",
+              "W": "1",
+              "I": "5",
+              "A": "1",
+              "Ld": "8",
+              "Sv": "3+"
+            },
+            "rules": [
+              "Infantry",
+              "Combat Stimulants",
+              "Stubborn"
+            ]
+          }
+        ],
+        "fixed_wargear": [
+          "Splinter Rifle",
+          "Splinter Rifle"
+        ],
+        "options": [
+          {
+            "description": "May add up to 5 more Kabalites for +23 points each Dracon may swap Splinter Rifle for P or R Dracon may take one M Dracon may take one L Any Kabalite may swap Splinter Rifle for R, H, or S",
+            "choices": []
+          }
+        ]
+      },
+      {
+        "name": "Mandrakes",
+        "points_base": 132,
+        "composition": "1 Nightfiend 4-9 Mandrakes",
+        "models": [
+          {
+            "name": "Nightfiend",
+            "stats": {
+              "M": "8",
+              "WS": "3+",
+              "BS": "3+",
+              "S": "4",
+              "T": "3",
+              "W": "2",
+              "I": "5",
+              "A": "2",
+              "Ld": "10",
+              "Sv": "8"
+            },
+            "rules": [
+              "Character",
+              "Infantry",
+              "Stealth",
+              "Faceless Terror",
+              "Shadow Crawl",
+              "Terrifying Presence"
+            ]
+          },
+          {
+            "name": "Mandrake",
+            "stats": {},
+            "rules": [
+              "Infantry",
+              "Stealth",
+              "Faceless Terror",
+              "Shadow Crawl",
+              "Terrifying Presence"
+            ]
+          }
+        ],
+        "fixed_wargear": [
+          "Baleblast",
+          "Glimmersteel Blade",
+          "Baleblast",
+          "Glimmersteel Blade"
+        ],
+        "options": [
+          {
+            "description": "May add up to 5 more Mandrakes for +25 points each",
+            "choices": []
+          }
+        ]
+      },
+      {
+        "name": "Wracks",
+        "points_base": 69,
+        "composition": "1 Acothyst 4-9 Wracks",
+        "models": [
+          {
+            "name": "Acothyst",
+            "stats": {
+              "M": "8",
+              "WS": "3+",
+              "BS": "3+",
+              "S": "3",
+              "T": "4",
+              "W": "2",
+              "I": "4",
+              "A": "2",
+              "Ld": "8",
+              "Sv": "8"
+            },
+            "rules": [
+              "Character",
+              "Infantry",
+              "Combat Stimulants",
+              "Bodyguard"
+            ]
+          },
+          {
+            "name": "Wrack",
+            "stats": {},
+            "rules": [
+              "Infantry",
+              "Combat Stimulants",
+              "Bodyguard",
+              "Range S"
+            ]
+          }
+        ],
+        "fixed_wargear": [
+          "2 Wrack Tools",
+          "Wrack Tool"
+        ],
+        "options": [
+          {
+            "description": "May add up to 5 more Wracks for +13 points each Acothyst may swap any Wrack Tool for P or S Up to two Wracks may take one R",
+            "choices": []
+          }
+        ]
+      },
+      {
+        "name": "Grotesques",
+        "points_base": 172,
+        "composition": "1 Aberration 2-5 Grotesques",
+        "models": [
+          {
+            "name": "Aberration",
+            "stats": {
+              "M": "8",
+              "WS": "3+",
+              "BS": "3+",
+              "S": "5",
+              "T": "5",
+              "W": "3",
+              "I": "4",
+              "A": "4",
+              "Ld": "6",
+              "Sv": "8"
+            },
+            "rules": [
+              "Character",
+              "Monstrous Infantry",
+              "Furious Charge",
+              "Very Bulky",
+              "Psychotic Rampage",
+              "Spinal Stimulants"
+            ]
+          },
+          {
+            "name": "Grotesque",
+            "stats": {},
+            "rules": [
+              "Monstrous Infantry",
+              "Furious Charge",
+              "Very Bulky",
+              "Psychotic Rampage"
+            ]
+          }
+        ],
+        "fixed_wargear": [
+          "2 Cleavers",
+          "2 Cleavers"
+        ],
+        "options": [
+          {
+            "description": "May add up to 3 more Grotesques for +55 points each Any model may swap any Cleaver for M or S",
+            "choices": []
+          }
+        ]
+      }
+    ],
+    "fast_attack": [
+      {
+        "name": "Razorwing Flock",
+        "points_base": 75,
+        "composition": "3-10 Razorwings",
+        "models": [
+          {
+            "name": "Razorwing",
+            "stats": {
+              "M": "12",
+              "WS": "4+",
+              "BS": "5+",
+              "S": "3",
+              "T": "3",
+              "W": "3",
+              "I": "5",
+              "A": "3",
+              "Ld": "5",
+              "Sv": "-"
+            },
+            "rules": []
+          }
+        ],
+        "fixed_wargear": [],
+        "options": []
+      },
+      {
+        "name": "Corsair Cloud Dancers",
+        "points_base": 219,
+        "composition": "1 Felarch 4-9 Cloud Dancers",
+        "models": [
+          {
+            "name": "Felarch",
+            "stats": {
+              "M": "12",
+              "WS": "3+",
+              "BS": "3+",
+              "S": "3",
+              "T": "4",
+              "W": "3",
+              "I": "5",
+              "A": "2",
+              "Ld": "10",
+              "Sv": "3+"
+            },
+            "rules": [
+              "Character",
+              "Infantry",
+              "Steed",
+              "Combat Stimulants",
+              "Sudden Descent",
+              "Deepstrike",
+              "Flying",
+              "Very Bulky"
+            ]
+          },
+          {
+            "name": "Cloud Dancer",
+            "stats": {
+              "M": "12",
+              "WS": "3+",
+              "BS": "3+",
+              "S": "3",
+              "T": "4",
+              "W": "2",
+              "I": "5",
+              "A": "1",
+              "Ld": "8",
+              "Sv": "3+"
+            },
+            "rules": [
+              "Infantry",
+              "Steed",
+              "Combat Stimulants",
+              "Sudden Descent",
+              "Deepstrike",
+              "Flying",
+              "Very Bulky"
+            ]
+          }
+        ],
+        "fixed_wargear": [
+          "2 Linked Splinter Rifles",
+          "2 Linked Splinter Pistols",
+          "2 Linked Splinter Rifles",
+          "2 Linked Splinter Pistols"
+        ],
+        "options": [
+          {
+            "description": "May add up to 5 more Cloud Dancers for +42 points each Felarch may swap 2 Linked Splinter Rifles for S or H Felarch may take one M Up to two Cloud Dancers may swap 2 Linked Splinter Rifles for S or H",
+            "choices": []
+          }
+        ]
+      },
+      {
+        "name": "Hellions",
+        "points_base": 158,
+        "composition": "1 Helliarch 4-19 Hellions",
+        "models": [
+          {
+            "name": "Helliarch",
+            "stats": {
+              "M": "12",
+              "WS": "3+",
+              "BS": "3+",
+              "S": "3",
+              "T": "3",
+              "W": "2",
+              "I": "5",
+              "A": "2",
+              "Ld": "10",
+              "Sv": "5+"
+            },
+            "rules": [
+              "Character",
+              "Infantry",
+              "Combat Stimulants",
+              "Sudden Descent",
+              "Deepstrike",
+              "Flying",
+              "Bulky"
+            ]
+          },
+          {
+            "name": "Hellion",
+            "stats": {
+              "M": "12",
+              "WS": "3+",
+              "BS": "3+",
+              "S": "3",
+              "T": "3",
+              "W": "1",
+              "I": "5",
+              "A": "1",
+              "Ld": "8",
+              "Sv": "5+"
+            },
+            "rules": [
+              "Infantry",
+              "Combat Stimulants",
+              "Sudden Descent",
+              "Deepstrike",
+              "Flying",
+              "Bulky"
+            ]
+          }
+        ],
+        "fixed_wargear": [
+          "Splinter Pistol",
+          "Hellglaive",
+          "Splinter Pod",
+          "Splinter Pistol",
+          "Hellglaive",
+          "Splinter Pod"
+        ],
+        "options": [
+          {
+            "description": "May add up to 15 more Hellions for +30 points each Helliarch may swap Splinter Pistol for P Helliarch may swap Hellglaive for M Helliarch may take one L",
+            "choices": []
+          }
+        ]
+      },
+      {
+        "name": "Khymeras",
+        "points_base": 100,
+        "composition": "5-10 Khymeras",
+        "models": [
+          {
+            "name": "Khymera",
+            "stats": {
+              "M": "10",
+              "WS": "3+",
+              "BS": "5+",
+              "S": "4",
+              "T": "4",
+              "W": "2",
+              "I": "6",
+              "A": "2",
+              "Ld": "5",
+              "Sv": "-"
+            },
+            "rules": []
+          }
+        ],
+        "fixed_wargear": [],
+        "options": []
+      },
+      {
+        "name": "Reavers",
+        "points_base": 179,
+        "composition": "1 Arena Champion 4-9 Reavers",
+        "models": [
+          {
+            "name": "Arena Champion",
+            "stats": {
+              "M": "12",
+              "WS": "3+",
+              "BS": "3+",
+              "S": "3",
+              "T": "4",
+              "W": "3",
+              "I": "5",
+              "A": "2",
+              "Ld": "10",
+              "Sv": "5+"
+            },
+            "rules": [
+              "Character",
+              "Infantry",
+              "Steed",
+              "Combat Stimulants",
+              "Sudden Descent",
+              "Deepstrike",
+              "Flying",
+              "Very Bulky"
+            ]
+          },
+          {
+            "name": "Reaver",
+            "stats": {
+              "M": "12",
+              "WS": "3+",
+              "BS": "3+",
+              "S": "3",
+              "T": "4",
+              "W": "2",
+              "I": "5",
+              "A": "1",
+              "Ld": "8",
+              "Sv": "5+"
+            },
+            "rules": [
+              "Infantry",
+              "Steed",
+              "Combat Stimulants",
+              "Sudden Descent",
+              "Deepstrike",
+              "Flying",
+              "Very Bulky"
+            ]
+          }
+        ],
+        "fixed_wargear": [
+          "Splinter Rifle",
+          "Splinter Pistol",
+          "Bladevane",
+          "Splinter Rifle",
+          "Splinter Pistol",
+          "Bladevane"
+        ],
+        "options": [
+          {
+            "description": "May add up to 5 more Reavers for +37 points each Arena Champion may swap Splinter Rifle for O Arena Champion may take one M Up to three Reavers may take one S",
+            "choices": []
+          }
+        ]
+      },
+      {
+        "name": "Scourges",
+        "points_base": 190,
+        "composition": "1 Solarite 4-9 Scourges",
+        "models": [
+          {
+            "name": "Solarite",
+            "stats": {
+              "M": "12",
+              "WS": "3+",
+              "BS": "3+",
+              "S": "3",
+              "T": "3",
+              "W": "2",
+              "I": "5",
+              "A": "2",
+              "Ld": "10",
+              "Sv": "3+"
+            },
+            "rules": [
+              "Character",
+              "Infantry",
+              "Combat Stimulants",
+              "Sudden Descent",
+              "Deepstrike",
+              "Flying",
+              "Bulky",
+              "Spire Messengers"
+            ]
+          },
+          {
+            "name": "Scourge",
+            "stats": {
+              "M": "12",
+              "WS": "3+",
+              "BS": "3+",
+              "S": "3",
+              "T": "3",
+              "W": "1",
+              "I": "5",
+              "A": "1",
+              "Ld": "8",
+              "Sv": "3+"
+            },
+            "rules": [
+              "Infantry",
+              "Combat Stimulants",
+              "Sudden Descent",
+              "Deepstrike",
+              "Flying",
+              "Bulky",
+              "Spire Messengers"
+            ]
+          }
+        ],
+        "fixed_wargear": [
+          "Splinter Pistol",
+          "Shard Carbine"
+        ],
+        "options": [
+          {
+            "description": "May add up to 5 more Scourges for +38 points each Solarite may swap Splinter Pistol for P Solarite may take one M One Scourge may swap Shard Carbine for S One Scourge may swap Shard Carbine for H",
+            "choices": []
+          }
+        ]
+      },
+      {
+        "name": "Skyweavers",
+        "points_base": 104,
+        "composition": "2-6 Skyweavers",
+        "models": [
+          {
+            "name": "Skyweaver",
+            "stats": {
+              "M": "12",
+              "WS": "3+",
+              "BS": "3+",
+              "S": "3",
+              "T": "4",
+              "W": "3",
+              "I": "5",
+              "A": "2",
+              "Ld": "9",
+              "Sv": "-"
+            },
+            "rules": [
+              "Infantry",
+              "Steed",
+              "Harlequin",
+              "Deepstrike",
+              "Fly",
+              "Outflank",
+              "Very Bulky",
+              "Range S"
+            ]
+          }
+        ],
+        "fixed_wargear": [
+          "Haywire Cannon",
+          "Zepherglaive",
+          "Holo Suit"
+        ],
+        "options": [
+          {
+            "description": "May take up to 4 more Skyweavers for +52 points each Any model may swap Haywire Cannon for H Any model may swap Zepherglaive for G",
+            "choices": []
+          }
+        ]
+      },
+      {
+        "name": "Clawed Fiends",
+        "points_base": 96,
+        "composition": "3-6 Clawed Fiends",
+        "models": [
+          {
+            "name": "Clawed Fiend",
+            "stats": {
+              "M": "8",
+              "WS": "4+",
+              "BS": "5+",
+              "S": "5",
+              "T": "5",
+              "W": "3",
+              "I": "5",
+              "A": "3",
+              "Ld": "5",
+              "Sv": "-"
+            },
+            "rules": []
+          }
+        ],
+        "fixed_wargear": [],
+        "options": []
+      }
+    ],
+    "heavy_support": [
+      {
+        "name": "3+",
+        "points_base": 176,
+        "composition": "1-3 Cronos",
+        "models": [
+          {
+            "name": "3+",
+            "stats": {
+              "M": "8",
+              "WS": "3+",
+              "BS": "3+",
+              "S": "6",
+              "T": "7",
+              "W": "8",
+              "I": "4",
+              "A": "4",
+              "Ld": "10",
+              "Sv": "3+"
+            },
+            "rules": [
+              "Monster",
+              "Combat Stimulants",
+              "Sudden Descent",
+              "Deepstrike",
+              "Fearless",
+              "Flying",
+              "Points: 154"
+            ]
+          }
+        ],
+        "fixed_wargear": [
+          "Stinger Pod",
+          "Ichor Injectors"
+        ],
+        "options": [
+          {
+            "description": "May add up to two more Talos for +154 points each Any model may swap Stinger Pod for H Any model may swap Ichor Injectors for M",
+            "choices": []
+          }
+        ]
+      },
+      {
+        "name": "3+",
+        "points_base": 154,
+        "composition": "1-3 Talos",
+        "models": [
+          {
+            "name": "3+",
+            "stats": {
+              "M": "8",
+              "WS": "3+",
+              "BS": "3+",
+              "S": "6",
+              "T": "7",
+              "W": "8",
+              "I": "4",
+              "A": "4",
+              "Ld": "10",
+              "Sv": "3+"
+            },
+            "rules": [
+              "Monster",
+              "Combat Stimulants",
+              "Sudden Descent",
+              "Deepstrike",
+              "Fearless",
+              "Flying",
+              "Range S"
+            ]
+          }
+        ],
+        "fixed_wargear": [
+          "Stinger Pod",
+          "Ichor Injectors"
+        ],
+        "options": [
+          {
+            "description": "May add up to two more Talos for +154 points each Any model may swap Stinger Pod for H Any model may swap Ichor Injectors for M",
+            "choices": []
+          }
+        ]
+      },
+      {
+        "name": "Ravagers",
+        "points_base": 98,
+        "composition": "1-3 Ravagers",
+        "models": [
+          {
+            "name": "Ravager",
+            "stats": {},
+            "rules": [
+              "Vehicle",
+              "Tank",
+              "Sudden Descent",
+              "Deepstrike",
+              "Flying",
+              "Open Topped"
+            ]
+          }
+        ],
+        "fixed_wargear": [
+          "Disintegrator Cannon",
+          "2 Disintegrator Cannons"
+        ],
+        "options": [
+          {
+            "description": "May add up to two more Ravagers for +98 points each Any model may swap Disintegrator Cannon for H Any model may swap 2 Linked Disintegrator Cannons for S Any model may take one M Any model may take one D Any model may take one L Any model may take up to one of each E",
+            "choices": [
+              {
+                "name": "Splinter Racks",
+                "pts_delta": 5
+              },
+              {
+                "name": "Grisly Trophies",
+                "pts_delta": 10
+              },
+              {
+                "name": "Night Shields",
+                "pts_delta": 12
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Voidweavers",
+        "points_base": 78,
+        "composition": "1-3 Reapers",
+        "models": [
+          {
+            "name": "Voidweaver",
+            "stats": {},
+            "rules": [
+              "Vehicle",
+              "Tank",
+              "Sudden Descent",
+              "Deepstrike",
+              "Flying",
+              "Open Topped"
+            ]
+          }
+        ],
+        "fixed_wargear": [
+          "Haywire Cannon",
+          "2 Linked Shuriken Catapults"
+        ],
+        "options": [
+          {
+            "description": "May add up to two more Voidweavers for +45 points each Any model may swap Haywire Cannon for T Any model may take one S Any model may take up to one of each E",
+            "choices": [
+              {
+                "name": "Vectored Engines",
+                "pts_delta": 5
+              },
+              {
+                "name": "Spirit Stones",
+                "pts_delta": 5
+              },
+              {
+                "name": "Holo Fields",
+                "pts_delta": 12
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Voidweavers",
+        "points_base": 45,
+        "composition": "1-3 Voidweavers",
+        "models": [
+          {
+            "name": "Voidweaver",
+            "stats": {},
+            "rules": [
+              "Vehicle",
+              "Tank",
+              "Harlequin",
+              "Deepstrike",
+              "Flying",
+              "Open Topped"
+            ]
+          }
+        ],
+        "fixed_wargear": [
+          "Haywire Cannon",
+          "2 Linked Shuriken Catapults"
+        ],
+        "options": [
+          {
+            "description": "May add up to two more Voidweavers for +45 points each Any model may swap Haywire Cannon for T Any model may take one S Any model may take up to one of each E",
+            "choices": [
+              {
+                "name": "Vectored Engines",
+                "pts_delta": 5
+              },
+              {
+                "name": "Spirit Stones",
+                "pts_delta": 5
+              },
+              {
+                "name": "Holo Fields",
+                "pts_delta": 12
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "flyers": [
+      {
+        "name": "Raven Strike Fighters",
+        "points_base": 212,
+        "composition": "1-3 Ravens",
+        "models": [
+          {
+            "name": "Raven",
+            "stats": {},
+            "rules": [
+              "Vehicle",
+              "Sudden Descent",
+              "Deepstrike",
+              "High Altitude",
+              "Acrobatic Maneuvers",
+              "Save."
+            ]
+          }
+        ],
+        "fixed_wargear": [
+          "Splinterstorm Cannon",
+          "2 Linked Dark Lances"
+        ],
+        "options": [
+          {
+            "description": "May add up to two more Ravens for +212 points each",
+            "choices": []
+          }
+        ]
+      },
+      {
+        "name": "Razorwing Fighters",
+        "points_base": 170,
+        "composition": "1-3 Razorwings",
+        "models": [
+          {
+            "name": "Razorwing",
+            "stats": {},
+            "rules": [
+              "Vehicle",
+              "Sudden Descent",
+              "Deepstrike",
+              "High Altitude"
+            ]
+          }
+        ],
+        "fixed_wargear": [
+          "2 Linked Splinter Rifles",
+          "2 Linked Disintegrator",
+          "Cannons",
+          "2 Linked Necrotoxin Missiles"
+        ],
+        "options": [
+          {
+            "description": "May add up to two more Razorwings for +170 points each Any model may swap 2 Linked Splinter Rifles for H Any model may swap 2 Linked Disintegrator Cannons for W Any model may swap 2 Linked Necrotoxin Missiles for M Any model may take up to one of each E",
+            "choices": [
+              {
+                "name": "Night Shields",
+                "pts_delta": 12
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Voidraven Bombers",
+        "points_base": 209,
+        "composition": "1-3 Voidravens",
+        "models": [
+          {
+            "name": "Voidraven",
+            "stats": {},
+            "rules": [
+              "Vehicle",
+              "Sudden Descent",
+              "Deepstrike",
+              "High Altitude"
+            ]
+          }
+        ],
+        "fixed_wargear": [
+          "2 Linked Dark Lances",
+          "Necrotoxin Missile Rack",
+          "Void Mines"
+        ],
+        "options": [
+          {
+            "description": "May add up to two more Voidravens for +209 points each Any model may swap 2 Linked Dark Lances for W Any model may swap Necrotoxin Missile Rack for M Any model may take up to one of each E",
+            "choices": [
+              {
+                "name": "Night Shields",
+                "pts_delta": 12
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "dedicated_transport": [
+      {
+        "name": "Raider",
+        "points_base": 148,
+        "composition": "1 Raider",
+        "models": [
+          {
+            "name": "Raider",
+            "stats": {},
+            "rules": [
+              "Vehicle",
+              "Tank",
+              "Exposed Transport",
+              "Sudden Descent",
+              "Deepstrike",
+              "Flying",
+              "Open Topped",
+              "Transport 12",
+              "Range S"
+            ]
+          }
+        ],
+        "fixed_wargear": [
+          "Disintegrator Cannon"
+        ],
+        "options": [
+          {
+            "description": "May swap Disintegrator Cannon for H",
+            "choices": []
+          },
+          {
+            "description": "May take one M",
+            "choices": []
+          },
+          {
+            "description": "May take one D",
+            "choices": []
+          },
+          {
+            "description": "May take one L",
+            "choices": []
+          },
+          {
+            "description": "May take up to one of each E",
+            "choices": [
+              {
+                "name": "Splinter Racks",
+                "pts_delta": 5
+              },
+              {
+                "name": "Grisly Trophies",
+                "pts_delta": 10
+              },
+              {
+                "name": "Night Shields",
+                "pts_delta": 12
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Venom",
+        "points_base": 98,
+        "composition": "1 Venom",
+        "models": [
+          {
+            "name": "Venom",
+            "stats": {},
+            "rules": [
+              "Vehicle",
+              "Tank",
+              "Exposed Transport",
+              "Sudden Descent",
+              "Deepstrike",
+              "Flying",
+              "Open Topped",
+              "Transport 6"
+            ]
+          }
+        ],
+        "fixed_wargear": [
+          "2 Linked Splinter Rifles"
+        ],
+        "options": [
+          {
+            "description": "May swap 2 Linked Splinter Rifles for H",
+            "choices": []
+          },
+          {
+            "description": "May take up to one of each E",
+            "choices": [
+              {
+                "name": "Splinter Racks",
+                "pts_delta": 5
+              },
+              {
+                "name": "Grisly Trophies",
+                "pts_delta": 10
+              },
+              {
+                "name": "Night Shields",
+                "pts_delta": 12
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Starweaver",
+        "points_base": 108,
+        "composition": "1 Starweaver",
+        "models": [
+          {
+            "name": "Starweaver",
+            "stats": {},
+            "rules": [
+              "Vehicle",
+              "Tank",
+              "Exposed Transport",
+              "Harlequin",
+              "Deepstrike",
+              "Flying",
+              "Open Topped",
+              "Transport 6"
+            ]
+          }
+        ],
+        "fixed_wargear": [
+          "2 Linked Shuriken Cannons"
+        ],
+        "options": [
+          {
+            "description": "May take up to one of each E",
+            "choices": [
+              {
+                "name": "Vectored Engines",
+                "pts_delta": 5
+              },
+              {
+                "name": "Spirit Stones",
+                "pts_delta": 5
+              },
+              {
+                "name": "Holo Fields",
+                "pts_delta": 12
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "lord_of_war": [
+      {
+        "name": "Avatar of Ynnead",
+        "points_base": 457,
+        "composition": "1 Avatar of Ynnead",
+        "models": [
+          {
+            "name": "Avatar of Ynnead",
+            "stats": {
+              "M": "8",
+              "WS": "2+",
+              "BS": "2+",
+              "S": "6",
+              "T": "6",
+              "W": "12",
+              "I": "10",
+              "A": "6",
+              "Ld": "10",
+              "Sv": "3+"
+            },
+            "rules": [
+              "Independent Character",
+              "Monster",
+              "Unique",
+              "Deepstrike",
+              "Fearless",
+              "Fleet",
+              "Psychic Mastery Level 3",
+              "Stubborn",
+              "Follower of Ynnead",
+              "Avatar of Ynnead",
+              "Daemonic Avatar",
+              "Death Avatar"
+            ]
+          }
+        ],
+        "fixed_wargear": [
+          "Vilith-Zhar"
+        ],
+        "options": [
+          {
+            "description": "May take up to one Spell for each level of Psychic Mastery",
+            "choices": []
+          }
+        ]
+      },
+      {
+        "name": "Tantalus",
+        "points_base": 313,
+        "composition": "1 Tantalus",
+        "models": [
+          {
+            "name": "Tantalus",
+            "stats": {},
+            "rules": [
+              "Vehicle",
+              "Tank",
+              "Exposed Transport",
+              "Sudden Descent",
+              "Deepstrike",
+              "Flying",
+              "Open Topped",
+              "Transport 16",
+              "Range S"
+            ]
+          }
+        ],
+        "fixed_wargear": [
+          "2 Linked Pulse Disintegrators",
+          "Dire Scythe Blades"
+        ],
+        "options": [
+          {
+            "description": "May take one L",
+            "choices": []
+          },
+          {
+            "description": "May take up to one of each E",
+            "choices": [
+              {
+                "name": "Splinter Racks",
+                "pts_delta": 5
+              },
+              {
+                "name": "Grisly Trophies",
+                "pts_delta": 10
+              },
+              {
+                "name": "Night Shields",
+                "pts_delta": 12
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "fortifications": [
+      {
+        "name": "Webway Gate",
+        "points_base": 201,
+        "composition": "1 Webway Gate",
+        "models": [
+          {
+            "name": "Webway Gate",
+            "stats": {},
+            "rules": [
+              "Building",
+              "Immobile",
+              "Objective Secured",
+              "Webway"
+            ]
+          }
+        ],
+        "fixed_wargear": [
+          "Web Shielding"
+        ],
+        "options": []
+      }
+    ]
+  }
+}

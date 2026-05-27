@@ -1,0 +1,1742 @@
+{
+  "id": "nurgle",
+  "name": "Nurgle",
+  "difficulty": 1,
+  "subfactions": [
+    {
+      "name": "Average"
+    },
+    {
+      "name": "Death Guard"
+    },
+    {
+      "name": "Venomariners"
+    },
+    {
+      "name": "Weeping Legion"
+    }
+  ],
+  "slots": {
+    "hq": [
+      {
+        "name": "Lord of Contagion",
+        "points_base": 231,
+        "composition": "1 Lord",
+        "models": [
+          {
+            "name": "Lord",
+            "stats": {
+              "M": "4",
+              "WS": "2+",
+              "BS": "2+",
+              "S": "4",
+              "T": "5",
+              "W": "6",
+              "I": "4",
+              "A": "4",
+              "Ld": "9",
+              "Sv": "3+"
+            },
+            "rules": [
+              "Independent Character",
+              "Monstrous Infantry",
+              "Deepstrike",
+              "Shock Assault",
+              "Steady",
+              "Very Bulky",
+              "Lord of Chaos"
+            ]
+          }
+        ],
+        "fixed_wargear": [
+          "Manreaper",
+          "Orb of Desiccation",
+          "Sigil of Corruption"
+        ],
+        "options": [
+          {
+            "description": "May take one C",
+            "choices": []
+          }
+        ]
+      },
+      {
+        "name": "Lord of Poxes",
+        "points_base": 230,
+        "composition": "1 Lord",
+        "models": [
+          {
+            "name": "Lord",
+            "stats": {
+              "M": "4",
+              "WS": "2+",
+              "BS": "2+",
+              "S": "4",
+              "T": "5",
+              "W": "6",
+              "I": "4",
+              "A": "4",
+              "Ld": "9",
+              "Sv": "3+"
+            },
+            "rules": [
+              "Independent Character",
+              "Monstrous Infantry",
+              "Shock Assault",
+              "Steady",
+              "Very Bulky",
+              "Lord of Chaos",
+              "Pox Incubator"
+            ]
+          }
+        ],
+        "fixed_wargear": [
+          "Plasma Pistol",
+          "Great Plague Blade",
+          "Sigil of Corruption"
+        ],
+        "options": [
+          {
+            "description": "May take one C",
+            "choices": []
+          }
+        ]
+      },
+      {
+        "name": "Lord of Virulence",
+        "points_base": 249,
+        "composition": "1 Lord",
+        "models": [
+          {
+            "name": "Lord",
+            "stats": {
+              "M": "4",
+              "WS": "2+",
+              "BS": "2+",
+              "S": "4",
+              "T": "5",
+              "W": "6",
+              "I": "4",
+              "A": "4",
+              "Ld": "9",
+              "Sv": "3+"
+            },
+            "rules": [
+              "Independent Character",
+              "Monstrous Infantry",
+              "Deepstrike",
+              "Shock Assault",
+              "Steady",
+              "Very Bulky",
+              "Lord of Virulence",
+              "Lord of Chaos"
+            ]
+          }
+        ],
+        "fixed_wargear": [
+          "Plague Spewer",
+          "Powerfist",
+          "Frag Grenades",
+          "Krak Grenades",
+          "Sigil of Corruption"
+        ],
+        "options": [
+          {
+            "description": "May take one C",
+            "choices": []
+          }
+        ]
+      },
+      {
+        "name": "Cor\u2019Bax Utterblight",
+        "points_base": 423,
+        "composition": "1 Cor\u2019Bax",
+        "models": [
+          {
+            "name": "Cor\u2019Bax",
+            "stats": {
+              "M": "8",
+              "WS": "2+",
+              "BS": "2+",
+              "S": "7",
+              "T": "7",
+              "W": "12",
+              "I": "8",
+              "A": "5",
+              "Ld": "9",
+              "Sv": "-"
+            },
+            "rules": [
+              "Independent Character",
+              "Monster",
+              "Unique",
+              "Daemonic",
+              "Deepstrike",
+              "Fearless",
+              "Psychic Mastery Level 3"
+            ]
+          }
+        ],
+        "fixed_wargear": [
+          "Gaping Maw",
+          "Sigil of Corruption"
+        ],
+        "options": [
+          {
+            "description": "May take one Spell for each Psychic Mastery Level",
+            "choices": []
+          }
+        ]
+      },
+      {
+        "name": "Ku\u2019Gath the Plague Father",
+        "points_base": 527,
+        "composition": "1 Ku\u2019Gath",
+        "models": [
+          {
+            "name": "Ku\u2019Gath",
+            "stats": {
+              "M": "8",
+              "WS": "2+",
+              "BS": "2+",
+              "S": "7",
+              "T": "8",
+              "W": "18",
+              "I": "4",
+              "A": "5",
+              "Ld": "10",
+              "Sv": "-"
+            },
+            "rules": [
+              "Independent Character",
+              "Monster",
+              "Unique",
+              "Daemonic",
+              "Deepstrike",
+              "Fearless",
+              "Psychic Mastery Level 4",
+              "Shock Assault",
+              "Lord of Chaos",
+              "Nurgling Infestation",
+              "Regenerate"
+            ]
+          }
+        ],
+        "fixed_wargear": [
+          "Nurgling Missiles",
+          "Nurgling Horde",
+          "Sigil of Corruption"
+        ],
+        "options": [
+          {
+            "description": "May take one Spell for each Psychic Mastery Level",
+            "choices": []
+          }
+        ]
+      },
+      {
+        "name": "Mamon Transfigured",
+        "points_base": 325,
+        "composition": "1 Mamon",
+        "models": [
+          {
+            "name": "Mamon",
+            "stats": {
+              "M": "8",
+              "WS": "2+",
+              "BS": "5+",
+              "S": "7",
+              "T": "7",
+              "W": "9",
+              "I": "8",
+              "A": "5",
+              "Ld": "9",
+              "Sv": "-"
+            },
+            "rules": [
+              "Independent Character",
+              "Monster",
+              "Unique",
+              "Daemonic",
+              "Deepstrike",
+              "Fearless",
+              "Shock Assault",
+              "Lord of Chaos",
+              "The Transfigured",
+              "Wound."
+            ]
+          }
+        ],
+        "fixed_wargear": [
+          "Contagion Sprayer Array",
+          "Fist of Decay",
+          "Sigil of Corruption"
+        ],
+        "options": []
+      },
+      {
+        "name": "Mortarion",
+        "points_base": 812,
+        "composition": "1 Mortarion",
+        "models": [
+          {
+            "name": "Mortarion",
+            "stats": {
+              "M": "12",
+              "WS": "2+",
+              "BS": "2+",
+              "S": "8",
+              "T": "8",
+              "W": "18",
+              "I": "6",
+              "A": "6",
+              "Ld": "10",
+              "Sv": "3+"
+            },
+            "rules": [
+              "Independent Character",
+              "Monster",
+              "Unique",
+              "Death Guard",
+              "Daemonic",
+              "Deepstrike",
+              "Fearless",
+              "Flying",
+              "Psychic Mastery Level 4",
+              "Shock Assault",
+              "Arch Contaminator",
+              "Favoured of Nurgle",
+              "Living Plague",
+              "Lord of the Death Guard",
+              "Primarch",
+              "Putrid Explosion"
+            ]
+          }
+        ],
+        "fixed_wargear": [
+          "The Lantern",
+          "Silence",
+          "Phosphex Bombs",
+          "Sigil of Corruption"
+        ],
+        "options": [
+          {
+            "description": "May take one Spell for each level of Psychic Mastery",
+            "choices": []
+          }
+        ]
+      },
+      {
+        "name": "Necrosius the Undying",
+        "points_base": 458,
+        "composition": "1 Necrosius",
+        "models": [
+          {
+            "name": "Necrosius",
+            "stats": {
+              "M": "6",
+              "WS": "2+",
+              "BS": "2+",
+              "S": "4",
+              "T": "5",
+              "W": "5",
+              "I": "4",
+              "A": "5",
+              "Ld": "9",
+              "Sv": "3+"
+            },
+            "rules": [
+              "Independent Character",
+              "Infantry",
+              "Death Guard",
+              "Fearless",
+              "Psychic Mastery Level 3",
+              "Shock Assault",
+              "Master of the Dead",
+              "Resentful"
+            ]
+          }
+        ],
+        "fixed_wargear": [
+          "Pox Pistol",
+          "Tainted Force Blade",
+          "Frag Grenades",
+          "Krak Grenades",
+          "Sigil of Corruption"
+        ],
+        "options": [
+          {
+            "description": "May take one S for each Psychic Mastery Level",
+            "choices": []
+          }
+        ]
+      },
+      {
+        "name": "Rotigus",
+        "points_base": 601,
+        "composition": "1 Rotigus",
+        "models": [
+          {
+            "name": "Rotigus",
+            "stats": {
+              "M": "8",
+              "WS": "2+",
+              "BS": "2+",
+              "S": "7",
+              "T": "8",
+              "W": "18",
+              "I": "4",
+              "A": "5",
+              "Ld": "10",
+              "Sv": "-"
+            },
+            "rules": [
+              "Independent Character",
+              "Monster",
+              "Unique",
+              "Daemonic",
+              "Deepstrike",
+              "Fearless",
+              "Psychic Mastery Level 4",
+              "Shock Assault",
+              "Lord of Chaos",
+              "Regenerate"
+            ]
+          }
+        ],
+        "fixed_wargear": [
+          "Brackish Filth",
+          "Gnarlrod",
+          "Sigil of Corruption"
+        ],
+        "options": [
+          {
+            "description": "May take one Spell for each Psychic Mastery Level",
+            "choices": []
+          }
+        ]
+      },
+      {
+        "name": "Typhus",
+        "points_base": 418,
+        "composition": "1 Typhus",
+        "models": [
+          {
+            "name": "Typhus",
+            "stats": {
+              "M": "4",
+              "WS": "2+",
+              "BS": "2+",
+              "S": "4",
+              "T": "5",
+              "W": "6",
+              "I": "4",
+              "A": "5",
+              "Ld": "9",
+              "Sv": "3+"
+            },
+            "rules": [
+              "Independent Character",
+              "Monstrous Infantry",
+              "Unique",
+              "Death Guard",
+              "Deepstrike",
+              "Fearless",
+              "Psychic Mastery Level 3",
+              "Shock Assault",
+              "Steady",
+              "Very Bulky",
+              "Herald of Nurgle",
+              "Lord of Chaos"
+            ]
+          }
+        ],
+        "fixed_wargear": [
+          "Handflamer",
+          "Manreaper",
+          "Frag Grenades",
+          "Krak Grenades",
+          "Sigil of Corruption"
+        ],
+        "options": [
+          {
+            "description": "May take one S per Psychic Mastery Level",
+            "choices": []
+          }
+        ]
+      }
+    ],
+    "advisors": [
+      {
+        "name": "Biologus Putrifier",
+        "points_base": 97,
+        "composition": "1 Putrifier",
+        "models": [
+          {
+            "name": "Putrifier",
+            "stats": {
+              "M": "6",
+              "WS": "3+",
+              "BS": "3+",
+              "S": "4",
+              "T": "5",
+              "W": "4",
+              "I": "4",
+              "A": "3",
+              "Ld": "8",
+              "Sv": "3+"
+            },
+            "rules": [
+              "Independent Character",
+              "Infantry",
+              "Shock Assault",
+              "Foul Infusion",
+              "(2+)."
+            ]
+          }
+        ],
+        "fixed_wargear": [
+          "Injector Pistol",
+          "Brutal Combat Weapon",
+          "Hyper Blight Grenades",
+          "Krak Grenades"
+        ],
+        "options": [
+          {
+            "description": "May take one C",
+            "choices": []
+          }
+        ]
+      },
+      {
+        "name": "Foul Blightspawn",
+        "points_base": 145,
+        "composition": "1 Blightspawn",
+        "models": [
+          {
+            "name": "Blightspawn",
+            "stats": {
+              "M": "6",
+              "WS": "3+",
+              "BS": "3+",
+              "S": "4",
+              "T": "5",
+              "W": "4",
+              "I": "4",
+              "A": "3",
+              "Ld": "8",
+              "Sv": "3+"
+            },
+            "rules": [
+              "Independent Character",
+              "Infantry",
+              "Shock Assault",
+              "Putrefying Stink",
+              "Initiative 1."
+            ]
+          }
+        ],
+        "fixed_wargear": [
+          "Plague Sprayer",
+          "Unholy Death\u2019s Head Grenade",
+          "Frag Grenades",
+          "Krak Grenades"
+        ],
+        "options": [
+          {
+            "description": "May take one C",
+            "choices": []
+          }
+        ]
+      },
+      {
+        "name": "Noxious Blightbringer",
+        "points_base": 105,
+        "composition": "1 Blightbringer",
+        "models": [
+          {
+            "name": "Blightbringer",
+            "stats": {
+              "M": "6",
+              "WS": "3+",
+              "BS": "3+",
+              "S": "4",
+              "T": "5",
+              "W": "4",
+              "I": "4",
+              "A": "3",
+              "Ld": "8",
+              "Sv": "3+"
+            },
+            "rules": [
+              "Independent Character",
+              "Infantry",
+              "Shock Assault",
+              "Empyric Malaise",
+              "Sickening Vitality"
+            ]
+          }
+        ],
+        "fixed_wargear": [
+          "Plasma Pistol",
+          "Frag Grenades",
+          "Krak Grenades"
+        ],
+        "options": [
+          {
+            "description": "May take one C",
+            "choices": []
+          }
+        ]
+      },
+      {
+        "name": "Poxbringer",
+        "points_base": 239,
+        "composition": "1 Surgeon",
+        "models": [
+          {
+            "name": "Poxbringer",
+            "stats": {
+              "M": "6",
+              "WS": "3+",
+              "BS": "3+",
+              "S": "4",
+              "T": "5",
+              "W": "4",
+              "I": "4",
+              "A": "3",
+              "Ld": "8",
+              "Sv": "-"
+            },
+            "rules": [
+              "Independent Character",
+              "Infantry",
+              "Shock Assault",
+              "Revitalizing Malignancy",
+              "Tainted Narthecium"
+            ]
+          }
+        ],
+        "fixed_wargear": [
+          "Balesword"
+        ],
+        "options": [
+          {
+            "description": "May take one Spell for each Psychic Mastery Level",
+            "choices": []
+          },
+          {
+            "description": "May take one C",
+            "choices": []
+          }
+        ]
+      },
+      {
+        "name": "Poxbringer",
+        "points_base": 206,
+        "composition": "1 Poxbringer",
+        "models": [
+          {
+            "name": "Poxbringer",
+            "stats": {
+              "M": "6",
+              "WS": "3+",
+              "BS": "3+",
+              "S": "4",
+              "T": "5",
+              "W": "4",
+              "I": "4",
+              "A": "3",
+              "Ld": "8",
+              "Sv": "-"
+            },
+            "rules": [
+              "Independent Character",
+              "Infantry",
+              "Daemonic",
+              "Deepstrike",
+              "Fearless",
+              "Psychic Mastery Level 1",
+              "Locus of Nurgle"
+            ]
+          }
+        ],
+        "fixed_wargear": [
+          "Balesword"
+        ],
+        "options": [
+          {
+            "description": "May take one Spell for each Psychic Mastery Level",
+            "choices": []
+          },
+          {
+            "description": "May take one C",
+            "choices": []
+          }
+        ]
+      },
+      {
+        "name": "Sloppity Bilepiper",
+        "points_base": 168,
+        "composition": "1 Bilepiper",
+        "models": [
+          {
+            "name": "Bilepiper",
+            "stats": {
+              "M": "6",
+              "WS": "3+",
+              "BS": "5+",
+              "S": "4",
+              "T": "5",
+              "W": "4",
+              "I": "4",
+              "A": "3",
+              "Ld": "8",
+              "Sv": "-"
+            },
+            "rules": [
+              "Independent Character",
+              "Infantry",
+              "Daemonic",
+              "Deepstrike",
+              "Fearless",
+              "Disease of Mirth",
+              "Jolly Gutpipes"
+            ]
+          }
+        ],
+        "fixed_wargear": [
+          "None"
+        ],
+        "options": [
+          {
+            "description": "May take one C",
+            "choices": []
+          }
+        ]
+      },
+      {
+        "name": "Tallyman",
+        "points_base": 119,
+        "composition": "1 Scrivener",
+        "models": [
+          {
+            "name": "Tallyman",
+            "stats": {
+              "M": "6",
+              "WS": "3+",
+              "BS": "3+",
+              "S": "4",
+              "T": "5",
+              "W": "4",
+              "I": "4",
+              "A": "3",
+              "Ld": "8",
+              "Sv": "3+"
+            },
+            "rules": [
+              "Independent Character",
+              "Infantry",
+              "Daemonic",
+              "Deepstrike",
+              "Fearless",
+              "Keep Counting!",
+              "Stern Taskmaster"
+            ]
+          }
+        ],
+        "fixed_wargear": [
+          "Plasma Pistol",
+          "Frag Grenades",
+          "Krak Grenades"
+        ],
+        "options": [
+          {
+            "description": "May take one C",
+            "choices": []
+          }
+        ]
+      },
+      {
+        "name": "Tallyman",
+        "points_base": 160,
+        "composition": "1 Tallyman",
+        "models": [
+          {
+            "name": "Tallyman",
+            "stats": {
+              "M": "6",
+              "WS": "3+",
+              "BS": "3+",
+              "S": "4",
+              "T": "5",
+              "W": "4",
+              "I": "4",
+              "A": "3",
+              "Ld": "8",
+              "Sv": "3+"
+            },
+            "rules": [
+              "Independent Character",
+              "Infantry",
+              "Death Guard",
+              "Shock Assault",
+              "Malicious Calculations"
+            ]
+          }
+        ],
+        "fixed_wargear": [
+          "Plasma Pistol",
+          "Frag Grenades",
+          "Krak Grenades"
+        ],
+        "options": [
+          {
+            "description": "May take one C",
+            "choices": []
+          }
+        ]
+      },
+      {
+        "name": "Epidemius",
+        "points_base": 233,
+        "composition": "1 Epidemius",
+        "models": [
+          {
+            "name": "Epidemius",
+            "stats": {
+              "M": "6",
+              "WS": "2+",
+              "BS": "5+",
+              "S": "5",
+              "T": "5",
+              "W": "8",
+              "I": "4",
+              "A": "4",
+              "Ld": "8",
+              "Sv": "-"
+            },
+            "rules": [
+              "Independent Character",
+              "Monstrous Infantry",
+              "Daemonic",
+              "Deepstrike",
+              "Fearless",
+              "Disgustingly Resilient",
+              "Malicious Calculations"
+            ]
+          }
+        ],
+        "fixed_wargear": [
+          "Balesword"
+        ],
+        "options": []
+      },
+      {
+        "name": "Horticulus Slimux",
+        "points_base": 496,
+        "composition": "1 Horticulus",
+        "models": [
+          {
+            "name": "Horticulus",
+            "stats": {
+              "M": "6",
+              "WS": "2+",
+              "BS": "5+",
+              "S": "5",
+              "T": "6",
+              "W": "9",
+              "I": "4",
+              "A": "4",
+              "Ld": "8",
+              "Sv": "3+"
+            },
+            "rules": [
+              "Independent Character",
+              "Monster",
+              "Daemonic",
+              "Deepstrike",
+              "Fearless",
+              "Seed the Garden of Nurgle"
+            ]
+          }
+        ],
+        "fixed_wargear": [
+          "Lopping Shears",
+          "Mulch"
+        ],
+        "options": []
+      }
+    ],
+    "troops": [
+      {
+        "name": "Pox Walkers",
+        "points_base": 39,
+        "composition": "3-10 Nurglings",
+        "models": [
+          {
+            "name": "Champion",
+            "stats": {
+              "M": "6",
+              "WS": "4+",
+              "BS": "5+",
+              "S": "3",
+              "T": "4",
+              "W": "1",
+              "I": "3",
+              "A": "2",
+              "Ld": "7",
+              "Sv": "6"
+            },
+            "rules": []
+          },
+          {
+            "name": "Pox Walker",
+            "stats": {},
+            "rules": [
+              "Swarm",
+              "Daemonic",
+              "Fearless",
+              "Fester"
+            ]
+          }
+        ],
+        "fixed_wargear": [
+          "Infested Blades",
+          "Infested Blades"
+        ],
+        "options": [
+          {
+            "description": "May take up to 20 more Pox Walkers for +8 points each The entire unit may take one C",
+            "choices": []
+          }
+        ]
+      },
+      {
+        "name": "Pox Walkers",
+        "points_base": 83,
+        "composition": "1 Champion 9-29 Pox Walkers",
+        "models": [
+          {
+            "name": "Champion",
+            "stats": {
+              "M": "6",
+              "WS": "4+",
+              "BS": "5+",
+              "S": "3",
+              "T": "4",
+              "W": "1",
+              "I": "3",
+              "A": "2",
+              "Ld": "7",
+              "Sv": "6"
+            },
+            "rules": [
+              "Character",
+              "Infantry",
+              "Daemonic",
+              "Fearless",
+              "Fester"
+            ]
+          },
+          {
+            "name": "Pox Walker",
+            "stats": {},
+            "rules": []
+          }
+        ],
+        "fixed_wargear": [
+          "Infested Blades",
+          "Infested Blades"
+        ],
+        "options": [
+          {
+            "description": "May take up to 20 more Pox Walkers for +8 points each The entire unit may take one C Points: 39 3-10 Nurglings",
+            "choices": []
+          }
+        ]
+      }
+    ],
+    "elites": [
+      {
+        "name": "Beasts of Nurgle",
+        "points_base": 134,
+        "composition": "1-3 Beasts",
+        "models": [
+          {
+            "name": "Beast",
+            "stats": {
+              "M": "4",
+              "WS": "3+",
+              "BS": "5+",
+              "S": "5",
+              "T": "7",
+              "W": "7",
+              "I": "4",
+              "A": "d6+1",
+              "Ld": "7",
+              "Sv": "-"
+            },
+            "rules": [
+              "Monster",
+              "Daemonic",
+              "Deepstrike",
+              "Fearless",
+              "Steady",
+              "Attention Seeker",
+              "Regenerate",
+              "Slime Trail",
+              "Disorganized."
+            ]
+          }
+        ],
+        "fixed_wargear": [
+          "Toxic Tendrils"
+        ],
+        "options": [
+          {
+            "description": "May take up to 2 more Beasts for +134 points each The entire unit may take one C",
+            "choices": []
+          }
+        ]
+      },
+      {
+        "name": "Blightlord Terminators",
+        "points_base": 450,
+        "composition": "1 Champion 4-9 Terminators",
+        "models": [
+          {
+            "name": "Champion",
+            "stats": {
+              "M": "4",
+              "WS": "3+",
+              "BS": "3+",
+              "S": "4",
+              "T": "5",
+              "W": "4",
+              "I": "4",
+              "A": "3",
+              "Ld": "9",
+              "Sv": "3+"
+            },
+            "rules": [
+              "Character",
+              "Monstrous Infantry",
+              "Malicious Volleys",
+              "Fearless",
+              "Shock Assault",
+              "Steady",
+              "Very Bulky"
+            ]
+          },
+          {
+            "name": "Terminator",
+            "stats": {
+              "M": "4",
+              "WS": "3+",
+              "BS": "3+",
+              "S": "4",
+              "T": "5",
+              "W": "4",
+              "I": "4",
+              "A": "2",
+              "Ld": "8",
+              "Sv": "3+"
+            },
+            "rules": [
+              "Monstrous Infantry",
+              "Malicious Volleys",
+              "Fearless",
+              "Shock Assault",
+              "Steady",
+              "Very Bulky"
+            ]
+          }
+        ],
+        "fixed_wargear": [
+          "Stormbolter",
+          "Flail of Corruption",
+          "Terminator Honours",
+          "Stormbolter",
+          "Flail of Corruption",
+          "Terminator Honours"
+        ],
+        "options": [
+          {
+            "description": "May take up to 5 more Terminators for +89 points each Any model may swap Stormbolter for R Up to 2 Terminators may swap Stormbolter for S or H Any model may swap Flail of Corruption for M The entire unit may take one C",
+            "choices": []
+          }
+        ]
+      },
+      {
+        "name": "Deathshroud Terminators",
+        "points_base": 588,
+        "composition": "1 Champion 4-9 Terminators",
+        "models": [
+          {
+            "name": "Champion",
+            "stats": {
+              "M": "4",
+              "WS": "2+",
+              "BS": "5+",
+              "S": "4",
+              "T": "5",
+              "W": "3",
+              "I": "4",
+              "A": "4",
+              "Ld": "9",
+              "Sv": "3+"
+            },
+            "rules": [
+              "Character",
+              "Monstrous Infantry",
+              "Bodyguard",
+              "Deepstrike",
+              "Fearless",
+              "Shock Assault",
+              "Steady",
+              "Very Bulky"
+            ]
+          },
+          {
+            "name": "Terminator",
+            "stats": {
+              "M": "4",
+              "WS": "2+",
+              "BS": "5+",
+              "S": "4",
+              "T": "5",
+              "W": "3",
+              "I": "4",
+              "A": "3",
+              "Ld": "8",
+              "Sv": "3+"
+            },
+            "rules": [
+              "Monstrous Infantry",
+              "Bodyguard",
+              "Deepstrike",
+              "Fearless",
+              "Shock Assault",
+              "Steady",
+              "Very Bulky"
+            ]
+          }
+        ],
+        "fixed_wargear": [
+          "Handflamer",
+          "Manreaper",
+          "Terminator Honours",
+          "Handflamer",
+          "Manreaper",
+          "Terminator Honours"
+        ],
+        "options": [
+          {
+            "description": "May take up to 5 more Terminators for +116 points each Champion may swap Bolt Pistol for P Champion may swap Plague Knife for M Up to 2 Marines may swap Boltgun for S The entire unit may take one C",
+            "choices": []
+          }
+        ]
+      },
+      {
+        "name": "Plague Bearers of Nurgle",
+        "points_base": 138,
+        "composition": "1 Champion 4-20 Bearers",
+        "models": [
+          {
+            "name": "Champion",
+            "stats": {
+              "M": "6",
+              "WS": "3+",
+              "BS": "5+",
+              "S": "3",
+              "T": "5",
+              "W": "2",
+              "I": "3",
+              "A": "3",
+              "Ld": "7",
+              "Sv": "6"
+            },
+            "rules": [
+              "Character",
+              "Infantry",
+              "Daemonic",
+              "Deepstrike",
+              "Fearless"
+            ]
+          },
+          {
+            "name": "Bearer",
+            "stats": {},
+            "rules": [
+              "Infantry",
+              "Daemonic",
+              "Deepstrike",
+              "Fearless"
+            ]
+          }
+        ],
+        "fixed_wargear": [
+          "Plague Knife",
+          "Plague Knife"
+        ],
+        "options": [
+          {
+            "description": "May take up to 15 more Bearers for +27 points each The entire unit may take one C",
+            "choices": []
+          }
+        ]
+      },
+      {
+        "name": "Plague Marines",
+        "points_base": 193,
+        "composition": "1 Champion 4-19 Marines",
+        "models": [
+          {
+            "name": "Champion",
+            "stats": {
+              "M": "6",
+              "WS": "3+",
+              "BS": "3+",
+              "S": "4",
+              "T": "5",
+              "W": "2",
+              "I": "4",
+              "A": "2",
+              "Ld": "9",
+              "Sv": "3+"
+            },
+            "rules": [
+              "Character",
+              "Infantry",
+              "Malicious Volleys",
+              "Fearless",
+              "Shock Assault"
+            ]
+          },
+          {
+            "name": "Marine",
+            "stats": {
+              "M": "6",
+              "WS": "3+",
+              "BS": "3+",
+              "S": "4",
+              "T": "5",
+              "W": "2",
+              "I": "4",
+              "A": "1",
+              "Ld": "8",
+              "Sv": "3+"
+            },
+            "rules": [
+              "Infantry",
+              "Malicious Volleys",
+              "Fearless",
+              "Shock Assault"
+            ]
+          }
+        ],
+        "fixed_wargear": [
+          "Bolt Pistol",
+          "Plague Knife",
+          "Frag Grenades",
+          "Krak Grenades",
+          "Boltgun",
+          "Plague Knife",
+          "Frag Grenades",
+          "Krak Grenades"
+        ],
+        "options": [
+          {
+            "description": "May take up to 15 more Marines for +38 points each Champion may swap Bolt Pistol for P Champion may swap Plague Knife for M Up to 2 Marines may swap Boltgun for S The entire unit may take one C",
+            "choices": []
+          }
+        ]
+      }
+    ],
+    "fast_attack": [
+      {
+        "name": "Foetid Bloat Drones",
+        "points_base": 143,
+        "composition": "1-3 Bloat Drones",
+        "models": [
+          {
+            "name": "Foetid Bloat Drone",
+            "stats": {
+              "M": "10",
+              "WS": "5+",
+              "BS": "3+",
+              "S": "6",
+              "FA": "11",
+              "SA": "11",
+              "RA": "10",
+              "W": "9",
+              "I": "1",
+              "A": "3",
+              "Ld": "7",
+              "Sv": "3+"
+            },
+            "rules": [
+              "Vehicle",
+              "Tank",
+              "Daemonic Engine",
+              "Deepstrike",
+              "Fearless",
+              "Flying",
+              "Night Vision"
+            ]
+          }
+        ],
+        "fixed_wargear": [
+          "Fleshmower",
+          "Greater Plague Probe"
+        ],
+        "options": [
+          {
+            "description": "May add up to 2 more Bloat Drones for +143 points each Any model may swap Fleshmower for H The entire unit may take one C",
+            "choices": []
+          }
+        ]
+      },
+      {
+        "name": "Greater Blight Drones",
+        "points_base": 164,
+        "composition": "1-3 Blight Drones",
+        "models": [
+          {
+            "name": "Blight Drone",
+            "stats": {
+              "M": "12",
+              "WS": "5+",
+              "BS": "3+",
+              "S": "6",
+              "FA": "12",
+              "SA": "12",
+              "RA": "10",
+              "W": "9",
+              "I": "1",
+              "A": "3",
+              "Ld": "7",
+              "Sv": "3+"
+            },
+            "rules": [
+              "Vehicle",
+              "Tank",
+              "Daemonic Engine",
+              "Deepstrike",
+              "Fearless",
+              "Flying",
+              "Night Vision"
+            ]
+          }
+        ],
+        "fixed_wargear": [
+          "Blight Reaper Cannon",
+          "Bile Maw",
+          "Greater Plague Probe"
+        ],
+        "options": [
+          {
+            "description": "May add up to 2 more Blight Drones for +164 points each The entire unit may take one C",
+            "choices": []
+          }
+        ]
+      },
+      {
+        "name": "Myphetic Blight Hauler",
+        "points_base": 172,
+        "composition": "1-3 Blight Haulers",
+        "models": [
+          {
+            "name": "Blight Hauler",
+            "stats": {
+              "M": "10",
+              "WS": "5+",
+              "BS": "3+",
+              "S": "6",
+              "FA": "12",
+              "SA": "12",
+              "RA": "10",
+              "W": "9",
+              "I": "1",
+              "A": "3",
+              "Ld": "7",
+              "Sv": "3+"
+            },
+            "rules": [
+              "Vehicle",
+              "Tank",
+              "Daemonic Engine",
+              "Fearless",
+              "Night Vision",
+              "Foul Stench",
+              "Melee."
+            ]
+          }
+        ],
+        "fixed_wargear": [
+          "Multimelta",
+          "Missile Launcher",
+          "Bile Spurt",
+          "Gnashing Maw"
+        ],
+        "options": [
+          {
+            "description": "May add up to 2 more Blight Haulers for +172 points each The entire unit may take one C",
+            "choices": []
+          }
+        ]
+      },
+      {
+        "name": "Plague Toads of Nurgle",
+        "points_base": 129,
+        "composition": "1 Champion 2-7 Drones",
+        "models": [
+          {
+            "name": "Toad",
+            "stats": {
+              "M": "6",
+              "WS": "3+",
+              "BS": "3+",
+              "S": "3",
+              "T": "5",
+              "W": "3",
+              "I": "3",
+              "A": "2",
+              "Ld": "7",
+              "Sv": "-"
+            },
+            "rules": [
+              "Character",
+              "Infantry",
+              "Steed",
+              "Daemonic",
+              "Deepstrike",
+              "Fearless",
+              "Flying",
+              "Infantry",
+              "Steed",
+              "Daemonic",
+              "Deepstrike",
+              "Fearless",
+              "Flying"
+            ]
+          }
+        ],
+        "fixed_wargear": [
+          "Grasping Tongue",
+          "Yawning Maw"
+        ],
+        "options": [
+          {
+            "description": "May take up to 7 more Toads for +58 points each Any model may take one B The entire unit may take one C",
+            "choices": [
+              {
+                "name": "Rider",
+                "pts_delta": 7
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Plague Toads of Nurgle",
+        "points_base": 174,
+        "composition": "3-10 Toads",
+        "models": [
+          {
+            "name": "Toad",
+            "stats": {
+              "M": "6",
+              "WS": "3+",
+              "BS": "3+",
+              "S": "3",
+              "T": "5",
+              "W": "3",
+              "I": "3",
+              "A": "2",
+              "Ld": "7",
+              "Sv": "-"
+            },
+            "rules": [
+              "Monstrous Infantry",
+              "Steed",
+              "Daemonic",
+              "Infiltrate",
+              "Fearless"
+            ]
+          }
+        ],
+        "fixed_wargear": [
+          "Grasping Tongue",
+          "Yawning Maw"
+        ],
+        "options": [
+          {
+            "description": "May take up to 7 more Toads for +58 points each Any model may take one B The entire unit may take one C",
+            "choices": [
+              {
+                "name": "Rider",
+                "pts_delta": 7
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "heavy_support": [
+      {
+        "name": "Plagueburst Crawler",
+        "points_base": 207,
+        "composition": "1-3 Crawlers",
+        "models": [
+          {
+            "name": "Crawler",
+            "stats": {
+              "M": "8",
+              "WS": "5+",
+              "BS": "3+",
+              "S": "7",
+              "FA": "13",
+              "SA": "11",
+              "RA": "10",
+              "W": "12",
+              "I": "1",
+              "A": "3",
+              "Ld": "7",
+              "Sv": "3+"
+            },
+            "rules": [
+              "Vehicle",
+              "Tank",
+              "Daemonic Engine",
+              "Fearless",
+              "Night Vision",
+              "Reroll Dangerous Terrain Tests",
+              "Tests."
+            ]
+          }
+        ],
+        "fixed_wargear": [
+          "Plagueburst Mortar",
+          "Rothail Volley Gun",
+          "2 Plague Spitters",
+          "Siege Shield"
+        ],
+        "options": [
+          {
+            "description": "May add up to 2 more Crawlers for +207 points each Any model may swap Rothail Volley Gun for H The entire unit may take one C",
+            "choices": []
+          }
+        ]
+      }
+    ],
+    "lord_of_war": [
+      {
+        "name": "Plaguereaper of Nurgle",
+        "points_base": 425,
+        "composition": "1-3 Unclean Ones",
+        "models": [
+          {
+            "name": "Plaguereaper",
+            "stats": {
+              "M": "6",
+              "WS": "5+",
+              "BS": "3+",
+              "S": "9",
+              "FA": "14",
+              "SA": "13",
+              "RA": "12",
+              "W": "26",
+              "I": "1",
+              "A": "9",
+              "Ld": "7",
+              "Sv": "3+"
+            },
+            "rules": [
+              "Monster",
+              "Daemonic",
+              "Deepstrike",
+              "Fearless",
+              "Psychic Mastery Level 3",
+              "Shock Assault",
+              "Summoning Bell"
+            ]
+          }
+        ],
+        "fixed_wargear": [
+          "Pox Cannon",
+          "Demolisher Cannon",
+          "2 Linked Heavy Bolters",
+          "2 Sets of 2 Linked Heavy Bolters",
+          "2 Lascannons",
+          "Nurgling Hordes"
+        ],
+        "options": [
+          {
+            "description": "May take one P",
+            "choices": []
+          },
+          {
+            "description": "May take one C",
+            "choices": []
+          }
+        ]
+      },
+      {
+        "name": "Plaguereaper of Nurgle",
+        "points_base": 685,
+        "composition": "1 Plaguereaper",
+        "models": [
+          {
+            "name": "Plaguereaper",
+            "stats": {
+              "M": "6",
+              "WS": "5+",
+              "BS": "3+",
+              "S": "9",
+              "FA": "14",
+              "SA": "13",
+              "RA": "12",
+              "W": "26",
+              "I": "1",
+              "A": "9",
+              "Ld": "7",
+              "Sv": "3+"
+            },
+            "rules": [
+              "Titanic Vehicle",
+              "Tank",
+              "Malicious Volleys",
+              "Fearless",
+              "Tide of Nurglings"
+            ]
+          }
+        ],
+        "fixed_wargear": [
+          "Pox Cannon",
+          "Demolisher Cannon",
+          "2 Linked Heavy Bolters",
+          "2 Sets of 2 Linked Heavy Bolters",
+          "2 Lascannons",
+          "Nurgling Hordes"
+        ],
+        "options": [
+          {
+            "description": "May take one P",
+            "choices": []
+          },
+          {
+            "description": "May take one C",
+            "choices": []
+          }
+        ]
+      },
+      {
+        "name": "Scabeiathrax the Bloated",
+        "points_base": 835,
+        "composition": "1 Scabeiathrax",
+        "models": [
+          {
+            "name": "Scabeiathrax",
+            "stats": {
+              "M": "6",
+              "WS": "2+",
+              "BS": "2+",
+              "S": "8",
+              "T": "8",
+              "W": "24",
+              "I": "4",
+              "A": "6",
+              "Ld": "10",
+              "Sv": "-"
+            },
+            "rules": [
+              "Independent Character",
+              "Titanic Monster",
+              "Unique",
+              "Daemonic",
+              "Deepstrike",
+              "Fearless",
+              "Psychic Mastery Level 3",
+              "Shock Assault",
+              "To Hit.",
+              "Putrid Demise"
+            ]
+          }
+        ],
+        "fixed_wargear": [
+          "Toxic Discharge",
+          "Blade of Decay"
+        ],
+        "options": []
+      }
+    ],
+    "fortifications": [
+      {
+        "name": "Feculent Gnarlmaw",
+        "points_base": 101,
+        "composition": "1 Gnarlmaw",
+        "models": [
+          {
+            "name": "Gnarlmaw",
+            "stats": {},
+            "rules": [
+              "Monster",
+              "Daemonic",
+              "Fearless",
+              "Objective Secured",
+              "Gulp"
+            ]
+          }
+        ],
+        "fixed_wargear": [],
+        "options": [
+          {
+            "description": "May take one C",
+            "choices": []
+          }
+        ]
+      },
+      {
+        "name": "Miasmic Malignifier",
+        "points_base": 210,
+        "composition": "1 Main Chimney 1 Pox Furnace",
+        "models": [
+          {
+            "name": "Main Chimney",
+            "stats": {},
+            "rules": [
+              "Building",
+              "Daemonic",
+              "Choking Smog",
+              "Contesting Objective Markers.",
+              "Immense Pressure"
+            ]
+          },
+          {
+            "name": "Pox Furnace",
+            "stats": {},
+            "rules": [
+              "Building",
+              "Daemonic",
+              "Invigorating Fumes",
+              "Objective Markers.",
+              "Immense Pressure"
+            ]
+          }
+        ],
+        "fixed_wargear": [
+          "None",
+          "None"
+        ],
+        "options": [
+          {
+            "description": "May take one C",
+            "choices": []
+          }
+        ]
+      }
+    ]
+  }
+}

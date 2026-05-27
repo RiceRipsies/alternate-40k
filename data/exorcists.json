@@ -1,0 +1,59 @@
+{
+  "id": "exorcists",
+  "name": "Exorcists",
+  "difficulty": 1,
+  "subfactions": [
+    {
+      "name": "Average"
+    },
+    {
+      "name": "Exorcists"
+    }
+  ],
+  "slots": {
+    "hq": [
+      {
+        "name": "Captain",
+        "points_base": 269,
+        "composition": "1 Captain",
+        "models": [
+          {
+            "name": "Captain",
+            "stats": {
+              "M": "6",
+              "WS": "2+",
+              "BS": "2+",
+              "S": "4",
+              "T": "4",
+              "W": "5",
+              "I": "4",
+              "A": "4",
+              "Ld": "10",
+              "Sv": "3+"
+            },
+            "rules": [
+              "Independent Character",
+              "Infantry",
+              "Unique",
+              "Exorcists",
+              "Know No Fear",
+              "Objective Secured",
+              "Shock Assault",
+              "Battle Drills",
+              "Implacable Discipline",
+              "Soul-Seared"
+            ]
+          }
+        ],
+        "fixed_wargear": [
+          "Bolt Pistol",
+          "The Hellslayer",
+          "Frag Grenades",
+          "Krak Grenades",
+          "Iron Halo"
+        ],
+        "options": []
+      }
+    ]
+  }
+}

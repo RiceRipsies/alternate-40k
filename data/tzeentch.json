@@ -1,0 +1,1002 @@
+{
+  "id": "tzeentch",
+  "name": "Tzeentch",
+  "difficulty": 1,
+  "subfactions": [
+    {
+      "name": "Average"
+    },
+    {
+      "name": "Cult of the Athanaeans"
+    },
+    {
+      "name": "Cult of the Corvidae"
+    },
+    {
+      "name": "Cult of the Pavoni"
+    },
+    {
+      "name": "Cult of the Pyrae"
+    },
+    {
+      "name": "Cult of the Raptora"
+    }
+  ],
+  "slots": {
+    "hq": [
+      {
+        "name": "Fateskimmer",
+        "points_base": 383,
+        "composition": "1 Fateskimmer",
+        "models": [
+          {
+            "name": "Fateskimmer",
+            "stats": {
+              "M": "12",
+              "WS": "2+",
+              "BS": "2+",
+              "S": "4",
+              "T": "6",
+              "W": "9",
+              "I": "4",
+              "A": "4",
+              "Ld": "7",
+              "Sv": "-"
+            },
+            "rules": [
+              "Independent Character",
+              "Monster",
+              "Daemonic",
+              "Deepstrike",
+              "Fearless",
+              "Fly",
+              "Psychic Mastery Level 3",
+              "Chariot Slashing Attack",
+              "Fate Meddler",
+              "Hit."
+            ]
+          }
+        ],
+        "fixed_wargear": [
+          "Blue Firebolt",
+          "Pink Firebolt",
+          "Lamprey\u2019s Bite"
+        ],
+        "options": [
+          {
+            "description": "May swap Psychic Mastery Level 3 for Psychic Mastery Level 4 for +25 points",
+            "choices": []
+          },
+          {
+            "description": "May take up to one Spell for each Psychic Mastery Level",
+            "choices": []
+          },
+          {
+            "description": "May take one C",
+            "choices": []
+          }
+        ]
+      },
+      {
+        "name": "Ahriman",
+        "points_base": 337,
+        "composition": "1 Ahriman",
+        "models": [
+          {
+            "name": "Ahriman",
+            "stats": {
+              "M": "6",
+              "WS": "2+",
+              "BS": "2+",
+              "S": "4",
+              "T": "4",
+              "W": "5",
+              "I": "5",
+              "A": "4",
+              "Ld": "10",
+              "Sv": "3+"
+            },
+            "rules": [
+              "Independent Character",
+              "Infantry",
+              "Unique",
+              "Thousand Sons",
+              "Fearless",
+              "Psychic Mastery Level 4",
+              "Arch Sorcerer",
+              "Lord of Chaos"
+            ]
+          }
+        ],
+        "fixed_wargear": [
+          "Inferno Bolt Pistol",
+          "The Black Staff",
+          "Frag Grenades",
+          "Krak Grenades",
+          "Sigil of Corruption"
+        ],
+        "options": [
+          {
+            "description": "May take one B",
+            "choices": []
+          },
+          {
+            "description": "May take up to one of each Spell",
+            "choices": []
+          },
+          {
+            "description": "May take of Tzeentch",
+            "choices": [
+              {
+                "name": "of Tzeentch",
+                "pts_delta": 31
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Kairos Fateweaver",
+        "points_base": 472,
+        "composition": "1 Kairos",
+        "models": [
+          {
+            "name": "Kairos",
+            "stats": {
+              "M": "12",
+              "WS": "4+",
+              "BS": "2+",
+              "S": "6",
+              "T": "7",
+              "W": "16",
+              "I": "8",
+              "A": "5",
+              "Ld": "10",
+              "Sv": "-"
+            },
+            "rules": [
+              "Independent Character",
+              "Monster",
+              "Unique",
+              "Daemonic",
+              "Deepstrike",
+              "Fearless",
+              "Fly",
+              "Psychic Mastery Level 4",
+              "Mad Gibberish",
+              "Aura.",
+              "Right Hand of Tzeentch",
+              "Psychic Mastery Level."
+            ]
+          }
+        ],
+        "fixed_wargear": [
+          "Staff of Tomorrow"
+        ],
+        "options": [
+          {
+            "description": "May take up to one of each Spell",
+            "choices": []
+          }
+        ]
+      },
+      {
+        "name": "Magnus the Red",
+        "points_base": 786,
+        "composition": "1 Magnus",
+        "models": [
+          {
+            "name": "Magnus",
+            "stats": {
+              "M": "12",
+              "WS": "2+",
+              "BS": "2+",
+              "S": "8",
+              "T": "7",
+              "W": "18",
+              "I": "6",
+              "A": "6",
+              "Ld": "10",
+              "Sv": "-"
+            },
+            "rules": [
+              "Independent Character",
+              "Monster",
+              "Unique",
+              "Thousand Sons",
+              "Daemonic",
+              "Deepstrike",
+              "Fearless",
+              "Fleet",
+              "Fly",
+              "Psychic Mastery Level 4",
+              "Arch Sorcerer",
+              "Primarch",
+              "Hit.",
+              "Unearthly Power",
+              "Level."
+            ]
+          }
+        ],
+        "fixed_wargear": [
+          "Blade of Magnus",
+          "Gaze of Magnus",
+          "Sigil of Corruption"
+        ],
+        "options": [
+          {
+            "description": "May take up to one of each Spell",
+            "choices": []
+          }
+        ]
+      }
+    ],
+    "advisors": [
+      {
+        "name": "Exalted Flamer",
+        "points_base": 144,
+        "composition": "1 Caster",
+        "models": [
+          {
+            "name": "Exalted Flamer",
+            "stats": {
+              "M": "12",
+              "WS": "3+",
+              "BS": "3+",
+              "S": "4",
+              "T": "4",
+              "W": "4",
+              "I": "4",
+              "A": "3",
+              "Ld": "7",
+              "Sv": "-"
+            },
+            "rules": [
+              "Independent Character",
+              "Monstrous Infantry",
+              "Daemonic",
+              "Deepstrike",
+              "Fearless",
+              "Psychic Mastery Level 2",
+              "Locus of Tzeentch"
+            ]
+          }
+        ],
+        "fixed_wargear": [
+          "Green Fire",
+          "Pink Fire",
+          "Tongues of Flames"
+        ],
+        "options": [
+          {
+            "description": "May take one C",
+            "choices": []
+          }
+        ]
+      },
+      {
+        "name": "Exalted Flamer",
+        "points_base": 133,
+        "composition": "1 Exalted Flamer",
+        "models": [
+          {
+            "name": "Exalted Flamer",
+            "stats": {
+              "M": "12",
+              "WS": "3+",
+              "BS": "3+",
+              "S": "4",
+              "T": "4",
+              "W": "4",
+              "I": "4",
+              "A": "3",
+              "Ld": "7",
+              "Sv": "-"
+            },
+            "rules": [
+              "Independent Character",
+              "Infantry",
+              "Daemonic",
+              "Deepstrike",
+              "Fearless",
+              "Fly"
+            ]
+          }
+        ],
+        "fixed_wargear": [
+          "Green Fire",
+          "Pink Fire",
+          "Tongues of Flames"
+        ],
+        "options": [
+          {
+            "description": "May take one C",
+            "choices": []
+          }
+        ]
+      },
+      {
+        "name": "Tzaagor Shaman",
+        "points_base": 74,
+        "composition": "1 Shaman",
+        "models": [
+          {
+            "name": "Shaman",
+            "stats": {
+              "M": "6",
+              "WS": "3+",
+              "BS": "3+",
+              "S": "4",
+              "T": "4",
+              "W": "4",
+              "I": "3",
+              "A": "3",
+              "Ld": "7",
+              "Sv": "-"
+            },
+            "rules": [
+              "Independent Character",
+              "Infantry",
+              "Psychic Mastery Level 2"
+            ]
+          }
+        ],
+        "fixed_wargear": [
+          "Force Staff"
+        ],
+        "options": [
+          {
+            "description": "May take one C",
+            "choices": []
+          }
+        ]
+      },
+      {
+        "name": "The Blue Scribes",
+        "points_base": 135,
+        "composition": "1 P\u2019tarix and Xirat\u2019p",
+        "models": [
+          {
+            "name": "P\u2019tarix and Xirat\u2019p",
+            "stats": {
+              "M": "12",
+              "WS": "3+",
+              "BS": "3+",
+              "S": "3",
+              "T": "4",
+              "W": "6",
+              "I": "3",
+              "A": "3",
+              "Ld": "7",
+              "Sv": "-"
+            },
+            "rules": [
+              "Independent Character",
+              "Monstrous Infantry",
+              "Unique",
+              "Daemonic",
+              "Deepstrike",
+              "Fearless",
+              "Fly",
+              "P\u2019tarix\u2019s Sorcerous Syphon",
+              "Tzeentch Spells. Randomly",
+              "Psychic Phases."
+            ]
+          }
+        ],
+        "fixed_wargear": [
+          "Quills"
+        ],
+        "options": []
+      },
+      {
+        "name": "The Changeling",
+        "points_base": 198,
+        "composition": "1 Changeling",
+        "models": [
+          {
+            "name": "Changeling",
+            "stats": {
+              "M": "6",
+              "WS": "3+",
+              "BS": "3+",
+              "S": "4",
+              "T": "4",
+              "W": "4",
+              "I": "3",
+              "A": "3",
+              "Ld": "7",
+              "Sv": "-"
+            },
+            "rules": [
+              "Independent Character",
+              "Monstrous Infantry",
+              "Unique",
+              "Daemonic",
+              "Deepstrike",
+              "Fearless",
+              "Psychic Mastery Level 2",
+              "Doppelganger"
+            ]
+          }
+        ],
+        "fixed_wargear": [
+          "The Trickster\u2019s Staff"
+        ],
+        "options": []
+      }
+    ],
+    "troops": [
+      {
+        "name": "Purple Horror:",
+        "points_base": 230,
+        "composition": "10-30 Purple Horrors",
+        "models": [
+          {
+            "name": "Purple Fire",
+            "stats": {
+              "M": "6",
+              "WS": "3+",
+              "BS": "3+",
+              "S": "3",
+              "T": "3",
+              "W": "1",
+              "I": "3",
+              "A": "1",
+              "Ld": "7",
+              "Sv": "6"
+            },
+            "rules": []
+          },
+          {
+            "name": "Blue Horror:",
+            "stats": {},
+            "rules": [
+              "Infantry",
+              "Daemonic",
+              "Deepstrike",
+              "Fearless",
+              "Continuous Change",
+              "Invulnerability Saves.",
+              "Splitting Change"
+            ]
+          },
+          {
+            "name": "Blue Fire",
+            "stats": {},
+            "rules": [
+              "Infantry",
+              "Daemonic",
+              "Fearless",
+              "Continuous Change",
+              "Invulnerability Saves.",
+              "Flickering Change"
+            ]
+          },
+          {
+            "name": "Brimstone Horror:",
+            "stats": {},
+            "rules": [
+              "Infantry",
+              "Daemonic",
+              "Fearless",
+              "Continuous Change",
+              "Invulnerability Saves."
+            ]
+          },
+          {
+            "name": "Brimstone Fire",
+            "stats": {},
+            "rules": []
+          }
+        ],
+        "fixed_wargear": [],
+        "options": []
+      }
+    ],
+    "elites": [
+      {
+        "name": "Rubric Marines",
+        "points_base": 199,
+        "composition": "1 Sorcerer 4-19 Marines",
+        "models": [
+          {
+            "name": "Sorcerer",
+            "stats": {
+              "M": "6",
+              "WS": "3+",
+              "BS": "3+",
+              "S": "4",
+              "T": "4",
+              "W": "2",
+              "I": "4",
+              "A": "2",
+              "Ld": "10",
+              "Sv": "3+"
+            },
+            "rules": [
+              "Character",
+              "Infantry",
+              "Malicious Volleys",
+              "Fearless",
+              "Psychic Mastery 1",
+              "Shock Assault"
+            ]
+          },
+          {
+            "name": "Marine",
+            "stats": {
+              "M": "6",
+              "WS": "3+",
+              "BS": "3+",
+              "S": "4",
+              "T": "4",
+              "W": "2",
+              "I": "4",
+              "A": "1",
+              "Ld": "10",
+              "Sv": "3+"
+            },
+            "rules": [
+              "Infantry",
+              "Malicious Volleys",
+              "Fearless",
+              "Shock Assault"
+            ]
+          }
+        ],
+        "fixed_wargear": [
+          "Inferno Bolter",
+          "Force Sword",
+          "Frag Grenades",
+          "Krak Grenades",
+          "Inferno bolter",
+          "Frag Grenades",
+          "Krak Grenades"
+        ],
+        "options": [
+          {
+            "description": "May take up to 15 more Marines for +36 points each Sorcerer may swap Inferno Bolter for OR Sorcerer may swap Force Sword for M Sorcerer may take up to one Spell for each Psychic Mastery Level Up to 2 Marines may swap Inferno Bolter for S The entire unit may take one C",
+            "choices": []
+          }
+        ]
+      },
+      {
+        "name": "Scarab Occult Terminators",
+        "points_base": 468,
+        "composition": "1 Sorcerer 4-9 Terminators",
+        "models": [
+          {
+            "name": "Sorcerer",
+            "stats": {
+              "M": "4",
+              "WS": "3+",
+              "BS": "3+",
+              "S": "4",
+              "T": "4",
+              "W": "3",
+              "I": "4",
+              "A": "3",
+              "Ld": "10",
+              "Sv": "3+"
+            },
+            "rules": [
+              "Character",
+              "Monstrous Infantry",
+              "Malicious Volleys",
+              "Deepstrike",
+              "Fearless",
+              "Psychic Mastery 2",
+              "Shock Assault",
+              "Steady"
+            ]
+          },
+          {
+            "name": "Terminator",
+            "stats": {
+              "M": "4",
+              "WS": "3+",
+              "BS": "3+",
+              "S": "4",
+              "T": "4",
+              "W": "3",
+              "I": "4",
+              "A": "2",
+              "Ld": "10",
+              "Sv": "3+"
+            },
+            "rules": [
+              "Monstrous Infantry",
+              "Malicious Volleys",
+              "Deepstrike",
+              "Fearless",
+              "Shock Assault",
+              "Steady"
+            ]
+          }
+        ],
+        "fixed_wargear": [
+          "Inferno Stormbolter",
+          "Chain Axe",
+          "Terminator Honours",
+          "Inferno bolter",
+          "Chain Axe",
+          "Terminator Honours"
+        ],
+        "options": [
+          {
+            "description": "May take up to 5 more Terminators for +88 points each Sorcerer may swap Chain Axe for M or OM Sorcerer may take up to one Spell for each Psychic Mastery Level Any model may swap Inferno Stormbolter for R or S Any model may swap Chain Axe for M The entire unit may take one C",
+            "choices": []
+          }
+        ]
+      }
+    ],
+    "fast_attack": [
+      {
+        "name": "Flamers of Tzeentch",
+        "points_base": 129,
+        "composition": "1 Champion 2-9 Flamers",
+        "models": [
+          {
+            "name": "Champion",
+            "stats": {
+              "M": "12",
+              "WS": "3+",
+              "BS": "5+",
+              "S": "4",
+              "T": "4",
+              "W": "2",
+              "I": "4",
+              "A": "3",
+              "Ld": "7",
+              "Sv": "12"
+            },
+            "rules": [
+              "Character",
+              "Infantry",
+              "Daemonic",
+              "Deepstrike",
+              "Fearless",
+              "Fly"
+            ]
+          },
+          {
+            "name": "Flamer",
+            "stats": {},
+            "rules": [
+              "Infantry",
+              "Daemonic",
+              "Deepstrike",
+              "Fearless",
+              "Fly"
+            ]
+          }
+        ],
+        "fixed_wargear": [
+          "Flickering Flames",
+          "Flickering Flames"
+        ],
+        "options": [
+          {
+            "description": "May take up to 7 more Flamers for +42 points each The entire unit may take one C",
+            "choices": []
+          }
+        ]
+      },
+      {
+        "name": "Screamers of Tzeentch",
+        "points_base": 210,
+        "composition": "3-10 Screamers",
+        "models": [
+          {
+            "name": "Screamer",
+            "stats": {
+              "M": "12",
+              "WS": "3+",
+              "BS": "5+",
+              "S": "4",
+              "T": "4",
+              "W": "3",
+              "I": "4",
+              "A": "2",
+              "Ld": "7",
+              "Sv": "-"
+            },
+            "rules": [
+              "Monstrous Infantry",
+              "Daemonic",
+              "Deepstrike",
+              "Fearless",
+              "Fly",
+              "Slashing Attack"
+            ]
+          }
+        ],
+        "fixed_wargear": [
+          "Lamprey\u2019s Bite"
+        ],
+        "options": [
+          {
+            "description": "May take up to 7 more Screamers for +70 points each The entire unit may take one C",
+            "choices": []
+          }
+        ]
+      },
+      {
+        "name": "Tzaagor Enlightened",
+        "points_base": 90,
+        "composition": "1 Champion 2-9 Tzaagors",
+        "models": [
+          {
+            "name": "Champion",
+            "stats": {
+              "M": "6",
+              "WS": "3+",
+              "BS": "3+",
+              "S": "4",
+              "T": "4",
+              "W": "2",
+              "I": "4",
+              "A": "3",
+              "Ld": "7",
+              "Sv": "6"
+            },
+            "rules": [
+              "Character",
+              "Infantry",
+              "Daemonic",
+              "Deepstrike",
+              "Fearless"
+            ]
+          },
+          {
+            "name": "Tzaagor",
+            "stats": {},
+            "rules": [
+              "Infantry",
+              "Daemonic",
+              "Deepstrike",
+              "Fearless"
+            ]
+          }
+        ],
+        "fixed_wargear": [
+          "Divining Spear",
+          "Divining Spear"
+        ],
+        "options": [
+          {
+            "description": "May take up to 7 more Tzaagors for +29 points each Any model may swap Divining Spear for M or R The entire unit may take one B The entire unit may take one C",
+            "choices": [
+              {
+                "name": "Disc of Tzeentch",
+                "pts_delta": 11
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "heavy_support": [
+      {
+        "name": "Burning Chariot",
+        "points_base": 196,
+        "composition": "1-3 Chariots",
+        "models": [
+          {
+            "name": "Chariot",
+            "stats": {
+              "M": "12",
+              "WS": "3+",
+              "BS": "3+",
+              "S": "4",
+              "T": "6",
+              "W": "8",
+              "I": "4",
+              "A": "4",
+              "Ld": "7",
+              "Sv": "-"
+            },
+            "rules": [
+              "Monster",
+              "Daemonic",
+              "Deepstrike",
+              "Fearless",
+              "Fly",
+              "Chariot Slashing Attack"
+            ]
+          }
+        ],
+        "fixed_wargear": [
+          "Blue Firebolt",
+          "Pink Firebolt",
+          "Lamprey\u2019s Bite"
+        ],
+        "options": [
+          {
+            "description": "May take up to 2 more Chariots for +196 points each",
+            "choices": []
+          },
+          {
+            "description": "May take up to 3 of each B The entire unit may take one C",
+            "choices": []
+          },
+          {
+            "description": "May take Pink Chanter",
+            "choices": [
+              {
+                "name": "Pink Chanter",
+                "pts_delta": 5
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Mutalith Vortex Beast",
+        "points_base": 364,
+        "composition": "1 Mutalith",
+        "models": [
+          {
+            "name": "Mutalith",
+            "stats": {
+              "M": "8",
+              "WS": "3+",
+              "BS": "3+",
+              "S": "7",
+              "T": "7",
+              "W": "14",
+              "I": "4",
+              "A": "4",
+              "Ld": "7",
+              "Sv": "-"
+            },
+            "rules": [
+              "Monster",
+              "Daemonic",
+              "Deepstrike",
+              "Fearless",
+              "Regeneration",
+              "Command Phases.",
+              "Unstable Energies",
+              "Vortex",
+              "Warp Implosion"
+            ]
+          }
+        ],
+        "fixed_wargear": [
+          "Enormous Claws"
+        ],
+        "options": [
+          {
+            "description": "May take one C",
+            "choices": []
+          }
+        ]
+      },
+      {
+        "name": "Sekhetar Robots",
+        "points_base": 214,
+        "composition": "2-6 Robots",
+        "models": [
+          {
+            "name": "Robot",
+            "stats": {
+              "M": "6",
+              "WS": "3+",
+              "BS": "3+",
+              "S": "4",
+              "T": "4",
+              "W": "3",
+              "I": "4",
+              "A": "3",
+              "Ld": "10",
+              "Sv": "3+"
+            },
+            "rules": [
+              "Monstrous Infantry",
+              "Infiltrate",
+              "Fearless",
+              "Stealth"
+            ]
+          }
+        ],
+        "fixed_wargear": [
+          "Heavy Warp Flamer",
+          "2 Linked Hellfyre Missile Racks",
+          "Lightning Claw"
+        ],
+        "options": [
+          {
+            "description": "May take up to 4 more Robots for +107 points each Any model may swap Lightning Claw for S The entire unit may take one C",
+            "choices": []
+          }
+        ]
+      }
+    ],
+    "lord_of_war": [
+      {
+        "name": "Aetaos\u2019rau\u2019keres",
+        "points_base": 2150,
+        "composition": "1 Aetaos\u2019rau\u2019keres",
+        "models": [
+          {
+            "name": "Aetaos\u2019rau\u2019keres",
+            "stats": {
+              "M": "12",
+              "WS": "2+",
+              "BS": "2+",
+              "S": "8",
+              "T": "8",
+              "W": "27",
+              "I": "9",
+              "A": "6",
+              "Ld": "10",
+              "Sv": "-"
+            },
+            "rules": [
+              "Independent Character",
+              "Titanic Monster",
+              "Unique",
+              "Daemonic",
+              "Deepstrike",
+              "Fearless",
+              "Fly",
+              "Psychic Mastery Level 4",
+              "Dark Jealousy"
+            ]
+          }
+        ],
+        "fixed_wargear": [
+          "Staff of Cataclysm"
+        ],
+        "options": [
+          {
+            "description": "May take up to one Spell for each Psychic Mastery Level",
+            "choices": []
+          }
+        ]
+      },
+      {
+        "name": "Lords of Change",
+        "points_base": 433,
+        "composition": "1-3 Lords of Change",
+        "models": [
+          {
+            "name": "Lord of Change",
+            "stats": {
+              "M": "12",
+              "WS": "2+",
+              "BS": "2+",
+              "S": "6",
+              "T": "7",
+              "W": "16",
+              "I": "6",
+              "A": "4",
+              "Ld": "10",
+              "Sv": "-"
+            },
+            "rules": [
+              "Independent Character",
+              "Infantry",
+              "Daemonic",
+              "Deepstrike",
+              "Fearless",
+              "Fly",
+              "Psychic Mastery Level 4"
+            ]
+          }
+        ],
+        "fixed_wargear": [
+          "Staff of Tzeentch"
+        ],
+        "options": [
+          {
+            "description": "May take up to 2 more Lords of Change for +433 points each Each Lord of Change may take up to one Spell for each Psychic Mastery Level Any model may take one M or B The entire unit may take one C",
+            "choices": []
+          }
+        ]
+      }
+    ]
+  }
+}

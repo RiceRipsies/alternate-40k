@@ -1,0 +1,104 @@
+{
+  "id": "bad-moon-codex",
+  "name": "Bad Moon Codex",
+  "difficulty": 1,
+  "subfactions": [
+    {
+      "name": "Average"
+    },
+    {
+      "name": "Bad Moons"
+    }
+  ],
+  "slots": {
+    "hq": [
+      {
+        "name": "Ufthak Blackhawk",
+        "points_base": 190,
+        "composition": "1 Ufthak",
+        "models": [
+          {
+            "name": "Ufthak",
+            "stats": {
+              "M": "6",
+              "WS": "2+",
+              "BS": "5+",
+              "S": "6",
+              "T": "5",
+              "W": "5",
+              "I": "2",
+              "A": "4",
+              "Ld": "9",
+              "Sv": "-"
+            },
+            "rules": [
+              "Independent Character",
+              "Monstrous Infantry",
+              "Ork",
+              "\u2018Ere We Go!",
+              "Very Bulky",
+              "Fearless Charge",
+              "Breakin\u2019 \u2018Eads!",
+              "Waaagh!"
+            ]
+          }
+        ],
+        "fixed_wargear": [
+          "Kustom Blasta",
+          "Snazzhammer",
+          "Forcefield",
+          "Princess"
+        ],
+        "options": []
+      },
+      {
+        "name": "Warlord Nazdreg Ug Urdgrub",
+        "points_base": 345,
+        "composition": "1 Nazdreg",
+        "models": [
+          {
+            "name": "Nazdreg",
+            "stats": {
+              "M": "4",
+              "WS": "2+",
+              "BS": "5+",
+              "S": "7",
+              "T": "5",
+              "W": "7",
+              "I": "2",
+              "A": "5",
+              "Ld": "9",
+              "Sv": "3+"
+            },
+            "rules": [
+              "Independent Character",
+              "Monstrous Infantry",
+              "Unique",
+              "Bad Moons",
+              "\u2018Ere We Go!",
+              "Ork",
+              "Deepstrike",
+              "Very Bulky",
+              "Cunnin\u2019 Escape",
+              "Teleporty Experiments",
+              "Breakin\u2019 \u2018Eads!",
+              "Waaagh!"
+            ]
+          }
+        ],
+        "fixed_wargear": [
+          "Kustom Blast X",
+          "Power Klaw",
+          "Forcefield",
+          "Targeting Squig"
+        ],
+        "options": [
+          {
+            "description": "May swap Kustom Blast X for S",
+            "choices": []
+          }
+        ]
+      }
+    ]
+  }
+}

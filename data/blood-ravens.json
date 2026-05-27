@@ -1,0 +1,71 @@
+{
+  "id": "blood-ravens",
+  "name": "Blood Ravens",
+  "difficulty": 1,
+  "subfactions": [
+    {
+      "name": "Average"
+    },
+    {
+      "name": "Blood Ravens"
+    }
+  ],
+  "slots": {
+    "hq": [
+      {
+        "name": "Gabriel Angelos",
+        "points_base": 375,
+        "composition": "1 Angelos",
+        "models": [
+          {
+            "name": "Angelos",
+            "stats": {
+              "M": "6",
+              "WS": "2+",
+              "BS": "2+",
+              "S": "4",
+              "T": "4",
+              "W": "6",
+              "I": "4",
+              "A": "5",
+              "Ld": "9",
+              "Sv": "3+"
+            },
+            "rules": [
+              "Independent Character",
+              "Blood Ravens",
+              "Infantry",
+              "Unique",
+              "Chapter Master",
+              "Adjusted Tactics",
+              "Know No Fear",
+              "Objective Secured",
+              "Shock Assault",
+              "Battle Drills",
+              "The Hour is Nigh",
+              "T Minus 5"
+            ]
+          }
+        ],
+        "fixed_wargear": [
+          "God Splitter",
+          "Frag Grenades",
+          "Krak Grenades",
+          "Orbital Strike",
+          "Iron Halo"
+        ],
+        "options": [
+          {
+            "description": "May take one B",
+            "choices": [
+              {
+                "name": "Terminator Armour",
+                "pts_delta": 0
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

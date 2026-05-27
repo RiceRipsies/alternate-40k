@@ -1,0 +1,98 @@
+{
+  "id": "elysian-drop-troops",
+  "name": "Elysian Drop Troops",
+  "difficulty": 3,
+  "subfactions": [
+    {
+      "name": "Average"
+    },
+    {
+      "name": "Elysian Drop Troops"
+    }
+  ],
+  "slots": {
+    "hq": [
+      {
+        "name": "Special Wargear:",
+        "points_base": 217,
+        "composition": "1 Major Markus Durra 4 Veterans",
+        "models": [
+          {
+            "name": "Refractor Field: 5+",
+            "stats": {
+              "M": "6",
+              "WS": "2+",
+              "BS": "2+",
+              "S": "3",
+              "T": "3",
+              "W": "5",
+              "I": "3",
+              "A": "4",
+              "Ld": "10",
+              "Sv": "4+"
+            },
+            "rules": []
+          },
+          {
+            "name": "Invulnerability Save",
+            "stats": {
+              "M": "6",
+              "WS": "4+",
+              "BS": "3+",
+              "S": "3",
+              "T": "3",
+              "W": "2",
+              "I": "3",
+              "A": "2",
+              "Ld": "7",
+              "Sv": "5+"
+            },
+            "rules": [
+              "Elysian Drop Troops",
+              "Infantry Orders 2",
+              "Independent Character",
+              "Unique",
+              "Infantry",
+              "Stubborn",
+              "Geno Enhancement",
+              "Infantry",
+              "Infantry",
+              "Bulky",
+              "Pain"
+            ]
+          }
+        ],
+        "fixed_wargear": [],
+        "options": [
+          {
+            "description": "May take Vox Caster",
+            "choices": [
+              {
+                "name": "Vox Caster",
+                "pts_delta": 5
+              }
+            ]
+          },
+          {
+            "description": "May take Standard",
+            "choices": [
+              {
+                "name": "Standard",
+                "pts_delta": 40
+              }
+            ]
+          },
+          {
+            "description": "May take Medicae Pack",
+            "choices": [
+              {
+                "name": "Medicae Pack",
+                "pts_delta": 75
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

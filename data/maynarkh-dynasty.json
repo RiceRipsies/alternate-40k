@@ -1,0 +1,101 @@
+{
+  "id": "maynarkh-dynasty",
+  "name": "Maynarkh Dynasty",
+  "difficulty": 1,
+  "subfactions": [
+    {
+      "name": "Average"
+    },
+    {
+      "name": "Maynarkh"
+    }
+  ],
+  "slots": {
+    "hq": [
+      {
+        "name": "Kutlakh the World Killer",
+        "points_base": 212,
+        "composition": "1 Kutlakh",
+        "models": [
+          {
+            "name": "Kutlakh",
+            "stats": {
+              "M": "4",
+              "WS": "2+",
+              "BS": "2+",
+              "S": "5",
+              "T": "5",
+              "W": "7",
+              "I": "2",
+              "A": "5",
+              "Ld": "10",
+              "Sv": "3+"
+            },
+            "rules": [
+              "Independent Character",
+              "Maynarkh",
+              "Infantry",
+              "Living Metal",
+              "Reanimation",
+              "Fearless",
+              "Soulless Machine",
+              "Ancient Duelist",
+              "Splinter of Madness",
+              "My Will Be Done",
+              "Relentless March"
+            ]
+          }
+        ],
+        "fixed_wargear": [
+          "Obsidax",
+          "Staff of Light",
+          "Phase Shifter"
+        ],
+        "options": []
+      }
+    ],
+    "advisors": [
+      {
+        "name": "Toholk the Blinded",
+        "points_base": 184,
+        "composition": "1 Toholk",
+        "models": [
+          {
+            "name": "Toholk",
+            "stats": {
+              "M": "4",
+              "WS": "3+",
+              "BS": "5+",
+              "S": "4",
+              "T": "4",
+              "W": "4",
+              "I": "2",
+              "A": "1",
+              "Ld": "10",
+              "Sv": "4+"
+            },
+            "rules": [
+              "Independent Character",
+              "Maynarkh",
+              "Infantry",
+              "Living Metal",
+              "Reanimation",
+              "Fearless",
+              "Soulless Machine",
+              "Eternal Engines",
+              "Wounds.",
+              "Predictive Strategist"
+            ]
+          }
+        ],
+        "fixed_wargear": [
+          "Cutting Beam",
+          "Aeonstaff",
+          "Timesplinter Mantle",
+          "Chronometron"
+        ],
+        "options": []
+      }
+    ]
+  }
+}
