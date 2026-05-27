@@ -973,8 +973,7 @@ function openUnitModal(unit) {
       <div class="option-group-label">${opt.description}</div>
       ${(opt.choices ?? []).map((c, ci) => `
         <div class="option-row">
-          <input type="radio" name="opt-${gi}" id="opt-${gi}-${ci}" value="${ci}"
-            ${ci === 0 ? 'checked' : ''}>
+          <input type="radio" name="opt-${gi}" id="opt-${gi}-${ci}" value="${ci}">
           <label for="opt-${gi}-${ci}">${c.name}</label>
           <span class="opt-pts">${c.pts_delta > 0 ? '+' : ''}${c.pts_delta ?? 0} pts</span>
         </div>
@@ -990,12 +989,17 @@ function openUnitModal(unit) {
       ${rules.map(r => `<span class="rule-tag">${r}</span>`).join('')}
     </div>` : '';
 
-  // Listen for option changes to update pts
-  D('modal-options').querySelectorAll('input').forEach(inp => {
-    inp.addEventListener('change', () => {
+  // Click-to-toggle: clicking the already-selected option deselects it
+  D('modal-options').querySelectorAll('input[type=radio]').forEach(inp => {
+    inp.addEventListener('click', () => {
       const groupIdx = parseInt(inp.name.split('-')[1]);
       const choiceIdx = parseInt(inp.value);
-      state.pendingOpts[groupIdx] = choiceIdx;
+      if (state.pendingOpts[groupIdx] === choiceIdx) {
+        inp.checked = false;
+        state.pendingOpts[groupIdx] = -1;
+      } else {
+        state.pendingOpts[groupIdx] = choiceIdx;
+      }
       updateModalPts();
     });
   });
@@ -1010,8 +1014,8 @@ function updateModalPts() {
   let pts = unit.points_base;
   const opts = unit.options ?? [];
   opts.forEach((opt, gi) => {
-    const ci = state.pendingOpts[gi] ?? 0;
-    pts += (opt.choices?.[ci]?.pts_delta ?? 0);
+    const ci = state.pendingOpts[gi] ?? -1;
+    if (ci >= 0) pts += (opt.choices?.[ci]?.pts_delta ?? 0);
   });
   D('modal-pts').textContent = pts;
 }
@@ -1032,8 +1036,8 @@ D('modal-add').addEventListener('click', () => {
   if (!unit) return;
   let pts = unit.points_base;
   (unit.options ?? []).forEach((opt, gi) => {
-    const ci = state.pendingOpts[gi] ?? 0;
-    pts += (opt.choices?.[ci]?.pts_delta ?? 0);
+    const ci = state.pendingOpts[gi] ?? -1;
+    if (ci >= 0) pts += (opt.choices?.[ci]?.pts_delta ?? 0);
   });
   state.list.push({ slotKey: state.browsingSlot, unit, opts: { ...state.pendingOpts }, pts });
   closeModal();
@@ -1103,8 +1107,21 @@ async function restoreList() {
     if (!saved?.factionId) return;
     ptsLimit.value = saved.limit ?? 2000;
     await selectFaction(saved.factionId);
-    // Restore simplified list (unit names only, codex may not be loaded)
-    // Full restoration happens once codex is loaded
+
+    if (saved.subfaction) {
+      subfactionSel.value = saved.subfaction;
+      if (subfactionSel.value === saved.subfaction) state.subfaction = saved.subfaction;
+    }
+
+    if (state.codex && saved.list?.length) {
+      const allUnits = Object.values(state.codex.slots ?? {}).flat();
+      state.list = saved.list.flatMap(entry => {
+        const unit = allUnits.find(u => u.name === entry.unitName);
+        return unit ? [{ slotKey: entry.slotKey, unit, opts: entry.opts ?? {}, pts: entry.pts }] : [];
+      });
+      renderSlots();
+      updatePoints();
+    }
   } catch {}
 }
 
