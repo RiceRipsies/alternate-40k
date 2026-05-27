@@ -650,7 +650,14 @@ button {
       </div>
     </div>
 
-    <!-- VIEW 2: browse units for a slot -->
+    <!-- VIEW 2: army home (faction selected, not browsing) -->
+    <div id="view-army" style="display:none; padding:40px 32px; max-width:640px">
+      <h2 id="view-army-title" style="font-size:20px;color:var(--gold);margin-bottom:8px"></h2>
+      <p style="color:var(--text-dim);font-size:14px;margin-bottom:28px">Click <strong style="color:var(--gold)">+</strong> next to any slot in the panel to browse and add units.</p>
+      <div id="view-army-mobile-hint" style="display:none;color:var(--text-dim);font-size:14px">Tap <strong style="color:var(--gold)">☰ Roster</strong> to open the panel and start adding units.</div>
+    </div>
+
+    <!-- VIEW 3: browse units for a slot -->
     <div id="view-units">
       <h2 id="view-units-title">Add Unit</h2>
       <div id="unit-slot-label"></div>
@@ -718,6 +725,7 @@ const state = {
 // ── DOM REFS ─────────────────────────────────────────────────────
 const D = id => document.getElementById(id);
 const factionView   = D('view-faction');
+const armyView      = D('view-army');
 const unitsView     = D('view-units');
 const slotsContainer = D('slots-container');
 const ptsUsed       = D('pts-used');
@@ -775,6 +783,9 @@ async function selectFaction(id) {
   factionName.textContent = meta.name;
   factionView.style.display = 'none';
   unitsView.style.display = 'none';
+  D('view-army-title').textContent = meta.name;
+  D('view-army-mobile-hint').style.display = window.innerWidth <= 700 ? '' : 'none';
+  armyView.style.display = '';
 
   // Try to load codex JSON
   const res = await fetch(`data/${meta.file}`).catch(() => null);
@@ -865,6 +876,7 @@ function openUnitBrowser(slotKey) {
   state.browsingSlot = slotKey;
   const slot = SLOTS.find(s => s.key === slotKey);
   factionView.style.display = 'none';
+  armyView.style.display = 'none';
   unitsView.style.display = '';
   D('view-units-title').textContent = `Add ${slot.label}`;
   D('unit-slot-label').textContent = state.faction?.name ?? '';
@@ -929,7 +941,11 @@ D('unit-search').addEventListener('input', e => renderUnitList(e.target.value));
 
 D('cancel-browse').addEventListener('click', () => {
   unitsView.style.display = 'none';
-  factionView.style.display = '';
+  if (state.faction) {
+    armyView.style.display = '';
+  } else {
+    factionView.style.display = '';
+  }
 });
 
 // ── UNIT MODAL ───────────────────────────────────────────────────
@@ -1112,6 +1128,7 @@ D('change-faction').addEventListener('click', () => {
   factionName.textContent = 'No faction selected';
   subfactionRow.style.display = 'none';
   unitsView.style.display = 'none';
+  armyView.style.display = 'none';
   factionView.style.display = '';
   renderSlots();
   updatePoints();
