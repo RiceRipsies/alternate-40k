@@ -152,7 +152,60 @@
         "options": [
           {
             "description": "May swap Autopistol for OP or OM",
-            "choices": []
+            "choices": [
+              {
+                "name": "Autopistol",
+                "pts_delta": 0
+              },
+              {
+                "name": "Laspistol",
+                "pts_delta": 1
+              },
+              {
+                "name": "Bolt Pistol",
+                "pts_delta": 2
+              },
+              {
+                "name": "Boltgun",
+                "pts_delta": 2
+              },
+              {
+                "name": "Handflamer",
+                "pts_delta": 5
+              },
+              {
+                "name": "Plasma Pistol",
+                "pts_delta": 9
+              },
+              {
+                "name": "Brutal Weapon",
+                "pts_delta": 0
+              },
+              {
+                "name": "Chainsword",
+                "pts_delta": 1
+              },
+              {
+                "name": "Power Sword",
+                "pts_delta": 5
+              },
+              {
+                "name": "Power Axe",
+                "pts_delta": 6
+              },
+              {
+                "name": "Power Maul",
+                "pts_delta": 8
+              },
+              {
+                "name": "Power Fist",
+                "pts_delta": 12
+              },
+              {
+                "name": "Chain Fist",
+                "pts_delta": 14
+              }
+            ]
           },
           {
             "description": "May swap Brutal Weapon for OM",
@@ -160,7 +213,20 @@
           },
           {
             "description": "May take one G",
-            "choices": []
+            "choices": [
+              {
+                "name": "Frag Grenades",
+                "pts_delta": 0
+              },
+              {
+                "name": "Krak Grenades",
+                "pts_delta": 2
+              },
+              {
+                "name": "Melta Bombs",
+                "pts_delta": 7
+              }
+            ]
           },
           {
             "description": "May take up to one of each A",
@@ -225,11 +291,57 @@
         "options": [
           {
             "description": "May swap Nova Eradicator Cannon for T",
-            "choices": []
+            "choices": [
+              {
+                "name": "Nova Eradicator Cannon",
+                "pts_delta": 0
+              },
+              {
+                "name": "Executioner Plasma",
+                "pts_delta": 4
+              },
+              {
+                "name": "Vanquisher Battle Lascannons Exterminator Autocannons",
+                "pts_delta": 9
+              },
+              {
+                "name": "Punisher Gatling Gun",
+                "pts_delta": 33
+              },
+              {
+                "name": "Conqueror Battle and",
+                "pts_delta": 39
+              },
+              {
+                "name": "Battle Cannon",
+                "pts_delta": 45
+              },
+              {
+                "name": "Demolisher Cannon",
+                "pts_delta": 57
+              },
+              {
+                "name": "Long Vanquisher Cannon Stormbolter",
+                "pts_delta": 60
+              }
+            ]
           },
           {
             "description": "May swap Heavy Flamer H for H",
-            "choices": []
+            "choices": [
+              {
+                "name": "Heavy Flamer",
+                "pts_delta": 0
+              },
+              {
+                "name": "Heavy Bolter",
+                "pts_delta": 1
+              },
+              {
+                "name": "Lascannon Cannons",
+                "pts_delta": 7
+              }
+            ]
           },
           {
             "description": "May take a set of S",
@@ -237,19 +349,59 @@
           },
           {
             "description": "May take one P",
-            "choices": []
+            "choices": [
+              {
+                "name": "Stormbolter",
+                "pts_delta": 5
+              },
+              {
+                "name": "Light Stubber",
+                "pts_delta": 9
+              },
+              {
+                "name": "Heavy Stubber",
+                "pts_delta": 11
+              }
+            ]
           },
           {
             "description": "May take one D",
-            "choices": []
+            "choices": [
+              {
+                "name": "Dozerblade",
+                "pts_delta": 9
+              }
+            ]
           },
           {
             "description": "May take one M",
-            "choices": []
+            "choices": [
+              {
+                "name": "Hunter Killer Missile",
+                "pts_delta": 5
+              }
+            ]
           },
           {
             "description": "May take any E one time each",
-            "choices": []
+            "choices": [
+              {
+                "name": "Augar Array",
+                "pts_delta": 5
+              },
+              {
+                "name": "Camo Netting",
+                "pts_delta": 6
+              },
+              {
+                "name": "Extra Armour",
+                "pts_delta": 5
+              },
+              {
+                "name": "Searchlight",
+                "pts_delta": 1
+              }
+            ]
           },
           {
             "description": "May take one B",
@@ -269,42 +421,6 @@
               {
                 "name": "Mark of Tzeentch",
                 "pts_delta": 12
-              }
-            ]
-          },
-          {
-            "description": "May take Augar Array",
-            "choices": [
-              {
-                "name": "Augar Array",
-                "pts_delta": 5
-              }
-            ]
-          },
-          {
-            "description": "May take Camo Netting",
-            "choices": [
-              {
-                "name": "Camo Netting",
-                "pts_delta": 6
-              }
-            ]
-          },
-          {
-            "description": "May take Extra Armour",
-            "choices": [
-              {
-                "name": "Extra Armour",
-                "pts_delta": 5
-              }
-            ]
-          },
-          {
-            "description": "May take Searchlight",
-            "choices": [
-              {
-                "name": "Searchlight",
-                "pts_delta": 1
               }
             ]
           }
@@ -349,23 +465,72 @@
         "options": [
           {
             "description": "May swap any Heavy Flamer for H",
-            "choices": []
+            "choices": [
+              {
+                "name": "Heavy Flamer",
+                "pts_delta": 0
+              },
+              {
+                "name": "Heavy Bolter",
+                "pts_delta": 1
+              }
+            ]
           },
           {
             "description": "May take one P",
-            "choices": []
+            "choices": [
+              {
+                "name": "Stormbolter",
+                "pts_delta": 5
+              },
+              {
+                "name": "Light Stubber",
+                "pts_delta": 9
+              },
+              {
+                "name": "Heavy Stubber",
+                "pts_delta": 11
+              }
+            ]
           },
           {
             "description": "May take one D",
-            "choices": []
+            "choices": [
+              {
+                "name": "Dozerblade",
+                "pts_delta": 9
+              }
+            ]
           },
           {
             "description": "May take one M",
-            "choices": []
+            "choices": [
+              {
+                "name": "Hunter Killer Missile",
+                "pts_delta": 5
+              }
+            ]
           },
           {
             "description": "May take any E one time each",
-            "choices": []
+            "choices": [
+              {
+                "name": "Augar Array",
+                "pts_delta": 5
+              },
+              {
+                "name": "Camo Netting",
+                "pts_delta": 6
+              },
+              {
+                "name": "Extra Armour",
+                "pts_delta": 5
+              },
+              {
+                "name": "Searchlight",
+                "pts_delta": 1
+              }
+            ]
           },
           {
             "description": "May take one B",
@@ -389,42 +554,6 @@
               {
                 "name": "Mark of Undivided",
                 "pts_delta": 10
-              }
-            ]
-          },
-          {
-            "description": "May take Augar Array",
-            "choices": [
-              {
-                "name": "Augar Array",
-                "pts_delta": 5
-              }
-            ]
-          },
-          {
-            "description": "May take Camo Netting",
-            "choices": [
-              {
-                "name": "Camo Netting",
-                "pts_delta": 6
-              }
-            ]
-          },
-          {
-            "description": "May take Extra Armour",
-            "choices": [
-              {
-                "name": "Extra Armour",
-                "pts_delta": 5
-              }
-            ]
-          },
-          {
-            "description": "May take Searchlight",
-            "choices": [
-              {
-                "name": "Searchlight",
-                "pts_delta": 1
               }
             ]
           }
@@ -467,7 +596,12 @@
         "options": [
           {
             "description": "May take up to one Spell",
-            "choices": []
+            "choices": [
+              {
+                "name": "Mass Sedition Cast",
+                "pts_delta": 0
+              }
+            ]
           }
         ]
       }
@@ -563,7 +697,56 @@
         "options": [
           {
             "description": "May swap Autopistol for OP or OM",
-            "choices": []
+            "choices": [
+              {
+                "name": "Autopistol",
+                "pts_delta": 0
+              },
+              {
+                "name": "Laspistol",
+                "pts_delta": 1
+              },
+              {
+                "name": "Bolt Pistol",
+                "pts_delta": 2
+              },
+              {
+                "name": "Boltgun",
+                "pts_delta": 2
+              },
+              {
+                "name": "Handflamer",
+                "pts_delta": 5
+              },
+              {
+                "name": "Plasma Pistol",
+                "pts_delta": 9
+              },
+              {
+                "name": "Brutal Weapon",
+                "pts_delta": 0
+              },
+              {
+                "name": "Chainsword",
+                "pts_delta": 0
+              },
+              {
+                "name": "Power Sword",
+                "pts_delta": 5
+              },
+              {
+                "name": "Power Axe",
+                "pts_delta": 6
+              },
+              {
+                "name": "Power Maul",
+                "pts_delta": 8
+              },
+              {
+                "name": "Power Fist",
+                "pts_delta": 12
+              }
+            ]
           },
           {
             "description": "May swap Brutal Weapon for any OM weapon",
@@ -648,6 +831,22 @@
             "description": "May take up to 9 Servitors for +18 points each Any Servitor may swap its Servo Arm for A Enginseer May take one B",
             "choices": [
               {
+                "name": "Servo Arm",
+                "pts_delta": 0
+              },
+              {
+                "name": "Heavy Bolter",
+                "pts_delta": 6
+              },
+              {
+                "name": "Plasma Cannon",
+                "pts_delta": 11
+              },
+              {
+                "name": "Multimelta",
+                "pts_delta": 24
+              },
+              {
                 "name": "Mark of Khorne",
                 "pts_delta": 8
               },
@@ -709,19 +908,55 @@
         "options": [
           {
             "description": "May swap Multilaser for T",
-            "choices": []
+            "choices": [
+              {
+                "name": "Multilaser",
+                "pts_delta": 0
+              },
+              {
+                "name": "Autocannon Bolters",
+                "pts_delta": 4
+              }
+            ]
           },
           {
             "description": "May swap Heavy Flamer for H",
-            "choices": []
+            "choices": [
+              {
+                "name": "Heavy Flamer",
+                "pts_delta": 0
+              },
+              {
+                "name": "Heavy Bolter",
+                "pts_delta": 1
+              }
+            ]
           },
           {
             "description": "May take one P",
-            "choices": []
+            "choices": [
+              {
+                "name": "Stormbolter",
+                "pts_delta": 5
+              },
+              {
+                "name": "Light Stubber",
+                "pts_delta": 9
+              },
+              {
+                "name": "Heavy Stubber",
+                "pts_delta": 11
+              }
+            ]
           },
           {
             "description": "May take one M",
-            "choices": []
+            "choices": [
+              {
+                "name": "Hunter Killer Missile",
+                "pts_delta": 5
+              }
+            ]
           },
           {
             "description": "May take any E one time each",
@@ -772,19 +1007,55 @@
         "options": [
           {
             "description": "May swap Multilaser for T",
-            "choices": []
+            "choices": [
+              {
+                "name": "Multilaser",
+                "pts_delta": 0
+              },
+              {
+                "name": "Autocannon Bolters",
+                "pts_delta": 4
+              }
+            ]
           },
           {
             "description": "May swap Heavy Flamer for H",
-            "choices": []
+            "choices": [
+              {
+                "name": "Heavy Flamer",
+                "pts_delta": 0
+              },
+              {
+                "name": "Heavy Bolter",
+                "pts_delta": 1
+              }
+            ]
           },
           {
             "description": "May take one P",
-            "choices": []
+            "choices": [
+              {
+                "name": "Stormbolter",
+                "pts_delta": 5
+              },
+              {
+                "name": "Light Stubber",
+                "pts_delta": 9
+              },
+              {
+                "name": "Heavy Stubber",
+                "pts_delta": 11
+              }
+            ]
           },
           {
             "description": "May take one M",
-            "choices": []
+            "choices": [
+              {
+                "name": "Hunter Killer Missile",
+                "pts_delta": 5
+              }
+            ]
           },
           {
             "description": "May take any E one time each",
@@ -884,6 +1155,142 @@
           {
             "description": "May include up to 3 Heavy Weapon Teams for +18 points each Sergeant may swap Autogun for O or P Sergeant may swap Brutal Weapon for M Any Traitor or Heavy Weapon Team may swap Autogun for R Up to three Traitors may swap Autogun for S or take one SD One Traitor that did not swap for S or take SD may take one E Any Heavy Weapon Team may swap Heavy Flamer for H The entire unit may take one B",
             "choices": [
+              {
+                "name": "Autogun",
+                "pts_delta": 0
+              },
+              {
+                "name": "Lasgun",
+                "pts_delta": 1
+              },
+              {
+                "name": "Shotgun",
+                "pts_delta": 1
+              },
+              {
+                "name": "Boltgun",
+                "pts_delta": 2
+              },
+              {
+                "name": "Drum Fed Autogun",
+                "pts_delta": 3
+              },
+              {
+                "name": "Autopistol",
+                "pts_delta": 0
+              },
+              {
+                "name": "Laspistol",
+                "pts_delta": 1
+              },
+              {
+                "name": "Bolt Pistol",
+                "pts_delta": 2
+              },
+              {
+                "name": "Handflamer",
+                "pts_delta": 5
+              },
+              {
+                "name": "Plasma Pistol",
+                "pts_delta": 9
+              },
+              {
+                "name": "Brutal Weapon",
+                "pts_delta": 0
+              },
+              {
+                "name": "Chainsword",
+                "pts_delta": 0
+              },
+              {
+                "name": "Power Sword",
+                "pts_delta": 3
+              },
+              {
+                "name": "Power Axe",
+                "pts_delta": 4
+              },
+              {
+                "name": "Power Maul",
+                "pts_delta": 5
+              },
+              {
+                "name": "Autogun",
+                "pts_delta": 0
+              },
+              {
+                "name": "Lasgun",
+                "pts_delta": 1
+              },
+              {
+                "name": "Autopistol and Brutal",
+                "pts_delta": 1
+              },
+              {
+                "name": "Laspistol and Brutal",
+                "pts_delta": 2
+              },
+              {
+                "name": "Sniper Rifle",
+                "pts_delta": 7
+              },
+              {
+                "name": "Flamer",
+                "pts_delta": 7
+              },
+              {
+                "name": "Grenade Launcher",
+                "pts_delta": 8
+              },
+              {
+                "name": "Plasma Gun",
+                "pts_delta": 9
+              },
+              {
+                "name": "Meltagun",
+                "pts_delta": 24
+              },
+              {
+                "name": "Demolition Charge",
+                "pts_delta": 7
+              },
+              {
+                "name": "Heavy Flamer",
+                "pts_delta": 0
+              },
+              {
+                "name": "Heavy Stubber",
+                "pts_delta": 0
+              },
+              {
+                "name": "Mortar",
+                "pts_delta": 0
+              },
+              {
+                "name": "Heavy Bolter",
+                "pts_delta": 2
+              },
+              {
+                "name": "Multilaser",
+                "pts_delta": 2
+              },
+              {
+                "name": "Heavy Mortar",
+                "pts_delta": 6
+              },
+              {
+                "name": "Autocannon Stubbers",
+                "pts_delta": 6
+              },
+              {
+                "name": "Missile Launcher",
+                "pts_delta": 12
+              },
+              {
+                "name": "Lascannon",
+                "pts_delta": 14
+              },
               {
                 "name": "Mark of Khorne",
                 "pts_delta": 4
@@ -992,6 +1399,162 @@
           {
             "description": "May include up to 1 Heavy Weapon Team for +21 points each Sergeant may swap Autogun for O or P Sergeant may swap Brutal Weapon for M Sergeant may take one G Any Disciple or Heavy Weapon Team may swap Autogun for R Up to three Disciples may swap Autogun for S or take one SD One Disciple that did not swap for S or take SD may take one E Any Heavy Weapon Team may swap Heavy Flamer for H The entire unit may take one A The entire unit may take one B",
             "choices": [
+              {
+                "name": "Lasgun",
+                "pts_delta": 1
+              },
+              {
+                "name": "Shotgun",
+                "pts_delta": 1
+              },
+              {
+                "name": "Boltgun",
+                "pts_delta": 2
+              },
+              {
+                "name": "Drum Fed Autogun",
+                "pts_delta": 3
+              },
+              {
+                "name": "Autopistol",
+                "pts_delta": 0
+              },
+              {
+                "name": "Laspistol",
+                "pts_delta": 1
+              },
+              {
+                "name": "Bolt Pistol",
+                "pts_delta": 2
+              },
+              {
+                "name": "Handflamer",
+                "pts_delta": 5
+              },
+              {
+                "name": "Plasma Pistol",
+                "pts_delta": 9
+              },
+              {
+                "name": "Brutal Weapon",
+                "pts_delta": 0
+              },
+              {
+                "name": "Chainsword",
+                "pts_delta": 0
+              },
+              {
+                "name": "Power Sword",
+                "pts_delta": 3
+              },
+              {
+                "name": "Power Axe",
+                "pts_delta": 4
+              },
+              {
+                "name": "Power Maul",
+                "pts_delta": 5
+              },
+              {
+                "name": "Powerfist",
+                "pts_delta": 7
+              },
+              {
+                "name": "Chainfist",
+                "pts_delta": 9
+              },
+              {
+                "name": "Autogun",
+                "pts_delta": 0
+              },
+              {
+                "name": "Lasgun",
+                "pts_delta": 1
+              },
+              {
+                "name": "Shotgun",
+                "pts_delta": 1
+              },
+              {
+                "name": "Autopistol and Brutal",
+                "pts_delta": 1
+              },
+              {
+                "name": "Laspistol and Brutal",
+                "pts_delta": 2
+              },
+              {
+                "name": "Sniper Rifle",
+                "pts_delta": 7
+              },
+              {
+                "name": "Flamer",
+                "pts_delta": 7
+              },
+              {
+                "name": "Grenade Launcher",
+                "pts_delta": 8
+              },
+              {
+                "name": "Plasma Gun",
+                "pts_delta": 9
+              },
+              {
+                "name": "Meltagun",
+                "pts_delta": 24
+              },
+              {
+                "name": "Demolition Charge",
+                "pts_delta": 7
+              },
+              {
+                "name": "Heavy Flamer",
+                "pts_delta": 0
+              },
+              {
+                "name": "Heavy Stubber",
+                "pts_delta": 0
+              },
+              {
+                "name": "Mortar",
+                "pts_delta": 0
+              },
+              {
+                "name": "Heavy Bolter",
+                "pts_delta": 2
+              },
+              {
+                "name": "Multilaser",
+                "pts_delta": 2
+              },
+              {
+                "name": "Heavy Mortar",
+                "pts_delta": 6
+              },
+              {
+                "name": "Autocannon",
+                "pts_delta": 6
+              },
+              {
+                "name": "Rotor Cannon Stubbers",
+                "pts_delta": 10
+              },
+              {
+                "name": "Missile Launcher",
+                "pts_delta": 12
+              },
+              {
+                "name": "Lascannon",
+                "pts_delta": 14
+              },
+              {
+                "name": "Frag Grenades",
+                "pts_delta": 0
+              },
+              {
+                "name": "Meltabombs",
+                "pts_delta": 7
+              },
               {
                 "name": "Mark of Khorne",
                 "pts_delta": 4
@@ -1316,7 +1879,112 @@
         "options": [
           {
             "description": "May take up to 5 more Traitors for +13 points each Sergeant may swap Laspistol for OP Sergeant may swap Chainsword for OM Sergent may swap Krak Grenades for G Any Traitor may swap Autopistol for P Up to two Traitors may swap Laspistol for S or take one SD The entire unit may take one G The entire unit may take one B",
-            "choices": []
+            "choices": [
+              {
+                "name": "Autopistol",
+                "pts_delta": 0
+              },
+              {
+                "name": "Laspistol",
+                "pts_delta": 1
+              },
+              {
+                "name": "Lasgun",
+                "pts_delta": 1
+              },
+              {
+                "name": "Drum Fed Autogun",
+                "pts_delta": 1
+              },
+              {
+                "name": "Shotgun",
+                "pts_delta": 1
+              },
+              {
+                "name": "Bolt Pistol",
+                "pts_delta": 2
+              },
+              {
+                "name": "Boltgun",
+                "pts_delta": 2
+              },
+              {
+                "name": "Handflamer",
+                "pts_delta": 5
+              },
+              {
+                "name": "Plasma Pistol",
+                "pts_delta": 9
+              },
+              {
+                "name": "Chainsword",
+                "pts_delta": 0
+              },
+              {
+                "name": "Power Sword",
+                "pts_delta": 3
+              },
+              {
+                "name": "Power Axe",
+                "pts_delta": 5
+              },
+              {
+                "name": "Power Maul",
+                "pts_delta": 6
+              },
+              {
+                "name": "Power Fist",
+                "pts_delta": 7
+              },
+              {
+                "name": "Chain Fist",
+                "pts_delta": 9
+              },
+              {
+                "name": "Autopistol",
+                "pts_delta": 0
+              },
+              {
+                "name": "Laspistol",
+                "pts_delta": 1
+              },
+              {
+                "name": "Sniper Rifle",
+                "pts_delta": 7
+              },
+              {
+                "name": "Flamer",
+                "pts_delta": 7
+              },
+              {
+                "name": "Grenade Launcher",
+                "pts_delta": 8
+              },
+              {
+                "name": "Plasma Gun",
+                "pts_delta": 9
+              },
+              {
+                "name": "Meltagun",
+                "pts_delta": 24
+              },
+              {
+                "name": "Demolition Charge",
+                "pts_delta": 7
+              },
+              {
+                "name": "Frag Grenades",
+                "pts_delta": 0
+              },
+              {
+                "name": "per",
+                "pts_delta": 1
+              },
+              {
+                "name": "Melta Bombs",
+                "pts_delta": 5
+              }
+            ]
           }
         ]
       },
@@ -1385,6 +2053,22 @@
           {
             "description": "May take up to 5 more Rough Riders for +12 points each Sergeant may swap Laspistol for P or OP Sergeant may swap Chainsword for OM Any Rough Rider may swap their Autopistol for P Up to two Rough Riders may swap their Autopistols for S or take one SD Any Rough Rider that did not take one S or SD may take one R Any model may swap Infantry Lance for Hunting Lance Any Rough Rider may swap Chainsword for SM The entire unit may take one E The entire unit may take one B",
             "choices": [
+              {
+                "name": "Autopistol",
+                "pts_delta": 0
+              },
+              {
+                "name": "Laspistol",
+                "pts_delta": 1
+              },
+              {
+                "name": "Lasgun",
+                "pts_delta": 0
+              },
+              {
+                "name": "Bolt Pistol Launcher Charge",
+                "pts_delta": 2
+              },
               {
                 "name": "Jet Bikes",
                 "pts_delta": 4
@@ -1471,38 +2155,55 @@
         "options": [
           {
             "description": "May add up to 7 more Armoured Sentinels for +52 points each Any model may swap Heavy Flamer for H Any model may take one MW Any model may take one M Any model may take any E one time each The entire unit may take one B",
-            "choices": []
-          },
-          {
-            "description": "May take Augar Array",
             "choices": [
+              {
+                "name": "Heavy Flamer",
+                "pts_delta": 0
+              },
+              {
+                "name": "Multilaser",
+                "pts_delta": 1
+              },
+              {
+                "name": "Plasma Cannon",
+                "pts_delta": 1
+              },
+              {
+                "name": "Autocannon",
+                "pts_delta": 3
+              },
+              {
+                "name": "Missile Launcher",
+                "pts_delta": 6
+              },
+              {
+                "name": "Lascannon",
+                "pts_delta": 7
+              },
+              {
+                "name": "Assault Cannon",
+                "pts_delta": 10
+              },
+              {
+                "name": "Sentinel Chainsaw",
+                "pts_delta": 4
+              },
+              {
+                "name": "Hunter Killer Missile",
+                "pts_delta": 5
+              },
               {
                 "name": "Augar Array",
                 "pts_delta": 5
-              }
-            ]
-          },
-          {
-            "description": "May take Camo Netting",
-            "choices": [
+              },
               {
                 "name": "Camo Netting",
                 "pts_delta": 6
-              }
-            ]
-          },
-          {
-            "description": "May take Extra Armour",
-            "choices": [
+              },
               {
                 "name": "Extra Armour",
                 "pts_delta": 5
-              }
-            ]
-          },
-          {
-            "description": "May take Searchlight",
-            "choices": [
+              },
               {
                 "name": "Searchlight",
                 "pts_delta": 1
@@ -1579,6 +2280,42 @@
             "description": "May add up to 7 more Drop Sentinels for +29 points each Any model may swap Heavy Flamer for H Any model may take one MW Any model may take one M Any model may take any E one time each The entire unit may take one B",
             "choices": [
               {
+                "name": "Heavy Flamer",
+                "pts_delta": 0
+              },
+              {
+                "name": "Heavy Bolter",
+                "pts_delta": 1
+              },
+              {
+                "name": "Multimelta",
+                "pts_delta": 10
+              },
+              {
+                "name": "Sentinel Chainsaw",
+                "pts_delta": 4
+              },
+              {
+                "name": "Hunter Killer Missile",
+                "pts_delta": 5
+              },
+              {
+                "name": "Augar Array",
+                "pts_delta": 5
+              },
+              {
+                "name": "Camo Netting",
+                "pts_delta": 6
+              },
+              {
+                "name": "Extra Armour",
+                "pts_delta": 5
+              },
+              {
+                "name": "Searchlight",
+                "pts_delta": 1
+              },
+              {
                 "name": "Mark of Khorne",
                 "pts_delta": 8
               },
@@ -1593,42 +2330,6 @@
               {
                 "name": "Mark of Tzeentch",
                 "pts_delta": 12
-              }
-            ]
-          },
-          {
-            "description": "May take Augar Array",
-            "choices": [
-              {
-                "name": "Augar Array",
-                "pts_delta": 5
-              }
-            ]
-          },
-          {
-            "description": "May take Camo Netting",
-            "choices": [
-              {
-                "name": "Camo Netting",
-                "pts_delta": 6
-              }
-            ]
-          },
-          {
-            "description": "May take Extra Armour",
-            "choices": [
-              {
-                "name": "Extra Armour",
-                "pts_delta": 5
-              }
-            ]
-          },
-          {
-            "description": "May take Searchlight",
-            "choices": [
-              {
-                "name": "Searchlight",
-                "pts_delta": 1
               }
             ]
           }
@@ -1700,6 +2401,26 @@
             "description": "May add up to 7 more Powerlifter Sentinels for +54 points each Any model may take one M Any model may take any E one time each The entire unit may take one B",
             "choices": [
               {
+                "name": "Hunter Killer Missile",
+                "pts_delta": 5
+              },
+              {
+                "name": "Augar Array",
+                "pts_delta": 5
+              },
+              {
+                "name": "Camo Netting",
+                "pts_delta": 6
+              },
+              {
+                "name": "Extra Armour",
+                "pts_delta": 5
+              },
+              {
+                "name": "Searchlight",
+                "pts_delta": 1
+              },
+              {
                 "name": "Mark of Khorne",
                 "pts_delta": 8
               },
@@ -1714,42 +2435,6 @@
               {
                 "name": "Mark of Tzeentch",
                 "pts_delta": 12
-              }
-            ]
-          },
-          {
-            "description": "May take Augar Array",
-            "choices": [
-              {
-                "name": "Augar Array",
-                "pts_delta": 5
-              }
-            ]
-          },
-          {
-            "description": "May take Camo Netting",
-            "choices": [
-              {
-                "name": "Camo Netting",
-                "pts_delta": 6
-              }
-            ]
-          },
-          {
-            "description": "May take Extra Armour",
-            "choices": [
-              {
-                "name": "Extra Armour",
-                "pts_delta": 5
-              }
-            ]
-          },
-          {
-            "description": "May take Searchlight",
-            "choices": [
-              {
-                "name": "Searchlight",
-                "pts_delta": 1
               }
             ]
           }
@@ -1821,29 +2506,15 @@
         "options": [
           {
             "description": "May add up to 7 more Scout Sentinels for +29 points each Any model may swap Heavy Flamer for H Any model may take one MW Any model may take one M Any model may take any E one time each The entire unit may take one B",
-            "choices": []
-          },
-          {
-            "description": "May take Augar Array",
             "choices": [
               {
                 "name": "Augar Array",
                 "pts_delta": 5
-              }
-            ]
-          },
-          {
-            "description": "May take Camo Netting",
-            "choices": [
+              },
               {
                 "name": "Camo Netting",
                 "pts_delta": 6
-              }
-            ]
-          },
-          {
-            "description": "May take Extra Armour",
-            "choices": [
+              },
               {
                 "name": "Extra Armour",
                 "pts_delta": 5
@@ -1892,6 +2563,46 @@
             "description": "May take up to 2 more Hippogriffs for +135 points each Any model may swap Vigilator Cannon for T Any model may swap Coaxial Heavy Stubber for C Any model may take any E one time each The entire unit may take one B",
             "choices": [
               {
+                "name": "Vigilator Cannon",
+                "pts_delta": 0
+              },
+              {
+                "name": "Melta Cannon",
+                "pts_delta": 1
+              },
+              {
+                "name": "Castigator Gatling",
+                "pts_delta": 18
+              },
+              {
+                "name": "Heavy Lascannon",
+                "pts_delta": 30
+              },
+              {
+                "name": "Coaxial Heavy Stubber",
+                "pts_delta": 0
+              },
+              {
+                "name": "Coaxial Meltagun",
+                "pts_delta": 17
+              },
+              {
+                "name": "Augar Array",
+                "pts_delta": 5
+              },
+              {
+                "name": "Camo Netting",
+                "pts_delta": 6
+              },
+              {
+                "name": "Extra Armour",
+                "pts_delta": 5
+              },
+              {
+                "name": "Searchlight",
+                "pts_delta": 1
+              },
+              {
                 "name": "Mark of Khorne",
                 "pts_delta": 8
               },
@@ -1906,42 +2617,6 @@
               {
                 "name": "Mark of Tzeentch",
                 "pts_delta": 12
-              }
-            ]
-          },
-          {
-            "description": "May take Augar Array",
-            "choices": [
-              {
-                "name": "Augar Array",
-                "pts_delta": 5
-              }
-            ]
-          },
-          {
-            "description": "May take Camo Netting",
-            "choices": [
-              {
-                "name": "Camo Netting",
-                "pts_delta": 6
-              }
-            ]
-          },
-          {
-            "description": "May take Extra Armour",
-            "choices": [
-              {
-                "name": "Extra Armour",
-                "pts_delta": 5
-              }
-            ]
-          },
-          {
-            "description": "May take Searchlight",
-            "choices": [
-              {
-                "name": "Searchlight",
-                "pts_delta": 1
               }
             ]
           }
@@ -1987,6 +2662,54 @@
             "description": "May take up to 2 more Pegasus for +92 points each Any Pegasus may swap Multilaser for T Any Pegasus may swap Heavy Flamer for H Any Pegasus may take one P Any Pegasus may take one M Any Pegasus may take any E one time each The entire unit may take one B",
             "choices": [
               {
+                "name": "Multilaser",
+                "pts_delta": 0
+              },
+              {
+                "name": "Autocannon Bolters",
+                "pts_delta": 4
+              },
+              {
+                "name": "Heavy Flamer",
+                "pts_delta": 0
+              },
+              {
+                "name": "Heavy Bolter",
+                "pts_delta": 1
+              },
+              {
+                "name": "Stormbolter",
+                "pts_delta": 5
+              },
+              {
+                "name": "Light Stubber",
+                "pts_delta": 9
+              },
+              {
+                "name": "Heavy Stubber",
+                "pts_delta": 11
+              },
+              {
+                "name": "Hunter Killer Missile",
+                "pts_delta": 5
+              },
+              {
+                "name": "Augar Array",
+                "pts_delta": 5
+              },
+              {
+                "name": "Camo Netting",
+                "pts_delta": 6
+              },
+              {
+                "name": "Extra Armour",
+                "pts_delta": 5
+              },
+              {
+                "name": "Searchlight",
+                "pts_delta": 1
+              },
+              {
                 "name": "Mark of Khorne",
                 "pts_delta": 8
               },
@@ -2001,42 +2724,6 @@
               {
                 "name": "Mark of Tzeentch",
                 "pts_delta": 12
-              }
-            ]
-          },
-          {
-            "description": "May take Augar Array",
-            "choices": [
-              {
-                "name": "Augar Array",
-                "pts_delta": 5
-              }
-            ]
-          },
-          {
-            "description": "May take Camo Netting",
-            "choices": [
-              {
-                "name": "Camo Netting",
-                "pts_delta": 6
-              }
-            ]
-          },
-          {
-            "description": "May take Extra Armour",
-            "choices": [
-              {
-                "name": "Extra Armour",
-                "pts_delta": 5
-              }
-            ]
-          },
-          {
-            "description": "May take Searchlight",
-            "choices": [
-              {
-                "name": "Searchlight",
-                "pts_delta": 1
               }
             ]
           }
@@ -2082,6 +2769,34 @@
             "description": "May take up to 2 more Tauros Assaults for +26 points Any Tauros Assault may swap Heavy Flamer for H Any Tauros Assault may take up to two M Any Tauros Assault may take any E one time each The entire unit may take one B",
             "choices": [
               {
+                "name": "Heavy Flamer",
+                "pts_delta": 0
+              },
+              {
+                "name": "Tauros Grenade Launcher",
+                "pts_delta": 6
+              },
+              {
+                "name": "Hunter Killer Missile",
+                "pts_delta": 5
+              },
+              {
+                "name": "Augar Array",
+                "pts_delta": 5
+              },
+              {
+                "name": "Camo Netting",
+                "pts_delta": 6
+              },
+              {
+                "name": "Extra Armour",
+                "pts_delta": 5
+              },
+              {
+                "name": "Searchlight",
+                "pts_delta": 1
+              },
+              {
                 "name": "Mark of Khorne",
                 "pts_delta": 8
               },
@@ -2096,42 +2811,6 @@
               {
                 "name": "Mark of Tzeentch",
                 "pts_delta": 12
-              }
-            ]
-          },
-          {
-            "description": "May take Augar Array",
-            "choices": [
-              {
-                "name": "Augar Array",
-                "pts_delta": 5
-              }
-            ]
-          },
-          {
-            "description": "May take Camo Netting",
-            "choices": [
-              {
-                "name": "Camo Netting",
-                "pts_delta": 6
-              }
-            ]
-          },
-          {
-            "description": "May take Extra Armour",
-            "choices": [
-              {
-                "name": "Extra Armour",
-                "pts_delta": 5
-              }
-            ]
-          },
-          {
-            "description": "May take Searchlight",
-            "choices": [
-              {
-                "name": "Searchlight",
-                "pts_delta": 1
               }
             ]
           }
@@ -2177,6 +2856,26 @@
             "description": "May take up to 2 more Tauros Venators for +50 points Any Tauros Venator may swap 2 Linked Multilasers for T Any Tauros Venators may take up to two M Any Tauros Venators may take any E one time each The entire unit may take one B",
             "choices": [
               {
+                "name": "Hunter Killer Missile",
+                "pts_delta": 5
+              },
+              {
+                "name": "Augar Array",
+                "pts_delta": 5
+              },
+              {
+                "name": "Camo Netting",
+                "pts_delta": 6
+              },
+              {
+                "name": "Extra Armour",
+                "pts_delta": 5
+              },
+              {
+                "name": "Searchlight",
+                "pts_delta": 1
+              },
+              {
                 "name": "Mark of Khorne",
                 "pts_delta": 8
               },
@@ -2191,42 +2890,6 @@
               {
                 "name": "Mark of Tzeentch",
                 "pts_delta": 12
-              }
-            ]
-          },
-          {
-            "description": "May take Augar Array",
-            "choices": [
-              {
-                "name": "Augar Array",
-                "pts_delta": 5
-              }
-            ]
-          },
-          {
-            "description": "May take Camo Netting",
-            "choices": [
-              {
-                "name": "Camo Netting",
-                "pts_delta": 6
-              }
-            ]
-          },
-          {
-            "description": "May take Extra Armour",
-            "choices": [
-              {
-                "name": "Extra Armour",
-                "pts_delta": 5
-              }
-            ]
-          },
-          {
-            "description": "May take Searchlight",
-            "choices": [
-              {
-                "name": "Searchlight",
-                "pts_delta": 1
               }
             ]
           }
@@ -2272,6 +2935,54 @@
             "description": "May take up to 2 more Artemia Hellhounds for +132 points Any Artemia Hellhound may swap Heavy Flamer for H Any Artemia Hellhound may take one D Any Artemia Hellhound may take one P Any Artemia Hellhound may take one M Any Artemia Hellhound may take any E one time each The entire unit may take one B",
             "choices": [
               {
+                "name": "Heavy Flamer",
+                "pts_delta": 0
+              },
+              {
+                "name": "Heavy Bolter",
+                "pts_delta": 1
+              },
+              {
+                "name": "Multimelta",
+                "pts_delta": 10
+              },
+              {
+                "name": "Stormbolter",
+                "pts_delta": 5
+              },
+              {
+                "name": "Light Stubber",
+                "pts_delta": 9
+              },
+              {
+                "name": "Heavy Stubber",
+                "pts_delta": 11
+              },
+              {
+                "name": "Dozerblade",
+                "pts_delta": 9
+              },
+              {
+                "name": "Hunter Killer Missile",
+                "pts_delta": 5
+              },
+              {
+                "name": "Augar Array",
+                "pts_delta": 5
+              },
+              {
+                "name": "Camo Netting",
+                "pts_delta": 6
+              },
+              {
+                "name": "Extra Armour",
+                "pts_delta": 5
+              },
+              {
+                "name": "Searchlight",
+                "pts_delta": 1
+              },
+              {
                 "name": "Mark of Khorne",
                 "pts_delta": 8
               },
@@ -2286,42 +2997,6 @@
               {
                 "name": "Mark of Tzeentch",
                 "pts_delta": 12
-              }
-            ]
-          },
-          {
-            "description": "May take Augar Array",
-            "choices": [
-              {
-                "name": "Augar Array",
-                "pts_delta": 5
-              }
-            ]
-          },
-          {
-            "description": "May take Camo Netting",
-            "choices": [
-              {
-                "name": "Camo Netting",
-                "pts_delta": 6
-              }
-            ]
-          },
-          {
-            "description": "May take Extra Armour",
-            "choices": [
-              {
-                "name": "Extra Armour",
-                "pts_delta": 5
-              }
-            ]
-          },
-          {
-            "description": "May take Searchlight",
-            "choices": [
-              {
-                "name": "Searchlight",
-                "pts_delta": 1
               }
             ]
           }
@@ -2366,6 +3041,66 @@
             "description": "May take up to 2 more Hounds for +106 points Any Hound may swap Chem Cannon for T Any Hound may swap Heavy Flamer for H Any Hound may take one D Any Hound may take one P Any Hound may take one M Any Hound may take any E one time each The entire unit may take one B",
             "choices": [
               {
+                "name": "Chem Cannon",
+                "pts_delta": 0
+              },
+              {
+                "name": "Inferno Cannon",
+                "pts_delta": 18
+              },
+              {
+                "name": "Melta Cannon",
+                "pts_delta": 32
+              },
+              {
+                "name": "Heavy Flamer",
+                "pts_delta": 0
+              },
+              {
+                "name": "Heavy Bolter",
+                "pts_delta": 1
+              },
+              {
+                "name": "Multimelta",
+                "pts_delta": 10
+              },
+              {
+                "name": "Stormbolter",
+                "pts_delta": 5
+              },
+              {
+                "name": "Light Stubber",
+                "pts_delta": 9
+              },
+              {
+                "name": "Heavy Stubber",
+                "pts_delta": 11
+              },
+              {
+                "name": "Dozerblade",
+                "pts_delta": 9
+              },
+              {
+                "name": "Hunter Killer Missile",
+                "pts_delta": 5
+              },
+              {
+                "name": "Augar Array",
+                "pts_delta": 5
+              },
+              {
+                "name": "Camo Netting",
+                "pts_delta": 6
+              },
+              {
+                "name": "Extra Armour",
+                "pts_delta": 5
+              },
+              {
+                "name": "Searchlight",
+                "pts_delta": 1
+              },
+              {
                 "name": "Mark of Khorne",
                 "pts_delta": 8
               },
@@ -2380,42 +3115,6 @@
               {
                 "name": "Mark of Tzeentch",
                 "pts_delta": 12
-              }
-            ]
-          },
-          {
-            "description": "May take Augar Array",
-            "choices": [
-              {
-                "name": "Augar Array",
-                "pts_delta": 5
-              }
-            ]
-          },
-          {
-            "description": "May take Camo Netting",
-            "choices": [
-              {
-                "name": "Camo Netting",
-                "pts_delta": 6
-              }
-            ]
-          },
-          {
-            "description": "May take Extra Armour",
-            "choices": [
-              {
-                "name": "Extra Armour",
-                "pts_delta": 5
-              }
-            ]
-          },
-          {
-            "description": "May take Searchlight",
-            "choices": [
-              {
-                "name": "Searchlight",
-                "pts_delta": 1
               }
             ]
           }
@@ -2463,6 +3162,50 @@
             "description": "May take up to 2 more Salamander Scouts for +85 points Any Salamander Scout may swap Heavy Flamer for H Any Salamander Scout may take one D Any Salamander Scout may take one P Any Salamander Scout may take one M Any Salamander Scout may take any E one time each The entire unit may take one B",
             "choices": [
               {
+                "name": "Heavy Flamer",
+                "pts_delta": 0
+              },
+              {
+                "name": "Heavy Bolter",
+                "pts_delta": 1
+              },
+              {
+                "name": "Stormbolter",
+                "pts_delta": 5
+              },
+              {
+                "name": "Light Stubber",
+                "pts_delta": 9
+              },
+              {
+                "name": "Heavy Stubber",
+                "pts_delta": 11
+              },
+              {
+                "name": "Dozerblade",
+                "pts_delta": 9
+              },
+              {
+                "name": "Hunter Killer Missile",
+                "pts_delta": 5
+              },
+              {
+                "name": "Augar Array",
+                "pts_delta": 5
+              },
+              {
+                "name": "Camo Netting",
+                "pts_delta": 6
+              },
+              {
+                "name": "Extra Armour",
+                "pts_delta": 5
+              },
+              {
+                "name": "Searchlight",
+                "pts_delta": 1
+              },
+              {
                 "name": "Mark of Khorne",
                 "pts_delta": 8
               },
@@ -2477,42 +3220,6 @@
               {
                 "name": "Mark of Tzeentch",
                 "pts_delta": 12
-              }
-            ]
-          },
-          {
-            "description": "May take Augar Array",
-            "choices": [
-              {
-                "name": "Augar Array",
-                "pts_delta": 5
-              }
-            ]
-          },
-          {
-            "description": "May take Camo Netting",
-            "choices": [
-              {
-                "name": "Camo Netting",
-                "pts_delta": 6
-              }
-            ]
-          },
-          {
-            "description": "May take Extra Armour",
-            "choices": [
-              {
-                "name": "Extra Armour",
-                "pts_delta": 5
-              }
-            ]
-          },
-          {
-            "description": "May take Searchlight",
-            "choices": [
-              {
-                "name": "Searchlight",
-                "pts_delta": 1
               }
             ]
           }
@@ -2584,6 +3291,42 @@
             "description": "May take up to 7 more Scyllas for +46 points each Any model may swap Heavy Flamer for H Any model may take one M Any model may take any E one time each The entire unit may take one B",
             "choices": [
               {
+                "name": "Heavy Flamer",
+                "pts_delta": 0
+              },
+              {
+                "name": "Multilaser",
+                "pts_delta": 1
+              },
+              {
+                "name": "Autocannon",
+                "pts_delta": 3
+              },
+              {
+                "name": "Lascannon",
+                "pts_delta": 7
+              },
+              {
+                "name": "Hunter Killer Missile",
+                "pts_delta": 5
+              },
+              {
+                "name": "Augar Array",
+                "pts_delta": 5
+              },
+              {
+                "name": "Camo Netting",
+                "pts_delta": 6
+              },
+              {
+                "name": "Extra Armour",
+                "pts_delta": 5
+              },
+              {
+                "name": "Searchlight",
+                "pts_delta": 1
+              },
+              {
                 "name": "Mark of Khorne",
                 "pts_delta": 8
               },
@@ -2598,42 +3341,6 @@
               {
                 "name": "Mark of Tzeentch",
                 "pts_delta": 12
-              }
-            ]
-          },
-          {
-            "description": "May take Augar Array",
-            "choices": [
-              {
-                "name": "Augar Array",
-                "pts_delta": 5
-              }
-            ]
-          },
-          {
-            "description": "May take Camo Netting",
-            "choices": [
-              {
-                "name": "Camo Netting",
-                "pts_delta": 6
-              }
-            ]
-          },
-          {
-            "description": "May take Extra Armour",
-            "choices": [
-              {
-                "name": "Extra Armour",
-                "pts_delta": 5
-              }
-            ]
-          },
-          {
-            "description": "May take Searchlight",
-            "choices": [
-              {
-                "name": "Searchlight",
-                "pts_delta": 1
               }
             ]
           }
@@ -2703,6 +3410,46 @@
             "description": "May take up to 7 more Siegfrieds for +46 points each Any model may swap Heavy Flamer for T Any model may take one M Any model may take any E one time each The entire unit may take one B",
             "choices": [
               {
+                "name": "Heavy Flamer",
+                "pts_delta": 0
+              },
+              {
+                "name": "Multilaser",
+                "pts_delta": 2
+              },
+              {
+                "name": "Autocannon",
+                "pts_delta": 6
+              },
+              {
+                "name": "Lascannon",
+                "pts_delta": 14
+              },
+              {
+                "name": "Hunter Killer Missile",
+                "pts_delta": 5
+              },
+              {
+                "name": "Support",
+                "pts_delta": 0
+              },
+              {
+                "name": "Augar Array",
+                "pts_delta": 5
+              },
+              {
+                "name": "Camo Netting",
+                "pts_delta": 6
+              },
+              {
+                "name": "Extra Armour",
+                "pts_delta": 5
+              },
+              {
+                "name": "Searchlight",
+                "pts_delta": 1
+              },
+              {
                 "name": "Mark of Khorne",
                 "pts_delta": 8
               },
@@ -2717,42 +3464,6 @@
               {
                 "name": "Mark of Tzeentch",
                 "pts_delta": 12
-              }
-            ]
-          },
-          {
-            "description": "May take Augar Array",
-            "choices": [
-              {
-                "name": "Augar Array",
-                "pts_delta": 5
-              }
-            ]
-          },
-          {
-            "description": "May take Camo Netting",
-            "choices": [
-              {
-                "name": "Camo Netting",
-                "pts_delta": 6
-              }
-            ]
-          },
-          {
-            "description": "May take Extra Armour",
-            "choices": [
-              {
-                "name": "Extra Armour",
-                "pts_delta": 5
-              }
-            ]
-          },
-          {
-            "description": "May take Searchlight",
-            "choices": [
-              {
-                "name": "Searchlight",
-                "pts_delta": 1
               }
             ]
           }
@@ -2804,6 +3515,22 @@
             "description": "May take up to two more Carnodons for +123 points each Any Carnodon may swap Volkite Culverin for T Any Carnodon may swap 2 Heavy Flamers for S Any Carnodon may take one P Any Carnodon may take one D Any Carnodon may take one M Any Carnodon may take any E one time each The entire unit may take one B",
             "choices": [
               {
+                "name": "Augar Array",
+                "pts_delta": 5
+              },
+              {
+                "name": "Camo Netting",
+                "pts_delta": 6
+              },
+              {
+                "name": "Extra Armour",
+                "pts_delta": 5
+              },
+              {
+                "name": "Searchlight",
+                "pts_delta": 1
+              },
+              {
                 "name": "Mark of Khorne",
                 "pts_delta": 8
               },
@@ -2818,42 +3545,6 @@
               {
                 "name": "Mark of Tzeentch",
                 "pts_delta": 12
-              }
-            ]
-          },
-          {
-            "description": "May take Augar Array",
-            "choices": [
-              {
-                "name": "Augar Array",
-                "pts_delta": 5
-              }
-            ]
-          },
-          {
-            "description": "May take Camo Netting",
-            "choices": [
-              {
-                "name": "Camo Netting",
-                "pts_delta": 6
-              }
-            ]
-          },
-          {
-            "description": "May take Extra Armour",
-            "choices": [
-              {
-                "name": "Extra Armour",
-                "pts_delta": 5
-              }
-            ]
-          },
-          {
-            "description": "May take Searchlight",
-            "choices": [
-              {
-                "name": "Searchlight",
-                "pts_delta": 1
               }
             ]
           }
@@ -2898,6 +3589,50 @@
             "description": "May take up to 2 more Destroyers for +142 points each Any Destroyer may swap Heavy Laser Destroyer Array for H Any Destroyer may take one M Any Destroyer may take one P Any Destroyer may take one D Any Destroyer may take any E one time each The entire unit may take one B",
             "choices": [
               {
+                "name": "Heavy Laser Destroyer",
+                "pts_delta": 0
+              },
+              {
+                "name": "Demolisher Cannon",
+                "pts_delta": 22
+              },
+              {
+                "name": "Hunter Killer Missile",
+                "pts_delta": 5
+              },
+              {
+                "name": "Stormbolter",
+                "pts_delta": 5
+              },
+              {
+                "name": "Light Stubber",
+                "pts_delta": 9
+              },
+              {
+                "name": "Heavy Stubber",
+                "pts_delta": 11
+              },
+              {
+                "name": "Dozerblade",
+                "pts_delta": 9
+              },
+              {
+                "name": "Augar Array",
+                "pts_delta": 5
+              },
+              {
+                "name": "Camo Netting",
+                "pts_delta": 6
+              },
+              {
+                "name": "Extra Armour",
+                "pts_delta": 5
+              },
+              {
+                "name": "Searchlight",
+                "pts_delta": 1
+              },
+              {
                 "name": "Mark of Khorne",
                 "pts_delta": 8
               },
@@ -2912,42 +3647,6 @@
               {
                 "name": "Mark of Tzeentch",
                 "pts_delta": 12
-              }
-            ]
-          },
-          {
-            "description": "May take Augar Array",
-            "choices": [
-              {
-                "name": "Augar Array",
-                "pts_delta": 5
-              }
-            ]
-          },
-          {
-            "description": "May take Camo Netting",
-            "choices": [
-              {
-                "name": "Camo Netting",
-                "pts_delta": 6
-              }
-            ]
-          },
-          {
-            "description": "May take Extra Armour",
-            "choices": [
-              {
-                "name": "Extra Armour",
-                "pts_delta": 5
-              }
-            ]
-          },
-          {
-            "description": "May take Searchlight",
-            "choices": [
-              {
-                "name": "Searchlight",
-                "pts_delta": 1
               }
             ]
           }
@@ -2993,6 +3692,86 @@
             "description": "May take up to two more Leman Russ Tanks for +151 points each Any Leman Russ may swap Nova Eradicator Cannon for T Any Leman Russ may swap Heavy Flamer H for H Any Leman Russ may take a set of S Any Leman Russ may take one P Any Leman Russ may take one D Any Leman Russ may take one M Any Leman Russ may take any E one time each The entire unit may take one B",
             "choices": [
               {
+                "name": "Nova Eradicator Cannon",
+                "pts_delta": 0
+              },
+              {
+                "name": "Executioner Plasma",
+                "pts_delta": 4
+              },
+              {
+                "name": "Vanquisher Battle Lascannons Exterminator Autocannons",
+                "pts_delta": 9
+              },
+              {
+                "name": "Punisher Gatling Gun",
+                "pts_delta": 33
+              },
+              {
+                "name": "Conqueror Battle and",
+                "pts_delta": 39
+              },
+              {
+                "name": "Battle Cannon",
+                "pts_delta": 45
+              },
+              {
+                "name": "Demolisher Cannon",
+                "pts_delta": 57
+              },
+              {
+                "name": "Long Vanquisher Cannon Stormbolter",
+                "pts_delta": 60
+              },
+              {
+                "name": "Heavy Flamer",
+                "pts_delta": 0
+              },
+              {
+                "name": "Heavy Bolter",
+                "pts_delta": 1
+              },
+              {
+                "name": "Lascannon Cannons",
+                "pts_delta": 7
+              },
+              {
+                "name": "Stormbolter",
+                "pts_delta": 5
+              },
+              {
+                "name": "Light Stubber",
+                "pts_delta": 9
+              },
+              {
+                "name": "Heavy Stubber",
+                "pts_delta": 11
+              },
+              {
+                "name": "Dozerblade",
+                "pts_delta": 9
+              },
+              {
+                "name": "Hunter Killer Missile",
+                "pts_delta": 5
+              },
+              {
+                "name": "Augar Array",
+                "pts_delta": 5
+              },
+              {
+                "name": "Camo Netting",
+                "pts_delta": 6
+              },
+              {
+                "name": "Extra Armour",
+                "pts_delta": 5
+              },
+              {
+                "name": "Searchlight",
+                "pts_delta": 1
+              },
+              {
                 "name": "Mark of Khorne",
                 "pts_delta": 8
               },
@@ -3007,42 +3786,6 @@
               {
                 "name": "Mark of Tzeentch",
                 "pts_delta": 12
-              }
-            ]
-          },
-          {
-            "description": "May take Augar Array",
-            "choices": [
-              {
-                "name": "Augar Array",
-                "pts_delta": 5
-              }
-            ]
-          },
-          {
-            "description": "May take Camo Netting",
-            "choices": [
-              {
-                "name": "Camo Netting",
-                "pts_delta": 6
-              }
-            ]
-          },
-          {
-            "description": "May take Extra Armour",
-            "choices": [
-              {
-                "name": "Extra Armour",
-                "pts_delta": 5
-              }
-            ]
-          },
-          {
-            "description": "May take Searchlight",
-            "choices": [
-              {
-                "name": "Searchlight",
-                "pts_delta": 1
               }
             ]
           }
@@ -3088,15 +3831,58 @@
         "options": [
           {
             "description": "May swap 2 Linked Lascannons for T",
-            "choices": []
+            "choices": [
+              {
+                "name": "Heavy Bolter Pill Box",
+                "pts_delta": 9
+              },
+              {
+                "name": "Battle Cannon",
+                "pts_delta": 26
+              }
+            ]
           },
           {
             "description": "May swap Heavy Flamers for H Malcador may swap 2 Heavy Flamers for S",
-            "choices": []
+            "choices": [
+              {
+                "name": "Heavy Bolter",
+                "pts_delta": 0
+              },
+              {
+                "name": "Lascannon",
+                "pts_delta": 7
+              },
+              {
+                "name": "Demolisher Cannon Stubbers",
+                "pts_delta": 15
+              }
+            ]
           },
           {
             "description": "May take one P",
-            "choices": []
+            "choices": [
+              {
+                "name": "Stormbolter",
+                "pts_delta": 5
+              },
+              {
+                "name": "Light Stubber",
+                "pts_delta": 9
+              },
+              {
+                "name": "Heavy Flamer",
+                "pts_delta": 11
+              },
+              {
+                "name": "Heavy Stubber",
+                "pts_delta": 11
+              },
+              {
+                "name": "Multilaser",
+                "pts_delta": 13
+              }
+            ]
           },
           {
             "description": "May take one D",
@@ -3104,11 +3890,33 @@
           },
           {
             "description": "May take one M",
-            "choices": []
+            "choices": [
+              {
+                "name": "Hunter Killer Missile",
+                "pts_delta": 5
+              }
+            ]
           },
           {
             "description": "May take any E one time each",
-            "choices": []
+            "choices": [
+              {
+                "name": "Augar Array",
+                "pts_delta": 5
+              },
+              {
+                "name": "Camo Netting",
+                "pts_delta": 6
+              },
+              {
+                "name": "Extra Armour",
+                "pts_delta": 5
+              },
+              {
+                "name": "Searchlight",
+                "pts_delta": 1
+              }
+            ]
           },
           {
             "description": "May take one B",
@@ -3128,42 +3936,6 @@
               {
                 "name": "Mark of Tzeentch",
                 "pts_delta": 12
-              }
-            ]
-          },
-          {
-            "description": "May take Augar Array",
-            "choices": [
-              {
-                "name": "Augar Array",
-                "pts_delta": 5
-              }
-            ]
-          },
-          {
-            "description": "May take Camo Netting",
-            "choices": [
-              {
-                "name": "Camo Netting",
-                "pts_delta": 6
-              }
-            ]
-          },
-          {
-            "description": "May take Extra Armour",
-            "choices": [
-              {
-                "name": "Extra Armour",
-                "pts_delta": 5
-              }
-            ]
-          },
-          {
-            "description": "May take Searchlight",
-            "choices": [
-              {
-                "name": "Searchlight",
-                "pts_delta": 1
               }
             ]
           }
@@ -3207,7 +3979,12 @@
         "options": [
           {
             "description": "May swap Neutron Laser Projector for H",
-            "choices": []
+            "choices": [
+              {
+                "name": "Neutron Laser Projector Infernus Cannons Stubbers",
+                "pts_delta": 0
+              }
+            ]
           },
           {
             "description": "May swap 2 Heavy Flamers for S",
@@ -3215,7 +3992,28 @@
           },
           {
             "description": "May take one P",
-            "choices": []
+            "choices": [
+              {
+                "name": "Stormbolter",
+                "pts_delta": 5
+              },
+              {
+                "name": "Light Stubber",
+                "pts_delta": 9
+              },
+              {
+                "name": "Heavy Flamer",
+                "pts_delta": 11
+              },
+              {
+                "name": "Heavy Stubber",
+                "pts_delta": 11
+              },
+              {
+                "name": "Multilaser",
+                "pts_delta": 13
+              }
+            ]
           },
           {
             "description": "May take one D",
@@ -3223,11 +4021,33 @@
           },
           {
             "description": "May take one M",
-            "choices": []
+            "choices": [
+              {
+                "name": "Hunter Killer Missile",
+                "pts_delta": 5
+              }
+            ]
           },
           {
             "description": "May take any E one time each",
-            "choices": []
+            "choices": [
+              {
+                "name": "Augar Array",
+                "pts_delta": 5
+              },
+              {
+                "name": "Camo Netting",
+                "pts_delta": 6
+              },
+              {
+                "name": "Extra Armour",
+                "pts_delta": 5
+              },
+              {
+                "name": "Searchlight",
+                "pts_delta": 1
+              }
+            ]
           },
           {
             "description": "May take one B",
@@ -3247,42 +4067,6 @@
               {
                 "name": "Mark of Tzeentch",
                 "pts_delta": 12
-              }
-            ]
-          },
-          {
-            "description": "May take Augar Array",
-            "choices": [
-              {
-                "name": "Augar Array",
-                "pts_delta": 5
-              }
-            ]
-          },
-          {
-            "description": "May take Camo Netting",
-            "choices": [
-              {
-                "name": "Camo Netting",
-                "pts_delta": 6
-              }
-            ]
-          },
-          {
-            "description": "May take Extra Armour",
-            "choices": [
-              {
-                "name": "Extra Armour",
-                "pts_delta": 5
-              }
-            ]
-          },
-          {
-            "description": "May take Searchlight",
-            "choices": [
-              {
-                "name": "Searchlight",
-                "pts_delta": 1
               }
             ]
           }
@@ -3335,6 +4119,22 @@
             "description": "May take up to two more Mars Alpha Leman Russ Tanks for +165 points each Any Mars Alpha Leman Russ may swap Nova Eradicator Cannon for T Any Mars Alpha Leman Russ may swap Heavy Flamer H for H Any Mars Alpha Leman Russ may take a set of S Any Mars Alpha Leman Russ may take one P Any Mars Alpha Leman Russ may take one M Any Mars Alpha Leman Russ may take any E one time each The entire unit may take one B",
             "choices": [
               {
+                "name": "Augar Array",
+                "pts_delta": 5
+              },
+              {
+                "name": "Camo Netting",
+                "pts_delta": 6
+              },
+              {
+                "name": "Extra Armour",
+                "pts_delta": 5
+              },
+              {
+                "name": "Searchlight",
+                "pts_delta": 1
+              },
+              {
                 "name": "Mark of Khorne",
                 "pts_delta": 8
               },
@@ -3349,42 +4149,6 @@
               {
                 "name": "Mark of Tzeentch",
                 "pts_delta": 12
-              }
-            ]
-          },
-          {
-            "description": "May take Augar Array",
-            "choices": [
-              {
-                "name": "Augar Array",
-                "pts_delta": 5
-              }
-            ]
-          },
-          {
-            "description": "May take Camo Netting",
-            "choices": [
-              {
-                "name": "Camo Netting",
-                "pts_delta": 6
-              }
-            ]
-          },
-          {
-            "description": "May take Extra Armour",
-            "choices": [
-              {
-                "name": "Extra Armour",
-                "pts_delta": 5
-              }
-            ]
-          },
-          {
-            "description": "May take Searchlight",
-            "choices": [
-              {
-                "name": "Searchlight",
-                "pts_delta": 1
               }
             ]
           }
@@ -3431,6 +4195,86 @@
             "description": "May take up to two more Ragnoraks for +188 points each Any Leman Russ may swap Nova Eradicator Cannon for T Any Ragnorak may swap Heavy Flamer H for H Any Ragnorak may swap 2 Heavy Flamers for S Any Ragnorak may take one P Any Ragnorak may take one D Any Ragnorak may take one M Any Ragnorak may take any E one time each The entire unit may take one B",
             "choices": [
               {
+                "name": "Nova Eradicator Cannon",
+                "pts_delta": 0
+              },
+              {
+                "name": "Executioner Plasma",
+                "pts_delta": 4
+              },
+              {
+                "name": "Vanquisher Battle Lascannons Exterminator Autocannons",
+                "pts_delta": 9
+              },
+              {
+                "name": "Punisher Gatling Gun",
+                "pts_delta": 33
+              },
+              {
+                "name": "Conqueror Battle and",
+                "pts_delta": 39
+              },
+              {
+                "name": "Battle Cannon",
+                "pts_delta": 45
+              },
+              {
+                "name": "Demolisher Cannon",
+                "pts_delta": 57
+              },
+              {
+                "name": "Long Vanquisher Cannon Stormbolter",
+                "pts_delta": 60
+              },
+              {
+                "name": "Heavy Flamer",
+                "pts_delta": 0
+              },
+              {
+                "name": "Heavy Bolter",
+                "pts_delta": 1
+              },
+              {
+                "name": "Lascannon Cannons",
+                "pts_delta": 7
+              },
+              {
+                "name": "Stormbolter",
+                "pts_delta": 5
+              },
+              {
+                "name": "Light Stubber",
+                "pts_delta": 9
+              },
+              {
+                "name": "Heavy Stubber",
+                "pts_delta": 11
+              },
+              {
+                "name": "Dozerblade",
+                "pts_delta": 9
+              },
+              {
+                "name": "Hunter Killer Missile",
+                "pts_delta": 5
+              },
+              {
+                "name": "Augar Array",
+                "pts_delta": 5
+              },
+              {
+                "name": "Camo Netting",
+                "pts_delta": 6
+              },
+              {
+                "name": "Extra Armour",
+                "pts_delta": 5
+              },
+              {
+                "name": "Searchlight",
+                "pts_delta": 1
+              },
+              {
                 "name": "Mark of Khorne",
                 "pts_delta": 8
               },
@@ -3445,42 +4289,6 @@
               {
                 "name": "Mark of Tzeentch",
                 "pts_delta": 12
-              }
-            ]
-          },
-          {
-            "description": "May take Augar Array",
-            "choices": [
-              {
-                "name": "Augar Array",
-                "pts_delta": 5
-              }
-            ]
-          },
-          {
-            "description": "May take Camo Netting",
-            "choices": [
-              {
-                "name": "Camo Netting",
-                "pts_delta": 6
-              }
-            ]
-          },
-          {
-            "description": "May take Extra Armour",
-            "choices": [
-              {
-                "name": "Extra Armour",
-                "pts_delta": 5
-              }
-            ]
-          },
-          {
-            "description": "May take Searchlight",
-            "choices": [
-              {
-                "name": "Searchlight",
-                "pts_delta": 1
               }
             ]
           }
@@ -3525,11 +4333,33 @@
         "options": [
           {
             "description": "May swap Oppressor Cannon and Autocannon for T",
-            "choices": []
+            "choices": [
+              {
+                "name": "Oppressor Cannon and Autocannon",
+                "pts_delta": 0
+              },
+              {
+                "name": "Earthshaker Cannon Cannons",
+                "pts_delta": 59
+              }
+            ]
           },
           {
             "description": "May swap Castigator Gatling Cannon for H1",
-            "choices": []
+            "choices": [
+              {
+                "name": "Castigator Gatling",
+                "pts_delta": 0
+              },
+              {
+                "name": "Pulveriser Cannon",
+                "pts_delta": 6
+              },
+              {
+                "name": "Demolisher Cannon Stubbers Meltaguns Linked Lascannons",
+                "pts_delta": 32
+              }
+            ]
           },
           {
             "description": "May take one H2",
@@ -3541,7 +4371,20 @@
           },
           {
             "description": "May take one P",
-            "choices": []
+            "choices": [
+              {
+                "name": "Stormbolter",
+                "pts_delta": 5
+              },
+              {
+                "name": "Light Stubber",
+                "pts_delta": 9
+              },
+              {
+                "name": "Heavy Stubber Missile",
+                "pts_delta": 11
+              }
+            ]
           },
           {
             "description": "May take one D",
@@ -3605,6 +4448,22 @@
             "description": "May take up to two more Colossus Siege Mortars for +156 points each Any Colossus may take one H Any Colossus may take one P Any Colossus may take one D Any Colossus may take one M Any Colossus may take any E one time each The entire unit may take one B",
             "choices": [
               {
+                "name": "Augar Array",
+                "pts_delta": 5
+              },
+              {
+                "name": "Camo Netting",
+                "pts_delta": 6
+              },
+              {
+                "name": "Extra Armour",
+                "pts_delta": 5
+              },
+              {
+                "name": "Searchlight",
+                "pts_delta": 1
+              },
+              {
                 "name": "Mark of Khorne",
                 "pts_delta": 8
               },
@@ -3619,42 +4478,6 @@
               {
                 "name": "Mark of Tzeentch",
                 "pts_delta": 12
-              }
-            ]
-          },
-          {
-            "description": "May take Augar Array",
-            "choices": [
-              {
-                "name": "Augar Array",
-                "pts_delta": 5
-              }
-            ]
-          },
-          {
-            "description": "May take Camo Netting",
-            "choices": [
-              {
-                "name": "Camo Netting",
-                "pts_delta": 6
-              }
-            ]
-          },
-          {
-            "description": "May take Extra Armour",
-            "choices": [
-              {
-                "name": "Extra Armour",
-                "pts_delta": 5
-              }
-            ]
-          },
-          {
-            "description": "May take Searchlight",
-            "choices": [
-              {
-                "name": "Searchlight",
-                "pts_delta": 1
               }
             ]
           }
@@ -3703,23 +4526,71 @@
           },
           {
             "description": "may swap Heavy Flamer for H Any Deathstrike Missile Carrier",
-            "choices": []
+            "choices": [
+              {
+                "name": "Heavy Flamer",
+                "pts_delta": 0
+              },
+              {
+                "name": "Heavy Bolter",
+                "pts_delta": 1
+              }
+            ]
           },
           {
             "description": "may take one D Any Deathstrike Missile Carrier",
-            "choices": []
+            "choices": [
+              {
+                "name": "Dozerblade",
+                "pts_delta": 9
+              }
+            ]
           },
           {
             "description": "may take one P Any Deathstrike Missile Carrier",
-            "choices": []
+            "choices": [
+              {
+                "name": "Stormbolter",
+                "pts_delta": 5
+              },
+              {
+                "name": "Light Stubber",
+                "pts_delta": 9
+              },
+              {
+                "name": "Heavy Stubber",
+                "pts_delta": 11
+              }
+            ]
           },
           {
             "description": "may take one M Any Deathstrike Missile Carrier",
-            "choices": []
+            "choices": [
+              {
+                "name": "Hunter Killer Missile",
+                "pts_delta": 5
+              }
+            ]
           },
           {
             "description": "may take any E one time each The entire unit may take one B",
             "choices": [
+              {
+                "name": "Augar Array",
+                "pts_delta": 5
+              },
+              {
+                "name": "Camo Netting",
+                "pts_delta": 6
+              },
+              {
+                "name": "Extra Armour",
+                "pts_delta": 5
+              },
+              {
+                "name": "Searchlight",
+                "pts_delta": 1
+              },
               {
                 "name": "Mark of Khorne",
                 "pts_delta": 8
@@ -3735,42 +4606,6 @@
               {
                 "name": "Mark of Tzeentch",
                 "pts_delta": 12
-              }
-            ]
-          },
-          {
-            "description": "May take Augar Array",
-            "choices": [
-              {
-                "name": "Augar Array",
-                "pts_delta": 5
-              }
-            ]
-          },
-          {
-            "description": "May take Camo Netting",
-            "choices": [
-              {
-                "name": "Camo Netting",
-                "pts_delta": 6
-              }
-            ]
-          },
-          {
-            "description": "May take Extra Armour",
-            "choices": [
-              {
-                "name": "Extra Armour",
-                "pts_delta": 5
-              }
-            ]
-          },
-          {
-            "description": "May take Searchlight",
-            "choices": [
-              {
-                "name": "Searchlight",
-                "pts_delta": 1
               }
             ]
           }
@@ -3815,6 +4650,50 @@
             "description": "May take up to 2 more Manticore Carriers for +172 points each Any Manticore Carrier may swap Heavy Flamer for H Any Manticore Carrier may take one D Any Manticore Carrier may take one P Any Manticore Carrier may take one M Any Manticore Carrier may take any E one time each The entire unit may take one B",
             "choices": [
               {
+                "name": "Heavy Flamer",
+                "pts_delta": 0
+              },
+              {
+                "name": "Heavy Bolter",
+                "pts_delta": 1
+              },
+              {
+                "name": "Stormbolter",
+                "pts_delta": 5
+              },
+              {
+                "name": "Light Stubber",
+                "pts_delta": 9
+              },
+              {
+                "name": "Heavy Stubber",
+                "pts_delta": 11
+              },
+              {
+                "name": "Dozerblade",
+                "pts_delta": 9
+              },
+              {
+                "name": "Hunter Killer Missile",
+                "pts_delta": 5
+              },
+              {
+                "name": "Augar Array",
+                "pts_delta": 5
+              },
+              {
+                "name": "Camo Netting",
+                "pts_delta": 6
+              },
+              {
+                "name": "Extra Armour",
+                "pts_delta": 5
+              },
+              {
+                "name": "Searchlight",
+                "pts_delta": 1
+              },
+              {
                 "name": "Mark of Khorne",
                 "pts_delta": 8
               },
@@ -3829,42 +4708,6 @@
               {
                 "name": "Mark of Tzeentch",
                 "pts_delta": 12
-              }
-            ]
-          },
-          {
-            "description": "May take Augar Array",
-            "choices": [
-              {
-                "name": "Augar Array",
-                "pts_delta": 5
-              }
-            ]
-          },
-          {
-            "description": "May take Camo Netting",
-            "choices": [
-              {
-                "name": "Camo Netting",
-                "pts_delta": 6
-              }
-            ]
-          },
-          {
-            "description": "May take Extra Armour",
-            "choices": [
-              {
-                "name": "Extra Armour",
-                "pts_delta": 5
-              }
-            ]
-          },
-          {
-            "description": "May take Searchlight",
-            "choices": [
-              {
-                "name": "Searchlight",
-                "pts_delta": 1
               }
             ]
           }
@@ -3911,6 +4754,50 @@
             "description": "May take up to 2 more SelfPropelled Guns for +76 points each Any Self-Propelled Gun may swap Heavy Flamer for H Any Self-Propelled Gun may take one D Any Self-Propelled Gun may take one P Any Self-Propelled Gun may take one M Any Self-Propelled Gun may take any E one time each The entire unit may take one B",
             "choices": [
               {
+                "name": "Heavy Flamer",
+                "pts_delta": 0
+              },
+              {
+                "name": "Heavy Bolter",
+                "pts_delta": 1
+              },
+              {
+                "name": "Stormbolter",
+                "pts_delta": 5
+              },
+              {
+                "name": "Light Stubber",
+                "pts_delta": 9
+              },
+              {
+                "name": "Heavy Stubber",
+                "pts_delta": 11
+              },
+              {
+                "name": "Dozerblade",
+                "pts_delta": 9
+              },
+              {
+                "name": "Hunter Killer Missile",
+                "pts_delta": 5
+              },
+              {
+                "name": "Augar Array",
+                "pts_delta": 5
+              },
+              {
+                "name": "Camo Netting",
+                "pts_delta": 6
+              },
+              {
+                "name": "Extra Armour",
+                "pts_delta": 5
+              },
+              {
+                "name": "Searchlight",
+                "pts_delta": 1
+              },
+              {
                 "name": "Mark of Khorne",
                 "pts_delta": 8
               },
@@ -3925,42 +4812,6 @@
               {
                 "name": "Mark of Tzeentch",
                 "pts_delta": 12
-              }
-            ]
-          },
-          {
-            "description": "May take Augar Array",
-            "choices": [
-              {
-                "name": "Augar Array",
-                "pts_delta": 5
-              }
-            ]
-          },
-          {
-            "description": "May take Camo Netting",
-            "choices": [
-              {
-                "name": "Camo Netting",
-                "pts_delta": 6
-              }
-            ]
-          },
-          {
-            "description": "May take Extra Armour",
-            "choices": [
-              {
-                "name": "Extra Armour",
-                "pts_delta": 5
-              }
-            ]
-          },
-          {
-            "description": "May take Searchlight",
-            "choices": [
-              {
-                "name": "Searchlight",
-                "pts_delta": 1
               }
             ]
           }
@@ -3993,6 +4844,10 @@
             "description": "May take up to 2 more Platforms for +121 points each Any model may take up to one of each E The entire unit may take one B",
             "choices": [
               {
+                "name": "Camo Netting",
+                "pts_delta": 6
+              },
+              {
                 "name": "Mark of Khorne",
                 "pts_delta": 6
               },
@@ -4007,15 +4862,6 @@
               {
                 "name": "Mark of Tzeentch",
                 "pts_delta": 12
-              }
-            ]
-          },
-          {
-            "description": "May take Camo Netting",
-            "choices": [
-              {
-                "name": "Camo Netting",
-                "pts_delta": 6
               }
             ]
           }
@@ -4060,6 +4906,18 @@
             "description": "May add up to 2 more Heavy Artillery pieces for +227 points each Any model may swap Earthshaker Cannon for H Any model may take up to one of each E The entire unit may take one B",
             "choices": [
               {
+                "name": "Earthshaker Cannon",
+                "pts_delta": 0
+              },
+              {
+                "name": "Medusa Siege Cannon",
+                "pts_delta": 48
+              },
+              {
+                "name": "Camo Netting",
+                "pts_delta": 6
+              },
+              {
                 "name": "Mark of Khorne",
                 "pts_delta": 6
               },
@@ -4074,15 +4932,6 @@
               {
                 "name": "Mark of Tzeentch",
                 "pts_delta": 12
-              }
-            ]
-          },
-          {
-            "description": "May take Camo Netting",
-            "choices": [
-              {
-                "name": "Camo Netting",
-                "pts_delta": 6
               }
             ]
           }
@@ -4113,6 +4962,10 @@
             "description": "May take up to 2 more Platforms for +88 points each Any model may take up to one of each E The entire unit may take one B",
             "choices": [
               {
+                "name": "Camo Netting",
+                "pts_delta": 6
+              },
+              {
                 "name": "Mark of Khorne",
                 "pts_delta": 6
               },
@@ -4127,15 +4980,6 @@
               {
                 "name": "Mark of Tzeentch",
                 "pts_delta": 12
-              }
-            ]
-          },
-          {
-            "description": "May take Camo Netting",
-            "choices": [
-              {
-                "name": "Camo Netting",
-                "pts_delta": 6
               }
             ]
           }
@@ -4165,16 +5009,11 @@
             "description": "May take up to 2 more Platforms for +198 points each Any model may take up to one of each E The entire unit may take one B",
             "choices": [
               {
-                "name": "Mark of Khorne",
-                "pts_delta": 6
-              }
-            ]
-          },
-          {
-            "description": "May take Camo Netting",
-            "choices": [
-              {
                 "name": "Camo Netting",
+                "pts_delta": 6
+              },
+              {
+                "name": "Mark of Khorne",
                 "pts_delta": 6
               }
             ]
@@ -4339,7 +5178,20 @@
         "options": [
           {
             "description": "May swap Heavy Bolter for H",
-            "choices": []
+            "choices": [
+              {
+                "name": "Heavy Bolter",
+                "pts_delta": 0
+              },
+              {
+                "name": "Multilaser",
+                "pts_delta": 0
+              },
+              {
+                "name": "Autocannon",
+                "pts_delta": 4
+              }
+            ]
           },
           {
             "description": "May take up to one E each",
@@ -4699,6 +5551,14 @@
             "description": "May take up to 2 more Valkyries for +209 points each Any Valkyrie may swap Multilaser for H Any Valkyrie may take S Any Valkyrie may swap 2 Linked Hellstrike Missiles for W Any Valkyrie may take up to one E each The entire unit may take one B",
             "choices": [
               {
+                "name": "Multilaser",
+                "pts_delta": 0
+              },
+              {
+                "name": "Lascannon Lascannons Bolters Hellstrike Missiles Missiles Multiple Pods Lascannons",
+                "pts_delta": 6
+              },
+              {
                 "name": "Chaff Launcher",
                 "pts_delta": 9
               },
@@ -4764,6 +5624,14 @@
           {
             "description": "May take up to 2 more Valkyrie Sky Talons for +181 points each Any Valkyrie Sky Talon may swap Multilaser for H Any Valkyrie Sky Talon may swap 2 Linked Hellstrike Missiles for W Any Valkyrie Sky Talon may take up to one E each The entire unit may take one B",
             "choices": [
+              {
+                "name": "Multilaser",
+                "pts_delta": 0
+              },
+              {
+                "name": "Lascannon Hellstrike Missiles Missiles Multiple Pods",
+                "pts_delta": 6
+              },
               {
                 "name": "Chaff Launcher",
                 "pts_delta": 9
@@ -4960,23 +5828,60 @@
         "options": [
           {
             "description": "May take one H",
-            "choices": []
+            "choices": [
+              {
+                "name": "Heavy Stubber",
+                "pts_delta": 5
+              }
+            ]
           },
           {
             "description": "May take one D",
-            "choices": []
+            "choices": [
+              {
+                "name": "Dozerblade",
+                "pts_delta": 9
+              }
+            ]
           },
           {
             "description": "May take one P",
-            "choices": []
+            "choices": [
+              {
+                "name": "Heavy Stubber",
+                "pts_delta": 0
+              }
+            ]
           },
           {
             "description": "May take one M",
-            "choices": []
+            "choices": [
+              {
+                "name": "Hunter Killer Missile",
+                "pts_delta": 5
+              }
+            ]
           },
           {
             "description": "May take any E one time each",
-            "choices": []
+            "choices": [
+              {
+                "name": "Augar Array",
+                "pts_delta": 5
+              },
+              {
+                "name": "Camo Netting",
+                "pts_delta": 6
+              },
+              {
+                "name": "Extra Armour",
+                "pts_delta": 5
+              },
+              {
+                "name": "Searchlight",
+                "pts_delta": 1
+              }
+            ]
           },
           {
             "description": "May take one B",
@@ -4996,42 +5901,6 @@
               {
                 "name": "Mark of Tzeentch",
                 "pts_delta": 12
-              }
-            ]
-          },
-          {
-            "description": "May take Augar Array",
-            "choices": [
-              {
-                "name": "Augar Array",
-                "pts_delta": 5
-              }
-            ]
-          },
-          {
-            "description": "May take Camo Netting",
-            "choices": [
-              {
-                "name": "Camo Netting",
-                "pts_delta": 6
-              }
-            ]
-          },
-          {
-            "description": "May take Extra Armour",
-            "choices": [
-              {
-                "name": "Extra Armour",
-                "pts_delta": 5
-              }
-            ]
-          },
-          {
-            "description": "May take Searchlight",
-            "choices": [
-              {
-                "name": "Searchlight",
-                "pts_delta": 1
               }
             ]
           }
@@ -5078,27 +5947,101 @@
         "options": [
           {
             "description": "May swap Heavy Flamer T for T",
-            "choices": []
+            "choices": [
+              {
+                "name": "Heavy Flamer",
+                "pts_delta": 0
+              },
+              {
+                "name": "Heavy Bolter",
+                "pts_delta": 2
+              },
+              {
+                "name": "Multilaser",
+                "pts_delta": 2
+              },
+              {
+                "name": "Autocannon Bolters",
+                "pts_delta": 4
+              },
+              {
+                "name": "Light Battle Cannon",
+                "pts_delta": 15
+              },
+              {
+                "name": "Chimero Hunter Killer Autocannons",
+                "pts_delta": 24
+              }
+            ]
           },
           {
             "description": "May swap Heavy Flamer H for H",
-            "choices": []
+            "choices": [
+              {
+                "name": "Heavy Flamer",
+                "pts_delta": 0
+              },
+              {
+                "name": "Heavy Bolter",
+                "pts_delta": 1
+              }
+            ]
           },
           {
             "description": "May take one D",
-            "choices": []
+            "choices": [
+              {
+                "name": "Dozerblade",
+                "pts_delta": 9
+              }
+            ]
           },
           {
             "description": "May take one P",
-            "choices": []
+            "choices": [
+              {
+                "name": "Stormbolter",
+                "pts_delta": 5
+              },
+              {
+                "name": "Light Stubber",
+                "pts_delta": 9
+              },
+              {
+                "name": "Heavy Stubber",
+                "pts_delta": 11
+              }
+            ]
           },
           {
             "description": "May take one M",
-            "choices": []
+            "choices": [
+              {
+                "name": "Hunter Killer Missile",
+                "pts_delta": 5
+              }
+            ]
           },
           {
             "description": "May take any E one time each",
-            "choices": []
+            "choices": [
+              {
+                "name": "Augar Array",
+                "pts_delta": 5
+              },
+              {
+                "name": "Camo Netting",
+                "pts_delta": 6
+              },
+              {
+                "name": "Extra Armour",
+                "pts_delta": 5
+              },
+              {
+                "name": "Searchlight",
+                "pts_delta": 1
+              }
+            ]
           },
           {
             "description": "May take one B",
@@ -5118,42 +6061,6 @@
               {
                 "name": "Mark of Tzeentch",
                 "pts_delta": 12
-              }
-            ]
-          },
-          {
-            "description": "May take Augar Array",
-            "choices": [
-              {
-                "name": "Augar Array",
-                "pts_delta": 5
-              }
-            ]
-          },
-          {
-            "description": "May take Camo Netting",
-            "choices": [
-              {
-                "name": "Camo Netting",
-                "pts_delta": 6
-              }
-            ]
-          },
-          {
-            "description": "May take Extra Armour",
-            "choices": [
-              {
-                "name": "Extra Armour",
-                "pts_delta": 5
-              }
-            ]
-          },
-          {
-            "description": "May take Searchlight",
-            "choices": [
-              {
-                "name": "Searchlight",
-                "pts_delta": 1
               }
             ]
           }
@@ -5259,15 +6166,38 @@
         "options": [
           {
             "description": "May take one D",
-            "choices": []
+            "choices": [
+              {
+                "name": "Dozerblade",
+                "pts_delta": 9
+              }
+            ]
           },
           {
             "description": "May take one P",
-            "choices": []
+            "choices": [
+              {
+                "name": "Stormbolter",
+                "pts_delta": 5
+              },
+              {
+                "name": "Light Stubber",
+                "pts_delta": 9
+              },
+              {
+                "name": "Heavy Stubber",
+                "pts_delta": 11
+              }
+            ]
           },
           {
             "description": "May take one M",
-            "choices": []
+            "choices": [
+              {
+                "name": "Hunter Killer Missile",
+                "pts_delta": 5
+              }
+            ]
           },
           {
             "description": "May take one A",
@@ -5301,38 +6231,19 @@
           },
           {
             "description": "May take any E one time each",
-            "choices": []
-          },
-          {
-            "description": "May take Augar Array",
             "choices": [
               {
                 "name": "Augar Array",
                 "pts_delta": 5
-              }
-            ]
-          },
-          {
-            "description": "May take Camo Netting",
-            "choices": [
+              },
               {
                 "name": "Camo Netting",
                 "pts_delta": 6
-              }
-            ]
-          },
-          {
-            "description": "May take Extra Armour",
-            "choices": [
+              },
               {
                 "name": "Extra Armour",
                 "pts_delta": 5
-              }
-            ]
-          },
-          {
-            "description": "May take Searchlight",
-            "choices": [
+              },
               {
                 "name": "Searchlight",
                 "pts_delta": 1
@@ -5379,19 +6290,67 @@
         "options": [
           {
             "description": "May swap Heavy Flamer for T",
-            "choices": []
+            "choices": [
+              {
+                "name": "Heavy Flamer",
+                "pts_delta": 0
+              },
+              {
+                "name": "Heavy Bolter",
+                "pts_delta": 2
+              },
+              {
+                "name": "Multilaser",
+                "pts_delta": 2
+              }
+            ]
           },
           {
             "description": "May take one P",
-            "choices": []
+            "choices": [
+              {
+                "name": "Stormbolter",
+                "pts_delta": 5
+              },
+              {
+                "name": "Light Stubber",
+                "pts_delta": 9
+              },
+              {
+                "name": "Heavy Stubber",
+                "pts_delta": 11
+              }
+            ]
           },
           {
             "description": "May take one M",
-            "choices": []
+            "choices": [
+              {
+                "name": "Hunter Killer Missile",
+                "pts_delta": 5
+              }
+            ]
           },
           {
             "description": "May take any E one time each",
-            "choices": []
+            "choices": [
+              {
+                "name": "Augar Array",
+                "pts_delta": 5
+              },
+              {
+                "name": "Camo Netting",
+                "pts_delta": 6
+              },
+              {
+                "name": "Extra Armour",
+                "pts_delta": 5
+              },
+              {
+                "name": "Searchlight",
+                "pts_delta": 1
+              }
+            ]
           },
           {
             "description": "May take one B",
@@ -5411,42 +6370,6 @@
               {
                 "name": "Mark of Tzeentch",
                 "pts_delta": 12
-              }
-            ]
-          },
-          {
-            "description": "May take Augar Array",
-            "choices": [
-              {
-                "name": "Augar Array",
-                "pts_delta": 5
-              }
-            ]
-          },
-          {
-            "description": "May take Camo Netting",
-            "choices": [
-              {
-                "name": "Camo Netting",
-                "pts_delta": 6
-              }
-            ]
-          },
-          {
-            "description": "May take Extra Armour",
-            "choices": [
-              {
-                "name": "Extra Armour",
-                "pts_delta": 5
-              }
-            ]
-          },
-          {
-            "description": "May take Searchlight",
-            "choices": [
-              {
-                "name": "Searchlight",
-                "pts_delta": 1
               }
             ]
           }
@@ -5490,23 +6413,72 @@
         "options": [
           {
             "description": "May swap Heavy Flamer for H",
-            "choices": []
+            "choices": [
+              {
+                "name": "Heavy Flamer",
+                "pts_delta": 0
+              },
+              {
+                "name": "Heavy Bolter",
+                "pts_delta": 1
+              }
+            ]
           },
           {
             "description": "May take one D",
-            "choices": []
+            "choices": [
+              {
+                "name": "Dozerblade",
+                "pts_delta": 9
+              }
+            ]
           },
           {
             "description": "May take one P",
-            "choices": []
+            "choices": [
+              {
+                "name": "Stormbolter",
+                "pts_delta": 5
+              },
+              {
+                "name": "Light Stubber",
+                "pts_delta": 9
+              },
+              {
+                "name": "Heavy Stubber",
+                "pts_delta": 11
+              }
+            ]
           },
           {
             "description": "May take one M",
-            "choices": []
+            "choices": [
+              {
+                "name": "Hunter Killer Missile",
+                "pts_delta": 5
+              }
+            ]
           },
           {
             "description": "May take any E one time each",
-            "choices": []
+            "choices": [
+              {
+                "name": "Augar Array",
+                "pts_delta": 5
+              },
+              {
+                "name": "Camo Netting",
+                "pts_delta": 6
+              },
+              {
+                "name": "Extra Armour",
+                "pts_delta": 5
+              },
+              {
+                "name": "Searchlight",
+                "pts_delta": 1
+              }
+            ]
           },
           {
             "description": "May take one B",
@@ -5526,42 +6498,6 @@
               {
                 "name": "Mark of Tzeentch",
                 "pts_delta": 12
-              }
-            ]
-          },
-          {
-            "description": "May take Augar Array",
-            "choices": [
-              {
-                "name": "Augar Array",
-                "pts_delta": 5
-              }
-            ]
-          },
-          {
-            "description": "May take Camo Netting",
-            "choices": [
-              {
-                "name": "Camo Netting",
-                "pts_delta": 6
-              }
-            ]
-          },
-          {
-            "description": "May take Extra Armour",
-            "choices": [
-              {
-                "name": "Extra Armour",
-                "pts_delta": 5
-              }
-            ]
-          },
-          {
-            "description": "May take Searchlight",
-            "choices": [
-              {
-                "name": "Searchlight",
-                "pts_delta": 1
               }
             ]
           }
@@ -5605,7 +6541,12 @@
         "options": [
           {
             "description": "May take one T",
-            "choices": []
+            "choices": [
+              {
+                "name": "Light Battle Cannon Launchers Autocannons Gatling Volleyguns Autocannons",
+                "pts_delta": 28
+              }
+            ]
           },
           {
             "description": "May swap 2 Linked Hotshot Volleyguns for H",
@@ -5613,15 +6554,50 @@
           },
           {
             "description": "May take one P",
-            "choices": []
+            "choices": [
+              {
+                "name": "Stormbolter",
+                "pts_delta": 5
+              },
+              {
+                "name": "Light Stubber",
+                "pts_delta": 9
+              },
+              {
+                "name": "Heavy Stubber",
+                "pts_delta": 11
+              }
+            ]
           },
           {
             "description": "May take one M",
-            "choices": []
+            "choices": [
+              {
+                "name": "Hunter Killer Missile",
+                "pts_delta": 5
+              }
+            ]
           },
           {
             "description": "May take any E one time each",
-            "choices": []
+            "choices": [
+              {
+                "name": "Augar Array",
+                "pts_delta": 5
+              },
+              {
+                "name": "Camo Netting",
+                "pts_delta": 6
+              },
+              {
+                "name": "Extra Armour",
+                "pts_delta": 5
+              },
+              {
+                "name": "Searchlight",
+                "pts_delta": 1
+              }
+            ]
           },
           {
             "description": "May take one B",
@@ -5641,42 +6617,6 @@
               {
                 "name": "Mark of Tzeentch",
                 "pts_delta": 12
-              }
-            ]
-          },
-          {
-            "description": "May take Augar Array",
-            "choices": [
-              {
-                "name": "Augar Array",
-                "pts_delta": 5
-              }
-            ]
-          },
-          {
-            "description": "May take Camo Netting",
-            "choices": [
-              {
-                "name": "Camo Netting",
-                "pts_delta": 6
-              }
-            ]
-          },
-          {
-            "description": "May take Extra Armour",
-            "choices": [
-              {
-                "name": "Extra Armour",
-                "pts_delta": 5
-              }
-            ]
-          },
-          {
-            "description": "May take Searchlight",
-            "choices": [
-              {
-                "name": "Searchlight",
-                "pts_delta": 1
               }
             ]
           }
@@ -5723,11 +6663,33 @@
         "options": [
           {
             "description": "May swap either Storm Bolter for H",
-            "choices": []
+            "choices": [
+              {
+                "name": "Storm Bolter",
+                "pts_delta": 0
+              },
+              {
+                "name": "Heavy Flamer Volkite",
+                "pts_delta": 3
+              }
+            ]
           },
           {
             "description": "May take any E one time each",
-            "choices": []
+            "choices": [
+              {
+                "name": "Augar Array",
+                "pts_delta": 5
+              },
+              {
+                "name": "Extra Armour",
+                "pts_delta": 5
+              },
+              {
+                "name": "Recovery Gear",
+                "pts_delta": 2
+              }
+            ]
           },
           {
             "description": "May take one B",
@@ -5747,33 +6709,6 @@
               {
                 "name": "Mark of Tzeentch",
                 "pts_delta": 12
-              }
-            ]
-          },
-          {
-            "description": "May take Augar Array",
-            "choices": [
-              {
-                "name": "Augar Array",
-                "pts_delta": 5
-              }
-            ]
-          },
-          {
-            "description": "May take Extra Armour",
-            "choices": [
-              {
-                "name": "Extra Armour",
-                "pts_delta": 5
-              }
-            ]
-          },
-          {
-            "description": "May take Recovery Gear",
-            "choices": [
-              {
-                "name": "Recovery Gear",
-                "pts_delta": 2
               }
             ]
           }
@@ -5848,11 +6783,29 @@
           },
           {
             "description": "May take one M",
-            "choices": []
+            "choices": [
+              {
+                "name": "Hunter Killer Missile",
+                "pts_delta": 5
+              }
+            ]
           },
           {
             "description": "May take one P",
-            "choices": []
+            "choices": [
+              {
+                "name": "Stormbolter",
+                "pts_delta": 5
+              },
+              {
+                "name": "Light Stubber",
+                "pts_delta": 9
+              },
+              {
+                "name": "Heavy Stubber",
+                "pts_delta": 11
+              }
+            ]
           },
           {
             "description": "May take up to one of each E",
@@ -5932,6 +6885,14 @@
             "description": "May take up to 2 S or one SS",
             "choices": [
               {
+                "name": "Lascannon and Linked Flamers",
+                "pts_delta": 83
+              },
+              {
+                "name": "Lascannon and Linked Bolters",
+                "pts_delta": 87
+              },
+              {
                 "name": "Side Skirts",
                 "pts_delta": 10
               }
@@ -5939,15 +6900,38 @@
           },
           {
             "description": "May take one D",
-            "choices": []
+            "choices": [
+              {
+                "name": "Baneblade Dozerblade",
+                "pts_delta": 27
+              }
+            ]
           },
           {
             "description": "May take one M",
-            "choices": []
+            "choices": [
+              {
+                "name": "Hunter Killer Missile",
+                "pts_delta": 5
+              }
+            ]
           },
           {
             "description": "May take one P",
-            "choices": []
+            "choices": [
+              {
+                "name": "Stormbolter",
+                "pts_delta": 5
+              },
+              {
+                "name": "Light Stubber",
+                "pts_delta": 9
+              },
+              {
+                "name": "Heavy Stubber",
+                "pts_delta": 11
+              }
+            ]
           },
           {
             "description": "May take up to one of each E",
@@ -6027,6 +7011,14 @@
             "description": "May take up to 2 S or one SS",
             "choices": [
               {
+                "name": "Lascannon and Linked Flamers",
+                "pts_delta": 83
+              },
+              {
+                "name": "Lascannon and Linked Bolters",
+                "pts_delta": 87
+              },
+              {
                 "name": "Side Skirts",
                 "pts_delta": 10
               }
@@ -6034,15 +7026,38 @@
           },
           {
             "description": "May take one D",
-            "choices": []
+            "choices": [
+              {
+                "name": "Baneblade Dozerblade",
+                "pts_delta": 27
+              }
+            ]
           },
           {
             "description": "May take one M",
-            "choices": []
+            "choices": [
+              {
+                "name": "Hunter Killer Missile",
+                "pts_delta": 5
+              }
+            ]
           },
           {
             "description": "May take one P",
-            "choices": []
+            "choices": [
+              {
+                "name": "Stormbolter",
+                "pts_delta": 5
+              },
+              {
+                "name": "Light Stubber",
+                "pts_delta": 9
+              },
+              {
+                "name": "Heavy Stubber",
+                "pts_delta": 11
+              }
+            ]
           },
           {
             "description": "May take up to one of each E",
@@ -6231,6 +7246,14 @@
             "description": "May take up to 2 S or one SS",
             "choices": [
               {
+                "name": "Lascannon and Linked Flamers",
+                "pts_delta": 83
+              },
+              {
+                "name": "Lascannon and Linked Bolters",
+                "pts_delta": 87
+              },
+              {
                 "name": "Side Skirts",
                 "pts_delta": 10
               }
@@ -6238,15 +7261,38 @@
           },
           {
             "description": "May take one D",
-            "choices": []
+            "choices": [
+              {
+                "name": "Baneblade Dozerblade",
+                "pts_delta": 27
+              }
+            ]
           },
           {
             "description": "May take one M",
-            "choices": []
+            "choices": [
+              {
+                "name": "Hunter Killer Missile",
+                "pts_delta": 5
+              }
+            ]
           },
           {
             "description": "May take one P",
-            "choices": []
+            "choices": [
+              {
+                "name": "Stormbolter",
+                "pts_delta": 5
+              },
+              {
+                "name": "Light Stubber",
+                "pts_delta": 9
+              },
+              {
+                "name": "Heavy Stubber",
+                "pts_delta": 11
+              }
+            ]
           },
           {
             "description": "May take up to one of each E",
@@ -6334,6 +7380,14 @@
             "description": "May take up to 2 S or one SS",
             "choices": [
               {
+                "name": "Lascannon and Linked Flamers",
+                "pts_delta": 83
+              },
+              {
+                "name": "Lascannon and Linked Bolters",
+                "pts_delta": 87
+              },
+              {
                 "name": "Side Skirts",
                 "pts_delta": 10
               }
@@ -6341,15 +7395,38 @@
           },
           {
             "description": "May take one D",
-            "choices": []
+            "choices": [
+              {
+                "name": "Baneblade Dozerblade",
+                "pts_delta": 27
+              }
+            ]
           },
           {
             "description": "May take one M",
-            "choices": []
+            "choices": [
+              {
+                "name": "Hunter Killer Missile",
+                "pts_delta": 5
+              }
+            ]
           },
           {
             "description": "May take one P",
-            "choices": []
+            "choices": [
+              {
+                "name": "Stormbolter",
+                "pts_delta": 5
+              },
+              {
+                "name": "Light Stubber",
+                "pts_delta": 9
+              },
+              {
+                "name": "Heavy Stubber",
+                "pts_delta": 11
+              }
+            ]
           },
           {
             "description": "May take up to one of each E",
@@ -6429,6 +7506,14 @@
             "description": "May take up to 2 S or one SS",
             "choices": [
               {
+                "name": "Lascannon and Linked Flamers",
+                "pts_delta": 83
+              },
+              {
+                "name": "Lascannon and Linked Bolters",
+                "pts_delta": 87
+              },
+              {
                 "name": "Side Skirts",
                 "pts_delta": 10
               }
@@ -6436,15 +7521,38 @@
           },
           {
             "description": "May take one D",
-            "choices": []
+            "choices": [
+              {
+                "name": "Baneblade Dozerblade",
+                "pts_delta": 27
+              }
+            ]
           },
           {
             "description": "May take one M",
-            "choices": []
+            "choices": [
+              {
+                "name": "Hunter Killer Missile",
+                "pts_delta": 5
+              }
+            ]
           },
           {
             "description": "May take one P",
-            "choices": []
+            "choices": [
+              {
+                "name": "Stormbolter",
+                "pts_delta": 5
+              },
+              {
+                "name": "Light Stubber",
+                "pts_delta": 9
+              },
+              {
+                "name": "Heavy Stubber",
+                "pts_delta": 11
+              }
+            ]
           },
           {
             "description": "May take up to one of each E",
@@ -6639,15 +7747,38 @@
           },
           {
             "description": "May take one D",
-            "choices": []
+            "choices": [
+              {
+                "name": "Baneblade Dozerblade",
+                "pts_delta": 27
+              }
+            ]
           },
           {
             "description": "May take one M",
-            "choices": []
+            "choices": [
+              {
+                "name": "Hunter Killer Missile",
+                "pts_delta": 5
+              }
+            ]
           },
           {
             "description": "May take one P",
-            "choices": []
+            "choices": [
+              {
+                "name": "Stormbolter",
+                "pts_delta": 5
+              },
+              {
+                "name": "Light Stubber",
+                "pts_delta": 9
+              },
+              {
+                "name": "Heavy Stubber",
+                "pts_delta": 11
+              }
+            ]
           },
           {
             "description": "May take up to one of each E",
@@ -6736,7 +7867,16 @@
         "options": [
           {
             "description": "May swap Stormhammer Cannon and Multilaser for T",
-            "choices": []
+            "choices": [
+              {
+                "name": "Stormhammer Cannon Multilaser",
+                "pts_delta": 0
+              },
+              {
+                "name": "Stormhammer Cannon Lascannon Cannons",
+                "pts_delta": 17
+              }
+            ]
           },
           {
             "description": "May swap 6 Multilasers for S",
@@ -6744,15 +7884,38 @@
           },
           {
             "description": "May take one D",
-            "choices": []
+            "choices": [
+              {
+                "name": "Baneblade Dozerblade",
+                "pts_delta": 27
+              }
+            ]
           },
           {
             "description": "May take one M",
-            "choices": []
+            "choices": [
+              {
+                "name": "Hunter Killer Missile",
+                "pts_delta": 5
+              }
+            ]
           },
           {
             "description": "May take one P",
-            "choices": []
+            "choices": [
+              {
+                "name": "Stormbolter",
+                "pts_delta": 5
+              },
+              {
+                "name": "Light Stubber",
+                "pts_delta": 9
+              },
+              {
+                "name": "Heavy Stubber",
+                "pts_delta": 11
+              }
+            ]
           },
           {
             "description": "May take up to one of each E",
@@ -6831,6 +7994,14 @@
             "description": "May take up to 2 S or one SS",
             "choices": [
               {
+                "name": "Lascannon and Linked Flamers",
+                "pts_delta": 83
+              },
+              {
+                "name": "Lascannon and Linked Bolters",
+                "pts_delta": 87
+              },
+              {
                 "name": "Side Skirts",
                 "pts_delta": 10
               }
@@ -6838,15 +8009,38 @@
           },
           {
             "description": "May take one D",
-            "choices": []
+            "choices": [
+              {
+                "name": "Baneblade Dozerblade",
+                "pts_delta": 27
+              }
+            ]
           },
           {
             "description": "May take one M",
-            "choices": []
+            "choices": [
+              {
+                "name": "Hunter Killer Missile",
+                "pts_delta": 5
+              }
+            ]
           },
           {
             "description": "May take one P",
-            "choices": []
+            "choices": [
+              {
+                "name": "Stormbolter",
+                "pts_delta": 5
+              },
+              {
+                "name": "Light Stubber",
+                "pts_delta": 9
+              },
+              {
+                "name": "Heavy Stubber",
+                "pts_delta": 11
+              }
+            ]
           },
           {
             "description": "May take up to one of each E",
@@ -6923,15 +8117,50 @@
         "options": [
           {
             "description": "May swap any Heavy Flamer for S",
-            "choices": []
+            "choices": [
+              {
+                "name": "Heavy Flamers",
+                "pts_delta": 0
+              },
+              {
+                "name": "Heavy Bolter",
+                "pts_delta": 1
+              },
+              {
+                "name": "Autocannon",
+                "pts_delta": 4
+              },
+              {
+                "name": "Lascannon",
+                "pts_delta": 10
+              }
+            ]
           },
           {
             "description": "May take one M",
-            "choices": []
+            "choices": [
+              {
+                "name": "Hunter Killer Missile",
+                "pts_delta": 5
+              }
+            ]
           },
           {
             "description": "May take one P",
-            "choices": []
+            "choices": [
+              {
+                "name": "Stormbolter",
+                "pts_delta": 5
+              },
+              {
+                "name": "Light Stubber",
+                "pts_delta": 9
+              },
+              {
+                "name": "Heavy Stubber",
+                "pts_delta": 11
+              }
+            ]
           },
           {
             "description": "May take up to one of each E",
@@ -6981,15 +8210,50 @@
         "options": [
           {
             "description": "May swap any Heavy Flamer for S",
-            "choices": []
+            "choices": [
+              {
+                "name": "Heavy Flamers",
+                "pts_delta": 0
+              },
+              {
+                "name": "Heavy Bolter",
+                "pts_delta": 1
+              },
+              {
+                "name": "Autocannon",
+                "pts_delta": 4
+              },
+              {
+                "name": "Lascannon",
+                "pts_delta": 10
+              }
+            ]
           },
           {
             "description": "May take one M",
-            "choices": []
+            "choices": [
+              {
+                "name": "Hunter Killer Missile",
+                "pts_delta": 5
+              }
+            ]
           },
           {
             "description": "May take one P",
-            "choices": []
+            "choices": [
+              {
+                "name": "Stormbolter",
+                "pts_delta": 5
+              },
+              {
+                "name": "Light Stubber",
+                "pts_delta": 9
+              },
+              {
+                "name": "Heavy Stubber",
+                "pts_delta": 11
+              }
+            ]
           },
           {
             "description": "May take up to one of each E",
@@ -7140,11 +8404,29 @@
           },
           {
             "description": "May take one M",
-            "choices": []
+            "choices": [
+              {
+                "name": "Hunter Killer Missile",
+                "pts_delta": 5
+              }
+            ]
           },
           {
             "description": "May take one P",
-            "choices": []
+            "choices": [
+              {
+                "name": "Stormbolter",
+                "pts_delta": 5
+              },
+              {
+                "name": "Light Stubber",
+                "pts_delta": 9
+              },
+              {
+                "name": "Heavy Stubber",
+                "pts_delta": 11
+              }
+            ]
           },
           {
             "description": "May take up to one of each E",
@@ -7224,11 +8506,29 @@
           },
           {
             "description": "May take one M",
-            "choices": []
+            "choices": [
+              {
+                "name": "Hunter Killer Missile",
+                "pts_delta": 5
+              }
+            ]
           },
           {
             "description": "May take one P",
-            "choices": []
+            "choices": [
+              {
+                "name": "Stormbolter",
+                "pts_delta": 5
+              },
+              {
+                "name": "Light Stubber",
+                "pts_delta": 9
+              },
+              {
+                "name": "Heavy Stubber",
+                "pts_delta": 11
+              }
+            ]
           },
           {
             "description": "May take up to one of each E",
@@ -7308,11 +8608,29 @@
           },
           {
             "description": "May take one M",
-            "choices": []
+            "choices": [
+              {
+                "name": "Hunter Killer Missile",
+                "pts_delta": 5
+              }
+            ]
           },
           {
             "description": "May take one P",
-            "choices": []
+            "choices": [
+              {
+                "name": "Stormbolter",
+                "pts_delta": 5
+              },
+              {
+                "name": "Light Stubber",
+                "pts_delta": 9
+              },
+              {
+                "name": "Heavy Stubber",
+                "pts_delta": 11
+              }
+            ]
           },
           {
             "description": "May take up to one of each E",
@@ -7392,11 +8710,29 @@
           },
           {
             "description": "May take one M",
-            "choices": []
+            "choices": [
+              {
+                "name": "Hunter Killer Missile",
+                "pts_delta": 5
+              }
+            ]
           },
           {
             "description": "May take one P",
-            "choices": []
+            "choices": [
+              {
+                "name": "Stormbolter",
+                "pts_delta": 5
+              },
+              {
+                "name": "Light Stubber",
+                "pts_delta": 9
+              },
+              {
+                "name": "Heavy Stubber",
+                "pts_delta": 11
+              }
+            ]
           },
           {
             "description": "May take up to one of each E",
@@ -7473,15 +8809,50 @@
         "options": [
           {
             "description": "May swap any Heavy Flamer for S",
-            "choices": []
+            "choices": [
+              {
+                "name": "Heavy Flamers",
+                "pts_delta": 0
+              },
+              {
+                "name": "Heavy Bolter",
+                "pts_delta": 1
+              },
+              {
+                "name": "Autocannon",
+                "pts_delta": 4
+              },
+              {
+                "name": "Lascannon",
+                "pts_delta": 10
+              }
+            ]
           },
           {
             "description": "May take one M",
-            "choices": []
+            "choices": [
+              {
+                "name": "Hunter Killer Missile",
+                "pts_delta": 5
+              }
+            ]
           },
           {
             "description": "May take one P",
-            "choices": []
+            "choices": [
+              {
+                "name": "Stormbolter",
+                "pts_delta": 5
+              },
+              {
+                "name": "Light Stubber",
+                "pts_delta": 9
+              },
+              {
+                "name": "Heavy Stubber",
+                "pts_delta": 11
+              }
+            ]
           },
           {
             "description": "May take up to one of each E",
@@ -7557,19 +8928,63 @@
         "options": [
           {
             "description": "May swap Pilum Salvo for H",
-            "choices": []
+            "choices": [
+              {
+                "name": "Pilum Salvo",
+                "pts_delta": 0
+              },
+              {
+                "name": "Foehammer",
+                "pts_delta": 167
+              }
+            ]
           },
           {
             "description": "May swap any Heavy Flamer for S",
-            "choices": []
+            "choices": [
+              {
+                "name": "Heavy Flamers",
+                "pts_delta": 0
+              },
+              {
+                "name": "Heavy Bolter",
+                "pts_delta": 1
+              },
+              {
+                "name": "Autocannon",
+                "pts_delta": 4
+              },
+              {
+                "name": "Lascannon",
+                "pts_delta": 10
+              }
+            ]
           },
           {
             "description": "May take one M",
-            "choices": []
+            "choices": [
+              {
+                "name": "Hunter Killer Missile",
+                "pts_delta": 5
+              }
+            ]
           },
           {
             "description": "May take one P",
-            "choices": []
+            "choices": [
+              {
+                "name": "Stormbolter",
+                "pts_delta": 5
+              },
+              {
+                "name": "Light Stubber",
+                "pts_delta": 9
+              },
+              {
+                "name": "Heavy Stubber",
+                "pts_delta": 11
+              }
+            ]
           },
           {
             "description": "May take up to one of each E",
@@ -7721,7 +9136,16 @@
         "options": [
           {
             "description": "May take one B",
-            "choices": []
+            "choices": [
+              {
+                "name": "Hellstorm Bomb",
+                "pts_delta": 12
+              },
+              {
+                "name": "Heavy Bomb Cluster",
+                "pts_delta": 30
+              }
+            ]
           },
           {
             "description": "May take up to one of each E",
@@ -7825,7 +9249,12 @@
         "options": [
           {
             "description": "May swap Long Lascannon for H",
-            "choices": []
+            "choices": [
+              {
+                "name": "Long Lascannon Lascannons Autocannons Autocannons",
+                "pts_delta": 0
+              }
+            ]
           }
         ]
       },
@@ -7906,7 +9335,16 @@
         "options": [
           {
             "description": "May swap Avenger Gatling Cannon for H",
-            "choices": []
+            "choices": [
+              {
+                "name": "Avenger Gatling Cannon",
+                "pts_delta": 0
+              },
+              {
+                "name": "Battle Cannon",
+                "pts_delta": 30
+              }
+            ]
           }
         ]
       },
@@ -7929,7 +9367,16 @@
         "options": [
           {
             "description": "May swap Avenger Gatling Cannon for H",
-            "choices": []
+            "choices": [
+              {
+                "name": "Avenger Gatling Cannon",
+                "pts_delta": 0
+              },
+              {
+                "name": "Battle Cannon",
+                "pts_delta": 30
+              }
+            ]
           }
         ]
       },

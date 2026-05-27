@@ -116,6 +116,30 @@
             "description": "May swap Stormbolter for R or A",
             "choices": [
               {
+                "name": "Stormbolter",
+                "pts_delta": 0
+              },
+              {
+                "name": "Mastercrafted Boltgun",
+                "pts_delta": 1
+              },
+              {
+                "name": "Combi Flamer",
+                "pts_delta": 4
+              },
+              {
+                "name": "Combi Grav",
+                "pts_delta": 6
+              },
+              {
+                "name": "Combi Plasma",
+                "pts_delta": 6
+              },
+              {
+                "name": "Combi Melta",
+                "pts_delta": 21
+              },
+              {
                 "name": "Stormshield",
                 "pts_delta": 12
               }
@@ -123,15 +147,94 @@
           },
           {
             "description": "May swap Bolt Pistol for P",
-            "choices": []
+            "choices": [
+              {
+                "name": "Bolt Pistol",
+                "pts_delta": 0
+              },
+              {
+                "name": "Hand Flamer",
+                "pts_delta": 3
+              },
+              {
+                "name": "Plasma Pistol",
+                "pts_delta": 7
+              },
+              {
+                "name": "Grav Pistol",
+                "pts_delta": 8
+              },
+              {
+                "name": "Inferno Pistol",
+                "pts_delta": 24
+              }
+            ]
           },
           {
             "description": "May swap Combat Knife for M Space Wolf Captain may swap Combat Knife for SWM instead",
-            "choices": []
+            "choices": [
+              {
+                "name": "Combat Knife",
+                "pts_delta": 0
+              },
+              {
+                "name": "Chainsword",
+                "pts_delta": 0
+              },
+              {
+                "name": "Lightning Claw",
+                "pts_delta": 5
+              },
+              {
+                "name": "Power Sword",
+                "pts_delta": 5
+              },
+              {
+                "name": "Power Axe",
+                "pts_delta": 6
+              },
+              {
+                "name": "Power Maul",
+                "pts_delta": 8
+              },
+              {
+                "name": "Relic Blade",
+                "pts_delta": 14
+              },
+              {
+                "name": "Power Fist",
+                "pts_delta": 16
+              },
+              {
+                "name": "Thunderhammer",
+                "pts_delta": 28
+              },
+              {
+                "name": "Nemesis Thunderhammer",
+                "pts_delta": 57
+              },
+              {
+                "name": "Frost Axe",
+                "pts_delta": 8
+              }
+            ]
           },
           {
             "description": "May swap Krak Grenades for G",
-            "choices": []
+            "choices": [
+              {
+                "name": "Frag Grenades",
+                "pts_delta": 0
+              },
+              {
+                "name": "Krak Grenades",
+                "pts_delta": 0
+              },
+              {
+                "name": "Meltabombs",
+                "pts_delta": 5
+              }
+            ]
           },
           {
             "description": "May take one B",
@@ -206,19 +309,91 @@
         "options": [
           {
             "description": "May swap Boltgun for R",
-            "choices": []
+            "choices": [
+              {
+                "name": "Boltgun",
+                "pts_delta": 0
+              },
+              {
+                "name": "Stormbolter",
+                "pts_delta": 3
+              },
+              {
+                "name": "Combi Flamer",
+                "pts_delta": 7
+              },
+              {
+                "name": "Combi Grav",
+                "pts_delta": 9
+              },
+              {
+                "name": "Combi Plasma",
+                "pts_delta": 9
+              },
+              {
+                "name": "Combi Melta",
+                "pts_delta": 24
+              }
+            ]
           },
           {
             "description": "May swap Crozium Arcanum for M",
-            "choices": []
+            "choices": [
+              {
+                "name": "Crozium Arcanum",
+                "pts_delta": 0
+              },
+              {
+                "name": "Power Fist",
+                "pts_delta": 3
+              }
+            ]
           },
           {
             "description": "May swap Bolt Pistol for P",
-            "choices": []
+            "choices": [
+              {
+                "name": "Bolt Pistol",
+                "pts_delta": 0
+              },
+              {
+                "name": "Hand Flamer",
+                "pts_delta": 3
+              },
+              {
+                "name": "Plasma Pistol",
+                "pts_delta": 7
+              },
+              {
+                "name": "Grav Pistol",
+                "pts_delta": 8
+              },
+              {
+                "name": "Neo-Volkite Pistol",
+                "pts_delta": 8
+              },
+              {
+                "name": "Inferno Pistol",
+                "pts_delta": 24
+              }
+            ]
           },
           {
             "description": "May swap Krak Grenades for G",
-            "choices": []
+            "choices": [
+              {
+                "name": "Frag Grenades",
+                "pts_delta": 0
+              },
+              {
+                "name": "Krak Grenades",
+                "pts_delta": 0
+              },
+              {
+                "name": "Meltabombs",
+                "pts_delta": 5
+              }
+            ]
           },
           {
             "description": "May take one B",
@@ -286,11 +461,48 @@
         "options": [
           {
             "description": "May swap any Dreadnought Missile Launcher for M",
-            "choices": []
+            "choices": [
+              {
+                "name": "Dreadnought Missile",
+                "pts_delta": 0
+              },
+              {
+                "name": "Inferno Cannon",
+                "pts_delta": 1
+              },
+              {
+                "name": "Multimelta",
+                "pts_delta": 2
+              },
+              {
+                "name": "Assault Cannon Lascannons",
+                "pts_delta": 5
+              },
+              {
+                "name": "Dreadnought Combat and",
+                "pts_delta": 12
+              },
+              {
+                "name": "Dreadnought Combat and Flamer",
+                "pts_delta": 14
+              },
+              {
+                "name": "Heavy Plasma Cannon",
+                "pts_delta": 28
+              }
+            ]
           },
           {
             "description": "May take up to one of each E Blood Angels Chaplain Dreadnought may take one up one of each BAE",
             "choices": [
+              {
+                "name": "Extra Armour",
+                "pts_delta": 5
+              },
+              {
+                "name": "Smoke Launchers",
+                "pts_delta": 10
+              },
               {
                 "name": "Magna Grapple",
                 "pts_delta": 2
@@ -303,24 +515,6 @@
               {
                 "name": "Chief Chaplain",
                 "pts_delta": 6
-              }
-            ]
-          },
-          {
-            "description": "May take Extra Armour",
-            "choices": [
-              {
-                "name": "Extra Armour",
-                "pts_delta": 5
-              }
-            ]
-          },
-          {
-            "description": "May take Smoke Launchers",
-            "choices": [
-              {
-                "name": "Smoke Launchers",
-                "pts_delta": 10
               }
             ]
           },
@@ -405,7 +599,12 @@
         "options": [
           {
             "description": "May swap 2 Linked Heavy Bolters for T",
-            "choices": []
+            "choices": [
+              {
+                "name": "Grav Cannon Linked Lascannons",
+                "pts_delta": 0
+              }
+            ]
           },
           {
             "description": "May swap 2 Hurricane Bolters for S",
@@ -413,19 +612,39 @@
           },
           {
             "description": "May take one D",
-            "choices": []
+            "choices": [
+              {
+                "name": "Dozerblade",
+                "pts_delta": 9
+              }
+            ]
           },
           {
             "description": "May take one M",
-            "choices": []
+            "choices": [
+              {
+                "name": "Hunter Killer Missile",
+                "pts_delta": 5
+              }
+            ]
           },
           {
             "description": "May take one P1",
-            "choices": []
+            "choices": [
+              {
+                "name": "Stormbolter",
+                "pts_delta": 7
+              }
+            ]
           },
           {
             "description": "May take one P2",
-            "choices": []
+            "choices": [
+              {
+                "name": "Combi Plasma",
+                "pts_delta": 13
+              }
+            ]
           },
           {
             "description": "May take up to one of each E",
@@ -487,15 +706,30 @@
         "options": [
           {
             "description": "May take one D",
-            "choices": []
+            "choices": [
+              {
+                "name": "Dozerblade",
+                "pts_delta": 9
+              }
+            ]
           },
           {
             "description": "May take one M",
-            "choices": []
+            "choices": [
+              {
+                "name": "Hunter Killer Missile",
+                "pts_delta": 5
+              }
+            ]
           },
           {
             "description": "May take one P",
-            "choices": []
+            "choices": [
+              {
+                "name": "Stormbolter",
+                "pts_delta": 7
+              }
+            ]
           },
           {
             "description": "May take up to one of each E",
@@ -547,15 +781,78 @@
         "options": [
           {
             "description": "May swap Boltgun for R",
-            "choices": []
+            "choices": [
+              {
+                "name": "Boltgun",
+                "pts_delta": 0
+              },
+              {
+                "name": "Stormbolter",
+                "pts_delta": 2
+              },
+              {
+                "name": "Combi Flamer",
+                "pts_delta": 6
+              },
+              {
+                "name": "Combi Grav",
+                "pts_delta": 8
+              },
+              {
+                "name": "Combi Plasma",
+                "pts_delta": 8
+              },
+              {
+                "name": "Combi Melta",
+                "pts_delta": 23
+              }
+            ]
           },
           {
             "description": "May swap Force Sword for M",
-            "choices": []
+            "choices": [
+              {
+                "name": "Force Sword",
+                "pts_delta": 0
+              },
+              {
+                "name": "Force Axe",
+                "pts_delta": 4
+              },
+              {
+                "name": "Force Stave",
+                "pts_delta": 8
+              }
+            ]
           },
           {
             "description": "May take up to one S for each level in Psychic Mastery",
-            "choices": []
+            "choices": [
+              {
+                "name": "Cause Misfortune Cast",
+                "pts_delta": 10
+              },
+              {
+                "name": "Forewarning Cast",
+                "pts_delta": 10
+              },
+              {
+                "name": "Bolster Cast",
+                "pts_delta": 15
+              },
+              {
+                "name": "Enfeeble Cast",
+                "pts_delta": 20
+              },
+              {
+                "name": "Endurance Cast",
+                "pts_delta": 20
+              },
+              {
+                "name": "Melting Beam Cast",
+                "pts_delta": 22
+              }
+            ]
           },
           {
             "description": "May take one B",
@@ -623,26 +920,16 @@
             "description": "May take up to one of each E Blood Angels Librarian Dreadnought may take one up one of each BAE",
             "choices": [
               {
-                "name": "Magna Grapple",
-                "pts_delta": 2
-              }
-            ]
-          },
-          {
-            "description": "May take Extra Armour",
-            "choices": [
-              {
                 "name": "Extra Armour",
                 "pts_delta": 5
-              }
-            ]
-          },
-          {
-            "description": "May take Smoke Launchers",
-            "choices": [
+              },
               {
                 "name": "Smoke Launchers",
                 "pts_delta": 10
+              },
+              {
+                "name": "Magna Grapple",
+                "pts_delta": 2
               }
             ]
           }
@@ -694,19 +981,119 @@
         "options": [
           {
             "description": "May swap Stormbolter for R",
-            "choices": []
+            "choices": [
+              {
+                "name": "Stormbolter",
+                "pts_delta": 0
+              },
+              {
+                "name": "Boltstorm Gauntlet",
+                "pts_delta": 0
+              },
+              {
+                "name": "Mastercrafted Auto",
+                "pts_delta": 2
+              },
+              {
+                "name": "Combi Flamer",
+                "pts_delta": 4
+              },
+              {
+                "name": "Combi Grav",
+                "pts_delta": 6
+              },
+              {
+                "name": "Combi Plasma",
+                "pts_delta": 6
+              },
+              {
+                "name": "Mastercrafted Bolt",
+                "pts_delta": 7
+              },
+              {
+                "name": "Stalker Bolt Rifle",
+                "pts_delta": 11
+              },
+              {
+                "name": "Combi Melta",
+                "pts_delta": 21
+              }
+            ]
           },
           {
             "description": "May swap Bolt Pistol for P",
-            "choices": []
+            "choices": [
+              {
+                "name": "Bolt Pistol",
+                "pts_delta": 0
+              },
+              {
+                "name": "Hand Flamer",
+                "pts_delta": 3
+              },
+              {
+                "name": "Plasma Pistol",
+                "pts_delta": 7
+              },
+              {
+                "name": "Grav Pistol",
+                "pts_delta": 8
+              },
+              {
+                "name": "Neo-Volkite Pistol",
+                "pts_delta": 8
+              },
+              {
+                "name": "Inferno Pistol",
+                "pts_delta": 24
+              }
+            ]
           },
           {
             "description": "May swap Combat Knife for M",
-            "choices": []
+            "choices": [
+              {
+                "name": "Combat Knife",
+                "pts_delta": 0
+              },
+              {
+                "name": "Chainsword",
+                "pts_delta": 0
+              },
+              {
+                "name": "Lightning Claw",
+                "pts_delta": 5
+              },
+              {
+                "name": "Power Sword",
+                "pts_delta": 5
+              },
+              {
+                "name": "Power Fist",
+                "pts_delta": 16
+              },
+              {
+                "name": "Thunderhammer",
+                "pts_delta": 28
+              }
+            ]
           },
           {
             "description": "May swap Krak Grenades for G",
-            "choices": []
+            "choices": [
+              {
+                "name": "Frag Grenades",
+                "pts_delta": 0
+              },
+              {
+                "name": "Krak Grenades",
+                "pts_delta": 0
+              },
+              {
+                "name": "Meltabombs",
+                "pts_delta": 5
+              }
+            ]
           },
           {
             "description": "May take one A",
@@ -778,11 +1165,32 @@
         "options": [
           {
             "description": "May take one SM or R Black Templar Primaris Chaplain",
-            "choices": []
+            "choices": [
+              {
+                "name": "Stormbolter",
+                "pts_delta": 5
+              },
+              {
+                "name": "(Part of Bike) Rifles",
+                "pts_delta": 0
+              },
+              {
+                "name": "Power Sword",
+                "pts_delta": 6
+              },
+              {
+                "name": "Powerfist",
+                "pts_delta": 16
+              }
+            ]
           },
           {
             "description": "may swap Absolver Bolt Pistol for BTP",
             "choices": [
+              {
+                "name": "Pyre Pistol",
+                "pts_delta": 3
+              },
               {
                 "name": "Terminator Armor",
                 "pts_delta": 14
@@ -799,7 +1207,20 @@
           },
           {
             "description": "May swap Krak Grenades for G",
-            "choices": []
+            "choices": [
+              {
+                "name": "Frag Grenades",
+                "pts_delta": 0
+              },
+              {
+                "name": "Krak Grenades",
+                "pts_delta": 0
+              },
+              {
+                "name": "Meltabombs",
+                "pts_delta": 5
+              }
+            ]
           },
           {
             "description": "May take one A",
@@ -877,19 +1298,75 @@
         "options": [
           {
             "description": "May swap Bolt Pistol for R",
-            "choices": []
+            "choices": [
+              {
+                "name": "Storm Bolter",
+                "pts_delta": 3
+              },
+              {
+                "name": "Combi Melta",
+                "pts_delta": 24
+              }
+            ]
           },
           {
             "description": "May swap Force Sword for M",
-            "choices": []
+            "choices": [
+              {
+                "name": "Force Sword",
+                "pts_delta": 0
+              },
+              {
+                "name": "Force Stave",
+                "pts_delta": 8
+              }
+            ]
           },
           {
             "description": "May swap Krak Grenades for G",
-            "choices": []
+            "choices": [
+              {
+                "name": "Frag Grenades",
+                "pts_delta": 0
+              },
+              {
+                "name": "Krak Grenades",
+                "pts_delta": 0
+              },
+              {
+                "name": "Meltabombs",
+                "pts_delta": 5
+              }
+            ]
           },
           {
             "description": "May take one S for each Psychic Mastery Level",
-            "choices": []
+            "choices": [
+              {
+                "name": "Cause Misfortune Cast",
+                "pts_delta": 10
+              },
+              {
+                "name": "Forewarning Cast",
+                "pts_delta": 10
+              },
+              {
+                "name": "Bolster Cast",
+                "pts_delta": 15
+              },
+              {
+                "name": "Enfeeble Cast",
+                "pts_delta": 20
+              },
+              {
+                "name": "Endurance Cast",
+                "pts_delta": 20
+              },
+              {
+                "name": "Melting Beam Cast",
+                "pts_delta": 22
+              }
+            ]
           },
           {
             "description": "May take one B",
@@ -1013,15 +1490,118 @@
         "options": [
           {
             "description": "May swap Boltgun for R",
-            "choices": []
+            "choices": [
+              {
+                "name": "Boltgun",
+                "pts_delta": 0
+              },
+              {
+                "name": "Stormbolter",
+                "pts_delta": 2
+              },
+              {
+                "name": "Combi Flamer",
+                "pts_delta": 6
+              },
+              {
+                "name": "Combi Grav",
+                "pts_delta": 8
+              },
+              {
+                "name": "Combi Plasma",
+                "pts_delta": 8
+              },
+              {
+                "name": "Combi Melta",
+                "pts_delta": 23
+              }
+            ]
           },
           {
             "description": "May swap Bolt Pistol for P",
-            "choices": []
+            "choices": [
+              {
+                "name": "Bolt Pistol",
+                "pts_delta": 0
+              },
+              {
+                "name": "Hand Flamer",
+                "pts_delta": 3
+              },
+              {
+                "name": "Plasma Pistol",
+                "pts_delta": 7
+              },
+              {
+                "name": "Grav Pistol",
+                "pts_delta": 8
+              },
+              {
+                "name": "Neo-Volkite Pistol",
+                "pts_delta": 8
+              },
+              {
+                "name": "Inferno Pistol",
+                "pts_delta": 24
+              }
+            ]
           },
           {
             "description": "May swap Combat Knife for M Deathwatch Ancient may swap Combat Knife for DWM Space Wolf Ancient may swap Combat Knife for SWM",
-            "choices": []
+            "choices": [
+              {
+                "name": "Combat Knife",
+                "pts_delta": 0
+              },
+              {
+                "name": "Chainsword",
+                "pts_delta": 0
+              },
+              {
+                "name": "Lightning Claw",
+                "pts_delta": 5
+              },
+              {
+                "name": "Power Sword",
+                "pts_delta": 5
+              },
+              {
+                "name": "Power Axe",
+                "pts_delta": 6
+              },
+              {
+                "name": "Power Maul",
+                "pts_delta": 8
+              },
+              {
+                "name": "Relic Blade",
+                "pts_delta": 14
+              },
+              {
+                "name": "Power Fist",
+                "pts_delta": 16
+              },
+              {
+                "name": "Thunderhammer",
+                "pts_delta": 28
+              },
+              {
+                "name": "Nemesis Thunderhammer",
+                "pts_delta": 57
+              },
+              {
+                "name": "+7",
+                "pts_delta": 0
+              },
+              {
+                "name": "+16",
+                "pts_delta": 0
+              },
+              {
+                "name": "Frost Axe",
+                "pts_delta": 8
+              }
+            ]
           },
           {
             "description": "May take one B",
@@ -1082,11 +1662,41 @@
         "options": [
           {
             "description": "May swap Relic Blade for M",
-            "choices": []
+            "choices": [
+              {
+                "name": "Relic Blade",
+                "pts_delta": 0
+              },
+              {
+                "name": "Thunderhammer",
+                "pts_delta": 17
+              }
+            ]
           },
           {
             "description": "May swap Bolt Pistol for P",
-            "choices": []
+            "choices": [
+              {
+                "name": "Bolt Pistol",
+                "pts_delta": 0
+              },
+              {
+                "name": "Stormbolter",
+                "pts_delta": 4
+              },
+              {
+                "name": "Plasma Pistol",
+                "pts_delta": 7
+              },
+              {
+                "name": "Disintegration Pistol",
+                "pts_delta": 17
+              },
+              {
+                "name": "Combi Disintegrator",
+                "pts_delta": 19
+              }
+            ]
           },
           {
             "description": "May take one B",
@@ -1182,7 +1792,16 @@
         "options": [
           {
             "description": "May swap Combat Knife for M",
-            "choices": []
+            "choices": [
+              {
+                "name": "Combat Knife",
+                "pts_delta": 0
+              },
+              {
+                "name": "Power Sword",
+                "pts_delta": 5
+              }
+            ]
           },
           {
             "description": "May take one C",
@@ -1232,7 +1851,16 @@
         "options": [
           {
             "description": "May swap Combat Knife for M",
-            "choices": []
+            "choices": [
+              {
+                "name": "Combat Knife",
+                "pts_delta": 0
+              },
+              {
+                "name": "Power Sword",
+                "pts_delta": 5
+              }
+            ]
           },
           {
             "description": "May take one C",
@@ -1285,15 +1913,42 @@
         "options": [
           {
             "description": "May swap Relic Blade for M",
-            "choices": []
+            "choices": [
+              {
+                "name": "Relic Blade",
+                "pts_delta": 0
+              },
+              {
+                "name": "Thunderhammer",
+                "pts_delta": 17
+              }
+            ]
           },
           {
             "description": "May swap Bolt Pistol for P",
-            "choices": []
+            "choices": [
+              {
+                "name": "Bolt Pistol",
+                "pts_delta": 0
+              },
+              {
+                "name": "Plasma Pistol",
+                "pts_delta": 7
+              }
+            ]
           },
           {
             "description": "May take one R or H",
-            "choices": []
+            "choices": [
+              {
+                "name": "Mastercraft Bolt Rifle",
+                "pts_delta": 9
+              },
+              {
+                "name": "Mastercraft Heavy",
+                "pts_delta": 16
+              }
+            ]
           },
           {
             "description": "May take one C",
@@ -1352,6 +2007,34 @@
             "description": "May swap Mastercrafted Auto Bolt Rifle for R or A",
             "choices": [
               {
+                "name": "Mastercrafted Auto",
+                "pts_delta": 0
+              },
+              {
+                "name": "Mastercrafted Bolt",
+                "pts_delta": 2
+              },
+              {
+                "name": "Bolt Rifle Combi Flamer",
+                "pts_delta": 4
+              },
+              {
+                "name": "Bolt Rifle Combi Grav",
+                "pts_delta": 6
+              },
+              {
+                "name": "Bolt Rifle Combi Plasma",
+                "pts_delta": 6
+              },
+              {
+                "name": "Mastercrafted Stalker",
+                "pts_delta": 15
+              },
+              {
+                "name": "Bolt Rifle Combi Melta",
+                "pts_delta": 21
+              },
+              {
                 "name": "Stormshield",
                 "pts_delta": 15
               }
@@ -1359,15 +2042,62 @@
           },
           {
             "description": "May swap Bolt Pistol for P",
-            "choices": []
+            "choices": [
+              {
+                "name": "Bolt Pistol",
+                "pts_delta": 0
+              },
+              {
+                "name": "Heavy Bolt Pistol",
+                "pts_delta": 1
+              },
+              {
+                "name": "Plasma Pistol",
+                "pts_delta": 7
+              },
+              {
+                "name": "Neo-Volkite Pistol",
+                "pts_delta": 8
+              }
+            ]
           },
           {
             "description": "May swap Combat Knife for M",
-            "choices": []
+            "choices": [
+              {
+                "name": "Combat Knife",
+                "pts_delta": 0
+              },
+              {
+                "name": "Power Sword",
+                "pts_delta": 5
+              },
+              {
+                "name": "Power Axe",
+                "pts_delta": 8
+              },
+              {
+                "name": "Power Fist",
+                "pts_delta": 16
+              }
+            ]
           },
           {
             "description": "May swap Krak Grenades for G",
-            "choices": []
+            "choices": [
+              {
+                "name": "Frag Grenades",
+                "pts_delta": 0
+              },
+              {
+                "name": "Krak Grenades",
+                "pts_delta": 0
+              },
+              {
+                "name": "Meltabombs",
+                "pts_delta": 5
+              }
+            ]
           },
           {
             "description": "May take one B",
@@ -1446,7 +2176,20 @@
         "options": [
           {
             "description": "May swap Krak Grenades for G",
-            "choices": []
+            "choices": [
+              {
+                "name": "Frag Grenades",
+                "pts_delta": 0
+              },
+              {
+                "name": "Krak Grenades",
+                "pts_delta": 0
+              },
+              {
+                "name": "Meltabombs",
+                "pts_delta": 5
+              }
+            ]
           },
           {
             "description": "May take one C",
@@ -1454,7 +2197,20 @@
           },
           {
             "description": "May take up to 9 Servitors for +24 points each Any Servitor may swap Servo Arm for H",
-            "choices": []
+            "choices": [
+              {
+                "name": "Heavy Bolter",
+                "pts_delta": 8
+              },
+              {
+                "name": "Plasma Cannon",
+                "pts_delta": 13
+              },
+              {
+                "name": "Multimelta",
+                "pts_delta": 26
+              }
+            ]
           }
         ]
       },
@@ -1525,7 +2281,20 @@
         "options": [
           {
             "description": "May swap Krak Grenades for G",
-            "choices": []
+            "choices": [
+              {
+                "name": "Frag Grenades",
+                "pts_delta": 0
+              },
+              {
+                "name": "Krak Grenades",
+                "pts_delta": 0
+              },
+              {
+                "name": "Meltabombs",
+                "pts_delta": 5
+              }
+            ]
           },
           {
             "description": "May take one B",
@@ -1537,7 +2306,20 @@
           },
           {
             "description": "May take up to 9 Servitors for +24 points each Any Servitor may swap Servo Arm for H W+1, A+1, Gain Repair D3 Wounds. May use both versions of Repair on the same target, gain Unique.",
-            "choices": []
+            "choices": [
+              {
+                "name": "Heavy Bolter",
+                "pts_delta": 8
+              },
+              {
+                "name": "Plasma Cannon",
+                "pts_delta": 13
+              },
+              {
+                "name": "Multimelta",
+                "pts_delta": 26
+              }
+            ]
           }
         ]
       },
@@ -1748,7 +2530,52 @@
         "options": [
           {
             "description": "May take up to 5 more Marines for +53 points each Sergeant may swap Bolt Pistol for P Sergeant may swap Chainsword for OM Sergeant may swap Krak Grenades for G The entire Squad can swap their Frag and Krak Grenades for the same SG",
-            "choices": []
+            "choices": [
+              {
+                "name": "Bolt Pistol",
+                "pts_delta": 0
+              },
+              {
+                "name": "Hand Flamer",
+                "pts_delta": 3
+              },
+              {
+                "name": "Plasma Pistol",
+                "pts_delta": 7
+              },
+              {
+                "name": "Chainsword",
+                "pts_delta": 0
+              },
+              {
+                "name": "Dual Combat Blades",
+                "pts_delta": 1
+              },
+              {
+                "name": "Power Fist",
+                "pts_delta": 10
+              },
+              {
+                "name": "Thunderhammer",
+                "pts_delta": 18
+              },
+              {
+                "name": "Frag Grenades",
+                "pts_delta": 0
+              },
+              {
+                "name": "Krak Grenades",
+                "pts_delta": 0
+              },
+              {
+                "name": "Meltabombs",
+                "pts_delta": 5
+              },
+              {
+                "name": "Haywire Mines",
+                "pts_delta": 2
+              }
+            ]
           }
         ]
       },
@@ -1829,6 +2656,30 @@
             "description": "May take up to 5 more Marines for +50 points each Sergeant may swap Bolt Pistol for P Sergeant may swap Chainsword for OM Sergeant may swap Krak Grenades for G Sergeant may take up to one of each OE The entire Squad can take up to one of each E",
             "choices": [
               {
+                "name": "Bolt Pistol",
+                "pts_delta": 0
+              },
+              {
+                "name": "Hand Flamer",
+                "pts_delta": 3
+              },
+              {
+                "name": "Plasma Pistol",
+                "pts_delta": 7
+              },
+              {
+                "name": "Frag Grenades",
+                "pts_delta": 0
+              },
+              {
+                "name": "Krak Grenades",
+                "pts_delta": 0
+              },
+              {
+                "name": "Meltabombs",
+                "pts_delta": 5
+              },
+              {
                 "name": "Helix Gauntlet",
                 "pts_delta": 2
               }
@@ -1908,7 +2759,80 @@
         "options": [
           {
             "description": "May take up to 5 more Marines for +46 points each Sergeant may swap Bolt Pistol for P Sergeant may swap Combat Knife for M Sergeant may swap Krak Grenades for G The entire Squad can swap their Bolt Rifles for the same R Up to two Marines may take one A",
-            "choices": []
+            "choices": [
+              {
+                "name": "Bolt Pistol",
+                "pts_delta": 0
+              },
+              {
+                "name": "Hand Flamer",
+                "pts_delta": 3
+              },
+              {
+                "name": "Plasma Pistol",
+                "pts_delta": 7
+              },
+              {
+                "name": "Combat Knife",
+                "pts_delta": 0
+              },
+              {
+                "name": "Chainsword",
+                "pts_delta": 0
+              },
+              {
+                "name": "Lightning Claw",
+                "pts_delta": 3
+              },
+              {
+                "name": "Power Sword",
+                "pts_delta": 3
+              },
+              {
+                "name": "Power Axe",
+                "pts_delta": 4
+              },
+              {
+                "name": "Power Maul",
+                "pts_delta": 5
+              },
+              {
+                "name": "Power Fist",
+                "pts_delta": 10
+              },
+              {
+                "name": "Thunderhammer",
+                "pts_delta": 18
+              },
+              {
+                "name": "Bolt Rifle",
+                "pts_delta": 0
+              },
+              {
+                "name": "per",
+                "pts_delta": 0
+              },
+              {
+                "name": "Stalker Bolt Rifle",
+                "pts_delta": 10
+              },
+              {
+                "name": "Auxiliary Grenade Launcher",
+                "pts_delta": 9
+              },
+              {
+                "name": "Frag Grenades",
+                "pts_delta": 0
+              },
+              {
+                "name": "Krak Grenades",
+                "pts_delta": 0
+              },
+              {
+                "name": "Meltabombs",
+                "pts_delta": 5
+              }
+            ]
           }
         ]
       },
@@ -1986,17 +2910,140 @@
             "description": "May take up to 5 more Marines for +39 points each Space Wolf Tactical Squad may upgrade a model to a Sergeant for +4 points Sergeant(s) may swap Boltgun for OR or A Sergeant(s) may swap Bolt Pistol for P Sergeant(s) may swap Combat Knife for M Sergeant(s) may swap Krak Grenades for G Space Wolf Sergeant(s) may take one B One Marine may swap Boltgun for S One Marine may swap Boltgun for H",
             "choices": [
               {
-                "name": "Terminator Armour",
+                "name": "Stormbolter",
+                "pts_delta": 2
+              },
+              {
+                "name": "Combi Flamer",
                 "pts_delta": 6
-              }
-            ]
-          },
-          {
-            "description": "May take Stormshield",
-            "choices": [
+              },
+              {
+                "name": "Combi Grav",
+                "pts_delta": 8
+              },
+              {
+                "name": "Combi Plasma",
+                "pts_delta": 8
+              },
+              {
+                "name": "Combi Melta",
+                "pts_delta": 23
+              },
+              {
+                "name": "Bolt Pistol",
+                "pts_delta": 0
+              },
+              {
+                "name": "Hand Flamer",
+                "pts_delta": 3
+              },
+              {
+                "name": "Plasma Pistol",
+                "pts_delta": 7
+              },
+              {
+                "name": "Grav Pistol",
+                "pts_delta": 8
+              },
+              {
+                "name": "Inferno Pistol",
+                "pts_delta": 24
+              },
+              {
+                "name": "Combat Knife",
+                "pts_delta": 0
+              },
+              {
+                "name": "Chainsword",
+                "pts_delta": 0
+              },
+              {
+                "name": "Lightning Claw",
+                "pts_delta": 3
+              },
+              {
+                "name": "Power Sword",
+                "pts_delta": 3
+              },
+              {
+                "name": "Power Axe",
+                "pts_delta": 4
+              },
+              {
+                "name": "Power Maul",
+                "pts_delta": 5
+              },
+              {
+                "name": "Power Fist",
+                "pts_delta": 10
+              },
+              {
+                "name": "Thunderhammer",
+                "pts_delta": 18
+              },
+              {
+                "name": "Flamer",
+                "pts_delta": 4
+              },
+              {
+                "name": "Grav Gun",
+                "pts_delta": 6
+              },
+              {
+                "name": "Plasma Gun",
+                "pts_delta": 6
+              },
+              {
+                "name": "Meltagun",
+                "pts_delta": 21
+              },
+              {
+                "name": "Heavy Flamer",
+                "pts_delta": 7
+              },
+              {
+                "name": "Heavy Bolter",
+                "pts_delta": 9
+              },
+              {
+                "name": "Plasma Cannon",
+                "pts_delta": 14
+              },
+              {
+                "name": "Grav Cannon",
+                "pts_delta": 14
+              },
+              {
+                "name": "Missile Launcher",
+                "pts_delta": 19
+              },
+              {
+                "name": "Lascannon",
+                "pts_delta": 21
+              },
+              {
+                "name": "Multimelta",
+                "pts_delta": 27
+              },
+              {
+                "name": "Frag Grenades",
+                "pts_delta": 0
+              },
+              {
+                "name": "Krak Grenades",
+                "pts_delta": 0
+              },
+              {
+                "name": "Meltabombs",
+                "pts_delta": 5
+              },
               {
                 "name": "Stormshield",
                 "pts_delta": 10
+              },
+              {
+                "name": "Terminator Armour",
+                "pts_delta": 6
               }
             ]
           }
@@ -2321,11 +3368,135 @@
         "options": [
           {
             "description": "May take up to 5 more Marines for +48 points each Sergeant may swap Boltgun for OR or A Sergeant may swap Bolt Pistol for P Sergeant may swap Combat Knife for M Sergeant may swap Krak Grenades for G One Marine may swap Boltgun for S One Marine may swap Boltgun for H",
-            "choices": []
-          },
-          {
-            "description": "May take Stormshield",
             "choices": [
+              {
+                "name": "Stormbolter",
+                "pts_delta": 2
+              },
+              {
+                "name": "Combi Flamer",
+                "pts_delta": 6
+              },
+              {
+                "name": "Combi Grav",
+                "pts_delta": 8
+              },
+              {
+                "name": "Combi Plasma",
+                "pts_delta": 8
+              },
+              {
+                "name": "Combi Melta",
+                "pts_delta": 23
+              },
+              {
+                "name": "Bolt Pistol",
+                "pts_delta": 0
+              },
+              {
+                "name": "Hand Flamer",
+                "pts_delta": 3
+              },
+              {
+                "name": "Plasma Pistol",
+                "pts_delta": 7
+              },
+              {
+                "name": "Grav Pistol",
+                "pts_delta": 8
+              },
+              {
+                "name": "Inferno Pistol",
+                "pts_delta": 24
+              },
+              {
+                "name": "Combat Knife",
+                "pts_delta": 0
+              },
+              {
+                "name": "Chainsword",
+                "pts_delta": 0
+              },
+              {
+                "name": "Lightning Claw",
+                "pts_delta": 3
+              },
+              {
+                "name": "Power Sword",
+                "pts_delta": 3
+              },
+              {
+                "name": "Power Axe",
+                "pts_delta": 4
+              },
+              {
+                "name": "Power Maul",
+                "pts_delta": 5
+              },
+              {
+                "name": "Power Fist",
+                "pts_delta": 10
+              },
+              {
+                "name": "Thunderhammer",
+                "pts_delta": 18
+              },
+              {
+                "name": "Flamer",
+                "pts_delta": 4
+              },
+              {
+                "name": "Grav Gun",
+                "pts_delta": 6
+              },
+              {
+                "name": "Plasma Gun",
+                "pts_delta": 6
+              },
+              {
+                "name": "Meltagun",
+                "pts_delta": 21
+              },
+              {
+                "name": "Heavy Flamer",
+                "pts_delta": 7
+              },
+              {
+                "name": "Heavy Bolter",
+                "pts_delta": 9
+              },
+              {
+                "name": "Plasma Cannon",
+                "pts_delta": 14
+              },
+              {
+                "name": "Grav Cannon",
+                "pts_delta": 14
+              },
+              {
+                "name": "Missile Launcher",
+                "pts_delta": 19
+              },
+              {
+                "name": "Lascannon",
+                "pts_delta": 21
+              },
+              {
+                "name": "Multimelta",
+                "pts_delta": 27
+              },
+              {
+                "name": "Frag Grenades",
+                "pts_delta": 0
+              },
+              {
+                "name": "Krak Grenades",
+                "pts_delta": 0
+              },
+              {
+                "name": "Meltabombs",
+                "pts_delta": 5
+              },
               {
                 "name": "Stormshield",
                 "pts_delta": 12
@@ -2406,7 +3577,88 @@
         "options": [
           {
             "description": "May take up to 5 more Veterans for +55 points each Sergeant may swap Krak Grenades for G Any model may swap Special Issue Bolt Rifle for R, S, or H Any model may swap Bolt Pistol for P Any model may swap Combat Knife for M",
-            "choices": []
+            "choices": [
+              {
+                "name": "Special Issue Bolt",
+                "pts_delta": 0
+              },
+              {
+                "name": "Special Issue Stormbolter",
+                "pts_delta": 1
+              },
+              {
+                "name": "Bolt Rifle Combi Flamer",
+                "pts_delta": 3
+              },
+              {
+                "name": "Bolt Rifle Combi Grav",
+                "pts_delta": 5
+              },
+              {
+                "name": "Bolt Rifle Combi Plasma",
+                "pts_delta": 5
+              },
+              {
+                "name": "Bolt Rifle Combi Melta",
+                "pts_delta": 20
+              },
+              {
+                "name": "Flamer",
+                "pts_delta": 13
+              },
+              {
+                "name": "Heavy Flamer",
+                "pts_delta": 4
+              },
+              {
+                "name": "Heavy Bolter",
+                "pts_delta": 6
+              },
+              {
+                "name": "Bolt Pistol",
+                "pts_delta": 0
+              },
+              {
+                "name": "Hand Flamer",
+                "pts_delta": 3
+              },
+              {
+                "name": "Plasma Pistol",
+                "pts_delta": 7
+              },
+              {
+                "name": "Combat Knife",
+                "pts_delta": 0
+              },
+              {
+                "name": "Chainsword",
+                "pts_delta": 0
+              },
+              {
+                "name": "Power Sword",
+                "pts_delta": 3
+              },
+              {
+                "name": "Power Fist",
+                "pts_delta": 10
+              },
+              {
+                "name": "Thunderhammer",
+                "pts_delta": 18
+              },
+              {
+                "name": "Frag Grenades",
+                "pts_delta": 0
+              },
+              {
+                "name": "Krak Grenades",
+                "pts_delta": 0
+              },
+              {
+                "name": "Meltabombs",
+                "pts_delta": 5
+              }
+            ]
           }
         ]
       },
@@ -2485,7 +3737,12 @@
         "options": [
           {
             "description": "May take up to 5 more Reivers for +57 points each Sergeant may swap Bolt Pistol for P",
-            "choices": []
+            "choices": [
+              {
+                "name": "Special Issue Bolt",
+                "pts_delta": 0
+              }
+            ]
           }
         ]
       },
@@ -2563,7 +3820,128 @@
         "options": [
           {
             "description": "May take up to 5 more Scouts for +37 points each Sergeant may swap Shotgun for OR or R Sergeant may swap Bolt Pistol for P Sergeant may swap Combat Knife for M Sergeant may swap Krak Grenades for G Any model may swap Shotgun for R One Scout may swap Shotgun for S or H The entire unit may take one of each E",
-            "choices": []
+            "choices": [
+              {
+                "name": "Shotgun",
+                "pts_delta": 0
+              },
+              {
+                "name": "Boltgun",
+                "pts_delta": 1
+              },
+              {
+                "name": "Sniper Rifle",
+                "pts_delta": 6
+              },
+              {
+                "name": "Stormbolter",
+                "pts_delta": 3
+              },
+              {
+                "name": "Combi Flamer",
+                "pts_delta": 7
+              },
+              {
+                "name": "Combi Grav",
+                "pts_delta": 9
+              },
+              {
+                "name": "Combi Plasma",
+                "pts_delta": 9
+              },
+              {
+                "name": "Combi Melta",
+                "pts_delta": 24
+              },
+              {
+                "name": "Bolt Pistol",
+                "pts_delta": 0
+              },
+              {
+                "name": "Hand Flamer",
+                "pts_delta": 3
+              },
+              {
+                "name": "Plasma Pistol",
+                "pts_delta": 7
+              },
+              {
+                "name": "Grav Pistol",
+                "pts_delta": 8
+              },
+              {
+                "name": "Inferno Pistol",
+                "pts_delta": 24
+              },
+              {
+                "name": "Combat Knife",
+                "pts_delta": 0
+              },
+              {
+                "name": "Chainsword",
+                "pts_delta": 0
+              },
+              {
+                "name": "Lightning Claw",
+                "pts_delta": 3
+              },
+              {
+                "name": "Power Sword",
+                "pts_delta": 3
+              },
+              {
+                "name": "Power Axe",
+                "pts_delta": 4
+              },
+              {
+                "name": "Power Maul",
+                "pts_delta": 5
+              },
+              {
+                "name": "Power Fist",
+                "pts_delta": 10
+              },
+              {
+                "name": "Thunderhammer",
+                "pts_delta": 18
+              },
+              {
+                "name": "Flamer",
+                "pts_delta": 5
+              },
+              {
+                "name": "Grav Gun",
+                "pts_delta": 7
+              },
+              {
+                "name": "Plasma Gun",
+                "pts_delta": 7
+              },
+              {
+                "name": "Meltagun",
+                "pts_delta": 22
+              },
+              {
+                "name": "Heavy Bolter",
+                "pts_delta": 10
+              },
+              {
+                "name": "Missile Launcher",
+                "pts_delta": 20
+              },
+              {
+                "name": "Frag Grenades",
+                "pts_delta": 0
+              },
+              {
+                "name": "Krak Grenades",
+                "pts_delta": 0
+              },
+              {
+                "name": "Meltabombs",
+                "pts_delta": 5
+              }
+            ]
           }
         ]
       },
@@ -2639,7 +4017,148 @@
         "options": [
           {
             "description": "May take up to 5 more Veterans for +56 points each Sergeant may swap Krak Grenades for G Any model may swap Special Issue Boltgun for R or S Up to two models may swap Special Issue Boltgun for H Any model may swap Bolt Pistol for P Any model may swap Combat Knife for M Any Deathwatch model may swap Combat Knife for DWM",
-            "choices": []
+            "choices": [
+              {
+                "name": "Special Issue Boltgun",
+                "pts_delta": 0
+              },
+              {
+                "name": "Special Issue Stormbolter",
+                "pts_delta": 2
+              },
+              {
+                "name": "Combi Flamer",
+                "pts_delta": 3
+              },
+              {
+                "name": "Combi Grav",
+                "pts_delta": 5
+              },
+              {
+                "name": "Combi Plasma",
+                "pts_delta": 5
+              },
+              {
+                "name": "Combi Melta",
+                "pts_delta": 20
+              },
+              {
+                "name": "Flamer",
+                "pts_delta": 1
+              },
+              {
+                "name": "Grav Gun",
+                "pts_delta": 3
+              },
+              {
+                "name": "Plasma Gun",
+                "pts_delta": 3
+              },
+              {
+                "name": "Meltagun",
+                "pts_delta": 18
+              },
+              {
+                "name": "Heavy Flamer",
+                "pts_delta": 4
+              },
+              {
+                "name": "Heavy Bolter",
+                "pts_delta": 6
+              },
+              {
+                "name": "Plasma Cannon",
+                "pts_delta": 11
+              },
+              {
+                "name": "Grav Cannon",
+                "pts_delta": 11
+              },
+              {
+                "name": "Missile Launcher",
+                "pts_delta": 16
+              },
+              {
+                "name": "Lascannon",
+                "pts_delta": 18
+              },
+              {
+                "name": "Multimelta",
+                "pts_delta": 24
+              },
+              {
+                "name": "Bolt Pistol",
+                "pts_delta": 0
+              },
+              {
+                "name": "Hand Flamer",
+                "pts_delta": 3
+              },
+              {
+                "name": "Plasma Pistol",
+                "pts_delta": 7
+              },
+              {
+                "name": "Grav Pistol",
+                "pts_delta": 8
+              },
+              {
+                "name": "Inferno Pistol",
+                "pts_delta": 24
+              },
+              {
+                "name": "Combat Knife",
+                "pts_delta": 0
+              },
+              {
+                "name": "Chainsword",
+                "pts_delta": 0
+              },
+              {
+                "name": "Lightning Claw",
+                "pts_delta": 3
+              },
+              {
+                "name": "Power Sword",
+                "pts_delta": 3
+              },
+              {
+                "name": "Power Axe",
+                "pts_delta": 4
+              },
+              {
+                "name": "Power Maul",
+                "pts_delta": 5
+              },
+              {
+                "name": "Power Fist",
+                "pts_delta": 10
+              },
+              {
+                "name": "Thunderhammer",
+                "pts_delta": 18
+              },
+              {
+                "name": "+35",
+                "pts_delta": 0
+              },
+              {
+                "name": "And Meltagun",
+                "pts_delta": 0
+              },
+              {
+                "name": "Frag Grenades",
+                "pts_delta": 0
+              },
+              {
+                "name": "Krak Grenades",
+                "pts_delta": 0
+              },
+              {
+                "name": "Meltabombs",
+                "pts_delta": 5
+              }
+            ]
           }
         ]
       },
@@ -2718,6 +4237,94 @@
             "description": "May take up to 5 more Scouts for +43 points each Sergeant may swap Shotgun for OR or R Sergeant may swap Bolt Pistol for P Sergeant may swap Combat Knife for M Sergeant may swap Krak Grenades for G Any model may swap Shotgun for R Up to two Scouts may swap Shotgun for H The entire unit may take one of each E",
             "choices": [
               {
+                "name": "Shotgun",
+                "pts_delta": 0
+              },
+              {
+                "name": "Boltgun",
+                "pts_delta": 1
+              },
+              {
+                "name": "Sniper Rifle",
+                "pts_delta": 6
+              },
+              {
+                "name": "Stormbolter",
+                "pts_delta": 3
+              },
+              {
+                "name": "Combi Flamer",
+                "pts_delta": 7
+              },
+              {
+                "name": "Combi Grav",
+                "pts_delta": 9
+              },
+              {
+                "name": "Combi Plasma",
+                "pts_delta": 9
+              },
+              {
+                "name": "Combi Melta",
+                "pts_delta": 24
+              },
+              {
+                "name": "Bolt Pistol",
+                "pts_delta": 0
+              },
+              {
+                "name": "Hand Flamer",
+                "pts_delta": 3
+              },
+              {
+                "name": "Plasma Pistol",
+                "pts_delta": 7
+              },
+              {
+                "name": "Combat Knife",
+                "pts_delta": 0
+              },
+              {
+                "name": "Chainsword",
+                "pts_delta": 0
+              },
+              {
+                "name": "Power Sword",
+                "pts_delta": 3
+              },
+              {
+                "name": "Power Axe",
+                "pts_delta": 4
+              },
+              {
+                "name": "Power Fist",
+                "pts_delta": 10
+              },
+              {
+                "name": "Thunderhammer",
+                "pts_delta": 18
+              },
+              {
+                "name": "Heavy Bolter",
+                "pts_delta": 10
+              },
+              {
+                "name": "Missile Launcher",
+                "pts_delta": 20
+              },
+              {
+                "name": "Frag Grenades",
+                "pts_delta": 0
+              },
+              {
+                "name": "Krak Grenades",
+                "pts_delta": 0
+              },
+              {
+                "name": "Meltabombs",
+                "pts_delta": 5
+              },
+              {
                 "name": "Camo Cloaks",
                 "pts_delta": 2
               }
@@ -2791,7 +4398,64 @@
         "options": [
           {
             "description": "May take up to 5 more Veterans for +48 points each Sergeant May swap Chainsword for M or OM Sergeant may swap Krak Grenades for G Any model may swap Bolt Pistol for P or A Any model may swap Chainsword for M Any model may swap Bolt Pistol and Chainsword for SM The unit may take one B",
-            "choices": []
+            "choices": [
+              {
+                "name": "Bolt Pistol",
+                "pts_delta": 0
+              },
+              {
+                "name": "Plasma Pistol",
+                "pts_delta": 7
+              },
+              {
+                "name": "Grav Pistol",
+                "pts_delta": 8
+              },
+              {
+                "name": "Chainsword",
+                "pts_delta": 0
+              },
+              {
+                "name": "Lightning Claw",
+                "pts_delta": 3
+              },
+              {
+                "name": "Power Sword",
+                "pts_delta": 3
+              },
+              {
+                "name": "Power Axe",
+                "pts_delta": 4
+              },
+              {
+                "name": "Relic Blade",
+                "pts_delta": 7
+              },
+              {
+                "name": "Power Fist",
+                "pts_delta": 10
+              },
+              {
+                "name": "Thunderhammer",
+                "pts_delta": 18
+              },
+              {
+                "name": "Dual Lightning Claws",
+                "pts_delta": 4
+              },
+              {
+                "name": "Frag Grenades",
+                "pts_delta": 0
+              },
+              {
+                "name": "Krak Grenades",
+                "pts_delta": 0
+              },
+              {
+                "name": "Meltabombs",
+                "pts_delta": 5
+              }
+            ]
           }
         ]
       },
@@ -2861,11 +4525,75 @@
         "options": [
           {
             "description": "May take up to 5 more Veterans for +48 points each Sergeant may swap Krak Grenades for G Any model may swap Bolt Pistol for P or A Any model may swap Combat Knife for M Any model may swap Bolt Pistol and Combat Knife for SM The unit may take one B",
-            "choices": []
-          },
-          {
-            "description": "May take Stormshield",
             "choices": [
+              {
+                "name": "Bolt Pistol",
+                "pts_delta": 0
+              },
+              {
+                "name": "Hand Flamer",
+                "pts_delta": 3
+              },
+              {
+                "name": "Plasma Pistol",
+                "pts_delta": 7
+              },
+              {
+                "name": "Grav Pistol",
+                "pts_delta": 8
+              },
+              {
+                "name": "Inferno Pistol",
+                "pts_delta": 24
+              },
+              {
+                "name": "Combat Knife",
+                "pts_delta": 0
+              },
+              {
+                "name": "Chainsword",
+                "pts_delta": 0
+              },
+              {
+                "name": "Lightning Claw",
+                "pts_delta": 3
+              },
+              {
+                "name": "Power Sword",
+                "pts_delta": 3
+              },
+              {
+                "name": "Power Axe",
+                "pts_delta": 4
+              },
+              {
+                "name": "Power Maul",
+                "pts_delta": 5
+              },
+              {
+                "name": "Power Fist",
+                "pts_delta": 10
+              },
+              {
+                "name": "Thunderhammer",
+                "pts_delta": 18
+              },
+              {
+                "name": "Dual Lightning Claws",
+                "pts_delta": 4
+              },
+              {
+                "name": "Frag Grenades",
+                "pts_delta": 0
+              },
+              {
+                "name": "Krak Grenades",
+                "pts_delta": 0
+              },
+              {
+                "name": "Meltabombs",
+                "pts_delta": 5
+              },
               {
                 "name": "Stormshield",
                 "pts_delta": 11
@@ -3014,7 +4742,20 @@
         "options": [
           {
             "description": "May take up to 5 more Terminators for +66 points each Any model may swap Dual Lightning Claws for M",
-            "choices": []
+            "choices": [
+              {
+                "name": "Dual Lightning Claws",
+                "pts_delta": 0
+              },
+              {
+                "name": "Lightning Claw and",
+                "pts_delta": 20
+              },
+              {
+                "name": "Thunderhammer and",
+                "pts_delta": 43
+              }
+            ]
           }
         ]
       },
@@ -3090,7 +4831,24 @@
         "options": [
           {
             "description": "May take up to 3 more Centurions for +118 points each Any model may swap Centurion Assault Launcher for H Any model may swap Dual Flamers for S",
-            "choices": []
+            "choices": [
+              {
+                "name": "Centurion Assault",
+                "pts_delta": 0
+              },
+              {
+                "name": "Hurricane Bolter",
+                "pts_delta": 11
+              },
+              {
+                "name": "Dual Flamers",
+                "pts_delta": 0
+              },
+              {
+                "name": "Dual Melta Guns",
+                "pts_delta": 18
+              }
+            ]
           }
         ]
       },
@@ -3166,7 +4924,40 @@
         "options": [
           {
             "description": "May take up to 5 more Terminators for +92 points each Sergeant may swap Power Sword for OM Up to Two models may swap Stormbolters for S Any Terminator may swap Powerfist for M",
-            "choices": []
+            "choices": [
+              {
+                "name": "Heavy Flamer",
+                "pts_delta": 6
+              },
+              {
+                "name": "Cyclone Missile Launcher Stormbolter",
+                "pts_delta": 25
+              },
+              {
+                "name": "Assault Cannon",
+                "pts_delta": 39
+              },
+              {
+                "name": "Power Sword",
+                "pts_delta": 0
+              },
+              {
+                "name": "Power Fist",
+                "pts_delta": 10
+              },
+              {
+                "name": "Chain Fist",
+                "pts_delta": 15
+              },
+              {
+                "name": "Power Fist",
+                "pts_delta": 0
+              },
+              {
+                "name": "Chain Fist",
+                "pts_delta": 5
+              }
+            ]
           }
         ]
       },
@@ -3236,7 +5027,20 @@
         "options": [
           {
             "description": "May take up to 5 more Terminators for +90 points each Any model may swap Dual Lightning Claws for M",
-            "choices": []
+            "choices": [
+              {
+                "name": "Dual Lightning Claws",
+                "pts_delta": 0
+              },
+              {
+                "name": "Lightning Claw and",
+                "pts_delta": 20
+              },
+              {
+                "name": "Thunderhammer and",
+                "pts_delta": 43
+              }
+            ]
           }
         ]
       },
@@ -3312,7 +5116,28 @@
         "options": [
           {
             "description": "May take up to 5 more Terminators for +114 points each Sergeant may swap Power Sword for OM Up to Two models may swap Stormbolters for S Any Terminator may swap Powerfist for M",
-            "choices": []
+            "choices": [
+              {
+                "name": "Heavy Flamer",
+                "pts_delta": 6
+              },
+              {
+                "name": "Cyclone Missile Launcher Stormbolter",
+                "pts_delta": 25
+              },
+              {
+                "name": "Assault Cannon",
+                "pts_delta": 39
+              },
+              {
+                "name": "Power Sword",
+                "pts_delta": 0
+              },
+              {
+                "name": "Power Fist",
+                "pts_delta": 10
+              }
+            ]
           }
         ]
       },
@@ -3356,7 +5181,48 @@
         "options": [
           {
             "description": "May swap any Volkite Culverin for H",
-            "choices": []
+            "choices": [
+              {
+                "name": "Kheres Assault Cannon",
+                "pts_delta": 16
+              },
+              {
+                "name": "Dreadnought Combat and",
+                "pts_delta": 17
+              },
+              {
+                "name": "Dreadnought Combat and Flamer",
+                "pts_delta": 19
+              },
+              {
+                "name": "Dreadnought Combat and Blaster",
+                "pts_delta": 20
+              },
+              {
+                "name": "Heavy Plasma Cannon",
+                "pts_delta": 24
+              },
+              {
+                "name": "Dreadnought Combat and",
+                "pts_delta": 27
+              },
+              {
+                "name": "Dreadnought Chain Stormbolter",
+                "pts_delta": 33
+              },
+              {
+                "name": "Dreadnought Chain Heavy",
+                "pts_delta": 35
+              },
+              {
+                "name": "Dreadnought Chain Graviton",
+                "pts_delta": 36
+              },
+              {
+                "name": "Dreadnought Chain Meltagun",
+                "pts_delta": 43
+              }
+            ]
           },
           {
             "description": "May take up to one of each E",
@@ -3403,7 +5269,24 @@
         "options": [
           {
             "description": "May swap any Hellfire Plasma Carronade for T",
-            "choices": []
+            "choices": [
+              {
+                "name": "Hellfire Plasma Carronade",
+                "pts_delta": 0
+              },
+              {
+                "name": "Anvillus Auto Cannon",
+                "pts_delta": 5
+              },
+              {
+                "name": "Volkite Falconet",
+                "pts_delta": 7
+              },
+              {
+                "name": "Arachnus Heavy Lascannon Flamers Bolters",
+                "pts_delta": 8
+              }
+            ]
           }
         ]
       },
@@ -3447,11 +5330,45 @@
         "options": [
           {
             "description": "May add up to two more Dreadnoughts for +138 points each Any Dreadnought may swap any Dreadnought Missile Launcher for H Any Space Wolf Dreadnought",
-            "choices": []
+            "choices": [
+              {
+                "name": "Dreadnought Missile",
+                "pts_delta": 0
+              },
+              {
+                "name": "Multimelta Autocannons",
+                "pts_delta": 2
+              },
+              {
+                "name": "Assault Cannon Lascannons",
+                "pts_delta": 5
+              },
+              {
+                "name": "Dreadnought Combat and",
+                "pts_delta": 12
+              },
+              {
+                "name": "Dreadnought Combat and Flamer",
+                "pts_delta": 14
+              },
+              {
+                "name": "Heavy Plasma Cannon",
+                "pts_delta": 28
+              },
+              {
+                "name": "Or",
+                "pts_delta": 0
+              }
+            ]
           },
           {
             "description": "may swap Dreadnought Missile Launcher for SWE or SWW Any Dreadnought may take up to one of each E Any Blood Angels Dreadnought",
-            "choices": []
+            "choices": [
+              {
+                "name": "+16",
+                "pts_delta": 0
+              }
+            ]
           },
           {
             "description": "may take one up one of each BAE",
@@ -3500,7 +5417,12 @@
         "options": [
           {
             "description": "May swap 2 Linked Autocannons for T",
-            "choices": []
+            "choices": [
+              {
+                "name": "Incendium Cannon Fragstorm Grenade Launchers Stubbers",
+                "pts_delta": 0
+              }
+            ]
           },
           {
             "description": "May swap 2 Linked Fragstorm Grenade Launchers for H",
@@ -3552,37 +5474,82 @@
         "options": [
           {
             "description": "May add up to two more Dreadnoughts for +138 points each Any Dreadnought may swap any Dreadnought Missile Launcher for H Any Blood Angels Dreadnought",
-            "choices": []
-          },
-          {
-            "description": "may swap any Dreadnought Missile Launcher for BAW Any Space Wolf Dreadnought",
-            "choices": []
-          },
-          {
-            "description": "may swap Dreadnought Missile Launcher for SWE or SWW Any Dreadnought may take up to 2 M Any Dreadnought may take up to one of each E Any Blood Angels Dreadnought",
-            "choices": []
-          },
-          {
-            "description": "may take one up one of each BAE",
-            "choices": []
-          },
-          {
-            "description": "May take Extra Armour",
             "choices": [
               {
-                "name": "Extra Armour",
+                "name": "Dreadnought Missile",
+                "pts_delta": 0
+              },
+              {
+                "name": "Multimelta Autocannons",
+                "pts_delta": 2
+              },
+              {
+                "name": "Assault Cannon Lascannons",
                 "pts_delta": 5
+              },
+              {
+                "name": "Dreadnought Combat and",
+                "pts_delta": 12
+              },
+              {
+                "name": "Dreadnought Combat and Flamer",
+                "pts_delta": 14
+              },
+              {
+                "name": "Seismic Hammer and",
+                "pts_delta": 21
+              },
+              {
+                "name": "Seismic Hammer and Flamer",
+                "pts_delta": 23
+              },
+              {
+                "name": "Heavy Plasma Cannon",
+                "pts_delta": 28
+              },
+              {
+                "name": "Seismic Hammer and",
+                "pts_delta": 30
+              },
+              {
+                "name": "Or",
+                "pts_delta": 0
               }
             ]
           },
           {
-            "description": "May take Smoke Launchers",
+            "description": "may swap any Dreadnought Missile Launcher for BAW Any Space Wolf Dreadnought",
             "choices": [
+              {
+                "name": "Frag Cannon",
+                "pts_delta": 3
+              }
+            ]
+          },
+          {
+            "description": "may swap Dreadnought Missile Launcher for SWE or SWW Any Dreadnought may take up to 2 M Any Dreadnought may take up to one of each E Any Blood Angels Dreadnought",
+            "choices": [
+              {
+                "name": "+16",
+                "pts_delta": 0
+              },
+              {
+                "name": "Hunter Killer Missile",
+                "pts_delta": 5
+              },
+              {
+                "name": "Extra Armour",
+                "pts_delta": 5
+              },
               {
                 "name": "Smoke Launchers",
                 "pts_delta": 10
               }
             ]
+          },
+          {
+            "description": "may take one up one of each BAE",
+            "choices": []
           }
         ]
       },
@@ -3626,7 +5593,44 @@
         "options": [
           {
             "description": "May swap any Hellfire Plasma Carronade for T",
-            "choices": []
+            "choices": [
+              {
+                "name": "Hellfire Plasma Carronade",
+                "pts_delta": 0
+              },
+              {
+                "name": "Anvillus Auto Cannon",
+                "pts_delta": 5
+              },
+              {
+                "name": "Volkite Falconet",
+                "pts_delta": 7
+              },
+              {
+                "name": "Arachnus Heavy Lascannon",
+                "pts_delta": 8
+              },
+              {
+                "name": "Grav Flux Bombard",
+                "pts_delta": 18
+              },
+              {
+                "name": "Storm Cannon Array",
+                "pts_delta": 22
+              },
+              {
+                "name": "Cyclonic Melta Lance",
+                "pts_delta": 35
+              },
+              {
+                "name": "Leviathan Siege Drill Meltagun",
+                "pts_delta": 38
+              },
+              {
+                "name": "Leviathan Siege Claw Meltagun Flamers Bolters Calivers",
+                "pts_delta": 42
+              }
+            ]
           },
           {
             "description": "May swap 2 Linked Heavy Flamers for H",
@@ -3634,7 +5638,12 @@
           },
           {
             "description": "May take up to three M",
-            "choices": []
+            "choices": [
+              {
+                "name": "Hunter Killer Missile",
+                "pts_delta": 5
+              }
+            ]
           },
           {
             "description": "May take up to one of each E",
@@ -3687,7 +5696,28 @@
         "options": [
           {
             "description": "May swap any Ballistus Missile Launcher for H",
-            "choices": []
+            "choices": [
+              {
+                "name": "Ballistus Missile Launcher",
+                "pts_delta": 0
+              },
+              {
+                "name": "Heavy Onslaught Gatling",
+                "pts_delta": 8
+              },
+              {
+                "name": "Dreadnought Combat and Grenade Launcher",
+                "pts_delta": 8
+              },
+              {
+                "name": "Dreadnought Combat and",
+                "pts_delta": 9
+              },
+              {
+                "name": "Dreadnought Combat and Bolt Lascannons Incinerator Combat and Gatling Stormbolters Flamers Bolters Multimeltas Pod Stubbers",
+                "pts_delta": 12
+              }
+            ]
           },
           {
             "description": "May swap 2 Linked Stormbolters for S",
@@ -3775,7 +5805,84 @@
         "options": [
           {
             "description": "May take up to 5 more Marines for +35 points each Space Wolf Tactical Squad may upgrade a model to a Sergeant for +4 points Sergeant may swap Bolt Pistol for P or A Sergeant may swap Chainsword for M Sergeant may swap Krak Grenades for G Two Marines may take S or swap Bolt Pistol for Plasma Pistol Two Blood Angels Marines may take BAS if they did not take S",
-            "choices": []
+            "choices": [
+              {
+                "name": "Bolt Pistol",
+                "pts_delta": 0
+              },
+              {
+                "name": "Hand Flamer",
+                "pts_delta": 3
+              },
+              {
+                "name": "Plasma Pistol",
+                "pts_delta": 7
+              },
+              {
+                "name": "Grav Pistol",
+                "pts_delta": 8
+              },
+              {
+                "name": "Inferno Pistol",
+                "pts_delta": 24
+              },
+              {
+                "name": "Chainsword",
+                "pts_delta": 0
+              },
+              {
+                "name": "Lightning Claw",
+                "pts_delta": 3
+              },
+              {
+                "name": "Power Sword",
+                "pts_delta": 3
+              },
+              {
+                "name": "Power Axe",
+                "pts_delta": 4
+              },
+              {
+                "name": "Power Maul",
+                "pts_delta": 5
+              },
+              {
+                "name": "Power Fist",
+                "pts_delta": 10
+              },
+              {
+                "name": "Eviscerator",
+                "pts_delta": 11
+              },
+              {
+                "name": "Thunderhammer",
+                "pts_delta": 18
+              },
+              {
+                "name": "Flamer",
+                "pts_delta": 8
+              },
+              {
+                "name": "Plasma Gun",
+                "pts_delta": 10
+              },
+              {
+                "name": "Meltagun",
+                "pts_delta": 25
+              },
+              {
+                "name": "Frag Grenades",
+                "pts_delta": 0
+              },
+              {
+                "name": "Krak Grenades",
+                "pts_delta": 0
+              },
+              {
+                "name": "Meltabombs",
+                "pts_delta": 5
+              }
+            ]
           }
         ]
       }
@@ -3932,11 +6039,101 @@
         "options": [
           {
             "description": "May take up to 6 more Marines for +53 points each Sergeant may swap Bolt Pistol for P or A Sergeant may swap Chainsword for M Sergeant may swap Krak Grenades for G Up to Two Marines may swap Bolt Pistol for S or Plasma Pistol",
-            "choices": []
+            "choices": [
+              {
+                "name": "Bolt Pistol",
+                "pts_delta": 0
+              },
+              {
+                "name": "Hand Flamer",
+                "pts_delta": 3
+              },
+              {
+                "name": "Plasma Pistol",
+                "pts_delta": 7
+              },
+              {
+                "name": "Grav Pistol",
+                "pts_delta": 8
+              },
+              {
+                "name": "Inferno Pistol",
+                "pts_delta": 24
+              },
+              {
+                "name": "Combat Knife",
+                "pts_delta": 0
+              },
+              {
+                "name": "Chainsword",
+                "pts_delta": 0
+              },
+              {
+                "name": "Lightning Claw",
+                "pts_delta": 3
+              },
+              {
+                "name": "Power Sword",
+                "pts_delta": 3
+              },
+              {
+                "name": "Power Axe",
+                "pts_delta": 4
+              },
+              {
+                "name": "Power Maul",
+                "pts_delta": 5
+              },
+              {
+                "name": "Power Fist",
+                "pts_delta": 10
+              },
+              {
+                "name": "Thunderhammer",
+                "pts_delta": 18
+              },
+              {
+                "name": "Flamer",
+                "pts_delta": 5
+              },
+              {
+                "name": "Grav Gun",
+                "pts_delta": 7
+              },
+              {
+                "name": "Plasma Gun",
+                "pts_delta": 7
+              },
+              {
+                "name": "Meltagun",
+                "pts_delta": 22
+              },
+              {
+                "name": "Frag Grenades",
+                "pts_delta": 0
+              },
+              {
+                "name": "Krak Grenades",
+                "pts_delta": 0
+              },
+              {
+                "name": "Meltabombs",
+                "pts_delta": 5
+              }
+            ]
           },
           {
             "description": "May take up to one Attack Bike for +82 points Attack Bike may swap Heavy Bolter for H",
-            "choices": []
+            "choices": [
+              {
+                "name": "Heavy Bolter",
+                "pts_delta": 0
+              },
+              {
+                "name": "Multimelta",
+                "pts_delta": 18
+              }
+            ]
           }
         ]
       },
@@ -4014,7 +6211,20 @@
         "options": [
           {
             "description": "May take up to 3 more Marines for +71 points each Sergeant may swap Krak Grenades for G",
-            "choices": []
+            "choices": [
+              {
+                "name": "Frag Grenades",
+                "pts_delta": 0
+              },
+              {
+                "name": "Krak Grenades",
+                "pts_delta": 0
+              },
+              {
+                "name": "Meltabombs",
+                "pts_delta": 5
+              }
+            ]
           }
         ]
       },
@@ -4094,7 +6304,108 @@
         "options": [
           {
             "description": "May take up to 7 more Scouts for +57 points each Sergeant may swap Shotgun for OR or OS Sergeant may swap Bolt Pistol for P or A Sergeant may swap Chainsword for M Sergeant may swap Krak Grenades for G Any model may swap Stormbolter for S",
-            "choices": []
+            "choices": [
+              {
+                "name": "Combi Flamer",
+                "pts_delta": 7
+              },
+              {
+                "name": "Combi Grav",
+                "pts_delta": 9
+              },
+              {
+                "name": "Combi Plasma",
+                "pts_delta": 9
+              },
+              {
+                "name": "Combi Melta",
+                "pts_delta": 24
+              },
+              {
+                "name": "Flamer",
+                "pts_delta": 6
+              },
+              {
+                "name": "Grav Gun",
+                "pts_delta": 8
+              },
+              {
+                "name": "Plasma Gun",
+                "pts_delta": 8
+              },
+              {
+                "name": "Meltagun",
+                "pts_delta": 23
+              },
+              {
+                "name": "Bolt Pistol",
+                "pts_delta": 0
+              },
+              {
+                "name": "Hand Flamer",
+                "pts_delta": 3
+              },
+              {
+                "name": "Plasma Pistol",
+                "pts_delta": 7
+              },
+              {
+                "name": "Grav Pistol",
+                "pts_delta": 8
+              },
+              {
+                "name": "Inferno Pistol",
+                "pts_delta": 24
+              },
+              {
+                "name": "Combat Knife",
+                "pts_delta": 0
+              },
+              {
+                "name": "Chainsword",
+                "pts_delta": 0
+              },
+              {
+                "name": "Lightning Claw",
+                "pts_delta": 3
+              },
+              {
+                "name": "Power Sword",
+                "pts_delta": 3
+              },
+              {
+                "name": "Power Axe",
+                "pts_delta": 4
+              },
+              {
+                "name": "Power Maul",
+                "pts_delta": 5
+              },
+              {
+                "name": "Power Fist",
+                "pts_delta": 10
+              },
+              {
+                "name": "Thunderhammer",
+                "pts_delta": 18
+              },
+              {
+                "name": "Scout Grenade Launcher",
+                "pts_delta": 10
+              },
+              {
+                "name": "Frag Grenades",
+                "pts_delta": 0
+              },
+              {
+                "name": "Krak Grenades",
+                "pts_delta": 0
+              },
+              {
+                "name": "Meltabombs",
+                "pts_delta": 5
+              }
+            ]
           }
         ]
       },
@@ -4286,6 +6597,14 @@
             "description": "May take up to two more ATVs for +120 points each Any model may swap any Onslaught Gatling Cannon for H Any model may take up to one of each E",
             "choices": [
               {
+                "name": "Onslaught Gatling",
+                "pts_delta": 0
+              },
+              {
+                "name": "Multimelta Bolt",
+                "pts_delta": 0
+              },
+              {
                 "name": "Extra Armour",
                 "pts_delta": 5
               }
@@ -4332,6 +6651,14 @@
           {
             "description": "May take up to two more ATVs for +120 points each Any model may swap any Onslaught Gatling Cannon for H Any model may take up to one of each E",
             "choices": [
+              {
+                "name": "Onslaught Gatling",
+                "pts_delta": 0
+              },
+              {
+                "name": "Multimelta Bolt",
+                "pts_delta": 0
+              },
               {
                 "name": "Extra Armour",
                 "pts_delta": 5
@@ -4383,6 +6710,18 @@
             "description": "May take up to two more Javelin Speeders for +109 points each Any model may swap Heavy Bolter for H Any model may swap 2 Linked Lascannons for T Any model may take up to two M Any model may take up to one of each E",
             "choices": [
               {
+                "name": "Heavy Bolter",
+                "pts_delta": 0
+              },
+              {
+                "name": "Multimelta Lascannons Missile Launchers",
+                "pts_delta": 14
+              },
+              {
+                "name": "Hunter Killer Missile",
+                "pts_delta": 5
+              },
+              {
                 "name": "Extra Armour",
                 "pts_delta": 5
               }
@@ -4432,6 +6771,42 @@
           {
             "description": "May take up to two more Land Speeders for +106 points each Any model may swap Heavy Flamer T for T Any model may swap Heavy Flamer H for H Any model may take up to one of each E",
             "choices": [
+              {
+                "name": "Heavy Flamer",
+                "pts_delta": 0
+              },
+              {
+                "name": "Heavy Bolter",
+                "pts_delta": 2
+              },
+              {
+                "name": "Cyclone Missile Launcher",
+                "pts_delta": 14
+              },
+              {
+                "name": "Multimelta",
+                "pts_delta": 23
+              },
+              {
+                "name": "Assault Cannon",
+                "pts_delta": 34
+              },
+              {
+                "name": "Heavy Flamer",
+                "pts_delta": 0
+              },
+              {
+                "name": "Heavy Bolter",
+                "pts_delta": 1
+              },
+              {
+                "name": "Multimelta",
+                "pts_delta": 11
+              },
+              {
+                "name": "Assault Cannon",
+                "pts_delta": 17
+              },
               {
                 "name": "Data Link",
                 "pts_delta": 5
@@ -4538,6 +6913,18 @@
             "description": "May take up to two more Land Speeders for +84 points each Any model may swap Heavy Any model may take up to four R Any model may take up to one of each E",
             "choices": [
               {
+                "name": "Shotgun",
+                "pts_delta": 1
+              },
+              {
+                "name": "Boltgun",
+                "pts_delta": 3
+              },
+              {
+                "name": "Sniper Rifle",
+                "pts_delta": 6
+              },
+              {
                 "name": "Data Link",
                 "pts_delta": 5
               }
@@ -4588,11 +6975,25 @@
         "options": [
           {
             "description": "May swap 2 Linked Heavy Stubbers for T",
-            "choices": []
+            "choices": [
+              {
+                "name": "Support",
+                "pts_delta": 0
+              }
+            ]
           },
           {
             "description": "May swap any Onslaught Gatling Cannon for H",
-            "choices": []
+            "choices": [
+              {
+                "name": "Las Talon",
+                "pts_delta": 0
+              },
+              {
+                "name": "Onslaught Gatling Fragstorm Grenade Launchers Krakstorm Grenade Launchers Rocket",
+                "pts_delta": 3
+              }
+            ]
           },
           {
             "description": "May swap 2 Linked Fragstorm Grenade Launchers for S Any model may take up to one of each E",
@@ -4788,7 +7189,20 @@
         "options": [
           {
             "description": "May take up to 5 more Marines for +70 points each Sergeant may swap Superfrag Launcher for H or OH Sergeant may swap Combat Knife for M Sergeant may swap Krak Grenades for G All Marines may swap their Superfrag Launchers for the same H",
-            "choices": []
+            "choices": [
+              {
+                "name": "Frag Grenades",
+                "pts_delta": 0
+              },
+              {
+                "name": "Krak Grenades",
+                "pts_delta": 0
+              },
+              {
+                "name": "Meltabombs",
+                "pts_delta": 5
+              }
+            ]
           }
         ]
       },
@@ -4866,17 +7280,124 @@
             "description": "May take up to 5 more Marines for +39 points each Space Wolf Tactical Squad may upgrade a model to a Sergeant for +4 points Sergeant(s) may swap Boltgun for OR or A Sergeant(s) may swap Bolt Pistol for P Sergeant(s) may swap Combat Knife for M Sergeant(s) may swap Krak Grenades for G Space Wolf Sergeant(s) may take one B Four Marines MUST swap Boltgun for H",
             "choices": [
               {
-                "name": "Terminator Armour",
+                "name": "Stormbolter",
+                "pts_delta": 2
+              },
+              {
+                "name": "Combi Flamer",
                 "pts_delta": 6
-              }
-            ]
-          },
-          {
-            "description": "May take Stormshield",
-            "choices": [
+              },
+              {
+                "name": "Combi Grav",
+                "pts_delta": 8
+              },
+              {
+                "name": "Combi Plasma",
+                "pts_delta": 8
+              },
+              {
+                "name": "Combi Melta",
+                "pts_delta": 23
+              },
+              {
+                "name": "Bolt Pistol",
+                "pts_delta": 0
+              },
+              {
+                "name": "Hand Flamer",
+                "pts_delta": 3
+              },
+              {
+                "name": "Plasma Pistol",
+                "pts_delta": 7
+              },
+              {
+                "name": "Grav Pistol",
+                "pts_delta": 8
+              },
+              {
+                "name": "Inferno Pistol",
+                "pts_delta": 24
+              },
+              {
+                "name": "Combat Knife",
+                "pts_delta": 0
+              },
+              {
+                "name": "Chainsword",
+                "pts_delta": 0
+              },
+              {
+                "name": "Lightning Claw",
+                "pts_delta": 3
+              },
+              {
+                "name": "Power Sword",
+                "pts_delta": 3
+              },
+              {
+                "name": "Power Axe",
+                "pts_delta": 4
+              },
+              {
+                "name": "Power Maul",
+                "pts_delta": 5
+              },
+              {
+                "name": "Power Fist",
+                "pts_delta": 10
+              },
+              {
+                "name": "Thunderhammer",
+                "pts_delta": 18
+              },
+              {
+                "name": "Heavy Flamer",
+                "pts_delta": 7
+              },
+              {
+                "name": "Heavy Bolter",
+                "pts_delta": 9
+              },
+              {
+                "name": "Plasma Cannon",
+                "pts_delta": 14
+              },
+              {
+                "name": "Grav Cannon",
+                "pts_delta": 14
+              },
+              {
+                "name": "Missile Launcher",
+                "pts_delta": 19
+              },
+              {
+                "name": "Lascannon",
+                "pts_delta": 21
+              },
+              {
+                "name": "Multimelta",
+                "pts_delta": 27
+              },
+              {
+                "name": "Frag Grenades",
+                "pts_delta": 0
+              },
+              {
+                "name": "Krak Grenades",
+                "pts_delta": 0
+              },
+              {
+                "name": "Meltabombs",
+                "pts_delta": 5
+              },
               {
                 "name": "Stormshield",
                 "pts_delta": 10
+              },
+              {
+                "name": "Terminator Armour",
+                "pts_delta": 6
               }
             ]
           }
@@ -4951,7 +7472,60 @@
         "options": [
           {
             "description": "May take up to 5 more Marines for +50 points each Sergeant may swap Bolt Pistol for P Sergeant may swap Combat Knife for M Sergeant may swap Krak Grenades for G The entire unit may swap Assault Plasma Incinerators for the same R",
-            "choices": []
+            "choices": [
+              {
+                "name": "Heavy Flamer",
+                "pts_delta": 0
+              },
+              {
+                "name": "Bolt Pistol",
+                "pts_delta": 0
+              },
+              {
+                "name": "Hand Flamer",
+                "pts_delta": 1
+              },
+              {
+                "name": "Plasma Pistol",
+                "pts_delta": 5
+              },
+              {
+                "name": "Combat Knife",
+                "pts_delta": 0
+              },
+              {
+                "name": "Chainsword",
+                "pts_delta": 0
+              },
+              {
+                "name": "Lightning Claw",
+                "pts_delta": 3
+              },
+              {
+                "name": "Power Sword",
+                "pts_delta": 3
+              },
+              {
+                "name": "Power Fist",
+                "pts_delta": 10
+              },
+              {
+                "name": "Thunderhammer",
+                "pts_delta": 18
+              },
+              {
+                "name": "Frag Grenades",
+                "pts_delta": 0
+              },
+              {
+                "name": "Krak Grenades",
+                "pts_delta": 0
+              },
+              {
+                "name": "Meltabombs",
+                "pts_delta": 5
+              }
+            ]
           }
         ]
       },
@@ -5024,7 +7598,60 @@
         "options": [
           {
             "description": "May take up to 5 more Marines for +48 points each Sergeant may swap Bolt Pistol for P Sergeant may swap Combat Knife for M Sergeant may swap Krak Grenades for G The entire unit may swap Assault Plasma Incinerators for the same R",
-            "choices": []
+            "choices": [
+              {
+                "name": "Assault Plasma Incinerator",
+                "pts_delta": 0
+              },
+              {
+                "name": "per Plasma",
+                "pts_delta": 3
+              },
+              {
+                "name": "per Heavy Plasma",
+                "pts_delta": 8
+              },
+              {
+                "name": "Bolt Pistol",
+                "pts_delta": 0
+              },
+              {
+                "name": "Hand Flamer",
+                "pts_delta": 1
+              },
+              {
+                "name": "Plasma Pistol",
+                "pts_delta": 5
+              },
+              {
+                "name": "Combat Knife",
+                "pts_delta": 0
+              },
+              {
+                "name": "Chainsword",
+                "pts_delta": 0
+              },
+              {
+                "name": "Lightning Claw",
+                "pts_delta": 3
+              },
+              {
+                "name": "Power Sword",
+                "pts_delta": 3
+              },
+              {
+                "name": "Power Fist",
+                "pts_delta": 10
+              },
+              {
+                "name": "Thunderhammer",
+                "pts_delta": 18
+              },
+              {
+                "name": "Frag Grenades",
+                "pts_delta": 0
+              }
+            ]
           }
         ]
       },
@@ -5098,7 +7725,12 @@
         "options": [
           {
             "description": "May take up to 3 more Centurions for +109 points each Any model may swap Hurricane Bolter for H Any model may swap Dual Flamers for S",
-            "choices": []
+            "choices": [
+              {
+                "name": "Centurion Missile",
+                "pts_delta": 11
+              }
+            ]
           }
         ]
       },
@@ -5176,7 +7808,32 @@
         "options": [
           {
             "description": "May take up to 3 more Eliminators for +84 points each Sergeant may swap Krak Grenades for G Any model may swap Auto Bolt Rifle for R",
-            "choices": []
+            "choices": [
+              {
+                "name": "Auto Bolt Rifle",
+                "pts_delta": 0
+              },
+              {
+                "name": "Special Issue Stalker",
+                "pts_delta": 12
+              },
+              {
+                "name": "Las Fusil",
+                "pts_delta": 13
+              },
+              {
+                "name": "Frag Grenades",
+                "pts_delta": 0
+              },
+              {
+                "name": "Krak Grenades",
+                "pts_delta": 0
+              },
+              {
+                "name": "Melta Bombs",
+                "pts_delta": 5
+              }
+            ]
           }
         ]
       },
@@ -5250,7 +7907,32 @@
         "options": [
           {
             "description": "May take up to 3 more Eradicator for +106 points each Sergeant may swap Krak Grenades for G Any model may swap Melta Rifle for R Up to two Eradicators may swap Melta Rifle for H",
-            "choices": []
+            "choices": [
+              {
+                "name": "Melta Rifle",
+                "pts_delta": 0
+              },
+              {
+                "name": "Heavy Melta Rifle",
+                "pts_delta": 3
+              },
+              {
+                "name": "Multimelta",
+                "pts_delta": 3
+              },
+              {
+                "name": "Frag Grenades",
+                "pts_delta": 0
+              },
+              {
+                "name": "Krak Grenades",
+                "pts_delta": 0
+              },
+              {
+                "name": "Melta Bombs",
+                "pts_delta": 5
+              }
+            ]
           }
         ]
       },
@@ -5301,15 +7983,62 @@
           },
           {
             "description": "May take one D",
-            "choices": []
+            "choices": [
+              {
+                "name": "Dozerblade",
+                "pts_delta": 9
+              }
+            ]
           },
           {
             "description": "May take one M",
-            "choices": []
+            "choices": [
+              {
+                "name": "Hunter Killer Missile",
+                "pts_delta": 5
+              }
+            ]
           },
           {
             "description": "May take one P",
-            "choices": []
+            "choices": [
+              {
+                "name": "Combi Volkite",
+                "pts_delta": 6
+              },
+              {
+                "name": "Stormbolter",
+                "pts_delta": 7
+              },
+              {
+                "name": "Combi Flamer",
+                "pts_delta": 10
+              },
+              {
+                "name": "Heavy Flamer",
+                "pts_delta": 11
+              },
+              {
+                "name": "Combi Plasma",
+                "pts_delta": 12
+              },
+              {
+                "name": "Havoc Launcher",
+                "pts_delta": 13
+              },
+              {
+                "name": "Heavy Bolter",
+                "pts_delta": 13
+              },
+              {
+                "name": "Combi Melta",
+                "pts_delta": 27
+              },
+              {
+                "name": "Multimelta",
+                "pts_delta": 31
+              }
+            ]
           },
           {
             "description": "May take up to one of each E",
@@ -5369,7 +8098,12 @@
         "options": [
           {
             "description": "May swap 2 Linked Las Talons for T",
-            "choices": []
+            "choices": [
+              {
+                "name": "Lancer Laser Destroyer Onslaught Gatling Linked Bolters Bolters Rocket",
+                "pts_delta": 21
+              }
+            ]
           },
           {
             "description": "May swap 2 Sets of 2 Linked Heavy Bolters for S",
@@ -5381,7 +8115,12 @@
           },
           {
             "description": "May take one P",
-            "choices": []
+            "choices": [
+              {
+                "name": "Heavy Stubber",
+                "pts_delta": 11
+              }
+            ]
           },
           {
             "description": "May take up to one of each E",
@@ -5428,7 +8167,24 @@
         "options": [
           {
             "description": "May take up to two more Hunters for +157 points each Any model may swap 2 Storm Cannons for T Any model may take one D Any model may take one M Any model may take one P Any model may take up to one of each E",
-            "choices": []
+            "choices": [
+              {
+                "name": "Skyspear Missile",
+                "pts_delta": 16
+              },
+              {
+                "name": "Dozerblade",
+                "pts_delta": 9
+              },
+              {
+                "name": "Hunter Killer Missile",
+                "pts_delta": 5
+              },
+              {
+                "name": "Stormbolter",
+                "pts_delta": 7
+              }
+            ]
           }
         ]
       },
@@ -5565,15 +8321,34 @@
           },
           {
             "description": "May take one D",
-            "choices": []
+            "choices": [
+              {
+                "name": "Dozerblade",
+                "pts_delta": 9
+              }
+            ]
           },
           {
             "description": "May take one M",
-            "choices": []
+            "choices": [
+              {
+                "name": "Hunter Killer Missile",
+                "pts_delta": 5
+              }
+            ]
           },
           {
             "description": "May take one P",
-            "choices": []
+            "choices": [
+              {
+                "name": "Stormbolter",
+                "pts_delta": 7
+              },
+              {
+                "name": "Multimelta Rocket",
+                "pts_delta": 31
+              }
+            ]
           },
           {
             "description": "May take up to one of each E",
@@ -5640,15 +8415,30 @@
           },
           {
             "description": "May take one D",
-            "choices": []
+            "choices": [
+              {
+                "name": "Dozerblade",
+                "pts_delta": 9
+              }
+            ]
           },
           {
             "description": "May take one M",
-            "choices": []
+            "choices": [
+              {
+                "name": "Hunter Killer Missile",
+                "pts_delta": 5
+              }
+            ]
           },
           {
             "description": "May take one P",
-            "choices": []
+            "choices": [
+              {
+                "name": "Stormbolter",
+                "pts_delta": 7
+              }
+            ]
           },
           {
             "description": "May take up to one of each E",
@@ -5714,11 +8504,21 @@
           },
           {
             "description": "May take one M",
-            "choices": []
+            "choices": [
+              {
+                "name": "Hunter Killer Missile",
+                "pts_delta": 5
+              }
+            ]
           },
           {
             "description": "May take one P",
-            "choices": []
+            "choices": [
+              {
+                "name": "Stormbolter",
+                "pts_delta": 7
+              }
+            ]
           },
           {
             "description": "May take up to one of each E",
@@ -5808,7 +8608,24 @@
         "options": [
           {
             "description": "May take up to two more Predator for +145 points each Any model may swap Predator Autocannon for T Any Blood Angels Predator may swap Predator Autocannon for BAT instead Any model may take one S Any Blood Angels model may take one BAS instead Any model may take one D Any model may take one M Any model may take one P",
-            "choices": []
+            "choices": [
+              {
+                "name": "Predator Autocannon Lascannons Cannons Cannons",
+                "pts_delta": 0
+              },
+              {
+                "name": "Dozerblade",
+                "pts_delta": 9
+              },
+              {
+                "name": "Hunter Killer Missile",
+                "pts_delta": 5
+              },
+              {
+                "name": "Stormbolter",
+                "pts_delta": 7
+              }
+            ]
           }
         ]
       },
@@ -5855,7 +8672,16 @@
         "options": [
           {
             "description": "May swap Las Talon for T1",
-            "choices": []
+            "choices": [
+              {
+                "name": "Las Talon",
+                "pts_delta": 0
+              },
+              {
+                "name": "Heavy Onslaught Gatling",
+                "pts_delta": 20
+              }
+            ]
           },
           {
             "description": "May swap 2 Fragstorm Grenade Launchers for S",
@@ -5867,7 +8693,16 @@
           },
           {
             "description": "May take one P",
-            "choices": []
+            "choices": [
+              {
+                "name": "Heavy Stubber",
+                "pts_delta": 11
+              },
+              {
+                "name": "Onslaught Gatling",
+                "pts_delta": 31
+              }
+            ]
           },
           {
             "description": "May take up to one of each E",
@@ -5929,7 +8764,16 @@
         "options": [
           {
             "description": "May swap Macro Plasma Incinerator for T1",
-            "choices": []
+            "choices": [
+              {
+                "name": "Macro Plasma Incinerator",
+                "pts_delta": 0
+              },
+              {
+                "name": "Lancer Laser Destroyer",
+                "pts_delta": 8
+              }
+            ]
           },
           {
             "description": "May take one M",
@@ -5937,7 +8781,12 @@
           },
           {
             "description": "May take one P",
-            "choices": []
+            "choices": [
+              {
+                "name": "Heavy Stubber",
+                "pts_delta": 11
+              }
+            ]
           },
           {
             "description": "May take up to one of each E",
@@ -5987,7 +8836,16 @@
         "options": [
           {
             "description": "May swap Sicaran Laser Cannon for T",
-            "choices": []
+            "choices": [
+              {
+                "name": "Sicaran Laser Cannon Herakles Autocannons Multilaunchers",
+                "pts_delta": 0
+              },
+              {
+                "name": "Punisher Rotary Cannon Plasma",
+                "pts_delta": 39
+              }
+            ]
           },
           {
             "description": "May take one S",
@@ -5995,11 +8853,21 @@
           },
           {
             "description": "May take one M",
-            "choices": []
+            "choices": [
+              {
+                "name": "Hunter Killer Missile",
+                "pts_delta": 5
+              }
+            ]
           },
           {
             "description": "May take one P",
-            "choices": []
+            "choices": [
+              {
+                "name": "Heavy Bolter",
+                "pts_delta": 13
+              }
+            ]
           },
           {
             "description": "May take up to one of each E",
@@ -6054,7 +8922,24 @@
         "options": [
           {
             "description": "May take up to two more Vindicators for +160 points each Any model may swap Demolisher for T Any model may take one D Any model may take one M Any model may take one P Any model may take up to one of each E",
-            "choices": []
+            "choices": [
+              {
+                "name": "Demolisher Cannon Destroyers",
+                "pts_delta": 0
+              },
+              {
+                "name": "Siege Shield",
+                "pts_delta": 25
+              },
+              {
+                "name": "Hunter Killer Missile",
+                "pts_delta": 5
+              },
+              {
+                "name": "Stormbolter",
+                "pts_delta": 7
+              }
+            ]
           }
         ]
       },
@@ -6098,6 +8983,30 @@
           {
             "description": "May take up to two more Whirlwinds for +116 points each Any model may swap Whirlwind Hyperios Launcher for T Any model may take one D Any model may take one M Any model may take one P Any model may take up to one of each E",
             "choices": [
+              {
+                "name": "Whirlwind Hyperios Launcher",
+                "pts_delta": 0
+              },
+              {
+                "name": "Scorpius Multilancher",
+                "pts_delta": 16
+              },
+              {
+                "name": "Whirlwind Launcher",
+                "pts_delta": 37
+              },
+              {
+                "name": "Dozerblade",
+                "pts_delta": 9
+              },
+              {
+                "name": "Hunter Killer Missile",
+                "pts_delta": 5
+              },
+              {
+                "name": "Stormbolter",
+                "pts_delta": 7
+              },
               {
                 "name": "Recover Gear",
                 "pts_delta": 2
@@ -6158,11 +9067,29 @@
         "options": [
           {
             "description": "May swap Skyhammer Missile Launcher for T",
-            "choices": []
+            "choices": [
+              {
+                "name": "Skyhammer Missile",
+                "pts_delta": 0
+              },
+              {
+                "name": "Cyclone Missile Launcher Bolters",
+                "pts_delta": 0
+              }
+            ]
           },
           {
             "description": "May swap Las Talon for S",
-            "choices": []
+            "choices": [
+              {
+                "name": "Las Talon",
+                "pts_delta": 0
+              },
+              {
+                "name": "Storm Cannon Cannons",
+                "pts_delta": 3
+              }
+            ]
           },
           {
             "description": "May take up to one of each E",
@@ -6223,7 +9150,12 @@
           },
           {
             "description": "May swap Cyclone Missile Launcher for H",
-            "choices": []
+            "choices": [
+              {
+                "name": "Cyclone Missile Launcher Bolters Multimeltas Cannons Bolters Missile Launchers",
+                "pts_delta": 0
+              }
+            ]
           },
           {
             "description": "May take one S",
@@ -6280,7 +9212,16 @@
         "options": [
           {
             "description": "May swap Skyhammer Missile Launcher for T",
-            "choices": []
+            "choices": [
+              {
+                "name": "Skyhammer Missile",
+                "pts_delta": 0
+              },
+              {
+                "name": "Cyclone Missile Launcher Bolters Lascannons Cannons",
+                "pts_delta": 0
+              }
+            ]
           },
           {
             "description": "May take up to one of each E",
@@ -6369,7 +9310,16 @@
         "options": [
           {
             "description": "May swap Deathwind Launcher for T",
-            "choices": []
+            "choices": [
+              {
+                "name": "Deathwind Launcher",
+                "pts_delta": 0
+              },
+              {
+                "name": "Stormbolter",
+                "pts_delta": 1
+              }
+            ]
           }
         ]
       },
@@ -6420,6 +9370,14 @@
             "description": "May take one T or SE",
             "choices": [
               {
+                "name": "Cyclone Missile Launcher",
+                "pts_delta": 24
+              },
+              {
+                "name": "Orbital Strike",
+                "pts_delta": 133
+              },
+              {
                 "name": "Shield Dome",
                 "pts_delta": 40
               }
@@ -6427,7 +9385,12 @@
           },
           {
             "description": "May take one P",
-            "choices": []
+            "choices": [
+              {
+                "name": "Heavy Stubber",
+                "pts_delta": 11
+              }
+            ]
           },
           {
             "description": "May take up to one of each E",
@@ -6477,7 +9440,12 @@
         "options": [
           {
             "description": "May swap 2 Linked Heavy Bolters for T",
-            "choices": []
+            "choices": [
+              {
+                "name": "Multimelta and Plasma Lascannons",
+                "pts_delta": 15
+              }
+            ]
           }
         ]
       },
@@ -6514,7 +9482,12 @@
         "options": [
           {
             "description": "May swap 2 Linked Heavy Bolters for T Points: 125 1 Drop Pod",
-            "choices": []
+            "choices": [
+              {
+                "name": "Multimelta and Plasma Lascannons",
+                "pts_delta": 15
+              }
+            ]
           }
         ]
       },
@@ -6623,29 +9596,15 @@
           },
           {
             "description": "May take any E one time each",
-            "choices": []
-          },
-          {
-            "description": "May take Augar Array",
             "choices": [
               {
                 "name": "Augar Array",
                 "pts_delta": 5
-              }
-            ]
-          },
-          {
-            "description": "May take Extra Armour",
-            "choices": [
+              },
               {
                 "name": "Extra Armour",
                 "pts_delta": 5
-              }
-            ]
-          },
-          {
-            "description": "May take Recovery Gear",
-            "choices": [
+              },
               {
                 "name": "Recovery Gear",
                 "pts_delta": 2
@@ -6839,7 +9798,16 @@
         "options": [
           {
             "description": "May swap Thunderhawk Heavy Cannon for T",
-            "choices": []
+            "choices": [
+              {
+                "name": "Thunderhawk Heavy",
+                "pts_delta": 0
+              },
+              {
+                "name": "Turbo Laser Destructor Lascannons Linked Bolters Hellstrike Racks Bomb",
+                "pts_delta": 9
+              }
+            ]
           },
           {
             "description": "May swap 2 Linked Hellstrike Missile Racks for W",
@@ -6957,7 +9925,16 @@
           },
           {
             "description": "May take one P",
-            "choices": []
+            "choices": [
+              {
+                "name": "Combi Melta",
+                "pts_delta": 27
+              },
+              {
+                "name": "Multimelta",
+                "pts_delta": 31
+              }
+            ]
           },
           {
             "description": "May take up to one of each E",
@@ -7022,11 +9999,21 @@
           },
           {
             "description": "May take one M",
-            "choices": []
+            "choices": [
+              {
+                "name": "Hunter Killer Missile",
+                "pts_delta": 5
+              }
+            ]
           },
           {
             "description": "May take one P",
-            "choices": []
+            "choices": [
+              {
+                "name": "Stormbolter",
+                "pts_delta": 7
+              }
+            ]
           },
           {
             "description": "May take up to one of each E",
@@ -7088,7 +10075,20 @@
           },
           {
             "description": "May take one P",
-            "choices": []
+            "choices": [
+              {
+                "name": "Combi Plasma",
+                "pts_delta": 12
+              },
+              {
+                "name": "Combi Melta",
+                "pts_delta": 27
+              },
+              {
+                "name": "Multimelta",
+                "pts_delta": 31
+              }
+            ]
           },
           {
             "description": "May take up to one of each E",
@@ -7153,11 +10153,37 @@
           },
           {
             "description": "May take one M",
-            "choices": []
+            "choices": [
+              {
+                "name": "Hunter Killer Missile",
+                "pts_delta": 5
+              }
+            ]
           },
           {
             "description": "May take one P",
-            "choices": []
+            "choices": [
+              {
+                "name": "Stormbolter",
+                "pts_delta": 7
+              },
+              {
+                "name": "Combi Flamer",
+                "pts_delta": 10
+              },
+              {
+                "name": "Combi Plasma",
+                "pts_delta": 12
+              },
+              {
+                "name": "Combi Melta",
+                "pts_delta": 27
+              },
+              {
+                "name": "Multimelta",
+                "pts_delta": 31
+              }
+            ]
           },
           {
             "description": "May take up to one of each E",
@@ -7215,11 +10241,29 @@
           },
           {
             "description": "May take one M",
-            "choices": []
+            "choices": [
+              {
+                "name": "Hunter Killer Missile",
+                "pts_delta": 5
+              }
+            ]
           },
           {
             "description": "May take one P",
-            "choices": []
+            "choices": [
+              {
+                "name": "Stormbolter",
+                "pts_delta": 7
+              },
+              {
+                "name": "Combi Flamer",
+                "pts_delta": 10
+              },
+              {
+                "name": "Combi Plasma",
+                "pts_delta": 12
+              }
+            ]
           },
           {
             "description": "May take up to one of each E",
@@ -7448,7 +10492,12 @@
         "options": [
           {
             "description": "May swap Long Lascannon for H",
-            "choices": []
+            "choices": [
+              {
+                "name": "Long Lascannon Lascannons Autocannons Autocannons",
+                "pts_delta": 0
+              }
+            ]
           }
         ]
       },
@@ -7542,7 +10591,16 @@
         "options": [
           {
             "description": "May swap Punisher Gatling Cannon for H",
-            "choices": []
+            "choices": [
+              {
+                "name": "Punisher Gatling Gun",
+                "pts_delta": 0
+              },
+              {
+                "name": "Battle Cannon Lascannons",
+                "pts_delta": 12
+              }
+            ]
           }
         ]
       },
@@ -7565,7 +10623,16 @@
         "options": [
           {
             "description": "May swap Punisher Gatling Cannon for H",
-            "choices": []
+            "choices": [
+              {
+                "name": "Punisher Gatling Gun",
+                "pts_delta": 0
+              },
+              {
+                "name": "Battle Cannon Lascannons",
+                "pts_delta": 12
+              }
+            ]
           }
         ]
       },

@@ -221,7 +221,32 @@
         "options": [
           {
             "description": "May take one S for each Psychic Mastery Level",
-            "choices": []
+            "choices": [
+              {
+                "name": "Cause Misfortune Cast",
+                "pts_delta": 10
+              },
+              {
+                "name": "Forewarning Cast",
+                "pts_delta": 10
+              },
+              {
+                "name": "Bolster Cast",
+                "pts_delta": 15
+              },
+              {
+                "name": "Enfeeble Cast",
+                "pts_delta": 20
+              },
+              {
+                "name": "Endurance Cast",
+                "pts_delta": 20
+              },
+              {
+                "name": "Melting Beam Cast",
+                "pts_delta": 22
+              }
+            ]
           },
           {
             "description": "May take one B",
@@ -472,11 +497,55 @@
         "options": [
           {
             "description": "May take up to 5 more Terminators for +127 points each Sergeant may swap Power Sword for DAM or M Any model may swap Stormbolter for S or E Any model may swap Power Sword for M",
-            "choices": []
-          },
-          {
-            "description": "May take Stormshield",
             "choices": [
+              {
+                "name": "Heavy Flamer",
+                "pts_delta": 6
+              },
+              {
+                "name": "Plasma Cannon",
+                "pts_delta": 11
+              },
+              {
+                "name": "Cyclone Missile Launcher Stormbolter",
+                "pts_delta": 25
+              },
+              {
+                "name": "Assault Cannon",
+                "pts_delta": 39
+              },
+              {
+                "name": "Power Sword",
+                "pts_delta": 0
+              },
+              {
+                "name": "Lightning Claw",
+                "pts_delta": 0
+              },
+              {
+                "name": "Power Maul",
+                "pts_delta": 5
+              },
+              {
+                "name": "Power Fist",
+                "pts_delta": 10
+              },
+              {
+                "name": "Chain Fist",
+                "pts_delta": 15
+              },
+              {
+                "name": "Thunderhammer",
+                "pts_delta": 23
+              },
+              {
+                "name": "+11",
+                "pts_delta": 0
+              },
+              {
+                "name": "Unforgiven",
+                "pts_delta": 0
+              },
               {
                 "name": "Stormshield",
                 "pts_delta": 17
@@ -669,6 +738,54 @@
             "description": "May take up to seven additional Veterans for +72 points each Sergeant may swap Corvus Hammer for M Sergeant may swap Krak Grenades for G Up to three Veterans may swap Stormbolter for S One Veteran may take one C One Veteran may take one E",
             "choices": [
               {
+                "name": "Ravenwing Grenade Launcher",
+                "pts_delta": 2
+              },
+              {
+                "name": "Plasma Talon",
+                "pts_delta": 6
+              },
+              {
+                "name": "Combat Knife",
+                "pts_delta": 0
+              },
+              {
+                "name": "Lightning Claw",
+                "pts_delta": 3
+              },
+              {
+                "name": "Power Sword",
+                "pts_delta": 3
+              },
+              {
+                "name": "Power Axe",
+                "pts_delta": 4
+              },
+              {
+                "name": "Power Maul",
+                "pts_delta": 5
+              },
+              {
+                "name": "Power Fist",
+                "pts_delta": 10
+              },
+              {
+                "name": "Thunderhammer",
+                "pts_delta": 18
+              },
+              {
+                "name": "Frag Grenades",
+                "pts_delta": 0
+              },
+              {
+                "name": "Krak Grenades",
+                "pts_delta": 0
+              },
+              {
+                "name": "Meltabombs",
+                "pts_delta": 5
+              },
+              {
                 "name": "Apothecary",
                 "pts_delta": 68
               }
@@ -720,6 +837,10 @@
             "description": "May swap Icon of Old Caliban for T Any model may swap Heavy Flamer H for H Any model may take up to one of each E",
             "choices": [
               {
+                "name": "Support",
+                "pts_delta": 0
+              },
+              {
                 "name": "Extra Armour",
                 "pts_delta": 5
               }
@@ -769,11 +890,21 @@
         "options": [
           {
             "description": "May take one M",
-            "choices": []
+            "choices": [
+              {
+                "name": "Hunter Killer Missile",
+                "pts_delta": 5
+              }
+            ]
           },
           {
             "description": "May take one P",
-            "choices": []
+            "choices": [
+              {
+                "name": "Stormbolter",
+                "pts_delta": 7
+              }
+            ]
           },
           {
             "description": "May take up to one of each E",
@@ -827,7 +958,12 @@
         "options": [
           {
             "description": "May swap Avenger Bolt Cannon for T",
-            "choices": []
+            "choices": [
+              {
+                "name": "Avenger Bolt Cannon Lascannons Bolters Blacksword Missile",
+                "pts_delta": 0
+              }
+            ]
           },
           {
             "description": "May take up to one of each E",
@@ -882,7 +1018,12 @@
         "options": [
           {
             "description": "May swap Avenger Bolt Cannon for T",
-            "choices": []
+            "choices": [
+              {
+                "name": "Avenger Bolt Cannon Lascannons Bolters Blacksword Missile",
+                "pts_delta": 0
+              }
+            ]
           },
           {
             "description": "May take up to one of each E",

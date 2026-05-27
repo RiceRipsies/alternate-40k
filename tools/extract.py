@@ -84,6 +84,118 @@ def pdf_to_text(pdf_path: Path) -> str:
     return result.stdout
 
 
+def pdf_to_text_layout(pdf_path: Path) -> str:
+    result = subprocess.run(
+        ['pdftotext', '-layout', str(pdf_path), '-'],
+        capture_output=True, text=True
+    )
+    if result.returncode != 0:
+        raise RuntimeError(f"pdftotext -layout failed for {pdf_path}: {result.stderr}")
+    return result.stdout
+
+
+def parse_weapon_tables_from_layout(layout_text: str) -> dict:
+    """
+    Parse weapon selection tables from pdftotext -layout output.
+    Returns: {unit_name: {code: [{name, pts_delta}]}}
+    """
+    WEAPON_TABLE_HDR = re.compile(r'Selection\s+Name\s+Range', re.I)
+    UNIT_STAT_HDR    = re.compile(r'^(.+?)\s{2,}M\s+WS\s+BS\s+S\b', re.I)
+    # Code is uppercase letters/digits, optionally followed by "+N point(s)"
+    ENTRY_RE         = re.compile(r'^([A-Z][A-Z0-9]*(?:\s+\+\d+\s+points?)?)\s+(.+)', re.I)
+    PTS_RE           = re.compile(r'\+(\d+)\s+points?', re.I)
+    # Words that are clearly Range/stats column values, not part of the weapon name
+    RANGE_STOP       = re.compile(r'^\d|^Melee$|^Flame$|^\*$', re.I)
+
+    lines = layout_text.split('\n')
+
+    # Collect (line_idx, unit_name) for every stat-header line
+    unit_headers = []
+    for i, raw in enumerate(lines):
+        clean = raw.lstrip('\x0c').strip()
+        m = UNIT_STAT_HDR.match(clean)
+        if m:
+            name = m.group(1).strip()
+            if name and 'selection' not in name.lower():
+                unit_headers.append((i, name))
+
+    result = {}
+
+    for i, raw in enumerate(lines):
+        clean = raw.lstrip('\x0c')
+        if not WEAPON_TABLE_HDR.search(clean):
+            continue
+
+        # Associate with the nearest preceding unit
+        unit_name = None
+        for uh_idx, uh_name in reversed(unit_headers):
+            if uh_idx < i:
+                unit_name = uh_name
+                break
+        if not unit_name:
+            continue
+
+        table: dict = {}
+        current_entry = None
+        j = i + 1
+        while j < len(lines):
+            raw_line = lines[j]
+            clean_line = raw_line.lstrip('\x0c')
+            stripped = clean_line.strip()
+
+            # Stop at the next unit's stat-header or weapon-table header
+            if UNIT_STAT_HDR.match(stripped) or WEAPON_TABLE_HDR.search(clean_line):
+                break
+
+            m = ENTRY_RE.match(clean_line)
+            if m:
+                code_raw = m.group(1).strip()
+                rest     = m.group(2)
+                # Name ends where 2+ spaces begin (range column separator)
+                # Also stop within a chunk if a word looks like a Range value
+                rest_parts = re.split(r'\s{2,}', rest)
+                raw_name_chunk = rest_parts[0] if rest_parts else ''
+                name_words = []
+                for word in raw_name_chunk.split():
+                    if RANGE_STOP.match(word):
+                        break
+                    name_words.append(word)
+                name = ' '.join(name_words)
+
+                pts_m    = PTS_RE.search(code_raw)
+                pts_delta = int(pts_m.group(1)) if pts_m else 0
+                code = PTS_RE.sub('', code_raw).strip()
+                if name:
+                    current_entry = {'name': name, 'pts_delta': pts_delta}
+                    table.setdefault(code, []).append(current_entry)
+                j += 1
+                continue
+
+            # Name-continuation line: 10–22 leading spaces, not an "Or" alternate
+            leading = len(clean_line) - len(clean_line.lstrip())
+            if stripped and current_entry and 10 <= leading <= 22:
+                first_word = stripped.split()[0]
+                if first_word.lower() != 'or' and not first_word[0].isdigit():
+                    current_entry['name'] += ' ' + first_word
+
+            j += 1
+
+        if table:
+            # Deduplicate: same (name, pts_delta) within a code
+            for code, entries in table.items():
+                seen = set()
+                deduped = []
+                for e in entries:
+                    key = (e['name'].lower(), e['pts_delta'])
+                    if key not in seen:
+                        seen.add(key)
+                        deduped.append(e)
+                table[code] = deduped
+            result[unit_name] = table
+
+    return result
+
+
 def identify_slot(line: str) -> str | None:
     """Return slot key if line is a slot-section header, else None."""
     s = line.strip()
@@ -107,7 +219,7 @@ def parse_stat_values(line: str, is_vehicle: bool) -> dict:
 
 
 # ── Core parser ───────────────────────────────────────────────────────────────
-def parse_codex(text: str, source_name: str) -> dict:
+def parse_codex(text: str, source_name: str, weapon_tables: dict | None = None) -> dict:
     """
     Parse raw pdftotext output for one codex.
     Returns a dict with faction metadata and slot→units mapping.
@@ -418,15 +530,34 @@ def parse_codex(text: str, source_name: str) -> dict:
         for opt_line in options_text:
             options.append({'description': opt_line, 'choices': []})
 
-        # Attach upgrade costs to matching option descriptions
+        # Weapon table for this unit (from layout pass)
+        unit_wt = (weapon_tables or {}).get(unit_name, {})
+
+        def _opt_matches_code(opt_desc: str, code: str) -> bool:
+            return (f'for {code}' in opt_desc or
+                    f'one {code}' in opt_desc or
+                    f'up to one {code}' in opt_desc or
+                    f'or {code}' in opt_desc or
+                    opt_desc.endswith(f' {code}') or
+                    bool(re.search(rf'\b{re.escape(code)}\b', opt_desc)))
+
+        # Attach weapon table choices (all R/P/M/G/etc. entries) to matching options
+        for code, entries in unit_wt.items():
+            for opt in options:
+                if _opt_matches_code(opt['description'], code):
+                    for entry in entries:
+                        opt['choices'].append({
+                            'name': entry['name'],
+                            'pts_delta': entry['pts_delta'],
+                        })
+                    break  # each code matches at most one option
+
+        # Attach upgrade costs (Special Wargear Upgrades: A/B/C/etc.) to matching options
         for upg in upgrades:
-            code = upg['code'].rstrip('0123456789 ')
+            code = upg['code'].rstrip('0123456789 ').strip()
             matched = False
             for opt in options:
-                if f'for {code}' in opt['description'] or \
-                   f'one {code}' in opt['description'] or \
-                   f'up to one {code}' in opt['description'] or \
-                   opt['description'].endswith(f' {code}'):
+                if _opt_matches_code(opt['description'], code):
                     opt['choices'].append({
                         'name': upg['name'],
                         'pts_delta': upg['pts_delta'],
@@ -547,15 +678,17 @@ def process_pdf(pdf_path: Path) -> dict | None:
 
     print(f"Processing {pdf_path.name}…", end=' ', flush=True)
     try:
-        text = pdf_to_text(pdf_path)
+        text        = pdf_to_text(pdf_path)
+        layout_text = pdf_to_text_layout(pdf_path)
     except RuntimeError as e:
         print(f"SKIP ({e})")
         return None
 
-    faction_name = extract_faction_name(text)
-    meta         = extract_metadata(text)
-    subfactions  = extract_subfactions(text)
-    slots        = parse_codex(text, faction_name)
+    faction_name  = extract_faction_name(text)
+    meta          = extract_metadata(text)
+    subfactions   = extract_subfactions(text)
+    weapon_tables = parse_weapon_tables_from_layout(layout_text)
+    slots         = parse_codex(text, faction_name, weapon_tables)
 
     unit_count = sum(len(v) for v in slots.values())
     print(f"→ {unit_count} units across {len(slots)} slots")

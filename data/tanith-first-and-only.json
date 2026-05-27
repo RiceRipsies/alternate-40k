@@ -173,55 +173,49 @@
         "options": [
           {
             "description": "May take one P",
-            "choices": []
+            "choices": [
+              {
+                "name": "Stormbolter",
+                "pts_delta": 5
+              },
+              {
+                "name": "Light Stubber",
+                "pts_delta": 9
+              },
+              {
+                "name": "Heavy Stubber",
+                "pts_delta": 11
+              }
+            ]
           },
           {
             "description": "May take one M",
-            "choices": []
+            "choices": [
+              {
+                "name": "Hunter Killer Missile",
+                "pts_delta": 5
+              }
+            ]
           },
           {
             "description": "May take any E one time each",
-            "choices": []
-          },
-          {
-            "description": "May take Augar Array",
             "choices": [
               {
                 "name": "Augar Array",
                 "pts_delta": 5
-              }
-            ]
-          },
-          {
-            "description": "May take Camo Netting",
-            "choices": [
+              },
               {
                 "name": "Camo Netting",
                 "pts_delta": 6
-              }
-            ]
-          },
-          {
-            "description": "May take Extra Armour",
-            "choices": [
+              },
               {
                 "name": "Extra Armour",
                 "pts_delta": 5
-              }
-            ]
-          },
-          {
-            "description": "May take Recovery Gear",
-            "choices": [
+              },
               {
                 "name": "Recovery Gear",
                 "pts_delta": 2
-              }
-            ]
-          },
-          {
-            "description": "May take Searchlight",
-            "choices": [
+              },
               {
                 "name": "Searchlight",
                 "pts_delta": 1

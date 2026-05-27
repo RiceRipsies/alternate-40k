@@ -113,15 +113,50 @@
         "options": [
           {
             "description": "May swap Bone Swords for M or H",
-            "choices": []
+            "choices": [
+              {
+                "name": "Bone Swords",
+                "pts_delta": 0
+              },
+              {
+                "name": "Monstrous Scything",
+                "pts_delta": 2
+              },
+              {
+                "name": "Lash Whip and Bone",
+                "pts_delta": 4
+              },
+              {
+                "name": "Monstrous Claws Maggot Spitters Devourers",
+                "pts_delta": 4
+              }
+            ]
           },
           {
             "description": "May take one T",
-            "choices": []
+            "choices": [
+              {
+                "name": "Prehensile Tail",
+                "pts_delta": 1
+              }
+            ]
           },
           {
             "description": "May take one F",
-            "choices": []
+            "choices": [
+              {
+                "name": "Dissector Larva",
+                "pts_delta": 6
+              },
+              {
+                "name": "Electroshock Grubs",
+                "pts_delta": 10
+              },
+              {
+                "name": "Shreddershard Beetles",
+                "pts_delta": 10
+              }
+            ]
           },
           {
             "description": "May take up to 3 S",
@@ -194,15 +229,50 @@
         "options": [
           {
             "description": "May swap any Bone Swords for M or H",
-            "choices": []
+            "choices": [
+              {
+                "name": "Bone Swords",
+                "pts_delta": 0
+              },
+              {
+                "name": "Monstrous Scything",
+                "pts_delta": 2
+              },
+              {
+                "name": "Lash Whip and Bone",
+                "pts_delta": 4
+              },
+              {
+                "name": "Monstrous Claws Maggot Spitters Devourers",
+                "pts_delta": 4
+              }
+            ]
           },
           {
             "description": "May take one T",
-            "choices": []
+            "choices": [
+              {
+                "name": "Prehensile Tail",
+                "pts_delta": 1
+              }
+            ]
           },
           {
             "description": "May take one F",
-            "choices": []
+            "choices": [
+              {
+                "name": "Dissector Larva",
+                "pts_delta": 6
+              },
+              {
+                "name": "Electroshock Grubs",
+                "pts_delta": 10
+              },
+              {
+                "name": "Shreddershard Beetles",
+                "pts_delta": 10
+              }
+            ]
           },
           {
             "description": "May take up to 3 S",
@@ -276,7 +346,24 @@
         "options": [
           {
             "description": "May take up to 3 Spells or S",
-            "choices": []
+            "choices": [
+              {
+                "name": "Psychic Domination Cast",
+                "pts_delta": 0
+              },
+              {
+                "name": "Warp Blast Cast",
+                "pts_delta": 5
+              },
+              {
+                "name": "Psychic Overload Cast",
+                "pts_delta": 10
+              },
+              {
+                "name": "Warp Lance Cast",
+                "pts_delta": 24
+              }
+            ]
           },
           {
             "description": "May take up to one of each B",
@@ -394,7 +481,20 @@
         "options": [
           {
             "description": "May take up to 3 S",
-            "choices": []
+            "choices": [
+              {
+                "name": "Warp Blast Cast",
+                "pts_delta": 5
+              },
+              {
+                "name": "Psychic Overload Cast",
+                "pts_delta": 10
+              },
+              {
+                "name": "Warp Lance Cast",
+                "pts_delta": 24
+              }
+            ]
           },
           {
             "description": "May take one M",
@@ -444,7 +544,20 @@
         "options": [
           {
             "description": "May take up to 3 S",
-            "choices": []
+            "choices": [
+              {
+                "name": "Warp Blast Cast",
+                "pts_delta": 5
+              },
+              {
+                "name": "Psychic Overload Cast",
+                "pts_delta": 10
+              },
+              {
+                "name": "Warp Lance Cast",
+                "pts_delta": 24
+              }
+            ]
           },
           {
             "description": "May take one M",
@@ -498,7 +611,24 @@
         "options": [
           {
             "description": "May swap one Rending Claws for R",
-            "choices": []
+            "choices": [
+              {
+                "name": "Devourer",
+                "pts_delta": 3
+              },
+              {
+                "name": "Death Spitter Fists",
+                "pts_delta": 7
+              },
+              {
+                "name": "Venom Cannon",
+                "pts_delta": 19
+              },
+              {
+                "name": "Barbed Strangler",
+                "pts_delta": 25
+              }
+            ]
           },
           {
             "description": "May swap one Rending Claws for S",
@@ -511,7 +641,24 @@
           },
           {
             "description": "May swap either Rending Claws for M",
-            "choices": []
+            "choices": [
+              {
+                "name": "Rending Claws",
+                "pts_delta": 0
+              },
+              {
+                "name": "Scything Talons",
+                "pts_delta": 0
+              },
+              {
+                "name": "Bone Swords",
+                "pts_delta": 3
+              },
+              {
+                "name": "Lash Whip and Bone",
+                "pts_delta": 9
+              }
+            ]
           },
           {
             "description": "May take up to one of each B",
@@ -626,7 +773,16 @@
         "options": [
           {
             "description": "May take up to 20 more Hormagaunts for +4 points each Any model may swap Rending Claws for M The entire unit may take any B once each per model",
-            "choices": []
+            "choices": [
+              {
+                "name": "Rending Claws",
+                "pts_delta": 0
+              },
+              {
+                "name": "Scything Talons",
+                "pts_delta": 0
+              }
+            ]
           }
         ]
       },
@@ -682,10 +838,6 @@
         "options": [
           {
             "description": "May take up to 20 more Neurogaunts for +2 points each The entire unit may take any B once each per model",
-            "choices": []
-          },
-          {
-            "description": "May take Adrenal Glands",
             "choices": [
               {
                 "name": "Adrenal Glands",
@@ -726,11 +878,23 @@
         "options": [
           {
             "description": "May add up to 20 more Termagaunts for +4 points each Any model may swap Fleshborer for R Up to 3 models may swap Fleshborer for S The entire unit may take any B once each per model",
-            "choices": []
-          },
-          {
-            "description": "May take Adrenal Glands",
             "choices": [
+              {
+                "name": "Fleshborer",
+                "pts_delta": 0
+              },
+              {
+                "name": "Spike Rifle Fists",
+                "pts_delta": 0
+              },
+              {
+                "name": "Devourer",
+                "pts_delta": 4
+              },
+              {
+                "name": "Strangleweb",
+                "pts_delta": 7
+              },
               {
                 "name": "Adrenal Glands",
                 "pts_delta": 1
@@ -775,26 +939,28 @@
             "description": "May take up to 15 more Genestealers for +20 points each Any model may swap any Rending Claws for M Any model may take one A The entire unit may take any B once each per model The entire unit may take one P per model",
             "choices": [
               {
-                "name": "Extended Carapace",
-                "pts_delta": 2
-              }
-            ]
-          },
-          {
-            "description": "May take Adrenal Glands",
-            "choices": [
+                "name": "Rending Claws",
+                "pts_delta": 0
+              },
+              {
+                "name": "Scything Talons",
+                "pts_delta": 0
+              },
+              {
+                "name": "Acid Maw",
+                "pts_delta": 1
+              },
               {
                 "name": "Adrenal Glands",
                 "pts_delta": 1
-              }
-            ]
-          },
-          {
-            "description": "May take Flesh Hooks",
-            "choices": [
+              },
               {
                 "name": "Flesh Hooks",
                 "pts_delta": 1
+              },
+              {
+                "name": "Extended Carapace",
+                "pts_delta": 2
               }
             ]
           }
@@ -832,10 +998,6 @@
         "options": [
           {
             "description": "May take up to 7 more Rippers for +14 points each Any model may take one P The entire unit may take any B once each per model",
-            "choices": []
-          },
-          {
-            "description": "May take Adrenal Glands",
             "choices": [
               {
                 "name": "Adrenal Glands",
@@ -879,10 +1041,6 @@
         "options": [
           {
             "description": "May take up to 3 more Guards for +30 points each Any Guard may swap Shock Cannon for R The entire unit may take any B once each per model",
-            "choices": []
-          },
-          {
-            "description": "May take Adrenal Glands",
             "choices": [
               {
                 "name": "Adrenal Glands",
@@ -928,26 +1086,16 @@
             "description": "May take up to 2 more Lictors for +83 points each The entire unit may take any B once each per model Any model may take up to one G each",
             "choices": [
               {
-                "name": "Pheromone Trail",
-                "pts_delta": 5
-              }
-            ]
-          },
-          {
-            "description": "May take Adrenal Glands",
-            "choices": [
-              {
                 "name": "Adrenal Glands",
                 "pts_delta": 2
-              }
-            ]
-          },
-          {
-            "description": "May take Flesh Hooks",
-            "choices": [
+              },
               {
                 "name": "Flesh Hooks",
                 "pts_delta": 1
+              },
+              {
+                "name": "Pheromone Trail",
+                "pts_delta": 5
               }
             ]
           }
@@ -1025,20 +1173,43 @@
         "options": [
           {
             "description": "May take up to 7 more Warriors for +36 points each Any Warrior may swap one Rending Claws for R Any Warrior may swap one Rending Claws for S Any Warrior may swap either Rending Claws for M The entire unit may take any B once each per model",
-            "choices": []
-          },
-          {
-            "description": "May take Adrenal Glands",
             "choices": [
+              {
+                "name": "Rending Claws",
+                "pts_delta": 0
+              },
+              {
+                "name": "Scything Talons",
+                "pts_delta": 0
+              },
+              {
+                "name": "Bone Swords",
+                "pts_delta": 3
+              },
+              {
+                "name": "Lash Whip and Bone",
+                "pts_delta": 9
+              },
+              {
+                "name": "Devourer",
+                "pts_delta": 3
+              },
+              {
+                "name": "Death Spitter Fists",
+                "pts_delta": 7
+              },
+              {
+                "name": "Venom Cannon",
+                "pts_delta": 19
+              },
+              {
+                "name": "Barbed Strangler",
+                "pts_delta": 25
+              },
               {
                 "name": "Adrenal Glands",
                 "pts_delta": 2
-              }
-            ]
-          },
-          {
-            "description": "May take Flesh Hooks",
-            "choices": [
+              },
               {
                 "name": "Flesh Hooks",
                 "pts_delta": 1
@@ -1081,20 +1252,31 @@
         "options": [
           {
             "description": "May take up to 3 more Guards for +46 points each Any Guard may swap one Rending Claws for M or S The entire unit may take any B once each per model",
-            "choices": []
-          },
-          {
-            "description": "May take Adrenal Glands",
             "choices": [
+              {
+                "name": "Rending Claws",
+                "pts_delta": 0
+              },
+              {
+                "name": "Scything Talons",
+                "pts_delta": 0
+              },
+              {
+                "name": "Bone Swords",
+                "pts_delta": 3
+              },
+              {
+                "name": "Lash Whip and Bone",
+                "pts_delta": 9
+              },
+              {
+                "name": "Crushing Claws",
+                "pts_delta": 15
+              },
               {
                 "name": "Adrenal Glands",
                 "pts_delta": 2
-              }
-            ]
-          },
-          {
-            "description": "May take Shield Claws",
-            "choices": [
+              },
               {
                 "name": "Shield Claws",
                 "pts_delta": 24
@@ -1137,11 +1319,31 @@
         "options": [
           {
             "description": "May take up to 3 more Zoanthropes for +60 points each The unit may take up to 3 S The entire unit may take any B once each per model",
-            "choices": []
-          },
-          {
-            "description": "May take Adrenal Glands",
             "choices": [
+              {
+                "name": "Warp Blast Cast",
+                "pts_delta": 7
+              },
+              {
+                "name": "Forced Rush Cast",
+                "pts_delta": 10
+              },
+              {
+                "name": "Shadow Node Cast",
+                "pts_delta": 10
+              },
+              {
+                "name": "Warp Lightning Cast",
+                "pts_delta": 15
+              },
+              {
+                "name": "Ablative Shield Cast",
+                "pts_delta": 20
+              },
+              {
+                "name": "Warp Lance Cast",
+                "pts_delta": 32
+              },
               {
                 "name": "Adrenal Glands",
                 "pts_delta": 2
@@ -1184,11 +1386,31 @@
         "options": [
           {
             "description": "May take up to 3 more Zoanthropes for +60 points each The unit may take up to 3 S The entire unit may take any B once each per model",
-            "choices": []
-          },
-          {
-            "description": "May take Adrenal Glands",
             "choices": [
+              {
+                "name": "Warp Blast Cast",
+                "pts_delta": 7
+              },
+              {
+                "name": "Forced Rush Cast",
+                "pts_delta": 10
+              },
+              {
+                "name": "Shadow Node Cast",
+                "pts_delta": 10
+              },
+              {
+                "name": "Warp Lightning Cast",
+                "pts_delta": 15
+              },
+              {
+                "name": "Ablative Shield Cast",
+                "pts_delta": 20
+              },
+              {
+                "name": "Warp Lance Cast",
+                "pts_delta": 32
+              },
               {
                 "name": "Adrenal Glands",
                 "pts_delta": 2
@@ -1281,7 +1503,12 @@
         "options": [
           {
             "description": "May take up to 2 Spells or S",
-            "choices": []
+            "choices": [
+              {
+                "name": "Psychic Overload Cast",
+                "pts_delta": 10
+              }
+            ]
           },
           {
             "description": "May take up to one of each B",
@@ -1497,7 +1724,16 @@
         "options": [
           {
             "description": "May add up to 7 more Meiotic Spores for +3 points each Any model may swap Spore Bomb for B",
-            "choices": []
+            "choices": [
+              {
+                "name": "Spore Bomb",
+                "pts_delta": 0
+              },
+              {
+                "name": "Air Burst Bomb",
+                "pts_delta": 6
+              }
+            ]
           }
         ]
       },
@@ -1535,7 +1771,16 @@
         "options": [
           {
             "description": "May add up to 7 more Meiotic Spores for +3 points each Any model may swap Spore Bomb for B",
-            "choices": []
+            "choices": [
+              {
+                "name": "Spore Bomb",
+                "pts_delta": 0
+              },
+              {
+                "name": "Air Burst Bomb",
+                "pts_delta": 6
+              }
+            ]
           }
         ]
       },
@@ -1591,26 +1836,16 @@
             "description": "May take up to 7 more Shrikes for +55 points each Any model may swap one Rending Claws for R Any model may swap one Rending Claws for S Any model may swap either Rending Claws for M The entire unit may take any B once each per model",
             "choices": [
               {
-                "name": "Shield Claws",
-                "pts_delta": 20
-              }
-            ]
-          },
-          {
-            "description": "May take Adrenal Glands",
-            "choices": [
-              {
                 "name": "Adrenal Glands",
                 "pts_delta": 2
-              }
-            ]
-          },
-          {
-            "description": "May take Flesh Hooks",
-            "choices": [
+              },
               {
                 "name": "Flesh Hooks",
                 "pts_delta": 1
+              },
+              {
+                "name": "Shield Claws",
+                "pts_delta": 20
               }
             ]
           }
@@ -1649,11 +1884,23 @@
         "options": [
           {
             "description": "May take up to 7 more Raveners for +30 points each Any model may take one R Any model may swap either Rending Claws for M The entire unit may take any B once each per model",
-            "choices": []
-          },
-          {
-            "description": "May take Adrenal Glands",
             "choices": [
+              {
+                "name": "Rending Claws",
+                "pts_delta": 0
+              },
+              {
+                "name": "Scything Talons",
+                "pts_delta": 0
+              },
+              {
+                "name": "Devourer",
+                "pts_delta": 5
+              },
+              {
+                "name": "Death Spitter Fists",
+                "pts_delta": 9
+              },
               {
                 "name": "Adrenal Glands",
                 "pts_delta": 2
@@ -1697,10 +1944,6 @@
         "options": [
           {
             "description": "May take up to 3 more Leapers for +36 points each The entire unit may take any B once each per model Any model may take up to one G each",
-            "choices": []
-          },
-          {
-            "description": "May take Adrenal Glands",
             "choices": [
               {
                 "name": "Adrenal Glands",
@@ -1744,7 +1987,12 @@
         "options": [
           {
             "description": "May take one T",
-            "choices": []
+            "choices": [
+              {
+                "name": "Thresher Scythe Tail",
+                "pts_delta": 0
+              }
+            ]
           },
           {
             "description": "May take up to one of each B",
@@ -1789,7 +2037,16 @@
         "options": [
           {
             "description": "May take one T",
-            "choices": []
+            "choices": [
+              {
+                "name": "Thresher Scythe Tail",
+                "pts_delta": 1
+              },
+              {
+                "name": "Toxin Spike Tail",
+                "pts_delta": 5
+              }
+            ]
           },
           {
             "description": "May take up to one of each B",
@@ -1904,11 +2161,25 @@
         "options": [
           {
             "description": "May take one T",
-            "choices": []
+            "choices": [
+              {
+                "name": "Thresher Scythe Tail",
+                "pts_delta": 1
+              },
+              {
+                "name": "Toxin Spike Tail",
+                "pts_delta": 5
+              }
+            ]
           },
           {
             "description": "May take S and swap Bio Electric Pulse for Charged Bio Electric Pulse",
-            "choices": []
+            "choices": [
+              {
+                "name": "Synapse",
+                "pts_delta": 6
+              }
+            ]
           },
           {
             "description": "May take up to one of each B",
@@ -1924,15 +2195,6 @@
               {
                 "name": "Regeneration",
                 "pts_delta": 2
-              }
-            ]
-          },
-          {
-            "description": "May take Synapse",
-            "choices": [
-              {
-                "name": "Synapse",
-                "pts_delta": 6
               }
             ]
           }
@@ -1971,10 +2233,6 @@
         "options": [
           {
             "description": "May take up to 7 more Skyslashers for +22 points each Any model may take one P The entire unit may take any B once each per model",
-            "choices": []
-          },
-          {
-            "description": "May take Adrenal Glands",
             "choices": [
               {
                 "name": "Adrenal Glands",
@@ -2017,10 +2275,6 @@
         "options": [
           {
             "description": "May add up to 5 more Barbed Gaunts for +22 points each The entire unit may take any B once each per model",
-            "choices": []
-          },
-          {
-            "description": "May take Adrenal Glands",
             "choices": [
               {
                 "name": "Adrenal Glands",
@@ -2063,10 +2317,6 @@
         "options": [
           {
             "description": "May take up to 3 more Biovores for +38 points each Any Biovore may swap Spore Mine Launcher for S The entire unit may take any B once each per model",
-            "choices": []
-          },
-          {
-            "description": "May take Adrenal Glands",
             "choices": [
               {
                 "name": "Adrenal Glands",
@@ -2161,29 +2411,43 @@
         "options": [
           {
             "description": "May add up to 2 more Carnifexes for +174 points each Any model may swap Monstrous Scything Talons for M or S Any model may take one T Any model may take one H The entire unit may take any B once each per model",
-            "choices": []
-          },
-          {
-            "description": "May take Acid Blood",
             "choices": [
+              {
+                "name": "Monstrous Scything",
+                "pts_delta": 0
+              },
+              {
+                "name": "Monstrous Crushing Maggot Spitters Devourers",
+                "pts_delta": 12
+              },
+              {
+                "name": "Heavy Venom Cannon",
+                "pts_delta": 26
+              },
+              {
+                "name": "Stranglethorn Cannon",
+                "pts_delta": 38
+              },
+              {
+                "name": "Thresher Scythe Tail",
+                "pts_delta": 1
+              },
+              {
+                "name": "Bone Mace Tail",
+                "pts_delta": 3
+              },
+              {
+                "name": "Bio Plasma",
+                "pts_delta": 18
+              },
               {
                 "name": "Acid Blood",
                 "pts_delta": 6
-              }
-            ]
-          },
-          {
-            "description": "May take Adrenal Glands",
-            "choices": [
+              },
               {
                 "name": "Adrenal Glands",
                 "pts_delta": 2
-              }
-            ]
-          },
-          {
-            "description": "May take Regeneration",
-            "choices": [
+              },
               {
                 "name": "Regeneration",
                 "pts_delta": 2
@@ -2243,29 +2507,15 @@
         "options": [
           {
             "description": "May take any B once each per model",
-            "choices": []
-          },
-          {
-            "description": "May take Acid Blood",
             "choices": [
               {
                 "name": "Acid Blood",
                 "pts_delta": 6
-              }
-            ]
-          },
-          {
-            "description": "May take Adrenal Glands",
-            "choices": [
+              },
               {
                 "name": "Adrenal Glands",
                 "pts_delta": 2
-              }
-            ]
-          },
-          {
-            "description": "May take Regeneration",
-            "choices": [
+              },
               {
                 "name": "Regeneration",
                 "pts_delta": 2
@@ -2432,34 +2682,39 @@
             "description": "May add up to 2 more Crusher Carnifexes for +226 points each Any model may swap Wrecker Claws for M or S Any model may take one T Any model may take one H The entire unit may take any B once each per model",
             "choices": [
               {
-                "name": "Tusks",
-                "pts_delta": 2
-              }
-            ]
-          },
-          {
-            "description": "May take Acid Blood",
-            "choices": [
+                "name": "Wrecker Claws",
+                "pts_delta": 0
+              },
+              {
+                "name": "Bio Flails",
+                "pts_delta": 4
+              },
+              {
+                "name": "Thresher Scythe Tail",
+                "pts_delta": 1
+              },
+              {
+                "name": "Bone Mace Tail",
+                "pts_delta": 3
+              },
+              {
+                "name": "Bio Plasma",
+                "pts_delta": 18
+              },
               {
                 "name": "Acid Blood",
                 "pts_delta": 6
-              }
-            ]
-          },
-          {
-            "description": "May take Adrenal Glands",
-            "choices": [
+              },
               {
                 "name": "Adrenal Glands",
                 "pts_delta": 2
-              }
-            ]
-          },
-          {
-            "description": "May take Regeneration",
-            "choices": [
+              },
               {
                 "name": "Regeneration",
+                "pts_delta": 2
+              },
+              {
+                "name": "Tusks",
                 "pts_delta": 2
               }
             ]
@@ -2500,34 +2755,39 @@
             "description": "May add up to 2 more Crusher Carnifexes for +226 points each Any model may swap Wrecker Claws for M or S Any model may take one T Any model may take one H The entire unit may take any B once each per model",
             "choices": [
               {
-                "name": "Tusks",
-                "pts_delta": 2
-              }
-            ]
-          },
-          {
-            "description": "May take Acid Blood",
-            "choices": [
+                "name": "Wrecker Claws",
+                "pts_delta": 0
+              },
+              {
+                "name": "Bio Flails",
+                "pts_delta": 4
+              },
+              {
+                "name": "Thresher Scythe Tail",
+                "pts_delta": 1
+              },
+              {
+                "name": "Bone Mace Tail",
+                "pts_delta": 3
+              },
+              {
+                "name": "Bio Plasma",
+                "pts_delta": 18
+              },
               {
                 "name": "Acid Blood",
                 "pts_delta": 6
-              }
-            ]
-          },
-          {
-            "description": "May take Adrenal Glands",
-            "choices": [
+              },
               {
                 "name": "Adrenal Glands",
                 "pts_delta": 2
-              }
-            ]
-          },
-          {
-            "description": "May take Regeneration",
-            "choices": [
+              },
               {
                 "name": "Regeneration",
+                "pts_delta": 2
+              },
+              {
+                "name": "Tusks",
                 "pts_delta": 2
               }
             ]
@@ -2659,7 +2919,16 @@
         "options": [
           {
             "description": "May take up to one each of S",
-            "choices": []
+            "choices": [
+              {
+                "name": "Cluster Spines",
+                "pts_delta": 4
+              },
+              {
+                "name": "Stinger Salvo",
+                "pts_delta": 12
+              }
+            ]
           },
           {
             "description": "May take up to one of each B",
@@ -2702,11 +2971,25 @@
         "options": [
           {
             "description": "May swap 2 Linked Heavy Venom Cannons for H",
-            "choices": []
+            "choices": [
+              {
+                "name": "+12 Stranglethorn Cannon",
+                "pts_delta": 0
+              }
+            ]
           },
           {
             "description": "May take up to one each of S",
-            "choices": []
+            "choices": [
+              {
+                "name": "Cluster Spines",
+                "pts_delta": 4
+              },
+              {
+                "name": "Stinger Salvo",
+                "pts_delta": 12
+              }
+            ]
           },
           {
             "description": "May take up to one of each B",
@@ -2947,7 +3230,12 @@
         "options": [
           {
             "description": "May take up to 4 S",
-            "choices": []
+            "choices": [
+              {
+                "name": "Cluster Spore Mine Cloud",
+                "pts_delta": 0
+              }
+            ]
           }
         ]
       },

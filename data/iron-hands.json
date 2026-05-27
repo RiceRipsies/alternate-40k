@@ -126,7 +126,20 @@
         "options": [
           {
             "description": "May swap Krak Grenades for G",
-            "choices": []
+            "choices": [
+              {
+                "name": "Frag Grenades",
+                "pts_delta": 0
+              },
+              {
+                "name": "Krak Grenades",
+                "pts_delta": 0
+              },
+              {
+                "name": "Meltabombs",
+                "pts_delta": 5
+              }
+            ]
           },
           {
             "description": "May take one C",
@@ -134,7 +147,20 @@
           },
           {
             "description": "May take up to 9 Servitors for +24 points each Any Servitor may swap Servo Arm for H",
-            "choices": []
+            "choices": [
+              {
+                "name": "Heavy Bolter",
+                "pts_delta": 8
+              },
+              {
+                "name": "Plasma Cannon",
+                "pts_delta": 13
+              },
+              {
+                "name": "Multimelta",
+                "pts_delta": 26
+              }
+            ]
           }
         ]
       }

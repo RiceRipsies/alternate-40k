@@ -59,7 +59,20 @@
         "options": [
           {
             "description": "May swap Assault Cannon for H",
-            "choices": []
+            "choices": [
+              {
+                "name": "Assault Cannon",
+                "pts_delta": 0
+              },
+              {
+                "name": "Helfrost Cannon Lascannons",
+                "pts_delta": 1
+              },
+              {
+                "name": "Heavy Plasma Cannon",
+                "pts_delta": 13
+              }
+            ]
           },
           {
             "description": "May take Flare Launchers",
@@ -237,7 +250,40 @@
         "options": [
           {
             "description": "May take up to 2 additional S",
-            "choices": []
+            "choices": [
+              {
+                "name": "Blizzard Cast",
+                "pts_delta": 0
+              },
+              {
+                "name": "Thunderbolt Cast",
+                "pts_delta": 0
+              },
+              {
+                "name": "Cause Misfortune Cast",
+                "pts_delta": 10
+              },
+              {
+                "name": "Forewarning Cast",
+                "pts_delta": 10
+              },
+              {
+                "name": "Bolster Cast",
+                "pts_delta": 15
+              },
+              {
+                "name": "Enfeeble Cast",
+                "pts_delta": 20
+              },
+              {
+                "name": "Endurance Cast",
+                "pts_delta": 20
+              },
+              {
+                "name": "Melting Beam Cast",
+                "pts_delta": 22
+              }
+            ]
           },
           {
             "description": "May take one B",
@@ -655,6 +701,14 @@
             "description": "May swap Heavy Bolt Pistol for A or P",
             "choices": [
               {
+                "name": "Heavy Bolt Pistol",
+                "pts_delta": 0
+              },
+              {
+                "name": "Plasma Pistol",
+                "pts_delta": 6
+              },
+              {
                 "name": "Storm Shield",
                 "pts_delta": 19
               }
@@ -662,7 +716,16 @@
           },
           {
             "description": "May swap Power Sword for M",
-            "choices": []
+            "choices": [
+              {
+                "name": "Power Sword",
+                "pts_delta": 0
+              },
+              {
+                "name": "Thunderhammer",
+                "pts_delta": 21
+              }
+            ]
           }
         ]
       },
@@ -789,7 +852,36 @@
         "options": [
           {
             "description": "May take up to 5 more Marines for +37 points each Sergeant may swap Bolt Pistol for P Sergeant may swap Chainsword for M The entire unit may take one B",
-            "choices": []
+            "choices": [
+              {
+                "name": "Bolt Pistol",
+                "pts_delta": 0
+              },
+              {
+                "name": "Plasma Pistol",
+                "pts_delta": 5
+              },
+              {
+                "name": "Combat Knife",
+                "pts_delta": 0
+              },
+              {
+                "name": "Chainsword",
+                "pts_delta": 0
+              },
+              {
+                "name": "Lightning Claw",
+                "pts_delta": 3
+              },
+              {
+                "name": "Power Sword",
+                "pts_delta": 3
+              },
+              {
+                "name": "Power Axe",
+                "pts_delta": 4
+              }
+            ]
           }
         ]
       },
@@ -865,7 +957,32 @@
         "options": [
           {
             "description": "May take up to 5 more Marines for +44 points each Sergeant may swap Bolt Pistol for P Sergeant may swap Chainsword for M",
-            "choices": []
+            "choices": [
+              {
+                "name": "Bolt Pistol",
+                "pts_delta": 0
+              },
+              {
+                "name": "Plasma Pistol",
+                "pts_delta": 7
+              },
+              {
+                "name": "Chainsword",
+                "pts_delta": 0
+              },
+              {
+                "name": "Power Sword",
+                "pts_delta": 3
+              },
+              {
+                "name": "Power Axe",
+                "pts_delta": 4
+              },
+              {
+                "name": "Power Fist",
+                "pts_delta": 10
+              }
+            ]
           }
         ]
       }
@@ -1031,7 +1148,32 @@
         "options": [
           {
             "description": "May take up to 5 more Terminators for +101 points each Sergeant may swap Power Sword for OM or M Up to Two models may swap Stormbolters for S Any Terminator may swap Power Sword for M",
-            "choices": []
+            "choices": [
+              {
+                "name": "Heavy Flamer",
+                "pts_delta": 6
+              },
+              {
+                "name": "Assault Cannon",
+                "pts_delta": 39
+              },
+              {
+                "name": "Power Sword",
+                "pts_delta": 0
+              },
+              {
+                "name": "Power Axe",
+                "pts_delta": 1
+              },
+              {
+                "name": "Power Fist",
+                "pts_delta": 10
+              },
+              {
+                "name": "Power Great Axe",
+                "pts_delta": 12
+              }
+            ]
           }
         ]
       },
@@ -1098,7 +1240,24 @@
         "options": [
           {
             "description": "May take up to 5 more Wulfen for +30 points each Any model may take one M or SM Any model may take one A if it did not take SM None None Slow, Monsterbane Extra Attack 1, Slow, Monsterbane",
-            "choices": []
+            "choices": [
+              {
+                "name": "Lightning Claw",
+                "pts_delta": 3
+              },
+              {
+                "name": "Great Frost Axe",
+                "pts_delta": 11
+              },
+              {
+                "name": "Thunderhammer",
+                "pts_delta": 19
+              },
+              {
+                "name": "Dual Lightning Claws",
+                "pts_delta": 4
+              }
+            ]
           }
         ]
       }
@@ -1279,11 +1438,79 @@
         "options": [
           {
             "description": "May take up to 3 more Marines for +51 points each Sergeant may swap Krak Grenades for G Any model may swap Bolt Pistol for P or A Any model may swap Combat Knife for M Any model may swap Combat Knife and Bolt Pistol for SM",
-            "choices": []
-          },
-          {
-            "description": "May take Stormshield",
             "choices": [
+              {
+                "name": "Bolt Pistol",
+                "pts_delta": 0
+              },
+              {
+                "name": "Hand Flamer",
+                "pts_delta": 3
+              },
+              {
+                "name": "Plasma Pistol",
+                "pts_delta": 7
+              },
+              {
+                "name": "Grav Pistol",
+                "pts_delta": 8
+              },
+              {
+                "name": "Combat Knife",
+                "pts_delta": 0
+              },
+              {
+                "name": "Chainsword",
+                "pts_delta": 0
+              },
+              {
+                "name": "Lightning Claw",
+                "pts_delta": 3
+              },
+              {
+                "name": "Power Sword",
+                "pts_delta": 3
+              },
+              {
+                "name": "Power Axe",
+                "pts_delta": 4
+              },
+              {
+                "name": "Power Maul",
+                "pts_delta": 6
+              },
+              {
+                "name": "Powerfist",
+                "pts_delta": 10
+              },
+              {
+                "name": "Great Frost Axe",
+                "pts_delta": 11
+              },
+              {
+                "name": "Thunderhammer",
+                "pts_delta": 18
+              },
+              {
+                "name": "Dual Lightning Claws",
+                "pts_delta": 1
+              },
+              {
+                "name": "Thunderwolf Mount",
+                "pts_delta": 0
+              },
+              {
+                "name": "Frag Grenades",
+                "pts_delta": 0
+              },
+              {
+                "name": "Krak Grenades",
+                "pts_delta": 0
+              },
+              {
+                "name": "Meltabombs",
+                "pts_delta": 5
+              },
               {
                 "name": "Stormshield",
                 "pts_delta": 11

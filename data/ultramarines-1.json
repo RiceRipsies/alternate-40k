@@ -393,7 +393,12 @@
           },
           {
             "description": "May take Kornelius for +87 points Kornelius may purchase one Spell",
-            "choices": []
+            "choices": [
+              {
+                "name": "Formidable",
+                "pts_delta": 0
+              }
+            ]
           },
           {
             "description": "May take Vestha for +56 points",
@@ -543,7 +548,36 @@
         "options": [
           {
             "description": "May take up to two S",
-            "choices": []
+            "choices": [
+              {
+                "name": "Revelation",
+                "pts_delta": 0
+              },
+              {
+                "name": "Cause Misfortune Cast",
+                "pts_delta": 10
+              },
+              {
+                "name": "Forewarning Cast",
+                "pts_delta": 10
+              },
+              {
+                "name": "Bolster Cast",
+                "pts_delta": 15
+              },
+              {
+                "name": "Enfeeble Cast",
+                "pts_delta": 20
+              },
+              {
+                "name": "Endurance Cast",
+                "pts_delta": 20
+              },
+              {
+                "name": "Melting Beam Cast",
+                "pts_delta": 22
+              }
+            ]
           },
           {
             "description": "May take one B",

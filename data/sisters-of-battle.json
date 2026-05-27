@@ -52,11 +52,41 @@
           },
           {
             "description": "May swap Chainsword for M",
-            "choices": []
+            "choices": [
+              {
+                "name": "Chainsword",
+                "pts_delta": 0
+              },
+              {
+                "name": "Power Sword",
+                "pts_delta": 3
+              },
+              {
+                "name": "Power Axe",
+                "pts_delta": 4
+              },
+              {
+                "name": "Power Maul",
+                "pts_delta": 5
+              }
+            ]
           },
           {
             "description": "May swap Krak Grenades for G",
-            "choices": []
+            "choices": [
+              {
+                "name": "Frag Grenades",
+                "pts_delta": 0
+              },
+              {
+                "name": "Krak Grenades",
+                "pts_delta": 0
+              },
+              {
+                "name": "Meltabombs",
+                "pts_delta": 5
+              }
+            ]
           },
           {
             "description": "May take one A",
@@ -207,7 +237,16 @@
         "options": [
           {
             "description": "May swap Bolt Pistol for P",
-            "choices": []
+            "choices": [
+              {
+                "name": "Bolt Pistol",
+                "pts_delta": 0
+              },
+              {
+                "name": "Boltgun",
+                "pts_delta": 0
+              }
+            ]
           }
         ]
       },
@@ -249,7 +288,16 @@
         "options": [
           {
             "description": "May swap Bolt Pistol for P",
-            "choices": []
+            "choices": [
+              {
+                "name": "Bolt Pistol",
+                "pts_delta": 0
+              },
+              {
+                "name": "Boltgun",
+                "pts_delta": 0
+              }
+            ]
           }
         ]
       },
@@ -418,7 +466,104 @@
         "options": [
           {
             "description": "May take up to 15 more Sisters for +21 points each Superior may swap Bolt Pistol for OP Superior may swap Chainsword for M Superior may swap Krak Grenades for G Up to two Sisters may swap Boltgun for S or H Any Sister may swap Boltgun for P One Sister who did not swap their Boltgun for S or H may take one E",
-            "choices": []
+            "choices": [
+              {
+                "name": "Bolt Pistol",
+                "pts_delta": 0
+              },
+              {
+                "name": "Boltgun",
+                "pts_delta": 0
+              },
+              {
+                "name": "Condemnor Boltgun",
+                "pts_delta": 1
+              },
+              {
+                "name": "Stormbolter",
+                "pts_delta": 2
+              },
+              {
+                "name": "Handflamer",
+                "pts_delta": 3
+              },
+              {
+                "name": "Combi Flamer",
+                "pts_delta": 6
+              },
+              {
+                "name": "Plasma Pistol",
+                "pts_delta": 7
+              },
+              {
+                "name": "Combi Plasma",
+                "pts_delta": 8
+              },
+              {
+                "name": "Combi Melta",
+                "pts_delta": 24
+              },
+              {
+                "name": "Inferno Pistol",
+                "pts_delta": 24
+              },
+              {
+                "name": "Chainsword",
+                "pts_delta": 0
+              },
+              {
+                "name": "Power Sword",
+                "pts_delta": 3
+              },
+              {
+                "name": "Power Axe",
+                "pts_delta": 4
+              },
+              {
+                "name": "Power Maul",
+                "pts_delta": 5
+              },
+              {
+                "name": "Stormbolter",
+                "pts_delta": 2
+              },
+              {
+                "name": "Flamer",
+                "pts_delta": 5
+              },
+              {
+                "name": "Meltagun",
+                "pts_delta": 22
+              },
+              {
+                "name": "Heavy Flamer",
+                "pts_delta": 8
+              },
+              {
+                "name": "Heavy Bolter",
+                "pts_delta": 10
+              },
+              {
+                "name": "Multimelta",
+                "pts_delta": 28
+              },
+              {
+                "name": "Bolt Pistol",
+                "pts_delta": 0
+              },
+              {
+                "name": "Frag Grenades",
+                "pts_delta": 0
+              },
+              {
+                "name": "Krak Grenades",
+                "pts_delta": 0
+              },
+              {
+                "name": "Meltabombs",
+                "pts_delta": 5
+              }
+            ]
           }
         ]
       },
@@ -482,6 +627,106 @@
             "description": "May take up to 10 more Militants for +7 points each Superior may swap Bolt Pistol for OP Superior may swap Chainsword for OM Superior may swap Krak Grenades for G Any Militant may swap Autopistol for S or M Any Militant who did not swap their Autopistol may take one E without repeating the selection",
             "choices": [
               {
+                "name": "Bolt Pistol",
+                "pts_delta": 0
+              },
+              {
+                "name": "Boltgun",
+                "pts_delta": 0
+              },
+              {
+                "name": "Condemnor Boltgun",
+                "pts_delta": 1
+              },
+              {
+                "name": "Stormbolter",
+                "pts_delta": 2
+              },
+              {
+                "name": "Handflamer",
+                "pts_delta": 3
+              },
+              {
+                "name": "Combi Flamer",
+                "pts_delta": 6
+              },
+              {
+                "name": "Plasma Pistol",
+                "pts_delta": 7
+              },
+              {
+                "name": "Combi Plasma",
+                "pts_delta": 8
+              },
+              {
+                "name": "Combi Melta",
+                "pts_delta": 24
+              },
+              {
+                "name": "Inferno Pistol",
+                "pts_delta": 24
+              },
+              {
+                "name": "Chainsword",
+                "pts_delta": 0
+              },
+              {
+                "name": "Power Sword",
+                "pts_delta": 3
+              },
+              {
+                "name": "Power Axe",
+                "pts_delta": 4
+              },
+              {
+                "name": "Power Maul",
+                "pts_delta": 5
+              },
+              {
+                "name": "Condemnor Boltgun",
+                "pts_delta": 4
+              },
+              {
+                "name": "Handflamer",
+                "pts_delta": 5
+              },
+              {
+                "name": "Plasma Gun",
+                "pts_delta": 9
+              },
+              {
+                "name": "Dueling Blades",
+                "pts_delta": 2
+              },
+              {
+                "name": "Stave",
+                "pts_delta": 2
+              },
+              {
+                "name": "Whips",
+                "pts_delta": 4
+              },
+              {
+                "name": "Consecrated Maul",
+                "pts_delta": 8
+              },
+              {
+                "name": "Eviscerator",
+                "pts_delta": 10
+              },
+              {
+                "name": "Frag Grenades",
+                "pts_delta": 0
+              },
+              {
+                "name": "Krak Grenades",
+                "pts_delta": 0
+              },
+              {
+                "name": "Meltabombs",
+                "pts_delta": 5
+              },
+              {
                 "name": "Scriptorum",
                 "pts_delta": 4
               }
@@ -541,7 +786,64 @@
         "options": [
           {
             "description": "May take up to 10 more Cultists for +3 points each Priest may swap Autopistol for OP Priest may swap Chainsword for OM Any Cultist may swap Autopistol for R Any Cultist may swap Brutal Weapon for M",
-            "choices": []
+            "choices": [
+              {
+                "name": "Autopistol",
+                "pts_delta": 0
+              },
+              {
+                "name": "Shotgun",
+                "pts_delta": 1
+              },
+              {
+                "name": "Bolt Pistol",
+                "pts_delta": 2
+              },
+              {
+                "name": "Boltgun",
+                "pts_delta": 2
+              },
+              {
+                "name": "Handflamer",
+                "pts_delta": 5
+              },
+              {
+                "name": "Brutal Weapon",
+                "pts_delta": 0
+              },
+              {
+                "name": "Chainsword",
+                "pts_delta": 0
+              },
+              {
+                "name": "Power Sword",
+                "pts_delta": 3
+              },
+              {
+                "name": "Power Axe",
+                "pts_delta": 4
+              },
+              {
+                "name": "Power Maul",
+                "pts_delta": 5
+              },
+              {
+                "name": "Shotgun",
+                "pts_delta": 1
+              },
+              {
+                "name": "Brutal Weapon",
+                "pts_delta": 0
+              },
+              {
+                "name": "Flail",
+                "pts_delta": 0
+              },
+              {
+                "name": "Eviscerator",
+                "pts_delta": 10
+              }
+            ]
           }
         ]
       }
@@ -666,7 +968,20 @@
         "options": [
           {
             "description": "May take up to 15 more Repentias for +12 points each Mistress may swap Krak Grenades for G",
-            "choices": []
+            "choices": [
+              {
+                "name": "Frag Grenades",
+                "pts_delta": 0
+              },
+              {
+                "name": "Krak Grenades",
+                "pts_delta": 0
+              },
+              {
+                "name": "Meltabombs",
+                "pts_delta": 5
+              }
+            ]
           }
         ]
       },
@@ -733,7 +1048,44 @@
         "options": [
           {
             "description": "May take up to 5 more Sacresants for +57 points each Superior may swap Bolt Pistol for P Superior may swap Krak Grenades for G Any model may swap Hollowed Mace for M",
-            "choices": []
+            "choices": [
+              {
+                "name": "Bolt Pistol",
+                "pts_delta": 0
+              },
+              {
+                "name": "Handflamer",
+                "pts_delta": 3
+              },
+              {
+                "name": "Plasma Pistol",
+                "pts_delta": 7
+              },
+              {
+                "name": "Inferno Pistol",
+                "pts_delta": 24
+              },
+              {
+                "name": "Hollowed Mace",
+                "pts_delta": 0
+              },
+              {
+                "name": "Anointed Halberd",
+                "pts_delta": 0
+              },
+              {
+                "name": "Frag Grenades",
+                "pts_delta": 0
+              },
+              {
+                "name": "Krak Grenades",
+                "pts_delta": 0
+              },
+              {
+                "name": "Meltabombs",
+                "pts_delta": 5
+              }
+            ]
           }
         ]
       }
@@ -799,7 +1151,92 @@
         "options": [
           {
             "description": "May take up to 15 more Sisters for +23 points each Superior may swap Bolt Pistol for OP Superior may swap Chainsword for M Superior may swap Krak Grenades for G Up to four Sisters may swap Boltgun for S Any Sister may swap Boltgun for P One Sister who did not swap their Boltgun for S or H may take one E",
-            "choices": []
+            "choices": [
+              {
+                "name": "Bolt Pistol",
+                "pts_delta": 0
+              },
+              {
+                "name": "Boltgun",
+                "pts_delta": 0
+              },
+              {
+                "name": "Condemnor Boltgun",
+                "pts_delta": 1
+              },
+              {
+                "name": "Stormbolter",
+                "pts_delta": 2
+              },
+              {
+                "name": "Handflamer",
+                "pts_delta": 3
+              },
+              {
+                "name": "Combi Flamer",
+                "pts_delta": 6
+              },
+              {
+                "name": "Plasma Pistol",
+                "pts_delta": 7
+              },
+              {
+                "name": "Combi Plasma",
+                "pts_delta": 8
+              },
+              {
+                "name": "Combi Melta",
+                "pts_delta": 24
+              },
+              {
+                "name": "Inferno Pistol",
+                "pts_delta": 24
+              },
+              {
+                "name": "Chainsword",
+                "pts_delta": 0
+              },
+              {
+                "name": "Power Sword",
+                "pts_delta": 3
+              },
+              {
+                "name": "Power Axe",
+                "pts_delta": 4
+              },
+              {
+                "name": "Power Maul",
+                "pts_delta": 5
+              },
+              {
+                "name": "Stormbolter",
+                "pts_delta": 2
+              },
+              {
+                "name": "Flamer",
+                "pts_delta": 5
+              },
+              {
+                "name": "Meltagun",
+                "pts_delta": 22
+              },
+              {
+                "name": "Bolt Pistol",
+                "pts_delta": 0
+              },
+              {
+                "name": "Frag Grenades",
+                "pts_delta": 0
+              },
+              {
+                "name": "Krak Grenades",
+                "pts_delta": 0
+              },
+              {
+                "name": "Meltabombs",
+                "pts_delta": 5
+              }
+            ]
           }
         ]
       },
@@ -865,7 +1302,60 @@
         "options": [
           {
             "description": "May take up to 5 more Sisters for +28 points each Superior may swap Bolt Pistol for OP Superior may swap Chainsword for OM Superior may swap Krak Grenades for G Up to two Sisters may swap 2 Bolt Pistols for P Any Sister may swap a Bolt Pistol for M",
-            "choices": []
+            "choices": [
+              {
+                "name": "Bolt Pistol",
+                "pts_delta": 0
+              },
+              {
+                "name": "Handflamer",
+                "pts_delta": 3
+              },
+              {
+                "name": "Plasma Pistol",
+                "pts_delta": 7
+              },
+              {
+                "name": "Inferno Pistol",
+                "pts_delta": 24
+              },
+              {
+                "name": "Chainsword",
+                "pts_delta": 0
+              },
+              {
+                "name": "Bolt Pistol",
+                "pts_delta": 2
+              },
+              {
+                "name": "Power Sword",
+                "pts_delta": 3
+              },
+              {
+                "name": "Power Axe",
+                "pts_delta": 4
+              },
+              {
+                "name": "Power Maul",
+                "pts_delta": 5
+              },
+              {
+                "name": "Power Sword",
+                "pts_delta": 2
+              },
+              {
+                "name": "Frag Grenades",
+                "pts_delta": 0
+              },
+              {
+                "name": "Krak Grenades",
+                "pts_delta": 0
+              },
+              {
+                "name": "Meltabombs",
+                "pts_delta": 5
+              }
+            ]
           }
         ]
       },
@@ -934,7 +1424,32 @@
         "options": [
           {
             "description": "May add up to 4 more Paragons for +94 points each Any model may swap Heavy Flamer for H Any model may swap 2 Linked Stormbolters for S Any model may swap Hollowed Mace for M",
-            "choices": []
+            "choices": [
+              {
+                "name": "Heavy Flamer",
+                "pts_delta": 0
+              },
+              {
+                "name": "Heavy Bolter",
+                "pts_delta": 1
+              },
+              {
+                "name": "Multimelta Stormbolters Grenade Launchers",
+                "pts_delta": 10
+              },
+              {
+                "name": "Hollowed Mace",
+                "pts_delta": 0
+              },
+              {
+                "name": "Warblade",
+                "pts_delta": 4
+              },
+              {
+                "name": "Support",
+                "pts_delta": 0
+              }
+            ]
           }
         ]
       }
@@ -1079,7 +1594,92 @@
         "options": [
           {
             "description": "May take up to 15 more Sisters for +21 points each Superior may swap Bolt Pistol for OP Superior may swap Chainsword for M Superior may swap Krak Grenades for G Up to four Sisters may swap Boltgun for H Any Sister may swap Boltgun for P One Sister who did not swap their Boltgun for S or H may take one E",
-            "choices": []
+            "choices": [
+              {
+                "name": "Bolt Pistol",
+                "pts_delta": 0
+              },
+              {
+                "name": "Boltgun",
+                "pts_delta": 0
+              },
+              {
+                "name": "Condemnor Boltgun",
+                "pts_delta": 1
+              },
+              {
+                "name": "Stormbolter",
+                "pts_delta": 2
+              },
+              {
+                "name": "Handflamer",
+                "pts_delta": 3
+              },
+              {
+                "name": "Combi Flamer",
+                "pts_delta": 6
+              },
+              {
+                "name": "Plasma Pistol",
+                "pts_delta": 7
+              },
+              {
+                "name": "Combi Plasma",
+                "pts_delta": 8
+              },
+              {
+                "name": "Combi Melta",
+                "pts_delta": 24
+              },
+              {
+                "name": "Inferno Pistol",
+                "pts_delta": 24
+              },
+              {
+                "name": "Chainsword",
+                "pts_delta": 0
+              },
+              {
+                "name": "Power Sword",
+                "pts_delta": 3
+              },
+              {
+                "name": "Power Axe",
+                "pts_delta": 4
+              },
+              {
+                "name": "Power Maul",
+                "pts_delta": 5
+              },
+              {
+                "name": "Heavy Flamer",
+                "pts_delta": 8
+              },
+              {
+                "name": "Heavy Bolter",
+                "pts_delta": 10
+              },
+              {
+                "name": "Multimelta",
+                "pts_delta": 28
+              },
+              {
+                "name": "Bolt Pistol",
+                "pts_delta": 0
+              },
+              {
+                "name": "Frag Grenades",
+                "pts_delta": 0
+              },
+              {
+                "name": "Krak Grenades",
+                "pts_delta": 0
+              },
+              {
+                "name": "Meltabombs",
+                "pts_delta": 5
+              }
+            ]
           }
         ]
       }
@@ -1467,7 +2067,16 @@
         "options": [
           {
             "description": "May swap any Punisher Gatling Cannon for H",
-            "choices": []
+            "choices": [
+              {
+                "name": "Punisher Gatling Gun",
+                "pts_delta": 0
+              },
+              {
+                "name": "Battle Cannon Lascannons",
+                "pts_delta": 12
+              }
+            ]
           }
         ]
       },

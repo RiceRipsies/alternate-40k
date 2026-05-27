@@ -318,11 +318,143 @@
           },
           {
             "description": "May take up to 10 Neophytes for +33 points each Sergeant may swap Boltgun for OR, P, M, or A Sergeant may swap Bolt Pistol for P or M Sergeant may swap Krak Grenades for G Up to two Initiates may swap Boltgun for H, M, or S Any Initiate may swap Combat Knife for Chainsword Any Neophyte may swap Shotgun for NR",
-            "choices": []
-          },
-          {
-            "description": "May take Stormshield",
             "choices": [
+              {
+                "name": "Shotgun",
+                "pts_delta": 0
+              },
+              {
+                "name": "Boltgun",
+                "pts_delta": 1
+              },
+              {
+                "name": "Stormbolter",
+                "pts_delta": 2
+              },
+              {
+                "name": "Combi Flamer",
+                "pts_delta": 6
+              },
+              {
+                "name": "Combi Grav",
+                "pts_delta": 8
+              },
+              {
+                "name": "Combi Plasma",
+                "pts_delta": 8
+              },
+              {
+                "name": "Combi Melta",
+                "pts_delta": 23
+              },
+              {
+                "name": "Bolt Pistol",
+                "pts_delta": 0
+              },
+              {
+                "name": "Hand Flamer",
+                "pts_delta": 3
+              },
+              {
+                "name": "Plasma Pistol",
+                "pts_delta": 7
+              },
+              {
+                "name": "Grav Pistol",
+                "pts_delta": 8
+              },
+              {
+                "name": "Inferno Pistol",
+                "pts_delta": 24
+              },
+              {
+                "name": "Combat Knife",
+                "pts_delta": 0
+              },
+              {
+                "name": "Chainsword",
+                "pts_delta": 0
+              },
+              {
+                "name": "Lightning Claw",
+                "pts_delta": 3
+              },
+              {
+                "name": "Power Sword",
+                "pts_delta": 3
+              },
+              {
+                "name": "Power Axe",
+                "pts_delta": 4
+              },
+              {
+                "name": "Power Maul",
+                "pts_delta": 5
+              },
+              {
+                "name": "Power Fist",
+                "pts_delta": 10
+              },
+              {
+                "name": "Thunderhammer",
+                "pts_delta": 18
+              },
+              {
+                "name": "Flamer",
+                "pts_delta": 4
+              },
+              {
+                "name": "Grav Gun",
+                "pts_delta": 6
+              },
+              {
+                "name": "Plasma Gun",
+                "pts_delta": 6
+              },
+              {
+                "name": "Meltagun",
+                "pts_delta": 21
+              },
+              {
+                "name": "Heavy Flamer",
+                "pts_delta": 7
+              },
+              {
+                "name": "Heavy Bolter",
+                "pts_delta": 9
+              },
+              {
+                "name": "Plasma Cannon",
+                "pts_delta": 14
+              },
+              {
+                "name": "Grav Cannon",
+                "pts_delta": 14
+              },
+              {
+                "name": "Missile Launcher",
+                "pts_delta": 19
+              },
+              {
+                "name": "Lascannon",
+                "pts_delta": 21
+              },
+              {
+                "name": "Multimelta",
+                "pts_delta": 27
+              },
+              {
+                "name": "Frag Grenades",
+                "pts_delta": 0
+              },
+              {
+                "name": "Krak Grenades",
+                "pts_delta": 0
+              },
+              {
+                "name": "Meltabombs",
+                "pts_delta": 5
+              },
               {
                 "name": "Stormshield",
                 "pts_delta": 10
@@ -437,7 +569,68 @@
           },
           {
             "description": "May take up to 10 Neophytes for +35 points each Sergeant may swap Heavy Bolt Pistol for OP Sergeant may swap Power Sword for OM Sergeant may swap Krak Grenades for G Any Initiate may swap Heavy Bolt Pistol for IP or IR Any Initiate may swap Combat Knife for IM Any Neophyte may swap Bolt Pistol for NR",
-            "choices": []
+            "choices": [
+              {
+                "name": "Heavy Bolt Pistol",
+                "pts_delta": 0
+              },
+              {
+                "name": "Pyre Pistol",
+                "pts_delta": 5
+              },
+              {
+                "name": "Power Sword",
+                "pts_delta": 0
+              },
+              {
+                "name": "Power Axe",
+                "pts_delta": 1
+              },
+              {
+                "name": "Power Fist",
+                "pts_delta": 7
+              },
+              {
+                "name": "Heavy Bolt Pistol",
+                "pts_delta": 0
+              },
+              {
+                "name": "Auto Bolt Rifle",
+                "pts_delta": 1
+              },
+              {
+                "name": "Pyre Pistol",
+                "pts_delta": 4
+              },
+              {
+                "name": "Heavy Flamer",
+                "pts_delta": 6
+              },
+              {
+                "name": "Combat Knife",
+                "pts_delta": 0
+              },
+              {
+                "name": "Chainsword",
+                "pts_delta": 0
+              },
+              {
+                "name": "Powerfist",
+                "pts_delta": 10
+              },
+              {
+                "name": "Frag Grenades",
+                "pts_delta": 0
+              },
+              {
+                "name": "Krak Grenades",
+                "pts_delta": 0
+              },
+              {
+                "name": "Meltabombs",
+                "pts_delta": 5
+              }
+            ]
           }
         ]
       },
@@ -511,7 +704,56 @@
         "options": [
           {
             "description": "May take up to 5 more Marines for +53 points each Sergeant may swap Krak Grenades for G Any model may swap Heavy Bolt Pistol for P Any model may swap Chainsword for M Any model may swap Heavy Bolt Pistol and Chainsword for SM",
-            "choices": []
+            "choices": [
+              {
+                "name": "Heavy Bolt Pistol",
+                "pts_delta": 0
+              },
+              {
+                "name": "Plasma Pistol",
+                "pts_delta": 5
+              },
+              {
+                "name": "Pyre Pistol",
+                "pts_delta": 5
+              },
+              {
+                "name": "Chainsword",
+                "pts_delta": 0
+              },
+              {
+                "name": "Power Sword",
+                "pts_delta": 3
+              },
+              {
+                "name": "Power Axe",
+                "pts_delta": 4
+              },
+              {
+                "name": "Power Maul",
+                "pts_delta": 5
+              },
+              {
+                "name": "Thunderhammer",
+                "pts_delta": 18
+              },
+              {
+                "name": "Dual Lightning Claws",
+                "pts_delta": 2
+              },
+              {
+                "name": "Frag Grenades",
+                "pts_delta": 0
+              },
+              {
+                "name": "Krak Grenades",
+                "pts_delta": 0
+              },
+              {
+                "name": "Meltabombs",
+                "pts_delta": 5
+              }
+            ]
           }
         ]
       }
