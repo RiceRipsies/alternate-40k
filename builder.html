@@ -401,6 +401,44 @@ button {
 }
 .mini-stat-label { color: var(--gold); font-size: 9px; display: block; border-bottom: 1px solid var(--border); }
 
+/* Model stepper */
+.stepper {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+}
+.stepper-btn {
+  background: var(--bg4);
+  border: 1px solid var(--border);
+  color: var(--text);
+  width: 24px;
+  height: 24px;
+  border-radius: 2px;
+  font-size: 15px;
+  line-height: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0;
+}
+.stepper-btn:hover:not(:disabled) { border-color: var(--gold); color: var(--gold); }
+.stepper-btn:disabled { opacity: 0.3; cursor: not-allowed; }
+.stepper-val { min-width: 28px; text-align: center; font-variant-numeric: tabular-nums; }
+
+/* Fixed wargear tags */
+.wargear-list { display: flex; flex-wrap: wrap; gap: 5px; margin-top: 6px; }
+.wargear-tag {
+  background: var(--bg4);
+  border: 1px solid var(--border);
+  border-radius: 2px;
+  font-size: 11px;
+  padding: 2px 7px;
+  color: var(--text-dim);
+}
+
+/* Info-only option row */
+.option-row.info-only { opacity: 0.5; font-style: italic; font-size: 12px; }
+
 /* Empty state */
 .empty-state {
   color: var(--text-dim);
@@ -685,6 +723,8 @@ button {
     </div>
     <div id="modal-body">
       <div id="modal-stats"></div>
+      <div id="modal-models"></div>
+      <div id="modal-wargear"></div>
       <div id="modal-options"></div>
       <div id="modal-rules"></div>
     </div>
@@ -720,6 +760,7 @@ const state = {
   browsingSlot: null,
   pendingUnit: null,
   pendingOpts: {},
+  pendingModels: {},  // { modelName: { current, min, max, ptsEach } }
 };
 
 // ── DOM REFS ─────────────────────────────────────────────────────
@@ -837,13 +878,16 @@ function renderSlots() {
         <span class="slot-counter ${counterClass}">${count}/${maxLabel}</span>
         <button class="add-slot-btn" data-slot="${slot.key}" ${canAdd ? '' : 'disabled'} title="Add unit">+</button>
       </div>
-      ${units.map((entry, i) => `
-        <div class="unit-entry" data-idx="${state.list.indexOf(entry)}">
-          <span class="unit-entry-name">${entry.unit.name}</span>
+      ${units.map((entry) => {
+        const modelSummary = Object.entries(entry.models ?? {})
+          .map(([name, count]) => `${count} ${name}`).join(', ');
+        const idx = state.list.indexOf(entry);
+        return `<div class="unit-entry" data-idx="${idx}">
+          <span class="unit-entry-name">${entry.unit.name}${modelSummary ? `<br><span style="font-size:11px;color:var(--text-dim)">${modelSummary}</span>` : ''}</span>
           <span class="unit-entry-pts">${entry.pts} pts</span>
-          <button class="remove-unit" data-idx="${state.list.indexOf(entry)}" title="Remove">✕</button>
-        </div>
-      `).join('')}
+          <button class="remove-unit" data-idx="${idx}" title="Remove">✕</button>
+        </div>`;
+      }).join('')}
     </div>`;
   }).join('');
 
@@ -957,7 +1001,7 @@ function openUnitModal(unit) {
   D('modal-unit-name').textContent = unit.name;
   updateModalPts();
 
-  // Stats
+  // ── Stats (first model) ──
   const m = unit.models?.[0];
   const stats = m?.stats ?? {};
   const statKeys = ['M','WS','BS','S','T','W','I','A','Ld','Sv'];
@@ -966,30 +1010,86 @@ function openUnitModal(unit) {
       ${statKeys.map(k => `<div class="mini-stat"><span class="mini-stat-label">${k}</span>${stats[k] ?? '—'}</div>`).join('')}
     </div>`;
 
-  // Options
-  const opts = unit.options ?? [];
-  D('modal-options').innerHTML = opts.length ? opts.map((opt, gi) => `
-    <div class="option-group">
-      <div class="option-group-label">${opt.description}</div>
-      ${(opt.choices ?? []).map((c, ci) => `
-        <div class="option-row">
-          <input type="radio" name="opt-${gi}" id="opt-${gi}-${ci}" value="${ci}">
-          <label for="opt-${gi}-${ci}">${c.name}</label>
-          <span class="opt-pts">${c.pts_delta > 0 ? '+' : ''}${c.pts_delta ?? 0} pts</span>
-        </div>
-      `).join('')}
-    </div>
-  `).join('') : '<p style="color:var(--text-dim);font-size:13px">No configurable options for this unit.</p>';
+  // ── Parse composition → model steppers ──
+  const compModels = parseCompositionModels(unit.composition ?? '');
+  const addCosts = extractAddModelCosts(unit.options ?? []);
+  state.pendingModels = {};
+  const variableModels = compModels.filter(cm => cm.min !== cm.max);
+  for (const cm of variableModels) {
+    const key = cm.name.toLowerCase();
+    const ptsEach = addCosts[key] ?? addCosts['models'] ?? 0;
+    state.pendingModels[cm.name] = { current: cm.min, min: cm.min, max: cm.max, ptsEach };
+  }
 
-  // Rules
-  const rules = m?.rules ?? [];
-  D('modal-rules').innerHTML = rules.length ? `
-    <div class="option-group-label" style="margin-top:14px">Special Rules</div>
-    <div class="rules-list">
-      ${rules.map(r => `<span class="rule-tag">${r}</span>`).join('')}
+  D('modal-models').innerHTML = variableModels.length ? `
+    <div class="option-group">
+      <div class="option-group-label">Unit Size</div>
+      ${variableModels.map(cm => {
+        const pm = state.pendingModels[cm.name];
+        return `<div class="option-row">
+          <label style="flex:1">${cm.name}</label>
+          <div class="stepper">
+            <button class="stepper-btn model-dec" data-model="${cm.name}" ${pm.current <= pm.min ? 'disabled' : ''}>−</button>
+            <span class="stepper-val model-count" data-model="${cm.name}">${pm.current}</span>
+            <button class="stepper-btn model-inc" data-model="${cm.name}" ${pm.current >= pm.max ? 'disabled' : ''}>+</button>
+          </div>
+          <span class="opt-pts" style="min-width:52px;text-align:right">${pm.ptsEach > 0 ? `+${pm.ptsEach} ea` : ''}</span>
+        </div>`;
+      }).join('')}
     </div>` : '';
 
-  // Click-to-toggle: clicking the already-selected option deselects it
+  D('modal-models').querySelectorAll('.stepper-btn').forEach(btn => {
+    btn.addEventListener('click', () => {
+      const name = btn.dataset.model;
+      const pm = state.pendingModels[name];
+      if (!pm) return;
+      pm.current = btn.classList.contains('model-dec')
+        ? Math.max(pm.min, pm.current - 1)
+        : Math.min(pm.max, pm.current + 1);
+      D('modal-models').querySelector(`.model-count[data-model="${name}"]`).textContent = pm.current;
+      D('modal-models').querySelector(`.model-dec[data-model="${name}"]`).disabled = pm.current <= pm.min;
+      D('modal-models').querySelector(`.model-inc[data-model="${name}"]`).disabled = pm.current >= pm.max;
+      updateModalPts();
+    });
+  });
+
+  // ── Fixed wargear ──
+  const fixedWargear = unit.fixed_wargear ?? [];
+  D('modal-wargear').innerHTML = fixedWargear.length ? `
+    <div class="option-group">
+      <div class="option-group-label">Wargear</div>
+      <div class="wargear-list">${[...new Set(fixedWargear)].map(w => `<span class="wargear-tag">${w}</span>`).join('')}</div>
+    </div>` : '';
+
+  // ── Options (wargear swaps / upgrades) ──
+  // Separate options that were already consumed as model-add steppers
+  const addModelRe = /(?:add|take)(?:\s+up\s+to)?\s+\d+\s+more\s+[\w\s']+?\s+for\s+\+\d+\s+points?\s+each/i;
+  const opts = (unit.options ?? []).map((opt, gi) => ({ ...opt, gi }))
+    .filter(opt => !addModelRe.test(opt.description));
+
+  const choiceOpts  = opts.filter(o => o.choices?.length);
+  const infoOpts    = opts.filter(o => !o.choices?.length);
+
+  D('modal-options').innerHTML = (choiceOpts.length || infoOpts.length) ? `
+    ${choiceOpts.length ? `<div class="option-group">
+      <div class="option-group-label">Options</div>
+      ${choiceOpts.map(opt => `
+        <div class="option-group-label" style="font-size:11px;color:var(--text-dim);margin-top:8px;text-transform:none;letter-spacing:0">${opt.description}</div>
+        ${opt.choices.map((c, ci) => `
+          <div class="option-row">
+            <input type="radio" name="opt-${opt.gi}" id="opt-${opt.gi}-${ci}" value="${ci}">
+            <label for="opt-${opt.gi}-${ci}">${c.name}</label>
+            <span class="opt-pts">${c.pts_delta > 0 ? '+' : ''}${c.pts_delta ?? 0} pts</span>
+          </div>`).join('')}
+      `).join('')}
+    </div>` : ''}
+    ${infoOpts.length ? `<div class="option-group">
+      <div class="option-group-label">Other Options</div>
+      ${infoOpts.map(opt => `<div class="option-row info-only"><span>${opt.description}</span></div>`).join('')}
+    </div>` : ''}
+  ` : '';
+
+  // Click-to-toggle deselect
   D('modal-options').querySelectorAll('input[type=radio]').forEach(inp => {
     inp.addEventListener('click', () => {
       const groupIdx = parseInt(inp.name.split('-')[1]);
@@ -1004,16 +1104,47 @@ function openUnitModal(unit) {
     });
   });
 
+  // ── Special rules ──
+  const allRules = [...new Set((unit.models ?? []).flatMap(md => md.rules ?? []))];
+  D('modal-rules').innerHTML = allRules.length ? `
+    <div class="option-group-label" style="margin-top:14px">Special Rules</div>
+    <div class="rules-list">
+      ${allRules.map(r => `<span class="rule-tag">${r}</span>`).join('')}
+    </div>` : '';
+
   modalBackdrop.classList.add('open');
   document.body.style.overflow = 'hidden';
+}
+
+function parseCompositionModels(comp) {
+  const result = [];
+  const re = /(\d+)(?:-(\d+))?\s+([A-Z][A-Za-z'\s]*?)(?=\s+\d|$)/g;
+  let m;
+  while ((m = re.exec(comp)) !== null) {
+    result.push({ name: m[3].trim(), min: parseInt(m[1]), max: m[2] ? parseInt(m[2]) : parseInt(m[1]) });
+  }
+  return result;
+}
+
+function extractAddModelCosts(options) {
+  const costs = {};
+  for (const opt of options) {
+    const m = (opt.description ?? '').match(
+      /(?:add|take)(?:\s+up\s+to)?\s+\d+\s+more\s+([\w\s']+?)\s+for\s+\+(\d+)\s+points?\s+each/i
+    );
+    if (m) costs[m[1].trim().toLowerCase()] = parseInt(m[2]);
+  }
+  return costs;
 }
 
 function updateModalPts() {
   const unit = state.pendingUnit;
   if (!unit) return;
   let pts = unit.points_base;
-  const opts = unit.options ?? [];
-  opts.forEach((opt, gi) => {
+  for (const pm of Object.values(state.pendingModels)) {
+    pts += (pm.current - pm.min) * pm.ptsEach;
+  }
+  (unit.options ?? []).forEach((opt, gi) => {
     const ci = state.pendingOpts[gi] ?? -1;
     if (ci >= 0) pts += (opt.choices?.[ci]?.pts_delta ?? 0);
   });
@@ -1025,6 +1156,7 @@ function closeModal() {
   document.body.style.overflow = '';
   state.pendingUnit = null;
   state.pendingOpts = {};
+  state.pendingModels = {};
 }
 
 D('modal-close').addEventListener('click', closeModal);
@@ -1035,11 +1167,19 @@ D('modal-add').addEventListener('click', () => {
   const unit = state.pendingUnit;
   if (!unit) return;
   let pts = unit.points_base;
+  for (const pm of Object.values(state.pendingModels)) {
+    pts += (pm.current - pm.min) * pm.ptsEach;
+  }
   (unit.options ?? []).forEach((opt, gi) => {
     const ci = state.pendingOpts[gi] ?? -1;
     if (ci >= 0) pts += (opt.choices?.[ci]?.pts_delta ?? 0);
   });
-  state.list.push({ slotKey: state.browsingSlot, unit, opts: { ...state.pendingOpts }, pts });
+  state.list.push({
+    slotKey: state.browsingSlot, unit,
+    opts: { ...state.pendingOpts },
+    models: Object.fromEntries(Object.entries(state.pendingModels).map(([k,v]) => [k, v.current])),
+    pts,
+  });
   closeModal();
   renderSlots();
   updatePoints();
@@ -1095,7 +1235,7 @@ function saveList() {
     localStorage.setItem('alt40k-list', JSON.stringify({
       factionId: state.faction?.id,
       subfaction: state.subfaction,
-      list: state.list.map(e => ({ slotKey: e.slotKey, unitName: e.unit.name, opts: e.opts, pts: e.pts })),
+      list: state.list.map(e => ({ slotKey: e.slotKey, unitName: e.unit.name, opts: e.opts, models: e.models, pts: e.pts })),
       limit: ptsLimit.value,
     }));
   } catch {}
@@ -1117,7 +1257,7 @@ async function restoreList() {
       const allUnits = Object.values(state.codex.slots ?? {}).flat();
       state.list = saved.list.flatMap(entry => {
         const unit = allUnits.find(u => u.name === entry.unitName);
-        return unit ? [{ slotKey: entry.slotKey, unit, opts: entry.opts ?? {}, pts: entry.pts }] : [];
+        return unit ? [{ slotKey: entry.slotKey, unit, opts: entry.opts ?? {}, models: entry.models ?? {}, pts: entry.pts }] : [];
       });
       renderSlots();
       updatePoints();
