@@ -780,28 +780,28 @@ async function selectFaction(id) {
   const meta = state.factions.find(f => f.id === id);
   if (!meta) return;
 
+  state.faction = meta;
+  state.codex = null;
+  state.list = [];
+
   factionName.textContent = meta.name;
   factionView.style.display = 'none';
   unitsView.style.display = 'none';
+  subfactionRow.style.display = 'none';
   D('view-army-title').textContent = meta.name;
   D('view-army-mobile-hint').style.display = window.innerWidth <= 700 ? '' : 'none';
   armyView.style.display = '';
 
-  // Try to load codex JSON
+  updatePoints();
+  renderSlots();
+  saveList();
+
+  // Load codex async — slots are already interactive above
   const res = await fetch(`data/${meta.file}`).catch(() => null);
   if (res?.ok) {
     state.codex = await res.json();
     populateSubfactions();
-  } else {
-    state.codex = null;
-    subfactionRow.style.display = 'none';
   }
-
-  state.faction = meta;
-  state.list = [];
-  updatePoints();
-  renderSlots();
-  saveList();
 }
 
 // ── SUBFACTIONS ──────────────────────────────────────────────────
