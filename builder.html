@@ -743,8 +743,9 @@ async function init() {
 // ── FACTION GRID ─────────────────────────────────────────────────
 function renderFactionGrid() {
   const CAT_ORDER = ['Imperium', 'Chaos', 'Xenos', 'Unknown'];
-  const categories = CAT_ORDER.filter(c => state.factions.some(f => f.category === c));
-  const sorted = [...state.factions].sort((a, b) => a.name.localeCompare(b.name));
+  const topLevel = state.factions.filter(f => !f.subfaction_of);
+  const categories = CAT_ORDER.filter(c => topLevel.some(f => f.category === c));
+  const sorted = [...topLevel].sort((a, b) => a.name.localeCompare(b.name));
   const container = D('faction-list-container');
   container.innerHTML = categories.map(cat => `
     <div class="category-label">${cat}</div>
@@ -1022,8 +1023,6 @@ D('modal-add').addEventListener('click', () => {
   renderSlots();
   updatePoints();
   saveList();
-  // Show a brief confirmation
-  unitsView.style.display = 'none';
 });
 
 // ── REMOVE UNIT ──────────────────────────────────────────────────
