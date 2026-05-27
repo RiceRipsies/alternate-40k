@@ -715,7 +715,7 @@ const state = {
   factions: [],
   faction: null,       // selected faction data
   codex: null,         // loaded codex JSON
-  subfaction: 'Average',
+  subfaction: null,
   list: [],            // [{ slotKey, unit, options, pts }]
   browsingSlot: null,
   pendingUnit: null,
@@ -806,12 +806,13 @@ async function selectFaction(id) {
 
 // ── SUBFACTIONS ──────────────────────────────────────────────────
 function populateSubfactions() {
-  if (!state.codex?.subfactions?.length) { subfactionRow.style.display = 'none'; return; }
+  const subs = (state.codex?.subfactions ?? []).filter(s => s.name !== 'Average');
+  if (!subs.length) { subfactionRow.style.display = 'none'; state.subfaction = null; return; }
   subfactionRow.style.display = '';
-  subfactionSel.innerHTML = state.codex.subfactions.map(s =>
+  subfactionSel.innerHTML = subs.map(s =>
     `<option value="${s.name}">${s.name}</option>`
   ).join('');
-  state.subfaction = state.codex.subfactions[0].name;
+  state.subfaction = subs[0].name;
   subfactionSel.value = state.subfaction;
 }
 
@@ -1065,7 +1066,7 @@ D('export-btn').addEventListener('click', () => {
   const limit = ptsLimit.value;
   const total = state.list.reduce((s, e) => s + e.pts, 0);
   let text = `ALTERNATE 40K — ARMY LIST\n`;
-  text += `${state.faction.name}${state.subfaction !== 'Average' ? ` (${state.subfaction})` : ''}\n`;
+  text += `${state.faction.name}${state.subfaction ? ` (${state.subfaction})` : ''}\n`;
   text += `Points: ${total}${limit ? ` / ${limit}` : ''}\n`;
   text += '─'.repeat(40) + '\n\n';
 
