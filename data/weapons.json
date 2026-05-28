@@ -35,6 +35,18 @@
     "range": "Frag Grenades",
     "type": ""
   },
+  "+1 Point": {
+    "AP": "User 6+ Rending",
+    "S": "Melee",
+    "range": "Chainsword",
+    "type": ""
+  },
+  "+10": {
+    "AP": "6 4+ Assault 1, Non-Blast",
+    "S": "8",
+    "range": "Krak Grenades",
+    "type": "8"
+  },
   "+11": {
     "AP": "+3 3+ Concussion, Extra Attack 1",
     "S": "Melee",
@@ -1781,6 +1793,12 @@
     "range": "Flame",
     "type": "Assault 1, One Use Only +2 4+ Concussion"
   },
+  "Acid Gas Bombs": {
+    "AP": "-",
+    "S": "3",
+    "range": "8",
+    "type": "Grenade 1, 3\" Blast, Poisoned (3+), Ignores Cover"
+  },
   "Acid Maw": {
     "AP": "3+",
     "S": "User",
@@ -2381,6 +2399,12 @@
     "range": "Melee",
     "type": "Sniper (2+), Independent Characters slain by this weapon spawn a Chaos Spawn within 6\" with no upgrades Monsterbane 8"
   },
+  "Blade of Vigil": {
+    "AP": "2+",
+    "S": "+1",
+    "range": "Melee",
+    "type": "None 3"
+  },
   "Blade of the Ancestors": {
     "AP": "1+",
     "S": "+2",
@@ -2488,6 +2512,12 @@
     "S": "8",
     "range": "12",
     "type": "Assault 1, Melta, And And (Monsterbane) And"
+  },
+  "Blue Fire": {
+    "AP": "6+",
+    "S": "3",
+    "range": "12",
+    "type": "Assault 2"
   },
   "Blue Firebolt": {
     "AP": "1+",
@@ -2633,11 +2663,23 @@
     "range": "Hell",
     "type": "Assault 1, Reroll failed To Wound rolls"
   },
+  "Breacher Axe": {
+    "AP": "5+",
+    "S": "+2",
+    "range": "Melee",
+    "type": "None"
+  },
   "Bright Lance": {
     "AP": "2+",
     "S": "9",
     "range": "36",
     "type": "Heavy 1, Lance, Monsterbane"
+  },
+  "Brimstone Fire": {
+    "AP": "-",
+    "S": "2",
+    "range": "12",
+    "type": "Assault 2"
   },
   "Brutal Combat Weapon": {
     "AP": "-",
@@ -4121,6 +4163,18 @@
     "range": "12-72",
     "type": "Heavy 1, Indirect Fire, 5\" Blast, Monsterbane, Turret, Primary"
   },
+  "Exotic Knife": {
+    "AP": "-",
+    "S": "User",
+    "range": "Melee",
+    "type": "Poisoned (2+)"
+  },
+  "Exotic Sword": {
+    "AP": "-",
+    "S": "User",
+    "range": "Melee",
+    "type": "Extra Attack 1"
+  },
   "Eyeburst": {
     "AP": "Assault 1",
     "S": "4+",
@@ -4391,6 +4445,12 @@
     "range": "Melee",
     "type": "Rending"
   },
+  "Furioso Force Halberd": {
+    "AP": "2+",
+    "S": "+3",
+    "range": "Melee",
+    "type": "Psychic Bane, Primary"
+  },
   "Fury of the Tempest": {
     "AP": "5+",
     "S": "6",
@@ -4564,6 +4624,12 @@
     "S": "User",
     "range": "Melee",
     "type": "Reroll failed To Wound rolls 63"
+  },
+  "Gifted Combat Knife": {
+    "AP": "-",
+    "S": "User",
+    "range": "Melee",
+    "type": "Extra Attack 1, Rending"
   },
   "Gigashoota": {
     "AP": "3+",
@@ -4783,9 +4849,9 @@
   },
   "Grenade Launcher": {
     "AP": "4+",
-    "S": "6",
-    "range": "24",
-    "type": "Assault 1 Or Or Or Or"
+    "S": "6 or",
+    "range": "24 or",
+    "type": "or Assault 1 or 24 3 - Assault 1, 3\" Blast"
   },
   "Grenadier Gauntlet": {
     "AP": "6+",
@@ -4803,7 +4869,7 @@
     "AP": "-",
     "S": "3",
     "range": "12",
-    "type": "Pistol 1, Accurate, Sponson"
+    "type": "Pistol 1, Dakka"
   },
   "Grot Blaster": {
     "AP": "-",
@@ -5092,6 +5158,12 @@
     "S": "X2",
     "range": "Melee",
     "type": "Slow, Monsterbane"
+  },
+  "Heavy Chainsword": {
+    "AP": "5+",
+    "S": "+1",
+    "range": "Melee",
+    "type": "Rending"
   },
   "Heavy Colossus Siege Mortar": {
     "AP": "Heavy 1, 10\" Blast, Ordnance,",
@@ -5393,6 +5465,12 @@
     "range": "Melee",
     "type": "Extra Attack 1, Reroll 1s To Hit"
   },
+  "High Capacity Lascarbine": {
+    "AP": "-",
+    "S": "3",
+    "range": "18",
+    "type": "Assault 3"
+  },
   "Hollowed Mace": {
     "AP": "4+",
     "S": "+2",
@@ -5404,6 +5482,12 @@
     "S": "+2",
     "range": "Melee",
     "type": "None"
+  },
+  "Hot Shot Las Pistol": {
+    "AP": "3+",
+    "S": "3",
+    "range": "6",
+    "type": "Pistol 1"
   },
   "Hot Shot Laspistol": {
     "AP": "3+",
@@ -6104,7 +6188,7 @@
   "Lasgun": {
     "AP": "-",
     "S": "3",
-    "range": "12",
+    "range": "24",
     "type": "Rapid Fire 1"
   },
   "Lash Whip": {
@@ -6219,7 +6303,7 @@
     "AP": "1+",
     "S": "D",
     "range": "72",
-    "type": "Heavy 1, 3\" Blast, Destroyer, Monsterbane"
+    "type": "Heavy 1, 3\" Blast, Destroyer, Monsterbane, Hull"
   },
   "Light Battle Cannon": {
     "AP": "3+",
@@ -6437,6 +6521,12 @@
     "range": "12-72",
     "type": "Heavy 2, 5\" Blast, Indirect"
   },
+  "Man of Adamantium": {
+    "AP": "2+",
+    "S": "User",
+    "range": "Melee",
+    "type": "Armourbane, Monsterbane"
+  },
   "Mandiblasters": {
     "AP": "-",
     "S": "2",
@@ -6574,6 +6664,12 @@
     "S": "D",
     "range": "Melee",
     "type": "Slow, Destroyer, Monsterbane, Primary"
+  },
+  "Mek Arms": {
+    "AP": "2+",
+    "S": "X2",
+    "range": "Melee",
+    "type": "Auxiliary, Slow, Monsterbane"
   },
   "Melta Array": {
     "AP": "1+",
@@ -6725,6 +6821,12 @@
     "range": "24",
     "type": "Assault 1, 3\" Blast, Ignores Cover 12"
   },
+  "Mole Launcher": {
+    "AP": "5+",
+    "S": "5",
+    "range": "6-24",
+    "type": "Heavy 1, 3\" Blast, Ignore Cover, Indirect Fire"
+  },
   "Monoscythe Missile Rack": {
     "AP": "5+",
     "S": "6",
@@ -6801,7 +6903,7 @@
     "AP": "6+",
     "S": "6",
     "range": "36",
-    "type": "Heavy 3, Turret, Primary"
+    "type": "Heavy 3"
   },
   "Multimelta": {
     "AP": "1+",
@@ -7715,6 +7817,12 @@
     "range": "36",
     "type": "Heavy 18, Turret, Primary"
   },
+  "Purple Fire": {
+    "AP": "5+",
+    "S": "4",
+    "range": "12",
+    "type": "Assault 2"
+  },
   "Pusle Blaster": {
     "AP": "5+",
     "S": "5",
@@ -8267,6 +8375,12 @@
     "range": "Melee",
     "type": "Slow, Extra Attack 1, Monsterbane, Auxiliary, Servo Arms"
   },
+  "Servo Stubber": {
+    "AP": "-",
+    "S": "4",
+    "range": "12",
+    "type": "Pistol 3"
+  },
   "Shade": {
     "AP": "4+",
     "S": "6",
@@ -8571,7 +8685,7 @@
     "AP": "6+",
     "S": "3",
     "range": "36",
-    "type": "Heavy 1, Sniper"
+    "type": "Heavy 1, Sniper 7"
   },
   "Solar Atomizer": {
     "AP": "1+",
@@ -9045,7 +9159,7 @@
     "AP": "3+",
     "S": "8",
     "range": "120",
-    "type": "Heavy 1, 5\" Blast, Ordnance, One Use Only, Hull, Primary"
+    "type": "Heavy 1, 5\" Blast, Ordnance, One Use Only, Hull 6"
   },
   "Supa Rokkit Rack": {
     "AP": "3+",
@@ -9790,6 +9904,12 @@
     "S": "Poisoned (2+), Ignores",
     "range": "Melee User 2+",
     "type": "Invulnerability Saves 38"
+  },
+  "Vindicator Melee": {
+    "AP": "4+",
+    "S": "5 or",
+    "range": "Flame",
+    "type": "or Assault 1 or +1 5+ Counterattack, Rending"
   },
   "Vitarus": {
     "AP": "2+",

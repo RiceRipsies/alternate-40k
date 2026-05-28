@@ -907,12 +907,28 @@
         }
       },
       {
-        "name": "Special Wargear:",
+        "name": "Primaris Deathwing",
         "points_base": 753,
         "composition": "1 Sergeant 4-9 Terminators",
         "models": [
           {
-            "name": "Special Wargear:",
+            "name": "Terminators",
+            "stats": {
+              "M": "4",
+              "WS": "2+",
+              "BS": "2+",
+              "S": "4",
+              "T": "4",
+              "W": "4",
+              "I": "4",
+              "A": "4",
+              "Ld": "9",
+              "Sv": "3+"
+            },
+            "rules": []
+          },
+          {
+            "name": "Sergeant",
             "stats": {
               "M": "4",
               "WS": "2+",
@@ -937,7 +953,13 @@
               "Shock Assault",
               "Steady",
               "Stubborn",
-              "Very Bulky",
+              "Very Bulky"
+            ]
+          },
+          {
+            "name": "Terminator",
+            "stats": {},
+            "rules": [
               "Dark Angels",
               "Monstrous Infantry",
               "Bolter Discipline",

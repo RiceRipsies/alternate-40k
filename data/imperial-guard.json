@@ -222,12 +222,12 @@
   "slots": {
     "hq": [
       {
-        "name": "Special Wargear:",
+        "name": "Company Command Squad",
         "points_base": 131,
         "composition": "1 Company Commander 4 Veterans",
         "models": [
           {
-            "name": "Refractor Field: 5+",
+            "name": "Company Commander",
             "stats": {
               "M": "6",
               "WS": "3+",
@@ -240,10 +240,32 @@
               "Ld": "9",
               "Sv": "5+"
             },
-            "rules": []
+            "rules": [
+              "Infantry Orders 2",
+              "Character",
+              "Infantry"
+            ]
           },
           {
-            "name": "Invulnerability Save",
+            "name": "Veteran",
+            "stats": {
+              "M": "6",
+              "WS": "4+",
+              "BS": "3+",
+              "S": "3",
+              "T": "3",
+              "W": "1",
+              "I": "3",
+              "A": "1",
+              "Ld": "7",
+              "Sv": "5+"
+            },
+            "rules": [
+              "Infantry"
+            ]
+          },
+          {
+            "name": "Veteran Heavy Weapons Team",
             "stats": {
               "M": "6",
               "WS": "4+",
@@ -257,10 +279,6 @@
               "Sv": "5+"
             },
             "rules": [
-              "Infantry Orders 2",
-              "Character",
-              "Infantry",
-              "Infantry",
               "Infantry",
               "Bulky",
               "Sv4+",
@@ -325,7 +343,200 @@
             ]
           }
         ],
-        "weapons": {}
+        "weapons": {
+          "Laspistol": {
+            "range": "12",
+            "S": "3",
+            "AP": "-",
+            "type": "Pistol 1"
+          },
+          "Bolt Pistol": {
+            "range": "12",
+            "S": "4",
+            "AP": "5+",
+            "type": "Pistol 1"
+          },
+          "Boltgun": {
+            "range": "24",
+            "S": "4",
+            "AP": "5+",
+            "type": "Rapid Fire1"
+          },
+          "Shotgun": {
+            "range": "12",
+            "S": "3",
+            "AP": "-",
+            "type": "Assault 2, Scatter"
+          },
+          "Handflamer": {
+            "range": "Flame",
+            "S": "3",
+            "AP": "6+",
+            "type": "Pistol 1"
+          },
+          "Plasma Pistol": {
+            "range": "12",
+            "S": "7",
+            "AP": "2+",
+            "type": "Pistol 1, Gets Hot!"
+          },
+          "Chainsword": {
+            "range": "Melee",
+            "S": "User",
+            "AP": "6+",
+            "type": "Rending"
+          },
+          "Power Sword": {
+            "range": "Melee",
+            "S": "+1",
+            "AP": "3+",
+            "type": ""
+          },
+          "Power Axe": {
+            "range": "Melee",
+            "S": "2+",
+            "AP": "4+",
+            "type": ""
+          },
+          "Power Maul": {
+            "range": "Melee",
+            "S": "2+",
+            "AP": "4+",
+            "type": "Concussion"
+          },
+          "Power Fist": {
+            "range": "Melee",
+            "S": "X2",
+            "AP": "2+",
+            "type": "Slow, Monsterbane"
+          },
+          "Chain Fist": {
+            "range": "Melee",
+            "S": "X2",
+            "AP": "2+",
+            "type": "Slow, Monsterbane, +1 To Penetrate."
+          },
+          "Lasgun": {
+            "range": "24",
+            "S": "3",
+            "AP": "-",
+            "type": "Rapid Fire 1"
+          },
+          "Sniper Rifle": {
+            "range": "36",
+            "S": "3",
+            "AP": "6+",
+            "type": "Heavy 1, Sniper (3+)"
+          },
+          "Flamer": {
+            "range": "Flame",
+            "S": "4",
+            "AP": "5+",
+            "type": "Assault 1"
+          },
+          "Grenade Launcher": {
+            "range": "24 or",
+            "S": "6 or",
+            "AP": "4+",
+            "type": "or Assault 1 or 24 3 - Assault 1, 3\" Blast"
+          },
+          "Plasma Gun": {
+            "range": "24",
+            "S": "7",
+            "AP": "2+",
+            "type": "Rapid Fire 1, Gets Hot!"
+          },
+          "Heavy Stubber": {
+            "range": "36",
+            "S": "5",
+            "AP": "6+",
+            "type": "Heavy 3"
+          },
+          "Meltagun": {
+            "range": "12",
+            "S": "8",
+            "AP": "1+",
+            "type": "Assault 1, Melta, (Monsterbane)"
+          },
+          "Heavy Flamer": {
+            "range": "Flame",
+            "S": "5",
+            "AP": "4+",
+            "type": "Assault 1"
+          },
+          "Demolition Charge": {
+            "range": "6",
+            "S": "10",
+            "AP": "2+",
+            "type": "Assault 1, 5\" Blast, Monsterbane, One Use Only"
+          },
+          "Mortar": {
+            "range": "12-48",
+            "S": "4",
+            "AP": "6+",
+            "type": "Heavy 1, 3\" Blast, Indirect, Pinning"
+          },
+          "Heavy Bolter": {
+            "range": "36",
+            "S": "5",
+            "AP": "4+",
+            "type": "Heavy 3"
+          },
+          "Multilaser": {
+            "range": "36",
+            "S": "6",
+            "AP": "6+",
+            "type": "Heavy 3"
+          },
+          "Autocannon": {
+            "range": "48",
+            "S": "7",
+            "AP": "4+",
+            "type": "Heavy 2, Monsterbane"
+          },
+          "Heavy Mortar": {
+            "range": "12-48",
+            "S": "5",
+            "AP": "5+",
+            "type": "Heavy 1, 3\" Blast, Indirect, Pinning"
+          },
+          "2 Linked Heavy Stubbers": {
+            "range": "36",
+            "S": "5",
+            "AP": "6+",
+            "type": "Heavy 3 x2"
+          },
+          "Missile Launcher": {
+            "range": "48 or",
+            "S": "8 or",
+            "AP": "3+",
+            "type": "or Heavy 1, Monsterbane or"
+          },
+          "Lascannon": {
+            "range": "48",
+            "S": "9",
+            "AP": "2+",
+            "type": "Heavy 1, Monsterbane Page 8 of 123"
+          },
+          "+1 Point": {
+            "range": "Chainsword",
+            "S": "Melee",
+            "AP": "User 6+ Rending",
+            "type": ""
+          },
+          "Frag Grenades": {
+            "range": "8",
+            "S": "3",
+            "AP": "-",
+            "type": "Grenade 1, 3\" Blast"
+          },
+          "+10": {
+            "range": "Krak Grenades",
+            "S": "8",
+            "AP": "6 4+ Assault 1, Non-Blast",
+            "type": ""
+          }
+        }
       },
       {
         "name": "Lord Commissar",
@@ -1324,56 +1535,6 @@
       }
     ],
     "dedicated_transport": [
-      {
-        "name": "P",
-        "points_base": 329,
-        "composition": "1 Lord Solar Leontus",
-        "models": [
-          {
-            "name": "D",
-            "stats": {
-              "M": "12",
-              "WS": "2+",
-              "BS": "2+",
-              "S": "5",
-              "T": "5",
-              "W": "7",
-              "I": "3",
-              "A": "4",
-              "Ld": "10",
-              "Sv": "3+"
-            },
-            "rules": []
-          },
-          {
-            "name": "Lord Solar Leontus",
-            "stats": {},
-            "rules": [
-              "Independent Character",
-              "Unique",
-              "Infantry",
-              "Steed",
-              "Infantry Orders 2",
-              "Tank Orders 1",
-              "Outflank",
-              "Lord Solar"
-            ]
-          },
-          {
-            "name": "Lord Solar Leontus",
-            "stats": {},
-            "rules": []
-          }
-        ],
-        "fixed_wargear": [
-          "Sol's Righteous Gaze",
-          "Conquest",
-          "Konstantin",
-          "Artificer Refractor Helmet"
-        ],
-        "options": [],
-        "weapons": {}
-      },
       {
         "name": "Lord Solar Macharius",
         "points_base": 464,
@@ -4280,12 +4441,12 @@
         }
       },
       {
-        "name": "Servo Stubber",
+        "name": "Taddeus the Purifier",
         "points_base": 108,
         "composition": "1 Arch Confessor Kyrinov 0-9 Crusaders",
         "models": [
           {
-            "name": "Power Maul",
+            "name": "Taddeus",
             "stats": {
               "M": "6",
               "WS": "3+",
@@ -4301,7 +4462,7 @@
             "rules": []
           },
           {
-            "name": "Frag Grenades",
+            "name": "Pious Vorne",
             "stats": {
               "M": "6",
               "WS": "3+",
@@ -4319,13 +4480,7 @@
               "Unique",
               "Infantry",
               "Zealot",
-              "The Purifier"
-            ]
-          },
-          {
-            "name": "Rosarius",
-            "stats": {},
-            "rules": [
+              "The Purifier",
               "Independent Character",
               "Unique",
               "Infantry",
@@ -4333,46 +4488,63 @@
             ]
           },
           {
-            "name": "Pious Vorne:",
+            "name": "Crusader",
             "stats": {},
             "rules": [
               "Infantry",
               "Save",
               "Prayer: The Emperor's Strength"
             ]
-          },
-          {
-            "name": "Vindicator",
-            "stats": {},
-            "rules": []
-          },
-          {
-            "name": "Crusader:",
-            "stats": {},
-            "rules": []
-          },
-          {
-            "name": "Power Sword",
-            "stats": {},
-            "rules": []
-          },
-          {
-            "name": "Storm Shield",
-            "stats": {},
-            "rules": []
           }
         ],
         "fixed_wargear": [],
         "options": [],
-        "weapons": {}
+        "weapons": {
+          "Laspistol": {
+            "range": "12",
+            "S": "3",
+            "AP": "-",
+            "type": "Pistol 1"
+          },
+          "Servo Stubber": {
+            "range": "12",
+            "S": "4",
+            "AP": "-",
+            "type": "Pistol 3"
+          },
+          "Power Maul": {
+            "range": "Melee",
+            "S": "+2",
+            "AP": "4+",
+            "type": "Concussion"
+          },
+          "Vindicator Melee": {
+            "range": "Flame",
+            "S": "5 or",
+            "AP": "4+",
+            "type": "or Assault 1 or +1 5+ Counterattack, Rending"
+          },
+          "Power Sword": {
+            "range": "Melee",
+            "S": "+1",
+            "AP": "3+",
+            "type": ""
+          },
+          "Frag Grenades": {
+            "range": "8",
+            "S": "3",
+            "AP": "-",
+            "type": "Grenade 1, 3\" Blast Page 29 of 123"
+          }
+        }
       },
       {
-        "name": "Servo Stubber",
+        "name": "Taddeus the Purifier",
         "points_base": 72,
         "composition": "1 Uriah Jacobus 0-9 Crusaders",
         "models": [
           {
-            "name": "Power Maul",
+            "name": "Taddeus",
             "stats": {
               "M": "6",
               "WS": "3+",
@@ -4388,7 +4560,7 @@
             "rules": []
           },
           {
-            "name": "Frag Grenades",
+            "name": "Pious Vorne",
             "stats": {
               "M": "6",
               "WS": "3+",
@@ -4409,36 +4581,11 @@
             ]
           },
           {
-            "name": "Rosarius",
+            "name": "Crusader",
             "stats": {},
             "rules": [
               "Infantry"
             ]
-          },
-          {
-            "name": "Pious Vorne:",
-            "stats": {},
-            "rules": []
-          },
-          {
-            "name": "Vindicator",
-            "stats": {},
-            "rules": []
-          },
-          {
-            "name": "Crusader:",
-            "stats": {},
-            "rules": []
-          },
-          {
-            "name": "Power Sword",
-            "stats": {},
-            "rules": []
-          },
-          {
-            "name": "Storm Shield",
-            "stats": {},
-            "rules": []
           }
         ],
         "fixed_wargear": [
@@ -4451,7 +4598,44 @@
           "Stormshield"
         ],
         "options": [],
-        "weapons": {}
+        "weapons": {
+          "Laspistol": {
+            "range": "12",
+            "S": "3",
+            "AP": "-",
+            "type": "Pistol 1"
+          },
+          "Servo Stubber": {
+            "range": "12",
+            "S": "4",
+            "AP": "-",
+            "type": "Pistol 3"
+          },
+          "Power Maul": {
+            "range": "Melee",
+            "S": "+2",
+            "AP": "4+",
+            "type": "Concussion"
+          },
+          "Vindicator Melee": {
+            "range": "Flame",
+            "S": "5 or",
+            "AP": "4+",
+            "type": "or Assault 1 or +1 5+ Counterattack, Rending"
+          },
+          "Power Sword": {
+            "range": "Melee",
+            "S": "+1",
+            "AP": "3+",
+            "type": ""
+          },
+          "Frag Grenades": {
+            "range": "8",
+            "S": "3",
+            "AP": "-",
+            "type": "Grenade 1, 3\" Blast Page 29 of 123"
+          }
+        }
       }
     ],
     "troops": [
@@ -4939,12 +5123,12 @@
         }
       },
       {
-        "name": "Special Wargear:",
+        "name": "Veterans",
         "points_base": 85,
         "composition": "1 Sergeant 9 Veterans",
         "models": [
           {
-            "name": "Snare Mines - All Charges",
+            "name": "Veteran Sergeant",
             "stats": {
               "M": "6",
               "WS": "4+",
@@ -4957,10 +5141,13 @@
               "Ld": "8",
               "Sv": "5+"
             },
-            "rules": []
+            "rules": [
+              "Character",
+              "Infantry"
+            ]
           },
           {
-            "name": "against this unit are",
+            "name": "Veteran Guardsman",
             "stats": {
               "M": "6",
               "WS": "4+",
@@ -4974,12 +5161,11 @@
               "Sv": "5+"
             },
             "rules": [
-              "Character",
               "Infantry"
             ]
           },
           {
-            "name": "Disorganized",
+            "name": "Veteran Heavy Weapon Team",
             "stats": {
               "M": "6",
               "WS": "4+",
@@ -4994,7 +5180,6 @@
             },
             "rules": [
               "Infantry",
-              "Infantry",
               "Bulky",
               "Grenadier."
             ]
@@ -5004,11 +5189,88 @@
         "options": [
           {
             "description": "may swap Heavy Flamer for H Up to three Veteran Guardsman",
-            "choices": []
+            "choices": [
+              {
+                "name": "Heavy Flamer",
+                "pts_delta": 0
+              },
+              {
+                "name": "Mortar",
+                "pts_delta": 0
+              },
+              {
+                "name": "Heavy Bolter",
+                "pts_delta": 2
+              },
+              {
+                "name": "Multilaser",
+                "pts_delta": 2
+              },
+              {
+                "name": "Heavy Mortar",
+                "pts_delta": 6
+              },
+              {
+                "name": "Autocannon",
+                "pts_delta": 6
+              },
+              {
+                "name": "Rotor Cannon",
+                "pts_delta": 10
+              },
+              {
+                "name": "2 Linked Heavy Stubbers",
+                "pts_delta": 11
+              },
+              {
+                "name": "Missile Launcher",
+                "pts_delta": 12
+              },
+              {
+                "name": "Lascannon",
+                "pts_delta": 14
+              }
+            ]
           },
           {
             "description": "may swap Lasgun for S or take one SD One Veteran Guardsman may swap for ES instead of S One Veteran that did not swap Lasgun for S or SD may take one E Any model may take one P The entire unit may take Krak Grenades for +10 points Veterans may take any of the Doctrines",
             "choices": [
+              {
+                "name": "Heavy Flamer",
+                "pts_delta": 10
+              },
+              {
+                "name": "Sniper Rifle",
+                "pts_delta": 6
+              },
+              {
+                "name": "Flamer",
+                "pts_delta": 7
+              },
+              {
+                "name": "Grenade Launcher",
+                "pts_delta": 8
+              },
+              {
+                "name": "Plasma Gun",
+                "pts_delta": 9
+              },
+              {
+                "name": "Heavy Stubber",
+                "pts_delta": 10
+              },
+              {
+                "name": "Meltagun",
+                "pts_delta": 24
+              },
+              {
+                "name": "Demolition Charge",
+                "pts_delta": 7
+              },
+              {
+                "name": "Laspistol",
+                "pts_delta": 1
+              },
               {
                 "name": "Vox Caster",
                 "pts_delta": 5
@@ -5016,7 +5278,212 @@
             ]
           }
         ],
-        "weapons": {}
+        "weapons": {
+          "Laspistol": {
+            "range": "12",
+            "S": "3",
+            "AP": "-",
+            "type": "Pistol 1"
+          },
+          "Lasgun": {
+            "range": "24",
+            "S": "3",
+            "AP": "-",
+            "type": "Rapid Fire 1"
+          },
+          "Drum Fed Autogun": {
+            "range": "18",
+            "S": "3",
+            "AP": "-",
+            "type": "Assault 3"
+          },
+          "Shotgun": {
+            "range": "12",
+            "S": "3",
+            "AP": "-",
+            "type": "Assault 2, Scatter"
+          },
+          "Bolt Pistol": {
+            "range": "12",
+            "S": "4",
+            "AP": "5+",
+            "type": "Pistol 1"
+          },
+          "Boltgun": {
+            "range": "24",
+            "S": "4",
+            "AP": "5+",
+            "type": "Rapid Fire1"
+          },
+          "Handflamer": {
+            "range": "Flame",
+            "S": "3",
+            "AP": "6+",
+            "type": "Pistol 1"
+          },
+          "Plasma Pistol": {
+            "range": "12",
+            "S": "7",
+            "AP": "2+",
+            "type": "Pistol 1, Gets Hot!"
+          },
+          "Chainsword": {
+            "range": "Melee",
+            "S": "User",
+            "AP": "6+",
+            "type": "Rending"
+          },
+          "Power Sword": {
+            "range": "Melee",
+            "S": "+1",
+            "AP": "3+",
+            "type": ""
+          },
+          "Power Axe": {
+            "range": "Melee",
+            "S": "2+",
+            "AP": "4+",
+            "type": ""
+          },
+          "Power Maul": {
+            "range": "Melee",
+            "S": "2+",
+            "AP": "4+",
+            "type": "Concussion"
+          },
+          "Power Fist": {
+            "range": "Melee",
+            "S": "X2",
+            "AP": "2+",
+            "type": "Slow, Monsterbane"
+          },
+          "Chain Fist": {
+            "range": "Melee",
+            "S": "X2",
+            "AP": "2+",
+            "type": "Slow, Monsterbane, +1 To Penetrate"
+          },
+          "Heavy Flamer": {
+            "range": "Flame",
+            "S": "5",
+            "AP": "4+",
+            "type": "Assault 1"
+          },
+          "Mortar": {
+            "range": "12-48",
+            "S": "4",
+            "AP": "6+",
+            "type": "Heavy 1, 3\" Blast, Indirect, Pinning"
+          },
+          "Heavy Bolter": {
+            "range": "36",
+            "S": "5",
+            "AP": "4+",
+            "type": "Heavy 3"
+          },
+          "Multilaser": {
+            "range": "36",
+            "S": "6",
+            "AP": "6+",
+            "type": "Heavy 3"
+          },
+          "Heavy Mortar": {
+            "range": "12-48",
+            "S": "5",
+            "AP": "5+",
+            "type": "Heavy 1, 3\" Blast, Indirect, Pinning"
+          },
+          "Autocannon": {
+            "range": "48",
+            "S": "7",
+            "AP": "4+",
+            "type": "Heavy 2, Monsterbane"
+          },
+          "Rotor Cannon": {
+            "range": "36",
+            "S": "4",
+            "AP": "-",
+            "type": "Heavy 6"
+          },
+          "2 Linked Heavy Stubbers": {
+            "range": "36",
+            "S": "5",
+            "AP": "6+",
+            "type": "Heavy 3 x2"
+          },
+          "Missile Launcher": {
+            "range": "48 or",
+            "S": "8 or",
+            "AP": "3+",
+            "type": "or Heavy 1, Monsterbane or"
+          },
+          "Lascannon": {
+            "range": "48",
+            "S": "9",
+            "AP": "2+",
+            "type": "Heavy 1, Monsterbane"
+          },
+          "Sniper Rifle": {
+            "range": "36",
+            "S": "3",
+            "AP": "6+",
+            "type": "Heavy 1, Sniper"
+          },
+          "Flamer": {
+            "range": "Flame",
+            "S": "4",
+            "AP": "5+",
+            "type": "Assault 1"
+          },
+          "Grenade Launcher": {
+            "range": "24 or",
+            "S": "6 or",
+            "AP": "4+",
+            "type": "or Assault 1 or 24 3 - Assault 1, 3\" Blast"
+          },
+          "Plasma Gun": {
+            "range": "24",
+            "S": "7",
+            "AP": "2+",
+            "type": "Rapid Fire 1, Gets Hot!"
+          },
+          "Heavy Stubber": {
+            "range": "36",
+            "S": "5",
+            "AP": "6+",
+            "type": "Heavy 3"
+          },
+          "Meltagun": {
+            "range": "12",
+            "S": "8",
+            "AP": "1+",
+            "type": "Assault 1, Melta, (Monsterbane)"
+          },
+          "Demolition Charge": {
+            "range": "6",
+            "S": "10",
+            "AP": "2+",
+            "type": "Assault 1, 5\" Blast, Monsterbane, One Use Only Page 35 of 123"
+          },
+          "Frag Grenades": {
+            "range": "8",
+            "S": "3",
+            "AP": "-",
+            "type": "Grenade 1, 3\" Blast"
+          },
+          "Krak Grenades": {
+            "range": "8",
+            "S": "6",
+            "AP": "4+",
+            "type": "Grenade 1, Non-Blast"
+          },
+          "Melta Bombs": {
+            "range": "6",
+            "S": "8",
+            "AP": "2+",
+            "type": "Grenade 1, Armourbane, Monsterbane, Non-Blast"
+          }
+        }
       }
     ],
     "elites": [
@@ -5349,12 +5816,12 @@
         }
       },
       {
-        "name": "Chainsword",
+        "name": "Engineer Platoon",
         "points_base": 64,
         "composition": "1-4 Squads (1 Engineer Sergeant, 4-9 Engineers each)",
         "models": [
           {
-            "name": "Acid Gas Bombs",
+            "name": "Engineer Sergeant",
             "stats": {
               "M": "6",
               "WS": "4+",
@@ -5367,10 +5834,14 @@
               "Ld": "8",
               "Sv": "4+"
             },
-            "rules": []
+            "rules": [
+              "Character",
+              "Infantry",
+              "Scout"
+            ]
           },
           {
-            "name": "Engineer Guardsman:",
+            "name": "Engineer",
             "stats": {
               "M": "6",
               "WS": "4+",
@@ -5384,13 +5855,13 @@
               "Sv": "4+"
             },
             "rules": [
-              "Character",
               "Infantry",
-              "Scout"
+              "Scout",
+              "Engineer Heavy Weapons"
             ]
           },
           {
-            "name": "Shotgun",
+            "name": "Engineer Heavy Weapon Team",
             "stats": {
               "M": "6",
               "WS": "4+",
@@ -5405,52 +5876,266 @@
             },
             "rules": [
               "Infantry",
-              "Scout",
-              "Engineer Heavy Weapons"
-            ]
-          },
-          {
-            "name": "Acid Gas Bombs",
-            "stats": {},
-            "rules": [
-              "Infantry",
               "Bulky",
               "Scout"
             ]
-          },
-          {
-            "name": "Engineer Heavy Weapons Team:",
-            "stats": {},
-            "rules": []
-          },
-          {
-            "name": "Shotgun",
-            "stats": {},
-            "rules": []
-          },
-          {
-            "name": "Mole Launcher",
-            "stats": {},
-            "rules": []
-          },
-          {
-            "name": "Acid Gas Bombs",
-            "stats": {},
-            "rules": []
           }
         ],
         "fixed_wargear": [],
         "options": [
           {
             "description": "May take up to 3 more Engineer Squads for +64 points each Any Squad may take up to 5 more Engineers for +12 points each Engineer Squad Engineer Sergeant may swap Laspistol for OP Engineer Sergeant may swap Chainsword for OM Two Engineers may be swapped for an Engineer Heavy Weapons Team for -1 points Engineer Heavy Weapons Team",
-            "choices": []
+            "choices": [
+              {
+                "name": "Laspistol",
+                "pts_delta": 0
+              },
+              {
+                "name": "Bolt Pistol",
+                "pts_delta": 2
+              },
+              {
+                "name": "Boltgun",
+                "pts_delta": 2
+              },
+              {
+                "name": "Shotgun",
+                "pts_delta": 1
+              },
+              {
+                "name": "Handflamer",
+                "pts_delta": 5
+              },
+              {
+                "name": "Plasma Pistol",
+                "pts_delta": 9
+              },
+              {
+                "name": "Chainsword",
+                "pts_delta": 0
+              },
+              {
+                "name": "Power Sword",
+                "pts_delta": 3
+              },
+              {
+                "name": "Power Axe",
+                "pts_delta": 5
+              },
+              {
+                "name": "Power Maul",
+                "pts_delta": 6
+              },
+              {
+                "name": "Power Fist",
+                "pts_delta": 7
+              },
+              {
+                "name": "Chain Fist",
+                "pts_delta": 9
+              }
+            ]
           },
           {
             "description": "may swap Mole Launcher for H Up to three Engineers may swap Shotgun for S or take one SD Any model may take one M or A Assault 1, 5\" Blast, Monsterbane, One Use Only Assault 1 or Assault 1, 3\" Blast Rapid Fire 1, Gets Hot! Heavy 3 Assault 1, Melta, (Monsterbane) Extra Attack 1 Rapid Fire 1 Pistol 1 Pistol 1, Scatter Rending Rending None Grenade 1, 3\" Blast Assault 1, 5\" Blast, Monsterbane, One Use Only",
-            "choices": []
+            "choices": [
+              {
+                "name": "Mole Launcher",
+                "pts_delta": 0
+              },
+              {
+                "name": "Heavy Flamer",
+                "pts_delta": 1
+              },
+              {
+                "name": "Lascannon",
+                "pts_delta": 17
+              },
+              {
+                "name": "Flamer",
+                "pts_delta": 6
+              },
+              {
+                "name": "Grenade Launcher",
+                "pts_delta": 7
+              },
+              {
+                "name": "Plasma Gun",
+                "pts_delta": 8
+              },
+              {
+                "name": "Heavy Stubber",
+                "pts_delta": 9
+              },
+              {
+                "name": "Meltagun",
+                "pts_delta": 23
+              },
+              {
+                "name": "Demolition Charge",
+                "pts_delta": 7
+              },
+              {
+                "name": "Brutal Weapon",
+                "pts_delta": 1
+              },
+              {
+                "name": "Breacher Axe",
+                "pts_delta": 4
+              },
+              {
+                "name": "Acid Gas Bombs",
+                "pts_delta": 0
+              }
+            ]
           }
         ],
-        "weapons": {}
+        "weapons": {
+          "Laspistol": {
+            "range": "12",
+            "S": "3",
+            "AP": "-",
+            "type": "Pistol 1"
+          },
+          "Bolt Pistol": {
+            "range": "12",
+            "S": "4",
+            "AP": "5+",
+            "type": "Pistol 1"
+          },
+          "Boltgun": {
+            "range": "24",
+            "S": "4",
+            "AP": "5+",
+            "type": "Rapid Fire1"
+          },
+          "Shotgun": {
+            "range": "12",
+            "S": "3",
+            "AP": "-",
+            "type": "Assault 2, Scatter"
+          },
+          "Handflamer": {
+            "range": "Flame",
+            "S": "3",
+            "AP": "6+",
+            "type": "Pistol 1"
+          },
+          "Plasma Pistol": {
+            "range": "12",
+            "S": "7",
+            "AP": "2+",
+            "type": "Pistol 1, Gets Hot!"
+          },
+          "Chainsword": {
+            "range": "Melee",
+            "S": "User",
+            "AP": "6+",
+            "type": "Rending"
+          },
+          "Power Sword": {
+            "range": "Melee",
+            "S": "+1",
+            "AP": "3+",
+            "type": ""
+          },
+          "Power Axe": {
+            "range": "Melee",
+            "S": "2+",
+            "AP": "4+",
+            "type": ""
+          },
+          "Power Maul": {
+            "range": "Melee",
+            "S": "2+",
+            "AP": "4+",
+            "type": "Concussion"
+          },
+          "Power Fist": {
+            "range": "Melee",
+            "S": "X2",
+            "AP": "2+",
+            "type": "Slow, Monsterbane"
+          },
+          "Chain Fist": {
+            "range": "Melee",
+            "S": "X2",
+            "AP": "2+",
+            "type": "Slow, Monsterbane, +1 To Penetrate"
+          },
+          "Mole Launcher": {
+            "range": "6-24",
+            "S": "5",
+            "AP": "5+",
+            "type": "Heavy 1, 3\" Blast, Ignore Cover, Indirect Fire"
+          },
+          "Heavy Flamer": {
+            "range": "Flame",
+            "S": "5",
+            "AP": "4+",
+            "type": "Assault 1"
+          },
+          "Lascannon": {
+            "range": "48",
+            "S": "9",
+            "AP": "2+",
+            "type": "Heavy 1, Monsterbane"
+          },
+          "Flamer": {
+            "range": "Flame",
+            "S": "4",
+            "AP": "5+",
+            "type": "Assault 1"
+          },
+          "Grenade Launcher": {
+            "range": "24 or",
+            "S": "6 or",
+            "AP": "4+",
+            "type": "or Assault 1 or 24 3 - Assault 1, 3\" Blast Page 39 of 123"
+          },
+          "Plasma Gun": {
+            "range": "24",
+            "S": "7",
+            "AP": "2+",
+            "type": "Rapid Fire 1, Gets Hot!"
+          },
+          "Heavy Stubber": {
+            "range": "36",
+            "S": "5",
+            "AP": "6+",
+            "type": "Heavy 3"
+          },
+          "Meltagun": {
+            "range": "12",
+            "S": "8",
+            "AP": "1+",
+            "type": "Assault 1, Melta, (Monsterbane)"
+          },
+          "Demolition Charge": {
+            "range": "6",
+            "S": "10",
+            "AP": "2+",
+            "type": "Assault 1, 5\" Blast, Monsterbane, One Use Only"
+          },
+          "Brutal Weapon": {
+            "range": "Melee",
+            "S": "-",
+            "AP": "-",
+            "type": "Extra Attack 1"
+          },
+          "Breacher Axe": {
+            "range": "Melee",
+            "S": "+2",
+            "AP": "5+",
+            "type": "None"
+          },
+          "Acid Gas Bombs": {
+            "range": "8",
+            "S": "3",
+            "AP": "-",
+            "type": "Grenade 1, 3\" Blast, Poisoned (3+), Ignores Cover"
+          }
+        }
       },
       {
         "name": "Ratling Platoon",
@@ -9270,69 +9955,6 @@
         }
       },
       {
-        "name": "6+",
-        "points_base": 176,
-        "composition": "1-3 Mars Alpha Leman Russ Tanks",
-        "models": [
-          {
-            "name": "3+",
-            "stats": {
-              "M": "6",
-              "WS": "5+",
-              "BS": "4+",
-              "S": "7",
-              "FA": "14",
-              "SA": "13",
-              "RA": "10",
-              "W": "14",
-              "I": "1",
-              "A": "3",
-              "Ld": "8",
-              "Sv": "3+"
-            },
-            "rules": [
-              "Vehicle",
-              "Tank",
-              "Grinding Advance",
-              "Ordnance Weapons."
-            ]
-          }
-        ],
-        "fixed_wargear": [],
-        "options": [
-          {
-            "description": "May take up to two more Mars Alpha Leman Russ Tanks for +176 points each Any model may swap Nova Eradicator Cannon for T Any model may swap Heavy Flamer H for H Any model may take a set of S Any model may take one P Any model may take one D Any model may take one M Any model may take any E one time each",
-            "choices": [
-              {
-                "name": "Augar Array",
-                "pts_delta": 5
-              },
-              {
-                "name": "Camo Netting",
-                "pts_delta": 6
-              },
-              {
-                "name": "Extra Armour",
-                "pts_delta": 5
-              },
-              {
-                "name": "Recovery Gear",
-                "pts_delta": 2
-              },
-              {
-                "name": "Searchlight",
-                "pts_delta": 1
-              },
-              {
-                "name": "Smoke Launchers",
-                "pts_delta": 10
-              }
-            ]
-          }
-        ],
-        "weapons": {}
-      },
-      {
         "name": "Ragnorak Squadron",
         "points_base": 199,
         "composition": "1-3 Ragnoraks",
@@ -11541,84 +12163,6 @@
             "type": "Heavy 1 x2, 5\" Blast, Hull"
           }
         }
-      },
-      {
-        "name": "Heavy 3, Hull, Primary",
-        "points_base": 181,
-        "composition": "1-3 Voss Strike Fighters",
-        "models": [
-          {
-            "name": "Heavy 1, Monsterbane, Hull,",
-            "stats": {
-              "M": "50",
-              "WS": "5+",
-              "BS": "4+",
-              "S": "6",
-              "FA": "12",
-              "SA": "10",
-              "RA": "10",
-              "W": "14",
-              "I": "1",
-              "A": "3",
-              "Ld": "8",
-              "Sv": "3+"
-            },
-            "rules": []
-          },
-          {
-            "name": "Primary",
-            "stats": {},
-            "rules": [
-              "Vehicle",
-              "High Altitude",
-              "Deep Strike",
-              "Interceptor"
-            ]
-          },
-          {
-            "name": "Heavy 1 x2, Ordnance,",
-            "stats": {},
-            "rules": []
-          },
-          {
-            "name": "Monsterbane, One Use Only,",
-            "stats": {},
-            "rules": []
-          },
-          {
-            "name": "Hull",
-            "stats": {},
-            "rules": []
-          },
-          {
-            "name": "Heavy 1 x2, 5\" Blast, Ignores",
-            "stats": {},
-            "rules": []
-          },
-          {
-            "name": "Cover, One Use Only, Hull",
-            "stats": {},
-            "rules": []
-          },
-          {
-            "name": "Heavy 1 x2, 5\" Blast, Hull",
-            "stats": {},
-            "rules": []
-          }
-        ],
-        "fixed_wargear": [],
-        "options": [
-          {
-            "description": "May take up to 2 more Voss Strike Fighters for +181 points each Any Voss Strike Fighter may take W Any Voss Strike Fighter may take up to one E each",
-            "choices": [
-              {
-                "name": "Chaff Launcher",
-                "pts_delta": 9
-              }
-            ]
-          }
-        ],
-        "weapons": {}
       },
       {
         "name": "Vulture Gunship Squadron",
@@ -15276,12 +15820,12 @@
         }
       },
       {
-        "name": "Demolition Man",
+        "name": "Schaeffer's Last Chancers",
         "points_base": 825,
         "composition": "1 Colonel Schaeffer 1 Animal 1 Brains 1 Demolition Man",
         "models": [
           {
-            "name": "Fingers",
+            "name": "Colonel Schaeffer",
             "stats": {
               "M": "6",
               "WS": "2+",
@@ -15293,6 +15837,70 @@
               "A": "4",
               "Ld": "10",
               "Sv": "4+"
+            },
+            "rules": []
+          },
+          {
+            "name": "Animal",
+            "stats": {
+              "M": "6",
+              "WS": "3+",
+              "BS": "3+",
+              "S": "3",
+              "T": "3",
+              "W": "3",
+              "I": "3",
+              "A": "3",
+              "Ld": "7",
+              "Sv": "5+"
+            },
+            "rules": []
+          },
+          {
+            "name": "Brains",
+            "stats": {
+              "M": "6",
+              "WS": "3+",
+              "BS": "3+",
+              "S": "3",
+              "T": "3",
+              "W": "3",
+              "I": "3",
+              "A": "3",
+              "Ld": "7",
+              "Sv": "5+"
+            },
+            "rules": []
+          },
+          {
+            "name": "Demolition Man",
+            "stats": {
+              "M": "6",
+              "WS": "3+",
+              "BS": "3+",
+              "S": "3",
+              "T": "3",
+              "W": "3",
+              "I": "3",
+              "A": "3",
+              "Ld": "7",
+              "Sv": "5+"
+            },
+            "rules": []
+          },
+          {
+            "name": "Fingers",
+            "stats": {
+              "M": "6",
+              "WS": "3+",
+              "BS": "3+",
+              "S": "3",
+              "T": "3",
+              "W": "3",
+              "I": "3",
+              "A": "3",
+              "Ld": "7",
+              "Sv": "5+"
             },
             "rules": []
           },
@@ -15334,8 +15942,8 @@
               "M": "6",
               "WS": "3+",
               "BS": "3+",
-              "S": "3",
-              "T": "3",
+              "S": "4",
+              "T": "4",
               "W": "3",
               "I": "3",
               "A": "3",
@@ -15362,50 +15970,17 @@
           },
           {
             "name": "Scope",
-            "stats": {
-              "M": "6",
-              "WS": "3+",
-              "BS": "3+",
-              "S": "3",
-              "T": "3",
-              "W": "3",
-              "I": "3",
-              "A": "3",
-              "Ld": "7",
-              "Sv": "5+"
-            },
+            "stats": {},
             "rules": []
           },
           {
             "name": "Shiv",
-            "stats": {
-              "M": "6",
-              "WS": "3+",
-              "BS": "3+",
-              "S": "3",
-              "T": "3",
-              "W": "3",
-              "I": "3",
-              "A": "3",
-              "Ld": "7",
-              "Sv": "5+"
-            },
+            "stats": {},
             "rules": []
           },
           {
             "name": "Warrior Woman",
-            "stats": {
-              "M": "6",
-              "WS": "3+",
-              "BS": "3+",
-              "S": "3",
-              "T": "3",
-              "W": "3",
-              "I": "3",
-              "A": "3",
-              "Ld": "7",
-              "Sv": "5+"
-            },
+            "stats": {},
             "rules": []
           }
         ],
@@ -15428,7 +16003,104 @@
           "Heavy Bolter"
         ],
         "options": [],
-        "weapons": {}
+        "weapons": {
+          "Laspistol": {
+            "range": "12",
+            "S": "3",
+            "AP": "-",
+            "type": "Pistol 1"
+          },
+          "Bolt Pistol": {
+            "range": "12",
+            "S": "4",
+            "AP": "5+",
+            "type": "Pistol 1"
+          },
+          "Plasma Pistol": {
+            "range": "12",
+            "S": "7",
+            "AP": "2+",
+            "type": "Pistol 1, Gets Hot!"
+          },
+          "Power Sword": {
+            "range": "Melee",
+            "S": "+1",
+            "AP": "3+",
+            "type": ""
+          },
+          "Combat Knife": {
+            "range": "Melee",
+            "S": "User",
+            "AP": "-",
+            "type": "Extra Attack 1, Rending"
+          },
+          "Exotic Knife": {
+            "range": "Melee",
+            "S": "User",
+            "AP": "-",
+            "type": "Poisoned (2+)"
+          },
+          "Exotic Sword": {
+            "range": "Melee",
+            "S": "User",
+            "AP": "-",
+            "type": "Extra Attack 1"
+          },
+          "Heavy Bolter": {
+            "range": "36",
+            "S": "5",
+            "AP": "4+",
+            "type": "Heavy 3"
+          },
+          "Missile Launcher": {
+            "range": "48 or",
+            "S": "8 or",
+            "AP": "3+",
+            "type": "or Heavy 1, Monsterbane or"
+          },
+          "Lasgun": {
+            "range": "24",
+            "S": "3",
+            "AP": "-",
+            "type": "Rapid Fire 1"
+          },
+          "High Capacity Lascarbine": {
+            "range": "18",
+            "S": "3",
+            "AP": "-",
+            "type": "Assault 3"
+          },
+          "Demolition Charge": {
+            "range": "6",
+            "S": "10",
+            "AP": "2+",
+            "type": "Assault 1, 5\" Blast, Monsterbane, One Use Only"
+          },
+          "Sniper Rifle": {
+            "range": "36",
+            "S": "3",
+            "AP": "6+",
+            "type": "Heavy 1, Sniper (3+)"
+          },
+          "Meltagun": {
+            "range": "12",
+            "S": "8",
+            "AP": "1+",
+            "type": "Assault 1, Melta, (Monsterbane) Page 116 of 123"
+          },
+          "Frag Grenades": {
+            "range": "8",
+            "S": "3",
+            "AP": "-",
+            "type": "Grenade 1, 3\" Blast"
+          },
+          "Krak Grenades": {
+            "range": "8",
+            "S": "6",
+            "AP": "4+",
+            "type": "Grenade 1, Non-Blast"
+          }
+        }
       },
       {
         "name": "Imperial Fortress",

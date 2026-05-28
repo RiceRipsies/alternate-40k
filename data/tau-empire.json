@@ -111,12 +111,48 @@
         "weapons": {}
       },
       {
-        "name": "Special Wargear:",
+        "name": "Human Helpers Command",
         "points_base": 78,
         "composition": "1 Gue'ves'ui Commander 4 Gue'vesa'la Veterans",
         "models": [
           {
-            "name": "Special Wargear:",
+            "name": "Squad",
+            "stats": {
+              "M": "6",
+              "WS": "3+",
+              "BS": "3+",
+              "S": "3",
+              "T": "3",
+              "W": "4",
+              "I": "3",
+              "A": "3",
+              "Ld": "9",
+              "Sv": "5+"
+            },
+            "rules": []
+          },
+          {
+            "name": "Gue'ves'ui Commander",
+            "stats": {
+              "M": "6",
+              "WS": "4+",
+              "BS": "3+",
+              "S": "3",
+              "T": "3",
+              "W": "1",
+              "I": "3",
+              "A": "1",
+              "Ld": "7",
+              "Sv": "5+"
+            },
+            "rules": [
+              "Character",
+              "Infantry",
+              "Never Going Back"
+            ]
+          },
+          {
+            "name": "Gue'vesa'la Veteran",
             "stats": {
               "M": "6",
               "WS": "4+",
@@ -130,10 +166,13 @@
               "Sv": "5+"
             },
             "rules": [
-              "Character",
-              "Infantry",
-              "Never Going Back",
-              "Infantry",
+              "Infantry"
+            ]
+          },
+          {
+            "name": "Veteran Heavy Weapon Team",
+            "stats": {},
+            "rules": [
               "Infantry",
               "Bulky"
             ]
@@ -2854,12 +2893,47 @@
         }
       },
       {
-        "name": "Special Wargear:",
+        "name": "Human Helpers Grizzled",
         "points_base": 75,
         "composition": "1 Gue'ves'ui Veteran 9 Gue'vesa'la Veterans",
         "models": [
           {
-            "name": "Special Wargear:",
+            "name": "Veterans",
+            "stats": {
+              "M": "6",
+              "WS": "4+",
+              "BS": "3+",
+              "S": "3",
+              "T": "3",
+              "W": "1",
+              "I": "3",
+              "A": "2",
+              "Ld": "8",
+              "Sv": "5+"
+            },
+            "rules": []
+          },
+          {
+            "name": "Gue'ves'ui Veteran",
+            "stats": {
+              "M": "6",
+              "WS": "4+",
+              "BS": "3+",
+              "S": "3",
+              "T": "3",
+              "W": "1",
+              "I": "3",
+              "A": "1",
+              "Ld": "7",
+              "Sv": "5+"
+            },
+            "rules": [
+              "Character",
+              "Infantry"
+            ]
+          },
+          {
+            "name": "Gue'vesa'la Veteran",
             "stats": {
               "M": "6",
               "WS": "4+",
@@ -2873,9 +2947,13 @@
               "Sv": "5+"
             },
             "rules": [
-              "Character",
-              "Infantry",
-              "Infantry",
+              "Infantry"
+            ]
+          },
+          {
+            "name": "Veteran Heavy Weapon Team",
+            "stats": {},
+            "rules": [
               "Infantry",
               "Bulky"
             ]
@@ -4320,103 +4398,6 @@
       }
     ],
     "heavy_support": [
-      {
-        "name": "AP",
-        "points_base": 18,
-        "composition": "2-6 Heavy Drones",
-        "models": [
-          {
-            "name": "5+",
-            "stats": {
-              "M": "6",
-              "WS": "4+",
-              "BS": "4+",
-              "S": "3",
-              "T": "3",
-              "W": "2",
-              "I": "3",
-              "A": "1",
-              "Ld": "7",
-              "Sv": "5+"
-            },
-            "rules": [
-              "Infantry",
-              "Primitive AI",
-              "Savior Protocols",
-              "Jump",
-              "Heavy Drone"
-            ]
-          }
-        ],
-        "fixed_wargear": [],
-        "options": [
-          {
-            "description": "May take up to 6 more Heavy Weapon Teams for +16 points each Any Heavy Weapon Team may swap Heavy Flamer for H Any model may swap Lasgun for R One model may take one A The unit may take up to one of each E The unit may take up to one of each G",
-            "choices": [
-              {
-                "name": "Combat Armour",
-                "pts_delta": 1
-              },
-              {
-                "name": "Blind Grenades",
-                "pts_delta": 1
-              },
-              {
-                "name": "Frag Grenades",
-                "pts_delta": 1
-              }
-            ]
-          }
-        ],
-        "weapons": {}
-      },
-      {
-        "name": "AP",
-        "points_base": 48,
-        "composition": "3-9 Heavy Weapon Teams",
-        "models": [
-          {
-            "name": "5+",
-            "stats": {
-              "M": "6",
-              "WS": "4+",
-              "BS": "4+",
-              "S": "3",
-              "T": "3",
-              "W": "2",
-              "I": "3",
-              "A": "1",
-              "Ld": "7",
-              "Sv": "5+"
-            },
-            "rules": [
-              "Infantry",
-              "Bulky"
-            ]
-          }
-        ],
-        "fixed_wargear": [],
-        "options": [
-          {
-            "description": "May take up to 6 more Heavy Weapon Teams for +16 points each Any Heavy Weapon Team may swap Heavy Flamer for H Any model may swap Lasgun for R One model may take one A The unit may take up to one of each E The unit may take up to one of each G",
-            "choices": [
-              {
-                "name": "Combat Armour",
-                "pts_delta": 1
-              },
-              {
-                "name": "Blind Grenades",
-                "pts_delta": 1
-              },
-              {
-                "name": "Frag Grenades",
-                "pts_delta": 1
-              }
-            ]
-          }
-        ],
-        "weapons": {}
-      },
       {
         "name": "Sniper Drones",
         "points_base": 92,

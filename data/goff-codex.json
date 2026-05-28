@@ -169,12 +169,12 @@
     ],
     "dedicated_transport": [
       {
-        "name": "Forcefield",
+        "name": "Mek Boss Buzzgob",
         "points_base": 204,
         "composition": "1 Buzzgob 0-1 Nitnuckle 0-1 Lunk 0-1 Buzzgob's Stompa",
         "models": [
           {
-            "name": "Nitnuckle:",
+            "name": "Buzzgob",
             "stats": {
               "M": "6",
               "WS": "2+",
@@ -186,22 +186,6 @@
               "A": "4",
               "Ld": "9",
               "Sv": "4+"
-            },
-            "rules": []
-          },
-          {
-            "name": "Grot Blasta",
-            "stats": {
-              "M": "6",
-              "WS": "5+",
-              "BS": "4+",
-              "S": "2",
-              "T": "2",
-              "W": "4",
-              "I": "4",
-              "A": "3",
-              "Ld": "6",
-              "Sv": "6"
             },
             "rules": [
               "Independent Character",
@@ -218,7 +202,30 @@
             ]
           },
           {
-            "name": "Lunk:",
+            "name": "Nitnuckle",
+            "stats": {
+              "M": "6",
+              "WS": "5+",
+              "BS": "4+",
+              "S": "2",
+              "T": "2",
+              "W": "4",
+              "I": "4",
+              "A": "3",
+              "Ld": "6",
+              "Sv": "6"
+            },
+            "rules": [
+              "Independent Character",
+              "Infantry",
+              "Goff",
+              "Grot",
+              "'Ere We Go!",
+              "Propa Grot Oiler"
+            ]
+          },
+          {
+            "name": "Lunk",
             "stats": {
               "M": "8",
               "WS": "2+",
@@ -234,38 +241,11 @@
             "rules": [
               "Independent Character",
               "Infantry",
-              "Goff",
-              "Grot",
-              "'Ere We Go!",
-              "Propa Grot Oiler"
-            ]
-          },
-          {
-            "name": "Grot Blasta",
-            "stats": {},
-            "rules": [
-              "Independent Character",
-              "Infantry",
               "Goff"
             ]
           },
           {
-            "name": "Buzzgob's Stompa:",
-            "stats": {},
-            "rules": []
-          },
-          {
-            "name": "2 Deff Kannonz",
-            "stats": {},
-            "rules": []
-          },
-          {
-            "name": "Lifta Droppa",
-            "stats": {},
-            "rules": []
-          },
-          {
-            "name": "Gaze of Mork",
+            "name": "Buzzgob's Stompa",
             "stats": {},
             "rules": []
           }
@@ -282,10 +262,82 @@
           },
           {
             "description": "May take Buzzgob's Stompa as a Dedicated Transport for +844 points Buzzgob's Stompa may swap any Deff Kannon for A Buzzgob's Stompa may take one H Buzzgob's Stompa may take up to two C Buzzgob's Stompa may take up to one of each E",
-            "choices": []
+            "choices": [
+              {
+                "name": "Deff Kannon",
+                "pts_delta": 0
+              },
+              {
+                "name": "Mega Klaw",
+                "pts_delta": 66
+              },
+              {
+                "name": "Deff Kannon",
+                "pts_delta": 96
+              },
+              {
+                "name": "Supa Rokkit",
+                "pts_delta": 25
+              }
+            ]
           }
         ],
-        "weapons": {}
+        "weapons": {
+          "Slugga": {
+            "range": "12",
+            "S": "4",
+            "AP": "-",
+            "type": "Pistol 1, Dakka"
+          },
+          "Grot Blasta": {
+            "range": "12",
+            "S": "3",
+            "AP": "-",
+            "type": "Pistol 1, Dakka"
+          },
+          "Big Choppa": {
+            "range": "Melee",
+            "S": "+2",
+            "AP": "5+",
+            "type": "None"
+          },
+          "Mek Arms": {
+            "range": "Melee",
+            "S": "X2",
+            "AP": "2+",
+            "type": "Auxiliary, Slow, Monsterbane"
+          },
+          "Deff Kannon": {
+            "range": "72",
+            "S": "10",
+            "AP": "1+",
+            "type": "Heavy 1, 7\" Blast, Ordnance, Monsterbane, Hull, Primary"
+          },
+          "Mega Klaw": {
+            "range": "Melee",
+            "S": "D",
+            "AP": "1+",
+            "type": "Slow, Destroyer, Monsterbane, Primary"
+          },
+          "Lifta Droppa": {
+            "range": "72",
+            "S": "D",
+            "AP": "1+",
+            "type": "Heavy 1, 3\" Blast, Destroyer, Monsterbane, Hull"
+          },
+          "Gaze of Mork": {
+            "range": "60",
+            "S": "D",
+            "AP": "1+",
+            "type": "Heavy 1, Dakka, Destroyer, Monsterbane, Hull"
+          },
+          "Supa Rokkit": {
+            "range": "120",
+            "S": "8",
+            "AP": "3+",
+            "type": "Heavy 1, 5\" Blast, Ordnance, One Use Only, Hull 6"
+          }
+        }
       }
     ],
     "advisors": [

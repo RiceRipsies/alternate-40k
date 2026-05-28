@@ -634,12 +634,12 @@
     ],
     "troops": [
       {
-        "name": "Purple Horror:",
+        "name": "Horrors of Tzeentch",
         "points_base": 230,
         "composition": "10-30 Purple Horrors",
         "models": [
           {
-            "name": "Purple Fire",
+            "name": "Purple Horror",
             "stats": {
               "M": "6",
               "WS": "3+",
@@ -652,11 +652,6 @@
               "Ld": "7",
               "Sv": "6"
             },
-            "rules": []
-          },
-          {
-            "name": "Blue Horror:",
-            "stats": {},
             "rules": [
               "Infantry",
               "Daemonic",
@@ -668,7 +663,7 @@
             ]
           },
           {
-            "name": "Blue Fire",
+            "name": "Blue Horror",
             "stats": {},
             "rules": [
               "Infantry",
@@ -680,7 +675,7 @@
             ]
           },
           {
-            "name": "Brimstone Horror:",
+            "name": "Brimstone Horror",
             "stats": {},
             "rules": [
               "Infantry",
@@ -689,16 +684,30 @@
               "Continuous Change",
               "Invulnerability Saves."
             ]
-          },
-          {
-            "name": "Brimstone Fire",
-            "stats": {},
-            "rules": []
           }
         ],
         "fixed_wargear": [],
         "options": [],
-        "weapons": {}
+        "weapons": {
+          "Purple Fire": {
+            "range": "12",
+            "S": "4",
+            "AP": "5+",
+            "type": "Assault 2"
+          },
+          "Blue Fire": {
+            "range": "12",
+            "S": "3",
+            "AP": "6+",
+            "type": "Assault 2"
+          },
+          "Brimstone Fire": {
+            "range": "12",
+            "S": "2",
+            "AP": "-",
+            "type": "Assault 2"
+          }
+        }
       }
     ],
     "elites": [

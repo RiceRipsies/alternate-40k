@@ -235,12 +235,12 @@
         "weapons": {}
       },
       {
-        "name": "Frag Grenades",
+        "name": "Lord Castellan Creed",
         "points_base": 333,
         "composition": "1 Lord Castellan Creed 4 Veterans",
         "models": [
           {
-            "name": "Refractor Field",
+            "name": "Lord Castellan Creed",
             "stats": {
               "M": "6",
               "WS": "3+",
@@ -253,10 +253,18 @@
               "Ld": "10",
               "Sv": "4+"
             },
-            "rules": []
+            "rules": [
+              "Cadian Shock",
+              "Infantry Orders 4",
+              "Independent Character",
+              "Unique",
+              "Infantry",
+              "Supreme Commander",
+              "Tactical Genius"
+            ]
           },
           {
-            "name": "Veterans:",
+            "name": "Veteran",
             "stats": {
               "M": "6",
               "WS": "4+",
@@ -270,17 +278,11 @@
               "Sv": "5+"
             },
             "rules": [
-              "Cadian Shock",
-              "Infantry Orders 4",
-              "Independent Character",
-              "Unique",
-              "Infantry",
-              "Supreme Commander",
-              "Tactical Genius"
+              "Infantry"
             ]
           },
           {
-            "name": "Lasgun",
+            "name": "Veteran Heavy Weapons Team",
             "stats": {
               "M": "6",
               "WS": "4+",
@@ -294,39 +296,12 @@
               "Sv": "5+"
             },
             "rules": [
-              "Infantry"
-            ]
-          },
-          {
-            "name": "Frag Grenades",
-            "stats": {},
-            "rules": [
               "Infantry",
               "Bulky",
               "Pain",
               "Sv4+",
               "Shroud"
             ]
-          },
-          {
-            "name": "Veteran Heavy Weapon Team:",
-            "stats": {},
-            "rules": []
-          },
-          {
-            "name": "Heavy Flamer",
-            "stats": {},
-            "rules": []
-          },
-          {
-            "name": "Lasgun",
-            "stats": {},
-            "rules": []
-          },
-          {
-            "name": "Frag Grenades",
-            "stats": {},
-            "rules": []
           }
         ],
         "fixed_wargear": [],
@@ -368,7 +343,146 @@
             ]
           }
         ],
-        "weapons": {}
+        "weapons": {
+          "Plasma Pistol": {
+            "range": "12",
+            "S": "7",
+            "AP": "2+",
+            "type": "Pistol 1, Gets Hot!"
+          },
+          "Man of Adamantium": {
+            "range": "Melee",
+            "S": "User",
+            "AP": "2+",
+            "type": "Armourbane, Monsterbane"
+          },
+          "Shotgun": {
+            "range": "12",
+            "S": "3",
+            "AP": "-",
+            "type": "Assault 2, Scatter"
+          },
+          "Lasgun": {
+            "range": "24",
+            "S": "3",
+            "AP": "-",
+            "type": "Rapid Fire 1"
+          },
+          "Laspistol": {
+            "range": "12",
+            "S": "3",
+            "AP": "-",
+            "type": "Pistol 1"
+          },
+          "Sniper Rifle": {
+            "range": "36",
+            "S": "3",
+            "AP": "6+",
+            "type": "Heavy 1, Sniper 7"
+          },
+          "Flamer": {
+            "range": "Flame",
+            "S": "4",
+            "AP": "5+",
+            "type": "Assault 1"
+          },
+          "Grenade Launcher": {
+            "range": "24 or",
+            "S": "6 or",
+            "AP": "4+",
+            "type": "or Assault 1 or 24 3 - Assault 1, 3\" Blast"
+          },
+          "Plasma Gun": {
+            "range": "24",
+            "S": "7",
+            "AP": "2+",
+            "type": "Rapid Fire 1, Gets Hot!"
+          },
+          "Heavy Stubber": {
+            "range": "36",
+            "S": "5",
+            "AP": "6+",
+            "type": "Heavy 3"
+          },
+          "Meltagun": {
+            "range": "12",
+            "S": "8",
+            "AP": "1+",
+            "type": "Assault 1, Melta, (Monsterbane)"
+          },
+          "Heavy Flamer": {
+            "range": "Flame",
+            "S": "5",
+            "AP": "4+",
+            "type": "Assault 1"
+          },
+          "Mortar": {
+            "range": "12-48",
+            "S": "4",
+            "AP": "6+",
+            "type": "Heavy 1, 3\" Blast, Indirect, Pinning"
+          },
+          "Heavy Bolter": {
+            "range": "36",
+            "S": "5",
+            "AP": "4+",
+            "type": "Heavy 3"
+          },
+          "Multilaser": {
+            "range": "36",
+            "S": "6",
+            "AP": "6+",
+            "type": "Heavy 3"
+          },
+          "Heavy Mortar": {
+            "range": "12-48",
+            "S": "5",
+            "AP": "5+",
+            "type": "Heavy 1, 3\" Blast, Indirect, Pinning"
+          },
+          "Autocannon": {
+            "range": "48",
+            "S": "7",
+            "AP": "4+",
+            "type": "Heavy 2, Monsterbane"
+          },
+          "2 Linked Heavy Stubbers": {
+            "range": "36",
+            "S": "5",
+            "AP": "6+",
+            "type": "Heavy 3 x2"
+          },
+          "Missile Launcher": {
+            "range": "48 or",
+            "S": "8 or",
+            "AP": "3+",
+            "type": "or Heavy 1, Monsterbane or"
+          },
+          "Lascannon": {
+            "range": "48",
+            "S": "9",
+            "AP": "2+",
+            "type": "Heavy 1, Monsterbane"
+          },
+          "Chainsword": {
+            "range": "Melee",
+            "S": "User",
+            "AP": "6+",
+            "type": "Rending"
+          },
+          "Frag Grenades": {
+            "range": "8",
+            "S": "3",
+            "AP": "-",
+            "type": "Grenade 1, 3\" Blast"
+          },
+          "+10": {
+            "range": "Krak Grenades",
+            "S": "8",
+            "AP": "6 4+ Assault 1, Non-Blast",
+            "type": "8"
+          }
+        }
       },
       {
         "name": "Knight Commander Pask",
@@ -798,12 +912,12 @@
         }
       },
       {
-        "name": "Power Maul",
+        "name": "Sergeant Arminka Lesk",
         "points_base": 71,
         "composition": "1 Arminka 0-1 each of Shand, Talbeas, Grawnya, Jaromir",
         "models": [
           {
-            "name": "Standard",
+            "name": "Arminka Lesk",
             "stats": {
               "M": "6",
               "WS": "3+",
@@ -819,7 +933,7 @@
             "rules": []
           },
           {
-            "name": "Grawnya:",
+            "name": "Commissar Shand",
             "stats": {
               "M": "6",
               "WS": "2+",
@@ -843,7 +957,7 @@
             ]
           },
           {
-            "name": "Hot Shot Las Pistol",
+            "name": "Confessor Talbeas",
             "stats": {
               "M": "6",
               "WS": "3+",
@@ -868,7 +982,7 @@
             ]
           },
           {
-            "name": "Combat Knife",
+            "name": "Veteran Sergeant Grawnya",
             "stats": {
               "M": "6",
               "WS": "3+",
@@ -887,7 +1001,7 @@
             ]
           },
           {
-            "name": "Jaromir:",
+            "name": "Veteran Trooper Jaromir",
             "stats": {
               "M": "6",
               "WS": "3+",
@@ -900,21 +1014,6 @@
               "Ld": "9",
               "Sv": "5+"
             },
-            "rules": []
-          },
-          {
-            "name": "Meltagun",
-            "stats": {},
-            "rules": []
-          },
-          {
-            "name": "Demolition Charge",
-            "stats": {},
-            "rules": []
-          },
-          {
-            "name": "Combat Knife",
-            "stats": {},
             "rules": []
           }
         ],
@@ -937,7 +1036,74 @@
             "choices": []
           }
         ],
-        "weapons": {}
+        "weapons": {
+          "Lasgun": {
+            "range": "24",
+            "S": "3",
+            "AP": "-",
+            "type": "Rapid Fire 1"
+          },
+          "Meltagun": {
+            "range": "12",
+            "S": "8",
+            "AP": "1+",
+            "type": "Assault 1, Melta (Monsterbane)"
+          },
+          "Demolition Charge": {
+            "range": "6",
+            "S": "10",
+            "AP": "2+",
+            "type": "Assault 1, 5\" Blast, Monsterbane, One Use Only"
+          },
+          "Bolt Pistol": {
+            "range": "12",
+            "S": "4",
+            "AP": "5+",
+            "type": "Pistol 1"
+          },
+          "Hot Shot Las Pistol": {
+            "range": "6",
+            "S": "3",
+            "AP": "3+",
+            "type": "Pistol 1"
+          },
+          "Combat Knife": {
+            "range": "Melee",
+            "S": "User",
+            "AP": "-",
+            "type": "Extra Attack 1"
+          },
+          "Gifted Combat Knife": {
+            "range": "Melee",
+            "S": "User",
+            "AP": "-",
+            "type": "Extra Attack 1, Rending"
+          },
+          "Power Axe": {
+            "range": "Melee",
+            "S": "+2",
+            "AP": "4+",
+            "type": "None"
+          },
+          "Power Maul": {
+            "range": "Melee",
+            "S": "+2",
+            "AP": "4+",
+            "type": "Concussion"
+          },
+          "Power Sword": {
+            "range": "Melee",
+            "S": "+1",
+            "AP": "3+",
+            "type": "None"
+          },
+          "Frag Grenades": {
+            "range": "8",
+            "S": "3",
+            "AP": "-",
+            "type": "Grenade 1, 3\" Blast 14"
+          }
+        }
       }
     ]
   }

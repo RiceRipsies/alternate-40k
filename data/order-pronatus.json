@@ -29,12 +29,12 @@
   "slots": {
     "advisors": [
       {
-        "name": "Aestred:",
+        "name": "Aestred Thurga",
         "points_base": 146,
         "composition": "1 Aestred",
         "models": [
           {
-            "name": "Bolt Pistol",
+            "name": "Aestred",
             "stats": {
               "M": "6",
               "WS": "3+",
@@ -47,10 +47,18 @@
               "Ld": "9",
               "Sv": "3+"
             },
-            "rules": []
+            "rules": [
+              "Independent Character",
+              "Infantry",
+              "Unique",
+              "Order Pronatus",
+              "Faith 1",
+              "Martyrdom 2",
+              "Stubborn"
+            ]
           },
           {
-            "name": "Blade of Vigil",
+            "name": "Agathae Dolan",
             "stats": {
               "M": "6",
               "WS": "3+",
@@ -67,43 +75,28 @@
               "Independent Character",
               "Infantry",
               "Unique",
-              "Order Pronatus",
-              "Faith 1",
-              "Martyrdom 2",
-              "Stubborn"
-            ]
-          },
-          {
-            "name": "Auto-Tapestry of the Emperor's",
-            "stats": {},
-            "rules": [
-              "Independent Character",
-              "Infantry",
-              "Unique",
               "Martyrdom 1",
               "Hagiolater",
               "Fearless."
             ]
-          },
-          {
-            "name": "Judgement",
-            "stats": {},
-            "rules": []
-          },
-          {
-            "name": "Agathae Dolan:",
-            "stats": {},
-            "rules": []
-          },
-          {
-            "name": "Bolt Pistol",
-            "stats": {},
-            "rules": []
           }
         ],
         "fixed_wargear": [],
         "options": [],
-        "weapons": {}
+        "weapons": {
+          "Bolt Pistol": {
+            "range": "12",
+            "S": "4",
+            "AP": "5+",
+            "type": "Pistol 1"
+          },
+          "Blade of Vigil": {
+            "range": "Melee",
+            "S": "+1",
+            "AP": "2+",
+            "type": "None 3"
+          }
+        }
       }
     ]
   }

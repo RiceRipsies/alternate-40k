@@ -1907,12 +1907,12 @@
         }
       },
       {
-        "name": "Chainsword",
+        "name": "Brood Brothers",
         "points_base": 65,
         "composition": "1 Leader 9 Brothers",
         "models": [
           {
-            "name": "Frag Grenades",
+            "name": "Leader",
             "stats": {
               "M": "6",
               "WS": "4+",
@@ -1925,10 +1925,14 @@
               "Ld": "9",
               "Sv": "5+"
             },
-            "rules": []
+            "rules": [
+              "Character",
+              "Infantry",
+              "Limited Ammo"
+            ]
           },
           {
-            "name": "Brother:",
+            "name": "Brother",
             "stats": {
               "M": "6",
               "WS": "4+",
@@ -1942,13 +1946,12 @@
               "Sv": "5+"
             },
             "rules": [
-              "Character",
               "Infantry",
               "Limited Ammo"
             ]
           },
           {
-            "name": "Lasgun",
+            "name": "Heavy Weapons Team",
             "stats": {
               "M": "6",
               "WS": "4+",
@@ -1963,42 +1966,165 @@
             },
             "rules": [
               "Infantry",
-              "Limited Ammo"
-            ]
-          },
-          {
-            "name": "Frag Grenades",
-            "stats": {},
-            "rules": [
-              "Infantry",
               "Limited Ammo",
               "Bulky"
             ]
-          },
-          {
-            "name": "Heavy Weapons Team:",
-            "stats": {},
-            "rules": []
-          },
-          {
-            "name": "Heavy Flamer",
-            "stats": {},
-            "rules": []
-          },
-          {
-            "name": "Lasgun",
-            "stats": {},
-            "rules": []
-          },
-          {
-            "name": "Frag Grenades",
-            "stats": {},
-            "rules": []
           }
         ],
         "fixed_wargear": [],
         "options": [],
-        "weapons": {}
+        "weapons": {
+          "Laspistol": {
+            "range": "12",
+            "S": "3",
+            "AP": "-",
+            "type": "Pistol 1"
+          },
+          "Bolt Pistol": {
+            "range": "12",
+            "S": "4",
+            "AP": "5+",
+            "type": "Pistol 1"
+          },
+          "Handflamer": {
+            "range": "Flame",
+            "S": "3",
+            "AP": "6+",
+            "type": "Pistol 1"
+          },
+          "Plasma Pistol": {
+            "range": "12",
+            "S": "7",
+            "AP": "2+",
+            "type": "Pistol 1, Gets Hot!"
+          },
+          "Chainsword": {
+            "range": "Melee",
+            "S": "User",
+            "AP": "6+",
+            "type": "Rending"
+          },
+          "Power Sword": {
+            "range": "Melee",
+            "S": "+1",
+            "AP": "3+",
+            "type": "None"
+          },
+          "Power Axe": {
+            "range": "Melee",
+            "S": "+2",
+            "AP": "4+",
+            "type": "None"
+          },
+          "Power Maul": {
+            "range": "Melee",
+            "S": "+2",
+            "AP": "4+",
+            "type": "Concussion"
+          },
+          "Lasgun": {
+            "range": "24",
+            "S": "3",
+            "AP": "-",
+            "type": "Rapid Fire 1"
+          },
+          "Sniper Rifle": {
+            "range": "36",
+            "S": "3",
+            "AP": "6+",
+            "type": "Sniper (3+)"
+          },
+          "Flamer": {
+            "range": "Flame",
+            "S": "4",
+            "AP": "5+",
+            "type": "Assault 1"
+          },
+          "Grenade Launcher": {
+            "range": "24",
+            "S": "6",
+            "AP": "4+",
+            "type": "Assault 1 Or Or Or Or"
+          },
+          "Plasma Gun": {
+            "range": "24",
+            "S": "7",
+            "AP": "2+",
+            "type": "Rapid Fire 1, Gets Hot!"
+          },
+          "Heavy Stubber": {
+            "range": "36",
+            "S": "5",
+            "AP": "6+",
+            "type": "Heavy 3"
+          },
+          "Meltagun": {
+            "range": "12",
+            "S": "8",
+            "AP": "1+",
+            "type": "Assault 1, Melta, (Monsterbane)"
+          },
+          "Heavy Flamer": {
+            "range": "Flame",
+            "S": "5",
+            "AP": "4+",
+            "type": "Assault 1"
+          },
+          "Mortar": {
+            "range": "12-48",
+            "S": "4",
+            "AP": "6+",
+            "type": "Heavy 1, 3\" Blast, Indirect, Pinning"
+          },
+          "Heavy Bolter": {
+            "range": "36",
+            "S": "5",
+            "AP": "4+",
+            "type": "Heavy 3"
+          },
+          "Multilaser": {
+            "range": "36",
+            "S": "6",
+            "AP": "6+",
+            "type": "Heavy 3"
+          },
+          "Autocannon": {
+            "range": "48",
+            "S": "7",
+            "AP": "4+",
+            "type": "Heavy 2, Monsterbane"
+          },
+          "Heavy Mortar": {
+            "range": "12-48",
+            "S": "5",
+            "AP": "5+",
+            "type": "Heavy 1, 3\" Blast, Indirect, Pinning"
+          },
+          "2 Linked Heavy Stubbers": {
+            "range": "36",
+            "S": "5",
+            "AP": "6+",
+            "type": "Heavy 3 x2"
+          },
+          "Missile Launcher": {
+            "range": "48",
+            "S": "8",
+            "AP": "3+",
+            "type": "Heavy 1, Monsterbane"
+          },
+          "Lascannon": {
+            "range": "48",
+            "S": "9",
+            "AP": "2+",
+            "type": "Heavy 1, Monsterbane"
+          },
+          "Frag Grenades": {
+            "range": "8",
+            "S": "3",
+            "AP": "-",
+            "type": "Grenade 1, 3\" Blast 20"
+          }
+        }
       },
       {
         "name": "Neophyte Hybrids",
@@ -8041,86 +8167,6 @@
             "type": "Heavy 1 x2, 5\" Blast, Hull"
           }
         }
-      },
-      {
-        "name": "Heavy 3, Hull, Primary",
-        "points_base": 174,
-        "composition": "1-3 Voss Strike Fighters",
-        "models": [
-          {
-            "name": "Heavy 1, Monsterbane, Hull,",
-            "stats": {
-              "M": "50",
-              "WS": "5+",
-              "BS": "4+",
-              "S": "6",
-              "FA": "12",
-              "SA": "10",
-              "RA": "10",
-              "W": "14",
-              "I": "1",
-              "A": "3",
-              "Ld": "9",
-              "Sv": "3+"
-            },
-            "rules": []
-          },
-          {
-            "name": "Primary",
-            "stats": {},
-            "rules": [
-              "Vehicle",
-              "Limited Ammo",
-              "Poor Maintenance",
-              "High Altitude",
-              "Deep Strike",
-              "Interceptor"
-            ]
-          },
-          {
-            "name": "Heavy 1 x2, Ordnance,",
-            "stats": {},
-            "rules": []
-          },
-          {
-            "name": "Monsterbane, One Use Only,",
-            "stats": {},
-            "rules": []
-          },
-          {
-            "name": "Hull",
-            "stats": {},
-            "rules": []
-          },
-          {
-            "name": "Heavy 1 x2, 5\" Blast, Ignores",
-            "stats": {},
-            "rules": []
-          },
-          {
-            "name": "Cover, One Use Only, Hull",
-            "stats": {},
-            "rules": []
-          },
-          {
-            "name": "Heavy 1 x2, 5\" Blast, Hull",
-            "stats": {},
-            "rules": []
-          }
-        ],
-        "fixed_wargear": [],
-        "options": [
-          {
-            "description": "May take up to 2 more Voss Strike Fighters for +174 points each Any Voss Strike Fighter may take W Any Voss Strike Fighter may take up to one E each",
-            "choices": [
-              {
-                "name": "Chaff Launcher",
-                "pts_delta": 9
-              }
-            ]
-          }
-        ],
-        "weapons": {}
       },
       {
         "name": "Vulture Gunship Squadron",

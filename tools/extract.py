@@ -328,20 +328,28 @@ def parse_codex(text: str, source_name: str, weapon_tables: dict | None = None) 
         # separates the unit name block from the weapon-table noise above it.
         raw_names = []
         k = stat_hi - 1
-        while k >= max(0, stat_hi - 10):
+        while k >= max(0, stat_hi - 25):
             stripped = lines[k].strip()
             if not stripped:
                 if raw_names:
                     break   # blank line after names = end of name block
                 k -= 1
                 continue
-            # Stop at slot headers, section starts, or a previous unit's content
+            # Hard stops: slot headers, points, composition = truly outside this unit
             if (identify_slot(lines[k]) or
-                    WARGEAR_HDR_RE.match(stripped) or
-                    OPTIONS_HDR_RE.match(stripped) or
                     POINTS_RE.match(stripped) or
                     COMPOSITION_RE.match(stripped)):
                 break
+            # Section content headers mean everything collected so far belonged to
+            # that section (wargear items, not the unit name) — clear and keep going
+            if (WARGEAR_HDR_RE.match(stripped) or
+                    SP_WG_HDR_RE.match(stripped) or
+                    SP_WG_UPG_RE.match(stripped) or
+                    OPTIONS_HDR_RE.match(stripped) or
+                    RULES_HDR_RE.match(stripped)):
+                raw_names.clear()
+                k -= 1
+                continue
             # Skip known sub-section label lines
             if stripped.lower() not in SUBSECTION_LABELS:
                 raw_names.insert(0, stripped)
@@ -616,6 +624,15 @@ def parse_codex(text: str, source_name: str, weapon_tables: dict | None = None) 
                         'AP':    entry.get('AP', ''),
                         'type':  entry.get('type', ''),
                     }
+
+        # Reject entries whose name looks like a section header or stray value
+        if (unit_name.endswith(':') or
+                len(unit_name) <= 2 or
+                unit_name[0].isdigit() or                      # "0-1 Lord of War Slots" etc.
+                re.match(r'^[A-Z0-9\+\-]+$', unit_name) or   # bare stat/code like "AP", "3+"
+                SP_WG_HDR_RE.match(unit_name) or
+                SP_WG_UPG_RE.match(unit_name)):
+            continue
 
         unit = {
             'name':         unit_name,

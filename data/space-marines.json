@@ -1624,17 +1624,12 @@
         }
       },
       {
-        "name": "Special Wargear:",
+        "name": "Librarian Dreadnought",
         "points_base": 279,
         "composition": "1 Librarian Dreadnought",
         "models": [
           {
-            "name": "Psychic Hood - Gain +1 to Deny",
-            "stats": {},
-            "rules": []
-          },
-          {
-            "name": "the Witch",
+            "name": "Librarian Dreadnought",
             "stats": {},
             "rules": [
               "Independent Character",
@@ -1655,11 +1650,41 @@
         "options": [
           {
             "description": "May swap Dreadnought Combat Weapon and Stormbolter for M",
-            "choices": []
+            "choices": [
+              {
+                "name": "Furioso Force Halberd",
+                "pts_delta": 0
+              }
+            ]
           },
           {
             "description": "May take up to one S for each Psychic Mastery Level",
-            "choices": []
+            "choices": [
+              {
+                "name": "Cause Misfortune Cast 7+",
+                "pts_delta": 10
+              },
+              {
+                "name": "Forewarning Cast 6+",
+                "pts_delta": 10
+              },
+              {
+                "name": "Bolster Cast 6+",
+                "pts_delta": 15
+              },
+              {
+                "name": "Enfeeble Cast 8+",
+                "pts_delta": 20
+              },
+              {
+                "name": "Endurance Cast 7+",
+                "pts_delta": 20
+              },
+              {
+                "name": "Melting Beam Cast 7+",
+                "pts_delta": 22
+              }
+            ]
           },
           {
             "description": "May take one C",
@@ -1688,7 +1713,68 @@
             ]
           }
         ],
-        "weapons": {}
+        "weapons": {
+          "Dreadnought Combat Weapon and Stormbolter": {
+            "range": "Melee",
+            "S": "X2",
+            "AP": "2+",
+            "type": "Slow, Monsterbane, Primary And And And And 24 4 5+ Rapid Fire 2, Bolter, Hull"
+          },
+          "Dreadnought Combat Weapon and Heavy Flamer": {
+            "range": "Melee",
+            "S": "X2",
+            "AP": "2+",
+            "type": "Slow, Monsterbane, Primary And And And And Flame 5 4+ Assault 1, Hull"
+          },
+          "Dreadnought Combat Weapon and Meltagun": {
+            "range": "Melee",
+            "S": "X2",
+            "AP": "2+",
+            "type": "Slow, Monsterbane, Primary And And And And 12 8 1+ Assault 1, Melta, (Monsterbane), Hull"
+          },
+          "Furioso Force Halberd": {
+            "range": "Melee",
+            "S": "+3",
+            "AP": "2+",
+            "type": "Psychic Bane, Primary"
+          },
+          "Cause Misfortune Cast 7+": {
+            "range": "18",
+            "S": "-",
+            "AP": "-",
+            "type": "Target unit gains Rending on all Ranged and Melee Attacks until your next Psychic Phase 15"
+          },
+          "Forewarning Cast 6+": {
+            "range": "18",
+            "S": "-",
+            "AP": "-",
+            "type": "Target unit gains 4+ Cover Save until your next Psychic Phase"
+          },
+          "Bolster Cast 6+": {
+            "range": "18",
+            "S": "-",
+            "AP": "-",
+            "type": "Target unit counts as having not Moved for the purposes of Shooting until your next Psychic Phase"
+          },
+          "Enfeeble Cast 8+": {
+            "range": "18",
+            "S": "-",
+            "AP": "-",
+            "type": "Target unit suffers T-1 until your next Psychic Phase"
+          },
+          "Endurance Cast 7+": {
+            "range": "18",
+            "S": "-",
+            "AP": "-",
+            "type": "Target unit gains T+1 until your next Psychic Phase"
+          },
+          "Melting Beam Cast 7+": {
+            "range": "18",
+            "S": "8",
+            "AP": "1+",
+            "type": "Assault 1, Armourbane, Beam"
+          }
+        }
       },
       {
         "name": "Primaris Captain",
