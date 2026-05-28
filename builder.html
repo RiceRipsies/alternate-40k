@@ -897,6 +897,10 @@ button {
   padding: 1px 4px;
   vertical-align: middle;
 }
+.chapter-unique-tag {
+  color: var(--gold2);
+  border-color: var(--gold2);
+}
 
 #play-btn {
   display: none;
@@ -1134,6 +1138,7 @@ const state = {
   editingIdx: null,   // index in state.list when editing an existing entry
   coreKeywords: {},   // loaded from data/core-keywords.json
   globalWeapons: {},  // loaded from data/weapons.json
+  subfactionCodex: null, // extra units from subfaction-specific codex file
 };
 
 // ── DOM REFS ─────────────────────────────────────────────────────
@@ -1204,6 +1209,7 @@ async function selectFaction(id) {
 
   state.faction = meta;
   state.codex = null;
+  state.subfactionCodex = null;
   state.list = [];
 
   factionName.textContent = meta.name;
@@ -1236,13 +1242,36 @@ function populateSubfactions() {
   ).join('');
   state.subfaction = subs[0].name;
   subfactionSel.value = state.subfaction;
+  loadSubfactionCodex(state.subfaction);
 }
 
 subfactionSel.addEventListener('change', () => {
   state.subfaction = subfactionSel.value;
+  state.subfactionCodex = null;
+  loadSubfactionCodex(state.subfaction);
   renderSlots();
   saveList();
 });
+
+function normSubName(s) {
+  return s.toLowerCase().replace(/[\s\-']/g, '');
+}
+
+async function loadSubfactionCodex(subfactionName) {
+  state.subfactionCodex = null;
+  if (!subfactionName || !state.faction) return;
+  const normName = normSubName(subfactionName);
+  const entry = state.factions.find(f =>
+    f.subfaction_of === state.faction.id &&
+    normSubName(f.name) === normName
+  );
+  if (!entry?.file) return;
+  const res = await fetch(`data/${entry.file}`, { cache: 'no-cache' }).catch(() => null);
+  if (!res?.ok) return;
+  state.subfactionCodex = await res.json();
+  // Re-render the unit list if currently browsing
+  if (state.browsingSlot) renderUnitList(D('unit-search').value);
+}
 
 // ── FORCE-ORG HELPERS ────────────────────────────────────────────
 function getActiveForcOrg() {
@@ -1401,9 +1430,12 @@ function renderUnitList(filter) {
   const container = D('unit-list');
   const slotUnits = state.codex?.slots?.[state.browsingSlot] ?? [];
   const extraUnits = getExtraEligibleUnits(state.browsingSlot);
+  const sfUnits = (state.subfactionCodex?.slots?.[state.browsingSlot] ?? [])
+    .map(u => ({ ...u, _chapterUnique: true }));
   const allUnits = [
-    ...slotUnits,
-    ...extraUnits.filter(u => !slotUnits.some(s => s.name === u.name)),
+    ...sfUnits,
+    ...slotUnits.filter(u => !sfUnits.some(s => s.name === u.name)),
+    ...extraUnits.filter(u => !slotUnits.some(s => s.name === u.name) && !sfUnits.some(s => s.name === u.name)),
   ];
 
   const filtered = allUnits.filter(u =>
@@ -1415,7 +1447,7 @@ function renderUnitList(filter) {
     return;
   }
 
-  if (!slotUnits.length && !extraUnits.length) {
+  if (!slotUnits.length && !extraUnits.length && !sfUnits.length) {
     container.innerHTML = `<div class="empty-state">No units in this slot for ${state.faction?.name}.</div>`;
     return;
   }
@@ -1435,9 +1467,11 @@ function renderUnitList(filter) {
         ${stats[k] ?? '—'}
       </div>`).join('');
 
-    const chapterTag = unit._fromSlot
-      ? `<span class="chapter-eligible-tag" title="Eligible for this slot via chapter rules">Chapter Rule</span>`
-      : '';
+    const chapterTag = unit._chapterUnique
+      ? `<span class="chapter-eligible-tag chapter-unique-tag" title="Unique to this chapter">Chapter Unique</span>`
+      : unit._fromSlot
+        ? `<span class="chapter-eligible-tag" title="Eligible for this slot via chapter rules">Chapter Rule</span>`
+        : '';
     return `
     <div class="unit-card" data-name="${unit.name}">
       <h4>${unit.name}${chapterTag}</h4>
