@@ -1559,7 +1559,13 @@ D('export-btn').addEventListener('click', () => {
     const entries = state.list.filter(e => e.slotKey === slot.key);
     if (!entries.length) return;
     text += `${slot.label.toUpperCase()}\n`;
-    entries.forEach(e => { text += `  ${e.unit.name} — ${e.pts} pts\n`; });
+    entries.forEach(e => {
+      const modelSummary = Object.entries(e.models ?? {})
+        .map(([name, c]) => `${c} ${name}`).join(', ');
+      text += `  ${e.unit.name}${modelSummary ? ` (${modelSummary})` : ''} — ${e.pts} pts\n`;
+      const wg = getEffectiveWargear(e).map(w => w.name);
+      if (wg.length) text += `    Wargear: ${wg.join(', ')}\n`;
+    });
     text += '\n';
   });
 
