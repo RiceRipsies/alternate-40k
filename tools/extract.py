@@ -819,6 +819,117 @@ def update_factions_index(processed: list[dict]):
     print(f"\nUpdated data/factions.json ({len(existing_by_id)} factions)")
 
 
+UNIT_TYPE_NAMES = [
+    'Titanic Monster', 'Titanic Vehicle', 'Monstrous Infantry',
+    'Combat Walker', 'Independent Character',
+    'Infantry', 'Monster', 'Vehicle', 'Swarm', 'Fortification', 'Tank',
+]
+
+def extract_core_keywords(text: str) -> dict:
+    """
+    Extract keyword definitions from the core rulebook.
+    Handles two formats:
+      1. Terminology section: 'Keyword – description' with indented continuations
+      2. Unit Types section: prose paragraphs starting with a known unit type name
+    Returns dict: {keyword: description}
+    """
+    keywords: dict = {}
+
+    # ── Terminology / Common Rules ────────────────────────────────────────────
+    TERM_RE = re.compile(r'^([A-Z][A-Za-z\s#\(\)!/]{1,60}?)\s+[–\-]\s+(.+)')
+    CONT_RE = re.compile(r'^\s{4,}(.+)')      # 4+ leading spaces = continuation
+    PAGE_RE = re.compile(r'^\s*Page \d+ of \d+\s*$', re.I)
+    RECAP_RE = re.compile(r'^RECAP\b', re.I)
+
+    term_start = text.find('Terminology and Common Rules')
+    if term_start != -1:
+        section = text[term_start:]
+        cur_name: str | None = None
+        cur_parts: list = []
+
+        def flush():
+            if cur_name and cur_parts:
+                keywords[cur_name] = ' '.join(cur_parts)
+
+        for line in section.split('\n'):
+            line = line.replace('\x0c', '')   # strip form-feed page breaks
+            s = line.rstrip()
+            if PAGE_RE.match(s) or RECAP_RE.match(s.strip()):
+                continue
+            m = TERM_RE.match(s)
+            if m:
+                flush()
+                cur_name  = m.group(1).strip()
+                cur_parts = [m.group(2).strip()]
+            elif cur_name and CONT_RE.match(s):
+                cur_parts.append(s.strip())
+            elif s.strip() == '' and cur_name:
+                # blank line ends a definition
+                flush()
+                cur_name  = None
+                cur_parts = []
+        flush()
+
+    # ── Unit Types ─────────────────────────────────────────────────────────────
+    ut_start = text.find('Unit Types:')
+    if ut_start != -1:
+        # Find the end of the Unit Types section (next major section header)
+        next_section = text.find('\nObjectives', ut_start)
+        ut_text = text[ut_start: next_section if next_section != -1 else ut_start + 8000]
+
+        cur_name = None
+        cur_parts = []
+
+        def flush_ut():
+            if cur_name and cur_parts:
+                full = ' '.join(cur_parts)
+                # Only store if not already captured from Terminology
+                if cur_name not in keywords:
+                    keywords[cur_name] = full
+
+        for line in ut_text.split('\n'):
+            s = line.strip()
+            if not s or PAGE_RE.match(line):
+                continue
+            matched_type = next(
+                (n for n in UNIT_TYPE_NAMES if s.startswith(n + ' ') or s.startswith(n + 's ')),
+                None,
+            )
+            if matched_type:
+                flush_ut()
+                cur_name  = matched_type
+                cur_parts = [s]
+            elif cur_name and s and not s.startswith('Independent Character'):
+                cur_parts.append(s)
+
+        flush_ut()
+
+    return keywords
+
+
+def process_core_rules():
+    """Extract keywords from the core rulebook and write data/core-keywords.json."""
+    pdf_path = SOURCE_DIR / 'alternate-40k-core-rule-book.pdf'
+    if not pdf_path.exists():
+        print(f"Core rulebook not found at {pdf_path}")
+        return
+
+    result = subprocess.run(
+        ['pdftotext', '-layout', str(pdf_path), '-'],
+        capture_output=True, text=True,
+    )
+    text = result.stdout
+    if not text.strip():
+        print("pdftotext returned no text for core rulebook")
+        return
+
+    keywords = extract_core_keywords(text)
+    out_path = DATA_DIR / 'core-keywords.json'
+    with open(out_path, 'w') as f:
+        json.dump(keywords, f, indent=2, sort_keys=True)
+    print(f"Wrote {len(keywords)} core keywords → {out_path}")
+
+
 def main():
     targets = sys.argv[1:]
 
@@ -857,6 +968,9 @@ def main():
     if processed:
         update_factions_index(processed)
         print(f"\nDone. {len(processed)} codex file(s) written to data/")
+
+    if not targets:
+        process_core_rules()
 
 
 if __name__ == '__main__':

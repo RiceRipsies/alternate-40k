@@ -1099,6 +1099,7 @@ const state = {
   pendingOpts: {},
   pendingModels: {},  // { modelName: { current, min, max, ptsEach } }
   editingIdx: null,   // index in state.list when editing an existing entry
+  coreKeywords: {},   // loaded from data/core-keywords.json
 };
 
 // ── DOM REFS ─────────────────────────────────────────────────────
@@ -1120,9 +1121,13 @@ const forcePanel    = D('force-panel');
 
 // ── INIT ─────────────────────────────────────────────────────────
 async function init() {
-  const res = await fetch('data/factions.json').catch(() => null);
-  if (!res?.ok) { D('faction-list-container').innerHTML = '<div class="empty-state">Could not load factions. Run the data extractor first.</div>'; return; }
-  state.factions = await res.json();
+  const [factionsRes, kwRes] = await Promise.all([
+    fetch('data/factions.json').catch(() => null),
+    fetch('data/core-keywords.json').catch(() => null),
+  ]);
+  if (!factionsRes?.ok) { D('faction-list-container').innerHTML = '<div class="empty-state">Could not load factions. Run the data extractor first.</div>'; return; }
+  state.factions = await factionsRes.json();
+  if (kwRes?.ok) state.coreKeywords = await kwRes.json();
   renderFactionGrid();
   renderSlots();
   restoreList();
@@ -1673,6 +1678,8 @@ function renderPlayMode() {
       // Rules — collect from all models, deduplicate, look up descriptions
       const allRules = [...new Set((unit.models ?? []).flatMap(m => m.rules ?? []))]
         .map(name => ({ name, description: armyRules[name] ?? '' }));
+      // For split purposes, a rule counts as an "ability" if it has a codex description;
+      // everything else (core keywords) goes under Keywords
 
       // Weapon profiles for selected wargear
       const unitWeapons = unit.weapons ?? {};
@@ -1785,12 +1792,31 @@ D('play-back').addEventListener('click', closePlayMode);
     activeEl = null;
   }
 
+  function lookupKeyword(name) {
+    // 1. Codex-specific rules (highest priority)
+    const codexRules = state.codex?.rules ?? {};
+    if (codexRules[name]) return codexRules[name];
+    // 2. Core keywords exact match
+    const coreKw = state.coreKeywords;
+    if (coreKw[name]) return coreKw[name];
+    // 3. Normalise trailing numbers → # for keywords like "Rapid Fire 1" → "Rapid Fire #"
+    const normalised = name.replace(/\s+\d+\+?$/, ' #');
+    if (coreKw[normalised]) return coreKw[normalised];
+    // 4. Prefix match for "(#+)" style entries like "Poisoned (2+)" → "Poisoned (#+)"
+    const prefixKey = Object.keys(coreKw).find(k => {
+      const base = k.replace(/\s*\(#\+\)\s*$/, '').trim();
+      return name.startsWith(base) && base.length > 3;
+    });
+    if (prefixKey) return coreKw[prefixKey];
+    return '';
+  }
+
   document.addEventListener('click', e => {
     const el = e.target.closest('.play-rule-name.has-desc');
     if (el) {
       if (activeEl === el) { hidePopup(); return; }
       const name = decodeURIComponent(el.dataset.rule || '');
-      const desc = (state.codex?.rules ?? {})[name] ?? '';
+      const desc = lookupKeyword(name);
       showPopup(el, name, desc);
     } else if (!popup.contains(e.target)) {
       hidePopup();
