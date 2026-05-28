@@ -741,6 +741,25 @@ button {
   color: var(--gold);
 }
 
+.play-wargear-effects {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+.play-wargear-effect {
+  font-size: 12px;
+  line-height: 1.5;
+  color: var(--text);
+}
+.play-wargear-effect-name {
+  font-weight: 700;
+  color: var(--gold);
+  margin-right: 4px;
+}
+.play-wargear-effect-desc {
+  color: var(--text-dim);
+}
+
 .play-rules {
   display: flex;
   flex-wrap: wrap;
@@ -1292,6 +1311,14 @@ function getEffectiveArmyRules() {
   return {
     ...(state.subfactionCodex?.rules ?? {}),
     ...(state.codex?.rules ?? {}),
+  };
+}
+
+// Returns a merged wargear dict: parent codex wargear + subfaction codex wargear
+function getEffectiveWargearDict() {
+  return {
+    ...(state.subfactionCodex?.wargear ?? {}),
+    ...(state.codex?.wargear ?? {}),
   };
 }
 
@@ -1858,6 +1885,9 @@ function renderPlayMode() {
       // For split purposes, a rule counts as an "ability" if it has a codex description;
       // everything else (core keywords) goes under Keywords
 
+      // Wargear effect descriptions (for non-weapon gear like Iron Halo)
+      const wargearDict = getEffectiveWargearDict();
+
       // Weapon profiles for selected wargear
       const unitWeapons = unit.weapons ?? {};
       function findWeaponProfile(name) {
@@ -1903,6 +1933,22 @@ function renderPlayMode() {
           </div>
         </div>` : '';
 
+      // Non-weapon wargear that has a description (Iron Halo, Rosarius, etc.)
+      const wargearEffects = wgItems
+        .filter(w => !findWeaponProfile(w.name) && wargearDict[w.name])
+        .map(w => ({ name: w.name, desc: wargearDict[w.name] }));
+      const wargearEffectsHtml = wargearEffects.length ? `
+        <div>
+          <div class="play-section-label">Wargear Effects</div>
+          <div class="play-wargear-effects">
+            ${wargearEffects.map(w => `
+            <div class="play-wargear-effect">
+              <span class="play-wargear-effect-name">${w.name}:</span>
+              <span class="play-wargear-effect-desc">${w.desc}</span>
+            </div>`).join('')}
+          </div>
+        </div>` : '';
+
       return `
       <div class="play-unit">
         <div class="play-unit-header">
@@ -1925,6 +1971,7 @@ function renderPlayMode() {
             <div class="play-wargear">${wgHtml}</div>
           </div>` : ''}
           ${weaponTableHtml}
+          ${wargearEffectsHtml}
           ${(() => {
             const abilities = allRules.filter(r => r.description);
             const keywords  = allRules.filter(r => !r.description);

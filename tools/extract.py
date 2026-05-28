@@ -739,6 +739,45 @@ def parse_force_org_rule(description: str) -> dict | None:
     return result if result else None
 
 
+def extract_common_wargear(text: str) -> dict:
+    """
+    Parse the 'Common Wargear' section into {name: description} dict.
+    Handles '• Name - description' format and multi-line continuations.
+    """
+    SECTION_START = re.compile(r'^Common Wargear\s*$', re.I)
+    SECTION_END   = re.compile(
+        r'^(Chapters?|Clans?|Dynasties|Regiments?|Sects?|Brotherhoods?|Warbands?'
+        r'|Army Abilities|Hive Fleets?|HQ\b|Advisors?\b|Troops\b|Elites?\b'
+        r'|Fast Attacks?\b|Heavy Support\b|Flyers?\b|Lords? of War\b'
+        r'|Dedicated Transports?\b|Fortifications?\b|Warlord Traits?\b)\s*$',
+        re.I,
+    )
+    BULLET = re.compile(r'^[•\*]\s+(.+?)\s+-\s+(.+)')
+
+    lines = text.split('\n')
+    in_section = False
+    wargear: dict = {}
+    current_name: str | None = None
+
+    for line in lines:
+        s = line.strip()
+        if not in_section:
+            if SECTION_START.match(s):
+                in_section = True
+            continue
+        if SECTION_END.match(s) or (identify_slot(line) and s):
+            break
+        m = BULLET.match(s)
+        if m:
+            current_name = m.group(1).strip()
+            wargear[current_name] = m.group(2).strip()
+        elif current_name and s and not re.match(r'^\d+$', s) and not s.startswith('o '):
+            # Continuation line (skip sub-bullets like "o 6\" Aura...")
+            wargear[current_name] += ' ' + s
+
+    return wargear
+
+
 def extract_subfactions(text: str) -> list[dict]:
     """
     Find Chapter / Clan / Dynasty / Regiment sections and extract subfaction names
@@ -860,6 +899,7 @@ def process_pdf(pdf_path: Path) -> dict | None:
     meta          = extract_metadata(text)
     army_rules    = extract_army_rules(text)
     subfactions   = extract_subfactions(text)
+    common_wargear = extract_common_wargear(layout_text)
     weapon_tables = parse_weapon_tables_from_layout(layout_text)
     slots         = parse_codex(text, faction_name, weapon_tables)
 
@@ -871,6 +911,7 @@ def process_pdf(pdf_path: Path) -> dict | None:
         'name':        faction_name,
         'difficulty':  meta['difficulty'],
         'rules':       army_rules,
+        'wargear':     common_wargear,
         'subfactions': subfactions,
         'slots':       slots,
     }
