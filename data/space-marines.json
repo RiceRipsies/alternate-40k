@@ -93,7 +93,19 @@
       "rules": [
         {
           "name": "Extreme Trials",
-          "description": "You may treat Scouts, Bladeguard Veterans, Company Veterans, Sternguard Veterans, and Vanguard Veterans as Troop Slots."
+          "description": "You may treat Scouts, Bladeguard Veterans, Company Veterans, Sternguard Veterans, and Vanguard Veterans as Troop Slots.",
+          "force_org": {
+            "troops_eligible": {
+              "units": [
+                "Scouts",
+                "Bladeguard Veterans",
+                "Company Veterans",
+                "Sternguard Veterans",
+                "Vanguard Veterans"
+              ],
+              "slot": "troops"
+            }
+          }
         },
         {
           "name": "Long Suffering",
@@ -166,7 +178,16 @@
       "rules": [
         {
           "name": "Deadly Efficiency",
-          "description": "You may treat Devastator Squads and Dreadnoughts (no variants or specialized versions) as Troop Slots or their respective Slots."
+          "description": "You may treat Devastator Squads and Dreadnoughts (no variants or specialized versions) as Troop Slots or their respective Slots.",
+          "force_org": {
+            "troops_eligible": {
+              "units": [
+                "Devastator Squads",
+                "Dreadnoughts"
+              ],
+              "slot": "troops"
+            }
+          }
         },
         {
           "name": "Heavy Fire Doctrines",

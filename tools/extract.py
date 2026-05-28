@@ -672,6 +672,64 @@ def extract_army_rules(text: str) -> dict:
     return rules
 
 
+_SLOT_NAME_TO_KEY = {
+    'troop': 'troops', 'troops': 'troops',
+    'elite': 'elites', 'elites': 'elites',
+    'fast attack': 'fast_attack',
+    'heavy support': 'heavy_support',
+    'flyer': 'flyers', 'flyers': 'flyers',
+    'hq': 'hq',
+    'advisor': 'advisors', 'advisors': 'advisors',
+    'lord of war': 'lord_of_war',
+    'dedicated transport': 'dedicated_transport',
+    'fortification': 'fortifications', 'fortifications': 'fortifications',
+}
+
+def _slot_key(name: str) -> str | None:
+    n = name.strip().lower()
+    return _SLOT_NAME_TO_KEY.get(n) or _SLOT_NAME_TO_KEY.get(n.rstrip('s'))
+
+def parse_force_org_rule(description: str) -> dict | None:
+    """
+    Detect force-organisation modifiers in a rule description.
+    Returns a dict with zero or more of:
+      troops_eligible: {units: [str], slot: str}
+      slot_changes:    [{slot: str, max?: int, delta?: int}]
+    Returns None if no force-org content found.
+    """
+    result: dict = {}
+
+    # "may treat X, Y and Z as Troop Slots (or their respective Slots)"
+    TREAT_AS_RE = re.compile(
+        r'(?:may|can) treat (.+?) as (\w+(?:\s+\w+)?)\s+slots?', re.I)
+    m = TREAT_AS_RE.search(description)
+    if m:
+        units_raw  = re.sub(r'\([^)]*\)', '', m.group(1))   # strip parentheticals
+        target_key = _slot_key(m.group(2))
+        if target_key:
+            parts = re.split(r',|\band\b', units_raw)
+            units = [p.strip() for p in parts if p.strip()]
+            if units:
+                result['troops_eligible'] = {'units': units, 'slot': target_key}
+
+    # "Lose all X Slots"  /  "gain +N Y Slots"
+    LOSE_RE = re.compile(r'lose all (\w+(?:\s+\w+)?)\s+slots?', re.I)
+    GAIN_RE = re.compile(r'gain \+?(\d+) (\w+(?:\s+\w+)?)\s+slots?', re.I)
+    changes: list = []
+    for m in LOSE_RE.finditer(description):
+        k = _slot_key(m.group(1))
+        if k:
+            changes.append({'slot': k, 'max': 0})
+    for m in GAIN_RE.finditer(description):
+        k = _slot_key(m.group(2))
+        if k:
+            changes.append({'slot': k, 'delta': int(m.group(1))})
+    if changes:
+        result['slot_changes'] = changes
+
+    return result if result else None
+
+
 def extract_subfactions(text: str) -> list[dict]:
     """
     Find Chapter / Clan / Dynasty / Regiment sections and extract subfaction names
@@ -716,15 +774,23 @@ def extract_subfactions(text: str) -> list[dict]:
         if current_sub is not None:
             m_rule = SUBFACTION_RULE.match(s)
             if m_rule:
-                current_sub['rules'].append({
+                rule = {
                     'name':        m_rule.group(1).strip(),
                     'description': m_rule.group(2).strip(),
-                })
+                }
+                current_sub['rules'].append(rule)
             elif s and current_sub['rules'] and not s.startswith('-'):
                 # Skip bare page numbers
                 if re.match(r'^\d+$', s):
                     continue
                 current_sub['rules'][-1]['description'] += ' ' + s
+
+    # Post-process: attach force_org to any rule whose description matches
+    for sf in subfactions:
+        for rule in sf.get('rules', []):
+            fo = parse_force_org_rule(rule['description'])
+            if fo:
+                rule['force_org'] = fo
 
     return subfactions
 

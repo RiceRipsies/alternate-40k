@@ -19,7 +19,19 @@
       "rules": [
         {
           "name": "Extreme Trials",
-          "description": "You may treat Scouts, Bladeguard Veterans, Company Veterans, Sternguard Veterans, and Vanguard Veterans as Troop Slots."
+          "description": "You may treat Scouts, Bladeguard Veterans, Company Veterans, Sternguard Veterans, and Vanguard Veterans as Troop Slots.",
+          "force_org": {
+            "troops_eligible": {
+              "units": [
+                "Scouts",
+                "Bladeguard Veterans",
+                "Company Veterans",
+                "Sternguard Veterans",
+                "Vanguard Veterans"
+              ],
+              "slot": "troops"
+            }
+          }
         },
         {
           "name": "Long Suffering",

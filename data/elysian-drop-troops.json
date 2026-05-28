@@ -25,7 +25,19 @@
         },
         {
           "name": "Air Superiority",
-          "description": "Lose all Heavy Support Slots and gain +1 Flyer Slot. They may not take any Lord of War that does not have High Altitude."
+          "description": "Lose all Heavy Support Slots and gain +1 Flyer Slot. They may not take any Lord of War that does not have High Altitude.",
+          "force_org": {
+            "slot_changes": [
+              {
+                "slot": "heavy_support",
+                "max": 0
+              },
+              {
+                "slot": "flyers",
+                "delta": 1
+              }
+            ]
+          }
         },
         {
           "name": "Accatran Pattern Lasgun",
