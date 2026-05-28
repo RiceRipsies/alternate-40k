@@ -1270,6 +1270,9 @@ subfactionSel.addEventListener('change', () => {
   loadSubfactionCodex(state.subfaction);
   renderSlots();
   saveList();
+  if (state.browsingSlot && unitsView.style.display !== 'none') {
+    renderUnitList(D('unit-search').value);
+  }
 });
 
 function normSubName(s) {
