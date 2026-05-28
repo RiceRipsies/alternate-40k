@@ -77,6 +77,12 @@
         ],
         "options": [],
         "weapons": {
+          "Bolt Pistol": {
+            "range": "12",
+            "S": "4",
+            "AP": "5+",
+            "type": "Pistol 1 3"
+          },
           "Blood Reaver": {
             "range": "Melee",
             "S": "+3",
@@ -95,11 +101,23 @@
             "AP": "4+",
             "type": "Grenade 1, Nonblast"
           },
-          "Orbital Strike": {
+          "Orbital Strike /8": {
             "range": "12-240",
             "S": "D/10",
             "AP": "1+",
-            "type": "/1+ Heavy 1, 15\u201d Blast, Destroyer, Indirect Fire, Ignores Cover, The Hour is Nigh, T Minus 5, One Use Only 4"
+            "type": "/1+ Heavy 1, 15\u201d Blast, Destroyer, /1+ Ordnance, Monsterbane,"
+          },
+          "Fire, Ignores Cover, The": {
+            "range": "",
+            "S": "",
+            "AP": "",
+            "type": ""
+          },
+          "is Nigh, T Minus Only": {
+            "range": "5,",
+            "S": "",
+            "AP": "",
+            "type": "4"
           }
         }
       }

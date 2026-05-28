@@ -137,7 +137,12 @@
         "options": [
           {
             "description": "May swap Psychic Mastery Level 3 for Psychic Mastery Level 4 for +25 points",
-            "choices": []
+            "choices": [
+              {
+                "name": "Pink Firebolt",
+                "pts_delta": 0
+              }
+            ]
           },
           {
             "description": "May take up to one Spell for each Psychic Mastery Level",
@@ -148,7 +153,26 @@
             "choices": []
           }
         ],
-        "weapons": {}
+        "weapons": {
+          "Blue Firebolt": {
+            "range": "18",
+            "S": "9",
+            "AP": "1+",
+            "type": "Assault 3, Monsterbane"
+          },
+          "Pink Firebolt": {
+            "range": "Flame",
+            "S": "5",
+            "AP": "3+",
+            "type": "Assault 1"
+          },
+          "Lamprey\u2019s Bite": {
+            "range": "Melee",
+            "S": "User",
+            "AP": "2+",
+            "type": "None 5"
+          }
+        }
       },
       {
         "name": "Ahriman",
@@ -279,11 +303,29 @@
           }
         ],
         "weapons": {
-          "Staff of Tomorrow": {
+          "Staff of": {
             "range": "Melee",
             "S": "+2",
             "AP": "2+",
-            "type": "Sniper (2+), Independent Characters slain by this weapon spawn a Chaos Spawn within 6\u201d with no upgrades 7"
+            "type": "Sniper (2+), Independent"
+          },
+          "Characters slain by this weapon": {
+            "range": "",
+            "S": "",
+            "AP": "",
+            "type": ""
+          },
+          "a Chaos Spawn within": {
+            "range": "6\u201d",
+            "S": "",
+            "AP": "",
+            "type": ""
+          },
+          "no upgrades": {
+            "range": "",
+            "S": "",
+            "AP": "",
+            "type": "7"
           }
         }
       },
@@ -335,7 +377,7 @@
             "description": "May take up to one of each Spell",
             "choices": [
               {
-                "name": "Gaze of Magnus Cast 8+",
+                "name": "Gaze of Magnus",
                 "pts_delta": 0
               }
             ]
@@ -346,13 +388,43 @@
             "range": "Melee",
             "S": "User",
             "AP": "1+",
-            "type": "Sniper (2+), Independent Characters slain by this weapon spawn a Chaos Spawn within 6\u201d with no upgrades"
+            "type": "Sniper (2+), Independent"
           },
-          "Gaze of Magnus Cast 8+": {
+          "slain by this weapon": {
+            "range": "",
+            "S": "",
+            "AP": "",
+            "type": ""
+          },
+          "a Chaos Spawn within": {
+            "range": "6\u201d",
+            "S": "",
+            "AP": "",
+            "type": ""
+          },
+          "no upgrades": {
+            "range": "",
+            "S": "",
+            "AP": "",
+            "type": ""
+          },
+          "Gaze of Magnus": {
             "range": "18",
             "S": "D",
             "AP": "1+",
-            "type": "Assault 1, Beam, Destroyer, Monsterbane 8"
+            "type": "Assault 1, Beam, Destroyer,"
+          },
+          "8+": {
+            "range": "Monsterbane",
+            "S": "",
+            "AP": "",
+            "type": "8"
+          },
+          "0-3/Troop Slot Purchased": {
+            "range": "",
+            "S": "",
+            "AP": "",
+            "type": ""
           }
         }
       }
@@ -400,7 +472,19 @@
           }
         ],
         "weapons": {
-          "Tongues of": {
+          "Green Fire": {
+            "range": "18",
+            "S": "9",
+            "AP": "1+",
+            "type": "Assault 2"
+          },
+          "Pink Fire": {
+            "range": "Flame",
+            "S": "5",
+            "AP": "3+",
+            "type": "Pistol 1 9"
+          },
+          "Tongues of Flames": {
             "range": "Melee",
             "S": "User",
             "AP": "4+",
@@ -449,7 +533,19 @@
           }
         ],
         "weapons": {
-          "Tongues of": {
+          "Green Fire": {
+            "range": "18",
+            "S": "9",
+            "AP": "1+",
+            "type": "Assault 2"
+          },
+          "Pink Fire": {
+            "range": "Flame",
+            "S": "5",
+            "AP": "3+",
+            "type": "Pistol 1 9"
+          },
+          "Tongues of Flames": {
             "range": "Melee",
             "S": "User",
             "AP": "4+",
@@ -873,15 +969,15 @@
                 "pts_delta": 0
               },
               {
-                "name": "Inferno Combi Flamer",
+                "name": "Inferno Combi",
                 "pts_delta": 1
               },
               {
-                "name": "Inferno Combi Plasma",
+                "name": "Inferno Combi",
                 "pts_delta": 6
               },
               {
-                "name": "Inferno Combi Melta",
+                "name": "Inferno Combi",
                 "pts_delta": 21
               },
               {
@@ -952,23 +1048,17 @@
             "AP": "3+",
             "type": "Reroll failed To Wound rolls"
           },
-          "Inferno Combi Flamer": {
+          "Inferno Combi": {
             "range": "Flame",
             "S": "4",
             "AP": "5+",
-            "type": "Assault 1 Or Or Or Or 4         4       3+        Rapid Fire 1, Bolter"
+            "type": "Assault 1"
           },
-          "Inferno Combi Plasma": {
-            "range": "24",
-            "S": "7",
-            "AP": "2+",
-            "type": "Rapid Fire 1, Gets Hot! Or Or Or Or 24        4       3+        Rapid Fire 1, Bolter"
-          },
-          "Inferno Combi Melta": {
-            "range": "12",
-            "S": "8",
-            "AP": "1+",
-            "type": "Assault 1, Melta, Or Or Or (Monsterbane), Or 24        4       3+        Rapid Fire, Bolter 14"
+          "Or": {
+            "range": "Or",
+            "S": "Or",
+            "AP": "Or",
+            "type": ""
           },
           "Soulreaper Cannon": {
             "range": "24",
@@ -1209,7 +1299,7 @@
                 "pts_delta": 0
               },
               {
-                "name": "Autopistol and Chainsword",
+                "name": "Autopistol and",
                 "pts_delta": 1
               },
               {
@@ -1230,11 +1320,23 @@
             "AP": "4+",
             "type": "Furious Charge"
           },
-          "Autopistol and Chainsword": {
+          "Autopistol and": {
             "range": "12",
             "S": "3",
             "AP": "-",
-            "type": "Pistol 1 And And And And Melee     User    6+        Rending"
+            "type": "Pistol 1"
+          },
+          "And": {
+            "range": "And",
+            "S": "And",
+            "AP": "And",
+            "type": ""
+          },
+          "User": {
+            "range": "6+",
+            "S": "Rending",
+            "AP": "",
+            "type": ""
           },
           "Fatecaster Greatbow": {
             "range": "24",
@@ -1364,11 +1466,107 @@
           }
         ],
         "weapons": {
-          "Enormous Claws Touch Madness Unreality": {
+          "Enormous Claws": {
             "range": "Melee",
             "S": "User",
             "AP": "3+",
-            "type": "None Tzeentch gains S+1 until your next Shooting Phase Tzeentch may reroll failed Charges until your next Shooting Phase Tzeentch gains Rending on all Ranged and Melee Attacks until your next Shooting Phase until your next Shooting Phase 19 Monsterbane"
+            "type": "None"
+          },
+          "1": {
+            "range": "Warp Flare",
+            "S": "12",
+            "AP": "5 3+ Assault 1, 3\u201d Blast",
+            "type": ""
+          },
+          "2": {
+            "range": "Chaotic Infusion",
+            "S": "6",
+            "AP": "-",
+            "type": "- Target unit with the Mark of"
+          },
+          "3": {
+            "range": "Temporal Flux",
+            "S": "6",
+            "AP": "-",
+            "type": "- Target unit with the Mark of"
+          },
+          "4": {
+            "range": "Ephemeral",
+            "S": "6",
+            "AP": "Target unit with the Mark of",
+            "type": ""
+          },
+          "5": {
+            "range": "Maelstrom of",
+            "S": "12",
+            "AP": "-",
+            "type": "- Target enemy unit suffers -2 Ld"
+          },
+          "6": {
+            "range": "Beam of",
+            "S": "12",
+            "AP": "D 2+ Assault 1, Beam, Destroyer,",
+            "type": ""
+          },
+          "gains S+1 until your": {
+            "range": "",
+            "S": "",
+            "AP": "",
+            "type": ""
+          },
+          "may reroll failed": {
+            "range": "",
+            "S": "",
+            "AP": "",
+            "type": ""
+          },
+          "Shooting Phase": {
+            "range": "",
+            "S": "",
+            "AP": "",
+            "type": ""
+          },
+          "until your next": {
+            "range": "",
+            "S": "",
+            "AP": "",
+            "type": ""
+          },
+          "Phase": {
+            "range": "",
+            "S": "",
+            "AP": "",
+            "type": ""
+          },
+          "Tzeentch gains Rending on all": {
+            "range": "",
+            "S": "",
+            "AP": "",
+            "type": ""
+          },
+          "and": {
+            "range": "Melee",
+            "S": "",
+            "AP": "",
+            "type": ""
+          },
+          "next Shooting Phase": {
+            "range": "",
+            "S": "",
+            "AP": "",
+            "type": ""
+          },
+          "until your next Shooting Phase": {
+            "range": "",
+            "S": "",
+            "AP": "",
+            "type": "19"
+          },
+          "Monsterbane": {
+            "range": "",
+            "S": "",
+            "AP": "",
+            "type": ""
           }
         }
       },
@@ -1416,11 +1614,23 @@
           }
         ],
         "weapons": {
-          "Heavy Warp Flamer Missile Racks": {
+          "Heavy Warp Flamer": {
             "range": "Flame",
             "S": "5",
             "AP": "3+",
-            "type": "Assault 1 Cover"
+            "type": "Assault 1"
+          },
+          "2 Linked Hellfyre": {
+            "range": "36",
+            "S": "3",
+            "AP": "6+",
+            "type": "Heavy 1 x2, 3\u201d Blast, Ignores"
+          },
+          "Racks": {
+            "range": "Cover",
+            "S": "",
+            "AP": "",
+            "type": ""
           },
           "Lightning Claw": {
             "range": "Melee",
@@ -1486,11 +1696,23 @@
           }
         ],
         "weapons": {
-          "Staff of Cataclysm": {
+          "Staff of": {
             "range": "72",
             "S": "9",
             "AP": "3+",
-            "type": "Heavy 1, Apocalypse Barrage And And And And Melee     X2      1+          Slow, Monsterbane"
+            "type": "Heavy 1, Apocalypse Barrage"
+          },
+          "And": {
+            "range": "And",
+            "S": "And",
+            "AP": "And",
+            "type": ""
+          },
+          "X2": {
+            "range": "1+",
+            "S": "Slow, Monsterbane",
+            "AP": "",
+            "type": ""
           }
         }
       },
@@ -1547,13 +1769,31 @@
             "range": "Melee",
             "S": "User",
             "AP": "3+",
-            "type": "Sniper (3+), Independent Characters slain by this weapon spawn a Chaos Spawn within 6\u201d with no upgrades"
+            "type": "Sniper (3+), Independent"
           },
           "Baleful Sword": {
             "range": "Melee",
             "S": "+1",
             "AP": "2+",
             "type": "Extra Attack 1, Auxiliary 22"
+          },
+          "slain by this weapon": {
+            "range": "",
+            "S": "",
+            "AP": "",
+            "type": ""
+          },
+          "a Chaos Spawn within": {
+            "range": "6\u201d",
+            "S": "",
+            "AP": "",
+            "type": ""
+          },
+          "no upgrades": {
+            "range": "",
+            "S": "",
+            "AP": "",
+            "type": ""
           }
         }
       }

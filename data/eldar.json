@@ -145,7 +145,13 @@
             "range": "48",
             "S": "8",
             "AP": "3+",
-            "type": "Heavy 1, Monsterbane 48        5       3+   Heavy 2"
+            "type": "Heavy 1, Monsterbane"
+          },
+          "Or": {
+            "range": "Or",
+            "S": "Or",
+            "AP": "",
+            "type": ""
           },
           "Scorpion Chainsword": {
             "range": "Melee",
@@ -181,19 +187,31 @@
             "range": "6",
             "S": "6",
             "AP": "3+",
-            "type": "Assault 1 Melee     6       3+   None"
+            "type": "Assault 1"
           },
-          "Haywire Grenades": {
+          "6": {
+            "range": "3+",
+            "S": "None",
+            "AP": "",
+            "type": ""
+          },
+          "Haywire": {
             "range": "8",
             "S": "3",
             "AP": "3+",
-            "type": "Grenade 1, Nonblast, Haywire (3+)"
+            "type": "Grenade 1, Nonblast, Haywire"
           },
           "Plasma Grenades": {
             "range": "8",
             "S": "4",
             "AP": "4+",
             "type": "Grenade 1, Nonblast, Blind 5"
+          },
+          "(3+)": {
+            "range": "",
+            "S": "",
+            "AP": "",
+            "type": ""
           }
         }
       },
@@ -257,27 +275,27 @@
             "description": "May take up to one S for each level of Psychic Mastery",
             "choices": [
               {
-                "name": "Twilight Pathways Cast 6+",
+                "name": "Twilight",
                 "pts_delta": 5
               },
               {
-                "name": "Fog of Dreams Cast 6+",
+                "name": "Fog of Dreams",
                 "pts_delta": 10
               },
               {
-                "name": "Mirror of Minds Cast 6+",
+                "name": "Mirror of Minds",
                 "pts_delta": 10
               },
               {
-                "name": "Shard of Light Cast 8+",
+                "name": "Shard of Light",
                 "pts_delta": 15
               },
               {
-                "name": "Veil of Tears Cast 5+",
+                "name": "Veil of Tears",
                 "pts_delta": 15
               },
               {
-                "name": "Webway Dance Cast 8+",
+                "name": "Webway Dance",
                 "pts_delta": 30
               }
             ]
@@ -308,41 +326,83 @@
             "AP": "4+",
             "type": "Grenade 1, Nonblast, Blind"
           },
-          "Twilight Pathways Cast 6+": {
+          "Twilight": {
             "range": "18",
             "S": "-",
             "AP": "-",
-            "type": "Target unit may reroll failed Charges until your next Psychic Phase."
+            "type": "Target unit may reroll failed"
           },
-          "Fog of Dreams Cast 6+": {
+          "Fog of Dreams": {
             "range": "18",
             "S": "-",
             "AP": "-",
-            "type": "Target unit suffers Ld-2. 6"
+            "type": "Target unit suffers Ld-2."
           },
-          "Mirror of Minds Cast 6+": {
+          "Mirror of Minds": {
             "range": "18",
             "S": "-",
             "AP": "-",
-            "type": "Target one model. Both models roll a d6 and add their Ld to it. If this model\u2019s score is higher, target model suffers 2 Mortal Wound."
+            "type": "Target one model. Both models"
           },
-          "Shard of Light Cast 8+": {
+          "Shard of Light": {
             "range": "18",
             "S": "-",
             "AP": "-",
-            "type": "Target nonTitanic unit suffers - 1 To Hit until your next Psychic Phase."
+            "type": "Target nonTitanic unit suffers -"
           },
-          "Veil of Tears Cast 5+": {
+          "Veil of Tears": {
             "range": "18",
             "S": "-",
             "AP": "-",
-            "type": "Target unit gains a 4+ Cover Save until your next Psychic Phase."
+            "type": "Target unit gains a 4+ Cover"
           },
-          "Webway Dance Cast 8+": {
+          "Webway Dance": {
             "range": "18",
             "S": "-",
             "AP": "-",
-            "type": "Target friendly unit with Deepstrike or Outflank is placed back in Reserves."
+            "type": "Target friendly unit with"
+          },
+          "Charges until your next Psychic": {
+            "range": "",
+            "S": "",
+            "AP": "",
+            "type": ""
+          },
+          "6+": {
+            "range": "Phase.",
+            "S": "",
+            "AP": "",
+            "type": ""
+          },
+          "8+": {
+            "range": "1 To Hit until your next Psychic",
+            "S": "",
+            "AP": "",
+            "type": "Phase."
+          },
+          "5+": {
+            "range": "Save until your next Psychic",
+            "S": "",
+            "AP": "",
+            "type": "Phase."
+          },
+          "this model\u2019s score is higher,": {
+            "range": "",
+            "S": "",
+            "AP": "",
+            "type": ""
+          },
+          "model suffers": {
+            "range": "2",
+            "S": "",
+            "AP": "",
+            "type": "Wound."
+          },
+          "back in Reserves.": {
+            "range": "",
+            "S": "",
+            "AP": "",
+            "type": ""
           }
         }
       },
@@ -409,27 +469,27 @@
             "description": "May take up to one S for each level of Psychic Mastery",
             "choices": [
               {
-                "name": "Twilight Pathways Cast 6+",
+                "name": "Twilight",
                 "pts_delta": 5
               },
               {
-                "name": "Fog of Dreams Cast 6+",
+                "name": "Fog of Dreams",
                 "pts_delta": 10
               },
               {
-                "name": "Mirror of Minds Cast 6+",
+                "name": "Mirror of Minds",
                 "pts_delta": 10
               },
               {
-                "name": "Shard of Light Cast 8+",
+                "name": "Shard of Light",
                 "pts_delta": 15
               },
               {
-                "name": "Veil of Tears Cast 5+",
+                "name": "Veil of Tears",
                 "pts_delta": 15
               },
               {
-                "name": "Webway Dance Cast 8+",
+                "name": "Webway Dance",
                 "pts_delta": 30
               }
             ]
@@ -460,41 +520,83 @@
             "AP": "4+",
             "type": "Grenade 1, Nonblast, Blind"
           },
-          "Twilight Pathways Cast 6+": {
+          "Twilight": {
             "range": "18",
             "S": "-",
             "AP": "-",
-            "type": "Target unit may reroll failed Charges until your next Psychic Phase."
+            "type": "Target unit may reroll failed"
           },
-          "Fog of Dreams Cast 6+": {
+          "Fog of Dreams": {
             "range": "18",
             "S": "-",
             "AP": "-",
-            "type": "Target unit suffers Ld-2. 6"
+            "type": "Target unit suffers Ld-2."
           },
-          "Mirror of Minds Cast 6+": {
+          "Mirror of Minds": {
             "range": "18",
             "S": "-",
             "AP": "-",
-            "type": "Target one model. Both models roll a d6 and add their Ld to it. If this model\u2019s score is higher, target model suffers 2 Mortal Wound."
+            "type": "Target one model. Both models"
           },
-          "Shard of Light Cast 8+": {
+          "Shard of Light": {
             "range": "18",
             "S": "-",
             "AP": "-",
-            "type": "Target nonTitanic unit suffers - 1 To Hit until your next Psychic Phase."
+            "type": "Target nonTitanic unit suffers -"
           },
-          "Veil of Tears Cast 5+": {
+          "Veil of Tears": {
             "range": "18",
             "S": "-",
             "AP": "-",
-            "type": "Target unit gains a 4+ Cover Save until your next Psychic Phase."
+            "type": "Target unit gains a 4+ Cover"
           },
-          "Webway Dance Cast 8+": {
+          "Webway Dance": {
             "range": "18",
             "S": "-",
             "AP": "-",
-            "type": "Target friendly unit with Deepstrike or Outflank is placed back in Reserves."
+            "type": "Target friendly unit with"
+          },
+          "Charges until your next Psychic": {
+            "range": "",
+            "S": "",
+            "AP": "",
+            "type": ""
+          },
+          "6+": {
+            "range": "Phase.",
+            "S": "",
+            "AP": "",
+            "type": ""
+          },
+          "8+": {
+            "range": "1 To Hit until your next Psychic",
+            "S": "",
+            "AP": "",
+            "type": "Phase."
+          },
+          "5+": {
+            "range": "Save until your next Psychic",
+            "S": "",
+            "AP": "",
+            "type": "Phase."
+          },
+          "this model\u2019s score is higher,": {
+            "range": "",
+            "S": "",
+            "AP": "",
+            "type": ""
+          },
+          "model suffers": {
+            "range": "2",
+            "S": "",
+            "AP": "",
+            "type": "Wound."
+          },
+          "back in Reserves.": {
+            "range": "",
+            "S": "",
+            "AP": "",
+            "type": ""
           }
         }
       },
@@ -734,18 +836,34 @@
             "description": "May take up to one Spell for each level of Psychic Mastery",
             "choices": [
               {
-                "name": "Precognition Cast 8+",
+                "name": "Precognition",
+                "pts_delta": 0
+              },
+              {
+                "name": "Phase",
                 "pts_delta": 0
               }
             ]
           }
         ],
         "weapons": {
-          "Precognition Cast 8+": {
+          "Precognition": {
             "range": "240",
             "S": "-",
             "AP": "-",
-            "type": "Target unit may reroll all failed Saves (Feel No Pains are not 9 Saves) until your next Psychic Mastery Phase"
+            "type": "Target unit may reroll all failed"
+          },
+          "8+": {
+            "range": "Saves (Feel No Pains are not",
+            "S": "",
+            "AP": "",
+            "type": "9 Saves) until your next Psychic"
+          },
+          "Phase": {
+            "range": "",
+            "S": "",
+            "AP": "",
+            "type": ""
           },
           "Shuriken Pistol": {
             "range": "12",
@@ -814,18 +932,34 @@
             "description": "May take up to one Spell for each level of Psychic Mastery",
             "choices": [
               {
-                "name": "Precognition Cast 8+",
+                "name": "Precognition",
+                "pts_delta": 0
+              },
+              {
+                "name": "Phase",
                 "pts_delta": 0
               }
             ]
           }
         ],
         "weapons": {
-          "Precognition Cast 8+": {
+          "Precognition": {
             "range": "240",
             "S": "-",
             "AP": "-",
-            "type": "Target unit may reroll all failed Saves (Feel No Pains are not 9 Saves) until your next Psychic Mastery Phase"
+            "type": "Target unit may reroll all failed"
+          },
+          "8+": {
+            "range": "Saves (Feel No Pains are not",
+            "S": "",
+            "AP": "",
+            "type": "9 Saves) until your next Psychic"
+          },
+          "Phase": {
+            "range": "",
+            "S": "",
+            "AP": "",
+            "type": ""
           },
           "Shuriken Pistol": {
             "range": "12",
@@ -891,11 +1025,17 @@
         ],
         "options": [],
         "weapons": {
-          "The Spear of Twilight": {
+          "The Spear of": {
             "range": "Melee",
             "S": "+1",
             "AP": "2+",
-            "type": "Extra Attack d6, Daemonic Thirst"
+            "type": "Extra Attack d6, Daemonic"
+          },
+          "Thirst": {
+            "range": "",
+            "S": "",
+            "AP": "",
+            "type": ""
           },
           "Plasma Grenades": {
             "range": "8",
@@ -948,7 +1088,32 @@
             "choices": []
           }
         ],
-        "weapons": {}
+        "weapons": {
+          "Kha-Vir The": {
+            "range": "Melee",
+            "S": "+1",
+            "AP": "3+",
+            "type": "Ignores Invulnerability Saves"
+          },
+          "of Shadows": {
+            "range": "",
+            "S": "",
+            "AP": "",
+            "type": ""
+          },
+          "Plasma Grenades": {
+            "range": "8",
+            "S": "4",
+            "AP": "4+",
+            "type": "Grenade 1, Nonblast, Blind"
+          },
+          "0-3/Troop Slot Purchased": {
+            "range": "",
+            "S": "",
+            "AP": "",
+            "type": ""
+          }
+        }
       }
     ],
     "advisors": [
@@ -1052,17 +1217,23 @@
             "AP": "3+",
             "type": "Auxiliary"
           },
-          "Haywire Grenades": {
+          "Haywire": {
             "range": "8",
             "S": "3",
             "AP": "3+",
-            "type": "Grenade 1, Haywire (3+), Nonblast"
+            "type": "Grenade 1, Haywire (3+),"
           },
           "Plasma Grenades": {
             "range": "8",
             "S": "4",
             "AP": "4+",
             "type": "Grenade 1, Nonblast, Blind"
+          },
+          "Nonblast": {
+            "range": "",
+            "S": "",
+            "AP": "",
+            "type": ""
           }
         }
       },
@@ -1121,17 +1292,23 @@
             "AP": "3+",
             "type": "Auxiliary"
           },
-          "Haywire Grenades": {
+          "Haywire": {
             "range": "8",
             "S": "3",
             "AP": "3+",
-            "type": "Grenade 1, Haywire (3+), Nonblast"
+            "type": "Grenade 1, Haywire (3+),"
           },
           "Plasma Grenades": {
             "range": "8",
             "S": "4",
             "AP": "4+",
             "type": "Grenade 1, Nonblast, Blind"
+          },
+          "Nonblast": {
+            "range": "",
+            "S": "",
+            "AP": "",
+            "type": ""
           }
         }
       },
@@ -1219,7 +1396,19 @@
             "range": "12",
             "S": "3",
             "AP": "3+",
-            "type": "Assault 1, Poisoned (3+) Melee    User    3+         Poisoned (3+) 13"
+            "type": "Assault 1, Poisoned (3+)"
+          },
+          "Or": {
+            "range": "Or",
+            "S": "Or",
+            "AP": "",
+            "type": ""
+          },
+          "User": {
+            "range": "3+",
+            "S": "Poisoned (3+)",
+            "AP": "",
+            "type": "13"
           }
         }
       },
@@ -1323,6 +1512,12 @@
             "S": "+2",
             "AP": "2+",
             "type": "Ignores Feel No Pain"
+          },
+          "2-6 Slots": {
+            "range": "",
+            "S": "",
+            "AP": "",
+            "type": ""
           }
         }
       }
@@ -1527,7 +1722,7 @@
                 "pts_delta": 5
               },
               {
-                "name": "Plasma Missile Launcher",
+                "name": "Plasma Missile",
                 "pts_delta": 10
               },
               {
@@ -1574,17 +1769,23 @@
             "AP": "6+",
             "type": "Heavy 4, Monsterbane"
           },
-          "Plasma Missile Launcher": {
+          "Plasma Missile": {
             "range": "48",
             "S": "8",
             "AP": "3+",
-            "type": "Heavy 1, Monsterbane Or Or Or Or 48       4       4+        Heavy 1, 3\u201d Blast 16"
+            "type": "Heavy 1, Monsterbane"
           },
           "Bright Lance": {
             "range": "36",
             "S": "9",
             "AP": "2+",
             "type": "Heavy 1, Lance, Monsterbane"
+          },
+          "Or": {
+            "range": "Or",
+            "S": "Or",
+            "AP": "Or",
+            "type": "16"
           },
           "Plasma Grenades": {
             "range": "8",
@@ -1880,6 +2081,12 @@
             "S": "4",
             "AP": "4+",
             "type": "Grenade 1, Nonblast, Blind"
+          },
+          "0-3 Slots": {
+            "range": "",
+            "S": "",
+            "AP": "",
+            "type": ""
           }
         }
       }
@@ -2186,7 +2393,19 @@
             "range": "12",
             "S": "3",
             "AP": "3+",
-            "type": "Assault 3 And      Or     Or         Or Melee    User   3+         None"
+            "type": "Assault 3"
+          },
+          "Or": {
+            "range": "Or",
+            "S": "Or",
+            "AP": "",
+            "type": ""
+          },
+          "User": {
+            "range": "3+",
+            "S": "None",
+            "AP": "",
+            "type": ""
           }
         }
       },
@@ -2285,17 +2504,23 @@
             "AP": "2+",
             "type": "Heavy 2, Lance, Monsterbane"
           },
-          "Haywire Grenades": {
+          "Haywire": {
             "range": "8",
             "S": "3",
             "AP": "3+",
-            "type": "Grenade 1, Nonblast, Haywire (3+)"
+            "type": "Grenade 1, Nonblast, Haywire"
           },
           "Plasma Grenades": {
             "range": "8",
             "S": "4",
             "AP": "4+",
             "type": "Grenade 1, Nonblast, Blind"
+          },
+          "(3+)": {
+            "range": "",
+            "S": "",
+            "AP": "",
+            "type": ""
           }
         }
       },
@@ -2390,17 +2615,23 @@
             "AP": "2+",
             "type": "Heavy 2, Lance, Monsterbane"
           },
-          "Haywire Grenades": {
+          "Haywire": {
             "range": "8",
             "S": "3",
             "AP": "3+",
-            "type": "Grenade 1, Nonblast, Haywire (3+)"
+            "type": "Grenade 1, Nonblast, Haywire"
           },
           "Plasma Grenades": {
             "range": "8",
             "S": "4",
             "AP": "4+",
             "type": "Grenade 1, Nonblast, Blind"
+          },
+          "(3+)": {
+            "range": "",
+            "S": "",
+            "AP": "",
+            "type": ""
           }
         }
       },
@@ -2661,12 +2892,16 @@
                 "pts_delta": 5
               },
               {
-                "name": "Plasma Missile Launcher",
+                "name": "Plasma Missile",
                 "pts_delta": 10
               },
               {
-                "name": "Bright Lance Shuriken Catapults",
+                "name": "Bright Lance",
                 "pts_delta": 18
+              },
+              {
+                "name": "2 Linked Shuriken Catapults",
+                "pts_delta": 0
               },
               {
                 "name": "Starcannon",
@@ -2694,17 +2929,29 @@
             "AP": "6+",
             "type": "Heavy 4, Monsterbane"
           },
-          "Plasma Missile Launcher": {
+          "Plasma Missile": {
             "range": "48",
             "S": "8",
             "AP": "3+",
-            "type": "Heavy 1, Monsterbane Or Or Or Or 48       4       4+         Heavy 1, 3 Blast"
+            "type": "Heavy 1, Monsterbane"
           },
-          "Bright Lance Shuriken Catapults": {
+          "Bright Lance": {
             "range": "36",
             "S": "9",
             "AP": "2+",
             "type": "Heavy 1, Lance, Monsterbane 25"
+          },
+          "Or": {
+            "range": "Or",
+            "S": "Or",
+            "AP": "Or",
+            "type": ""
+          },
+          "2 Linked Shuriken Catapults": {
+            "range": "12",
+            "S": "3",
+            "AP": "-",
+            "type": "Assault 2, Rending"
           }
         }
       },
@@ -2759,12 +3006,16 @@
                 "pts_delta": 5
               },
               {
-                "name": "Plasma Missile Launcher",
+                "name": "Plasma Missile",
                 "pts_delta": 10
               },
               {
-                "name": "Bright Lance Shuriken Catapults",
+                "name": "Bright Lance",
                 "pts_delta": 18
+              },
+              {
+                "name": "2 Linked Shuriken Catapults",
+                "pts_delta": 0
               },
               {
                 "name": "Starcannon",
@@ -2792,17 +3043,29 @@
             "AP": "6+",
             "type": "Heavy 4, Monsterbane"
           },
-          "Plasma Missile Launcher": {
+          "Plasma Missile": {
             "range": "48",
             "S": "8",
             "AP": "3+",
-            "type": "Heavy 1, Monsterbane Or Or Or Or 48       4       4+         Heavy 1, 3 Blast"
+            "type": "Heavy 1, Monsterbane"
           },
-          "Bright Lance Shuriken Catapults": {
+          "Bright Lance": {
             "range": "36",
             "S": "9",
             "AP": "2+",
             "type": "Heavy 1, Lance, Monsterbane 25"
+          },
+          "Or": {
+            "range": "Or",
+            "S": "Or",
+            "AP": "Or",
+            "type": ""
+          },
+          "2 Linked Shuriken Catapults": {
+            "range": "12",
+            "S": "3",
+            "AP": "-",
+            "type": "Assault 2, Rending"
           }
         }
       },
@@ -2854,6 +3117,12 @@
           }
         ],
         "weapons": {
+          "2 Linked Shuriken Catapults": {
+            "range": "12",
+            "S": "3",
+            "AP": "-",
+            "type": "Assault 2 x2, Rending"
+          },
           "Shuriken Cannon": {
             "range": "24",
             "S": "6",
@@ -2864,7 +3133,13 @@
             "range": "36",
             "S": "7",
             "AP": "6+",
-            "type": "Heavy 4, Monsterbane, Weapon Platform 26"
+            "type": "Heavy 4, Monsterbane,"
+          },
+          "Platform": {
+            "range": "",
+            "S": "",
+            "AP": "",
+            "type": "26"
           }
         }
       },
@@ -2931,10 +3206,90 @@
         "options": [
           {
             "description": "May take up to 5 more Hawks for +35 points each Exarch may swap Lasblaster for OS Exarch may swap Power Sword for M",
-            "choices": []
+            "choices": [
+              {
+                "name": "Lasblaster",
+                "pts_delta": 0
+              },
+              {
+                "name": "Sun Rifle",
+                "pts_delta": 2
+              },
+              {
+                "name": "Hawk\u2019s Talon",
+                "pts_delta": 6
+              },
+              {
+                "name": "Power Sword",
+                "pts_delta": 0
+              },
+              {
+                "name": "Power Axe",
+                "pts_delta": 1
+              },
+              {
+                "name": "Power Maul",
+                "pts_delta": 2
+              }
+            ]
           }
         ],
-        "weapons": {}
+        "weapons": {
+          "Lasblaster": {
+            "range": "24",
+            "S": "3",
+            "AP": "5+",
+            "type": "Assault 3"
+          },
+          "Sun Rifle": {
+            "range": "24",
+            "S": "3",
+            "AP": "3+",
+            "type": "Assault 3"
+          },
+          "Hawk\u2019s Talon": {
+            "range": "24",
+            "S": "5",
+            "AP": "5+",
+            "type": "Assault 3"
+          },
+          "Power Sword": {
+            "range": "Melee",
+            "S": "+1",
+            "AP": "3+",
+            "type": "None"
+          },
+          "Power Axe": {
+            "range": "Melee",
+            "S": "+2",
+            "AP": "4+",
+            "type": "None"
+          },
+          "Power Maul": {
+            "range": "Melee",
+            "S": "+2",
+            "AP": "4+",
+            "type": "Concussion"
+          },
+          "Haywire": {
+            "range": "8",
+            "S": "3",
+            "AP": "3+",
+            "type": "Grenade 1, Nonblast, Haywire"
+          },
+          "Plasma Grenades": {
+            "range": "8",
+            "S": "4",
+            "AP": "4+",
+            "type": "Grenade 1, Nonblast, Blind 27"
+          },
+          "(3+)": {
+            "range": "",
+            "S": "",
+            "AP": "",
+            "type": ""
+          }
+        }
       },
       {
         "name": "Warp Spiders",
@@ -2990,10 +3345,54 @@
         "options": [
           {
             "description": "May take up to 5 more Spiders for +35 points each Exarch may swap any Power Blade for OR Exarch may take one OP",
-            "choices": []
+            "choices": [
+              {
+                "name": "Death Spinner",
+                "pts_delta": 11
+              },
+              {
+                "name": "Spinneret Rifle",
+                "pts_delta": 15
+              },
+              {
+                "name": "Two Linked",
+                "pts_delta": 44
+              }
+            ]
           }
         ],
-        "weapons": {}
+        "weapons": {
+          "Power Blade": {
+            "range": "Melee",
+            "S": "User",
+            "AP": "3+",
+            "type": "Extra Attack 1"
+          },
+          "Death Spinner": {
+            "range": "12",
+            "S": "*",
+            "AP": "-",
+            "type": "Assault 2, Grav"
+          },
+          "Spinneret Rifle": {
+            "range": "18",
+            "S": "*",
+            "AP": "2+",
+            "type": "Rapid Fire 1, Grav"
+          },
+          "Two Linked": {
+            "range": "Flame",
+            "S": "3",
+            "AP": "-",
+            "type": "Pistol 1 (x2), Grav"
+          },
+          "Weavers": {
+            "range": "",
+            "S": "",
+            "AP": "",
+            "type": ""
+          }
+        }
       },
       {
         "name": "Hornets",
@@ -3033,6 +3432,22 @@
             "description": "May add up to two more Hornets for +122 points each Any model may swap 2 Linked Starcannons for T Any model may take up to one of each E",
             "choices": [
               {
+                "name": "2 Linked Starcannons",
+                "pts_delta": 0
+              },
+              {
+                "name": "2 Linked Scatter",
+                "pts_delta": 6
+              },
+              {
+                "name": "2 Linked Plasma",
+                "pts_delta": 10
+              },
+              {
+                "name": "2 Linked Bright",
+                "pts_delta": 18
+              },
+              {
                 "name": "Spirit Stones",
                 "pts_delta": 5
               },
@@ -3043,7 +3458,62 @@
             ]
           }
         ],
-        "weapons": {}
+        "weapons": {
+          "2 Linked Starcannons": {
+            "range": "36",
+            "S": "6",
+            "AP": "2+",
+            "type": "Heavy 2 x2, Hull, Primary"
+          },
+          "2 Linked Scatter": {
+            "range": "36",
+            "S": "7",
+            "AP": "6+",
+            "type": "Heavy 4 x2, Monsterbane, Hull,"
+          },
+          "2 Linked Plasma": {
+            "range": "48",
+            "S": "8",
+            "AP": "3+",
+            "type": "Heavy 1 x2, Monsterbane, Hull,"
+          },
+          "2 Linked Bright": {
+            "range": "36",
+            "S": "9",
+            "AP": "2+",
+            "type": "Heavy 1 x2, Lance,"
+          },
+          "Primary": {
+            "range": "",
+            "S": "",
+            "AP": "",
+            "type": ""
+          },
+          "Or": {
+            "range": "Or",
+            "S": "Or",
+            "AP": "Primary Or",
+            "type": ""
+          },
+          "48": {
+            "range": "4",
+            "S": "4+",
+            "AP": "Heavy 1 x2, 3 Blast, Hull,",
+            "type": "Primary"
+          },
+          "Monsterbane, Hull, Primary": {
+            "range": "",
+            "S": "",
+            "AP": "",
+            "type": ""
+          },
+          "2 linked Shuriken": {
+            "range": "24",
+            "S": "6",
+            "AP": "5+",
+            "type": "Assault 3 x2, Rending, Hull,"
+          }
+        }
       },
       {
         "name": "War Walkers",
@@ -3095,7 +3565,7 @@
                 "pts_delta": 3
               },
               {
-                "name": "Plasma Missile Launcher",
+                "name": "Plasma Missile",
                 "pts_delta": 5
               },
               {
@@ -3128,17 +3598,23 @@
             "AP": "6+",
             "type": "Heavy 4, Monsterbane, Hull, Primary"
           },
-          "Plasma Missile Launcher": {
+          "Plasma Missile": {
             "range": "48",
             "S": "8",
             "AP": "3+",
-            "type": "Heavy 1, Monsterbane, Hull, Or Or Or Primary Or 48        4       4+        Heavy 1, 3 Blast, Hull, Primary"
+            "type": "Heavy 1, Monsterbane, Hull,"
           },
           "Bright Lance": {
             "range": "36",
             "S": "9",
             "AP": "2+",
             "type": "Heavy 1, Lance, Monsterbane, Hull, Primary 29"
+          },
+          "Or": {
+            "range": "Or",
+            "S": "Or",
+            "AP": "Primary Or",
+            "type": ""
           }
         }
       },
@@ -3179,6 +3655,26 @@
             "description": "May add up to seven more Wasps for +89 points each Any model may swap any Starcannon for H Any model may take up to one of each E",
             "choices": [
               {
+                "name": "Starcannon",
+                "pts_delta": 0
+              },
+              {
+                "name": "Shuriken Cannon",
+                "pts_delta": 1
+              },
+              {
+                "name": "Scatter Laser",
+                "pts_delta": 3
+              },
+              {
+                "name": "Plasma Missile",
+                "pts_delta": 5
+              },
+              {
+                "name": "Bright Lance",
+                "pts_delta": 9
+              },
+              {
                 "name": "Spirit Stones",
                 "pts_delta": 5
               }
@@ -3186,6 +3682,42 @@
           }
         ],
         "weapons": {
+          "Starcannon": {
+            "range": "36",
+            "S": "6",
+            "AP": "2+",
+            "type": "Heavy 2, Hull, Primary"
+          },
+          "Shuriken Cannon": {
+            "range": "24",
+            "S": "6",
+            "AP": "5+",
+            "type": "Assault 3, Rending, Hull, Primary"
+          },
+          "Scatter Laser": {
+            "range": "36",
+            "S": "7",
+            "AP": "6+",
+            "type": "Heavy 4, Monsterbane, Hull, Primary"
+          },
+          "Plasma Missile": {
+            "range": "48",
+            "S": "8",
+            "AP": "3+",
+            "type": "Heavy 1, Monsterbane, Hull,"
+          },
+          "Bright Lance": {
+            "range": "36",
+            "S": "9",
+            "AP": "2+",
+            "type": "Heavy 1, Lance, Monsterbane, Hull, Primary"
+          },
+          "Or": {
+            "range": "Or",
+            "S": "Or",
+            "AP": "Primary Or",
+            "type": ""
+          },
           "Support": {
             "range": "0-3",
             "S": "",
@@ -3254,7 +3786,7 @@
                 "pts_delta": 0
               },
               {
-                "name": "Plasma Missile Launcher",
+                "name": "Plasma Missile",
                 "pts_delta": 9
               },
               {
@@ -3279,23 +3811,29 @@
             "AP": "5+",
             "type": "Assault 3, Rending"
           },
-          "Plasma Missile Launcher": {
+          "Plasma Missile": {
             "range": "48",
             "S": "8",
             "AP": "3+",
-            "type": "Heavy 1, Monsterbane Or Or Or Or 48      4       4+       Heavy 1, 3\u201d Blast"
+            "type": "Heavy 1, Monsterbane"
           },
           "Reaper Launcher": {
             "range": "48",
             "S": "8",
             "AP": "3+",
-            "type": "Heavy 1, Monsterbane 48      5       3+       Heavy 2"
+            "type": "Heavy 1, Monsterbane"
           },
           "Tempest Launcher": {
             "range": "36",
             "S": "4",
             "AP": "3+",
             "type": "Heavy 2, Indirect Fire, 3\u201d Blast"
+          },
+          "Or": {
+            "range": "Or",
+            "S": "Or",
+            "AP": "Or",
+            "type": ""
           }
         }
       },
@@ -3411,18 +3949,70 @@
             "description": "May take up to one more Wraithseer for +264 points each Any model may swap Starcannon for H Any model may take up to one Spell for each level of Psychic Mastery",
             "choices": [
               {
-                "name": "Starcannon Launcher",
+                "name": "Starcannon",
                 "pts_delta": 0
+              },
+              {
+                "name": "Shuriken Cannon",
+                "pts_delta": 1
+              },
+              {
+                "name": "Scatter Laser",
+                "pts_delta": 5
+              },
+              {
+                "name": "Plasma Missile",
+                "pts_delta": 10
+              },
+              {
+                "name": "Bright Lance",
+                "pts_delta": 18
               }
             ]
           }
         ],
         "weapons": {
-          "Starcannon Launcher": {
+          "Starcannon": {
             "range": "36",
             "S": "6",
             "AP": "2+",
-            "type": "Heavy 2 32 Or Or Or Or 48       4+      4+       Heavy 1, 3\u201d Blast"
+            "type": "Heavy 2 32"
+          },
+          "Shuriken Cannon": {
+            "range": "24",
+            "S": "6",
+            "AP": "5+",
+            "type": "Assault 3, Rending"
+          },
+          "Scatter Laser": {
+            "range": "36",
+            "S": "7",
+            "AP": "6+",
+            "type": "Heavy 4, Monsterbane"
+          },
+          "Plasma Missile": {
+            "range": "48",
+            "S": "8",
+            "AP": "3+",
+            "type": "Heavy 1, Monsterbane"
+          },
+          "Bright Lance": {
+            "range": "36",
+            "S": "9",
+            "AP": "2+",
+            "type": "Heavy 1, Lance, Monsterbane"
+          },
+          "Or": {
+            "range": "Or",
+            "S": "Or",
+            "AP": "Or",
+            "type": ""
+          },
+          "Ghost Spear": {
+            "range": "Melee",
+            "S": "+1",
+            "AP": "3+",
+            "type": "Counterattack"
           }
         }
       },
@@ -3465,18 +4055,70 @@
             "description": "May take up to one more Wraithseer for +264 points each Any model may swap Starcannon for H Any model may take up to one Spell for each level of Psychic Mastery",
             "choices": [
               {
-                "name": "Starcannon Launcher",
+                "name": "Starcannon",
                 "pts_delta": 0
+              },
+              {
+                "name": "Shuriken Cannon",
+                "pts_delta": 1
+              },
+              {
+                "name": "Scatter Laser",
+                "pts_delta": 5
+              },
+              {
+                "name": "Plasma Missile",
+                "pts_delta": 10
+              },
+              {
+                "name": "Bright Lance",
+                "pts_delta": 18
               }
             ]
           }
         ],
         "weapons": {
-          "Starcannon Launcher": {
+          "Starcannon": {
             "range": "36",
             "S": "6",
             "AP": "2+",
-            "type": "Heavy 2 32 Or Or Or Or 48       4+      4+       Heavy 1, 3\u201d Blast"
+            "type": "Heavy 2 32"
+          },
+          "Shuriken Cannon": {
+            "range": "24",
+            "S": "6",
+            "AP": "5+",
+            "type": "Assault 3, Rending"
+          },
+          "Scatter Laser": {
+            "range": "36",
+            "S": "7",
+            "AP": "6+",
+            "type": "Heavy 4, Monsterbane"
+          },
+          "Plasma Missile": {
+            "range": "48",
+            "S": "8",
+            "AP": "3+",
+            "type": "Heavy 1, Monsterbane"
+          },
+          "Bright Lance": {
+            "range": "36",
+            "S": "9",
+            "AP": "2+",
+            "type": "Heavy 1, Lance, Monsterbane"
+          },
+          "Or": {
+            "range": "Or",
+            "S": "Or",
+            "AP": "Or",
+            "type": ""
+          },
+          "Ghost Spear": {
+            "range": "Melee",
+            "S": "+1",
+            "AP": "3+",
+            "type": "Counterattack"
           }
         }
       },
@@ -3520,16 +4162,48 @@
             "description": "May add up to two more Falcons for +182 points each Any model may swap Pulse Laser and Starcannon for T Any model may swap 2 Linked Shuriken Catapults for H Any model may take up to one of each E",
             "choices": [
               {
-                "name": "Pulse Laser and Plasma Missile Launcher",
+                "name": "Pulse Laser and",
+                "pts_delta": 0
+              },
+              {
+                "name": "Pulse Laser and",
+                "pts_delta": 1
+              },
+              {
+                "name": "Pulse Laser and",
+                "pts_delta": 5
+              },
+              {
+                "name": "Pulse Laser and",
                 "pts_delta": 10
               },
               {
-                "name": "Pulse Laser and Bright Lance Lasers",
+                "name": "Pulse Laser and",
                 "pts_delta": 18
               },
               {
-                "name": "Prism Cannon Doomweavers Shuriken Catapults",
+                "name": "3 Linked Scatter",
+                "pts_delta": 23
+              },
+              {
+                "name": "Prism Cannon",
                 "pts_delta": 39
+              },
+              {
+                "name": "2 Linked",
+                "pts_delta": 110
+              },
+              {
+                "name": "And",
+                "pts_delta": 0
+              },
+              {
+                "name": "Cannon And",
+                "pts_delta": 0
+              },
+              {
+                "name": "2 Linked Shuriken Catapults",
+                "pts_delta": 0
               },
               {
                 "name": "Shuriken Cannon",
@@ -3551,23 +4225,89 @@
           }
         ],
         "weapons": {
-          "Pulse Laser and Plasma Missile Launcher": {
+          "Pulse Laser and": {
             "range": "48",
             "S": "8",
             "AP": "2+",
-            "type": "Heavy 2, Monsterbane, Turret, And And And Primary And 48 8 3+ Heavy 1, Monsterbane, Turret, 48        4       4+      Heavy 1, 3\u201d Blast, Turret, Primary"
+            "type": "Heavy 2, Monsterbane, Turret,"
           },
-          "Pulse Laser and Bright Lance Lasers": {
-            "range": "48",
-            "S": "8",
-            "AP": "2+",
-            "type": "Heavy 2, Monsterbane, Turret, And And And Primary And 48        9       2+      Heavy 1, Lance, Monsterbane, Turret, Primary Turret, Primary"
+          "3 Linked Scatter": {
+            "range": "36",
+            "S": "7",
+            "AP": "4+",
+            "type": "Heavy 4 x3, AA, Monsterbane,"
           },
-          "Prism Cannon Doomweavers Shuriken Catapults": {
+          "Prism Cannon": {
             "range": "60",
             "S": "9",
             "AP": "1+",
-            "type": "Heavy 1, Lance, Monsterbane, 60        5       3+      Heavy 1, 5\u201d Blast, Turret, Primary Or Or Or Assault 1 x2, Grav Flame     *       -"
+            "type": "Heavy 1, Lance, Monsterbane,"
+          },
+          "2 Linked": {
+            "range": "48",
+            "S": "*",
+            "AP": "-",
+            "type": "Heavy 1 x2, 5\u201d Blast, Grav Or"
+          },
+          "And": {
+            "range": "And",
+            "S": "And",
+            "AP": "Primary And",
+            "type": ""
+          },
+          "Cannon And": {
+            "range": "And",
+            "S": "And",
+            "AP": "Primary And",
+            "type": "Primary"
+          },
+          "Laser": {
+            "range": "And",
+            "S": "And",
+            "AP": "And Primary And",
+            "type": "Primary 33"
+          },
+          "Missile": {
+            "range": "And",
+            "S": "And",
+            "AP": "And Primary And",
+            "type": ""
+          },
+          "48": {
+            "range": "8",
+            "S": "3+",
+            "AP": "Heavy 1, Monsterbane, Turret,",
+            "type": ""
+          },
+          "Or": {
+            "range": "Or",
+            "S": "Primary Or",
+            "AP": "",
+            "type": "Primary"
+          },
+          "Lance": {
+            "range": "And",
+            "S": "And",
+            "AP": "And Primary And",
+            "type": "Turret, Primary"
+          },
+          "Turret, Primary": {
+            "range": "",
+            "S": "",
+            "AP": "",
+            "type": ""
+          },
+          "*": {
+            "range": "-",
+            "S": "",
+            "AP": "",
+            "type": ""
+          },
+          "2 Linked Shuriken Catapults": {
+            "range": "12",
+            "S": "3",
+            "AP": "-",
+            "type": "Assault 2 x2, Rending, Hull"
           },
           "Shuriken Cannon": {
             "range": "24",
@@ -3625,7 +4365,7 @@
                 "pts_delta": 3
               },
               {
-                "name": "Plasma Missile Launcher",
+                "name": "Plasma Missile",
                 "pts_delta": 5
               },
               {
@@ -3665,17 +4405,23 @@
             "AP": "6+",
             "type": "Heavy 4, Monsterbane, Hull, Primary"
           },
-          "Plasma Missile Launcher": {
+          "Plasma Missile": {
             "range": "48",
             "S": "8",
             "AP": "3+",
-            "type": "Heavy 1, Monsterbane, Hull, Or Or Or Primary Or 48       4       4+         Heavy 1, 3 Blast, Hull, Primary"
+            "type": "Heavy 1, Monsterbane, Hull,"
           },
           "Bright Lance": {
             "range": "36",
             "S": "9",
             "AP": "2+",
             "type": "Heavy 1, Lance, Monsterbane, Hull, Primary"
+          },
+          "Or": {
+            "range": "Or",
+            "S": "Or",
+            "AP": "Primary Or",
+            "type": ""
           },
           "Lynx Pulsar": {
             "range": "72",
@@ -3729,15 +4475,19 @@
                 "pts_delta": 0
               },
               {
-                "name": "Prismatic Cannon",
+                "name": "Prismatic",
                 "pts_delta": 32
+              },
+              {
+                "name": "Or",
+                "pts_delta": 0
               },
               {
                 "name": "Haywire Cannon",
                 "pts_delta": 6
               },
               {
-                "name": "Prismatic Cannon Shuriken Catapults",
+                "name": "Prismatic",
                 "pts_delta": 38
               },
               {
@@ -3762,17 +4512,23 @@
             "AP": "3+",
             "type": "Assault 2, Haywire (3+), Sponson, Primary"
           },
-          "Prismatic Cannon": {
+          "Prismatic": {
             "range": "24",
             "S": "9",
             "AP": "1+",
-            "type": "Assault 1, Lance, Monsterbane, Or Or Or Sponson, Primary Or 24       4       3+         Assault 1, 5\u2019 Blast, Sponson, Primary"
+            "type": "Assault 1, Lance, Monsterbane,"
           },
-          "Prismatic Cannon Shuriken Catapults": {
-            "range": "24",
-            "S": "9",
-            "AP": "1+",
-            "type": "Assault 1, Lance, Monsterbane, Or Or Or Sponson, Primary Or 24       4       3+         Assault 1, 5\u2019 Blast, Sponson, Primary 35"
+          "Or": {
+            "range": "Or",
+            "S": "Or",
+            "AP": "Sponson, Primary Or",
+            "type": "Primary"
+          },
+          "2 Linked Shuriken Catapults": {
+            "range": "18",
+            "S": "3",
+            "AP": "-",
+            "type": "Assault 2 x2, Rending, Hull 35"
           }
         }
       },
@@ -3814,6 +4570,10 @@
             "description": "May add up to two more Hunters for +170 points each Any model may swap 2 Linked Shuriken Catapults for H Any model may take up to one of each E",
             "choices": [
               {
+                "name": "2 Linked Shuriken Catapults",
+                "pts_delta": 0
+              },
+              {
                 "name": "Shuriken Cannon",
                 "pts_delta": 6
               },
@@ -3833,17 +4593,29 @@
           }
         ],
         "weapons": {
-          "Dispersion Flail Shuriken Catapults": {
+          "Dispersion Flail": {
             "range": "36",
             "S": "10",
             "AP": "2+",
             "type": "Heavy 1, 5\u201d Blast, Monsterbane, Hull"
+          },
+          "2 Linked Shuriken Catapults": {
+            "range": "12",
+            "S": "3",
+            "AP": "-",
+            "type": "Assault 2 x2, Rending, Hull"
           },
           "Shuriken Cannon": {
             "range": "24",
             "S": "6",
             "AP": "5+",
             "type": "Assault 3, Rending, Hull"
+          },
+          "0-2 Slots": {
+            "range": "",
+            "S": "",
+            "AP": "",
+            "type": ""
           }
         }
       }
@@ -3898,11 +4670,23 @@
           }
         ],
         "weapons": {
+          "2 Linked Bright": {
+            "range": "36",
+            "S": "9",
+            "AP": "2+",
+            "type": "Heavy 1 x2, Lance,"
+          },
           "Pulse Laser": {
             "range": "48",
             "S": "8",
             "AP": "2+",
             "type": "Heavy 2, Monsterbane, Hull, Primary 36"
+          },
+          "Monsterbane, Hull, Primary": {
+            "range": "",
+            "S": "",
+            "AP": "",
+            "type": ""
           }
         }
       },
@@ -3955,7 +4739,32 @@
             ]
           }
         ],
-        "weapons": {}
+        "weapons": {
+          "2 Linked Bright": {
+            "range": "36",
+            "S": "9",
+            "AP": "2+",
+            "type": "Heavy 1 x2, Lance,"
+          },
+          "2 Linked": {
+            "range": "24",
+            "S": "6",
+            "AP": "5+",
+            "type": "Assault 3 x2, Rending, Hull,"
+          },
+          "Monsterbane, Hull, Primary": {
+            "range": "",
+            "S": "",
+            "AP": "",
+            "type": ""
+          },
+          "Primary Cannons": {
+            "range": "",
+            "S": "",
+            "AP": "",
+            "type": "37"
+          }
+        }
       },
       {
         "name": "Nightwings",
@@ -4005,7 +4814,32 @@
             ]
           }
         ],
-        "weapons": {}
+        "weapons": {
+          "2 Linked Bright": {
+            "range": "36",
+            "S": "9",
+            "AP": "2+",
+            "type": "Heavy 1 x2, Lance,"
+          },
+          "2 Linked": {
+            "range": "24",
+            "S": "6",
+            "AP": "5+",
+            "type": "Assault 3 x2, Rending, Hull,"
+          },
+          "Monsterbane, Hull, Primary": {
+            "range": "",
+            "S": "",
+            "AP": "",
+            "type": ""
+          },
+          "Primary Cannons": {
+            "range": "",
+            "S": "",
+            "AP": "",
+            "type": "37"
+          }
+        }
       },
       {
         "name": "Phoenix Bomber",
@@ -4046,7 +4880,23 @@
             "description": "May take up to two more Bombers for +203 points each Any model may swap Pulse Laser for T Any model may swap 2 Linked Phoenix Missile Launchers for M Any model may take up to one of each E",
             "choices": [
               {
-                "name": "Pulse Laser Starcannons Lances Shuriken Cannons Missile Launchers Nightfire Missile Launchers",
+                "name": "Pulse Laser",
+                "pts_delta": 0
+              },
+              {
+                "name": "2 Linked Starcannons",
+                "pts_delta": 5
+              },
+              {
+                "name": "2 Linked Bright",
+                "pts_delta": 21
+              },
+              {
+                "name": "2 Linked Pheonix Missile Launchers",
+                "pts_delta": 0
+              },
+              {
+                "name": "2 Linked",
                 "pts_delta": 0
               },
               {
@@ -4061,11 +4911,53 @@
           }
         ],
         "weapons": {
-          "Pulse Laser Starcannons Lances Shuriken Cannons Missile Launchers Nightfire Missile Launchers": {
+          "Pulse Laser": {
             "range": "48",
             "S": "8",
             "AP": "2+",
-            "type": "Heavy 2, Monsterbane, Hull, Primary Monsterbane, Hull, Primary Primary cover, Pinning, Hull, Primary 38"
+            "type": "Heavy 2, Monsterbane, Hull, Primary"
+          },
+          "2 Linked Starcannons": {
+            "range": "36",
+            "S": "6",
+            "AP": "2+",
+            "type": "Heavy 2 x2, Hull, Primary"
+          },
+          "2 Linked Bright": {
+            "range": "36",
+            "S": "9",
+            "AP": "2+",
+            "type": "Heavy 1 x2, Lance,"
+          },
+          "Monsterbane, Hull, Primary": {
+            "range": "",
+            "S": "",
+            "AP": "",
+            "type": ""
+          },
+          "2 Linked": {
+            "range": "24",
+            "S": "6",
+            "AP": "5+",
+            "type": "Assault 3 x2, Rending, Hull,"
+          },
+          "Primary Cannons": {
+            "range": "",
+            "S": "",
+            "AP": "",
+            "type": ""
+          },
+          "2 Linked Pheonix Missile Launchers": {
+            "range": "48",
+            "S": "5",
+            "AP": "3+",
+            "type": "Heavy 3 x2, Hull, Primary"
+          },
+          "Missile Launchers": {
+            "range": "cover, Pinning, Hull, Primary",
+            "S": "",
+            "AP": "",
+            "type": "38"
           },
           "Transport": {
             "range": "0-1/Legal",
@@ -4132,7 +5024,20 @@
             ]
           }
         ],
-        "weapons": {}
+        "weapons": {
+          "2 Linked": {
+            "range": "24",
+            "S": "6",
+            "AP": "5+",
+            "type": "Assault 3 x2, Rending, Hull,"
+          },
+          "Primary Cannons": {
+            "range": "",
+            "S": "",
+            "AP": "",
+            "type": ""
+          }
+        }
       },
       {
         "name": "Wave Serpent",
@@ -4171,11 +5076,44 @@
         "options": [
           {
             "description": "May swap 2 Linked Starcannons for T",
-            "choices": []
+            "choices": [
+              {
+                "name": "2 Linked Starcannons",
+                "pts_delta": 0
+              },
+              {
+                "name": "2 Linked",
+                "pts_delta": 2
+              },
+              {
+                "name": "2 Linked Scatter",
+                "pts_delta": 10
+              },
+              {
+                "name": "2 Linked Plasma",
+                "pts_delta": 20
+              },
+              {
+                "name": "2 Linked Bright",
+                "pts_delta": 36
+              }
+            ]
           },
           {
             "description": "May swap 2 Linked Shuriken Catapults for H Any model may take up to one of each E",
             "choices": [
+              {
+                "name": "Primary Cannons",
+                "pts_delta": 0
+              },
+              {
+                "name": "2 Linked Shuriken Catapults",
+                "pts_delta": 0
+              },
+              {
+                "name": "Shuriken Cannon",
+                "pts_delta": 6
+              },
               {
                 "name": "Spirit Stones",
                 "pts_delta": 5
@@ -4192,6 +5130,78 @@
           }
         ],
         "weapons": {
+          "2 Linked Starcannons": {
+            "range": "36",
+            "S": "6",
+            "AP": "2+",
+            "type": "Heavy 2 x2, Turret, Primary 39"
+          },
+          "2 Linked": {
+            "range": "24",
+            "S": "6",
+            "AP": "5+",
+            "type": "Assault 3 x2, Rending, Turret,"
+          },
+          "2 Linked Scatter": {
+            "range": "36",
+            "S": "7",
+            "AP": "6+",
+            "type": "Heavy 4 x2, Monsterbane,"
+          },
+          "2 Linked Plasma": {
+            "range": "48",
+            "S": "8",
+            "AP": "3+",
+            "type": "Heavy 1 x2, Monsterbane,"
+          },
+          "2 Linked Bright": {
+            "range": "48",
+            "S": "9",
+            "AP": "2+",
+            "type": "Heavy 1 x2, Lance,"
+          },
+          "Primary Cannons": {
+            "range": "",
+            "S": "",
+            "AP": "",
+            "type": ""
+          },
+          "Turret, Primary": {
+            "range": "",
+            "S": "",
+            "AP": "",
+            "type": ""
+          },
+          "Or": {
+            "range": "Or",
+            "S": "Or",
+            "AP": "Turret, Primary Or",
+            "type": ""
+          },
+          "48": {
+            "range": "4",
+            "S": "4+",
+            "AP": "Heavy 1 x2, 3\u201d Blast, Turret,",
+            "type": "Primary"
+          },
+          "Monsterbane, Turret, Primary": {
+            "range": "",
+            "S": "",
+            "AP": "",
+            "type": ""
+          },
+          "2 Linked Shuriken Catapults": {
+            "range": "12",
+            "S": "3",
+            "AP": "-",
+            "type": "Assault 2 x2, Rending, Hull"
+          },
+          "Shuriken Cannon": {
+            "range": "24",
+            "S": "6",
+            "AP": "5+",
+            "type": "Assault 3, Rending, Hull"
+          },
           "of War": {
             "range": "0-1",
             "S": "",
@@ -4310,17 +5320,23 @@
             "AP": "3+",
             "type": "Concussion"
           },
-          "Haywire Grenades": {
+          "Haywire": {
             "range": "8",
             "S": "3",
             "AP": "3+",
-            "type": "Grenade 1, Nonblast, Haywire (3+)"
+            "type": "Grenade 1, Nonblast, Haywire"
           },
           "Plasma Grenades": {
             "range": "8",
             "S": "4",
             "AP": "4+",
             "type": "Grenade 1, Nonblast, Blind"
+          },
+          "(3+)": {
+            "range": "",
+            "S": "",
+            "AP": "",
+            "type": ""
           }
         }
       },
@@ -4426,11 +5442,23 @@
         ],
         "options": [],
         "weapons": {
-          "The Spear of Twilight": {
+          "The Spear of": {
             "range": "72",
             "S": "6",
             "AP": "1+",
-            "type": "Assault 1, Ghostlight Or Or Or Or Melee     +2     2+    Counterattack 43"
+            "type": "Assault 1, Ghostlight"
+          },
+          "Or": {
+            "range": "Or",
+            "S": "Or",
+            "AP": "Or",
+            "type": ""
+          },
+          "+2": {
+            "range": "2+",
+            "S": "Counterattack",
+            "AP": "",
+            "type": "43"
           }
         }
       },
@@ -4546,13 +5574,25 @@
             "range": "12",
             "S": "4",
             "AP": "5+",
-            "type": "Assault 2, Rending Melee    User    2+    Poisoned (2+)"
+            "type": "Assault 2, Rending"
           },
           "Scorpion Chainsword": {
             "range": "Melee",
             "S": "+1",
             "AP": "6+",
             "type": "Rending"
+          },
+          "Or": {
+            "range": "Or",
+            "S": "Or",
+            "AP": "",
+            "type": ""
+          },
+          "User": {
+            "range": "2+",
+            "S": "Poisoned (2+)",
+            "AP": "",
+            "type": ""
           },
           "Plasma Grenades": {
             "range": "8",
@@ -4600,7 +5640,7 @@
         ],
         "options": [],
         "weapons": {
-          "Power Blades Weavers": {
+          "Power Blades": {
             "range": "Melee",
             "S": "User",
             "AP": "3+",
@@ -4611,6 +5651,12 @@
             "S": "User",
             "AP": "2+",
             "type": "Poison (2+), Ignores Feel No Pain 46"
+          },
+          "2 Linked Death Weavers": {
+            "range": "Flame",
+            "S": "3",
+            "AP": "-",
+            "type": "Pistol 1 (x2), Grav"
           }
         }
       },
@@ -4757,7 +5803,13 @@
             "range": "Melee",
             "S": "User",
             "AP": "2+",
-            "type": "Poisoned (2+), Ignores Invulnerability Saves 49"
+            "type": "Poisoned (2+), Ignores"
+          },
+          "Saves": {
+            "range": "",
+            "S": "",
+            "AP": "",
+            "type": "49"
           }
         }
       },
@@ -4809,7 +5861,7 @@
                 "pts_delta": 3
               },
               {
-                "name": "Plasma Missile Launcher",
+                "name": "Plasma Missile",
                 "pts_delta": 5
               },
               {
@@ -4851,17 +5903,23 @@
             "AP": "6+",
             "type": "Heavy 4, Monsterbane, Hull, Primary"
           },
-          "Plasma Missile Launcher": {
+          "Plasma Missile": {
             "range": "48",
             "S": "8",
             "AP": "3+",
-            "type": "Heavy 1, Monsterbane, Hull, Or Or Or Primary Or 48       4       4+         Heavy 1, 3 Blast, Hull, Primary"
+            "type": "Heavy 1, Monsterbane, Hull,"
           },
           "Bright Lance": {
             "range": "36",
             "S": "9",
             "AP": "2+",
             "type": "Heavy 1, Lance, Monsterbane, Hull, Primary"
+          },
+          "Or": {
+            "range": "Or",
+            "S": "Or",
+            "AP": "Primary Or",
+            "type": ""
           }
         }
       },
@@ -4902,7 +5960,12 @@
         "options": [
           {
             "description": "May swap Distort Empaler for T",
-            "choices": []
+            "choices": [
+              {
+                "name": "2 Linked Pulsars",
+                "pts_delta": 0
+              }
+            ]
           },
           {
             "description": "May swap Starcannon for H",
@@ -4916,7 +5979,7 @@
                 "pts_delta": 3
               },
               {
-                "name": "Plasma Missile Launcher",
+                "name": "Plasma Missile",
                 "pts_delta": 5
               },
               {
@@ -4940,6 +6003,12 @@
           }
         ],
         "weapons": {
+          "2 Linked Pulsars": {
+            "range": "60",
+            "S": "D",
+            "AP": "2+",
+            "type": "Heavy 1 x2, 5\u201d Blast, Destroyer, Monsterbane, Turret, Primary"
+          },
           "Starcannon": {
             "range": "36",
             "S": "6",
@@ -4952,17 +6021,23 @@
             "AP": "6+",
             "type": "Heavy 4, Monsterbane, Hull, Primary"
           },
-          "Plasma Missile Launcher": {
+          "Plasma Missile": {
             "range": "48",
             "S": "8",
             "AP": "3+",
-            "type": "Heavy 1, Monsterbane, Hull, Or Or Or Primary Or 48       4       4+      Heavy 1, 3 Blast, Hull, Primary"
+            "type": "Heavy 1, Monsterbane, Hull,"
           },
           "Bright Lance": {
             "range": "36",
             "S": "9",
             "AP": "2+",
             "type": "Heavy 1, Lance, Monsterbane, Hull, Primary"
+          },
+          "Or": {
+            "range": "Or",
+            "S": "Or",
+            "AP": "Primary Or",
+            "type": ""
           }
         }
       },
@@ -5015,15 +6090,15 @@
                 "pts_delta": 0
               },
               {
-                "name": "Phantom Distort Bombard",
+                "name": "Phantom Distort",
                 "pts_delta": 64
               },
               {
-                "name": "Phantom Glaive and 2 Linked Starcannons",
+                "name": "Phantom Glaive",
                 "pts_delta": 137
               },
               {
-                "name": "Phantom Glaive and 2 Linked Pulse Lasers",
+                "name": "Phantom Glaive",
                 "pts_delta": 144
               }
             ]
@@ -5040,7 +6115,7 @@
                 "pts_delta": 3
               },
               {
-                "name": "Plasma Missile Launcher",
+                "name": "Plasma Missile",
                 "pts_delta": 5
               },
               {
@@ -5066,35 +6141,71 @@
             "AP": "1+",
             "type": "Heavy 1, 7\u201d Blast, Destroyer, Monsterbane, Hull, Primary 51"
           },
-          "Phantom Distort Bombard": {
+          "Phantom Distort": {
             "range": "72",
             "S": "D",
             "AP": "2+",
-            "type": "Heavy 1, 10\u201d Blast, Destroyer, Monsterbane, Spatial Rift, Hull, Primary"
+            "type": "Heavy 1, 10\u201d Blast, Destroyer,"
           },
-          "Phantom Glaive and 2 Linked Starcannons": {
+          "Phantom Glaive": {
             "range": "36",
             "S": "6",
             "AP": "2+",
-            "type": "Heavy 2 x2, Hull, Primary Or Or Or Or Melee D 1+ Slow, Destroyer, Monsterbane, Primary"
+            "type": "Heavy 2 x2, Hull, Primary"
           },
-          "Phantom Glaive and 2 Linked Pulse Lasers": {
-            "range": "48",
-            "S": "8",
-            "AP": "2+",
-            "type": "Heavy 2 x2, Monsterbane, Hull, Or Or Or Primary, Or Melee D 1+ Slow, Destroyer, Monsterbane, Primary"
+          "Monsterbane, Spatial Rift, Hull,": {
+            "range": "",
+            "S": "",
+            "AP": "",
+            "type": "Primary"
           },
-          "Phantom Missile Launcher": {
+          "2 Linked": {
+            "range": "Or",
+            "S": "Or",
+            "AP": "Or Or",
+            "type": ""
+          },
+          "Melee": {
+            "range": "D",
+            "S": "1+",
+            "AP": "Slow, Destroyer, Monsterbane,",
+            "type": "Primary"
+          },
+          "Lasers": {
+            "range": "Melee",
+            "S": "D",
+            "AP": "1+",
+            "type": "Slow, Destroyer, Monsterbane, Primary"
+          },
+          "Phantom Missile": {
             "range": "48",
             "S": "9",
             "AP": "3+",
-            "type": "Heavy 4, Ordnance, Monsterbane, Hull, Primary"
+            "type": "Heavy 4, Ordnance,"
           },
-          "Cloud Burst Missile Launcher": {
+          "Cloud Burst": {
             "range": "48",
             "S": "8",
             "AP": "3+",
-            "type": "Heavy 4, AA, Ordnance, Monsterbane, Hull, Primary"
+            "type": "Heavy 4, AA, Ordnance,"
+          },
+          "Monsterbane, Hull, Primary": {
+            "range": "",
+            "S": "",
+            "AP": "",
+            "type": ""
+          },
+          "Or": {
+            "range": "Or",
+            "S": "Or",
+            "AP": "Primary Or",
+            "type": ""
+          },
+          "Launcher": {
+            "range": "Monsterbane, Hull, Primary",
+            "S": "",
+            "AP": "",
+            "type": ""
           },
           "Starcannon": {
             "range": "36",
@@ -5108,11 +6219,11 @@
             "AP": "6+",
             "type": "Heavy 4, Monsterbane, Hull, Primary"
           },
-          "Plasma Missile Launcher": {
+          "Plasma Missile": {
             "range": "48",
             "S": "8",
             "AP": "3+",
-            "type": "Heavy 1, Monsterbane, Hull, Or Or Or Primary Or 48       4       4+       Heavy 1, 3 Blast, Hull, Primary"
+            "type": "Heavy 1, Monsterbane, Hull,"
           },
           "Bright Lance": {
             "range": "36",
@@ -5175,7 +6286,7 @@
                 "pts_delta": 0
               },
               {
-                "name": "Sonic Lance Burst Missile Launchers",
+                "name": "Sonic Lance",
                 "pts_delta": 1
               }
             ]
@@ -5192,11 +6303,29 @@
             "AP": "2+",
             "type": "Heavy 1, 5\u201d Blast, Destroyer, Monsterbane, Hull, Primary"
           },
-          "Sonic Lance Burst Missile Launchers": {
+          "Sonic Lance": {
             "range": "Hell",
             "S": "9",
             "AP": "3+",
-            "type": "Assault 1, Monsterbane, Hull, Storm                      Primary Monsterbane, Hull, Primary"
+            "type": "Assault 1, Monsterbane, Hull,"
+          },
+          "Primary": {
+            "range": "",
+            "S": "",
+            "AP": "",
+            "type": ""
+          },
+          "2 Linked Cloud": {
+            "range": "48",
+            "S": "8",
+            "AP": "3+",
+            "type": "Heavy 4 x2, AA, Ordnance,"
+          },
+          "Missile Launchers": {
+            "range": "Monsterbane, Hull, Primary",
+            "S": "",
+            "AP": "",
+            "type": ""
           },
           "Phantom Feet": {
             "range": "Bomb",
@@ -5250,7 +6379,7 @@
                 "pts_delta": 0
               },
               {
-                "name": "Deathshroud Cannon",
+                "name": "Deathshroud",
                 "pts_delta": 28
               }
             ]
@@ -5280,11 +6409,17 @@
             "AP": "1+",
             "type": "Heavy 4, Lance, Monsterbane, Sponson, Primary"
           },
-          "Deathshroud Cannon": {
+          "Deathshroud": {
             "range": "48",
             "S": "7",
             "AP": "4+",
-            "type": "Heavy 1, 7\u201d Blast, Rending, Monsterbane, Sponson, Primary"
+            "type": "Heavy 1, 7\u201d Blast, Rending,"
+          },
+          "Monsterbane, Sponson,": {
+            "range": "",
+            "S": "",
+            "AP": "",
+            "type": "Primary"
           },
           "Starcannon": {
             "range": "36",
@@ -5345,7 +6480,7 @@
             "description": "May swap either Heavy Wraith Cannon for T or A",
             "choices": [
               {
-                "name": "Heavy Wraith Cannon",
+                "name": "Heavy Wraith",
                 "pts_delta": 0
               },
               {
@@ -5361,8 +6496,12 @@
                 "pts_delta": 20
               },
               {
-                "name": "Deathshroud Cannon",
+                "name": "Deathshroud",
                 "pts_delta": 42
+              },
+              {
+                "name": "Monsterbane, Sponson,",
+                "pts_delta": 0
               },
               {
                 "name": "Scattershield",
@@ -5389,11 +6528,11 @@
           }
         ],
         "weapons": {
-          "Heavy Wraith Cannon": {
+          "Heavy Wraith": {
             "range": "36",
             "S": "D",
             "AP": "2+",
-            "type": "Assault 1, Destroyer, Monsterbane, Sponson, Primary"
+            "type": "Assault 1, Destroyer,"
           },
           "Suncannon": {
             "range": "48",
@@ -5413,11 +6552,17 @@
             "AP": "2+",
             "type": "Slow, Monsterbane, Primary"
           },
-          "Deathshroud Cannon": {
+          "Deathshroud": {
             "range": "48",
             "S": "7",
             "AP": "4+",
-            "type": "Heavy 1, 7\u201d Blast, Rending, Monsterbane, Sponson, Primary"
+            "type": "Heavy 1, 7\u201d Blast, Rending,"
+          },
+          "Monsterbane, Sponson,": {
+            "range": "",
+            "S": "",
+            "AP": "",
+            "type": "Primary"
           },
           "Starcannon": {
             "range": "36",
@@ -5476,7 +6621,20 @@
         "options": [
           {
             "description": "May swap 4 Linked Phoenix Missile Launchers for T",
-            "choices": []
+            "choices": [
+              {
+                "name": "4 Linked Pheonix Missile Launchers",
+                "pts_delta": 0
+              },
+              {
+                "name": "2 Linked Pulse",
+                "pts_delta": 14
+              },
+              {
+                "name": "2 Linked Pulsars",
+                "pts_delta": 92
+              }
+            ]
           },
           {
             "description": "May take up to one of each E",
@@ -5493,6 +6651,30 @@
           }
         ],
         "weapons": {
+          "4 Linked Pheonix Missile Launchers": {
+            "range": "48",
+            "S": "5",
+            "AP": "3+",
+            "type": "Heavy 3 x4, Hull, Primary"
+          },
+          "2 Linked Pulse": {
+            "range": "48",
+            "S": "8",
+            "AP": "2+",
+            "type": "Heavy 2 x2, Monsterbane, Hull,"
+          },
+          "2 Linked Pulsars": {
+            "range": "60",
+            "S": "D",
+            "AP": "2+",
+            "type": "Heavy 1 x2, 5\u201d Blast, Destroyer, Monsterbane, Hull, Primary"
+          },
+          "Primary": {
+            "range": "",
+            "S": "",
+            "AP": "",
+            "type": ""
+          },
           "Scatter Laser": {
             "range": "36",
             "S": "7",
@@ -5541,6 +6723,14 @@
             "description": "May swap 4 Linked Phoenix Missile Launchers for T",
             "choices": [
               {
+                "name": "4 Linked Pheonix Missile Launchers",
+                "pts_delta": 0
+              },
+              {
+                "name": "2 Linked Pulse",
+                "pts_delta": 14
+              },
+              {
                 "name": "Pulsar",
                 "pts_delta": 11
               }
@@ -5561,17 +6751,47 @@
           }
         ],
         "weapons": {
+          "4 Linked Pheonix Missile Launchers": {
+            "range": "48",
+            "S": "5",
+            "AP": "3+",
+            "type": "Heavy 3 x4, Hull, Primary"
+          },
+          "2 Linked Pulse": {
+            "range": "48",
+            "S": "8",
+            "AP": "2+",
+            "type": "Heavy 2 x2, Monsterbane, Hull,"
+          },
           "Pulsar": {
             "range": "60",
             "S": "D",
             "AP": "2+",
-            "type": "Heavy 1, 5\u201d Blast, Destroyer, Monsterbane, Hull, Primary, Lose 10 Transport Capacity"
+            "type": "Heavy 1, 5\u201d Blast, Destroyer, Monsterbane, Hull, Primary,"
+          },
+          "Primary": {
+            "range": "",
+            "S": "",
+            "AP": "",
+            "type": ""
+          },
+          "10 Transport Capacity": {
+            "range": "",
+            "S": "",
+            "AP": "",
+            "type": ""
           },
           "Scatter Laser": {
             "range": "36",
             "S": "7",
             "AP": "6+",
             "type": "Heavy 4, Monsterbane, Hull, Primary"
+          },
+          "0-1/1000 points": {
+            "range": "",
+            "S": "",
+            "AP": "",
+            "type": ""
           }
         }
       }

@@ -151,17 +151,29 @@
           }
         ],
         "weapons": {
-          "The Ardent Blade": {
+          "The Ardent": {
             "range": "Flame",
             "S": "5",
             "AP": "4+",
-            "type": "Assault 1 Or Or Or Or Melee     +3     2+      None"
+            "type": "Assault 1"
           },
           "Power Sword": {
             "range": "Melee",
             "S": "+1",
             "AP": "3+",
             "type": "None"
+          },
+          "Or": {
+            "range": "Or",
+            "S": "Or",
+            "AP": "Or",
+            "type": ""
+          },
+          "+3": {
+            "range": "2+",
+            "S": "None",
+            "AP": "",
+            "type": ""
           },
           "Bolt Pistol": {
             "range": "12",
@@ -185,7 +197,19 @@
             "range": "12-240",
             "S": "D/10",
             "AP": "1+",
-            "type": "/1+ Heavy 1, 15\u201d Blast, Destroyer, /8     /1+     Ordnance, Monsterbane, Indirect Fire, Ignores Cover, The Hour is Nigh, T Minus 5, One Use Only"
+            "type": "/1+ Heavy 1, 15\u201d Blast, Destroyer, /8     /1+     Ordnance, Monsterbane,"
+          },
+          "Fire, Ignores Cover, The": {
+            "range": "",
+            "S": "",
+            "AP": "",
+            "type": ""
+          },
+          "is Nigh, T Minus": {
+            "range": "5,",
+            "S": "",
+            "AP": "",
+            "type": "Only"
           }
         }
       },
@@ -235,11 +259,29 @@
         ],
         "options": [],
         "weapons": {
-          "Melta Missile Array Bolters Flamers": {
+          "Melta Missile": {
             "range": "48",
             "S": "8",
             "AP": "1+",
-            "type": "Heavy 1, Armourbane, Monsterbane, Hull, Primary"
+            "type": "Heavy 1, Armourbane,"
+          },
+          "2 Linked Heavy Bolters": {
+            "range": "36",
+            "S": "5",
+            "AP": "4+",
+            "type": "Heavy 3 x2, Hull"
+          },
+          "2 Linked Heavy Flamers": {
+            "range": "Flame",
+            "S": "5",
+            "AP": "4+",
+            "type": "Assault 1 x2, Hull"
+          },
+          "Monsterbane, Hull, Primary": {
+            "range": "",
+            "S": "",
+            "AP": "",
+            "type": ""
           },
           "Mace of Saint Praxedes": {
             "range": "Melee",
@@ -295,11 +337,23 @@
         ],
         "options": [],
         "weapons": {
+          "2 Heavy Flamers": {
+            "range": "Flame",
+            "S": "5",
+            "AP": "4+",
+            "type": "Assault 1 x2 6"
+          },
           "Mace of Castigation": {
             "range": "Melee",
             "S": "+2",
             "AP": "4+",
             "type": "Extra Attack 2, Concussion"
+          },
+          "0-3/Troop Slot Purchased": {
+            "range": "",
+            "S": "",
+            "AP": "",
+            "type": ""
           }
         }
       }

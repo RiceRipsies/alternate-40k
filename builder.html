@@ -1100,6 +1100,7 @@ const state = {
   pendingModels: {},  // { modelName: { current, min, max, ptsEach } }
   editingIdx: null,   // index in state.list when editing an existing entry
   coreKeywords: {},   // loaded from data/core-keywords.json
+  globalWeapons: {},  // loaded from data/weapons.json
 };
 
 // ── DOM REFS ─────────────────────────────────────────────────────
@@ -1121,13 +1122,15 @@ const forcePanel    = D('force-panel');
 
 // ── INIT ─────────────────────────────────────────────────────────
 async function init() {
-  const [factionsRes, kwRes] = await Promise.all([
+  const [factionsRes, kwRes, wpRes] = await Promise.all([
     fetch('data/factions.json').catch(() => null),
     fetch('data/core-keywords.json').catch(() => null),
+    fetch('data/weapons.json').catch(() => null),
   ]);
   if (!factionsRes?.ok) { D('faction-list-container').innerHTML = '<div class="empty-state">Could not load factions. Run the data extractor first.</div>'; return; }
   state.factions = await factionsRes.json();
   if (kwRes?.ok) state.coreKeywords = await kwRes.json();
+  if (wpRes?.ok) state.globalWeapons = await wpRes.json();
   renderFactionGrid();
   renderSlots();
   restoreList();
@@ -1683,8 +1686,23 @@ function renderPlayMode() {
 
       // Weapon profiles for selected wargear
       const unitWeapons = unit.weapons ?? {};
+      function findWeaponProfile(name) {
+        // 1. Unit's own weapon table
+        if (unitWeapons[name]) return unitWeapons[name];
+        // 2. Global registry
+        const gw = state.globalWeapons;
+        if (gw[name]) return gw[name];
+        // 3. Normalised: remove leading count ("2 Heavy Flamers" → "Heavy Flamer")
+        const singular = name.replace(/^\d+\s+/, '').replace(/s$/, '');
+        if (gw[singular]) return gw[singular];
+        // 4. Collapse spaces ("Chain Sword" → "Chainsword")
+        const nospace = name.replace(/\s+/g, '');
+        const match = Object.keys(gw).find(k => k.replace(/\s+/g, '') === nospace);
+        if (match) return gw[match];
+        return null;
+      }
       const selectedWeaponProfiles = wgItems
-        .map(w => ({ name: w.name, profile: unitWeapons[w.name] }))
+        .map(w => ({ name: w.name, profile: findWeaponProfile(w.name) }))
         .filter(w => w.profile && (w.profile.range || w.profile.S));
 
       const weaponTableHtml = selectedWeaponProfiles.length ? `

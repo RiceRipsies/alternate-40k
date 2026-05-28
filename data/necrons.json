@@ -142,15 +142,49 @@
         "options": [
           {
             "description": "May swap Staff of Light for M",
-            "choices": []
+            "choices": [
+              {
+                "name": "Void Blade",
+                "pts_delta": 0
+              },
+              {
+                "name": "Hyperphase Sword",
+                "pts_delta": 1
+              },
+              {
+                "name": "Staff of Light",
+                "pts_delta": 11
+              },
+              {
+                "name": "War Glaive",
+                "pts_delta": 13
+              },
+              {
+                "name": "Warscythe",
+                "pts_delta": 15
+              }
+            ]
           },
           {
             "description": "May swap Gauss Cannon for H",
-            "choices": []
+            "choices": [
+              {
+                "name": "Tesla Carbine",
+                "pts_delta": 0
+              },
+              {
+                "name": "Gauss Cannon",
+                "pts_delta": 3
+              }
+            ]
           },
           {
             "description": "May take one W",
             "choices": [
+              {
+                "name": "Gauntlet of Fire",
+                "pts_delta": 8
+              },
               {
                 "name": "Tachyon Arrow",
                 "pts_delta": 19
@@ -172,6 +206,66 @@
           }
         ],
         "weapons": {
+          "Void Blade": {
+            "range": "Melee",
+            "S": "User",
+            "AP": "4+",
+            "type": "Rending, Extra Attack 1, Primary"
+          },
+          "Hyperphase Sword": {
+            "range": "Melee",
+            "S": "+1",
+            "AP": "3+",
+            "type": "Primary"
+          },
+          "Staff of Light": {
+            "range": "12",
+            "S": "5",
+            "AP": "3+",
+            "type": "Assault 3, Gauss, Turret,"
+          },
+          "War Glaive": {
+            "range": "Melee",
+            "S": "+2",
+            "AP": "2+",
+            "type": "Counterattack, Primary"
+          },
+          "Warscythe": {
+            "range": "Melee",
+            "S": "X2",
+            "AP": "2+",
+            "type": "Slow, Monsterbane, Primary"
+          },
+          "or": {
+            "range": "or",
+            "S": "Primary",
+            "AP": "",
+            "type": ""
+          },
+          "User": {
+            "range": "3+",
+            "S": "Primary",
+            "AP": "",
+            "type": ""
+          },
+          "Tesla Carbine": {
+            "range": "24",
+            "S": "5",
+            "AP": "-",
+            "type": "Assault 2, Tesla"
+          },
+          "Gauss Cannon": {
+            "range": "24",
+            "S": "5",
+            "AP": "3+",
+            "type": "Rapid Fire 2, Gauss, Hull"
+          },
+          "Gauntlet of Fire": {
+            "range": "Flame",
+            "S": "4",
+            "AP": "5+",
+            "type": "Assault 1, Turret, Primary 5"
+          },
           "Tachyon Arrow": {
             "range": "24",
             "S": "D",
@@ -292,7 +386,7 @@
             "range": "12",
             "S": "5",
             "AP": "3+",
-            "type": "Assault 3, Gauss Melee    User    3+"
+            "type": "Assault 3, Gauss"
           },
           "Warscythe": {
             "range": "Melee",
@@ -305,6 +399,18 @@
             "S": "+2",
             "AP": "2+",
             "type": "Counterattack"
+          },
+          "or": {
+            "range": "or",
+            "S": "",
+            "AP": "",
+            "type": ""
+          },
+          "User": {
+            "range": "3+",
+            "S": "",
+            "AP": "",
+            "type": ""
           },
           "Gauntlet of Fire": {
             "range": "Flame",
@@ -427,7 +533,7 @@
             "range": "12",
             "S": "5",
             "AP": "3+",
-            "type": "Assault 3, Gauss Melee    User    3+         Primary"
+            "type": "Assault 3, Gauss"
           },
           "Warscythe": {
             "range": "Melee",
@@ -440,6 +546,18 @@
             "S": "+2",
             "AP": "2+",
             "type": "Counterattack"
+          },
+          "or": {
+            "range": "or",
+            "S": "",
+            "AP": "",
+            "type": ""
+          },
+          "User": {
+            "range": "3+",
+            "S": "Primary",
+            "AP": "",
+            "type": ""
           },
           "Gauntlet of Fire": {
             "range": "Flame",
@@ -638,7 +756,13 @@
             "range": "36 or",
             "S": "8 or",
             "AP": "2+",
-            "type": "or Assault 1, Lance or Melee     User   1+      None 10"
+            "type": "or Assault 1, Lance or"
+          },
+          "User": {
+            "range": "1+",
+            "S": "None",
+            "AP": "",
+            "type": "10"
           }
         }
       },
@@ -754,7 +878,13 @@
             "range": "12 or",
             "S": "5 or",
             "AP": "3+",
-            "type": "or Assault 3, Gauss or Melee     User   3+      None 12"
+            "type": "or Assault 3, Gauss or"
+          },
+          "User": {
+            "range": "3+",
+            "S": "None",
+            "AP": "",
+            "type": "12"
           }
         }
       },
@@ -855,7 +985,7 @@
             "range": "12",
             "S": "5",
             "AP": "3+",
-            "type": "Assault 3, Gauss Melee     User   3+          Primary"
+            "type": "Assault 3, Gauss"
           },
           "Warscythe": {
             "range": "Melee",
@@ -868,6 +998,18 @@
             "S": "+2",
             "AP": "2+",
             "type": "Counter Attack"
+          },
+          "or": {
+            "range": "or",
+            "S": "",
+            "AP": "",
+            "type": ""
+          },
+          "User": {
+            "range": "3+",
+            "S": "Primary",
+            "AP": "",
+            "type": ""
           },
           "Gauntlet of Fire": {
             "range": "Flame",
@@ -979,7 +1121,7 @@
             "range": "12",
             "S": "5",
             "AP": "3+",
-            "type": "Assault 3, Gauss Melee     User   3+          Primary"
+            "type": "Assault 3, Gauss"
           },
           "Warscythe": {
             "range": "Melee",
@@ -992,6 +1134,18 @@
             "S": "+2",
             "AP": "2+",
             "type": "Counter Attack"
+          },
+          "or": {
+            "range": "or",
+            "S": "",
+            "AP": "",
+            "type": ""
+          },
+          "User": {
+            "range": "3+",
+            "S": "Primary",
+            "AP": "",
+            "type": ""
           },
           "Gauntlet of Fire": {
             "range": "Flame",
@@ -1045,11 +1199,35 @@
         ],
         "options": [],
         "weapons": {
-          "Emphatic Obliterator": {
+          "Emphatic": {
             "range": "Melee",
             "S": "+2",
             "AP": "3+",
-            "type": "Psionic Shockwave \u2013 All Characters and Independent Characters slain by this model explode in a S4 AP- in a 6\u201d Radius. This does not affect friendly models. 15"
+            "type": "Psionic Shockwave \u2013 All"
+          },
+          "Characters and Independent": {
+            "range": "",
+            "S": "",
+            "AP": "",
+            "type": ""
+          },
+          "slain by this model": {
+            "range": "",
+            "S": "",
+            "AP": "",
+            "type": ""
+          },
+          "in a S4 AP- in a": {
+            "range": "6\u201d",
+            "S": "",
+            "AP": "",
+            "type": "Radius. This does not affect"
+          },
+          "models.": {
+            "range": "",
+            "S": "",
+            "AP": "",
+            "type": "15"
           },
           "Slots": {
             "range": "0-3/Troop",
@@ -1100,14 +1278,54 @@
         "options": [
           {
             "description": "May swap Aeon Staff for M",
-            "choices": []
+            "choices": [
+              {
+                "name": "Aeon Staff",
+                "pts_delta": 0
+              },
+              {
+                "name": "Entropic Lance",
+                "pts_delta": 4
+              }
+            ]
           },
           {
             "description": "May take one E",
             "choices": []
           }
         ],
-        "weapons": {}
+        "weapons": {
+          "Aeon Staff": {
+            "range": "18",
+            "S": "5",
+            "AP": "4+",
+            "type": "Assault 1, 3\u201d Blast, No"
+          },
+          "Entropic Lance": {
+            "range": "18 or",
+            "S": "8 or",
+            "AP": "2+",
+            "type": "or Assault 1"
+          },
+          "or": {
+            "range": "or",
+            "S": "Invulnerability Saves",
+            "AP": "",
+            "type": ""
+          },
+          "User": {
+            "range": "3+",
+            "S": "No Invulnerability Saves",
+            "AP": "",
+            "type": ""
+          },
+          "Chronotendrils": {
+            "range": "Melee",
+            "S": "User",
+            "AP": "-",
+            "type": "Extra Attack 2 16"
+          }
+        }
       },
       {
         "name": "Plasmancer",
@@ -1153,7 +1371,13 @@
             "range": "18 or",
             "S": "7 or",
             "AP": "2+",
-            "type": "or Assault 3, Lance Melee    User    2+         None"
+            "type": "or Assault 3, Lance"
+          },
+          "User": {
+            "range": "2+",
+            "S": "None",
+            "AP": "",
+            "type": ""
           }
         }
       },
@@ -1202,7 +1426,13 @@
             "range": "18 or",
             "S": "7 or",
             "AP": "2+",
-            "type": "or Assault 3, Lance Melee    User    2+         None"
+            "type": "or Assault 3, Lance"
+          },
+          "User": {
+            "range": "2+",
+            "S": "None",
+            "AP": "",
+            "type": ""
           }
         }
       },
@@ -1252,7 +1482,19 @@
             "range": "12",
             "S": "5",
             "AP": "3+",
-            "type": "Assault 3, Gauss Melee    User    3+         None 18"
+            "type": "Assault 3, Gauss"
+          },
+          "Or": {
+            "range": "Or",
+            "S": "Or",
+            "AP": "",
+            "type": ""
+          },
+          "User": {
+            "range": "3+",
+            "S": "None",
+            "AP": "",
+            "type": "18"
           }
         }
       },
@@ -1310,7 +1552,13 @@
             "range": "18 or",
             "S": "5 or",
             "AP": "3+",
-            "type": "or Assault 3, Gauss Melee    User    3+         None 19"
+            "type": "or Assault 3, Gauss"
+          },
+          "User": {
+            "range": "3+",
+            "S": "None",
+            "AP": "",
+            "type": "19"
           }
         }
       },
@@ -1400,6 +1648,12 @@
             "S": "+2",
             "AP": "2+",
             "type": "Counterattack"
+          },
+          "2-6": {
+            "range": "",
+            "S": "",
+            "AP": "",
+            "type": ""
           }
         }
       }
@@ -1463,6 +1717,12 @@
             "S": "5",
             "AP": "4+",
             "type": "Assault 2, Gauss 21"
+          },
+          "0-3": {
+            "range": "",
+            "S": "",
+            "AP": "",
+            "type": ""
           }
         }
       },
@@ -1525,6 +1785,12 @@
             "S": "5",
             "AP": "4+",
             "type": "Assault 2, Gauss 21"
+          },
+          "0-3": {
+            "range": "",
+            "S": "",
+            "AP": "",
+            "type": ""
           }
         }
       }
@@ -1566,7 +1832,14 @@
             "choices": []
           }
         ],
-        "weapons": {}
+        "weapons": {
+          "Flayer Claw": {
+            "range": "Melee",
+            "S": "User",
+            "AP": "5+",
+            "type": "Rending, Extra Attack 1 22"
+          }
+        }
       },
       {
         "name": "Flayed Ones",
@@ -1608,7 +1881,14 @@
             "choices": []
           }
         ],
-        "weapons": {}
+        "weapons": {
+          "Flayer Claw": {
+            "range": "Melee",
+            "S": "User",
+            "AP": "5+",
+            "type": "Rending, Extra Attack 1 22"
+          }
+        }
       },
       {
         "name": "Pariahs",
@@ -1653,7 +1933,19 @@
             "range": "12",
             "S": "5",
             "AP": "3+",
-            "type": "Assault 3, Gauss, Primary 23 Melee    User    3+     Primary"
+            "type": "Assault 3, Gauss, Primary"
+          },
+          "or": {
+            "range": "or",
+            "S": "",
+            "AP": "",
+            "type": "23"
+          },
+          "User": {
+            "range": "3+",
+            "S": "Primary",
+            "AP": "",
+            "type": ""
           }
         }
       },
@@ -1700,7 +1992,19 @@
             "range": "12",
             "S": "5",
             "AP": "3+",
-            "type": "Assault 3, Gauss, Primary 23 Melee    User    3+     Primary"
+            "type": "Assault 3, Gauss, Primary"
+          },
+          "or": {
+            "range": "or",
+            "S": "",
+            "AP": "",
+            "type": "23"
+          },
+          "User": {
+            "range": "3+",
+            "S": "Primary",
+            "AP": "",
+            "type": ""
           }
         }
       },
@@ -1742,6 +2046,18 @@
         ],
         "options": [],
         "weapons": {
+          "2 Linked": {
+            "range": "12",
+            "S": "6",
+            "AP": "4+",
+            "type": "Assault 3 x2"
+          },
+          "Beams": {
+            "range": "",
+            "S": "",
+            "AP": "",
+            "type": ""
+          },
           "Reanimator Claws": {
             "range": "Melee",
             "S": "User",
@@ -1787,6 +2103,10 @@
             "description": "May take up to 2 more Canoptek Spyders for +105 points each Any model may take one H Any model may take one E option Any model may take one G option",
             "choices": [
               {
+                "name": "2 Linked Particle Beamers",
+                "pts_delta": 20
+              },
+              {
                 "name": "Repair Drones",
                 "pts_delta": 6
               }
@@ -1794,11 +2114,17 @@
           }
         ],
         "weapons": {
-          "Automation Claws Beamers": {
+          "Automation Claws": {
             "range": "Melee",
             "S": "+2",
             "AP": "3+",
             "type": ""
+          },
+          "2 Linked Particle Beamers": {
+            "range": "24",
+            "S": "6",
+            "AP": "5+",
+            "type": "Heavy 1 x2, 3\u201d Blasts"
           }
         }
       },
@@ -1843,7 +2169,12 @@
         "options": [
           {
             "description": "May take one H",
-            "choices": []
+            "choices": [
+              {
+                "name": "2 sets of",
+                "pts_delta": 25
+              }
+            ]
           },
           {
             "description": "May take one G",
@@ -1865,6 +2196,48 @@
           }
         ],
         "weapons": {
+          "Tomb Sentinel Claws": {
+            "range": "Melee",
+            "S": "User",
+            "AP": "3+",
+            "type": ""
+          },
+          "2 Linked Gauss Flayers": {
+            "range": "24",
+            "S": "4",
+            "AP": "5+",
+            "type": "Rapid Fire 1 x2, Gauss"
+          },
+          "2 sets of": {
+            "range": "5",
+            "S": "24",
+            "AP": "4 5+ Rapid Fire 1 x5 (x2), Gauss,",
+            "type": ""
+          },
+          "Gauss": {
+            "range": "Broadside \u2013 Each set of 5",
+            "S": "",
+            "AP": "",
+            "type": ""
+          },
+          "Linked Gauss Flayers may only": {
+            "range": "",
+            "S": "",
+            "AP": "",
+            "type": ""
+          },
+          "out one side each as if they": {
+            "range": "",
+            "S": "",
+            "AP": "",
+            "type": ""
+          },
+          "Hull Mounted on a": {
+            "range": "",
+            "S": "",
+            "AP": "",
+            "type": "Vehicle."
+          },
           "Infantry": {
             "range": "",
             "S": "",
@@ -1913,10 +2286,28 @@
         "options": [
           {
             "description": "May add up to 2 more Hexmark Destroyers for +95 points This unit may take up to one of each P",
-            "choices": []
+            "choices": [
+              {
+                "name": "6 Linked Enmitic Disintegrators",
+                "pts_delta": 0
+              }
+            ]
           }
         ],
-        "weapons": {}
+        "weapons": {
+          "6 Linked Enmitic Disintegrators": {
+            "range": "18",
+            "S": "5",
+            "AP": "5+",
+            "type": "Pistol 1 x6"
+          },
+          "Enmitic Disintegrator Melee": {
+            "range": "Melee",
+            "S": "User",
+            "AP": "5+",
+            "type": "Extra Attack 2 26"
+          }
+        }
       },
       {
         "name": "Skorpekh Destroyers",
@@ -1953,10 +2344,32 @@
         "options": [
           {
             "description": "May add up to 6 more Skorpekh Destroyers for +55 points each Any model may swap Hyperphase Threshers for M The unit may take up to one of each P",
-            "choices": []
+            "choices": [
+              {
+                "name": "Hyperphase Threshers",
+                "pts_delta": 0
+              },
+              {
+                "name": "Hyperphase Reap-Blade",
+                "pts_delta": 9
+              }
+            ]
           }
         ],
-        "weapons": {}
+        "weapons": {
+          "Hyperphase Threshers": {
+            "range": "Melee",
+            "S": "User",
+            "AP": "3+",
+            "type": "Extra Attack 1"
+          },
+          "Hyperphase Reap-Blade": {
+            "range": "Melee",
+            "S": "+2",
+            "AP": "1+",
+            "type": ""
+          }
+        }
       },
       {
         "name": "Triarch Stalkers",
@@ -1999,10 +2412,65 @@
         "options": [
           {
             "description": "May add up to 2 more Triarch Stalkers for +157 points each Any model may swap Particle Shredder for H",
-            "choices": []
+            "choices": [
+              {
+                "name": "Particle Shredder",
+                "pts_delta": 0
+              },
+              {
+                "name": "Heat Ray",
+                "pts_delta": 3
+              },
+              {
+                "name": "2 Linked Heavy",
+                "pts_delta": 7
+              }
+            ]
           }
         ],
         "weapons": {
+          "Particle Shredder": {
+            "range": "24",
+            "S": "7",
+            "AP": "4+",
+            "type": "Heavy 1, 5\u201d Blast, Hull, Primary"
+          },
+          "Heat Ray": {
+            "range": "24",
+            "S": "8",
+            "AP": "1+",
+            "type": "Heavy 2, Melta, (Monsterbane),"
+          },
+          "2 Linked Heavy": {
+            "range": "36",
+            "S": "9",
+            "AP": "2+",
+            "type": "Heavy 1 x2, Gauss, Hull,"
+          },
+          "or": {
+            "range": "or",
+            "S": "Hull, Primary",
+            "AP": "",
+            "type": "27"
+          },
+          "5": {
+            "range": "4+",
+            "S": "Assault 1, Hull, Primary",
+            "AP": "",
+            "type": ""
+          },
+          "Cannons": {
+            "range": "Primary",
+            "S": "",
+            "AP": "",
+            "type": ""
+          },
+          "Stalker Forelimbs": {
+            "range": "Melee",
+            "S": "+2",
+            "AP": "3+",
+            "type": "Primary"
+          },
           "Attack": {
             "range": "0-3",
             "S": "",
@@ -2054,6 +2522,18 @@
             "description": "May take up to 6 more Tomb Blades for +42 points each The entire unit may swap Particle Beamer for H The entire unit may take one S The entire unit may take one V",
             "choices": [
               {
+                "name": "Particle Beamer",
+                "pts_delta": 0
+              },
+              {
+                "name": "2 Linked Tesla",
+                "pts_delta": 6
+              },
+              {
+                "name": "2 Linked Gauss",
+                "pts_delta": 8
+              },
+              {
                 "name": "Nebuloscope",
                 "pts_delta": 2
               },
@@ -2068,7 +2548,32 @@
             ]
           }
         ],
-        "weapons": {}
+        "weapons": {
+          "Particle Beamer": {
+            "range": "24",
+            "S": "6",
+            "AP": "5+",
+            "type": "Heavy 1, 3\u201d Blast"
+          },
+          "2 Linked Tesla": {
+            "range": "24",
+            "S": "5",
+            "AP": "-",
+            "type": "Assault 2 x2, Tesla"
+          },
+          "2 Linked Gauss": {
+            "range": "30",
+            "S": "5",
+            "AP": "4+",
+            "type": "Rapid Fire 1 x2, Gauss"
+          },
+          "model": {
+            "range": "Carbines",
+            "S": "",
+            "AP": "",
+            "type": ""
+          }
+        }
       },
       {
         "name": "Triarch Praetorians",
@@ -2110,22 +2615,26 @@
             "description": "May take up to 5 more Triarch Praetorians for +59 points each The entire unit may swap their Void Blade and Particle Caster for M",
             "choices": [
               {
-                "name": "Particle Caster and Void Blade",
+                "name": "Particle Caster",
                 "pts_delta": 0
               },
               {
                 "name": "Rod of Covenant",
                 "pts_delta": 2
+              },
+              {
+                "name": "Void Blade",
+                "pts_delta": 0
               }
             ]
           }
         ],
         "weapons": {
-          "Particle Caster and Void Blade": {
+          "Particle Caster": {
             "range": "12",
             "S": "5",
             "AP": "3+",
-            "type": "Pistol 1 Or Or Or Or Melee     User    4+         Rending, Extra Attack 1"
+            "type": "Pistol 1"
           },
           "Rod of Covenant": {
             "range": "12",
@@ -2133,11 +2642,23 @@
             "AP": "2+",
             "type": "Assault 2"
           },
+          "Void Blade": {
+            "range": "Or",
+            "S": "Or",
+            "AP": "Or Or",
+            "type": ""
+          },
+          "User": {
+            "range": "4+",
+            "S": "Rending, Extra Attack 1",
+            "AP": "",
+            "type": ""
+          },
           "model": {
             "range": "Or",
             "S": "Or",
             "AP": "Or Or",
-            "type": "Melee     User    2+         None 29"
+            "type": ""
           },
           "and Swarms": {
             "range": "",
@@ -2186,7 +2707,12 @@
         "options": [
           {
             "description": "May take one H",
-            "choices": []
+            "choices": [
+              {
+                "name": "Exile Cannon",
+                "pts_delta": 0
+              }
+            ]
           },
           {
             "description": "May take one G",
@@ -2198,6 +2724,18 @@
           }
         ],
         "weapons": {
+          "Tomb Sentinel Claws": {
+            "range": "Melee",
+            "S": "User",
+            "AP": "3+",
+            "type": ""
+          },
+          "Exile Cannon": {
+            "range": "12",
+            "S": "10",
+            "AP": "1+",
+            "type": "Heavy 1, 3\u201d Blast, Monsterbane"
+          },
           "Infantry": {
             "range": "",
             "S": "",
@@ -2247,7 +2785,12 @@
         "options": [
           {
             "description": "May take one H",
-            "choices": []
+            "choices": [
+              {
+                "name": "Exile Cannon",
+                "pts_delta": 0
+              }
+            ]
           },
           {
             "description": "May take one G",
@@ -2259,6 +2802,18 @@
           }
         ],
         "weapons": {
+          "Tomb Sentinel Claws": {
+            "range": "Melee",
+            "S": "User",
+            "AP": "3+",
+            "type": ""
+          },
+          "Exile Cannon": {
+            "range": "12",
+            "S": "10",
+            "AP": "1+",
+            "type": "Heavy 1, 3\u201d Blast, Monsterbane"
+          },
           "Infantry": {
             "range": "",
             "S": "",
@@ -2310,7 +2865,20 @@
             "choices": []
           }
         ],
-        "weapons": {}
+        "weapons": {
+          "Void Blade": {
+            "range": "Melee",
+            "S": "User",
+            "AP": "4+",
+            "type": "Rending, Extra Attack 1"
+          },
+          "Cutting Beam": {
+            "range": "12",
+            "S": "6",
+            "AP": "2+",
+            "type": "Assault 1, Melta, (Monsterbane) 31"
+          }
+        }
       },
       {
         "name": "Canoptek Wraiths",
@@ -2497,6 +3065,24 @@
           }
         ],
         "weapons": {
+          "Doomsday": {
+            "range": "36",
+            "S": "8",
+            "AP": "2+",
+            "type": "Heavy 1, 5\u201d Blast, Lance,"
+          },
+          "Monsterbane": {
+            "range": "",
+            "S": "",
+            "AP": "",
+            "type": ""
+          },
+          "2 Linked Gauss Flayers": {
+            "range": "24",
+            "S": "4",
+            "AP": "5+",
+            "type": "Rapid Fire 1 x2, Gauss"
+          },
           "Infantry": {
             "range": "",
             "S": "",
@@ -2546,10 +3132,32 @@
           },
           {
             "description": "may swap Gauss Destructor for H The Unit may take one P",
-            "choices": []
+            "choices": [
+              {
+                "name": "Gauss Destructor",
+                "pts_delta": 0
+              },
+              {
+                "name": "Enmitic Exterminator",
+                "pts_delta": 9
+              }
+            ]
           }
         ],
-        "weapons": {}
+        "weapons": {
+          "Gauss Destructor": {
+            "range": "36",
+            "S": "10",
+            "AP": "1+",
+            "type": "Heavy 1, Gauss"
+          },
+          "Enmitic Exterminator": {
+            "range": "36",
+            "S": "7",
+            "AP": "4+",
+            "type": "Heavy 1, 5\u201d Blast"
+          }
+        }
       },
       {
         "name": "Heavy Lokhust Destroyers",
@@ -2592,10 +3200,32 @@
           },
           {
             "description": "may swap Gauss Destructor for H The Unit may take one P",
-            "choices": []
+            "choices": [
+              {
+                "name": "Gauss Destructor",
+                "pts_delta": 0
+              },
+              {
+                "name": "Enmitic Exterminator",
+                "pts_delta": 9
+              }
+            ]
           }
         ],
-        "weapons": {}
+        "weapons": {
+          "Gauss Destructor": {
+            "range": "36",
+            "S": "10",
+            "AP": "1+",
+            "type": "Heavy 1, Gauss"
+          },
+          "Enmitic Exterminator": {
+            "range": "36",
+            "S": "7",
+            "AP": "4+",
+            "type": "Heavy 1, 5\u201d Blast"
+          }
+        }
       },
       {
         "name": "Annihilation Barges",
@@ -2640,7 +3270,32 @@
             "choices": []
           }
         ],
-        "weapons": {}
+        "weapons": {
+          "2 Linked Tesla": {
+            "range": "24",
+            "S": "6",
+            "AP": "-",
+            "type": "Assault 3 x2, Tesla, Turret,"
+          },
+          "Primary": {
+            "range": "",
+            "S": "",
+            "AP": "",
+            "type": ""
+          },
+          "Tesla Carbine": {
+            "range": "24",
+            "S": "5",
+            "AP": "-",
+            "type": "Assault 2, Tesla, Hull"
+          },
+          "Gauss Cannon": {
+            "range": "24",
+            "S": "5",
+            "AP": "3+",
+            "type": "Rapid Fire 2, Gauss, Hull"
+          }
+        }
       },
       {
         "name": "Doomsday Ark",
@@ -2682,11 +3337,23 @@
         ],
         "options": [],
         "weapons": {
-          "Doomsday Blaster Flayers": {
+          "Doomsday": {
             "range": "72",
             "S": "D",
             "AP": "1+",
-            "type": "Heavy 1, 3\u201d Blast, Destroyer, Monsterbane, Hull, Primary"
+            "type": "Heavy 1, 3\u201d Blast, Destroyer,"
+          },
+          "Monsterbane, Hull, Primary": {
+            "range": "",
+            "S": "",
+            "AP": "",
+            "type": ""
+          },
+          "5 Linked Gauss Flayers": {
+            "range": "24",
+            "S": "4",
+            "AP": "5+",
+            "type": "Rapid Fire 1 x5, Gauss, Hull"
           }
         }
       },
@@ -2730,15 +3397,58 @@
         "options": [
           {
             "description": "May swap 2 Linked Tesla Carbines for S",
-            "choices": []
+            "choices": [
+              {
+                "name": "2 Linked Tesla Carbines",
+                "pts_delta": 0
+              },
+              {
+                "name": "2 Linked Particle Beamers",
+                "pts_delta": 0
+              },
+              {
+                "name": "2 Linked Gauss Cannons",
+                "pts_delta": 2
+              }
+            ]
           }
         ],
         "weapons": {
-          "Tesseract Singularity Chamber Carbines Beamers Cannons": {
+          "Tesseract": {
             "range": "Flame",
             "S": "6",
             "AP": "3+",
-            "type": "Assault 1, Primary, Hull Or Or Or Or 24 8 1+ Heavy 2, Melta (Monsterbane), Primary, Hull"
+            "type": "Assault 1, Primary, Hull"
+          },
+          "Or": {
+            "range": "Or",
+            "S": "Or",
+            "AP": "Or",
+            "type": ""
+          },
+          "24": {
+            "range": "8",
+            "S": "1+",
+            "AP": "Heavy 2, Melta (Monsterbane),",
+            "type": "Primary, Hull"
+          },
+          "2 Linked Tesla Carbines": {
+            "range": "24",
+            "S": "5",
+            "AP": "-",
+            "type": "Assault 2 x2, Tesla, Hull"
+          },
+          "2 Linked Particle Beamers": {
+            "range": "24",
+            "S": "6",
+            "AP": "5+",
+            "type": "Heavy 1 x2, 3\u201d Blast, Hull"
+          },
+          "2 Linked Gauss Cannons": {
+            "range": "24",
+            "S": "5",
+            "AP": "3+",
+            "type": "Rapid Fire 2 x2, Gauss, Hull"
           },
           "Platforms": {
             "range": "",
@@ -2779,7 +3489,7 @@
                 "pts_delta": 0
               },
               {
-                "name": "Gauss Exterminator",
+                "name": "Gauss",
                 "pts_delta": 7
               },
               {
@@ -2796,17 +3506,29 @@
             "AP": "1+",
             "type": "Heavy 1, Monsterbane"
           },
-          "Gauss Exterminator": {
+          "Gauss": {
             "range": "120",
             "S": "9",
             "AP": "2+",
-            "type": "Heavy 2, Gauss, Monsterbane, AA"
+            "type": "Heavy 2, Gauss, Monsterbane,"
           },
           "Heat Cannon": {
             "range": "36",
             "S": "10",
             "AP": "1+",
             "type": "Heavy 2, 3\u201d Blast, Melta, (Monsterbane)"
+          },
+          "AA": {
+            "range": "",
+            "S": "",
+            "AP": "",
+            "type": ""
+          },
+          "0-2": {
+            "range": "",
+            "S": "",
+            "AP": "",
+            "type": ""
           }
         }
       }
@@ -2847,6 +3569,18 @@
         ],
         "options": [],
         "weapons": {
+          "2 Linked Tesla": {
+            "range": "24",
+            "S": "6",
+            "AP": "-",
+            "type": "Assault 3 x2, Tesla, Hull,"
+          },
+          "Primary": {
+            "range": "",
+            "S": "",
+            "AP": "",
+            "type": ""
+          },
           "Death Ray": {
             "range": "24",
             "S": "10",
@@ -2892,6 +3626,18 @@
         ],
         "options": [],
         "weapons": {
+          "2 Linked Tesla": {
+            "range": "24",
+            "S": "6",
+            "AP": "-",
+            "type": "Assault 3 x2, Tesla, Hull,"
+          },
+          "Primary": {
+            "range": "",
+            "S": "",
+            "AP": "",
+            "type": "38"
+          },
           "Death Sphere": {
             "range": "Bomb",
             "S": "10",
@@ -2941,6 +3687,18 @@
         ],
         "options": [],
         "weapons": {
+          "2 Linked Tesla": {
+            "range": "24",
+            "S": "6",
+            "AP": "-",
+            "type": "Assault 3 x2, Tesla, Hull,"
+          },
+          "Primary": {
+            "range": "",
+            "S": "",
+            "AP": "",
+            "type": "38"
+          },
           "Death Sphere": {
             "range": "Bomb",
             "S": "10",
@@ -2998,6 +3756,12 @@
         ],
         "options": [],
         "weapons": {
+          "5 Linked Gauss Flayers": {
+            "range": "24",
+            "S": "4",
+            "AP": "5+",
+            "type": "Rapid Fire 1 x5, Gauss, Hull 39"
+          },
           "of War": {
             "range": "0-1",
             "S": "",
@@ -3139,11 +3903,17 @@
           }
         ],
         "weapons": {
-          "Scythe of the Nightbringer": {
+          "Scythe of the": {
             "range": "Melee",
             "S": "User",
             "AP": "2+",
-            "type": "Poisoned (2+), Monsterbane, No Invulnerability Save 41"
+            "type": "Poisoned (2+), Monsterbane,"
+          },
+          "No Invulnerability Save": {
+            "range": "",
+            "S": "",
+            "AP": "",
+            "type": "41"
           },
           "+16": {
             "range": "Cosmic Fire",
@@ -3290,11 +4060,23 @@
           }
         ],
         "weapons": {
-          "Spear of the Void Dragon": {
+          "Spear of the": {
             "range": "24",
             "S": "10",
             "AP": "1+",
-            "type": "Assault 2, Lance, Monsterbane or or or 42 Melee     3+     1+         Armourbane"
+            "type": "Assault 2, Lance, Monsterbane"
+          },
+          "Dragon": {
+            "range": "or",
+            "S": "or",
+            "AP": "or",
+            "type": "42"
+          },
+          "3+": {
+            "range": "1+",
+            "S": "Armourbane",
+            "AP": "",
+            "type": ""
           },
           "Canoptek Tail Blades": {
             "range": "Melee",
@@ -3514,11 +4296,17 @@
         ],
         "options": [],
         "weapons": {
-          "Gauss Annihilator": {
+          "Gauss": {
             "range": "120",
             "S": "D",
             "AP": "1+",
-            "type": "Heavy 2, Destroyer, Or Or Or Monsterbane, AA, Turret 120       D      1+      Heavy 1, 5\u201d Blast, Destroyer, Monsterbane, Turret, Primary 44"
+            "type": "Heavy 2, Destroyer,"
+          },
+          "Or": {
+            "range": "Or",
+            "S": "Or",
+            "AP": "Monsterbane, AA, Turret",
+            "type": "Monsterbane, Turret, Primary 44"
           }
         }
       },
@@ -3562,15 +4350,60 @@
         "options": [
           {
             "description": "May swap 2 Linked Singularity Generators for H",
-            "choices": []
+            "choices": [
+              {
+                "name": "2 Linked",
+                "pts_delta": 0
+              },
+              {
+                "name": "Monsterbane, Hull Generators",
+                "pts_delta": 0
+              }
+            ]
           }
         ],
         "weapons": {
-          "Titanic Forelimbs Singularity Generators Synaptic Obliterators and Transdimensiona l Projectors": {
+          "Titanic Forelimbs": {
             "range": "Melee",
             "S": "D",
             "AP": "1+",
-            "type": "Destroyer, Monsterbane Monsterbane, Hull And And And 24 6 3+ Heavy 1 x2, 3\u201d Blast, Hull 45"
+            "type": "Destroyer, Monsterbane"
+          },
+          "2 Linked": {
+            "range": "36",
+            "S": "8",
+            "AP": "2+",
+            "type": "Heavy 1, 5\u201d Blast,"
+          },
+          "Monsterbane, Hull Generators": {
+            "range": "",
+            "S": "",
+            "AP": "",
+            "type": ""
+          },
+          "And": {
+            "range": "And",
+            "S": "And",
+            "AP": "",
+            "type": ""
+          },
+          "and": {
+            "range": "",
+            "S": "",
+            "AP": "",
+            "type": ""
+          },
+          "24": {
+            "range": "6",
+            "S": "3+",
+            "AP": "Heavy 1 x2, 3\u201d Blast, Hull",
+            "type": ""
+          },
+          "Projectors": {
+            "range": "",
+            "S": "",
+            "AP": "",
+            "type": "45"
           }
         }
       },
@@ -3613,7 +4446,14 @@
           "Grav Pulse"
         ],
         "options": [],
-        "weapons": {}
+        "weapons": {
+          "4 Tesla Spheres": {
+            "range": "24",
+            "S": "6",
+            "AP": "-",
+            "type": "Assault 5, Tesla, Sponson 46"
+          }
+        }
       },
       {
         "name": "Tesseract Vault",
@@ -3654,6 +4494,12 @@
         ],
         "options": [],
         "weapons": {
+          "4 Tesla Spheres": {
+            "range": "24",
+            "S": "6",
+            "AP": "-",
+            "type": "Assault 5, Tesla, Sponson"
+          },
           "+51": {
             "range": "Charged Time\u2019s",
             "S": "36",
@@ -3702,7 +4548,7 @@
             "AP": "",
             "type": ""
           },
-          "Transdimensiona l Thunderbolt": {
+          "Transdimensiona": {
             "range": "Monsterbane",
             "S": "",
             "AP": "",
@@ -3725,6 +4571,12 @@
             "S": "",
             "AP": "",
             "type": "47"
+          },
+          "Thunderbolt": {
+            "range": "",
+            "S": "",
+            "AP": "",
+            "type": ""
           }
         }
       },
@@ -3766,11 +4618,23 @@
         ],
         "options": [],
         "weapons": {
-          "Particle Whip Fluxes": {
+          "Particle Whip": {
             "range": "24",
             "S": "8",
             "AP": "3+",
-            "type": "Heavy 1, 5\u201d Blast, Ordnance, Monsterbane, Hull Monsterbane, Sponson 48"
+            "type": "Heavy 1, 5\u201d Blast, Ordnance, Monsterbane, Hull"
+          },
+          "4 Gauss Arc Fluxes": {
+            "range": "24",
+            "S": "5",
+            "AP": "4+",
+            "type": "Rapid Fire 5 x4, Gauss, Sponson"
+          },
+          "4 Death Rays": {
+            "range": "24",
+            "S": "10",
+            "AP": "1+",
+            "type": "Heavy 1 x4, 3\u201d Blast, Lance, Monsterbane, Sponson 48"
           }
         }
       },
@@ -3813,11 +4677,29 @@
         ],
         "options": [],
         "weapons": {
-          "Gauss Obliterator Fluxes": {
+          "Gauss": {
             "range": "24",
             "S": "D",
             "AP": "1+",
-            "type": "Heavy 1, 5\u201d Blast, Destroyer, Monsterbane, Hull Monsterbane, Sponson 49"
+            "type": "Heavy 1, 5\u201d Blast, Destroyer,"
+          },
+          "Monsterbane, Hull": {
+            "range": "",
+            "S": "",
+            "AP": "",
+            "type": ""
+          },
+          "4 Gauss Arc Fluxes": {
+            "range": "24",
+            "S": "5",
+            "AP": "4+",
+            "type": "Rapid Fire 5 x4, Gauss, Sponson"
+          },
+          "4 Death Rays": {
+            "range": "24",
+            "S": "10",
+            "AP": "1+",
+            "type": "Heavy 1 x4, 3\u201d Blast, Lance, Monsterbane, Sponson 49"
           }
         }
       },
@@ -3863,11 +4745,29 @@
         ],
         "options": [],
         "weapons": {
-          "Gauss Eradicator Fluxes": {
+          "Gauss Eradicator": {
             "range": "72",
             "S": "D",
             "AP": "1+",
-            "type": "Heavy 1, 10\u201d Blast, Destroyer, Monsterbane, Hull Monsterbane, Sponson 50"
+            "type": "Heavy 1, 10\u201d Blast, Destroyer, Monsterbane, Hull"
+          },
+          "4 Gauss Arc Fluxes": {
+            "range": "24",
+            "S": "5",
+            "AP": "4+",
+            "type": "Rapid Fire 5 x4, Gauss, Sponson"
+          },
+          "4 Death Rays": {
+            "range": "24",
+            "S": "10",
+            "AP": "1+",
+            "type": "Heavy 1 x4, 3\u201d Blast, Lance, Monsterbane, Sponson 50"
+          },
+          "0-1/1000 points": {
+            "range": "",
+            "S": "",
+            "AP": "",
+            "type": ""
           }
         }
       }

@@ -143,7 +143,7 @@ def parse_weapon_tables_from_layout(layout_text: str) -> dict:
             if UNIT_STAT_HDR.match(stripped) or WEAPON_TABLE_HDR.search(clean_line):
                 break
 
-            m = ENTRY_RE.match(clean_line)
+            m = ENTRY_RE.match(stripped)
             if m:
                 code_raw   = m.group(1).strip()
                 rest       = m.group(2)
@@ -154,7 +154,11 @@ def parse_weapon_tables_from_layout(layout_text: str) -> dict:
                 name_words: list = []
                 range_from_name = ''
                 for word in raw_name_chunk.split():
-                    if RANGE_STOP.match(word):
+                    if name_words and RANGE_STOP.match(word):
+                        # Only treat a number/Melee/Flame token as range if
+                        # at least one name word has been collected first.
+                        # Leading numbers (e.g. "2 Linked Heavy Bolters") are
+                        # part of the weapon name, not the range column.
                         range_from_name = word
                         break
                     name_words.append(word)
@@ -186,16 +190,17 @@ def parse_weapon_tables_from_layout(layout_text: str) -> dict:
             if stripped and current_entry:
                 if stripped.lower().startswith('or'):
                     pass  # skip combo-weapon alternate profile lines
-                elif 10 <= leading <= 22:
-                    # Name continuation
+                elif 1 <= leading <= 45:
+                    # Name continuation (weapon names can start anywhere from col 1-30,
+                    # so their wrapped second lines land in the same range)
                     first_word = stripped.split()[0]
                     if not first_word[0].isdigit():
                         cont_parts = re.split(r'\s{2,}', stripped)
                         current_entry['name'] += ' ' + cont_parts[0].strip()
                         if len(cont_parts) > 1:
                             current_entry['type'] = (current_entry['type'] + ' ' + ' '.join(cont_parts[1:])).strip()
-                elif leading > 30:
-                    # Rules-text continuation (far-right column)
+                elif leading > 45:
+                    # Rules-text continuation (far-right column, typically col 50+)
                     current_entry['type'] = (current_entry['type'] + ' ' + stripped).strip()
 
             j += 1
@@ -930,6 +935,24 @@ def process_core_rules():
     print(f"Wrote {len(keywords)} core keywords → {out_path}")
 
 
+def build_global_weapons_registry(processed: list) -> None:
+    """
+    Collect every weapon name→profile from all extracted codexes
+    and write data/weapons.json.  Used as a cross-codex fallback lookup.
+    """
+    registry: dict = {}
+    for codex in processed:
+        for units in codex.get('slots', {}).values():
+            for unit in units:
+                for name, profile in unit.get('weapons', {}).items():
+                    if name and name not in registry and profile.get('range'):
+                        registry[name] = profile
+    out_path = DATA_DIR / 'weapons.json'
+    with open(out_path, 'w') as f:
+        json.dump(registry, f, indent=2, sort_keys=True)
+    print(f"Wrote {len(registry)} weapon profiles → {out_path}")
+
+
 def main():
     targets = sys.argv[1:]
 
@@ -967,6 +990,7 @@ def main():
 
     if processed:
         update_factions_index(processed)
+        build_global_weapons_registry(processed)
         print(f"\nDone. {len(processed)} codex file(s) written to data/")
 
     if not targets:

@@ -85,11 +85,23 @@
             "AP": "2+",
             "type": "Pistol 1, Gets Hot!"
           },
-          "Talassarian Tempest Blade": {
+          "Talassarian": {
             "range": "Melee",
             "S": "+1",
             "AP": "3+",
-            "type": "Extra Attack 1 Or Or Or D      2+        Destroyer, Monsterbane, Auxiliary"
+            "type": "Extra Attack 1"
+          },
+          "Blade": {
+            "range": "Or",
+            "S": "Or",
+            "AP": "Or",
+            "type": ""
+          },
+          "2+": {
+            "range": "Destroyer, Monsterbane,",
+            "S": "",
+            "AP": "",
+            "type": "Auxiliary"
           },
           "Frag Grenades": {
             "range": "8",
@@ -262,7 +274,13 @@
             "range": "Flame",
             "S": "4",
             "AP": "5+",
-            "type": "Assault 1 24        3          3+    Rapid Fire 1, Poisoned (3+)"
+            "type": "Assault 1"
+          },
+          "Or": {
+            "range": "Or",
+            "S": "Or",
+            "AP": "",
+            "type": ""
           },
           "Bolt Pistol": {
             "range": "12",
@@ -270,11 +288,23 @@
             "AP": "5+",
             "type": "Pistol 1"
           },
-          "Crozium Arcanum": {
+          "Crozium": {
             "range": "Melee",
             "S": "+2",
             "AP": "4+",
-            "type": "Concussion And And And And 5 Flame     5      4+        Assault 1, One Use Only"
+            "type": "Concussion"
+          },
+          "And": {
+            "range": "And",
+            "S": "And",
+            "AP": "And",
+            "type": "5"
+          },
+          "5": {
+            "range": "4+",
+            "S": "Assault 1, One Use Only",
+            "AP": "",
+            "type": ""
           },
           "Frag Grenades": {
             "range": "8",
@@ -354,11 +384,23 @@
             "AP": "2+",
             "type": "Pistol 1, Gets Hot!"
           },
-          "Talassarian Tempest Blade": {
+          "Talassarian": {
             "range": "Melee",
             "S": "+1",
             "AP": "3+",
-            "type": "Extra Attack 1 Or Or Or D      2+        Destroyer, Monsterbane, Auxiliary"
+            "type": "Extra Attack 1"
+          },
+          "Blade": {
+            "range": "Or",
+            "S": "Or",
+            "AP": "Or",
+            "type": ""
+          },
+          "2+": {
+            "range": "Destroyer, Monsterbane,",
+            "S": "",
+            "AP": "",
+            "type": "Auxiliary"
           },
           "Frag Grenades": {
             "range": "8",
@@ -547,13 +589,19 @@
             "range": "24",
             "S": "4",
             "AP": "5+",
-            "type": "Rapid Fire 1, Bolter"
+            "type": ""
           },
           "Bolt Rifle": {
             "range": "30",
             "S": "4",
             "AP": "4+",
-            "type": "Rapid Fire 1, Bolter"
+            "type": ""
+          },
+          "Fire": {
+            "range": "1,",
+            "S": "",
+            "AP": "",
+            "type": ""
           },
           "Laspistol": {
             "range": "12",
@@ -565,13 +613,19 @@
             "range": "12",
             "S": "4",
             "AP": "5+",
-            "type": "Pistol 1"
+            "type": ""
           },
           "Heavy Bolt Pistol": {
             "range": "18",
             "S": "4",
             "AP": "4+",
-            "type": "Pistol 1"
+            "type": ""
+          },
+          "1": {
+            "range": "",
+            "S": "",
+            "AP": "",
+            "type": ""
           },
           "Combat Knife": {
             "range": "Melee",
@@ -607,19 +661,49 @@
             "range": "8",
             "S": "6",
             "AP": "4+",
-            "type": "Grenade 1, Nonblast"
+            "type": ""
+          },
+          "1, Nonblast": {
+            "range": "",
+            "S": "",
+            "AP": "",
+            "type": ""
           },
           "Formidable": {
             "range": "24",
             "S": "-",
             "AP": "-",
-            "type": "Target Psychic Mastery Model until your next Psychic Phase."
+            "type": "Target Psychic Mastery Model"
+          },
+          "8+": {
+            "range": "Astropath",
+            "S": "suffers Psychic Mastery Level -1",
+            "AP": "",
+            "type": ""
+          },
+          "your next Psychic Phase.": {
+            "range": "",
+            "S": "",
+            "AP": "",
+            "type": ""
           },
           "Orbital Strike": {
             "range": "12-240 D/10 1+/1+ Heavy 1, 15\u201d Blast, Destroyer,",
             "S": "",
             "AP": "",
-            "type": "/8   /1+   Ordnance, Monsterbane, Indirect Fire, Ignores Cover, The Hour is Nigh, T Minus 5, One Use Only 9"
+            "type": "/8   /1+   Ordnance, Monsterbane,"
+          },
+          "Fire, Ignores Cover, The": {
+            "range": "",
+            "S": "",
+            "AP": "",
+            "type": ""
+          },
+          "is Nigh, T Minus": {
+            "range": "5,",
+            "S": "",
+            "AP": "",
+            "type": "Only 9"
           }
         }
       },
@@ -720,11 +804,11 @@
         ],
         "options": [],
         "weapons": {
-          "The Hand of Dominion": {
+          "The Hand of": {
             "range": "24",
             "S": "6",
             "AP": "4+",
-            "type": "Assault 6 Or Or Or Or Melee    X2       2+   Slow, Monsterbane"
+            "type": "Assault 6"
           },
           "The Emperor\u2019s Sword": {
             "range": "Melee",
@@ -732,11 +816,35 @@
             "AP": "1+",
             "type": "Slow, Destroyer, Monsterbane"
           },
-          "Orbital Strike": {
+          "Or": {
+            "range": "Or",
+            "S": "Or",
+            "AP": "Or",
+            "type": ""
+          },
+          "X2": {
+            "range": "2+",
+            "S": "Slow, Monsterbane",
+            "AP": "",
+            "type": ""
+          },
+          "Orbital Strike /8": {
             "range": "12-240 D/10 1+/1+ Heavy 1, 15\u201d Blast, Destroyer,",
             "S": "",
             "AP": "",
-            "type": "/8   /1+   Ordnance, Monsterbane, Indirect Fire, Ignores Cover, The Hour is Nigh, T Minus 5, One Use Only"
+            "type": "/1+ Ordnance, Monsterbane,"
+          },
+          "Fire, Ignores Cover, The": {
+            "range": "",
+            "S": "",
+            "AP": "",
+            "type": ""
+          },
+          "is Nigh, T Minus": {
+            "range": "5,",
+            "S": "",
+            "AP": "",
+            "type": "Only"
           }
         }
       },
@@ -792,27 +900,27 @@
                 "pts_delta": 0
               },
               {
-                "name": "Cause Misfortune Cast 7+",
+                "name": "Cause",
                 "pts_delta": 10
               },
               {
-                "name": "Forewarning Cast 6+",
+                "name": "Forewarning",
                 "pts_delta": 10
               },
               {
-                "name": "Bolster Cast 6+",
+                "name": "Bolster",
                 "pts_delta": 15
               },
               {
-                "name": "Enfeeble Cast 8+",
+                "name": "Enfeeble",
                 "pts_delta": 20
               },
               {
-                "name": "Endurance Cast 7+",
+                "name": "Endurance",
                 "pts_delta": 20
               },
               {
-                "name": "Melting Beam Cast 7+",
+                "name": "Melting Beam",
                 "pts_delta": 22
               }
             ]
@@ -839,43 +947,97 @@
             "range": "18",
             "S": "-",
             "AP": "-",
-            "type": "Target unit gains a 4+ Cover Save until the beginning of your next Psychic Phase."
+            "type": "Target unit gains a 4+ Cover"
           },
-          "Cause Misfortune Cast 7+": {
+          "Cause": {
             "range": "18",
             "S": "-",
             "AP": "-",
-            "type": "Target unit gains Rending on all Ranged and Melee Attacks until your next Psychic Phase"
+            "type": "Target unit gains Rending on all"
           },
-          "Forewarning Cast 6+": {
+          "Forewarning": {
             "range": "18",
             "S": "-",
             "AP": "-",
-            "type": "Target unit gains 4+ Cover Save until your next Psychic Phase"
+            "type": "Target unit gains 4+ Cover Save"
           },
-          "Bolster Cast 6+": {
+          "Bolster": {
             "range": "18",
             "S": "-",
             "AP": "-",
-            "type": "Target unit counts as having not Moved for the purposes of Shooting until your next Psychic Phase"
+            "type": "Target unit counts as having"
           },
-          "Enfeeble Cast 8+": {
+          "Enfeeble": {
             "range": "18",
             "S": "-",
             "AP": "-",
-            "type": "Target unit suffers T-1 until your next Psychic Phase"
+            "type": "Target unit suffers T-1 until"
           },
-          "Endurance Cast 7+": {
+          "Endurance": {
             "range": "18",
             "S": "-",
             "AP": "-",
-            "type": "Target unit gains T+1 until your next Psychic Phase"
+            "type": "Target unit gains T+1 until your"
           },
-          "Melting Beam Cast 7+": {
+          "Melting Beam": {
             "range": "18",
             "S": "8",
             "AP": "1+",
-            "type": "Assault 1, Armourbane, Beam 14"
+            "type": "Assault 1, Armourbane, Beam"
+          },
+          "until the beginning of your": {
+            "range": "",
+            "S": "",
+            "AP": "",
+            "type": ""
+          },
+          "Psychic Phase.": {
+            "range": "",
+            "S": "",
+            "AP": "",
+            "type": ""
+          },
+          "Ranged and": {
+            "range": "Melee",
+            "S": "",
+            "AP": "",
+            "type": ""
+          },
+          "7+": {
+            "range": "your next Psychic Phase",
+            "S": "",
+            "AP": "",
+            "type": ""
+          },
+          "6+": {
+            "range": "until your next Psychic Phase",
+            "S": "",
+            "AP": "",
+            "type": ""
+          },
+          "8+": {
+            "range": "your next Psychic Phase",
+            "S": "",
+            "AP": "",
+            "type": ""
+          },
+          "until your next": {
+            "range": "",
+            "S": "",
+            "AP": "",
+            "type": ""
+          },
+          "Phase": {
+            "range": "",
+            "S": "",
+            "AP": "",
+            "type": ""
+          },
+          "0-3 Per Troop Choice": {
+            "range": "",
+            "S": "",
+            "AP": "",
+            "type": ""
           }
         }
       }
@@ -933,13 +1095,19 @@
             "range": "Melee",
             "S": "X2",
             "AP": "2+",
-            "type": "Slow, Monsterbane, Auxiliary, Servo Arm"
+            "type": "Slow, Monsterbane, Auxiliary,"
           },
           "Combat Knife": {
             "range": "Melee",
             "S": "User",
             "AP": "-",
             "type": "Extra Attack 1"
+          },
+          "Arm": {
+            "range": "",
+            "S": "",
+            "AP": "",
+            "type": ""
           },
           "Frag Grenades": {
             "range": "8",

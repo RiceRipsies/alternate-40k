@@ -82,7 +82,14 @@
             ]
           }
         ],
-        "weapons": {}
+        "weapons": {
+          "Fist of Dorn": {
+            "range": "Melee",
+            "S": "D",
+            "AP": "1+",
+            "type": "Slow, Destroyer, Monsterbane 3"
+          }
+        }
       },
       {
         "name": "Tor Garadon",
@@ -148,11 +155,17 @@
             "AP": "4+",
             "type": "Pistol 1"
           },
-          "Hand of Defiance": {
+          "Hand of": {
             "range": "Melee",
             "S": "X2",
             "AP": "1+",
-            "type": "Slow, Armourbane, Monsterbane 4"
+            "type": "Slow, Armourbane,"
+          },
+          "Monsterbane": {
+            "range": "",
+            "S": "",
+            "AP": "",
+            "type": "4"
           }
         }
       }

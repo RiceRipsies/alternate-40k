@@ -79,23 +79,47 @@
           }
         ],
         "weapons": {
-          "Auxiliary Grenade Launcher": {
+          "Auxiliary": {
             "range": "24",
             "S": "6",
             "AP": "4+",
-            "type": "Assault 1 Or Or Or Or 24 3 - Assault 1, 3\u201d Blast"
+            "type": "Assault 1"
           },
-          "Crozium Arcanum": {
+          "Or": {
+            "range": "Or",
+            "S": "Or",
+            "AP": "Or",
+            "type": ""
+          },
+          "24": {
+            "range": "3",
+            "S": "-",
+            "AP": "Assault 1, 3\u201d Blast",
+            "type": ""
+          },
+          "Crozium": {
             "range": "Melee",
             "S": "+2",
             "AP": "4+",
-            "type": "Concussion And And And And Flame     5      4+     Assault 1, One Use Only"
+            "type": "Concussion"
           },
           "Power Fist": {
             "range": "Melee",
             "S": "X2",
             "AP": "2+",
             "type": "Slow, Monsterbane 3"
+          },
+          "And": {
+            "range": "And",
+            "S": "And",
+            "AP": "And",
+            "type": ""
+          },
+          "5": {
+            "range": "4+",
+            "S": "Assault 1, One Use Only",
+            "AP": "",
+            "type": ""
           },
           "Frag Grenades": {
             "range": "8",
@@ -156,17 +180,41 @@
         ],
         "options": [],
         "weapons": {
-          "The Black Spear Melee +1": {
+          "The Black Spear": {
             "range": "12",
             "S": "9",
             "AP": "2+",
-            "type": "Assault 1, Monsterbane, One 4 2+ Counterattack"
+            "type": "Assault 1, Monsterbane, One"
           },
-          "Orbital Strike": {
+          "Or": {
+            "range": "Or",
+            "S": "Use Only Or",
+            "AP": "",
+            "type": "4"
+          },
+          "+1": {
+            "range": "2+",
+            "S": "Counterattack",
+            "AP": "",
+            "type": ""
+          },
+          "Orbital Strike /8": {
             "range": "12-240 D/10 1+/1+",
             "S": "Heavy 1, 15\u201d Blast, Destroyer,",
             "AP": "",
-            "type": "Indirect Fire, Ignores Cover, The Hour is Nigh, T Minus 5, One Use Only 5"
+            "type": "/1+ Ordnance, Monsterbane,"
+          },
+          "Fire, Ignores Cover, The": {
+            "range": "",
+            "S": "",
+            "AP": "",
+            "type": ""
+          },
+          "is Nigh, T Minus Only": {
+            "range": "5,",
+            "S": "",
+            "AP": "",
+            "type": "5"
           }
         }
       }

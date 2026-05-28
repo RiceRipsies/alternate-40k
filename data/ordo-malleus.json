@@ -85,7 +85,7 @@
                 "pts_delta": 0
               },
               {
-                "name": "Nemesis Daemon Hammer",
+                "name": "Nemesis",
                 "pts_delta": 0
               }
             ]
@@ -124,17 +124,35 @@
             "AP": "-",
             "type": "Pistol 2, Rending"
           },
-          "Nemesis Daemon Hammer": {
+          "Nemesis": {
             "range": "Melee",
             "S": "10",
             "AP": "1+",
-            "type": "Slow, Armourbane, Monsterbane, Psychicbane"
+            "type": "Slow, Armourbane,"
+          },
+          "Monsterbane, Psychicbane Hammer": {
+            "range": "",
+            "S": "",
+            "AP": "",
+            "type": ""
           },
           "Orbital Strike": {
             "range": "12-240 D/10 1+/1+ Heavy 1, 15\u201d Blast, Destroyer,",
             "S": "",
             "AP": "",
-            "type": "/8   /1+   Ordnance, Monsterbane, Indirect Fire, Ignores Cover, The Hour is Nigh, T Minus 5, One Use Only"
+            "type": "/8   /1+   Ordnance, Monsterbane,"
+          },
+          "Fire, Ignores Cover, The": {
+            "range": "",
+            "S": "",
+            "AP": "",
+            "type": ""
+          },
+          "is Nigh, T Minus": {
+            "range": "5,",
+            "S": "",
+            "AP": "",
+            "type": "Only"
           }
         }
       },
@@ -207,7 +225,19 @@
             "range": "12-240",
             "S": "D/10",
             "AP": "1+",
-            "type": "/1+ Heavy 1, 15\u201d Blast, Destroyer, /8      /1+     Ordnance, Monsterbane, Indirect Fire, Ignores Cover, The Hour is Nigh, T Minus 5, One Use Only 7"
+            "type": "/1+ Heavy 1, 15\u201d Blast, Destroyer, /8      /1+     Ordnance, Monsterbane,"
+          },
+          "Fire, Ignores Cover, The": {
+            "range": "",
+            "S": "",
+            "AP": "",
+            "type": ""
+          },
+          "is Nigh, T Minus": {
+            "range": "5,",
+            "S": "",
+            "AP": "",
+            "type": "Only 7"
           }
         }
       }

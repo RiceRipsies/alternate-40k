@@ -73,31 +73,31 @@
             "description": "May take up to one S",
             "choices": [
               {
-                "name": "Mirage Cast 6+",
+                "name": "Mirage",
                 "pts_delta": 0
               },
               {
-                "name": "Cause Misfortune Cast 7+",
+                "name": "Cause",
                 "pts_delta": 10
               },
               {
-                "name": "Forewarning Cast 6+",
+                "name": "Forewarning",
                 "pts_delta": 10
               },
               {
-                "name": "Bolster Cast 6+",
+                "name": "Bolster",
                 "pts_delta": 15
               },
               {
-                "name": "Enfeeble Cast 8+",
+                "name": "Enfeeble",
                 "pts_delta": 20
               },
               {
-                "name": "Endurance Cast 7+",
+                "name": "Endurance",
                 "pts_delta": 20
               },
               {
-                "name": "Melting Beam Cast 7+",
+                "name": "Melting Beam",
                 "pts_delta": 22
               }
             ]
@@ -137,47 +137,83 @@
             "AP": "4+",
             "type": "Grenade 1, Nonblast"
           },
-          "Mirage Cast 6+": {
+          "Mirage": {
             "range": "18",
             "S": "-",
             "AP": "-",
-            "type": "Target unit gains Shroud until your next Psychic Phase. 3"
+            "type": "Target unit gains Shroud until"
           },
-          "Cause Misfortune Cast 7+": {
+          "Cause": {
             "range": "18",
             "S": "-",
             "AP": "-",
-            "type": "Target unit gains Rending on all Ranged and Melee Attacks until your next Psychic Phase"
+            "type": "Target unit gains Rending on all"
           },
-          "Forewarning Cast 6+": {
+          "Forewarning": {
             "range": "18",
             "S": "-",
             "AP": "-",
-            "type": "Target unit gains 4+ Cover Save until your next Psychic Phase"
+            "type": "Target unit gains 4+ Cover Save"
           },
-          "Bolster Cast 6+": {
+          "Bolster": {
             "range": "18",
             "S": "-",
             "AP": "-",
-            "type": "Target unit counts as having not Moved for the purposes of Shooting until your next Psychic Phase"
+            "type": "Target unit counts as having"
           },
-          "Enfeeble Cast 8+": {
+          "Enfeeble": {
             "range": "18",
             "S": "-",
             "AP": "-",
-            "type": "Target unit suffers T-1 until your next Psychic Phase"
+            "type": "Target unit suffers T-1 until"
           },
-          "Endurance Cast 7+": {
+          "Endurance": {
             "range": "18",
             "S": "-",
             "AP": "-",
-            "type": "Target unit gains T+1 until your next Psychic Phase"
+            "type": "Target unit gains T+1 until your"
           },
-          "Melting Beam Cast 7+": {
+          "Melting Beam": {
             "range": "18",
             "S": "8",
             "AP": "1+",
-            "type": "Assault 1, Armourbane, Beam 4"
+            "type": "Assault 1, Armourbane, Beam"
+          },
+          "6+": {
+            "range": "your next Psychic Phase.",
+            "S": "",
+            "AP": "",
+            "type": "3"
+          },
+          "7+": {
+            "range": "your next Psychic Phase",
+            "S": "",
+            "AP": "",
+            "type": ""
+          },
+          "8+": {
+            "range": "your next Psychic Phase",
+            "S": "",
+            "AP": "",
+            "type": ""
+          },
+          "Ranged and": {
+            "range": "Melee",
+            "S": "",
+            "AP": "",
+            "type": ""
+          },
+          "until your next": {
+            "range": "",
+            "S": "",
+            "AP": "",
+            "type": ""
+          },
+          "Phase": {
+            "range": "",
+            "S": "",
+            "AP": "",
+            "type": ""
           }
         }
       }

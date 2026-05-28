@@ -68,12 +68,16 @@
             "description": "May swap Forgewrought Plasma Axe for M",
             "choices": [
               {
-                "name": "Forgewrought Plasma Axe",
+                "name": "Forgewrought",
                 "pts_delta": 0
               },
               {
                 "name": "Mass Gauntlet",
                 "pts_delta": 6
+              },
+              {
+                "name": "Axe",
+                "pts_delta": 0
               }
             ]
           },
@@ -100,7 +104,7 @@
             "AP": "5+",
             "type": "Rapid Fire 2"
           },
-          "Forgewrought Plasma Axe": {
+          "Forgewrought": {
             "range": "Melee",
             "S": "+2",
             "AP": "2+",
@@ -111,6 +115,12 @@
             "S": "X2",
             "AP": "1+",
             "type": "Slow, Monsterbane"
+          },
+          "Axe": {
+            "range": "",
+            "S": "",
+            "AP": "",
+            "type": ""
           }
         }
       },
@@ -164,6 +174,12 @@
             "S": "+2",
             "AP": "1+",
             "type": "Extra Attack 2"
+          },
+          "0-3/Troop Slot Purchased": {
+            "range": "",
+            "S": "",
+            "AP": "",
+            "type": ""
           }
         }
       },
@@ -241,7 +257,7 @@
                 "pts_delta": 0
               },
               {
-                "name": "EtaCarn Plasma Gun",
+                "name": "EtaCarn Plasma",
                 "pts_delta": 8
               },
               {
@@ -253,7 +269,7 @@
                 "pts_delta": 7
               },
               {
-                "name": "Concussion Hammer",
+                "name": "Concussion",
                 "pts_delta": 18
               }
             ]
@@ -266,11 +282,17 @@
             "AP": "-",
             "type": "Heavy 1, Beam"
           },
-          "EtaCarn Plasma Gun": {
+          "EtaCarn Plasma": {
             "range": "24",
             "S": "8",
             "AP": "2+",
-            "type": "Rapid Fire 1, Gets Hot!, Monsterbane"
+            "type": "Rapid Fire 1, Gets Hot!,"
+          },
+          "Monsterbane": {
+            "range": "",
+            "S": "",
+            "AP": "",
+            "type": ""
           },
           "Plasma Blade Gauntlet": {
             "range": "Melee",
@@ -284,11 +306,11 @@
             "AP": "2+",
             "type": "Slow, Monsterbane"
           },
-          "Concussion Hammer": {
+          "Concussion": {
             "range": "Melee",
             "S": "X2",
             "AP": "2+",
-            "type": "Slow, Armourbane, Monsterbane 13"
+            "type": "Slow, Armourbane,"
           }
         }
       },
@@ -476,48 +498,80 @@
             "description": "May add up to two more Sagitaurs for +130 points each Any model may swap L7 Missile Launcher for T",
             "choices": [
               {
-                "name": "L7 Missile Launcher",
+                "name": "L7 Missile",
                 "pts_delta": 0
               },
               {
-                "name": "MATR Autocannon",
+                "name": "MATR",
                 "pts_delta": 20
               },
               {
-                "name": "HYLas Beam Cannon",
+                "name": "HYLas Beam",
                 "pts_delta": 21
               },
               {
-                "name": "Sagitaur Missile Launcher Cannons",
+                "name": "Sagitaur Missile",
                 "pts_delta": 59
+              },
+              {
+                "name": "Primary",
+                "pts_delta": 0
+              },
+              {
+                "name": "And",
+                "pts_delta": 0
               }
             ]
           }
         ],
         "weapons": {
-          "L7 Missile Launcher": {
+          "L7 Missile": {
             "range": "30",
             "S": "5",
             "AP": "5+",
-            "type": "Heavy 2, Ignores Cover, Turret, Primary 17"
+            "type": "Heavy 2, Ignores Cover, Turret,"
           },
-          "MATR Autocannon": {
+          "MATR": {
             "range": "48",
             "S": "7",
             "AP": "4+",
-            "type": "Heavy 6, Monsterbane, Turret, Primary"
+            "type": "Heavy 6, Monsterbane, Turret,"
           },
-          "HYLas Beam Cannon": {
+          "HYLas Beam": {
             "range": "36",
             "S": "9",
             "AP": "2+",
-            "type": "Heavy 1, Beam, Monsterbane, Turret, Primary"
+            "type": "Heavy 1, Beam, Monsterbane,"
           },
-          "Sagitaur Missile Launcher Cannons": {
+          "Sagitaur Missile": {
             "range": "72",
             "S": "10",
             "AP": "1+",
-            "type": "Heavy 1, 3\u201d Blast, And And And Monsterbane, Turret, Primary And 72       5       5+         Heavy 1, 5\u201d Blast Turret, Primary"
+            "type": "Heavy 1, 3\u201d Blast,"
+          },
+          "Primary": {
+            "range": "",
+            "S": "",
+            "AP": "",
+            "type": "17"
+          },
+          "And": {
+            "range": "And",
+            "S": "And",
+            "AP": "Monsterbane, Turret, Primary",
+            "type": "And Primary"
+          },
+          "Turret, Primary": {
+            "range": "",
+            "S": "",
+            "AP": "",
+            "type": ""
+          },
+          "2 Linked Bolt Cannons": {
+            "range": "36",
+            "S": "6",
+            "AP": "4+",
+            "type": "Heavy 3 x2, Hull"
           },
           "Support": {
             "range": "0-3",
@@ -566,48 +620,80 @@
             "description": "May add up to two more Sagitaurs for +130 points each Any model may swap L7 Missile Launcher for T",
             "choices": [
               {
-                "name": "L7 Missile Launcher",
+                "name": "L7 Missile",
                 "pts_delta": 0
               },
               {
-                "name": "MATR Autocannon",
+                "name": "MATR",
                 "pts_delta": 20
               },
               {
-                "name": "HYLas Beam Cannon",
+                "name": "HYLas Beam",
                 "pts_delta": 21
               },
               {
-                "name": "Sagitaur Missile Launcher Cannons",
+                "name": "Sagitaur Missile",
                 "pts_delta": 59
+              },
+              {
+                "name": "Primary",
+                "pts_delta": 0
+              },
+              {
+                "name": "And",
+                "pts_delta": 0
               }
             ]
           }
         ],
         "weapons": {
-          "L7 Missile Launcher": {
+          "L7 Missile": {
             "range": "30",
             "S": "5",
             "AP": "5+",
-            "type": "Heavy 2, Ignores Cover, Turret, Primary 17"
+            "type": "Heavy 2, Ignores Cover, Turret,"
           },
-          "MATR Autocannon": {
+          "MATR": {
             "range": "48",
             "S": "7",
             "AP": "4+",
-            "type": "Heavy 6, Monsterbane, Turret, Primary"
+            "type": "Heavy 6, Monsterbane, Turret,"
           },
-          "HYLas Beam Cannon": {
+          "HYLas Beam": {
             "range": "36",
             "S": "9",
             "AP": "2+",
-            "type": "Heavy 1, Beam, Monsterbane, Turret, Primary"
+            "type": "Heavy 1, Beam, Monsterbane,"
           },
-          "Sagitaur Missile Launcher Cannons": {
+          "Sagitaur Missile": {
             "range": "72",
             "S": "10",
             "AP": "1+",
-            "type": "Heavy 1, 3\u201d Blast, And And And Monsterbane, Turret, Primary And 72       5       5+         Heavy 1, 5\u201d Blast Turret, Primary"
+            "type": "Heavy 1, 3\u201d Blast,"
+          },
+          "Primary": {
+            "range": "",
+            "S": "",
+            "AP": "",
+            "type": "17"
+          },
+          "And": {
+            "range": "And",
+            "S": "And",
+            "AP": "Monsterbane, Turret, Primary",
+            "type": "And Primary"
+          },
+          "Turret, Primary": {
+            "range": "",
+            "S": "",
+            "AP": "",
+            "type": ""
+          },
+          "2 Linked Bolt Cannons": {
+            "range": "36",
+            "S": "6",
+            "AP": "4+",
+            "type": "Heavy 3 x2, Hull"
           },
           "Support": {
             "range": "0-3",
@@ -657,13 +743,43 @@
             "range": "1d6\u201d.",
             "S": "",
             "AP": "",
-            "type": "it runs into Terrain or other models, stop moving."
+            "type": ""
           },
           "phased out of time and is": {
             "range": "",
             "S": "",
             "AP": "",
-            "type": "placed in Reserve. On their next Command Phase, they Deepstrike exactly where they left, becoming Pinned if any 4 models are in the way like normal."
+            "type": ""
+          },
+          "runs into Terrain or other": {
+            "range": "",
+            "S": "",
+            "AP": "",
+            "type": "models, stop moving."
+          },
+          "in Reserve. On their": {
+            "range": "",
+            "S": "",
+            "AP": "",
+            "type": ""
+          },
+          "Command Phase, they": {
+            "range": "",
+            "S": "",
+            "AP": "",
+            "type": ""
+          },
+          "exactly where they": {
+            "range": "",
+            "S": "",
+            "AP": "",
+            "type": "left, becoming Pinned if any 4"
+          },
+          "are in the way like": {
+            "range": "",
+            "S": "",
+            "AP": "",
+            "type": "normal."
           }
         }
       },
@@ -1036,27 +1152,27 @@
             "description": "May take up to one S for each Psychic Mastery Level",
             "choices": [
               {
-                "name": "Ancestral Wrath Cast 6+",
+                "name": "Ancestral Wrath",
                 "pts_delta": 9
               },
               {
-                "name": "Null Vortex Cast 6+",
+                "name": "Null Vortex",
                 "pts_delta": 10
               },
               {
-                "name": "Grudgepyre Cast 6+",
+                "name": "Grudgepyre",
                 "pts_delta": 14
               },
               {
-                "name": "Interface Echo Cast 6+",
+                "name": "Interface Echo",
                 "pts_delta": 15
               },
               {
-                "name": "Fortify Cast 6+",
+                "name": "Fortify",
                 "pts_delta": 25
               },
               {
-                "name": "Crushing Contempt Cast 8+",
+                "name": "Crushing",
                 "pts_delta": 30
               }
             ]
@@ -1079,41 +1195,59 @@
             "AP": "5+",
             "type": "Rapid Fire 1"
           },
-          "Ancestral Wrath Cast 6+": {
+          "Ancestral Wrath": {
             "range": "18",
             "S": "6",
             "AP": "4+",
             "type": "Assault 1, 5\u201d Blast"
           },
-          "Null Vortex Cast 6+": {
+          "Null Vortex": {
             "range": "18",
             "S": "-",
             "AP": "-",
-            "type": "Target model or unit suffers -3 To Cast until your next Psychic Phase"
+            "type": "Target model or unit suffers -3"
           },
-          "Grudgepyre Cast 6+": {
+          "Grudgepyre": {
             "range": "Flame",
             "S": "6",
             "AP": "3+",
             "type": "Assault 1"
           },
-          "Interface Echo Cast 6+": {
+          "Interface Echo": {
             "range": "18",
             "S": "-",
             "AP": "-",
-            "type": "Target unit gains Shroud until your next Psychic Phase 8"
+            "type": "Target unit gains Shroud until"
           },
-          "Fortify Cast 6+": {
+          "Fortify": {
             "range": "18",
             "S": "-",
             "AP": "-",
-            "type": "Target unit gains a 5+ Feel No Pain until your next Psychic Phase"
+            "type": "Target unit gains a 5+ Feel No"
           },
-          "Crushing Contempt Cast 8+": {
+          "Crushing": {
             "range": "18",
             "S": "-",
             "AP": "-",
-            "type": "Target unit cannot Claim or Contest Objective Markers until your next Psychic Phase"
+            "type": "Target unit cannot Claim or"
+          },
+          "6+": {
+            "range": "",
+            "S": "",
+            "AP": "",
+            "type": ""
+          },
+          "8+": {
+            "range": "your next Psychic Phase",
+            "S": "",
+            "AP": "",
+            "type": ""
+          },
+          "Contest Objective Markers until": {
+            "range": "",
+            "S": "",
+            "AP": "",
+            "type": ""
           }
         }
       },
@@ -1171,6 +1305,12 @@
             "S": "10",
             "AP": "2+",
             "type": "Slow, Monsterbane 9"
+          },
+          "2-6 Slots": {
+            "range": "",
+            "S": "",
+            "AP": "",
+            "type": ""
           }
         }
       }
@@ -1238,8 +1378,12 @@
                 "pts_delta": 0
               },
               {
-                "name": "EtaCarn Plasma Pistol",
+                "name": "EtaCarn Plasma",
                 "pts_delta": 9
+              },
+              {
+                "name": "Monsterbane",
+                "pts_delta": 0
               },
               {
                 "name": "Combat Knife",
@@ -1290,11 +1434,15 @@
                 "pts_delta": 11
               },
               {
-                "name": "Demolition Charge",
+                "name": "Demolition",
                 "pts_delta": 7
               },
               {
-                "name": "EtaCarn Plasma Beamer Stubbers",
+                "name": "EtaCarn Plasma",
+                "pts_delta": 15
+              },
+              {
+                "name": "2 Linked Light Stubbers",
                 "pts_delta": 15
               },
               {
@@ -1339,11 +1487,17 @@
             "AP": "-",
             "type": "Pistol 1, Scatter"
           },
-          "EtaCarn Plasma Pistol": {
+          "EtaCarn Plasma": {
             "range": "12",
             "S": "8",
             "AP": "2+",
-            "type": "Pistol 1, Gets Hot!, Monsterbane"
+            "type": "Pistol 1, Gets Hot!,"
+          },
+          "Monsterbane": {
+            "range": "",
+            "S": "",
+            "AP": "",
+            "type": ""
           },
           "Combat Knife": {
             "range": "Melee",
@@ -1393,17 +1547,23 @@
             "AP": "3+",
             "type": "Heavy 3"
           },
-          "Demolition Charge": {
+          "Demolition": {
             "range": "6",
             "S": "10",
             "AP": "2+",
-            "type": "Assault 1, 5\u201d Blast, Monsterbane, One Use Only"
+            "type": "Assault 1, 5\u201d Blast,"
           },
-          "EtaCarn Plasma Beamer Stubbers": {
-            "range": "18",
-            "S": "8",
-            "AP": "2+",
-            "type": "Heavy 1, Gets Hot!, Beam, Monsterbane"
+          "Monsterbane, One Use Only": {
+            "range": "",
+            "S": "",
+            "AP": "",
+            "type": ""
+          },
+          "2 Linked Light Stubbers": {
+            "range": "36",
+            "S": "4",
+            "AP": "-",
+            "type": "Heavy 3 x2"
           },
           "Magna Rail Rifle": {
             "range": "48",
@@ -1422,6 +1582,12 @@
             "S": "*",
             "AP": "-",
             "type": "Grenade 1, 3\u201d Blast, Grav 11"
+          },
+          "0-3 Slots": {
+            "range": "",
+            "S": "",
+            "AP": "",
+            "type": ""
           }
         }
       }
@@ -1493,11 +1659,11 @@
                 "pts_delta": 0
               },
               {
-                "name": "Concussion Gauntlets",
+                "name": "Concussion",
                 "pts_delta": 4
               },
               {
-                "name": "Concussion Hammer",
+                "name": "Concussion",
                 "pts_delta": 14
               }
             ]
@@ -1523,23 +1689,29 @@
             "AP": "2+",
             "type": "None"
           },
-          "Concussion Gauntlets": {
+          "Concussion": {
             "range": "Melee",
             "S": "X2",
             "AP": "2+",
-            "type": "Extra Attack 1, Slow, Monsterbane"
+            "type": "Extra Attack 1, Slow,"
           },
-          "Concussion Hammer": {
-            "range": "Melee",
-            "S": "X2",
-            "AP": "2+",
-            "type": "Slow, Armourbane, Monsterbane"
+          "Monsterbane": {
+            "range": "",
+            "S": "",
+            "AP": "",
+            "type": ""
           },
-          "Mole Grenade Launcher": {
+          "Mole Grenade": {
             "range": "24",
             "S": "5",
             "AP": "3+",
-            "type": "Assault 1, 3\u201d Blast, Ignores Cover 12"
+            "type": "Assault 1, 3\u201d Blast, Ignores"
+          },
+          "Cover": {
+            "range": "",
+            "S": "",
+            "AP": "",
+            "type": "12"
           }
         }
       }
@@ -1609,8 +1781,12 @@
                 "pts_delta": 0
               },
               {
-                "name": "EtaCarn Plasma Pistol",
+                "name": "EtaCarn Plasma",
                 "pts_delta": 9
+              },
+              {
+                "name": "Monsterbane",
+                "pts_delta": 0
               },
               {
                 "name": "Plasma Axe",
@@ -1640,11 +1816,17 @@
             "AP": "-",
             "type": "Pistol 1, Scatter"
           },
-          "EtaCarn Plasma Pistol": {
+          "EtaCarn Plasma": {
             "range": "12",
             "S": "8",
             "AP": "2+",
-            "type": "Pistol 1, Gets Hot!, Monsterbane"
+            "type": "Pistol 1, Gets Hot!,"
+          },
+          "Monsterbane": {
+            "range": "",
+            "S": "",
+            "AP": "",
+            "type": ""
           },
           "Plasma Axe": {
             "range": "Melee",
@@ -1950,32 +2132,54 @@
             "description": "May swap Heavy Beam Matter Converter for T",
             "choices": [
               {
-                "name": "Heavy Beam Matter Convertor",
+                "name": "Heavy Beam",
                 "pts_delta": 0
               },
               {
-                "name": "Heavy Magna Rail Cannon",
+                "name": "Heavy Magna",
                 "pts_delta": 8
               },
               {
-                "name": "Cyclic Ion Cannon",
+                "name": "Cyclic Ion",
                 "pts_delta": 39
+              },
+              {
+                "name": "Turret, Primary Convertor",
+                "pts_delta": 0
               }
             ]
           },
           {
             "description": "May swap 2 Bolt Cannons for S",
-            "choices": []
+            "choices": [
+              {
+                "name": "2 Bolt Cannons",
+                "pts_delta": 0
+              },
+              {
+                "name": "2 Ion Beamers",
+                "pts_delta": 8
+              }
+            ]
           },
           {
             "description": "May swap 2 Linked Bolt Cannons for H",
-            "choices": []
+            "choices": [
+              {
+                "name": "2 Linked Bolt Cannons",
+                "pts_delta": 0
+              },
+              {
+                "name": "2 Linked Ion",
+                "pts_delta": 8
+              }
+            ]
           },
           {
             "description": "May swap Pan Spectral Scanner for M",
             "choices": [
               {
-                "name": "Ancestor\u2019s Vengeance",
+                "name": "Ancestor\u2019s",
                 "pts_delta": 10
               },
               {
@@ -1983,54 +2187,126 @@
                 "pts_delta": 17
               },
               {
-                "name": "Mountain Breaker",
+                "name": "Mountain",
                 "pts_delta": 17
               }
             ]
           }
         ],
         "weapons": {
-          "Heavy Beam Matter Convertor": {
+          "Heavy Beam": {
             "range": "48",
             "S": "9",
             "AP": "2+",
-            "type": "Heavy 1, Beam, Monsterbane, Turret, Primary"
+            "type": "Heavy 1, Beam, Monsterbane,"
           },
-          "Heavy Magna Rail Cannon": {
+          "Heavy Magna": {
             "range": "72",
             "S": "D",
             "AP": "2+",
-            "type": "Heavy 1, Destroyer, Monsterbane, Turret, Primary"
+            "type": "Heavy 1, Destroyer,"
           },
-          "Cyclic Ion Cannon": {
+          "Cyclic Ion": {
             "range": "24",
             "S": "8",
             "AP": "3+",
-            "type": "Heavy 1, 7\u201d Blast, Monsterbane, Turret, Primary"
+            "type": "Heavy 1, 7\u201d Blast,"
           },
-          "MATR Autocannon Cannons Beamers": {
+          "Turret, Primary Convertor": {
+            "range": "",
+            "S": "",
+            "AP": "",
+            "type": ""
+          },
+          "Cannon": {
+            "range": "Monsterbane, Turret, Primary",
+            "S": "",
+            "AP": "",
+            "type": ""
+          },
+          "Monsterbane, Turret, Primary": {
+            "range": "",
+            "S": "",
+            "AP": "",
+            "type": ""
+          },
+          "MATR": {
             "range": "48",
             "S": "7",
             "AP": "4+",
-            "type": "Heavy 6, Monsterbane, Turret, Primary Monsterbane, Hull 19 Monsterbane, Hull"
+            "type": "Heavy 6, Monsterbane, Turret,"
           },
-          "Ancestor\u2019s Vengeance": {
+          "Primary": {
+            "range": "",
+            "S": "",
+            "AP": "",
+            "type": ""
+          },
+          "2 Bolt Cannons": {
             "range": "36",
             "S": "6",
             "AP": "4+",
-            "type": "Heavy 1, Indirect, 5\u201d Blast, Pinning, One Use Only, Turret, Primary"
+            "type": "Heavy 3 x2, Hull"
+          },
+          "2 Ion Beamers": {
+            "range": "18",
+            "S": "7",
+            "AP": "4+",
+            "type": "Heavy 1 x2, Beam, Monsterbane, Hull 19"
+          },
+          "2 Linked Bolt Cannons": {
+            "range": "36",
+            "S": "6",
+            "AP": "4+",
+            "type": "Heavy 3 x2, Hull"
+          },
+          "2 Linked Ion": {
+            "range": "18",
+            "S": "7",
+            "AP": "4+",
+            "type": "Heavy 1 x2, Beam,"
+          },
+          "Monsterbane, Hull": {
+            "range": "",
+            "S": "",
+            "AP": "",
+            "type": ""
+          },
+          "Ancestor\u2019s": {
+            "range": "36",
+            "S": "6",
+            "AP": "4+",
+            "type": "Heavy 1, Indirect, 5\u201d Blast,"
           },
           "Kin\u2019s Wrath": {
             "range": "36",
             "S": "6",
             "AP": "4+",
-            "type": "Heavy 1, Indirect, 7\u201d Blast, One Use Only, Turret, Primary"
+            "type": "Heavy 1, Indirect, 7\u201d Blast, One"
           },
-          "Mountain Breaker": {
+          "Mountain": {
             "range": "36",
             "S": "10",
             "AP": "2+",
-            "type": "Heavy 1, Indirect, 3\u201d Blast, Monsterbane, One Use Only, Turret, Primary"
+            "type": "Heavy 1, Indirect, 3\u201d Blast,"
+          },
+          "Pinning, One Use Only, Turret,": {
+            "range": "",
+            "S": "",
+            "AP": "",
+            "type": "Primary"
+          },
+          "Only, Turret, Primary": {
+            "range": "",
+            "S": "",
+            "AP": "",
+            "type": ""
+          },
+          "Monsterbane, One Use Only,": {
+            "range": "",
+            "S": "",
+            "AP": "",
+            "type": "Turret, Primary"
           },
           "Transport": {
             "range": "0-1/Legal",
@@ -2082,32 +2358,54 @@
             "description": "May swap Heavy Beam Matter Converter for T",
             "choices": [
               {
-                "name": "Heavy Beam Matter Convertor",
+                "name": "Heavy Beam",
                 "pts_delta": 0
               },
               {
-                "name": "Heavy Magna Rail Cannon",
+                "name": "Heavy Magna",
                 "pts_delta": 8
               },
               {
-                "name": "Cyclic Ion Cannon",
+                "name": "Cyclic Ion",
                 "pts_delta": 39
+              },
+              {
+                "name": "Turret, Primary Convertor",
+                "pts_delta": 0
               }
             ]
           },
           {
             "description": "May swap 2 Bolt Cannons for S",
-            "choices": []
+            "choices": [
+              {
+                "name": "2 Bolt Cannons",
+                "pts_delta": 0
+              },
+              {
+                "name": "2 Ion Beamers",
+                "pts_delta": 8
+              }
+            ]
           },
           {
             "description": "May swap 2 Linked Bolt Cannons for H",
-            "choices": []
+            "choices": [
+              {
+                "name": "2 Linked Bolt Cannons",
+                "pts_delta": 0
+              },
+              {
+                "name": "2 Linked Ion",
+                "pts_delta": 8
+              }
+            ]
           },
           {
             "description": "May swap Pan Spectral Scanner for M",
             "choices": [
               {
-                "name": "Ancestor\u2019s Vengeance",
+                "name": "Ancestor\u2019s",
                 "pts_delta": 10
               },
               {
@@ -2115,54 +2413,126 @@
                 "pts_delta": 17
               },
               {
-                "name": "Mountain Breaker",
+                "name": "Mountain",
                 "pts_delta": 17
               }
             ]
           }
         ],
         "weapons": {
-          "Heavy Beam Matter Convertor": {
+          "Heavy Beam": {
             "range": "48",
             "S": "9",
             "AP": "2+",
-            "type": "Heavy 1, Beam, Monsterbane, Turret, Primary"
+            "type": "Heavy 1, Beam, Monsterbane,"
           },
-          "Heavy Magna Rail Cannon": {
+          "Heavy Magna": {
             "range": "72",
             "S": "D",
             "AP": "2+",
-            "type": "Heavy 1, Destroyer, Monsterbane, Turret, Primary"
+            "type": "Heavy 1, Destroyer,"
           },
-          "Cyclic Ion Cannon": {
+          "Cyclic Ion": {
             "range": "24",
             "S": "8",
             "AP": "3+",
-            "type": "Heavy 1, 7\u201d Blast, Monsterbane, Turret, Primary"
+            "type": "Heavy 1, 7\u201d Blast,"
           },
-          "MATR Autocannon Cannons Beamers": {
+          "Turret, Primary Convertor": {
+            "range": "",
+            "S": "",
+            "AP": "",
+            "type": ""
+          },
+          "Cannon": {
+            "range": "Monsterbane, Turret, Primary",
+            "S": "",
+            "AP": "",
+            "type": ""
+          },
+          "Monsterbane, Turret, Primary": {
+            "range": "",
+            "S": "",
+            "AP": "",
+            "type": ""
+          },
+          "MATR": {
             "range": "48",
             "S": "7",
             "AP": "4+",
-            "type": "Heavy 6, Monsterbane, Turret, Primary Monsterbane, Hull 19 Monsterbane, Hull"
+            "type": "Heavy 6, Monsterbane, Turret,"
           },
-          "Ancestor\u2019s Vengeance": {
+          "Primary": {
+            "range": "",
+            "S": "",
+            "AP": "",
+            "type": ""
+          },
+          "2 Bolt Cannons": {
             "range": "36",
             "S": "6",
             "AP": "4+",
-            "type": "Heavy 1, Indirect, 5\u201d Blast, Pinning, One Use Only, Turret, Primary"
+            "type": "Heavy 3 x2, Hull"
+          },
+          "2 Ion Beamers": {
+            "range": "18",
+            "S": "7",
+            "AP": "4+",
+            "type": "Heavy 1 x2, Beam, Monsterbane, Hull 19"
+          },
+          "2 Linked Bolt Cannons": {
+            "range": "36",
+            "S": "6",
+            "AP": "4+",
+            "type": "Heavy 3 x2, Hull"
+          },
+          "2 Linked Ion": {
+            "range": "18",
+            "S": "7",
+            "AP": "4+",
+            "type": "Heavy 1 x2, Beam,"
+          },
+          "Monsterbane, Hull": {
+            "range": "",
+            "S": "",
+            "AP": "",
+            "type": ""
+          },
+          "Ancestor\u2019s": {
+            "range": "36",
+            "S": "6",
+            "AP": "4+",
+            "type": "Heavy 1, Indirect, 5\u201d Blast,"
           },
           "Kin\u2019s Wrath": {
             "range": "36",
             "S": "6",
             "AP": "4+",
-            "type": "Heavy 1, Indirect, 7\u201d Blast, One Use Only, Turret, Primary"
+            "type": "Heavy 1, Indirect, 7\u201d Blast, One"
           },
-          "Mountain Breaker": {
+          "Mountain": {
             "range": "36",
             "S": "10",
             "AP": "2+",
-            "type": "Heavy 1, Indirect, 3\u201d Blast, Monsterbane, One Use Only, Turret, Primary"
+            "type": "Heavy 1, Indirect, 3\u201d Blast,"
+          },
+          "Pinning, One Use Only, Turret,": {
+            "range": "",
+            "S": "",
+            "AP": "",
+            "type": "Primary"
+          },
+          "Only, Turret, Primary": {
+            "range": "",
+            "S": "",
+            "AP": "",
+            "type": ""
+          },
+          "Monsterbane, One Use Only,": {
+            "range": "",
+            "S": "",
+            "AP": "",
+            "type": "Turret, Primary"
           },
           "Transport": {
             "range": "0-1/Legal",
@@ -2222,11 +2592,29 @@
           }
         ],
         "weapons": {
-          "Magna Coil Autocannon Coil Autocannons": {
+          "Magna Coil": {
             "range": "24",
             "S": "7",
             "AP": "4+",
-            "type": "Heavy 2, Monsterbane, Sponson, Primary 20"
+            "type": "Heavy 2, Monsterbane,"
+          },
+          "2 Linked Magna Coil Autocannons": {
+            "range": "24",
+            "S": "7",
+            "AP": "4+",
+            "type": "Heavy 2 x2, Monsterbane, Hull 20"
+          },
+          "Sponson, Primary": {
+            "range": "",
+            "S": "",
+            "AP": "",
+            "type": ""
+          },
+          "0-2 Slots": {
+            "range": "",
+            "S": "",
+            "AP": "",
+            "type": ""
           }
         }
       }
@@ -2269,16 +2657,24 @@
             "description": "May swap Multimelta and 2 Linked Battlehammer Rocket Pods for H",
             "choices": [
               {
-                "name": "Multimelta And Battlehammer Rocket Pods",
+                "name": "Multimelta",
                 "pts_delta": 0
               },
               {
-                "name": "Doom Anvil Missile Pod and Cannons",
+                "name": "Doom Anvil",
                 "pts_delta": 8
               },
               {
                 "name": "Battle Cannon",
                 "pts_delta": 17
+              },
+              {
+                "name": "Primary",
+                "pts_delta": 0
+              },
+              {
+                "name": "Pods",
+                "pts_delta": 0
               }
             ]
           },
@@ -2297,23 +2693,47 @@
           }
         ],
         "weapons": {
-          "Multimelta And Battlehammer Rocket Pods": {
+          "Multimelta": {
             "range": "24",
             "S": "8",
             "AP": "1+",
-            "type": "Heavy 2, Melta, (Monsterbane), And And And Hull, Primary And Primary"
+            "type": "Heavy 2, Melta, (Monsterbane),"
           },
-          "Doom Anvil Missile Pod and Cannons": {
+          "Doom Anvil": {
             "range": "72",
             "S": "8",
             "AP": "3+",
-            "type": "Heavy 1, Armourbane, And And And Monsterbane, Hull, Primary"
+            "type": "Heavy 1, Armourbane,"
           },
           "Battle Cannon": {
             "range": "72",
             "S": "8",
             "AP": "3+",
             "type": "Heavy 1, 5\u201d Blast, Ordnance, Monsterbane, Hull, Primary 21"
+          },
+          "And": {
+            "range": "And",
+            "S": "And",
+            "AP": "Hull, Primary And",
+            "type": ""
+          },
+          "Primary": {
+            "range": "",
+            "S": "",
+            "AP": "",
+            "type": ""
+          },
+          "Pods": {
+            "range": "",
+            "S": "",
+            "AP": "",
+            "type": ""
+          },
+          "Pod and Cannons": {
+            "range": "And",
+            "S": "And",
+            "AP": "And Monsterbane, Hull, Primary",
+            "type": ""
           },
           "of War": {
             "range": "0-1",
@@ -2374,23 +2794,65 @@
         ],
         "options": [],
         "weapons": {
-          "Doomsday Cannon": {
+          "Doomsday": {
             "range": "240",
             "S": "D/D/",
             "AP": "1+",
-            "type": "/1+ Heavy 1, 15\u201d Blast, Destroyer, D /1+ Monsterbane, Hull, Primary"
+            "type": "/1+ Heavy 1, 15\u201d Blast, Destroyer,"
           },
-          "Thunderer Cannon Cannons Cannons": {
+          "Thunderer": {
             "range": "24",
             "S": "10",
             "AP": "2+",
-            "type": "Heavy 1, 10\u201d Blast, Monsterbane, Ordnance, Hull, Primary Monsterbane, Hull, Primary"
+            "type": "Heavy 1, 10\u201d Blast,"
           },
-          "Deathstrike Missile": {
+          "2 Linked Battle": {
+            "range": "72",
+            "S": "8",
+            "AP": "3+",
+            "type": "Heavy 1, 5\u201d Blast, Ordnance,"
+          },
+          "D": {
+            "range": "/1+",
+            "S": "Monsterbane, Hull, Primary",
+            "AP": "",
+            "type": ""
+          },
+          "Monsterbane, Ordnance, Hull,": {
+            "range": "",
+            "S": "",
+            "AP": "",
+            "type": "Primary"
+          },
+          "Monsterbane, Hull, Primary": {
+            "range": "",
+            "S": "",
+            "AP": "",
+            "type": ""
+          },
+          "8 Linked Bolt Cannons": {
+            "range": "36",
+            "S": "5",
+            "AP": "4+",
+            "type": "Heavy 3 x8, Hull, Primary"
+          },
+          "Deathstrike": {
             "range": "12 to",
             "S": "D/10 1+/1+ Heavy 1, 15\u201d Blast, Destroyer,",
             "AP": "",
-            "type": "240 /8 /1+ Ordnance, Monsterbane, Indirect Fire, Ignores Cover, Hull"
+            "type": ""
+          },
+          "240": {
+            "range": "/8",
+            "S": "/1+",
+            "AP": "Ordnance, Monsterbane,",
+            "type": ""
+          },
+          "Fire, Ignores Cover,": {
+            "range": "",
+            "S": "",
+            "AP": "",
+            "type": "Hull"
           }
         }
       },
@@ -2438,17 +2900,47 @@
         ],
         "options": [],
         "weapons": {
-          "Hellfury Cannon Cannons": {
+          "Hellfury Cannon": {
             "range": "240",
             "S": "D/D/ 1+/1+ Heavy 1, 15\u201d Blast, Destroyer,",
             "AP": "",
-            "type": "D    /1+   Monsterbane, Earthshock, Sustained Beam, Hull, Primary (Monsterbane), Hull, Primary"
+            "type": ""
           },
-          "Rapid Fire Battle Cannon": {
+          "2 Linked Magma": {
+            "range": "60",
+            "S": "10",
+            "AP": "1+",
+            "type": "Heavy 1 x2, 5\u201d Blast, Melta,"
+          },
+          "/1+": {
+            "range": "Monsterbane, Earthshock,",
+            "S": "",
+            "AP": "",
+            "type": ""
+          },
+          "Beam, Hull, Primary": {
+            "range": "",
+            "S": "",
+            "AP": "",
+            "type": ""
+          },
+          "(Monsterbane), Hull, Primary": {
+            "range": "",
+            "S": "",
+            "AP": "",
+            "type": ""
+          },
+          "Rapid Fire Battle": {
             "range": "72",
             "S": "8",
             "AP": "3+",
-            "type": "Heavy 2, 5\u201d Blast, Ordnance, Monsterbane, Turret, Primary"
+            "type": "Heavy 2, 5\u201d Blast, Ordnance,"
+          },
+          "Monsterbane, Turret, Primary": {
+            "range": "",
+            "S": "",
+            "AP": "",
+            "type": ""
           },
           "Bolt Cannon": {
             "range": "36",
@@ -2456,11 +2948,23 @@
             "AP": "4+",
             "type": "Heavy 3, Sponson, Primary"
           },
-          "Deathstrike Missile": {
+          "Deathstrike": {
             "range": "12 to",
             "S": "D/10 1+/1+ Heavy 1, 15\u201d Blast, Destroyer,",
             "AP": "",
-            "type": "240 /8 /1+ Ordnance, Monsterbane, Indirect Fire, Ignores Cover, Hull 24"
+            "type": ""
+          },
+          "240": {
+            "range": "/8",
+            "S": "/1+",
+            "AP": "Ordnance, Monsterbane,",
+            "type": ""
+          },
+          "Fire, Ignores Cover,": {
+            "range": "",
+            "S": "",
+            "AP": "",
+            "type": "Hull 24"
           }
         }
       },
@@ -2535,17 +3039,35 @@
           }
         ],
         "weapons": {
-          "Doomsday Cannon": {
+          "Doomsday": {
             "range": "240",
             "S": "D/D/",
             "AP": "1+",
-            "type": "/1+ Heavy 1, 15\u201d Blast, Destroyer, D /1+ Monsterbane, Hull, Primary"
+            "type": "/1+ Heavy 1, 15\u201d Blast, Destroyer,"
           },
-          "Mega Battle Cannon Cannons": {
+          "Mega Battle": {
             "range": "72",
             "S": "10",
             "AP": "2+",
-            "type": "Heavy 1, 10\u201d Blast, Monsterbane, Ordnance, Hull, Primary"
+            "type": "Heavy 1, 10\u201d Blast,"
+          },
+          "12 Linked Bolt Cannons": {
+            "range": "36",
+            "S": "6",
+            "AP": "4+",
+            "type": "Heavy 3 x12, Hull, Primary"
+          },
+          "D": {
+            "range": "/1+",
+            "S": "Monsterbane, Hull, Primary",
+            "AP": "",
+            "type": ""
+          },
+          "Monsterbane, Ordnance, Hull,": {
+            "range": "",
+            "S": "",
+            "AP": "",
+            "type": "Primary"
           },
           "Battle Cannon": {
             "range": "72",
@@ -2557,25 +3079,55 @@
             "range": "12-240 3/3/",
             "S": "2+/2+ Heavy 1, 15\u201d Blast, Poisoned",
             "AP": "",
-            "type": "3           /2+   (2+), One Use Only, Turret, Primary"
+            "type": "Primary"
           },
-          "Dragon Fire Thrower": {
+          "Dragon Fire": {
             "range": "Hell",
             "S": "8",
             "AP": "3+",
-            "type": "Assault 1, Monsterbane, Turret, Storm Primary"
+            "type": "Assault 1, Monsterbane, Turret,"
           },
-          "MATR Autocannon": {
+          "MATR": {
             "range": "48",
             "S": "7",
             "AP": "4+",
-            "type": "Heavy 6, Monsterbane, Turret, Primary"
+            "type": "Heavy 6, Monsterbane, Turret,"
           },
-          "Colossus Siege Mortar Missile Racks": {
+          "Colossus Siege": {
             "range": "24-240 6",
             "S": "3+",
             "AP": "Heavy 1, 7\u201d Blast, Ordnance,",
-            "type": "Indirect Fire, Ignore Cover, Turret, Primary Turret, Primary 26"
+            "type": ""
+          },
+          "2 Linked Ack-Ack": {
+            "range": "72",
+            "S": "9",
+            "AP": "3+",
+            "type": "Heavy 1 x2, AA, Monsterbane,"
+          },
+          "Storm": {
+            "range": "Primary",
+            "S": "",
+            "AP": "",
+            "type": ""
+          },
+          "Primary": {
+            "range": "",
+            "S": "",
+            "AP": "",
+            "type": ""
+          },
+          "Indirect Fire, Ignore Cover,": {
+            "range": "",
+            "S": "",
+            "AP": "",
+            "type": "Turret, Primary"
+          },
+          "Racks": {
+            "range": "Turret, Primary",
+            "S": "",
+            "AP": "",
+            "type": "26"
           }
         }
       },
@@ -2628,7 +3180,26 @@
             "choices": []
           }
         ],
-        "weapons": {}
+        "weapons": {
+          "2 Linked Heavy Bolters": {
+            "range": "36",
+            "S": "5",
+            "AP": "4+",
+            "type": "Heavy 3 x2, Turret"
+          },
+          "2 Linked": {
+            "range": "48",
+            "S": "7",
+            "AP": "4+",
+            "type": "Heavy 2 x2, Monsterbane, AA,"
+          },
+          "Turret": {
+            "range": "",
+            "S": "",
+            "AP": "",
+            "type": ""
+          }
+        }
       }
     ],
     "fortifications": [
@@ -2649,7 +3220,26 @@
           "2 Linked Turbolaser Destructors"
         ],
         "options": [],
-        "weapons": {}
+        "weapons": {
+          "2 Linked": {
+            "range": "96",
+            "S": "D",
+            "AP": "1+",
+            "type": "Heavy 1 x2, 5\u201d Blast, Destroyer,"
+          },
+          "Monsterbane, Turret Destructors": {
+            "range": "",
+            "S": "",
+            "AP": "",
+            "type": ""
+          },
+          "0-1/1000 points": {
+            "range": "",
+            "S": "",
+            "AP": "",
+            "type": ""
+          }
+        }
       },
       {
         "name": "Aegis Weapon Emplacement",
@@ -2672,18 +3262,54 @@
             "description": "May swap Long Lascannon for H",
             "choices": [
               {
-                "name": "Long Lascannon Lascannons Autocannons Autocannons",
+                "name": "Long Lascannon",
                 "pts_delta": 0
+              },
+              {
+                "name": "2 Linked Long",
+                "pts_delta": 28
+              },
+              {
+                "name": "2 Linked",
+                "pts_delta": 34
+              },
+              {
+                "name": "4 Linked",
+                "pts_delta": 40
               }
             ]
           }
         ],
         "weapons": {
-          "Long Lascannon Lascannons Autocannons Autocannons": {
+          "Long Lascannon": {
             "range": "72",
             "S": "9",
             "AP": "2+",
-            "type": "Heavy 1, Monsterbane, AA, Turret Turret Turret Turret"
+            "type": "Heavy 1, Monsterbane, AA, Turret"
+          },
+          "2 Linked Long": {
+            "range": "72",
+            "S": "9",
+            "AP": "2+",
+            "type": "Heavy 1 x2, Monsterbane, AA,"
+          },
+          "2 Linked": {
+            "range": "48",
+            "S": "7",
+            "AP": "4+",
+            "type": "Heavy 2 x2, Monsterbane, AA,"
+          },
+          "4 Linked": {
+            "range": "48",
+            "S": "7",
+            "AP": "4+",
+            "type": "Heavy 2 x4, Monsterbane, AA,"
+          },
+          "Turret": {
+            "range": "",
+            "S": "",
+            "AP": "",
+            "type": ""
           }
         }
       },
@@ -2705,11 +3331,11 @@
         ],
         "options": [],
         "weapons": {
-          "Plasma Obliterator": {
+          "Plasma": {
             "range": "72",
             "S": "8",
             "AP": "2+",
-            "type": "Heavy 1, 7\u201d Blast, Monsterbane, Turret"
+            "type": "Heavy 1, 7\u201d Blast,"
           },
           "Macro Cannon": {
             "range": "72",
@@ -2717,11 +3343,35 @@
             "AP": "1+",
             "type": "Heavy 1, 5\u201d Blast, Destroyer, Monsterbane, Turret"
           },
-          "+271 Missile Silo": {
+          "+271": {
             "range": "Deathstrike",
             "S": "12 to",
             "AP": "D/10 1+/1+ Heavy 1, 15\u201d Blast, Destroyer,",
-            "type": "240 /8 /1+ Ordnance, Monsterbane, Indirect Fire, Ignores Cover, The Hour is Nigh, T Minus 5, Turret 29"
+            "type": ""
+          },
+          "Monsterbane, Turret": {
+            "range": "",
+            "S": "",
+            "AP": "",
+            "type": ""
+          },
+          "Silo": {
+            "range": "240",
+            "S": "/8",
+            "AP": "/1+ Ordnance, Monsterbane,",
+            "type": ""
+          },
+          "Fire, Ignores Cover,": {
+            "range": "",
+            "S": "",
+            "AP": "",
+            "type": ""
+          },
+          "Hour is Nigh, T Minus": {
+            "range": "5,",
+            "S": "",
+            "AP": "",
+            "type": "Turret 29"
           }
         }
       },

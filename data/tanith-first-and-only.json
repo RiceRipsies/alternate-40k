@@ -70,10 +70,50 @@
         "options": [
           {
             "description": "May swap Chainsword for OM",
-            "choices": []
+            "choices": [
+              {
+                "name": "Chainsword",
+                "pts_delta": 0
+              },
+              {
+                "name": "Sword of Heironymo",
+                "pts_delta": 11
+              }
+            ]
           }
         ],
-        "weapons": {}
+        "weapons": {
+          "Bolt Pistol": {
+            "range": "12",
+            "S": "4",
+            "AP": "5+",
+            "type": "Pistol 1"
+          },
+          "Chainsword": {
+            "range": "Melee",
+            "S": "User",
+            "AP": "6+",
+            "type": "Rending"
+          },
+          "Sword of Heironymo": {
+            "range": "Melee",
+            "S": "+2",
+            "AP": "2+",
+            "type": ""
+          },
+          "Straight Silver": {
+            "range": "Melee",
+            "S": "User",
+            "AP": "-",
+            "type": "Extra Attack 1"
+          },
+          "Frag Grenades": {
+            "range": "8",
+            "S": "3",
+            "AP": "-",
+            "type": "Grenade 1, 3\u201d Blast 4"
+          }
+        }
       },
       {
         "name": "Colonel Colm Corbec",
@@ -237,7 +277,7 @@
             "description": "May take one M",
             "choices": [
               {
-                "name": "Hunter Killer Missile",
+                "name": "Hunter Killer",
                 "pts_delta": 5
               }
             ]
@@ -299,11 +339,17 @@
             "AP": "6+",
             "type": "Heavy 3, Turret"
           },
-          "Hunter Killer Missile": {
+          "Hunter Killer": {
             "range": "120",
             "S": "10",
             "AP": "3+",
-            "type": "Heavy 1, Monsterbane, One Use Only, Hull"
+            "type": "Heavy 1, Monsterbane, One"
+          },
+          "Use Only, Hull": {
+            "range": "",
+            "S": "",
+            "AP": "",
+            "type": ""
           }
         }
       },
@@ -355,17 +401,23 @@
             "AP": "-",
             "type": "Extra Attack 1"
           },
-          "Demolition Charge": {
+          "Demolition": {
             "range": "6",
             "S": "10",
             "AP": "2+",
-            "type": "Assault 1, 5\u201d Blast, Monsterbane, One Use Only"
+            "type": "Assault 1, 5\u201d Blast,"
           },
           "Frag Grenades": {
             "range": "8",
             "S": "3",
             "AP": "-",
             "type": "Grenade 1, 3\u201d Blast 7"
+          },
+          "Monsterbane, One Use Only": {
+            "range": "",
+            "S": "",
+            "AP": "",
+            "type": ""
           }
         }
       },

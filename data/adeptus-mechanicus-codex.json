@@ -58,17 +58,35 @@
         ],
         "options": [],
         "weapons": {
+          "Solar Atomizer": {
+            "range": "12",
+            "S": "10",
+            "AP": "1+",
+            "type": "Assault 2, Melta, (Monsterbane)"
+          },
+          "Omnissian Axe": {
+            "range": "Melee",
+            "S": "+3",
+            "AP": "5+",
+            "type": "None 3"
+          },
           "Arc Scourge": {
             "range": "Melee",
             "S": "User",
             "AP": "3+",
-            "type": "Auxiliary, Extra Attack 2, Haywire (2+)"
+            "type": "Auxiliary, Extra Attack 2,"
           },
           "Mechandrite Hive": {
             "range": "Melee",
             "S": "User",
             "AP": "-",
             "type": "Auxiliary, Extra Attack 2"
+          },
+          "(2+)": {
+            "range": "",
+            "S": "",
+            "AP": "",
+            "type": ""
           }
         }
       },
@@ -114,11 +132,23 @@
         ],
         "options": [],
         "weapons": {
-          "Jericho Class Conversion Resonator": {
+          "Jericho Class": {
             "range": "24",
             "S": "D",
             "AP": "2+",
-            "type": "Assault 1, Destroyer, Or Or Or Monsterbane, Or 24 6 3+ Assault 4"
+            "type": "Assault 1, Destroyer,"
+          },
+          "Or": {
+            "range": "Or",
+            "S": "Or",
+            "AP": "Monsterbane, Or",
+            "type": ""
+          },
+          "24": {
+            "range": "6",
+            "S": "3+",
+            "AP": "Assault 4",
+            "type": ""
           },
           "Rod of the War Forge": {
             "range": "Melee",
@@ -187,7 +217,7 @@
                 "pts_delta": 0
               },
               {
-                "name": "Eradication Array",
+                "name": "Eradication",
                 "pts_delta": 26
               }
             ]
@@ -212,17 +242,29 @@
             "AP": "4+",
             "type": "Heavy 1, Beam"
           },
-          "Eradication Array": {
+          "Eradication": {
             "range": "24",
             "S": "8",
             "AP": "1+",
-            "type": "Heavy 1, Beam, Melta, (Monsterbane)"
+            "type": "Heavy 1, Beam, Melta,"
+          },
+          "(Monsterbane)": {
+            "range": "",
+            "S": "",
+            "AP": "",
+            "type": ""
           },
           "Omnissian Axe": {
             "range": "Melee",
             "S": "+3",
             "AP": "5+",
             "type": "None 5"
+          },
+          "0-3/Troop Slot Purchased": {
+            "range": "",
+            "S": "",
+            "AP": "",
+            "type": ""
           }
         }
       },
@@ -282,7 +324,7 @@
                 "pts_delta": 0
               },
               {
-                "name": "Eradication Array",
+                "name": "Eradication",
                 "pts_delta": 26
               }
             ]
@@ -307,17 +349,29 @@
             "AP": "4+",
             "type": "Heavy 1, Beam"
           },
-          "Eradication Array": {
+          "Eradication": {
             "range": "24",
             "S": "8",
             "AP": "1+",
-            "type": "Heavy 1, Beam, Melta, (Monsterbane)"
+            "type": "Heavy 1, Beam, Melta,"
+          },
+          "(Monsterbane)": {
+            "range": "",
+            "S": "",
+            "AP": "",
+            "type": ""
           },
           "Omnissian Axe": {
             "range": "Melee",
             "S": "+3",
             "AP": "5+",
             "type": "None 5"
+          },
+          "0-3/Troop Slot Purchased": {
+            "range": "",
+            "S": "",
+            "AP": "",
+            "type": ""
           }
         }
       }
@@ -389,7 +443,13 @@
             "range": "Melee",
             "S": "X2",
             "AP": "2+",
-            "type": "Slow, Monsterbane, Auxiliary Servo Arm"
+            "type": "Slow, Monsterbane, Auxiliary"
+          },
+          "Arm": {
+            "range": "",
+            "S": "",
+            "AP": "",
+            "type": ""
           },
           "Grav Gun": {
             "range": "18",
@@ -467,7 +527,13 @@
             "range": "Melee",
             "S": "X2",
             "AP": "2+",
-            "type": "Slow, Monsterbane, Auxiliary Servo Arm"
+            "type": "Slow, Monsterbane, Auxiliary"
+          },
+          "Arm": {
+            "range": "",
+            "S": "",
+            "AP": "",
+            "type": ""
           },
           "Grav Gun": {
             "range": "18",
@@ -566,6 +632,10 @@
               {
                 "name": "Multimelta",
                 "pts_delta": 25
+              },
+              {
+                "name": "Arm",
+                "pts_delta": 0
               }
             ]
           }
@@ -593,7 +663,7 @@
             "range": "Melee",
             "S": "X2",
             "AP": "2+",
-            "type": "Slow, Monsterbane, Auxiliary Servo Arm"
+            "type": "Slow, Monsterbane, Auxiliary"
           },
           "Phosphor Blaster": {
             "range": "24",
@@ -631,6 +701,12 @@
             "AP": "1+",
             "type": "Heavy 2, Melta, (Monsterbane)"
           },
+          "Arm": {
+            "range": "",
+            "S": "",
+            "AP": "",
+            "type": ""
+          },
           "Frag Grenades": {
             "range": "8",
             "S": "3",
@@ -647,7 +723,13 @@
             "range": "6",
             "S": "8",
             "AP": "1+",
-            "type": "Grenade 1, Armourbane, Monsterbane Non-Blast"
+            "type": "Grenade 1, Armourbane,"
+          },
+          "Non-Blast": {
+            "range": "",
+            "S": "",
+            "AP": "",
+            "type": ""
           }
         }
       },
@@ -721,6 +803,10 @@
               {
                 "name": "Multimelta",
                 "pts_delta": 22
+              },
+              {
+                "name": "Arm",
+                "pts_delta": 0
               }
             ]
           }
@@ -754,7 +840,7 @@
             "range": "Melee",
             "S": "X2",
             "AP": "2+",
-            "type": "Slow, Monsterbane, Auxiliary Servo Arm"
+            "type": "Slow, Monsterbane, Auxiliary"
           },
           "Heavy Bolter": {
             "range": "36",
@@ -773,6 +859,12 @@
             "S": "8",
             "AP": "1+",
             "type": "Heavy 2, Melta, Monsterbane 8"
+          },
+          "Arm": {
+            "range": "",
+            "S": "",
+            "AP": "",
+            "type": ""
           }
         }
       },
@@ -825,7 +917,19 @@
             "range": "Melee",
             "S": "X2",
             "AP": "2+",
-            "type": "Slow, Monsterbane, Auxiliary Servo Arm 9"
+            "type": "Slow, Monsterbane, Auxiliary"
+          },
+          "Arm": {
+            "range": "",
+            "S": "",
+            "AP": "",
+            "type": "9"
+          },
+          "2-6 Slots": {
+            "range": "",
+            "S": "",
+            "AP": "",
+            "type": ""
           }
         }
       },
@@ -873,7 +977,19 @@
             "range": "Melee",
             "S": "X2",
             "AP": "2+",
-            "type": "Slow, Monsterbane, Auxiliary Servo Arm 9"
+            "type": "Slow, Monsterbane, Auxiliary"
+          },
+          "Arm": {
+            "range": "",
+            "S": "",
+            "AP": "",
+            "type": "9"
+          },
+          "2-6 Slots": {
+            "range": "",
+            "S": "",
+            "AP": "",
+            "type": ""
           }
         }
       }
@@ -1305,6 +1421,12 @@
             "S": "4",
             "AP": "3+",
             "type": "Heavy 1, Sniper (2+) 11"
+          },
+          "0-3 Slots": {
+            "range": "",
+            "S": "",
+            "AP": "",
+            "type": ""
           }
         }
       }
@@ -1359,7 +1481,7 @@
                 "pts_delta": 0
               },
               {
-                "name": "Electrostatic Gauntlet",
+                "name": "Electrostatic",
                 "pts_delta": 3
               }
             ]
@@ -1372,11 +1494,23 @@
             "AP": "-",
             "type": "Counterattack, Tesla"
           },
-          "Electrostatic Gauntlet": {
+          "Electrostatic": {
             "range": "12",
             "S": "3",
             "AP": "-",
-            "type": "Pistol 2, Tesla Or Or Or Or Melee    User    -          Extra Attack 1, Tesla"
+            "type": "Pistol 2, Tesla"
+          },
+          "Or": {
+            "range": "Or",
+            "S": "Or",
+            "AP": "Or",
+            "type": ""
+          },
+          "User": {
+            "range": "-",
+            "S": "Extra Attack 1, Tesla",
+            "AP": "",
+            "type": ""
           }
         }
       },
@@ -1485,13 +1619,25 @@
             "range": "12",
             "S": "3",
             "AP": "3+",
-            "type": "Assault 1, Haywire (3+) Melee    User    3+         Haywire (3+)"
+            "type": "Assault 1, Haywire (3+)"
           },
           "Phosphor Pistol": {
             "range": "12",
             "S": "5",
             "AP": "4+",
             "type": "Pistol 1, Ignores Cover"
+          },
+          "Or": {
+            "range": "Or",
+            "S": "Or",
+            "AP": "",
+            "type": ""
+          },
+          "User": {
+            "range": "3+",
+            "S": "Haywire (3+)",
+            "AP": "",
+            "type": ""
           },
           "Power Sword": {
             "range": "Melee",
@@ -1886,8 +2032,16 @@
                 "pts_delta": 0
               },
               {
-                "name": "Radium Jezzail Autocannons Lascannons",
+                "name": "Radium Jezzail",
                 "pts_delta": 2
+              },
+              {
+                "name": "2 Linked",
+                "pts_delta": 4
+              },
+              {
+                "name": "2 Linked",
+                "pts_delta": 12
               },
               {
                 "name": "Phosphor Serpenta",
@@ -1903,11 +2057,23 @@
             "AP": "-",
             "type": "Extra Attack 2, Tesla, Primary"
           },
-          "Radium Jezzail Autocannons Lascannons": {
+          "Radium Jezzail": {
             "range": "30",
             "S": "4",
             "AP": "3+",
-            "type": "Heavy 2, Sniper (3+), Hull, Primary Primary Primary 15"
+            "type": "Heavy 2, Sniper (3+), Hull, Primary"
+          },
+          "2 Linked": {
+            "range": "48",
+            "S": "7",
+            "AP": "4+",
+            "type": "Heavy 2 x2, Monsterbane, Hull,"
+          },
+          "Primary": {
+            "range": "",
+            "S": "",
+            "AP": "",
+            "type": ""
           },
           "Phosphor Serpenta": {
             "range": "18",
@@ -2155,8 +2321,12 @@
                 "pts_delta": 5
               },
               {
-                "name": "Archeo Revolver Phosphor Pistols",
+                "name": "Archeo Revolver",
                 "pts_delta": 6
+              },
+              {
+                "name": "2 Linked",
+                "pts_delta": 10
               },
               {
                 "name": "Phosphor Blast Carbine",
@@ -2179,8 +2349,12 @@
                 "pts_delta": 2
               },
               {
-                "name": "Galvanic Carbine Phosphor Pistols",
+                "name": "Galvanic Carbine",
                 "pts_delta": 0
+              },
+              {
+                "name": "2 Linked",
+                "pts_delta": 7
               },
               {
                 "name": "Phosphor Blast Carbine",
@@ -2224,17 +2398,29 @@
             "AP": "3+",
             "type": "Pistol 1, Haywire (3+)"
           },
-          "Archeo Revolver Phosphor Pistols": {
+          "Archeo Revolver": {
             "range": "12",
             "S": "5",
             "AP": "3+",
             "type": "Pistol 1"
+          },
+          "2 Linked": {
+            "range": "12",
+            "S": "5",
+            "AP": "4+",
+            "type": "Pistol 1 x2, Ignores Cover"
           },
           "Phosphor Blast Carbine": {
             "range": "18",
             "S": "5",
             "AP": "4+",
             "type": "Assault 2, Ignores Cover"
+          },
+          "Pistols": {
+            "range": "",
+            "S": "",
+            "AP": "",
+            "type": ""
           },
           "Cavalry Saber": {
             "range": "Melee",
@@ -2259,12 +2445,6 @@
             "S": "+2",
             "AP": "-",
             "type": "Tesla"
-          },
-          "Galvanic Carbine Phosphor Pistols": {
-            "range": "18",
-            "S": "4",
-            "AP": "-",
-            "type": "Assault 2, Gauss"
           },
           "Clawed Limbs": {
             "range": "Melee",
@@ -2329,8 +2509,12 @@
             "description": "May take up to 2 more Kastelan for +171 points each Any model may swap Dual Powerfists for M Any model may swap Flamer for S",
             "choices": [
               {
-                "name": "Dual Powerfists Phosphor Blasters",
+                "name": "Dual Powerfists",
                 "pts_delta": 0
+              },
+              {
+                "name": "2 Linked Heavy Phosphor Blasters",
+                "pts_delta": 8
               },
               {
                 "name": "Flamer",
@@ -2344,11 +2528,17 @@
           }
         ],
         "weapons": {
-          "Dual Powerfists Phosphor Blasters": {
+          "Dual Powerfists": {
             "range": "Melee",
             "S": "X2",
             "AP": "2+",
             "type": "Extra Attack 1, Slow, Monsterbane"
+          },
+          "2 Linked Heavy Phosphor Blasters": {
+            "range": "36",
+            "S": "5",
+            "AP": "4+",
+            "type": "Heavy 1, 3\u201d Blast, Ignores Cover"
           },
           "Flamer": {
             "range": "Flame",
@@ -2400,8 +2590,12 @@
             "description": "May take up to 2 more Kastelan for +171 points each Any model may swap Dual Powerfists for M Any model may swap Flamer for S",
             "choices": [
               {
-                "name": "Dual Powerfists Phosphor Blasters",
+                "name": "Dual Powerfists",
                 "pts_delta": 0
+              },
+              {
+                "name": "2 Linked Heavy Phosphor Blasters",
+                "pts_delta": 8
               },
               {
                 "name": "Flamer",
@@ -2415,11 +2609,17 @@
           }
         ],
         "weapons": {
-          "Dual Powerfists Phosphor Blasters": {
+          "Dual Powerfists": {
             "range": "Melee",
             "S": "X2",
             "AP": "2+",
             "type": "Extra Attack 1, Slow, Monsterbane"
+          },
+          "2 Linked Heavy Phosphor Blasters": {
+            "range": "36",
+            "S": "5",
+            "AP": "4+",
+            "type": "Heavy 1, 3\u201d Blast, Ignores Cover"
           },
           "Flamer": {
             "range": "Flame",
@@ -2474,7 +2674,11 @@
             "description": "May take up to 2 more Dunecrawlers for +159 points each Any model may swap 2 Linked Heavy Phosphor Blasters for T Any model may take one P Any model may take up to one of each E",
             "choices": [
               {
-                "name": "Eradication Beamer",
+                "name": "2 Linked Heavy",
+                "pts_delta": 0
+              },
+              {
+                "name": "Eradication",
                 "pts_delta": 10
               },
               {
@@ -2482,8 +2686,16 @@
                 "pts_delta": 28
               },
               {
-                "name": "Neutron Laser And Heavy Stubber",
+                "name": "Neutron Laser",
                 "pts_delta": 44
+              },
+              {
+                "name": "Cover, Turret, Primary Blasters",
+                "pts_delta": 0
+              },
+              {
+                "name": "Stubber",
+                "pts_delta": 0
               },
               {
                 "name": "Heavy Stubber",
@@ -2501,23 +2713,59 @@
           }
         ],
         "weapons": {
-          "Eradication Beamer": {
+          "2 Linked Heavy": {
+            "range": "36",
+            "S": "5",
+            "AP": "4+",
+            "type": "Heavy 1 x2, 3\u201d Blast, Ignores"
+          },
+          "Eradication": {
             "range": "36",
             "S": "8",
             "AP": "1+",
-            "type": "Heavy 1, Beam, Melta, (Monsterbane), Turret, Primary"
+            "type": "Heavy 1, Beam, Melta,"
           },
           "Icarus Array": {
             "range": "48",
             "S": "7",
             "AP": "4+",
-            "type": "Heavy 2 x2, Monsterbane, And      And     And       Turret, Primary And 48       6       4+        Heavy 1, 5\u201d Blast, Turret, Primary"
+            "type": "Heavy 2 x2, Monsterbane,"
           },
-          "Neutron Laser And Heavy Stubber": {
+          "Neutron Laser": {
             "range": "48",
             "S": "D",
             "AP": "2+",
-            "type": "Heavy 1, Destroyer, Monsterbane, Coaxial, Turret, And And And Primary And 36       5       6+        Heavy 3, Coaxial, Turret"
+            "type": "Heavy 1, Destroyer,"
+          },
+          "Cover, Turret, Primary Blasters": {
+            "range": "",
+            "S": "",
+            "AP": "",
+            "type": ""
+          },
+          "(Monsterbane), Turret, Primary": {
+            "range": "",
+            "S": "",
+            "AP": "",
+            "type": ""
+          },
+          "And": {
+            "range": "And",
+            "S": "Turret, Primary And",
+            "AP": "",
+            "type": "Primary"
+          },
+          "Monsterbane, Coaxial, Turret,": {
+            "range": "",
+            "S": "",
+            "AP": "",
+            "type": ""
+          },
+          "Stubber": {
+            "range": "And",
+            "S": "And",
+            "AP": "And Primary And",
+            "type": ""
           },
           "Heavy Stubber": {
             "range": "36",
@@ -2568,6 +2816,18 @@
             "description": "May take up to 2 more Disintegrators for +155 points each Any model may swap Belleros Energy Cannon for H Any model may take up to one of each E",
             "choices": [
               {
+                "name": "Turret, Primary",
+                "pts_delta": 0
+              },
+              {
+                "name": "Monsterbane, Turret, Primary",
+                "pts_delta": 0
+              },
+              {
+                "name": "2 Linked",
+                "pts_delta": 0
+              },
+              {
                 "name": "Augar Array",
                 "pts_delta": 5
               },
@@ -2579,23 +2839,59 @@
           }
         ],
         "weapons": {
-          "Belleros Energy Cannon": {
+          "Belleros Energy": {
             "range": "36",
             "S": "5",
             "AP": "3+",
-            "type": "Heavy 1, 5\u201d Blast, Indirect Fire, Turret, Primary"
+            "type": "Heavy 1, 5\u201d Blast, Indirect Fire,"
           },
-          "Ferrumite Cannon Disrupter Missile Launchers Stubbers": {
+          "Ferrumite": {
             "range": "72",
             "S": "9",
             "AP": "2+",
-            "type": "Heavy 1, 3\u201d Blast, Monsterbane, Turret, Primary Primary"
+            "type": "Heavy 1, 3\u201d Blast,"
+          },
+          "Turret, Primary": {
+            "range": "",
+            "S": "",
+            "AP": "",
+            "type": ""
+          },
+          "Monsterbane, Turret, Primary": {
+            "range": "",
+            "S": "",
+            "AP": "",
+            "type": ""
+          },
+          "2 Linked": {
+            "range": "36",
+            "S": "7",
+            "AP": "3+",
+            "type": "Heavy 1 x2, 3\u201d Blast, Hull,"
+          },
+          "Missile Launchers": {
+            "range": "Primary",
+            "S": "",
+            "AP": "",
+            "type": ""
+          },
+          "2 Heavy Stubbers": {
+            "range": "36",
+            "S": "5",
+            "AP": "6+",
+            "type": "Heavy 3 x2, Hull"
           },
           "Heavy Stubber": {
             "range": "36",
             "S": "5",
             "AP": "6+",
             "type": "Heavy 3, Turret"
+          },
+          "0-2 Slots": {
+            "range": "",
+            "S": "",
+            "AP": "",
+            "type": ""
           }
         }
       }
@@ -2641,14 +2937,54 @@
             "description": "May take up to 2 more Archaeopters for +181 points each Any model may swap 2 Linked Heavy Stubbers for H Any model may take one S Any model may swap Bomb Rack for R",
             "choices": [
               {
-                "name": "Bomb Rack Stubbers",
+                "name": "2 Linked Heavy Stubbers",
                 "pts_delta": 0
+              },
+              {
+                "name": "2 Linked Heavy",
+                "pts_delta": 6
+              },
+              {
+                "name": "2 Heavy Stubbers",
+                "pts_delta": 10
+              },
+              {
+                "name": "Bomb Rack",
+                "pts_delta": 0
+              },
+              {
+                "name": "2 Linked Heavy Stubbers",
+                "pts_delta": 2
               }
             ]
           }
         ],
         "weapons": {
-          "Bomb Rack Stubbers": {
+          "2 Linked Heavy Stubbers": {
+            "range": "36",
+            "S": "5",
+            "AP": "6+",
+            "type": "Heavy 3 x2, Hull, Primary"
+          },
+          "2 Linked Heavy": {
+            "range": "36",
+            "S": "5",
+            "AP": "4+",
+            "type": "Heavy 1 x2, 3\u201d Blast, Ignores"
+          },
+          "Cover, Hull, Primary Blasters": {
+            "range": "",
+            "S": "",
+            "AP": "",
+            "type": ""
+          },
+          "2 Heavy Stubbers": {
+            "range": "36",
+            "S": "5",
+            "AP": "6+",
+            "type": "Heavy 3 x2, Hull"
+          },
+          "Bomb Rack": {
             "range": "Bomb",
             "S": "6",
             "AP": "4+",
@@ -2713,7 +3049,14 @@
             ]
           }
         ],
-        "weapons": {}
+        "weapons": {
+          "2 Linked Heavy Stubbers": {
+            "range": "36",
+            "S": "5",
+            "AP": "6+",
+            "type": "Heavy 3 x2, Turret, Primary"
+          }
+        }
       },
       {
         "name": "Terrax Pattern Termite",
@@ -2753,7 +3096,20 @@
         "options": [
           {
             "description": "May swap either Storm Bolter for H",
-            "choices": []
+            "choices": [
+              {
+                "name": "Storm Bolter",
+                "pts_delta": 0
+              },
+              {
+                "name": "Heavy Flamer",
+                "pts_delta": 1
+              },
+              {
+                "name": "2 Linked Terrax",
+                "pts_delta": 2
+              }
+            ]
           },
           {
             "description": "May take any E one time each",
@@ -2761,6 +3117,48 @@
           }
         ],
         "weapons": {
+          "Termite Drill": {
+            "range": "Melee",
+            "S": "X2",
+            "AP": "1+",
+            "type": "Accurate, Monsterbane, Primary"
+          },
+          "Terrax Melta": {
+            "range": "12",
+            "S": "8",
+            "AP": "1+",
+            "type": "Heavy 5, Melta, (Monsterbane),"
+          },
+          "Hull, Primary": {
+            "range": "",
+            "S": "",
+            "AP": "",
+            "type": ""
+          },
+          "Storm Bolter": {
+            "range": "24",
+            "S": "4",
+            "AP": "5+",
+            "type": "Rapid Fire 2, Hull"
+          },
+          "Heavy Flamer": {
+            "range": "Flame",
+            "S": "5",
+            "AP": "4+",
+            "type": "Assault 1, Hull"
+          },
+          "2 Linked Terrax": {
+            "range": "18",
+            "S": "5",
+            "AP": "4+",
+            "type": "Heavy 1 x2, Beam, Hull"
+          },
+          "Chargers": {
+            "range": "",
+            "S": "",
+            "AP": "",
+            "type": ""
+          },
           "of War": {
             "range": "0-1",
             "S": "",
@@ -2827,7 +3225,20 @@
         "options": [
           {
             "description": "May swap either Storm Bolter for H",
-            "choices": []
+            "choices": [
+              {
+                "name": "Storm Bolter",
+                "pts_delta": 0
+              },
+              {
+                "name": "Heavy Flamer",
+                "pts_delta": 1
+              },
+              {
+                "name": "2 Linked Terrax",
+                "pts_delta": 2
+              }
+            ]
           },
           {
             "description": "May take any E one time each",
@@ -2835,7 +3246,12 @@
           },
           {
             "description": "May swap either Vengeance Cannon for T",
-            "choices": []
+            "choices": [
+              {
+                "name": "Terrax Melta",
+                "pts_delta": 0
+              }
+            ]
           },
           {
             "description": "May swap any Emperor Vulcan Megabolter for H",
@@ -2843,6 +3259,48 @@
           }
         ],
         "weapons": {
+          "Termite Drill": {
+            "range": "Melee",
+            "S": "X2",
+            "AP": "1+",
+            "type": "Accurate, Monsterbane, Primary"
+          },
+          "Terrax Melta": {
+            "range": "12",
+            "S": "8",
+            "AP": "1+",
+            "type": "Heavy 5, Melta, (Monsterbane),"
+          },
+          "Hull, Primary": {
+            "range": "",
+            "S": "",
+            "AP": "",
+            "type": ""
+          },
+          "Storm Bolter": {
+            "range": "24",
+            "S": "4",
+            "AP": "5+",
+            "type": "Rapid Fire 2, Hull"
+          },
+          "Heavy Flamer": {
+            "range": "Flame",
+            "S": "5",
+            "AP": "4+",
+            "type": "Assault 1, Hull"
+          },
+          "2 Linked Terrax": {
+            "range": "18",
+            "S": "5",
+            "AP": "4+",
+            "type": "Heavy 1 x2, Beam, Hull"
+          },
+          "Chargers": {
+            "range": "",
+            "S": "",
+            "AP": "",
+            "type": ""
+          },
           "of War": {
             "range": "0-1",
             "S": "",
@@ -2929,19 +3387,27 @@
             "description": "May take one T",
             "choices": [
               {
-                "name": "Vulcan Megabolter Inferno Cannons",
+                "name": "Vulcan Megabolter",
                 "pts_delta": 39
               },
               {
-                "name": "Deathstrike Missile Laser Destructors",
+                "name": "3 Linked Titan",
+                "pts_delta": 120
+              },
+              {
+                "name": "Deathstrike",
                 "pts_delta": 133
+              },
+              {
+                "name": "2 Linked Turbo",
+                "pts_delta": 144
               },
               {
                 "name": "Plasma Blastgun",
                 "pts_delta": 154
               },
               {
-                "name": "Apocalypse Missile Launcher",
+                "name": "Apocalypse",
                 "pts_delta": 170
               }
             ]
@@ -2976,19 +3442,43 @@
             "range": "6",
             "S": "D",
             "AP": "1+",
-            "type": "Assault 1, 5\u201d Blast, Destroyer, Melee     D       1+      Slow, Destroyer, Monsterbane"
+            "type": "Assault 1, 5\u201d Blast, Destroyer,"
           },
-          "Vulcan Megabolter Inferno Cannons": {
+          "Or": {
+            "range": "Or",
+            "S": "Monsterbane, Hull, Primary Or",
+            "AP": "",
+            "type": ""
+          },
+          "D": {
+            "range": "1+",
+            "S": "Slow, Destroyer, Monsterbane",
+            "AP": "",
+            "type": ""
+          },
+          "Vulcan Megabolter": {
             "range": "60",
             "S": "6",
             "AP": "3+",
-            "type": "Heavy 20, Hull, Primary Storm"
+            "type": "Heavy 20, Hull, Primary"
           },
-          "Deathstrike Missile Laser Destructors": {
+          "3 Linked Titan": {
+            "range": "Hell",
+            "S": "7",
+            "AP": "3+",
+            "type": "Assault 1 x3, Hull, Primary"
+          },
+          "Deathstrike": {
             "range": "12 to",
             "S": "D/10 1+/1+ Heavy 1, 15\u201d Blast, Destroyer,",
             "AP": "",
-            "type": "240 /8 /1+ Ordnance, Monsterbane, Indirect Fire, Ignores Cover, One Use Only, T Minus 5, The Hour is Nigh, Hull Monsterbane, Hull, Primary"
+            "type": ""
+          },
+          "2 Linked Turbo": {
+            "range": "96",
+            "S": "D",
+            "AP": "1+",
+            "type": "Heavy 1 x2, 5\u201d Blast, Destroyer,"
           },
           "Plasma Blastgun": {
             "range": "72",
@@ -2996,11 +3486,53 @@
             "AP": "2+",
             "type": "Heavy 2, 7\u201d Blast, Ordnance, Monsterbane, Hull, Primary"
           },
-          "Apocalypse Missile Launcher": {
+          "Apocalypse": {
             "range": "24-240 7",
             "S": "3+",
             "AP": "Heavy 1, Indirect, Apocalyptic",
-            "type": "Barrage, Hull, Primary"
+            "type": ""
+          },
+          "Cannons": {
+            "range": "Storm",
+            "S": "",
+            "AP": "",
+            "type": ""
+          },
+          "240": {
+            "range": "/8",
+            "S": "/1+",
+            "AP": "Ordnance, Monsterbane,",
+            "type": ""
+          },
+          "Launcher": {
+            "range": "Barrage, Hull, Primary",
+            "S": "",
+            "AP": "",
+            "type": ""
+          },
+          "Fire, Ignores Cover,": {
+            "range": "",
+            "S": "",
+            "AP": "",
+            "type": ""
+          },
+          "Use Only, T Minus": {
+            "range": "5,",
+            "S": "",
+            "AP": "",
+            "type": ""
+          },
+          "is Nigh, Hull": {
+            "range": "",
+            "S": "",
+            "AP": "",
+            "type": ""
+          },
+          "Monsterbane, Hull, Primary Destructors": {
+            "range": "",
+            "S": "",
+            "AP": "",
+            "type": ""
           },
           "Crushing Feet": {
             "range": "Bomb",
@@ -3055,12 +3587,20 @@
             "description": "May swap Nemesis Volcano Cannon for T",
             "choices": [
               {
-                "name": "Nemesis Volcano Cannon",
+                "name": "Nemesis Volcano",
                 "pts_delta": 0
               },
               {
-                "name": "Nemesis Quake Cannon",
+                "name": "Nemesis Quake",
                 "pts_delta": 86
+              },
+              {
+                "name": "Monsterbane, Hull, Primary",
+                "pts_delta": 0
+              },
+              {
+                "name": "/6",
+                "pts_delta": 0
               }
             ]
           },
@@ -3080,7 +3620,7 @@
                 "pts_delta": 85
               },
               {
-                "name": "Gatling Blaster Linked Anvillus Defense Batteries Defensor Maulers",
+                "name": "Gatling Blaster",
                 "pts_delta": 142
               }
             ]
@@ -3091,17 +3631,29 @@
           }
         ],
         "weapons": {
-          "Nemesis Volcano Cannon": {
+          "Nemesis Volcano": {
             "range": "24-120",
             "S": "D",
             "AP": "1+",
-            "type": "Heavy 1, 7\u201d Blast, Destroyer, Monsterbane, Hull, Primary"
+            "type": "Heavy 1, 7\u201d Blast, Destroyer,"
           },
-          "Nemesis Quake Cannon": {
+          "Nemesis Quake": {
             "range": "24-240",
             "S": "10/8",
             "AP": "1+",
-            "type": "/1+ Heavy 1, Indirect, 15\u201d Blast, /6 /1+ Monsterbane, Earthshock, Hull, Primary"
+            "type": "/1+ Heavy 1, Indirect, 15\u201d Blast,"
+          },
+          "Monsterbane, Hull, Primary": {
+            "range": "",
+            "S": "",
+            "AP": "",
+            "type": ""
+          },
+          "/6": {
+            "range": "/1+",
+            "S": "Monsterbane, Earthshock, Hull,",
+            "AP": "",
+            "type": "Primary"
           },
           "Melta Cannon": {
             "range": "72",
@@ -3121,11 +3673,35 @@
             "AP": "1+",
             "type": "Heavy 3, 5\u201d Blast, Destroyer, Monsterbane, Hull, Primary"
           },
-          "Gatling Blaster Linked Anvillus Defense Batteries Defensor Maulers": {
+          "Gatling Blaster": {
             "range": "72",
             "S": "8",
             "AP": "3+",
-            "type": "Heavy 6, 5\u201d Blast, Monsterbane, Hull, Primary Monsterbane, Sponson, Primary"
+            "type": "Heavy 6, 5\u201d Blast, Monsterbane, Hull, Primary"
+          },
+          "2 Sets of": {
+            "range": "4",
+            "S": "72",
+            "AP": "8 4+ Heavy 2 x4 (x2), AA,",
+            "type": ""
+          },
+          "3 Ardex Defensor Maulers": {
+            "range": "36",
+            "S": "6",
+            "AP": "3+",
+            "type": "Pistol 6 x3, Sponson, Primary"
+          },
+          "Anvillus": {
+            "range": "Monsterbane, Sponson,",
+            "S": "",
+            "AP": "",
+            "type": ""
+          },
+          "Primary Batteries": {
+            "range": "",
+            "S": "",
+            "AP": "",
+            "type": ""
           },
           "Crushing Feet": {
             "range": "Bomb",
@@ -3180,8 +3756,16 @@
             "description": "May swap either Vulcan Megabolter for H",
             "choices": [
               {
-                "name": "Vulcan Megabolter Inferno Cannons Laser Destructors",
+                "name": "Vulcan Megabolter",
                 "pts_delta": 0
+              },
+              {
+                "name": "3 Linked Titan",
+                "pts_delta": 81
+              },
+              {
+                "name": "2 Linked Turbo",
+                "pts_delta": 105
               },
               {
                 "name": "Plasma Blastgun",
@@ -3191,17 +3775,41 @@
           }
         ],
         "weapons": {
-          "Vulcan Megabolter Inferno Cannons Laser Destructors": {
+          "Vulcan Megabolter": {
             "range": "60",
             "S": "6",
             "AP": "3+",
-            "type": "Heavy 20, Hull, Primary Storm Monsterbane, Hull, Primary"
+            "type": "Heavy 20, Hull, Primary"
+          },
+          "3 Linked Titan": {
+            "range": "Hell",
+            "S": "7",
+            "AP": "3+",
+            "type": "Assault 1 x3, Hull, Primary"
+          },
+          "2 Linked Turbo": {
+            "range": "96",
+            "S": "D",
+            "AP": "1+",
+            "type": "Heavy 1 x2, 5\u201d Blast, Destroyer,"
           },
           "Plasma Blastgun": {
             "range": "72",
             "S": "9",
             "AP": "2+",
             "type": "Heavy 2, 7\u201d Blast, Ordnance, Monsterbane, Hull, Primary"
+          },
+          "Cannons": {
+            "range": "Storm",
+            "S": "",
+            "AP": "",
+            "type": ""
+          },
+          "Monsterbane, Hull, Primary Destructors": {
+            "range": "",
+            "S": "",
+            "AP": "",
+            "type": ""
           },
           "Crushing Feet": {
             "range": "Bomb",
@@ -3269,8 +3877,16 @@
             "description": "May swap either Vulcan Megabolter for H",
             "choices": [
               {
-                "name": "Vulcan Megabolter Inferno Cannons Laser Destructors",
+                "name": "Vulcan Megabolter",
                 "pts_delta": 0
+              },
+              {
+                "name": "3 Linked Titan",
+                "pts_delta": 81
+              },
+              {
+                "name": "2 Linked Turbo",
+                "pts_delta": 105
               },
               {
                 "name": "Plasma Blastgun",
@@ -3280,7 +3896,12 @@
           },
           {
             "description": "May swap 2 Sets of 2 Linked Turbo Laser Destructors for T",
-            "choices": []
+            "choices": [
+              {
+                "name": "Monsterbane, Hull, Primary Destructors",
+                "pts_delta": 0
+              }
+            ]
           },
           {
             "description": "May swap either Belicosa Volcano Cannon for H",
@@ -3288,17 +3909,41 @@
           }
         ],
         "weapons": {
-          "Vulcan Megabolter Inferno Cannons Laser Destructors": {
+          "Vulcan Megabolter": {
             "range": "60",
             "S": "6",
             "AP": "3+",
-            "type": "Heavy 20, Hull, Primary Storm Monsterbane, Hull, Primary"
+            "type": "Heavy 20, Hull, Primary"
+          },
+          "3 Linked Titan": {
+            "range": "Hell",
+            "S": "7",
+            "AP": "3+",
+            "type": "Assault 1 x3, Hull, Primary"
+          },
+          "2 Linked Turbo": {
+            "range": "96",
+            "S": "D",
+            "AP": "1+",
+            "type": "Heavy 1 x2, 5\u201d Blast, Destroyer,"
           },
           "Plasma Blastgun": {
             "range": "72",
             "S": "9",
             "AP": "2+",
             "type": "Heavy 2, 7\u201d Blast, Ordnance, Monsterbane, Hull, Primary"
+          },
+          "Cannons": {
+            "range": "Storm",
+            "S": "",
+            "AP": "",
+            "type": ""
+          },
+          "Monsterbane, Hull, Primary Destructors": {
+            "range": "",
+            "S": "",
+            "AP": "",
+            "type": ""
           },
           "Crushing Feet": {
             "range": "Bomb",
@@ -3447,7 +4092,26 @@
             "choices": []
           }
         ],
-        "weapons": {}
+        "weapons": {
+          "2 Linked Heavy Bolters": {
+            "range": "36",
+            "S": "5",
+            "AP": "4+",
+            "type": "Heavy 3 x2, Turret"
+          },
+          "2 Linked": {
+            "range": "48",
+            "S": "7",
+            "AP": "4+",
+            "type": "Heavy 2 x2, Monsterbane, AA,"
+          },
+          "Turret": {
+            "range": "",
+            "S": "",
+            "AP": "",
+            "type": ""
+          }
+        }
       },
       {
         "name": "Imperial Fortress",
@@ -3498,7 +4162,26 @@
             "choices": []
           }
         ],
-        "weapons": {}
+        "weapons": {
+          "2 Linked Heavy Bolters": {
+            "range": "36",
+            "S": "5",
+            "AP": "4+",
+            "type": "Heavy 3 x2, Turret"
+          },
+          "2 Linked": {
+            "range": "48",
+            "S": "7",
+            "AP": "4+",
+            "type": "Heavy 2 x2, Monsterbane, AA,"
+          },
+          "Turret": {
+            "range": "",
+            "S": "",
+            "AP": "",
+            "type": ""
+          }
+        }
       }
     ],
     "fortifications": [
@@ -3519,7 +4202,26 @@
           "2 Linked Turbolaser Destructors"
         ],
         "options": [],
-        "weapons": {}
+        "weapons": {
+          "2 Linked": {
+            "range": "96",
+            "S": "D",
+            "AP": "1+",
+            "type": "Heavy 1 x2, 5\u201d Blast, Destroyer,"
+          },
+          "Monsterbane, Turret Destructors": {
+            "range": "",
+            "S": "",
+            "AP": "",
+            "type": ""
+          },
+          "0-1/1000 points": {
+            "range": "",
+            "S": "",
+            "AP": "",
+            "type": ""
+          }
+        }
       },
       {
         "name": "Aegis Weapon Emplacement",
@@ -3542,18 +4244,54 @@
             "description": "May swap Long Lascannon for H",
             "choices": [
               {
-                "name": "Long Lascannon Lascannons Autocannons Autocannons",
+                "name": "Long Lascannon",
                 "pts_delta": 0
+              },
+              {
+                "name": "2 Linked Long",
+                "pts_delta": 28
+              },
+              {
+                "name": "2 Linked",
+                "pts_delta": 34
+              },
+              {
+                "name": "4 Linked",
+                "pts_delta": 40
               }
             ]
           }
         ],
         "weapons": {
-          "Long Lascannon Lascannons Autocannons Autocannons": {
+          "Long Lascannon": {
             "range": "72",
             "S": "9",
             "AP": "2+",
-            "type": "Heavy 1, Monsterbane, AA, Turret Turret Turret Turret 34"
+            "type": "Heavy 1, Monsterbane, AA, Turret"
+          },
+          "2 Linked Long": {
+            "range": "72",
+            "S": "9",
+            "AP": "2+",
+            "type": "Heavy 1 x2, Monsterbane, AA,"
+          },
+          "2 Linked": {
+            "range": "48",
+            "S": "7",
+            "AP": "4+",
+            "type": "Heavy 2 x2, Monsterbane, AA,"
+          },
+          "4 Linked": {
+            "range": "48",
+            "S": "7",
+            "AP": "4+",
+            "type": "Heavy 2 x4, Monsterbane, AA,"
+          },
+          "Turret": {
+            "range": "",
+            "S": "",
+            "AP": "",
+            "type": ""
           }
         }
       },
@@ -3575,11 +4313,11 @@
         ],
         "options": [],
         "weapons": {
-          "Plasma Obliterator": {
+          "Plasma": {
             "range": "72",
             "S": "8",
             "AP": "2+",
-            "type": "Heavy 1, 7\u201d Blast, Monsterbane, Turret"
+            "type": "Heavy 1, 7\u201d Blast,"
           },
           "Macro Cannon": {
             "range": "72",
@@ -3587,11 +4325,35 @@
             "AP": "1+",
             "type": "Heavy 1, 5\u201d Blast, Destroyer, Monsterbane, Turret"
           },
-          "+271 Missile Silo": {
+          "+271": {
             "range": "Deathstrike",
             "S": "12 to",
             "AP": "D/10 1+/1+ Heavy 1, 15\u201d Blast, Destroyer,",
-            "type": "240 /8 /1+ Ordnance, Monsterbane, Indirect Fire, Ignores Cover, The Hour is Nigh, T Minus 5, Turret"
+            "type": ""
+          },
+          "Monsterbane, Turret": {
+            "range": "",
+            "S": "",
+            "AP": "",
+            "type": ""
+          },
+          "Silo": {
+            "range": "240",
+            "S": "/8",
+            "AP": "/1+ Ordnance, Monsterbane,",
+            "type": ""
+          },
+          "Fire, Ignores Cover,": {
+            "range": "",
+            "S": "",
+            "AP": "",
+            "type": ""
+          },
+          "Hour is Nigh, T Minus": {
+            "range": "5,",
+            "S": "",
+            "AP": "",
+            "type": "Turret"
           }
         }
       },
@@ -3621,8 +4383,12 @@
                 "pts_delta": 0
               },
               {
-                "name": "Battle Cannon Lascannons",
+                "name": "Battle Cannon",
                 "pts_delta": 12
+              },
+              {
+                "name": "4 Linked Long",
+                "pts_delta": 44
               }
             ]
           }
@@ -3634,11 +4400,23 @@
             "AP": "-",
             "type": "Heavy 20, Turret"
           },
-          "Battle Cannon Lascannons": {
+          "Battle Cannon": {
             "range": "72",
             "S": "8",
             "AP": "3+",
-            "type": "Heavy 1, 5\u201d Blast, Ordnance, Monsterbane, Turret Turret"
+            "type": "Heavy 1, 5\u201d Blast, Ordnance, Monsterbane, Turret"
+          },
+          "4 Linked Long": {
+            "range": "72",
+            "S": "9",
+            "AP": "2+",
+            "type": "Heavy 1 x4, Monsterbane, AA,"
+          },
+          "Turret": {
+            "range": "",
+            "S": "",
+            "AP": "",
+            "type": ""
           }
         }
       },
@@ -3660,11 +4438,17 @@
         ],
         "options": [],
         "weapons": {
-          "Plasma Obliterator": {
+          "Plasma": {
             "range": "72",
             "S": "8",
             "AP": "2+",
-            "type": "Heavy 1, 7\u201d Blast, Monsterbane, Turret"
+            "type": "Heavy 1, 7\u201d Blast,"
+          },
+          "Monsterbane, Turret": {
+            "range": "",
+            "S": "",
+            "AP": "",
+            "type": ""
           }
         }
       },
@@ -3686,11 +4470,17 @@
         ],
         "options": [],
         "weapons": {
-          "Plasma Obliterator": {
+          "Plasma": {
             "range": "72",
             "S": "8",
             "AP": "2+",
-            "type": "Heavy 1, 7\u201d Blast, Monsterbane, Turret"
+            "type": "Heavy 1, 7\u201d Blast,"
+          },
+          "Monsterbane, Turret": {
+            "range": "",
+            "S": "",
+            "AP": "",
+            "type": ""
           }
         }
       },

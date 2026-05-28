@@ -150,7 +150,20 @@
             "choices": []
           }
         ],
-        "weapons": {}
+        "weapons": {
+          "Blade of Blood": {
+            "range": "Melee",
+            "S": "+1",
+            "AP": "2+",
+            "type": "Gorefeast"
+          },
+          "Hellblades": {
+            "range": "Melee",
+            "S": "User",
+            "AP": "3+",
+            "type": "Auxiliary, Extra Attack 3 5"
+          }
+        }
       },
       {
         "name": "Slaughterbound",
@@ -268,7 +281,13 @@
             "range": "Melee",
             "S": "X2",
             "AP": "2+",
-            "type": "Slow, Monsterbane, Ignore Feel No Pain 7"
+            "type": "Slow, Monsterbane, Ignore Feel"
+          },
+          "Pain": {
+            "range": "",
+            "S": "",
+            "AP": "",
+            "type": "7"
           }
         }
       },
@@ -608,11 +627,23 @@
         ],
         "options": [],
         "weapons": {
-          "Executioner\u2019s Axe": {
+          "Executioner\u2019s": {
             "range": "12",
             "S": "9",
             "AP": "2+",
-            "type": "Pistol 1, Monsterbane Or Or Or Or Melee    +2      2+    None 13"
+            "type": "Pistol 1, Monsterbane"
+          },
+          "Or": {
+            "range": "Or",
+            "S": "Or",
+            "AP": "Or",
+            "type": ""
+          },
+          "+2": {
+            "range": "2+",
+            "S": "None",
+            "AP": "",
+            "type": "13"
           }
         }
       },
@@ -678,6 +709,12 @@
             "S": "X2",
             "AP": "1+",
             "type": "Slow, Monsterbane 14"
+          },
+          "0-3/Troop Slot Purchased": {
+            "range": "",
+            "S": "",
+            "AP": "",
+            "type": ""
           }
         }
       }
@@ -722,14 +759,56 @@
         "options": [
           {
             "description": "May swap Dual Lacerators for one SM or two M",
-            "choices": []
+            "choices": [
+              {
+                "name": "Dual Lacerators",
+                "pts_delta": 0
+              },
+              {
+                "name": "Dual Eviscerators",
+                "pts_delta": 8
+              },
+              {
+                "name": "Heavy Chain Glaive",
+                "pts_delta": 9
+              },
+              {
+                "name": "Chainfist",
+                "pts_delta": 12
+              }
+            ]
           },
           {
             "description": "May take one C",
             "choices": []
           }
         ],
-        "weapons": {}
+        "weapons": {
+          "Dual Lacerators": {
+            "range": "Melee",
+            "S": "+1",
+            "AP": "3+",
+            "type": "Extra Attack 2"
+          },
+          "Dual Eviscerators": {
+            "range": "Melee",
+            "S": "+3",
+            "AP": "2+",
+            "type": "Extra Attack 1"
+          },
+          "Heavy Chain Glaive": {
+            "range": "Melee",
+            "S": "X2",
+            "AP": "1+",
+            "type": "Slow, Monsterbane"
+          },
+          "Chainfist": {
+            "range": "Melee",
+            "S": "X2",
+            "AP": "2+",
+            "type": "Slow, Monsterbane, +1 To Penetrate 15"
+          }
+        }
       },
       {
         "name": "Herald of Khorne",
@@ -905,6 +984,12 @@
             "S": "+1",
             "AP": "5+",
             "type": "Auxiliary, Rending 18"
+          },
+          "2-6 Slots": {
+            "range": "",
+            "S": "",
+            "AP": "",
+            "type": ""
           }
         }
       }
@@ -1074,6 +1159,12 @@
             "S": "User",
             "AP": "3+",
             "type": "None 20"
+          },
+          "0-3 Slots": {
+            "range": "",
+            "S": "",
+            "AP": "",
+            "type": ""
           }
         }
       }
@@ -1598,11 +1689,19 @@
             "description": "May take up to 22 more Cultists for +8 points each Any model may swap Autogun for R The entire unit may take one B",
             "choices": [
               {
-                "name": "Autogun Weapons Autopistols",
+                "name": "Autogun",
                 "pts_delta": 0
               },
               {
-                "name": "Autopistol and Brutal Weapon",
+                "name": "2 Chain Weapons",
+                "pts_delta": 1
+              },
+              {
+                "name": "2 Linked Autopistols",
+                "pts_delta": 1
+              },
+              {
+                "name": "Autopistol and",
                 "pts_delta": 1
               },
               {
@@ -1613,23 +1712,47 @@
           }
         ],
         "weapons": {
-          "Autogun Weapons Autopistols": {
+          "Autogun": {
             "range": "24",
             "S": "3",
             "AP": "-",
             "type": "Rapid Fire 1"
           },
-          "Autopistol and Brutal Weapon": {
+          "2 Chain Weapons": {
+            "range": "Melee",
+            "S": "User",
+            "AP": "6+",
+            "type": "Extra Attack 1, Rending"
+          },
+          "2 Linked Autopistols": {
             "range": "12",
             "S": "3",
             "AP": "-",
-            "type": "Pistol 1 Or Or Or Or Melee     User    -          Extra Attack 1"
+            "type": "Pistol 1 x2"
+          },
+          "Autopistol and": {
+            "range": "12",
+            "S": "3",
+            "AP": "-",
+            "type": "Pistol 1"
           },
           "Great Weapon": {
             "range": "Melee",
             "S": "X2",
             "AP": "2+",
             "type": "Extra Attack 1, Slow, Monsterbane"
+          },
+          "Weapon": {
+            "range": "Or",
+            "S": "Or",
+            "AP": "Or Or",
+            "type": ""
+          },
+          "User": {
+            "range": "-",
+            "S": "Extra Attack 1",
+            "AP": "",
+            "type": ""
           },
           "Frag Grenades": {
             "range": "8",
@@ -1749,23 +1872,41 @@
         ],
         "options": [],
         "weapons": {
-          "An\u2019ggrath\u2019s Lash of Khorne": {
+          "An\u2019ggrath\u2019s Lash": {
             "range": "12",
             "S": "10",
             "AP": "2+",
             "type": "Assault 6, Monsterbane"
           },
-          "An\u2019ggrath\u2019s Axe of Khorne": {
+          "Khorne": {
+            "range": "",
+            "S": "",
+            "AP": "",
+            "type": ""
+          },
+          "An\u2019ggrath\u2019s Axe": {
             "range": "Melee",
             "S": "User",
             "AP": "1+",
             "type": "Ignores Invulnerability Saves"
           },
-          "Axe and Flail of Khorne": {
+          "Axe and Flail of": {
             "range": "12",
             "S": "D",
             "AP": "2+",
-            "type": "Assault 1, Destroyer, Or Or Or Monsterbane Or Melee     +3      2+      None 27"
+            "type": "Assault 1, Destroyer,"
+          },
+          "Or": {
+            "range": "Or",
+            "S": "Or",
+            "AP": "Monsterbane Or",
+            "type": ""
+          },
+          "+3": {
+            "range": "2+",
+            "S": "None",
+            "AP": "",
+            "type": "27"
           }
         }
       },
@@ -1815,12 +1956,16 @@
                 "pts_delta": 0
               },
               {
-                "name": "Axe and Lash of Khorne",
+                "name": "Axe and Lash of",
                 "pts_delta": 27
               },
               {
-                "name": "Axe and Flail of Khorne",
+                "name": "Axe and Flail of",
                 "pts_delta": 35
+              },
+              {
+                "name": "Or",
+                "pts_delta": 0
               }
             ]
           }
@@ -1832,17 +1977,29 @@
             "AP": "1+",
             "type": "Slow, Monsterbane"
           },
-          "Axe and Lash of Khorne": {
+          "Axe and Lash of": {
             "range": "12",
             "S": "7",
             "AP": "2+",
-            "type": "Assault 6 Or Or Or Or Melee     +3      2+        None"
+            "type": "Assault 6"
           },
-          "Axe and Flail of Khorne": {
+          "Axe and Flail of": {
             "range": "12",
             "S": "D",
             "AP": "2+",
-            "type": "Assault 1, Destroyer, Or Or Or Monsterbane Or Melee     +3      2+        None"
+            "type": "Assault 1, Destroyer,"
+          },
+          "Or": {
+            "range": "Or",
+            "S": "Or",
+            "AP": "Or",
+            "type": ""
+          },
+          "+3": {
+            "range": "2+",
+            "S": "None",
+            "AP": "",
+            "type": ""
           },
           "Brass Scorpion of": {
             "range": "Points: 623",
@@ -1960,11 +2117,23 @@
             "description": "May swap Hades Gatling Cannon for H",
             "choices": [
               {
-                "name": "Hades Gatling Cannon",
+                "name": "Hades Gatling",
                 "pts_delta": 0
               },
               {
                 "name": "Skullhurler",
+                "pts_delta": 0
+              },
+              {
+                "name": "Primary",
+                "pts_delta": 0
+              },
+              {
+                "name": "Monsterbane, Hull, Primary",
+                "pts_delta": 0
+              },
+              {
+                "name": "Storm",
                 "pts_delta": 0
               }
             ]
@@ -1975,11 +2144,11 @@
           }
         ],
         "weapons": {
-          "Hades Gatling Cannon": {
+          "Hades Gatling": {
             "range": "48",
             "S": "7",
             "AP": "3+",
-            "type": "Heavy 12, Pinning, Hull, Primary"
+            "type": "Heavy 12, Pinning, Hull,"
           },
           "Skullhurler": {
             "range": "48",
@@ -1987,17 +2156,35 @@
             "AP": "2+",
             "type": "Heavy 1, 5\u201d Blast, Hull, Primary"
           },
-          "Daemongorge Cannon": {
+          "Primary": {
+            "range": "",
+            "S": "",
+            "AP": "",
+            "type": ""
+          },
+          "Monsterbane, Hull, Primary": {
+            "range": "",
+            "S": "",
+            "AP": "",
+            "type": ""
+          },
+          "Storm": {
+            "range": "Primary",
+            "S": "",
+            "AP": "",
+            "type": ""
+          },
+          "Daemongorge": {
             "range": "48",
             "S": "8",
             "AP": "3+",
-            "type": "Heavy 8, Pinning, Monsterbane, Hull, Primary"
+            "type": "Heavy 8, Pinning,"
           },
-          "Gorestorm Cannon": {
+          "Gorestorm": {
             "range": "Hell",
             "S": "8",
             "AP": "3+",
-            "type": "Assault 1, Monsterbane, Hull, Storm Primary"
+            "type": "Assault 1, Monsterbane, Hull,"
           },
           "Ichor Cannon": {
             "range": "60",
@@ -2062,11 +2249,47 @@
           }
         ],
         "weapons": {
-          "Balemaw Cannon Linked Skullreaper Cannons Cannons Linked Skullshredders": {
+          "Balemaw": {
             "range": "60",
             "S": "9",
             "AP": "3+",
-            "type": "Heavy 1, Apocalyptic Barrage, Monsterbane, Hull, Primary Or Or Or Sponson, Primary Or 60        4      5+        Heavy 4 x2, 3\u201d Blast, Indirect, Sponson, Primary Primary 30"
+            "type": "Heavy 1, Apocalyptic Barrage,"
+          },
+          "Monsterbane, Hull, Primary": {
+            "range": "",
+            "S": "",
+            "AP": "",
+            "type": ""
+          },
+          "2 Sets of Linked Skullreaper Cannons": {
+            "range": "6",
+            "S": "36",
+            "AP": "6 3+ Heavy 1 x6 (x2), Hull, Primary",
+            "type": ""
+          },
+          "2 Thunderfire": {
+            "range": "60",
+            "S": "8",
+            "AP": "3+",
+            "type": "Heavy 4 x2, Monsterbane,"
+          },
+          "2 Sets of": {
+            "range": "2",
+            "S": "24",
+            "AP": "4 4+ Heavy 5 x2 (x2), Sponson,",
+            "type": ""
+          },
+          "Or": {
+            "range": "Or",
+            "S": "Or",
+            "AP": "Sponson, Primary Or",
+            "type": "Sponson, Primary"
+          },
+          "Primary Skullshredders": {
+            "range": "",
+            "S": "",
+            "AP": "",
+            "type": "30"
           }
         }
       },
@@ -2116,11 +2339,17 @@
           }
         ],
         "weapons": {
-          "Kytan Gatling Cannon": {
+          "Kytan Gatling": {
             "range": "48",
             "S": "7",
             "AP": "3+",
-            "type": "Heavy 10, Pinning, Hull, Primary"
+            "type": "Heavy 10, Pinning, Hull,"
+          },
+          "Primary": {
+            "range": "",
+            "S": "",
+            "AP": "",
+            "type": ""
           },
           "Kytan Cleaver": {
             "range": "Melee",
@@ -2191,11 +2420,17 @@
           }
         ],
         "weapons": {
-          "Kytan Gatling Cannon": {
+          "Kytan Gatling": {
             "range": "48",
             "S": "7",
             "AP": "3+",
-            "type": "Heavy 10, Pinning, Hull, Primary"
+            "type": "Heavy 10, Pinning, Hull,"
+          },
+          "Primary": {
+            "range": "",
+            "S": "",
+            "AP": "",
+            "type": ""
           },
           "Kytan Cleaver": {
             "range": "Melee",

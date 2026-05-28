@@ -94,7 +94,7 @@
                 "pts_delta": 8
               },
               {
-                "name": "Nemesis Warding Staff",
+                "name": "Nemesis",
                 "pts_delta": 9
               },
               {
@@ -110,7 +110,7 @@
                 "pts_delta": 28
               },
               {
-                "name": "Nemesis Daemon Hammer",
+                "name": "Nemesis",
                 "pts_delta": 57
               },
               {
@@ -187,7 +187,7 @@
             "description": "May swap Krak Grenades for G",
             "choices": [
               {
-                "name": "Psykout Grenades",
+                "name": "Psykout",
                 "pts_delta": 0
               },
               {
@@ -201,6 +201,10 @@
               {
                 "name": "Meltabombs",
                 "pts_delta": 5
+              },
+              {
+                "name": "Disruption",
+                "pts_delta": 0
               }
             ]
           },
@@ -268,11 +272,11 @@
             "AP": "4+",
             "type": "Concussion"
           },
-          "Nemesis Warding Staff": {
+          "Nemesis": {
             "range": "Melee",
             "S": "+2",
             "AP": "4+",
-            "type": "Psychicbane, -1 to Invulnerability Save (Improves by 1)"
+            "type": "Psychicbane, -1 to"
           },
           "Powerfist": {
             "range": "Melee",
@@ -291,12 +295,6 @@
             "S": "10",
             "AP": "1+",
             "type": "Slow, Monsterbane"
-          },
-          "Nemesis Daemon Hammer": {
-            "range": "Melee",
-            "S": "10",
-            "AP": "1+",
-            "type": "Slow, Armourbane, Monsterbane, Psychicbane"
           },
           "Boltgun": {
             "range": "24",
@@ -320,13 +318,13 @@
             "range": "Flame",
             "S": "4",
             "AP": "5+",
-            "type": "Assault 1 24        4       5+        Rapid Fire 1 6"
+            "type": "Assault 1"
           },
           "Combi Plasma": {
             "range": "24",
             "S": "7",
             "AP": "2+",
-            "type": "Rapid Fire 1, Gets Hot! 24      4      5+     Rapid Fire 1"
+            "type": "Rapid Fire 1, Gets Hot!"
           },
           "Psycannon": {
             "range": "24",
@@ -344,7 +342,7 @@
             "range": "12",
             "S": "8",
             "AP": "1+",
-            "type": "Assault 1, Melta, 24      4      5+     Rapid Fire 1"
+            "type": "Assault 1, Melta,"
           },
           "Hellrifle": {
             "range": "36",
@@ -357,6 +355,12 @@
             "S": "10",
             "AP": "1+",
             "type": "Heavy 1, 3\u201d Blast"
+          },
+          "Or": {
+            "range": "Or",
+            "S": "Or",
+            "AP": "",
+            "type": "6"
           },
           "Needle Pistol": {
             "range": "12",
@@ -394,11 +398,29 @@
             "AP": "1+",
             "type": "Pistol 1, Melta, (Monsterbane)"
           },
-          "Psykout Grenades": {
+          "Staff": {
+            "range": "Invulnerability Save (Improves",
+            "S": "",
+            "AP": "",
+            "type": ""
+          },
+          "1)": {
+            "range": "",
+            "S": "",
+            "AP": "",
+            "type": ""
+          },
+          "Monsterbane, Psychicbane Hammer": {
+            "range": "",
+            "S": "",
+            "AP": "",
+            "type": ""
+          },
+          "Psykout": {
             "range": "8",
             "S": "3",
             "AP": "-",
-            "type": "Grenade 1, 3\u201d Blast, Psychic Disruption"
+            "type": "Grenade 1, 3\u201d Blast, Psychic"
           },
           "Frag Grenades": {
             "range": "8",
@@ -418,11 +440,35 @@
             "AP": "1+",
             "type": "Grenade 1, Nonblast, Armourbane, Monsterbane"
           },
-          "Orbital Strike": {
+          "Disruption": {
+            "range": "",
+            "S": "",
+            "AP": "",
+            "type": ""
+          },
+          "Orbital Strike /8": {
             "range": "12-240 D/10 1+/1+ Heavy 1, 15\u201d Blast, Destroyer,",
             "S": "",
             "AP": "",
-            "type": "/8   /1+   Ordnance, Monsterbane, Indirect Fire, Ignores Cover, The Hour is Nigh, T Minus 5, One Use Only 7"
+            "type": "/1+ Ordnance, Monsterbane,"
+          },
+          "Fire, Ignores Cover, The": {
+            "range": "",
+            "S": "",
+            "AP": "",
+            "type": ""
+          },
+          "is Nigh, T Minus": {
+            "range": "5,",
+            "S": "",
+            "AP": "",
+            "type": "Only 7"
+          },
+          "0-3/Troop Slot Purchased": {
+            "range": "",
+            "S": "",
+            "AP": "",
+            "type": ""
           }
         }
       }
@@ -533,11 +579,17 @@
             "AP": "4+",
             "type": "Grenade 1, Nonblast"
           },
-          "Plasma Grenades": {
+          "Plasma": {
             "range": "8",
             "S": "4",
             "AP": "4+",
-            "type": "Grenade 1, Nonblast, Blind \u2013 Charges against this model are Disorganized. 8"
+            "type": "Grenade 1, Nonblast, Blind \u2013"
+          },
+          "Charges against this model are": {
+            "range": "",
+            "S": "",
+            "AP": "",
+            "type": "Disorganized. 8"
           }
         }
       },
@@ -754,7 +806,25 @@
             "range": "24",
             "S": "8",
             "AP": "1+",
-            "type": "Assault 2, Melta, Flame    5       4+    Assault 1 10"
+            "type": "Assault 2, Melta,"
+          },
+          "Or": {
+            "range": "Or",
+            "S": "(Monsterbane), Or",
+            "AP": "",
+            "type": ""
+          },
+          "5": {
+            "range": "4+",
+            "S": "Assault 1",
+            "AP": "",
+            "type": "10"
+          },
+          "2-6 Slots": {
+            "range": "",
+            "S": "",
+            "AP": "",
+            "type": ""
           }
         }
       }
@@ -953,7 +1023,7 @@
             "range": "Flame",
             "S": "4",
             "AP": "5+",
-            "type": "Assault 1 24        4       5+       Rapid Fire 1"
+            "type": "Assault 1"
           },
           "Plasma Pistol": {
             "range": "12",
@@ -965,19 +1035,25 @@
             "range": "24",
             "S": "7",
             "AP": "2+",
-            "type": "Rapid Fire 1, Gets Hot! 24        4       5+       Rapid Fire 1"
+            "type": "Rapid Fire 1, Gets Hot!"
           },
           "Combi Melta": {
             "range": "12",
             "S": "8",
             "AP": "1+",
-            "type": "Assault 1, Melta, 11 24      4      5+   Rapid Fire 1"
+            "type": "Assault 1, Melta,"
           },
           "Inferno Pistol": {
             "range": "6",
             "S": "8",
             "AP": "1+",
             "type": "Pistol 1, Melta, (Monsterbane)"
+          },
+          "Or": {
+            "range": "Or",
+            "S": "Or",
+            "AP": "",
+            "type": ""
           },
           "Chainsword": {
             "range": "Melee",
@@ -1247,7 +1323,7 @@
                 "pts_delta": 18
               },
               {
-                "name": "Power Fist And Meltagun",
+                "name": "Power Fist",
                 "pts_delta": 35
               },
               {
@@ -1286,25 +1362,31 @@
             "range": "Flame",
             "S": "4",
             "AP": "5+",
-            "type": "Assault 1 24       4       5+         Rapid Fire 1, Bolter"
+            "type": "Assault 1"
           },
           "Combi Grav": {
             "range": "18",
             "S": "*",
             "AP": "-",
-            "type": "Rapid Fire 1, Grav 24       4       5+         Rapid Fire 1, Bolter"
+            "type": "Rapid Fire 1, Grav"
           },
           "Combi Plasma": {
             "range": "24",
             "S": "7",
             "AP": "2+",
-            "type": "Rapid Fire 1, Gets Hot! 24       4       5+         Rapid Fire 1, Bolter"
+            "type": "Rapid Fire 1, Gets Hot!"
           },
           "Combi Melta": {
             "range": "12",
             "S": "8",
             "AP": "1+",
-            "type": "Assault 1, Melta, 24       4       5+         Rapid Fire 1, Bolter"
+            "type": "Assault 1, Melta,"
+          },
+          "Or": {
+            "range": "Or",
+            "S": "Or",
+            "AP": "",
+            "type": ""
           },
           "Flamer": {
             "range": "Flame",
@@ -1358,7 +1440,7 @@
             "range": "",
             "S": "",
             "AP": "",
-            "type": "48           8       3+       Heavy 1, Monsterbane 48           4       6+       Heavy 1, 3\u201d Blast"
+            "type": ""
           },
           "Lascannon": {
             "range": "48",
@@ -1450,11 +1532,17 @@
             "AP": "1+",
             "type": "Slow, Monsterbane"
           },
-          "Power Fist And Meltagun": {
-            "range": "12",
-            "S": "8",
-            "AP": "1+",
-            "type": "Assault 1, Melta, And And And (Monsterbane) And Melee X2 2+ Slow, Monsterbane"
+          "And": {
+            "range": "And",
+            "S": "And",
+            "AP": "(Monsterbane) And",
+            "type": ""
+          },
+          "Melee": {
+            "range": "X2",
+            "S": "2+",
+            "AP": "Slow, Monsterbane",
+            "type": ""
           },
           "Frag Grenades": {
             "range": "8",
@@ -1478,13 +1566,43 @@
             "range": "For space conservation, see each",
             "S": "Points: 1517",
             "AP": "",
-            "type": "rules and Wargear.                  1 Calexus 1 Callidus 1 Eversor 1 Vindicare"
+            "type": ""
+          },
+          "Force:": {
+            "range": "",
+            "S": "",
+            "AP": "",
+            "type": ""
+          },
+          "Force \u2013 Each model": {
+            "range": "",
+            "S": "",
+            "AP": "",
+            "type": ""
+          },
+          "and Wargear.": {
+            "range": "1 Calexus",
+            "S": "",
+            "AP": "",
+            "type": "1 Callidus 1 Eversor 1 Vindicare"
           },
           "Options": {
             "range": "Rules",
             "S": "",
             "AP": "",
-            "type": "Execution Force: Execution Force \u2013 Each model is deployed and treated as its own separate unit. 14"
+            "type": ""
+          },
+          "deployed and treated as its": {
+            "range": "",
+            "S": "",
+            "AP": "",
+            "type": ""
+          },
+          "separate unit.": {
+            "range": "",
+            "S": "",
+            "AP": "",
+            "type": "14"
           },
           "Wargear:": {
             "range": "Special Wargear Upgrades:",
@@ -1671,7 +1789,7 @@
                 "pts_delta": 18
               },
               {
-                "name": "Power Fist And Meltagun",
+                "name": "Power Fist",
                 "pts_delta": 35
               },
               {
@@ -1710,25 +1828,31 @@
             "range": "Flame",
             "S": "4",
             "AP": "5+",
-            "type": "Assault 1 24       4       5+         Rapid Fire 1, Bolter"
+            "type": "Assault 1"
           },
           "Combi Grav": {
             "range": "18",
             "S": "*",
             "AP": "-",
-            "type": "Rapid Fire 1, Grav 24       4       5+         Rapid Fire 1, Bolter"
+            "type": "Rapid Fire 1, Grav"
           },
           "Combi Plasma": {
             "range": "24",
             "S": "7",
             "AP": "2+",
-            "type": "Rapid Fire 1, Gets Hot! 24       4       5+         Rapid Fire 1, Bolter"
+            "type": "Rapid Fire 1, Gets Hot!"
           },
           "Combi Melta": {
             "range": "12",
             "S": "8",
             "AP": "1+",
-            "type": "Assault 1, Melta, 24       4       5+         Rapid Fire 1, Bolter"
+            "type": "Assault 1, Melta,"
+          },
+          "Or": {
+            "range": "Or",
+            "S": "Or",
+            "AP": "",
+            "type": ""
           },
           "Flamer": {
             "range": "Flame",
@@ -1782,7 +1906,7 @@
             "range": "",
             "S": "",
             "AP": "",
-            "type": "48           8       3+       Heavy 1, Monsterbane 48           4       6+       Heavy 1, 3\u201d Blast"
+            "type": ""
           },
           "Lascannon": {
             "range": "48",
@@ -1874,11 +1998,17 @@
             "AP": "1+",
             "type": "Slow, Monsterbane"
           },
-          "Power Fist And Meltagun": {
-            "range": "12",
-            "S": "8",
-            "AP": "1+",
-            "type": "Assault 1, Melta, And And And (Monsterbane) And Melee X2 2+ Slow, Monsterbane"
+          "And": {
+            "range": "And",
+            "S": "And",
+            "AP": "(Monsterbane) And",
+            "type": ""
+          },
+          "Melee": {
+            "range": "X2",
+            "S": "2+",
+            "AP": "Slow, Monsterbane",
+            "type": ""
           },
           "Frag Grenades": {
             "range": "8",
@@ -1902,13 +2032,43 @@
             "range": "For space conservation, see each",
             "S": "Points: 1517",
             "AP": "",
-            "type": "rules and Wargear.                  1 Calexus 1 Callidus 1 Eversor 1 Vindicare"
+            "type": ""
+          },
+          "Force:": {
+            "range": "",
+            "S": "",
+            "AP": "",
+            "type": ""
+          },
+          "Force \u2013 Each model": {
+            "range": "",
+            "S": "",
+            "AP": "",
+            "type": ""
+          },
+          "and Wargear.": {
+            "range": "1 Calexus",
+            "S": "",
+            "AP": "",
+            "type": "1 Callidus 1 Eversor 1 Vindicare"
           },
           "Options": {
             "range": "Rules",
             "S": "",
             "AP": "",
-            "type": "Execution Force: Execution Force \u2013 Each model is deployed and treated as its own separate unit. 14"
+            "type": ""
+          },
+          "deployed and treated as its": {
+            "range": "",
+            "S": "",
+            "AP": "",
+            "type": ""
+          },
+          "separate unit.": {
+            "range": "",
+            "S": "",
+            "AP": "",
+            "type": "14"
           },
           "Wargear:": {
             "range": "Special Wargear Upgrades:",
@@ -2039,7 +2199,7 @@
             "description": "May take up to 5 more Veterans for +55 points each Sergeant may swap Krak Grenades for G Any model may swap Special Issue Bolt Rifle for R, S, or H Any model may swap Bolt Pistol for P Any model may swap Combat Knife for M",
             "choices": [
               {
-                "name": "Special Issue Bolt Rifle",
+                "name": "Special Issue",
                 "pts_delta": 0
               },
               {
@@ -2047,20 +2207,20 @@
                 "pts_delta": 1
               },
               {
-                "name": "Bolt Rifle Combi Flamer",
+                "name": "Bolt Rifle Combi",
                 "pts_delta": 3
               },
               {
-                "name": "Bolt Rifle Combi Grav",
+                "name": "Bolt Rifle Combi",
                 "pts_delta": 5
               },
               {
-                "name": "Bolt Rifle Combi Plasma",
-                "pts_delta": 5
-              },
-              {
-                "name": "Bolt Rifle Combi Melta",
+                "name": "Bolt Rifle Combi",
                 "pts_delta": 20
+              },
+              {
+                "name": "Rifle",
+                "pts_delta": 0
               },
               {
                 "name": "Flamer",
@@ -2122,11 +2282,11 @@
           }
         ],
         "weapons": {
-          "Special Issue Bolt Rifle": {
+          "Special Issue": {
             "range": "30",
             "S": "4",
             "AP": "3+",
-            "type": "Rapid Fire 1, Bolter 17"
+            "type": "Rapid Fire 1, Bolter"
           },
           "Special Issue Stormbolter": {
             "range": "30",
@@ -2134,29 +2294,23 @@
             "AP": "3+",
             "type": "Rapid Fire 2, Bolter"
           },
-          "Bolt Rifle Combi Flamer": {
+          "Bolt Rifle Combi": {
             "range": "Flame",
             "S": "4",
             "AP": "5+",
-            "type": "Assault 1 Or Or Or Or 30      4      4+   Rapid Fire 1, Bolter"
+            "type": "Assault 1"
           },
-          "Bolt Rifle Combi Grav": {
-            "range": "18",
-            "S": "*",
-            "AP": "-",
-            "type": "Rapid Fire 1, Grav Or Or Or Or 30      4      4+   Rapid Fire 1, Bolter"
+          "Rifle": {
+            "range": "",
+            "S": "",
+            "AP": "",
+            "type": "17"
           },
-          "Bolt Rifle Combi Plasma": {
-            "range": "24",
-            "S": "7",
-            "AP": "2+",
-            "type": "Rapid Fire 1, Gets Hot! Or Or Or Or 30      4      4+   Rapid Fire 1, Bolter"
-          },
-          "Bolt Rifle Combi Melta": {
-            "range": "12",
-            "S": "8",
-            "AP": "1+",
-            "type": "Assault 1, Melta, Or Or Or (Monsterbane) Or 30      4      4+   Rapid Fire 1, Bolter"
+          "Or": {
+            "range": "Or",
+            "S": "Or",
+            "AP": "Or",
+            "type": ""
           },
           "Flamer": {
             "range": "Flame",
@@ -2339,7 +2493,7 @@
                 "pts_delta": 0
               },
               {
-                "name": "Nemesis Warding Staff",
+                "name": "Nemesis",
                 "pts_delta": 3
               },
               {
@@ -2351,7 +2505,7 @@
                 "pts_delta": 5
               },
               {
-                "name": "Nemesis Daemon Hammer",
+                "name": "Nemesis",
                 "pts_delta": 13
               },
               {
@@ -2363,12 +2517,16 @@
                 "pts_delta": 0
               },
               {
-                "name": "Psykout Grenades",
+                "name": "Psykout",
                 "pts_delta": 0
               },
               {
                 "name": "Meltabombs",
                 "pts_delta": 5
+              },
+              {
+                "name": "Disruption",
+                "pts_delta": 0
               }
             ]
           }
@@ -2404,11 +2562,11 @@
             "AP": "3+",
             "type": "Psychicbane, Counterattack"
           },
-          "Nemesis Warding Staff": {
+          "Nemesis": {
             "range": "Melee",
             "S": "+2",
             "AP": "4+",
-            "type": "Psychicbane, 5+ Invulnerability Save"
+            "type": "Psychicbane, 5+ Invulnerability"
           },
           "Nemesis Force Sword": {
             "range": "Melee",
@@ -2422,11 +2580,17 @@
             "AP": "3+",
             "type": "Extra Attack 3, Psychic Bane"
           },
-          "Nemesis Daemon Hammer": {
-            "range": "Melee",
-            "S": "10",
-            "AP": "1+",
-            "type": "Slow, Armourbane, Monsterbane, Psychicbane"
+          "Staff": {
+            "range": "Save",
+            "S": "",
+            "AP": "",
+            "type": ""
+          },
+          "Monsterbane, Psychicbane Hammer": {
+            "range": "",
+            "S": "",
+            "AP": "",
+            "type": ""
           },
           "Frag Grenades": {
             "range": "8",
@@ -2440,17 +2604,29 @@
             "AP": "4+",
             "type": "Grenade 1, Nonblast"
           },
-          "Psykout Grenades": {
+          "Psykout": {
             "range": "8",
             "S": "3",
             "AP": "-",
-            "type": "Grenade 1, 3\u201d Blast, Psychic Disruption"
+            "type": "Grenade 1, 3\u201d Blast, Psychic"
           },
           "Meltabombs": {
             "range": "6",
             "S": "8",
             "AP": "1+",
             "type": "Grenade 1, Armourbane, Monsterbane, Nonblast"
+          },
+          "Disruption": {
+            "range": "",
+            "S": "",
+            "AP": "",
+            "type": ""
+          },
+          "0-3 Slots": {
+            "range": "",
+            "S": "",
+            "AP": "",
+            "type": ""
           }
         }
       }
@@ -2499,27 +2675,35 @@
             "description": "May add up to two more Dreadnoughts for +152 points each Any Dreadnought may swap any Dreadnought Missile Launcher for H Any Dreadnought may take up to one of each E Any Dreadnought may each take up to one Grey Knight Spell per Psychic Mastery Level. These are cast by each model Independently.",
             "choices": [
               {
-                "name": "Dreadnought Missile Launcher",
+                "name": "Dreadnought",
                 "pts_delta": 0
               },
               {
-                "name": "Multimelta Autocannons",
+                "name": "Multimelta",
                 "pts_delta": 2
+              },
+              {
+                "name": "2 Linked",
+                "pts_delta": 3
               },
               {
                 "name": "Psycannon",
                 "pts_delta": 4
               },
               {
-                "name": "Assault Cannon Lascannons",
+                "name": "Assault Cannon",
                 "pts_delta": 5
               },
               {
-                "name": "Dreadnought Combat Weapon and Stormbolter",
+                "name": "2 Linked",
+                "pts_delta": 11
+              },
+              {
+                "name": "Dreadnought",
                 "pts_delta": 12
               },
               {
-                "name": "Dreadnought Combat Weapon and Incinerator",
+                "name": "Dreadnought",
                 "pts_delta": 15
               },
               {
@@ -2527,8 +2711,12 @@
                 "pts_delta": 16
               },
               {
-                "name": "Heavy Plasma Cannon",
+                "name": "Heavy Plasma",
                 "pts_delta": 28
+              },
+              {
+                "name": "Launcher",
+                "pts_delta": 0
               },
               {
                 "name": "Extra Armour",
@@ -2542,17 +2730,23 @@
           }
         ],
         "weapons": {
-          "Dreadnought Missile Launcher": {
+          "Dreadnought": {
             "range": "48",
             "S": "8",
             "AP": "3+",
-            "type": "Heavy 2, Monsterbane, Hull, Or Or Or Primary Or 48        4       6+        Heavy 2, 3\u201d Blast, Hull, Primary"
+            "type": "Heavy 2, Monsterbane, Hull,"
           },
-          "Multimelta Autocannons": {
+          "Multimelta": {
             "range": "24",
             "S": "8",
             "AP": "1+",
-            "type": "Heavy 2, Melta, (Monsterbane), Hull, Primary Primary"
+            "type": "Heavy 2, Melta, (Monsterbane), Hull, Primary"
+          },
+          "2 Linked": {
+            "range": "48",
+            "S": "7",
+            "AP": "4+",
+            "type": "Heavy 2 x2, Monsterbane, Hull,"
           },
           "Psycannon": {
             "range": "24",
@@ -2560,23 +2754,11 @@
             "AP": "4+",
             "type": "Rapid Fire 2, Rending, Monsterbane, Hull, Primary 20"
           },
-          "Assault Cannon Lascannons": {
+          "Assault Cannon": {
             "range": "36",
             "S": "6",
             "AP": "4+",
-            "type": "Assault 6, Rending, Hull, Primary Primary"
-          },
-          "Dreadnought Combat Weapon and Stormbolter": {
-            "range": "Melee",
-            "S": "X2",
-            "AP": "2+",
-            "type": "Slow, Monsterbane, Primary And And And And 24 4 5+ Rapid Fire 2, Bolter, Hull"
-          },
-          "Dreadnought Combat Weapon and Incinerator": {
-            "range": "Melee",
-            "S": "X2",
-            "AP": "2+",
-            "type": "Slow, Monsterbane, Primary And And And And Flame 6 4+ Assault 1, Hull"
+            "type": "Assault 6, Rending, Hull, Primary"
           },
           "Doom Glaive": {
             "range": "Melee",
@@ -2584,11 +2766,47 @@
             "AP": "2+",
             "type": "Counterattack, Psychicbane, Primary"
           },
-          "Heavy Plasma Cannon": {
+          "Heavy Plasma": {
             "range": "48",
             "S": "8",
             "AP": "2+",
-            "type": "Heavy 1, 5\u201d Blast, Monsterbane, Hull, Primary"
+            "type": "Heavy 1, 5\u201d Blast,"
+          },
+          "Launcher": {
+            "range": "Or",
+            "S": "Or",
+            "AP": "Or Primary Or",
+            "type": ""
+          },
+          "Primary": {
+            "range": "",
+            "S": "",
+            "AP": "",
+            "type": ""
+          },
+          "Weapon": {
+            "range": "And",
+            "S": "And",
+            "AP": "And And",
+            "type": ""
+          },
+          "Stormbolter": {
+            "range": "24",
+            "S": "4",
+            "AP": "5+",
+            "type": "Rapid Fire 2, Bolter, Hull"
+          },
+          "Incinerator": {
+            "range": "Flame",
+            "S": "6",
+            "AP": "4+",
+            "type": "Assault 1, Hull"
+          },
+          "Monsterbane, Hull, Primary": {
+            "range": "",
+            "S": "",
+            "AP": "",
+            "type": ""
           }
         }
       },
@@ -2625,11 +2843,17 @@
             "AP": "5+",
             "type": "Rapid Fire 2, Turret"
           },
-          "Hunter Killer Missile": {
+          "Hunter Killer": {
             "range": "120",
             "S": "10",
             "AP": "3+",
-            "type": "Heavy 1, Monsterbane, Hull, One Use Only"
+            "type": "Heavy 1, Monsterbane, Hull,"
+          },
+          "One Use Only": {
+            "range": "",
+            "S": "",
+            "AP": "",
+            "type": ""
           },
           "Dozerblade": {
             "range": "Melee",
@@ -2683,27 +2907,35 @@
             "description": "May add up to two more Dreadnoughts for +157 points each Any Dreadnought may swap any Dreadnought Missile Launcher for H Any Dreadnought may take up to 2 M Any Dreadnought may take up to one of each E Any Dreadnought may each take up to one Grey Knight Spell per Psychic Mastery Level. These are cast by each model Independently.",
             "choices": [
               {
-                "name": "Dreadnought Missile Launcher",
+                "name": "Dreadnought",
                 "pts_delta": 0
               },
               {
-                "name": "Multimelta Autocannons",
+                "name": "Multimelta",
                 "pts_delta": 2
+              },
+              {
+                "name": "2 Linked",
+                "pts_delta": 3
               },
               {
                 "name": "Psycannon",
                 "pts_delta": 4
               },
               {
-                "name": "Assault Cannon Lascannons",
+                "name": "Assault Cannon",
                 "pts_delta": 5
               },
               {
-                "name": "Dreadnought Combat Weapon and Stormbolter",
+                "name": "2 Linked",
+                "pts_delta": 11
+              },
+              {
+                "name": "Dreadnought",
                 "pts_delta": 12
               },
               {
-                "name": "Dreadnought Combat Weapon and Incinerator",
+                "name": "Dreadnought",
                 "pts_delta": 15
               },
               {
@@ -2711,23 +2943,31 @@
                 "pts_delta": 16
               },
               {
-                "name": "Seismic Hammer and Stormbolter",
+                "name": "Seismic Hammer",
                 "pts_delta": 21
               },
               {
-                "name": "Seismic Hammer and Incinerator",
+                "name": "Seismic Hammer",
                 "pts_delta": 24
               },
               {
-                "name": "Heavy Plasma Cannon",
+                "name": "Heavy Plasma",
                 "pts_delta": 28
               },
               {
-                "name": "Seismic Hammer and Meltagun",
+                "name": "Seismic Hammer",
                 "pts_delta": 30
               },
               {
-                "name": "Hunter Killer Missile",
+                "name": "Launcher",
+                "pts_delta": 0
+              },
+              {
+                "name": "Use Only, Hull",
+                "pts_delta": 0
+              },
+              {
+                "name": "Hunter Killer",
                 "pts_delta": 5
               },
               {
@@ -2742,17 +2982,23 @@
           }
         ],
         "weapons": {
-          "Dreadnought Missile Launcher": {
+          "Dreadnought": {
             "range": "48",
             "S": "8",
             "AP": "3+",
-            "type": "Heavy 2, Monsterbane, Hull, Or Or Or Primary Or 48        4       6+        Heavy 2, 3\u201d Blast, Hull, Primary"
+            "type": "Heavy 2, Monsterbane, Hull,"
           },
-          "Multimelta Autocannons": {
+          "Multimelta": {
             "range": "24",
             "S": "8",
             "AP": "1+",
-            "type": "Heavy 2, Melta, (Monsterbane), Hull, Primary Primary"
+            "type": "Heavy 2, Melta, (Monsterbane), Hull, Primary"
+          },
+          "2 Linked": {
+            "range": "48",
+            "S": "7",
+            "AP": "4+",
+            "type": "Heavy 2 x2, Monsterbane, Hull,"
           },
           "Psycannon": {
             "range": "24",
@@ -2760,23 +3006,11 @@
             "AP": "4+",
             "type": "Rapid Fire 2, Rending, Monsterbane, Hull, Primary"
           },
-          "Assault Cannon Lascannons": {
+          "Assault Cannon": {
             "range": "36",
             "S": "6",
             "AP": "4+",
-            "type": "Assault 6, Rending, Hull, Primary 22 Primary"
-          },
-          "Dreadnought Combat Weapon and Stormbolter": {
-            "range": "Melee",
-            "S": "X2",
-            "AP": "2+",
-            "type": "Slow, Monsterbane, Primary And And And And 24 4 5+ Rapid Fire 2, Bolter, Hull"
-          },
-          "Dreadnought Combat Weapon and Incinerator": {
-            "range": "Melee",
-            "S": "X2",
-            "AP": "2+",
-            "type": "Slow, Monsterbane, Primary And And And And Flame 6 4+ Assault 1, Hull"
+            "type": "Assault 6, Rending, Hull, Primary 22"
           },
           "Doom Glaive": {
             "range": "Melee",
@@ -2784,35 +3018,77 @@
             "AP": "2+",
             "type": "Counterattack, Psychicbane, Primary"
           },
-          "Seismic Hammer and Stormbolter": {
+          "Seismic Hammer": {
             "range": "Melee",
             "S": "X2",
             "AP": "1+",
-            "type": "Slow, Monsterbane, Reroll 1s And And And To Hit, Primary And 24      4     5+    Rapid Fire 2, Bolter, Hull"
+            "type": "Slow, Monsterbane, Reroll 1s"
           },
-          "Seismic Hammer and Incinerator": {
-            "range": "Melee",
-            "S": "X2",
-            "AP": "1+",
-            "type": "Slow, Monsterbane, Reroll 1s And And And To Hit, Primary And Flame   6     4+    Assault 1, Hull"
-          },
-          "Heavy Plasma Cannon": {
+          "Heavy Plasma": {
             "range": "48",
             "S": "8",
             "AP": "2+",
-            "type": "Heavy 1, 5\u201d Blast, Monsterbane, Hull, Primary"
+            "type": "Heavy 1, 5\u201d Blast,"
           },
-          "Seismic Hammer and Meltagun": {
-            "range": "Melee",
-            "S": "X2",
-            "AP": "1+",
-            "type": "Slow, Monsterbane, Reroll 1s And And And To Hit, Primary And 12      8     1+    Assault 1, Melta, (Monsterbane), Hull"
+          "Launcher": {
+            "range": "Or",
+            "S": "Or",
+            "AP": "Or Primary Or",
+            "type": ""
           },
-          "Hunter Killer Missile": {
+          "Use Only, Hull": {
+            "range": "",
+            "S": "",
+            "AP": "",
+            "type": "23"
+          },
+          "Primary": {
+            "range": "",
+            "S": "",
+            "AP": "",
+            "type": ""
+          },
+          "Weapon": {
+            "range": "And",
+            "S": "And",
+            "AP": "And And",
+            "type": ""
+          },
+          "Stormbolter": {
+            "range": "24",
+            "S": "4",
+            "AP": "5+",
+            "type": "Rapid Fire 2, Bolter, Hull"
+          },
+          "Incinerator": {
+            "range": "Flame",
+            "S": "6",
+            "AP": "4+",
+            "type": "Assault 1, Hull"
+          },
+          "Meltagun": {
+            "range": "And",
+            "S": "And",
+            "AP": "And To Hit, Primary And",
+            "type": "(Monsterbane), Hull"
+          },
+          "6": {
+            "range": "4+",
+            "S": "Assault 1, Hull",
+            "AP": "",
+            "type": ""
+          },
+          "Monsterbane, Hull, Primary": {
+            "range": "",
+            "S": "",
+            "AP": "",
+            "type": ""
+          },
+          "Hunter Killer": {
             "range": "120",
             "S": "10",
             "AP": "3+",
-            "type": "Heavy 1, Monsterbane, One Use Only, Hull 23"
+            "type": "Heavy 1, Monsterbane, One"
           }
         }
       },
@@ -2909,7 +3185,7 @@
                 "pts_delta": 0
               },
               {
-                "name": "Nemesis Warding Staff",
+                "name": "Nemesis",
                 "pts_delta": 2
               },
               {
@@ -2921,7 +3197,7 @@
                 "pts_delta": 8
               },
               {
-                "name": "Nemesis Daemon Hammer",
+                "name": "Nemesis",
                 "pts_delta": 38
               }
             ]
@@ -2958,11 +3234,11 @@
             "AP": "3+",
             "type": "Psychicbane, Counterattack"
           },
-          "Nemesis Warding Staff": {
+          "Nemesis": {
             "range": "Melee",
             "S": "+2",
             "AP": "4+",
-            "type": "Psychicbane, 5+ Invulnerability Save 24"
+            "type": "Psychicbane, 5+ Invulnerability"
           },
           "Nemesis Force Sword": {
             "range": "Melee",
@@ -2976,11 +3252,17 @@
             "AP": "3+",
             "type": "Extra Attack 3, Psychic Bane"
           },
-          "Nemesis Daemon Hammer": {
-            "range": "Melee",
-            "S": "10",
-            "AP": "1+",
-            "type": "Slow, Armourbane, Monsterbane, Psychicbane"
+          "Staff": {
+            "range": "Save",
+            "S": "",
+            "AP": "",
+            "type": "24"
+          },
+          "Monsterbane, Psychicbane Hammer": {
+            "range": "",
+            "S": "",
+            "AP": "",
+            "type": ""
           }
         }
       },
@@ -3182,25 +3464,31 @@
             "range": "Flame",
             "S": "4",
             "AP": "5+",
-            "type": "Assault 1 24        4      5+          Rapid Fire 1, Bolter"
+            "type": "Assault 1"
           },
           "Combi Grav": {
             "range": "18",
             "S": "*",
             "AP": "-",
-            "type": "Rapid Fire 1, Grav 25 24        4      5+          Rapid Fire 1, Bolter"
+            "type": "Rapid Fire 1, Grav 25"
           },
           "Combi Plasma": {
             "range": "24",
             "S": "7",
             "AP": "2+",
-            "type": "Rapid Fire 1, Gets Hot! 24        4      5+          Rapid Fire 1, Bolter"
+            "type": "Rapid Fire 1, Gets Hot!"
           },
           "Combi Melta": {
             "range": "12",
             "S": "8",
             "AP": "1+",
-            "type": "Assault 1, Melta, 24        4      5+          Rapid Fire 1, Bolter"
+            "type": "Assault 1, Melta,"
+          },
+          "Or": {
+            "range": "Or",
+            "S": "Or",
+            "AP": "",
+            "type": ""
           },
           "Bolt Pistol": {
             "range": "12",
@@ -3266,7 +3554,7 @@
             "range": "48",
             "S": "8",
             "AP": "3+",
-            "type": "Heavy 1, Monsterbane 48        4      6+          Heavy 1, 3\u201d Blast"
+            "type": "Heavy 1, Monsterbane"
           },
           "Frag Grenades": {
             "range": "8",
@@ -3330,27 +3618,31 @@
             "description": "May swap any Ballistus Missile Launcher for H",
             "choices": [
               {
-                "name": "Ballistus Missile Launcher",
+                "name": "Ballistus Missile",
                 "pts_delta": 0
               },
               {
-                "name": "Heavy Onslaught Gatling Cannon",
+                "name": "Heavy Onslaught",
                 "pts_delta": 8
               },
               {
-                "name": "Dreadnought Combat Weapon and Fragstorm Grenade Launcher",
+                "name": "Dreadnought",
                 "pts_delta": 8
               },
               {
-                "name": "Dreadnought Combat Weapon and Stormbolter",
+                "name": "Dreadnought",
                 "pts_delta": 9
               },
               {
-                "name": "Dreadnought Combat Weapon and 2 Linked Bolt Rifles Lascannons",
+                "name": "Dreadnought",
                 "pts_delta": 12
               },
               {
-                "name": "Macro Plasma Incinerator",
+                "name": "2 Linked Ballistus",
+                "pts_delta": 13
+              },
+              {
+                "name": "Macro Plasma",
                 "pts_delta": 17
               },
               {
@@ -3358,21 +3650,46 @@
                 "pts_delta": 21
               },
               {
-                "name": "Dreadnought Combat Weapon and Onslaught Gatling Cannon Stormbolters Flamers Bolters Multimeltas",
+                "name": "Dreadnought",
                 "pts_delta": 22
+              },
+              {
+                "name": "Or",
+                "pts_delta": 0
               }
             ]
           },
           {
             "description": "May swap 2 Linked Stormbolters for S",
-            "choices": []
+            "choices": [
+              {
+                "name": "2 Linked Stormbolters",
+                "pts_delta": 0
+              },
+              {
+                "name": "2 Linked Heavy Flamers",
+                "pts_delta": 4
+              },
+              {
+                "name": "2 Linked Heavy Bolters",
+                "pts_delta": 6
+              },
+              {
+                "name": "2 Linked",
+                "pts_delta": 28
+              }
+            ]
           },
           {
             "description": "May take one M",
             "choices": [
               {
-                "name": "Icarus Rocket Pod Stubbers",
+                "name": "Icarus Rocket Pod",
                 "pts_delta": 6
+              },
+              {
+                "name": "2 Linked Heavy Stubbers",
+                "pts_delta": 22
               }
             ]
           },
@@ -3387,41 +3704,35 @@
           }
         ],
         "weapons": {
-          "Ballistus Missile Launcher": {
+          "Ballistus Missile": {
             "range": "48",
             "S": "9",
             "AP": "3+",
-            "type": "Heavy 2, Monsterbane, Hull, Or Or Or Primary Or 48      5     6+    Heavy 2, 3\u201d Blast, Hull, Primary"
+            "type": "Heavy 2, Monsterbane, Hull,"
           },
-          "Heavy Onslaught Gatling Cannon": {
+          "Heavy Onslaught": {
             "range": "24",
             "S": "6",
             "AP": "4+",
             "type": "Heavy 12, Hull, Primary"
           },
-          "Dreadnought Combat Weapon and Fragstorm Grenade Launcher": {
+          "Dreadnought": {
             "range": "Melee",
             "S": "X2",
             "AP": "2+",
-            "type": "Slow, Monsterbane, Primary And And And And 18 4 - Assault 1, 3\u201d Blast, Hull"
+            "type": "Slow, Monsterbane, Primary"
           },
-          "Dreadnought Combat Weapon and Stormbolter": {
-            "range": "Melee",
-            "S": "X2",
+          "2 Linked Ballistus": {
+            "range": "48",
+            "S": "10",
             "AP": "2+",
-            "type": "Slow, Monsterbane, Primary And And And And 24 4 5+ Rapid Fire 2, Bolter, Hull"
+            "type": "Heavy 1 x2, Monsterbane, Hull,"
           },
-          "Dreadnought Combat Weapon and 2 Linked Bolt Rifles Lascannons": {
-            "range": "Melee",
-            "S": "X2",
-            "AP": "2+",
-            "type": "Slow, Monsterbane, Primary And And And And 30 4 4+ Rapid Fire 1 x2, Bolter, Hull Primary"
-          },
-          "Macro Plasma Incinerator": {
+          "Macro Plasma": {
             "range": "36",
             "S": "9",
             "AP": "2+",
-            "type": "Heavy 1, 5\u201d Blast, Monsterbane, Hull, Primary"
+            "type": "Heavy 1, 5\u201d Blast,"
           },
           "Brutalis Talon": {
             "range": "Melee",
@@ -3429,17 +3740,101 @@
             "AP": "1+",
             "type": "Extra Attack 1, Slow, Monsterbane, Primary"
           },
-          "Dreadnought Combat Weapon and Onslaught Gatling Cannon Stormbolters Flamers Bolters Multimeltas": {
-            "range": "Melee",
-            "S": "X2",
-            "AP": "2+",
-            "type": "Slow, Monsterbane, Primary And And And And 24 4 - Heavy 10, Hull (Monsterbane), Hull"
+          "Or": {
+            "range": "Or",
+            "S": "Or",
+            "AP": "Primary Or",
+            "type": ""
           },
-          "Icarus Rocket Pod Stubbers": {
+          "Cannon": {
+            "range": "",
+            "S": "",
+            "AP": "",
+            "type": ""
+          },
+          "Weapon": {
+            "range": "And",
+            "S": "And",
+            "AP": "And And",
+            "type": ""
+          },
+          "Fragstorm Grenade Launcher": {
+            "range": "18",
+            "S": "4",
+            "AP": "-",
+            "type": "Assault 1, 3\u201d Blast, Hull"
+          },
+          "Stormbolter": {
+            "range": "24",
+            "S": "4",
+            "AP": "5+",
+            "type": "Rapid Fire 2, Bolter, Hull"
+          },
+          "2 Linked": {
+            "range": "30",
+            "S": "4",
+            "AP": "4+",
+            "type": "Rapid Fire 1 x2, Bolter, Hull"
+          },
+          "Onslaught": {
+            "range": "24",
+            "S": "4",
+            "AP": "-",
+            "type": "Heavy 10, Hull"
+          },
+          "Rifles": {
+            "range": "",
+            "S": "",
+            "AP": "",
+            "type": ""
+          },
+          "Primary": {
+            "range": "",
+            "S": "",
+            "AP": "",
+            "type": ""
+          },
+          "Monsterbane, Hull, Primary": {
+            "range": "",
+            "S": "",
+            "AP": "",
+            "type": ""
+          },
+          "2 Linked Stormbolters": {
+            "range": "24",
+            "S": "4",
+            "AP": "5+",
+            "type": "Rapid Fire 2 x2, Bolter, Hull"
+          },
+          "2 Linked Heavy Flamers": {
+            "range": "Flame",
+            "S": "5",
+            "AP": "4+",
+            "type": "Assault 1 x2, Hull"
+          },
+          "2 Linked Heavy Bolters": {
+            "range": "36",
+            "S": "5",
+            "AP": "4+",
+            "type": "Heavy 3 x2, Hull"
+          },
+          "(Monsterbane), Hull": {
+            "range": "",
+            "S": "",
+            "AP": "",
+            "type": ""
+          },
+          "Icarus Rocket Pod": {
             "range": "24",
             "S": "7",
             "AP": "4+",
-            "type": "Heavy 2 AA 27"
+            "type": "Heavy 2 AA"
+          },
+          "2 Linked Heavy Stubbers": {
+            "range": "36",
+            "S": "5",
+            "AP": "6+",
+            "type": "Heavy 3 x2, Turret 27"
           }
         }
       },
@@ -3675,25 +4070,31 @@
             "range": "Flame",
             "S": "4",
             "AP": "5+",
-            "type": "Assault 1 24        4      5+          Rapid Fire 1, Bolter"
+            "type": "Assault 1"
           },
           "Combi Grav": {
             "range": "18",
             "S": "*",
             "AP": "-",
-            "type": "Rapid Fire 1, Grav 24        4      5+          Rapid Fire 1, Bolter"
+            "type": "Rapid Fire 1, Grav"
           },
           "Combi Plasma": {
             "range": "24",
             "S": "7",
             "AP": "2+",
-            "type": "Rapid Fire 1, Gets Hot! 24        4      5+          Rapid Fire 1, Bolter"
+            "type": "Rapid Fire 1, Gets Hot!"
           },
           "Combi Melta": {
             "range": "12",
             "S": "8",
             "AP": "1+",
-            "type": "Assault 1, Melta, 28 24      4       5+   Rapid Fire 1, Bolter"
+            "type": "Assault 1, Melta,"
+          },
+          "Or": {
+            "range": "Or",
+            "S": "Or",
+            "AP": "",
+            "type": ""
           },
           "Bolt Pistol": {
             "range": "12",
@@ -3807,7 +4208,7 @@
             "range": "48",
             "S": "8",
             "AP": "3+",
-            "type": "Heavy 1, Monsterbane 48      4       6+   Heavy 1, 3\u201d Blast"
+            "type": "Heavy 1, Monsterbane"
           },
           "Frag Grenades": {
             "range": "8",
@@ -3996,11 +4397,11 @@
             "AP": "6+",
             "type": "Heavy 1, Sniper (3+)"
           },
-          "Grenade Launcher": {
+          "Grenade": {
             "range": "24 or",
             "S": "6 or",
             "AP": "4+",
-            "type": "or Assault 1 or 24 3 - Assault 1, 3\u201d Blast"
+            "type": "or Assault 1 or"
           },
           "Plasma Gun": {
             "range": "24",
@@ -4020,11 +4421,23 @@
             "AP": "1+",
             "type": "Assault 1, Melta, (Monsterbane)"
           },
-          "Demolition Charge": {
+          "24": {
+            "range": "3",
+            "S": "-",
+            "AP": "Assault 1, 3\u201d Blast",
+            "type": ""
+          },
+          "Demolition": {
             "range": "6",
             "S": "10",
             "AP": "2+",
-            "type": "Assault 1, 5\u201d Blast, Monsterbane, One Use Only"
+            "type": "Assault 1, 5\u201d Blast,"
+          },
+          "Monsterbane, One Use Only": {
+            "range": "",
+            "S": "",
+            "AP": "",
+            "type": ""
           },
           "Heavy Flamer": {
             "range": "Flame",
@@ -4050,17 +4463,23 @@
             "AP": "5+",
             "type": "Heavy 1, 3\u201d Blast, Indirect, Pinning"
           },
-          "Autocannon Stubbers": {
+          "Autocannon": {
             "range": "48",
             "S": "7",
             "AP": "4+",
             "type": "Heavy 2, Monsterbane"
           },
+          "2 Linked Heavy Stubbers": {
+            "range": "36",
+            "S": "5",
+            "AP": "6+",
+            "type": "Heavy 3 x2"
+          },
           "Missile Launcher": {
             "range": "48 or",
             "S": "8 or",
             "AP": "3+",
-            "type": "or Heavy 1, Monsterbane or 48      4      6+      Heavy 1, 3\u201d Blast"
+            "type": "or Heavy 1, Monsterbane or"
           },
           "Lascannon": {
             "range": "48",
@@ -4131,7 +4550,13 @@
             "range": "12",
             "S": "8",
             "AP": "1+",
-            "type": "Assault 1, Monsterbane, Ignores Invulnerability Saves"
+            "type": "Assault 1, Monsterbane,"
+          },
+          "Invulnerability Saves": {
+            "range": "",
+            "S": "",
+            "AP": "",
+            "type": ""
           },
           "Warp Grasp": {
             "range": "Melee",
@@ -4245,11 +4670,41 @@
         "options": [
           {
             "description": "May swap 2 Linked Heavy Bolters for T",
-            "choices": []
+            "choices": [
+              {
+                "name": "2 Linked Heavy Bolters",
+                "pts_delta": 0
+              },
+              {
+                "name": "2 Linked",
+                "pts_delta": 6
+              },
+              {
+                "name": "2 Linked Assault",
+                "pts_delta": 32
+              },
+              {
+                "name": "Sponson Lascannons",
+                "pts_delta": 0
+              }
+            ]
           },
           {
             "description": "May swap 2 Hurricane Bolters for S",
-            "choices": []
+            "choices": [
+              {
+                "name": "2 Hurricane Bolters",
+                "pts_delta": 0
+              },
+              {
+                "name": "2 Flamestorm Cannons",
+                "pts_delta": 12
+              },
+              {
+                "name": "2 Sets of",
+                "pts_delta": 42
+              }
+            ]
           },
           {
             "description": "May take one D",
@@ -4264,7 +4719,7 @@
             "description": "May take one M",
             "choices": [
               {
-                "name": "Hunter Killer Missile",
+                "name": "Hunter Killer",
                 "pts_delta": 5
               }
             ]
@@ -4277,8 +4732,12 @@
                 "pts_delta": 7
               },
               {
-                "name": "Multimelta Rocket Pods",
+                "name": "Multimelta",
                 "pts_delta": 31
+              },
+              {
+                "name": "2 Linked Icarus",
+                "pts_delta": 34
               }
             ]
           },
@@ -4305,17 +4764,77 @@
           }
         ],
         "weapons": {
+          "2 Linked Heavy Bolters": {
+            "range": "36",
+            "S": "5",
+            "AP": "4+",
+            "type": "Heavy 3 x2, Hull, Primary 33"
+          },
+          "2 Linked": {
+            "range": "24",
+            "S": "7",
+            "AP": "4+",
+            "type": "Rapid Fire 2 x2, Rending,"
+          },
+          "2 Linked Assault": {
+            "range": "36",
+            "S": "6",
+            "AP": "4+",
+            "type": "Assault 6 x2, Rending, Hull,"
+          },
+          "Monsterbane, Hull, Primary": {
+            "range": "",
+            "S": "",
+            "AP": "",
+            "type": ""
+          },
+          "Primary": {
+            "range": "",
+            "S": "",
+            "AP": "",
+            "type": ""
+          },
+          "2 Hurricane Bolters": {
+            "range": "24",
+            "S": "4",
+            "AP": "5+",
+            "type": "Rapid Fire 6 x2, Bolter, Sponson"
+          },
+          "2 Flamestorm Cannons": {
+            "range": "Flame",
+            "S": "6",
+            "AP": "3+",
+            "type": "Assault 1 x2, Sponson"
+          },
+          "2 Sets of": {
+            "range": "2",
+            "S": "48",
+            "AP": "9 2+ Heavy 1 x2 (x2), Monsterbane,",
+            "type": ""
+          },
+          "Sponson Lascannons": {
+            "range": "",
+            "S": "",
+            "AP": "",
+            "type": ""
+          },
           "Dozerblade": {
             "range": "Melee",
             "S": "+1",
             "AP": "6+",
             "type": "Accurate, Dozerblade"
           },
-          "Hunter Killer Missile": {
+          "Hunter Killer": {
             "range": "120",
             "S": "10",
             "AP": "3+",
-            "type": "Heavy 1, Monsterbane, One Use Only, Hull"
+            "type": "Heavy 1, Monsterbane, One"
+          },
+          "Use Only, Hull": {
+            "range": "",
+            "S": "",
+            "AP": "",
+            "type": ""
           },
           "Stormbolter": {
             "range": "24",
@@ -4323,11 +4842,29 @@
             "AP": "5+",
             "type": "Rapid Fire 2, Bolter, Turret"
           },
-          "Multimelta Rocket Pods": {
+          "Multimelta": {
             "range": "24",
             "S": "8",
             "AP": "1+",
-            "type": "Heavy 2, Melta, (Monsterbane), Turret Turret"
+            "type": "Heavy 2, Melta, (Monsterbane), Turret"
+          },
+          "2 Linked Icarus": {
+            "range": "48",
+            "S": "7",
+            "AP": "4+",
+            "type": "Heavy 2 x2, Monsterbane, AA,"
+          },
+          "Pods": {
+            "range": "Turret",
+            "S": "",
+            "AP": "",
+            "type": ""
+          },
+          "0-2 Slots": {
+            "range": "",
+            "S": "",
+            "AP": "",
+            "type": ""
           }
         }
       }
@@ -4377,11 +4914,37 @@
         "options": [
           {
             "description": "May swap 2 Linked Lascannons for T",
-            "choices": []
+            "choices": [
+              {
+                "name": "2 Linked",
+                "pts_delta": 0
+              },
+              {
+                "name": "2 Linked Assault",
+                "pts_delta": 12
+              },
+              {
+                "name": "Primary",
+                "pts_delta": 0
+              }
+            ]
           },
           {
             "description": "May swap 2 Linked Blackstar Rocket Launchers for W",
-            "choices": []
+            "choices": [
+              {
+                "name": "2 Linked",
+                "pts_delta": 0
+              },
+              {
+                "name": "2 Linked Stormstrike Missile Launchers",
+                "pts_delta": 26
+              },
+              {
+                "name": "Rocket Launchers",
+                "pts_delta": 0
+              }
+            ]
           },
           {
             "description": "May take one S",
@@ -4403,6 +4966,36 @@
           }
         ],
         "weapons": {
+          "2 Linked": {
+            "range": "48",
+            "S": "9",
+            "AP": "2+",
+            "type": "Heavy 1 x2, Monsterbane, Hull,"
+          },
+          "2 Linked Assault": {
+            "range": "36",
+            "S": "6",
+            "AP": "4+",
+            "type": "Assault 6 x2, Rending, Hull,"
+          },
+          "Primary": {
+            "range": "",
+            "S": "",
+            "AP": "",
+            "type": ""
+          },
+          "2 Linked Stormstrike Missile Launchers": {
+            "range": "72",
+            "S": "8",
+            "AP": "3+",
+            "type": "Heavy 1 x2, Monsterbane, Hull"
+          },
+          "Rocket Launchers": {
+            "range": "",
+            "S": "",
+            "AP": "",
+            "type": ""
+          },
           "Hurricane Bolter": {
             "range": "24",
             "S": "4",
@@ -4457,8 +5050,44 @@
                 "pts_delta": 0
               },
               {
-                "name": "Lascannon Lascannons Bolters Hellstrike Missiles Missiles Multiple Rocket Pods Lascannons",
+                "name": "Lascannon",
                 "pts_delta": 6
+              },
+              {
+                "name": "2 Linked",
+                "pts_delta": 18
+              },
+              {
+                "name": "2 Linked Heavy Bolters",
+                "pts_delta": 18
+              },
+              {
+                "name": "2 Linked",
+                "pts_delta": 0
+              },
+              {
+                "name": "2 Linked Hellfury",
+                "pts_delta": 2
+              },
+              {
+                "name": "2 Linked",
+                "pts_delta": 2
+              },
+              {
+                "name": "4 Linked Lascannons",
+                "pts_delta": 32
+              },
+              {
+                "name": "Monsterbane, One Use Only,",
+                "pts_delta": 0
+              },
+              {
+                "name": "Hull",
+                "pts_delta": 0
+              },
+              {
+                "name": "Cover, One Use Only, Hull",
+                "pts_delta": 0
               },
               {
                 "name": "Chaff Launcher",
@@ -4474,11 +5103,65 @@
             "AP": "6+",
             "type": "Heavy 3, Hull, Primary"
           },
-          "Lascannon Lascannons Bolters Hellstrike Missiles Missiles Multiple Rocket Pods Lascannons": {
+          "Lascannon": {
             "range": "48",
             "S": "9",
             "AP": "2+",
-            "type": "Heavy 1, Monsterbane, Hull, Primary Primary 35 Monsterbane, One Use Only, Hull Cover, One Use Only, Hull"
+            "type": "Heavy 1, Monsterbane, Hull, Primary"
+          },
+          "2 Linked": {
+            "range": "48",
+            "S": "9",
+            "AP": "2+",
+            "type": "Heavy 1 x2, Monsterbane, Hull,"
+          },
+          "Primary": {
+            "range": "",
+            "S": "",
+            "AP": "",
+            "type": ""
+          },
+          "2 Linked Heavy Bolters": {
+            "range": "36",
+            "S": "5",
+            "AP": "4+",
+            "type": "Heavy 3 x2, Sponson 35"
+          },
+          "2 Linked Hellfury": {
+            "range": "72",
+            "S": "4",
+            "AP": "5+",
+            "type": "Heavy 1 x2, 5\u201d Blast, Ignores"
+          },
+          "4 Linked Lascannons": {
+            "range": "48",
+            "S": "9",
+            "AP": "2+",
+            "type": "Heavy 1 x4, Monsterbane, Hull"
+          },
+          "Monsterbane, One Use Only,": {
+            "range": "",
+            "S": "",
+            "AP": "",
+            "type": ""
+          },
+          "Hull": {
+            "range": "",
+            "S": "",
+            "AP": "",
+            "type": ""
+          },
+          "Cover, One Use Only, Hull": {
+            "range": "",
+            "S": "",
+            "AP": "",
+            "type": ""
+          },
+          "Rocket Pods": {
+            "range": "",
+            "S": "",
+            "AP": "",
+            "type": ""
           },
           "Transport": {
             "range": "0-1/Legal",
@@ -4542,16 +5225,24 @@
                 "pts_delta": 2
               },
               {
-                "name": "Autocannon Bolters",
+                "name": "Autocannon",
                 "pts_delta": 4
               },
               {
-                "name": "Light Battle Cannon",
+                "name": "2 Linked Heavy Bolters",
+                "pts_delta": 13
+              },
+              {
+                "name": "Light Battle",
                 "pts_delta": 15
               },
               {
-                "name": "Chimero Hunter Killer Launcher Autocannons",
+                "name": "Chimero Hunter",
                 "pts_delta": 24
+              },
+              {
+                "name": "4 Linked",
+                "pts_delta": 55
               }
             ]
           },
@@ -4598,7 +5289,7 @@
             "description": "May take one M",
             "choices": [
               {
-                "name": "Hunter Killer Missile",
+                "name": "Hunter Killer",
                 "pts_delta": 5
               }
             ]
@@ -4652,23 +5343,59 @@
             "AP": "6+",
             "type": "Heavy 3, Turret, Primary"
           },
-          "Autocannon Bolters": {
+          "Autocannon": {
             "range": "48",
             "S": "7",
             "AP": "4+",
             "type": "Heavy 2, Monsterbane, Turret, Primary"
           },
-          "Light Battle Cannon": {
+          "2 Linked Heavy Bolters": {
+            "range": "36",
+            "S": "5",
+            "AP": "4+",
+            "type": "Heavy 3 x2, Turret, Primary"
+          },
+          "Light Battle": {
             "range": "48",
             "S": "8",
             "AP": "3+",
-            "type": "Heavy 1, 3\u201d Blast, Monsterbane, Turret, Primary"
+            "type": "Heavy 1, 3\u201d Blast,"
           },
-          "Chimero Hunter Killer Launcher Autocannons": {
+          "Chimero Hunter": {
             "range": "120",
             "S": "10",
             "AP": "3+",
-            "type": "Heavy 1, Monsterbane, Turret, Primary 36 Turret, Primary"
+            "type": "Heavy 1, Monsterbane, Turret,"
+          },
+          "4 Linked": {
+            "range": "48",
+            "S": "7",
+            "AP": "4+",
+            "type": "Heavy 2 x4, Monsterbane,"
+          },
+          "Monsterbane, Turret, Primary": {
+            "range": "",
+            "S": "",
+            "AP": "",
+            "type": ""
+          },
+          "Launcher": {
+            "range": "Primary",
+            "S": "",
+            "AP": "",
+            "type": "36"
+          },
+          "Turret, Primary": {
+            "range": "",
+            "S": "",
+            "AP": "",
+            "type": ""
+          },
+          "3 Linked Lasguns": {
+            "range": "24",
+            "S": "3",
+            "AP": "-",
+            "type": "Rapid Fire 1 x3, Hull"
           },
           "Stormbolter": {
             "range": "24",
@@ -4694,11 +5421,17 @@
             "AP": "6+",
             "type": "Dozerblade, Accurate"
           },
-          "Hunter Killer Missile": {
+          "Hunter Killer": {
             "range": "120",
             "S": "10",
             "AP": "3+",
-            "type": "Heavy 1, Monsterbane, One Use Only, Hull"
+            "type": "Heavy 1, Monsterbane, One"
+          },
+          "Use Only, Hull": {
+            "range": "",
+            "S": "",
+            "AP": "",
+            "type": ""
           }
         }
       },
@@ -4744,13 +5477,26 @@
         "options": [
           {
             "description": "May swap 2 Fragstorm Grenade Launchers for S",
-            "choices": []
+            "choices": [
+              {
+                "name": "2 Fragstorm Grenade Launchers",
+                "pts_delta": 0
+              },
+              {
+                "name": "2 Stormbolters",
+                "pts_delta": 4
+              }
+            ]
           },
           {
             "description": "May take one T or SE",
             "choices": [
               {
-                "name": "Cyclone Missile Launcher",
+                "name": "2 Linked Heavy Stubbers",
+                "pts_delta": 22
+              },
+              {
+                "name": "Cyclone Missile",
                 "pts_delta": 24
               },
               {
@@ -4783,17 +5529,65 @@
           }
         ],
         "weapons": {
-          "Cyclone Missile Launcher": {
+          "2 Fragstorm Grenade Launchers": {
+            "range": "18",
+            "S": "4",
+            "AP": "-",
+            "type": "Assault 1 x2, 3\u201d Blast, Hull"
+          },
+          "2 Stormbolters": {
+            "range": "24",
+            "S": "4",
+            "AP": "5+",
+            "type": "Rapid Fire 2 x2, Bolter, Hull"
+          },
+          "2 Linked Heavy Stubbers": {
+            "range": "36",
+            "S": "5",
+            "AP": "6+",
+            "type": "Heavy 3 x2, AA, Turret, Primary"
+          },
+          "Cyclone Missile": {
             "range": "36",
             "S": "8",
             "AP": "3+",
-            "type": "Heavy 2, Monsterbane, Hull, Or Or Or Primary Or 36       4       6+ Heavy 2, 3\u201d Blast, Turret, Primary"
+            "type": ""
           },
           "Orbital Strike": {
             "range": "12-240 D/10 1+/1+ Heavy 1, 15\u201d Blast, Destroyer,",
             "S": "",
             "AP": "",
-            "type": "/8   /1+   Ordnance, Monsterbane, Indirect Fire, Ignores Cover, The Hour is Nigh, T Minus 5, One Use Only, Turret"
+            "type": "/8   /1+   Ordnance, Monsterbane,"
+          },
+          "2, Monsterbane, Hull,": {
+            "range": "",
+            "S": "",
+            "AP": "",
+            "type": ""
+          },
+          "2,": {
+            "range": "3\u201d",
+            "S": "",
+            "AP": "",
+            "type": "Primary"
+          },
+          "Or": {
+            "range": "Or",
+            "S": "Or",
+            "AP": "",
+            "type": ""
+          },
+          "Fire, Ignores Cover, The": {
+            "range": "",
+            "S": "",
+            "AP": "",
+            "type": ""
+          },
+          "is Nigh, T Minus": {
+            "range": "5,",
+            "S": "",
+            "AP": "",
+            "type": "Only, Turret"
           },
           "Heavy Stubber": {
             "range": "36",
@@ -4845,8 +5639,16 @@
             "description": "May swap 2 Linked Heavy Bolters for T",
             "choices": [
               {
-                "name": "Multimelta and Plasma Gun Lascannons",
+                "name": "2 Linked Heavy Bolters",
+                "pts_delta": 0
+              },
+              {
+                "name": "Multimelta and",
                 "pts_delta": 15
+              },
+              {
+                "name": "2 Linked",
+                "pts_delta": 24
               }
             ]
           },
@@ -4863,7 +5665,7 @@
             "description": "May take one M",
             "choices": [
               {
-                "name": "Hunter Killer Missile",
+                "name": "Hunter Killer",
                 "pts_delta": 5
               }
             ]
@@ -4896,11 +5698,35 @@
           }
         ],
         "weapons": {
-          "Multimelta and Plasma Gun Lascannons": {
+          "2 Linked Heavy Bolters": {
+            "range": "36",
+            "S": "5",
+            "AP": "4+",
+            "type": "Heavy 3 x2, Turret, Primary"
+          },
+          "Multimelta and": {
             "range": "24",
             "S": "8",
             "AP": "1+",
-            "type": "Heavy 2, Melta, (Monsterbane), And And And Turret, Primary And 24       7       2+       Rapid Fire 1, Gets Hot!, Turret, Primary 38 Turret, Primary"
+            "type": "Heavy 2, Melta, (Monsterbane),"
+          },
+          "2 Linked": {
+            "range": "48",
+            "S": "9",
+            "AP": "2+",
+            "type": "Heavy 1 x2, Monsterbane,"
+          },
+          "Gun": {
+            "range": "And",
+            "S": "And",
+            "AP": "And Turret, Primary And",
+            "type": "Primary 38"
+          },
+          "Turret, Primary": {
+            "range": "",
+            "S": "",
+            "AP": "",
+            "type": ""
           },
           "Dozerblade": {
             "range": "Melee",
@@ -4908,11 +5734,17 @@
             "AP": "6+",
             "type": "Accurate, Dozerblade"
           },
-          "Hunter Killer Missile": {
+          "Hunter Killer": {
             "range": "120",
             "S": "10",
             "AP": "3+",
-            "type": "Heavy 1, Monsterbane, One Use Only, Hull"
+            "type": "Heavy 1, Monsterbane, One"
+          },
+          "Use Only, Hull": {
+            "range": "",
+            "S": "",
+            "AP": "",
+            "type": ""
           },
           "Stormbolter": {
             "range": "24",
@@ -4972,7 +5804,7 @@
             "description": "May take one M",
             "choices": [
               {
-                "name": "Hunter Killer Missile",
+                "name": "Hunter Killer",
                 "pts_delta": 5
               }
             ]
@@ -5011,11 +5843,17 @@
             "AP": "6+",
             "type": "Accurate, Dozerblade"
           },
-          "Hunter Killer Missile": {
+          "Hunter Killer": {
             "range": "120",
             "S": "10",
             "AP": "3+",
-            "type": "Heavy 1, Monsterbane, One Use Only, Hull"
+            "type": "Heavy 1, Monsterbane, One"
+          },
+          "Use Only, Hull": {
+            "range": "",
+            "S": "",
+            "AP": "",
+            "type": ""
           },
           "Stormbolter": {
             "range": "24",
@@ -5140,7 +5978,13 @@
             "range": "Melee",
             "S": "User",
             "AP": "2+",
-            "type": "Sniper (3+), Ignores Invulnerability Saves"
+            "type": "Sniper (3+), Ignores"
+          },
+          "Saves": {
+            "range": "",
+            "S": "",
+            "AP": "",
+            "type": ""
           }
         }
       },
@@ -5290,11 +6134,47 @@
             "AP": "",
             "type": ""
           },
+          "Codes:": {
+            "range": "",
+            "S": "",
+            "AP": "",
+            "type": ""
+          },
+          "Codes \u2013 This Slot is": {
+            "range": "",
+            "S": "",
+            "AP": "",
+            "type": ""
+          },
           "Options": {
             "range": "Rules",
             "S": "",
             "AP": "",
-            "type": "Command Codes: Command Codes \u2013 This Slot is an upgrade for an existing model that has Orbital Strike. Only and may be used on Turn 1."
+            "type": ""
+          },
+          "upgrade for an existing": {
+            "range": "",
+            "S": "",
+            "AP": "",
+            "type": ""
+          },
+          "that has Orbital Strike.": {
+            "range": "",
+            "S": "",
+            "AP": "",
+            "type": ""
+          },
+          "Strike loses One Use": {
+            "range": "",
+            "S": "",
+            "AP": "",
+            "type": ""
+          },
+          "and may be used on Turn": {
+            "range": "",
+            "S": "",
+            "AP": "",
+            "type": "1."
           },
           "Wargear:": {
             "range": "Special Wargear Upgrades:",
@@ -5361,11 +6241,47 @@
             "AP": "",
             "type": ""
           },
+          "Codes:": {
+            "range": "",
+            "S": "",
+            "AP": "",
+            "type": ""
+          },
+          "Codes \u2013 This Slot is": {
+            "range": "",
+            "S": "",
+            "AP": "",
+            "type": ""
+          },
           "Options": {
             "range": "Rules",
             "S": "",
             "AP": "",
-            "type": "Command Codes: Command Codes \u2013 This Slot is an upgrade for an existing model that has Orbital Strike. Only and may be used on Turn 1."
+            "type": ""
+          },
+          "upgrade for an existing": {
+            "range": "",
+            "S": "",
+            "AP": "",
+            "type": ""
+          },
+          "that has Orbital Strike.": {
+            "range": "",
+            "S": "",
+            "AP": "",
+            "type": ""
+          },
+          "Strike loses One Use": {
+            "range": "",
+            "S": "",
+            "AP": "",
+            "type": ""
+          },
+          "and may be used on Turn": {
+            "range": "",
+            "S": "",
+            "AP": "",
+            "type": "1."
           },
           "Wargear:": {
             "range": "Special Wargear Upgrades:",
@@ -5422,18 +6338,39 @@
             "description": "May swap Thunderhawk Heavy Cannon for T",
             "choices": [
               {
-                "name": "Thunderhawk Heavy Cannon",
+                "name": "Thunderhawk",
                 "pts_delta": 0
               },
               {
-                "name": "Turbo Laser Destructor Lascannons Linked Heavy Bolters Hellstrike Missile Racks Bomb Racks",
+                "name": "Turbo Laser",
                 "pts_delta": 9
+              },
+              {
+                "name": "Cannon",
+                "pts_delta": 0
               }
             ]
           },
           {
             "description": "May swap 2 Linked Hellstrike Missile Racks for W",
-            "choices": []
+            "choices": [
+              {
+                "name": "Heavy Bolters",
+                "pts_delta": 0
+              },
+              {
+                "name": "2 Linked",
+                "pts_delta": 0
+              },
+              {
+                "name": "2 Linked Cluster Bomb",
+                "pts_delta": 88
+              },
+              {
+                "name": "Missile Racks",
+                "pts_delta": 0
+              }
+            ]
           },
           {
             "description": "May take up to one of each E",
@@ -5446,17 +6383,71 @@
           }
         ],
         "weapons": {
-          "Thunderhawk Heavy Cannon": {
+          "Thunderhawk": {
             "range": "72",
             "S": "8",
             "AP": "3+",
-            "type": "Heavy 1, 7\u201d Blast, Ordnance, Monsterbane, Hull"
+            "type": "Heavy 1, 7\u201d Blast, Ordnance,"
           },
-          "Turbo Laser Destructor Lascannons Linked Heavy Bolters Hellstrike Missile Racks Bomb Racks": {
+          "Turbo Laser": {
             "range": "96",
             "S": "D",
             "AP": "1+",
-            "type": "Heavy 1, 5 Blast, Destroyer, Monsterbane, Hull 44 Monsterbane, Hull Barrage, Hull"
+            "type": "Heavy 1, 5 Blast, Destroyer,"
+          },
+          "Cannon": {
+            "range": "Monsterbane, Hull",
+            "S": "",
+            "AP": "",
+            "type": ""
+          },
+          "Monsterbane, Hull": {
+            "range": "",
+            "S": "",
+            "AP": "",
+            "type": ""
+          },
+          "2 Linked Lascannons": {
+            "range": "48",
+            "S": "9",
+            "AP": "2+",
+            "type": "Heavy 1 x2, Monsterbane, Hull"
+          },
+          "4 Sets of": {
+            "range": "2",
+            "S": "36",
+            "AP": "5 4+ Heavy 3 x2 (x4), Sponson",
+            "type": ""
+          },
+          "Heavy Bolters": {
+            "range": "",
+            "S": "",
+            "AP": "",
+            "type": "44"
+          },
+          "2 Linked": {
+            "range": "72",
+            "S": "8",
+            "AP": "3+",
+            "type": "Heavy 1 x2, Ordnance,"
+          },
+          "2 Linked Cluster Bomb": {
+            "range": "6",
+            "S": "4+",
+            "AP": "Heavy 1 x2, Apocalypse",
+            "type": ""
+          },
+          "Missile Racks": {
+            "range": "Monsterbane, Hull",
+            "S": "",
+            "AP": "",
+            "type": ""
+          },
+          "Racks": {
+            "range": "Barrage, Hull",
+            "S": "",
+            "AP": "",
+            "type": ""
           }
         }
       },
@@ -5505,7 +6496,24 @@
         "options": [
           {
             "description": "May swap 2 Linked Hellstrike Missile Racks for W",
-            "choices": []
+            "choices": [
+              {
+                "name": "Heavy Bolters",
+                "pts_delta": 0
+              },
+              {
+                "name": "2 Linked",
+                "pts_delta": 0
+              },
+              {
+                "name": "2 Linked Cluster",
+                "pts_delta": 88
+              },
+              {
+                "name": "Missile Racks",
+                "pts_delta": 0
+              }
+            ]
           },
           {
             "description": "May take up to one of each E",
@@ -5517,7 +6525,50 @@
             ]
           }
         ],
-        "weapons": {}
+        "weapons": {
+          "2 Linked Lascannons": {
+            "range": "48",
+            "S": "9",
+            "AP": "2+",
+            "type": "Heavy 1 x2, Monsterbane, Hull"
+          },
+          "4 Sets of": {
+            "range": "2",
+            "S": "36",
+            "AP": "5 4+ Heavy 3 x2 (x4), Sponson",
+            "type": ""
+          },
+          "Heavy Bolters": {
+            "range": "",
+            "S": "",
+            "AP": "",
+            "type": ""
+          },
+          "2 Linked": {
+            "range": "72",
+            "S": "8",
+            "AP": "3+",
+            "type": "Heavy 1 x2, Ordnance,"
+          },
+          "2 Linked Cluster": {
+            "range": "Bomb",
+            "S": "6",
+            "AP": "4+",
+            "type": "Heavy 1 x2, Apocalypse"
+          },
+          "Missile Racks": {
+            "range": "Monsterbane, Hull",
+            "S": "",
+            "AP": "",
+            "type": ""
+          },
+          "Racks": {
+            "range": "Barrage, Hull",
+            "S": "",
+            "AP": "",
+            "type": "45"
+          }
+        }
       },
       {
         "name": "Imperial Fortress",
@@ -5568,7 +6619,26 @@
             "choices": []
           }
         ],
-        "weapons": {}
+        "weapons": {
+          "2 Linked Heavy Bolters": {
+            "range": "36",
+            "S": "5",
+            "AP": "4+",
+            "type": "Heavy 3 x2, Turret"
+          },
+          "2 Linked": {
+            "range": "48",
+            "S": "7",
+            "AP": "4+",
+            "type": "Heavy 2 x2, Monsterbane, AA,"
+          },
+          "Turret": {
+            "range": "",
+            "S": "",
+            "AP": "",
+            "type": ""
+          }
+        }
       }
     ],
     "fortifications": [
@@ -5589,7 +6659,26 @@
           "2 Linked Turbolaser Destructors"
         ],
         "options": [],
-        "weapons": {}
+        "weapons": {
+          "2 Linked": {
+            "range": "96",
+            "S": "D",
+            "AP": "1+",
+            "type": "Heavy 1 x2, 5\u201d Blast, Destroyer,"
+          },
+          "Monsterbane, Turret Destructors": {
+            "range": "",
+            "S": "",
+            "AP": "",
+            "type": ""
+          },
+          "0-1/1000 points": {
+            "range": "",
+            "S": "",
+            "AP": "",
+            "type": ""
+          }
+        }
       },
       {
         "name": "Aegis Weapon Emplacement",
@@ -5612,18 +6701,54 @@
             "description": "May swap Long Lascannon for H",
             "choices": [
               {
-                "name": "Long Lascannon Lascannons Autocannons Autocannons",
+                "name": "Long Lascannon",
                 "pts_delta": 0
+              },
+              {
+                "name": "2 Linked Long",
+                "pts_delta": 28
+              },
+              {
+                "name": "2 Linked",
+                "pts_delta": 34
+              },
+              {
+                "name": "4 Linked",
+                "pts_delta": 40
               }
             ]
           }
         ],
         "weapons": {
-          "Long Lascannon Lascannons Autocannons Autocannons": {
+          "Long Lascannon": {
             "range": "72",
             "S": "9",
             "AP": "2+",
-            "type": "Heavy 1, Monsterbane, AA, Turret Turret Turret Turret"
+            "type": "Heavy 1, Monsterbane, AA, Turret"
+          },
+          "2 Linked Long": {
+            "range": "72",
+            "S": "9",
+            "AP": "2+",
+            "type": "Heavy 1 x2, Monsterbane, AA,"
+          },
+          "2 Linked": {
+            "range": "48",
+            "S": "7",
+            "AP": "4+",
+            "type": "Heavy 2 x2, Monsterbane, AA,"
+          },
+          "4 Linked": {
+            "range": "48",
+            "S": "7",
+            "AP": "4+",
+            "type": "Heavy 2 x4, Monsterbane, AA,"
+          },
+          "Turret": {
+            "range": "",
+            "S": "",
+            "AP": "",
+            "type": ""
           }
         }
       },
@@ -5645,11 +6770,11 @@
         ],
         "options": [],
         "weapons": {
-          "Plasma Obliterator": {
+          "Plasma": {
             "range": "72",
             "S": "8",
             "AP": "2+",
-            "type": "Heavy 1, 7\u201d Blast, Monsterbane, Turret"
+            "type": "Heavy 1, 7\u201d Blast,"
           },
           "Macro Cannon": {
             "range": "72",
@@ -5657,11 +6782,35 @@
             "AP": "1+",
             "type": "Heavy 1, 5\u201d Blast, Destroyer, Monsterbane, Turret"
           },
-          "+271 Missile Silo": {
+          "+271": {
             "range": "Deathstrike",
             "S": "12 to",
             "AP": "D/10 1+/1+ Heavy 1, 15\u201d Blast, Destroyer,",
-            "type": "240 /8 /1+ Ordnance, Monsterbane, Indirect Fire, Ignores Cover, The Hour is Nigh, T Minus 5, Turret 48"
+            "type": ""
+          },
+          "Monsterbane, Turret": {
+            "range": "",
+            "S": "",
+            "AP": "",
+            "type": ""
+          },
+          "Silo": {
+            "range": "240",
+            "S": "/8",
+            "AP": "/1+ Ordnance, Monsterbane,",
+            "type": ""
+          },
+          "Fire, Ignores Cover,": {
+            "range": "",
+            "S": "",
+            "AP": "",
+            "type": ""
+          },
+          "Hour is Nigh, T Minus": {
+            "range": "5,",
+            "S": "",
+            "AP": "",
+            "type": "Turret 48"
           }
         }
       },

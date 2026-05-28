@@ -236,11 +236,17 @@
             "AP": "-",
             "type": "None"
           },
-          "Marker Light Carbines": {
+          "Marker Light": {
             "range": "36",
             "S": "-",
             "AP": "-",
             "type": "Assault 1, Marker Light"
+          },
+          "2 Linked Pulse Carbines": {
+            "range": "18",
+            "S": "5",
+            "AP": "5+",
+            "type": "Assault 2 x2"
           },
           "Smart Missile Pod": {
             "range": "30",
@@ -391,8 +397,12 @@
             "description": "May take up to 2 Drones for +8 points each Any Drone may swap Marker Light for D or F",
             "choices": [
               {
-                "name": "Marker Light Carbines",
+                "name": "Marker Light",
                 "pts_delta": 0
+              },
+              {
+                "name": "2 Linked Pulse Carbines",
+                "pts_delta": 1
               },
               {
                 "name": "Smart Missile Pod",
@@ -412,11 +422,17 @@
             "AP": "-",
             "type": "None"
           },
-          "Marker Light Carbines": {
+          "Marker Light": {
             "range": "36",
             "S": "-",
             "AP": "-",
             "type": "Assault 1, Marker Light"
+          },
+          "2 Linked Pulse Carbines": {
+            "range": "18",
+            "S": "5",
+            "AP": "5+",
+            "type": "Assault 2 x2"
           },
           "Smart Missile Pod": {
             "range": "30",
@@ -490,8 +506,12 @@
             "description": "May take up to 2 Drones for +8 points each Any Drone may swap Marker Light for D or F",
             "choices": [
               {
-                "name": "Marker Light Carbines",
+                "name": "Marker Light",
                 "pts_delta": 0
+              },
+              {
+                "name": "2 Linked Pulse Carbines",
+                "pts_delta": 1
               },
               {
                 "name": "Smart Missile Pod",
@@ -515,11 +535,17 @@
             "AP": "-",
             "type": "None"
           },
-          "Marker Light Carbines": {
+          "Marker Light": {
             "range": "36",
             "S": "-",
             "AP": "-",
             "type": "Assault 1, Marker Light"
+          },
+          "2 Linked Pulse Carbines": {
+            "range": "18",
+            "S": "5",
+            "AP": "5+",
+            "type": "Assault 2 x2"
           },
           "Smart Missile Pod": {
             "range": "30",
@@ -610,8 +636,12 @@
             "description": "May take up to 2 Drones for +8 points each Any Drone may swap Marker Light for D or F",
             "choices": [
               {
-                "name": "Marker Light Carbines",
+                "name": "Marker Light",
                 "pts_delta": 0
+              },
+              {
+                "name": "2 Linked Pulse Carbines",
+                "pts_delta": 1
               },
               {
                 "name": "Smart Missile Pod",
@@ -635,11 +665,17 @@
             "AP": "-",
             "type": "None"
           },
-          "Marker Light Carbines": {
+          "Marker Light": {
             "range": "36",
             "S": "-",
             "AP": "-",
             "type": "Assault 1, Marker Light"
+          },
+          "2 Linked Pulse Carbines": {
+            "range": "18",
+            "S": "5",
+            "AP": "5+",
+            "type": "Assault 2 x2"
           },
           "Smart Missile Pod": {
             "range": "30",
@@ -791,6 +827,12 @@
             "S": "8",
             "AP": "1+",
             "type": "Assault 2, Melta, (Monsterbane) 15"
+          },
+          "0-3/Troop Slot Purchased": {
+            "range": "",
+            "S": "",
+            "AP": "",
+            "type": ""
           }
         }
       }
@@ -854,13 +896,94 @@
             "description": "May take up to 2 Drones for +8 points each Fireblade may swap Pulse Rifle for R Fireblade may take one G Any Drone may swap Marker Light for D or F",
             "choices": [
               {
+                "name": "Pulse Rifle",
+                "pts_delta": 0
+              },
+              {
+                "name": "Pulse Carbine",
+                "pts_delta": 0
+              },
+              {
+                "name": "Pusle Blaster",
+                "pts_delta": 0
+              },
+              {
+                "name": "Marker Light",
+                "pts_delta": 0
+              },
+              {
+                "name": "2 Linked Pulse Carbines",
+                "pts_delta": 1
+              },
+              {
+                "name": "Smart Missile Pod",
+                "pts_delta": 3
+              },
+              {
+                "name": "Missile Pod",
+                "pts_delta": 4
+              },
+              {
+                "name": "EMP Grenades",
+                "pts_delta": 2
+              },
+              {
                 "name": "Shield Generator",
                 "pts_delta": 5
               }
             ]
           }
         ],
-        "weapons": {}
+        "weapons": {
+          "Pulse Rifle": {
+            "range": "30",
+            "S": "5",
+            "AP": "5+",
+            "type": "Rapid Fire 1"
+          },
+          "Pulse Carbine": {
+            "range": "18",
+            "S": "5",
+            "AP": "5+",
+            "type": "Assault 2"
+          },
+          "Pusle Blaster": {
+            "range": "12",
+            "S": "5",
+            "AP": "5+",
+            "type": "Assault 2, Scatter"
+          },
+          "Marker Light": {
+            "range": "36",
+            "S": "-",
+            "AP": "-",
+            "type": "Assault 1, Marker Light"
+          },
+          "2 Linked Pulse Carbines": {
+            "range": "18",
+            "S": "5",
+            "AP": "5+",
+            "type": "Assault 2 x2"
+          },
+          "Smart Missile Pod": {
+            "range": "30",
+            "S": "5",
+            "AP": "5+",
+            "type": "Assault 2, Ignores Cover"
+          },
+          "Missile Pod": {
+            "range": "36",
+            "S": "7",
+            "AP": "4+",
+            "type": "Assault 2, Monsterbane"
+          },
+          "EMP Grenades": {
+            "range": "8",
+            "S": "3",
+            "AP": "3+",
+            "type": "Grenade 1, Haywire (3+), Nonblast 16"
+          }
+        }
       },
       {
         "name": "Fire Warrior Bodyguard",
@@ -931,8 +1054,12 @@
                 "pts_delta": 0
               },
               {
-                "name": "Marker Light Carbines",
+                "name": "Marker Light",
                 "pts_delta": 0
+              },
+              {
+                "name": "2 Linked Pulse Carbines",
+                "pts_delta": 1
               },
               {
                 "name": "Smart Missile Pod",
@@ -972,11 +1099,17 @@
             "AP": "5+",
             "type": "Assault 2, Scatter"
           },
-          "Marker Light Carbines": {
+          "Marker Light": {
             "range": "36",
             "S": "-",
             "AP": "-",
             "type": "Assault 1, Marker Light"
+          },
+          "2 Linked Pulse Carbines": {
+            "range": "18",
+            "S": "5",
+            "AP": "5+",
+            "type": "Assault 2 x2"
           },
           "Smart Missile Pod": {
             "range": "30",
@@ -1056,8 +1189,12 @@
             "description": "May take up to 2 Drones for +8 points each Any Drone may swap Marker Light for D or F",
             "choices": [
               {
-                "name": "Marker Light Carbines",
+                "name": "Marker Light",
                 "pts_delta": 0
+              },
+              {
+                "name": "2 Linked Pulse Carbines",
+                "pts_delta": 1
               },
               {
                 "name": "Smart Missile Pod",
@@ -1083,11 +1220,11 @@
             "AP": "-",
             "type": "Assault 1, Marker Light"
           },
-          "Marker Light Carbines": {
-            "range": "36",
-            "S": "-",
-            "AP": "-",
-            "type": "Assault 1, Marker Light"
+          "2 Linked Pulse Carbines": {
+            "range": "18",
+            "S": "5",
+            "AP": "5+",
+            "type": "Assault 2 x2"
           },
           "Smart Missile Pod": {
             "range": "30",
@@ -1402,7 +1539,19 @@
             "range": "24",
             "S": "4",
             "AP": "5+",
-            "type": "Assault 1 Melee    +1      5+          None"
+            "type": "Assault 1"
+          },
+          "Or": {
+            "range": "Or",
+            "S": "Or",
+            "AP": "",
+            "type": ""
+          },
+          "+1": {
+            "range": "5+",
+            "S": "None",
+            "AP": "",
+            "type": ""
           },
           "Shaper\u2019s Blade": {
             "range": "Melee",
@@ -1460,7 +1609,19 @@
             "range": "24",
             "S": "4",
             "AP": "5+",
-            "type": "Assault 1 Melee    +1      5+          None"
+            "type": "Assault 1"
+          },
+          "Or": {
+            "range": "Or",
+            "S": "Or",
+            "AP": "",
+            "type": ""
+          },
+          "+1": {
+            "range": "5+",
+            "S": "None",
+            "AP": "",
+            "type": ""
           },
           "Shaper\u2019s Blade": {
             "range": "Melee",
@@ -1671,7 +1832,19 @@
             "range": "24",
             "S": "4",
             "AP": "5+",
-            "type": "Assault 1 Melee    +1      5+    None 23"
+            "type": "Assault 1"
+          },
+          "Or": {
+            "range": "Or",
+            "S": "Or",
+            "AP": "",
+            "type": ""
+          },
+          "+1": {
+            "range": "5+",
+            "S": "None",
+            "AP": "",
+            "type": "23"
           },
           "Kroot Pistol": {
             "range": "12",
@@ -1723,7 +1896,19 @@
             "range": "24",
             "S": "4",
             "AP": "5+",
-            "type": "Assault 1 Melee    +1      5+    None 23"
+            "type": "Assault 1"
+          },
+          "Or": {
+            "range": "Or",
+            "S": "Or",
+            "AP": "",
+            "type": ""
+          },
+          "+1": {
+            "range": "5+",
+            "S": "None",
+            "AP": "",
+            "type": "23"
           },
           "Kroot Pistol": {
             "range": "12",
@@ -2008,8 +2193,12 @@
             "description": "may take one G Any Drone may swap Marker Light for D or F Any DS8 may swap Smart Missile System for T",
             "choices": [
               {
-                "name": "Marker Light Carbines",
+                "name": "Marker Light",
                 "pts_delta": 0
+              },
+              {
+                "name": "2 Linked Pulse Carbines",
+                "pts_delta": 1
               },
               {
                 "name": "Smart Missile Pod",
@@ -2053,11 +2242,17 @@
             "AP": "5+",
             "type": "Assault 2, Scatter"
           },
-          "Marker Light Carbines": {
+          "Marker Light": {
             "range": "36",
             "S": "-",
             "AP": "-",
             "type": "Assault 1, Marker Light"
+          },
+          "2 Linked Pulse Carbines": {
+            "range": "18",
+            "S": "5",
+            "AP": "5+",
+            "type": "Assault 2 x2"
           },
           "Smart Missile Pod": {
             "range": "30",
@@ -2238,8 +2433,12 @@
                 "pts_delta": 6
               },
               {
-                "name": "Heavy Mortar Stubbers",
+                "name": "Heavy Mortar",
                 "pts_delta": 6
+              },
+              {
+                "name": "2 Linked Heavy Stubbers",
+                "pts_delta": 11
               },
               {
                 "name": "Missile Launcher",
@@ -2258,7 +2457,7 @@
                 "pts_delta": 6
               },
               {
-                "name": "Grenade Launcher",
+                "name": "Grenade",
                 "pts_delta": 7
               },
               {
@@ -2411,23 +2610,35 @@
             "AP": "4+",
             "type": "Heavy 2, Monsterbane, Limited Ammo"
           },
-          "Heavy Mortar Stubbers": {
+          "Heavy Mortar": {
             "range": "12-48",
             "S": "5",
             "AP": "5+",
             "type": "Heavy 1, 3\u201d Blast, Indirect Fire, Pinning, Limited Ammo"
           },
+          "2 Linked Heavy Stubbers": {
+            "range": "36",
+            "S": "5",
+            "AP": "6+",
+            "type": "Heavy 3 x2, Limited Ammo"
+          },
           "Missile Launcher": {
             "range": "48",
             "S": "8",
             "AP": "3+",
-            "type": "Heavy 1, Monsterbane, Limited 48      4      6+   Heavy 1, 3\u201d Blast, Limited Ammo"
+            "type": "Heavy 1, Monsterbane, Limited"
           },
           "Lascannon": {
             "range": "48",
             "S": "9",
             "AP": "2+",
             "type": "Heavy 1, Monsterbane"
+          },
+          "Or": {
+            "range": "Or",
+            "S": "Ammo Or",
+            "AP": "",
+            "type": "Ammo"
           },
           "Sniper Rifle": {
             "range": "36",
@@ -2441,11 +2652,11 @@
             "AP": "5+",
             "type": "Assault 1, Limited Ammo"
           },
-          "Grenade Launcher": {
+          "Grenade": {
             "range": "24",
             "S": "6",
             "AP": "4+",
-            "type": "Assault 1, Limited Ammo Or Or Or Or 24      3      -    Assault 1, 3\u201d Blast, Limited Ammo"
+            "type": "Assault 1, Limited Ammo"
           },
           "Plasma Gun": {
             "range": "24",
@@ -2550,7 +2761,11 @@
                 "pts_delta": 2
               },
               {
-                "name": "Pulse Carbine Pistols",
+                "name": "Pulse Carbine",
+                "pts_delta": 2
+              },
+              {
+                "name": "2 Linked Kroot Pistols",
                 "pts_delta": 2
               },
               {
@@ -2566,6 +2781,14 @@
                 "pts_delta": 0
               },
               {
+                "name": "Dvorgite Skinner",
+                "pts_delta": 5
+              },
+              {
+                "name": "Londaxi Tribalest",
+                "pts_delta": 9
+              },
+              {
                 "name": "Kroot Hound",
                 "pts_delta": 2
               }
@@ -2577,7 +2800,25 @@
             "range": "24",
             "S": "4",
             "AP": "5+",
-            "type": "Assault 1 Melee     +1     5+        None"
+            "type": "Assault 1"
+          },
+          "Or": {
+            "range": "Or",
+            "S": "Or",
+            "AP": "",
+            "type": ""
+          },
+          "+1": {
+            "range": "5+",
+            "S": "None",
+            "AP": "",
+            "type": ""
+          },
+          "User": {
+            "range": "-",
+            "S": "Extra Attack 1, Rending",
+            "AP": "",
+            "type": "31"
           },
           "Accelerator Bow": {
             "range": "24",
@@ -2589,7 +2830,7 @@
             "range": "12",
             "S": "4",
             "AP": "5+",
-            "type": "Assault 2, Scatter Melee     +1     5+        None"
+            "type": "Assault 2, Scatter"
           },
           "Pulse Rifle": {
             "range": "30",
@@ -2597,11 +2838,17 @@
             "AP": "5+",
             "type": "Rapid Fire 1"
           },
-          "Pulse Carbine Pistols": {
+          "Pulse Carbine": {
             "range": "18",
             "S": "5",
             "AP": "5+",
             "type": "Assault 2"
+          },
+          "2 Linked Kroot Pistols": {
+            "range": "12",
+            "S": "4",
+            "AP": "5+",
+            "type": "Pistol 1 x2"
           },
           "Kroot Hunting Rifle": {
             "range": "36",
@@ -2619,7 +2866,25 @@
             "range": "6",
             "S": "3",
             "AP": "-",
-            "type": "Pistol 2, Rending Melee     User   -         Extra Attack 1, Rending 31"
+            "type": "Pistol 2, Rending"
+          },
+          "Dvorgite Skinner": {
+            "range": "12",
+            "S": "6",
+            "AP": "3+",
+            "type": "Rapid Fire 2"
+          },
+          "Londaxi Tribalest": {
+            "range": "36",
+            "S": "5",
+            "AP": "5+",
+            "type": "Heavy 1, 3\u201d Blast, Rending"
+          },
+          "0-3 Slots": {
+            "range": "",
+            "S": "",
+            "AP": "",
+            "type": ""
           }
         }
       }
@@ -2663,6 +2928,12 @@
           }
         ],
         "weapons": {
+          "Defensive Charge": {
+            "range": "12",
+            "S": "5",
+            "AP": "5+",
+            "type": "Pistol 1 32"
+          },
           "Helpers Grizzled": {
             "range": "Points: 75",
             "S": "",
@@ -2971,8 +3242,12 @@
                 "pts_delta": 19
               },
               {
-                "name": "Marker Light Carbines",
+                "name": "Marker Light",
                 "pts_delta": 0
+              },
+              {
+                "name": "2 Linked Pulse Carbines",
+                "pts_delta": 1
               },
               {
                 "name": "Smart Missile Pod",
@@ -3002,11 +3277,17 @@
             "AP": "1+",
             "type": "Assault 2, Melta, (Monsterbane)"
           },
-          "Marker Light Carbines": {
+          "Marker Light": {
             "range": "36",
             "S": "-",
             "AP": "-",
             "type": "Assault 1, Marker Light"
+          },
+          "2 Linked Pulse Carbines": {
+            "range": "18",
+            "S": "5",
+            "AP": "5+",
+            "type": "Assault 2 x2"
           },
           "Smart Missile Pod": {
             "range": "30",
@@ -3242,13 +3523,54 @@
             "description": "May take up to 8 more Drones for +10 points each Any Drone may swap Marker Light for D or F",
             "choices": [
               {
+                "name": "Marker Light",
+                "pts_delta": 0
+              },
+              {
+                "name": "2 Linked Pulse Carbines",
+                "pts_delta": 1
+              },
+              {
+                "name": "Smart Missile Pod",
+                "pts_delta": 3
+              },
+              {
+                "name": "Missile Pod",
+                "pts_delta": 4
+              },
+              {
                 "name": "Shield Generator",
                 "pts_delta": 13
               }
             ]
           }
         ],
-        "weapons": {}
+        "weapons": {
+          "Marker Light": {
+            "range": "36",
+            "S": "-",
+            "AP": "-",
+            "type": "Assault 1, Marker Light"
+          },
+          "2 Linked Pulse Carbines": {
+            "range": "18",
+            "S": "5",
+            "AP": "5+",
+            "type": "Assault 2 x2"
+          },
+          "Smart Missile Pod": {
+            "range": "30",
+            "S": "5",
+            "AP": "5+",
+            "type": "Assault 2, Ignores Cover"
+          },
+          "Missile Pod": {
+            "range": "36",
+            "S": "7",
+            "AP": "4+",
+            "type": "Assault 2, Monsterbane 40"
+          }
+        }
       },
       {
         "name": "Kroot Hounds",
@@ -3491,8 +3813,12 @@
             "description": "may take one G Any Drone may swap Marker Light for D or F",
             "choices": [
               {
-                "name": "Marker Light Carbines",
+                "name": "Marker Light",
                 "pts_delta": 0
+              },
+              {
+                "name": "2 Linked Pulse Carbines",
+                "pts_delta": 1
               },
               {
                 "name": "Smart Missile Pod",
@@ -3550,11 +3876,11 @@
             "AP": "-",
             "type": "Assault 1, Marker Light"
           },
-          "Marker Light Carbines": {
-            "range": "36",
-            "S": "-",
-            "AP": "-",
-            "type": "Assault 1, Marker Light"
+          "2 Linked Pulse Carbines": {
+            "range": "18",
+            "S": "5",
+            "AP": "5+",
+            "type": "Assault 2 x2"
           },
           "Smart Missile Pod": {
             "range": "30",
@@ -3665,7 +3991,20 @@
         "options": [
           {
             "description": "May take up to 5 more Vespids for +33 points each Up to three models may swap Neutron Blaster for S",
-            "choices": []
+            "choices": [
+              {
+                "name": "Flamer",
+                "pts_delta": 0
+              },
+              {
+                "name": "Neutron Rail Rifle",
+                "pts_delta": 3
+              },
+              {
+                "name": "Airbursting",
+                "pts_delta": 7
+              }
+            ]
           },
           {
             "description": "May take one Oversight Drone for +20 points",
@@ -3673,6 +4012,36 @@
           }
         ],
         "weapons": {
+          "Neutron Blaster": {
+            "range": "18",
+            "S": "5",
+            "AP": "3+",
+            "type": "Assault 2"
+          },
+          "Flamer": {
+            "range": "Flame",
+            "S": "4",
+            "AP": "5+",
+            "type": "Assault 1"
+          },
+          "Neutron Rail Rifle": {
+            "range": "24",
+            "S": "5",
+            "AP": "2+",
+            "type": "Assault 1, Sniper (2+)"
+          },
+          "Airbursting": {
+            "range": "18",
+            "S": "5",
+            "AP": "4+",
+            "type": "Assault 1, Indirect Fire, 3\u201d Blast,"
+          },
+          "Ignores Cover Launcher": {
+            "range": "",
+            "S": "",
+            "AP": "",
+            "type": ""
+          },
           "Infantry": {
             "range": "",
             "S": "",
@@ -3721,6 +4090,18 @@
           }
         ],
         "weapons": {
+          "2 Linked Long": {
+            "range": "36",
+            "S": "5",
+            "AP": "5+",
+            "type": "Assault 4 x2"
+          },
+          "Cannons": {
+            "range": "",
+            "S": "",
+            "AP": "",
+            "type": ""
+          },
           "Seeker Missile": {
             "range": "72",
             "S": "10",
@@ -3804,7 +4185,19 @@
             "range": "24",
             "S": "4",
             "AP": "5+",
-            "type": "Assault 1 45 Melee    +1     5+      None"
+            "type": "Assault 1 45"
+          },
+          "Or": {
+            "range": "Or",
+            "S": "Or",
+            "AP": "",
+            "type": ""
+          },
+          "+1": {
+            "range": "5+",
+            "S": "None",
+            "AP": "",
+            "type": ""
           }
         }
       },
@@ -3844,7 +4237,50 @@
           "3 Linked Marker Lights"
         ],
         "options": [],
-        "weapons": {}
+        "weapons": {
+          "2 Linked Plasma Rifles": {
+            "range": "24",
+            "S": "6",
+            "AP": "2+",
+            "type": "Rapid Fire 1 x2, Hull, Primary"
+          },
+          "2 Linked Missile": {
+            "range": "36",
+            "S": "7",
+            "AP": "4+",
+            "type": "Assault 2 x2, Monsterbane,"
+          },
+          "2 Linked Rail": {
+            "range": "48",
+            "S": "6",
+            "AP": "3+",
+            "type": "Heavy 1 x2, Sniper (2+), Hull,"
+          },
+          "2 Linked Fusion": {
+            "range": "18",
+            "S": "8",
+            "AP": "1+",
+            "type": "Assault 2 x2, Melta,"
+          },
+          "Hull, Primary": {
+            "range": "",
+            "S": "",
+            "AP": "",
+            "type": ""
+          },
+          "Primary": {
+            "range": "",
+            "S": "",
+            "AP": "",
+            "type": ""
+          },
+          "(Monsterbane), Hull, Primary": {
+            "range": "",
+            "S": "",
+            "AP": "",
+            "type": "46"
+          }
+        }
       },
       {
         "name": "M WS BS S FA SA RA W I A Ld Sv",
@@ -3930,6 +4366,26 @@
             "description": "May take up to 2 more Piranhas for +64 points each Any Piranha may swap 2 Linked Plasma Rifles for H Any Piranha may take up to two of each M Any Piranha may take up to one of each E",
             "choices": [
               {
+                "name": "2 Linked Plasma Rifles",
+                "pts_delta": 0
+              },
+              {
+                "name": "2 Linked Missile",
+                "pts_delta": 8
+              },
+              {
+                "name": "2 Linked Rail",
+                "pts_delta": 16
+              },
+              {
+                "name": "2 Linked Fusion",
+                "pts_delta": 20
+              },
+              {
+                "name": "Primary",
+                "pts_delta": 0
+              },
+              {
                 "name": "Black Sun Filters",
                 "pts_delta": 2
               },
@@ -3944,7 +4400,50 @@
             ]
           }
         ],
-        "weapons": {}
+        "weapons": {
+          "2 Linked Plasma Rifles": {
+            "range": "24",
+            "S": "6",
+            "AP": "2+",
+            "type": "Rapid Fire 1 x2, Hull, Primary"
+          },
+          "2 Linked Missile": {
+            "range": "36",
+            "S": "7",
+            "AP": "4+",
+            "type": "Assault 2 x2, Monsterbane,"
+          },
+          "2 Linked Rail": {
+            "range": "48",
+            "S": "6",
+            "AP": "3+",
+            "type": "Heavy 1 x2, Sniper (2+), Hull,"
+          },
+          "2 Linked Fusion": {
+            "range": "18",
+            "S": "8",
+            "AP": "1+",
+            "type": "Assault 2 x2, Melta,"
+          },
+          "Hull, Primary": {
+            "range": "",
+            "S": "",
+            "AP": "",
+            "type": ""
+          },
+          "Primary": {
+            "range": "",
+            "S": "",
+            "AP": "",
+            "type": ""
+          },
+          "(Monsterbane), Hull, Primary": {
+            "range": "",
+            "S": "",
+            "AP": "",
+            "type": "48"
+          }
+        }
       },
       {
         "name": "M WS BS S FA SA RA W I A Ld Sv",
@@ -4169,10 +4668,40 @@
         "options": [
           {
             "description": "May take up to 2 more Great Knarlocs for +147 points each Any Great Knarloc may swap one Kroot Rifle for S",
-            "choices": []
+            "choices": [
+              {
+                "name": "Kroot Bolt",
+                "pts_delta": 29
+              }
+            ]
           }
         ],
-        "weapons": {}
+        "weapons": {
+          "Great Talons": {
+            "range": "Melee",
+            "S": "User",
+            "AP": "2+",
+            "type": "Extra Attack 1"
+          },
+          "Kroot Rifle": {
+            "range": "24",
+            "S": "4",
+            "AP": "5+",
+            "type": "Assault 1"
+          },
+          "Kroot Bolt": {
+            "range": "36",
+            "S": "8",
+            "AP": "3+",
+            "type": "Assault 1, 3\u201d Blast,"
+          },
+          "Monsterbane": {
+            "range": "",
+            "S": "",
+            "AP": "",
+            "type": ""
+          }
+        }
       },
       {
         "name": "M WS BS S FA SA RA W I A Ld Sv",
@@ -4452,7 +4981,7 @@
             "description": "May take up to 2 more AX-5-2s for +220 points each Any AX-5-2 may swap Swiftstrike Railgun for T Any AX-5-2 may swap 2 Cyclic Ion Blasters for S Any AX-5-2 may take up to 2 of each M Any AX-5-2 may take up to one of each E",
             "choices": [
               {
-                "name": "Swiftstrike Railgun",
+                "name": "Swiftstrike",
                 "pts_delta": 0
               },
               {
@@ -4460,8 +4989,20 @@
                 "pts_delta": 10
               },
               {
-                "name": "Heavy Burst Cannon Pods Blasters Cannons",
+                "name": "Heavy Burst",
                 "pts_delta": 15
+              },
+              {
+                "name": "Monsterbane, Hull, Primary",
+                "pts_delta": 0
+              },
+              {
+                "name": "2 Cyclic Ion Blasters",
+                "pts_delta": 0
+              },
+              {
+                "name": "2 Long Burst Cannons",
+                "pts_delta": 6
               },
               {
                 "name": "Seeker Missile",
@@ -4487,11 +5028,11 @@
           }
         ],
         "weapons": {
-          "Swiftstrike Railgun": {
+          "Swiftstrike": {
             "range": "36",
             "S": "10",
             "AP": "1+",
-            "type": "Heavy 1, Ordnance, Monsterbane, Hull, Primary"
+            "type": "Heavy 1, Ordnance,"
           },
           "Ion Cannon": {
             "range": "60",
@@ -4499,11 +5040,41 @@
             "AP": "3+",
             "type": "Heavy 1, 5\u201d Blast, Monsterbane, Hull, Primary"
           },
-          "Heavy Burst Cannon Pods Blasters Cannons": {
+          "Heavy Burst": {
             "range": "36",
             "S": "6",
             "AP": "4+",
-            "type": "Heavy 12, Rending, Hull, Primary 58"
+            "type": "Heavy 12, Rending, Hull,"
+          },
+          "Monsterbane, Hull, Primary": {
+            "range": "",
+            "S": "",
+            "AP": "",
+            "type": ""
+          },
+          "Primary": {
+            "range": "",
+            "S": "",
+            "AP": "",
+            "type": ""
+          },
+          "2 Linked Missile Pods": {
+            "range": "36",
+            "S": "7",
+            "AP": "4+",
+            "type": "Assault 2 x2, Monsterbane, Hull"
+          },
+          "2 Cyclic Ion Blasters": {
+            "range": "18",
+            "S": "7",
+            "AP": "3+",
+            "type": "Assault 2 x2, Turret"
+          },
+          "2 Long Burst Cannons": {
+            "range": "36",
+            "S": "5",
+            "AP": "5+",
+            "type": "Assault 4 x2, Turret 58"
           },
           "Seeker Missile": {
             "range": "72",
@@ -4560,6 +5131,10 @@
                 "pts_delta": 6
               },
               {
+                "name": "Turret, Primary",
+                "pts_delta": 0
+              },
+              {
                 "name": "Black Sun Filters",
                 "pts_delta": 2
               },
@@ -4591,11 +5166,17 @@
             "AP": "4+",
             "type": "Assault 2, Monsterbane, Sponson, Primary"
           },
-          "Quad Ion Cannon": {
+          "Quad Ion": {
             "range": "48",
             "S": "8",
             "AP": "3+",
-            "type": "Heavy 1 x4, Monsterbane, Turret, Primary"
+            "type": "Heavy 1 x4, Monsterbane,"
+          },
+          "Turret, Primary": {
+            "range": "",
+            "S": "",
+            "AP": "",
+            "type": ""
           },
           "Seeker Missile": {
             "range": "72",
@@ -4733,14 +5314,68 @@
         "options": [
           {
             "description": "May take one M",
-            "choices": []
+            "choices": [
+              {
+                "name": "Seeker Missile",
+                "pts_delta": 20
+              }
+            ]
           },
           {
             "description": "May take up to one of each E",
             "choices": []
           }
         ],
-        "weapons": {}
+        "weapons": {
+          "2 Linked Heavy": {
+            "range": "120",
+            "S": "D",
+            "AP": "1+",
+            "type": "Heavy 1 x2, Destroyer,"
+          },
+          "2 Linked Missile": {
+            "range": "36",
+            "S": "7",
+            "AP": "4+",
+            "type": "Assault 2 x2, Monsterbane,"
+          },
+          "Monsterbane, Hull, Primary": {
+            "range": "",
+            "S": "",
+            "AP": "",
+            "type": ""
+          },
+          "Hull, Primary": {
+            "range": "",
+            "S": "",
+            "AP": "",
+            "type": ""
+          },
+          "Burst Cannon": {
+            "range": "18",
+            "S": "5",
+            "AP": "5+",
+            "type": "Assault 4, Turret, Primary"
+          },
+          "Marker Light": {
+            "range": "36",
+            "S": "-",
+            "AP": "-",
+            "type": "Assault 1, Marker Light, Hull, Primary"
+          },
+          "Seeker Missile": {
+            "range": "72",
+            "S": "10",
+            "AP": "3+",
+            "type": "Heavy 1, Monsterbane, Indirect"
+          },
+          "Fire, Ignores Cover, Seeker": {
+            "range": "",
+            "S": "",
+            "AP": "",
+            "type": "Missile, Hull, Primary 62"
+          }
+        }
       },
       {
         "name": "Tiger Shark Fighter Bomber",
@@ -4787,12 +5422,16 @@
             "description": "May take one M or DB If DB was taken, any Drone may swap Marker Light for D",
             "choices": [
               {
-                "name": "Seeker Missile Rack",
+                "name": "Seeker Missile",
                 "pts_delta": 20
               },
               {
-                "name": "Marker Light Carbines",
+                "name": "Marker Light",
                 "pts_delta": 0
+              },
+              {
+                "name": "2 Linked Pulse Carbines",
+                "pts_delta": 1
               },
               {
                 "name": "Burst Cannon",
@@ -4818,23 +5457,59 @@
           }
         ],
         "weapons": {
+          "2 Linked Ion": {
+            "range": "60",
+            "S": "8",
+            "AP": "3+",
+            "type": "Heavy 1 x2, 5\u201d Blast,"
+          },
+          "2 Linked Missile": {
+            "range": "36",
+            "S": "7",
+            "AP": "4+",
+            "type": "Assault 2 x2, Monsterbane,"
+          },
+          "Monsterbane, Hull, Primary": {
+            "range": "",
+            "S": "",
+            "AP": "",
+            "type": ""
+          },
+          "Hull, Primary": {
+            "range": "",
+            "S": "",
+            "AP": "",
+            "type": ""
+          },
           "Burst Cannon": {
             "range": "18",
             "S": "5",
             "AP": "5+",
             "type": "Assault 4, Turret, Primary"
           },
-          "Seeker Missile Rack": {
+          "Seeker Missile": {
             "range": "72",
             "S": "10",
             "AP": "3+",
-            "type": "Heavy 1, Monsterbane, Indirect Fire, Ignores Cover, Seeker Missile, Hull, Primary"
+            "type": "Heavy 1, Monsterbane, Indirect"
           },
-          "Marker Light Carbines": {
+          "Fire, Ignores Cover, Seeker": {
+            "range": "",
+            "S": "",
+            "AP": "",
+            "type": "Missile, Hull, Primary"
+          },
+          "Marker Light": {
             "range": "72",
             "S": "10",
             "AP": "3+",
             "type": "Heavy 1, Monsterbane, Indirect Fire, Ignores Cover, Seeker Missile, Hull"
+          },
+          "2 Linked Pulse Carbines": {
+            "range": "18",
+            "S": "5",
+            "AP": "5+",
+            "type": "Assault 2 x2"
           },
           "Smart Missile Pod": {
             "range": "30",
@@ -4908,12 +5583,16 @@
             "description": "May take one M or DB If DB was taken, any Drone may swap Marker Light for D",
             "choices": [
               {
-                "name": "Seeker Missile Rack",
+                "name": "Seeker Missile",
                 "pts_delta": 20
               },
               {
-                "name": "Marker Light Carbines",
+                "name": "Marker Light",
                 "pts_delta": 0
+              },
+              {
+                "name": "2 Linked Pulse Carbines",
+                "pts_delta": 1
               },
               {
                 "name": "Burst Cannon",
@@ -4943,23 +5622,59 @@
           }
         ],
         "weapons": {
+          "2 Linked Ion": {
+            "range": "60",
+            "S": "8",
+            "AP": "3+",
+            "type": "Heavy 1 x2, 5\u201d Blast,"
+          },
+          "2 Linked Missile": {
+            "range": "36",
+            "S": "7",
+            "AP": "4+",
+            "type": "Assault 2 x2, Monsterbane,"
+          },
+          "Monsterbane, Hull, Primary": {
+            "range": "",
+            "S": "",
+            "AP": "",
+            "type": ""
+          },
+          "Hull, Primary": {
+            "range": "",
+            "S": "",
+            "AP": "",
+            "type": ""
+          },
           "Burst Cannon": {
             "range": "18",
             "S": "5",
             "AP": "5+",
             "type": "Assault 4, Turret, Primary"
           },
-          "Seeker Missile Rack": {
+          "Seeker Missile": {
             "range": "72",
             "S": "10",
             "AP": "3+",
-            "type": "Heavy 1, Monsterbane, Indirect Fire, Ignores Cover, Seeker Missile, Hull, Primary"
+            "type": "Heavy 1, Monsterbane, Indirect"
           },
-          "Marker Light Carbines": {
+          "Fire, Ignores Cover, Seeker": {
+            "range": "",
+            "S": "",
+            "AP": "",
+            "type": "Missile, Hull, Primary"
+          },
+          "Marker Light": {
             "range": "72",
             "S": "10",
             "AP": "3+",
             "type": "Heavy 1, Monsterbane, Indirect Fire, Ignores Cover, Seeker Missile, Hull"
+          },
+          "2 Linked Pulse Carbines": {
+            "range": "18",
+            "S": "5",
+            "AP": "5+",
+            "type": "Assault 2 x2"
           },
           "Smart Missile Pod": {
             "range": "30",
@@ -5045,6 +5760,18 @@
           }
         ],
         "weapons": {
+          "2 Linked Long": {
+            "range": "36",
+            "S": "5",
+            "AP": "5+",
+            "type": "Assault 4 x2, Turret, Primary"
+          },
+          "Cannons": {
+            "range": "",
+            "S": "",
+            "AP": "",
+            "type": ""
+          },
           "Missile Pod": {
             "range": "36",
             "S": "7",
@@ -5098,17 +5825,77 @@
         ],
         "options": [],
         "weapons": {
-          "Pulse Blast Cannon": {
+          "Pulse Blast": {
             "range": "72",
             "S": "D",
             "AP": "1+",
-            "type": "Heavy 2, Destroyer, Monsterbane, Hull, Primary"
+            "type": "Heavy 2, Destroyer,"
           },
-          "Pulse Driver Cannon Rocket Pods Missile Pod Cannons Airbursting Fragmentation Launchers": {
+          "Pulse Driver": {
             "range": "72",
             "S": "10",
             "AP": "2+",
-            "type": "Heavy 1, 7\u201d Blast, Ordnance, Monsterbane, Hull, Primary Primary Hull, Primary 66 Blast, Ignores Cover, Turret, Primary"
+            "type": "Heavy 1, 7\u201d Blast, Ordnance,"
+          },
+          "Monsterbane, Hull, Primary": {
+            "range": "",
+            "S": "",
+            "AP": "",
+            "type": ""
+          },
+          "2 Linked Cluster": {
+            "range": "48",
+            "S": "5",
+            "AP": "5+",
+            "type": "Heavy 1 x2, 5\u201d Blast, Hull,"
+          },
+          "2 Linked Smart": {
+            "range": "30",
+            "S": "5",
+            "AP": "5+",
+            "type": "Assault 2 x2, Ignores Cover,"
+          },
+          "Pods": {
+            "range": "Primary",
+            "S": "",
+            "AP": "",
+            "type": ""
+          },
+          "Pod": {
+            "range": "Hull, Primary",
+            "S": "",
+            "AP": "",
+            "type": ""
+          },
+          "2 Linked Flamers": {
+            "range": "Flame",
+            "S": "4",
+            "AP": "5+",
+            "type": "Assault 1 x2, Turret, Primary"
+          },
+          "2 Linked Burst Cannons": {
+            "range": "18",
+            "S": "5",
+            "AP": "5+",
+            "type": "Assault 4 x2, Turret, Primary 66"
+          },
+          "2 Linked": {
+            "range": "18",
+            "S": "4",
+            "AP": "5+",
+            "type": "Assault 1 x2, Indirect Fire, 3\u201d"
+          },
+          "Blast, Ignores Cover, Turret,": {
+            "range": "",
+            "S": "",
+            "AP": "",
+            "type": ""
+          },
+          "Primary Launchers": {
+            "range": "",
+            "S": "",
+            "AP": "",
+            "type": ""
           },
           "Seeker Missile": {
             "range": "72",
@@ -5159,18 +5946,39 @@
         "options": [
           {
             "description": "May swap 3 Linked Pulse Ordnance Drivers for T",
-            "choices": []
+            "choices": [
+              {
+                "name": "3 Linked Pulse",
+                "pts_delta": 0
+              },
+              {
+                "name": "2 Linked Nexus",
+                "pts_delta": 70
+              },
+              {
+                "name": "2 Linked Cluster",
+                "pts_delta": 93
+              },
+              {
+                "name": "Ignores Invulnerability saves,",
+                "pts_delta": 0
+              }
+            ]
           },
           {
             "description": "May swap either Tri-Axis Ion Cannon for S",
             "choices": [
               {
-                "name": "Tri-Axis Ion Cannon",
+                "name": "Tri-Axis Ion",
                 "pts_delta": 0
               },
               {
-                "name": "Fusion Eradicator Array Missile Pods Cannons",
+                "name": "Fusion",
                 "pts_delta": 2
+              },
+              {
+                "name": "Primary",
+                "pts_delta": 0
               }
             ]
           },
@@ -5180,17 +5988,95 @@
           }
         ],
         "weapons": {
-          "Tri-Axis Ion Cannon": {
+          "3 Linked Pulse": {
+            "range": "72",
+            "S": "10",
+            "AP": "1+",
+            "type": "Heavy 1 x3, 5\u201d Blast, Ordnance,"
+          },
+          "2 Linked Nexus": {
+            "range": "24-120 10",
+            "S": "1+",
+            "AP": "Heavy 1 x2, Indirect Fire, 10\u201d",
+            "type": ""
+          },
+          "2 Linked Cluster": {
+            "range": "120",
+            "S": "D",
+            "AP": "1+",
+            "type": "Heavy 1, 10\u201d Blast, Destroyer,"
+          },
+          "Ignores Invulnerability saves,": {
+            "range": "",
+            "S": "",
+            "AP": "",
+            "type": ""
+          },
+          "Monsterbane, Hull, Primary": {
+            "range": "",
+            "S": "",
+            "AP": "",
+            "type": ""
+          },
+          "Missile": {
+            "range": "Blast, Ordnance, Monsterbane,",
+            "S": "",
+            "AP": "",
+            "type": ""
+          },
+          "Hull, Primary": {
+            "range": "",
+            "S": "",
+            "AP": "",
+            "type": ""
+          },
+          "Pods": {
+            "range": "And",
+            "S": "And",
+            "AP": "And Monsterbane, Hull, Primary",
+            "type": "Barrage, Pinning, Hull, Primary"
+          },
+          "Tri-Axis Ion": {
             "range": "60",
             "S": "9",
             "AP": "3+",
-            "type": "Heavy 3, Monsterbane, Hull, Primary"
+            "type": "Heavy 3, Monsterbane, Hull,"
           },
-          "Fusion Eradicator Array Missile Pods Cannons": {
+          "Fusion": {
             "range": "24",
             "S": "D",
             "AP": "1+",
-            "type": "Heavy 1, Melta, (Monsterbane), Hull, Primary 67 Turret, Primary"
+            "type": "Heavy 1, Melta, (Monsterbane),"
+          },
+          "Primary": {
+            "range": "",
+            "S": "",
+            "AP": "",
+            "type": ""
+          },
+          "Array": {
+            "range": "Hull, Primary",
+            "S": "",
+            "AP": "",
+            "type": "67"
+          },
+          "2 Linked Smart": {
+            "range": "30",
+            "S": "5",
+            "AP": "5+",
+            "type": "Assault 2 x2, Ignores Cover,"
+          },
+          "2 Linked Burst Cannons": {
+            "range": "18",
+            "S": "5",
+            "AP": "5+",
+            "type": "Assault 4 x2, Turret, Primary"
+          },
+          "0-1/1000 points": {
+            "range": "",
+            "S": "",
+            "AP": "",
+            "type": ""
           }
         }
       }
@@ -5260,11 +6146,17 @@
         ],
         "options": [],
         "weapons": {
-          "Marker Light Carbines": {
+          "Marker Light": {
             "range": "36",
             "S": "-",
             "AP": "-",
             "type": "Assault 1, Marker Light"
+          },
+          "2 Linked Pulse Carbines": {
+            "range": "18",
+            "S": "5",
+            "AP": "5+",
+            "type": "Assault 2 x2"
           },
           "Smart Missile Pod": {
             "range": "30",

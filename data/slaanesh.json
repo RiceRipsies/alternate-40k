@@ -219,17 +219,23 @@
             "AP": "-",
             "type": "Pistol 3"
           },
-          "Chariot Piercing Claws": {
+          "Chariot Piercing": {
             "range": "Melee",
             "S": "User",
             "AP": "5+",
-            "type": "Auxiliary, Extra Attack 1, Rending"
+            "type": "Auxiliary, Extra Attack 1,"
           },
           "Chariot Claws": {
             "range": "Melee",
             "S": "User",
             "AP": "6+",
             "type": "Extra Attack 1, Rending"
+          },
+          "Rending": {
+            "range": "",
+            "S": "",
+            "AP": "",
+            "type": ""
           }
         }
       },
@@ -693,13 +699,31 @@
             "range": "6",
             "S": "4",
             "AP": "3+",
-            "type": "Pistol 3 Melee     User   3+      Auxiliary, Extra Attack 2"
+            "type": "Pistol 3"
+          },
+          "Or": {
+            "range": "Or",
+            "S": "Or",
+            "AP": "",
+            "type": ""
+          },
+          "User": {
+            "range": "3+",
+            "S": "Auxiliary, Extra Attack 2",
+            "AP": "",
+            "type": ""
           },
           "Axe of Domination": {
             "range": "Melee",
             "S": "+3",
             "AP": "2+",
             "type": "None 11"
+          },
+          "0-3/Troop Slot Purchased": {
+            "range": "",
+            "S": "",
+            "AP": "",
+            "type": ""
           }
         }
       }
@@ -865,7 +889,13 @@
             "range": "24",
             "S": "8",
             "AP": "2+",
-            "type": "Assault 2, Monsterbane 24        4       5+        Assault 6"
+            "type": "Assault 2, Monsterbane"
+          },
+          "Or": {
+            "range": "Or",
+            "S": "Or",
+            "AP": "",
+            "type": ""
           },
           "Ravaging Claws": {
             "range": "Melee",
@@ -916,6 +946,18 @@
         ],
         "options": [],
         "weapons": {
+          "2 Linked": {
+            "range": "12",
+            "S": "8",
+            "AP": "1+",
+            "type": "Assault 1 x2, Melta,"
+          },
+          "(Monsterbane)": {
+            "range": "",
+            "S": "",
+            "AP": "",
+            "type": ""
+          },
           "Plasma Pistol": {
             "range": "12",
             "S": "7",
@@ -991,6 +1033,12 @@
             "S": "User",
             "AP": "3+",
             "type": "None 15"
+          },
+          "2-6 Slots": {
+            "range": "",
+            "S": "",
+            "AP": "",
+            "type": ""
           }
         }
       }
@@ -1056,6 +1104,12 @@
             "S": "User",
             "AP": "6+",
             "type": "Extra Attack 1, Rending 16"
+          },
+          "0-3 Slots": {
+            "range": "",
+            "S": "",
+            "AP": "",
+            "type": ""
           }
         }
       }
@@ -1480,7 +1534,7 @@
             "range": "Flame",
             "S": "4",
             "AP": "5+",
-            "type": "Assault 1 24        4       5+        Rapid Fire 1, Bolter"
+            "type": "Assault 1"
           },
           "Plasma Pistol": {
             "range": "12",
@@ -1492,13 +1546,19 @@
             "range": "24",
             "S": "7",
             "AP": "2+",
-            "type": "Rapid Fire 1, Gets Hot! 24        4       5+        Rapid Fire 1, Bolter"
+            "type": "Rapid Fire 1, Gets Hot!"
           },
           "Combi Melta": {
             "range": "12",
             "S": "8",
             "AP": "1+",
-            "type": "Assault 1, Melta, 24        4       5+        Rapid Fire 1, Bolter"
+            "type": "Assault 1, Melta,"
+          },
+          "Or": {
+            "range": "Or",
+            "S": "Or",
+            "AP": "",
+            "type": ""
           },
           "Sonic Blaster": {
             "range": "24",
@@ -1571,11 +1631,23 @@
           }
         ],
         "weapons": {
+          "2 Linked": {
+            "range": "36",
+            "S": "8",
+            "AP": "3+",
+            "type": "Heavy 1 x2, 3\u201d Blast, Sonic,"
+          },
           "Havoc Launcher": {
             "range": "48",
             "S": "5",
             "AP": "5+",
             "type": "Heavy 1, 3\u201d Blast, Hull 21"
+          },
+          "Monsterbane, Pinning, Hull,": {
+            "range": "",
+            "S": "",
+            "AP": "",
+            "type": "Primary"
           },
           "Attack": {
             "range": "0-3",
@@ -1635,17 +1707,23 @@
             "AP": "-",
             "type": "Pistol 3"
           },
-          "Chariot Piercing Claws": {
+          "Chariot Piercing": {
             "range": "Melee",
             "S": "User",
             "AP": "5+",
-            "type": "Auxiliary, Extra Attack 1, Rending"
+            "type": "Auxiliary, Extra Attack 1,"
           },
           "Chariot Claws": {
             "range": "Melee",
             "S": "User",
             "AP": "6+",
             "type": "Extra Attack 1, Rending 22"
+          },
+          "Rending": {
+            "range": "",
+            "S": "",
+            "AP": "",
+            "type": ""
           }
         }
       },
@@ -1779,17 +1857,23 @@
             "AP": "-",
             "type": "Pistol 3"
           },
-          "Exalted Chariot Piercing Claws": {
+          "Exalted Chariot": {
             "range": "Melee",
             "S": "User",
             "AP": "5+",
-            "type": "Auxiliary, Extra Attack 3, Rending"
+            "type": "Auxiliary, Extra Attack 3,"
           },
           "Chariot Claws": {
             "range": "Melee",
             "S": "User",
             "AP": "6+",
             "type": "Extra Attack 4, Rending 24"
+          },
+          "Claws": {
+            "range": "Rending",
+            "S": "",
+            "AP": "",
+            "type": ""
           },
           "of War": {
             "range": "0-1",
