@@ -117,8 +117,11 @@ button {
   background: var(--bg2);
   border-right: 1px solid var(--border);
   overflow-y: auto;
+  overscroll-behavior: contain;
+  -webkit-overflow-scrolling: touch;
   display: flex;
   flex-direction: column;
+  padding-bottom: calc(env(safe-area-inset-bottom, 0px) + 40px);
 }
 
 #faction-header {
