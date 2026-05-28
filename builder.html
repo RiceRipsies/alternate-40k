@@ -2128,7 +2128,12 @@ async function restoreList() {
     }
 
     if (state.codex && saved.list?.length) {
-      const allUnits = Object.values(state.codex.slots ?? {}).flat();
+      // Wait for subfaction codex to load so chapter-unique units can be restored
+      if (state.subfaction) await loadSubfactionCodex(state.subfaction);
+      const allUnits = [
+        ...Object.values(state.codex.slots ?? {}).flat(),
+        ...Object.values(state.subfactionCodex?.slots ?? {}).flat(),
+      ];
       state.list = saved.list.flatMap(entry => {
         const unit = allUnits.find(u => u.name === entry.unitName);
         return unit ? [{ slotKey: entry.slotKey, unit, opts: entry.opts ?? {}, models: entry.models ?? {}, pts: entry.pts }] : [];
