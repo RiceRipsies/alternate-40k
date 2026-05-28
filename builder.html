@@ -568,6 +568,208 @@ button {
 }
 .btn-secondary:hover { border-color: var(--text-dim); color: var(--text); }
 
+/* ── PLAY MODE ── */
+#view-play {
+  display: none;
+  padding: 0;
+  overflow-y: auto;
+  flex: 1;
+}
+
+#play-topbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px 32px 16px;
+  border-bottom: 1px solid var(--border);
+  position: sticky;
+  top: 0;
+  background: var(--bg);
+  z-index: 5;
+  gap: 12px;
+}
+
+#play-topbar h2 {
+  font-size: 18px;
+  color: var(--gold);
+  font-weight: 700;
+  letter-spacing: 0.5px;
+  flex: 1;
+}
+
+#play-back {
+  background: transparent;
+  border: 1px solid var(--border);
+  color: var(--text-dim);
+  padding: 6px 14px;
+  font-size: 12px;
+  border-radius: 2px;
+  white-space: nowrap;
+}
+#play-back:hover { border-color: var(--text-dim); color: var(--text); }
+
+#play-units {
+  padding: 24px 32px 40px;
+  display: flex;
+  flex-direction: column;
+  gap: 0;
+}
+
+.play-slot-header {
+  font-size: 10px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  color: var(--text-dim);
+  padding: 24px 0 8px;
+  border-bottom: 1px solid var(--border);
+  margin-bottom: 12px;
+}
+.play-slot-header:first-child { padding-top: 0; }
+
+.play-unit {
+  border: 1px solid var(--border);
+  border-radius: 3px;
+  background: var(--bg2);
+  margin-bottom: 12px;
+  overflow: hidden;
+}
+
+.play-unit-header {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  gap: 12px;
+  padding: 12px 16px 10px;
+  border-bottom: 1px solid var(--border);
+  background: var(--bg3);
+}
+
+.play-unit-name {
+  font-size: 15px;
+  font-weight: 700;
+  color: var(--gold);
+  letter-spacing: 0.5px;
+}
+
+.play-unit-comp {
+  font-size: 11px;
+  color: var(--text-dim);
+  margin-top: 1px;
+}
+
+.play-unit-pts {
+  font-size: 13px;
+  color: var(--text-dim);
+  white-space: nowrap;
+}
+
+.play-stats-wrap {
+  overflow-x: auto;
+  border-bottom: 1px solid var(--border);
+}
+
+.play-stats {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 12px;
+}
+
+.play-stats th {
+  background: var(--bg4);
+  color: var(--text-dim);
+  font-size: 10px;
+  font-weight: 600;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  padding: 5px 10px;
+  text-align: center;
+  white-space: nowrap;
+}
+
+.play-stats th.model-col { text-align: left; min-width: 90px; }
+
+.play-stats td {
+  padding: 6px 10px;
+  text-align: center;
+  color: var(--text);
+  border-top: 1px solid var(--border);
+  white-space: nowrap;
+}
+
+.play-stats td.model-col {
+  text-align: left;
+  color: var(--text-dim);
+  font-size: 11px;
+}
+
+.play-body {
+  padding: 12px 16px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.play-section-label {
+  font-size: 10px;
+  letter-spacing: 1.5px;
+  text-transform: uppercase;
+  color: var(--text-dim);
+  margin-bottom: 4px;
+}
+
+.play-wargear {
+  font-size: 13px;
+  color: var(--text);
+  line-height: 1.6;
+}
+
+.play-wargear-item {
+  display: inline;
+}
+.play-wargear-item + .play-wargear-item::before {
+  content: ' · ';
+  color: var(--text-dim);
+}
+.play-wargear-item.upgraded {
+  color: var(--gold);
+}
+
+.play-rules {
+  font-size: 12px;
+  color: var(--text-dim);
+  line-height: 1.7;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 4px 0;
+}
+
+.play-rule {
+  display: inline;
+}
+.play-rule + .play-rule::before {
+  content: ' · ';
+}
+
+#play-btn {
+  display: none;
+  margin: 16px 16px 0;
+  background: transparent;
+  border: 1px solid var(--gold);
+  color: var(--gold);
+  padding: 8px 0;
+  font-size: 12px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  border-radius: 2px;
+  width: calc(100% - 32px);
+}
+#play-btn:hover { background: var(--gold); color: #000; }
+
+@media (max-width: 700px) {
+  #play-topbar { padding: 14px 16px 12px; }
+  #play-units { padding: 16px 16px 32px; }
+}
+
 /* ── EXPORT PANEL ── */
 #export-btn {
   margin: auto 16px 16px;
@@ -673,6 +875,7 @@ button {
       <!-- Slot sections injected by JS -->
     </div>
 
+    <button id="play-btn">Play Mode ▶</button>
     <button id="export-btn">Export list ↓</button>
   </aside>
 
@@ -695,7 +898,16 @@ button {
       <div id="view-army-mobile-hint" style="display:none;color:var(--text-dim);font-size:14px">Tap <strong style="color:var(--gold)">☰ Roster</strong> to open the panel and start adding units.</div>
     </div>
 
-    <!-- VIEW 3: browse units for a slot -->
+    <!-- VIEW 3: play mode — full unit cards with stats & wargear -->
+    <div id="view-play">
+      <div id="play-topbar">
+        <h2 id="play-title">Army Roster</h2>
+        <button id="play-back">← Builder</button>
+      </div>
+      <div id="play-units"></div>
+    </div>
+
+    <!-- VIEW 4: browse units for a slot -->
     <div id="view-units">
       <h2 id="view-units-title">Add Unit</h2>
       <div id="unit-slot-label"></div>
@@ -767,6 +979,7 @@ const state = {
 const D = id => document.getElementById(id);
 const factionView   = D('view-faction');
 const armyView      = D('view-army');
+const playView      = D('view-play');
 const unitsView     = D('view-units');
 const slotsContainer = D('slots-container');
 const ptsUsed       = D('pts-used');
@@ -922,6 +1135,7 @@ function openUnitBrowser(slotKey) {
   const slot = SLOTS.find(s => s.key === slotKey);
   factionView.style.display = 'none';
   armyView.style.display = 'none';
+  playView.style.display = 'none';
   unitsView.style.display = 'block';
   D('view-units-title').textContent = `Add ${slot.label}`;
   D('unit-slot-label').textContent = state.faction?.name ?? '';
@@ -1200,7 +1414,131 @@ function updatePoints() {
   const limit = parseInt(ptsLimit.value) || 0;
   ptsUsed.textContent = total;
   ptsDisplay.classList.toggle('over', limit > 0 && total > limit);
+  D('play-btn').style.display = state.list.length ? '' : 'none';
 }
+
+// ── PLAY MODE ────────────────────────────────────────────────────
+function openPlayMode() {
+  factionView.style.display = 'none';
+  armyView.style.display = 'none';
+  unitsView.style.display = 'none';
+  playView.style.display = 'flex';
+  playView.style.flexDirection = 'column';
+  D('play-title').textContent = state.faction?.name ?? 'Army Roster';
+  renderPlayMode();
+  if (window.innerWidth <= 700) closeForcePanel();
+}
+
+function closePlayMode() {
+  playView.style.display = 'none';
+  armyView.style.display = '';
+}
+
+function getEffectiveWargear(entry) {
+  const { unit, opts } = entry;
+  const wargear = [...(unit.fixed_wargear ?? [])];
+  const upgrades = [];
+
+  (unit.options ?? []).forEach((opt, gi) => {
+    const ci = opts[gi] ?? -1;
+    if (ci < 0 || !opt.choices?.length) return;
+    const choice = opt.choices[ci];
+    if (!choice) return;
+
+    if (choice.pts_delta === 0) return; // keeping the default, no change needed
+
+    // Replace the base weapon (first choice) in fixed wargear if present
+    const baseName = opt.choices[0]?.name ?? '';
+    const baseIdx = wargear.findIndex(w => w.toLowerCase() === baseName.toLowerCase());
+    if (baseIdx >= 0) {
+      wargear.splice(baseIdx, 1, { name: choice.name, upgraded: true });
+    } else {
+      upgrades.push({ name: choice.name, upgraded: true });
+    }
+  });
+
+  return [...wargear, ...upgrades].map(w =>
+    typeof w === 'string' ? { name: w, upgraded: false } : w
+  );
+}
+
+function renderPlayMode() {
+  const STAT_KEYS_INF = ['M','WS','BS','S','T','W','I','A','Ld','Sv'];
+  const STAT_KEYS_VEH = ['M','WS','BS','S','FA','SA','RA','W','I','A','Ld','Sv'];
+
+  const html = SLOTS.flatMap(slot => {
+    const entries = state.list.filter(e => e.slotKey === slot.key);
+    if (!entries.length) return [];
+
+    const cards = entries.map(entry => {
+      const { unit, models: modelCounts, pts } = entry;
+
+      // Stat keys: detect vehicle by presence of FA/SA/RA
+      const hasVehicleStats = unit.models?.some(m => m.stats?.FA !== undefined);
+      const statKeys = hasVehicleStats ? STAT_KEYS_VEH : STAT_KEYS_INF;
+
+      // Stats rows — one per model type
+      const modelRows = (unit.models ?? []).map(m => {
+        const cells = statKeys.map(k => `<td>${m.stats?.[k] ?? '—'}</td>`).join('');
+        const multiModel = unit.models.length > 1;
+        return `<tr>${multiModel ? `<td class="model-col">${m.name}</td>` : ''}${cells}</tr>`;
+      }).join('');
+
+      const headerCols = (unit.models.length > 1 ? `<th class="model-col"></th>` : '') +
+        statKeys.map(k => `<th>${k}</th>`).join('');
+
+      // Composition line
+      const modelSummary = Object.entries(modelCounts ?? {})
+        .map(([name, c]) => `${c} ${name}`).join(', ');
+      const compLine = modelSummary || unit.composition || '';
+
+      // Effective wargear
+      const wgItems = getEffectiveWargear(entry);
+      const wgHtml = wgItems.map(w =>
+        `<span class="play-wargear-item${w.upgraded ? ' upgraded' : ''}">${w.name}</span>`
+      ).join('');
+
+      // Rules — collect from all models, deduplicate
+      const allRules = [...new Set((unit.models ?? []).flatMap(m => m.rules ?? []))];
+
+      return `
+      <div class="play-unit">
+        <div class="play-unit-header">
+          <div>
+            <div class="play-unit-name">${unit.name}</div>
+            ${compLine ? `<div class="play-unit-comp">${compLine}</div>` : ''}
+          </div>
+          <div class="play-unit-pts">${pts} pts</div>
+        </div>
+        <div class="play-stats-wrap">
+          <table class="play-stats">
+            <thead><tr>${headerCols}</tr></thead>
+            <tbody>${modelRows}</tbody>
+          </table>
+        </div>
+        <div class="play-body">
+          ${wgItems.length ? `
+          <div>
+            <div class="play-section-label">Wargear</div>
+            <div class="play-wargear">${wgHtml}</div>
+          </div>` : ''}
+          ${allRules.length ? `
+          <div>
+            <div class="play-section-label">Abilities</div>
+            <div class="play-rules">${allRules.map(r => `<span class="play-rule">${r}</span>`).join('')}</div>
+          </div>` : ''}
+        </div>
+      </div>`;
+    }).join('');
+
+    return [`<div class="play-slot-header">${slot.label}</div>${cards}`];
+  }).join('');
+
+  D('play-units').innerHTML = html || `<div class="empty-state" style="padding:48px 0">No units in your list yet.</div>`;
+}
+
+D('play-btn').addEventListener('click', openPlayMode);
+D('play-back').addEventListener('click', closePlayMode);
 
 ptsLimit.addEventListener('input', updatePoints);
 
@@ -1287,6 +1625,7 @@ D('change-faction').addEventListener('click', () => {
   subfactionRow.style.display = 'none';
   unitsView.style.display = 'none';
   armyView.style.display = 'none';
+  playView.style.display = 'none';
   factionView.style.display = '';
   renderSlots();
   updatePoints();
