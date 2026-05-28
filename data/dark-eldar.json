@@ -92,7 +92,63 @@
               }
             ]
           }
-        ]
+        ],
+        "weapons": {
+          "Splinter Pistol": {
+            "range": "12",
+            "S": "3",
+            "AP": "-",
+            "type": "Pistol 1, Poisoned (3+)"
+          },
+          "Stinger Pistol": {
+            "range": "12",
+            "S": "3",
+            "AP": "5+",
+            "type": "Pistol 1, Poisoned (2+)"
+          },
+          "Liquefier Gun": {
+            "range": "Flame",
+            "S": "3",
+            "AP": "6+",
+            "type": "Assault 1"
+          },
+          "Hexfire Rifle": {
+            "range": "36",
+            "S": "3",
+            "AP": "4+",
+            "type": "Heavy 1, Sniper (3+), Psychicbane"
+          },
+          "Flesh Gauntlet": {
+            "range": "Melee",
+            "S": "User -",
+            "AP": "Poisoned (3+)",
+            "type": ""
+          },
+          "Ichor Injector": {
+            "range": "Melee",
+            "S": "User -",
+            "AP": "Extra Attack 1, Poisoned (2+)",
+            "type": ""
+          },
+          "Mind Phase Gauntlet": {
+            "range": "Melee",
+            "S": "User -",
+            "AP": "Tesla",
+            "type": ""
+          },
+          "Agonizer": {
+            "range": "Melee",
+            "S": "User 3+",
+            "AP": "Poisoned (3+)",
+            "type": ""
+          },
+          "Scissorhand": {
+            "range": "Melee",
+            "S": "User 3+",
+            "AP": "Extra Attack 1",
+            "type": ""
+          }
+        }
       },
       {
         "name": "Haemonculus",
@@ -175,7 +231,63 @@
               }
             ]
           }
-        ]
+        ],
+        "weapons": {
+          "Splinter Pistol": {
+            "range": "12",
+            "S": "3",
+            "AP": "-",
+            "type": "Pistol 1, Poisoned (3+)"
+          },
+          "Stinger Pistol": {
+            "range": "12",
+            "S": "3",
+            "AP": "5+",
+            "type": "Pistol 1, Poisoned (2+)"
+          },
+          "Liquefier Gun": {
+            "range": "Flame",
+            "S": "3",
+            "AP": "6+",
+            "type": "Assault 1"
+          },
+          "Hexfire Rifle": {
+            "range": "36",
+            "S": "3",
+            "AP": "4+",
+            "type": "Heavy 1, Sniper (3+), Psychicbane"
+          },
+          "Flesh Gauntlet": {
+            "range": "Melee",
+            "S": "User -",
+            "AP": "Poisoned (3+)",
+            "type": ""
+          },
+          "Ichor Injector": {
+            "range": "Melee",
+            "S": "User -",
+            "AP": "Extra Attack 1, Poisoned (2+)",
+            "type": ""
+          },
+          "Mind Phase Gauntlet": {
+            "range": "Melee",
+            "S": "User -",
+            "AP": "Tesla",
+            "type": ""
+          },
+          "Agonizer": {
+            "range": "Melee",
+            "S": "User 3+",
+            "AP": "Poisoned (3+)",
+            "type": ""
+          },
+          "Scissorhand": {
+            "range": "Melee",
+            "S": "User 3+",
+            "AP": "Extra Attack 1",
+            "type": ""
+          }
+        }
       },
       {
         "name": "Succubus",
@@ -263,7 +375,63 @@
             "description": "May take one L",
             "choices": []
           }
-        ]
+        ],
+        "weapons": {
+          "Splinter Pistol": {
+            "range": "12",
+            "S": "3",
+            "AP": "-",
+            "type": "Pistol 1, Poisoned (3+)"
+          },
+          "Blast Pistol": {
+            "range": "6",
+            "S": "9",
+            "AP": "2+",
+            "type": "Pistol 1, Lance, Monsterbane"
+          },
+          "Venom Blade": {
+            "range": "Melee",
+            "S": "User",
+            "AP": "-",
+            "type": "Poisoned (2+)"
+          },
+          "Hydra Gauntlet": {
+            "range": "Melee",
+            "S": "User",
+            "AP": "5+",
+            "type": "Extra Attack 1, Rending"
+          },
+          "Razor Flails": {
+            "range": "Melee",
+            "S": "User",
+            "AP": "5+",
+            "type": "Extra Attack 1, Reroll failed To Hit Rolls."
+          },
+          "Power Sword": {
+            "range": "Melee",
+            "S": "+1",
+            "AP": "3+",
+            "type": "None 5"
+          },
+          "Agonizer": {
+            "range": "Melee",
+            "S": "User 3+",
+            "AP": "Poisoned (3+)",
+            "type": ""
+          },
+          "Sharnet and Impaler": {
+            "range": "Melee",
+            "S": "User 5+",
+            "AP": "Extra Attack 1, Reroll 1s To Hit",
+            "type": "and To Wound"
+          },
+          "Archite Glaive": {
+            "range": "Melee",
+            "S": "+2",
+            "AP": "2+",
+            "type": "Counterattack"
+          }
+        }
       },
       {
         "name": "Shadowseer",
@@ -328,32 +496,94 @@
             "description": "May take up to one S for each level of Psychic Mastery",
             "choices": [
               {
-                "name": "Twilight Pathways Cast",
+                "name": "Twilight Pathways Cast 6+",
                 "pts_delta": 5
               },
               {
-                "name": "Fog of Dreams Cast",
+                "name": "Fog of Dreams Cast 6+",
                 "pts_delta": 10
               },
               {
-                "name": "Mirror of Minds Cast",
+                "name": "Mirror of Minds Cast 6+",
                 "pts_delta": 10
               },
               {
-                "name": "Shard of Light Cast",
+                "name": "Shard of Light Cast 8+",
                 "pts_delta": 15
               },
               {
-                "name": "Veil of Tears Cast",
+                "name": "Veil of Tears Cast 5+",
                 "pts_delta": 15
               },
               {
-                "name": "Webway Dance Cast",
+                "name": "Webway Dance Cast 8+",
                 "pts_delta": 30
               }
             ]
           }
-        ]
+        ],
+        "weapons": {
+          "Shuriken Pistol": {
+            "range": "12",
+            "S": "3",
+            "AP": "-",
+            "type": "Pistol 1, Rending"
+          },
+          "Neuro Disrupter": {
+            "range": "12",
+            "S": "3",
+            "AP": "2+",
+            "type": "Pistol 1, Poisoned (2+)"
+          },
+          "Miststave": {
+            "range": "Melee",
+            "S": "+2",
+            "AP": "4+",
+            "type": "Psychicbane, Concussion"
+          },
+          "Plasma Grenades": {
+            "range": "8",
+            "S": "4",
+            "AP": "4+",
+            "type": "Grenade 1, Nonblast, Blind"
+          },
+          "Twilight Pathways Cast 6+": {
+            "range": "18",
+            "S": "-",
+            "AP": "-",
+            "type": "Target unit may reroll failed Charges until your next Psychic Phase."
+          },
+          "Fog of Dreams Cast 6+": {
+            "range": "18",
+            "S": "-",
+            "AP": "-",
+            "type": "Target unit suffers Ld-2."
+          },
+          "Mirror of Minds Cast 6+": {
+            "range": "18",
+            "S": "-",
+            "AP": "-",
+            "type": "Target one model. Both models roll a d6 and add their Ld to it. If this model\u2019s score is higher, target model suffers 2 Mortal Wound."
+          },
+          "Shard of Light Cast 8+": {
+            "range": "18",
+            "S": "-",
+            "AP": "-",
+            "type": "Target nonTitanic unit suffers -1 To Hit until your next Psychic Phase."
+          },
+          "Veil of Tears Cast 5+": {
+            "range": "18",
+            "S": "-",
+            "AP": "-",
+            "type": "Target unit gains a 4+ Cover Save until your next Psychic Phase."
+          },
+          "Webway Dance Cast 8+": {
+            "range": "18",
+            "S": "-",
+            "AP": "-",
+            "type": "Target friendly unit with Deepstrike or Outflank is placed back in Reserves. 6"
+          }
+        }
       },
       {
         "name": "Troupe Master",
@@ -435,7 +665,63 @@
               }
             ]
           }
-        ]
+        ],
+        "weapons": {
+          "Shuriken Pistol": {
+            "range": "12",
+            "S": "3",
+            "AP": "-",
+            "type": "Pistol 1, Rending"
+          },
+          "Neuro Disrupter": {
+            "range": "12",
+            "S": "3",
+            "AP": "2+",
+            "type": "Pistol 1, Poisoned (2+)"
+          },
+          "Fusion Pistol": {
+            "range": "6",
+            "S": "8",
+            "AP": "1+",
+            "type": "Pistol 1, Melta, (Monsterbane)"
+          },
+          "Power Sword": {
+            "range": "Melee",
+            "S": "+1",
+            "AP": "3+",
+            "type": "None"
+          },
+          "Harlequin\u2019s Blade": {
+            "range": "Melee",
+            "S": "User",
+            "AP": "4+",
+            "type": "Extra Attack 1"
+          },
+          "Harlequin\u2019s Kiss": {
+            "range": "Melee",
+            "S": "User",
+            "AP": "3+",
+            "type": "Poisoned (3+)"
+          },
+          "Harlequin\u2019s Caress": {
+            "range": "Melee",
+            "S": "+2",
+            "AP": "3+",
+            "type": "None"
+          },
+          "Harlequin\u2019s Embrace": {
+            "range": "Melee",
+            "S": "+1",
+            "AP": "2+",
+            "type": "None"
+          },
+          "Plasma Grenades": {
+            "range": "8",
+            "S": "4",
+            "AP": "4+",
+            "type": "Grenade 1, Nonblast, Blind 7"
+          }
+        }
       },
       {
         "name": "Kruellagh",
@@ -474,7 +760,21 @@
           "Clone Field",
           "Soul Trap"
         ],
-        "options": []
+        "options": [],
+        "weapons": {
+          "Damnation Grenades": {
+            "range": "18",
+            "S": "4",
+            "AP": "6+",
+            "type": "Assault 1, 3\u201d Blast"
+          },
+          "Soul Flayer": {
+            "range": "Melee",
+            "S": "User 3+",
+            "AP": "Extra Attack 1, Poisoned (2+)",
+            "type": ""
+          }
+        }
       },
       {
         "name": "Lelith Hesperax",
@@ -512,7 +812,21 @@
           "Hair Razors",
           "Soul Trap"
         ],
-        "options": []
+        "options": [],
+        "weapons": {
+          "Penetrating Blades": {
+            "range": "6",
+            "S": "3",
+            "AP": "2+",
+            "type": "Pistol 2 Or Or Or Or Melee    User   2+      Extra Attack 1"
+          },
+          "Hair Razors": {
+            "range": "Melee",
+            "S": "User",
+            "AP": "-",
+            "type": "Auxiliary, Extra Attack 3, -1             Rending"
+          }
+        }
       },
       {
         "name": "Urien Rakarth",
@@ -551,7 +865,21 @@
           "Ichor Injector",
           "Clone Field"
         ],
-        "options": []
+        "options": [],
+        "weapons": {
+          "Casket of Flensing": {
+            "range": "Flame 3",
+            "S": "3+",
+            "AP": "Assault 1",
+            "type": ""
+          },
+          "Ichor Injector": {
+            "range": "Melee",
+            "S": "User -",
+            "AP": "Extra Attack 1, Poisoned (2+)",
+            "type": ""
+          }
+        }
       },
       {
         "name": "Yvraine",
@@ -600,7 +928,21 @@
             "description": "May take up to one Spell for each level of Psychic Mastery",
             "choices": []
           }
-        ]
+        ],
+        "weapons": {
+          "Kha-Vir The Sword of Shadows": {
+            "range": "Melee",
+            "S": "+1",
+            "AP": "3+",
+            "type": "Ignores Invulnerability Saves"
+          },
+          "Plasma Grenades": {
+            "range": "8",
+            "S": "4",
+            "AP": "4+",
+            "type": "Grenade 1, Nonblast, Blind 10"
+          }
+        }
       }
     ],
     "advisors": [
@@ -639,7 +981,21 @@
           "Flip Belt",
           "Holosuit"
         ],
-        "options": []
+        "options": [],
+        "weapons": {
+          "Shrieker Cannon": {
+            "range": "24",
+            "S": "3",
+            "AP": "4+",
+            "type": "Assault 3, Rending, Poisoned (2+) 11"
+          },
+          "Plasma Grenades": {
+            "range": "8",
+            "S": "4",
+            "AP": "4+",
+            "type": "Grenade 1, Nonblast, Blind"
+          }
+        }
       },
       {
         "name": "Death Jester",
@@ -679,7 +1035,21 @@
           "Flip Belt",
           "Holosuit"
         ],
-        "options": []
+        "options": [],
+        "weapons": {
+          "Shrieker Cannon": {
+            "range": "24",
+            "S": "3",
+            "AP": "4+",
+            "type": "Assault 3, Rending, Poisoned (2+) 11"
+          },
+          "Plasma Grenades": {
+            "range": "8",
+            "S": "4",
+            "AP": "4+",
+            "type": "Grenade 1, Nonblast, Blind"
+          }
+        }
       },
       {
         "name": "Medusae",
@@ -713,7 +1083,15 @@
         "fixed_wargear": [
           "Eyeburst"
         ],
-        "options": []
+        "options": [],
+        "weapons": {
+          "Eyeburst": {
+            "range": "Flame 4",
+            "S": "4+",
+            "AP": "Assault 1",
+            "type": "12"
+          }
+        }
       },
       {
         "name": "Medusae",
@@ -746,7 +1124,15 @@
         "fixed_wargear": [
           "Eyeburst"
         ],
-        "options": []
+        "options": [],
+        "weapons": {
+          "Eyeburst": {
+            "range": "Flame 4",
+            "S": "4+",
+            "AP": "Assault 1",
+            "type": "12"
+          }
+        }
       },
       {
         "name": "Solitaire",
@@ -790,7 +1176,33 @@
           "Flip Belt",
           "Holosuit"
         ],
-        "options": []
+        "options": [],
+        "weapons": {
+          "Harlequin\u2019s Kiss": {
+            "range": "Melee",
+            "S": "User",
+            "AP": "3+",
+            "type": "Poisoned (3+)"
+          },
+          "Harlequin\u2019s Caress": {
+            "range": "Melee",
+            "S": "+2",
+            "AP": "3+",
+            "type": "Auxiliary"
+          },
+          "Haywire Grenades": {
+            "range": "8",
+            "S": "3",
+            "AP": "3+",
+            "type": "Grenade 1, Haywire (3+), Nonblast"
+          },
+          "Plasma Grenades": {
+            "range": "8",
+            "S": "4",
+            "AP": "4+",
+            "type": "Grenade 1, Nonblast, Blind"
+          }
+        }
       },
       {
         "name": "Sslyth",
@@ -825,7 +1237,27 @@
           "Splinter Pistol",
           "Battle Blade"
         ],
-        "options": []
+        "options": [],
+        "weapons": {
+          "Shard Carbine": {
+            "range": "18",
+            "S": "3",
+            "AP": "-",
+            "type": "Assault 3, Poisoned (3+)"
+          },
+          "Splinter Pistol": {
+            "range": "12",
+            "S": "3",
+            "AP": "-",
+            "type": "Pistol 1, Poisoned (3+)"
+          },
+          "Battle Blade": {
+            "range": "Melee",
+            "S": "User",
+            "AP": "4+",
+            "type": "None"
+          }
+        }
       },
       {
         "name": "Drazhar Master of Blades",
@@ -859,7 +1291,15 @@
           "Demiklaives",
           "Soul Trap"
         ],
-        "options": []
+        "options": [],
+        "weapons": {
+          "Demiklaives": {
+            "range": "Melee +1",
+            "S": "2+",
+            "AP": "None",
+            "type": "User      3+    Extra Attack 1"
+          }
+        }
       },
       {
         "name": "Drazhar Master of Blades",
@@ -896,7 +1336,15 @@
           "Demiklaives",
           "Soul Trap"
         ],
-        "options": []
+        "options": [],
+        "weapons": {
+          "Demiklaives": {
+            "range": "Melee +1",
+            "S": "2+",
+            "AP": "None",
+            "type": "User      3+    Extra Attack 1"
+          }
+        }
       },
       {
         "name": "Visarch",
@@ -935,7 +1383,15 @@
           "Asu-Var",
           "Forcefield"
         ],
-        "options": []
+        "options": [],
+        "weapons": {
+          "Asu-Var": {
+            "range": "Melee +2",
+            "S": "2+",
+            "AP": "Ignores Feel No Pain",
+            "type": ""
+          }
+        }
       }
     ],
     "troops": [
@@ -1024,7 +1480,57 @@
               }
             ]
           }
-        ]
+        ],
+        "weapons": {
+          "Shuriken Pistol": {
+            "range": "12",
+            "S": "3",
+            "AP": "-",
+            "type": "Pistol 1, Rending"
+          },
+          "Neuro Disrupter": {
+            "range": "12",
+            "S": "3",
+            "AP": "2+",
+            "type": "Pistol 1, Poisoned (2+)"
+          },
+          "Fusion Pistol": {
+            "range": "6",
+            "S": "8",
+            "AP": "1+",
+            "type": "Pistol 1, Melta, (Monsterbane)"
+          },
+          "Harlequin Blade": {
+            "range": "Melee",
+            "S": "User",
+            "AP": "4+",
+            "type": "Extra Attack 1"
+          },
+          "Harlequin\u2019s Kiss": {
+            "range": "Melee",
+            "S": "User",
+            "AP": "3+",
+            "type": "Poisoned (3+)"
+          },
+          "Harlequin\u2019s Caress": {
+            "range": "Melee",
+            "S": "+2",
+            "AP": "3+",
+            "type": "None"
+          },
+          "Harlequin\u2019s Embrace": {
+            "range": "Melee",
+            "S": "+1",
+            "AP": "2+",
+            "type": "None 16"
+          },
+          "Plasma Grenades": {
+            "range": "8",
+            "S": "4",
+            "AP": "4+",
+            "type": "Grenade 1, Nonblast, Blind"
+          }
+        }
       },
       {
         "name": "Kabalite Warriors",
@@ -1109,7 +1615,57 @@
               }
             ]
           }
-        ]
+        ],
+        "weapons": {
+          "Splinter Rifle": {
+            "range": "18",
+            "S": "3",
+            "AP": "-",
+            "type": "Assault 2, Poisoned (3+)"
+          },
+          "Blast Pistol": {
+            "range": "6",
+            "S": "9",
+            "AP": "2+",
+            "type": "Pistol 1, Lance, Monsterbane"
+          },
+          "Agonizer": {
+            "range": "Melee",
+            "S": "User",
+            "AP": "3+",
+            "type": "Poisoned (3+)"
+          },
+          "Power Sword": {
+            "range": "Melee",
+            "S": "+1",
+            "AP": "3+",
+            "type": "None"
+          },
+          "Shredder": {
+            "range": "12",
+            "S": "6",
+            "AP": "-",
+            "type": "Assault 1, 3\u201d Blast, Rending"
+          },
+          "Blaster": {
+            "range": "18",
+            "S": "9",
+            "AP": "2+",
+            "type": "Assault 1, Lance, Monsterbane"
+          },
+          "Splinter Cannon": {
+            "range": "36",
+            "S": "3",
+            "AP": "5+",
+            "type": "Rapid Fire 3, Poisoned (3+)"
+          },
+          "Dark Lance": {
+            "range": "36",
+            "S": "9",
+            "AP": "2+",
+            "type": "Heavy 1, Lance, Monsterbane 17"
+          }
+        }
       },
       {
         "name": "Wyches",
@@ -1198,7 +1754,57 @@
               }
             ]
           }
-        ]
+        ],
+        "weapons": {
+          "Splinter Pistol": {
+            "range": "12",
+            "S": "3",
+            "AP": "-",
+            "type": "Pistol 1, Poisoned (3+)"
+          },
+          "Blast Pistol": {
+            "range": "6",
+            "S": "9",
+            "AP": "2+",
+            "type": "Pistol 1, Lance, Monsterbane"
+          },
+          "Knives": {
+            "range": "Melee",
+            "S": "User",
+            "AP": "-",
+            "type": "Extra Attack 2"
+          },
+          "Hydra Gauntlets": {
+            "range": "Melee",
+            "S": "User",
+            "AP": "5+",
+            "type": "Extra Attack 1, Rending"
+          },
+          "Razor Flails": {
+            "range": "Melee",
+            "S": "User 5+",
+            "AP": "Extra Attack 1, Reroll failed To",
+            "type": "Hit rolls"
+          },
+          "Shardnet and Impaler": {
+            "range": "Melee",
+            "S": "User 5+",
+            "AP": "Extra Attack 1, Reroll 1s To Hit",
+            "type": "and To Wound 18"
+          },
+          "Agonizer": {
+            "range": "Melee",
+            "S": "User",
+            "AP": "3+",
+            "type": "Poisoned (3+)"
+          },
+          "Power Sword": {
+            "range": "Melee",
+            "S": "+1",
+            "AP": "3+",
+            "type": "None"
+          }
+        }
       }
     ],
     "elites": [
@@ -1262,7 +1868,8 @@
             "description": "May add up to 5 more Hekatrix for +29 points each Syren may swap Splinter Pistol for P Syren may swap Knives for OM Syren may take one L Any model may swap Knives for M",
             "choices": []
           }
-        ]
+        ],
+        "weapons": {}
       },
       {
         "name": "Incubi",
@@ -1329,7 +1936,21 @@
               }
             ]
           }
-        ]
+        ],
+        "weapons": {
+          "Demiklaives": {
+            "range": "Melee +1",
+            "S": "2+",
+            "AP": "None",
+            "type": "User       3+        Extra Attack 1"
+          },
+          "Klaive": {
+            "range": "Melee +2",
+            "S": "2+",
+            "AP": "None",
+            "type": ""
+          }
+        }
       },
       {
         "name": "Kabalite Trueborns",
@@ -1424,7 +2045,63 @@
               }
             ]
           }
-        ]
+        ],
+        "weapons": {
+          "Splinter Rifle": {
+            "range": "18",
+            "S": "3",
+            "AP": "-",
+            "type": "Assault 2, Poisoned (3+)"
+          },
+          "Shard Carbine": {
+            "range": "18",
+            "S": "3",
+            "AP": "-",
+            "type": "Assault 3, Poisoned (3+)"
+          },
+          "Blast Pistol": {
+            "range": "6",
+            "S": "9",
+            "AP": "2+",
+            "type": "Pistol 1, Lance, Monsterbane"
+          },
+          "Agonizer": {
+            "range": "Melee",
+            "S": "User",
+            "AP": "3+",
+            "type": "Poisoned (3+)"
+          },
+          "Power Sword": {
+            "range": "Melee",
+            "S": "+1",
+            "AP": "3+",
+            "type": "None 20"
+          },
+          "Shredder": {
+            "range": "12",
+            "S": "6",
+            "AP": "-",
+            "type": "Assault 1, 3\u201d Blast, Rending"
+          },
+          "Blaster": {
+            "range": "18",
+            "S": "9",
+            "AP": "2+",
+            "type": "Assault 1, Lance, Monsterbane"
+          },
+          "Splinter Cannon": {
+            "range": "36",
+            "S": "3",
+            "AP": "5+",
+            "type": "Rapid Fire 3, Poisoned (3+)"
+          },
+          "Dark Lance": {
+            "range": "36",
+            "S": "9",
+            "AP": "2+",
+            "type": "Heavy 1, Lance, Monsterbane"
+          }
+        }
       },
       {
         "name": "Mandrakes",
@@ -1477,7 +2154,21 @@
             "description": "May add up to 5 more Mandrakes for +25 points each",
             "choices": []
           }
-        ]
+        ],
+        "weapons": {
+          "Bale Blast": {
+            "range": "18",
+            "S": "4",
+            "AP": "-",
+            "type": "Assault 2"
+          },
+          "Glimmersteel Blade": {
+            "range": "Melee User 4+",
+            "S": "None",
+            "AP": "",
+            "type": ""
+          }
+        }
       },
       {
         "name": "Wracks",
@@ -1550,7 +2241,69 @@
               }
             ]
           }
-        ]
+        ],
+        "weapons": {
+          "Wrack Tool": {
+            "range": "Melee User -",
+            "S": "Poisoned (3+)",
+            "AP": "",
+            "type": ""
+          },
+          "Mind Phase Gauntlet": {
+            "range": "Melee User -",
+            "S": "Tesla",
+            "AP": "",
+            "type": ""
+          },
+          "Venom Blade": {
+            "range": "Melee",
+            "S": "User",
+            "AP": "-",
+            "type": "Poisoned (2+)"
+          },
+          "Agonizer": {
+            "range": "Melee",
+            "S": "User",
+            "AP": "3+",
+            "type": "Poisoned (3+)"
+          },
+          "Scissorhand": {
+            "range": "Melee",
+            "S": "User",
+            "AP": "3+",
+            "type": "Extra Attack 1"
+          },
+          "Stinger Pistol": {
+            "range": "12",
+            "S": "3",
+            "AP": "5+",
+            "type": "Pistol 1, Poisoned (5+)"
+          },
+          "Liquefier Gun": {
+            "range": "Flame",
+            "S": "3",
+            "AP": "6+",
+            "type": "Assault 1"
+          },
+          "Ossefactor": {
+            "range": "24",
+            "S": "3",
+            "AP": "2+",
+            "type": "Assault 1, Poisoned (3+)"
+          },
+          "Hexfire Rifle": {
+            "range": "36",
+            "S": "3",
+            "AP": "4+",
+            "type": "Heavy 1, Sniper (3+), Psychicbane"
+          },
+          "Infantry": {
+            "range": "",
+            "S": "",
+            "AP": "",
+            "type": ""
+          }
+        }
       },
       {
         "name": "Grotesques",
@@ -1625,7 +2378,51 @@
               }
             ]
           }
-        ]
+        ],
+        "weapons": {
+          "Cleaver": {
+            "range": "Melee",
+            "S": "User",
+            "AP": "-",
+            "type": "Extra Attack 1"
+          },
+          "Flesh Gauntlet": {
+            "range": "Melee",
+            "S": "User",
+            "AP": "-",
+            "type": "Poisoned (3+)"
+          },
+          "Mind Phase Gauntlet": {
+            "range": "Melee",
+            "S": "User",
+            "AP": "-",
+            "type": "Tesla"
+          },
+          "Scissorhand": {
+            "range": "Melee",
+            "S": "User 3+",
+            "AP": "Extra Attack 1",
+            "type": ""
+          },
+          "Agonizer": {
+            "range": "Melee",
+            "S": "User 3+",
+            "AP": "Poisoned (3+)",
+            "type": ""
+          },
+          "Liquefier Gun": {
+            "range": "Flame",
+            "S": "3",
+            "AP": "6+",
+            "type": "Assault 1"
+          },
+          "Attack": {
+            "range": "0-3",
+            "S": "",
+            "AP": "",
+            "type": ""
+          }
+        }
       }
     ],
     "fast_attack": [
@@ -1652,7 +2449,8 @@
           }
         ],
         "fixed_wargear": [],
-        "options": []
+        "options": [],
+        "weapons": {}
       },
       {
         "name": "Corsair Cloud Dancers",
@@ -1720,7 +2518,8 @@
             "description": "May add up to 5 more Cloud Dancers for +42 points each Felarch may swap 2 Linked Splinter Rifles for S or H Felarch may take one M Up to two Cloud Dancers may swap 2 Linked Splinter Rifles for S or H",
             "choices": []
           }
-        ]
+        ],
+        "weapons": {}
       },
       {
         "name": "Hellions",
@@ -1809,7 +2608,45 @@
               }
             ]
           }
-        ]
+        ],
+        "weapons": {
+          "Splinter Pistol": {
+            "range": "12",
+            "S": "3",
+            "AP": "-",
+            "type": "Pistol 1, Poisoned (3+)"
+          },
+          "Blast Pistol": {
+            "range": "6",
+            "S": "9",
+            "AP": "2+",
+            "type": "Pistol 1, Lance, Monsterbane"
+          },
+          "Hellglaive": {
+            "range": "Melee",
+            "S": "+1",
+            "AP": "5+",
+            "type": "Extra Attack 1, Rending"
+          },
+          "Agonizer": {
+            "range": "Melee",
+            "S": "User",
+            "AP": "3+",
+            "type": "Poisoned (3+)"
+          },
+          "Power Sword": {
+            "range": "Melee",
+            "S": "+1",
+            "AP": "3+",
+            "type": "None"
+          },
+          "Splinter Pod": {
+            "range": "18",
+            "S": "3",
+            "AP": "-",
+            "type": "Assault 2, Poisoned (3+)"
+          }
+        }
       },
       {
         "name": "Khymeras",
@@ -1834,7 +2671,15 @@
           }
         ],
         "fixed_wargear": [],
-        "options": []
+        "options": [],
+        "weapons": {
+          "Claws": {
+            "range": "Melee User -",
+            "S": "Extra Attack 1",
+            "AP": "",
+            "type": ""
+          }
+        }
       },
       {
         "name": "Reavers",
@@ -1929,7 +2774,57 @@
               }
             ]
           }
-        ]
+        ],
+        "weapons": {
+          "Splinter Rifle": {
+            "range": "18",
+            "S": "3",
+            "AP": "-",
+            "type": "Assault 2, Poisoned (3+)"
+          },
+          "Blaster": {
+            "range": "18",
+            "S": "9",
+            "AP": "2+",
+            "type": "Assault 1, Lance, Monsterbane"
+          },
+          "Heat Lance": {
+            "range": "12",
+            "S": "10",
+            "AP": "1+",
+            "type": "Assault 1, Lance, Monsterbane"
+          },
+          "Splinter Pistol": {
+            "range": "12",
+            "S": "3",
+            "AP": "-",
+            "type": "Pistol 1, Poisoned (3+)"
+          },
+          "Bladevane": {
+            "range": "Melee",
+            "S": "+1",
+            "AP": "-",
+            "type": "Rending"
+          },
+          "Power Sword": {
+            "range": "Melee",
+            "S": "+1",
+            "AP": "3+",
+            "type": "None"
+          },
+          "Agonizer": {
+            "range": "Melee",
+            "S": "User",
+            "AP": "3+",
+            "type": "Poisoned (3+)"
+          },
+          "Cluster Caltrops": {
+            "range": "Melee",
+            "S": "+2",
+            "AP": "-",
+            "type": "Auxiliary, 1d6 Impact Hits, Rending 27"
+          }
+        }
       },
       {
         "name": "Scourges",
@@ -2036,7 +2931,69 @@
               }
             ]
           }
-        ]
+        ],
+        "weapons": {
+          "Splinter Pistol": {
+            "range": "12",
+            "S": "3",
+            "AP": "-",
+            "type": "Pistol 1, Poisoned (3+)"
+          },
+          "Shard Carbine": {
+            "range": "18",
+            "S": "3",
+            "AP": "-",
+            "type": "Assault 3, Poisoned (3+)"
+          },
+          "Blast Pistol": {
+            "range": "6",
+            "S": "9",
+            "AP": "2+",
+            "type": "Pistol 1, Lance, Monsterbane"
+          },
+          "Venom Blade": {
+            "range": "Melee",
+            "S": "User",
+            "AP": "-",
+            "type": "Poisoned (2+)"
+          },
+          "Agonizer": {
+            "range": "Melee",
+            "S": "User",
+            "AP": "3+",
+            "type": "Poisoned (3+)"
+          },
+          "Haywire Blaster": {
+            "range": "24",
+            "S": "3",
+            "AP": "3+",
+            "type": "Assault 1, Haywire (3+)"
+          },
+          "Shredder": {
+            "range": "12",
+            "S": "6",
+            "AP": "-",
+            "type": "Assault 1, 3\u201d Blast, Rending"
+          },
+          "Blaster": {
+            "range": "18",
+            "S": "9",
+            "AP": "2+",
+            "type": "Assault 1, Lance, Monsterbane"
+          },
+          "Splinter Cannon": {
+            "range": "36",
+            "S": "3",
+            "AP": "5+",
+            "type": "Rapid Fire 3, Poisoned (3+), Repulsor 28"
+          },
+          "Dark Lance": {
+            "range": "36",
+            "S": "9",
+            "AP": "2+",
+            "type": "Heavy 1, Lance, Monsterbane, Repulsor"
+          }
+        }
       },
       {
         "name": "Skyweavers",
@@ -2092,7 +3049,39 @@
               }
             ]
           }
-        ]
+        ],
+        "weapons": {
+          "Haywire Cannon": {
+            "range": "24",
+            "S": "3",
+            "AP": "3+",
+            "type": "Assault 2, Haywire (3+)"
+          },
+          "Shuriken Cannon": {
+            "range": "24",
+            "S": "6",
+            "AP": "5+",
+            "type": "Assault 3, Rending"
+          },
+          "Zepherglaive": {
+            "range": "Melee",
+            "S": "+1",
+            "AP": "3+",
+            "type": "Counterattack"
+          },
+          "Star Bolas": {
+            "range": "12",
+            "S": "6",
+            "AP": "2+",
+            "type": "Grenade 1, 3\u201d Blast"
+          },
+          "Infantry": {
+            "range": "",
+            "S": "",
+            "AP": "",
+            "type": ""
+          }
+        }
       },
       {
         "name": "Clawed Fiends",
@@ -2117,7 +3106,21 @@
           }
         ],
         "fixed_wargear": [],
-        "options": []
+        "options": [],
+        "weapons": {
+          "Clawed Fists": {
+            "range": "Melee User 4+",
+            "S": "Extra Attack 1",
+            "AP": "",
+            "type": "29"
+          },
+          "Support": {
+            "range": "0-3",
+            "S": "",
+            "AP": "",
+            "type": ""
+          }
+        }
       }
     ],
     "heavy_support": [
@@ -2160,7 +3163,8 @@
             "description": "May add up to two more Talos for +154 points each Any model may swap Stinger Pod for H Any model may swap Ichor Injectors for M",
             "choices": []
           }
-        ]
+        ],
+        "weapons": {}
       },
       {
         "name": "3+",
@@ -2201,7 +3205,8 @@
             "description": "May add up to two more Talos for +154 points each Any model may swap Stinger Pod for H Any model may swap Ichor Injectors for M",
             "choices": []
           }
-        ]
+        ],
+        "weapons": {}
       },
       {
         "name": "Ravagers",
@@ -2259,7 +3264,33 @@
               }
             ]
           }
-        ]
+        ],
+        "weapons": {
+          "Disintegrator Cannons": {
+            "range": "36",
+            "S": "5",
+            "AP": "2+",
+            "type": "Heavy 3, Hull, Primary"
+          },
+          "Dark Lance Cannons": {
+            "range": "36",
+            "S": "9",
+            "AP": "2+",
+            "type": "Heavy 1, Lance, Monsterbane, Hull, Primary Monsterbane, Sponson, Primary 31"
+          },
+          "Chain Snares": {
+            "range": "Melee",
+            "S": "User 5+",
+            "AP": "Auxiliary, Accurate, Rending",
+            "type": ""
+          },
+          "Shock Prow": {
+            "range": "Melee",
+            "S": "User -",
+            "AP": "Accurate, Tesla",
+            "type": ""
+          }
+        }
       },
       {
         "name": "Voidweavers",
@@ -2317,7 +3348,27 @@
               }
             ]
           }
-        ]
+        ],
+        "weapons": {
+          "Haywire Cannon": {
+            "range": "24",
+            "S": "3",
+            "AP": "3+",
+            "type": "Assault 2, Haywire (3+), Sponson, Primary"
+          },
+          "Prismatic Cannon": {
+            "range": "24",
+            "S": "9",
+            "AP": "1+",
+            "type": "Assault 1, Lance, Or Or Or Monsterbane, Sponson, 24       4       3+         Primary Or Assault 1, 5\u2019 Blast, Sponson, Primary"
+          },
+          "Prismatic Cannon Shuriken Catapults": {
+            "range": "24",
+            "S": "9",
+            "AP": "1+",
+            "type": "Assault 1, Lance, Or Or Or Monsterbane, Sponson, 24       4       3+         Primary Or Assault 1, 5\u2019 Blast, Sponson, Primary"
+          }
+        }
       },
       {
         "name": "Voidweavers",
@@ -2375,7 +3426,27 @@
               }
             ]
           }
-        ]
+        ],
+        "weapons": {
+          "Haywire Cannon": {
+            "range": "24",
+            "S": "3",
+            "AP": "3+",
+            "type": "Assault 2, Haywire (3+), Sponson, Primary"
+          },
+          "Prismatic Cannon": {
+            "range": "24",
+            "S": "9",
+            "AP": "1+",
+            "type": "Assault 1, Lance, Or Or Or Monsterbane, Sponson, 24       4       3+         Primary Or Assault 1, 5\u2019 Blast, Sponson, Primary"
+          },
+          "Prismatic Cannon Shuriken Catapults": {
+            "range": "24",
+            "S": "9",
+            "AP": "1+",
+            "type": "Assault 1, Lance, Or Or Or Monsterbane, Sponson, 24       4       3+         Primary Or Assault 1, 5\u2019 Blast, Sponson, Primary"
+          }
+        }
       }
     ],
     "flyers": [
@@ -2406,7 +3477,15 @@
             "description": "May add up to two more Ravens for +212 points each",
             "choices": []
           }
-        ]
+        ],
+        "weapons": {
+          "Splinterstorm Cannon Lances": {
+            "range": "36",
+            "S": "3",
+            "AP": "-",
+            "type": "Heavy 10, Poisoned (3+), Hull, Primary Monsterbane, Hull, Primary 33"
+          }
+        }
       },
       {
         "name": "Razorwing Fighters",
@@ -2444,7 +3523,15 @@
               }
             ]
           }
-        ]
+        ],
+        "weapons": {
+          "Splinter Cannon Disintegrator Cannons Lances Necrotoxin Missiles Monoscythe Missiles Shatterfield Missiles": {
+            "range": "36",
+            "S": "3",
+            "AP": "5+",
+            "type": "Rapid Fire 3, Poisoned (3+), Hull, Primary Monsterbane, Hull, Primary Poisoned (3+), One Use Only, Hull, Primary Only, Hull, Primary One Use Only, Hull, Primary 34"
+          }
+        }
       },
       {
         "name": "Voidraven Bombers",
@@ -2472,15 +3559,15 @@
             "description": "May add up to two more Voidravens for +209 points each Any model may swap 2 Linked Dark Lances for W Any model may swap Necrotoxin Missile Rack for M Any model may take up to one of each E",
             "choices": [
               {
-                "name": "Necrotoxin Missile",
+                "name": "Necrotoxin Missile Rack",
                 "pts_delta": 0
               },
               {
-                "name": "Monoscythe Missile",
+                "name": "Monoscythe Missile Rack",
                 "pts_delta": 0
               },
               {
-                "name": "Shatterfield Missile",
+                "name": "Shatterfield Missile Rack",
                 "pts_delta": 6
               },
               {
@@ -2489,7 +3576,39 @@
               }
             ]
           }
-        ]
+        ],
+        "weapons": {
+          "Necrotoxin Missile Rack": {
+            "range": "48",
+            "S": "3",
+            "AP": "3+",
+            "type": "Heavy 1 x2, 5\u201d Blast, Poisoned (3+), Hull, Primary"
+          },
+          "Monoscythe Missile Rack": {
+            "range": "48",
+            "S": "6",
+            "AP": "5+",
+            "type": "Heavy 1 x2, 5\u201d Blast, Hull, Primary"
+          },
+          "Shatterfield Missile Rack": {
+            "range": "48",
+            "S": "7",
+            "AP": "-",
+            "type": "Heavy 1 x2, 5\u201d Blast, Rending, Hull, Primary"
+          },
+          "Void Mines": {
+            "range": "Bomb",
+            "S": "9",
+            "AP": "2+",
+            "type": "Heavy 1, 5\u201d Blast, Lance, Monsterbane, Hull, Primary 35"
+          },
+          "Transport": {
+            "range": "0-1/Legal",
+            "S": "",
+            "AP": "",
+            "type": ""
+          }
+        }
       }
     ],
     "dedicated_transport": [
@@ -2570,7 +3689,33 @@
               }
             ]
           }
-        ]
+        ],
+        "weapons": {
+          "Disintegrator Cannons": {
+            "range": "36",
+            "S": "5",
+            "AP": "2+",
+            "type": "Heavy 3, Hull, Primary"
+          },
+          "Dark Lance": {
+            "range": "36",
+            "S": "9",
+            "AP": "2+",
+            "type": "Heavy 1, Lance, Monsterbane, Hull, Primary"
+          },
+          "Chain Snares": {
+            "range": "Melee",
+            "S": "User 5+",
+            "AP": "Auxiliary, Accurate, Rending",
+            "type": ""
+          },
+          "Shock Prow": {
+            "range": "Melee",
+            "S": "User -",
+            "AP": "Accurate, Tesla",
+            "type": "36"
+          }
+        }
       },
       {
         "name": "Venom",
@@ -2622,7 +3767,15 @@
               }
             ]
           }
-        ]
+        ],
+        "weapons": {
+          "Splinter Cannon": {
+            "range": "36",
+            "S": "3",
+            "AP": "5+",
+            "type": "Rapid Fire 3, Poisoned (3+), Hull, Primary"
+          }
+        }
       },
       {
         "name": "Starweaver",
@@ -2665,7 +3818,15 @@
               }
             ]
           }
-        ]
+        ],
+        "weapons": {
+          "of War": {
+            "range": "0-1",
+            "S": "",
+            "AP": "",
+            "type": ""
+          }
+        }
       }
     ],
     "lord_of_war": [
@@ -2712,7 +3873,15 @@
             "description": "May take up to one Spell for each level of Psychic Mastery",
             "choices": []
           }
-        ]
+        ],
+        "weapons": {
+          "Vilith-Zhar": {
+            "range": "Melee User 2+",
+            "S": "Poisoned (2+), Ignores",
+            "AP": "",
+            "type": "Invulnerability Saves 38"
+          }
+        }
       },
       {
         "name": "Tantalus",
@@ -2761,7 +3930,27 @@
               }
             ]
           }
-        ]
+        ],
+        "weapons": {
+          "Dire Scythe Blades": {
+            "range": "Melee",
+            "S": "X2",
+            "AP": "2+",
+            "type": "Slow, Accurate, Monsterbane, Primary"
+          },
+          "Chain Snares": {
+            "range": "Melee",
+            "S": "User 5+",
+            "AP": "Auxiliary, Accurate, Rending",
+            "type": ""
+          },
+          "Shock Prow": {
+            "range": "Melee",
+            "S": "User -",
+            "AP": "Accurate, Tesla",
+            "type": "39"
+          }
+        }
       }
     ],
     "fortifications": [
@@ -2784,7 +3973,8 @@
         "fixed_wargear": [
           "Web Shielding"
         ],
-        "options": []
+        "options": [],
+        "weapons": {}
       }
     ]
   }

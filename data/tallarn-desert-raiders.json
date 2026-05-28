@@ -62,7 +62,8 @@
           "Plasma Pistol",
           "Frag Grenades"
         ],
-        "options": []
+        "options": [],
+        "weapons": {}
       },
       {
         "name": "Mogul Kamir",
@@ -101,7 +102,39 @@
           "Bolt Pistol",
           "Frag Grenades"
         ],
-        "options": []
+        "options": [],
+        "weapons": {
+          "Bolt Pistol": {
+            "range": "12",
+            "S": "4",
+            "AP": "5+",
+            "type": "Pistol 1"
+          },
+          "Hunting Lance": {
+            "range": "Melee",
+            "S": "6",
+            "AP": "3+",
+            "type": "Armourbane, Monsterbane"
+          },
+          "Chainsword": {
+            "range": "Melee",
+            "S": "User",
+            "AP": "6+",
+            "type": "Rending"
+          },
+          "Cyber Steed": {
+            "range": "Melee",
+            "S": "3",
+            "AP": "-",
+            "type": "Extra Attack 2, Auxiliary"
+          },
+          "Frag Grenades": {
+            "range": "8",
+            "S": "3",
+            "AP": "-",
+            "type": "Grenade 1, 3\u201d Blast 5"
+          }
+        }
       }
     ]
   }

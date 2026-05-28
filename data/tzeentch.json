@@ -147,7 +147,8 @@
             "description": "May take one C",
             "choices": []
           }
-        ]
+        ],
+        "weapons": {}
       },
       {
         "name": "Ahriman",
@@ -205,7 +206,33 @@
               }
             ]
           }
-        ]
+        ],
+        "weapons": {
+          "Inferno Bolt Pistol": {
+            "range": "12",
+            "S": "4",
+            "AP": "3+",
+            "type": "Pistol 1"
+          },
+          "The Black Staff": {
+            "range": "Melee",
+            "S": "+2",
+            "AP": "3+",
+            "type": "Psychic Bane, Concussion"
+          },
+          "Frag Grenades": {
+            "range": "8",
+            "S": "3",
+            "AP": "-",
+            "type": "Grenade 1, 3\u201d Blast"
+          },
+          "Krak Grenades": {
+            "range": "8",
+            "S": "6",
+            "AP": "4+",
+            "type": "Grenade 1, Nonblast 6"
+          }
+        }
       },
       {
         "name": "Kairos Fateweaver",
@@ -250,7 +277,15 @@
             "description": "May take up to one of each Spell",
             "choices": []
           }
-        ]
+        ],
+        "weapons": {
+          "Staff of Tomorrow": {
+            "range": "Melee",
+            "S": "+2",
+            "AP": "2+",
+            "type": "Sniper (2+), Independent Characters slain by this weapon spawn a Chaos Spawn within 6\u201d with no upgrades 7"
+          }
+        }
       },
       {
         "name": "Magnus the Red",
@@ -300,12 +335,26 @@
             "description": "May take up to one of each Spell",
             "choices": [
               {
-                "name": "Gaze of Magnus Cast",
+                "name": "Gaze of Magnus Cast 8+",
                 "pts_delta": 0
               }
             ]
           }
-        ]
+        ],
+        "weapons": {
+          "Blade of Magnus": {
+            "range": "Melee",
+            "S": "User",
+            "AP": "1+",
+            "type": "Sniper (2+), Independent Characters slain by this weapon spawn a Chaos Spawn within 6\u201d with no upgrades"
+          },
+          "Gaze of Magnus Cast 8+": {
+            "range": "18",
+            "S": "D",
+            "AP": "1+",
+            "type": "Assault 1, Beam, Destroyer, Monsterbane 8"
+          }
+        }
       }
     ],
     "advisors": [
@@ -349,7 +398,15 @@
             "description": "May take one C",
             "choices": []
           }
-        ]
+        ],
+        "weapons": {
+          "Tongues of": {
+            "range": "Melee",
+            "S": "User",
+            "AP": "4+",
+            "type": "None"
+          }
+        }
       },
       {
         "name": "Exalted Flamer",
@@ -390,7 +447,15 @@
             "description": "May take one C",
             "choices": []
           }
-        ]
+        ],
+        "weapons": {
+          "Tongues of": {
+            "range": "Melee",
+            "S": "User",
+            "AP": "4+",
+            "type": "None"
+          }
+        }
       },
       {
         "name": "Tzaagor Shaman",
@@ -426,7 +491,15 @@
             "description": "May take one C",
             "choices": []
           }
-        ]
+        ],
+        "weapons": {
+          "Force Staff": {
+            "range": "Melee",
+            "S": "+2",
+            "AP": "4+",
+            "type": "Psychic Bane, Concussion"
+          }
+        }
       },
       {
         "name": "The Blue Scribes",
@@ -464,7 +537,15 @@
         "fixed_wargear": [
           "Quills"
         ],
-        "options": []
+        "options": [],
+        "weapons": {
+          "Quills": {
+            "range": "Melee",
+            "S": "User",
+            "AP": "-",
+            "type": "Extra Attack 1"
+          }
+        }
       },
       {
         "name": "The Changeling",
@@ -500,7 +581,8 @@
         "fixed_wargear": [
           "The Trickster\u2019s Staff"
         ],
-        "options": []
+        "options": [],
+        "weapons": {}
       }
     ],
     "troops": [
@@ -568,7 +650,8 @@
           }
         ],
         "fixed_wargear": [],
-        "options": []
+        "options": [],
+        "weapons": {}
       }
     ],
     "elites": [
@@ -669,7 +752,51 @@
               }
             ]
           }
-        ]
+        ],
+        "weapons": {
+          "Inferno Bolter": {
+            "range": "24",
+            "S": "4",
+            "AP": "3+",
+            "type": "Rapid Fire 1, Bolter"
+          },
+          "Warpfire Pistol": {
+            "range": "Flame",
+            "S": "3",
+            "AP": "4+",
+            "type": "Pistol 1"
+          },
+          "Warpflamer": {
+            "range": "Flame",
+            "S": "4",
+            "AP": "4+",
+            "type": "Assault 1"
+          },
+          "Force Sword": {
+            "range": "Melee",
+            "S": "+1",
+            "AP": "3+",
+            "type": "Psychic Bane"
+          },
+          "Force Axe": {
+            "range": "Melee",
+            "S": "+2",
+            "AP": "4+",
+            "type": "Psychic Bane"
+          },
+          "Force Stave": {
+            "range": "Melee",
+            "S": "+2",
+            "AP": "4+",
+            "type": "Psychic Bane, Concussion"
+          },
+          "Soulreaper Cannon": {
+            "range": "24",
+            "S": "5",
+            "AP": "3+",
+            "type": "Heavy 4, Rending"
+          }
+        }
       },
       {
         "name": "Scarab Occult Terminators",
@@ -811,7 +938,117 @@
               }
             ]
           }
-        ]
+        ],
+        "weapons": {
+          "Inferno Stormbolter": {
+            "range": "24",
+            "S": "4",
+            "AP": "3+",
+            "type": "Rapid Fire 2, Bolter"
+          },
+          "Lightning Claw": {
+            "range": "Melee",
+            "S": "User",
+            "AP": "3+",
+            "type": "Reroll failed To Wound rolls"
+          },
+          "Inferno Combi Flamer": {
+            "range": "Flame",
+            "S": "4",
+            "AP": "5+",
+            "type": "Assault 1 Or Or Or Or 4         4       3+        Rapid Fire 1, Bolter"
+          },
+          "Inferno Combi Plasma": {
+            "range": "24",
+            "S": "7",
+            "AP": "2+",
+            "type": "Rapid Fire 1, Gets Hot! Or Or Or Or 24        4       3+        Rapid Fire 1, Bolter"
+          },
+          "Inferno Combi Melta": {
+            "range": "12",
+            "S": "8",
+            "AP": "1+",
+            "type": "Assault 1, Melta, Or Or Or (Monsterbane), Or 24        4       3+        Rapid Fire, Bolter 14"
+          },
+          "Soulreaper Cannon": {
+            "range": "24",
+            "S": "5",
+            "AP": "3+",
+            "type": "Heavy 4, Rending"
+          },
+          "Heavy Warp Flamer": {
+            "range": "Flame",
+            "S": "5",
+            "AP": "3+",
+            "type": "Assault 1"
+          },
+          "Chain Axe": {
+            "range": "Melee",
+            "S": "+1",
+            "AP": "-",
+            "type": "Rending"
+          },
+          "Power Sword": {
+            "range": "Melee",
+            "S": "+1",
+            "AP": "3+",
+            "type": "None"
+          },
+          "Power Axe": {
+            "range": "Melee",
+            "S": "+2",
+            "AP": "4+",
+            "type": "None"
+          },
+          "Power Maul": {
+            "range": "Melee",
+            "S": "+2",
+            "AP": "4+",
+            "type": "Concussion"
+          },
+          "Powerfist": {
+            "range": "Melee",
+            "S": "X2",
+            "AP": "2+",
+            "type": "Slow, Monsterbane"
+          },
+          "Daemonic Blade": {
+            "range": "Melee",
+            "S": "+1",
+            "AP": "2+",
+            "type": "Extra Attack d6, Daemonic Thirst"
+          },
+          "Chainfist": {
+            "range": "Melee",
+            "S": "X2",
+            "AP": "2+",
+            "type": "Slow, Monsterbane, +1 To Penetrate"
+          },
+          "Force Sword": {
+            "range": "Melee",
+            "S": "+1",
+            "AP": "3+",
+            "type": "Psychic Bane"
+          },
+          "Force Axe": {
+            "range": "Melee",
+            "S": "+2",
+            "AP": "4+",
+            "type": "Psychic Bane"
+          },
+          "Force Stave": {
+            "range": "Melee",
+            "S": "+2",
+            "AP": "4+",
+            "type": "Psychic Bane, Concussion"
+          },
+          "Attack": {
+            "range": "0-3",
+            "S": "",
+            "AP": "",
+            "type": ""
+          }
+        }
       }
     ],
     "fast_attack": [
@@ -864,7 +1101,15 @@
             "description": "May take up to 7 more Flamers for +42 points each The entire unit may take one C",
             "choices": []
           }
-        ]
+        ],
+        "weapons": {
+          "Flickering Flames": {
+            "range": "Flame",
+            "S": "4",
+            "AP": "5+",
+            "type": "Pistol 1"
+          }
+        }
       },
       {
         "name": "Screamers of Tzeentch",
@@ -903,7 +1148,15 @@
             "description": "May take up to 7 more Screamers for +70 points each The entire unit may take one C",
             "choices": []
           }
-        ]
+        ],
+        "weapons": {
+          "Lamprey\u2019s Bite": {
+            "range": "Melee",
+            "S": "User",
+            "AP": "2+",
+            "type": "None 16"
+          }
+        }
       },
       {
         "name": "Tzaagor Enlightened",
@@ -969,7 +1222,33 @@
               }
             ]
           }
-        ]
+        ],
+        "weapons": {
+          "Divining Spear": {
+            "range": "Melee",
+            "S": "+1",
+            "AP": "4+",
+            "type": "Furious Charge"
+          },
+          "Autopistol and Chainsword": {
+            "range": "12",
+            "S": "3",
+            "AP": "-",
+            "type": "Pistol 1 And And And And Melee     User    6+        Rending"
+          },
+          "Fatecaster Greatbow": {
+            "range": "24",
+            "S": "5",
+            "AP": "4+",
+            "type": "Assault 2 17"
+          },
+          "Support": {
+            "range": "0-3",
+            "S": "",
+            "AP": "",
+            "type": ""
+          }
+        }
       }
     ],
     "heavy_support": [
@@ -1021,7 +1300,27 @@
               }
             ]
           }
-        ]
+        ],
+        "weapons": {
+          "Blue Firebolt": {
+            "range": "18",
+            "S": "9",
+            "AP": "1+",
+            "type": "Assault 3, Monsterbane"
+          },
+          "Pink Firebolt": {
+            "range": "Flame",
+            "S": "5",
+            "AP": "3+",
+            "type": "Assault 1"
+          },
+          "Lamprey\u2019s Bite": {
+            "range": "Melee",
+            "S": "User",
+            "AP": "2+",
+            "type": "None 18"
+          }
+        }
       },
       {
         "name": "Mutalith Vortex Beast",
@@ -1063,7 +1362,15 @@
             "description": "May take one C",
             "choices": []
           }
-        ]
+        ],
+        "weapons": {
+          "Enormous Claws Touch Madness Unreality": {
+            "range": "Melee",
+            "S": "User",
+            "AP": "3+",
+            "type": "None Tzeentch gains S+1 until your next Shooting Phase Tzeentch may reroll failed Charges until your next Shooting Phase Tzeentch gains Rending on all Ranged and Melee Attacks until your next Shooting Phase until your next Shooting Phase 19 Monsterbane"
+          }
+        }
       },
       {
         "name": "Sekhetar Robots",
@@ -1107,7 +1414,33 @@
               }
             ]
           }
-        ]
+        ],
+        "weapons": {
+          "Heavy Warp Flamer Missile Racks": {
+            "range": "Flame",
+            "S": "5",
+            "AP": "3+",
+            "type": "Assault 1 Cover"
+          },
+          "Lightning Claw": {
+            "range": "Melee",
+            "S": "User",
+            "AP": "3+",
+            "type": "Reroll failed To Wound rolls"
+          },
+          "Meltagun": {
+            "range": "12",
+            "S": "8",
+            "AP": "1+",
+            "type": "Assault 1, Melta, (Monsterbane)"
+          },
+          "of War": {
+            "range": "0-1",
+            "S": "",
+            "AP": "",
+            "type": ""
+          }
+        }
       }
     ],
     "lord_of_war": [
@@ -1151,7 +1484,15 @@
             "description": "May take up to one Spell for each Psychic Mastery Level",
             "choices": []
           }
-        ]
+        ],
+        "weapons": {
+          "Staff of Cataclysm": {
+            "range": "72",
+            "S": "9",
+            "AP": "3+",
+            "type": "Heavy 1, Apocalypse Barrage And And And And Melee     X2      1+          Slow, Monsterbane"
+          }
+        }
       },
       {
         "name": "Lords of Change",
@@ -1200,7 +1541,21 @@
               }
             ]
           }
-        ]
+        ],
+        "weapons": {
+          "Staff of Tzeentch": {
+            "range": "Melee",
+            "S": "User",
+            "AP": "3+",
+            "type": "Sniper (3+), Independent Characters slain by this weapon spawn a Chaos Spawn within 6\u201d with no upgrades"
+          },
+          "Baleful Sword": {
+            "range": "Melee",
+            "S": "+1",
+            "AP": "2+",
+            "type": "Extra Attack 1, Auxiliary 22"
+          }
+        }
       }
     ]
   }

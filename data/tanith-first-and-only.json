@@ -72,7 +72,8 @@
             "description": "May swap Chainsword for OM",
             "choices": []
           }
-        ]
+        ],
+        "weapons": {}
       },
       {
         "name": "Colonel Colm Corbec",
@@ -110,7 +111,33 @@
           "Straight Silver",
           "Frag Grenades"
         ],
-        "options": []
+        "options": [],
+        "weapons": {
+          "Lasgun": {
+            "range": "24",
+            "S": "3",
+            "AP": "-",
+            "type": "Rapid Fire 1"
+          },
+          "Straight Silver": {
+            "range": "Melee",
+            "S": "User",
+            "AP": "-",
+            "type": "Extra Attack 1"
+          },
+          "Frag Grenades": {
+            "range": "8",
+            "S": "3",
+            "AP": "-",
+            "type": "Grenade 1, 3\u201d Blast"
+          },
+          "Slots": {
+            "range": "0-3/Troop",
+            "S": "",
+            "AP": "",
+            "type": ""
+          }
+        }
       }
     ],
     "advisors": [
@@ -132,7 +159,8 @@
           }
         ],
         "fixed_wargear": [],
-        "options": []
+        "options": [],
+        "weapons": {}
       },
       {
         "name": "AP",
@@ -146,7 +174,8 @@
           }
         ],
         "fixed_wargear": [],
-        "options": []
+        "options": [],
+        "weapons": {}
       },
       {
         "name": "General Grizmund",
@@ -238,7 +267,45 @@
               }
             ]
           }
-        ]
+        ],
+        "weapons": {
+          "Battle Cannon": {
+            "range": "72",
+            "S": "8",
+            "AP": "3+",
+            "type": "Heavy 1, 5\u201d Blast, Ordnance, Monsterbane, Turret, Primary"
+          },
+          "Heavy Bolter": {
+            "range": "36",
+            "S": "5",
+            "AP": "4+",
+            "type": "Heavy 3, Hull"
+          },
+          "Stormbolter": {
+            "range": "24",
+            "S": "4",
+            "AP": "5+",
+            "type": "Rapid Fire 2, Turret"
+          },
+          "Light Stubber": {
+            "range": "36",
+            "S": "4",
+            "AP": "-",
+            "type": "Heavy 3, Turret"
+          },
+          "Heavy Stubber": {
+            "range": "36",
+            "S": "5",
+            "AP": "6+",
+            "type": "Heavy 3, Turret"
+          },
+          "Hunter Killer Missile": {
+            "range": "120",
+            "S": "10",
+            "AP": "3+",
+            "type": "Heavy 1, Monsterbane, One Use Only, Hull"
+          }
+        }
       },
       {
         "name": "Scout Sergeant Oan Mkoll",
@@ -274,7 +341,33 @@
           "Demolition Charge",
           "Frag Grenades"
         ],
-        "options": []
+        "options": [],
+        "weapons": {
+          "Lasgun": {
+            "range": "24",
+            "S": "3",
+            "AP": "-",
+            "type": "Rapid Fire 1"
+          },
+          "Straight Silver": {
+            "range": "Melee",
+            "S": "User",
+            "AP": "-",
+            "type": "Extra Attack 1"
+          },
+          "Demolition Charge": {
+            "range": "6",
+            "S": "10",
+            "AP": "2+",
+            "type": "Assault 1, 5\u201d Blast, Monsterbane, One Use Only"
+          },
+          "Frag Grenades": {
+            "range": "8",
+            "S": "3",
+            "AP": "-",
+            "type": "Grenade 1, 3\u201d Blast 7"
+          }
+        }
       },
       {
         "name": "Trooper Brin Milo",
@@ -309,7 +402,27 @@
           "Straight Silver",
           "Frag Grenades"
         ],
-        "options": []
+        "options": [],
+        "weapons": {
+          "Lasgun": {
+            "range": "24",
+            "S": "3",
+            "AP": "-",
+            "type": "Rapid Fire 1"
+          },
+          "Straight Silver": {
+            "range": "Melee",
+            "S": "User",
+            "AP": "-",
+            "type": "Extra Attack 1"
+          },
+          "Frag Grenades": {
+            "range": "8",
+            "S": "3",
+            "AP": "-",
+            "type": "Grenade 1, 3\u201d Blast 8"
+          }
+        }
       },
       {
         "name": "Trooper Brin Milo",
@@ -343,7 +456,27 @@
           "Straight Silver",
           "Frag Grenades"
         ],
-        "options": []
+        "options": [],
+        "weapons": {
+          "Lasgun": {
+            "range": "24",
+            "S": "3",
+            "AP": "-",
+            "type": "Rapid Fire 1"
+          },
+          "Straight Silver": {
+            "range": "Melee",
+            "S": "User",
+            "AP": "-",
+            "type": "Extra Attack 1"
+          },
+          "Frag Grenades": {
+            "range": "8",
+            "S": "3",
+            "AP": "-",
+            "type": "Grenade 1, 3\u201d Blast 8"
+          }
+        }
       },
       {
         "name": "Trooper Try Again Braggs",
@@ -378,7 +511,27 @@
           "Straight Silver",
           "Frag Grenades"
         ],
-        "options": []
+        "options": [],
+        "weapons": {
+          "Autocannon": {
+            "range": "48",
+            "S": "7",
+            "AP": "4+",
+            "type": "Heavy 2, Monsterbane"
+          },
+          "Straight Silver": {
+            "range": "Melee",
+            "S": "User",
+            "AP": "-",
+            "type": "Extra Attack 1"
+          },
+          "Frag Grenades": {
+            "range": "8",
+            "S": "3",
+            "AP": "-",
+            "type": "Grenade 1, 3\u201d Blast 9"
+          }
+        }
       }
     ]
   }

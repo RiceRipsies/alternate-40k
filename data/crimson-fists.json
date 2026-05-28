@@ -76,7 +76,27 @@
           "Orbital Strike",
           "Iron Halo"
         ],
-        "options": []
+        "options": [],
+        "weapons": {
+          "Frag Grenades": {
+            "range": "8",
+            "S": "3",
+            "AP": "-",
+            "type": "Grenade 1, 3\u201d Blast"
+          },
+          "Krak Grenades": {
+            "range": "8",
+            "S": "6",
+            "AP": "4+",
+            "type": "Grenade 1, Nonblast"
+          },
+          "Orbital Strike": {
+            "range": "12-240 D/10",
+            "S": "1+/1+",
+            "AP": "Heavy 1, 15\u201d Blast, Destroyer,",
+            "type": "Indirect Fire, Ignores Cover, The Hour is Nigh, T Minus 5, One Use Only 4"
+          }
+        }
       }
     ]
   }

@@ -62,7 +62,8 @@
             "description": "May swap Chainsword for M",
             "choices": []
           }
-        ]
+        ],
+        "weapons": {}
       },
       {
         "name": "M WS BS S T W I A Ld Sv",
@@ -139,7 +140,8 @@
               }
             ]
           }
-        ]
+        ],
+        "weapons": {}
       },
       {
         "name": "Frag Grenades",
@@ -274,7 +276,8 @@
               }
             ]
           }
-        ]
+        ],
+        "weapons": {}
       },
       {
         "name": "Knight Commander Pask",
@@ -371,7 +374,105 @@
               }
             ]
           }
-        ]
+        ],
+        "weapons": {
+          "Nova Eradicator Cannon": {
+            "range": "36",
+            "S": "6",
+            "AP": "4+",
+            "type": "Heavy 1, 5\u201d Blast, Ignores Cover, Turret, Primary 9"
+          },
+          "Executioner Plasma Cannon": {
+            "range": "36",
+            "S": "7",
+            "AP": "2+",
+            "type": "Heavy 3, 3\u201d Blast, Get\u2019s Hot!, Turret, Primary"
+          },
+          "Vanquisher Battle Cannon Lascannons Exterminator Autocannons": {
+            "range": "72",
+            "S": "D",
+            "AP": "2+",
+            "type": "Heavy 1, Destroyer, Monsterbane, Turret, Primary Turret, Primary Monsterbane, Turret, Primary"
+          },
+          "Punisher Gatling Gun": {
+            "range": "24",
+            "S": "5",
+            "AP": "-",
+            "type": "Heavy 20, Turret, Primary"
+          },
+          "Conqueror Battle Cannon and Stormbolter": {
+            "range": "48 and 8",
+            "S": "3+",
+            "AP": "Heavy 1, 5\u201d Blast, Coaxial,",
+            "type": "24 and and Turret and Rapid Fire 2, 4 5+ Coaxial, Monsterbane, Turret, Primary"
+          },
+          "Battle Cannon": {
+            "range": "72",
+            "S": "8",
+            "AP": "3+",
+            "type": "Heavy 1, 5\u201d Blast, Ordnance, Monsterbane, Turret, Primary"
+          },
+          "Demolisher Cannon": {
+            "range": "24",
+            "S": "10",
+            "AP": "2+",
+            "type": "Heavy 1, 5\u201d Blast, Ordnance, Monsterbane, Turret, Primary"
+          },
+          "Long Vanquisher Cannon with Stormbolter": {
+            "range": "72",
+            "S": "D",
+            "AP": "2+",
+            "type": "Heavy 1, Destroyer, Accurate, And And And Coaxial, Turret, Primary 24 4 5+ Rapid Fire 2, Coaxial, Turret"
+          },
+          "Heavy Flamer": {
+            "range": "Flame",
+            "S": "5",
+            "AP": "4+",
+            "type": "Assault 1, Hull"
+          },
+          "Heavy Bolter": {
+            "range": "36",
+            "S": "5",
+            "AP": "4+",
+            "type": "Heavy 3, Hull"
+          },
+          "Lascannon Cannons": {
+            "range": "48",
+            "S": "9",
+            "AP": "2+",
+            "type": "Heavy 1, Monsterbane, Hull Sponson Sponson (Monsterbane), Sponson"
+          },
+          "Stormbolter": {
+            "range": "24",
+            "S": "4",
+            "AP": "5+",
+            "type": "Rapid Fire 2, Turret"
+          },
+          "Light Stubber": {
+            "range": "36",
+            "S": "4",
+            "AP": "-",
+            "type": "Heavy 3, Turret"
+          },
+          "Heavy Stubber": {
+            "range": "36",
+            "S": "5",
+            "AP": "6+",
+            "type": "Heavy 3, Turret"
+          },
+          "Dozerblade": {
+            "range": "Melee",
+            "S": "+1",
+            "AP": "6+",
+            "type": "Dozerblade, Accurate"
+          },
+          "Hunter Killer Missile": {
+            "range": "120",
+            "S": "10",
+            "AP": "3+",
+            "type": "Heavy 1, Monsterbane, One Use Only, Hull 10"
+          }
+        }
       },
       {
         "name": "Ursula Creed",
@@ -409,7 +510,27 @@
           "Power Sword",
           "Refractor Field"
         ],
-        "options": []
+        "options": [],
+        "weapons": {
+          "Duty and Vengeance": {
+            "range": "12",
+            "S": "5",
+            "AP": "2+",
+            "type": "Pistol 4"
+          },
+          "Power Sword": {
+            "range": "Melee",
+            "S": "+1",
+            "AP": "3+",
+            "type": ""
+          },
+          "Slots": {
+            "range": "0-3/Troop",
+            "S": "",
+            "AP": "",
+            "type": ""
+          }
+        }
       }
     ],
     "advisors": [
@@ -449,7 +570,33 @@
           "Frag Grenades",
           "Standard"
         ],
-        "options": []
+        "options": [],
+        "weapons": {
+          "Laspistol": {
+            "range": "12",
+            "S": "3",
+            "AP": "-",
+            "type": "Pistol 1"
+          },
+          "Power Sword": {
+            "range": "Melee",
+            "S": "+1",
+            "AP": "3+",
+            "type": ""
+          },
+          "Powerfist": {
+            "range": "Melee",
+            "S": "X2",
+            "AP": "2+",
+            "type": "Monsterbane, Slow"
+          },
+          "Frag Grenades": {
+            "range": "8",
+            "S": "3",
+            "AP": "-",
+            "type": "Grenade 1, 3\u201d Blast"
+          }
+        }
       },
       {
         "name": "Sergeant Bastonne",
@@ -489,7 +636,33 @@
           "Krak Grenades",
           "Star of Terra"
         ],
-        "options": []
+        "options": [],
+        "weapons": {
+          "Hotshot Laspistol": {
+            "range": "6",
+            "S": "3",
+            "AP": "3+",
+            "type": "Pistol 1"
+          },
+          "Power Sword": {
+            "range": "Melee",
+            "S": "+1",
+            "AP": "3+",
+            "type": "None"
+          },
+          "Frag Grenades": {
+            "range": "8",
+            "S": "3",
+            "AP": "-",
+            "type": "Grenade 1, 3\u201d Blast"
+          },
+          "Krak Grenades": {
+            "range": "8",
+            "S": "6",
+            "AP": "4+",
+            "type": "Grenade 1, Non-Blast 12"
+          }
+        }
       },
       {
         "name": "Power Maul",
@@ -630,7 +803,8 @@
             "description": "May take Jaromir for +80 points",
             "choices": []
           }
-        ]
+        ],
+        "weapons": {}
       }
     ]
   }

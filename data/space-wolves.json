@@ -101,7 +101,33 @@
               }
             ]
           }
-        ]
+        ],
+        "weapons": {
+          "True Claw and Heavy Flamer": {
+            "range": "Melee",
+            "S": "+3",
+            "AP": "2+",
+            "type": "Primary And And And And Flame     5       4+       Assault 1, Hull"
+          },
+          "Assault Cannon": {
+            "range": "36",
+            "S": "6",
+            "AP": "4+",
+            "type": "Assault 6, Rending, Hull, Primary 3"
+          },
+          "Helfrost Cannon Lascannons": {
+            "range": "36",
+            "S": "8",
+            "AP": "1+",
+            "type": "Heavy 1, Lance, Monsterbane, 36        6      3+    Heavy 1, 3\u201d Blast, Hull, Primary Primary"
+          },
+          "Heavy Plasma Cannon": {
+            "range": "48",
+            "S": "8",
+            "AP": "2+",
+            "type": "Heavy 1, 5\u201d Blast, Monsterbane, Hull, Primary"
+          }
+        }
       },
       {
         "name": "Harald Deathwolf",
@@ -149,7 +175,39 @@
           "Mantle of the Ice Troll King",
           "Storm Shield"
         ],
-        "options": []
+        "options": [],
+        "weapons": {
+          "Bolt Pistol": {
+            "range": "12",
+            "S": "4",
+            "AP": "5+",
+            "type": "Pistol 1"
+          },
+          "Frost Axe": {
+            "range": "Melee",
+            "S": "+2",
+            "AP": "2+",
+            "type": "Extra Attack 1"
+          },
+          "Ice Fang": {
+            "range": "Melee",
+            "S": "+1",
+            "AP": "-",
+            "type": "Extra Attack 2, Rending, Auxiliary 4"
+          },
+          "Frag Grenades": {
+            "range": "8",
+            "S": "3",
+            "AP": "-",
+            "type": "Grenade 1, 3\u201d Blast"
+          },
+          "Krak Grenades": {
+            "range": "8",
+            "S": "6",
+            "AP": "4+",
+            "type": "Grenade 1, Nonblast"
+          }
+        }
       },
       {
         "name": "Logan Grimnar",
@@ -214,7 +272,33 @@
               }
             ]
           }
-        ]
+        ],
+        "weapons": {
+          "Stormbolter": {
+            "range": "24",
+            "S": "4",
+            "AP": "5+",
+            "type": "Rapid Fire 2, Bolter"
+          },
+          "Morkai": {
+            "range": "Melee",
+            "S": "+3",
+            "AP": "3+",
+            "type": "None"
+          },
+          "Tyrnak and Fenrir": {
+            "range": "Melee",
+            "S": "4",
+            "AP": "-",
+            "type": "Auxiliary, Extra Attack 3, Rending"
+          },
+          "Orbital Strike": {
+            "range": "12-240 D/10 1+/1+ Heavy 1, 15\u201d Blast, Destroyer,",
+            "S": "",
+            "AP": "",
+            "type": "/8   /1+   Ordnance, Monsterbane, Indirect Fire, Ignores Cover, The Hour is Nigh, T Minus 5, One Use Only"
+          }
+        }
       },
       {
         "name": "Njal Stormcaller",
@@ -270,35 +354,35 @@
             "description": "May take up to 2 additional S",
             "choices": [
               {
-                "name": "Blizzard Cast",
+                "name": "Blizzard Cast 7+",
                 "pts_delta": 0
               },
               {
-                "name": "Thunderbolt Cast",
+                "name": "Thunderbolt Cast 8+",
                 "pts_delta": 0
               },
               {
-                "name": "Cause Misfortune Cast",
+                "name": "Cause Misfortune Cast 7+",
                 "pts_delta": 10
               },
               {
-                "name": "Forewarning Cast",
+                "name": "Forewarning Cast 6+",
                 "pts_delta": 10
               },
               {
-                "name": "Bolster Cast",
+                "name": "Bolster Cast 6+",
                 "pts_delta": 15
               },
               {
-                "name": "Enfeeble Cast",
+                "name": "Enfeeble Cast 8+",
                 "pts_delta": 20
               },
               {
-                "name": "Endurance Cast",
+                "name": "Endurance Cast 7+",
                 "pts_delta": 20
               },
               {
-                "name": "Melting Beam Cast",
+                "name": "Melting Beam Cast 7+",
                 "pts_delta": 22
               }
             ]
@@ -312,7 +396,75 @@
               }
             ]
           }
-        ]
+        ],
+        "weapons": {
+          "Bolt Pistol": {
+            "range": "12",
+            "S": "4",
+            "AP": "5+",
+            "type": "Pistol 1"
+          },
+          "Night Wing": {
+            "range": "Melee",
+            "S": "-1",
+            "AP": "-",
+            "type": "Extra Attack 2, Auxiliary"
+          },
+          "Staff of the Stormcaller": {
+            "range": "Melee",
+            "S": "+2",
+            "AP": "4+",
+            "type": "Concussive, Psychic Bane, Wyrdbane"
+          },
+          "Blizzard Cast 7+": {
+            "range": "18",
+            "S": "5",
+            "AP": "-",
+            "type": "Assault 1, 5\u201d Blast, Slow"
+          },
+          "Thunderbolt Cast 8+": {
+            "range": "18",
+            "S": "9",
+            "AP": "-",
+            "type": "Assault 2, Tesla, Monsterbane"
+          },
+          "Cause Misfortune Cast 7+": {
+            "range": "18",
+            "S": "-",
+            "AP": "-",
+            "type": "Target unit gains Rending on all Ranged and Melee Attacks until your next Psychic Phase"
+          },
+          "Forewarning Cast 6+": {
+            "range": "18",
+            "S": "-",
+            "AP": "-",
+            "type": "Target unit gains 4+ Cover Save until your next Psychic Phase"
+          },
+          "Bolster Cast 6+": {
+            "range": "18",
+            "S": "-",
+            "AP": "-",
+            "type": "Target unit counts as having not Moved for the purposes of Shooting until your next Psychic Phase"
+          },
+          "Enfeeble Cast 8+": {
+            "range": "18",
+            "S": "-",
+            "AP": "-",
+            "type": "Target unit suffers T-1 until your next Psychic Phase"
+          },
+          "Endurance Cast 7+": {
+            "range": "18",
+            "S": "-",
+            "AP": "-",
+            "type": "Target unit gains T+1 until your next Psychic Phase"
+          },
+          "Melting Beam Cast 7+": {
+            "range": "18",
+            "S": "8",
+            "AP": "1+",
+            "type": "Assault 1, Armourbane, Beam 7"
+          }
+        }
       },
       {
         "name": "Ragnar Blackmane",
@@ -368,7 +520,33 @@
               }
             ]
           }
-        ]
+        ],
+        "weapons": {
+          "Bolt Pistol": {
+            "range": "12",
+            "S": "4",
+            "AP": "5+",
+            "type": "Pistol 1"
+          },
+          "Frostfang": {
+            "range": "Melee",
+            "S": "+1",
+            "AP": "3+",
+            "type": "Rending"
+          },
+          "Frag Grenades": {
+            "range": "8",
+            "S": "3",
+            "AP": "-",
+            "type": "Grenade 1, 3\u201d Blast"
+          },
+          "Meltabombs": {
+            "range": "6",
+            "S": "8",
+            "AP": "1+",
+            "type": "Grenade 1, Armourbane, Monsterbane, Nonblast 8"
+          }
+        }
       },
       {
         "name": "Ulric the Slayer",
@@ -431,7 +609,33 @@
             "description": "May take up to two H",
             "choices": []
           }
-        ]
+        ],
+        "weapons": {
+          "Plasma Pistol": {
+            "range": "12",
+            "S": "7",
+            "AP": "2+",
+            "type": "Pistol 1, Gets Hot!"
+          },
+          "Crozium Arcanum": {
+            "range": "Melee",
+            "S": "+2",
+            "AP": "4+",
+            "type": "Concussion 9 And And And And Flame     5      4+        Assault 1, One Use Only"
+          },
+          "Frag Grenades": {
+            "range": "8",
+            "S": "3",
+            "AP": "-",
+            "type": "Grenade 1, 3\u201d Blast"
+          },
+          "Krak Grenades": {
+            "range": "8",
+            "S": "6",
+            "AP": "4+",
+            "type": "Grenade 1, Nonblast"
+          }
+        }
       }
     ],
     "advisors": [
@@ -489,7 +693,21 @@
               }
             ]
           }
-        ]
+        ],
+        "weapons": {
+          "Foehammer": {
+            "range": "12",
+            "S": "10",
+            "AP": "1+",
+            "type": "Assault 1, Monsterbane Melee     10     1+        Slow, Monsterbane"
+          },
+          "Anvil Shield": {
+            "range": "Melee",
+            "S": "+1",
+            "AP": "4+",
+            "type": "Auxiliary 10"
+          }
+        }
       },
       {
         "name": "Canis Wolfborn",
@@ -534,7 +752,39 @@
           "Krak Grenades",
           "Iron Halo"
         ],
-        "options": []
+        "options": [],
+        "weapons": {
+          "Bolt Pistol": {
+            "range": "12",
+            "S": "4",
+            "AP": "5+",
+            "type": "Pistol 1"
+          },
+          "Dual Wolf Claws": {
+            "range": "Melee",
+            "S": "+1",
+            "AP": "3+",
+            "type": "Extra Attack 1"
+          },
+          "Thunderwolf Mount": {
+            "range": "Melee",
+            "S": "User",
+            "AP": "-",
+            "type": "Extra Attack 1, Rending, Auxiliary"
+          },
+          "Frag Grenades": {
+            "range": "8",
+            "S": "3",
+            "AP": "-",
+            "type": "Grenade 1, 3\u201d Blast"
+          },
+          "Krak Grenades": {
+            "range": "8",
+            "S": "6",
+            "AP": "4+",
+            "type": "Grenade 1, Nonblast 11"
+          }
+        }
       },
       {
         "name": "Iron Priest",
@@ -584,7 +834,27 @@
               }
             ]
           }
-        ]
+        ],
+        "weapons": {
+          "Helfrost Pistol": {
+            "range": "12",
+            "S": "9",
+            "AP": "2+",
+            "type": "Pistol 1, Lance, Monsterbane"
+          },
+          "Tempest Hammer": {
+            "range": "Melee",
+            "S": "X2",
+            "AP": "2+",
+            "type": "Slow, Monsterbane"
+          },
+          "Servo Arm": {
+            "range": "Melee",
+            "S": "X2",
+            "AP": "2+",
+            "type": "Slow, Monsterbane, Auxiliary, Servo Arm 12"
+          }
+        }
       },
       {
         "name": "Lukas the Trickster",
@@ -628,7 +898,33 @@
           "Krak Grenades",
           "Pelt of the Doppelgangrel"
         ],
-        "options": []
+        "options": [],
+        "weapons": {
+          "Plasma Pistol": {
+            "range": "12",
+            "S": "7",
+            "AP": "2+",
+            "type": "Pistol 1, Gets Hot!"
+          },
+          "Claw of the Jackalwolf": {
+            "range": "Melee",
+            "S": "+1",
+            "AP": "3+",
+            "type": "Extra Attack 1"
+          },
+          "Frag Grenades": {
+            "range": "8",
+            "S": "3",
+            "AP": "-",
+            "type": "Grenade 1, 3\u201d Blast"
+          },
+          "Krak Grenades": {
+            "range": "8",
+            "S": "6",
+            "AP": "4+",
+            "type": "Grenade 1, Nonblast 13"
+          }
+        }
       },
       {
         "name": "Murderfang",
@@ -674,7 +970,27 @@
           "Heavy Flamer",
           "Extra Armour"
         ],
-        "options": []
+        "options": [],
+        "weapons": {
+          "Dual Lightning Claws": {
+            "range": "Melee",
+            "S": "User",
+            "AP": "3+",
+            "type": "Extra Attack 1, Reroll all failed To Hit and To Wound rolls, Primary"
+          },
+          "Stormbolter": {
+            "range": "24",
+            "S": "4",
+            "AP": "5+",
+            "type": "Rapid Fire 2, Bolter, Hull"
+          },
+          "Heavy Flamer": {
+            "range": "Flame",
+            "S": "5",
+            "AP": "4+",
+            "type": "Assault 1, Hull 14"
+          }
+        }
       },
       {
         "name": "Wolf Guard Battle Leader",
@@ -745,7 +1061,33 @@
               }
             ]
           }
-        ]
+        ],
+        "weapons": {
+          "Heavy Bolt Pistol": {
+            "range": "18",
+            "S": "4",
+            "AP": "4+",
+            "type": "Pistol 1"
+          },
+          "Plasma Pistol": {
+            "range": "12",
+            "S": "7",
+            "AP": "2+",
+            "type": "Pistol 1, Gets Hot!"
+          },
+          "Power Sword": {
+            "range": "Melee",
+            "S": "+1",
+            "AP": "3+",
+            "type": "None"
+          },
+          "Thunderhammer": {
+            "range": "Melee",
+            "S": "10",
+            "AP": "2+",
+            "type": "Slow, Monsterbane 15"
+          }
+        }
       },
       {
         "name": "Wolf Priest",
@@ -798,7 +1140,27 @@
               }
             ]
           }
-        ]
+        ],
+        "weapons": {
+          "Absolver Bolt Pistol": {
+            "range": "18",
+            "S": "5",
+            "AP": "5+",
+            "type": "Pistol 1"
+          },
+          "Crozium Arcanum": {
+            "range": "Melee",
+            "S": "+2",
+            "AP": "4+",
+            "type": "Concussion Or Or Or Or Flame     5          4+   Assault 1, One Use Only"
+          },
+          "Ritual Dagger": {
+            "range": "Melee",
+            "S": "User",
+            "AP": "-",
+            "type": "Extra Attack 1 16"
+          }
+        }
       }
     ],
     "troops": [
@@ -901,7 +1263,51 @@
               }
             ]
           }
-        ]
+        ],
+        "weapons": {
+          "Bolt Pistol": {
+            "range": "12",
+            "S": "4",
+            "AP": "5+",
+            "type": "Pistol 1"
+          },
+          "Plasma Pistol": {
+            "range": "12",
+            "S": "7",
+            "AP": "2+",
+            "type": "Pistol 1, Gets Hot!"
+          },
+          "Combat Knife": {
+            "range": "Melee",
+            "S": "User",
+            "AP": "-",
+            "type": "Extra Attack 1"
+          },
+          "Chainsword": {
+            "range": "Melee",
+            "S": "User",
+            "AP": "6+",
+            "type": "Rending"
+          },
+          "Lightning Claw": {
+            "range": "Melee",
+            "S": "User",
+            "AP": "3+",
+            "type": "Reroll failed To Wound rolls"
+          },
+          "Power Sword": {
+            "range": "Melee",
+            "S": "+1",
+            "AP": "3+",
+            "type": "None"
+          },
+          "Power Axe": {
+            "range": "Melee",
+            "S": "+2",
+            "AP": "4+",
+            "type": "None 17"
+          }
+        }
       },
       {
         "name": "Grey Hunters",
@@ -1002,7 +1408,63 @@
               }
             ]
           }
-        ]
+        ],
+        "weapons": {
+          "Bolt Pistol": {
+            "range": "12",
+            "S": "4",
+            "AP": "5+",
+            "type": "Pistol 1"
+          },
+          "Plasma Pistol": {
+            "range": "12",
+            "S": "7",
+            "AP": "2+",
+            "type": "Pistol 1, Gets Hot!"
+          },
+          "Chainsword": {
+            "range": "Melee",
+            "S": "User",
+            "AP": "6+",
+            "type": "Rending"
+          },
+          "Power Sword": {
+            "range": "Melee",
+            "S": "+1",
+            "AP": "3+",
+            "type": "None"
+          },
+          "Power Axe": {
+            "range": "Melee",
+            "S": "+2",
+            "AP": "4+",
+            "type": "None"
+          },
+          "Power Fist": {
+            "range": "Melee",
+            "S": "X2",
+            "AP": "2+",
+            "type": "Slow, Monsterbane"
+          },
+          "Boltgun": {
+            "range": "24",
+            "S": "4",
+            "AP": "5+",
+            "type": "Rapid Fire 1, Bolter"
+          },
+          "Frag Grenades": {
+            "range": "8",
+            "S": "3",
+            "AP": "-",
+            "type": "Grenade 1, 3\u201d Blast"
+          },
+          "Krak Grenades": {
+            "range": "8",
+            "S": "6",
+            "AP": "4+",
+            "type": "Grenade 1, Nonblast 18"
+          }
+        }
       }
     ],
     "elites": [
@@ -1092,7 +1554,39 @@
               }
             ]
           }
-        ]
+        ],
+        "weapons": {
+          "Auto Bolt Rifle": {
+            "range": "24",
+            "S": "4",
+            "AP": "6+",
+            "type": "Assault 3"
+          },
+          "Special Issue Bolt Pistol": {
+            "range": "18",
+            "S": "4",
+            "AP": "3+",
+            "type": "Pistol 1"
+          },
+          "Combat Knife": {
+            "range": "Melee",
+            "S": "User",
+            "AP": "-",
+            "type": "Extra Attack 1"
+          },
+          "Frag Grenades": {
+            "range": "8",
+            "S": "3",
+            "AP": "-",
+            "type": "Grenade 1, 3\u201d Blast"
+          },
+          "Krak Grenades": {
+            "range": "8",
+            "S": "6",
+            "AP": "4+",
+            "type": "Grenade 1, Nonblast"
+          }
+        }
       },
       {
         "name": "Wolf Guard Terminators",
@@ -1193,7 +1687,51 @@
               }
             ]
           }
-        ]
+        ],
+        "weapons": {
+          "Stormbolter": {
+            "range": "24",
+            "S": "4",
+            "AP": "5+",
+            "type": "Rapid Fire 2, Bolter"
+          },
+          "Heavy Flamer": {
+            "range": "Flame",
+            "S": "5",
+            "AP": "4+",
+            "type": "Assault 1"
+          },
+          "Assault Cannon": {
+            "range": "36",
+            "S": "6",
+            "AP": "4+",
+            "type": "Assault 6, Rending 20"
+          },
+          "Power Sword": {
+            "range": "Melee",
+            "S": "+1",
+            "AP": "3+",
+            "type": "None"
+          },
+          "Power Axe": {
+            "range": "Melee",
+            "S": "+2",
+            "AP": "4+",
+            "type": "None"
+          },
+          "Power Fist": {
+            "range": "Melee",
+            "S": "X2",
+            "AP": "2+",
+            "type": "Slow, Monsterbane"
+          },
+          "Power Great Axe": {
+            "range": "Melee",
+            "S": "x2",
+            "AP": "2+",
+            "type": "Extra Attack 1, Slow, Monsterbane"
+          }
+        }
       },
       {
         "name": "Wulfen",
@@ -1277,7 +1815,39 @@
               }
             ]
           }
-        ]
+        ],
+        "weapons": {
+          "Lightning Claw": {
+            "range": "Melee",
+            "S": "User",
+            "AP": "3+",
+            "type": "Reroll failed To Wound rolls"
+          },
+          "Great Frost Axe": {
+            "range": "Melee",
+            "S": "+3",
+            "AP": "2+",
+            "type": "None"
+          },
+          "Thunderhammer": {
+            "range": "Melee",
+            "S": "10",
+            "AP": "1+",
+            "type": "Slow, Monsterbane"
+          },
+          "Dual Lightning Claws": {
+            "range": "Melee",
+            "S": "User",
+            "AP": "3+",
+            "type": "Reroll failed To Wound rolls, Extra Attack 1"
+          },
+          "Attack": {
+            "range": "0-3",
+            "S": "",
+            "AP": "",
+            "type": ""
+          }
+        }
       }
     ],
     "fast_attack": [
@@ -1318,7 +1888,15 @@
             "description": "May take up to 7 more Cyber Wolves for +22 points each",
             "choices": []
           }
-        ]
+        ],
+        "weapons": {
+          "Cyber Claws and Teeth": {
+            "range": "Melee",
+            "S": "User",
+            "AP": "5+",
+            "type": "Rending 22"
+          }
+        }
       },
       {
         "name": "Fenrisian Wolves",
@@ -1384,7 +1962,21 @@
             "description": "May take up to 10 more Fenrisian Wolves for +14 points each",
             "choices": []
           }
-        ]
+        ],
+        "weapons": {
+          "Cyber Claws and Teeth": {
+            "range": "Melee",
+            "S": "User",
+            "AP": "5+",
+            "type": "Rending"
+          },
+          "Claws and Teeth": {
+            "range": "Melee",
+            "S": "User",
+            "AP": "-",
+            "type": "Rending 23"
+          }
+        }
       },
       {
         "name": "Thunderwolf Cavalry",
@@ -1535,7 +2127,117 @@
               }
             ]
           }
-        ]
+        ],
+        "weapons": {
+          "Bolt Pistol": {
+            "range": "12",
+            "S": "4",
+            "AP": "5+",
+            "type": "Pistol 1"
+          },
+          "Hand Flamer": {
+            "range": "Flame",
+            "S": "3",
+            "AP": "6+",
+            "type": "Pistol 1"
+          },
+          "Plasma Pistol": {
+            "range": "12",
+            "S": "7",
+            "AP": "2+",
+            "type": "Pistol 1, Gets Hot!"
+          },
+          "Grav Pistol": {
+            "range": "12",
+            "S": "*",
+            "AP": "3+",
+            "type": "Pistol 1, Grav"
+          },
+          "Combat Knife": {
+            "range": "Melee",
+            "S": "User",
+            "AP": "-",
+            "type": "Extra Attack 1"
+          },
+          "Chainsword": {
+            "range": "Melee",
+            "S": "User",
+            "AP": "6+",
+            "type": "Rending"
+          },
+          "Lightning Claw": {
+            "range": "Melee",
+            "S": "User",
+            "AP": "3+",
+            "type": "Reroll failed To Wound rolls"
+          },
+          "Power Sword": {
+            "range": "Melee",
+            "S": "+1",
+            "AP": "3+",
+            "type": "None"
+          },
+          "Power Axe": {
+            "range": "Melee",
+            "S": "+2",
+            "AP": "4+",
+            "type": "None"
+          },
+          "Power Maul": {
+            "range": "Melee",
+            "S": "+2",
+            "AP": "4+",
+            "type": "Concussion"
+          },
+          "Powerfist": {
+            "range": "Melee",
+            "S": "X2",
+            "AP": "2+",
+            "type": "Slow, Monsterbane"
+          },
+          "Great Frost Axe": {
+            "range": "Melee",
+            "S": "+3",
+            "AP": "2+",
+            "type": "None"
+          },
+          "Thunderhammer": {
+            "range": "Melee",
+            "S": "10",
+            "AP": "1+",
+            "type": "Slow, Monsterbane"
+          },
+          "Dual Lightning Claws": {
+            "range": "Melee",
+            "S": "User",
+            "AP": "3+",
+            "type": "Reroll failed To Wound rolls, Extra Attack 1"
+          },
+          "Thunderwolf Mount": {
+            "range": "Melee",
+            "S": "User",
+            "AP": "-",
+            "type": "Extra Attack 1, Rending, Auxiliary"
+          },
+          "Frag Grenades": {
+            "range": "8",
+            "S": "3",
+            "AP": "-",
+            "type": "Grenade 1, 3\u201d Blast 24"
+          },
+          "Krak Grenades": {
+            "range": "8",
+            "S": "6",
+            "AP": "4+",
+            "type": "Grenade 1, Nonblast"
+          },
+          "Meltabombs": {
+            "range": "6",
+            "S": "8",
+            "AP": "1+",
+            "type": "Grenade 1, Nonblast, Armourbane, Monsterbane"
+          }
+        }
       },
       {
         "name": "Wolf Guard Headtakers",
@@ -1602,7 +2304,21 @@
             "description": "May take up to 3 more Fenrisian Wolves for +14 points each Any Marine may swap one Power Axe for A",
             "choices": []
           }
-        ]
+        ],
+        "weapons": {
+          "Power Axe": {
+            "range": "Melee",
+            "S": "+2",
+            "AP": "4+",
+            "type": "None"
+          },
+          "Claws and Teeth": {
+            "range": "Melee",
+            "S": "User",
+            "AP": "-",
+            "type": "Rending 25"
+          }
+        }
       }
     ],
     "flyers": [
@@ -1662,7 +2378,15 @@
               }
             ]
           }
-        ]
+        ],
+        "weapons": {
+          "Helfrost Destructor Stormstrike Missile Launchers Lascannons Missile Launchers Linked Heavy Bolters Linked Multimeltas": {
+            "range": "36",
+            "S": "10",
+            "AP": "1+",
+            "type": "Heavy 1, Lance, Monsterbane, Or Or Hull, Primary Or 8       3+         Heavy 1, 5\u201d Blast, Monsterbane, Hull, Primary Sponson (Monsterbane), Sponson 26"
+          }
+        }
       },
       {
         "name": "Stormwolf Gunship",
@@ -1719,7 +2443,8 @@
               }
             ]
           }
-        ]
+        ],
+        "weapons": {}
       }
     ]
   }

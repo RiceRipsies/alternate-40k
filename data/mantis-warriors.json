@@ -73,31 +73,31 @@
             "description": "May take up to one S",
             "choices": [
               {
-                "name": "Mirage Cast",
+                "name": "Mirage Cast 6+",
                 "pts_delta": 0
               },
               {
-                "name": "Cause Misfortune Cast",
+                "name": "Cause Misfortune Cast 7+",
                 "pts_delta": 10
               },
               {
-                "name": "Forewarning Cast",
+                "name": "Forewarning Cast 6+",
                 "pts_delta": 10
               },
               {
-                "name": "Bolster Cast",
+                "name": "Bolster Cast 6+",
                 "pts_delta": 15
               },
               {
-                "name": "Enfeeble Cast",
+                "name": "Enfeeble Cast 8+",
                 "pts_delta": 20
               },
               {
-                "name": "Endurance Cast",
+                "name": "Endurance Cast 7+",
                 "pts_delta": 20
               },
               {
-                "name": "Melting Beam Cast",
+                "name": "Melting Beam Cast 7+",
                 "pts_delta": 22
               }
             ]
@@ -111,7 +111,75 @@
               }
             ]
           }
-        ]
+        ],
+        "weapons": {
+          "Bolt Pistol": {
+            "range": "12",
+            "S": "4",
+            "AP": "5+",
+            "type": "Pistol 1"
+          },
+          "Force Sword": {
+            "range": "Melee",
+            "S": "User",
+            "AP": "3+",
+            "type": "Psychic Bane"
+          },
+          "Frag Grenades": {
+            "range": "8",
+            "S": "3",
+            "AP": "-",
+            "type": "Grenade 1, 3\u201d Blast"
+          },
+          "Krak Grenades": {
+            "range": "8",
+            "S": "6",
+            "AP": "4+",
+            "type": "Grenade 1, Nonblast"
+          },
+          "Mirage Cast 6+": {
+            "range": "18",
+            "S": "-",
+            "AP": "-",
+            "type": "Target unit gains Shroud until your next Psychic Phase. 3"
+          },
+          "Cause Misfortune Cast 7+": {
+            "range": "18",
+            "S": "-",
+            "AP": "-",
+            "type": "Target unit gains Rending on all Ranged and Melee Attacks until your next Psychic Phase"
+          },
+          "Forewarning Cast 6+": {
+            "range": "18",
+            "S": "-",
+            "AP": "-",
+            "type": "Target unit gains 4+ Cover Save until your next Psychic Phase"
+          },
+          "Bolster Cast 6+": {
+            "range": "18",
+            "S": "-",
+            "AP": "-",
+            "type": "Target unit counts as having not Moved for the purposes of Shooting until your next Psychic Phase"
+          },
+          "Enfeeble Cast 8+": {
+            "range": "18",
+            "S": "-",
+            "AP": "-",
+            "type": "Target unit suffers T-1 until your next Psychic Phase"
+          },
+          "Endurance Cast 7+": {
+            "range": "18",
+            "S": "-",
+            "AP": "-",
+            "type": "Target unit gains T+1 until your next Psychic Phase"
+          },
+          "Melting Beam Cast 7+": {
+            "range": "18",
+            "S": "8",
+            "AP": "1+",
+            "type": "Assault 1, Armourbane, Beam 4"
+          }
+        }
       }
     ]
   }

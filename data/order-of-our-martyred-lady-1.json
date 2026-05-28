@@ -53,7 +53,33 @@
           "Krak Grenades",
           "Rosarius"
         ],
-        "options": []
+        "options": [],
+        "weapons": {
+          "Bolt Pistol": {
+            "range": "12",
+            "S": "4",
+            "AP": "5+",
+            "type": "Pistol 1"
+          },
+          "Power Sword": {
+            "range": "Melee",
+            "S": "+1",
+            "AP": "3+",
+            "type": "None"
+          },
+          "Frag Grenades": {
+            "range": "8",
+            "S": "3",
+            "AP": "-",
+            "type": "Grenade 1, 3\u201d Blast"
+          },
+          "Krak Grenades": {
+            "range": "8",
+            "S": "6",
+            "AP": "4+",
+            "type": "Grenade 1, Nonblast 3"
+          }
+        }
       },
       {
         "name": "Celestine the Living Saint",
@@ -123,7 +149,45 @@
             "description": "May add up to two Geminae Superia for +166 points each",
             "choices": []
           }
-        ]
+        ],
+        "weapons": {
+          "The Ardent Blade": {
+            "range": "Flame",
+            "S": "5",
+            "AP": "4+",
+            "type": "Assault 1 Or Or Or Or Melee     +3     2+      None"
+          },
+          "Power Sword": {
+            "range": "Melee",
+            "S": "+1",
+            "AP": "3+",
+            "type": "None"
+          },
+          "Bolt Pistol": {
+            "range": "12",
+            "S": "4",
+            "AP": "5+",
+            "type": "Pistol 1"
+          },
+          "Frag Grenades": {
+            "range": "8",
+            "S": "3",
+            "AP": "-",
+            "type": "Grenade 1, 3\u201d Blast"
+          },
+          "Krak Grenades": {
+            "range": "8",
+            "S": "6",
+            "AP": "4+",
+            "type": "Grenade 1, Nonblast"
+          },
+          "Orbital Strike": {
+            "range": "12-240",
+            "S": "D/10",
+            "AP": "1+",
+            "type": "/1+ Heavy 1, 15\u201d Blast, Destroyer, /8     /1+     Ordnance, Monsterbane, Indirect Fire, Ignores Cover, The Hour is Nigh, T Minus 5, One Use Only"
+          }
+        }
       },
       {
         "name": "Intranzia Fraye",
@@ -169,7 +233,27 @@
           "Throne of Blame",
           "Rosarius"
         ],
-        "options": []
+        "options": [],
+        "weapons": {
+          "Melta Missile Array Bolters Flamers": {
+            "range": "48",
+            "S": "8",
+            "AP": "1+",
+            "type": "Heavy 1, Armourbane, Monsterbane, Hull, Primary"
+          },
+          "Mace of Saint Praxedes": {
+            "range": "Melee",
+            "S": "User",
+            "AP": "4+",
+            "type": "Slow, Monsterbane, Concussion"
+          },
+          "Throne of Blame": {
+            "range": "Melee",
+            "S": "User",
+            "AP": "-",
+            "type": "Auxiliary, Extra Attack 1"
+          }
+        }
       },
       {
         "name": "Junith Eruita",
@@ -209,7 +293,15 @@
           "Mace of Castigation",
           "Rosarius"
         ],
-        "options": []
+        "options": [],
+        "weapons": {
+          "Mace of Castigation": {
+            "range": "Melee",
+            "S": "+2",
+            "AP": "4+",
+            "type": "Extra Attack 2, Concussion"
+          }
+        }
       }
     ],
     "advisors": [
@@ -248,7 +340,27 @@
           "Frag Grenades",
           "Krak Grenades"
         ],
-        "options": []
+        "options": [],
+        "weapons": {
+          "Boltgun": {
+            "range": "24",
+            "S": "4",
+            "AP": "5+",
+            "type": "Rapid Fire 1"
+          },
+          "Frag Grenades": {
+            "range": "8",
+            "S": "3",
+            "AP": "-",
+            "type": "Grenade 1, 3\u201d Blast"
+          },
+          "Krak Grenades": {
+            "range": "8",
+            "S": "6",
+            "AP": "4+",
+            "type": "Grenade 1, Nonblast 7"
+          }
+        }
       }
     ]
   }

@@ -56,7 +56,21 @@
           "Mechandrite Hive",
           "Force Field"
         ],
-        "options": []
+        "options": [],
+        "weapons": {
+          "Arc Scourge": {
+            "range": "Melee",
+            "S": "User",
+            "AP": "3+",
+            "type": "Auxiliary, Extra Attack 2, Haywire (2+)"
+          },
+          "Mechandrite Hive": {
+            "range": "Melee",
+            "S": "User",
+            "AP": "-",
+            "type": "Auxiliary, Extra Attack 2"
+          }
+        }
       },
       {
         "name": "Thulia Ghuld",
@@ -98,7 +112,21 @@
           "Force Field",
           "Standard"
         ],
-        "options": []
+        "options": [],
+        "weapons": {
+          "Jericho Class Conversion Resonator": {
+            "range": "24",
+            "S": "D",
+            "AP": "2+",
+            "type": "Assault 1, Destroyer, Or Or Or Monsterbane, Or 24 6 3+ Assault 4"
+          },
+          "Rod of the War Forge": {
+            "range": "Melee",
+            "S": "+2",
+            "AP": "3+",
+            "type": "None 4"
+          }
+        }
       },
       {
         "name": "Tech Priest Dominus",
@@ -164,7 +192,39 @@
               }
             ]
           }
-        ]
+        ],
+        "weapons": {
+          "Macrostubber": {
+            "range": "12",
+            "S": "4",
+            "AP": "-",
+            "type": "Pistol 3"
+          },
+          "Phosphor Serpenta": {
+            "range": "18",
+            "S": "5",
+            "AP": "4+",
+            "type": "Pistol 1, Ignores Cover"
+          },
+          "Volkite Blaster": {
+            "range": "24",
+            "S": "5",
+            "AP": "4+",
+            "type": "Heavy 1, Beam"
+          },
+          "Eradication Array": {
+            "range": "24",
+            "S": "8",
+            "AP": "1+",
+            "type": "Heavy 1, Beam, Melta, (Monsterbane)"
+          },
+          "Omnissian Axe": {
+            "range": "Melee",
+            "S": "+3",
+            "AP": "5+",
+            "type": "None 5"
+          }
+        }
       },
       {
         "name": "Tech Priest Dominus",
@@ -227,7 +287,39 @@
               }
             ]
           }
-        ]
+        ],
+        "weapons": {
+          "Macrostubber": {
+            "range": "12",
+            "S": "4",
+            "AP": "-",
+            "type": "Pistol 3"
+          },
+          "Phosphor Serpenta": {
+            "range": "18",
+            "S": "5",
+            "AP": "4+",
+            "type": "Pistol 1, Ignores Cover"
+          },
+          "Volkite Blaster": {
+            "range": "24",
+            "S": "5",
+            "AP": "4+",
+            "type": "Heavy 1, Beam"
+          },
+          "Eradication Array": {
+            "range": "24",
+            "S": "8",
+            "AP": "1+",
+            "type": "Heavy 1, Beam, Melta, (Monsterbane)"
+          },
+          "Omnissian Axe": {
+            "range": "Melee",
+            "S": "+3",
+            "AP": "5+",
+            "type": "None 5"
+          }
+        }
       }
     ],
     "advisors": [
@@ -285,7 +377,27 @@
           "Grav Gun",
           "Servo Arm"
         ],
-        "options": []
+        "options": [],
+        "weapons": {
+          "Eradication Pistol": {
+            "range": "12",
+            "S": "7",
+            "AP": "2+",
+            "type": "Pistol 1, Scatter"
+          },
+          "Servo Arm": {
+            "range": "Melee",
+            "S": "X2",
+            "AP": "2+",
+            "type": "Slow, Monsterbane, Auxiliary Servo Arm"
+          },
+          "Grav Gun": {
+            "range": "18",
+            "S": "*",
+            "AP": "-",
+            "type": "Rapid Fire 1, Grav"
+          }
+        }
       },
       {
         "name": "Daedalosus",
@@ -343,7 +455,27 @@
           "Grav Gun",
           "Servo Arm"
         ],
-        "options": []
+        "options": [],
+        "weapons": {
+          "Eradication Pistol": {
+            "range": "12",
+            "S": "7",
+            "AP": "2+",
+            "type": "Pistol 1, Scatter"
+          },
+          "Servo Arm": {
+            "range": "Melee",
+            "S": "X2",
+            "AP": "2+",
+            "type": "Slow, Monsterbane, Auxiliary Servo Arm"
+          },
+          "Grav Gun": {
+            "range": "18",
+            "S": "*",
+            "AP": "-",
+            "type": "Rapid Fire 1, Grav"
+          }
+        }
       },
       {
         "name": "Enginseer",
@@ -437,7 +569,87 @@
               }
             ]
           }
-        ]
+        ],
+        "weapons": {
+          "Laspistol": {
+            "range": "12",
+            "S": "3",
+            "AP": "-",
+            "type": "Pistol 1"
+          },
+          "Omnissian Axe": {
+            "range": "Melee",
+            "S": "+3",
+            "AP": "5+",
+            "type": ""
+          },
+          "Handflamer": {
+            "range": "Flame",
+            "S": "3",
+            "AP": "6+",
+            "type": "Pistol 1"
+          },
+          "Servo Arm": {
+            "range": "Melee",
+            "S": "X2",
+            "AP": "2+",
+            "type": "Slow, Monsterbane, Auxiliary Servo Arm"
+          },
+          "Phosphor Blaster": {
+            "range": "24",
+            "S": "5",
+            "AP": "4+",
+            "type": "Rapid Fire 1, Ignores Cover"
+          },
+          "Heavy Arc Rifle": {
+            "range": "36",
+            "S": "3",
+            "AP": "3+",
+            "type": "Heavy 2, Haywire (3+)"
+          },
+          "Heavy Bolter": {
+            "range": "36",
+            "S": "5",
+            "AP": "4+",
+            "type": "Heavy 3"
+          },
+          "Plasma Cannon": {
+            "range": "36",
+            "S": "7",
+            "AP": "2+",
+            "type": "Heavy 1, 3\u201d Blast, Gets Hot!"
+          },
+          "Meltagun": {
+            "range": "12",
+            "S": "8",
+            "AP": "1+",
+            "type": "Assault 1, Melta, (Monsterbane)"
+          },
+          "Multimelta": {
+            "range": "24",
+            "S": "8",
+            "AP": "1+",
+            "type": "Heavy 2, Melta, (Monsterbane)"
+          },
+          "Frag Grenades": {
+            "range": "8",
+            "S": "3",
+            "AP": "-",
+            "type": "Grenade 1, 3\u201d Blast"
+          },
+          "Krak Grenades": {
+            "range": "8",
+            "S": "6",
+            "AP": "4+",
+            "type": "Grenade 1, Non-Blast 7"
+          },
+          "Melta Bombs": {
+            "range": "6",
+            "S": "8",
+            "AP": "1+",
+            "type": "Grenade 1, Armourbane, Monsterbane Non-Blast"
+          }
+        }
       },
       {
         "name": "Manipulus",
@@ -512,7 +724,57 @@
               }
             ]
           }
-        ]
+        ],
+        "weapons": {
+          "Flamer": {
+            "range": "Flame",
+            "S": "4",
+            "AP": "5+",
+            "type": "Assault 1"
+          },
+          "Magnarail Lance": {
+            "range": "18",
+            "S": "7",
+            "AP": "2+",
+            "type": "Assault 2, Lance"
+          },
+          "Omnissian Axe": {
+            "range": "Melee",
+            "S": "+3",
+            "AP": "5+",
+            "type": ""
+          },
+          "Mechadendrites": {
+            "range": "Melee",
+            "S": "User",
+            "AP": "-",
+            "type": "Auxiliary, Extra Attack 1"
+          },
+          "Servo Arm": {
+            "range": "Melee",
+            "S": "X2",
+            "AP": "2+",
+            "type": "Slow, Monsterbane, Auxiliary Servo Arm"
+          },
+          "Heavy Bolter": {
+            "range": "36",
+            "S": "5",
+            "AP": "4+",
+            "type": "Heavy 3"
+          },
+          "Plasma Cannon": {
+            "range": "36",
+            "S": "7",
+            "AP": "2+",
+            "type": "Heavy 1, 3\u201d Blast, Gets Hot!"
+          },
+          "Multimelta": {
+            "range": "24",
+            "S": "8",
+            "AP": "1+",
+            "type": "Heavy 2, Melta, Monsterbane 8"
+          }
+        }
       },
       {
         "name": "Technoarcheologist",
@@ -551,7 +813,21 @@
           "Refractor Field",
           "Omniscrambler"
         ],
-        "options": []
+        "options": [],
+        "weapons": {
+          "Eradication Pistol": {
+            "range": "12",
+            "S": "7",
+            "AP": "2+",
+            "type": "Pistol 1, Scatter"
+          },
+          "Servo Arm": {
+            "range": "Melee",
+            "S": "X2",
+            "AP": "2+",
+            "type": "Slow, Monsterbane, Auxiliary Servo Arm 9"
+          }
+        }
       },
       {
         "name": "Technoarcheologist",
@@ -585,7 +861,21 @@
           "Refractor Field",
           "Omniscrambler"
         ],
-        "options": []
+        "options": [],
+        "weapons": {
+          "Eradication Pistol": {
+            "range": "12",
+            "S": "7",
+            "AP": "2+",
+            "type": "Pistol 1, Scatter"
+          },
+          "Servo Arm": {
+            "range": "Melee",
+            "S": "X2",
+            "AP": "2+",
+            "type": "Slow, Monsterbane, Auxiliary Servo Arm 9"
+          }
+        }
       }
     ],
     "troops": [
@@ -662,7 +952,57 @@
               }
             ]
           }
-        ]
+        ],
+        "weapons": {
+          "Heavy Arc Rifle": {
+            "range": "36",
+            "S": "3",
+            "AP": "3+",
+            "type": "Heavy 2, Haywire (3+)"
+          },
+          "Plasma Culverin": {
+            "range": "24",
+            "S": "7",
+            "AP": "2+",
+            "type": "Heavy 1, 3\u201d Blast, Gets Hot!"
+          },
+          "Heavy Grav Cannon": {
+            "range": "30",
+            "S": "*",
+            "AP": "-",
+            "type": "Heavy 1, 3\u201d Blast, Grav"
+          },
+          "Torsion Cannon": {
+            "range": "36",
+            "S": "7",
+            "AP": "3+",
+            "type": "Heavy 1, Beam"
+          },
+          "Arc Claw": {
+            "range": "Melee",
+            "S": "User",
+            "AP": "3+",
+            "type": "Haywire (3+)"
+          },
+          "Flamer": {
+            "range": "Flame",
+            "S": "4",
+            "AP": "5+",
+            "type": "Assault 1"
+          },
+          "Phosphor Blaster": {
+            "range": "24",
+            "S": "5",
+            "AP": "4+",
+            "type": "Rapid Fire 1, Ignores Cover"
+          },
+          "Hydraulic Claw": {
+            "range": "Melee",
+            "S": "X2",
+            "AP": "2+",
+            "type": "Slow, Monsterbane"
+          }
+        }
       },
       {
         "name": "Rangers",
@@ -751,7 +1091,69 @@
               }
             ]
           }
-        ]
+        ],
+        "weapons": {
+          "Radium Pistol": {
+            "range": "12",
+            "S": "3",
+            "AP": "-",
+            "type": "Pistol 1, Poisoned (3+)"
+          },
+          "Galvanic Rifle": {
+            "range": "24",
+            "S": "4",
+            "AP": "-",
+            "type": "Rapid Fire 1, Gauss"
+          },
+          "Arc Pistol": {
+            "range": "12",
+            "S": "3",
+            "AP": "3+",
+            "type": "Pistol 1, Haywire (3+) 10"
+          },
+          "Phosphor Pistol": {
+            "range": "12",
+            "S": "5",
+            "AP": "4+",
+            "type": "Pistol 1, Ignores Cover"
+          },
+          "Power Sword": {
+            "range": "Melee",
+            "S": "+1",
+            "AP": "3+",
+            "type": "None"
+          },
+          "Arc Maul": {
+            "range": "Melee",
+            "S": "3",
+            "AP": "3+",
+            "type": "Haywire (3+)"
+          },
+          "Taser Goad": {
+            "range": "Melee",
+            "S": "+2",
+            "AP": "-",
+            "type": "Tesla"
+          },
+          "Arc Rifle": {
+            "range": "24",
+            "S": "3",
+            "AP": "3+",
+            "type": "Rapid Fire 1, Haywire (3+)"
+          },
+          "Plasma Caliver": {
+            "range": "18",
+            "S": "7",
+            "AP": "2+",
+            "type": "Assault 2, Gets Hot!"
+          },
+          "Transuranic Arquebus": {
+            "range": "60",
+            "S": "4",
+            "AP": "3+",
+            "type": "Heavy 1, Sniper (2+)"
+          }
+        }
       },
       {
         "name": "Vanguards",
@@ -842,7 +1244,69 @@
               }
             ]
           }
-        ]
+        ],
+        "weapons": {
+          "Radium Pistol": {
+            "range": "12",
+            "S": "3",
+            "AP": "-",
+            "type": "Pistol 1, Poisoned (3+)"
+          },
+          "Radium Carbine": {
+            "range": "18",
+            "S": "3",
+            "AP": "-",
+            "type": "Assault 1, Poisoned (3+)"
+          },
+          "Arc Pistol": {
+            "range": "12",
+            "S": "3",
+            "AP": "3+",
+            "type": "Pistol 1, Haywire (3+)"
+          },
+          "Phosphor Pistol": {
+            "range": "12",
+            "S": "5",
+            "AP": "4+",
+            "type": "Pistol 1, Ignores Cover"
+          },
+          "Power Sword": {
+            "range": "Melee",
+            "S": "+1",
+            "AP": "3+",
+            "type": "None"
+          },
+          "Arc Maul": {
+            "range": "Melee",
+            "S": "3",
+            "AP": "3+",
+            "type": "Haywire (3+)"
+          },
+          "Taser Goad": {
+            "range": "Melee",
+            "S": "+2",
+            "AP": "-",
+            "type": "Tesla"
+          },
+          "Arc Rifle": {
+            "range": "24",
+            "S": "3",
+            "AP": "3+",
+            "type": "Rapid Fire 1, Haywire (3+)"
+          },
+          "Plasma Caliver": {
+            "range": "18",
+            "S": "7",
+            "AP": "2+",
+            "type": "Assault 2, Gets Hot!"
+          },
+          "Transuranic Arquebus": {
+            "range": "60",
+            "S": "4",
+            "AP": "3+",
+            "type": "Heavy 1, Sniper (2+) 11"
+          }
+        }
       }
     ],
     "elites": [
@@ -900,7 +1364,21 @@
               }
             ]
           }
-        ]
+        ],
+        "weapons": {
+          "Electroleech Stave": {
+            "range": "Melee",
+            "S": "+2",
+            "AP": "-",
+            "type": "Counterattack, Tesla"
+          },
+          "Electrostatic Gauntlet": {
+            "range": "12",
+            "S": "3",
+            "AP": "-",
+            "type": "Pistol 2, Tesla Or Or Or Or Melee    User    -          Extra Attack 1, Tesla"
+          }
+        }
       },
       {
         "name": "Sicutarii Hoplites",
@@ -989,7 +1467,51 @@
               }
             ]
           }
-        ]
+        ],
+        "weapons": {
+          "Radium Pistol": {
+            "range": "12",
+            "S": "3",
+            "AP": "-",
+            "type": "Pistol 1, Poisoned (3+)"
+          },
+          "Arc Pistol": {
+            "range": "12",
+            "S": "3",
+            "AP": "3+",
+            "type": "Pistol 1, Haywire (3+)"
+          },
+          "Arc Lance": {
+            "range": "12",
+            "S": "3",
+            "AP": "3+",
+            "type": "Assault 1, Haywire (3+) Melee    User    3+         Haywire (3+)"
+          },
+          "Phosphor Pistol": {
+            "range": "12",
+            "S": "5",
+            "AP": "4+",
+            "type": "Pistol 1, Ignores Cover"
+          },
+          "Power Sword": {
+            "range": "Melee",
+            "S": "+1",
+            "AP": "3+",
+            "type": "None"
+          },
+          "Arc Maul": {
+            "range": "Melee",
+            "S": "3",
+            "AP": "3+",
+            "type": "Haywire (3+)"
+          },
+          "Taser Goad": {
+            "range": "Melee",
+            "S": "+2",
+            "AP": "-",
+            "type": "Tesla"
+          }
+        }
       },
       {
         "name": "Sicutarii Peltasts",
@@ -1082,7 +1604,51 @@
               }
             ]
           }
-        ]
+        ],
+        "weapons": {
+          "Radium Pistol": {
+            "range": "12",
+            "S": "3",
+            "AP": "-",
+            "type": "Pistol 1, Poisoned (3+)"
+          },
+          "Arc Pistol": {
+            "range": "12",
+            "S": "3",
+            "AP": "3+",
+            "type": "Pistol 1, Haywire (3+)"
+          },
+          "Galvanic Caster": {
+            "range": "18",
+            "S": "5",
+            "AP": "4+",
+            "type": "Assault 2, Gauss"
+          },
+          "Phosphor Pistol": {
+            "range": "12",
+            "S": "5",
+            "AP": "4+",
+            "type": "Pistol 1, Ignores Cover"
+          },
+          "Power Sword": {
+            "range": "Melee",
+            "S": "+1",
+            "AP": "3+",
+            "type": "None"
+          },
+          "Arc Maul": {
+            "range": "Melee",
+            "S": "3",
+            "AP": "3+",
+            "type": "Haywire (3+)"
+          },
+          "Taser Goad": {
+            "range": "Melee",
+            "S": "+2",
+            "AP": "-",
+            "type": "Tesla"
+          }
+        }
       },
       {
         "name": "Sicarian Infiltrators",
@@ -1157,7 +1723,33 @@
               }
             ]
           }
-        ]
+        ],
+        "weapons": {
+          "Stubcarbine": {
+            "range": "18",
+            "S": "4",
+            "AP": "-",
+            "type": "Assault 2"
+          },
+          "Flechette Blaster": {
+            "range": "12",
+            "S": "2",
+            "AP": "-",
+            "type": "Pistol 3, Scatter"
+          },
+          "Power Sword": {
+            "range": "Melee",
+            "S": "+1",
+            "AP": "3+",
+            "type": "None"
+          },
+          "Taser Goad": {
+            "range": "Melee",
+            "S": "+2",
+            "AP": "-",
+            "type": "Tesla 14"
+          }
+        }
       },
       {
         "name": "Sicarian Ruststalkers",
@@ -1228,7 +1820,27 @@
               }
             ]
           }
-        ]
+        ],
+        "weapons": {
+          "Transonic Razors": {
+            "range": "Melee",
+            "S": "User",
+            "AP": "3+",
+            "type": "Extra Attack 1"
+          },
+          "Chordclaw": {
+            "range": "Melee",
+            "S": "User",
+            "AP": "4+",
+            "type": "Rending"
+          },
+          "Attack": {
+            "range": "0-3",
+            "S": "",
+            "AP": "",
+            "type": ""
+          }
+        }
       }
     ],
     "fast_attack": [
@@ -1283,7 +1895,27 @@
               }
             ]
           }
-        ]
+        ],
+        "weapons": {
+          "Taser Lance": {
+            "range": "Melee",
+            "S": "User",
+            "AP": "-",
+            "type": "Extra Attack 2, Tesla, Primary"
+          },
+          "Radium Jezzail Autocannons Lascannons": {
+            "range": "30",
+            "S": "4",
+            "AP": "3+",
+            "type": "Heavy 2, Sniper (3+), Hull, Primary Primary Primary 15"
+          },
+          "Phosphor Serpenta": {
+            "range": "18",
+            "S": "5",
+            "AP": "4+",
+            "type": "Pistol 1, Ignores Cover, Hull"
+          }
+        }
       },
       {
         "name": "Pteraxii",
@@ -1383,7 +2015,69 @@
               }
             ]
           }
-        ]
+        ],
+        "weapons": {
+          "Radium Pistol": {
+            "range": "12",
+            "S": "3",
+            "AP": "-",
+            "type": "Pistol 1, Poisoned (3+)"
+          },
+          "Arc Pistol": {
+            "range": "12",
+            "S": "3",
+            "AP": "3+",
+            "type": "Pistol 1, Haywire (3+)"
+          },
+          "Flechette Blaster": {
+            "range": "12",
+            "S": "2",
+            "AP": "-",
+            "type": "Pistol 3, Scatter"
+          },
+          "Phosphor Pistol": {
+            "range": "12",
+            "S": "5",
+            "AP": "4+",
+            "type": "Pistol 1, Ignores Cover"
+          },
+          "Power Sword": {
+            "range": "Melee",
+            "S": "+1",
+            "AP": "3+",
+            "type": "None"
+          },
+          "Arc Maul": {
+            "range": "Melee",
+            "S": "3",
+            "AP": "3+",
+            "type": "Haywire (3+)"
+          },
+          "Taser Goad": {
+            "range": "Melee",
+            "S": "+2",
+            "AP": "-",
+            "type": "Tesla"
+          },
+          "Flechette Carbine": {
+            "range": "18",
+            "S": "3",
+            "AP": "-",
+            "type": "Assault 3, Scatter"
+          },
+          "Flamer": {
+            "range": "Flame",
+            "S": "4",
+            "AP": "5+",
+            "type": "Assault 1"
+          },
+          "Pteraxii Talons": {
+            "range": "Melee",
+            "S": "User",
+            "AP": "5+",
+            "type": "Rending 16"
+          }
+        }
       },
       {
         "name": "Serberys",
@@ -1461,7 +2155,7 @@
                 "pts_delta": 5
               },
               {
-                "name": "Archeo Revolver Phosphor",
+                "name": "Archeo Revolver Phosphor Pistols",
                 "pts_delta": 6
               },
               {
@@ -1485,7 +2179,7 @@
                 "pts_delta": 2
               },
               {
-                "name": "Galvanic Carbine Phosphor",
+                "name": "Galvanic Carbine Phosphor Pistols",
                 "pts_delta": 0
               },
               {
@@ -1510,7 +2204,87 @@
               }
             ]
           }
-        ]
+        ],
+        "weapons": {
+          "Radium Pistol": {
+            "range": "12",
+            "S": "3",
+            "AP": "-",
+            "type": "Pistol 1, Poisoned (3+)"
+          },
+          "Galvanic Carbine": {
+            "range": "18",
+            "S": "4",
+            "AP": "-",
+            "type": "Assault 2, Gauss"
+          },
+          "Arc Pistol": {
+            "range": "12",
+            "S": "3",
+            "AP": "3+",
+            "type": "Pistol 1, Haywire (3+)"
+          },
+          "Archeo Revolver Phosphor Pistols": {
+            "range": "12",
+            "S": "5",
+            "AP": "3+",
+            "type": "Pistol 1"
+          },
+          "Phosphor Blast Carbine": {
+            "range": "18",
+            "S": "5",
+            "AP": "4+",
+            "type": "Assault 2, Ignores Cover"
+          },
+          "Cavalry Saber": {
+            "range": "Melee",
+            "S": "+4",
+            "AP": "4+",
+            "type": "None"
+          },
+          "Power Sword": {
+            "range": "Melee",
+            "S": "+1",
+            "AP": "3+",
+            "type": "None"
+          },
+          "Arc Maul": {
+            "range": "Melee",
+            "S": "3",
+            "AP": "3+",
+            "type": "Haywire (3+)"
+          },
+          "Taser Goad": {
+            "range": "Melee",
+            "S": "+2",
+            "AP": "-",
+            "type": "Tesla"
+          },
+          "Galvanic Carbine Phosphor Pistols": {
+            "range": "18",
+            "S": "4",
+            "AP": "-",
+            "type": "Assault 2, Gauss"
+          },
+          "Clawed Limbs": {
+            "range": "Melee",
+            "S": "+1",
+            "AP": "-",
+            "type": "Rending 17"
+          },
+          "Flamer": {
+            "range": "Flame",
+            "S": "4",
+            "AP": "5+",
+            "type": "Assault 1"
+          },
+          "Support": {
+            "range": "0-3",
+            "S": "",
+            "AP": "",
+            "type": ""
+          }
+        }
       }
     ],
     "heavy_support": [
@@ -1568,7 +2342,27 @@
               }
             ]
           }
-        ]
+        ],
+        "weapons": {
+          "Dual Powerfists Phosphor Blasters": {
+            "range": "Melee",
+            "S": "X2",
+            "AP": "2+",
+            "type": "Extra Attack 1, Slow, Monsterbane"
+          },
+          "Flamer": {
+            "range": "Flame",
+            "S": "4",
+            "AP": "5+",
+            "type": "Assault 1"
+          },
+          "Heavy Phosphor Blaster": {
+            "range": "36",
+            "S": "5",
+            "AP": "4+",
+            "type": "Heavy 1, 3\u201d Blast, Ignores Cover"
+          }
+        }
       },
       {
         "name": "Kastelan Robot Maniple",
@@ -1619,7 +2413,27 @@
               }
             ]
           }
-        ]
+        ],
+        "weapons": {
+          "Dual Powerfists Phosphor Blasters": {
+            "range": "Melee",
+            "S": "X2",
+            "AP": "2+",
+            "type": "Extra Attack 1, Slow, Monsterbane"
+          },
+          "Flamer": {
+            "range": "Flame",
+            "S": "4",
+            "AP": "5+",
+            "type": "Assault 1"
+          },
+          "Heavy Phosphor Blaster": {
+            "range": "36",
+            "S": "5",
+            "AP": "4+",
+            "type": "Heavy 1, 3\u201d Blast, Ignores Cover"
+          }
+        }
       },
       {
         "name": "Onager Dunecrawler",
@@ -1668,7 +2482,7 @@
                 "pts_delta": 28
               },
               {
-                "name": "Neutron Laser And Heavy",
+                "name": "Neutron Laser And Heavy Stubber",
                 "pts_delta": 44
               },
               {
@@ -1685,7 +2499,33 @@
               }
             ]
           }
-        ]
+        ],
+        "weapons": {
+          "Eradication Beamer": {
+            "range": "36",
+            "S": "8",
+            "AP": "1+",
+            "type": "Heavy 1, Beam, Melta, (Monsterbane), Turret, Primary"
+          },
+          "Icarus Array": {
+            "range": "48",
+            "S": "7",
+            "AP": "4+",
+            "type": "Heavy 2 x2, Monsterbane, And      And     And       Turret, Primary And 48       6       4+        Heavy 1, 5\u201d Blast, Turret, Primary"
+          },
+          "Neutron Laser And Heavy Stubber": {
+            "range": "48",
+            "S": "D",
+            "AP": "2+",
+            "type": "Heavy 1, Destroyer, Monsterbane, Coaxial, Turret, And And And Primary And 36       5       6+        Heavy 3, Coaxial, Turret"
+          },
+          "Heavy Stubber": {
+            "range": "36",
+            "S": "5",
+            "AP": "6+",
+            "type": "Heavy 3, Turret 19"
+          }
+        }
       },
       {
         "name": "Skorpius Disintegrators",
@@ -1737,7 +2577,27 @@
               }
             ]
           }
-        ]
+        ],
+        "weapons": {
+          "Belleros Energy Cannon": {
+            "range": "36",
+            "S": "5",
+            "AP": "3+",
+            "type": "Heavy 1, 5\u201d Blast, Indirect Fire, Turret, Primary"
+          },
+          "Ferrumite Cannon Disrupter Missile Launchers Stubbers": {
+            "range": "72",
+            "S": "9",
+            "AP": "2+",
+            "type": "Heavy 1, 3\u201d Blast, Monsterbane, Turret, Primary Primary"
+          },
+          "Heavy Stubber": {
+            "range": "36",
+            "S": "5",
+            "AP": "6+",
+            "type": "Heavy 3, Turret"
+          }
+        }
       }
     ],
     "flyers": [
@@ -1786,7 +2646,21 @@
               }
             ]
           }
-        ]
+        ],
+        "weapons": {
+          "Bomb Rack Stubbers": {
+            "range": "Bomb",
+            "S": "6",
+            "AP": "4+",
+            "type": "Heavy 1, 5\u201d Blast, Hull, Primary"
+          },
+          "Transport": {
+            "range": "0-1/Legal",
+            "S": "",
+            "AP": "",
+            "type": ""
+          }
+        }
       }
     ],
     "dedicated_transport": [
@@ -1838,7 +2712,8 @@
               }
             ]
           }
-        ]
+        ],
+        "weapons": {}
       },
       {
         "name": "Terrax Pattern Termite",
@@ -1884,7 +2759,21 @@
             "description": "May take any E one time each",
             "choices": []
           }
-        ]
+        ],
+        "weapons": {
+          "of War": {
+            "range": "0-1",
+            "S": "",
+            "AP": "",
+            "type": ""
+          },
+          "Titans": {
+            "range": "",
+            "S": "",
+            "AP": "",
+            "type": ""
+          }
+        }
       }
     ],
     "lord_of_war": [
@@ -1952,7 +2841,21 @@
             "description": "May swap any Emperor Vulcan Megabolter for H",
             "choices": []
           }
-        ]
+        ],
+        "weapons": {
+          "of War": {
+            "range": "0-1",
+            "S": "",
+            "AP": "",
+            "type": ""
+          },
+          "Titans": {
+            "range": "",
+            "S": "",
+            "AP": "",
+            "type": ""
+          }
+        }
       },
       {
         "name": "Reaver",
@@ -2026,7 +2929,7 @@
             "description": "May take one T",
             "choices": [
               {
-                "name": "Vulcan Megabolter Inferno",
+                "name": "Vulcan Megabolter Inferno Cannons",
                 "pts_delta": 39
               },
               {
@@ -2038,12 +2941,74 @@
                 "pts_delta": 154
               },
               {
-                "name": "Apocalypse Missile",
+                "name": "Apocalypse Missile Launcher",
                 "pts_delta": 170
               }
             ]
           }
-        ]
+        ],
+        "weapons": {
+          "Melta Cannon": {
+            "range": "72",
+            "S": "10",
+            "AP": "1+",
+            "type": "Heavy 1, 10\u201d Blast, Melta, (Monsterbane), Hull, Primary 25"
+          },
+          "Volcano Cannon": {
+            "range": "180",
+            "S": "D",
+            "AP": "1+",
+            "type": "Heavy 1, 7\u201d Blast, Destroyer, Monsterbane, Hull, Primary"
+          },
+          "Laser Blaster": {
+            "range": "96",
+            "S": "D",
+            "AP": "1+",
+            "type": "Heavy 3, 5\u201d Blast, Destroyer, Monsterbane, Hull, Primary"
+          },
+          "Gatling Blaster": {
+            "range": "72",
+            "S": "8",
+            "AP": "3+",
+            "type": "Heavy 6, 5\u201d Blast, Monsterbane, Hull, Primary"
+          },
+          "Titan Powerfist": {
+            "range": "6",
+            "S": "D",
+            "AP": "1+",
+            "type": "Assault 1, 5\u201d Blast, Destroyer, Melee     D       1+      Slow, Destroyer, Monsterbane"
+          },
+          "Vulcan Megabolter Inferno Cannons": {
+            "range": "60",
+            "S": "6",
+            "AP": "3+",
+            "type": "Heavy 20, Hull, Primary Storm"
+          },
+          "Deathstrike Missile Laser Destructors": {
+            "range": "12 to",
+            "S": "D/10 1+/1+ Heavy 1, 15\u201d Blast, Destroyer,",
+            "AP": "",
+            "type": "240 /8 /1+ Ordnance, Monsterbane, Indirect Fire, Ignores Cover, One Use Only, T Minus 5, The Hour is Nigh, Hull Monsterbane, Hull, Primary"
+          },
+          "Plasma Blastgun": {
+            "range": "72",
+            "S": "9",
+            "AP": "2+",
+            "type": "Heavy 2, 7\u201d Blast, Ordnance, Monsterbane, Hull, Primary"
+          },
+          "Apocalypse Missile Launcher": {
+            "range": "24-240 7",
+            "S": "3+",
+            "AP": "Heavy 1, Indirect, Apocalyptic",
+            "type": "Barrage, Hull, Primary"
+          },
+          "Crushing Feet": {
+            "range": "Bomb",
+            "S": "9",
+            "AP": "1+",
+            "type": "Heavy 2, 5\u201d Blast, Does Not Hit Self, Monsterbane, Hull, Primary"
+          }
+        }
       },
       {
         "name": "Warbringer Nemesis",
@@ -2115,7 +3080,7 @@
                 "pts_delta": 85
               },
               {
-                "name": "Gatling Blaster Linked Defense Batteries Defensor Maulers",
+                "name": "Gatling Blaster Linked Anvillus Defense Batteries Defensor Maulers",
                 "pts_delta": 142
               }
             ]
@@ -2124,7 +3089,51 @@
             "description": "May take one T",
             "choices": []
           }
-        ]
+        ],
+        "weapons": {
+          "Nemesis Volcano Cannon": {
+            "range": "24-120",
+            "S": "D",
+            "AP": "1+",
+            "type": "Heavy 1, 7\u201d Blast, Destroyer, Monsterbane, Hull, Primary"
+          },
+          "Nemesis Quake Cannon": {
+            "range": "24-240",
+            "S": "10/8",
+            "AP": "1+",
+            "type": "/1+ Heavy 1, Indirect, 15\u201d Blast, /6 /1+ Monsterbane, Earthshock, Hull, Primary"
+          },
+          "Melta Cannon": {
+            "range": "72",
+            "S": "10",
+            "AP": "1+",
+            "type": "Heavy 1, 10\u201d Blast, Melta, (Monsterbane), Hull, Primary"
+          },
+          "Volcano Cannon": {
+            "range": "180",
+            "S": "D",
+            "AP": "1+",
+            "type": "Heavy 1, 7\u201d Blast, Destroyer, Monsterbane, Hull, Primary"
+          },
+          "Laser Blaster": {
+            "range": "96",
+            "S": "D",
+            "AP": "1+",
+            "type": "Heavy 3, 5\u201d Blast, Destroyer, Monsterbane, Hull, Primary"
+          },
+          "Gatling Blaster Linked Anvillus Defense Batteries Defensor Maulers": {
+            "range": "72",
+            "S": "8",
+            "AP": "3+",
+            "type": "Heavy 6, 5\u201d Blast, Monsterbane, Hull, Primary Monsterbane, Sponson, Primary"
+          },
+          "Crushing Feet": {
+            "range": "Bomb",
+            "S": "9",
+            "AP": "1+",
+            "type": "Heavy 1, 7\u201d Blast, Does Not Hit Self, Monsterbane, Hull, Primary 27"
+          }
+        }
       },
       {
         "name": "Warhound",
@@ -2171,7 +3180,7 @@
             "description": "May swap either Vulcan Megabolter for H",
             "choices": [
               {
-                "name": "Vulcan Megabolter Inferno Laser Destructors",
+                "name": "Vulcan Megabolter Inferno Cannons Laser Destructors",
                 "pts_delta": 0
               },
               {
@@ -2180,7 +3189,27 @@
               }
             ]
           }
-        ]
+        ],
+        "weapons": {
+          "Vulcan Megabolter Inferno Cannons Laser Destructors": {
+            "range": "60",
+            "S": "6",
+            "AP": "3+",
+            "type": "Heavy 20, Hull, Primary Storm Monsterbane, Hull, Primary"
+          },
+          "Plasma Blastgun": {
+            "range": "72",
+            "S": "9",
+            "AP": "2+",
+            "type": "Heavy 2, 7\u201d Blast, Ordnance, Monsterbane, Hull, Primary"
+          },
+          "Crushing Feet": {
+            "range": "Bomb",
+            "S": "9",
+            "AP": "1+",
+            "type": "Heavy 3, 3\u201d Blast, Does Not Hit Self, Monsterbane, Hull, Primary 28"
+          }
+        }
       },
       {
         "name": "Warhound",
@@ -2240,7 +3269,7 @@
             "description": "May swap either Vulcan Megabolter for H",
             "choices": [
               {
-                "name": "Vulcan Megabolter Inferno Laser Destructors",
+                "name": "Vulcan Megabolter Inferno Cannons Laser Destructors",
                 "pts_delta": 0
               },
               {
@@ -2257,7 +3286,27 @@
             "description": "May swap either Belicosa Volcano Cannon for H",
             "choices": []
           }
-        ]
+        ],
+        "weapons": {
+          "Vulcan Megabolter Inferno Cannons Laser Destructors": {
+            "range": "60",
+            "S": "6",
+            "AP": "3+",
+            "type": "Heavy 20, Hull, Primary Storm Monsterbane, Hull, Primary"
+          },
+          "Plasma Blastgun": {
+            "range": "72",
+            "S": "9",
+            "AP": "2+",
+            "type": "Heavy 2, 7\u201d Blast, Ordnance, Monsterbane, Hull, Primary"
+          },
+          "Crushing Feet": {
+            "range": "Bomb",
+            "S": "9",
+            "AP": "1+",
+            "type": "Heavy 3, 3\u201d Blast, Does Not Hit Self, Monsterbane, Hull, Primary 28"
+          }
+        }
       },
       {
         "name": "Ordinatus Aktaeus",
@@ -2322,7 +3371,27 @@
             "description": "May take 1 Aktaeus Catapult for +441 points",
             "choices": []
           }
-        ]
+        ],
+        "weapons": {
+          "Melta Array": {
+            "range": "12",
+            "S": "8",
+            "AP": "1+",
+            "type": "Heavy 12, Melta, (Monsterbane), Hull, Primary"
+          },
+          "Titanic Drill": {
+            "range": "Melee",
+            "S": "D",
+            "AP": "1+",
+            "type": "Slow, Accurate, Destroyer, Monsterbane, Primary"
+          },
+          "Volkite Culverin": {
+            "range": "48",
+            "S": "6",
+            "AP": "3+",
+            "type": "Heavy 1, Beam, Sponson, Primary 31"
+          }
+        }
       },
       {
         "name": "Imperial Fortress",
@@ -2377,7 +3446,8 @@
             "description": "May add as many Towers as you want for +387 points",
             "choices": []
           }
-        ]
+        ],
+        "weapons": {}
       },
       {
         "name": "Imperial Fortress",
@@ -2427,7 +3497,8 @@
             "description": "May add as many Towers as you want for +387 points Points: 719 1 Hunter",
             "choices": []
           }
-        ]
+        ],
+        "weapons": {}
       }
     ],
     "fortifications": [
@@ -2447,7 +3518,8 @@
         "fixed_wargear": [
           "2 Linked Turbolaser Destructors"
         ],
-        "options": []
+        "options": [],
+        "weapons": {}
       },
       {
         "name": "Aegis Weapon Emplacement",
@@ -2475,7 +3547,15 @@
               }
             ]
           }
-        ]
+        ],
+        "weapons": {
+          "Long Lascannon Lascannons Autocannons Autocannons": {
+            "range": "72",
+            "S": "9",
+            "AP": "2+",
+            "type": "Heavy 1, Monsterbane, AA, Turret Turret Turret Turret 34"
+          }
+        }
       },
       {
         "name": "Aquila Strongpoint",
@@ -2493,7 +3573,27 @@
         "fixed_wargear": [
           "Plasma Obliterator"
         ],
-        "options": []
+        "options": [],
+        "weapons": {
+          "Plasma Obliterator": {
+            "range": "72",
+            "S": "8",
+            "AP": "2+",
+            "type": "Heavy 1, 7\u201d Blast, Monsterbane, Turret"
+          },
+          "Macro Cannon": {
+            "range": "72",
+            "S": "D",
+            "AP": "1+",
+            "type": "Heavy 1, 5\u201d Blast, Destroyer, Monsterbane, Turret"
+          },
+          "+271 Missile Silo": {
+            "range": "Deathstrike",
+            "S": "12 to",
+            "AP": "D/10 1+/1+ Heavy 1, 15\u201d Blast, Destroyer,",
+            "type": "240 /8 /1+ Ordnance, Monsterbane, Indirect Fire, Ignores Cover, The Hour is Nigh, T Minus 5, Turret"
+          }
+        }
       },
       {
         "name": "Firestorm Redoubt",
@@ -2526,7 +3626,21 @@
               }
             ]
           }
-        ]
+        ],
+        "weapons": {
+          "Punisher Gatling Gun": {
+            "range": "24",
+            "S": "5",
+            "AP": "-",
+            "type": "Heavy 20, Turret"
+          },
+          "Battle Cannon Lascannons": {
+            "range": "72",
+            "S": "8",
+            "AP": "3+",
+            "type": "Heavy 1, 5\u201d Blast, Ordnance, Monsterbane, Turret Turret"
+          }
+        }
       },
       {
         "name": "Plasma Obliterator",
@@ -2544,7 +3658,15 @@
         "fixed_wargear": [
           "Plasma Obliterator"
         ],
-        "options": []
+        "options": [],
+        "weapons": {
+          "Plasma Obliterator": {
+            "range": "72",
+            "S": "8",
+            "AP": "2+",
+            "type": "Heavy 1, 7\u201d Blast, Monsterbane, Turret"
+          }
+        }
       },
       {
         "name": "Plasma Obliterator",
@@ -2562,7 +3684,15 @@
         "fixed_wargear": [
           "Plasma Obliterator"
         ],
-        "options": []
+        "options": [],
+        "weapons": {
+          "Plasma Obliterator": {
+            "range": "72",
+            "S": "8",
+            "AP": "2+",
+            "type": "Heavy 1, 7\u201d Blast, Monsterbane, Turret"
+          }
+        }
       },
       {
         "name": "Heavy 1, 5\u201d Blast, Ordnance,",
@@ -2580,7 +3710,8 @@
         "fixed_wargear": [
           "none"
         ],
-        "options": []
+        "options": [],
+        "weapons": {}
       },
       {
         "name": "Heavy 1, 5\u201d Blast, Ordnance,",
@@ -2598,7 +3729,8 @@
         "fixed_wargear": [
           "none"
         ],
-        "options": []
+        "options": [],
+        "weapons": {}
       }
     ]
   }

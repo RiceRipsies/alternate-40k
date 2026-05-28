@@ -110,7 +110,33 @@
             "description": "May take up to one Inquisitor Spell for each Psychic Mastery Level",
             "choices": []
           }
-        ]
+        ],
+        "weapons": {
+          "Bolt Pistol": {
+            "range": "12",
+            "S": "4",
+            "AP": "5+",
+            "type": "Pistol 1 5"
+          },
+          "Psyber Eagle": {
+            "range": "12",
+            "S": "4",
+            "AP": "-",
+            "type": "Pistol 2, Rending"
+          },
+          "Nemesis Daemon Hammer": {
+            "range": "Melee",
+            "S": "10",
+            "AP": "1+",
+            "type": "Slow, Armourbane, Monsterbane, Psychicbane"
+          },
+          "Orbital Strike": {
+            "range": "12-240 D/10 1+/1+ Heavy 1, 15\u201d Blast, Destroyer,",
+            "S": "",
+            "AP": "",
+            "type": "/8   /1+   Ordnance, Monsterbane, Indirect Fire, Ignores Cover, The Hour is Nigh, T Minus 5, One Use Only"
+          }
+        }
       },
       {
         "name": "Lord Inquisitor Hector Rex",
@@ -163,7 +189,27 @@
             "description": "May take up to one Inquisitor Spell for each Psychic Mastery Level",
             "choices": []
           }
-        ]
+        ],
+        "weapons": {
+          "Psibolt Pistol": {
+            "range": "12",
+            "S": "5",
+            "AP": "3+",
+            "type": "Pistol 1"
+          },
+          "Arias": {
+            "range": "Melee",
+            "S": "+3",
+            "AP": "2+",
+            "type": "Psychicbane"
+          },
+          "Orbital Strike": {
+            "range": "12-240",
+            "S": "D/10",
+            "AP": "1+",
+            "type": "/1+ Heavy 1, 15\u201d Blast, Destroyer, /8      /1+     Ordnance, Monsterbane, Indirect Fire, Ignores Cover, The Hour is Nigh, T Minus 5, One Use Only 7"
+          }
+        }
       }
     ]
   }

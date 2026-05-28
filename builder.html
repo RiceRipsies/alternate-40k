@@ -756,6 +756,82 @@ button {
   margin-top: 1px;
 }
 
+/* Weapon profiles table */
+.play-weapons-table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 11px;
+}
+.play-weapons-table th {
+  background: var(--bg4);
+  color: var(--text-dim);
+  font-size: 10px;
+  font-weight: 600;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  padding: 4px 8px;
+  text-align: center;
+  white-space: nowrap;
+}
+.play-weapons-table th:first-child { text-align: left; }
+.play-weapons-table td {
+  padding: 4px 8px;
+  text-align: center;
+  color: var(--text);
+  border-top: 1px solid var(--border);
+  white-space: nowrap;
+}
+.play-weapons-table td:first-child {
+  text-align: left;
+  color: var(--text);
+  font-weight: 500;
+}
+.play-weapons-table td.wtype {
+  text-align: left;
+  color: var(--text-dim);
+  font-size: 10px;
+  max-width: 160px;
+  white-space: normal;
+}
+
+/* Clickable ability keyword */
+.play-rule-name.has-desc {
+  cursor: pointer;
+  text-decoration: underline dotted;
+  text-underline-offset: 2px;
+}
+.play-rule-name.has-desc:hover { color: var(--gold); }
+
+/* Keyword popup */
+#keyword-popup {
+  position: fixed;
+  z-index: 9999;
+  background: var(--bg3);
+  border: 1px solid var(--gold);
+  border-radius: 4px;
+  padding: 10px 14px;
+  max-width: 280px;
+  box-shadow: 0 4px 20px rgba(0,0,0,0.6);
+  display: none;
+}
+#keyword-popup .kp-name {
+  font-size: 12px;
+  font-weight: 700;
+  color: var(--gold);
+  margin-bottom: 5px;
+}
+#keyword-popup .kp-desc {
+  font-size: 11px;
+  color: var(--text);
+  line-height: 1.55;
+}
+#keyword-popup .kp-ref {
+  font-size: 10px;
+  color: var(--text-dim);
+  margin-top: 6px;
+  font-style: italic;
+}
+
 .play-subfaction-block {
   border: 1px solid var(--border);
   border-radius: 3px;
@@ -948,6 +1024,13 @@ button {
         <button id="play-back">← Builder</button>
       </div>
       <div id="play-units"></div>
+    </div>
+
+    <!-- Keyword popup (global, lives outside play screen) -->
+    <div id="keyword-popup">
+      <div class="kp-name" id="kp-name"></div>
+      <div class="kp-desc" id="kp-desc"></div>
+      <div class="kp-ref" id="kp-ref"></div>
     </div>
 
     <!-- VIEW 4: browse units for a slot -->
@@ -1592,6 +1675,32 @@ function renderPlayMode() {
       const allRules = [...new Set((unit.models ?? []).flatMap(m => m.rules ?? []))]
         .map(name => ({ name, description: armyRules[name] ?? '' }));
 
+      // Weapon profiles for selected wargear
+      const unitWeapons = unit.weapons ?? {};
+      const selectedWeaponProfiles = wgItems
+        .map(w => ({ name: w.name, profile: unitWeapons[w.name] }))
+        .filter(w => w.profile && (w.profile.range || w.profile.S));
+
+      const weaponTableHtml = selectedWeaponProfiles.length ? `
+        <div>
+          <div class="play-section-label">Weapon Profiles</div>
+          <div class="play-stats-wrap">
+            <table class="play-weapons-table">
+              <thead><tr><th>Weapon</th><th>Rng</th><th>S</th><th>AP</th><th class="wtype">Type</th></tr></thead>
+              <tbody>
+                ${selectedWeaponProfiles.map(w => `
+                <tr>
+                  <td>${w.name}</td>
+                  <td>${w.profile.range || '—'}</td>
+                  <td>${w.profile.S || '—'}</td>
+                  <td>${w.profile.AP || '—'}</td>
+                  <td class="wtype">${w.profile.type || '—'}</td>
+                </tr>`).join('')}
+              </tbody>
+            </table>
+          </div>
+        </div>` : '';
+
       return `
       <div class="play-unit">
         <div class="play-unit-header">
@@ -1613,13 +1722,14 @@ function renderPlayMode() {
             <div class="play-section-label">Wargear</div>
             <div class="play-wargear">${wgHtml}</div>
           </div>` : ''}
+          ${weaponTableHtml}
           ${allRules.length ? `
           <div>
             <div class="play-section-label">Abilities</div>
             <div class="play-rules">
               ${allRules.map(r => `
                 <div>
-                  <div class="play-rule-name">${r.name}</div>
+                  <span class="play-rule-name${r.description ? ' has-desc' : ''}" data-rule="${encodeURIComponent(r.name)}">${r.name}</span>
                   ${r.description ? `<div class="play-rule-desc">${r.description}</div>` : ''}
                 </div>`).join('')}
             </div>
@@ -1636,6 +1746,50 @@ function renderPlayMode() {
 
 D('play-btn').addEventListener('click', openPlayMode);
 D('play-back').addEventListener('click', closePlayMode);
+
+// ── KEYWORD POPUP ─────────────────────────────────────────────────
+(function() {
+  const popup = D('keyword-popup');
+  const kpName = D('kp-name');
+  const kpDesc = D('kp-desc');
+  const kpRef  = D('kp-ref');
+  let activeEl = null;
+
+  function showPopup(el, name, description) {
+    kpName.textContent = name;
+    kpDesc.textContent = description || '';
+    kpRef.textContent  = description ? '' : 'See core rulebook for details.';
+    popup.style.display = 'block';
+
+    const rect = el.getBoundingClientRect();
+    const pw = popup.offsetWidth || 280;
+    const ph = popup.offsetHeight || 80;
+    let left = rect.left;
+    let top  = rect.bottom + 6;
+    if (left + pw > window.innerWidth - 8) left = window.innerWidth - pw - 8;
+    if (top + ph > window.innerHeight - 8) top = rect.top - ph - 6;
+    popup.style.left = left + 'px';
+    popup.style.top  = top  + 'px';
+    activeEl = el;
+  }
+
+  function hidePopup() {
+    popup.style.display = 'none';
+    activeEl = null;
+  }
+
+  document.addEventListener('click', e => {
+    const el = e.target.closest('.play-rule-name.has-desc');
+    if (el) {
+      if (activeEl === el) { hidePopup(); return; }
+      const name = decodeURIComponent(el.dataset.rule || '');
+      const desc = (state.codex?.rules ?? {})[name] ?? '';
+      showPopup(el, name, desc);
+    } else if (!popup.contains(e.target)) {
+      hidePopup();
+    }
+  }, true);
+})();
 
 ptsLimit.addEventListener('input', updatePoints);
 

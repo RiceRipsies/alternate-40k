@@ -108,7 +108,7 @@
                 "pts_delta": 0
               },
               {
-                "name": "Nemesis Warding",
+                "name": "Nemesis Warding Staff",
                 "pts_delta": 2
               },
               {
@@ -138,7 +138,57 @@
               }
             ]
           }
-        ]
+        ],
+        "weapons": {
+          "Psycannon": {
+            "range": "24",
+            "S": "7",
+            "AP": "4+",
+            "type": "Rapid Fire 2, Rending, Monsterbane"
+          },
+          "Incinerator": {
+            "range": "Flame",
+            "S": "6",
+            "AP": "4+",
+            "type": "Assault 1"
+          },
+          "Nemesis Force Halberd": {
+            "range": "Melee",
+            "S": "+1",
+            "AP": "3+",
+            "type": "Psychicbane, Counterattack"
+          },
+          "Nemesis Warding Staff": {
+            "range": "Melee",
+            "S": "+2",
+            "AP": "4+",
+            "type": "Psychicbane, 5+ Invulnerability Save"
+          },
+          "Nemesis Force Sword": {
+            "range": "Melee",
+            "S": "+2",
+            "AP": "2+",
+            "type": "Psychicbane"
+          },
+          "Dual Nemesis Falchions": {
+            "range": "Melee",
+            "S": "User",
+            "AP": "3+",
+            "type": "Extra Attack 3, Psychic Bane"
+          },
+          "Nemesis Daemon Hammer": {
+            "range": "Melee",
+            "S": "10",
+            "AP": "1+",
+            "type": "Slow, Armourbane, Monsterbane, Psychicbane"
+          },
+          "Orbital Strike": {
+            "range": "12-240 D/10 1+/1+",
+            "S": "Heavy 1, 15\u201d Blast, Destroyer,",
+            "AP": "",
+            "type": "/8   /1+     Ordnance, Monsterbane, Indirect Fire, Ignores Cover, The Hour is Nigh, T Minus 5, One Use Only 6"
+          }
+        }
       },
       {
         "name": "Chaplain",
@@ -210,7 +260,21 @@
               }
             ]
           }
-        ]
+        ],
+        "weapons": {
+          "Stormbolter": {
+            "range": "24",
+            "S": "4",
+            "AP": "5+",
+            "type": "Rapid Fire 2, Bolter"
+          },
+          "Crozium Arcanum": {
+            "range": "Melee",
+            "S": "+2",
+            "AP": "4+",
+            "type": "Concussion And And And And Flame     5          4+    Assault 1, One Use Only 7"
+          }
+        }
       },
       {
         "name": "Grand Master Dreadknight",
@@ -298,7 +362,51 @@
             "description": "May take up to one Spell for each Psychic Mastery",
             "choices": []
           }
-        ]
+        ],
+        "weapons": {
+          "Gatling Psilencer": {
+            "range": "24",
+            "S": "6",
+            "AP": "-",
+            "type": "Heavy 12, Hull, Primary"
+          },
+          "Heavy Psycannon": {
+            "range": "24",
+            "S": "7",
+            "AP": "4+",
+            "type": "Heavy 1, 5\u201d Blast, Rending, Hull, Primary"
+          },
+          "Heavy Incinerator": {
+            "range": "Hell",
+            "S": "6",
+            "AP": "4+",
+            "type": "Assault 1, Hull, Primary Storm"
+          },
+          "Nemesis Greatsword": {
+            "range": "Melee",
+            "S": "+2",
+            "AP": "2+",
+            "type": "Psychicbane, Primary 8"
+          },
+          "Dreadfist": {
+            "range": "Melee",
+            "S": "X2",
+            "AP": "2+",
+            "type": "Slow, Monsterbane, Psychicbane, Primary"
+          },
+          "Nemesis Dread Hammer": {
+            "range": "Melee",
+            "S": "X2",
+            "AP": "1+",
+            "type": "Slow, Armourbane, Monsterbane, Psychic Bane, Primary"
+          },
+          "Orbital Strike": {
+            "range": "12-240 D/10 1+/1+",
+            "S": "Heavy 1, 15\u201d Blast, Destroyer,",
+            "AP": "",
+            "type": "/8   /1+            Ordnance, Monsterbane, Indirect Fire, Ignores Cover, The Hour is Nigh, T Minus 5, One Use Only"
+          }
+        }
       },
       {
         "name": "Librarian",
@@ -368,7 +476,7 @@
                 "pts_delta": 0
               },
               {
-                "name": "Nemesis Warding",
+                "name": "Nemesis Warding Staff",
                 "pts_delta": 2
               },
               {
@@ -393,7 +501,63 @@
             "description": "May take one Spell for each level of Psychic Mastery",
             "choices": []
           }
-        ]
+        ],
+        "weapons": {
+          "Stormbolter": {
+            "range": "24",
+            "S": "4",
+            "AP": "5+",
+            "type": "Rapid Fire 2, Bolter"
+          },
+          "Psilencer": {
+            "range": "24",
+            "S": "6",
+            "AP": "-",
+            "type": "Heavy 6"
+          },
+          "Psycannon": {
+            "range": "24",
+            "S": "7",
+            "AP": "4+",
+            "type": "Rapid Fire 2, Rending, Monsterbane"
+          },
+          "Incinerator": {
+            "range": "Flame",
+            "S": "6",
+            "AP": "4+",
+            "type": "Assault 1 9"
+          },
+          "Nemesis Force Halberd": {
+            "range": "Melee",
+            "S": "+1",
+            "AP": "3+",
+            "type": "Psychicbane, Counterattack"
+          },
+          "Nemesis Warding Staff": {
+            "range": "Melee",
+            "S": "+2",
+            "AP": "4+",
+            "type": "Psychicbane, 5+ Invulnerability Save"
+          },
+          "Nemesis Force Sword": {
+            "range": "Melee",
+            "S": "+2",
+            "AP": "2+",
+            "type": "Psychicbane"
+          },
+          "Dual Nemesis Falchions": {
+            "range": "Melee",
+            "S": "User",
+            "AP": "3+",
+            "type": "Extra Attack 3, Psychic Bane"
+          },
+          "Nemesis Daemon Hammer": {
+            "range": "Melee",
+            "S": "10",
+            "AP": "1+",
+            "type": "Slow, Armourbane, Monsterbane, Psychicbane"
+          }
+        }
       },
       {
         "name": "Brother Captain Stern",
@@ -444,7 +608,21 @@
             "description": "May take one Spell for each level of Psychic Mastery",
             "choices": []
           }
-        ]
+        ],
+        "weapons": {
+          "Stormbolter": {
+            "range": "24",
+            "S": "4",
+            "AP": "5+",
+            "type": "Rapid Fire 2, Bolter"
+          },
+          "Nemesis Force Sword": {
+            "range": "Melee",
+            "S": "+2",
+            "AP": "2+",
+            "type": "Psychicbane"
+          }
+        }
       },
       {
         "name": "Castellan Crowe",
@@ -495,7 +673,21 @@
             "description": "May take one Spell for each level of Psychic Mastery",
             "choices": []
           }
-        ]
+        ],
+        "weapons": {
+          "Stormbolter": {
+            "range": "24",
+            "S": "4",
+            "AP": "5+",
+            "type": "Rapid Fire 2, Bolter, Wrist Mount"
+          },
+          "The Black Blade of Antwyr": {
+            "range": "Melee",
+            "S": "+1",
+            "AP": "2+",
+            "type": "Helps or Hinders"
+          }
+        }
       },
       {
         "name": "Grand Master Voldus",
@@ -549,7 +741,27 @@
             "description": "May take one Spell for each level of Psychic Mastery",
             "choices": []
           }
-        ]
+        ],
+        "weapons": {
+          "Stormbolter": {
+            "range": "24",
+            "S": "4",
+            "AP": "5+",
+            "type": "Rapid Fire 2, Bolter"
+          },
+          "Malleus Argyrum": {
+            "range": "Melee",
+            "S": "X2",
+            "AP": "1+",
+            "type": "Slow, Armourbane, Psychicbane"
+          },
+          "Orbital Strike": {
+            "range": "12-240 D/10 1+/1+",
+            "S": "Heavy 1, 15\u201d Blast, Destroyer,",
+            "AP": "",
+            "type": "/8   /1+            Ordnance, Monsterbane, Indirect Fire, Ignores Cover, The Hour is Nigh, T Minus 5, One Use Only"
+          }
+        }
       },
       {
         "name": "Lord Draigo",
@@ -602,7 +814,27 @@
             "description": "May take one Spell for each level of Psychic Mastery",
             "choices": []
           }
-        ]
+        ],
+        "weapons": {
+          "Stormbolter": {
+            "range": "24",
+            "S": "4",
+            "AP": "5+",
+            "type": "Rapid Fire 2, Bolter"
+          },
+          "The Titansword": {
+            "range": "Melee",
+            "S": "+3",
+            "AP": "1+",
+            "type": "Psychicbane"
+          },
+          "Orbital Strike": {
+            "range": "12-240",
+            "S": "D/10",
+            "AP": "1+",
+            "type": "/1+ Heavy 1, 15\u201d Blast, Destroyer, /8      /1+      Ordnance, Monsterbane, Indirect Fire, Ignores Cover, The Hour is Nigh, T Minus 5, One Use Only"
+          }
+        }
       }
     ],
     "advisors": [
@@ -656,7 +888,7 @@
                 "pts_delta": 0
               },
               {
-                "name": "Nemesis Warding",
+                "name": "Nemesis Warding Staff",
                 "pts_delta": 2
               },
               {
@@ -677,7 +909,45 @@
             "description": "May take one Spell for each level of Psychic Mastery",
             "choices": []
           }
-        ]
+        ],
+        "weapons": {
+          "Stormbolter": {
+            "range": "24",
+            "S": "4",
+            "AP": "5+",
+            "type": "Rapid Fire 2, Bolter 14"
+          },
+          "Nemesis Force Halberd": {
+            "range": "Melee",
+            "S": "+1",
+            "AP": "3+",
+            "type": "Psychicbane, Counterattack"
+          },
+          "Nemesis Warding Staff": {
+            "range": "Melee",
+            "S": "+2",
+            "AP": "4+",
+            "type": "Psychicbane, 5+ Invulnerability Save"
+          },
+          "Nemesis Force Sword": {
+            "range": "Melee",
+            "S": "+2",
+            "AP": "2+",
+            "type": "Psychicbane"
+          },
+          "Dual Nemesis Falchions": {
+            "range": "Melee",
+            "S": "User",
+            "AP": "3+",
+            "type": "Extra Attack 3, Psychic Bane"
+          },
+          "Nemesis Daemon Hammer": {
+            "range": "Melee",
+            "S": "10",
+            "AP": "1+",
+            "type": "Slow, Armourbane, Monsterbane, Psychicbane"
+          }
+        }
       },
       {
         "name": "Brotherhood Ancient",
@@ -723,7 +993,21 @@
             "description": "May take one Spell for each level of Psychic Mastery",
             "choices": []
           }
-        ]
+        ],
+        "weapons": {
+          "Stormbolter": {
+            "range": "24",
+            "S": "4",
+            "AP": "5+",
+            "type": "Rapid Fire 2, Bolter"
+          },
+          "Nemesis Falchion": {
+            "range": "Melee",
+            "S": "User",
+            "AP": "3+",
+            "type": "Extra Attack 1, Psychicbane 15"
+          }
+        }
       },
       {
         "name": "Brotherhood Champion",
@@ -778,7 +1062,7 @@
                 "pts_delta": 0
               },
               {
-                "name": "Nemesis Warding",
+                "name": "Nemesis Warding Staff",
                 "pts_delta": 2
               },
               {
@@ -799,7 +1083,63 @@
             "description": "May take one Spell for each level of Psychic Mastery",
             "choices": []
           }
-        ]
+        ],
+        "weapons": {
+          "Stormbolter": {
+            "range": "24",
+            "S": "4",
+            "AP": "5+",
+            "type": "Rapid Fire 2, Bolter"
+          },
+          "Nemesis Force Halberd": {
+            "range": "Melee",
+            "S": "+1",
+            "AP": "3+",
+            "type": "Psychicbane, Counterattack"
+          },
+          "Nemesis Warding Staff": {
+            "range": "Melee",
+            "S": "+2",
+            "AP": "4+",
+            "type": "Psychicbane, 5+ Invulnerability Save"
+          },
+          "Nemesis Force Sword": {
+            "range": "Melee",
+            "S": "+2",
+            "AP": "2+",
+            "type": "Psychicbane"
+          },
+          "Dual Nemesis Falchions": {
+            "range": "Melee",
+            "S": "User",
+            "AP": "3+",
+            "type": "Extra Attack 3, Psychic Bane"
+          },
+          "Nemesis Daemon Hammer": {
+            "range": "Melee",
+            "S": "10",
+            "AP": "1+",
+            "type": "Slow, Armourbane, Monsterbane, Psychicbane"
+          },
+          "Frag Grenades": {
+            "range": "8",
+            "S": "3",
+            "AP": "-",
+            "type": "Grenade 1, 3\u201d Blast"
+          },
+          "Krak Grenades": {
+            "range": "8",
+            "S": "6",
+            "AP": "4+",
+            "type": "Grenade 1, Nonblast"
+          },
+          "Psykout Grenades": {
+            "range": "8",
+            "S": "3",
+            "AP": "-",
+            "type": "Grenade 1, 3\u201d Blast, Psychic Disruption 16"
+          }
+        }
       },
       {
         "name": "Brotherhood Techmarine",
@@ -877,7 +1217,69 @@
               }
             ]
           }
-        ]
+        ],
+        "weapons": {
+          "Bolt Pistol": {
+            "range": "12",
+            "S": "4",
+            "AP": "5+",
+            "type": "Pistol 1"
+          },
+          "Boltgun": {
+            "range": "24",
+            "S": "4",
+            "AP": "5+",
+            "type": "Rapid Fire 1, Bolter"
+          },
+          "Flamer": {
+            "range": "Flame",
+            "S": "4",
+            "AP": "5+",
+            "type": "Assault 1"
+          },
+          "Plasma Pistol": {
+            "range": "12",
+            "S": "7",
+            "AP": "2+",
+            "type": "Pistol 1, Gets Hot!"
+          },
+          "Servo Arms": {
+            "range": "Melee",
+            "S": "X2",
+            "AP": "2+",
+            "type": "Slow, Extra Attack 1, Monsterbane, Auxiliary, Servo Arms"
+          },
+          "Nemesis Power Axe": {
+            "range": "Melee",
+            "S": "+2",
+            "AP": "4+",
+            "type": "Psychicbane"
+          },
+          "Conversion Beamer": {
+            "range": "48",
+            "S": "9",
+            "AP": "3+",
+            "type": "Heavy 1, Beam, Monsterbane"
+          },
+          "Frag Grenades": {
+            "range": "8",
+            "S": "3",
+            "AP": "-",
+            "type": "Grenade 1, 3\u201d Blast"
+          },
+          "Krak Grenades": {
+            "range": "8",
+            "S": "6",
+            "AP": "4+",
+            "type": "Grenade 1, Nonblast"
+          },
+          "Psykout Grenades": {
+            "range": "8",
+            "S": "3",
+            "AP": "-",
+            "type": "Grenade 1, 3\u201d Blast, Psychic Disruption 17"
+          }
+        }
       }
     ],
     "troops": [
@@ -976,7 +1378,7 @@
                 "pts_delta": 0
               },
               {
-                "name": "Nemesis Warding",
+                "name": "Nemesis Warding Staff",
                 "pts_delta": 3
               },
               {
@@ -1009,7 +1411,87 @@
               }
             ]
           }
-        ]
+        ],
+        "weapons": {
+          "Stormbolter": {
+            "range": "24",
+            "S": "4",
+            "AP": "5+",
+            "type": "Rapid Fire 2, Bolter, Wrist Mount"
+          },
+          "Psilencer": {
+            "range": "24",
+            "S": "6",
+            "AP": "-",
+            "type": "Heavy 6, Wrist Mount"
+          },
+          "Psycannon": {
+            "range": "24",
+            "S": "7",
+            "AP": "4+",
+            "type": "Rapid Fire 2, Rending, Monsterbane, Wrist Mount"
+          },
+          "Incinerator": {
+            "range": "Flame",
+            "S": "6",
+            "AP": "4+",
+            "type": "Assault 1, Wrist Mount"
+          },
+          "Nemesis Force Halberd": {
+            "range": "Melee",
+            "S": "+1",
+            "AP": "3+",
+            "type": "Psychicbane, Counterattack"
+          },
+          "Nemesis Warding Staff": {
+            "range": "Melee",
+            "S": "+2",
+            "AP": "4+",
+            "type": "Psychicbane, 5+ Invulnerability Save 18"
+          },
+          "Nemesis Force Sword": {
+            "range": "Melee",
+            "S": "+2",
+            "AP": "2+",
+            "type": "Psychicbane"
+          },
+          "Dual Nemesis Falchions": {
+            "range": "Melee",
+            "S": "User",
+            "AP": "3+",
+            "type": "Extra Attack 3, Psychic Bane"
+          },
+          "Nemesis Daemon Hammer": {
+            "range": "Melee",
+            "S": "10",
+            "AP": "1+",
+            "type": "Slow, Armourbane, Monsterbane, Psychicbane"
+          },
+          "Frag Grenades": {
+            "range": "8",
+            "S": "3",
+            "AP": "-",
+            "type": "Grenade 1, 3\u201d Blast"
+          },
+          "Krak Grenades": {
+            "range": "8",
+            "S": "6",
+            "AP": "4+",
+            "type": "Grenade 1, Nonblast"
+          },
+          "Psykout Grenades": {
+            "range": "8",
+            "S": "3",
+            "AP": "-",
+            "type": "Grenade 1, 3\u201d Blast, Psychic Disruption"
+          },
+          "Meltabombs": {
+            "range": "6",
+            "S": "8",
+            "AP": "1+",
+            "type": "Grenade 1, Armourbane, Monsterbane, Nonblast"
+          }
+        }
       },
       {
         "name": "Terminators",
@@ -1104,7 +1586,7 @@
                 "pts_delta": 0
               },
               {
-                "name": "Nemesis Warding",
+                "name": "Nemesis Warding Staff",
                 "pts_delta": 2
               },
               {
@@ -1121,7 +1603,63 @@
               }
             ]
           }
-        ]
+        ],
+        "weapons": {
+          "Stormbolter": {
+            "range": "24",
+            "S": "4",
+            "AP": "5+",
+            "type": "Rapid Fire 2, Bolter"
+          },
+          "Psilencer": {
+            "range": "24",
+            "S": "6",
+            "AP": "-",
+            "type": "Heavy 6"
+          },
+          "Psycannon": {
+            "range": "24",
+            "S": "7",
+            "AP": "4+",
+            "type": "Rapid Fire 2, Rending, Monsterbane"
+          },
+          "Incinerator": {
+            "range": "Flame",
+            "S": "6",
+            "AP": "4+",
+            "type": "Assault 1"
+          },
+          "Nemesis Force Halberd": {
+            "range": "Melee",
+            "S": "+1",
+            "AP": "3+",
+            "type": "Psychicbane, Counterattack"
+          },
+          "Nemesis Warding Staff": {
+            "range": "Melee",
+            "S": "+2",
+            "AP": "4+",
+            "type": "Psychicbane, 5+ Invulnerability Save"
+          },
+          "Nemesis Force Sword": {
+            "range": "Melee",
+            "S": "+2",
+            "AP": "2+",
+            "type": "Psychicbane"
+          },
+          "Dual Nemesis Falchions": {
+            "range": "Melee",
+            "S": "User",
+            "AP": "3+",
+            "type": "Extra Attack 3, Psychic Bane"
+          },
+          "Nemesis Daemon Hammer": {
+            "range": "Melee",
+            "S": "10",
+            "AP": "1+",
+            "type": "Slow, Armourbane, Monsterbane, Psychicbane"
+          }
+        }
       }
     ],
     "elites": [
@@ -1168,7 +1706,7 @@
             "description": "May add up to two more Dreadnoughts for +152 points each Any Dreadnought may swap any Dreadnought Missile Launcher for H Any Dreadnought may take up to one of each E Any Dreadnought may each take up to one Spell per Psychic Mastery Level. These are cast by each model Independently.",
             "choices": [
               {
-                "name": "Dreadnought Missile",
+                "name": "Dreadnought Missile Launcher",
                 "pts_delta": 0
               },
               {
@@ -1184,11 +1722,11 @@
                 "pts_delta": 5
               },
               {
-                "name": "Dreadnought Combat and",
+                "name": "Dreadnought Combat Weapon and Stormbolter",
                 "pts_delta": 12
               },
               {
-                "name": "Dreadnought Combat and",
+                "name": "Dreadnought Combat Weapon and Incinerator",
                 "pts_delta": 15
               },
               {
@@ -1205,7 +1743,57 @@
               }
             ]
           }
-        ]
+        ],
+        "weapons": {
+          "Dreadnought Missile Launcher": {
+            "range": "48",
+            "S": "8",
+            "AP": "3+",
+            "type": "Heavy 2, Monsterbane, Hull, Or Or Or Primary Or 48        4      6+        Heavy 2, 3\u201d Blast, Hull, Primary"
+          },
+          "Multimelta Autocannons": {
+            "range": "24",
+            "S": "8",
+            "AP": "1+",
+            "type": "Heavy 2, Melta, (Monsterbane), Hull, Primary Primary"
+          },
+          "Psycannon": {
+            "range": "24",
+            "S": "7",
+            "AP": "4+",
+            "type": "Rapid Fire 2, Rending, Monsterbane, Hull, Primary"
+          },
+          "Assault Cannon Lascannons": {
+            "range": "36",
+            "S": "6",
+            "AP": "4+",
+            "type": "Assault 6, Rending, Hull, Primary Primary"
+          },
+          "Dreadnought Combat Weapon and Stormbolter": {
+            "range": "Melee",
+            "S": "X2",
+            "AP": "2+",
+            "type": "Slow, Monsterbane, Primary And And And And 24 4 5+ Rapid Fire 2, Bolter, Hull"
+          },
+          "Dreadnought Combat Weapon and Incinerator": {
+            "range": "Melee",
+            "S": "X2",
+            "AP": "2+",
+            "type": "Slow, Monsterbane, Primary And And And And Flame 6 4+ Assault 1, Hull"
+          },
+          "Doom Glaive": {
+            "range": "Melee",
+            "S": "+3",
+            "AP": "2+",
+            "type": "Counterattack, Psychicbane, Primary"
+          },
+          "Heavy Plasma Cannon": {
+            "range": "48",
+            "S": "8",
+            "AP": "2+",
+            "type": "Heavy 1, 5\u201d Blast, Monsterbane, Hull, Primary 21"
+          }
+        }
       },
       {
         "name": "Ironclad Dreadnoughts",
@@ -1252,7 +1840,7 @@
             "description": "May add up to two more Dreadnoughts for +157 points each Any Dreadnought may swap any Dreadnought Missile Launcher for H Any Dreadnought may take up to 2 M Any Dreadnought may take up to one of each E Any Dreadnought may each take up to one Spell per Psychic Mastery Level. These are cast by each model Independently.",
             "choices": [
               {
-                "name": "Dreadnought Missile",
+                "name": "Dreadnought Missile Launcher",
                 "pts_delta": 0
               },
               {
@@ -1268,11 +1856,11 @@
                 "pts_delta": 5
               },
               {
-                "name": "Dreadnought Combat and",
+                "name": "Dreadnought Combat Weapon and Stormbolter",
                 "pts_delta": 12
               },
               {
-                "name": "Dreadnought Combat and",
+                "name": "Dreadnought Combat Weapon and Incinerator",
                 "pts_delta": 15
               },
               {
@@ -1280,11 +1868,11 @@
                 "pts_delta": 16
               },
               {
-                "name": "Seismic Hammer and",
+                "name": "Seismic Hammer and Stormbolter",
                 "pts_delta": 21
               },
               {
-                "name": "Seismic Hammer and",
+                "name": "Seismic Hammer and Incinerator",
                 "pts_delta": 24
               },
               {
@@ -1292,7 +1880,7 @@
                 "pts_delta": 28
               },
               {
-                "name": "Seismic Hammer and",
+                "name": "Seismic Hammer and Meltagun",
                 "pts_delta": 30
               },
               {
@@ -1305,7 +1893,81 @@
               }
             ]
           }
-        ]
+        ],
+        "weapons": {
+          "Dreadnought Missile Launcher": {
+            "range": "48",
+            "S": "8",
+            "AP": "3+",
+            "type": "Heavy 2, Monsterbane, Hull, Or Or Or Primary Or 48        4       6+      Heavy 2, 3\u201d Blast, Hull, Primary"
+          },
+          "Multimelta Autocannons": {
+            "range": "24",
+            "S": "8",
+            "AP": "1+",
+            "type": "Heavy 2, Melta, (Monsterbane), Hull, Primary Primary"
+          },
+          "Psycannon": {
+            "range": "24",
+            "S": "7",
+            "AP": "4+",
+            "type": "Rapid Fire 2, Rending, Monsterbane, Hull, Primary"
+          },
+          "Assault Cannon Lascannons": {
+            "range": "36",
+            "S": "6",
+            "AP": "4+",
+            "type": "Assault 6, Rending, Hull, Primary Primary"
+          },
+          "Dreadnought Combat Weapon and Stormbolter": {
+            "range": "Melee",
+            "S": "X2",
+            "AP": "2+",
+            "type": "Slow, Monsterbane, Primary And And And And 24 4 5+ Rapid Fire 2, Bolter, Hull 22"
+          },
+          "Dreadnought Combat Weapon and Incinerator": {
+            "range": "Melee",
+            "S": "X2",
+            "AP": "2+",
+            "type": "Slow, Monsterbane, Primary And And And And Flame 6 4+ Assault 1, Hull"
+          },
+          "Doom Glaive": {
+            "range": "Melee",
+            "S": "+3",
+            "AP": "2+",
+            "type": "Counterattack, Psychicbane, Primary"
+          },
+          "Seismic Hammer and Stormbolter": {
+            "range": "Melee",
+            "S": "X2",
+            "AP": "1+",
+            "type": "Slow, Monsterbane, Reroll 1s And And And To Hit, Primary And 24      4     5+    Rapid Fire 2, Bolter, Hull"
+          },
+          "Seismic Hammer and Incinerator": {
+            "range": "Melee",
+            "S": "X2",
+            "AP": "1+",
+            "type": "Slow, Monsterbane, Reroll 1s And And And To Hit, Primary And Flame   6     4+    Assault 1, Hull"
+          },
+          "Heavy Plasma Cannon": {
+            "range": "48",
+            "S": "8",
+            "AP": "2+",
+            "type": "Heavy 1, 5\u201d Blast, Monsterbane, Hull, Primary"
+          },
+          "Seismic Hammer and Meltagun": {
+            "range": "Melee",
+            "S": "X2",
+            "AP": "1+",
+            "type": "Slow, Monsterbane, Reroll 1s And And And To Hit, Primary And 12      8     1+    Assault 1, Melta, (Monsterbane), Hull"
+          },
+          "Hunter Killer Missile": {
+            "range": "120",
+            "S": "10",
+            "AP": "3+",
+            "type": "Heavy 1, Monsterbane, One Use Only, Hull 23"
+          }
+        }
       },
       {
         "name": "Paladins",
@@ -1400,7 +2062,7 @@
                 "pts_delta": 0
               },
               {
-                "name": "Nemesis Warding",
+                "name": "Nemesis Warding Staff",
                 "pts_delta": 2
               },
               {
@@ -1417,7 +2079,63 @@
               }
             ]
           }
-        ]
+        ],
+        "weapons": {
+          "Stormbolter": {
+            "range": "24",
+            "S": "4",
+            "AP": "5+",
+            "type": "Rapid Fire 2, Bolter"
+          },
+          "Psilencer": {
+            "range": "24",
+            "S": "6",
+            "AP": "-",
+            "type": "Heavy 6"
+          },
+          "Psycannon": {
+            "range": "24",
+            "S": "7",
+            "AP": "4+",
+            "type": "Rapid Fire 2, Rending, Monsterbane"
+          },
+          "Incinerator": {
+            "range": "Flame",
+            "S": "6",
+            "AP": "4+",
+            "type": "Assault 1"
+          },
+          "Nemesis Force Halberd": {
+            "range": "Melee",
+            "S": "+1",
+            "AP": "3+",
+            "type": "Psychicbane, Counterattack"
+          },
+          "Nemesis Warding Staff": {
+            "range": "Melee",
+            "S": "+2",
+            "AP": "4+",
+            "type": "Psychicbane, 5+ Invulnerability Save 24"
+          },
+          "Nemesis Force Sword": {
+            "range": "Melee",
+            "S": "+2",
+            "AP": "2+",
+            "type": "Psychicbane"
+          },
+          "Dual Nemesis Falchions": {
+            "range": "Melee",
+            "S": "User",
+            "AP": "3+",
+            "type": "Extra Attack 3, Psychic Bane"
+          },
+          "Nemesis Daemon Hammer": {
+            "range": "Melee",
+            "S": "10",
+            "AP": "1+",
+            "type": "Slow, Armourbane, Monsterbane, Psychicbane"
+          }
+        }
       },
       {
         "name": "Purifier Squad",
@@ -1514,7 +2232,7 @@
                 "pts_delta": 0
               },
               {
-                "name": "Nemesis Warding",
+                "name": "Nemesis Warding Staff",
                 "pts_delta": 3
               },
               {
@@ -1547,7 +2265,93 @@
               }
             ]
           }
-        ]
+        ],
+        "weapons": {
+          "Stormbolter": {
+            "range": "24",
+            "S": "4",
+            "AP": "5+",
+            "type": "Rapid Fire 2, Bolter, Wrist Mount"
+          },
+          "Psilencer": {
+            "range": "24",
+            "S": "6",
+            "AP": "-",
+            "type": "Heavy 6, Wrist Mount"
+          },
+          "Psycannon": {
+            "range": "24",
+            "S": "7",
+            "AP": "4+",
+            "type": "Rapid Fire 2, Rending, Monsterbane, Wrist Mount 25"
+          },
+          "Incinerator": {
+            "range": "Flame",
+            "S": "6",
+            "AP": "4+",
+            "type": "Assault 1, Wrist Mount"
+          },
+          "Nemesis Force Halberd": {
+            "range": "Melee",
+            "S": "+1",
+            "AP": "3+",
+            "type": "Psychicbane, Counterattack"
+          },
+          "Nemesis Warding Staff": {
+            "range": "Melee",
+            "S": "+2",
+            "AP": "4+",
+            "type": "Psychicbane, 5+ Invulnerability Save"
+          },
+          "Nemesis Force Sword": {
+            "range": "Melee",
+            "S": "+2",
+            "AP": "2+",
+            "type": "Psychicbane"
+          },
+          "Dual Nemesis Falchions": {
+            "range": "Melee",
+            "S": "User",
+            "AP": "3+",
+            "type": "Extra Attack 3, Psychic Bane"
+          },
+          "Nemesis Daemon Hammer": {
+            "range": "Melee",
+            "S": "10",
+            "AP": "1+",
+            "type": "Slow, Armourbane, Monsterbane, Psychicbane"
+          },
+          "Frag Grenades": {
+            "range": "8",
+            "S": "3",
+            "AP": "-",
+            "type": "Grenade 1, 3\u201d Blast"
+          },
+          "Krak Grenades": {
+            "range": "8",
+            "S": "6",
+            "AP": "4+",
+            "type": "Grenade 1, Nonblast"
+          },
+          "Psykout Grenades": {
+            "range": "8",
+            "S": "3",
+            "AP": "-",
+            "type": "Grenade 1, 3\u201d Blast, Psychic Disruption"
+          },
+          "Meltabombs": {
+            "range": "6",
+            "S": "8",
+            "AP": "1+",
+            "type": "Grenade 1, Armourbane, Monsterbane, Nonblast 26"
+          },
+          "Attack": {
+            "range": "0-3",
+            "S": "",
+            "AP": "",
+            "type": ""
+          }
+        }
       }
     ],
     "fast_attack": [
@@ -1648,7 +2452,7 @@
                 "pts_delta": 0
               },
               {
-                "name": "Nemesis Warding",
+                "name": "Nemesis Warding Staff",
                 "pts_delta": 3
               },
               {
@@ -1681,7 +2485,93 @@
               }
             ]
           }
-        ]
+        ],
+        "weapons": {
+          "Stormbolter": {
+            "range": "24",
+            "S": "4",
+            "AP": "5+",
+            "type": "Rapid Fire 2, Bolter, Wrist Mount"
+          },
+          "Psilencer": {
+            "range": "24",
+            "S": "6",
+            "AP": "-",
+            "type": "Heavy 6, Wrist Mount"
+          },
+          "Psycannon": {
+            "range": "24",
+            "S": "7",
+            "AP": "4+",
+            "type": "Rapid Fire 2, Rending, Monsterbane, Wrist Mount"
+          },
+          "Incinerator": {
+            "range": "Flame",
+            "S": "6",
+            "AP": "4+",
+            "type": "Assault 1, Wrist Mount 27"
+          },
+          "Nemesis Force Halberd": {
+            "range": "Melee",
+            "S": "+1",
+            "AP": "3+",
+            "type": "Psychicbane, Counterattack"
+          },
+          "Nemesis Warding Staff": {
+            "range": "Melee",
+            "S": "+2",
+            "AP": "4+",
+            "type": "Psychicbane, 5+ Invulnerability Save"
+          },
+          "Nemesis Force Sword": {
+            "range": "Melee",
+            "S": "+2",
+            "AP": "2+",
+            "type": "Psychicbane"
+          },
+          "Dual Nemesis Falchions": {
+            "range": "Melee",
+            "S": "User",
+            "AP": "3+",
+            "type": "Extra Attack 3, Psychic Bane"
+          },
+          "Nemesis Daemon Hammer": {
+            "range": "Melee",
+            "S": "10",
+            "AP": "1+",
+            "type": "Slow, Armourbane, Monsterbane, Psychicbane"
+          },
+          "Frag Grenades": {
+            "range": "8",
+            "S": "3",
+            "AP": "-",
+            "type": "Grenade 1, 3\u201d Blast"
+          },
+          "Krak Grenades": {
+            "range": "8",
+            "S": "6",
+            "AP": "4+",
+            "type": "Grenade 1, Nonblast"
+          },
+          "Psykout Grenades": {
+            "range": "8",
+            "S": "3",
+            "AP": "-",
+            "type": "Grenade 1, 3\u201d Blast, Psychic Disruption"
+          },
+          "Meltabombs": {
+            "range": "6",
+            "S": "8",
+            "AP": "1+",
+            "type": "Grenade 1, Armourbane, Monsterbane, Nonblast"
+          },
+          "Support": {
+            "range": "0-3",
+            "S": "",
+            "AP": "",
+            "type": ""
+          }
+        }
       }
     ],
     "heavy_support": [
@@ -1760,7 +2650,7 @@
                 "pts_delta": 7
               },
               {
-                "name": "Multimelta Rocket",
+                "name": "Multimelta Rocket Pods",
                 "pts_delta": 31
               }
             ]
@@ -1778,7 +2668,33 @@
               }
             ]
           }
-        ]
+        ],
+        "weapons": {
+          "Dozerblade": {
+            "range": "Melee",
+            "S": "+1",
+            "AP": "6+",
+            "type": "Accurate, Dozerblade"
+          },
+          "Hunter Killer Missile": {
+            "range": "120",
+            "S": "10",
+            "AP": "3+",
+            "type": "Heavy 1, Monsterbane, One Use Only, Hull"
+          },
+          "Stormbolter": {
+            "range": "24",
+            "S": "4",
+            "AP": "5+",
+            "type": "Rapid Fire 2, Bolter, Turret"
+          },
+          "Multimelta Rocket Pods": {
+            "range": "24",
+            "S": "8",
+            "AP": "1+",
+            "type": "Heavy 2, Melta, (Monsterbane), Turret Turret 29"
+          }
+        }
       },
       {
         "name": "Dreadknight",
@@ -1862,7 +2778,45 @@
             "description": "May take up to one Spell for each Psychic Mastery",
             "choices": []
           }
-        ]
+        ],
+        "weapons": {
+          "Gatling Psilencer": {
+            "range": "24",
+            "S": "6",
+            "AP": "-",
+            "type": "Heavy 12, Hull, Primary"
+          },
+          "Heavy Psycannon": {
+            "range": "24",
+            "S": "7",
+            "AP": "4+",
+            "type": "Heavy 1, 5\u201d Blast, Rending, Hull, Primary"
+          },
+          "Heavy Incinerator": {
+            "range": "Hell",
+            "S": "6",
+            "AP": "4+",
+            "type": "Assault 1, Hull, Primary Storm"
+          },
+          "Nemesis Greatsword": {
+            "range": "Melee",
+            "S": "+2",
+            "AP": "2+",
+            "type": "Psychicbane, Primary"
+          },
+          "Dreadfist": {
+            "range": "Melee",
+            "S": "X2",
+            "AP": "2+",
+            "type": "Slow, Monsterbane, Psychicbane, Primary"
+          },
+          "Nemesis Dread Hammer": {
+            "range": "Melee",
+            "S": "X2",
+            "AP": "1+",
+            "type": "Slow, Armourbane, Monsterbane, Psychic Bane, Primary 30"
+          }
+        }
       },
       {
         "name": "Purgation Squad",
@@ -1959,7 +2913,7 @@
                 "pts_delta": 0
               },
               {
-                "name": "Nemesis Warding",
+                "name": "Nemesis Warding Staff",
                 "pts_delta": 3
               },
               {
@@ -1992,7 +2946,87 @@
               }
             ]
           }
-        ]
+        ],
+        "weapons": {
+          "Stormbolter": {
+            "range": "24",
+            "S": "4",
+            "AP": "5+",
+            "type": "Rapid Fire 2, Bolter, Wrist Mount"
+          },
+          "Psilencer": {
+            "range": "24",
+            "S": "6",
+            "AP": "-",
+            "type": "Heavy 6, Wrist Mount"
+          },
+          "Psycannon": {
+            "range": "24",
+            "S": "7",
+            "AP": "4+",
+            "type": "Rapid Fire 2, Rending, Monsterbane, Wrist Mount"
+          },
+          "Incinerator": {
+            "range": "Flame",
+            "S": "6",
+            "AP": "4+",
+            "type": "Assault 1, Wrist Mount"
+          },
+          "Nemesis Force Halberd": {
+            "range": "Melee",
+            "S": "+1",
+            "AP": "3+",
+            "type": "Psychicbane, Counterattack"
+          },
+          "Nemesis Warding Staff": {
+            "range": "Melee",
+            "S": "+2",
+            "AP": "4+",
+            "type": "Psychicbane, 5+ Invulnerability Save"
+          },
+          "Nemesis Force Sword": {
+            "range": "Melee",
+            "S": "+2",
+            "AP": "2+",
+            "type": "Psychicbane 31"
+          },
+          "Dual Nemesis Falchions": {
+            "range": "Melee",
+            "S": "User",
+            "AP": "3+",
+            "type": "Extra Attack 3, Psychic Bane"
+          },
+          "Nemesis Daemon Hammer": {
+            "range": "Melee",
+            "S": "10",
+            "AP": "1+",
+            "type": "Slow, Armourbane, Monsterbane, Psychicbane"
+          },
+          "Frag Grenades": {
+            "range": "8",
+            "S": "3",
+            "AP": "-",
+            "type": "Grenade 1, 3\u201d Blast"
+          },
+          "Krak Grenades": {
+            "range": "8",
+            "S": "6",
+            "AP": "4+",
+            "type": "Grenade 1, Nonblast"
+          },
+          "Psykout Grenades": {
+            "range": "8",
+            "S": "3",
+            "AP": "-",
+            "type": "Grenade 1, 3\u201d Blast, Psychic Disruption"
+          },
+          "Meltabombs": {
+            "range": "6",
+            "S": "8",
+            "AP": "1+",
+            "type": "Grenade 1, Armourbane, Monsterbane, Nonblast"
+          }
+        }
       }
     ],
     "flyers": [
@@ -2042,7 +3076,7 @@
             "description": "May swap Skyhammer Missile Launcher for T",
             "choices": [
               {
-                "name": "Skyhammer Missile",
+                "name": "Skyhammer Missile Launcher",
                 "pts_delta": 0
               },
               {
@@ -2073,7 +3107,33 @@
               }
             ]
           }
-        ]
+        ],
+        "weapons": {
+          "Skyhammer Missile Launcher": {
+            "range": "60",
+            "S": "7",
+            "AP": "3+",
+            "type": "Heavy 2, Hull, Primary"
+          },
+          "Cyclone Missile Launcher Bolters": {
+            "range": "36",
+            "S": "8",
+            "AP": "3+",
+            "type": "Heavy 2, Monsterbane, Hull, Or Or Or Primary Or 36       4       6+      Heavy 2, 3\u201d Blast, Hull, Primary 32"
+          },
+          "Las Talon": {
+            "range": "24",
+            "S": "9",
+            "AP": "2+",
+            "type": "Heavy 2, Monsterbane, Sponson, Primary"
+          },
+          "Storm Cannon Cannons": {
+            "range": "24",
+            "S": "7",
+            "AP": "4+",
+            "type": "Heavy 6, Monsterbane, Sponson, Primary"
+          }
+        }
       },
       {
         "name": "Stormraven Gunship",
@@ -2145,7 +3205,15 @@
               }
             ]
           }
-        ]
+        ],
+        "weapons": {
+          "Cyclone Missile Launcher Bolters Multimeltas Cannons Bolters Missile Launchers": {
+            "range": "36",
+            "S": "8",
+            "AP": "3+",
+            "type": "Heavy 2, Monsterbane, Hull, Or Or Or Primary Or 36        4       6+      Heavy 2, 3\u201d Blast, Hull, Primary (Monsterbane), Hull, Primary Primary Sponson"
+          }
+        }
       },
       {
         "name": "Stormtalon Gunship",
@@ -2191,7 +3259,7 @@
             "description": "May swap Skyhammer Missile Launcher for T",
             "choices": [
               {
-                "name": "Skyhammer Missile",
+                "name": "Skyhammer Missile Launcher",
                 "pts_delta": 0
               },
               {
@@ -2209,7 +3277,21 @@
               }
             ]
           }
-        ]
+        ],
+        "weapons": {
+          "Skyhammer Missile Launcher": {
+            "range": "60",
+            "S": "7",
+            "AP": "3+",
+            "type": "Heavy 2, AA, Hull, Primary"
+          },
+          "Cyclone Missile Launcher Bolters Lascannons Cannons": {
+            "range": "36",
+            "S": "8",
+            "AP": "3+",
+            "type": "Heavy 2, Monsterbane, Hull, Or Or Or Primary Or 36        4       6+      Heavy 2, 3\u201d Blast, Hull, Primary Primary Primary"
+          }
+        }
       },
       {
         "name": "Xiphon Interceptor",
@@ -2259,7 +3341,21 @@
               }
             ]
           }
-        ]
+        ],
+        "weapons": {
+          "Xiphon Missile Battery": {
+            "range": "60",
+            "S": "7",
+            "AP": "3+",
+            "type": "Heavy 3, Hull, Primary 35"
+          },
+          "Transport": {
+            "range": "0-1/Legal",
+            "S": "",
+            "AP": "",
+            "type": ""
+          }
+        }
       }
     ],
     "dedicated_transport": [
@@ -2306,7 +3402,7 @@
             "description": "May swap 2 Linked Heavy Bolters for T",
             "choices": [
               {
-                "name": "Multimelta and Plasma Lascannons",
+                "name": "Multimelta and Plasma Gun Lascannons",
                 "pts_delta": 15
               }
             ]
@@ -2355,7 +3451,33 @@
               }
             ]
           }
-        ]
+        ],
+        "weapons": {
+          "Multimelta and Plasma Gun Lascannons": {
+            "range": "24",
+            "S": "8",
+            "AP": "1+",
+            "type": "Heavy 2, Melta, (Monsterbane), And And And Turret, Primary And 24       7       2+       Rapid Fire 1, Gets Hot!, Turret, Primary Turret, Primary"
+          },
+          "Dozerblade": {
+            "range": "Melee",
+            "S": "+1",
+            "AP": "6+",
+            "type": "Accurate, Dozerblade"
+          },
+          "Hunter Killer Missile": {
+            "range": "120",
+            "S": "10",
+            "AP": "3+",
+            "type": "Heavy 1, Monsterbane, One Use Only, Hull"
+          },
+          "Stormbolter": {
+            "range": "24",
+            "S": "4",
+            "AP": "5+",
+            "type": "Rapid Fire 2, Bolter, Turret 36"
+          }
+        }
       },
       {
         "name": "Rhino",
@@ -2439,7 +3561,33 @@
               }
             ]
           }
-        ]
+        ],
+        "weapons": {
+          "Dozerblade": {
+            "range": "Melee",
+            "S": "+1",
+            "AP": "6+",
+            "type": "Accurate, Dozerblade"
+          },
+          "Hunter Killer Missile": {
+            "range": "120",
+            "S": "10",
+            "AP": "3+",
+            "type": "Heavy 1, Monsterbane, One Use Only, Hull"
+          },
+          "Stormbolter": {
+            "range": "24",
+            "S": "4",
+            "AP": "5+",
+            "type": "Rapid Fire 2, Bolter, Turret 37"
+          },
+          "of War": {
+            "range": "0-1",
+            "S": "",
+            "AP": "",
+            "type": ""
+          }
+        }
       }
     ],
     "lord_of_war": [
@@ -2490,11 +3638,11 @@
             "description": "May swap Thunderhawk Heavy Cannon for T",
             "choices": [
               {
-                "name": "Thunderhawk Heavy",
+                "name": "Thunderhawk Heavy Cannon",
                 "pts_delta": 0
               },
               {
-                "name": "Turbo Laser Destructor Lascannons Linked Bolters Hellstrike Racks Bomb",
+                "name": "Turbo Laser Destructor Lascannons Linked Heavy Bolters Hellstrike Missile Racks Bomb Racks",
                 "pts_delta": 9
               }
             ]
@@ -2512,7 +3660,21 @@
               }
             ]
           }
-        ]
+        ],
+        "weapons": {
+          "Thunderhawk Heavy Cannon": {
+            "range": "72",
+            "S": "8",
+            "AP": "3+",
+            "type": "Heavy 1, 7\u201d Blast, Ordnance, Monsterbane, Hull"
+          },
+          "Turbo Laser Destructor Lascannons Linked Heavy Bolters Hellstrike Missile Racks Bomb Racks": {
+            "range": "96",
+            "S": "D",
+            "AP": "1+",
+            "type": "Heavy 1, 5 Blast, Destroyer, Monsterbane, Hull Monsterbane, Hull Barrage, Hull 38"
+          }
+        }
       },
       {
         "name": "Thunderhawk Transporter",
@@ -2570,7 +3732,8 @@
               }
             ]
           }
-        ]
+        ],
+        "weapons": {}
       },
       {
         "name": "Imperial Fortress",
@@ -2620,7 +3783,8 @@
             "description": "May add as many Towers as you want for +387 points",
             "choices": []
           }
-        ]
+        ],
+        "weapons": {}
       }
     ],
     "fortifications": [
@@ -2640,7 +3804,8 @@
         "fixed_wargear": [
           "2 Linked Turbolaser Destructors"
         ],
-        "options": []
+        "options": [],
+        "weapons": {}
       },
       {
         "name": "Aegis Weapon Emplacement",
@@ -2668,7 +3833,15 @@
               }
             ]
           }
-        ]
+        ],
+        "weapons": {
+          "Long Lascannon Lascannons Autocannons Autocannons": {
+            "range": "72",
+            "S": "9",
+            "AP": "2+",
+            "type": "Heavy 1, Monsterbane, AA, Turret Turret Turret Turret"
+          }
+        }
       },
       {
         "name": "Aquila Strongpoint",
@@ -2686,7 +3859,27 @@
         "fixed_wargear": [
           "Plasma Obliterator"
         ],
-        "options": []
+        "options": [],
+        "weapons": {
+          "Plasma Obliterator": {
+            "range": "72",
+            "S": "8",
+            "AP": "2+",
+            "type": "Heavy 1, 7\u201d Blast, Monsterbane, Turret"
+          },
+          "Macro Cannon": {
+            "range": "72",
+            "S": "D",
+            "AP": "1+",
+            "type": "Heavy 1, 5\u201d Blast, Destroyer, Monsterbane, Turret"
+          },
+          "+271 Missile Silo": {
+            "range": "Deathstrike",
+            "S": "12 to",
+            "AP": "D/10 1+/1+ Heavy 1, 15\u201d Blast, Destroyer,",
+            "type": "240 /8 /1+ Ordnance, Monsterbane, Indirect Fire, Ignores Cover, 42 The Hour is Nigh, T Minus 5, Turret"
+          }
+        }
       },
       {
         "name": "Hammerfall Bunker",
@@ -2707,7 +3900,15 @@
           "4 Sets of 2 Linked Heavy",
           "Flamers"
         ],
-        "options": []
+        "options": [],
+        "weapons": {
+          "Heavy Bolter Missile Launchers": {
+            "range": "36",
+            "S": "5",
+            "AP": "4+",
+            "type": "Heavy 3, Hull 43 Or Or Or Turret Or 72 6 5+ Heavy 1 x2, 5\u201d Blast, Turret"
+          }
+        }
       },
       {
         "name": "Hammerfall Bunker",
@@ -2728,7 +3929,15 @@
           "4 Sets of 2 Linked Heavy",
           "Flamers"
         ],
-        "options": []
+        "options": [],
+        "weapons": {
+          "Heavy Bolter Missile Launchers": {
+            "range": "36",
+            "S": "5",
+            "AP": "4+",
+            "type": "Heavy 3, Hull 43 Or Or Or Turret Or 72 6 5+ Heavy 1 x2, 5\u201d Blast, Turret"
+          }
+        }
       },
       {
         "name": "Plasma Obliterator",
@@ -2746,7 +3955,15 @@
         "fixed_wargear": [
           "Plasma Obliterator"
         ],
-        "options": []
+        "options": [],
+        "weapons": {
+          "Plasma Obliterator": {
+            "range": "72",
+            "S": "8",
+            "AP": "2+",
+            "type": "Heavy 1, 7\u201d Blast, Monsterbane, Turret 44"
+          }
+        }
       },
       {
         "name": "Plasma Obliterator",
@@ -2764,7 +3981,15 @@
         "fixed_wargear": [
           "Plasma Obliterator"
         ],
-        "options": []
+        "options": [],
+        "weapons": {
+          "Plasma Obliterator": {
+            "range": "72",
+            "S": "8",
+            "AP": "2+",
+            "type": "Heavy 1, 7\u201d Blast, Monsterbane, Turret 44"
+          }
+        }
       },
       {
         "name": "Void Shield Generator",
@@ -2782,7 +4007,8 @@
         "fixed_wargear": [
           "none"
         ],
-        "options": []
+        "options": [],
+        "weapons": {}
       },
       {
         "name": "Void Shield Generator",
@@ -2800,7 +4026,8 @@
         "fixed_wargear": [
           "none"
         ],
-        "options": []
+        "options": [],
+        "weapons": {}
       }
     ]
   }

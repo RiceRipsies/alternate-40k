@@ -81,7 +81,8 @@
               }
             ]
           }
-        ]
+        ],
+        "weapons": {}
       },
       {
         "name": "Tor Garadon",
@@ -133,7 +134,27 @@
               }
             ]
           }
-        ]
+        ],
+        "weapons": {
+          "Grav Gun": {
+            "range": "18",
+            "S": "*",
+            "AP": "-",
+            "type": "Rapid Fire 1, Grav"
+          },
+          "Spartean": {
+            "range": "18",
+            "S": "5",
+            "AP": "4+",
+            "type": "Pistol 1"
+          },
+          "Hand of Defiance": {
+            "range": "Melee",
+            "S": "X2",
+            "AP": "1+",
+            "type": "Slow, Armourbane, Monsterbane 4"
+          }
+        }
       }
     ]
   }

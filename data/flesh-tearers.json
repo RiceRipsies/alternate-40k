@@ -75,7 +75,33 @@
           "Orbital Strike",
           "Iron Halo"
         ],
-        "options": []
+        "options": [],
+        "weapons": {
+          "Blood Reaver": {
+            "range": "Melee",
+            "S": "+3",
+            "AP": "4+",
+            "type": "Rending"
+          },
+          "Frag Grenades": {
+            "range": "8",
+            "S": "3",
+            "AP": "-",
+            "type": "Grenade 1, 3\u201d Blast"
+          },
+          "Krak Grenades": {
+            "range": "8",
+            "S": "6",
+            "AP": "4+",
+            "type": "Grenade 1, Nonblast"
+          },
+          "Orbital Strike": {
+            "range": "12-240",
+            "S": "D/10",
+            "AP": "1+",
+            "type": "/1+ Heavy 1, 15\u201d Blast, Destroyer, Indirect Fire, Ignores Cover, The Hour is Nigh, T Minus 5, One Use Only 4"
+          }
+        }
       }
     ]
   }

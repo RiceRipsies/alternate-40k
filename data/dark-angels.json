@@ -79,7 +79,39 @@
             "description": "May take one B",
             "choices": []
           }
-        ]
+        ],
+        "weapons": {
+          "Crozium Arcanum": {
+            "range": "Melee",
+            "S": "+2",
+            "AP": "4+",
+            "type": "Concussion And And And And Flame     5      4+        Assault 1, One Use Only"
+          },
+          "Blades of Reason": {
+            "range": "Melee",
+            "S": "User",
+            "AP": "2+",
+            "type": "Poisoned (2+)"
+          },
+          "Bolt Pistol": {
+            "range": "12",
+            "S": "4",
+            "AP": "5+",
+            "type": "Pistol 1"
+          },
+          "Frag Grenades": {
+            "range": "8",
+            "S": "3",
+            "AP": "-",
+            "type": "Grenade 1, 3\u201d Blast"
+          },
+          "Krak Grenades": {
+            "range": "8",
+            "S": "6",
+            "AP": "4+",
+            "type": "Grenade 1, Nonblast"
+          }
+        }
       },
       {
         "name": "Azrael",
@@ -134,7 +166,45 @@
             "description": "May take one B A+1. Gain Transhuman Physiology, Stubborn. Lose Objective Secured, Grenades.",
             "choices": []
           }
-        ]
+        ],
+        "weapons": {
+          "Lion\u2019s Wrath": {
+            "range": "24",
+            "S": "7",
+            "AP": "2+",
+            "type": "Rapid Fire 1 And       And    And       And 24        4      5+        Rapid Fire 1, Bolter"
+          },
+          "Bolt Pistol": {
+            "range": "12",
+            "S": "4",
+            "AP": "5+",
+            "type": "Pistol 1"
+          },
+          "Sword of Secrets": {
+            "range": "Melee",
+            "S": "+2",
+            "AP": "2+",
+            "type": "Extra Attack 1"
+          },
+          "Frag Grenades": {
+            "range": "8",
+            "S": "3",
+            "AP": "-",
+            "type": "Grenade 1, 3\u201d Blast"
+          },
+          "Krak Grenades": {
+            "range": "8",
+            "S": "6",
+            "AP": "4+",
+            "type": "Grenade 1, Nonblast"
+          },
+          "Orbital Strike": {
+            "range": "12-240",
+            "S": "D/10",
+            "AP": "1+",
+            "type": "/1+ Heavy 1, 15\u201d Blast, Destroyer, /8     /1+       Ordnance, Monsterbane, Indirect Fire, Ignores Cover, The Hour is Nigh, T Minus 5, One Use Only, Turret 5"
+          }
+        }
       },
       {
         "name": "Belial",
@@ -190,7 +260,27 @@
               }
             ]
           }
-        ]
+        ],
+        "weapons": {
+          "Stormbolter": {
+            "range": "24",
+            "S": "4",
+            "AP": "5+",
+            "type": "Rapid Fire 2, Bolter"
+          },
+          "Sword of Silence": {
+            "range": "Melee",
+            "S": "User",
+            "AP": "3+",
+            "type": "Poisoned (3+)"
+          },
+          "Thunderhammer": {
+            "range": "Melee",
+            "S": "10",
+            "AP": "1+",
+            "type": "Slow, Monsterbane 6"
+          }
+        }
       },
       {
         "name": "Ezekiel",
@@ -241,27 +331,27 @@
             "description": "May take one S for each Psychic Mastery Level",
             "choices": [
               {
-                "name": "Cause Misfortune Cast",
+                "name": "Cause Misfortune Cast 7+",
                 "pts_delta": 10
               },
               {
-                "name": "Forewarning Cast",
+                "name": "Forewarning Cast 6+",
                 "pts_delta": 10
               },
               {
-                "name": "Bolster Cast",
+                "name": "Bolster Cast 6+",
                 "pts_delta": 15
               },
               {
-                "name": "Enfeeble Cast",
+                "name": "Enfeeble Cast 8+",
                 "pts_delta": 20
               },
               {
-                "name": "Endurance Cast",
+                "name": "Endurance Cast 7+",
                 "pts_delta": 20
               },
               {
-                "name": "Melting Beam Cast",
+                "name": "Melting Beam Cast 7+",
                 "pts_delta": 22
               }
             ]
@@ -275,7 +365,69 @@
               }
             ]
           }
-        ]
+        ],
+        "weapons": {
+          "Mastercraft Bolt Pistol": {
+            "range": "12",
+            "S": "5",
+            "AP": "4+",
+            "type": "Pistol 1"
+          },
+          "Traitor\u2019s Bane": {
+            "range": "Melee",
+            "S": "+1",
+            "AP": "2+",
+            "type": "Psychic Bane"
+          },
+          "Frag Grenades": {
+            "range": "8",
+            "S": "3",
+            "AP": "-",
+            "type": "Grenade 1, 3\u201d Blast"
+          },
+          "Krak Grenades": {
+            "range": "8",
+            "S": "6",
+            "AP": "4+",
+            "type": "Grenade 1, Nonblast"
+          },
+          "Cause Misfortune Cast 7+": {
+            "range": "18",
+            "S": "-",
+            "AP": "-",
+            "type": "Target unit gains Rending on all Ranged and Melee Attacks until your next Psychic Phase"
+          },
+          "Forewarning Cast 6+": {
+            "range": "18",
+            "S": "-",
+            "AP": "-",
+            "type": "Target unit gains 4+ Cover Save until your next Psychic Phase"
+          },
+          "Bolster Cast 6+": {
+            "range": "18",
+            "S": "-",
+            "AP": "-",
+            "type": "Target unit counts as having not Moved for the purposes of Shooting until your next Psychic Phase"
+          },
+          "Enfeeble Cast 8+": {
+            "range": "18",
+            "S": "-",
+            "AP": "-",
+            "type": "Target unit suffers T-1 until your next Psychic Phase"
+          },
+          "Endurance Cast 7+": {
+            "range": "18",
+            "S": "-",
+            "AP": "-",
+            "type": "Target unit gains T+1 until your next Psychic Phase 7"
+          },
+          "Melting Beam Cast 7+": {
+            "range": "18",
+            "S": "8",
+            "AP": "1+",
+            "type": "Assault 1, Armourbane, Beam"
+          }
+        }
       },
       {
         "name": "Master Lazarus",
@@ -322,7 +474,21 @@
             "description": "May take one B",
             "choices": []
           }
-        ]
+        ],
+        "weapons": {
+          "Bolt Pistol": {
+            "range": "12",
+            "S": "4",
+            "AP": "5+",
+            "type": "Pistol 1"
+          },
+          "Enmity\u2019s Edge": {
+            "range": "Melee",
+            "S": "+1",
+            "AP": "2+",
+            "type": "Sniper (3+) 8"
+          }
+        }
       },
       {
         "name": "Lion El\u2019Jonson",
@@ -368,7 +534,27 @@
           "Orbital Strike",
           "The Emperor\u2019s Shield"
         ],
-        "options": []
+        "options": [],
+        "weapons": {
+          "Arma Luminis": {
+            "range": "12",
+            "S": "8",
+            "AP": "2+",
+            "type": "Pistol 1 And      And     And   And 9 12     4          4+       Pistol 2"
+          },
+          "Fealty": {
+            "range": "Melee +2",
+            "S": "2+",
+            "AP": "Extra Attack 2",
+            "type": ""
+          },
+          "Orbital Strike": {
+            "range": "12-240 D/10",
+            "S": "1+/1+",
+            "AP": "Heavy 1, 15\u201d Blast, Destroyer,",
+            "type": "/8         /1+      Ordnance, Monsterbane, Indirect Fire, Ignores Cover, The Hour is Nigh, T Minus 5, One Use Only, Turret"
+          }
+        }
       },
       {
         "name": "Pistol 2",
@@ -437,7 +623,8 @@
           }
         ],
         "fixed_wargear": [],
-        "options": []
+        "options": [],
+        "weapons": {}
       }
     ],
     "elites": [
@@ -525,7 +712,7 @@
                 "pts_delta": 11
               },
               {
-                "name": "Cyclone Missile Launcher Stormbolter",
+                "name": "Cyclone Missile Launcher and Stormbolter",
                 "pts_delta": 25
               },
               {
@@ -570,7 +757,87 @@
               }
             ]
           }
-        ]
+        ],
+        "weapons": {
+          "Stormbolter": {
+            "range": "24",
+            "S": "4",
+            "AP": "5+",
+            "type": "Rapid Fire 2, Bolter"
+          },
+          "Heavy Flamer": {
+            "range": "Flame",
+            "S": "5",
+            "AP": "4+",
+            "type": "Assault 1"
+          },
+          "Plasma Cannon": {
+            "range": "36",
+            "S": "7",
+            "AP": "2+",
+            "type": "Heavy 1, 3\u201d Blast, Gets Hot!"
+          },
+          "Cyclone Missile Launcher and Stormbolter": {
+            "range": "36",
+            "S": "8",
+            "AP": "3+",
+            "type": "Heavy 2, Monsterbane Or Or Or Or 36 4 6+ Heavy 2, 3\u201d Blast And      And     And     And 24       4       5+      Rapid Fire 2, Bolter"
+          },
+          "Assault Cannon": {
+            "range": "36",
+            "S": "6",
+            "AP": "4+",
+            "type": "Assault 6, Rending"
+          },
+          "Power Sword": {
+            "range": "Melee",
+            "S": "+1",
+            "AP": "3+",
+            "type": "None 12"
+          },
+          "Lightning Claw": {
+            "range": "Melee",
+            "S": "User",
+            "AP": "3+",
+            "type": "Reroll failed To Wound rolls"
+          },
+          "Power Maul": {
+            "range": "Melee",
+            "S": "+2",
+            "AP": "4+",
+            "type": "Concussion"
+          },
+          "Power Fist": {
+            "range": "Melee",
+            "S": "X2",
+            "AP": "2+",
+            "type": "Slow, Monsterbane"
+          },
+          "Chain Fist": {
+            "range": "Melee",
+            "S": "X2",
+            "AP": "1+",
+            "type": "Slow, Monsterbane, +1 on To Penetrate rolls (not Vehicle Damage Chart)"
+          },
+          "Thunderhammer": {
+            "range": "Melee",
+            "S": "10",
+            "AP": "1+",
+            "type": "Slow"
+          },
+          "+11": {
+            "range": "Flail of the",
+            "S": "Melee",
+            "AP": "+3 3+ Concussion, Extra Attack 1",
+            "type": ""
+          },
+          "Unforgiven": {
+            "range": "",
+            "S": "",
+            "AP": "",
+            "type": ""
+          }
+        }
       },
       {
         "name": "Inner Circle Companions",
@@ -619,7 +886,27 @@
               }
             ]
           }
-        ]
+        ],
+        "weapons": {
+          "Heavy Bolt Pistol": {
+            "range": "18",
+            "S": "4",
+            "AP": "4+",
+            "type": "Pistol 1"
+          },
+          "Calibanite Greatsword": {
+            "range": "Melee",
+            "S": "+2",
+            "AP": "2+",
+            "type": "Extra Attack 1 13"
+          },
+          "Deathwing": {
+            "range": "Points: 753",
+            "S": "",
+            "AP": "",
+            "type": ""
+          }
+        }
       },
       {
         "name": "Special Wargear:",
@@ -673,7 +960,8 @@
             "description": "May take up to 5 more Terminators for +149 points each Sergeant may swap Power Sword for DAM or M Any model may swap Stormbolter for S or E Any model may swap Power Sword for M",
             "choices": []
           }
-        ]
+        ],
+        "weapons": {}
       }
     ],
     "fast_attack": [
@@ -809,7 +1097,99 @@
               }
             ]
           }
-        ]
+        ],
+        "weapons": {
+          "Stormbolter": {
+            "range": "24",
+            "S": "4",
+            "AP": "5+",
+            "type": "Rapid Fire 2, Bolter"
+          },
+          "Ravenwing Grenade Launcher": {
+            "range": "24",
+            "S": "6",
+            "AP": "4+",
+            "type": "Rapid Fire 1 Or Or Or Or 24 3 - Rapid Fire 1, 3\u201d Blast, Poisoned (3+)"
+          },
+          "Plasma Talon": {
+            "range": "24",
+            "S": "7",
+            "AP": "2+",
+            "type": "Rapid Fire 1 x2, Gets Hot!"
+          },
+          "Bolt Pistol": {
+            "range": "12",
+            "S": "4",
+            "AP": "5+",
+            "type": "Pistol 1"
+          },
+          "Combat Knife": {
+            "range": "Melee",
+            "S": "User",
+            "AP": "-",
+            "type": "Extra Attack 1"
+          },
+          "Lightning Claw": {
+            "range": "Melee",
+            "S": "User",
+            "AP": "3+",
+            "type": "Reroll failed To Wound rolls"
+          },
+          "Power Sword": {
+            "range": "Melee",
+            "S": "+1",
+            "AP": "3+",
+            "type": "None"
+          },
+          "Power Axe": {
+            "range": "Melee",
+            "S": "+2",
+            "AP": "4+",
+            "type": "None"
+          },
+          "Power Maul": {
+            "range": "Melee",
+            "S": "+2",
+            "AP": "4+",
+            "type": "Concussion"
+          },
+          "Power Fist": {
+            "range": "Melee",
+            "S": "X2",
+            "AP": "2+",
+            "type": "Slow, Monsterbane"
+          },
+          "Thunderhammer": {
+            "range": "Melee",
+            "S": "10",
+            "AP": "1+",
+            "type": "Slow, Monsterbane"
+          },
+          "Corvus Hammer": {
+            "range": "Melee",
+            "S": "+1",
+            "AP": "-",
+            "type": "Rending"
+          },
+          "Frag Grenades": {
+            "range": "8",
+            "S": "3",
+            "AP": "-",
+            "type": "Grenade 1, 3\u201d Blast"
+          },
+          "Krak Grenades": {
+            "range": "8",
+            "S": "6",
+            "AP": "4+",
+            "type": "Grenade 1, Nonblast"
+          },
+          "Meltabombs": {
+            "range": "6",
+            "S": "8",
+            "AP": "1+",
+            "type": "Grenade 1, Armourbane, Monsterbane, Nonblast"
+          }
+        }
       },
       {
         "name": "Ravenwing Land Speeder",
@@ -864,7 +1244,27 @@
               }
             ]
           }
-        ]
+        ],
+        "weapons": {
+          "Heavy Bolter": {
+            "range": "36",
+            "S": "5",
+            "AP": "4+",
+            "type": "Heavy 3, Sponson, Primary"
+          },
+          "Assault Cannon": {
+            "range": "36",
+            "S": "6",
+            "AP": "4+",
+            "type": "Assault 6, Rending, Sponson"
+          },
+          "Support": {
+            "range": "0-3",
+            "S": "",
+            "AP": "",
+            "type": ""
+          }
+        }
       }
     ],
     "heavy_support": [
@@ -928,7 +1328,33 @@
             "description": "May take up to one of each E",
             "choices": []
           }
-        ]
+        ],
+        "weapons": {
+          "Demolisher Cannon Linked Heavy Flamers": {
+            "range": "24",
+            "S": "10",
+            "AP": "2+",
+            "type": "Heavy 1, 5\u201d Blast, Ordnance, Monsterbane, Hull, Primary"
+          },
+          "Siege Shield": {
+            "range": "Melee",
+            "S": "+3",
+            "AP": "4+",
+            "type": "Accurate, Siege Shield"
+          },
+          "Hunter Killer Missile": {
+            "range": "120",
+            "S": "10",
+            "AP": "3+",
+            "type": "Heavy 1, Monsterbane, One Use Only, Hull"
+          },
+          "Stormbolter": {
+            "range": "24",
+            "S": "4",
+            "AP": "5+",
+            "type": "Rapid Fire 2, Bolter, Turret 17"
+          }
+        }
       }
     ],
     "flyers": [
@@ -978,7 +1404,7 @@
             "description": "May swap Avenger Bolt Cannon for T",
             "choices": [
               {
-                "name": "Avenger Bolt Cannon Lascannons Bolters Blacksword Missile",
+                "name": "Avenger Bolt Cannon Lascannons Bolters Blacksword Missile Racks",
                 "pts_delta": 0
               }
             ]
@@ -992,7 +1418,15 @@
               }
             ]
           }
-        ]
+        ],
+        "weapons": {
+          "Avenger Bolt Cannon Lascannons Bolters Blacksword Missile Racks": {
+            "range": "36",
+            "S": "6",
+            "AP": "3+",
+            "type": "Heavy 12, Hull, Primary Primary Monsterbane, AA, Hull 19"
+          }
+        }
       },
       {
         "name": "Nephilim Jetfighter",
@@ -1038,7 +1472,7 @@
             "description": "May swap Avenger Bolt Cannon for T",
             "choices": [
               {
-                "name": "Avenger Bolt Cannon Lascannons Bolters Blacksword Missile",
+                "name": "Avenger Bolt Cannon Lascannons Bolters Blacksword Missile Racks",
                 "pts_delta": 0
               }
             ]
@@ -1052,7 +1486,15 @@
               }
             ]
           }
-        ]
+        ],
+        "weapons": {
+          "Avenger Bolt Cannon Lascannons Bolters Blacksword Missile Racks": {
+            "range": "36",
+            "S": "6",
+            "AP": "3+",
+            "type": "Heavy 12, Hull, Primary Primary Monsterbane, AA, Hull 19"
+          }
+        }
       }
     ]
   }

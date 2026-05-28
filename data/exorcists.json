@@ -61,7 +61,33 @@
           "Krak Grenades",
           "Iron Halo"
         ],
-        "options": []
+        "options": [],
+        "weapons": {
+          "Bolt Pistol": {
+            "range": "12",
+            "S": "4",
+            "AP": "5+",
+            "type": "Pistol 1"
+          },
+          "The Hellslayer": {
+            "range": "Melee",
+            "S": "10",
+            "AP": "1+",
+            "type": "Extra Attack 1, Slow, Armourbane, Monsterbane, Psychicbane"
+          },
+          "Frag Grenades": {
+            "range": "8",
+            "S": "3",
+            "AP": "-",
+            "type": "Grenade 1, 3\u201d Blast"
+          },
+          "Krak Grenades": {
+            "range": "8",
+            "S": "6",
+            "AP": "4+",
+            "type": "Grenade 1, Nonblast 3"
+          }
+        }
       }
     ]
   }

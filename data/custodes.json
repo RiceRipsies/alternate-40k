@@ -97,7 +97,21 @@
             "description": "May swap Hurricane Bolter for S if Dawneagle Jetbike is taken",
             "choices": []
           }
-        ]
+        ],
+        "weapons": {
+          "Watcher\u2019s Axe": {
+            "range": "Melee",
+            "S": "X2",
+            "AP": "2+",
+            "type": "No Invulnerability Saves, Slow, Monsterbane"
+          },
+          "Misericordia": {
+            "range": "Melee",
+            "S": "User",
+            "AP": "4+",
+            "type": "Extra Attack 2, Auxiliary 4"
+          }
+        }
       },
       {
         "name": "Shield Captain",
@@ -186,7 +200,21 @@
             "description": "May swap Hurricane Bolter for S if Dawneagle Jetbike is taken",
             "choices": []
           }
-        ]
+        ],
+        "weapons": {
+          "Watcher\u2019s Axe": {
+            "range": "Melee",
+            "S": "X2",
+            "AP": "2+",
+            "type": "No Invulnerability Saves, Slow, Monsterbane"
+          },
+          "Misericordia": {
+            "range": "Melee",
+            "S": "User",
+            "AP": "4+",
+            "type": "Extra Attack 2, Auxiliary 4"
+          }
+        }
       },
       {
         "name": "Valerian and Aleya",
@@ -257,7 +285,33 @@
           "Somnus Blade",
           "Psykout Grenades"
         ],
-        "options": []
+        "options": [],
+        "weapons": {
+          "Gnosis": {
+            "range": "24",
+            "S": "4",
+            "AP": "5+",
+            "type": "Rapid Fire 1 Melee    +2     2+     None"
+          },
+          "Somnus Blade": {
+            "range": "Melee",
+            "S": "+3",
+            "AP": "2+",
+            "type": "Extra Attack 1"
+          },
+          "Misericordia": {
+            "range": "Melee",
+            "S": "User",
+            "AP": "4+",
+            "type": "Extra Attack 2, Auxiliary"
+          },
+          "Psykout Grenades": {
+            "range": "8",
+            "S": "3",
+            "AP": "-",
+            "type": "Grenade 1, 3\u201d Blast, Psychic Disruption"
+          }
+        }
       }
     ],
     "advisors": [
@@ -297,7 +351,15 @@
         "fixed_wargear": [
           "Vaultswords"
         ],
-        "options": []
+        "options": [],
+        "weapons": {
+          "Vaultswords": {
+            "range": "Melee",
+            "S": "+2",
+            "AP": "1+",
+            "type": "Extra Attack 1 6"
+          }
+        }
       },
       {
         "name": "Knight Centura",
@@ -348,7 +410,33 @@
               }
             ]
           }
-        ]
+        ],
+        "weapons": {
+          "Special Issue Bolter": {
+            "range": "30",
+            "S": "4",
+            "AP": "3+",
+            "type": "Rapid Fire 1"
+          },
+          "Flamer": {
+            "range": "Flame",
+            "S": "4",
+            "AP": "5+",
+            "type": "Assault 1"
+          },
+          "Executioner Sword": {
+            "range": "Melee",
+            "S": "+3",
+            "AP": "2+",
+            "type": "None"
+          },
+          "Psykout Grenades": {
+            "range": "8",
+            "S": "3",
+            "AP": "-",
+            "type": "Grenade 1, 3\u201d Blast, Psychic Disruption 7"
+          }
+        }
       },
       {
         "name": "Vexilus Praetor",
@@ -426,7 +514,27 @@
             "description": "May take one C",
             "choices": []
           }
-        ]
+        ],
+        "weapons": {
+          "Guardian Spear": {
+            "range": "24",
+            "S": "4",
+            "AP": "5+",
+            "type": "Rapid Fire 1 Melee     +2      2+        None"
+          },
+          "Castellan Axe": {
+            "range": "24",
+            "S": "4",
+            "AP": "5+",
+            "type": "Rapid Fire 1 Melee     X2      2+        Slow, Monsterbane"
+          },
+          "Misericordia": {
+            "range": "Melee",
+            "S": "User",
+            "AP": "4+",
+            "type": "Extra Attack 2, Auxiliary 8"
+          }
+        }
       }
     ],
     "troops": [
@@ -476,7 +584,8 @@
               }
             ]
           }
-        ]
+        ],
+        "weapons": {}
       },
       {
         "name": "Sagittarum Squad",
@@ -524,7 +633,21 @@
               }
             ]
           }
-        ]
+        ],
+        "weapons": {
+          "Adrastus Bolt Cavalier": {
+            "range": "36",
+            "S": "5",
+            "AP": "3+",
+            "type": "Assault 3 Or Or Or Or 18        8       2+         Assault 1, Monsterbane"
+          },
+          "Misericordia": {
+            "range": "Melee",
+            "S": "User",
+            "AP": "4+",
+            "type": "Extra Attack 2 10"
+          }
+        }
       }
     ],
     "elites": [
@@ -595,7 +718,15 @@
             "description": "May take up to 5 more Sisters for +45 points each Any model may swap Special Issue Boltgun for S or M",
             "choices": []
           }
-        ]
+        ],
+        "weapons": {
+          "Infantry": {
+            "range": "",
+            "S": "",
+            "AP": "",
+            "type": ""
+          }
+        }
       },
       {
         "name": "Allarus Squad",
@@ -640,7 +771,8 @@
             "description": "May take up to 5 more models for +188 points each Any model may swap Guardian Spear for M Any model may take one K",
             "choices": []
           }
-        ]
+        ],
+        "weapons": {}
       },
       {
         "name": "Aquilon Squad",
@@ -706,7 +838,39 @@
               }
             ]
           }
-        ]
+        ],
+        "weapons": {
+          "Solerite Power Talon": {
+            "range": "Melee",
+            "S": "+1",
+            "AP": "3+",
+            "type": "Extra Attack 1"
+          },
+          "Solerite Power Gauntlet": {
+            "range": "Melee",
+            "S": "X2",
+            "AP": "1+",
+            "type": "Slow, Monsterbane"
+          },
+          "Lastrum Stormbolter Adrathic Destructors": {
+            "range": "24",
+            "S": "5",
+            "AP": "4+",
+            "type": "Rapid Fire 2"
+          },
+          "Infernus Firepike": {
+            "range": "Flame",
+            "S": "6",
+            "AP": "4+",
+            "type": "Assault 1"
+          },
+          "Misericordia": {
+            "range": "Melee",
+            "S": "User",
+            "AP": "4+",
+            "type": "Extra Attack 2, Auxiliary 13"
+          }
+        }
       },
       {
         "name": "Warden Squad",
@@ -749,7 +913,8 @@
             "description": "May take up to 5 more models for +187 points each Any model may swap Guardian Spear for M Any model may take one K",
             "choices": []
           }
-        ]
+        ],
+        "weapons": {}
       },
       {
         "name": "Contemptor Achillus:",
@@ -795,7 +960,8 @@
             "description": "May swap any Lastrum Stormbolter for S",
             "choices": []
           }
-        ]
+        ],
+        "weapons": {}
       },
       {
         "name": "Assault 1, Reroll failed To",
@@ -830,7 +996,8 @@
           }
         ],
         "fixed_wargear": [],
-        "options": []
+        "options": [],
+        "weapons": {}
       },
       {
         "name": "Contemptor:",
@@ -871,7 +1038,8 @@
             "description": "May swap any Volkite Culverin for H",
             "choices": []
           }
-        ]
+        ],
+        "weapons": {}
       }
     ],
     "fast_attack": [
@@ -917,7 +1085,8 @@
             "description": "May take up to 5 more models for +235 points each Any model may swap Lastrum Bolt Cannon for H Any model may take one K",
             "choices": []
           }
-        ]
+        ],
+        "weapons": {}
       },
       {
         "name": "Ventari Squad",
@@ -967,7 +1136,27 @@
               }
             ]
           }
-        ]
+        ],
+        "weapons": {
+          "Ventari Lance": {
+            "range": "12",
+            "S": "6",
+            "AP": "3+",
+            "type": "Assault 2 Melee    +1      2+       Extra Attack 1"
+          },
+          "Kinetic Destroyer": {
+            "range": "18",
+            "S": "6",
+            "AP": "5+",
+            "type": "Pistol 3, Tesla"
+          },
+          "Misericordia": {
+            "range": "Melee",
+            "S": "User",
+            "AP": "4+",
+            "type": "Extra Attack 2, Auxiliary"
+          }
+        }
       },
       {
         "name": "Vertus Praetor Squad",
@@ -1012,7 +1201,8 @@
             "description": "May take up to 5 more models for +221 points each Any model may swap Hurricane Bolter for H Any model may take one K",
             "choices": []
           }
-        ]
+        ],
+        "weapons": {}
       },
       {
         "name": "Pallas Grav Attack",
@@ -1049,7 +1239,15 @@
           "2 Linked Arachnus Blaze",
           "Cannons"
         ],
-        "options": []
+        "options": [],
+        "weapons": {
+          "Support": {
+            "range": "0-3",
+            "S": "",
+            "AP": "",
+            "type": ""
+          }
+        }
       }
     ],
     "heavy_support": [
@@ -1094,7 +1292,8 @@
             "description": "May swap 2 Linked Ilastus Accelerator Cannons for T",
             "choices": []
           }
-        ]
+        ],
+        "weapons": {}
       },
       {
         "name": "Telemon Heavy Dreadnought",
@@ -1143,7 +1342,7 @@
                 "pts_delta": 0
               },
               {
-                "name": "Telemon Caestus with Projector",
+                "name": "Telemon Caestus with Plasma Projector Array",
                 "pts_delta": 21
               },
               {
@@ -1152,7 +1351,33 @@
               }
             ]
           }
-        ]
+        ],
+        "weapons": {
+          "Ilastus Accelerator Cannon": {
+            "range": "60",
+            "S": "8",
+            "AP": "2+",
+            "type": "Heavy 4, Monsterbane, Hull, Primary"
+          },
+          "Telemon Caestus with Plasma Projector Array": {
+            "range": "Flame",
+            "S": "6",
+            "AP": "3+",
+            "type": "Assault 1, Rerolled failed To Or Or Or Wound rolls, Hull Melee X2 2+ Or Slow, Monsterbane, Primary"
+          },
+          "Arachnus Storm Cannon": {
+            "range": "48",
+            "S": "8",
+            "AP": "1+",
+            "type": "Heavy 1, Armourbane, And And And Monsterbane, Hull, Primary Or 48       7       3+      Heavy 6, Hull, Primary"
+          },
+          "Spiculus Bolt Launcher": {
+            "range": "24",
+            "S": "5",
+            "AP": "4+",
+            "type": "Heavy 5, Volley Fire, Hull 21"
+          }
+        }
       },
       {
         "name": "Venerable Landraider",
@@ -1208,7 +1433,21 @@
               }
             ]
           }
-        ]
+        ],
+        "weapons": {
+          "Hunter Killer Missile": {
+            "range": "120",
+            "S": "10",
+            "AP": "3+",
+            "type": "Heavy 1, Monsterbane, One User Only, Turret"
+          },
+          "Stormbolter": {
+            "range": "24",
+            "S": "4",
+            "AP": "5+",
+            "type": "Rapid Fire 2, Turret"
+          }
+        }
       }
     ],
     "flyers": [
@@ -1249,7 +1488,21 @@
           "Cannons",
           "Infernus Bombs"
         ],
-        "options": []
+        "options": [],
+        "weapons": {
+          "Arachnus Magna Blaze Cannon Arachnus Blaze Cannons": {
+            "range": "72",
+            "S": "D",
+            "AP": "1+",
+            "type": "Heavy 1, Destroyer, Or Or Or Monsterbane, Hull, Primary Or 72        9      2+       Heavy 3, Monsterbane, Hull, Primary 22 Or Or Or Monsterbane, Hull, Primary Or 48 6 3+ Heavy 1 x2, 5\u201d Blast, Hull, Primary"
+          },
+          "Infernus Bombs": {
+            "range": "Bomb",
+            "S": "6",
+            "AP": "4+",
+            "type": "Heavy 1, Bomb, 5\u201d Blast, Hull"
+          }
+        }
       },
       {
         "name": "Orion Assault Dropship",
@@ -1290,7 +1543,15 @@
           "2 Linked Lastrum Bolt Cannons",
           "2 Spiculus Heavy Bolt Launchers"
         ],
-        "options": []
+        "options": [],
+        "weapons": {
+          "Transport": {
+            "range": "0-1/Legal",
+            "S": "",
+            "AP": "",
+            "type": ""
+          }
+        }
       }
     ],
     "dedicated_transport": [
@@ -1349,7 +1610,27 @@
               }
             ]
           }
-        ]
+        ],
+        "weapons": {
+          "Hunter Killer Missile": {
+            "range": "120",
+            "S": "10",
+            "AP": "3+",
+            "type": "Heavy 1, Monsterbane, One Use Only, Turret"
+          },
+          "Stormbolter": {
+            "range": "24",
+            "S": "4",
+            "AP": "5+",
+            "type": "Rapid Fire 2, Turret 24"
+          },
+          "of War": {
+            "range": "0-1",
+            "S": "",
+            "AP": "",
+            "type": ""
+          }
+        }
       },
       {
         "name": "Rhino",
@@ -1403,7 +1684,27 @@
               }
             ]
           }
-        ]
+        ],
+        "weapons": {
+          "Hunter Killer Missile": {
+            "range": "120",
+            "S": "10",
+            "AP": "3+",
+            "type": "Heavy 1, Monsterbane, One Use Only, Turret"
+          },
+          "Stormbolter": {
+            "range": "24",
+            "S": "4",
+            "AP": "5+",
+            "type": "Rapid Fire 2, Turret 24"
+          },
+          "of War": {
+            "range": "0-1",
+            "S": "",
+            "AP": "",
+            "type": ""
+          }
+        }
       }
     ],
     "lord_of_war": [
@@ -1455,7 +1756,8 @@
             "description": "May add as many Towers as you want for +387 points",
             "choices": []
           }
-        ]
+        ],
+        "weapons": {}
       }
     ],
     "fortifications": [
@@ -1475,7 +1777,8 @@
         "fixed_wargear": [
           "2 Linked Turbolaser Destructors"
         ],
-        "options": []
+        "options": [],
+        "weapons": {}
       },
       {
         "name": "Aegis Weapon Emplacement",
@@ -1503,7 +1806,15 @@
               }
             ]
           }
-        ]
+        ],
+        "weapons": {
+          "Long Lascannon Lascannons Autocannons Autocannons": {
+            "range": "72",
+            "S": "9",
+            "AP": "2+",
+            "type": "Heavy 1, Monsterbane, AA, Turret Turret Turret Turret 27"
+          }
+        }
       },
       {
         "name": "Aquila Strongpoint",
@@ -1521,7 +1832,27 @@
         "fixed_wargear": [
           "Plasma Obliterator"
         ],
-        "options": []
+        "options": [],
+        "weapons": {
+          "Plasma Obliterator": {
+            "range": "72",
+            "S": "8",
+            "AP": "2+",
+            "type": "Heavy 1, 7\u201d Blast, Monsterbane, Turret"
+          },
+          "Macro Cannon": {
+            "range": "72",
+            "S": "D",
+            "AP": "1+",
+            "type": "Heavy 1, 5\u201d Blast, Destroyer, Monsterbane, Turret"
+          },
+          "+271 Missile Silo": {
+            "range": "Deathstrike",
+            "S": "12 to",
+            "AP": "D/10 1+/1+ Heavy 1, 15\u201d Blast, Destroyer,",
+            "type": "240 /8 /1+ Ordnance, Monsterbane, Indirect Fire, Ignores Cover, The Hour is Nigh, T Minus 5, Turret"
+          }
+        }
       },
       {
         "name": "Firestorm Redoubt",
@@ -1554,7 +1885,21 @@
               }
             ]
           }
-        ]
+        ],
+        "weapons": {
+          "Punisher Gatling Gun": {
+            "range": "24",
+            "S": "5",
+            "AP": "-",
+            "type": "Heavy 20, Turret"
+          },
+          "Battle Cannon Lascannons": {
+            "range": "72",
+            "S": "8",
+            "AP": "3+",
+            "type": "Heavy 1, 5\u201d Blast, Ordnance, Monsterbane, Turret Turret"
+          }
+        }
       },
       {
         "name": "Plasma Obliterator",
@@ -1572,7 +1917,15 @@
         "fixed_wargear": [
           "Plasma Obliterator"
         ],
-        "options": []
+        "options": [],
+        "weapons": {
+          "Plasma Obliterator": {
+            "range": "72",
+            "S": "8",
+            "AP": "2+",
+            "type": "Heavy 1, 7\u201d Blast, Monsterbane, Turret"
+          }
+        }
       },
       {
         "name": "Plasma Obliterator",
@@ -1590,7 +1943,15 @@
         "fixed_wargear": [
           "Plasma Obliterator"
         ],
-        "options": []
+        "options": [],
+        "weapons": {
+          "Plasma Obliterator": {
+            "range": "72",
+            "S": "8",
+            "AP": "2+",
+            "type": "Heavy 1, 7\u201d Blast, Monsterbane, Turret"
+          }
+        }
       },
       {
         "name": "Vengeance Weapon Battery",
@@ -1622,7 +1983,21 @@
               }
             ]
           }
-        ]
+        ],
+        "weapons": {
+          "Punisher Gatling Gun": {
+            "range": "24",
+            "S": "5",
+            "AP": "-",
+            "type": "Heavy 20, Turret"
+          },
+          "Battle Cannon Lascannons": {
+            "range": "72",
+            "S": "8",
+            "AP": "3+",
+            "type": "Heavy 1, 5\u201d Blast, Ordnance, Monsterbane, Turret Turret"
+          }
+        }
       },
       {
         "name": "Void Shield Generator",
@@ -1640,7 +2015,8 @@
         "fixed_wargear": [
           "none"
         ],
-        "options": []
+        "options": [],
+        "weapons": {}
       }
     ]
   }

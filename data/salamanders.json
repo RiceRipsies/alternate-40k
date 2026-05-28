@@ -77,7 +77,8 @@
               }
             ]
           }
-        ]
+        ],
+        "weapons": {}
       },
       {
         "name": "Bray\u2019arth Ashmantle",
@@ -132,7 +133,15 @@
               }
             ]
           }
-        ]
+        ],
+        "weapons": {
+          "Dreadnought Combat Weapon and Dreadfire": {
+            "range": "Melee",
+            "S": "X2",
+            "AP": "2+",
+            "type": "Slow, Monsterbane, Primary And And And And Flame 5 4+ Assault 1, Hull 12       8       1+       Assault 1, Melta, (Monsterbane), Hull 4"
+          }
+        }
       },
       {
         "name": "Pellas Mir\u2019San",
@@ -174,7 +183,33 @@
           "Krak Grenades",
           "Iron Halo"
         ],
-        "options": []
+        "options": [],
+        "weapons": {
+          "Combi Flamer": {
+            "range": "Flame",
+            "S": "4",
+            "AP": "5+",
+            "type": "Assault 1 24       4      5+     Rapid Fire 1, Bolter"
+          },
+          "Cinder Edge": {
+            "range": "Melee",
+            "S": "+1",
+            "AP": "2+",
+            "type": "None"
+          },
+          "Frag Grenades": {
+            "range": "8",
+            "S": "3",
+            "AP": "-",
+            "type": "Grenade 1, 3\u201d Blast"
+          },
+          "Krak Grenades": {
+            "range": "8",
+            "S": "6",
+            "AP": "4+",
+            "type": "Grenade 1, Nonblast 5"
+          }
+        }
       },
       {
         "name": "Vulkan He\u2019Stan",
@@ -229,7 +264,39 @@
               }
             ]
           }
-        ]
+        ],
+        "weapons": {
+          "Gauntlet of the Forge": {
+            "range": "Flame",
+            "S": "5",
+            "AP": "4+",
+            "type": "Assault 1, Reroll 1s To Wound."
+          },
+          "Bolt Pistol": {
+            "range": "12",
+            "S": "4",
+            "AP": "5+",
+            "type": "Pistol 1"
+          },
+          "Spear of Vulkan": {
+            "range": "Melee",
+            "S": "+3",
+            "AP": "1+",
+            "type": "Counterattack"
+          },
+          "Frag Grenades": {
+            "range": "8",
+            "S": "3",
+            "AP": "-",
+            "type": "Grenade 1, 3\u201d Blast"
+          },
+          "Krak Grenades": {
+            "range": "8",
+            "S": "6",
+            "AP": "4+",
+            "type": "Grenade 1, Nonblast 6"
+          }
+        }
       }
     ]
   }

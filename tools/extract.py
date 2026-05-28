@@ -97,19 +97,17 @@ def pdf_to_text_layout(pdf_path: Path) -> str:
 def parse_weapon_tables_from_layout(layout_text: str) -> dict:
     """
     Parse weapon selection tables from pdftotext -layout output.
-    Returns: {unit_name: {code: [{name, pts_delta}]}}
+    Returns: {unit_name: {code: [{name, pts_delta, range, S, AP, type}]}}
     """
     WEAPON_TABLE_HDR = re.compile(r'Selection\s+Name\s+Range', re.I)
     UNIT_STAT_HDR    = re.compile(r'^(.+?)\s{2,}M\s+WS\s+BS\s+S\b', re.I)
-    # Code is uppercase letters/digits, optionally followed by "+N point(s)"
     ENTRY_RE         = re.compile(r'^([A-Z][A-Z0-9]*(?:\s+\+\d+\s+points?)?)\s+(.+)', re.I)
     PTS_RE           = re.compile(r'\+(\d+)\s+points?', re.I)
-    # Words that are clearly Range/stats column values, not part of the weapon name
     RANGE_STOP       = re.compile(r'^\d|^Melee$|^Flame$|^\*$', re.I)
+    AP_RE            = re.compile(r'^(\d+\+|\*|-)\s*(.*)')
 
     lines = layout_text.split('\n')
 
-    # Collect (line_idx, unit_name) for every stat-header line
     unit_headers = []
     for i, raw in enumerate(lines):
         clean = raw.lstrip('\x0c').strip()
@@ -126,7 +124,6 @@ def parse_weapon_tables_from_layout(layout_text: str) -> dict:
         if not WEAPON_TABLE_HDR.search(clean):
             continue
 
-        # Associate with the nearest preceding unit
         unit_name = None
         for uh_idx, uh_name in reversed(unit_headers):
             if uh_idx < i:
@@ -143,40 +140,63 @@ def parse_weapon_tables_from_layout(layout_text: str) -> dict:
             clean_line = raw_line.lstrip('\x0c')
             stripped = clean_line.strip()
 
-            # Stop at the next unit's stat-header or weapon-table header
             if UNIT_STAT_HDR.match(stripped) or WEAPON_TABLE_HDR.search(clean_line):
                 break
 
             m = ENTRY_RE.match(clean_line)
             if m:
-                code_raw = m.group(1).strip()
-                rest     = m.group(2)
-                # Name ends where 2+ spaces begin (range column separator)
-                # Also stop within a chunk if a word looks like a Range value
+                code_raw   = m.group(1).strip()
+                rest       = m.group(2)
                 rest_parts = re.split(r'\s{2,}', rest)
+
+                # Extract name — stop at range-like tokens
                 raw_name_chunk = rest_parts[0] if rest_parts else ''
-                name_words = []
+                name_words: list = []
+                range_from_name = ''
                 for word in raw_name_chunk.split():
                     if RANGE_STOP.match(word):
+                        range_from_name = word
                         break
                     name_words.append(word)
                 name = ' '.join(name_words)
 
-                pts_m    = PTS_RE.search(code_raw)
+                # Build ordered stat columns
+                stat_parts = ([range_from_name] if range_from_name else []) + rest_parts[1:]
+                range_val  = stat_parts[0].strip() if len(stat_parts) > 0 else ''
+                s_val      = stat_parts[1].strip() if len(stat_parts) > 1 else ''
+                ap_rest    = ' '.join(p.strip() for p in stat_parts[2:]) if len(stat_parts) > 2 else ''
+                ap_m       = AP_RE.match(ap_rest)
+                ap_val     = ap_m.group(1) if ap_m else ap_rest
+                type_text  = ap_m.group(2).strip() if ap_m else ''
+
+                pts_m     = PTS_RE.search(code_raw)
                 pts_delta = int(pts_m.group(1)) if pts_m else 0
-                code = PTS_RE.sub('', code_raw).strip()
+                code      = PTS_RE.sub('', code_raw).strip()
+
                 if name:
-                    current_entry = {'name': name, 'pts_delta': pts_delta}
+                    current_entry = {
+                        'name': name, 'pts_delta': pts_delta,
+                        'range': range_val, 'S': s_val, 'AP': ap_val, 'type': type_text,
+                    }
                     table.setdefault(code, []).append(current_entry)
                 j += 1
                 continue
 
-            # Name-continuation line: 10–22 leading spaces, not an "Or" alternate
             leading = len(clean_line) - len(clean_line.lstrip())
-            if stripped and current_entry and 10 <= leading <= 22:
-                first_word = stripped.split()[0]
-                if first_word.lower() != 'or' and not first_word[0].isdigit():
-                    current_entry['name'] += ' ' + first_word
+            if stripped and current_entry:
+                if stripped.lower().startswith('or'):
+                    pass  # skip combo-weapon alternate profile lines
+                elif 10 <= leading <= 22:
+                    # Name continuation
+                    first_word = stripped.split()[0]
+                    if not first_word[0].isdigit():
+                        cont_parts = re.split(r'\s{2,}', stripped)
+                        current_entry['name'] += ' ' + cont_parts[0].strip()
+                        if len(cont_parts) > 1:
+                            current_entry['type'] = (current_entry['type'] + ' ' + ' '.join(cont_parts[1:])).strip()
+                elif leading > 30:
+                    # Rules-text continuation (far-right column)
+                    current_entry['type'] = (current_entry['type'] + ' ' + stripped).strip()
 
             j += 1
 
@@ -571,6 +591,18 @@ def parse_codex(text: str, source_name: str, weapon_tables: dict | None = None) 
                     'choices': [{'name': upg['name'], 'pts_delta': upg['pts_delta']}],
                 })
 
+        weapons = {}
+        for code, entries in unit_wt.items():
+            for entry in entries:
+                name = entry['name']
+                if name and name not in weapons:
+                    weapons[name] = {
+                        'range': entry.get('range', ''),
+                        'S':     entry.get('S', ''),
+                        'AP':    entry.get('AP', ''),
+                        'type':  entry.get('type', ''),
+                    }
+
         unit = {
             'name':         unit_name,
             'points_base':  points_base,
@@ -578,6 +610,7 @@ def parse_codex(text: str, source_name: str, weapon_tables: dict | None = None) 
             'models':       models,
             'fixed_wargear':fixed_wargear,
             'options':      options,
+            'weapons':      weapons,
         }
 
         units_by_slot.setdefault(slot, []).append(unit)

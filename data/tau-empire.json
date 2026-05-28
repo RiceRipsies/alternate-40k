@@ -94,7 +94,8 @@
               }
             ]
           }
-        ]
+        ],
+        "weapons": {}
       },
       {
         "name": "Special Wargear:",
@@ -163,7 +164,8 @@
               }
             ]
           }
-        ]
+        ],
+        "weapons": {}
       },
       {
         "name": "Kroot Chieftain",
@@ -220,7 +222,57 @@
               }
             ]
           }
-        ]
+        ],
+        "weapons": {
+          "Equalizers": {
+            "range": "Melee",
+            "S": "User",
+            "AP": "4+",
+            "type": "Extra Attack 1"
+          },
+          "Honour Stave": {
+            "range": "Melee",
+            "S": "+2",
+            "AP": "-",
+            "type": "None"
+          },
+          "Marker Light Carbines": {
+            "range": "36",
+            "S": "-",
+            "AP": "-",
+            "type": "Assault 1, Marker Light"
+          },
+          "Smart Missile Pod": {
+            "range": "30",
+            "S": "5",
+            "AP": "5+",
+            "type": "Assault 2, Ignores Cover"
+          },
+          "Missile Pod": {
+            "range": "36",
+            "S": "7",
+            "AP": "4+",
+            "type": "Assault 2, Monsterbane 8"
+          },
+          "Smart Missile System": {
+            "range": "30",
+            "S": "5",
+            "AP": "5+",
+            "type": "Assault 2, Ignores Cover"
+          },
+          "EMP Grenades": {
+            "range": "8",
+            "S": "3",
+            "AP": "3+",
+            "type": "Grenade 1, Haywire (3+),"
+          },
+          "model": {
+            "range": "Nonblast",
+            "S": "",
+            "AP": "",
+            "type": ""
+          }
+        }
       },
       {
         "name": "M WS BS S FA SA RA W I A Ld Sv",
@@ -279,7 +331,8 @@
               }
             ]
           }
-        ]
+        ],
+        "weapons": {}
       },
       {
         "name": "Aun\u2019Do",
@@ -351,7 +404,39 @@
               }
             ]
           }
-        ]
+        ],
+        "weapons": {
+          "Honour Stave": {
+            "range": "Melee",
+            "S": "+2",
+            "AP": "-",
+            "type": "None"
+          },
+          "Marker Light Carbines": {
+            "range": "36",
+            "S": "-",
+            "AP": "-",
+            "type": "Assault 1, Marker Light"
+          },
+          "Smart Missile Pod": {
+            "range": "30",
+            "S": "5",
+            "AP": "5+",
+            "type": "Assault 2, Ignores Cover"
+          },
+          "Missile Pod": {
+            "range": "36",
+            "S": "7",
+            "AP": "4+",
+            "type": "Assault 2, Monsterbane"
+          },
+          "Smart Missile System": {
+            "range": "30",
+            "S": "5",
+            "AP": "5+",
+            "type": "Assault 2, Ignores Cover"
+          }
+        }
       },
       {
         "name": "Aun\u2019Shi",
@@ -422,7 +507,45 @@
               }
             ]
           }
-        ]
+        ],
+        "weapons": {
+          "Honour Stave": {
+            "range": "Melee",
+            "S": "+2",
+            "AP": "-",
+            "type": "None"
+          },
+          "Marker Light Carbines": {
+            "range": "36",
+            "S": "-",
+            "AP": "-",
+            "type": "Assault 1, Marker Light"
+          },
+          "Smart Missile Pod": {
+            "range": "30",
+            "S": "5",
+            "AP": "5+",
+            "type": "Assault 2, Ignores Cover"
+          },
+          "Missile Pod": {
+            "range": "36",
+            "S": "7",
+            "AP": "4+",
+            "type": "Assault 2, Monsterbane"
+          },
+          "Smart Missile System": {
+            "range": "30",
+            "S": "5",
+            "AP": "5+",
+            "type": "Assault 2, Ignores Cover"
+          },
+          "EMP Grenades": {
+            "range": "8",
+            "S": "3",
+            "AP": "3+",
+            "type": "Grenade 1, Haywire (3+), Nonblast 12"
+          }
+        }
       },
       {
         "name": "Aun\u2019Va",
@@ -504,7 +627,39 @@
               }
             ]
           }
-        ]
+        ],
+        "weapons": {
+          "Honour Stave": {
+            "range": "Melee",
+            "S": "+2",
+            "AP": "-",
+            "type": "None"
+          },
+          "Marker Light Carbines": {
+            "range": "36",
+            "S": "-",
+            "AP": "-",
+            "type": "Assault 1, Marker Light"
+          },
+          "Smart Missile Pod": {
+            "range": "30",
+            "S": "5",
+            "AP": "5+",
+            "type": "Assault 2, Ignores Cover"
+          },
+          "Missile Pod": {
+            "range": "36",
+            "S": "7",
+            "AP": "4+",
+            "type": "Assault 2, Monsterbane"
+          },
+          "Smart Missile System": {
+            "range": "30",
+            "S": "5",
+            "AP": "5+",
+            "type": "Assault 2, Ignores Cover"
+          }
+        }
       },
       {
         "name": "M WS BS S FA SA RA W I A Ld Sv",
@@ -551,7 +706,8 @@
             "description": "May take up to 2 Drones for +10 points each Longknife may take up to one of each E Any Drone may swap Marker Light for D or F",
             "choices": []
           }
-        ]
+        ],
+        "weapons": {}
       },
       {
         "name": "Commander Shadowsun",
@@ -628,7 +784,15 @@
             "description": "May take one MV62 for +25 points",
             "choices": []
           }
-        ]
+        ],
+        "weapons": {
+          "Fusion Blaster": {
+            "range": "18",
+            "S": "8",
+            "AP": "1+",
+            "type": "Assault 2, Melta, (Monsterbane) 15"
+          }
+        }
       }
     ],
     "advisors": [
@@ -695,7 +859,8 @@
               }
             ]
           }
-        ]
+        ],
+        "weapons": {}
       },
       {
         "name": "Fire Warrior Bodyguard",
@@ -787,7 +952,51 @@
               }
             ]
           }
-        ]
+        ],
+        "weapons": {
+          "Pulse Rifle": {
+            "range": "30",
+            "S": "5",
+            "AP": "5+",
+            "type": "Rapid Fire 1"
+          },
+          "Pulse Carbine": {
+            "range": "18",
+            "S": "5",
+            "AP": "5+",
+            "type": "Assault 2"
+          },
+          "Pusle Blaster": {
+            "range": "12",
+            "S": "5",
+            "AP": "5+",
+            "type": "Assault 2, Scatter"
+          },
+          "Marker Light Carbines": {
+            "range": "36",
+            "S": "-",
+            "AP": "-",
+            "type": "Assault 1, Marker Light"
+          },
+          "Smart Missile Pod": {
+            "range": "30",
+            "S": "5",
+            "AP": "5+",
+            "type": "Assault 2, Ignores Cover"
+          },
+          "Missile Pod": {
+            "range": "36",
+            "S": "7",
+            "AP": "4+",
+            "type": "Assault 2, Monsterbane"
+          },
+          "EMP Grenades": {
+            "range": "8",
+            "S": "3",
+            "AP": "3+",
+            "type": "Grenade 1, Haywire (3+), Nonblast"
+          }
+        }
       },
       {
         "name": "Firesight Marksman",
@@ -860,7 +1069,45 @@
               }
             ]
           }
-        ]
+        ],
+        "weapons": {
+          "Pulse Pistol": {
+            "range": "12",
+            "S": "5",
+            "AP": "5+",
+            "type": "Pistol 1"
+          },
+          "Marker Light": {
+            "range": "36",
+            "S": "-",
+            "AP": "-",
+            "type": "Assault 1, Marker Light"
+          },
+          "Marker Light Carbines": {
+            "range": "36",
+            "S": "-",
+            "AP": "-",
+            "type": "Assault 1, Marker Light"
+          },
+          "Smart Missile Pod": {
+            "range": "30",
+            "S": "5",
+            "AP": "5+",
+            "type": "Assault 2, Ignores Cover"
+          },
+          "Missile Pod": {
+            "range": "36",
+            "S": "7",
+            "AP": "4+",
+            "type": "Assault 2, Monsterbane"
+          },
+          "EMP Grenades": {
+            "range": "8",
+            "S": "3",
+            "AP": "3+",
+            "type": "Grenade 1, Haywire (3+), Nonblast"
+          }
+        }
       },
       {
         "name": "Human Helper Commissar",
@@ -970,7 +1217,81 @@
               }
             ]
           }
-        ]
+        ],
+        "weapons": {
+          "Laspistol": {
+            "range": "12",
+            "S": "3",
+            "AP": "-",
+            "type": "Pistol 1"
+          },
+          "Lasgun": {
+            "range": "24",
+            "S": "3",
+            "AP": "-",
+            "type": "Rapid Fire 1"
+          },
+          "Bolt Pistol": {
+            "range": "12",
+            "S": "4",
+            "AP": "5+",
+            "type": "Pistol 1, Limited Ammo"
+          },
+          "Boltgun": {
+            "range": "24",
+            "S": "4",
+            "AP": "5+",
+            "type": "Rapid Fire1, Limited Ammo"
+          },
+          "Handflamer": {
+            "range": "Flame",
+            "S": "3",
+            "AP": "6+",
+            "type": "Pistol 1, Limited Ammo"
+          },
+          "Plasma Pistol": {
+            "range": "12",
+            "S": "7",
+            "AP": "2+",
+            "type": "Pistol 1, Gets Hot!, Limited Ammo 18"
+          },
+          "Chainsword": {
+            "range": "Melee",
+            "S": "User",
+            "AP": "6+",
+            "type": "Rending"
+          },
+          "Power Sword": {
+            "range": "Melee",
+            "S": "+1",
+            "AP": "3+",
+            "type": ""
+          },
+          "Power Axe": {
+            "range": "Melee",
+            "S": "2+",
+            "AP": "4+",
+            "type": ""
+          },
+          "Power Maul": {
+            "range": "Melee",
+            "S": "2+",
+            "AP": "4+",
+            "type": "Concussion"
+          },
+          "Power Fist": {
+            "range": "Melee",
+            "S": "X2",
+            "AP": "2+",
+            "type": "Slow, Monsterbane"
+          },
+          "Frag Grenades": {
+            "range": "8",
+            "S": "3",
+            "AP": "-",
+            "type": "Grenade 1, 3\u201d Blast, Limited Ammo"
+          }
+        }
       },
       {
         "name": "Kroot Flesh Shaper",
@@ -1015,7 +1336,21 @@
               }
             ]
           }
-        ]
+        ],
+        "weapons": {
+          "Kroot Scattergun": {
+            "range": "12",
+            "S": "4",
+            "AP": "5+",
+            "type": "Assault 2, Scatter"
+          },
+          "Carving Blades": {
+            "range": "Melee",
+            "S": "User",
+            "AP": "-",
+            "type": "Extra Attack 1, Rending 19"
+          }
+        }
       },
       {
         "name": "Kroot Trail Shaper",
@@ -1061,7 +1396,21 @@
               }
             ]
           }
-        ]
+        ],
+        "weapons": {
+          "Kroot Rifle": {
+            "range": "24",
+            "S": "4",
+            "AP": "5+",
+            "type": "Assault 1 Melee    +1      5+          None"
+          },
+          "Shaper\u2019s Blade": {
+            "range": "Melee",
+            "S": "User",
+            "AP": "-",
+            "type": "Rending 20"
+          }
+        }
       },
       {
         "name": "Kroot Trail Shaper",
@@ -1105,7 +1454,21 @@
               }
             ]
           }
-        ]
+        ],
+        "weapons": {
+          "Kroot Rifle": {
+            "range": "24",
+            "S": "4",
+            "AP": "5+",
+            "type": "Assault 1 Melee    +1      5+          None"
+          },
+          "Shaper\u2019s Blade": {
+            "range": "Melee",
+            "S": "User",
+            "AP": "-",
+            "type": "Rending 20"
+          }
+        }
       },
       {
         "name": "Kroot War Shaper",
@@ -1185,7 +1548,45 @@
               }
             ]
           }
-        ]
+        ],
+        "weapons": {
+          "Dartbow": {
+            "range": "30",
+            "S": "5",
+            "AP": "3+",
+            "type": "Assault 1"
+          },
+          "Kroot Pistol": {
+            "range": "12",
+            "S": "4",
+            "AP": "5+",
+            "type": "Pistol 1"
+          },
+          "Preyhook": {
+            "range": "6",
+            "S": "4",
+            "AP": "-",
+            "type": "Assault 1, Rending, Tear Free"
+          },
+          "Tri-blade": {
+            "range": "6",
+            "S": "5",
+            "AP": "-",
+            "type": "Assault 1, Rending"
+          },
+          "Bladestave": {
+            "range": "Melee",
+            "S": "+2",
+            "AP": "5+",
+            "type": "Extra Attack 1, Rending"
+          },
+          "Shaper\u2019s Blade": {
+            "range": "Melee",
+            "S": "User",
+            "AP": "-",
+            "type": "Rending"
+          }
+        }
       },
       {
         "name": "M WS BS S FA SA RA W I A Ld Sv",
@@ -1227,7 +1628,8 @@
             "description": "May take up to 2 Drones for +10 points each Bodyguard may swap any Flamer for S Bodyguard may take one B Bodyguard may take up to one of each E Any Drone may swap Marker Light for D or F",
             "choices": []
           }
-        ]
+        ],
+        "weapons": {}
       },
       {
         "name": "Dahyak Grekh",
@@ -1263,7 +1665,21 @@
           "Kroot Rifle",
           "Kroot Pistol"
         ],
-        "options": []
+        "options": [],
+        "weapons": {
+          "Kroot Rifle": {
+            "range": "24",
+            "S": "4",
+            "AP": "5+",
+            "type": "Assault 1 Melee    +1      5+    None 23"
+          },
+          "Kroot Pistol": {
+            "range": "12",
+            "S": "4",
+            "AP": "5+",
+            "type": "Pistol 1"
+          }
+        }
       },
       {
         "name": "Dahyak Grekh",
@@ -1301,7 +1717,21 @@
           "Kroot Rifle",
           "Kroot Pistol"
         ],
-        "options": []
+        "options": [],
+        "weapons": {
+          "Kroot Rifle": {
+            "range": "24",
+            "S": "4",
+            "AP": "5+",
+            "type": "Assault 1 Melee    +1      5+    None 23"
+          },
+          "Kroot Pistol": {
+            "range": "12",
+            "S": "4",
+            "AP": "5+",
+            "type": "Pistol 1"
+          }
+        }
       },
       {
         "name": "Darkstrider",
@@ -1340,7 +1770,21 @@
           "XV02 Pilot Battlesuit",
           "Marker Light"
         ],
-        "options": []
+        "options": [],
+        "weapons": {
+          "Shade": {
+            "range": "18",
+            "S": "6",
+            "AP": "4+",
+            "type": "Assault 2, Pinning"
+          },
+          "Marker Light": {
+            "range": "36",
+            "S": "-",
+            "AP": "-",
+            "type": "Assault 1, Marker Light"
+          }
+        }
       },
       {
         "name": "M WS BS S FA SA RA W I A Ld Sv",
@@ -1377,7 +1821,8 @@
           }
         ],
         "fixed_wargear": [],
-        "options": []
+        "options": [],
+        "weapons": {}
       },
       {
         "name": "M WS BS S FA SA RA W I A Ld Sv",
@@ -1442,7 +1887,8 @@
               }
             ]
           }
-        ]
+        ],
+        "weapons": {}
       }
     ],
     "troops": [
@@ -1587,7 +2033,63 @@
               }
             ]
           }
-        ]
+        ],
+        "weapons": {
+          "Pulse Rifle": {
+            "range": "30",
+            "S": "5",
+            "AP": "5+",
+            "type": "Rapid Fire 1"
+          },
+          "Pulse Carbine": {
+            "range": "18",
+            "S": "5",
+            "AP": "5+",
+            "type": "Assault 2"
+          },
+          "Pusle Blaster": {
+            "range": "12",
+            "S": "5",
+            "AP": "5+",
+            "type": "Assault 2, Scatter"
+          },
+          "Marker Light Carbines": {
+            "range": "36",
+            "S": "-",
+            "AP": "-",
+            "type": "Assault 1, Marker Light"
+          },
+          "Smart Missile Pod": {
+            "range": "30",
+            "S": "5",
+            "AP": "5+",
+            "type": "Assault 2, Ignores Cover"
+          },
+          "Missile Pod": {
+            "range": "36",
+            "S": "7",
+            "AP": "4+",
+            "type": "Assault 2, Monsterbane"
+          },
+          "Smart Missile System": {
+            "range": "30",
+            "S": "5",
+            "AP": "5+",
+            "type": "Assault 2, Ignores Cover"
+          },
+          "EMP Grenades": {
+            "range": "8",
+            "S": "3",
+            "AP": "3+",
+            "type": "Grenade 1, Haywire (3+),"
+          },
+          "model": {
+            "range": "Nonblast",
+            "S": "",
+            "AP": "",
+            "type": ""
+          }
+        }
       },
       {
         "name": "Human Helpers Platoon",
@@ -1805,7 +2307,189 @@
               }
             ]
           }
-        ]
+        ],
+        "weapons": {
+          "Laspistol": {
+            "range": "12",
+            "S": "3",
+            "AP": "-",
+            "type": "Pistol 1"
+          },
+          "Shotgun": {
+            "range": "12",
+            "S": "3",
+            "AP": "-",
+            "type": "Assault 2, Scatter, Limited Ammo 29"
+          },
+          "Lasgun": {
+            "range": "24",
+            "S": "3",
+            "AP": "-",
+            "type": "Rapid Fire 1"
+          },
+          "Bolt Pistol": {
+            "range": "12",
+            "S": "4",
+            "AP": "5+",
+            "type": "Pistol 1, Limited Ammo"
+          },
+          "Boltgun": {
+            "range": "24",
+            "S": "4",
+            "AP": "5+",
+            "type": "Rapid Fire 1, Limited Ammo"
+          },
+          "Drumfed Autogun": {
+            "range": "18",
+            "S": "3",
+            "AP": "-",
+            "type": "Assault 3, Limited Ammo"
+          },
+          "Handflamer": {
+            "range": "Flame",
+            "S": "3",
+            "AP": "6+",
+            "type": "Pistol 1, Limited Ammo"
+          },
+          "Plasma Pistol": {
+            "range": "12",
+            "S": "7",
+            "AP": "2+",
+            "type": "Pistol 1, Gets Hot!, Limited Ammo"
+          },
+          "Chainsword": {
+            "range": "Melee",
+            "S": "User",
+            "AP": "6+",
+            "type": "Rending"
+          },
+          "Power Sword": {
+            "range": "Melee",
+            "S": "+1",
+            "AP": "3+",
+            "type": "None"
+          },
+          "Power Axe": {
+            "range": "Melee",
+            "S": "+2",
+            "AP": "4+",
+            "type": "None"
+          },
+          "Power Maul": {
+            "range": "Melee",
+            "S": "+2",
+            "AP": "4+",
+            "type": "Concussion"
+          },
+          "Heavy Flamer": {
+            "range": "Flame",
+            "S": "5",
+            "AP": "4+",
+            "type": "Assault 1, Limited Ammo"
+          },
+          "Mortar": {
+            "range": "12-48",
+            "S": "4",
+            "AP": "6+",
+            "type": "Heavy 1, 3\u201d Blast, Indirect Fire, Pinning, Limited Ammo"
+          },
+          "Heavy Bolter": {
+            "range": "36",
+            "S": "5",
+            "AP": "4+",
+            "type": "Heavy 3, Limited Ammo"
+          },
+          "Multilaser": {
+            "range": "36",
+            "S": "6",
+            "AP": "6+",
+            "type": "Heavy 3"
+          },
+          "Autocannon": {
+            "range": "48",
+            "S": "7",
+            "AP": "4+",
+            "type": "Heavy 2, Monsterbane, Limited Ammo"
+          },
+          "Heavy Mortar Stubbers": {
+            "range": "12-48",
+            "S": "5",
+            "AP": "5+",
+            "type": "Heavy 1, 3\u201d Blast, Indirect Fire, Pinning, Limited Ammo"
+          },
+          "Missile Launcher": {
+            "range": "48",
+            "S": "8",
+            "AP": "3+",
+            "type": "Heavy 1, Monsterbane, Limited 48      4      6+   Heavy 1, 3\u201d Blast, Limited Ammo"
+          },
+          "Lascannon": {
+            "range": "48",
+            "S": "9",
+            "AP": "2+",
+            "type": "Heavy 1, Monsterbane"
+          },
+          "Sniper Rifle": {
+            "range": "36",
+            "S": "3",
+            "AP": "6+",
+            "type": "Heavy 1, Sniper (3+)"
+          },
+          "Flamer": {
+            "range": "Flame",
+            "S": "4",
+            "AP": "5+",
+            "type": "Assault 1, Limited Ammo"
+          },
+          "Grenade Launcher": {
+            "range": "24",
+            "S": "6",
+            "AP": "4+",
+            "type": "Assault 1, Limited Ammo Or Or Or Or 24      3      -    Assault 1, 3\u201d Blast, Limited Ammo"
+          },
+          "Plasma Gun": {
+            "range": "24",
+            "S": "7",
+            "AP": "2+",
+            "type": "Rapid Fire 1, Gets Hot!, Limited Ammo"
+          },
+          "Heavy Stubber": {
+            "range": "36",
+            "S": "5",
+            "AP": "6+",
+            "type": "Heavy 3, Limited Ammo"
+          },
+          "Meltagun": {
+            "range": "12",
+            "S": "8",
+            "AP": "1+",
+            "type": "Assault 1, Melta, (Monsterbane), Limited Ammo"
+          },
+          "Pulse Rifle": {
+            "range": "30",
+            "S": "5",
+            "AP": "5+",
+            "type": "Rapid Fire 1"
+          },
+          "Pulse Carbine": {
+            "range": "18",
+            "S": "5",
+            "AP": "5+",
+            "type": "Assault 2"
+          },
+          "Pusle Blaster": {
+            "range": "12",
+            "S": "5",
+            "AP": "5+",
+            "type": "Assault 2, Scatter 30"
+          },
+          "Frag Grenades": {
+            "range": "8",
+            "S": "3",
+            "AP": "-",
+            "type": "Grenade 1, 3\u201d Blast, Limited Ammo"
+          }
+        }
       },
       {
         "name": "Kroot Carnivores",
@@ -1887,7 +2571,57 @@
               }
             ]
           }
-        ]
+        ],
+        "weapons": {
+          "Kroot Rifle": {
+            "range": "24",
+            "S": "4",
+            "AP": "5+",
+            "type": "Assault 1 Melee     +1     5+        None"
+          },
+          "Accelerator Bow": {
+            "range": "24",
+            "S": "4",
+            "AP": "3+",
+            "type": "Assault 1"
+          },
+          "Kroot Scattergun": {
+            "range": "12",
+            "S": "4",
+            "AP": "5+",
+            "type": "Assault 2, Scatter Melee     +1     5+        None"
+          },
+          "Pulse Rifle": {
+            "range": "30",
+            "S": "5",
+            "AP": "5+",
+            "type": "Rapid Fire 1"
+          },
+          "Pulse Carbine Pistols": {
+            "range": "18",
+            "S": "5",
+            "AP": "5+",
+            "type": "Assault 2"
+          },
+          "Kroot Hunting Rifle": {
+            "range": "36",
+            "S": "4",
+            "AP": "5+",
+            "type": "Heavy 1, Sniper (3+)"
+          },
+          "Kroot Pistol": {
+            "range": "12",
+            "S": "4",
+            "AP": "5+",
+            "type": "Pistol 1"
+          },
+          "Knives": {
+            "range": "6",
+            "S": "3",
+            "AP": "-",
+            "type": "Pistol 2, Rending Melee     User   -         Extra Attack 1, Rending 31"
+          }
+        }
       }
     ],
     "elites": [
@@ -1927,7 +2661,15 @@
             "description": "May take up to 5 DX4s for +19 points each",
             "choices": []
           }
-        ]
+        ],
+        "weapons": {
+          "Helpers Grizzled": {
+            "range": "Points: 75",
+            "S": "",
+            "AP": "",
+            "type": ""
+          }
+        }
       },
       {
         "name": "Special Wargear:",
@@ -1976,7 +2718,8 @@
               }
             ]
           }
-        ]
+        ],
+        "weapons": {}
       },
       {
         "name": "Krootox Riders",
@@ -2035,7 +2778,27 @@
               }
             ]
           }
-        ]
+        ],
+        "weapons": {
+          "Kroot Gun": {
+            "range": "48",
+            "S": "7",
+            "AP": "4+",
+            "type": "Rapid Fire 1, Monsterbane"
+          },
+          "Tanglecannon": {
+            "range": "48",
+            "S": "*",
+            "AP": "-",
+            "type": "Assault 1, 3\u201d Blast, Grav"
+          },
+          "Krootox Fists": {
+            "range": "Melee",
+            "S": "+2",
+            "AP": "-",
+            "type": "Extra Attack 1 35"
+          }
+        }
       },
       {
         "name": "Krootox Riders",
@@ -2094,7 +2857,27 @@
               }
             ]
           }
-        ]
+        ],
+        "weapons": {
+          "Kroot Gun": {
+            "range": "48",
+            "S": "7",
+            "AP": "4+",
+            "type": "Rapid Fire 1, Monsterbane"
+          },
+          "Tanglecannon": {
+            "range": "48",
+            "S": "*",
+            "AP": "-",
+            "type": "Assault 1, 3\u201d Blast, Grav"
+          },
+          "Krootox Fists": {
+            "range": "Melee",
+            "S": "+2",
+            "AP": "-",
+            "type": "Extra Attack 1 35"
+          }
+        }
       },
       {
         "name": "XV25 Stealth Battlesuits",
@@ -2205,7 +2988,45 @@
               }
             ]
           }
-        ]
+        ],
+        "weapons": {
+          "Burst Cannon": {
+            "range": "18",
+            "S": "5",
+            "AP": "5+",
+            "type": "Assault 4"
+          },
+          "Fusion Blaster": {
+            "range": "18",
+            "S": "8",
+            "AP": "1+",
+            "type": "Assault 2, Melta, (Monsterbane)"
+          },
+          "Marker Light Carbines": {
+            "range": "36",
+            "S": "-",
+            "AP": "-",
+            "type": "Assault 1, Marker Light"
+          },
+          "Smart Missile Pod": {
+            "range": "30",
+            "S": "5",
+            "AP": "5+",
+            "type": "Assault 2, Ignores Cover"
+          },
+          "Missile Pod": {
+            "range": "36",
+            "S": "7",
+            "AP": "4+",
+            "type": "Assault 2, Monsterbane 36"
+          },
+          "Walkers": {
+            "range": "",
+            "S": "",
+            "AP": "",
+            "type": ""
+          }
+        }
       },
       {
         "name": "M WS BS S FA SA RA W I A Ld Sv",
@@ -2280,7 +3101,8 @@
               }
             ]
           }
-        ]
+        ],
+        "weapons": {}
       },
       {
         "name": "M WS BS S FA SA RA W I A Ld Sv",
@@ -2327,7 +3149,8 @@
             "description": "May take up to 2 Drones for +10 points each for each Shas\u2019vre in the unit Any Shas\u2019vre may swap any 2 Linked Burst Cannons for S Any Shas\u2019vre may take up to one of each E Any Drone may swap Marker Light for D or F",
             "choices": []
           }
-        ]
+        ],
+        "weapons": {}
       },
       {
         "name": "M WS BS S FA SA RA W I A Ld Sv",
@@ -2378,7 +3201,8 @@
             "description": "May take up to 2 MV5s for +16 points each for each Ghostkeel in the unit Any Ghostkeel may swap Cyclic Ion Raker for S Any Ghostkeel may swap 2 Linked Flamers for H Any Ghostkeel may take up to one of each E",
             "choices": []
           }
-        ]
+        ],
+        "weapons": {}
       }
     ],
     "fast_attack": [
@@ -2423,7 +3247,8 @@
               }
             ]
           }
-        ]
+        ],
+        "weapons": {}
       },
       {
         "name": "Kroot Hounds",
@@ -2467,7 +3292,15 @@
             "description": "May take up to 15 more Hounds for +7 points each",
             "choices": []
           }
-        ]
+        ],
+        "weapons": {
+          "Ripping Fangs": {
+            "range": "Melee",
+            "S": "User",
+            "AP": "5+",
+            "type": "Rending 41"
+          }
+        }
       },
       {
         "name": "Kroot Hounds",
@@ -2504,7 +3337,15 @@
             "description": "May take up to 15 more Hounds for +7 points each",
             "choices": []
           }
-        ]
+        ],
+        "weapons": {
+          "Ripping Fangs": {
+            "range": "Melee",
+            "S": "User",
+            "AP": "5+",
+            "type": "Rending 41"
+          }
+        }
       },
       {
         "name": "Pathfinders",
@@ -2683,7 +3524,69 @@
             "description": "May take one MB3 for +22 points",
             "choices": []
           }
-        ]
+        ],
+        "weapons": {
+          "Pulse Carbine": {
+            "range": "18",
+            "S": "5",
+            "AP": "5+",
+            "type": "Assault 2"
+          },
+          "Ion Rifle": {
+            "range": "30",
+            "S": "7",
+            "AP": "3+",
+            "type": "Assault 1"
+          },
+          "Rail Rifle": {
+            "range": "48",
+            "S": "6",
+            "AP": "3+",
+            "type": "Heavy 1, Sniper (2+)"
+          },
+          "Marker Light": {
+            "range": "36",
+            "S": "-",
+            "AP": "-",
+            "type": "Assault 1, Marker Light"
+          },
+          "Marker Light Carbines": {
+            "range": "36",
+            "S": "-",
+            "AP": "-",
+            "type": "Assault 1, Marker Light"
+          },
+          "Smart Missile Pod": {
+            "range": "30",
+            "S": "5",
+            "AP": "5+",
+            "type": "Assault 2, Ignores Cover"
+          },
+          "Missile Pod": {
+            "range": "36",
+            "S": "7",
+            "AP": "4+",
+            "type": "Assault 2, Monsterbane"
+          },
+          "Burst Cannon": {
+            "range": "18",
+            "S": "5",
+            "AP": "5+",
+            "type": "Assault 4"
+          },
+          "EMP Grenades": {
+            "range": "8",
+            "S": "3",
+            "AP": "3+",
+            "type": "Grenade 1, Haywire (3+),"
+          },
+          "model": {
+            "range": "Nonblast",
+            "S": "",
+            "AP": "",
+            "type": "43"
+          }
+        }
       },
       {
         "name": "Vespid Stingwings",
@@ -2768,7 +3671,15 @@
             "description": "May take one Oversight Drone for +20 points",
             "choices": []
           }
-        ]
+        ],
+        "weapons": {
+          "Infantry": {
+            "range": "",
+            "S": "",
+            "AP": "",
+            "type": ""
+          }
+        }
       },
       {
         "name": "DX6 Remora Drones",
@@ -2808,7 +3719,21 @@
             "description": "May take up to 4 more DX6s for +141 points each",
             "choices": []
           }
-        ]
+        ],
+        "weapons": {
+          "Seeker Missile": {
+            "range": "72",
+            "S": "10",
+            "AP": "3+",
+            "type": "Heavy 1, Monsterbane, Indirect Fire, Ignores Cover, Seeker Missile, One Use Only, Hull"
+          },
+          "Marker Light": {
+            "range": "36",
+            "S": "-",
+            "AP": "-",
+            "type": "Assault 1, Marker Light, Hull"
+          }
+        }
       },
       {
         "name": "Goaded Great Knarloc",
@@ -2867,7 +3792,21 @@
             "description": "May take up to 5 more Kroot for +12 points each",
             "choices": []
           }
-        ]
+        ],
+        "weapons": {
+          "Great Talons": {
+            "range": "Melee",
+            "S": "User",
+            "AP": "2+",
+            "type": "Extra Attack 1"
+          },
+          "Kroot Rifle": {
+            "range": "24",
+            "S": "4",
+            "AP": "5+",
+            "type": "Assault 1 45 Melee    +1     5+      None"
+          }
+        }
       },
       {
         "name": "Tetras",
@@ -2904,7 +3843,8 @@
           "2 Linked Pulse Rifles",
           "3 Linked Marker Lights"
         ],
-        "options": []
+        "options": [],
+        "weapons": {}
       },
       {
         "name": "M WS BS S FA SA RA W I A Ld Sv",
@@ -2950,7 +3890,8 @@
             "description": "May take up to 2 more sets of 1 Piranha and 2 Drones for +83 points each Any Piranha may swap Burst Cannon for H Any Piranha may take up to two of each M Any Piranha may take up to one of each E Any Drone may swap Marker Light for D or F",
             "choices": []
           }
-        ]
+        ],
+        "weapons": {}
       },
       {
         "name": "TX2 Piranhas",
@@ -3002,7 +3943,8 @@
               }
             ]
           }
-        ]
+        ],
+        "weapons": {}
       },
       {
         "name": "M WS BS S FA SA RA W I A Ld Sv",
@@ -3045,7 +3987,8 @@
             "description": "May take up to 2 Drones for +10 points each XV109 may take up to one of each E Any Drone may swap Marker Light for D or F",
             "choices": []
           }
-        ]
+        ],
+        "weapons": {}
       }
     ],
     "heavy_support": [
@@ -3096,7 +4039,8 @@
               }
             ]
           }
-        ]
+        ],
+        "weapons": {}
       },
       {
         "name": "AP",
@@ -3142,7 +4086,8 @@
               }
             ]
           }
-        ]
+        ],
+        "weapons": {}
       },
       {
         "name": "Sniper Drones",
@@ -3180,7 +4125,15 @@
             "description": "May take up to 8 more Drones for +23 points each",
             "choices": []
           }
-        ]
+        ],
+        "weapons": {
+          "Longshot Pulse Rifle": {
+            "range": "48",
+            "S": "5",
+            "AP": "5+",
+            "type": "Rapid Fire 1, Sniper (3+) 51"
+          }
+        }
       },
       {
         "name": "Great Knarloc",
@@ -3218,7 +4171,8 @@
             "description": "May take up to 2 more Great Knarlocs for +147 points each Any Great Knarloc may swap one Kroot Rifle for S",
             "choices": []
           }
-        ]
+        ],
+        "weapons": {}
       },
       {
         "name": "M WS BS S FA SA RA W I A Ld Sv",
@@ -3275,7 +4229,8 @@
               }
             ]
           }
-        ]
+        ],
+        "weapons": {}
       },
       {
         "name": "M WS BS S FA SA RA W I A Ld Sv",
@@ -3317,7 +4272,8 @@
             "description": "May take up to 2 more sets of 1 TX78 and 2 Drones for +195 points each Any TX78 may take up to 2 M Any TX78 may take up to one of each E Any Drone may swap Marker Light for D or F",
             "choices": []
           }
-        ]
+        ],
+        "weapons": {}
       },
       {
         "name": "M WS BS S FA SA RA W I A Ld Sv",
@@ -3358,7 +4314,8 @@
             "description": "May take up to 2 Drones for +10 points each XV104 may swap Heavy Burst Cannon for S XV104 may swap 2 Linked Smart Missile Pods for H XV104 may take up to one of each E Any Drone may swap Marker Light for D or F",
             "choices": []
           }
-        ]
+        ],
+        "weapons": {}
       },
       {
         "name": "M WS BS S FA SA RA W I A Ld Sv",
@@ -3394,7 +4351,8 @@
             "description": "May take up to 2 Drones for +10 points each XV104 may take up to one of each E Any Drone may swap Marker Light for D or F",
             "choices": []
           }
-        ]
+        ],
+        "weapons": {}
       },
       {
         "name": "M WS BS S FA SA RA W I A Ld Sv",
@@ -3450,7 +4408,8 @@
             "description": "May take up to 2 Drones for +10 points each for each XV88 model in the unit Any XV88 model may swap any Flamer for S Any XV88 may take one H Any XV88 may take one M Any XV88 model may take up to one of each E Any Drone may swap Marker Light for D or F",
             "choices": []
           }
-        ]
+        ],
+        "weapons": {}
       }
     ],
     "flyers": [
@@ -3526,7 +4485,33 @@
               }
             ]
           }
-        ]
+        ],
+        "weapons": {
+          "Swiftstrike Railgun": {
+            "range": "36",
+            "S": "10",
+            "AP": "1+",
+            "type": "Heavy 1, Ordnance, Monsterbane, Hull, Primary"
+          },
+          "Ion Cannon": {
+            "range": "60",
+            "S": "8",
+            "AP": "3+",
+            "type": "Heavy 1, 5\u201d Blast, Monsterbane, Hull, Primary"
+          },
+          "Heavy Burst Cannon Pods Blasters Cannons": {
+            "range": "36",
+            "S": "6",
+            "AP": "4+",
+            "type": "Heavy 12, Rending, Hull, Primary 58"
+          },
+          "Seeker Missile": {
+            "range": "72",
+            "S": "10",
+            "AP": "3+",
+            "type": "Heavy 1, Monsterbane, Indirect Fire, Ignores Cover, Seeker Missile, One Use Only, Hull"
+          }
+        }
       },
       {
         "name": "AX3 Razorsharks",
@@ -3592,7 +4577,33 @@
               }
             ]
           }
-        ]
+        ],
+        "weapons": {
+          "Long Burst Cannon": {
+            "range": "36",
+            "S": "5",
+            "AP": "5+",
+            "type": "Assault 4, Sponson, Primary"
+          },
+          "Missile Pod": {
+            "range": "36",
+            "S": "7",
+            "AP": "4+",
+            "type": "Assault 2, Monsterbane, Sponson, Primary"
+          },
+          "Quad Ion Cannon": {
+            "range": "48",
+            "S": "8",
+            "AP": "3+",
+            "type": "Heavy 1 x4, Monsterbane, Turret, Primary"
+          },
+          "Seeker Missile": {
+            "range": "72",
+            "S": "10",
+            "AP": "3+",
+            "type": "Heavy 1, Monsterbane, Indirect Fire, Ignores Cover, Seeker Missile, One Use Only, Hull 59"
+          }
+        }
       },
       {
         "name": "M WS BS S FA SA RA W I A Ld Sv",
@@ -3634,7 +4645,8 @@
             "description": "May take up to 2 more sets of 1 AX39 and 2 Interceptor Drones for +253 points each Any AX39 may swap Burst Cannon for S Any AX39 may take up to one of each E",
             "choices": []
           }
-        ]
+        ],
+        "weapons": {}
       }
     ],
     "dedicated_transport": [
@@ -3677,7 +4689,8 @@
           "Burst Cannon",
           "Marker Light"
         ],
-        "options": []
+        "options": [],
+        "weapons": {}
       }
     ],
     "lord_of_war": [
@@ -3726,7 +4739,8 @@
             "description": "May take up to one of each E",
             "choices": []
           }
-        ]
+        ],
+        "weapons": {}
       },
       {
         "name": "Tiger Shark Fighter Bomber",
@@ -3802,7 +4816,39 @@
             "description": "May take up to one of each E",
             "choices": []
           }
-        ]
+        ],
+        "weapons": {
+          "Burst Cannon": {
+            "range": "18",
+            "S": "5",
+            "AP": "5+",
+            "type": "Assault 4, Turret, Primary"
+          },
+          "Seeker Missile Rack": {
+            "range": "72",
+            "S": "10",
+            "AP": "3+",
+            "type": "Heavy 1, Monsterbane, Indirect Fire, Ignores Cover, Seeker Missile, Hull, Primary"
+          },
+          "Marker Light Carbines": {
+            "range": "72",
+            "S": "10",
+            "AP": "3+",
+            "type": "Heavy 1, Monsterbane, Indirect Fire, Ignores Cover, Seeker Missile, Hull"
+          },
+          "Smart Missile Pod": {
+            "range": "30",
+            "S": "5",
+            "AP": "5+",
+            "type": "Assault 2, Ignores Cover"
+          },
+          "Missile Pod": {
+            "range": "36",
+            "S": "7",
+            "AP": "4+",
+            "type": "Assault 2, Monsterbane 63"
+          }
+        }
       },
       {
         "name": "Tiger Shark Fighter Bomber",
@@ -3895,7 +4941,39 @@
             "description": "May take up to one of each E",
             "choices": []
           }
-        ]
+        ],
+        "weapons": {
+          "Burst Cannon": {
+            "range": "18",
+            "S": "5",
+            "AP": "5+",
+            "type": "Assault 4, Turret, Primary"
+          },
+          "Seeker Missile Rack": {
+            "range": "72",
+            "S": "10",
+            "AP": "3+",
+            "type": "Heavy 1, Monsterbane, Indirect Fire, Ignores Cover, Seeker Missile, Hull, Primary"
+          },
+          "Marker Light Carbines": {
+            "range": "72",
+            "S": "10",
+            "AP": "3+",
+            "type": "Heavy 1, Monsterbane, Indirect Fire, Ignores Cover, Seeker Missile, Hull"
+          },
+          "Smart Missile Pod": {
+            "range": "30",
+            "S": "5",
+            "AP": "5+",
+            "type": "Assault 2, Ignores Cover"
+          },
+          "Missile Pod": {
+            "range": "36",
+            "S": "7",
+            "AP": "4+",
+            "type": "Assault 2, Monsterbane 63"
+          }
+        }
       },
       {
         "name": "Orca",
@@ -3965,7 +5043,27 @@
               }
             ]
           }
-        ]
+        ],
+        "weapons": {
+          "Missile Pod": {
+            "range": "36",
+            "S": "7",
+            "AP": "4+",
+            "type": "Assault 2, Monsterbane, Hull, Primary"
+          },
+          "Seeker Missile": {
+            "range": "72",
+            "S": "10",
+            "AP": "3+",
+            "type": "Heavy 1, Monsterbane, Indirect Fire, Ignores Cover, Seeker Missile, One Use Only, Hull, Primary"
+          },
+          "Walker": {
+            "range": "",
+            "S": "",
+            "AP": "",
+            "type": ""
+          }
+        }
       },
       {
         "name": "KV128 Stormsurge",
@@ -3998,7 +5096,27 @@
           "2 Linked Flamers",
           "4 Seeker Missiles"
         ],
-        "options": []
+        "options": [],
+        "weapons": {
+          "Pulse Blast Cannon": {
+            "range": "72",
+            "S": "D",
+            "AP": "1+",
+            "type": "Heavy 2, Destroyer, Monsterbane, Hull, Primary"
+          },
+          "Pulse Driver Cannon Rocket Pods Missile Pod Cannons Airbursting Fragmentation Launchers": {
+            "range": "72",
+            "S": "10",
+            "AP": "2+",
+            "type": "Heavy 1, 7\u201d Blast, Ordnance, Monsterbane, Hull, Primary Primary Hull, Primary 66 Blast, Ignores Cover, Turret, Primary"
+          },
+          "Seeker Missile": {
+            "range": "72",
+            "S": "10",
+            "AP": "3+",
+            "type": "Heavy 1, Monsterbane, Ignores Cover, Indirect Fire, Seeker Missile, One Use Only, Hull"
+          }
+        }
       },
       {
         "name": "KX139 Ta\u2019unar Supremacy Suit",
@@ -4051,7 +5169,7 @@
                 "pts_delta": 0
               },
               {
-                "name": "Fusion Eradicator Missile Cannons",
+                "name": "Fusion Eradicator Array Missile Pods Cannons",
                 "pts_delta": 2
               }
             ]
@@ -4060,7 +5178,21 @@
             "description": "May take up to one of each E",
             "choices": []
           }
-        ]
+        ],
+        "weapons": {
+          "Tri-Axis Ion Cannon": {
+            "range": "60",
+            "S": "9",
+            "AP": "3+",
+            "type": "Heavy 3, Monsterbane, Hull, Primary"
+          },
+          "Fusion Eradicator Array Missile Pods Cannons": {
+            "range": "24",
+            "S": "D",
+            "AP": "1+",
+            "type": "Heavy 1, Melta, (Monsterbane), Hull, Primary 67 Turret, Primary"
+          }
+        }
       }
     ],
     "fortifications": [
@@ -4095,7 +5227,8 @@
           }
         ],
         "fixed_wargear": [],
-        "options": []
+        "options": [],
+        "weapons": {}
       },
       {
         "name": "Tidewall Shieldline",
@@ -4125,7 +5258,27 @@
         "fixed_wargear": [
           "None"
         ],
-        "options": []
+        "options": [],
+        "weapons": {
+          "Marker Light Carbines": {
+            "range": "36",
+            "S": "-",
+            "AP": "-",
+            "type": "Assault 1, Marker Light"
+          },
+          "Smart Missile Pod": {
+            "range": "30",
+            "S": "5",
+            "AP": "5+",
+            "type": "Assault 2, Ignores Cover"
+          },
+          "Missile Pod": {
+            "range": "36",
+            "S": "7",
+            "AP": "4+",
+            "type": "Assault 2, Monsterbane 69"
+          }
+        }
       }
     ]
   }

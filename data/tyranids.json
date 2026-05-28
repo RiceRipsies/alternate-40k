@@ -76,7 +76,8 @@
               }
             ]
           }
-        ]
+        ],
+        "weapons": {}
       },
       {
         "name": "Flyrant",
@@ -121,15 +122,15 @@
                 "pts_delta": 0
               },
               {
-                "name": "Monstrous Scything",
+                "name": "Monstrous Scything Talons",
                 "pts_delta": 2
               },
               {
-                "name": "Lash Whip and Bone",
+                "name": "Lash Whip and Bone Sword",
                 "pts_delta": 4
               },
               {
-                "name": "Monstrous Claws Maggot Spitters Devourers",
+                "name": "Monstrous Claws Maggot Death Spitters Devourers",
                 "pts_delta": 4
               }
             ]
@@ -194,7 +195,69 @@
               }
             ]
           }
-        ]
+        ],
+        "weapons": {
+          "Monstrous Scything Talons": {
+            "range": "Melee",
+            "S": "User",
+            "AP": "3+",
+            "type": "Extra Attack 1, Reroll 1s To Hit"
+          },
+          "Bone Swords": {
+            "range": "Melee",
+            "S": "User",
+            "AP": "3+",
+            "type": "Extra Attack 1"
+          },
+          "Lash Whip and Bone Sword": {
+            "range": "Melee",
+            "S": "User",
+            "AP": "3+",
+            "type": "Counterattack, Initiative 6"
+          },
+          "Monstrous Claws Maggot Death Spitters Devourers": {
+            "range": "Melee",
+            "S": "+2",
+            "AP": "4+",
+            "type": "Rending"
+          },
+          "Heavy Venom Cannon": {
+            "range": "36",
+            "S": "9",
+            "AP": "3+",
+            "type": "Assault 1, 3\u201d Blast"
+          },
+          "Stranglethorn Cannon": {
+            "range": "36",
+            "S": "7",
+            "AP": "5+",
+            "type": "Assault 1, 5\u201d Blast"
+          },
+          "Prehensile Tail": {
+            "range": "Melee",
+            "S": "4",
+            "AP": "3+",
+            "type": "Extra Attack 2, Auxiliary"
+          },
+          "Dissector Larva": {
+            "range": "Flame",
+            "S": "3",
+            "AP": "-",
+            "type": "Assault 1, Poisoned (3+)"
+          },
+          "Electroshock Grubs": {
+            "range": "Flame",
+            "S": "3",
+            "AP": "3+",
+            "type": "Assault 1, Haywire (3+) 6"
+          },
+          "Shreddershard Beetles": {
+            "range": "Flame",
+            "S": "3",
+            "AP": "-",
+            "type": "Assault 1, Rending , Reroll To Wound Rolls"
+          }
+        }
       },
       {
         "name": "Hive Tyrant",
@@ -237,15 +300,15 @@
                 "pts_delta": 0
               },
               {
-                "name": "Monstrous Scything",
+                "name": "Monstrous Scything Talons",
                 "pts_delta": 2
               },
               {
-                "name": "Lash Whip and Bone",
+                "name": "Lash Whip and Bone Sword",
                 "pts_delta": 4
               },
               {
-                "name": "Monstrous Claws Maggot Spitters Devourers",
+                "name": "Monstrous Claws Maggot Death Spitters Devourers",
                 "pts_delta": 4
               }
             ]
@@ -306,7 +369,69 @@
               }
             ]
           }
-        ]
+        ],
+        "weapons": {
+          "Bone Swords": {
+            "range": "Melee",
+            "S": "User",
+            "AP": "3+",
+            "type": "Extra Attack 1"
+          },
+          "Monstrous Scything Talons": {
+            "range": "Melee",
+            "S": "User",
+            "AP": "3+",
+            "type": "Extra Attack 1, Reroll 1s To Hit"
+          },
+          "Lash Whip and Bone Sword": {
+            "range": "Melee",
+            "S": "User",
+            "AP": "3+",
+            "type": "Counterattack, Initiative 6"
+          },
+          "Monstrous Claws Maggot Death Spitters Devourers": {
+            "range": "Melee",
+            "S": "+2",
+            "AP": "4+",
+            "type": "Rending"
+          },
+          "Heavy Venom Cannon": {
+            "range": "36",
+            "S": "9",
+            "AP": "3+",
+            "type": "Assault 1, 3\u201d Blast"
+          },
+          "Stranglethorn Cannon": {
+            "range": "36",
+            "S": "7",
+            "AP": "5+",
+            "type": "Assault 1, 5\u201d Blast"
+          },
+          "Prehensile Tail": {
+            "range": "Melee",
+            "S": "4",
+            "AP": "3+",
+            "type": "Extra Attack 2, Auxiliary"
+          },
+          "Dissector Larva": {
+            "range": "Flame",
+            "S": "3",
+            "AP": "-",
+            "type": "Assault 1, Poisoned (3+)"
+          },
+          "Electroshock Grubs": {
+            "range": "Flame",
+            "S": "3",
+            "AP": "3+",
+            "type": "Assault 1, Haywire (3+) 7"
+          },
+          "Shreddershard Beetles": {
+            "range": "Flame",
+            "S": "3",
+            "AP": "-",
+            "type": "Assault 1, Rending , Reroll To Wound Rolls"
+          }
+        }
       },
       {
         "name": "Neuro Tyrant",
@@ -350,19 +475,19 @@
             "description": "May take up to 3 Spells or S",
             "choices": [
               {
-                "name": "Psychic Domination Cast",
+                "name": "Psychic Domination Cast 8+",
                 "pts_delta": 0
               },
               {
-                "name": "Warp Blast Cast",
+                "name": "Warp Blast Cast 6+",
                 "pts_delta": 5
               },
               {
-                "name": "Psychic Overload Cast",
+                "name": "Psychic Overload Cast 6+",
                 "pts_delta": 10
               },
               {
-                "name": "Warp Lance Cast",
+                "name": "Warp Lance Cast 7+",
                 "pts_delta": 24
               }
             ]
@@ -384,7 +509,39 @@
               }
             ]
           }
-        ]
+        ],
+        "weapons": {
+          "Toxic Lashes": {
+            "range": "Melee",
+            "S": "User",
+            "AP": "-",
+            "type": "Poisoned (2+)"
+          },
+          "Psychic Domination Cast 8+": {
+            "range": "48",
+            "S": "8/6",
+            "AP": "3+",
+            "type": "/4+ Heavy 1, 15\u201d Blast, Earthshaker /4 /5+ 8"
+          },
+          "Warp Blast Cast 6+": {
+            "range": "18",
+            "S": "5",
+            "AP": "3+",
+            "type": "Assault 1, 3\u201d Blast"
+          },
+          "Psychic Overload Cast 6+": {
+            "range": "18",
+            "S": "5",
+            "AP": "5+",
+            "type": "Assault 6"
+          },
+          "Warp Lance Cast 7+": {
+            "range": "18",
+            "S": "10",
+            "AP": "2+",
+            "type": "Assault 1, Lance"
+          }
+        }
       },
       {
         "name": "Swarmlord",
@@ -445,7 +602,21 @@
               }
             ]
           }
-        ]
+        ],
+        "weapons": {
+          "Bone Sabers": {
+            "range": "Melee",
+            "S": "User",
+            "AP": "1+",
+            "type": "Extra Attack 1, No Invulnerability Saves"
+          },
+          "Prehensile Tail": {
+            "range": "Melee",
+            "S": "4",
+            "AP": "3+",
+            "type": "Extra Attack 2, Auxiliary 9"
+          }
+        }
       }
     ],
     "advisors": [
@@ -485,15 +656,15 @@
             "description": "May take up to 3 S",
             "choices": [
               {
-                "name": "Warp Blast Cast",
+                "name": "Warp Blast Cast 6+",
                 "pts_delta": 5
               },
               {
-                "name": "Psychic Overload Cast",
+                "name": "Psychic Overload Cast 6+",
                 "pts_delta": 10
               },
               {
-                "name": "Warp Lance Cast",
+                "name": "Warp Lance Cast 7+",
                 "pts_delta": 24
               }
             ]
@@ -511,7 +682,27 @@
               }
             ]
           }
-        ]
+        ],
+        "weapons": {
+          "Warp Blast Cast 6+": {
+            "range": "18",
+            "S": "5",
+            "AP": "3+",
+            "type": "Assault 1, 3\u201d Blast"
+          },
+          "Psychic Overload Cast 6+": {
+            "range": "18",
+            "S": "5",
+            "AP": "5+",
+            "type": "Assault 6"
+          },
+          "Warp Lance Cast 7+": {
+            "range": "18",
+            "S": "10",
+            "AP": "2+",
+            "type": "Assault 1, Lance"
+          }
+        }
       },
       {
         "name": "Neurothrope",
@@ -548,15 +739,15 @@
             "description": "May take up to 3 S",
             "choices": [
               {
-                "name": "Warp Blast Cast",
+                "name": "Warp Blast Cast 6+",
                 "pts_delta": 5
               },
               {
-                "name": "Psychic Overload Cast",
+                "name": "Psychic Overload Cast 6+",
                 "pts_delta": 10
               },
               {
-                "name": "Warp Lance Cast",
+                "name": "Warp Lance Cast 7+",
                 "pts_delta": 24
               }
             ]
@@ -574,7 +765,27 @@
               }
             ]
           }
-        ]
+        ],
+        "weapons": {
+          "Warp Blast Cast 6+": {
+            "range": "18",
+            "S": "5",
+            "AP": "3+",
+            "type": "Assault 1, 3\u201d Blast"
+          },
+          "Psychic Overload Cast 6+": {
+            "range": "18",
+            "S": "5",
+            "AP": "5+",
+            "type": "Assault 6"
+          },
+          "Warp Lance Cast 7+": {
+            "range": "18",
+            "S": "10",
+            "AP": "2+",
+            "type": "Assault 1, Lance"
+          }
+        }
       },
       {
         "name": "Shrike Prime",
@@ -657,7 +868,7 @@
                 "pts_delta": 3
               },
               {
-                "name": "Lash Whip and Bone",
+                "name": "Lash Whip and Bone Sword",
                 "pts_delta": 9
               }
             ]
@@ -675,7 +886,57 @@
               }
             ]
           }
-        ]
+        ],
+        "weapons": {
+          "Rending Claws": {
+            "range": "Melee",
+            "S": "User",
+            "AP": "5+",
+            "type": "Rending"
+          },
+          "Scything Talons": {
+            "range": "Melee",
+            "S": "User",
+            "AP": "-",
+            "type": "Extra Attack 1, Reroll 1\u2019s To Hit"
+          },
+          "Bone Swords": {
+            "range": "Melee",
+            "S": "User",
+            "AP": "3+",
+            "type": "Extra Attack 1"
+          },
+          "Lash Whip and Bone Sword": {
+            "range": "Melee",
+            "S": "User",
+            "AP": "3+",
+            "type": "Counterattack, Initiative 6"
+          },
+          "Devourer": {
+            "range": "18",
+            "S": "4",
+            "AP": "-",
+            "type": "Assault 3"
+          },
+          "Death Spitter Fists": {
+            "range": "24",
+            "S": "5",
+            "AP": "5+",
+            "type": "Assault 3"
+          },
+          "Venom Cannon": {
+            "range": "36",
+            "S": "6",
+            "AP": "4+",
+            "type": "Assault 1, 3\u201d Blast"
+          },
+          "Barbed Strangler": {
+            "range": "36",
+            "S": "4",
+            "AP": "5+",
+            "type": "Assault 1, 5\u201d Blast 11"
+          }
+        }
       },
       {
         "name": "Tyranid Prime",
@@ -740,7 +1001,8 @@
               }
             ]
           }
-        ]
+        ],
+        "weapons": {}
       }
     ],
     "troops": [
@@ -786,7 +1048,21 @@
               }
             ]
           }
-        ]
+        ],
+        "weapons": {
+          "Rending Claws": {
+            "range": "Melee",
+            "S": "User",
+            "AP": "5+",
+            "type": "Rending"
+          },
+          "Scything Talons": {
+            "range": "Melee",
+            "S": "User",
+            "AP": "-",
+            "type": "Extra Attack 1, Reroll 1\u2019s To Hit"
+          }
+        }
       },
       {
         "name": "Neurogaunts",
@@ -847,7 +1123,15 @@
               }
             ]
           }
-        ]
+        ],
+        "weapons": {
+          "Scything Talons": {
+            "range": "Melee",
+            "S": "User",
+            "AP": "-",
+            "type": "Extra Attack 1, Reroll 1\u2019s To Hit"
+          }
+        }
       },
       {
         "name": "Termagaunts",
@@ -903,7 +1187,33 @@
               }
             ]
           }
-        ]
+        ],
+        "weapons": {
+          "Fleshborer": {
+            "range": "12",
+            "S": "4",
+            "AP": "5+",
+            "type": "Assault 1"
+          },
+          "Spike Rifle Fists": {
+            "range": "18",
+            "S": "3",
+            "AP": "-",
+            "type": "Assault 2 13"
+          },
+          "Devourer": {
+            "range": "18",
+            "S": "4",
+            "AP": "-",
+            "type": "Assault 3"
+          },
+          "Strangleweb": {
+            "range": "Flame",
+            "S": "2",
+            "AP": "-",
+            "type": "Assault 1, Pinning"
+          }
+        }
       },
       {
         "name": "Genestealers",
@@ -966,7 +1276,27 @@
               }
             ]
           }
-        ]
+        ],
+        "weapons": {
+          "Rending Claws": {
+            "range": "Melee",
+            "S": "User",
+            "AP": "5+",
+            "type": "Rending"
+          },
+          "Scything Talons": {
+            "range": "Melee",
+            "S": "User",
+            "AP": "-",
+            "type": "Extra Attack 1, Reroll 1\u2019s To Hit"
+          },
+          "Acid Maw": {
+            "range": "Melee",
+            "S": "User",
+            "AP": "3+",
+            "type": "Auxiliary"
+          }
+        }
       },
       {
         "name": "Ripper Swarm",
@@ -1007,7 +1337,15 @@
               }
             ]
           }
-        ]
+        ],
+        "weapons": {
+          "Infantry": {
+            "range": "",
+            "S": "",
+            "AP": "",
+            "type": ""
+          }
+        }
       }
     ],
     "elites": [
@@ -1050,7 +1388,8 @@
               }
             ]
           }
-        ]
+        ],
+        "weapons": {}
       },
       {
         "name": "Lictor Brood",
@@ -1101,7 +1440,21 @@
               }
             ]
           }
-        ]
+        ],
+        "weapons": {
+          "Monstrous Claws": {
+            "range": "Melee",
+            "S": "+2",
+            "AP": "4+",
+            "type": "Rending"
+          },
+          "Lictor Talons": {
+            "range": "Melee",
+            "S": "User",
+            "AP": "-",
+            "type": "Extra Attack 1, Reroll 1s To Hit, Rending"
+          }
+        }
       },
       {
         "name": "Pyrovore Brood",
@@ -1140,7 +1493,15 @@
             "description": "May take up to 7 more Pyrovores for +45 points each The entire unit may take any B once each per model",
             "choices": []
           }
-        ]
+        ],
+        "weapons": {
+          "Acid Maw": {
+            "range": "Melee",
+            "S": "User",
+            "AP": "3+",
+            "type": "Auxiliary"
+          }
+        }
       },
       {
         "name": "Tyranid Warrior Brood",
@@ -1189,7 +1550,7 @@
                 "pts_delta": 3
               },
               {
-                "name": "Lash Whip and Bone",
+                "name": "Lash Whip and Bone Sword",
                 "pts_delta": 9
               },
               {
@@ -1218,7 +1579,57 @@
               }
             ]
           }
-        ]
+        ],
+        "weapons": {
+          "Rending Claws": {
+            "range": "Melee",
+            "S": "User",
+            "AP": "5+",
+            "type": "Rending"
+          },
+          "Scything Talons": {
+            "range": "Melee",
+            "S": "User",
+            "AP": "-",
+            "type": "Extra Attack 1, Reroll 1\u2019s To Hit"
+          },
+          "Bone Swords": {
+            "range": "Melee",
+            "S": "User",
+            "AP": "3+",
+            "type": "Extra Attack 1"
+          },
+          "Lash Whip and Bone Sword": {
+            "range": "Melee",
+            "S": "User",
+            "AP": "3+",
+            "type": "Counterattack, Initiative 6"
+          },
+          "Devourer": {
+            "range": "18",
+            "S": "4",
+            "AP": "-",
+            "type": "Assault 3"
+          },
+          "Death Spitter Fists": {
+            "range": "24",
+            "S": "5",
+            "AP": "5+",
+            "type": "Assault 3"
+          },
+          "Venom Cannon": {
+            "range": "36",
+            "S": "6",
+            "AP": "4+",
+            "type": "Assault 1, 3\u201d Blast"
+          },
+          "Barbed Strangler": {
+            "range": "36",
+            "S": "4",
+            "AP": "5+",
+            "type": "Assault 1, 5\u201d Blast"
+          }
+        }
       },
       {
         "name": "Tyrant Guard Brood",
@@ -1268,7 +1679,7 @@
                 "pts_delta": 3
               },
               {
-                "name": "Lash Whip and Bone",
+                "name": "Lash Whip and Bone Sword",
                 "pts_delta": 9
               },
               {
@@ -1285,7 +1696,39 @@
               }
             ]
           }
-        ]
+        ],
+        "weapons": {
+          "Rending Claws": {
+            "range": "Melee",
+            "S": "User",
+            "AP": "5+",
+            "type": "Rending"
+          },
+          "Scything Talons": {
+            "range": "Melee",
+            "S": "User",
+            "AP": "-",
+            "type": "Extra Attack 1, Reroll 1\u2019s To Hit"
+          },
+          "Bone Swords": {
+            "range": "Melee",
+            "S": "User",
+            "AP": "3+",
+            "type": "Extra Attack 1"
+          },
+          "Lash Whip and Bone Sword": {
+            "range": "Melee",
+            "S": "User",
+            "AP": "3+",
+            "type": "Counterattack, Initiative 6"
+          },
+          "Crushing Claws": {
+            "range": "Melee",
+            "S": "X2",
+            "AP": "2+",
+            "type": "Slow, Monsterbane 17"
+          }
+        }
       },
       {
         "name": "Zoanthrope Brood",
@@ -1323,27 +1766,27 @@
             "description": "May take up to 3 more Zoanthropes for +60 points each The unit may take up to 3 S The entire unit may take any B once each per model",
             "choices": [
               {
-                "name": "Warp Blast Cast",
+                "name": "Warp Blast Cast 6+",
                 "pts_delta": 7
               },
               {
-                "name": "Forced Rush Cast",
+                "name": "Forced Rush Cast 6+",
                 "pts_delta": 10
               },
               {
-                "name": "Shadow Node Cast",
+                "name": "Shadow Node Cast 5+",
                 "pts_delta": 10
               },
               {
-                "name": "Warp Lightning Cast",
+                "name": "Warp Lightning Cast 6+",
                 "pts_delta": 15
               },
               {
-                "name": "Ablative Shield Cast",
+                "name": "Ablative Shield Cast 7+",
                 "pts_delta": 20
               },
               {
-                "name": "Warp Lance Cast",
+                "name": "Warp Lance Cast 7+",
                 "pts_delta": 32
               },
               {
@@ -1352,7 +1795,45 @@
               }
             ]
           }
-        ]
+        ],
+        "weapons": {
+          "Warp Blast Cast 6+": {
+            "range": "24",
+            "S": "5",
+            "AP": "3+",
+            "type": "Assault 1 per Zoanthrope, 3\u201d Blast"
+          },
+          "Forced Rush Cast 6+": {
+            "range": "18",
+            "S": "-",
+            "AP": "-",
+            "type": "Target friendly unit moves 1\u201d per Zoanthrope. This move cannot take any models out of 18"
+          },
+          "Shadow Node Cast 5+": {
+            "range": "18",
+            "S": "-",
+            "AP": "-",
+            "type": "Target unit gains one additional Deny the Witch in the next Psychic Phase per Zoanthrope"
+          },
+          "Warp Lightning Cast 6+": {
+            "range": "24",
+            "S": "5",
+            "AP": "-",
+            "type": "Assault 2 per Zoanthrope, Tesla"
+          },
+          "Ablative Shield Cast 7+": {
+            "range": "18",
+            "S": "-",
+            "AP": "-",
+            "type": "Target unit ignores the next number of Wounds that would be assigned to it equal to the number of Zoanthropes. This effect ends at the start of your next Psychic Phase. Additional Wounds from sources such as Monsterbane count towards this total number ignored."
+          },
+          "Warp Lance Cast 7+": {
+            "range": "24",
+            "S": "10",
+            "AP": "2+",
+            "type": "Assault 1 per Zoanthrope, Lance, Monsterbane"
+          }
+        }
       },
       {
         "name": "Zoanthrope Brood",
@@ -1390,27 +1871,27 @@
             "description": "May take up to 3 more Zoanthropes for +60 points each The unit may take up to 3 S The entire unit may take any B once each per model",
             "choices": [
               {
-                "name": "Warp Blast Cast",
+                "name": "Warp Blast Cast 6+",
                 "pts_delta": 7
               },
               {
-                "name": "Forced Rush Cast",
+                "name": "Forced Rush Cast 6+",
                 "pts_delta": 10
               },
               {
-                "name": "Shadow Node Cast",
+                "name": "Shadow Node Cast 5+",
                 "pts_delta": 10
               },
               {
-                "name": "Warp Lightning Cast",
+                "name": "Warp Lightning Cast 6+",
                 "pts_delta": 15
               },
               {
-                "name": "Ablative Shield Cast",
+                "name": "Ablative Shield Cast 7+",
                 "pts_delta": 20
               },
               {
-                "name": "Warp Lance Cast",
+                "name": "Warp Lance Cast 7+",
                 "pts_delta": 32
               },
               {
@@ -1419,7 +1900,45 @@
               }
             ]
           }
-        ]
+        ],
+        "weapons": {
+          "Warp Blast Cast 6+": {
+            "range": "24",
+            "S": "5",
+            "AP": "3+",
+            "type": "Assault 1 per Zoanthrope, 3\u201d Blast"
+          },
+          "Forced Rush Cast 6+": {
+            "range": "18",
+            "S": "-",
+            "AP": "-",
+            "type": "Target friendly unit moves 1\u201d per Zoanthrope. This move cannot take any models out of 18"
+          },
+          "Shadow Node Cast 5+": {
+            "range": "18",
+            "S": "-",
+            "AP": "-",
+            "type": "Target unit gains one additional Deny the Witch in the next Psychic Phase per Zoanthrope"
+          },
+          "Warp Lightning Cast 6+": {
+            "range": "24",
+            "S": "5",
+            "AP": "-",
+            "type": "Assault 2 per Zoanthrope, Tesla"
+          },
+          "Ablative Shield Cast 7+": {
+            "range": "18",
+            "S": "-",
+            "AP": "-",
+            "type": "Target unit ignores the next number of Wounds that would be assigned to it equal to the number of Zoanthropes. This effect ends at the start of your next Psychic Phase. Additional Wounds from sources such as Monsterbane count towards this total number ignored."
+          },
+          "Warp Lance Cast 7+": {
+            "range": "24",
+            "S": "10",
+            "AP": "2+",
+            "type": "Assault 1 per Zoanthrope, Lance, Monsterbane"
+          }
+        }
       },
       {
         "name": "Haruspex",
@@ -1469,7 +1988,21 @@
               }
             ]
           }
-        ]
+        ],
+        "weapons": {
+          "Grasping Tongue": {
+            "range": "12",
+            "S": "6",
+            "AP": "3+",
+            "type": "Assault 4, Gulp"
+          },
+          "Shoveling Claws": {
+            "range": "Melee",
+            "S": "X2",
+            "AP": "2+",
+            "type": "Slow, Monsterbane"
+          }
+        }
       },
       {
         "name": "Maleceptor",
@@ -1507,7 +2040,7 @@
             "description": "May take up to 2 Spells or S",
             "choices": [
               {
-                "name": "Psychic Overload Cast",
+                "name": "Psychic Overload Cast 6+",
                 "pts_delta": 10
               }
             ]
@@ -1529,7 +2062,21 @@
               }
             ]
           }
-        ]
+        ],
+        "weapons": {
+          "Monstrous Scything Talons": {
+            "range": "Melee",
+            "S": "User",
+            "AP": "3+",
+            "type": "Extra Attack 1, Reroll 1s To Hit"
+          },
+          "Psychic Overload Cast 6+": {
+            "range": "18",
+            "S": "5",
+            "AP": "5+",
+            "type": "Assault 6"
+          }
+        }
       },
       {
         "name": "Psychophage Brood",
@@ -1580,7 +2127,21 @@
               }
             ]
           }
-        ]
+        ],
+        "weapons": {
+          "Psycholastic Torrent": {
+            "range": "Flame",
+            "S": "6",
+            "AP": "3+",
+            "type": "Assault 1"
+          },
+          "Feeder Tentacles": {
+            "range": "Melee",
+            "S": "User",
+            "AP": "3+",
+            "type": "Psychicbane, Ignores Invulnerability Saves"
+          }
+        }
       },
       {
         "name": "Tervigon",
@@ -1649,7 +2210,33 @@
               }
             ]
           }
-        ]
+        ],
+        "weapons": {
+          "Monstrous Scything Talons": {
+            "range": "Melee",
+            "S": "User",
+            "AP": "3+",
+            "type": "Extra Attack 1, Reroll 1s To Hit"
+          },
+          "Monstrous Crushing Claws": {
+            "range": "Melee",
+            "S": "X2",
+            "AP": "2+",
+            "type": "Slow, Monsterbane"
+          },
+          "Stinger Salvo Grubs Beetles": {
+            "range": "24",
+            "S": "5",
+            "AP": "5+",
+            "type": "Assault 4 21 Wound Rolls"
+          },
+          "Attack": {
+            "range": "0-3",
+            "S": "",
+            "AP": "",
+            "type": ""
+          }
+        }
       },
       {
         "name": "Gargoyles",
@@ -1687,7 +2274,8 @@
             "description": "May add up to 20 more Gargoyles for +16 points each",
             "choices": []
           }
-        ]
+        ],
+        "weapons": {}
       }
     ],
     "fast_attack": [
@@ -1737,7 +2325,27 @@
               }
             ]
           }
-        ]
+        ],
+        "weapons": {
+          "Spore Bomb": {
+            "range": "0",
+            "S": "4",
+            "AP": "4+",
+            "type": "Assault 1, 5\u201d Blast, One Use Only"
+          },
+          "Air Burst Bomb": {
+            "range": "0",
+            "S": "8",
+            "AP": "3+",
+            "type": "Assault 1, Monsterbane, can only explode on Flyers and High Altitude models but always 23 resolves against the Side of the Aircraft (Auto Hits), One Use Only"
+          },
+          "Infantry": {
+            "range": "",
+            "S": "",
+            "AP": "",
+            "type": ""
+          }
+        }
       },
       {
         "name": "Spore Mines",
@@ -1784,7 +2392,27 @@
               }
             ]
           }
-        ]
+        ],
+        "weapons": {
+          "Spore Bomb": {
+            "range": "0",
+            "S": "4",
+            "AP": "4+",
+            "type": "Assault 1, 5\u201d Blast, One Use Only"
+          },
+          "Air Burst Bomb": {
+            "range": "0",
+            "S": "8",
+            "AP": "3+",
+            "type": "Assault 1, Monsterbane, can only explode on Flyers and High Altitude models but always 23 resolves against the Side of the Aircraft (Auto Hits), One Use Only"
+          },
+          "Infantry": {
+            "range": "",
+            "S": "",
+            "AP": "",
+            "type": ""
+          }
+        }
       },
       {
         "name": "resolves against the Side of the",
@@ -1851,7 +2479,8 @@
               }
             ]
           }
-        ]
+        ],
+        "weapons": {}
       },
       {
         "name": "Ravener Brood",
@@ -1909,7 +2538,33 @@
               }
             ]
           }
-        ]
+        ],
+        "weapons": {
+          "Rending Claws": {
+            "range": "Melee",
+            "S": "User",
+            "AP": "5+",
+            "type": "Rending"
+          },
+          "Scything Talons": {
+            "range": "Melee",
+            "S": "User",
+            "AP": "-",
+            "type": "Extra Attack 1, Reroll 1\u2019s To Hit"
+          },
+          "Devourer": {
+            "range": "18",
+            "S": "4",
+            "AP": "-",
+            "type": "Assault 3"
+          },
+          "Death Spitter Fists": {
+            "range": "24",
+            "S": "5",
+            "AP": "5+",
+            "type": "Assault 3 25"
+          }
+        }
       },
       {
         "name": "Von Ryan Leaper Brood",
@@ -1953,7 +2608,15 @@
               }
             ]
           }
-        ]
+        ],
+        "weapons": {
+          "Leaper Talons": {
+            "range": "Melee",
+            "S": "User",
+            "AP": "-",
+            "type": "Extra Attack 1, Reroll 1s To Hit, Rending"
+          }
+        }
       },
       {
         "name": "Dimachaeron",
@@ -2000,7 +2663,21 @@
             "description": "May take up to one of each B",
             "choices": []
           }
-        ]
+        ],
+        "weapons": {
+          "Gargantuan Scything Talons": {
+            "range": "Melee",
+            "S": "+2",
+            "AP": "1+",
+            "type": "Extra Attack 1, Reroll 1s To Hit, Armourbane"
+          },
+          "Thresher Scythe Tail": {
+            "range": "Melee",
+            "S": "4",
+            "AP": "3+",
+            "type": "Extra Attack 2, Auxiliary"
+          }
+        }
       },
       {
         "name": "Mawloc",
@@ -2067,7 +2744,33 @@
               }
             ]
           }
-        ]
+        ],
+        "weapons": {
+          "Monstrous Scything Talons": {
+            "range": "Melee",
+            "S": "User",
+            "AP": "3+",
+            "type": "Extra Attack 1, Reroll 1s To Hit"
+          },
+          "Emergence Hole": {
+            "range": "0",
+            "S": "6",
+            "AP": "2+",
+            "type": "Assault 1, 5\u201d Blast, Ignores Cover,"
+          },
+          "Thresher Scythe Tail": {
+            "range": "Melee",
+            "S": "4",
+            "AP": "3+",
+            "type": "Extra Attack 2, Auxiliary"
+          },
+          "Toxin Spike Tail": {
+            "range": "Melee",
+            "S": "User",
+            "AP": "3+",
+            "type": "Poisoned (2+), Auxiliary"
+          }
+        }
       },
       {
         "name": "Norn Assimilator",
@@ -2123,7 +2826,27 @@
               }
             ]
           }
-        ]
+        ],
+        "weapons": {
+          "Toxinjector Harpoon": {
+            "range": "12",
+            "S": "6",
+            "AP": "3+",
+            "type": "Assault 1, Sniper (3+), Tear Free"
+          },
+          "Monstrous Rending Claws": {
+            "range": "Melee",
+            "S": "+2",
+            "AP": "4+",
+            "type": "Rending"
+          },
+          "Monstrous Scything Talons": {
+            "range": "Melee",
+            "S": "User",
+            "AP": "3+",
+            "type": "Extra Attack 1, Reroll 1\u2019s To Hit 28"
+          }
+        }
       },
       {
         "name": "Trygon",
@@ -2200,7 +2923,39 @@
               }
             ]
           }
-        ]
+        ],
+        "weapons": {
+          "Monstrous Scything Talons": {
+            "range": "Melee",
+            "S": "User",
+            "AP": "3+",
+            "type": "Extra Attack 1, Reroll 1s To Hit"
+          },
+          "Bio Electric Pulse": {
+            "range": "12",
+            "S": "5",
+            "AP": "5+",
+            "type": "Assault 6"
+          },
+          "Charged Bio Electric Pulse": {
+            "range": "12",
+            "S": "5",
+            "AP": "3+",
+            "type": "Assault 8"
+          },
+          "Thresher Scythe Tail": {
+            "range": "Melee",
+            "S": "4",
+            "AP": "3+",
+            "type": "Extra Attack 2, Auxiliary"
+          },
+          "Toxin Spike Tail": {
+            "range": "Melee",
+            "S": "User",
+            "AP": "3+",
+            "type": "Poisoned (2+), Auxiliary 29"
+          }
+        }
       },
       {
         "name": "Skyslasher Swarm",
@@ -2242,7 +2997,15 @@
               }
             ]
           }
-        ]
+        ],
+        "weapons": {
+          "Support": {
+            "range": "0-3",
+            "S": "",
+            "AP": "",
+            "type": ""
+          }
+        }
       }
     ],
     "heavy_support": [
@@ -2284,7 +3047,15 @@
               }
             ]
           }
-        ]
+        ],
+        "weapons": {
+          "Infantry": {
+            "range": "",
+            "S": "",
+            "AP": "",
+            "type": ""
+          }
+        }
       },
       {
         "name": "Biovore Brood",
@@ -2326,7 +3097,8 @@
               }
             ]
           }
-        ]
+        ],
+        "weapons": {}
       },
       {
         "name": "Barbed Hierodule",
@@ -2376,7 +3148,15 @@
               }
             ]
           }
-        ]
+        ],
+        "weapons": {
+          "Hierodule Scything Talons Cannons": {
+            "range": "Melee",
+            "S": "+2",
+            "AP": "1+",
+            "type": "Extra Attack 1, Reroll 1s To Hit"
+          }
+        }
       },
       {
         "name": "Carnifex Brood",
@@ -2415,11 +3195,11 @@
             "description": "May add up to 2 more Carnifexes for +174 points each Any model may swap Monstrous Scything Talons for M or S Any model may take one T Any model may take one H The entire unit may take any B once each per model",
             "choices": [
               {
-                "name": "Monstrous Scything",
+                "name": "Monstrous Scything Talons",
                 "pts_delta": 0
               },
               {
-                "name": "Monstrous Crushing Maggot Spitters Devourers",
+                "name": "Monstrous Crushing Claws Maggot Death Spitters Devourers",
                 "pts_delta": 12
               },
               {
@@ -2474,7 +3254,57 @@
               }
             ]
           }
-        ]
+        ],
+        "weapons": {
+          "Monstrous Scything Talons": {
+            "range": "Melee",
+            "S": "User",
+            "AP": "3+",
+            "type": "Extra Attack 1, Reroll 1s To Hit 32"
+          },
+          "Monstrous Crushing Claws Maggot Death Spitters Devourers": {
+            "range": "Melee",
+            "S": "X2",
+            "AP": "2+",
+            "type": "Slow, Monsterbane"
+          },
+          "Heavy Venom Cannon": {
+            "range": "36",
+            "S": "9",
+            "AP": "3+",
+            "type": "Assault 1, 3\u201d Blast, Monsterbane"
+          },
+          "Stranglethorn Cannon": {
+            "range": "36",
+            "S": "7",
+            "AP": "5+",
+            "type": "Assault 1, 5\u201d Blast, Monsterbane"
+          },
+          "Thresher Scythe Tail": {
+            "range": "Melee",
+            "S": "4",
+            "AP": "3+",
+            "type": "Extra Attack 2, Auxiliary"
+          },
+          "Bone Mace Tail": {
+            "range": "Melee",
+            "S": "User",
+            "AP": "3+",
+            "type": "Monsterbane, Auxiliary"
+          },
+          "Bio Plasma": {
+            "range": "12",
+            "S": "7",
+            "AP": "2+",
+            "type": "Assault 1, 3\u201d Blast"
+          },
+          "Spine Banks": {
+            "range": "6",
+            "S": "4",
+            "AP": "5+",
+            "type": "Assault 4"
+          }
+        }
       },
       {
         "name": "Exocrine",
@@ -2524,7 +3354,21 @@
               }
             ]
           }
-        ]
+        ],
+        "weapons": {
+          "Monstrous Scything Talons": {
+            "range": "Melee",
+            "S": "User",
+            "AP": "3+",
+            "type": "Extra Attack 1, Reroll 1s To Hit"
+          },
+          "Bio Plasmic Cannon": {
+            "range": "36",
+            "S": "7",
+            "AP": "2+",
+            "type": "Heavy 6 Or Or Or Or 36       7       2+       Heavy 1, 5\u201d Blast 33"
+          }
+        }
       },
       {
         "name": "Screamer Killer",
@@ -2586,7 +3430,21 @@
               }
             ]
           }
-        ]
+        ],
+        "weapons": {
+          "Bio Plasmic Scream": {
+            "range": "18",
+            "S": "8",
+            "AP": "2+",
+            "type": "Assault 1, 5\u201d Blast, Monsterbane"
+          },
+          "Monstrous Scything Talons": {
+            "range": "Melee",
+            "S": "User",
+            "AP": "3+",
+            "type": "Extra Attack 1, Reroll 1s To Hit 34"
+          }
+        }
       },
       {
         "name": "Screamer Killer",
@@ -2648,7 +3506,21 @@
               }
             ]
           }
-        ]
+        ],
+        "weapons": {
+          "Bio Plasmic Scream": {
+            "range": "18",
+            "S": "8",
+            "AP": "2+",
+            "type": "Assault 1, 5\u201d Blast, Monsterbane"
+          },
+          "Monstrous Scything Talons": {
+            "range": "Melee",
+            "S": "User",
+            "AP": "3+",
+            "type": "Extra Attack 1, Reroll 1s To Hit 34"
+          }
+        }
       },
       {
         "name": "Stone Crusher Carnifex Brood",
@@ -2721,7 +3593,39 @@
               }
             ]
           }
-        ]
+        ],
+        "weapons": {
+          "Wrecker Claws": {
+            "range": "Melee",
+            "S": "X2",
+            "AP": "1+",
+            "type": "Monsterbane"
+          },
+          "Bio Flails": {
+            "range": "Melee",
+            "S": "User",
+            "AP": "3+",
+            "type": "Extra Attack 2, Counter Attack, Initiative 6"
+          },
+          "Thresher Scythe Tail": {
+            "range": "Melee",
+            "S": "4",
+            "AP": "3+",
+            "type": "Extra Attack 2, Auxiliary 35"
+          },
+          "Bone Mace Tail": {
+            "range": "Melee",
+            "S": "User",
+            "AP": "3+",
+            "type": "Monsterbane, Auxiliary"
+          },
+          "Bio Plasma": {
+            "range": "12",
+            "S": "7",
+            "AP": "2+",
+            "type": "Assault 1, 3\u201d Blast"
+          }
+        }
       },
       {
         "name": "Stone Crusher Carnifex Brood",
@@ -2794,7 +3698,39 @@
               }
             ]
           }
-        ]
+        ],
+        "weapons": {
+          "Wrecker Claws": {
+            "range": "Melee",
+            "S": "X2",
+            "AP": "1+",
+            "type": "Monsterbane"
+          },
+          "Bio Flails": {
+            "range": "Melee",
+            "S": "User",
+            "AP": "3+",
+            "type": "Extra Attack 2, Counter Attack, Initiative 6"
+          },
+          "Thresher Scythe Tail": {
+            "range": "Melee",
+            "S": "4",
+            "AP": "3+",
+            "type": "Extra Attack 2, Auxiliary 35"
+          },
+          "Bone Mace Tail": {
+            "range": "Melee",
+            "S": "User",
+            "AP": "3+",
+            "type": "Monsterbane, Auxiliary"
+          },
+          "Bio Plasma": {
+            "range": "12",
+            "S": "7",
+            "AP": "2+",
+            "type": "Assault 1, 3\u201d Blast"
+          }
+        }
       },
       {
         "name": "Toxicrene",
@@ -2843,7 +3779,15 @@
               }
             ]
           }
-        ]
+        ],
+        "weapons": {
+          "Massive Toxic Lashes": {
+            "range": "Melee",
+            "S": "User",
+            "AP": "3+",
+            "type": "Extra Attack 2, Poisoned (3+), Initiative 6"
+          }
+        }
       },
       {
         "name": "Rules",
@@ -2881,7 +3825,8 @@
           "Stinger Salvo",
           "Fleshborer Hive"
         ],
-        "options": []
+        "options": [],
+        "weapons": {}
       }
     ],
     "flyers": [
@@ -2936,7 +3881,45 @@
             "description": "May take up to one of each B",
             "choices": []
           }
-        ]
+        ],
+        "weapons": {
+          "Monstrous Scything Talons": {
+            "range": "Melee",
+            "S": "User",
+            "AP": "3+",
+            "type": "Extra Attack 1, Reroll 1s To Hit"
+          },
+          "Wicked Spurs": {
+            "range": "Melee",
+            "S": "+2",
+            "AP": "3+",
+            "type": "Auxiliary"
+          },
+          "Drool Cannon": {
+            "range": "Flame",
+            "S": "6",
+            "AP": "4+",
+            "type": "Assault 1, Hull"
+          },
+          "Tentaclids": {
+            "range": "36",
+            "S": "5",
+            "AP": "3+",
+            "type": "Assault 2, AA, Haywire (3+)"
+          },
+          "Cluster Spines": {
+            "range": "18",
+            "S": "5",
+            "AP": "-",
+            "type": "Assault 1, 5\u201d Blast, Hull"
+          },
+          "Stinger Salvo": {
+            "range": "24",
+            "S": "5",
+            "AP": "5+",
+            "type": "Assault4, Hull 37"
+          }
+        }
       },
       {
         "name": "Harpy",
@@ -3010,7 +3993,39 @@
               }
             ]
           }
-        ]
+        ],
+        "weapons": {
+          "Monstrous Scything Talons Venom Cannons": {
+            "range": "Melee",
+            "S": "User",
+            "AP": "3+",
+            "type": "Extra Attack 1, Reroll 1s To Hit Monsterbane, Hull"
+          },
+          "+12 Stranglethorn Cannon": {
+            "range": "2 Linked",
+            "S": "36",
+            "AP": "7 5+ Assault 1 x2, 5\u201d Blast,",
+            "type": "Monsterbane, Hull"
+          },
+          "Cluster Spines": {
+            "range": "18",
+            "S": "5",
+            "AP": "-",
+            "type": "Assault 1, 5\u201d Blast, Hull"
+          },
+          "Stinger Salvo": {
+            "range": "24",
+            "S": "5",
+            "AP": "5+",
+            "type": "Assault4, Hull 38"
+          },
+          "Transport": {
+            "range": "0-1/Legal",
+            "S": "",
+            "AP": "",
+            "type": ""
+          }
+        }
       }
     ],
     "dedicated_transport": [
@@ -3054,7 +4069,33 @@
               }
             ]
           }
-        ]
+        ],
+        "weapons": {
+          "Death Spitter": {
+            "range": "24",
+            "S": "5",
+            "AP": "5+",
+            "type": "Assault 3"
+          },
+          "Venom Cannon": {
+            "range": "36",
+            "S": "6",
+            "AP": "4+",
+            "type": "Assault 1, 3\u201d Blast"
+          },
+          "Barbed Strangler": {
+            "range": "36",
+            "S": "4",
+            "AP": "5+",
+            "type": "Assault 1, 5\u201d Blast 39"
+          },
+          "of War": {
+            "range": "0-1",
+            "S": "",
+            "AP": "",
+            "type": ""
+          }
+        }
       }
     ],
     "lord_of_war": [
@@ -3105,7 +4146,33 @@
               }
             ]
           }
-        ]
+        ],
+        "weapons": {
+          "Cataclysm Cast 8+": {
+            "range": "18",
+            "S": "*",
+            "AP": "1+",
+            "type": "Assault 1, 7\u201d Blast, Monsterbane, *Strength is equal to Doom of Malan\u2019ta\u2019 s current Wounds."
+          },
+          "Warp Blast Cast 6+": {
+            "range": "18",
+            "S": "5",
+            "AP": "3+",
+            "type": "Assault 1, 3\u201d Blast"
+          },
+          "Psychic Overload Cast 6+": {
+            "range": "18",
+            "S": "5",
+            "AP": "5+",
+            "type": "Assault 6"
+          },
+          "Warp Lance Cast 7+": {
+            "range": "18",
+            "S": "10",
+            "AP": "2+",
+            "type": "Assault 1, Lance"
+          }
+        }
       },
       {
         "name": "Harridan",
@@ -3144,7 +4211,15 @@
             "description": "May take up to one of each B",
             "choices": []
           }
-        ]
+        ],
+        "weapons": {
+          "Gargantuan Scything Talons Cannons": {
+            "range": "Melee",
+            "S": "+2",
+            "AP": "1+",
+            "type": "Extra Attack 1, Armourbane, Reroll 1s To Hit, Monsterbane"
+          }
+        }
       },
       {
         "name": "Hierophant",
@@ -3207,7 +4282,33 @@
               }
             ]
           }
-        ]
+        ],
+        "weapons": {
+          "Gargantuan Scything Talons Cannons": {
+            "range": "Melee",
+            "S": "+2",
+            "AP": "1+",
+            "type": "Extra Attack 1, Armourbane, Reroll 1s To Hit, Monsterbane"
+          },
+          "Lash Whips Cloud Sprayer": {
+            "range": "Melee",
+            "S": "4",
+            "AP": "5+",
+            "type": "Extra Attack 2d6, Auxiliary, Counterattack, Initiative 6 41"
+          },
+          "Bio Acid Torrent": {
+            "range": "Hell",
+            "S": "7",
+            "AP": "2+",
+            "type": "Assault 1 Storm"
+          },
+          "Cluster Spore Mine Launcher": {
+            "range": "48",
+            "S": "4",
+            "AP": "4+",
+            "type": "Heavy 1, Apocalypse Blast, Deploy 1 Spore Mine in the center of each 5\u201d Blast. The weapon profile is only used if the Mine explodes by touching a Model."
+          }
+        }
       }
     ],
     "fortifications": [
@@ -3234,12 +4335,20 @@
             "description": "May take up to 4 S",
             "choices": [
               {
-                "name": "Cluster Spore Mine Cloud",
+                "name": "Cluster Spore Mine Launcher Cloud Sprayer",
                 "pts_delta": 0
               }
             ]
           }
-        ]
+        ],
+        "weapons": {
+          "Cluster Spore Mine Launcher Cloud Sprayer": {
+            "range": "48",
+            "S": "4",
+            "AP": "4+",
+            "type": "Heavy 1, Apocalypse Blast, Deploy 1 Spore Mine in the center of each 5\u201d Blast. The weapon profile is only used if the Mine explodes by touching a Model. 42"
+          }
+        }
       },
       {
         "name": "Sporocyst",
@@ -3267,7 +4376,27 @@
           "Death Spitter",
           "Death Spitter"
         ],
-        "options": []
+        "options": [],
+        "weapons": {
+          "Death Spitter": {
+            "range": "24",
+            "S": "5",
+            "AP": "5+",
+            "type": "Assault 3"
+          },
+          "Venom Cannon": {
+            "range": "36",
+            "S": "6",
+            "AP": "4+",
+            "type": "Assault 1, 3\u201d Blast"
+          },
+          "Barbed Strangler": {
+            "range": "36",
+            "S": "4",
+            "AP": "5+",
+            "type": "Assault 1, 5\u201d Blast 43"
+          }
+        }
       }
     ]
   }

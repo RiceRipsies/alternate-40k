@@ -77,7 +77,8 @@
           "Hammer of Baal",
           "Iron Halo"
         ],
-        "options": []
+        "options": [],
+        "weapons": {}
       },
       {
         "name": "Captain Tycho",
@@ -123,7 +124,39 @@
           "Krak Grenades",
           "Iron Halo"
         ],
-        "options": []
+        "options": [],
+        "weapons": {
+          "Blood Song": {
+            "range": "12",
+            "S": "8",
+            "AP": "1+",
+            "type": "Assault 1, Melta, And      And    And    (Monsterbane) And 24       4      5+     Assault 2"
+          },
+          "Bolt Pistol": {
+            "range": "12",
+            "S": "4",
+            "AP": "5+",
+            "type": "Pistol 1"
+          },
+          "Dead Man\u2019s Hand": {
+            "range": "Melee",
+            "S": "X2",
+            "AP": "1+",
+            "type": "Slow, Monsterbane"
+          },
+          "Frag Grenades": {
+            "range": "8",
+            "S": "3",
+            "AP": "-",
+            "type": "Grenade 1, 3\u201d Blast"
+          },
+          "Krak Grenades": {
+            "range": "8",
+            "S": "6",
+            "AP": "4+",
+            "type": "Grenade 1, Nonblast 4"
+          }
+        }
       },
       {
         "name": "Chief Librarian Mephiston",
@@ -179,31 +212,31 @@
             "description": "May take up to one S for each level of Psychic Mastery.",
             "choices": [
               {
-                "name": "Sanguine Sword Cast",
+                "name": "Sanguine Sword Cast 7+",
                 "pts_delta": 0
               },
               {
-                "name": "Cause Misfortune Cast",
+                "name": "Cause Misfortune Cast 7+",
                 "pts_delta": 10
               },
               {
-                "name": "Forewarning Cast",
+                "name": "Forewarning Cast 6+",
                 "pts_delta": 10
               },
               {
-                "name": "Bolster Cast",
+                "name": "Bolster Cast 6+",
                 "pts_delta": 15
               },
               {
-                "name": "Enfeeble Cast",
+                "name": "Enfeeble Cast 8+",
                 "pts_delta": 20
               },
               {
-                "name": "Endurance Cast",
+                "name": "Endurance Cast 7+",
                 "pts_delta": 20
               },
               {
-                "name": "Melting Beam Cast",
+                "name": "Melting Beam Cast 7+",
                 "pts_delta": 22
               }
             ]
@@ -217,7 +250,75 @@
               }
             ]
           }
-        ]
+        ],
+        "weapons": {
+          "Plasma Pistol": {
+            "range": "12",
+            "S": "7",
+            "AP": "2+",
+            "type": "Pistol 1, Gets Hot!"
+          },
+          "Vitarus": {
+            "range": "Melee",
+            "S": "+3",
+            "AP": "2+",
+            "type": "Psychic Bane"
+          },
+          "Frag Grenades": {
+            "range": "8",
+            "S": "3",
+            "AP": "-",
+            "type": "Grenade 1, 3\u201d Blast"
+          },
+          "Krak Grenades": {
+            "range": "8",
+            "S": "6",
+            "AP": "4+",
+            "type": "Grenade 1, Nonblast"
+          },
+          "Sanguine Sword Cast 7+": {
+            "range": "User",
+            "S": "-",
+            "AP": "-",
+            "type": "Vitarus hits at S10, AP1+, and ignores Invulnerability Saves until your next Psychic Phase"
+          },
+          "Cause Misfortune Cast 7+": {
+            "range": "18",
+            "S": "-",
+            "AP": "-",
+            "type": "Target unit gains Rending on all Ranged and Melee Attacks until your next Psychic Phase"
+          },
+          "Forewarning Cast 6+": {
+            "range": "18",
+            "S": "-",
+            "AP": "-",
+            "type": "Target unit gains 4+ Cover Save until your next Psychic Phase"
+          },
+          "Bolster Cast 6+": {
+            "range": "18",
+            "S": "-",
+            "AP": "-",
+            "type": "Target unit counts as having not Moved for the purposes of Shooting until your next Psychic Phase 5"
+          },
+          "Enfeeble Cast 8+": {
+            "range": "18",
+            "S": "-",
+            "AP": "-",
+            "type": "Target unit suffers T-1 until your next Psychic Phase"
+          },
+          "Endurance Cast 7+": {
+            "range": "18",
+            "S": "-",
+            "AP": "-",
+            "type": "Target unit gains T+1 until your next Psychic Phase"
+          },
+          "Melting Beam Cast 7+": {
+            "range": "18",
+            "S": "8",
+            "AP": "1+",
+            "type": "Assault 1, Armourbane, Beam"
+          }
+        }
       },
       {
         "name": "Commander Dante",
@@ -275,7 +376,39 @@
             "description": "May take one B Target unit suffers T-1 until your next Psychic Phase Target unit gains T+1 until your next Psychic Phase Assault 1, Armourbane, Beam",
             "choices": []
           }
-        ]
+        ],
+        "weapons": {
+          "Perdition Pistol": {
+            "range": "12",
+            "S": "8",
+            "AP": "1+",
+            "type": "Pistol 1, Melta, (Monsterbane)"
+          },
+          "The Axe Mortalis": {
+            "range": "Melee",
+            "S": "+3",
+            "AP": "2+",
+            "type": ""
+          },
+          "Frag Grenades": {
+            "range": "8",
+            "S": "3",
+            "AP": "-",
+            "type": "Grenade 1, 3\u201d Blast"
+          },
+          "Krak Grenades": {
+            "range": "8",
+            "S": "6",
+            "AP": "4+",
+            "type": "Grenade 1, Nonblast"
+          },
+          "Orbital Strike": {
+            "range": "12-240",
+            "S": "D/10",
+            "AP": "1+",
+            "type": "/1+ Heavy 1, 15\u201d Blast, Destroyer, /8     /1+       Ordnance, Monsterbane, Indirect Fire, Ignores Cover, The Hour is Nigh, T Minus 5, One Use Only, Turret"
+          }
+        }
       },
       {
         "name": "Lemartes",
@@ -334,7 +467,39 @@
               }
             ]
           }
-        ]
+        ],
+        "weapons": {
+          "Bolt Pistol": {
+            "range": "12",
+            "S": "4",
+            "AP": "5+",
+            "type": "Pistol 1"
+          },
+          "The Blood Crozius": {
+            "range": "Melee",
+            "S": "+2",
+            "AP": "3+",
+            "type": "Concussion And And And And Flame     5      4+        Assault 1, One Use Only"
+          },
+          "Power Fist": {
+            "range": "Melee",
+            "S": "X2",
+            "AP": "2+",
+            "type": "Slow, Monsterbane"
+          },
+          "Frag Grenades": {
+            "range": "8",
+            "S": "3",
+            "AP": "-",
+            "type": "Grenade 1, 3\u201d Blast"
+          },
+          "Krak Grenades": {
+            "range": "8",
+            "S": "6",
+            "AP": "4+",
+            "type": "Grenade 1, Nonblast 8"
+          }
+        }
       }
     ],
     "advisors": [
@@ -394,7 +559,33 @@
               }
             ]
           }
-        ]
+        ],
+        "weapons": {
+          "Bolt Pistol": {
+            "range": "12",
+            "S": "4",
+            "AP": "5+",
+            "type": "Pistol 1"
+          },
+          "The Executioner\u2019s Axe": {
+            "range": "Melee",
+            "S": "+3",
+            "AP": "2+",
+            "type": "Ignores Invulnerability Saves"
+          },
+          "Frag Grenades": {
+            "range": "8",
+            "S": "3",
+            "AP": "-",
+            "type": "Grenade 1, 3\u201d Blast"
+          },
+          "Krak Grenades": {
+            "range": "8",
+            "S": "6",
+            "AP": "4+",
+            "type": "Grenade 1, Nonblast 9"
+          }
+        }
       },
       {
         "name": "Brother Corbulo",
@@ -450,7 +641,33 @@
               }
             ]
           }
-        ]
+        ],
+        "weapons": {
+          "Bolt Pistol": {
+            "range": "12",
+            "S": "4",
+            "AP": "5+",
+            "type": "Pistol 1"
+          },
+          "Heaven\u2019s Teeth": {
+            "range": "Melee",
+            "S": "+1",
+            "AP": "4+",
+            "type": "Rending"
+          },
+          "Frag Grenades": {
+            "range": "8",
+            "S": "3",
+            "AP": "-",
+            "type": "Grenade 1, 3\u201d Blast"
+          },
+          "Krak Grenades": {
+            "range": "8",
+            "S": "6",
+            "AP": "4+",
+            "type": "Grenade 1, Nonblast 10"
+          }
+        }
       },
       {
         "name": "Cassor the Damned",
@@ -497,7 +714,27 @@
           "Stormbolter",
           "Meltagun"
         ],
-        "options": []
+        "options": [],
+        "weapons": {
+          "Dual Blood Talons": {
+            "range": "Melee",
+            "S": "X2",
+            "AP": "1+",
+            "type": "Slow, Monsterbane, Extra Attack 1, Primary"
+          },
+          "Stormbolter": {
+            "range": "24",
+            "S": "4",
+            "AP": "5+",
+            "type": "Rapid Fire 2, Bolter, Hull, Primary"
+          },
+          "Meltagun": {
+            "range": "12",
+            "S": "8",
+            "AP": "1+",
+            "type": "Assault 1, Melta, (Monsterbane), Hull, Primary 11"
+          }
+        }
       },
       {
         "name": "Raphen\u2019s Death Company",
@@ -602,7 +839,63 @@
               }
             ]
           }
-        ]
+        ],
+        "weapons": {
+          "Bolt Pistol": {
+            "range": "12",
+            "S": "4",
+            "AP": "5+",
+            "type": "Pistol 1"
+          },
+          "Thunderhammer": {
+            "range": "Melee",
+            "S": "10",
+            "AP": "1+",
+            "type": "Slow, Monsterbane"
+          },
+          "Hand Flamer": {
+            "range": "Flame",
+            "S": "3",
+            "AP": "6+",
+            "type": "Pistol 1"
+          },
+          "Inferno Pistol": {
+            "range": "6",
+            "S": "8",
+            "AP": "1+",
+            "type": "Pistol 1, Melta, (Monsterbane)"
+          },
+          "Chainsword": {
+            "range": "Melee",
+            "S": "User",
+            "AP": "6+",
+            "type": "Rending"
+          },
+          "Power Sword": {
+            "range": "Melee",
+            "S": "+1",
+            "AP": "3+",
+            "type": "None"
+          },
+          "Power Fist": {
+            "range": "Melee",
+            "S": "X2",
+            "AP": "2+",
+            "type": "Slow, Monsterbane"
+          },
+          "Frag Grenades": {
+            "range": "8",
+            "S": "3",
+            "AP": "-",
+            "type": "Grenade 1, 3\u201d Blast 12"
+          },
+          "Krak Grenades": {
+            "range": "8",
+            "S": "6",
+            "AP": "4+",
+            "type": "Grenade 1, Nonblast"
+          }
+        }
       },
       {
         "name": "Sanguinary Guard",
@@ -726,7 +1019,81 @@
               }
             ]
           }
-        ]
+        ],
+        "weapons": {
+          "Angelus Bolt Gun": {
+            "range": "18",
+            "S": "4",
+            "AP": "4+",
+            "type": "Assault 2"
+          },
+          "Hand Flamer": {
+            "range": "Flame",
+            "S": "3",
+            "AP": "6+",
+            "type": "Pistol 1"
+          },
+          "Plasma Pistol": {
+            "range": "12",
+            "S": "7",
+            "AP": "2+",
+            "type": "Pistol 1, Gets Hot!"
+          },
+          "Inferno Pistol": {
+            "range": "6",
+            "S": "8",
+            "AP": "1+",
+            "type": "Pistol 1, Melta, (Monsterbane)"
+          },
+          "Power Sword": {
+            "range": "Melee",
+            "S": "+1",
+            "AP": "3+",
+            "type": "None"
+          },
+          "Power Axe": {
+            "range": "Melee",
+            "S": "+2",
+            "AP": "4+",
+            "type": "None"
+          },
+          "Power Spear": {
+            "range": "Melee",
+            "S": "+1",
+            "AP": "3+",
+            "type": "I+3"
+          },
+          "Power Fist": {
+            "range": "Melee",
+            "S": "X2",
+            "AP": "2+",
+            "type": "Slow, Monsterbane 13"
+          },
+          "Frag Grenades": {
+            "range": "8",
+            "S": "3",
+            "AP": "-",
+            "type": "Grenade 1, 3\u201d Blast"
+          },
+          "Krak Grenades": {
+            "range": "8",
+            "S": "6",
+            "AP": "4+",
+            "type": "Grenade 1, Nonblast"
+          },
+          "Meltabombs": {
+            "range": "6",
+            "S": "8",
+            "AP": "1+",
+            "type": "Grenade 1, Armourbane, Monsterbane, Nonblast"
+          },
+          "of War": {
+            "range": "0-1",
+            "S": "",
+            "AP": "",
+            "type": ""
+          }
+        }
       }
     ],
     "lord_of_war": [
@@ -772,7 +1139,27 @@
           "Frag Grenades",
           "Krak Grenades"
         ],
-        "options": []
+        "options": [],
+        "weapons": {
+          "Glaive Encarmine": {
+            "range": "Melee",
+            "S": "+2",
+            "AP": "2+",
+            "type": "Extra Attack 1"
+          },
+          "Frag Grenades": {
+            "range": "8",
+            "S": "3",
+            "AP": "-",
+            "type": "Grenade 1, 3\u201d Blast"
+          },
+          "Krak Grenades": {
+            "range": "8",
+            "S": "6",
+            "AP": "4+",
+            "type": "Grenade 1, Nonblast 14"
+          }
+        }
       }
     ]
   }

@@ -68,7 +68,7 @@
                 "pts_delta": 0
               },
               {
-                "name": "Conversion Beam and Heavy",
+                "name": "Conversion Beam Cannon and 2 Linked Heavy Flamers",
                 "pts_delta": 9
               },
               {
@@ -84,7 +84,7 @@
                 "pts_delta": 37
               },
               {
-                "name": "Rapid Fire Battle Cannon Heavy",
+                "name": "Rapid Fire Battle Cannon and Heavy Stubber",
                 "pts_delta": 83
               },
               {
@@ -122,16 +122,102 @@
             "description": "May take one T or E",
             "choices": [
               {
-                "name": "Stormspear Rocket Autocannons",
+                "name": "Stormspear Rocket Pod Autocannons",
                 "pts_delta": 28
               },
               {
-                "name": "Ironstorm Missile",
+                "name": "Ironstorm Missile Pod",
                 "pts_delta": 49
               }
             ]
           }
-        ]
+        ],
+        "weapons": {
+          "Avenger Gatling Gun": {
+            "range": "36",
+            "S": "6",
+            "AP": "3+",
+            "type": "Heavy 12, Hull, Primary"
+          },
+          "Conversion Beam Cannon and 2 Linked Heavy Flamers": {
+            "range": "72",
+            "S": "10",
+            "AP": "2+",
+            "type": "Heavy 1, Monsterbane, Beam, And And And Hull, Primary And Flame 5 4+ Assault 1 x2, Hull, Primary"
+          },
+          "Las Impulsor": {
+            "range": "36",
+            "S": "D",
+            "AP": "1+",
+            "type": "Heavy 1, 3\u201d Blast, Destroyer, 36      6       3+      Heavy 1, 7\u201d Blast, Hull, Primary"
+          },
+          "Thermal Cannon": {
+            "range": "36",
+            "S": "9",
+            "AP": "1+",
+            "type": "Heavy 1, 5\u201d Blast, Melta, (Monsterbane), Hull, Primary"
+          },
+          "Plasma Obliterator": {
+            "range": "72",
+            "S": "8",
+            "AP": "2+",
+            "type": "Heavy 1, 7\u201d Blast, Monsterbane, Hull"
+          },
+          "Rapid Fire Battle Cannon and Heavy Stubber": {
+            "range": "72",
+            "S": "8",
+            "AP": "3+",
+            "type": "Heavy 2, 5\u201d Blast, Coaxial, And And And Ordnance, Monsterbane, Hull, Primary And 36      5       6+      Heavy 3, Coaxial, Hull, Primary"
+          },
+          "Reaper Chainsword": {
+            "range": "Melee",
+            "S": "+2",
+            "AP": "2+",
+            "type": "Primary"
+          },
+          "Thunderstrike Gauntlet": {
+            "range": "Melee",
+            "S": "D",
+            "AP": "1+",
+            "type": "Slow, Destroyer, Monsterbane, Toss, Primary"
+          },
+          "Heavy Flamer": {
+            "range": "Flame",
+            "S": "5",
+            "AP": "4+",
+            "type": "Assault 1, Hull, Primary"
+          },
+          "Heavy Stubber": {
+            "range": "36",
+            "S": "5",
+            "AP": "6+",
+            "type": "Heavy 3, Hull, Primary"
+          },
+          "Phosphor Blaster": {
+            "range": "24",
+            "S": "5",
+            "AP": "4+",
+            "type": "Rapid Fire 1, Ignores Cover"
+          },
+          "Meltagun": {
+            "range": "12",
+            "S": "8",
+            "AP": "1+",
+            "type": "Assault 1, Melta, (Monsterbane), Hull, Primary"
+          },
+          "Stormspear Rocket Pod Autocannons": {
+            "range": "48",
+            "S": "8",
+            "AP": "3+",
+            "type": "Heavy 1, 3\u201d Blast, Monsterbane, Turret, Primary Turret, Primary"
+          },
+          "Ironstorm Missile Pod": {
+            "range": "72",
+            "S": "5",
+            "AP": "4+",
+            "type": "Heavy 1, Indirect Fire, 5\u201d Blast, Turret, Primary 4"
+          }
+        }
       }
     ],
     "advisors": [
@@ -193,7 +279,8 @@
             "description": "May take one T",
             "choices": []
           }
-        ]
+        ],
+        "weapons": {}
       }
     ],
     "troops": [
@@ -261,7 +348,39 @@
               }
             ]
           }
-        ]
+        ],
+        "weapons": {
+          "Reaper Chain Strike": {
+            "range": "Melee",
+            "S": "+2",
+            "AP": "2+",
+            "type": "Primary"
+          },
+          "Armiger Autocannon": {
+            "range": "60",
+            "S": "7",
+            "AP": "4+",
+            "type": "Heavy 6, Monsterbane, Hull, Primary 6"
+          },
+          "Thermal Spear": {
+            "range": "30",
+            "S": "8",
+            "AP": "1+",
+            "type": "Heavy 1, 3\u201d Blast, Melta, (Monsterbane), Hull, Primary"
+          },
+          "Heavy Stubber": {
+            "range": "36",
+            "S": "5",
+            "AP": "6+",
+            "type": "Heavy 3, Turret"
+          },
+          "Meltagun": {
+            "range": "12",
+            "S": "8",
+            "AP": "1+",
+            "type": "Assault 1, Melta, (Monsterbane), Turret"
+          }
+        }
       },
       {
         "name": "Armiger Moiraxes",
@@ -330,7 +449,45 @@
               }
             ]
           }
-        ]
+        ],
+        "weapons": {
+          "Rad Cleansor": {
+            "range": "Flame",
+            "S": "3",
+            "AP": "-",
+            "type": "Assault 1, Poisoned (2+), Hull, Primary"
+          },
+          "Volkite Veuglaire": {
+            "range": "36",
+            "S": "6",
+            "AP": "4+",
+            "type": "Heavy 1, Beam, Hull, Primary"
+          },
+          "Lightning Lock": {
+            "range": "36",
+            "S": "6",
+            "AP": "-",
+            "type": "Heavy 4, Tesla, Hull, Primary"
+          },
+          "Graviton Pulsar": {
+            "range": "24",
+            "S": "*",
+            "AP": "-",
+            "type": "Heavy 1, 5\u201d Blast, Grav, Hull, Primary"
+          },
+          "Moirax Conversion Beamer": {
+            "range": "48",
+            "S": "9",
+            "AP": "2+",
+            "type": "Heavy 1, Beam, Hull, Primary"
+          },
+          "Siege Claw": {
+            "range": "Melee",
+            "S": "User",
+            "AP": "3+",
+            "type": "Sniper (3+), Hull, Primary 7"
+          }
+        }
       },
       {
         "name": "Knight",
@@ -381,7 +538,7 @@
                 "pts_delta": 0
               },
               {
-                "name": "Conversion Beam and Heavy",
+                "name": "Conversion Beam Cannon and 2 Linked Heavy Flamers",
                 "pts_delta": 9
               },
               {
@@ -397,7 +554,7 @@
                 "pts_delta": 37
               },
               {
-                "name": "Rapid Fire Battle Cannon Heavy",
+                "name": "Rapid Fire Battle Cannon and Heavy Stubber",
                 "pts_delta": 83
               },
               {
@@ -435,16 +592,102 @@
             "description": "May take one T or E",
             "choices": [
               {
-                "name": "Stormspear Rocket Autocannons",
+                "name": "Stormspear Rocket Pod Autocannons",
                 "pts_delta": 28
               },
               {
-                "name": "Ironstorm Missile",
+                "name": "Ironstorm Missile Pod",
                 "pts_delta": 49
               }
             ]
           }
-        ]
+        ],
+        "weapons": {
+          "Avenger Gatling Gun": {
+            "range": "36",
+            "S": "6",
+            "AP": "3+",
+            "type": "Heavy 12, Hull, Primary"
+          },
+          "Conversion Beam Cannon and 2 Linked Heavy Flamers": {
+            "range": "72",
+            "S": "10",
+            "AP": "2+",
+            "type": "Heavy 1, Monsterbane, Beam, And And And Hull, Primary And Flame 5 4+ Assault 1 x2, Hull, Primary"
+          },
+          "Las Impulsor": {
+            "range": "36",
+            "S": "D",
+            "AP": "1+",
+            "type": "Heavy 1, 3\u201d Blast, Destroyer, 36        6      3+       Heavy 1, 7\u201d Blast, Hull, Primary"
+          },
+          "Thermal Cannon": {
+            "range": "36",
+            "S": "9",
+            "AP": "1+",
+            "type": "Heavy 1, 5\u201d Blast, Melta, (Monsterbane), Hull, Primary 8"
+          },
+          "Plasma Obliterator": {
+            "range": "72",
+            "S": "8",
+            "AP": "2+",
+            "type": "Heavy 1, 7\u201d Blast, Monsterbane, Hull"
+          },
+          "Rapid Fire Battle Cannon and Heavy Stubber": {
+            "range": "72",
+            "S": "8",
+            "AP": "3+",
+            "type": "Heavy 2, 5\u201d Blast, Coaxial, And And And Ordnance, Monsterbane, Hull, Primary And 36       5      6+       Heavy 3, Coaxial, Hull, Primary"
+          },
+          "Reaper Chainsword": {
+            "range": "Melee",
+            "S": "+2",
+            "AP": "2+",
+            "type": "Primary"
+          },
+          "Thunderstrike Gauntlet": {
+            "range": "Melee",
+            "S": "D",
+            "AP": "1+",
+            "type": "Slow, Destroyer, Monsterbane, Toss, Primary"
+          },
+          "Heavy Flamer": {
+            "range": "Flame",
+            "S": "5",
+            "AP": "4+",
+            "type": "Assault 1, Hull, Primary"
+          },
+          "Heavy Stubber": {
+            "range": "36",
+            "S": "5",
+            "AP": "6+",
+            "type": "Heavy 3, Hull, Primary"
+          },
+          "Phosphor Blaster": {
+            "range": "24",
+            "S": "5",
+            "AP": "4+",
+            "type": "Rapid Fire 1, Ignores Cover"
+          },
+          "Meltagun": {
+            "range": "12",
+            "S": "8",
+            "AP": "1+",
+            "type": "Assault 1, Melta, (Monsterbane), Hull, Primary"
+          },
+          "Stormspear Rocket Pod Autocannons": {
+            "range": "48",
+            "S": "8",
+            "AP": "3+",
+            "type": "Heavy 1, 3\u201d Blast, Monsterbane, Turret, Primary Turret, Primary"
+          },
+          "Ironstorm Missile Pod": {
+            "range": "72",
+            "S": "5",
+            "AP": "4+",
+            "type": "Heavy 1, Indirect Fire, 5\u201d Blast, Turret, Primary"
+          }
+        }
       }
     ],
     "elites": [
@@ -486,7 +729,21 @@
           "Graviton Singularity Cannon",
           "Atrapos Lascutter"
         ],
-        "options": []
+        "options": [],
+        "weapons": {
+          "Graviton Singularity Cannon": {
+            "range": "48",
+            "S": "*",
+            "AP": "-",
+            "type": "Heavy 1, 7\u201d Blast, Grav, Hull, Primary 9"
+          },
+          "Atrapos Lascutter": {
+            "range": "12",
+            "S": "D",
+            "AP": "1+",
+            "type": "Assault 1, Destroyer, Or Or Or Monsterbane, Hull, Primary Or Melee     D      1+       Slow, Destroyer, Monsterbane, Reroll failed To Wound rolls."
+          }
+        }
       },
       {
         "name": "Gallant",
@@ -551,16 +808,60 @@
             "description": "May take one T",
             "choices": [
               {
-                "name": "Stormspear Rocket Autocannons",
+                "name": "Stormspear Rocket Pod Autocannons",
                 "pts_delta": 28
               },
               {
-                "name": "Ironstorm Missile",
+                "name": "Ironstorm Missile Pod",
                 "pts_delta": 49
               }
             ]
           }
-        ]
+        ],
+        "weapons": {
+          "Reaper Chainsword": {
+            "range": "Melee",
+            "S": "+2",
+            "AP": "2+",
+            "type": "Primary"
+          },
+          "Thunderstrike Gauntlet": {
+            "range": "Melee",
+            "S": "D",
+            "AP": "1+",
+            "type": "Slow, Destroyer, Monsterbane, Toss, Primary 10"
+          },
+          "Heavy Flamer": {
+            "range": "Flame",
+            "S": "5",
+            "AP": "4+",
+            "type": "Assault 1, Hull, Primary"
+          },
+          "Heavy Stubber": {
+            "range": "36",
+            "S": "5",
+            "AP": "6+",
+            "type": "Heavy 3, Hull, Primary"
+          },
+          "Meltagun": {
+            "range": "12",
+            "S": "8",
+            "AP": "1+",
+            "type": "Assault 1, Melta, (Monsterbane), Hull, Primary"
+          },
+          "Stormspear Rocket Pod Autocannons": {
+            "range": "48",
+            "S": "8",
+            "AP": "3+",
+            "type": "Heavy 1, 3\u201d Blast, Monsterbane, Turret, Primary Turret, Primary"
+          },
+          "Ironstorm Missile Pod": {
+            "range": "72",
+            "S": "5",
+            "AP": "4+",
+            "type": "Heavy 1, Indirect Fire, 5\u201d Blast, Turret, Primary"
+          }
+        }
       },
       {
         "name": "Magaera",
@@ -612,12 +913,38 @@
                 "pts_delta": 0
               },
               {
-                "name": "Hekaton Siege Claw Linked Cleansors",
+                "name": "Hekaton Siege Claw and 2 Linked Rad Cleansors",
                 "pts_delta": 30
               }
             ]
           }
-        ]
+        ],
+        "weapons": {
+          "Lightning Cannon": {
+            "range": "48",
+            "S": "7",
+            "AP": "-",
+            "type": "Heavy 8, Tesla, Monsterbane, Hull, Primary"
+          },
+          "Reaper Chainsword": {
+            "range": "Melee",
+            "S": "+2",
+            "AP": "2+",
+            "type": "Primary"
+          },
+          "Hekaton Siege Claw and 2 Linked Rad Cleansors": {
+            "range": "Flame",
+            "S": "3",
+            "AP": "-",
+            "type": "Assault 1 x2, Poisoned (2+), Or Or Or Hull, Primary Or Melee X2 2+ Extra Attack 2, Slow, Monsterbane, Primary"
+          },
+          "Phased Plasma Fusil": {
+            "range": "24",
+            "S": "7",
+            "AP": "2+",
+            "type": "Rapid Fire 2, Hull, Primary 11"
+          }
+        }
       },
       {
         "name": "Styrix",
@@ -667,12 +994,44 @@
                 "pts_delta": 0
               },
               {
-                "name": "Hekaton Siege Claw Linked Cleansors",
+                "name": "Hekaton Siege Claw and 2 Linked Rad Cleansors",
                 "pts_delta": 30
               }
             ]
           }
-        ]
+        ],
+        "weapons": {
+          "Graviton Singularity Cannon": {
+            "range": "48",
+            "S": "*",
+            "AP": "-",
+            "type": "Heavy 1, 7\u201d Blast, Grav, Hull, Primary"
+          },
+          "Reaper Chainsword": {
+            "range": "Melee",
+            "S": "+2",
+            "AP": "2+",
+            "type": "Primary"
+          },
+          "Hekaton Siege Claw and 2 Linked Rad Cleansors": {
+            "range": "Flame",
+            "S": "3",
+            "AP": "-",
+            "type": "Assault 1 x2, Poisoned (2+), Or Or Or Hull, Primary Or Melee X2 2+ Extra Attack 2, Slow, Monsterbane, Primary"
+          },
+          "Volkite Chieoroville": {
+            "range": "48",
+            "S": "8",
+            "AP": "3+",
+            "type": "Heavy 1, Beam, Monsterbane, Primary"
+          },
+          "Attack": {
+            "range": "0-3",
+            "S": "",
+            "AP": "",
+            "type": ""
+          }
+        }
       }
     ],
     "fast_attack": [
@@ -715,7 +1074,15 @@
           "2 Linked Heavy Bolters",
           "Reaper Chain Fist"
         ],
-        "options": []
+        "options": [],
+        "weapons": {
+          "Reaper Chain Fist": {
+            "range": "Melee",
+            "S": "D",
+            "AP": "1+",
+            "type": "Slow, Destroyer, Monsterbane, Primary"
+          }
+        }
       },
       {
         "name": "Castigator",
@@ -755,7 +1122,21 @@
           "Castigator Bolt Cannon",
           "Tempest Warblade"
         ],
-        "options": []
+        "options": [],
+        "weapons": {
+          "Castigator Bolt Cannon": {
+            "range": "36",
+            "S": "6",
+            "AP": "3+",
+            "type": "Heavy 20, Hull, Primary"
+          },
+          "Tempest Warblade": {
+            "range": "Melee",
+            "S": "+2",
+            "AP": "2+",
+            "type": "Extra Attack 2, Sniper (2+), Primary 13"
+          }
+        }
       },
       {
         "name": "Destrier",
@@ -817,7 +1198,39 @@
               }
             ]
           }
-        ]
+        ],
+        "weapons": {
+          "Thundershock Spear": {
+            "range": "Melee",
+            "S": "D",
+            "AP": "2+",
+            "type": "Auxiliary, Destroyer, Monsterbane, Primary"
+          },
+          "Reaper Chainsword": {
+            "range": "Melee",
+            "S": "+2",
+            "AP": "2+",
+            "type": "Primary"
+          },
+          "Avenger Gatling Cannon": {
+            "range": "36",
+            "S": "6",
+            "AP": "3+",
+            "type": "Heavy 12, Hull, Primary"
+          },
+          "Frag Bombard": {
+            "range": "48",
+            "S": "6",
+            "AP": "4+",
+            "type": "Heavy 2, Indirect, 5\u201d Blast, Pinning, Hull, Primary"
+          },
+          "Heavy Stubber": {
+            "range": "36",
+            "S": "5",
+            "AP": "6+",
+            "type": "Heavy 3, Hull, Primary"
+          }
+        }
       },
       {
         "name": "Lancer",
@@ -857,7 +1270,21 @@
           "Cerastus Shock Lance",
           "Ion Gauntlet Shield"
         ],
-        "options": []
+        "options": [],
+        "weapons": {
+          "Cerastus Shock Lance": {
+            "range": "18",
+            "S": "7",
+            "AP": "-",
+            "type": "Assault 6, Tesla, Monsterbane, Or Or Or Hull, Primary Or Melee    +1     2+       Lance, Primary"
+          },
+          "Support": {
+            "range": "0-3",
+            "S": "",
+            "AP": "",
+            "type": ""
+          }
+        }
       }
     ],
     "heavy_support": [
@@ -901,7 +1328,15 @@
           "2 Asterius Volkite Culverins",
           "Karacnos Mortar Battery"
         ],
-        "options": []
+        "options": [],
+        "weapons": {
+          "Karacnos Mortar Battery": {
+            "range": "12-60",
+            "S": "3",
+            "AP": "4+",
+            "type": "Heavy 1, Indirect, 5\u201d Blast, Poisoned (2+), Hull, Primary 15"
+          }
+        }
       },
       {
         "name": "Valiant",
@@ -960,7 +1395,7 @@
                 "pts_delta": 9
               },
               {
-                "name": "Conflagration Cannon Breaker Shieldbreaker Missiles Meltaguns",
+                "name": "Conflagration Cannon Breaker Cannons Shieldbreaker Missiles Meltaguns",
                 "pts_delta": 100
               }
             ]
@@ -969,7 +1404,39 @@
             "description": "May swap any 2 Linked Siege Breaker Cannons for T",
             "choices": []
           }
-        ]
+        ],
+        "weapons": {
+          "Volcano Lance": {
+            "range": "96",
+            "S": "D",
+            "AP": "1+",
+            "type": "Heavy 1, Destroyer, Monsterbane, Hull, Primary"
+          },
+          "Plasma Decimator": {
+            "range": "48",
+            "S": "7",
+            "AP": "2+",
+            "type": "Heavy 1, 7\u201d Blast, Hull, Primary"
+          },
+          "Thundercoil Harpoon": {
+            "range": "12",
+            "S": "D",
+            "AP": "1+",
+            "type": "Assault 1, Destroyer, Or Or Or Monsterbane, Tear Free, Hull, Melee     D      1+       Primary Or Auxiliary, Destroyer, Monsterbane, Tear Free, Primary"
+          },
+          "Conflagration Cannon Breaker Cannons Shieldbreaker Missiles Meltaguns": {
+            "range": "Hell",
+            "S": "D",
+            "AP": "2+",
+            "type": "Assault 1, Destroyer, Storm Monsterbane, Hull, Primary Monsterbane, Turret, Primary Monsterbane, No Invulnerability Saves, One Use Only, Hull, Primary (Monsterbane), Sponson, Primary 16"
+          },
+          "of War": {
+            "range": "0-1",
+            "S": "",
+            "AP": "",
+            "type": ""
+          }
+        }
       }
     ],
     "lord_of_war": [
@@ -1023,7 +1490,8 @@
             "description": "May add as many Walls as you want for +299 points each",
             "choices": []
           }
-        ]
+        ],
+        "weapons": {}
       },
       {
         "name": "Imperial Fortress",
@@ -1068,7 +1536,8 @@
             "description": "May add as many Walls as you want for +299 points each Points: 666 1 Porphyrion",
             "choices": []
           }
-        ]
+        ],
+        "weapons": {}
       }
     ],
     "fortifications": [
@@ -1088,7 +1557,8 @@
         "fixed_wargear": [
           "2 Linked Turbolaser Destructors"
         ],
-        "options": []
+        "options": [],
+        "weapons": {}
       },
       {
         "name": "Aegis Weapon Emplacement",
@@ -1116,7 +1586,15 @@
               }
             ]
           }
-        ]
+        ],
+        "weapons": {
+          "Long Lascannon Lascannons Autocannons Autocannons": {
+            "range": "72",
+            "S": "9",
+            "AP": "2+",
+            "type": "Heavy 1, Monsterbane, AA, Turret Turret Turret 19 Turret"
+          }
+        }
       },
       {
         "name": "Aquila Strongpoint",
@@ -1134,7 +1612,27 @@
         "fixed_wargear": [
           "Plasma Obliterator"
         ],
-        "options": []
+        "options": [],
+        "weapons": {
+          "Plasma Obliterator": {
+            "range": "72",
+            "S": "8",
+            "AP": "2+",
+            "type": "Heavy 1, 7\u201d Blast, Monsterbane, Turret"
+          },
+          "Macro Cannon": {
+            "range": "72",
+            "S": "D",
+            "AP": "1+",
+            "type": "Heavy 1, 5\u201d Blast, Destroyer, Monsterbane, Turret"
+          },
+          "+271 Missile Silo": {
+            "range": "Deathstrike",
+            "S": "12 to",
+            "AP": "D/10 1+/1+ Heavy 1, 15\u201d Blast, Destroyer,",
+            "type": "240 /8 /1+ Ordnance, Monsterbane, Indirect Fire, Ignores Cover, The Hour is Nigh, T Minus 5, Turret 20"
+          }
+        }
       },
       {
         "name": "Imperial Bastion",
@@ -1152,7 +1650,15 @@
         "fixed_wargear": [
           "4 Heavy Bolters"
         ],
-        "options": []
+        "options": [],
+        "weapons": {
+          "Heavy Bolter": {
+            "range": "36",
+            "S": "5",
+            "AP": "4+",
+            "type": "Heavy 3, Hull 21"
+          }
+        }
       },
       {
         "name": "Imperial Bastion",
@@ -1170,7 +1676,15 @@
         "fixed_wargear": [
           "4 Heavy Bolters"
         ],
-        "options": []
+        "options": [],
+        "weapons": {
+          "Heavy Bolter": {
+            "range": "36",
+            "S": "5",
+            "AP": "4+",
+            "type": "Heavy 3, Hull 21"
+          }
+        }
       },
       {
         "name": "Vengeance Weapon Battery",
@@ -1202,7 +1716,21 @@
               }
             ]
           }
-        ]
+        ],
+        "weapons": {
+          "Punisher Gatling Gun": {
+            "range": "24",
+            "S": "5",
+            "AP": "-",
+            "type": "Heavy 20, Turret"
+          },
+          "Battle Cannon Lascannons": {
+            "range": "72",
+            "S": "8",
+            "AP": "3+",
+            "type": "Heavy 1, 5\u201d Blast, Ordnance, Monsterbane, Turret Turret 22"
+          }
+        }
       },
       {
         "name": "Vengeance Weapon Battery",
@@ -1234,7 +1762,21 @@
               }
             ]
           }
-        ]
+        ],
+        "weapons": {
+          "Punisher Gatling Gun": {
+            "range": "24",
+            "S": "5",
+            "AP": "-",
+            "type": "Heavy 20, Turret"
+          },
+          "Battle Cannon Lascannons": {
+            "range": "72",
+            "S": "8",
+            "AP": "3+",
+            "type": "Heavy 1, 5\u201d Blast, Ordnance, Monsterbane, Turret Turret 22"
+          }
+        }
       },
       {
         "name": "Void Shield Generator",
@@ -1252,7 +1794,8 @@
         "fixed_wargear": [
           "none"
         ],
-        "options": []
+        "options": [],
+        "weapons": {}
       }
     ]
   }
