@@ -218,7 +218,12 @@
           "Daemonic Claw",
           "Sigil of Chaos"
         ],
-        "options": [],
+        "options": [
+          {
+            "description": "The entire unit may take one C",
+            "choices": []
+          }
+        ],
         "weapons": {
           "Lacerator": {
             "range": "Melee",
@@ -771,6 +776,15 @@
           {
             "description": "May take one C",
             "choices": []
+          },
+          {
+            "description": "May take Juggernaut Mount",
+            "choices": [
+              {
+                "name": "Juggernaut Mount",
+                "pts_delta": 35
+              }
+            ]
           }
         ],
         "weapons": {
@@ -903,7 +917,17 @@
         "fixed_wargear": [
           "Soul Rending Fangs"
         ],
-        "options": [],
+        "options": [
+          {
+            "description": "May take Juggernaut Mount",
+            "choices": [
+              {
+                "name": "Juggernaut Mount",
+                "pts_delta": 35
+              }
+            ]
+          }
+        ],
         "weapons": {
           "Soul Rending Fangs": {
             "range": "Melee",
@@ -1038,7 +1062,20 @@
         ],
         "options": [
           {
-            "description": "May take up to 20 more Jakhals for +8 points each Champion may swap both Autopistols for S Any model may swap either Autopistol for M Up to three Jakhals may swap both Autopistols for S The entire unit may take one C",
+            "description": "May take up to 20 more Jakhals for +8 points each",
+            "choices": []
+          },
+          {
+            "description": "Champion may swap both Autopistols",
+            "choices": [
+              {
+                "name": "Mauler Chainblade",
+                "pts_delta": 6
+              }
+            ]
+          },
+          {
+            "description": "Any model may swap either Autopistol",
             "choices": [
               {
                 "name": "Chainsword",
@@ -1047,10 +1084,23 @@
               {
                 "name": "Chain Axe",
                 "pts_delta": 0
-              },
+              }
+            ]
+          },
+          {
+            "description": "Up to three Jakhals may swap both Autopistols",
+            "choices": []
+          },
+          {
+            "description": "The entire unit may take one C",
+            "choices": []
+          },
+          {
+            "description": "May take Banner of Khorne",
+            "choices": [
               {
-                "name": "Mauler Chainblade",
-                "pts_delta": 6
+                "name": "Banner of Khorne",
+                "pts_delta": 30
               }
             ]
           }
@@ -1128,13 +1178,21 @@
         ],
         "options": [
           {
-            "description": "May take up to 20 more Bloodletters for +24 points each One Bloodletter may take one E The entire unit may take one C",
+            "description": "May take up to 20 more Bloodletters for +24 points each",
+            "choices": []
+          },
+          {
+            "description": "One Bloodletter may take one E",
             "choices": [
               {
                 "name": "Banner of Khorne",
                 "pts_delta": 30
               }
             ]
+          },
+          {
+            "description": "The entire unit may take one C",
+            "choices": []
           }
         ],
         "weapons": {
@@ -1211,7 +1269,11 @@
         ],
         "options": [
           {
-            "description": "May take up to 3 more Bloodcrushers for +46 points each The entire unit may take one C",
+            "description": "May take up to 3 more Bloodcrushers for +46 points each",
+            "choices": []
+          },
+          {
+            "description": "The entire unit may take one C",
             "choices": []
           }
         ],
@@ -1285,7 +1347,32 @@
         ],
         "options": [
           {
-            "description": "May take up to 15 more Berzerkers for +27 points each Champion may swap one Chainsword for O Champion may swap any Chainsword for M, P, or S Up to four Berzerkers may swap a Chainsword for S Any model may swap any Chainsword for M or P The entire unit may take up to one of each G The entire unit may take one C",
+            "description": "May take up to 15 more Berzerkers for +27 points each",
+            "choices": []
+          },
+          {
+            "description": "Champion may swap one Chainsword",
+            "choices": [
+              {
+                "name": "Power Sword",
+                "pts_delta": 3
+              },
+              {
+                "name": "Power Axe",
+                "pts_delta": 4
+              },
+              {
+                "name": "Power Fist",
+                "pts_delta": 10
+              },
+              {
+                "name": "Daemonic Blade",
+                "pts_delta": 11
+              }
+            ]
+          },
+          {
+            "description": "Champion may swap any Chainsword for M, P,",
             "choices": [
               {
                 "name": "Chainsword",
@@ -1306,23 +1393,20 @@
               {
                 "name": "Eviscerator",
                 "pts_delta": 10
-              },
-              {
-                "name": "Power Sword",
-                "pts_delta": 3
-              },
-              {
-                "name": "Power Axe",
-                "pts_delta": 4
-              },
-              {
-                "name": "Power Fist",
-                "pts_delta": 10
-              },
-              {
-                "name": "Daemonic Blade",
-                "pts_delta": 11
-              },
+              }
+            ]
+          },
+          {
+            "description": "Up to four Berzerkers may swap a Chainsword",
+            "choices": []
+          },
+          {
+            "description": "Any model may swap any Chainsword",
+            "choices": []
+          },
+          {
+            "description": "The entire unit may take up to one",
+            "choices": [
               {
                 "name": "+1",
                 "pts_delta": 0
@@ -1332,6 +1416,10 @@
                 "pts_delta": 0
               }
             ]
+          },
+          {
+            "description": "The entire unit may take one C",
+            "choices": []
           }
         ],
         "weapons": {
@@ -1465,7 +1553,11 @@
         ],
         "options": [
           {
-            "description": "May take up to 3 more Eightbound for +88 points each Champion may swap Dual Lacerators for OM The entire unit may take one C",
+            "description": "May take up to 3 more Eightbound for +88 points each",
+            "choices": []
+          },
+          {
+            "description": "Champion may swap Dual Lacerators",
             "choices": [
               {
                 "name": "Dual Lacerators",
@@ -1480,6 +1572,10 @@
                 "pts_delta": 9
               }
             ]
+          },
+          {
+            "description": "The entire unit may take one C",
+            "choices": []
           }
         ],
         "weapons": {
@@ -1540,7 +1636,11 @@
         ],
         "options": [
           {
-            "description": "May take up to 15 more Flesh Hounds for +26 points each The entire unit may take one C",
+            "description": "May take up to 15 more Flesh Hounds for +26 points each",
+            "choices": []
+          },
+          {
+            "description": "The entire unit may take one C",
             "choices": []
           }
         ],
@@ -1590,7 +1690,11 @@
         ],
         "options": [
           {
-            "description": "May take up to 15 more Flesh Hounds for +26 points each The entire unit may take one C",
+            "description": "May take up to 15 more Flesh Hounds for +26 points each",
+            "choices": []
+          },
+          {
+            "description": "The entire unit may take one C",
             "choices": []
           }
         ],
@@ -1658,7 +1762,11 @@
         ],
         "options": [
           {
-            "description": "May take up to 22 more Cultists for +8 points each Any model may swap Autogun for R The entire unit may take one B",
+            "description": "May take up to 22 more Cultists for +8 points each",
+            "choices": []
+          },
+          {
+            "description": "Any model may swap Autogun",
             "choices": [
               {
                 "name": "Autogun",
@@ -1681,6 +1789,10 @@
                 "pts_delta": 8
               }
             ]
+          },
+          {
+            "description": "The entire unit may take one B",
+            "choices": []
           }
         ],
         "weapons": {
@@ -1760,7 +1872,11 @@
         ],
         "options": [
           {
-            "description": "May take up to 2 more Skull Cannons for +170 points each The entire unit may take one C",
+            "description": "May take up to 2 more Skull Cannons for +170 points each",
+            "choices": []
+          },
+          {
+            "description": "The entire unit may take one C",
             "choices": []
           }
         ],
@@ -1879,7 +1995,11 @@
         ],
         "options": [
           {
-            "description": "May take up to 2 more Bloodthirsters for +338 points each Any model may swap Great Axe of Khorne for M The entire unit may take one C",
+            "description": "May take up to 2 more Bloodthirsters for +338 points each",
+            "choices": []
+          },
+          {
+            "description": "Any model may swap Great Axe of Khorne",
             "choices": [
               {
                 "name": "Great Axe of Khorne",
@@ -1894,6 +2014,10 @@
                 "pts_delta": 35
               }
             ]
+          },
+          {
+            "description": "The entire unit may take one C",
+            "choices": []
           }
         ],
         "weapons": {
@@ -2022,7 +2146,7 @@
         ],
         "options": [
           {
-            "description": "May swap Hades Gatling Cannon for H",
+            "description": "May swap Hades Gatling Cannon",
             "choices": [
               {
                 "name": "Hades Gatling Cannon",

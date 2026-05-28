@@ -49,7 +49,7 @@
         ],
         "options": [
           {
-            "description": "May swap one Shuriken Pistol for R",
+            "description": "May swap one Shuriken Pistol",
             "choices": [
               {
                 "name": "Avenger Shuriken Catapult",
@@ -70,7 +70,7 @@
             ]
           },
           {
-            "description": "May swap any Shuriken Pistol for P or M",
+            "description": "May swap any Shuriken Pistol",
             "choices": [
               {
                 "name": "Shuriken Pistol",
@@ -233,7 +233,7 @@
         ],
         "options": [
           {
-            "description": "May swap Shuriken Pistol for P",
+            "description": "May swap Shuriken Pistol",
             "choices": [
               {
                 "name": "Shuriken Pistol",
@@ -246,7 +246,7 @@
             ]
           },
           {
-            "description": "May swap Power Sword for M",
+            "description": "May swap Power Sword",
             "choices": [
               {
                 "name": "Miststave",
@@ -385,7 +385,7 @@
         ],
         "options": [
           {
-            "description": "May swap Shuriken Pistol for P",
+            "description": "May swap Shuriken Pistol",
             "choices": [
               {
                 "name": "Shuriken Pistol",
@@ -398,7 +398,7 @@
             ]
           },
           {
-            "description": "May swap Power Sword for M",
+            "description": "May swap Power Sword",
             "choices": [
               {
                 "name": "Miststave",
@@ -591,7 +591,7 @@
         ],
         "options": [
           {
-            "description": "May swap Shuriken Pistol for P",
+            "description": "May swap Shuriken Pistol",
             "choices": [
               {
                 "name": "Shuriken Pistol",
@@ -608,7 +608,7 @@
             ]
           },
           {
-            "description": "May swap Power Sword for M",
+            "description": "May swap Power Sword",
             "choices": [
               {
                 "name": "Power Sword",
@@ -947,6 +947,15 @@
           {
             "description": "May take up to one Spell for each level of Psychic Mastery",
             "choices": []
+          },
+          {
+            "description": "May take Ghosthelm",
+            "choices": [
+              {
+                "name": "Ghosthelm",
+                "pts_delta": 20
+              }
+            ]
           }
         ],
         "weapons": {
@@ -1007,8 +1016,13 @@
             "choices": []
           },
           {
-            "description": "May take up to one of each E",
-            "choices": []
+            "description": "May take up to one",
+            "choices": [
+              {
+                "name": "Ghosthelm",
+                "pts_delta": 20
+              }
+            ]
           }
         ],
         "weapons": {}
@@ -1052,7 +1066,17 @@
           "Flip Belt",
           "Holosuit"
         ],
-        "options": [],
+        "options": [
+          {
+            "description": "May take Jetbike",
+            "choices": [
+              {
+                "name": "Jetbike",
+                "pts_delta": 17
+              }
+            ]
+          }
+        ],
         "weapons": {
           "Harlequin's Kiss": {
             "range": "Melee",
@@ -1121,7 +1145,26 @@
           "Flip Belt",
           "Holosuit"
         ],
-        "options": [],
+        "options": [
+          {
+            "description": "May take Jetbike",
+            "choices": [
+              {
+                "name": "Jetbike",
+                "pts_delta": 17
+              }
+            ]
+          },
+          {
+            "description": "May take Ghosthelm",
+            "choices": [
+              {
+                "name": "Ghosthelm",
+                "pts_delta": 20
+              }
+            ]
+          }
+        ],
         "weapons": {
           "Harlequin's Kiss": {
             "range": "Melee",
@@ -1182,7 +1225,7 @@
         ],
         "options": [
           {
-            "description": "May swap Witchblade for M",
+            "description": "May swap Witchblade",
             "choices": [
               {
                 "name": "Witchblade",
@@ -1212,7 +1255,7 @@
             ]
           },
           {
-            "description": "May take up to one of each E",
+            "description": "May take up to one",
             "choices": []
           }
         ],
@@ -1330,7 +1373,17 @@
           "Asu-Var",
           "Forcefield"
         ],
-        "options": [],
+        "options": [
+          {
+            "description": "May take Simmerfield",
+            "choices": [
+              {
+                "name": "Simmerfield",
+                "pts_delta": 36
+              }
+            ]
+          }
+        ],
         "weapons": {
           "Asu-Var": {
             "range": "Melee",
@@ -1398,12 +1451,21 @@
         ],
         "options": [
           {
-            "description": "May take up to 5 more Dire Avengers for +24 points each Exarch may swap any Shuriken Pistols for OR Exarch may swap Power Sword for M Exarch may take one E",
+            "description": "May take up to 5 more Dire Avengers for +24 points each",
+            "choices": []
+          },
+          {
+            "description": "Exarch may swap any Shuriken Pistols",
             "choices": [
               {
                 "name": "Avenger Shuriken Catapult",
                 "pts_delta": 2
-              },
+              }
+            ]
+          },
+          {
+            "description": "Exarch may swap Power Sword",
+            "choices": [
               {
                 "name": "Combat Knife",
                 "pts_delta": 0
@@ -1417,6 +1479,10 @@
                 "pts_delta": 5
               }
             ]
+          },
+          {
+            "description": "Exarch may take one E",
+            "choices": []
           }
         ],
         "weapons": {
@@ -1509,7 +1575,11 @@
         ],
         "options": [
           {
-            "description": "May take up to 10 more Defenders for +8 points each Any model may swap Lasgun for R or P",
+            "description": "May take up to 10 more Defenders for +8 points each",
+            "choices": []
+          },
+          {
+            "description": "Any model may swap Lasgun",
             "choices": [
               {
                 "name": "Lasgun",
@@ -1526,7 +1596,11 @@
             ]
           },
           {
-            "description": "May swap one Defender for a Platform for +14 points Platform may swap Starcannon for H",
+            "description": "May swap one Defender for a Platform for +14 points",
+            "choices": []
+          },
+          {
+            "description": "Platform may swap Starcannon",
             "choices": [
               {
                 "name": "Starcannon",
@@ -1660,7 +1734,11 @@
         ],
         "options": [
           {
-            "description": "May add up to 5 more Players for +34 points each Any model may swap Shuriken Pistol for P Any model may swap Harlequin Blade for M",
+            "description": "May add up to 5 more Players for +34 points each",
+            "choices": []
+          },
+          {
+            "description": "Any model may swap Shuriken Pistol",
             "choices": [
               {
                 "name": "Shuriken Pistol",
@@ -1673,7 +1751,12 @@
               {
                 "name": "Fusion Pistol",
                 "pts_delta": 26
-              },
+              }
+            ]
+          },
+          {
+            "description": "Any model may swap Harlequin Blade",
+            "choices": [
               {
                 "name": "Harlequin Blade",
                 "pts_delta": 0
@@ -1847,7 +1930,11 @@
         ],
         "options": [
           {
-            "description": "May take up to 10 more Guardians for +16 points each Up to 2 Guardians may swap Shuriken Pistol for S",
+            "description": "May take up to 10 more Guardians for +16 points each",
+            "choices": []
+          },
+          {
+            "description": "Up to 2 Guardians may swap Shuriken Pistol",
             "choices": [
               {
                 "name": "Flamer",
@@ -1950,7 +2037,11 @@
         ],
         "options": [
           {
-            "description": "May take up to 5 more Dragons for +48 points each Exarch may swap Heavy Flamer for OS Exarch may take a OM",
+            "description": "May take up to 5 more Dragons for +48 points each",
+            "choices": []
+          },
+          {
+            "description": "Exarch may swap Heavy Flamer",
             "choices": [
               {
                 "name": "Fusion Pistol",
@@ -1963,7 +2054,12 @@
               {
                 "name": "Fire Pike",
                 "pts_delta": 20
-              },
+              }
+            ]
+          },
+          {
+            "description": "Exarch may take a OM",
+            "choices": [
               {
                 "name": "Dragon Axe",
                 "pts_delta": 19
@@ -2043,7 +2139,11 @@
         ],
         "options": [
           {
-            "description": "May take up to 5 more Warriors for +66 points each Any model may swap Dual Ghost Swords for M",
+            "description": "May take up to 5 more Warriors for +66 points each",
+            "choices": []
+          },
+          {
+            "description": "Any model may swap Dual Ghost Swords",
             "choices": [
               {
                 "name": "Dual Ghost Swords",
@@ -2150,7 +2250,11 @@
         ],
         "options": [
           {
-            "description": "May take up to 5 more Banshee for +30 points each Exarch may swap any Shuriken Pistol for OM",
+            "description": "May take up to 5 more Banshee for +30 points each",
+            "choices": []
+          },
+          {
+            "description": "Exarch may swap any Shuriken Pistol",
             "choices": [
               {
                 "name": "Banshee Blade",
@@ -2263,7 +2367,11 @@
         ],
         "options": [
           {
-            "description": "May take up to 5 more Spectres for +49 points each Exarch may swap Haywire Launcher for OS",
+            "description": "May take up to 5 more Spectres for +49 points each",
+            "choices": []
+          },
+          {
+            "description": "Exarch may swap Haywire Launcher",
             "choices": [
               {
                 "name": "Haywire Launcher",
@@ -2368,7 +2476,11 @@
         ],
         "options": [
           {
-            "description": "May take up to 5 more Spectres for +49 points each Exarch may swap Haywire Launcher for OS Points: 246 1 Exarch 4-9 Spectres",
+            "description": "May take up to 5 more Spectres for +49 points each",
+            "choices": []
+          },
+          {
+            "description": "Exarch may swap Haywire Launcher for OS Points: 246 1 Exarch 4-9 Spectres",
             "choices": [
               {
                 "name": "Haywire Launcher",
@@ -2475,7 +2587,11 @@
         ],
         "options": [
           {
-            "description": "May take up to 5 more Scorpions for +28 points each Exarch may swap any Shuriken Pistol for OM",
+            "description": "May take up to 5 more Scorpions for +28 points each",
+            "choices": []
+          },
+          {
+            "description": "Exarch may swap any Shuriken Pistol",
             "choices": [
               {
                 "name": "Scorpion Chainsword",
@@ -2611,7 +2727,11 @@
         ],
         "options": [
           {
-            "description": "May take up to 7 more Shining Spears for +68 points each Exarch may swap Power Sword for OM",
+            "description": "May take up to 7 more Shining Spears for +68 points each",
+            "choices": []
+          },
+          {
+            "description": "Exarch may swap Power Sword",
             "choices": []
           }
         ],
@@ -2653,7 +2773,11 @@
         ],
         "options": [
           {
-            "description": "May take up to 2 more Vypers for +77 points each Any model may swap Starcannon for T Any model may swap 2 Linked Shuriken Catapults for H",
+            "description": "May take up to 2 more Vypers for +77 points each",
+            "choices": []
+          },
+          {
+            "description": "Any model may swap Starcannon",
             "choices": [
               {
                 "name": "Starcannon",
@@ -2674,7 +2798,12 @@
               {
                 "name": "Bright Lance",
                 "pts_delta": 18
-              },
+              }
+            ]
+          },
+          {
+            "description": "Any model may swap 2 Linked Shuriken Catapults",
+            "choices": [
               {
                 "name": "2 Linked Shuriken Catapults",
                 "pts_delta": 0
@@ -2761,7 +2890,11 @@
         ],
         "options": [
           {
-            "description": "May take up to 2 more Vypers for +77 points each Any model may swap Starcannon for T Any model may swap 2 Linked Shuriken Catapults for H",
+            "description": "May take up to 2 more Vypers for +77 points each",
+            "choices": []
+          },
+          {
+            "description": "Any model may swap Starcannon",
             "choices": [
               {
                 "name": "Starcannon",
@@ -2782,7 +2915,12 @@
               {
                 "name": "Bright Lance",
                 "pts_delta": 18
-              },
+              }
+            ]
+          },
+          {
+            "description": "Any model may swap 2 Linked Shuriken Catapults",
+            "choices": [
               {
                 "name": "2 Linked Shuriken Catapults",
                 "pts_delta": 0
@@ -2867,7 +3005,11 @@
         ],
         "options": [
           {
-            "description": "May take up to 7 more Windriders for +28 points each Any model may swap 2 Linked Shuriken Catapults for H",
+            "description": "May take up to 7 more Windriders for +28 points each",
+            "choices": []
+          },
+          {
+            "description": "Any model may swap 2 Linked Shuriken Catapults",
             "choices": [
               {
                 "name": "Shuriken Cannon",
@@ -2963,7 +3105,11 @@
         ],
         "options": [
           {
-            "description": "May take up to 5 more Hawks for +35 points each Exarch may swap Lasblaster for OS Exarch may swap Power Sword for M",
+            "description": "May take up to 5 more Hawks for +35 points each",
+            "choices": []
+          },
+          {
+            "description": "Exarch may swap Lasblaster",
             "choices": [
               {
                 "name": "Lasblaster",
@@ -2976,7 +3122,12 @@
               {
                 "name": "Hawk's Talon",
                 "pts_delta": 6
-              },
+              }
+            ]
+          },
+          {
+            "description": "Exarch may swap Power Sword",
+            "choices": [
               {
                 "name": "Power Sword",
                 "pts_delta": 0
@@ -3096,7 +3247,11 @@
         ],
         "options": [
           {
-            "description": "May take up to 5 more Spiders for +35 points each Exarch may swap any Power Blade for OR Exarch may take one OP",
+            "description": "May take up to 5 more Spiders for +35 points each",
+            "choices": []
+          },
+          {
+            "description": "Exarch may swap any Power Blade",
             "choices": [
               {
                 "name": "Death Spinner",
@@ -3105,10 +3260,42 @@
               {
                 "name": "Spinneret Rifle",
                 "pts_delta": 15
-              },
+              }
+            ]
+          },
+          {
+            "description": "Exarch may take one OP",
+            "choices": [
               {
                 "name": "Two Linked Death Weavers",
                 "pts_delta": 44
+              }
+            ]
+          },
+          {
+            "description": "May take Spirit Stones",
+            "choices": [
+              {
+                "name": "Spirit Stones",
+                "pts_delta": 5
+              }
+            ]
+          },
+          {
+            "description": "May take Vectored Engines",
+            "choices": [
+              {
+                "name": "Vectored Engines",
+                "pts_delta": 5
+              }
+            ]
+          },
+          {
+            "description": "May take Holo Fields",
+            "choices": [
+              {
+                "name": "Holo Fields",
+                "pts_delta": 12
               }
             ]
           }
@@ -3175,7 +3362,11 @@
         ],
         "options": [
           {
-            "description": "May add up to two more Hornets for +122 points each Any model may swap 2 Linked Starcannons for T Any model may take up to one of each E",
+            "description": "May add up to two more Hornets for +122 points each",
+            "choices": []
+          },
+          {
+            "description": "Any model may swap 2 Linked Starcannons",
             "choices": [
               {
                 "name": "2 Linked Starcannons",
@@ -3192,13 +3383,22 @@
               {
                 "name": "2 Linked Bright Lances",
                 "pts_delta": 18
-              },
+              }
+            ]
+          },
+          {
+            "description": "Any model may take up to one",
+            "choices": [
               {
                 "name": "Spirit Stones",
                 "pts_delta": 5
               },
               {
                 "name": "Vectored Engines",
+                "pts_delta": 5
+              },
+              {
+                "name": "Spirit Stones",
                 "pts_delta": 5
               }
             ]
@@ -3271,7 +3471,11 @@
         ],
         "options": [
           {
-            "description": "May add up to seven more War Walkers for +72 points each Any model may swap any Starcannon for H Any model may take up to one of each E",
+            "description": "May add up to seven more War Walkers for +72 points each",
+            "choices": []
+          },
+          {
+            "description": "Any model may swap any Starcannon",
             "choices": [
               {
                 "name": "Starcannon",
@@ -3292,6 +3496,15 @@
               {
                 "name": "Bright Lance",
                 "pts_delta": 9
+              }
+            ]
+          },
+          {
+            "description": "Any model may take up to one",
+            "choices": [
+              {
+                "name": "Spirit Stones",
+                "pts_delta": 5
               },
               {
                 "name": "Spirit Stones",
@@ -3366,7 +3579,11 @@
         ],
         "options": [
           {
-            "description": "May add up to seven more Wasps for +89 points each Any model may swap any Starcannon for H Any model may take up to one of each E",
+            "description": "May add up to seven more Wasps for +89 points each",
+            "choices": []
+          },
+          {
+            "description": "Any model may swap any Starcannon",
             "choices": [
               {
                 "name": "Starcannon",
@@ -3387,7 +3604,12 @@
               {
                 "name": "Bright Lance",
                 "pts_delta": 9
-              },
+              }
+            ]
+          },
+          {
+            "description": "Any model may take up to one",
+            "choices": [
               {
                 "name": "Spirit Stones",
                 "pts_delta": 5
@@ -3481,7 +3703,11 @@
         ],
         "options": [
           {
-            "description": "May take up to 5 more Reapers for +42 points each Exarch may swap Shuriken Cannon for OH or H",
+            "description": "May take up to 5 more Reapers for +42 points each",
+            "choices": []
+          },
+          {
+            "description": "Exarch may swap Shuriken Cannon",
             "choices": [
               {
                 "name": "Shuriken Cannon",
@@ -3563,7 +3789,11 @@
         ],
         "options": [
           {
-            "description": "May take up to 2 more Vaul's Wraths for +80 points each Any model may swap Vibro Cannon for H",
+            "description": "May take up to 2 more Vaul's Wraths for +80 points each",
+            "choices": []
+          },
+          {
+            "description": "Any model may swap Vibro Cannon",
             "choices": [
               {
                 "name": "Vibro Cannon",
@@ -3642,7 +3872,11 @@
         ],
         "options": [
           {
-            "description": "May take up to one more Wraithseer for +264 points each Any model may swap Starcannon for H Any model may take up to one Spell for each level of Psychic Mastery",
+            "description": "May take up to one more Wraithseer for +264 points each",
+            "choices": []
+          },
+          {
+            "description": "Any model may swap Starcannon",
             "choices": [
               {
                 "name": "Starcannon",
@@ -3663,6 +3897,37 @@
               {
                 "name": "Bright Lance",
                 "pts_delta": 18
+              }
+            ]
+          },
+          {
+            "description": "Any model may take up to one Spell for each level of Psychic Mastery",
+            "choices": []
+          },
+          {
+            "description": "May take Spirit Stones",
+            "choices": [
+              {
+                "name": "Spirit Stones",
+                "pts_delta": 5
+              }
+            ]
+          },
+          {
+            "description": "May take Vectored Engines",
+            "choices": [
+              {
+                "name": "Vectored Engines",
+                "pts_delta": 5
+              }
+            ]
+          },
+          {
+            "description": "May take Holo Fields",
+            "choices": [
+              {
+                "name": "Holo Fields",
+                "pts_delta": 12
               }
             ]
           }
@@ -3742,7 +4007,11 @@
         ],
         "options": [
           {
-            "description": "May take up to one more Wraithseer for +264 points each Any model may swap Starcannon for H Any model may take up to one Spell for each level of Psychic Mastery",
+            "description": "May take up to one more Wraithseer for +264 points each",
+            "choices": []
+          },
+          {
+            "description": "Any model may swap Starcannon",
             "choices": [
               {
                 "name": "Starcannon",
@@ -3763,6 +4032,37 @@
               {
                 "name": "Bright Lance",
                 "pts_delta": 18
+              }
+            ]
+          },
+          {
+            "description": "Any model may take up to one Spell for each level of Psychic Mastery",
+            "choices": []
+          },
+          {
+            "description": "May take Spirit Stones",
+            "choices": [
+              {
+                "name": "Spirit Stones",
+                "pts_delta": 5
+              }
+            ]
+          },
+          {
+            "description": "May take Vectored Engines",
+            "choices": [
+              {
+                "name": "Vectored Engines",
+                "pts_delta": 5
+              }
+            ]
+          },
+          {
+            "description": "May take Holo Fields",
+            "choices": [
+              {
+                "name": "Holo Fields",
+                "pts_delta": 12
               }
             ]
           }
@@ -3843,7 +4143,11 @@
         ],
         "options": [
           {
-            "description": "May add up to two more Falcons for +182 points each Any model may swap Pulse Laser and Starcannon for T Any model may swap 2 Linked Shuriken Catapults for H Any model may take up to one of each E",
+            "description": "May add up to two more Falcons for +182 points each",
+            "choices": []
+          },
+          {
+            "description": "Any model may swap Pulse Laser and Starcannon",
             "choices": [
               {
                 "name": "Pulse Laser and Starcannon",
@@ -3876,7 +4180,12 @@
               {
                 "name": "2 Linked Doomweavers Flame",
                 "pts_delta": 110
-              },
+              }
+            ]
+          },
+          {
+            "description": "Any model may swap 2 Linked Shuriken Catapults",
+            "choices": [
               {
                 "name": "2 Linked Shuriken Catapults",
                 "pts_delta": 0
@@ -3884,7 +4193,12 @@
               {
                 "name": "Shuriken Cannon",
                 "pts_delta": 6
-              },
+              }
+            ]
+          },
+          {
+            "description": "Any model may take up to one",
+            "choices": [
               {
                 "name": "Spirit Stones",
                 "pts_delta": 5
@@ -4000,7 +4314,7 @@
         ],
         "options": [
           {
-            "description": "May swap Starcannon for H",
+            "description": "May swap Starcannon",
             "choices": [
               {
                 "name": "Starcannon",
@@ -4021,7 +4335,7 @@
             ]
           },
           {
-            "description": "May take up to one of each E",
+            "description": "May take up to one",
             "choices": [
               {
                 "name": "Spirit Stones",
@@ -4029,6 +4343,18 @@
               },
               {
                 "name": "Vectored Engines",
+                "pts_delta": 5
+              },
+              {
+                "name": "Holo Fields",
+                "pts_delta": 12
+              },
+              {
+                "name": "Vectored Engines",
+                "pts_delta": 5
+              },
+              {
+                "name": "Spirit Stones",
                 "pts_delta": 5
               },
               {
@@ -4108,7 +4434,11 @@
         ],
         "options": [
           {
-            "description": "May add up to two more Voidweavers for +45 points each Any model may swap Haywire Cannon for T Any model may take one S Any model may take up to one of each E",
+            "description": "May add up to two more Voidweavers for +45 points each",
+            "choices": []
+          },
+          {
+            "description": "Any model may swap Haywire Cannon",
             "choices": [
               {
                 "name": "Haywire Cannon",
@@ -4117,7 +4447,12 @@
               {
                 "name": "Prismatic Cannon",
                 "pts_delta": 32
-              },
+              }
+            ]
+          },
+          {
+            "description": "Any model may take one S",
+            "choices": [
               {
                 "name": "Haywire Cannon",
                 "pts_delta": 6
@@ -4125,13 +4460,30 @@
               {
                 "name": "Prismatic Cannon",
                 "pts_delta": 38
-              },
+              }
+            ]
+          },
+          {
+            "description": "Any model may take up to one",
+            "choices": [
               {
                 "name": "Vectored Engines",
                 "pts_delta": 5
               },
               {
                 "name": "Spirit Stones",
+                "pts_delta": 5
+              },
+              {
+                "name": "Holo Fields",
+                "pts_delta": 12
+              },
+              {
+                "name": "Spirit Stones",
+                "pts_delta": 5
+              },
+              {
+                "name": "Vectored Engines",
                 "pts_delta": 5
               },
               {
@@ -4197,7 +4549,11 @@
         ],
         "options": [
           {
-            "description": "May add up to two more Hunters for +170 points each Any model may swap 2 Linked Shuriken Catapults for H Any model may take up to one of each E",
+            "description": "May add up to two more Hunters for +170 points each",
+            "choices": []
+          },
+          {
+            "description": "Any model may swap 2 Linked Shuriken Catapults",
             "choices": [
               {
                 "name": "2 Linked Shuriken Catapults",
@@ -4206,10 +4562,23 @@
               {
                 "name": "Shuriken Cannon",
                 "pts_delta": 6
-              },
+              }
+            ]
+          },
+          {
+            "description": "Any model may take up to one",
+            "choices": [
               {
                 "name": "Spirit Stones",
                 "pts_delta": 5
+              },
+              {
+                "name": "Vectored Engines",
+                "pts_delta": 5
+              },
+              {
+                "name": "Holo Fields",
+                "pts_delta": 12
               },
               {
                 "name": "Vectored Engines",
@@ -4280,8 +4649,24 @@
         ],
         "options": [
           {
-            "description": "May add up to two more Hunters for +183 points each Any model may take up to one of each E",
+            "description": "May add up to two more Hunters for +183 points each",
+            "choices": []
+          },
+          {
+            "description": "Any model may take up to one",
             "choices": [
+              {
+                "name": "Vectored Engines",
+                "pts_delta": 5
+              },
+              {
+                "name": "Holo Fields",
+                "pts_delta": 12
+              },
+              {
+                "name": "Spirit Stones",
+                "pts_delta": 5
+              },
               {
                 "name": "Vectored Engines",
                 "pts_delta": 5
@@ -4344,8 +4729,20 @@
         ],
         "options": [
           {
-            "description": "May add up to two more Nightwings for +198 points each Any model may take up to one of each E",
+            "description": "May add up to two more Nightwings for +198 points each",
+            "choices": []
+          },
+          {
+            "description": "Any model may take up to one",
             "choices": [
+              {
+                "name": "Vectored Engines",
+                "pts_delta": 5
+              },
+              {
+                "name": "Holo Fields",
+                "pts_delta": 12
+              },
               {
                 "name": "Vectored Engines",
                 "pts_delta": 5
@@ -4407,8 +4804,20 @@
         ],
         "options": [
           {
-            "description": "May add up to two more Nightwings for +198 points each Any model may take up to one of each E",
+            "description": "May add up to two more Nightwings for +198 points each",
+            "choices": []
+          },
+          {
+            "description": "Any model may take up to one",
             "choices": [
+              {
+                "name": "Vectored Engines",
+                "pts_delta": 5
+              },
+              {
+                "name": "Holo Fields",
+                "pts_delta": 12
+              },
               {
                 "name": "Vectored Engines",
                 "pts_delta": 5
@@ -4470,7 +4879,11 @@
         ],
         "options": [
           {
-            "description": "May take up to two more Bombers for +203 points each Any model may swap Pulse Laser for T Any model may swap 2 Linked Phoenix Missile Launchers for M Any model may take up to one of each E",
+            "description": "May take up to two more Bombers for +203 points each",
+            "choices": []
+          },
+          {
+            "description": "Any model may swap Pulse Laser",
             "choices": [
               {
                 "name": "Pulse Laser",
@@ -4483,7 +4896,12 @@
               {
                 "name": "2 Linked Bright Lances",
                 "pts_delta": 21
-              },
+              }
+            ]
+          },
+          {
+            "description": "Any model may swap 2 Linked Phoenix Missile Launchers",
+            "choices": [
               {
                 "name": "2 Linked Pheonix Missile Launchers",
                 "pts_delta": 0
@@ -4491,9 +4909,26 @@
               {
                 "name": "2 Linked Nightfire Missile Launchers",
                 "pts_delta": 0
+              }
+            ]
+          },
+          {
+            "description": "Any model may take up to one",
+            "choices": [
+              {
+                "name": "Vectored Engines",
+                "pts_delta": 5
+              },
+              {
+                "name": "Holo Fields",
+                "pts_delta": 12
               },
               {
                 "name": "Vectored Engines",
+                "pts_delta": 5
+              },
+              {
+                "name": "Spirit Stones",
                 "pts_delta": 5
               },
               {
@@ -4582,7 +5017,7 @@
         ],
         "options": [
           {
-            "description": "May take up to one of each E",
+            "description": "May take up to one",
             "choices": [
               {
                 "name": "Vectored Engines",
@@ -4590,6 +5025,18 @@
               },
               {
                 "name": "Spirit Stones",
+                "pts_delta": 5
+              },
+              {
+                "name": "Holo Fields",
+                "pts_delta": 12
+              },
+              {
+                "name": "Spirit Stones",
+                "pts_delta": 5
+              },
+              {
+                "name": "Vectored Engines",
                 "pts_delta": 5
               },
               {
@@ -4644,7 +5091,7 @@
         ],
         "options": [
           {
-            "description": "May swap 2 Linked Starcannons for T",
+            "description": "May swap 2 Linked Starcannons",
             "choices": [
               {
                 "name": "2 Linked Starcannons",
@@ -4669,7 +5116,7 @@
             ]
           },
           {
-            "description": "May swap 2 Linked Shuriken Catapults for H Any model may take up to one of each E",
+            "description": "May swap 2 Linked Shuriken Catapults",
             "choices": [
               {
                 "name": "2 Linked Shuriken Catapults",
@@ -4678,7 +5125,12 @@
               {
                 "name": "Shuriken Cannon",
                 "pts_delta": 6
-              },
+              }
+            ]
+          },
+          {
+            "description": "Any model may take up to one",
+            "choices": [
               {
                 "name": "Spirit Stones",
                 "pts_delta": 5
@@ -5289,6 +5741,24 @@
           {
             "description": "May take up to one Spell for each level of Psychic Mastery",
             "choices": []
+          },
+          {
+            "description": "May take Vectored Engines",
+            "choices": [
+              {
+                "name": "Vectored Engines",
+                "pts_delta": 5
+              }
+            ]
+          },
+          {
+            "description": "May take Holo Fields",
+            "choices": [
+              {
+                "name": "Holo Fields",
+                "pts_delta": 24
+              }
+            ]
           }
         ],
         "weapons": {
@@ -5337,7 +5807,7 @@
         ],
         "options": [
           {
-            "description": "May swap Starcannon for H",
+            "description": "May swap Starcannon",
             "choices": [
               {
                 "name": "Starcannon",
@@ -5358,8 +5828,16 @@
             ]
           },
           {
-            "description": "May take up to one of each E",
+            "description": "May take up to one",
             "choices": [
+              {
+                "name": "Vectored Engines",
+                "pts_delta": 5
+              },
+              {
+                "name": "Holo Fields",
+                "pts_delta": 24
+              },
               {
                 "name": "Vectored Engines",
                 "pts_delta": 5
@@ -5439,7 +5917,7 @@
         ],
         "options": [
           {
-            "description": "May swap Distort Empaler for T",
+            "description": "May swap Distort Empaler",
             "choices": [
               {
                 "name": "2 Linked Pulsars",
@@ -5448,7 +5926,7 @@
             ]
           },
           {
-            "description": "May swap Starcannon for H",
+            "description": "May swap Starcannon",
             "choices": [
               {
                 "name": "Starcannon",
@@ -5469,11 +5947,15 @@
             ]
           },
           {
-            "description": "May take up to one of each E",
+            "description": "May take up to one",
             "choices": [
               {
                 "name": "Vectored Engines",
                 "pts_delta": 5
+              },
+              {
+                "name": "Holo Fields",
+                "pts_delta": 24
               },
               {
                 "name": "Holo Fields",
@@ -5557,7 +6039,7 @@
         ],
         "options": [
           {
-            "description": "May swap either Phantom Pulsar for T",
+            "description": "May swap either Phantom Pulsar",
             "choices": [
               {
                 "name": "Phantom Pulsar",
@@ -5578,7 +6060,7 @@
             ]
           },
           {
-            "description": "May swap Starcannon for H",
+            "description": "May swap Starcannon",
             "choices": [
               {
                 "name": "Starcannon",
@@ -5599,7 +6081,7 @@
             ]
           },
           {
-            "description": "May take up to one of each E",
+            "description": "May take up to one",
             "choices": [
               {
                 "name": "Holo Fields",
@@ -5716,7 +6198,7 @@
         ],
         "options": [
           {
-            "description": "May swap either Pulsar for T",
+            "description": "May swap either Pulsar",
             "choices": [
               {
                 "name": "Pulsar",
@@ -5729,8 +6211,13 @@
             ]
           },
           {
-            "description": "May take up to one of each E",
-            "choices": []
+            "description": "May take up to one",
+            "choices": [
+              {
+                "name": "Holo Fields",
+                "pts_delta": 24
+              }
+            ]
           }
         ],
         "weapons": {
@@ -5797,7 +6284,7 @@
         ],
         "options": [
           {
-            "description": "May swap either Inferno Lance for T or A",
+            "description": "May swap either Inferno Lance",
             "choices": [
               {
                 "name": "Inferno Lance",
@@ -5806,6 +6293,10 @@
               {
                 "name": "Deathshroud Cannon",
                 "pts_delta": 28
+              },
+              {
+                "name": "Scattershield",
+                "pts_delta": 0
               }
             ]
           },
@@ -5896,7 +6387,7 @@
         ],
         "options": [
           {
-            "description": "May swap either Heavy Wraith Cannon for T or A",
+            "description": "May swap either Heavy Wraith Cannon",
             "choices": [
               {
                 "name": "Heavy Wraith Cannon",
@@ -5938,6 +6429,24 @@
               {
                 "name": "Scatter Laser",
                 "pts_delta": 20
+              }
+            ]
+          },
+          {
+            "description": "May take Vectored Engines",
+            "choices": [
+              {
+                "name": "Vectored Engines",
+                "pts_delta": 5
+              }
+            ]
+          },
+          {
+            "description": "May take Holo Fields",
+            "choices": [
+              {
+                "name": "Holo Fields",
+                "pts_delta": 24
               }
             ]
           }
@@ -6028,7 +6537,7 @@
         ],
         "options": [
           {
-            "description": "May swap 4 Linked Phoenix Missile Launchers for T",
+            "description": "May swap 4 Linked Phoenix Missile Launchers",
             "choices": [
               {
                 "name": "4 Linked Pheonix Missile Launchers",
@@ -6045,8 +6554,16 @@
             ]
           },
           {
-            "description": "May take up to one of each E",
+            "description": "May take up to one",
             "choices": [
+              {
+                "name": "Vectored Engines",
+                "pts_delta": 5
+              },
+              {
+                "name": "Holo Fields",
+                "pts_delta": 24
+              },
               {
                 "name": "Vectored Engines",
                 "pts_delta": 5
@@ -6121,7 +6638,7 @@
         ],
         "options": [
           {
-            "description": "May swap 4 Linked Phoenix Missile Launchers for T",
+            "description": "May swap 4 Linked Phoenix Missile Launchers",
             "choices": [
               {
                 "name": "4 Linked Pheonix Missile Launchers",
@@ -6138,7 +6655,7 @@
             ]
           },
           {
-            "description": "May take up to one of each E",
+            "description": "May take up to one",
             "choices": [
               {
                 "name": "Vectored Engines",

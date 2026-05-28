@@ -291,7 +291,7 @@
         ],
         "options": [
           {
-            "description": "May swap Power Sword for MM",
+            "description": "May swap Power Sword",
             "choices": [
               {
                 "name": "Power Sword",
@@ -308,7 +308,7 @@
             ]
           },
           {
-            "description": "May swap Rapture Lash for SM",
+            "description": "May swap Rapture Lash",
             "choices": [
               {
                 "name": "Rapture Lash",
@@ -425,7 +425,7 @@
             ]
           },
           {
-            "description": "May swap Brutal Weapon for M",
+            "description": "May swap Brutal Weapon",
             "choices": [
               {
                 "name": "Brutal Weapon",
@@ -565,7 +565,12 @@
         "options": [
           {
             "description": "May take one A",
-            "choices": []
+            "choices": [
+              {
+                "name": "Exalted",
+                "pts_delta": 18
+              }
+            ]
           }
         ],
         "weapons": {
@@ -1066,7 +1071,11 @@
         ],
         "options": [
           {
-            "description": "May add up to 20 more Daemonettes for +12 points each The entire unit may take one C",
+            "description": "May add up to 20 more Daemonettes for +12 points each",
+            "choices": []
+          },
+          {
+            "description": "The entire unit may take one C",
             "choices": []
           }
         ],
@@ -1138,21 +1147,39 @@
         ],
         "options": [
           {
-            "description": "May add up to 5 more Marines for +60 points each Champion may take one P Champion may take one M Up to two Marines may swap Heavy Sonic Blaster for S The entire unit may take one C",
+            "description": "May add up to 5 more Marines for +60 points each",
+            "choices": []
+          },
+          {
+            "description": "Champion may take one P",
             "choices": [
               {
                 "name": "Screamer Pistol",
                 "pts_delta": 4
-              },
+              }
+            ]
+          },
+          {
+            "description": "Champion may take one M",
+            "choices": [
               {
                 "name": "Power Sword",
                 "pts_delta": 6
-              },
+              }
+            ]
+          },
+          {
+            "description": "Up to two Marines may swap Heavy Sonic Blaster",
+            "choices": [
               {
                 "name": "Heavy Blastmaster",
                 "pts_delta": 20
               }
             ]
+          },
+          {
+            "description": "The entire unit may take one C",
+            "choices": []
           }
         ],
         "weapons": {
@@ -1232,7 +1259,11 @@
         ],
         "options": [
           {
-            "description": "May add up to 7 more Fiends for +65 points each The entire unit may take one C",
+            "description": "May add up to 7 more Fiends for +65 points each",
+            "choices": []
+          },
+          {
+            "description": "The entire unit may take one C",
             "choices": []
           }
         ],
@@ -1308,7 +1339,11 @@
         ],
         "options": [
           {
-            "description": "May add up to 7 more Flawless Blades for +67 points each The entire unit may take one C",
+            "description": "May add up to 7 more Flawless Blades for +67 points each",
+            "choices": []
+          },
+          {
+            "description": "The entire unit may take one C",
             "choices": []
           }
         ],
@@ -1400,7 +1435,11 @@
         ],
         "options": [
           {
-            "description": "May add up to 15 more Marines for +34 points each Champion may swap Chain Axe for P or M Up to three Marines may swap Sonic Blaster for S The entire unit may take one C",
+            "description": "May add up to 15 more Marines for +34 points each",
+            "choices": []
+          },
+          {
+            "description": "Champion may swap Chain Axe",
             "choices": [
               {
                 "name": "Chain Axe",
@@ -1441,7 +1480,12 @@
               {
                 "name": "Combi Melta",
                 "pts_delta": 28
-              },
+              }
+            ]
+          },
+          {
+            "description": "Up to three Marines may swap Sonic Blaster",
+            "choices": [
               {
                 "name": "Doom Siren",
                 "pts_delta": 9
@@ -1451,6 +1495,10 @@
                 "pts_delta": 26
               }
             ]
+          },
+          {
+            "description": "The entire unit may take one C",
+            "choices": []
           }
         ],
         "weapons": {
@@ -1586,7 +1634,11 @@
         ],
         "options": [
           {
-            "description": "May add up to 2 more Dreadnoughts for +215 points each The entire unit may take one C",
+            "description": "May add up to 2 more Dreadnoughts for +215 points each",
+            "choices": []
+          },
+          {
+            "description": "The entire unit may take one C",
             "choices": []
           }
         ],
@@ -1644,7 +1696,11 @@
         ],
         "options": [
           {
-            "description": "May add up to 2 more Hellflayers for +123 points each The entire unit may take one C",
+            "description": "May add up to 2 more Hellflayers for +123 points each",
+            "choices": []
+          },
+          {
+            "description": "The entire unit may take one C",
             "choices": []
           }
         ],
@@ -1725,7 +1781,11 @@
         ],
         "options": [
           {
-            "description": "May add up to 5 more Seekers for +30 points each The entire unit may take one C",
+            "description": "May add up to 5 more Seekers for +30 points each",
+            "choices": []
+          },
+          {
+            "description": "The entire unit may take one C",
             "choices": []
           }
         ],
@@ -1782,7 +1842,11 @@
         ],
         "options": [
           {
-            "description": "May add up to 2 more Seeker Chariots for +236 points each The entire unit may take one C",
+            "description": "May add up to 2 more Seeker Chariots for +236 points each",
+            "choices": []
+          },
+          {
+            "description": "The entire unit may take one C",
             "choices": []
           }
         ],
@@ -1847,7 +1911,11 @@
         ],
         "options": [
           {
-            "description": "May take up to 2 more Keepers of Secrets for +395 points each Any model may take one S Any model may take one Spell for each Psychic Mastery Level The entire unit may take one C",
+            "description": "May take up to 2 more Keepers of Secrets for +395 points each",
+            "choices": []
+          },
+          {
+            "description": "Any model may take one S",
             "choices": [
               {
                 "name": "Ritual Knife",
@@ -1858,6 +1926,14 @@
                 "pts_delta": 46
               }
             ]
+          },
+          {
+            "description": "Any model may take one Spell for each Psychic Mastery Level",
+            "choices": []
+          },
+          {
+            "description": "The entire unit may take one C",
+            "choices": []
           }
         ],
         "weapons": {

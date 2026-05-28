@@ -48,7 +48,7 @@
         ],
         "options": [
           {
-            "description": "May swap Splinter Pistol for P or S",
+            "description": "May swap Splinter Pistol",
             "choices": [
               {
                 "name": "Splinter Pistol",
@@ -69,7 +69,7 @@
             ]
           },
           {
-            "description": "May swap Flesh Gauntlet for M",
+            "description": "May swap Flesh Gauntlet",
             "choices": [
               {
                 "name": "Flesh Gauntlet",
@@ -187,7 +187,7 @@
         ],
         "options": [
           {
-            "description": "May swap Splinter Pistol for P or S",
+            "description": "May swap Splinter Pistol",
             "choices": [
               {
                 "name": "Splinter Pistol",
@@ -327,7 +327,7 @@
         ],
         "options": [
           {
-            "description": "May swap Splinter Pistol for P",
+            "description": "May swap Splinter Pistol",
             "choices": [
               {
                 "name": "Splinter Pistol",
@@ -340,7 +340,7 @@
             ]
           },
           {
-            "description": "May swap Venom Blade for M",
+            "description": "May swap Venom Blade",
             "choices": [
               {
                 "name": "Venom Blade",
@@ -472,7 +472,7 @@
         ],
         "options": [
           {
-            "description": "May swap Shuriken Pistol for P",
+            "description": "May swap Shuriken Pistol",
             "choices": [
               {
                 "name": "Shuriken Pistol",
@@ -485,7 +485,7 @@
             ]
           },
           {
-            "description": "May swap Power Sword for M",
+            "description": "May swap Power Sword",
             "choices": [
               {
                 "name": "Miststave",
@@ -625,7 +625,7 @@
         ],
         "options": [
           {
-            "description": "May swap Shuriken Pistol for P",
+            "description": "May swap Shuriken Pistol",
             "choices": [
               {
                 "name": "Shuriken Pistol",
@@ -642,7 +642,7 @@
             ]
           },
           {
-            "description": "May swap Power Sword for M",
+            "description": "May swap Power Sword",
             "choices": [
               {
                 "name": "Power Sword",
@@ -1449,7 +1449,11 @@
         ],
         "options": [
           {
-            "description": "May add up to 5 more Players for +34 points each Any model may swap Shuriken Pistol for P Any model may swap Harlequin Blade for M",
+            "description": "May add up to 5 more Players for +34 points each",
+            "choices": []
+          },
+          {
+            "description": "Any model may swap Shuriken Pistol",
             "choices": [
               {
                 "name": "Shuriken Pistol",
@@ -1462,7 +1466,12 @@
               {
                 "name": "Fusion Pistol",
                 "pts_delta": 26
-              },
+              }
+            ]
+          },
+          {
+            "description": "Any model may swap Harlequin Blade",
+            "choices": [
               {
                 "name": "Harlequin Blade",
                 "pts_delta": 0
@@ -1584,12 +1593,21 @@
         ],
         "options": [
           {
-            "description": "May add up to 5 more Kabalites for +23 points each Sybarite may swap Splinter Rifle for P Sybarite may take one M Sybarite may take one L One Kabalite may swap Splinter Rifle for S One Kabalite may swap Splinter Rifle for H",
+            "description": "May add up to 5 more Kabalites for +23 points each",
+            "choices": []
+          },
+          {
+            "description": "Sybarite may swap Splinter Rifle",
             "choices": [
               {
                 "name": "Blast Pistol",
                 "pts_delta": 25
-              },
+              }
+            ]
+          },
+          {
+            "description": "Sybarite may take one M",
+            "choices": [
               {
                 "name": "Agonizer",
                 "pts_delta": 4
@@ -1597,7 +1615,16 @@
               {
                 "name": "Power Sword",
                 "pts_delta": 4
-              },
+              }
+            ]
+          },
+          {
+            "description": "Sybarite may take one L",
+            "choices": []
+          },
+          {
+            "description": "One Kabalite may swap Splinter Rifle",
+            "choices": [
               {
                 "name": "Shredder",
                 "pts_delta": 4
@@ -1605,7 +1632,12 @@
               {
                 "name": "Blaster",
                 "pts_delta": 24
-              },
+              }
+            ]
+          },
+          {
+            "description": "One Kabalite may swap Splinter Rifle",
+            "choices": [
               {
                 "name": "Splinter Cannon",
                 "pts_delta": 14
@@ -1723,12 +1755,38 @@
         ],
         "options": [
           {
-            "description": "May add up to 5 more Wyches for +22 points each Hekatrix may swap Splinter Pistol for P Hekatrix may swap Knives for OM Hekatrix may take one L Up to two Wyches may swap Knives for M",
+            "description": "May add up to 5 more Wyches for +22 points each",
+            "choices": []
+          },
+          {
+            "description": "Hekatrix may swap Splinter Pistol",
             "choices": [
               {
                 "name": "Blast Pistol",
                 "pts_delta": 27
+              }
+            ]
+          },
+          {
+            "description": "Hekatrix may swap Knives",
+            "choices": [
+              {
+                "name": "Agonizer",
+                "pts_delta": 1
               },
+              {
+                "name": "Power Sword",
+                "pts_delta": 1
+              }
+            ]
+          },
+          {
+            "description": "Hekatrix may take one L",
+            "choices": []
+          },
+          {
+            "description": "Up to two Wyches may swap Knives",
+            "choices": [
               {
                 "name": "Knives",
                 "pts_delta": 0
@@ -1744,14 +1802,6 @@
               {
                 "name": "Shardnet and Impaler",
                 "pts_delta": 3
-              },
-              {
-                "name": "Agonizer",
-                "pts_delta": 1
-              },
-              {
-                "name": "Power Sword",
-                "pts_delta": 1
               }
             ]
           }
@@ -1866,12 +1916,38 @@
         ],
         "options": [
           {
-            "description": "May add up to 5 more Hekatrix for +29 points each Syren may swap Splinter Pistol for P Syren may swap Knives for OM Syren may take one L Any model may swap Knives for M",
+            "description": "May add up to 5 more Hekatrix for +29 points each",
+            "choices": []
+          },
+          {
+            "description": "Syren may swap Splinter Pistol",
             "choices": [
               {
                 "name": "Blast Pistol",
                 "pts_delta": 27
+              }
+            ]
+          },
+          {
+            "description": "Syren may swap Knives",
+            "choices": [
+              {
+                "name": "Agonizer",
+                "pts_delta": 1
               },
+              {
+                "name": "Power Sword",
+                "pts_delta": 1
+              }
+            ]
+          },
+          {
+            "description": "Syren may take one L",
+            "choices": []
+          },
+          {
+            "description": "Any model may swap Knives",
+            "choices": [
               {
                 "name": "Knives",
                 "pts_delta": 0
@@ -1887,14 +1963,6 @@
               {
                 "name": "Shardnet and Impaler",
                 "pts_delta": 3
-              },
-              {
-                "name": "Agonizer",
-                "pts_delta": 1
-              },
-              {
-                "name": "Power Sword",
-                "pts_delta": 1
               }
             ]
           }
@@ -2003,7 +2071,11 @@
         ],
         "options": [
           {
-            "description": "May add up to 5 more Incubi for +37 points each Klaivex may swap Demiklaives for M",
+            "description": "May add up to 5 more Incubi for +37 points each",
+            "choices": []
+          },
+          {
+            "description": "Klaivex may swap Demiklaives",
             "choices": [
               {
                 "name": "Demiklaives User",
@@ -2084,7 +2156,11 @@
         ],
         "options": [
           {
-            "description": "May add up to 5 more Kabalites for +23 points each Dracon may swap Splinter Rifle for P or R Dracon may take one M Dracon may take one L Any Kabalite may swap Splinter Rifle for R, H, or S",
+            "description": "May add up to 5 more Kabalites for +23 points each",
+            "choices": []
+          },
+          {
+            "description": "Dracon may swap Splinter Rifle",
             "choices": [
               {
                 "name": "Splinter Rifle",
@@ -2097,7 +2173,12 @@
               {
                 "name": "Blast Pistol",
                 "pts_delta": 25
-              },
+              }
+            ]
+          },
+          {
+            "description": "Dracon may take one M",
+            "choices": [
               {
                 "name": "Agonizer",
                 "pts_delta": 4
@@ -2105,7 +2186,16 @@
               {
                 "name": "Power Sword",
                 "pts_delta": 4
-              },
+              }
+            ]
+          },
+          {
+            "description": "Dracon may take one L",
+            "choices": []
+          },
+          {
+            "description": "Any Kabalite may swap Splinter Rifle for R, H,",
+            "choices": [
               {
                 "name": "Shredder",
                 "pts_delta": 4
@@ -2292,7 +2382,11 @@
         ],
         "options": [
           {
-            "description": "May add up to 5 more Wracks for +13 points each Acothyst may swap any Wrack Tool for P or S Up to two Wracks may take one R",
+            "description": "May add up to 5 more Wracks for +13 points each",
+            "choices": []
+          },
+          {
+            "description": "Acothyst may swap any Wrack Tool",
             "choices": [
               {
                 "name": "Stinger Pistol",
@@ -2309,7 +2403,12 @@
               {
                 "name": "Hexfire Rifle",
                 "pts_delta": 17
-              },
+              }
+            ]
+          },
+          {
+            "description": "Up to two Wracks may take one R",
+            "choices": [
               {
                 "name": "Liquefier Gun",
                 "pts_delta": 6
@@ -2423,7 +2522,11 @@
         ],
         "options": [
           {
-            "description": "May add up to 3 more Grotesques for +55 points each Any model may swap any Cleaver for M or S",
+            "description": "May add up to 3 more Grotesques for +55 points each",
+            "choices": []
+          },
+          {
+            "description": "Any model may swap any Cleaver",
             "choices": [
               {
                 "name": "Cleaver",
@@ -2589,7 +2692,11 @@
         ],
         "options": [
           {
-            "description": "May add up to 5 more Cloud Dancers for +42 points each Felarch may swap 2 Linked Splinter Rifles for S or H Felarch may take one M Up to two Cloud Dancers may swap 2 Linked Splinter Rifles for S or H",
+            "description": "May add up to 5 more Cloud Dancers for +42 points each",
+            "choices": []
+          },
+          {
+            "description": "Felarch may swap 2 Linked Splinter Rifles",
             "choices": [
               {
                 "name": "Shredder",
@@ -2606,12 +2713,21 @@
               {
                 "name": "Dark Lance",
                 "pts_delta": 28
-              },
+              }
+            ]
+          },
+          {
+            "description": "Felarch may take one M",
+            "choices": [
               {
                 "name": "Void Sabre",
                 "pts_delta": 5
               }
             ]
+          },
+          {
+            "description": "Up to two Cloud Dancers may swap 2 Linked Splinter Rifles",
+            "choices": []
           }
         ],
         "weapons": {
@@ -2722,7 +2838,11 @@
         ],
         "options": [
           {
-            "description": "May add up to 15 more Hellions for +30 points each Helliarch may swap Splinter Pistol for P Helliarch may swap Hellglaive for M Helliarch may take one L",
+            "description": "May add up to 15 more Hellions for +30 points each",
+            "choices": []
+          },
+          {
+            "description": "Helliarch may swap Splinter Pistol",
             "choices": [
               {
                 "name": "Splinter Pistol",
@@ -2731,7 +2851,12 @@
               {
                 "name": "Blast Pistol",
                 "pts_delta": 25
-              },
+              }
+            ]
+          },
+          {
+            "description": "Helliarch may swap Hellglaive",
+            "choices": [
               {
                 "name": "Hellglaive",
                 "pts_delta": 0
@@ -2745,6 +2870,10 @@
                 "pts_delta": 1
               }
             ]
+          },
+          {
+            "description": "Helliarch may take one L",
+            "choices": []
           }
         ],
         "weapons": {
@@ -2884,7 +3013,11 @@
         ],
         "options": [
           {
-            "description": "May add up to 5 more Reavers for +37 points each Arena Champion may swap Splinter Rifle for O Arena Champion may take one M Up to three Reavers may take one S",
+            "description": "May add up to 5 more Reavers for +37 points each",
+            "choices": []
+          },
+          {
+            "description": "Arena Champion may swap Splinter Rifle",
             "choices": [
               {
                 "name": "Blaster",
@@ -2893,7 +3026,12 @@
               {
                 "name": "Heat Lance",
                 "pts_delta": 33
-              },
+              }
+            ]
+          },
+          {
+            "description": "Arena Champion may take one M",
+            "choices": [
               {
                 "name": "Bladevane",
                 "pts_delta": 0
@@ -2905,7 +3043,12 @@
               {
                 "name": "Agonizer",
                 "pts_delta": 6
-              },
+              }
+            ]
+          },
+          {
+            "description": "Up to three Reavers may take one S",
+            "choices": [
               {
                 "name": "Cluster Caltrops",
                 "pts_delta": 9
@@ -3025,7 +3168,11 @@
         ],
         "options": [
           {
-            "description": "May add up to 5 more Scourges for +38 points each Solarite may swap Splinter Pistol for P Solarite may take one M One Scourge may swap Shard Carbine for S One Scourge may swap Shard Carbine for H",
+            "description": "May add up to 5 more Scourges for +38 points each",
+            "choices": []
+          },
+          {
+            "description": "Solarite may swap Splinter Pistol",
             "choices": [
               {
                 "name": "Splinter Pistol",
@@ -3038,7 +3185,12 @@
               {
                 "name": "Blast Pistol",
                 "pts_delta": 25
-              },
+              }
+            ]
+          },
+          {
+            "description": "Solarite may take one M",
+            "choices": [
               {
                 "name": "Venom Blade",
                 "pts_delta": 2
@@ -3046,7 +3198,12 @@
               {
                 "name": "Agonizer",
                 "pts_delta": 4
-              },
+              }
+            ]
+          },
+          {
+            "description": "One Scourge may swap Shard Carbine",
+            "choices": [
               {
                 "name": "Haywire Blaster",
                 "pts_delta": 0
@@ -3058,7 +3215,12 @@
               {
                 "name": "Blaster",
                 "pts_delta": 20
-              },
+              }
+            ]
+          },
+          {
+            "description": "One Scourge may swap Shard Carbine",
+            "choices": [
               {
                 "name": "Splinter Cannon",
                 "pts_delta": 13
@@ -3171,7 +3333,11 @@
         ],
         "options": [
           {
-            "description": "May take up to 4 more Skyweavers for +52 points each Any model may swap Haywire Cannon for H Any model may swap Zepherglaive for G",
+            "description": "May take up to 4 more Skyweavers for +52 points each",
+            "choices": []
+          },
+          {
+            "description": "Any model may swap Haywire Cannon",
             "choices": [
               {
                 "name": "Haywire Cannon",
@@ -3180,7 +3346,12 @@
               {
                 "name": "Shuriken Cannon",
                 "pts_delta": 10
-              },
+              }
+            ]
+          },
+          {
+            "description": "Any model may swap Zepherglaive",
+            "choices": [
               {
                 "name": "Star Bolas",
                 "pts_delta": 4
@@ -3274,7 +3445,11 @@
         ],
         "options": [
           {
-            "description": "May add up to two more Ravagers for +98 points each Any model may swap Disintegrator Cannon for H Any model may swap 2 Linked Disintegrator Cannons for S Any model may take one M Any model may take one D Any model may take one L Any model may take up to one of each E",
+            "description": "May add up to two more Ravagers for +98 points each",
+            "choices": []
+          },
+          {
+            "description": "Any model may swap Disintegrator Cannon",
             "choices": [
               {
                 "name": "Disintegrator Cannons",
@@ -3283,7 +3458,12 @@
               {
                 "name": "Dark Lance",
                 "pts_delta": 8
-              },
+              }
+            ]
+          },
+          {
+            "description": "Any model may swap 2 Linked Disintegrator Cannons",
+            "choices": [
               {
                 "name": "2 Disintegrator Cannons",
                 "pts_delta": 0
@@ -3291,14 +3471,45 @@
               {
                 "name": "2 Dark Lances",
                 "pts_delta": 24
-              },
+              }
+            ]
+          },
+          {
+            "description": "Any model may take one M",
+            "choices": [
               {
                 "name": "Chain Snares",
                 "pts_delta": 1
-              },
+              }
+            ]
+          },
+          {
+            "description": "Any model may take one D",
+            "choices": [
               {
                 "name": "Shock Prow",
                 "pts_delta": 7
+              }
+            ]
+          },
+          {
+            "description": "Any model may take one L",
+            "choices": []
+          },
+          {
+            "description": "Any model may take up to one",
+            "choices": [
+              {
+                "name": "Splinter Racks",
+                "pts_delta": 5
+              },
+              {
+                "name": "Grisly Trophies",
+                "pts_delta": 10
+              },
+              {
+                "name": "Night Shields",
+                "pts_delta": 12
               },
               {
                 "name": "Splinter Racks",
@@ -3378,7 +3589,11 @@
         ],
         "options": [
           {
-            "description": "May add up to two more Voidweavers for +45 points each Any model may swap Haywire Cannon for T Any model may take one S Any model may take up to one of each E",
+            "description": "May add up to two more Voidweavers for +45 points each",
+            "choices": []
+          },
+          {
+            "description": "Any model may swap Haywire Cannon",
             "choices": [
               {
                 "name": "Haywire Cannon",
@@ -3387,7 +3602,12 @@
               {
                 "name": "Prismatic Cannon",
                 "pts_delta": 32
-              },
+              }
+            ]
+          },
+          {
+            "description": "Any model may take one S",
+            "choices": [
               {
                 "name": "Haywire Cannon",
                 "pts_delta": 6
@@ -3395,7 +3615,12 @@
               {
                 "name": "Prismatic Cannon",
                 "pts_delta": 38
-              },
+              }
+            ]
+          },
+          {
+            "description": "Any model may take up to one",
+            "choices": [
               {
                 "name": "Vectored Engines",
                 "pts_delta": 5
@@ -3456,7 +3681,11 @@
         ],
         "options": [
           {
-            "description": "May add up to two more Voidweavers for +45 points each Any model may swap Haywire Cannon for T Any model may take one S Any model may take up to one of each E",
+            "description": "May add up to two more Voidweavers for +45 points each",
+            "choices": []
+          },
+          {
+            "description": "Any model may swap Haywire Cannon",
             "choices": [
               {
                 "name": "Haywire Cannon",
@@ -3465,7 +3694,12 @@
               {
                 "name": "Prismatic Cannon",
                 "pts_delta": 32
-              },
+              }
+            ]
+          },
+          {
+            "description": "Any model may take one S",
+            "choices": [
               {
                 "name": "Haywire Cannon",
                 "pts_delta": 6
@@ -3473,7 +3707,12 @@
               {
                 "name": "Prismatic Cannon",
                 "pts_delta": 38
-              },
+              }
+            ]
+          },
+          {
+            "description": "Any model may take up to one",
+            "choices": [
               {
                 "name": "Vectored Engines",
                 "pts_delta": 5
@@ -3538,6 +3777,15 @@
           {
             "description": "May add up to two more Ravens for +212 points each",
             "choices": []
+          },
+          {
+            "description": "May take Night Shields",
+            "choices": [
+              {
+                "name": "Night Shields",
+                "pts_delta": 12
+              }
+            ]
           }
         ],
         "weapons": {
@@ -3578,7 +3826,11 @@
         ],
         "options": [
           {
-            "description": "May add up to two more Razorwings for +170 points each Any model may swap 2 Linked Splinter Rifles for H Any model may swap 2 Linked Disintegrator Cannons for W Any model may swap 2 Linked Necrotoxin Missiles for M Any model may take up to one of each E",
+            "description": "May add up to two more Razorwings for +170 points each",
+            "choices": []
+          },
+          {
+            "description": "Any model may swap 2 Linked Splinter Rifles",
             "choices": [
               {
                 "name": "2 Linked Splinter Rifles",
@@ -3587,7 +3839,12 @@
               {
                 "name": "Splinter Cannon",
                 "pts_delta": 5
-              },
+              }
+            ]
+          },
+          {
+            "description": "Any model may swap 2 Linked Disintegrator Cannons",
+            "choices": [
               {
                 "name": "2 Linked Disintegrator Cannons",
                 "pts_delta": 0
@@ -3595,7 +3852,12 @@
               {
                 "name": "2 Linked Dark Lances",
                 "pts_delta": 16
-              },
+              }
+            ]
+          },
+          {
+            "description": "Any model may swap 2 Linked Necrotoxin Missiles",
+            "choices": [
               {
                 "name": "2 Linked Necrotoxin Missiles",
                 "pts_delta": 0
@@ -3607,6 +3869,15 @@
               {
                 "name": "2 Linked Shatterfield Missiles",
                 "pts_delta": 6
+              }
+            ]
+          },
+          {
+            "description": "Any model may take up to one",
+            "choices": [
+              {
+                "name": "Night Shields",
+                "pts_delta": 12
               },
               {
                 "name": "Night Shields",
@@ -3683,7 +3954,11 @@
         ],
         "options": [
           {
-            "description": "May add up to two more Voidravens for +209 points each Any model may swap 2 Linked Dark Lances for W Any model may swap Necrotoxin Missile Rack for M Any model may take up to one of each E",
+            "description": "May add up to two more Voidravens for +209 points each",
+            "choices": []
+          },
+          {
+            "description": "Any model may swap 2 Linked Dark Lances",
             "choices": [
               {
                 "name": "2 Linked Dark Lances",
@@ -3692,7 +3967,12 @@
               {
                 "name": "2 Linked Darkscythes",
                 "pts_delta": 22
-              },
+              }
+            ]
+          },
+          {
+            "description": "Any model may swap Necrotoxin Missile Rack",
+            "choices": [
               {
                 "name": "Necrotoxin Missile Rack",
                 "pts_delta": 0
@@ -3704,6 +3984,23 @@
               {
                 "name": "Shatterfield Missile Rack",
                 "pts_delta": 6
+              }
+            ]
+          },
+          {
+            "description": "Any model may take up to one",
+            "choices": [
+              {
+                "name": "Night Shields",
+                "pts_delta": 12
+              },
+              {
+                "name": "Splinter Racks",
+                "pts_delta": 5
+              },
+              {
+                "name": "Grisly Trophies",
+                "pts_delta": 10
               },
               {
                 "name": "Night Shields",
@@ -3779,7 +4076,7 @@
         ],
         "options": [
           {
-            "description": "May swap Disintegrator Cannon for H",
+            "description": "May swap Disintegrator Cannon",
             "choices": [
               {
                 "name": "Disintegrator Cannons",
@@ -3814,8 +4111,20 @@
             "choices": []
           },
           {
-            "description": "May take up to one of each E",
+            "description": "May take up to one",
             "choices": [
+              {
+                "name": "Splinter Racks",
+                "pts_delta": 5
+              },
+              {
+                "name": "Grisly Trophies",
+                "pts_delta": 10
+              },
+              {
+                "name": "Night Shields",
+                "pts_delta": 12
+              },
               {
                 "name": "Splinter Racks",
                 "pts_delta": 5
@@ -3883,7 +4192,7 @@
         ],
         "options": [
           {
-            "description": "May swap 2 Linked Splinter Rifles for H",
+            "description": "May swap 2 Linked Splinter Rifles",
             "choices": [
               {
                 "name": "2 Linked Splinter Rifles",
@@ -3896,7 +4205,7 @@
             ]
           },
           {
-            "description": "May take up to one of each E",
+            "description": "May take up to one",
             "choices": [
               {
                 "name": "Splinter Racks",
@@ -3908,6 +4217,18 @@
               },
               {
                 "name": "Night Shields",
+                "pts_delta": 12
+              },
+              {
+                "name": "Vectored Engines",
+                "pts_delta": 5
+              },
+              {
+                "name": "Spirit Stones",
+                "pts_delta": 5
+              },
+              {
+                "name": "Holo Fields",
                 "pts_delta": 12
               }
             ]
@@ -3953,7 +4274,7 @@
         ],
         "options": [
           {
-            "description": "May take up to one of each E",
+            "description": "May take up to one",
             "choices": [
               {
                 "name": "Vectored Engines",
@@ -4023,6 +4344,33 @@
           {
             "description": "May take up to one Spell for each level of Psychic Mastery",
             "choices": []
+          },
+          {
+            "description": "May take Splinter Racks",
+            "choices": [
+              {
+                "name": "Splinter Racks",
+                "pts_delta": 5
+              }
+            ]
+          },
+          {
+            "description": "May take Grisly Trophies",
+            "choices": [
+              {
+                "name": "Grisly Trophies",
+                "pts_delta": 10
+              }
+            ]
+          },
+          {
+            "description": "May take Night Shields",
+            "choices": [
+              {
+                "name": "Night Shields",
+                "pts_delta": 12
+              }
+            ]
           }
         ],
         "weapons": {
@@ -4065,7 +4413,7 @@
             "choices": []
           },
           {
-            "description": "May take up to one of each E",
+            "description": "May take up to one",
             "choices": [
               {
                 "name": "Splinter Racks",

@@ -207,7 +207,12 @@
         "options": [
           {
             "description": "May take one B",
-            "choices": []
+            "choices": [
+              {
+                "name": "Rubicon Primaris",
+                "pts_delta": 13
+              }
+            ]
           }
         ],
         "weapons": {
@@ -292,6 +297,15 @@
               {
                 "name": "Rubicon Primaris",
                 "pts_delta": 16
+              }
+            ]
+          },
+          {
+            "description": "May take Stormshield",
+            "choices": [
+              {
+                "name": "Stormshield",
+                "pts_delta": 10
               }
             ]
           }
@@ -433,16 +447,12 @@
             "choices": []
           },
           {
-            "description": "May take up to 10 Neophytes for +33 points each Sergeant may swap Boltgun for OR, P, M, or A Sergeant may swap Bolt Pistol for P or M Sergeant may swap Krak Grenades for G Up to two Initiates may swap Boltgun for H, M, or S Any Initiate may swap Combat Knife for Chainsword Any Neophyte may swap Shotgun for NR",
+            "description": "May take up to 10 Neophytes for +33 points each",
+            "choices": []
+          },
+          {
+            "description": "Sergeant may swap Boltgun for OR, P, M,",
             "choices": [
-              {
-                "name": "Shotgun",
-                "pts_delta": 0
-              },
-              {
-                "name": "Boltgun",
-                "pts_delta": 1
-              },
               {
                 "name": "Stormbolter",
                 "pts_delta": 2
@@ -516,6 +526,36 @@
                 "pts_delta": 18
               },
               {
+                "name": "Stormshield",
+                "pts_delta": 10
+              }
+            ]
+          },
+          {
+            "description": "Sergeant may swap Bolt Pistol",
+            "choices": []
+          },
+          {
+            "description": "Sergeant may swap Krak Grenades",
+            "choices": [
+              {
+                "name": "Frag Grenades",
+                "pts_delta": 0
+              },
+              {
+                "name": "Krak Grenades",
+                "pts_delta": 0
+              },
+              {
+                "name": "Meltabombs",
+                "pts_delta": 5
+              }
+            ]
+          },
+          {
+            "description": "Up to two Initiates may swap Boltgun for H, M,",
+            "choices": [
+              {
                 "name": "Flamer",
                 "pts_delta": 4
               },
@@ -558,22 +598,23 @@
               {
                 "name": "Multimelta",
                 "pts_delta": 27
-              },
+              }
+            ]
+          },
+          {
+            "description": "Any Initiate may swap Combat Knife for Chainsword",
+            "choices": []
+          },
+          {
+            "description": "Any Neophyte may swap Shotgun",
+            "choices": [
               {
-                "name": "Frag Grenades",
+                "name": "Shotgun",
                 "pts_delta": 0
               },
               {
-                "name": "Krak Grenades",
-                "pts_delta": 0
-              },
-              {
-                "name": "Meltabombs",
-                "pts_delta": 5
-              },
-              {
-                "name": "Stormshield",
-                "pts_delta": 10
+                "name": "Boltgun",
+                "pts_delta": 1
               }
             ]
           }
@@ -890,7 +931,11 @@
             "choices": []
           },
           {
-            "description": "May take up to 10 Neophytes for +35 points each Sergeant may swap Heavy Bolt Pistol for OP Sergeant may swap Power Sword for OM Sergeant may swap Krak Grenades for G Any Initiate may swap Heavy Bolt Pistol for IP or IR Any Initiate may swap Combat Knife for IM Any Neophyte may swap Bolt Pistol for NR",
+            "description": "May take up to 10 Neophytes for +35 points each",
+            "choices": []
+          },
+          {
+            "description": "Sergeant may swap Heavy Bolt Pistol",
             "choices": [
               {
                 "name": "Heavy Bolt Pistol",
@@ -899,7 +944,12 @@
               {
                 "name": "Pyre Pistol",
                 "pts_delta": 5
-              },
+              }
+            ]
+          },
+          {
+            "description": "Sergeant may swap Power Sword",
+            "choices": [
               {
                 "name": "Power Sword",
                 "pts_delta": 0
@@ -911,7 +961,29 @@
               {
                 "name": "Power Fist",
                 "pts_delta": 7
+              }
+            ]
+          },
+          {
+            "description": "Sergeant may swap Krak Grenades",
+            "choices": [
+              {
+                "name": "Frag Grenades",
+                "pts_delta": 0
               },
+              {
+                "name": "Krak Grenades",
+                "pts_delta": 0
+              },
+              {
+                "name": "Meltabombs",
+                "pts_delta": 5
+              }
+            ]
+          },
+          {
+            "description": "Any Initiate may swap Heavy Bolt Pistol",
+            "choices": [
               {
                 "name": "Heavy Bolt Pistol",
                 "pts_delta": 0
@@ -927,7 +999,12 @@
               {
                 "name": "Heavy Flamer",
                 "pts_delta": 6
-              },
+              }
+            ]
+          },
+          {
+            "description": "Any Initiate may swap Combat Knife",
+            "choices": [
               {
                 "name": "Combat Knife",
                 "pts_delta": 0
@@ -939,20 +1016,12 @@
               {
                 "name": "Powerfist",
                 "pts_delta": 10
-              },
-              {
-                "name": "Frag Grenades",
-                "pts_delta": 0
-              },
-              {
-                "name": "Krak Grenades",
-                "pts_delta": 0
-              },
-              {
-                "name": "Meltabombs",
-                "pts_delta": 5
               }
             ]
+          },
+          {
+            "description": "Any Neophyte may swap Bolt Pistol",
+            "choices": []
           }
         ],
         "weapons": {
@@ -1117,7 +1186,28 @@
         ],
         "options": [
           {
-            "description": "May take up to 5 more Marines for +53 points each Sergeant may swap Krak Grenades for G Any model may swap Heavy Bolt Pistol for P Any model may swap Chainsword for M Any model may swap Heavy Bolt Pistol and Chainsword for SM",
+            "description": "May take up to 5 more Marines for +53 points each",
+            "choices": []
+          },
+          {
+            "description": "Sergeant may swap Krak Grenades",
+            "choices": [
+              {
+                "name": "Frag Grenades",
+                "pts_delta": 0
+              },
+              {
+                "name": "Krak Grenades",
+                "pts_delta": 0
+              },
+              {
+                "name": "Meltabombs",
+                "pts_delta": 5
+              }
+            ]
+          },
+          {
+            "description": "Any model may swap Heavy Bolt Pistol",
             "choices": [
               {
                 "name": "Heavy Bolt Pistol",
@@ -1130,7 +1220,12 @@
               {
                 "name": "Pyre Pistol",
                 "pts_delta": 5
-              },
+              }
+            ]
+          },
+          {
+            "description": "Any model may swap Chainsword",
+            "choices": [
               {
                 "name": "Chainsword",
                 "pts_delta": 0
@@ -1150,22 +1245,15 @@
               {
                 "name": "Thunderhammer",
                 "pts_delta": 18
-              },
+              }
+            ]
+          },
+          {
+            "description": "Any model may swap Heavy Bolt Pistol and Chainsword",
+            "choices": [
               {
                 "name": "Dual Lightning Claws",
                 "pts_delta": 2
-              },
-              {
-                "name": "Frag Grenades",
-                "pts_delta": 0
-              },
-              {
-                "name": "Krak Grenades",
-                "pts_delta": 0
-              },
-              {
-                "name": "Meltabombs",
-                "pts_delta": 5
               }
             ]
           }

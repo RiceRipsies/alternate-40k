@@ -90,7 +90,7 @@
         ],
         "options": [
           {
-            "description": "May swap Assault Cannon for H",
+            "description": "May swap Assault Cannon",
             "choices": [
               {
                 "name": "Assault Cannon",
@@ -199,7 +199,26 @@
           "Mantle of the Ice Troll King",
           "Storm Shield"
         ],
-        "options": [],
+        "options": [
+          {
+            "description": "May take Rubicon Primaris",
+            "choices": [
+              {
+                "name": "Rubicon Primaris",
+                "pts_delta": 25
+              }
+            ]
+          },
+          {
+            "description": "May take Stormrider",
+            "choices": [
+              {
+                "name": "Stormrider",
+                "pts_delta": 54
+              }
+            ]
+          }
+        ],
         "weapons": {
           "Bolt Pistol": {
             "range": "12",
@@ -281,6 +300,10 @@
           {
             "description": "May take one B",
             "choices": [
+              {
+                "name": "Rubicon Primaris",
+                "pts_delta": 25
+              },
               {
                 "name": "Rubicon Primaris",
                 "pts_delta": 25
@@ -543,6 +566,51 @@
                 "pts_delta": 17
               }
             ]
+          },
+          {
+            "description": "May take Rubicon Primaris",
+            "choices": [
+              {
+                "name": "Rubicon Primaris",
+                "pts_delta": 16
+              }
+            ]
+          },
+          {
+            "description": "May take Omen of Potency",
+            "choices": [
+              {
+                "name": "Omen of Potency",
+                "pts_delta": 18
+              }
+            ]
+          },
+          {
+            "description": "May take Litany of Faith",
+            "choices": [
+              {
+                "name": "Litany of Faith",
+                "pts_delta": 40
+              }
+            ]
+          },
+          {
+            "description": "May take True Sight",
+            "choices": [
+              {
+                "name": "True Sight",
+                "pts_delta": 50
+              }
+            ]
+          },
+          {
+            "description": "May take Exhortation of Rage",
+            "choices": [
+              {
+                "name": "Exhortation of Rage",
+                "pts_delta": 60
+              }
+            ]
           }
         ],
         "weapons": {
@@ -632,6 +700,15 @@
           {
             "description": "May take up to two H",
             "choices": []
+          },
+          {
+            "description": "May take Rubicon Primaris",
+            "choices": [
+              {
+                "name": "Rubicon Primaris",
+                "pts_delta": 25
+              }
+            ]
           }
         ],
         "weapons": {
@@ -776,7 +853,17 @@
           "Krak Grenades",
           "Iron Halo"
         ],
-        "options": [],
+        "options": [
+          {
+            "description": "May take Master of the Forge",
+            "choices": [
+              {
+                "name": "Master of the Forge",
+                "pts_delta": 34
+              }
+            ]
+          }
+        ],
         "weapons": {
           "Bolt Pistol": {
             "range": "12",
@@ -994,7 +1081,17 @@
           "Heavy Flamer",
           "Extra Armour"
         ],
-        "options": [],
+        "options": [
+          {
+            "description": "May take Storm Shield",
+            "choices": [
+              {
+                "name": "Storm Shield",
+                "pts_delta": 19
+              }
+            ]
+          }
+        ],
         "weapons": {
           "Dual Lightning Claws": {
             "range": "Melee",
@@ -1056,7 +1153,7 @@
         ],
         "options": [
           {
-            "description": "May swap Heavy Bolt Pistol for A or P",
+            "description": "May swap Heavy Bolt Pistol",
             "choices": [
               {
                 "name": "Heavy Bolt Pistol",
@@ -1073,7 +1170,7 @@
             ]
           },
           {
-            "description": "May swap Power Sword for M",
+            "description": "May swap Power Sword",
             "choices": [
               {
                 "name": "Power Sword",
@@ -1082,6 +1179,42 @@
               {
                 "name": "Thunderhammer",
                 "pts_delta": 21
+              }
+            ]
+          },
+          {
+            "description": "May take Omen of Potency",
+            "choices": [
+              {
+                "name": "Omen of Potency",
+                "pts_delta": 18
+              }
+            ]
+          },
+          {
+            "description": "May take Litany of Faith",
+            "choices": [
+              {
+                "name": "Litany of Faith",
+                "pts_delta": 40
+              }
+            ]
+          },
+          {
+            "description": "May take True Sight",
+            "choices": [
+              {
+                "name": "True Sight",
+                "pts_delta": 50
+              }
+            ]
+          },
+          {
+            "description": "May take Exhortation of Rage",
+            "choices": [
+              {
+                "name": "Exhortation of Rage",
+                "pts_delta": 60
               }
             ]
           }
@@ -1255,7 +1388,11 @@
         ],
         "options": [
           {
-            "description": "May take up to 5 more Marines for +37 points each Sergeant may swap Bolt Pistol for P Sergeant may swap Chainsword for M The entire unit may take one B",
+            "description": "May take up to 5 more Marines for +37 points each",
+            "choices": []
+          },
+          {
+            "description": "Sergeant may swap Bolt Pistol",
             "choices": [
               {
                 "name": "Bolt Pistol",
@@ -1264,7 +1401,12 @@
               {
                 "name": "Plasma Pistol",
                 "pts_delta": 5
-              },
+              }
+            ]
+          },
+          {
+            "description": "Sergeant may swap Chainsword",
+            "choices": [
               {
                 "name": "Combat Knife",
                 "pts_delta": 0
@@ -1286,6 +1428,10 @@
                 "pts_delta": 4
               }
             ]
+          },
+          {
+            "description": "The entire unit may take one B",
+            "choices": []
           }
         ],
         "weapons": {
@@ -1404,7 +1550,11 @@
         ],
         "options": [
           {
-            "description": "May take up to 5 more Marines for +44 points each Sergeant may swap Bolt Pistol for P Sergeant may swap Chainsword for M",
+            "description": "May take up to 5 more Marines for +44 points each",
+            "choices": []
+          },
+          {
+            "description": "Sergeant may swap Bolt Pistol",
             "choices": [
               {
                 "name": "Bolt Pistol",
@@ -1413,7 +1563,12 @@
               {
                 "name": "Plasma Pistol",
                 "pts_delta": 7
-              },
+              }
+            ]
+          },
+          {
+            "description": "Sergeant may swap Chainsword",
+            "choices": [
               {
                 "name": "Chainsword",
                 "pts_delta": 0
@@ -1429,6 +1584,15 @@
               {
                 "name": "Power Fist",
                 "pts_delta": 10
+              }
+            ]
+          },
+          {
+            "description": "May take Grapnel Launcher",
+            "choices": [
+              {
+                "name": "Grapnel Launcher",
+                "pts_delta": 1
               }
             ]
           }
@@ -1570,7 +1734,7 @@
         ],
         "options": [
           {
-            "description": "May take up to 5 more Marines for +57 points each The entire Squad can take up to one of each E",
+            "description": "May take up to 5 more Marines for +57 points each The entire Squad can take up to one",
             "choices": [
               {
                 "name": "Grapnel Launcher",
@@ -1683,16 +1847,12 @@
         ],
         "options": [
           {
-            "description": "May take up to 5 more Terminators for +101 points each Sergeant may swap Power Sword for OM or M Up to Two models may swap Stormbolters for S Any Terminator may swap Power Sword for M",
+            "description": "May take up to 5 more Terminators for +101 points each",
+            "choices": []
+          },
+          {
+            "description": "Sergeant may swap Power Sword",
             "choices": [
-              {
-                "name": "Heavy Flamer",
-                "pts_delta": 6
-              },
-              {
-                "name": "Assault Cannon",
-                "pts_delta": 39
-              },
               {
                 "name": "Power Sword",
                 "pts_delta": 0
@@ -1710,6 +1870,23 @@
                 "pts_delta": 12
               }
             ]
+          },
+          {
+            "description": "Up to Two models may swap Stormbolters",
+            "choices": [
+              {
+                "name": "Heavy Flamer",
+                "pts_delta": 6
+              },
+              {
+                "name": "Assault Cannon",
+                "pts_delta": 39
+              }
+            ]
+          },
+          {
+            "description": "Any Terminator may swap Power Sword",
+            "choices": []
           }
         ],
         "weapons": {
@@ -1819,7 +1996,11 @@
         ],
         "options": [
           {
-            "description": "May take up to 5 more Wulfen for +30 points each Any model may take one M or SM Any model may take one A if it did not take SM None None Slow, Monsterbane Extra Attack 1, Slow, Monsterbane",
+            "description": "May take up to 5 more Wulfen for +30 points each",
+            "choices": []
+          },
+          {
+            "description": "Any model may take one M",
             "choices": [
               {
                 "name": "Lightning Claw",
@@ -1836,6 +2017,15 @@
               {
                 "name": "Dual Lightning Claws",
                 "pts_delta": 4
+              }
+            ]
+          },
+          {
+            "description": "Any model may take one A if it did not take SM None None Slow, Monsterbane Extra Attack 1, Slow, Monsterbane",
+            "choices": [
+              {
+                "name": "Stormshield",
+                "pts_delta": 9
               }
             ]
           }
@@ -1979,6 +2169,15 @@
           {
             "description": "May take up to 10 more Fenrisian Wolves for +14 points each",
             "choices": []
+          },
+          {
+            "description": "May take Stormshield",
+            "choices": [
+              {
+                "name": "Stormshield",
+                "pts_delta": 11
+              }
+            ]
           }
         ],
         "weapons": {
@@ -2065,7 +2264,28 @@
         ],
         "options": [
           {
-            "description": "May take up to 3 more Marines for +51 points each Sergeant may swap Krak Grenades for G Any model may swap Bolt Pistol for P or A Any model may swap Combat Knife for M Any model may swap Combat Knife and Bolt Pistol for SM",
+            "description": "May take up to 3 more Marines for +51 points each",
+            "choices": []
+          },
+          {
+            "description": "Sergeant may swap Krak Grenades",
+            "choices": [
+              {
+                "name": "Frag Grenades",
+                "pts_delta": 0
+              },
+              {
+                "name": "Krak Grenades",
+                "pts_delta": 0
+              },
+              {
+                "name": "Meltabombs",
+                "pts_delta": 5
+              }
+            ]
+          },
+          {
+            "description": "Any model may swap Bolt Pistol",
             "choices": [
               {
                 "name": "Bolt Pistol",
@@ -2083,6 +2303,19 @@
                 "name": "Grav Pistol",
                 "pts_delta": 8
               },
+              {
+                "name": "Stormshield",
+                "pts_delta": 11
+              },
+              {
+                "name": "Stormshield",
+                "pts_delta": 19
+              }
+            ]
+          },
+          {
+            "description": "Any model may swap Combat Knife",
+            "choices": [
               {
                 "name": "Combat Knife",
                 "pts_delta": 0
@@ -2118,7 +2351,12 @@
               {
                 "name": "Thunderhammer",
                 "pts_delta": 18
-              },
+              }
+            ]
+          },
+          {
+            "description": "Any model may swap Combat Knife and Bolt Pistol",
+            "choices": [
               {
                 "name": "Dual Lightning Claws",
                 "pts_delta": 1
@@ -2126,22 +2364,6 @@
               {
                 "name": "Thunderwolf Mount",
                 "pts_delta": 0
-              },
-              {
-                "name": "Frag Grenades",
-                "pts_delta": 0
-              },
-              {
-                "name": "Krak Grenades",
-                "pts_delta": 0
-              },
-              {
-                "name": "Meltabombs",
-                "pts_delta": 5
-              },
-              {
-                "name": "Stormshield",
-                "pts_delta": 11
               }
             ]
           }
@@ -2319,8 +2541,17 @@
             "choices": []
           },
           {
-            "description": "May take up to 3 more Fenrisian Wolves for +14 points each Any Marine may swap one Power Axe for A",
+            "description": "May take up to 3 more Fenrisian Wolves for +14 points each",
             "choices": []
+          },
+          {
+            "description": "Any Marine may swap one Power Axe",
+            "choices": [
+              {
+                "name": "Stormshield",
+                "pts_delta": 19
+              }
+            ]
           }
         ],
         "weapons": {
@@ -2383,7 +2614,7 @@
         ],
         "options": [
           {
-            "description": "May swap 2 Linked Stormstrike Missile Launchers for H",
+            "description": "May swap 2 Linked Stormstrike Missile Launchers",
             "choices": [
               {
                 "name": "2 Linked Stormstrike Missile Launchers",
@@ -2396,7 +2627,7 @@
             ]
           },
           {
-            "description": "May take up to one of each E",
+            "description": "May take up to one",
             "choices": [
               {
                 "name": "Flare Launchers",
@@ -2487,7 +2718,7 @@
         ],
         "options": [
           {
-            "description": "May swap 2 Linked Stormstrike Missile Launchers for H",
+            "description": "May swap 2 Linked Stormstrike Missile Launchers",
             "choices": [
               {
                 "name": "2 Linked Lascannons",
@@ -2496,7 +2727,7 @@
             ]
           },
           {
-            "description": "May take up to one of each E",
+            "description": "May take up to one",
             "choices": [
               {
                 "name": "Flare Launchers",

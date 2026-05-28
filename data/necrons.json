@@ -166,7 +166,7 @@
         ],
         "options": [
           {
-            "description": "May swap Staff of Light for M",
+            "description": "May swap Staff of Light",
             "choices": [
               {
                 "name": "Void Blade",
@@ -191,7 +191,7 @@
             ]
           },
           {
-            "description": "May swap Gauss Cannon for H",
+            "description": "May swap Gauss Cannon",
             "choices": [
               {
                 "name": "Tesla Carbine",
@@ -217,7 +217,7 @@
             ]
           },
           {
-            "description": "May take up to one of each E",
+            "description": "May take up to one",
             "choices": [
               {
                 "name": "Phase Shifter",
@@ -327,7 +327,7 @@
         ],
         "options": [
           {
-            "description": "May swap Void Blade for M",
+            "description": "May swap Void Blade",
             "choices": [
               {
                 "name": "Void Blade",
@@ -365,7 +365,7 @@
             ]
           },
           {
-            "description": "May take up to one of each E",
+            "description": "May take up to one",
             "choices": [
               {
                 "name": "Phase Shifter",
@@ -378,6 +378,18 @@
               {
                 "name": "Sempiternal Weave",
                 "pts_delta": 10
+              },
+              {
+                "name": "Phase Shifter",
+                "pts_delta": 24
+              },
+              {
+                "name": "Resurrection Orb",
+                "pts_delta": 30
+              },
+              {
+                "name": "Sempiternal Weave",
+                "pts_delta": 11
               }
             ]
           }
@@ -462,7 +474,7 @@
         ],
         "options": [
           {
-            "description": "May swap Void Blade for M",
+            "description": "May swap Void Blade",
             "choices": [
               {
                 "name": "Void Blade",
@@ -500,7 +512,7 @@
             ]
           },
           {
-            "description": "May take up to one of each E",
+            "description": "May take up to one",
             "choices": [
               {
                 "name": "Phase Shifter",
@@ -513,6 +525,18 @@
               {
                 "name": "Sempiternal Weave",
                 "pts_delta": 11
+              },
+              {
+                "name": "Phase Shifter",
+                "pts_delta": 24
+              },
+              {
+                "name": "Resurrection Orb",
+                "pts_delta": 30
+              },
+              {
+                "name": "Sempiternal Weave",
+                "pts_delta": 10
               }
             ]
           }
@@ -600,26 +624,16 @@
         ],
         "options": [
           {
-            "description": "May take Phase Shifter",
+            "description": "Skorpekh Lord may take up to one",
             "choices": [
               {
                 "name": "Phase Shifter",
                 "pts_delta": 24
-              }
-            ]
-          },
-          {
-            "description": "May take Resurrection Orb",
-            "choices": [
+              },
               {
                 "name": "Resurrection Orb",
                 "pts_delta": 30
-              }
-            ]
-          },
-          {
-            "description": "May take Sempiternal Weave",
-            "choices": [
+              },
               {
                 "name": "Sempiternal Weave",
                 "pts_delta": 10
@@ -903,7 +917,7 @@
         ],
         "options": [
           {
-            "description": "May swap Void Blade for M",
+            "description": "May swap Void Blade",
             "choices": [
               {
                 "name": "Void Blade",
@@ -941,8 +955,21 @@
             ]
           },
           {
-            "description": "May take up to one of each E",
-            "choices": []
+            "description": "May take up to one",
+            "choices": [
+              {
+                "name": "Phase Shifter",
+                "pts_delta": 24
+              },
+              {
+                "name": "Resurrection Orb",
+                "pts_delta": 30
+              },
+              {
+                "name": "Sempiternal Weave",
+                "pts_delta": 11
+              }
+            ]
           }
         ],
         "weapons": {
@@ -1027,7 +1054,7 @@
         ],
         "options": [
           {
-            "description": "May swap Void Blade for M",
+            "description": "May swap Void Blade",
             "choices": [
               {
                 "name": "Void Blade",
@@ -1066,7 +1093,20 @@
           },
           {
             "description": "May take up to one of each E Points: 230 1 Orikan the Diviner",
-            "choices": []
+            "choices": [
+              {
+                "name": "Phase Shifter",
+                "pts_delta": 24
+              },
+              {
+                "name": "Resurrection Orb",
+                "pts_delta": 30
+              },
+              {
+                "name": "Sempiternal Weave",
+                "pts_delta": 11
+              }
+            ]
           }
         ],
         "weapons": {
@@ -1200,7 +1240,7 @@
         ],
         "options": [
           {
-            "description": "May swap Aeon Staff for M",
+            "description": "May swap Aeon Staff",
             "choices": [
               {
                 "name": "Aeon Staff Melee",
@@ -1374,6 +1414,15 @@
           {
             "description": "May take one E",
             "choices": []
+          },
+          {
+            "description": "May take Canoptek Cloak",
+            "choices": [
+              {
+                "name": "Canoptek Cloak",
+                "pts_delta": 18
+              }
+            ]
           }
         ],
         "weapons": {
@@ -1567,7 +1616,11 @@
         ],
         "options": [
           {
-            "description": "May add up to 10 more Warriors for +20 points each The entire unit may swap their Gauss Flayer for R",
+            "description": "May add up to 10 more Warriors for +20 points each",
+            "choices": []
+          },
+          {
+            "description": "The entire unit may swap their Gauss Flayer",
             "choices": [
               {
                 "name": "Gauss Flayer",
@@ -1629,7 +1682,11 @@
         ],
         "options": [
           {
-            "description": "May add up to 10 more Warriors for +20 points each The entire unit may swap their Gauss Flayer for R",
+            "description": "May add up to 10 more Warriors for +20 points each",
+            "choices": []
+          },
+          {
+            "description": "The entire unit may swap their Gauss Flayer",
             "choices": [
               {
                 "name": "Gauss Flayer",
@@ -1883,7 +1940,53 @@
           "2 Linked Atomizer Beams",
           "Reanimator Claws"
         ],
-        "options": [],
+        "options": [
+          {
+            "description": "May take Repair Drones",
+            "choices": [
+              {
+                "name": "Repair Drones",
+                "pts_delta": 6
+              }
+            ]
+          },
+          {
+            "description": "May take Fabricator Array",
+            "choices": [
+              {
+                "name": "Fabricator Array",
+                "pts_delta": 6
+              }
+            ]
+          },
+          {
+            "description": "May take Repair Barge",
+            "choices": [
+              {
+                "name": "Repair Barge",
+                "pts_delta": 30
+              }
+            ]
+          },
+          {
+            "description": "May take Scarab Hive",
+            "choices": [
+              {
+                "name": "Scarab Hive",
+                "pts_delta": 99
+              }
+            ]
+          },
+          {
+            "description": "May take Gloom Prison",
+            "choices": [
+              {
+                "name": "Gloom Prison",
+                "pts_delta": 2
+              }
+            ]
+          }
+        ],
         "weapons": {
           "2 Linked Atomizer Beams": {
             "range": "12",
@@ -1933,15 +2036,42 @@
         ],
         "options": [
           {
-            "description": "May take up to 2 more Canoptek Spyders for +105 points each Any model may take one H Any model may take one E option Any model may take one G option",
+            "description": "May take up to 2 more Canoptek Spyders for +105 points each",
+            "choices": []
+          },
+          {
+            "description": "Any model may take one H",
             "choices": [
               {
                 "name": "2 Linked Particle Beamers",
                 "pts_delta": 20
-              },
+              }
+            ]
+          },
+          {
+            "description": "Any model may take one E option",
+            "choices": [
               {
                 "name": "Repair Drones",
                 "pts_delta": 6
+              }
+            ]
+          },
+          {
+            "description": "Any model may take one G option",
+            "choices": [
+              {
+                "name": "Gloom Prison",
+                "pts_delta": 2
+              }
+            ]
+          },
+          {
+            "description": "May take Sepulchral Scarabs",
+            "choices": [
+              {
+                "name": "Sepulchral Scarabs",
+                "pts_delta": 2
               }
             ]
           }
@@ -2087,7 +2217,11 @@
         ],
         "options": [
           {
-            "description": "May add up to 2 more Hexmark Destroyers for +95 points This unit may take up to one of each P",
+            "description": "May add up to 2 more Hexmark Destroyers for +95 points",
+            "choices": []
+          },
+          {
+            "description": "This unit may take up to one",
             "choices": [
               {
                 "name": "6 Linked Enmitic Disintegrators",
@@ -2145,7 +2279,11 @@
         ],
         "options": [
           {
-            "description": "May add up to 6 more Skorpekh Destroyers for +55 points each Any model may swap Hyperphase Threshers for M The unit may take up to one of each P",
+            "description": "May add up to 6 more Skorpekh Destroyers for +55 points each",
+            "choices": []
+          },
+          {
+            "description": "Any model may swap Hyperphase Threshers",
             "choices": [
               {
                 "name": "Hyperphase Threshers",
@@ -2156,6 +2294,10 @@
                 "pts_delta": 9
               }
             ]
+          },
+          {
+            "description": "The unit may take up to one",
+            "choices": []
           }
         ],
         "weapons": {
@@ -2213,7 +2355,11 @@
         ],
         "options": [
           {
-            "description": "May add up to 2 more Triarch Stalkers for +157 points each Any model may swap Particle Shredder for H",
+            "description": "May add up to 2 more Triarch Stalkers for +157 points each",
+            "choices": []
+          },
+          {
+            "description": "Any model may swap Particle Shredder",
             "choices": [
               {
                 "name": "Particle Shredder",
@@ -2226,6 +2372,33 @@
               {
                 "name": "2 Linked Heavy Gauss Cannons",
                 "pts_delta": 7
+              }
+            ]
+          },
+          {
+            "description": "May take Nebuloscope",
+            "choices": [
+              {
+                "name": "Nebuloscope",
+                "pts_delta": 2
+              }
+            ]
+          },
+          {
+            "description": "May take Shadowloom",
+            "choices": [
+              {
+                "name": "Shadowloom",
+                "pts_delta": 3
+              }
+            ]
+          },
+          {
+            "description": "May take Shield Vanes",
+            "choices": [
+              {
+                "name": "Shield Vanes",
+                "pts_delta": 2
               }
             ]
           }
@@ -2297,7 +2470,11 @@
         ],
         "options": [
           {
-            "description": "May take up to 6 more Tomb Blades for +42 points each The entire unit may swap Particle Beamer for H The entire unit may take one S The entire unit may take one V",
+            "description": "May take up to 6 more Tomb Blades for +42 points each",
+            "choices": []
+          },
+          {
+            "description": "The entire unit may swap Particle Beamer",
             "choices": [
               {
                 "name": "Particle Beamer",
@@ -2310,7 +2487,12 @@
               {
                 "name": "2 Linked Gauss per model",
                 "pts_delta": 8
-              },
+              }
+            ]
+          },
+          {
+            "description": "The entire unit may take one S",
+            "choices": [
               {
                 "name": "Nebuloscope",
                 "pts_delta": 2
@@ -2318,7 +2500,12 @@
               {
                 "name": "Shadowloom",
                 "pts_delta": 3
-              },
+              }
+            ]
+          },
+          {
+            "description": "The entire unit may take one V",
+            "choices": [
               {
                 "name": "Shield Vanes",
                 "pts_delta": 2
@@ -2384,7 +2571,11 @@
         ],
         "options": [
           {
-            "description": "May take up to 5 more Triarch Praetorians for +59 points each The entire unit may swap their Void Blade and Particle Caster for M",
+            "description": "May take up to 5 more Triarch Praetorians for +59 points each",
+            "choices": []
+          },
+          {
+            "description": "The entire unit may swap their Void Blade and Particle Caster",
             "choices": [
               {
                 "name": "Particle Caster and Void Blade Melee",
@@ -2649,7 +2840,11 @@
         ],
         "options": [
           {
-            "description": "May add up to 6 more Canoptek Wraiths for +100 points each Any Wraith may take one S",
+            "description": "May add up to 6 more Canoptek Wraiths for +100 points each",
+            "choices": []
+          },
+          {
+            "description": "Any Wraith may take one S",
             "choices": [
               {
                 "name": "Whip Coils",
@@ -2721,7 +2916,11 @@
         ],
         "options": [
           {
-            "description": "May add up to 6 more Ophydian Destroyers for +56 points each Any Ophydian may swap Hyperphase Threshers for M The unit may take one of each P",
+            "description": "May add up to 6 more Ophydian Destroyers for +56 points each",
+            "choices": []
+          },
+          {
+            "description": "Any Ophydian may swap Hyperphase Threshers",
             "choices": [
               {
                 "name": "Hyperphase Threshers",
@@ -2732,6 +2931,10 @@
                 "pts_delta": 9
               }
             ]
+          },
+          {
+            "description": "The unit may take one",
+            "choices": []
           }
         ],
         "weapons": {
@@ -2841,11 +3044,11 @@
         ],
         "options": [
           {
-            "description": "May add up to 2 more Heavy Lokhust Destroyers for +98 points each Any Heavy Lokhust Destroyer",
+            "description": "May add up to 2 more Heavy Lokhust Destroyers for +98 points each",
             "choices": []
           },
           {
-            "description": "may swap Gauss Destructor for H The Unit may take one P",
+            "description": "Any Heavy Lokhust Destroyer may swap Gauss Destructor",
             "choices": [
               {
                 "name": "Gauss Destructor",
@@ -2856,6 +3059,10 @@
                 "pts_delta": 9
               }
             ]
+          },
+          {
+            "description": "The Unit may take one P",
+            "choices": []
           }
         ],
         "weapons": {
@@ -2909,11 +3116,11 @@
         ],
         "options": [
           {
-            "description": "May add up to 2 more Heavy Lokhust Destroyers for +98 points each Any Heavy Lokhust Destroyer",
+            "description": "May add up to 2 more Heavy Lokhust Destroyers for +98 points each",
             "choices": []
           },
           {
-            "description": "may swap Gauss Destructor for H The Unit may take one P",
+            "description": "Any Heavy Lokhust Destroyer may swap Gauss Destructor",
             "choices": [
               {
                 "name": "Gauss Destructor",
@@ -2924,6 +3131,10 @@
                 "pts_delta": 9
               }
             ]
+          },
+          {
+            "description": "The Unit may take one P",
+            "choices": []
           }
         ],
         "weapons": {
@@ -2980,7 +3191,11 @@
         ],
         "options": [
           {
-            "description": "May add up to 2 more Annihilation Barges for +113 points each Any Annihilation Barge may swap Tesla Cannon for Gauss Cannon",
+            "description": "May add up to 2 more Annihilation Barges for +113 points each",
+            "choices": []
+          },
+          {
+            "description": "Any Annihilation Barge may swap Tesla Cannon for Gauss Cannon",
             "choices": []
           }
         ],
@@ -3098,7 +3313,7 @@
         ],
         "options": [
           {
-            "description": "May swap 2 Linked Tesla Carbines for S",
+            "description": "May swap 2 Linked Tesla Carbines",
             "choices": [
               {
                 "name": "2 Linked Tesla Carbines",
@@ -3166,7 +3381,11 @@
         ],
         "options": [
           {
-            "description": "May add up to 2 more Sentry Pylons for +81 points each Any model may swap Focused Death Ray for T",
+            "description": "May add up to 2 more Sentry Pylons for +81 points each",
+            "choices": []
+          },
+          {
+            "description": "Any model may swap Focused Death Ray",
             "choices": [
               {
                 "name": "Focused Death Ray",
@@ -3684,7 +3903,7 @@
         ],
         "options": [
           {
-            "description": "May swap 2 Linked Singularity Generators for H",
+            "description": "May swap 2 Linked Singularity Generators",
             "choices": [
               {
                 "name": "2 Linked Singularity Generators",
@@ -3803,7 +4022,16 @@
           "4 Tesla Spheres",
           "Star God Forcefield"
         ],
-        "options": [],
+        "options": [
+          {
+            "description": "Tesseract Vault may purchase two C'Tan Powers, either of",
+            "choices": []
+          },
+          {
+            "description": "which may be randomized each turn for +93 points each instead.",
+            "choices": []
+          }
+        ],
         "weapons": {
           "4 Tesla Spheres l Thunderbolt Meteor": {
             "range": "24",
@@ -3849,7 +4077,21 @@
           "Particle Whip",
           "4 Gauss Arc Fluxes"
         ],
-        "options": [],
+        "options": [
+          {
+            "description": "Monolith may swap 4 Gauss Arc Fluxes",
+            "choices": [
+              {
+                "name": "4 Gauss Arc Fluxes",
+                "pts_delta": 0
+              },
+              {
+                "name": "4 Death Rays",
+                "pts_delta": 88
+              }
+            ]
+          }
+        ],
         "weapons": {
           "Particle Whip": {
             "range": "24",
@@ -3908,7 +4150,21 @@
           "Gauss Obliterator",
           "4 Gauss Arc Fluxes"
         ],
-        "options": [],
+        "options": [
+          {
+            "description": "Doomsday Monolith may swap 4 Gauss Arc Fluxes",
+            "choices": [
+              {
+                "name": "4 Gauss Arc Fluxes",
+                "pts_delta": 0
+              },
+              {
+                "name": "4 Death Rays",
+                "pts_delta": 88
+              }
+            ]
+          }
+        ],
         "weapons": {
           "Gauss Obliterator": {
             "range": "24",
@@ -3970,7 +4226,21 @@
           "4 Gauss Arc Fluxes",
           "4 Gauss Arc Fluxes"
         ],
-        "options": [],
+        "options": [
+          {
+            "description": "Megalith may swap any 4 Gauss Arc Fluxes",
+            "choices": [
+              {
+                "name": "4 Gauss Arc Fluxes",
+                "pts_delta": 0
+              },
+              {
+                "name": "4 Death Rays",
+                "pts_delta": 88
+              }
+            ]
+          }
+        ],
         "weapons": {
           "Gauss Eradicator": {
             "range": "72",

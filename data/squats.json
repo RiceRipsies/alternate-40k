@@ -53,7 +53,7 @@
         ],
         "options": [
           {
-            "description": "May swap Volkite Disintegrator for R",
+            "description": "May swap Volkite Disintegrator",
             "choices": [
               {
                 "name": "Volkite Disintegrator",
@@ -66,7 +66,7 @@
             ]
           },
           {
-            "description": "May swap Forgewrought Plasma Axe for M",
+            "description": "May swap Forgewrought Plasma Axe",
             "choices": [
               {
                 "name": "Forgewrought Plasma Axe",
@@ -235,16 +235,12 @@
         ],
         "options": [
           {
-            "description": "May take up to five more Hearthguard for +37 points each Theyn may swap Plasma Blade Gauntlet for M or OM Any model may swap Volkanite Disintegrator for R Any model may swap Plasma Blade Gauntlet for M",
+            "description": "May take up to five more Hearthguard for +37 points each",
+            "choices": []
+          },
+          {
+            "description": "Theyn may swap Plasma Blade Gauntlet",
             "choices": [
-              {
-                "name": "Volkanite Disintegrator",
-                "pts_delta": 0
-              },
-              {
-                "name": "EtaCarn Plasma Gun",
-                "pts_delta": 8
-              },
               {
                 "name": "Plasma Blade Gauntlet",
                 "pts_delta": 0
@@ -258,6 +254,23 @@
                 "pts_delta": 18
               }
             ]
+          },
+          {
+            "description": "Any model may swap Volkanite Disintegrator",
+            "choices": [
+              {
+                "name": "Volkanite Disintegrator",
+                "pts_delta": 0
+              },
+              {
+                "name": "EtaCarn Plasma Gun",
+                "pts_delta": 8
+              }
+            ]
+          },
+          {
+            "description": "Any model may swap Plasma Blade Gauntlet",
+            "choices": []
           }
         ],
         "weapons": {
@@ -328,7 +341,11 @@
         ],
         "options": [
           {
-            "description": "May take up to three more Steeljacks for +51 points each Any model may swap Plasma Sword for M Any model may swap both Boltgun and Plasma Sword for S",
+            "description": "May take up to three more Steeljacks for +51 points each",
+            "choices": []
+          },
+          {
+            "description": "Any model may swap Plasma Sword",
             "choices": [
               {
                 "name": "Plasma Sword",
@@ -337,7 +354,12 @@
               {
                 "name": "Concussion Gauntlet",
                 "pts_delta": 9
-              },
+              }
+            ]
+          },
+          {
+            "description": "Any model may swap both Boltgun and Plasma Sword",
+            "choices": [
               {
                 "name": "Heavy Volkanite Disintegrator",
                 "pts_delta": 18
@@ -408,7 +430,11 @@
         ],
         "options": [
           {
-            "description": "May add up to two more Exo Drillers for +131 points each Any model may swap L7 Missile Launcher for T",
+            "description": "May add up to two more Exo Drillers for +131 points each",
+            "choices": []
+          },
+          {
+            "description": "Any model may swap L7 Missile Launcher",
             "choices": []
           }
         ],
@@ -468,7 +494,11 @@
         ],
         "options": [
           {
-            "description": "May add up to two more Sagitaurs for +130 points each Any model may swap L7 Missile Launcher for T",
+            "description": "May add up to two more Sagitaurs for +130 points each",
+            "choices": []
+          },
+          {
+            "description": "Any model may swap L7 Missile Launcher",
             "choices": [
               {
                 "name": "L7 Missile Launcher",
@@ -558,7 +588,11 @@
         ],
         "options": [
           {
-            "description": "May add up to two more Sagitaurs for +130 points each Any model may swap L7 Missile Launcher for T",
+            "description": "May add up to two more Sagitaurs for +130 points each",
+            "choices": []
+          },
+          {
+            "description": "Any model may swap L7 Missile Launcher",
             "choices": [
               {
                 "name": "L7 Missile Launcher",
@@ -740,7 +774,11 @@
         ],
         "options": [
           {
-            "description": "May take up to three E-COGs for +18 points each Any E-COG may swap Manipulator Arms for M or P",
+            "description": "May take up to three E-COGs for +18 points each",
+            "choices": []
+          },
+          {
+            "description": "Any E-COG may swap Manipulator Arms",
             "choices": []
           }
         ],
@@ -841,7 +879,7 @@
         ],
         "options": [
           {
-            "description": "May swap Darkstar Axe for M",
+            "description": "May swap Darkstar Axe",
             "choices": [
               {
                 "name": "Darkstar Axe",
@@ -917,7 +955,7 @@
         ],
         "options": [
           {
-            "description": "May swap Darkstar Axe for M",
+            "description": "May swap Darkstar Axe",
             "choices": [
               {
                 "name": "Darkstar Axe",
@@ -1134,7 +1172,17 @@
           "Bolt Pistol",
           "Combat Knife"
         ],
-        "options": [],
+        "options": [
+          {
+            "description": "May take Medipack",
+            "choices": [
+              {
+                "name": "Medipack",
+                "pts_delta": 50
+              }
+            ]
+          }
+        ],
         "weapons": {
           "Stormbolter": {
             "range": "24",
@@ -1209,7 +1257,15 @@
         ],
         "options": [
           {
-            "description": "May take up to five more Hearthkyn for +16 points each Theyn may swap Boltgun for Or Theyn may swap Bolt Pistol for OP Theyn may swap Combat Knife for M or OM Any Hearthkyn may swap Boltgun for R Up to two Hearthkyn may swap Boltgun for S or take one SD Up to two Hearthkyn may swap Boltgun for H Any Hearthkyn may swap Combat Knife for M Up to three Hearthkyn that have a R choice may take one A",
+            "description": "May take up to five more Hearthkyn for +16 points each",
+            "choices": []
+          },
+          {
+            "description": "Theyn may swap Boltgun for Or",
+            "choices": []
+          },
+          {
+            "description": "Theyn may swap Bolt Pistol",
             "choices": [
               {
                 "name": "Bolt Pistol",
@@ -1222,7 +1278,12 @@
               {
                 "name": "EtaCarn Plasma Pistol",
                 "pts_delta": 9
-              },
+              }
+            ]
+          },
+          {
+            "description": "Theyn may swap Combat Knife",
+            "choices": [
               {
                 "name": "Combat Knife",
                 "pts_delta": 0
@@ -1242,7 +1303,12 @@
               {
                 "name": "Concussion Gauntlet",
                 "pts_delta": 8
-              },
+              }
+            ]
+          },
+          {
+            "description": "Any Hearthkyn may swap Boltgun",
+            "choices": [
               {
                 "name": "Boltgun",
                 "pts_delta": 0
@@ -1258,7 +1324,12 @@
               {
                 "name": "Ion Blaster",
                 "pts_delta": 1
-              },
+              }
+            ]
+          },
+          {
+            "description": "Up to two Hearthkyn may swap Boltgun for S or take one SD",
+            "choices": [
               {
                 "name": "Sniper Rifle",
                 "pts_delta": 4
@@ -1274,7 +1345,12 @@
               {
                 "name": "Demolition Charge",
                 "pts_delta": 7
-              },
+              }
+            ]
+          },
+          {
+            "description": "Up to two Hearthkyn may swap Boltgun",
+            "choices": [
               {
                 "name": "EtaCarn Plasma Beamer",
                 "pts_delta": 15
@@ -1292,6 +1368,14 @@
                 "pts_delta": 23
               }
             ]
+          },
+          {
+            "description": "Any Hearthkyn may swap Combat Knife for M Up to three Hearthkyn that have",
+            "choices": []
+          },
+          {
+            "description": "a R choice may take one A",
+            "choices": []
           }
         ],
         "weapons": {
@@ -1478,7 +1562,11 @@
         ],
         "options": [
           {
-            "description": "May take up to four more Berserks for +33 points each Any model may swap Heavy Plasma Axe for M",
+            "description": "May take up to four more Berserks for +33 points each",
+            "choices": []
+          },
+          {
+            "description": "Any model may swap Heavy Plasma Axe",
             "choices": [
               {
                 "name": "Heavy Plasma Axe",
@@ -1497,6 +1585,15 @@
           {
             "description": "May take up to two Mole Units for +60 points each",
             "choices": []
+          },
+          {
+            "description": "May take Medipack",
+            "choices": [
+              {
+                "name": "Medipack",
+                "pts_delta": 50
+              }
+            ]
           },
           {
             "description": "May take Medipack",
@@ -1590,7 +1687,11 @@
         ],
         "options": [
           {
-            "description": "May take up to five more Hearthkyn for +27 points each Theyn may swap Bolt Pistol for P Theyn may swap Combat Knife for M or OM Up to two Hearthkyn may swap Bolt Pistol for P",
+            "description": "May take up to five more Hearthkyn for +27 points each",
+            "choices": []
+          },
+          {
+            "description": "Theyn may swap Bolt Pistol",
             "choices": [
               {
                 "name": "Bolt Pistol",
@@ -1603,7 +1704,12 @@
               {
                 "name": "EtaCarn Plasma Pistol",
                 "pts_delta": 9
-              },
+              }
+            ]
+          },
+          {
+            "description": "Theyn may swap Combat Knife",
+            "choices": [
               {
                 "name": "Plasma Axe",
                 "pts_delta": 0
@@ -1615,6 +1721,19 @@
               {
                 "name": "Concussion Gauntlet",
                 "pts_delta": 6
+              }
+            ]
+          },
+          {
+            "description": "Up to two Hearthkyn may swap Bolt Pistol",
+            "choices": []
+          },
+          {
+            "description": "May take Search Light",
+            "choices": [
+              {
+                "name": "Search Light",
+                "pts_delta": 1
               }
             ]
           }
@@ -1734,7 +1853,11 @@
         ],
         "options": [
           {
-            "description": "May add up to two more Pioneers for +51 points each Any Pioneer may take one A",
+            "description": "May add up to two more Pioneers for +51 points each",
+            "choices": []
+          },
+          {
+            "description": "Any Pioneer may take one A",
             "choices": [
               {
                 "name": "Search Light",
@@ -1743,7 +1866,11 @@
             ]
           },
           {
-            "description": "May add up to two Attack Bikes for +71 points each Any Attack Bike may swap Ion Beamer for T",
+            "description": "May add up to two Attack Bikes for +71 points each",
+            "choices": []
+          },
+          {
+            "description": "Any Attack Bike may swap Ion Beamer",
             "choices": [
               {
                 "name": "Ion Beamer",
@@ -1752,6 +1879,15 @@
               {
                 "name": "HYLas Rotary Cannon",
                 "pts_delta": 11
+              }
+            ]
+          },
+          {
+            "description": "May take Smoke Launchers",
+            "choices": [
+              {
+                "name": "Smoke Launchers",
+                "pts_delta": 10
               }
             ]
           }
@@ -1863,7 +1999,11 @@
         ],
         "options": [
           {
-            "description": "May add up to three more Thunderkyn for +41 points each Any model may swap Bolt Cannon for H",
+            "description": "May add up to three more Thunderkyn for +41 points each",
+            "choices": []
+          },
+          {
+            "description": "Any model may swap Bolt Cannon",
             "choices": [
               {
                 "name": "Bolt Cannon",
@@ -1939,7 +2079,7 @@
         ],
         "options": [
           {
-            "description": "May swap Heavy Beam Matter Converter for T",
+            "description": "May swap Heavy Beam Matter Converter",
             "choices": [
               {
                 "name": "Heavy Beam Matter Convertor",
@@ -1956,7 +2096,7 @@
             ]
           },
           {
-            "description": "May swap 2 Bolt Cannons for S",
+            "description": "May swap 2 Bolt Cannons",
             "choices": [
               {
                 "name": "2 Bolt Cannons",
@@ -1969,7 +2109,7 @@
             ]
           },
           {
-            "description": "May swap 2 Linked Bolt Cannons for H",
+            "description": "May swap 2 Linked Bolt Cannons",
             "choices": [
               {
                 "name": "2 Linked Bolt Cannons",
@@ -1982,7 +2122,7 @@
             ]
           },
           {
-            "description": "May swap Pan Spectral Scanner for M",
+            "description": "May swap Pan Spectral Scanner",
             "choices": [
               {
                 "name": "Ancestor's Vengeance",
@@ -2107,7 +2247,7 @@
         ],
         "options": [
           {
-            "description": "May swap Heavy Beam Matter Converter for T",
+            "description": "May swap Heavy Beam Matter Converter",
             "choices": [
               {
                 "name": "Heavy Beam Matter Convertor",
@@ -2124,7 +2264,7 @@
             ]
           },
           {
-            "description": "May swap 2 Bolt Cannons for S",
+            "description": "May swap 2 Bolt Cannons",
             "choices": [
               {
                 "name": "2 Bolt Cannons",
@@ -2137,7 +2277,7 @@
             ]
           },
           {
-            "description": "May swap 2 Linked Bolt Cannons for H",
+            "description": "May swap 2 Linked Bolt Cannons",
             "choices": [
               {
                 "name": "2 Linked Bolt Cannons",
@@ -2150,7 +2290,7 @@
             ]
           },
           {
-            "description": "May swap Pan Spectral Scanner for M",
+            "description": "May swap Pan Spectral Scanner",
             "choices": [
               {
                 "name": "Ancestor's Vengeance",
@@ -2280,6 +2420,14 @@
               {
                 "name": "Smoke Launchers",
                 "pts_delta": 10
+              },
+              {
+                "name": "Chaff Launcher",
+                "pts_delta": 9
+              },
+              {
+                "name": "Data Link",
+                "pts_delta": 10
               }
             ]
           }
@@ -2335,7 +2483,7 @@
         ],
         "options": [
           {
-            "description": "May swap Multimelta and 2 Linked Battlehammer Rocket Pods for H",
+            "description": "May swap Multimelta and 2 Linked Battlehammer Rocket Pods",
             "choices": [
               {
                 "name": "Multimelta And Battlehammer Rocket Pods",
@@ -2352,7 +2500,7 @@
             ]
           },
           {
-            "description": "May take up to one of each E",
+            "description": "May take up to one",
             "choices": [
               {
                 "name": "Chaff Launcher",
@@ -2608,7 +2756,11 @@
         ],
         "options": [
           {
-            "description": "May take 0+ Cars for +241 points each Each Car may take one C",
+            "description": "May take 0+ Cars for +241 points each",
+            "choices": []
+          },
+          {
+            "description": "Each Car may take one C",
             "choices": [
               {
                 "name": "Bomb Battlecar",
@@ -2787,7 +2939,7 @@
         ],
         "options": [
           {
-            "description": "May swap Long Lascannon for H",
+            "description": "May swap Long Lascannon",
             "choices": [
               {
                 "name": "Long Lascannon",
@@ -2943,7 +3095,7 @@
         ],
         "options": [
           {
-            "description": "May swap Avenger Gatling Cannon for H",
+            "description": "May swap Avenger Gatling Cannon",
             "choices": [
               {
                 "name": "Avenger Gatling Cannon",
@@ -2989,7 +3141,7 @@
         ],
         "options": [
           {
-            "description": "May swap Avenger Gatling Cannon for H",
+            "description": "May swap Avenger Gatling Cannon",
             "choices": [
               {
                 "name": "Avenger Gatling Cannon",

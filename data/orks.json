@@ -176,7 +176,7 @@
         ],
         "options": [
           {
-            "description": "May swap Choppa for M",
+            "description": "May swap Choppa",
             "choices": [
               {
                 "name": "Choppa",
@@ -205,6 +205,37 @@
             "choices": [
               {
                 "name": "Da Big Boss",
+                "pts_delta": 29
+              },
+              {
+                "name": "Da Big Boss",
+                "pts_delta": 30
+              }
+            ]
+          },
+          {
+            "description": "May take Mega Armour",
+            "choices": [
+              {
+                "name": "Mega Armour",
+                "pts_delta": 18
+              }
+            ]
+          },
+          {
+            "description": "May take Drill Boss",
+            "choices": [
+              {
+                "name": "Drill Boss",
+                "pts_delta": 20
+              }
+            ]
+          },
+          {
+            "description": "May take Warbike",
+            "choices": [
+              {
+                "name": "Warbike",
                 "pts_delta": 29
               }
             ]
@@ -299,7 +330,7 @@
         ],
         "options": [
           {
-            "description": "May swap Slugga for R",
+            "description": "May swap Slugga",
             "choices": [
               {
                 "name": "Shoota",
@@ -324,7 +355,7 @@
             ]
           },
           {
-            "description": "May swap Choppa for M",
+            "description": "May swap Choppa",
             "choices": [
               {
                 "name": "Choppa",
@@ -502,7 +533,7 @@
             ]
           },
           {
-            "description": "May swap Choppa for M",
+            "description": "May swap Choppa",
             "choices": [
               {
                 "name": "Choppa",
@@ -634,11 +665,73 @@
         ],
         "options": [
           {
-            "description": "May take one W",
-            "choices": []
+            "description": "Mek Boy may swap Slugga",
+            "choices": [
+              {
+                "name": "Slugga",
+                "pts_delta": 0
+              },
+              {
+                "name": "Kustom Mega Slugga",
+                "pts_delta": 11
+              },
+              {
+                "name": "Kombi Burna",
+                "pts_delta": 8
+              },
+              {
+                "name": "Kustom Mega Blasta",
+                "pts_delta": 11
+              },
+              {
+                "name": "Rokkit Launcha",
+                "pts_delta": 13
+              },
+              {
+                "name": "Kombi Rokkit",
+                "pts_delta": 15
+              },
+              {
+                "name": "Big Zzappa",
+                "pts_delta": 18
+              },
+              {
+                "name": "Meltagun",
+                "pts_delta": 24
+              },
+              {
+                "name": "Shokk Attack Gun",
+                "pts_delta": 24
+              }
+            ]
           },
           {
-            "description": "May take Grot Oiler",
+            "description": "Mek Boy may swap Choppa",
+            "choices": [
+              {
+                "name": "Choppa",
+                "pts_delta": 0
+              },
+              {
+                "name": "Power Stabba",
+                "pts_delta": 3
+              },
+              {
+                "name": "Big Choppa",
+                "pts_delta": 5
+              },
+              {
+                "name": "Killsaw",
+                "pts_delta": 11
+              },
+              {
+                "name": "Power Klaw",
+                "pts_delta": 16
+              }
+            ]
+          },
+          {
+            "description": "Mek Boy may take one A",
             "choices": [
               {
                 "name": "Grot Oiler",
@@ -647,7 +740,7 @@
             ]
           },
           {
-            "description": "May take Nob",
+            "description": "Mek Boy may take one B",
             "choices": [
               {
                 "name": "Nob",
@@ -656,13 +749,17 @@
             ]
           },
           {
-            "description": "May take Kustom Forcefield",
+            "description": "Mek Boy may take one F",
             "choices": [
               {
                 "name": "Kustom Forcefield",
                 "pts_delta": 120
               }
             ]
+          },
+          {
+            "description": "May take one W",
+            "choices": []
           }
         ],
         "weapons": {
@@ -794,11 +891,73 @@
         ],
         "options": [
           {
-            "description": "May take one W",
-            "choices": []
+            "description": "Mek Boy may swap Slugga",
+            "choices": [
+              {
+                "name": "Slugga",
+                "pts_delta": 0
+              },
+              {
+                "name": "Kustom Mega Slugga",
+                "pts_delta": 11
+              },
+              {
+                "name": "Kombi Burna",
+                "pts_delta": 8
+              },
+              {
+                "name": "Kustom Mega Blasta",
+                "pts_delta": 11
+              },
+              {
+                "name": "Rokkit Launcha",
+                "pts_delta": 13
+              },
+              {
+                "name": "Kombi Rokkit",
+                "pts_delta": 15
+              },
+              {
+                "name": "Big Zzappa",
+                "pts_delta": 18
+              },
+              {
+                "name": "Meltagun",
+                "pts_delta": 24
+              },
+              {
+                "name": "Shokk Attack Gun",
+                "pts_delta": 24
+              }
+            ]
           },
           {
-            "description": "May take Grot Oiler",
+            "description": "Mek Boy may swap Choppa",
+            "choices": [
+              {
+                "name": "Choppa",
+                "pts_delta": 0
+              },
+              {
+                "name": "Power Stabba",
+                "pts_delta": 3
+              },
+              {
+                "name": "Big Choppa",
+                "pts_delta": 5
+              },
+              {
+                "name": "Killsaw",
+                "pts_delta": 11
+              },
+              {
+                "name": "Power Klaw",
+                "pts_delta": 16
+              }
+            ]
+          },
+          {
+            "description": "Mek Boy may take one A",
             "choices": [
               {
                 "name": "Grot Oiler",
@@ -807,7 +966,7 @@
             ]
           },
           {
-            "description": "May take Nob",
+            "description": "Mek Boy may take one B",
             "choices": [
               {
                 "name": "Nob",
@@ -816,13 +975,17 @@
             ]
           },
           {
-            "description": "May take Kustom Forcefield",
+            "description": "Mek Boy may take one F",
             "choices": [
               {
                 "name": "Kustom Forcefield",
                 "pts_delta": 120
               }
             ]
+          },
+          {
+            "description": "May take one W",
+            "choices": []
           }
         ],
         "weapons": {
@@ -953,11 +1116,21 @@
         "options": [
           {
             "description": "May take one A",
-            "choices": []
+            "choices": [
+              {
+                "name": "Grot Orderly",
+                "pts_delta": 5
+              }
+            ]
           },
           {
             "description": "May take one B",
-            "choices": []
+            "choices": [
+              {
+                "name": "Nob",
+                "pts_delta": 14
+              }
+            ]
           }
         ],
         "weapons": {
@@ -1045,6 +1218,19 @@
               {
                 "name": "Nob",
                 "pts_delta": 14
+              },
+              {
+                "name": "Nob",
+                "pts_delta": 14
+              }
+            ]
+          },
+          {
+            "description": "May take Boom Box",
+            "choices": [
+              {
+                "name": "Boom Box",
+                "pts_delta": 30
               }
             ]
           }
@@ -1129,7 +1315,7 @@
         ],
         "options": [
           {
-            "description": "May swap Slugga for R or P",
+            "description": "May swap Slugga",
             "choices": [
               {
                 "name": "Slugga",
@@ -1166,7 +1352,7 @@
             ]
           },
           {
-            "description": "May swap Choppa for M",
+            "description": "May swap Choppa",
             "choices": [
               {
                 "name": "Choppa",
@@ -1191,7 +1377,7 @@
             ]
           },
           {
-            "description": "May swap Waaagh! Banner for A",
+            "description": "May swap Waaagh! Banner",
             "choices": [
               {
                 "name": "Boom Box",
@@ -1572,7 +1758,26 @@
           "Da Grabzzappa",
           "Forcefield"
         ],
-        "options": [],
+        "options": [
+          {
+            "description": "May take Boss Nob",
+            "choices": [
+              {
+                "name": "Boss Nob",
+                "pts_delta": 8
+              }
+            ]
+          },
+          {
+            "description": "May take 'Ard Boyz",
+            "choices": [
+              {
+                "name": "'Ard Boyz",
+                "pts_delta": 2
+              }
+            ]
+          }
+        ],
         "weapons": {
           "Slugga": {
             "range": "12",
@@ -1648,7 +1853,11 @@
         ],
         "options": [
           {
-            "description": "May add a Boss Boy for +14 points Boss Boy may swap Slugga for OR Boss Boy may swap Choppa for M Boss Boy may take one B",
+            "description": "May add a Boss Boy for +14 points",
+            "choices": []
+          },
+          {
+            "description": "Boss Boy may swap Slugga",
             "choices": [
               {
                 "name": "Shoota",
@@ -1665,7 +1874,12 @@
               {
                 "name": "Meltagun",
                 "pts_delta": 24
-              },
+              }
+            ]
+          },
+          {
+            "description": "Boss Boy may swap Choppa",
+            "choices": [
               {
                 "name": "Choppa",
                 "pts_delta": 0
@@ -1689,7 +1903,20 @@
             ]
           },
           {
-            "description": "May take up to 20 more Boyz for +10 points each Up to 3 Boyz may swap Slugga and Choppa for S or take SG Any Boy may swap Slugga and Choppa for R The entire unit may take one E",
+            "description": "Boss Boy may take one B",
+            "choices": [
+              {
+                "name": "Boss Nob",
+                "pts_delta": 8
+              }
+            ]
+          },
+          {
+            "description": "May take up to 20 more Boyz for +10 points each",
+            "choices": []
+          },
+          {
+            "description": "Up to 3 Boyz may swap Slugga and Choppa for S or take SG",
             "choices": [
               {
                 "name": "Burna",
@@ -1706,10 +1933,24 @@
               {
                 "name": "Tankbusta Bombz",
                 "pts_delta": 7
-              },
+              }
+            ]
+          },
+          {
+            "description": "Any Boy may swap Slugga and Choppa",
+            "choices": [
               {
                 "name": "Shoota",
                 "pts_delta": 1
+              }
+            ]
+          },
+          {
+            "description": "The entire unit may take one E",
+            "choices": [
+              {
+                "name": "'Ard Boyz",
+                "pts_delta": 2
               }
             ]
           }
@@ -1848,6 +2089,33 @@
           {
             "description": "May add up to 20 more Grots for +2 points each",
             "choices": []
+          },
+          {
+            "description": "May take Boss Nob",
+            "choices": [
+              {
+                "name": "Boss Nob",
+                "pts_delta": 8
+              }
+            ]
+          },
+          {
+            "description": "May take Grot Oiler",
+            "choices": [
+              {
+                "name": "Grot Oiler",
+                "pts_delta": 2
+              }
+            ]
+          },
+          {
+            "description": "May take 'Ard Boyz",
+            "choices": [
+              {
+                "name": "'Ard Boyz",
+                "pts_delta": 2
+              }
+            ]
           }
         ],
         "weapons": {
@@ -1921,7 +2189,11 @@
         ],
         "options": [
           {
-            "description": "May add a Spanner for +20 points Spanner may swap Slugga for OR Spanner may swap Choppa for M Spanner may take one B Spanner may take up to one of each A",
+            "description": "May add a Spanner for +20 points",
+            "choices": []
+          },
+          {
+            "description": "Spanner may swap Slugga",
             "choices": [
               {
                 "name": "Shoota",
@@ -1938,7 +2210,12 @@
               {
                 "name": "Meltagun",
                 "pts_delta": 24
-              },
+              }
+            ]
+          },
+          {
+            "description": "Spanner may swap Choppa",
+            "choices": [
               {
                 "name": "Choppa",
                 "pts_delta": 0
@@ -1962,8 +2239,35 @@
             ]
           },
           {
-            "description": "May take up to 10 more Boyz for +15 points each The entire unit may take one E",
+            "description": "Spanner may take one B",
+            "choices": [
+              {
+                "name": "Boss Nob",
+                "pts_delta": 8
+              }
+            ]
+          },
+          {
+            "description": "Spanner may take up to one",
+            "choices": [
+              {
+                "name": "Grot Oiler",
+                "pts_delta": 2
+              }
+            ]
+          },
+          {
+            "description": "May take up to 10 more Boyz for +15 points each",
             "choices": []
+          },
+          {
+            "description": "The entire unit may take one E",
+            "choices": [
+              {
+                "name": "'Ard Boyz",
+                "pts_delta": 2
+              }
+            ]
           }
         ],
         "weapons": {
@@ -2103,7 +2407,11 @@
         ],
         "options": [
           {
-            "description": "May add a Boss Boy for +18 points Boss Boy may swap Slugga for OR Boss Boy may swap Choppa for M Boss Boy may take one B",
+            "description": "May add a Boss Boy for +18 points",
+            "choices": []
+          },
+          {
+            "description": "Boss Boy may swap Slugga",
             "choices": [
               {
                 "name": "Shoota",
@@ -2120,7 +2428,12 @@
               {
                 "name": "Meltagun",
                 "pts_delta": 24
-              },
+              }
+            ]
+          },
+          {
+            "description": "Boss Boy may swap Choppa",
+            "choices": [
               {
                 "name": "Choppa",
                 "pts_delta": 0
@@ -2144,7 +2457,15 @@
             ]
           },
           {
-            "description": "May take up to 10 more Boyz for +14 points each Up to 3 Boyz may swap Slugga and Choppa for S or take SG The entire unit may take one E",
+            "description": "Boss Boy may take one B",
+            "choices": []
+          },
+          {
+            "description": "May take up to 10 more Boyz for +14 points each",
+            "choices": []
+          },
+          {
+            "description": "Up to 3 Boyz may swap Slugga and Choppa for S or take SG",
             "choices": [
               {
                 "name": "Burna",
@@ -2163,6 +2484,10 @@
                 "pts_delta": 7
               }
             ]
+          },
+          {
+            "description": "The entire unit may take one E",
+            "choices": []
           }
         ],
         "weapons": {
@@ -2329,7 +2654,11 @@
             "choices": []
           },
           {
-            "description": "May add up to 5 more Nobz for +17 points each Any model may swap Slugga for R Any model may swap Choppa for M The entire unit may take one E",
+            "description": "May add up to 5 more Nobz for +17 points each",
+            "choices": []
+          },
+          {
+            "description": "Any model may swap Slugga",
             "choices": [
               {
                 "name": "Shoota",
@@ -2350,7 +2679,12 @@
               {
                 "name": "Meltagun",
                 "pts_delta": 24
-              },
+              }
+            ]
+          },
+          {
+            "description": "Any model may swap Choppa",
+            "choices": [
               {
                 "name": "Choppa",
                 "pts_delta": 0
@@ -2370,7 +2704,12 @@
               {
                 "name": "Power Klaw",
                 "pts_delta": 10
-              },
+              }
+            ]
+          },
+          {
+            "description": "The entire unit may take one E",
+            "choices": [
               {
                 "name": "'Ard Boyz",
                 "pts_delta": 2
@@ -2505,7 +2844,11 @@
         ],
         "options": [
           {
-            "description": "May add a Boss Boy for +26 points Boss Boy may swap Choppa for M Boss Boy may take one B",
+            "description": "May add a Boss Boy for +26 points",
+            "choices": []
+          },
+          {
+            "description": "Boss Boy may swap Choppa",
             "choices": [
               {
                 "name": "Choppa",
@@ -2526,7 +2869,12 @@
               {
                 "name": "Power Klaw",
                 "pts_delta": 10
-              },
+              }
+            ]
+          },
+          {
+            "description": "Boss Boy may take one B",
+            "choices": [
               {
                 "name": "Boss Nob",
                 "pts_delta": 8
@@ -2534,7 +2882,11 @@
             ]
           },
           {
-            "description": "May take up to 10 more Boyz for +22 points each Up to 3 Boyz may swap Rokkit Launcha for S or take a SG The entire unit may take one E",
+            "description": "May take up to 10 more Boyz for +22 points each",
+            "choices": []
+          },
+          {
+            "description": "Up to 3 Boyz may swap Rokkit Launcha for S or take a SG",
             "choices": [
               {
                 "name": "Rokkit Launcha",
@@ -2551,7 +2903,12 @@
               {
                 "name": "Tankbusta Bombz",
                 "pts_delta": 7
-              },
+              }
+            ]
+          },
+          {
+            "description": "The entire unit may take one E",
+            "choices": [
               {
                 "name": "'Ard Boyz",
                 "pts_delta": 2
@@ -2680,7 +3037,11 @@
         ],
         "options": [
           {
-            "description": "May add a Boss Boy for +26 points Boss Boy may swap Choppa for M Boss Boy may take one B",
+            "description": "May add a Boss Boy for +26 points",
+            "choices": []
+          },
+          {
+            "description": "Boss Boy may swap Choppa",
             "choices": [
               {
                 "name": "Choppa",
@@ -2701,7 +3062,12 @@
               {
                 "name": "Power Klaw",
                 "pts_delta": 10
-              },
+              }
+            ]
+          },
+          {
+            "description": "Boss Boy may take one B",
+            "choices": [
               {
                 "name": "Boss Nob",
                 "pts_delta": 8
@@ -2709,7 +3075,11 @@
             ]
           },
           {
-            "description": "May take up to 10 more Boyz for +22 points each Up to 3 Boyz may swap Rokkit Launcha for S or take a SG The entire unit may take one E",
+            "description": "May take up to 10 more Boyz for +22 points each",
+            "choices": []
+          },
+          {
+            "description": "Up to 3 Boyz may swap Rokkit Launcha for S or take a SG",
             "choices": [
               {
                 "name": "Rokkit Launcha",
@@ -2726,7 +3096,12 @@
               {
                 "name": "Tankbusta Bombz",
                 "pts_delta": 7
-              },
+              }
+            ]
+          },
+          {
+            "description": "The entire unit may take one E",
+            "choices": [
               {
                 "name": "'Ard Boyz",
                 "pts_delta": 2
@@ -2867,7 +3242,11 @@
             "choices": []
           },
           {
-            "description": "May add up to 5 more Mega Nobz for +50 points each Any model may swap Kustom Shoota for R Any model may swap Killsaw for M",
+            "description": "May add up to 5 more Mega Nobz for +50 points each",
+            "choices": []
+          },
+          {
+            "description": "Any model may swap Kustom Shoota",
             "choices": [
               {
                 "name": "Kustom Shoota",
@@ -2880,7 +3259,12 @@
               {
                 "name": "Kombi Rokkit",
                 "pts_delta": 5
-              },
+              }
+            ]
+          },
+          {
+            "description": "Any model may swap Killsaw",
+            "choices": [
               {
                 "name": "Killsaw",
                 "pts_delta": 0
@@ -2994,7 +3378,11 @@
         ],
         "options": [
           {
-            "description": "May add up to 7 more Killa Kanz for +42 points each Any model may swap any Skorcha for H or M The entire unit may take up to one of each E",
+            "description": "May add up to 7 more Killa Kanz for +42 points each",
+            "choices": []
+          },
+          {
+            "description": "Any model may swap any Skorcha",
             "choices": [
               {
                 "name": "Skorcha",
@@ -3019,7 +3407,12 @@
               {
                 "name": "Kan Klaw",
                 "pts_delta": 11
-              },
+              }
+            ]
+          },
+          {
+            "description": "The entire unit may take up to one",
+            "choices": [
               {
                 "name": "Grot Riggas",
                 "pts_delta": 2
@@ -3035,6 +3428,34 @@
               {
                 "name": "Red Paint",
                 "pts_delta": 1
+              },
+              {
+                "name": "Grot Riggas",
+                "pts_delta": 2
+              },
+              {
+                "name": "Fuel Mixa Grot",
+                "pts_delta": 2
+              },
+              {
+                "name": "Extra Armour",
+                "pts_delta": 2
+              },
+              {
+                "name": "Red Paint",
+                "pts_delta": 6
+              },
+              {
+                "name": "Turbo Charga",
+                "pts_delta": 7
+              },
+              {
+                "name": "Assault Ramps",
+                "pts_delta": 10
+              },
+              {
+                "name": "'Ard Case",
+                "pts_delta": 20
               }
             ]
           }
@@ -3115,7 +3536,7 @@
         ],
         "options": [
           {
-            "description": "May swap any Burna for P",
+            "description": "May swap any Burna",
             "choices": [
               {
                 "name": "Burna",
@@ -3199,7 +3620,7 @@
             ]
           },
           {
-            "description": "May take up to one of each E",
+            "description": "May take up to one",
             "choices": [
               {
                 "name": "Grot Riggas",
@@ -3228,6 +3649,15 @@
               {
                 "name": "'Ard Case",
                 "pts_delta": 20
+              }
+            ]
+          },
+          {
+            "description": "May take Boss Nob",
+            "choices": [
+              {
+                "name": "Boss Nob",
+                "pts_delta": 8
               }
             ]
           }
@@ -3354,11 +3784,24 @@
         ],
         "options": [
           {
-            "description": "May take up to 2 more Launchaz for +21 points each Any model may take one B",
+            "description": "May take up to 2 more Launchaz for +21 points each",
+            "choices": []
+          },
+          {
+            "description": "Any model may take one B",
             "choices": [
               {
                 "name": "Trike",
                 "pts_delta": 17
+              }
+            ]
+          },
+          {
+            "description": "May take Tandem Rider",
+            "choices": [
+              {
+                "name": "Tandem Rider",
+                "pts_delta": 13
               }
             ]
           }
@@ -3431,7 +3874,11 @@
         ],
         "options": [
           {
-            "description": "May add a Boss Nob for +46 Points Boss Nob may take one R Boss Nob's Rider may take one T",
+            "description": "May add a Boss Nob for +46 Points",
+            "choices": []
+          },
+          {
+            "description": "Boss Nob may take one R Boss Nob's Rider may take one T",
             "choices": [
               {
                 "name": "Shoota",
@@ -3456,12 +3903,21 @@
             ]
           },
           {
-            "description": "May add up to 5 more Nobz for +42 points each Any model may take one P Any model may swap Choppa for M",
+            "description": "May add up to 5 more Nobz for +42 points each",
+            "choices": []
+          },
+          {
+            "description": "Any model may take one P",
             "choices": [
               {
                 "name": "Slugga",
                 "pts_delta": 2
-              },
+              }
+            ]
+          },
+          {
+            "description": "Any model may swap Choppa",
+            "choices": [
               {
                 "name": "Choppa",
                 "pts_delta": 0
@@ -3622,7 +4078,11 @@
         ],
         "options": [
           {
-            "description": "May add a Boss Boy for +24 points Boss Boy may swap Slugga for OR Boss Boy may swap Choppa for M Boss Boy may take one B",
+            "description": "May add a Boss Boy for +24 points",
+            "choices": []
+          },
+          {
+            "description": "Boss Boy may swap Slugga",
             "choices": [
               {
                 "name": "Shoota",
@@ -3635,7 +4095,12 @@
               {
                 "name": "Kombi Rokkit",
                 "pts_delta": 15
-              },
+              }
+            ]
+          },
+          {
+            "description": "Boss Boy may swap Choppa",
+            "choices": [
               {
                 "name": "Choppa",
                 "pts_delta": 0
@@ -3655,6 +4120,15 @@
               {
                 "name": "Power Klaw",
                 "pts_delta": 10
+              }
+            ]
+          },
+          {
+            "description": "Boss Boy may take one B",
+            "choices": [
+              {
+                "name": "Boss Nob",
+                "pts_delta": 8
               },
               {
                 "name": "Boss Nob",
@@ -3663,7 +4137,11 @@
             ]
           },
           {
-            "description": "May take up to 10 more Boyz for +20 points each Up to 3 Boyz may swap Slugga and Choppa for S or take SG The entire unit may take one E",
+            "description": "May take up to 10 more Boyz for +20 points each",
+            "choices": []
+          },
+          {
+            "description": "Up to 3 Boyz may swap Slugga and Choppa for S or take SG",
             "choices": [
               {
                 "name": "Burna",
@@ -3680,6 +4158,15 @@
               {
                 "name": "Tankbusta Bombz",
                 "pts_delta": 7
+              }
+            ]
+          },
+          {
+            "description": "The entire unit may take one E",
+            "choices": [
+              {
+                "name": "'Ard Boyz",
+                "pts_delta": 2
               },
               {
                 "name": "'Ard Boyz",
@@ -3846,12 +4333,21 @@
             "choices": []
           },
           {
-            "description": "May add up to 5 more Boyz for +36 points each Any model may take one P Any model may swap Choppa for M",
+            "description": "May add up to 5 more Boyz for +36 points each",
+            "choices": []
+          },
+          {
+            "description": "Any model may take one P",
             "choices": [
               {
                 "name": "Slugga",
                 "pts_delta": 2
-              },
+              }
+            ]
+          },
+          {
+            "description": "Any model may swap Choppa",
+            "choices": [
               {
                 "name": "Choppa",
                 "pts_delta": 0
@@ -3889,6 +4385,15 @@
               {
                 "name": "'Ard Boyz",
                 "pts_delta": 2
+              }
+            ]
+          },
+          {
+            "description": "May take Ork Crew",
+            "choices": [
+              {
+                "name": "Ork Crew",
+                "pts_delta": 5
               }
             ]
           }
@@ -3976,7 +4481,11 @@
         ],
         "options": [
           {
-            "description": "May add up to 3 more Warbuggiez for +24 points each Any model may swap Big Shoota for S The entire unit may take one B",
+            "description": "May add up to 3 more Warbuggiez for +24 points each",
+            "choices": []
+          },
+          {
+            "description": "Any model may swap Big Shoota",
             "choices": [
               {
                 "name": "Big Shoota",
@@ -3985,7 +4494,12 @@
               {
                 "name": "Rokkit Launcha",
                 "pts_delta": 7
-              },
+              }
+            ]
+          },
+          {
+            "description": "The entire unit may take one B",
+            "choices": [
               {
                 "name": "Ork Crew",
                 "pts_delta": 5
@@ -4047,7 +4561,11 @@
         ],
         "options": [
           {
-            "description": "May add up to 3 more Wartrakkz for +23 points each Any model may swap Big Shoota for S",
+            "description": "May add up to 3 more Wartrakkz for +23 points each",
+            "choices": []
+          },
+          {
+            "description": "Any model may swap Big Shoota",
             "choices": [
               {
                 "name": "Big Shoota",
@@ -4060,6 +4578,51 @@
               {
                 "name": "Skorcha Kart",
                 "pts_delta": 3
+              }
+            ]
+          },
+          {
+            "description": "May take Grot Riggas",
+            "choices": [
+              {
+                "name": "Grot Riggas",
+                "pts_delta": 2
+              }
+            ]
+          },
+          {
+            "description": "May take Fuel Mixa Grot",
+            "choices": [
+              {
+                "name": "Fuel Mixa Grot",
+                "pts_delta": 2
+              }
+            ]
+          },
+          {
+            "description": "May take Extra Armour",
+            "choices": [
+              {
+                "name": "Extra Armour",
+                "pts_delta": 2
+              }
+            ]
+          },
+          {
+            "description": "May take Red Paint",
+            "choices": [
+              {
+                "name": "Red Paint",
+                "pts_delta": 6
+              }
+            ]
+          },
+          {
+            "description": "May take Turbo Charga",
+            "choices": [
+              {
+                "name": "Turbo Charga",
+                "pts_delta": 7
               }
             ]
           }
@@ -4124,7 +4687,11 @@
         ],
         "options": [
           {
-            "description": "May add up to 2 more Boomdakkaz for +38 points each Any model may take one T The entire unit may take up to one of each E",
+            "description": "May add up to 2 more Boomdakkaz for +38 points each",
+            "choices": []
+          },
+          {
+            "description": "Any model may take one T",
             "choices": [
               {
                 "name": "Big Zzappa",
@@ -4141,6 +4708,31 @@
               {
                 "name": "Boom Gun",
                 "pts_delta": 51
+              }
+            ]
+          },
+          {
+            "description": "The entire unit may take up to one",
+            "choices": [
+              {
+                "name": "Grot Riggas",
+                "pts_delta": 2
+              },
+              {
+                "name": "Fuel Mixa Grot",
+                "pts_delta": 2
+              },
+              {
+                "name": "Extra Armour",
+                "pts_delta": 2
+              },
+              {
+                "name": "Red Paint",
+                "pts_delta": 6
+              },
+              {
+                "name": "Turbo Charga",
+                "pts_delta": 7
               },
               {
                 "name": "Grot Riggas",
@@ -4251,8 +4843,32 @@
         ],
         "options": [
           {
-            "description": "May add up to 2 more Boomdakkaz for +67 points each The entire unit may take up to one of each E",
+            "description": "May add up to 2 more Boomdakkaz for +67 points each",
+            "choices": []
+          },
+          {
+            "description": "The entire unit may take up to one",
             "choices": [
+              {
+                "name": "Grot Riggas",
+                "pts_delta": 2
+              },
+              {
+                "name": "Fuel Mixa Grot",
+                "pts_delta": 2
+              },
+              {
+                "name": "Extra Armour",
+                "pts_delta": 2
+              },
+              {
+                "name": "Red Paint",
+                "pts_delta": 6
+              },
+              {
+                "name": "Turbo Charga",
+                "pts_delta": 7
+              },
               {
                 "name": "Grot Riggas",
                 "pts_delta": 2
@@ -4348,11 +4964,35 @@
         ],
         "options": [
           {
-            "description": "May add up to 2 more Scrapjetz for +119 points each The entire unit may take up to one of each E",
+            "description": "May add up to 2 more Scrapjetz for +119 points each",
+            "choices": []
+          },
+          {
+            "description": "The entire unit may take up to one",
             "choices": [
               {
                 "name": "Grot Riggas",
                 "pts_delta": 2
+              },
+              {
+                "name": "Grot Riggas",
+                "pts_delta": 2
+              },
+              {
+                "name": "Fuel Mixa Grot",
+                "pts_delta": 2
+              },
+              {
+                "name": "Extra Armour",
+                "pts_delta": 2
+              },
+              {
+                "name": "Red Paint",
+                "pts_delta": 6
+              },
+              {
+                "name": "Turbo Charga",
+                "pts_delta": 7
               }
             ]
           }
@@ -4424,8 +5064,32 @@
         ],
         "options": [
           {
-            "description": "May add up to 2 more Squigbuggy for +82 points each The entire unit may take up to one of each E",
+            "description": "May add up to 2 more Squigbuggy for +82 points each",
+            "choices": []
+          },
+          {
+            "description": "The entire unit may take up to one",
             "choices": [
+              {
+                "name": "Grot Riggas",
+                "pts_delta": 2
+              },
+              {
+                "name": "Fuel Mixa Grot",
+                "pts_delta": 2
+              },
+              {
+                "name": "Extra Armour",
+                "pts_delta": 2
+              },
+              {
+                "name": "Red Paint",
+                "pts_delta": 6
+              },
+              {
+                "name": "Turbo Charga",
+                "pts_delta": 7
+              },
               {
                 "name": "Grot Riggas",
                 "pts_delta": 2
@@ -4520,7 +5184,11 @@
         ],
         "options": [
           {
-            "description": "May add up to 2 more Shokjump for +36 points each The entire unit may take up to one of each E",
+            "description": "May add up to 2 more Shokjump for +36 points each",
+            "choices": []
+          },
+          {
+            "description": "The entire unit may take up to one",
             "choices": [
               {
                 "name": "Grot Riggas",
@@ -4533,6 +5201,26 @@
               {
                 "name": "Extra Armour",
                 "pts_delta": 2
+              },
+              {
+                "name": "Red Paint",
+                "pts_delta": 6
+              },
+              {
+                "name": "Turbo Charga",
+                "pts_delta": 7
+              },
+              {
+                "name": "Grot Riggas",
+                "pts_delta": 2
+              },
+              {
+                "name": "Fuel Mixa Grot",
+                "pts_delta": 2
+              },
+              {
+                "name": "Extra Armour",
+                "pts_delta": 1
               },
               {
                 "name": "Red Paint",
@@ -4628,7 +5316,32 @@
         ],
         "options": [
           {
-            "description": "May add up to 7 more Grot Tankz for +28 points each Any model may swap Skorcha T for T The entire unit may take up to one of each E",
+            "description": "Grot Kommanda may swap Skorcha H",
+            "choices": [
+              {
+                "name": "Skorcha",
+                "pts_delta": 0
+              },
+              {
+                "name": "Big Shoota",
+                "pts_delta": 1
+              },
+              {
+                "name": "Rokkit Launcha",
+                "pts_delta": 2
+              },
+              {
+                "name": "Kustom Mega Blasta",
+                "pts_delta": 3
+              }
+            ]
+          },
+          {
+            "description": "May add up to 7 more Grot Tankz for +28 points each",
+            "choices": []
+          },
+          {
+            "description": "Any model may swap Skorcha T",
             "choices": [
               {
                 "name": "Skorcha",
@@ -4649,7 +5362,12 @@
               {
                 "name": "Grotzooka",
                 "pts_delta": 7
-              },
+              }
+            ]
+          },
+          {
+            "description": "The entire unit may take up to one",
+            "choices": [
               {
                 "name": "Grot Riggas",
                 "pts_delta": 2
@@ -4767,6 +5485,15 @@
           {
             "description": "May add up to 5 more Nobz for +29 points each",
             "choices": []
+          },
+          {
+            "description": "May take Grot Oiler",
+            "choices": [
+              {
+                "name": "Grot Oiler",
+                "pts_delta": 2
+              }
+            ]
           }
         ],
         "weapons": {
@@ -4843,17 +5570,38 @@
         ],
         "options": [
           {
-            "description": "May add up to 5 more Nobz for +42 points each",
-            "choices": []
+            "description": "Boss Nob may swap Big Shoota for S, P,",
+            "choices": [
+              {
+                "name": "Big Shoota",
+                "pts_delta": 0
+              },
+              {
+                "name": "Rokkit Launcha",
+                "pts_delta": 2
+              },
+              {
+                "name": "Kustom Mega Blasta",
+                "pts_delta": 0
+              },
+              {
+                "name": "Deffgun",
+                "pts_delta": 11
+              }
+            ]
           },
           {
-            "description": "May take Grot Oiler",
+            "description": "Boss Nob may take one A",
             "choices": [
               {
                 "name": "Grot Oiler",
                 "pts_delta": 2
               }
             ]
+          },
+          {
+            "description": "May add up to 5 more Nobz for +42 points each",
+            "choices": []
           }
         ],
         "weapons": {
@@ -4911,7 +5659,11 @@
         ],
         "options": [
           {
-            "description": "May take up to two more for +68 points each Any model may swap Traktor Kannon for H",
+            "description": "May take up to two more for +68 points each",
+            "choices": []
+          },
+          {
+            "description": "Any model may swap Traktor Kannon",
             "choices": [
               {
                 "name": "Traktor Kannon",
@@ -4988,7 +5740,11 @@
         ],
         "options": [
           {
-            "description": "May take up to two more for +68 points each Any model may swap Traktor Kannon for H",
+            "description": "May take up to two more for +68 points each",
+            "choices": []
+          },
+          {
+            "description": "Any model may swap Traktor Kannon",
             "choices": [
               {
                 "name": "Traktor Kannon",
@@ -5395,7 +6151,11 @@
         ],
         "options": [
           {
-            "description": "May take up to two more Deff Dreadz for +111 points each Any model may take up to two H or M",
+            "description": "May take up to two more Deff Dreadz for +111 points each",
+            "choices": []
+          },
+          {
+            "description": "Any model may take up to two H",
             "choices": [
               {
                 "name": "Dual Powerklawz",
@@ -5424,7 +6184,7 @@
             ]
           },
           {
-            "description": "May take up to one of each E",
+            "description": "May take up to one",
             "choices": [
               {
                 "name": "Grot Riggas",
@@ -5441,6 +6201,22 @@
               {
                 "name": "Red Paint",
                 "pts_delta": 1
+              },
+              {
+                "name": "Grot Riggas",
+                "pts_delta": 2
+              },
+              {
+                "name": "Fuel Mixa Grot",
+                "pts_delta": 2
+              },
+              {
+                "name": "Extra Armour",
+                "pts_delta": 2
+              },
+              {
+                "name": "Red Paint",
+                "pts_delta": 5
               }
             ]
           }
@@ -5526,8 +6302,25 @@
         ],
         "options": [
           {
-            "description": "May take up to one of each E",
-            "choices": []
+            "description": "May take up to one",
+            "choices": [
+              {
+                "name": "Grot Riggas",
+                "pts_delta": 2
+              },
+              {
+                "name": "Fuel Mixa Grot",
+                "pts_delta": 2
+              },
+              {
+                "name": "Extra Armour",
+                "pts_delta": 2
+              },
+              {
+                "name": "Red Paint",
+                "pts_delta": 5
+              }
+            ]
           }
         ],
         "weapons": {
@@ -5599,7 +6392,7 @@
         ],
         "options": [
           {
-            "description": "May swap any Skorcha for H",
+            "description": "May swap any Skorcha",
             "choices": [
               {
                 "name": "Kustom Mega Blasta",
@@ -5620,7 +6413,7 @@
             ]
           },
           {
-            "description": "May swap any Kill Saw for M",
+            "description": "May swap any Kill Saw",
             "choices": [
               {
                 "name": "Killsaw",
@@ -5641,8 +6434,24 @@
             ]
           },
           {
-            "description": "May take up to one of each E",
+            "description": "May take up to one",
             "choices": [
+              {
+                "name": "Grot Riggas",
+                "pts_delta": 2
+              },
+              {
+                "name": "Fuel Mixa Grot",
+                "pts_delta": 2
+              },
+              {
+                "name": "Extra Armour",
+                "pts_delta": 2
+              },
+              {
+                "name": "Red Paint",
+                "pts_delta": 5
+              },
               {
                 "name": "Grot Riggas",
                 "pts_delta": 2
@@ -5751,7 +6560,7 @@
         ],
         "options": [
           {
-            "description": "May swap any Rattler Kannon for H or M",
+            "description": "May swap any Rattler Kannon",
             "choices": [
               {
                 "name": "Rattler Kannon",
@@ -5785,8 +6594,24 @@
             ]
           },
           {
-            "description": "May take up to one of each E",
+            "description": "May take up to one",
             "choices": [
+              {
+                "name": "Grot Riggas",
+                "pts_delta": 2
+              },
+              {
+                "name": "Fuel Mixa Grot",
+                "pts_delta": 2
+              },
+              {
+                "name": "Extra Armour",
+                "pts_delta": 2
+              },
+              {
+                "name": "Red Paint",
+                "pts_delta": 5
+              },
               {
                 "name": "Grot Riggas",
                 "pts_delta": 2
@@ -5885,7 +6710,7 @@
         ],
         "options": [
           {
-            "description": "May take up to one of each E",
+            "description": "May take up to one",
             "choices": [
               {
                 "name": "Grot Riggas",
@@ -5902,6 +6727,30 @@
               {
                 "name": "Red Paint",
                 "pts_delta": 5
+              },
+              {
+                "name": "Grot Riggas",
+                "pts_delta": 2
+              },
+              {
+                "name": "Fuel Mixa Grot",
+                "pts_delta": 2
+              },
+              {
+                "name": "Extra Armour",
+                "pts_delta": 2
+              },
+              {
+                "name": "Red Paint",
+                "pts_delta": 6
+              },
+              {
+                "name": "Turbo Charga",
+                "pts_delta": 7
+              },
+              {
+                "name": "Assault Ramps",
+                "pts_delta": 10
               }
             ]
           }
@@ -5970,7 +6819,11 @@
         ],
         "options": [
           {
-            "description": "May take up to one more Big Trakk for +122 points Any model may take one T Any model may take up to two S Any model may take one M Any model may take one A Any model may take one G The unit may take up to one of each E",
+            "description": "May take up to one more Big Trakk for +122 points",
+            "choices": []
+          },
+          {
+            "description": "Any model may take one T",
             "choices": [
               {
                 "name": "Big Zzappa",
@@ -5995,7 +6848,12 @@
               {
                 "name": "Big Lobba",
                 "pts_delta": 112
-              },
+              }
+            ]
+          },
+          {
+            "description": "Any model may take up to two S",
+            "choices": [
               {
                 "name": "Skorcha",
                 "pts_delta": 8
@@ -6007,7 +6865,12 @@
               {
                 "name": "Rokkit Launcha",
                 "pts_delta": 10
-              },
+              }
+            ]
+          },
+          {
+            "description": "Any model may take one M",
+            "choices": [
               {
                 "name": "Reinforced Ram",
                 "pts_delta": 12
@@ -6015,7 +6878,12 @@
               {
                 "name": "Deff Rolla",
                 "pts_delta": 28
-              },
+              }
+            ]
+          },
+          {
+            "description": "Any model may take one A",
+            "choices": [
               {
                 "name": "Grabbin Klaw",
                 "pts_delta": 7
@@ -6023,11 +6891,21 @@
               {
                 "name": "Wrecking Ball",
                 "pts_delta": 7
-              },
+              }
+            ]
+          },
+          {
+            "description": "Any model may take one G",
+            "choices": [
               {
                 "name": "Stikkbomb Chukka",
                 "pts_delta": 1
-              },
+              }
+            ]
+          },
+          {
+            "description": "The unit may take up to one",
+            "choices": [
               {
                 "name": "Grot Riggas",
                 "pts_delta": 2
@@ -6051,6 +6929,26 @@
               {
                 "name": "Assault Ramps",
                 "pts_delta": 10
+              },
+              {
+                "name": "Grot Riggas",
+                "pts_delta": 2
+              },
+              {
+                "name": "Fuel Mixa Grot",
+                "pts_delta": 2
+              },
+              {
+                "name": "Extra Armour",
+                "pts_delta": 2
+              },
+              {
+                "name": "Red Paint",
+                "pts_delta": 6
+              },
+              {
+                "name": "Turbo Charga",
+                "pts_delta": 7
               }
             ]
           }
@@ -6181,7 +7079,11 @@
         ],
         "options": [
           {
-            "description": "May add up to 2 more Megatankz for +166 points each Any model may swap any 2 Linked Skorchaz T for T Any model may swap 2 Skorchaz for S Any model may swap Skorcha P for P Any model may take one H Any model may take one A",
+            "description": "May add up to 2 more Megatankz for +166 points each",
+            "choices": []
+          },
+          {
+            "description": "Any model may swap any 2 Linked Skorchaz T",
             "choices": [
               {
                 "name": "2 Linked Skorchaz",
@@ -6202,7 +7104,12 @@
               {
                 "name": "4 Linked Big Shootaz",
                 "pts_delta": 30
-              },
+              }
+            ]
+          },
+          {
+            "description": "Any model may swap 2 Skorchaz",
+            "choices": [
               {
                 "name": "2 Skorchaz",
                 "pts_delta": 0
@@ -6222,7 +7129,12 @@
               {
                 "name": "2 Grotzookaz",
                 "pts_delta": 10
-              },
+              }
+            ]
+          },
+          {
+            "description": "Any model may swap Skorcha P",
+            "choices": [
               {
                 "name": "Skorcha",
                 "pts_delta": 0
@@ -6242,11 +7154,21 @@
               {
                 "name": "Grotzooka",
                 "pts_delta": 7
-              },
+              }
+            ]
+          },
+          {
+            "description": "Any model may take one H",
+            "choices": [
               {
                 "name": "Shoota",
                 "pts_delta": 4
-              },
+              }
+            ]
+          },
+          {
+            "description": "Any model may take one A",
+            "choices": [
               {
                 "name": "Wrecking Ball",
                 "pts_delta": 7
@@ -6254,7 +7176,7 @@
             ]
           },
           {
-            "description": "May take up to one of each E",
+            "description": "May take up to one",
             "choices": [
               {
                 "name": "Grot Riggas",
@@ -6428,7 +7350,11 @@
         ],
         "options": [
           {
-            "description": "May take up to two more Trukkz for +106 points each Any model may swap Skorcha for P Any model may take one T Any model may take one M Any model may take one A Any model may take one G The unit may take up to one of each E",
+            "description": "May take up to two more Trukkz for +106 points each",
+            "choices": []
+          },
+          {
+            "description": "Any model may swap Skorcha",
             "choices": [
               {
                 "name": "Skorcha",
@@ -6441,7 +7367,12 @@
               {
                 "name": "Rokkit Launcha",
                 "pts_delta": 4
-              },
+              }
+            ]
+          },
+          {
+            "description": "Any model may take one T",
+            "choices": [
               {
                 "name": "Big Zzappa",
                 "pts_delta": 20
@@ -6457,7 +7388,12 @@
               {
                 "name": "4 Linked Flakka Gunz",
                 "pts_delta": 80
-              },
+              }
+            ]
+          },
+          {
+            "description": "Any model may take one M",
+            "choices": [
               {
                 "name": "Reinforced Ram",
                 "pts_delta": 12
@@ -6465,7 +7401,12 @@
               {
                 "name": "Deff Rolla",
                 "pts_delta": 28
-              },
+              }
+            ]
+          },
+          {
+            "description": "Any model may take one A",
+            "choices": [
               {
                 "name": "Grabbin Klaw",
                 "pts_delta": 7
@@ -6473,11 +7414,21 @@
               {
                 "name": "Wrecking Ball",
                 "pts_delta": 7
-              },
+              }
+            ]
+          },
+          {
+            "description": "Any model may take one G",
+            "choices": [
               {
                 "name": "Stikkbomb Chukka",
                 "pts_delta": 1
-              },
+              }
+            ]
+          },
+          {
+            "description": "The unit may take up to one",
+            "choices": [
               {
                 "name": "Grot Riggas",
                 "pts_delta": 2
@@ -6612,7 +7563,7 @@
         ],
         "options": [
           {
-            "description": "May swap Gigashoota for T",
+            "description": "May swap Gigashoota",
             "choices": [
               {
                 "name": "Gigashoota",
@@ -6672,7 +7623,7 @@
             ]
           },
           {
-            "description": "May take up to one of each E",
+            "description": "May take up to one",
             "choices": [
               {
                 "name": "Grot Riggas",
@@ -6693,6 +7644,22 @@
               {
                 "name": "Turbo Charga",
                 "pts_delta": 7
+              },
+              {
+                "name": "Grot Riggas",
+                "pts_delta": 2
+              },
+              {
+                "name": "Fuel Mixa Grot",
+                "pts_delta": 2
+              },
+              {
+                "name": "Aerial Red Paint",
+                "pts_delta": 6
+              },
+              {
+                "name": "Stikkbomb Flinga",
+                "pts_delta": 9
               }
             ]
           }
@@ -6799,7 +7766,11 @@
         ],
         "options": [
           {
-            "description": "May add up to two more Attack Fightaz for +149 points each Any model may take one W The unit may take up to one of each E",
+            "description": "May add up to two more Attack Fightaz for +149 points each",
+            "choices": []
+          },
+          {
+            "description": "Any model may take one W",
             "choices": [
               {
                 "name": "2 Linked Bommz",
@@ -6808,7 +7779,12 @@
               {
                 "name": "2 Linked Rokkitz",
                 "pts_delta": 20
-              },
+              }
+            ]
+          },
+          {
+            "description": "The unit may take up to one",
+            "choices": [
               {
                 "name": "Grot Riggas",
                 "pts_delta": 2
@@ -6819,6 +7795,22 @@
               },
               {
                 "name": "Aerial Red Paint",
+                "pts_delta": 6
+              },
+              {
+                "name": "Stikkbomb Flinga",
+                "pts_delta": 9
+              },
+              {
+                "name": "Grot Riggas",
+                "pts_delta": 2
+              },
+              {
+                "name": "Fuel Mixa Grot",
+                "pts_delta": 2
+              },
+              {
+                "name": "Red Paint",
                 "pts_delta": 6
               },
               {
@@ -6887,7 +7879,11 @@
         ],
         "options": [
           {
-            "description": "May add up to two more Bommerz for +143 points each Any model may swap 2 Linked Burna Bommz for B Any model may take one W The unit may take up to one of each E",
+            "description": "May add up to two more Bommerz for +143 points each",
+            "choices": []
+          },
+          {
+            "description": "Any model may swap 2 Linked Burna Bommz",
             "choices": [
               {
                 "name": "2 Linked Burna Bommz",
@@ -6896,7 +7892,12 @@
               {
                 "name": "2 Linked Boom Bommz",
                 "pts_delta": 16
-              },
+              }
+            ]
+          },
+          {
+            "description": "Any model may take one W",
+            "choices": [
               {
                 "name": "2 Linked Skorcha Missilez",
                 "pts_delta": 10
@@ -6908,6 +7909,27 @@
               {
                 "name": "2 Linked Rokkitz",
                 "pts_delta": 20
+              }
+            ]
+          },
+          {
+            "description": "The unit may take up to one",
+            "choices": [
+              {
+                "name": "Grot Riggas",
+                "pts_delta": 2
+              },
+              {
+                "name": "Fuel Mixa Grot",
+                "pts_delta": 2
+              },
+              {
+                "name": "Red Paint",
+                "pts_delta": 6
+              },
+              {
+                "name": "Stikkbomb Flinga",
+                "pts_delta": 9
               },
               {
                 "name": "Grot Riggas",
@@ -7011,7 +8033,11 @@
         ],
         "options": [
           {
-            "description": "May add up to two more Blastjetz for +156 points each Any model may swap 2 Linked Kustom Mega Kannonz for H Any model may take one T The unit may take up to one of each E",
+            "description": "May add up to two more Blastjetz for +156 points each",
+            "choices": []
+          },
+          {
+            "description": "Any model may swap 2 Linked Kustom Mega Kannonz",
             "choices": [
               {
                 "name": "2 Linked Kustom Mega Kannonz",
@@ -7020,10 +8046,36 @@
               {
                 "name": "2 Linked Tellyporty Mega Blastaz",
                 "pts_delta": 18
-              },
+              }
+            ]
+          },
+          {
+            "description": "Any model may take one T",
+            "choices": [
               {
                 "name": "2 Linked Supa Shootaz",
                 "pts_delta": 26
+              }
+            ]
+          },
+          {
+            "description": "The unit may take up to one",
+            "choices": [
+              {
+                "name": "Grot Riggas",
+                "pts_delta": 2
+              },
+              {
+                "name": "Fuel Mixa Grot",
+                "pts_delta": 2
+              },
+              {
+                "name": "Red Paint",
+                "pts_delta": 6
+              },
+              {
+                "name": "Stikkbomb Flinga",
+                "pts_delta": 9
               }
             ]
           }
@@ -7092,7 +8144,11 @@
         ],
         "options": [
           {
-            "description": "May add up to two more Blastjetz for +156 points each Any model may swap 2 Linked Kustom Mega Kannonz for H Any model may take one T The unit may take up to one of each E",
+            "description": "May add up to two more Blastjetz for +156 points each",
+            "choices": []
+          },
+          {
+            "description": "Any model may swap 2 Linked Kustom Mega Kannonz",
             "choices": [
               {
                 "name": "2 Linked Kustom Mega Kannonz",
@@ -7101,10 +8157,36 @@
               {
                 "name": "2 Linked Tellyporty Mega Blastaz",
                 "pts_delta": 18
-              },
+              }
+            ]
+          },
+          {
+            "description": "Any model may take one T",
+            "choices": [
               {
                 "name": "2 Linked Supa Shootaz",
                 "pts_delta": 26
+              }
+            ]
+          },
+          {
+            "description": "The unit may take up to one",
+            "choices": [
+              {
+                "name": "Grot Riggas",
+                "pts_delta": 2
+              },
+              {
+                "name": "Fuel Mixa Grot",
+                "pts_delta": 2
+              },
+              {
+                "name": "Red Paint",
+                "pts_delta": 6
+              },
+              {
+                "name": "Stikkbomb Flinga",
+                "pts_delta": 9
               }
             ]
           }
@@ -7177,7 +8259,7 @@
         ],
         "options": [
           {
-            "description": "May swap 2 Linked Rattler Kannonz for H",
+            "description": "May swap 2 Linked Rattler Kannonz",
             "choices": [
               {
                 "name": "2 Linked Rattler Kannonz",
@@ -7190,7 +8272,7 @@
             ]
           },
           {
-            "description": "May swap Big Shoota for S",
+            "description": "May swap Big Shoota",
             "choices": [
               {
                 "name": "Skorcha",
@@ -7220,7 +8302,7 @@
             ]
           },
           {
-            "description": "May take up to one of each E",
+            "description": "May take up to one",
             "choices": [
               {
                 "name": "Grot Riggas",
@@ -7318,7 +8400,7 @@
         ],
         "options": [
           {
-            "description": "May swap one Deff Kannon for M",
+            "description": "May swap one Deff Kannon",
             "choices": [
               {
                 "name": "Mega Klaw",
@@ -7345,8 +8427,21 @@
             ]
           },
           {
-            "description": "May take up to one of each E",
-            "choices": []
+            "description": "May take up to one",
+            "choices": [
+              {
+                "name": "Grot Riggas",
+                "pts_delta": 5
+              },
+              {
+                "name": "Fuel Mixa Grot",
+                "pts_delta": 5
+              },
+              {
+                "name": "Red Paint",
+                "pts_delta": 12
+              }
+            ]
           }
         ],
         "weapons": {
@@ -7529,7 +8624,7 @@
             ]
           },
           {
-            "description": "May take up to one of each E",
+            "description": "May take up to one",
             "choices": [
               {
                 "name": "Grot Riggas",
@@ -7700,6 +8795,33 @@
                 "pts_delta": 13
               }
             ]
+          },
+          {
+            "description": "May take Grot Riggas",
+            "choices": [
+              {
+                "name": "Grot Riggas",
+                "pts_delta": 5
+              }
+            ]
+          },
+          {
+            "description": "May take Fuel Mixa Grot",
+            "choices": [
+              {
+                "name": "Fuel Mixa Grot",
+                "pts_delta": 5
+              }
+            ]
+          },
+          {
+            "description": "May take Red Paint",
+            "choices": [
+              {
+                "name": "Red Paint",
+                "pts_delta": 6
+              }
+            ]
           }
         ],
         "weapons": {
@@ -7773,7 +8895,7 @@
         ],
         "options": [
           {
-            "description": "May take up to one of each E",
+            "description": "May take up to one",
             "choices": [
               {
                 "name": "Grot Riggas",

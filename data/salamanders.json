@@ -90,6 +90,24 @@
                 "pts_delta": 20
               }
             ]
+          },
+          {
+            "description": "May take Extra Armour",
+            "choices": [
+              {
+                "name": "Extra Armour",
+                "pts_delta": 5
+              }
+            ]
+          },
+          {
+            "description": "May take Smoke Launchers",
+            "choices": [
+              {
+                "name": "Smoke Launchers",
+                "pts_delta": 10
+              }
+            ]
           }
         ],
         "weapons": {
@@ -148,7 +166,7 @@
         ],
         "options": [
           {
-            "description": "May take up to one of each E",
+            "description": "May take up to one",
             "choices": [
               {
                 "name": "Extra Armour",
@@ -210,7 +228,17 @@
           "Krak Grenades",
           "Iron Halo"
         ],
-        "options": [],
+        "options": [
+          {
+            "description": "May take Rubicon Primaris",
+            "choices": [
+              {
+                "name": "Rubicon Primaris",
+                "pts_delta": 17
+              }
+            ]
+          }
+        ],
         "weapons": {
           "Combi Flamer": {
             "range": "Flame",

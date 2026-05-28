@@ -89,7 +89,7 @@
         ],
         "options": [
           {
-            "description": "May swap Stormbolter for S",
+            "description": "May swap Stormbolter",
             "choices": [
               {
                 "name": "Psilencer",
@@ -106,7 +106,7 @@
             ]
           },
           {
-            "description": "May swap Nemesis Force Halberd for M",
+            "description": "May swap Nemesis Force Halberd",
             "choices": [
               {
                 "name": "Nemesis Force Halberd",
@@ -342,7 +342,7 @@
         ],
         "options": [
           {
-            "description": "May swap any Gatling Psilencer for H",
+            "description": "May swap any Gatling Psilencer",
             "choices": [
               {
                 "name": "Gatling Psilencer",
@@ -359,7 +359,7 @@
             ]
           },
           {
-            "description": "May swap Nemesis Greatsword for M",
+            "description": "May swap Nemesis Greatsword",
             "choices": [
               {
                 "name": "Nemesis Greatsword",
@@ -469,7 +469,7 @@
         ],
         "options": [
           {
-            "description": "May swap Stormbolter for S",
+            "description": "May swap Stormbolter",
             "choices": [
               {
                 "name": "Psilencer",
@@ -486,7 +486,7 @@
             ]
           },
           {
-            "description": "May swap Nemesis Force Halberd for M",
+            "description": "May swap Nemesis Force Halberd",
             "choices": [
               {
                 "name": "Nemesis Force Halberd",
@@ -898,7 +898,7 @@
         ],
         "options": [
           {
-            "description": "May swap Nemesis Force Halberd for M",
+            "description": "May swap Nemesis Force Halberd",
             "choices": [
               {
                 "name": "Nemesis Force Halberd",
@@ -1072,7 +1072,7 @@
         ],
         "options": [
           {
-            "description": "May swap Nemesis Force Halberd for M",
+            "description": "May swap Nemesis Force Halberd",
             "choices": [
               {
                 "name": "Nemesis Force Halberd",
@@ -1205,7 +1205,7 @@
         ],
         "options": [
           {
-            "description": "May swap Bolt Pistol for R",
+            "description": "May swap Bolt Pistol",
             "choices": [
               {
                 "name": "Boltgun",
@@ -1214,7 +1214,7 @@
             ]
           },
           {
-            "description": "May swap all H weapons for S",
+            "description": "May swap all H weapons",
             "choices": [
               {
                 "name": "Flamer",
@@ -1376,7 +1376,11 @@
         ],
         "options": [
           {
-            "description": "May take up to 5 more Knights for +49 points each Justicar may swap Stormbolter for S Justicar may swap Nemesis Force Halberd for M Justicar may swap Krak Grenades for G Justicar may take one Spell for each Psychic Mastery Level Up to two Knights may swap Stormbolter for S",
+            "description": "May take up to 5 more Knights for +49 points each",
+            "choices": []
+          },
+          {
+            "description": "Justicar may swap Stormbolter",
             "choices": [
               {
                 "name": "Psilencer",
@@ -1389,7 +1393,12 @@
               {
                 "name": "Incinerator",
                 "pts_delta": 17
-              },
+              }
+            ]
+          },
+          {
+            "description": "Justicar may swap Nemesis Force Halberd",
+            "choices": [
               {
                 "name": "Nemesis Force Halberd",
                 "pts_delta": 0
@@ -1409,7 +1418,12 @@
               {
                 "name": "Nemesis Daemon Hammer",
                 "pts_delta": 13
-              },
+              }
+            ]
+          },
+          {
+            "description": "Justicar may swap Krak Grenades",
+            "choices": [
               {
                 "name": "Frag Grenades",
                 "pts_delta": 0
@@ -1427,6 +1441,14 @@
                 "pts_delta": 5
               }
             ]
+          },
+          {
+            "description": "Justicar may take one Spell for each Psychic Mastery Level",
+            "choices": []
+          },
+          {
+            "description": "Up to two Knights may swap Stormbolter",
+            "choices": []
           }
         ],
         "weapons": {
@@ -1584,7 +1606,11 @@
         ],
         "options": [
           {
-            "description": "May take up to 5 more Terminators for +86 points each Justicar may swap Stormbolter for S Justicar may take up to one Spell for each Psychic Mastery Level Up to Two Terminators may swap Stormbolter for S Any model may swap Nemesis Force Halberd for M",
+            "description": "May take up to 5 more Terminators for +86 points each",
+            "choices": []
+          },
+          {
+            "description": "Justicar may swap Stormbolter",
             "choices": [
               {
                 "name": "Psilencer",
@@ -1597,7 +1623,20 @@
               {
                 "name": "Incinerator",
                 "pts_delta": 17
-              },
+              }
+            ]
+          },
+          {
+            "description": "Justicar may take up to one Spell for each Psychic Mastery Level",
+            "choices": []
+          },
+          {
+            "description": "Up to Two Terminators may swap Stormbolter",
+            "choices": []
+          },
+          {
+            "description": "Any model may swap Nemesis Force Halberd",
+            "choices": [
               {
                 "name": "Nemesis Force Halberd",
                 "pts_delta": 0
@@ -1719,7 +1758,11 @@
         ],
         "options": [
           {
-            "description": "May add up to two more Dreadnoughts for +152 points each Any Dreadnought may swap any Dreadnought Missile Launcher for H Any Dreadnought may take up to one of each E Any Dreadnought may each take up to one Spell per Psychic Mastery Level. These are cast by each model Independently.",
+            "description": "May add up to two more Dreadnoughts for +152 points each",
+            "choices": []
+          },
+          {
+            "description": "Any Dreadnought may swap any Dreadnought Missile Launcher",
             "choices": [
               {
                 "name": "Dreadnought Missile Launcher",
@@ -1760,12 +1803,21 @@
               {
                 "name": "Heavy Plasma Cannon",
                 "pts_delta": 28
-              },
+              }
+            ]
+          },
+          {
+            "description": "Any Dreadnought may take up to one",
+            "choices": [
               {
                 "name": "Extra Armour",
                 "pts_delta": 5
               }
             ]
+          },
+          {
+            "description": "Any Dreadnought may each take up to one Spell per Psychic Mastery Level. These are cast by each model Independently.",
+            "choices": []
           }
         ],
         "weapons": {
@@ -1872,7 +1924,11 @@
         ],
         "options": [
           {
-            "description": "May add up to two more Dreadnoughts for +157 points each Any Dreadnought may swap any Dreadnought Missile Launcher for H Any Dreadnought may take up to 2 M Any Dreadnought may take up to one of each E Any Dreadnought may each take up to one Spell per Psychic Mastery Level. These are cast by each model Independently.",
+            "description": "May add up to two more Dreadnoughts for +157 points each",
+            "choices": []
+          },
+          {
+            "description": "Any Dreadnought may swap any Dreadnought Missile Launcher",
             "choices": [
               {
                 "name": "Dreadnought Missile Launcher",
@@ -1925,16 +1981,30 @@
               {
                 "name": "Seismic Hammer and Meltagun",
                 "pts_delta": 30
-              },
+              }
+            ]
+          },
+          {
+            "description": "Any Dreadnought may take up to 2 M",
+            "choices": [
               {
                 "name": "Hunter Killer Missile",
                 "pts_delta": 5
-              },
+              }
+            ]
+          },
+          {
+            "description": "Any Dreadnought may take up to one",
+            "choices": [
               {
                 "name": "Extra Armour",
                 "pts_delta": 5
               }
             ]
+          },
+          {
+            "description": "Any Dreadnought may each take up to one Spell per Psychic Mastery Level. These are cast by each model Independently.",
+            "choices": []
           }
         ],
         "weapons": {
@@ -2098,7 +2168,11 @@
         ],
         "options": [
           {
-            "description": "May take up to 5 more Terminators for +131 points each Justicar may take up to one Spell for each Psychic Mastery Level Any model may swap Stormbolter for S Any model may swap Nemesis Force Halberd for M",
+            "description": "May take up to 5 more Terminators for +131 points each",
+            "choices": []
+          },
+          {
+            "description": "Justicar may take up to one Spell for each Psychic Mastery Level",
             "choices": [
               {
                 "name": "Psilencer",
@@ -2111,7 +2185,16 @@
               {
                 "name": "Incinerator",
                 "pts_delta": 17
-              },
+              }
+            ]
+          },
+          {
+            "description": "Any model may swap Stormbolter",
+            "choices": []
+          },
+          {
+            "description": "Any model may swap Nemesis Force Halberd",
+            "choices": [
               {
                 "name": "Nemesis Force Halberd",
                 "pts_delta": 0
@@ -2268,7 +2351,32 @@
         ],
         "options": [
           {
-            "description": "May take up to 5 more Purifiers for +57 points each Justicar may swap Krak Grenades for G Knight of the Flame may take one Spell for each Psychic Mastery Level Any model may swap Stormbolter for S Any model may swap Nemesis Force Halberd for M",
+            "description": "May take up to 5 more Purifiers for +57 points each",
+            "choices": []
+          },
+          {
+            "description": "Justicar may swap Krak Grenades",
+            "choices": [
+              {
+                "name": "Frag Grenades",
+                "pts_delta": 0
+              },
+              {
+                "name": "Krak Grenades",
+                "pts_delta": 0
+              },
+              {
+                "name": "Psykout Grenades",
+                "pts_delta": 0
+              },
+              {
+                "name": "Meltabombs",
+                "pts_delta": 5
+              }
+            ]
+          },
+          {
+            "description": "Knight of the Flame may take one Spell for each Psychic Mastery Level",
             "choices": [
               {
                 "name": "Psilencer",
@@ -2281,7 +2389,16 @@
               {
                 "name": "Incinerator",
                 "pts_delta": 17
-              },
+              }
+            ]
+          },
+          {
+            "description": "Any model may swap Stormbolter",
+            "choices": []
+          },
+          {
+            "description": "Any model may swap Nemesis Force Halberd",
+            "choices": [
               {
                 "name": "Nemesis Force Halberd",
                 "pts_delta": 0
@@ -2301,22 +2418,6 @@
               {
                 "name": "Nemesis Daemon Hammer",
                 "pts_delta": 13
-              },
-              {
-                "name": "Frag Grenades",
-                "pts_delta": 0
-              },
-              {
-                "name": "Krak Grenades",
-                "pts_delta": 0
-              },
-              {
-                "name": "Psykout Grenades",
-                "pts_delta": 0
-              },
-              {
-                "name": "Meltabombs",
-                "pts_delta": 5
               }
             ]
           }
@@ -2482,7 +2583,11 @@
         ],
         "options": [
           {
-            "description": "May take up to 5 more Knights for +55 points each Justicar may swap Stormbolter for S Justicar may swap Nemesis Force Halberd for M Justicar may swap Krak Grenades for G Justicar may take one Spell for each Psychic Mastery Level Up to two Knights may swap Stormbolter for S",
+            "description": "May take up to 5 more Knights for +55 points each",
+            "choices": []
+          },
+          {
+            "description": "Justicar may swap Stormbolter",
             "choices": [
               {
                 "name": "Psilencer",
@@ -2495,7 +2600,12 @@
               {
                 "name": "Incinerator",
                 "pts_delta": 17
-              },
+              }
+            ]
+          },
+          {
+            "description": "Justicar may swap Nemesis Force Halberd",
+            "choices": [
               {
                 "name": "Nemesis Force Halberd",
                 "pts_delta": 0
@@ -2515,7 +2625,12 @@
               {
                 "name": "Nemesis Daemon Hammer",
                 "pts_delta": 13
-              },
+              }
+            ]
+          },
+          {
+            "description": "Justicar may swap Krak Grenades",
+            "choices": [
               {
                 "name": "Frag Grenades",
                 "pts_delta": 0
@@ -2533,6 +2648,14 @@
                 "pts_delta": 5
               }
             ]
+          },
+          {
+            "description": "Justicar may take one Spell for each Psychic Mastery Level",
+            "choices": []
+          },
+          {
+            "description": "Up to two Knights may swap Stormbolter",
+            "choices": []
           }
         ],
         "weapons": {
@@ -2660,7 +2783,7 @@
         ],
         "options": [
           {
-            "description": "May swap 2 Linked Heavy Bolters for T",
+            "description": "May swap 2 Linked Heavy Bolters",
             "choices": [
               {
                 "name": "2 Linked Heavy Bolters",
@@ -2677,7 +2800,7 @@
             ]
           },
           {
-            "description": "May swap 2 Hurricane Bolters for S",
+            "description": "May swap 2 Hurricane Bolters",
             "choices": [
               {
                 "name": "2 Hurricane Bolters",
@@ -2729,7 +2852,7 @@
             ]
           },
           {
-            "description": "May take up to one of each E",
+            "description": "May take up to one",
             "choices": [
               {
                 "name": "Recovery Gear",
@@ -2856,7 +2979,7 @@
         ],
         "options": [
           {
-            "description": "May swap any Gatling Psilencer for H",
+            "description": "May swap any Gatling Psilencer",
             "choices": [
               {
                 "name": "Gatling Psilencer",
@@ -2873,7 +2996,7 @@
             ]
           },
           {
-            "description": "May swap Nemesis Greatsword for M",
+            "description": "May swap Nemesis Greatsword",
             "choices": [
               {
                 "name": "Nemesis Greatsword",
@@ -3009,7 +3132,11 @@
         ],
         "options": [
           {
-            "description": "May take up to 5 more Knights for +49 points each Justicar may swap Stormbolter for S Justicar may swap Nemesis Force Halberd for M Justicar may swap Krak Grenades for G Justicar may take one Spell for each Psychic Mastery Level Up to four Knights may swap Stormbolter for S",
+            "description": "May take up to 5 more Knights for +49 points each",
+            "choices": []
+          },
+          {
+            "description": "Justicar may swap Stormbolter",
             "choices": [
               {
                 "name": "Psilencer",
@@ -3022,7 +3149,12 @@
               {
                 "name": "Incinerator",
                 "pts_delta": 17
-              },
+              }
+            ]
+          },
+          {
+            "description": "Justicar may swap Nemesis Force Halberd",
+            "choices": [
               {
                 "name": "Nemesis Force Halberd",
                 "pts_delta": 0
@@ -3042,7 +3174,12 @@
               {
                 "name": "Nemesis Daemon Hammer",
                 "pts_delta": 13
-              },
+              }
+            ]
+          },
+          {
+            "description": "Justicar may swap Krak Grenades",
+            "choices": [
               {
                 "name": "Frag Grenades",
                 "pts_delta": 0
@@ -3060,6 +3197,14 @@
                 "pts_delta": 5
               }
             ]
+          },
+          {
+            "description": "Justicar may take one Spell for each Psychic Mastery Level",
+            "choices": []
+          },
+          {
+            "description": "Up to four Knights may swap Stormbolter",
+            "choices": []
           }
         ],
         "weapons": {
@@ -3188,7 +3333,7 @@
         ],
         "options": [
           {
-            "description": "May swap Skyhammer Missile Launcher for T",
+            "description": "May swap Skyhammer Missile Launcher",
             "choices": [
               {
                 "name": "Skyhammer Missile Launcher",
@@ -3205,7 +3350,7 @@
             ]
           },
           {
-            "description": "May swap Las Talon for S",
+            "description": "May swap Las Talon",
             "choices": [
               {
                 "name": "Las Talon",
@@ -3218,8 +3363,12 @@
             ]
           },
           {
-            "description": "May take up to one of each E",
+            "description": "May take up to one",
             "choices": [
+              {
+                "name": "Flare Launchers",
+                "pts_delta": 9
+              },
               {
                 "name": "Flare Launchers",
                 "pts_delta": 9
@@ -3311,7 +3460,7 @@
         ],
         "options": [
           {
-            "description": "May swap 2 Linked Plasma Cannons for T",
+            "description": "May swap 2 Linked Plasma Cannons",
             "choices": [
               {
                 "name": "2 Linked Plasma Cannons",
@@ -3328,7 +3477,7 @@
             ]
           },
           {
-            "description": "May swap Cyclone Missile Launcher for H",
+            "description": "May swap Cyclone Missile Launcher",
             "choices": [
               {
                 "name": "Cyclone Missile Launcher",
@@ -3362,7 +3511,7 @@
             ]
           },
           {
-            "description": "May take up to one of each E",
+            "description": "May take up to one",
             "choices": [
               {
                 "name": "Flare Launchers",
@@ -3463,7 +3612,7 @@
         ],
         "options": [
           {
-            "description": "May swap Skyhammer Missile Launcher for T",
+            "description": "May swap Skyhammer Missile Launcher",
             "choices": [
               {
                 "name": "Skyhammer Missile Launcher",
@@ -3484,8 +3633,12 @@
             ]
           },
           {
-            "description": "May take up to one of each E",
+            "description": "May take up to one",
             "choices": [
+              {
+                "name": "Flare Launchers",
+                "pts_delta": 9
+              },
               {
                 "name": "Flare Launchers",
                 "pts_delta": 9
@@ -3566,11 +3719,23 @@
         ],
         "options": [
           {
-            "description": "May take up to one of each E",
+            "description": "May take up to one",
             "choices": [
               {
                 "name": "Flare Launchers",
                 "pts_delta": 9
+              },
+              {
+                "name": "Recovery Gear",
+                "pts_delta": 2
+              },
+              {
+                "name": "Extra Armour",
+                "pts_delta": 5
+              },
+              {
+                "name": "Smoke Launchers",
+                "pts_delta": 10
               }
             ]
           }
@@ -3632,7 +3797,7 @@
         ],
         "options": [
           {
-            "description": "May swap 2 Linked Heavy Bolters for T",
+            "description": "May swap 2 Linked Heavy Bolters",
             "choices": [
               {
                 "name": "2 Linked Heavy Bolters",
@@ -3676,8 +3841,20 @@
             ]
           },
           {
-            "description": "May take up to one of each E",
+            "description": "May take up to one",
             "choices": [
+              {
+                "name": "Recovery Gear",
+                "pts_delta": 2
+              },
+              {
+                "name": "Extra Armour",
+                "pts_delta": 5
+              },
+              {
+                "name": "Smoke Launchers",
+                "pts_delta": 10
+              },
               {
                 "name": "Recovery Gear",
                 "pts_delta": 2
@@ -3798,7 +3975,7 @@
             ]
           },
           {
-            "description": "May take up to one of each E",
+            "description": "May take up to one",
             "choices": [
               {
                 "name": "Recovery Gear",
@@ -3811,6 +3988,10 @@
               {
                 "name": "Smoke Launchers",
                 "pts_delta": 10
+              },
+              {
+                "name": "Chaff Launchers",
+                "pts_delta": 18
               }
             ]
           }
@@ -3882,7 +4063,7 @@
         ],
         "options": [
           {
-            "description": "May swap Thunderhawk Heavy Cannon for T",
+            "description": "May swap Thunderhawk Heavy Cannon",
             "choices": [
               {
                 "name": "Thunderhawk Heavy Cannon",
@@ -3895,7 +4076,7 @@
             ]
           },
           {
-            "description": "May swap 2 Linked Hellstrike Missile Racks for W",
+            "description": "May swap 2 Linked Hellstrike Missile Racks",
             "choices": [
               {
                 "name": "2 Linked Hellstrike Missile Racks",
@@ -3908,8 +4089,12 @@
             ]
           },
           {
-            "description": "May take up to one of each E",
+            "description": "May take up to one",
             "choices": [
+              {
+                "name": "Chaff Launchers",
+                "pts_delta": 18
+              },
               {
                 "name": "Chaff Launchers",
                 "pts_delta": 18
@@ -4000,7 +4185,7 @@
         ],
         "options": [
           {
-            "description": "May swap 2 Linked Hellstrike Missile Racks for W",
+            "description": "May swap 2 Linked Hellstrike Missile Racks",
             "choices": [
               {
                 "name": "2 Linked Hellstrike Missile Racks",
@@ -4013,7 +4198,7 @@
             ]
           },
           {
-            "description": "May take up to one of each E",
+            "description": "May take up to one",
             "choices": [
               {
                 "name": "Chaff Launchers",
@@ -4158,7 +4343,7 @@
         ],
         "options": [
           {
-            "description": "May swap Long Lascannon for H",
+            "description": "May swap Long Lascannon",
             "choices": [
               {
                 "name": "Long Lascannon",

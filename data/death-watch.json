@@ -250,7 +250,7 @@
         ],
         "options": [
           {
-            "description": "May swap Stormbolter for R",
+            "description": "May swap Stormbolter",
             "choices": [
               {
                 "name": "Stormbolter",
@@ -287,7 +287,7 @@
             ]
           },
           {
-            "description": "May swap Bolt Pistol for P",
+            "description": "May swap Bolt Pistol",
             "choices": [
               {
                 "name": "Bolt Pistol",
@@ -316,7 +316,7 @@
             ]
           },
           {
-            "description": "May swap Combat Knife for M",
+            "description": "May swap Combat Knife",
             "choices": [
               {
                 "name": "Combat Knife",
@@ -349,7 +349,7 @@
             ]
           },
           {
-            "description": "May swap Krak Grenades for G",
+            "description": "May swap Krak Grenades",
             "choices": [
               {
                 "name": "Frag Grenades",
@@ -594,6 +594,36 @@
               {
                 "name": "Rubicon Primaris",
                 "pts_delta": 17
+              },
+              {
+                "name": "Terminator Armour",
+                "pts_delta": 7
+              },
+              {
+                "name": "Jump Pack",
+                "pts_delta": 20
+              },
+              {
+                "name": "Bike",
+                "pts_delta": 34
+              }
+            ]
+          },
+          {
+            "description": "May take Stormshield",
+            "choices": [
+              {
+                "name": "Stormshield",
+                "pts_delta": 12
+              }
+            ]
+          },
+          {
+            "description": "May take Chapter Master",
+            "choices": [
+              {
+                "name": "Chapter Master",
+                "pts_delta": 140
               }
             ]
           }
@@ -681,7 +711,7 @@
         ],
         "options": [
           {
-            "description": "May swap Stormbolter for R or A",
+            "description": "May swap Stormbolter",
             "choices": [
               {
                 "name": "Stormbolter",
@@ -714,7 +744,7 @@
             ]
           },
           {
-            "description": "May swap Bolt Pistol for P",
+            "description": "May swap Bolt Pistol",
             "choices": [
               {
                 "name": "Bolt Pistol",
@@ -739,7 +769,7 @@
             ]
           },
           {
-            "description": "May swap Combat Knife for M",
+            "description": "May swap Combat Knife",
             "choices": [
               {
                 "name": "Combat Knife",
@@ -792,7 +822,7 @@
             ]
           },
           {
-            "description": "May swap Krak Grenades for G",
+            "description": "May swap Krak Grenades",
             "choices": [
               {
                 "name": "Frag Grenades",
@@ -1231,7 +1261,26 @@
           "Frag Grenades",
           "Krak Grenades"
         ],
-        "options": [],
+        "options": [
+          {
+            "description": "May take Extra Armour",
+            "choices": [
+              {
+                "name": "Extra Armour",
+                "pts_delta": 5
+              }
+            ]
+          },
+          {
+            "description": "May take Smoke Launchers",
+            "choices": [
+              {
+                "name": "Smoke Launchers",
+                "pts_delta": 10
+              }
+            ]
+          }
+        ],
         "weapons": {
           "Special Issue Stormbolter": {
             "range": "30",
@@ -1303,20 +1352,24 @@
         ],
         "options": [
           {
-            "description": "May take Extra Armour",
+            "description": "Nihilus may take up to one",
             "choices": [
               {
                 "name": "Extra Armour",
                 "pts_delta": 5
+              },
+              {
+                "name": "Smoke Launchers",
+                "pts_delta": 10
               }
             ]
           },
           {
-            "description": "May take Smoke Launchers",
+            "description": "May take Storm Shield",
             "choices": [
               {
-                "name": "Smoke Launchers",
-                "pts_delta": 10
+                "name": "Storm Shield",
+                "pts_delta": 24
               }
             ]
           }
@@ -1411,7 +1464,11 @@
         ],
         "options": [
           {
-            "description": "May take up to 5 more Terminators for +127 points each Any model may swap Stormbolter for S, A, or a Lightning Claw Any model may swap Power Sword for M",
+            "description": "May take up to 5 more Terminators for +127 points each",
+            "choices": []
+          },
+          {
+            "description": "Any model may swap Stormbolter for S, A, or a Lightning Claw",
             "choices": [
               {
                 "name": "Heavy Flamer",
@@ -1429,6 +1486,15 @@
                 "name": "Assault Cannon",
                 "pts_delta": 39
               },
+              {
+                "name": "Storm Shield",
+                "pts_delta": 24
+              }
+            ]
+          },
+          {
+            "description": "Any model may swap Power Sword",
+            "choices": [
               {
                 "name": "Power Sword",
                 "pts_delta": 0
@@ -1448,10 +1514,15 @@
               {
                 "name": "Thunderhammer",
                 "pts_delta": 23
-              },
+              }
+            ]
+          },
+          {
+            "description": "May take Flare Launchers",
+            "choices": [
               {
-                "name": "Storm Shield",
-                "pts_delta": 24
+                "name": "Flare Launchers",
+                "pts_delta": 9
               }
             ]
           }
@@ -1562,7 +1633,7 @@
         ],
         "options": [
           {
-            "description": "May swap 2 Linked Lascannons for T",
+            "description": "May swap 2 Linked Lascannons",
             "choices": [
               {
                 "name": "2 Linked Lascannons",
@@ -1575,7 +1646,7 @@
             ]
           },
           {
-            "description": "May swap 2 Linked Blackstar Rocket Launchers for W",
+            "description": "May swap 2 Linked Blackstar Rocket Launchers",
             "choices": [
               {
                 "name": "2 Linked Blackstar Rocket Launchers",
@@ -1597,7 +1668,7 @@
             ]
           },
           {
-            "description": "May take up to one of each E",
+            "description": "May take up to one",
             "choices": [
               {
                 "name": "Flare Launchers",

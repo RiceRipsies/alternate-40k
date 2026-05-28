@@ -78,8 +78,30 @@
         "fixed_wargear": [],
         "options": [
           {
-            "description": "May take up to 2 Drones for +10 points each Arra'kon may take up to one of each E Any Drone may swap Marker Light for D or F",
-            "choices": []
+            "description": "May take up to 2 Drones for +10 points each Arra'kon may take up to one",
+            "choices": [
+              {
+                "name": "Black Sun Filters",
+                "pts_delta": 2
+              },
+              {
+                "name": "Vectored Thrusters",
+                "pts_delta": 4
+              },
+              {
+                "name": "Positional Relay",
+                "pts_delta": 5
+              }
+            ]
+          },
+          {
+            "description": "Any Drone may swap Marker Light",
+            "choices": [
+              {
+                "name": "Shield Generator",
+                "pts_delta": 6
+              }
+            ]
           }
         ],
         "weapons": {}

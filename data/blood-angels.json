@@ -151,7 +151,17 @@
           "Krak Grenades",
           "Iron Halo"
         ],
-        "options": [],
+        "options": [
+          {
+            "description": "May take Rubicon Primaris",
+            "choices": [
+              {
+                "name": "Rubicon Primaris",
+                "pts_delta": 17
+              }
+            ]
+          }
+        ],
         "weapons": {
           "Blood Song And": {
             "range": "12",
@@ -397,11 +407,21 @@
         "options": [
           {
             "description": "May take one A",
-            "choices": []
+            "choices": [
+              {
+                "name": "Jump Pack",
+                "pts_delta": 20
+              }
+            ]
           },
           {
             "description": "May take one B Target unit suffers T-1 until your next Psychic Phase Target unit gains T+1 until your next Psychic Phase Assault 1, Armourbane, Beam",
-            "choices": []
+            "choices": [
+              {
+                "name": "Rubicon Primaris",
+                "pts_delta": 17
+              }
+            ]
           }
         ],
         "weapons": {
@@ -491,6 +511,10 @@
               {
                 "name": "Power Fist",
                 "pts_delta": 3
+              },
+              {
+                "name": "Rubicon Primaris",
+                "pts_delta": 17
               }
             ]
           }
@@ -583,6 +607,10 @@
               {
                 "name": "Rubicon Primaris",
                 "pts_delta": 17
+              },
+              {
+                "name": "Jump Pack",
+                "pts_delta": 20
               }
             ]
           }
@@ -838,7 +866,11 @@
         ],
         "options": [
           {
-            "description": "May take up to 4 Veterans for +58 points each Any Veteran may swap Bolt Pistol for P Any Veteran may swap Chainsword for M",
+            "description": "May take up to 4 Veterans for +58 points each",
+            "choices": []
+          },
+          {
+            "description": "Any Veteran may swap Bolt Pistol",
             "choices": [
               {
                 "name": "Bolt Pistol",
@@ -851,7 +883,12 @@
               {
                 "name": "Inferno Pistol",
                 "pts_delta": 24
-              },
+              }
+            ]
+          },
+          {
+            "description": "Any Veteran may swap Chainsword",
+            "choices": [
               {
                 "name": "Chainsword",
                 "pts_delta": 0
@@ -998,7 +1035,28 @@
         ],
         "options": [
           {
-            "description": "May take up to 5 more Guards for +67 points each Sergeant may swap Krak Grenades for G Any model may swap Bolt Angelus Bolt Gun for P Any model may swap Power Sword for M",
+            "description": "May take up to 5 more Guards for +67 points each",
+            "choices": []
+          },
+          {
+            "description": "Sergeant may swap Krak Grenades",
+            "choices": [
+              {
+                "name": "Frag Grenades",
+                "pts_delta": 0
+              },
+              {
+                "name": "Krak Grenades",
+                "pts_delta": 0
+              },
+              {
+                "name": "Meltabombs",
+                "pts_delta": 5
+              }
+            ]
+          },
+          {
+            "description": "Any model may swap Bolt Angelus Bolt Gun",
             "choices": [
               {
                 "name": "Angelus Bolt Gun",
@@ -1015,7 +1073,12 @@
               {
                 "name": "Inferno Pistol",
                 "pts_delta": 22
-              },
+              }
+            ]
+          },
+          {
+            "description": "Any model may swap Power Sword",
+            "choices": [
               {
                 "name": "Power Sword",
                 "pts_delta": 0
@@ -1031,18 +1094,6 @@
               {
                 "name": "Power Fist",
                 "pts_delta": 7
-              },
-              {
-                "name": "Frag Grenades",
-                "pts_delta": 0
-              },
-              {
-                "name": "Krak Grenades",
-                "pts_delta": 0
-              },
-              {
-                "name": "Meltabombs",
-                "pts_delta": 5
               }
             ]
           }

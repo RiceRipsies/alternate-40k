@@ -93,6 +93,10 @@
               {
                 "name": "Rubicon Primaris",
                 "pts_delta": 14
+              },
+              {
+                "name": "Rubicon Primaris",
+                "pts_delta": 17
               }
             ]
           }
@@ -179,7 +183,12 @@
         "options": [
           {
             "description": "May take one B",
-            "choices": []
+            "choices": [
+              {
+                "name": "Rubicon Primaris",
+                "pts_delta": 17
+              }
+            ]
           }
         ],
         "weapons": {
@@ -278,6 +287,15 @@
               {
                 "name": "True Sight",
                 "pts_delta": 50
+              }
+            ]
+          },
+          {
+            "description": "May take Rubicon Primaris",
+            "choices": [
+              {
+                "name": "Rubicon Primaris",
+                "pts_delta": 14
               }
             ]
           }
@@ -544,6 +562,27 @@
         ],
         "options": [
           {
+            "description": "Titus may swap Boltgun",
+            "choices": [
+              {
+                "name": "Boltgun",
+                "pts_delta": 0
+              },
+              {
+                "name": "Bolt Rifle",
+                "pts_delta": 2
+              }
+            ]
+          },
+          {
+            "description": "Titus may take one B",
+            "choices": []
+          },
+          {
+            "description": "Titus may take one C",
+            "choices": []
+          },
+          {
             "description": "May take Gadriel for +203 points",
             "choices": []
           },
@@ -560,7 +599,11 @@
             "choices": []
           },
           {
-            "description": "May take Kornelius for +87 points Kornelius may purchase one Spell",
+            "description": "May take Kornelius for +87 points",
+            "choices": []
+          },
+          {
+            "description": "Kornelius may purchase one Spell",
             "choices": []
           },
           {
@@ -691,7 +734,53 @@
           }
         ],
         "fixed_wargear": [],
-        "options": [],
+        "options": [
+          {
+            "description": "Marneus Calgar may take one B",
+            "choices": []
+          },
+          {
+            "description": "Marneus Calgar may take Maximus as a Dedicated Transport for +325 points",
+            "choices": []
+          },
+          {
+            "description": "Maximus may swap 2 Linked Heavy Bolters",
+            "choices": []
+          },
+          {
+            "description": "Maximus may swap 2 Hurricane Bolters",
+            "choices": []
+          },
+          {
+            "description": "Maximus may take one D",
+            "choices": []
+          },
+          {
+            "description": "Maximus may take one M",
+            "choices": []
+          },
+          {
+            "description": "Maximus may take one P",
+            "choices": []
+          },
+          {
+            "description": "Maximus may take up to one",
+            "choices": [
+              {
+                "name": "Extra Armour",
+                "pts_delta": 5
+              },
+              {
+                "name": "Frag Launchers",
+                "pts_delta": 10
+              },
+              {
+                "name": "Smoke Launchers",
+                "pts_delta": 10
+              }
+            ]
+          }
+        ],
         "weapons": {}
       },
       {

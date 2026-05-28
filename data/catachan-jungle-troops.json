@@ -119,26 +119,98 @@
         "fixed_wargear": [],
         "options": [
           {
-            "description": "May take Vox Caster",
+            "description": "Any Veteran or Heavy Weapon",
             "choices": [
+              {
+                "name": "Heavy Flamer",
+                "pts_delta": 0
+              },
+              {
+                "name": "Mortar",
+                "pts_delta": 0
+              },
+              {
+                "name": "Heavy Bolter",
+                "pts_delta": 2
+              },
+              {
+                "name": "Multilaser",
+                "pts_delta": 2
+              },
+              {
+                "name": "Heavy Mortar",
+                "pts_delta": 6
+              },
+              {
+                "name": "Autocannon",
+                "pts_delta": 6
+              },
+              {
+                "name": "2 Linked Heavy Stubbers",
+                "pts_delta": 11
+              },
+              {
+                "name": "Missile Launcher",
+                "pts_delta": 12
+              },
+              {
+                "name": "Lascannon",
+                "pts_delta": 14
+              }
+            ]
+          },
+          {
+            "description": "Team may swap their Lasgun",
+            "choices": [
+              {
+                "name": "Lasgun",
+                "pts_delta": 0
+              },
+              {
+                "name": "Shotgun",
+                "pts_delta": 1
+              },
+              {
+                "name": "Laspistol",
+                "pts_delta": 0
+              }
+            ]
+          },
+          {
+            "description": "Any Veteran may take an E upgrade or swap their Lasgun for any S",
+            "choices": [
+              {
+                "name": "Sniper Rifle",
+                "pts_delta": 6
+              },
+              {
+                "name": "Flamer",
+                "pts_delta": 7
+              },
+              {
+                "name": "Grenade Launcher",
+                "pts_delta": 8
+              },
+              {
+                "name": "Plasma Gun",
+                "pts_delta": 9
+              },
+              {
+                "name": "Heavy Stubber",
+                "pts_delta": 10
+              },
+              {
+                "name": "Meltagun",
+                "pts_delta": 24
+              },
               {
                 "name": "Vox Caster",
                 "pts_delta": 5
-              }
-            ]
-          },
-          {
-            "description": "May take Standard",
-            "choices": [
+              },
               {
                 "name": "Standard",
                 "pts_delta": 40
-              }
-            ]
-          },
-          {
-            "description": "May take Medicae Pack",
-            "choices": [
+              },
               {
                 "name": "Medicae Pack",
                 "pts_delta": 75
@@ -146,7 +218,37 @@
             ]
           },
           {
-            "description": "May take Camo Gear",
+            "description": "One Veteran may swap their Lasgun for an ES and not take an E upgrade",
+            "choices": [
+              {
+                "name": "Heavy Flamer",
+                "pts_delta": 10
+              }
+            ]
+          },
+          {
+            "description": "Any Veteran may take one M",
+            "choices": [
+              {
+                "name": "Chainsword",
+                "pts_delta": 1
+              }
+            ]
+          },
+          {
+            "description": "2 Veterans may form a Veteran Heavy Weapon Team for +0 points The Veteran Heavy Weapon",
+            "choices": []
+          },
+          {
+            "description": "Team may swap the Heavy Flamer",
+            "choices": []
+          },
+          {
+            "description": "The entire Squad may take Krak Grenades",
+            "choices": []
+          },
+          {
+            "description": "The entire Squad may take one",
             "choices": [
               {
                 "name": "Camo Gear",

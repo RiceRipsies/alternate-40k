@@ -91,7 +91,12 @@
         "options": [
           {
             "description": "May take one B",
-            "choices": []
+            "choices": [
+              {
+                "name": "Rubicon Primaris",
+                "pts_delta": 18
+              }
+            ]
           }
         ],
         "weapons": {
@@ -178,7 +183,12 @@
         "options": [
           {
             "description": "May take one B A+1. Gain Transhuman Physiology, Stubborn. Lose Objective Secured, Grenades.",
-            "choices": []
+            "choices": [
+              {
+                "name": "Rubicon Primaris",
+                "pts_delta": 20
+              }
+            ]
           }
         ],
         "weapons": {
@@ -271,6 +281,10 @@
               {
                 "name": "Rubicon Primaris",
                 "pts_delta": 25
+              },
+              {
+                "name": "Rubicon Primaris",
+                "pts_delta": 16
               }
             ]
           }
@@ -486,7 +500,12 @@
         "options": [
           {
             "description": "May take one B",
-            "choices": []
+            "choices": [
+              {
+                "name": "Rubicon Primaris",
+                "pts_delta": 17
+              }
+            ]
           }
         ],
         "weapons": {
@@ -637,7 +656,17 @@
           }
         ],
         "fixed_wargear": [],
-        "options": [],
+        "options": [
+          {
+            "description": "Sableclaw may take up to one",
+            "choices": [
+              {
+                "name": "Extra Armour",
+                "pts_delta": 5
+              }
+            ]
+          }
+        ],
         "weapons": {}
       }
     ],
@@ -715,24 +744,12 @@
         ],
         "options": [
           {
-            "description": "May take up to 5 more Terminators for +127 points each Sergeant may swap Power Sword for DAM or M Any model may swap Stormbolter for S or E Any model may swap Power Sword for M",
+            "description": "May take up to 5 more Terminators for +127 points each",
+            "choices": []
+          },
+          {
+            "description": "Sergeant may swap Power Sword",
             "choices": [
-              {
-                "name": "Heavy Flamer",
-                "pts_delta": 6
-              },
-              {
-                "name": "Plasma Cannon",
-                "pts_delta": 11
-              },
-              {
-                "name": "Cyclone Missile Launcher and Stormbolter And",
-                "pts_delta": 25
-              },
-              {
-                "name": "Assault Cannon",
-                "pts_delta": 39
-              },
               {
                 "name": "Power Sword",
                 "pts_delta": 0
@@ -760,12 +777,41 @@
               {
                 "name": "+11",
                 "pts_delta": 0
+              }
+            ]
+          },
+          {
+            "description": "Any model may swap Stormbolter",
+            "choices": [
+              {
+                "name": "Heavy Flamer",
+                "pts_delta": 6
+              },
+              {
+                "name": "Plasma Cannon",
+                "pts_delta": 11
+              },
+              {
+                "name": "Cyclone Missile Launcher and Stormbolter And",
+                "pts_delta": 25
+              },
+              {
+                "name": "Assault Cannon",
+                "pts_delta": 39
               },
               {
                 "name": "Stormshield",
                 "pts_delta": 17
+              },
+              {
+                "name": "Censer",
+                "pts_delta": 10
               }
             ]
+          },
+          {
+            "description": "Any model may swap Power Sword",
+            "choices": []
           }
         ],
         "weapons": {
@@ -882,11 +928,15 @@
         ],
         "options": [
           {
-            "description": "May take Censer",
+            "description": "Any model may take up to one E",
             "choices": [
               {
                 "name": "Censer",
                 "pts_delta": 10
+              },
+              {
+                "name": "Stormshield",
+                "pts_delta": 17
               }
             ]
           }
@@ -977,7 +1027,24 @@
         "fixed_wargear": [],
         "options": [
           {
-            "description": "May take up to 5 more Terminators for +149 points each Sergeant may swap Power Sword for DAM or M Any model may swap Stormbolter for S or E Any model may swap Power Sword for M",
+            "description": "May take up to 5 more Terminators for +149 points each",
+            "choices": []
+          },
+          {
+            "description": "Sergeant may swap Power Sword",
+            "choices": []
+          },
+          {
+            "description": "Any model may swap Stormbolter",
+            "choices": [
+              {
+                "name": "Stormshield",
+                "pts_delta": 17
+              }
+            ]
+          },
+          {
+            "description": "Any model may swap Power Sword",
             "choices": []
           }
         ],
@@ -1061,16 +1128,12 @@
         ],
         "options": [
           {
-            "description": "May take up to seven additional Veterans for +72 points each Sergeant may swap Corvus Hammer for M Sergeant may swap Krak Grenades for G Up to three Veterans may swap Stormbolter for S One Veteran may take one C One Veteran may take one E",
+            "description": "May take up to seven additional Veterans for +72 points each",
+            "choices": []
+          },
+          {
+            "description": "Sergeant may swap Corvus Hammer",
             "choices": [
-              {
-                "name": "Ravenwing Grenade Launcher",
-                "pts_delta": 2
-              },
-              {
-                "name": "Plasma Talon",
-                "pts_delta": 6
-              },
               {
                 "name": "Combat Knife",
                 "pts_delta": 0
@@ -1098,7 +1161,12 @@
               {
                 "name": "Thunderhammer",
                 "pts_delta": 18
-              },
+              }
+            ]
+          },
+          {
+            "description": "Sergeant may swap Krak Grenades",
+            "choices": [
               {
                 "name": "Frag Grenades",
                 "pts_delta": 0
@@ -1110,12 +1178,34 @@
               {
                 "name": "Meltabombs",
                 "pts_delta": 5
+              }
+            ]
+          },
+          {
+            "description": "Up to three Veterans may swap Stormbolter",
+            "choices": [
+              {
+                "name": "Ravenwing Grenade Launcher",
+                "pts_delta": 2
               },
+              {
+                "name": "Plasma Talon",
+                "pts_delta": 6
+              }
+            ]
+          },
+          {
+            "description": "One Veteran may take one C",
+            "choices": [
               {
                 "name": "Apothecary",
                 "pts_delta": 68
               }
             ]
+          },
+          {
+            "description": "One Veteran may take one E",
+            "choices": []
           }
         ],
         "weapons": {
@@ -1252,15 +1342,36 @@
         ],
         "options": [
           {
-            "description": "May swap Icon of Old Caliban for T Any model may swap Heavy Flamer H for H Any model may take up to one of each E",
+            "description": "May swap Icon of Old Caliban",
             "choices": [
               {
                 "name": "2 Linked Heavy Plasma Cannons",
                 "pts_delta": 106
+              }
+            ]
+          },
+          {
+            "description": "Any model may swap Heavy Flamer H",
+            "choices": []
+          },
+          {
+            "description": "Any model may take up to one",
+            "choices": [
+              {
+                "name": "Extra Armour",
+                "pts_delta": 5
+              },
+              {
+                "name": "Recovery Gear",
+                "pts_delta": 2
               },
               {
                 "name": "Extra Armour",
                 "pts_delta": 5
+              },
+              {
+                "name": "Smoke Launchers",
+                "pts_delta": 10
               }
             ]
           }
@@ -1345,8 +1456,13 @@
             ]
           },
           {
-            "description": "May take up to one of each E",
-            "choices": []
+            "description": "May take up to one",
+            "choices": [
+              {
+                "name": "Flare Launchers",
+                "pts_delta": 9
+              }
+            ]
           }
         ],
         "weapons": {
@@ -1426,7 +1542,7 @@
         ],
         "options": [
           {
-            "description": "May swap Avenger Bolt Cannon for T",
+            "description": "May swap Avenger Bolt Cannon",
             "choices": [
               {
                 "name": "Avenger Bolt Cannon",
@@ -1439,7 +1555,7 @@
             ]
           },
           {
-            "description": "May take up to one of each E",
+            "description": "May take up to one",
             "choices": [
               {
                 "name": "Flare Launchers",
@@ -1515,7 +1631,7 @@
         ],
         "options": [
           {
-            "description": "May swap Avenger Bolt Cannon for T",
+            "description": "May swap Avenger Bolt Cannon",
             "choices": [
               {
                 "name": "Avenger Bolt Cannon",
@@ -1528,7 +1644,7 @@
             ]
           },
           {
-            "description": "May take up to one of each E",
+            "description": "May take up to one",
             "choices": [
               {
                 "name": "Flare Launchers",

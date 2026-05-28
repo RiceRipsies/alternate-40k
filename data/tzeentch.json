@@ -230,15 +230,6 @@
           {
             "description": "May take up to one of each Spell",
             "choices": []
-          },
-          {
-            "description": "May take of Tzeentch",
-            "choices": [
-              {
-                "name": "of Tzeentch",
-                "pts_delta": 31
-              }
-            ]
           }
         ],
         "weapons": {
@@ -368,6 +359,15 @@
           {
             "description": "May take up to one of each Spell",
             "choices": []
+          },
+          {
+            "description": "May take Disc of Tzeentch",
+            "choices": [
+              {
+                "name": "Disc of Tzeentch",
+                "pts_delta": 22
+              }
+            ]
           }
         ],
         "weapons": {
@@ -772,7 +772,11 @@
         ],
         "options": [
           {
-            "description": "May take up to 15 more Marines for +36 points each Sorcerer may swap Inferno Bolter for OR Sorcerer may swap Force Sword for M Sorcerer may take up to one Spell for each Psychic Mastery Level Up to 2 Marines may swap Inferno Bolter for S The entire unit may take one C",
+            "description": "May take up to 15 more Marines for +36 points each",
+            "choices": []
+          },
+          {
+            "description": "Sorcerer may swap Inferno Bolter",
             "choices": [
               {
                 "name": "Inferno Bolter",
@@ -785,7 +789,12 @@
               {
                 "name": "Warpflamer",
                 "pts_delta": 4
-              },
+              }
+            ]
+          },
+          {
+            "description": "Sorcerer may swap Force Sword",
+            "choices": [
               {
                 "name": "Force Sword",
                 "pts_delta": 0
@@ -797,7 +806,12 @@
               {
                 "name": "Force Stave",
                 "pts_delta": 4
-              },
+              }
+            ]
+          },
+          {
+            "description": "Sorcerer may take up to one Spell for each Psychic Mastery Level",
+            "choices": [
               {
                 "name": "Warpflamer",
                 "pts_delta": 1
@@ -807,6 +821,14 @@
                 "pts_delta": 12
               }
             ]
+          },
+          {
+            "description": "Up to 2 Marines may swap Inferno Bolter",
+            "choices": []
+          },
+          {
+            "description": "The entire unit may take one C",
+            "choices": []
           }
         ],
         "weapons": {
@@ -918,36 +940,12 @@
         ],
         "options": [
           {
-            "description": "May take up to 5 more Terminators for +88 points each Sorcerer may swap Chain Axe for M or OM Sorcerer may take up to one Spell for each Psychic Mastery Level Any model may swap Inferno Stormbolter for R or S Any model may swap Chain Axe for M The entire unit may take one C",
+            "description": "May take up to 5 more Terminators for +88 points each",
+            "choices": []
+          },
+          {
+            "description": "Sorcerer may swap Chain Axe",
             "choices": [
-              {
-                "name": "Inferno Stormbolter",
-                "pts_delta": 0
-              },
-              {
-                "name": "Lightning Claw",
-                "pts_delta": 0
-              },
-              {
-                "name": "Inferno Combi Flamer",
-                "pts_delta": 1
-              },
-              {
-                "name": "Inferno Combi Plasma",
-                "pts_delta": 6
-              },
-              {
-                "name": "Inferno Combi Melta",
-                "pts_delta": 21
-              },
-              {
-                "name": "Soulreaper Cannon",
-                "pts_delta": 9
-              },
-              {
-                "name": "Heavy Warp Flamer",
-                "pts_delta": 11
-              },
               {
                 "name": "Chain Axe",
                 "pts_delta": 0
@@ -993,6 +991,52 @@
                 "pts_delta": 11
               }
             ]
+          },
+          {
+            "description": "Sorcerer may take up to one Spell for each Psychic Mastery Level",
+            "choices": [
+              {
+                "name": "Soulreaper Cannon",
+                "pts_delta": 9
+              },
+              {
+                "name": "Heavy Warp Flamer",
+                "pts_delta": 11
+              }
+            ]
+          },
+          {
+            "description": "Any model may swap Inferno Stormbolter",
+            "choices": [
+              {
+                "name": "Inferno Stormbolter",
+                "pts_delta": 0
+              },
+              {
+                "name": "Lightning Claw",
+                "pts_delta": 0
+              },
+              {
+                "name": "Inferno Combi Flamer",
+                "pts_delta": 1
+              },
+              {
+                "name": "Inferno Combi Plasma",
+                "pts_delta": 6
+              },
+              {
+                "name": "Inferno Combi Melta",
+                "pts_delta": 21
+              }
+            ]
+          },
+          {
+            "description": "Any model may swap Chain Axe",
+            "choices": []
+          },
+          {
+            "description": "The entire unit may take one C",
+            "choices": []
           }
         ],
         "weapons": {
@@ -1148,7 +1192,11 @@
         ],
         "options": [
           {
-            "description": "May take up to 7 more Flamers for +42 points each The entire unit may take one C",
+            "description": "May take up to 7 more Flamers for +42 points each",
+            "choices": []
+          },
+          {
+            "description": "The entire unit may take one C",
             "choices": []
           }
         ],
@@ -1195,8 +1243,21 @@
         ],
         "options": [
           {
-            "description": "May take up to 7 more Screamers for +70 points each The entire unit may take one C",
+            "description": "May take up to 7 more Screamers for +70 points each",
             "choices": []
+          },
+          {
+            "description": "The entire unit may take one C",
+            "choices": []
+          },
+          {
+            "description": "May take Disc of Tzeentch",
+            "choices": [
+              {
+                "name": "Disc of Tzeentch",
+                "pts_delta": 11
+              }
+            ]
           }
         ],
         "weapons": {
@@ -1252,7 +1313,11 @@
         ],
         "options": [
           {
-            "description": "May take up to 7 more Tzaagors for +29 points each Any model may swap Divining Spear for M or R The entire unit may take one B The entire unit may take one C",
+            "description": "May take up to 7 more Tzaagors for +29 points each",
+            "choices": []
+          },
+          {
+            "description": "Any model may swap Divining Spear",
             "choices": [
               {
                 "name": "Divining Spear",
@@ -1265,12 +1330,25 @@
               {
                 "name": "Fatecaster Greatbow",
                 "pts_delta": 7
-              },
+              }
+            ]
+          },
+          {
+            "description": "The entire unit may take one B",
+            "choices": [
               {
                 "name": "Disc of Tzeentch",
                 "pts_delta": 11
+              },
+              {
+                "name": "Pink Chanter",
+                "pts_delta": 5
               }
             ]
+          },
+          {
+            "description": "The entire unit may take one C",
+            "choices": []
           }
         ],
         "weapons": {
@@ -1336,13 +1414,17 @@
             "choices": []
           },
           {
-            "description": "May take up to 3 of each B The entire unit may take one C",
+            "description": "May take up to 3",
             "choices": [
               {
                 "name": "Pink Chanter",
                 "pts_delta": 5
               }
             ]
+          },
+          {
+            "description": "The entire unit may take one C",
+            "choices": []
           }
         ],
         "weapons": {
@@ -1450,13 +1532,21 @@
         ],
         "options": [
           {
-            "description": "May take up to 4 more Robots for +107 points each Any model may swap Lightning Claw for S The entire unit may take one C",
+            "description": "May take up to 4 more Robots for +107 points each",
+            "choices": []
+          },
+          {
+            "description": "Any model may swap Lightning Claw",
             "choices": [
               {
                 "name": "Meltagun",
                 "pts_delta": 5
               }
             ]
+          },
+          {
+            "description": "The entire unit may take one C",
+            "choices": []
           }
         ],
         "weapons": {
@@ -1573,7 +1663,15 @@
         ],
         "options": [
           {
-            "description": "May take up to 2 more Lords of Change for +433 points each Each Lord of Change may take up to one Spell for each Psychic Mastery Level Any model may take one M or B The entire unit may take one C",
+            "description": "May take up to 2 more Lords of Change for +433 points each",
+            "choices": []
+          },
+          {
+            "description": "Each Lord of Change may take up to one Spell for each Psychic Mastery Level",
+            "choices": []
+          },
+          {
+            "description": "Any model may take one M",
             "choices": [
               {
                 "name": "Staff of Tzeentch",
@@ -1584,6 +1682,10 @@
                 "pts_delta": 7
               }
             ]
+          },
+          {
+            "description": "The entire unit may take one C",
+            "choices": []
           }
         ],
         "weapons": {

@@ -53,7 +53,21 @@ OPTIONS_HDR_RE   = re.compile(r'^Options\s*$', re.I)
 SP_WG_HDR_RE     = re.compile(r'^Special Wargear:\s*$', re.I)
 SP_WG_UPG_RE     = re.compile(r'^Special Wargear Upgrades:\s*$', re.I)
 UPGRADE_LINE_RE  = re.compile(r'^([A-Z]+(?:\s*\+\d+\s*points?)?)\s+(.+?)\s+\+(\d+)\s+points?', re.I)
-OPTION_LINE_RE   = re.compile(r'^May\b', re.I)
+# Capitalised May / Any starts a new option (case-sensitive — avoids matching lowercase
+# continuation lines like "may swap Boltgun" that are word-wrapped chapter-variant text).
+OPTION_LINE_RE   = re.compile(r'^(?:May|Any)\b')
+# Lines like "Sergeant(s) may swap…", "One Marine may swap…" — subject BEFORE the word "may"
+OPTION_SUBJ_RE   = re.compile(r'^\w[\w\s()]+\smay\b', re.I)
+# Chapter-specific option lines (e.g. "Any Space Wolf Dreadnought may swap...") — drop from generic codex
+# Matches any option line that mentions a specific chapter name — used to drop
+# cross-chapter variant options from parent codexes like space-marines.json.
+CHAPTER_VARIANT_RE = re.compile(
+    r'\b(?:Space\s+Wolf(?:ves)?|Blood\s+Angels?|Iron\s+Hands?|Ultramarines?|'
+    r'Dark\s+Angels?|Imperial\s+Fists?|Salamanders?|Raven\s+Guard|White\s+Scars?|'
+    r'Black\s+Templars?|Crimson\s+Fists?|Grey\s+Knights?|Deathwatch|'
+    r'Death\s+Guard|Thousand\s+Sons?)\b',
+    re.I
+)
 # Lines that are clearly weapon-table column headers or noise
 WEAPON_HDR_RE    = re.compile(r'^Selection\s*$|^Name\s*$|^Range\s*$|^AP\s*$|^Rules\s*$')
 # Lone single-letter / selection-code lines that are weapon-table rows
@@ -391,6 +405,7 @@ def parse_codex(text: str, source_name: str, weapon_tables: dict | None = None) 
 
         state = 'NONE'
         current_model_wg = None
+        in_chapter_variant = False  # True while inside a chapter-specific option block
 
         for sl in section_lines:
             # Section headers
@@ -424,11 +439,19 @@ def parse_codex(text: str, source_name: str, weapon_tables: dict | None = None) 
                     fixed_wargear.append(sl)
 
             elif state == 'OPTIONS':
-                if OPTION_LINE_RE.match(sl):
-                    options_text.append(sl)
-                # Multi-line options (continuation lines)
-                elif options_text and not sl.endswith(':'):
-                    options_text[-1] += ' ' + sl
+                is_new_opt = OPTION_LINE_RE.match(sl) or OPTION_SUBJ_RE.match(sl)
+                is_chapter = CHAPTER_VARIANT_RE.search(sl)
+                if is_new_opt:
+                    if is_chapter:
+                        in_chapter_variant = True
+                    else:
+                        in_chapter_variant = False
+                        options_text.append(sl)
+                elif not in_chapter_variant and options_text and not sl.endswith(':'):
+                    if is_chapter:
+                        in_chapter_variant = True
+                    else:
+                        options_text[-1] += ' ' + sl
 
             elif state == 'UPGRADES':
                 m = UPGRADE_LINE_RE.match(sl)
@@ -571,14 +594,37 @@ def parse_codex(text: str, source_name: str, weapon_tables: dict | None = None) 
                 if models:
                     models[current_model_idx]['rules'].append(rule_name)
 
+        # ── Post-rules scan: Special Wargear Upgrades after Points: ──────
+        # In 2-column PDFs the upgrades section may appear after "Points:" in
+        # the text stream even though it logically belongs to this unit.
+        if rules_start is not None:
+            post_state = 'NONE'
+            for ri in range(rules_start, min(rules_start + 120, n)):
+                s2 = lines[ri].strip()
+                if SP_WG_UPG_RE.match(s2):
+                    post_state = 'UPGRADES'; continue
+                if post_state == 'UPGRADES':
+                    # Stop at the next unit's stat header or slot header
+                    if STAT_HEADER_RE.match(s2) or identify_slot(lines[ri]):
+                        break
+                    m2 = UPGRADE_LINE_RE.match(s2)
+                    if m2:
+                        upgrades.append({
+                            'code': m2.group(1).strip(),
+                            'name': m2.group(2).strip(),
+                            'pts_delta': int(m2.group(3)),
+                        })
+
         # ── Determine slot ────────────────────────────────────────────────
         slot = line_slot[pi] or 'unknown'
 
         # ── Build options list for builder ────────────────────────────────
-        # Group options_text with upgrades where the letter code matches
+        # Keep original text for code matching; strip trailing codes for display
+        # e.g. "swap Boltgun for OR or A" → "swap Boltgun"
+        _CODE_TAIL_RE = re.compile(r'(?:\s+(?:for|or|of each)\s+[A-Z]{1,4})+\s*$')
         options = []
         for opt_line in options_text:
-            options.append({'description': opt_line, 'choices': []})
+            options.append({'_raw': opt_line, 'description': opt_line, 'choices': []})
 
         # Weapon table for this unit (from layout pass)
         unit_wt = (weapon_tables or {}).get(unit_name, {})
@@ -615,11 +661,18 @@ def parse_codex(text: str, source_name: str, weapon_tables: dict | None = None) 
                     matched = True
                     break
             if not matched:
-                # Create a freestanding option group for unmatched upgrades
-                options.append({
-                    'description': f'May take {upg["name"]}',
-                    'choices': [{'name': upg['name'], 'pts_delta': upg['pts_delta']}],
-                })
+                # Only create freestanding options for generic single-letter codes (A, B, E…)
+                # Multi-letter codes (SWE, BAE, SWW…) are chapter-specific and irrelevant here
+                if len(code) <= 2:
+                    options.append({
+                        'description': f'May take {upg["name"]}',
+                        'choices': [{'name': upg['name'], 'pts_delta': upg['pts_delta']}],
+                    })
+
+        # Clean option descriptions: strip trailing codes and remove _raw field
+        for opt in options:
+            opt.pop('_raw', None)
+            opt['description'] = _CODE_TAIL_RE.sub('', opt['description']).strip()
 
         weapons = {}
         for code, entries in unit_wt.items():
