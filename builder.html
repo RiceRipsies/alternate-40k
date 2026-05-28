@@ -739,21 +739,28 @@ button {
 
 .play-rules {
   display: flex;
-  flex-direction: column;
-  gap: 8px;
+  flex-wrap: wrap;
+  gap: 6px;
 }
 
 .play-rule-name {
-  font-size: 12px;
+  font-size: 11px;
   font-weight: 600;
   color: var(--text);
+  background: var(--bg4);
+  border: 1px solid var(--border);
+  border-radius: 2px;
+  padding: 2px 7px;
+  display: inline-block;
 }
 
-.play-rule-desc {
-  font-size: 11px;
-  color: var(--text-dim);
-  line-height: 1.5;
-  margin-top: 1px;
+.play-rule-name.has-desc {
+  cursor: pointer;
+  text-decoration: none;
+}
+.play-rule-name.has-desc:hover {
+  border-color: var(--gold);
+  color: var(--gold);
 }
 
 /* Weapon profiles table */
@@ -793,14 +800,6 @@ button {
   max-width: 160px;
   white-space: normal;
 }
-
-/* Clickable ability keyword */
-.play-rule-name.has-desc {
-  cursor: pointer;
-  text-decoration: underline dotted;
-  text-underline-offset: 2px;
-}
-.play-rule-name.has-desc:hover { color: var(--gold); }
 
 /* Keyword popup */
 #keyword-popup {
@@ -1723,17 +1722,25 @@ function renderPlayMode() {
             <div class="play-wargear">${wgHtml}</div>
           </div>` : ''}
           ${weaponTableHtml}
-          ${allRules.length ? `
-          <div>
-            <div class="play-section-label">Abilities</div>
-            <div class="play-rules">
-              ${allRules.map(r => `
-                <div>
-                  <span class="play-rule-name${r.description ? ' has-desc' : ''}" data-rule="${encodeURIComponent(r.name)}">${r.name}</span>
-                  ${r.description ? `<div class="play-rule-desc">${r.description}</div>` : ''}
-                </div>`).join('')}
-            </div>
-          </div>` : ''}
+          ${(() => {
+            const abilities = allRules.filter(r => r.description);
+            const keywords  = allRules.filter(r => !r.description);
+            const renderTags = rules => rules.map(r =>
+              `<span class="play-rule-name has-desc" data-rule="${encodeURIComponent(r.name)}">${r.name}</span>`
+            ).join('');
+            return [
+              abilities.length ? `
+              <div>
+                <div class="play-section-label">Abilities</div>
+                <div class="play-rules">${renderTags(abilities)}</div>
+              </div>` : '',
+              keywords.length ? `
+              <div>
+                <div class="play-section-label">Keywords</div>
+                <div class="play-rules">${renderTags(keywords)}</div>
+              </div>` : '',
+            ].join('');
+          })()}
         </div>
       </div>`;
     }).join('');
