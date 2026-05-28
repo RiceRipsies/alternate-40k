@@ -2,42 +2,190 @@
   "id": "imperial-guard",
   "name": "Imperial Guard",
   "difficulty": 3,
+  "rules": {},
   "subfactions": [
     {
-      "name": "Average"
+      "name": "Average",
+      "rules": []
     },
     {
-      "name": "Armageddon Steel Legion"
+      "name": "Armageddon Steel Legion",
+      "rules": [
+        {
+          "name": "Mechanized Infantry",
+          "description": "Infantry units gain a 5+ Cover Save the Turn they Disembark from a Transport. Forced Disembark does not provide this Save."
+        },
+        {
+          "name": "Hive City Inhabitants",
+          "description": "All Infantry suffer -1 cover save if it is not provided by a building, fortified terrain piece, or Mechanized Infantry."
+        }
+      ]
     },
     {
-      "name": "Cadian Shock"
+      "name": "Cadian Shock",
+      "rules": [
+        {
+          "name": "No Place to Call Home",
+          "description": "each model only counts as half a model for the purpose of Contesting Objectives."
+        }
+      ]
     },
     {
-      "name": "Catachan Jungle Troops"
+      "name": "Catachan Jungle Troops",
+      "rules": [
+        {
+          "name": "Carbines",
+          "description": "All Lasguns and Hotshot Lasguns are R-6."
+        },
+        {
+          "name": "Catachan Fangs",
+          "description": "All Infantry and Monstrous Infantry gain the following weapon: Catachan Fang RMelee S+1 AP- Rules None."
+        },
+        {
+          "name": "Flak Vests",
+          "description": "All Infantry and Monstrous Infantry Datasheets are Sv+1, resulting in 1 worse Armour Save except unique characters. Page 4 of 123 Jungle Grit: All T3 Infantry gain T+1. Models with Bold already have this baked into their profile."
+        }
+      ]
     },
     {
-      "name": "Death Korp of Krieg"
+      "name": "Death Korp of Krieg",
+      "rules": [
+        {
+          "name": "Trenching Tools",
+          "description": "All Infantry and Monstrous Infantry gain the following Weapon Profile; Range: Melee, S: User, AP: -, Rules: Extra Attack 1."
+        },
+        {
+          "name": "Command Dependent",
+          "description": "All models gain Stubborn, but may only perform the following actions when a HQ or Advisor Slot is within 12\u201d; Move, Advance, Charge."
+        },
+        {
+          "name": "Lucius Pattern",
+          "description": "All Lasguns use the following Weapon Profile instead of the standard Lasgun profile; Range: 24, S: 4, AP: -, Rules: Assault 1."
+        }
+      ]
     },
     {
-      "name": "Elysian Drop Troops"
+      "name": "Elysian Drop Troops",
+      "rules": [
+        {
+          "name": "Airbourne Specialists",
+          "description": "All non-Vehicle models gain the Deepstrike rule. If the model already has Deepstrike, it may reroll Deepstrike scatter dice."
+        },
+        {
+          "name": "Paratrooper Loadout",
+          "description": "each model only counts as half a model for contesting objectives."
+        },
+        {
+          "name": "Skyborne Division",
+          "description": "every model with Deepstrike or Outflank must be held in reserve during army deployment."
+        },
+        {
+          "name": "Air Superiority",
+          "description": "Lose all Heavy Support Slots and gain +1 Flyer Slot. They may not take any Lord of War that does not have High Altitude."
+        },
+        {
+          "name": "Accatran Pattern Lasgun",
+          "description": "All Lasguns are replaced with the following Weapon Profile; Range: 12, S: 3, AP: -, Rules: Assault 2."
+        }
+      ]
     },
     {
-      "name": "Mordian Iron Guard"
+      "name": "Mordian Iron Guard",
+      "rules": [
+        {
+          "name": "Hive City Inhabitants",
+          "description": "All models suffer -1 Cover Save unless it is being provided by a Building or Fortified Terrain Piece."
+        },
+        {
+          "name": "Command Dependent",
+          "description": "All models gain Stubborn, but may only perform the following actions when a HQ or Advisor Slot is within 12\u201d; Move, Advance, Charge."
+        },
+        {
+          "name": "Crowd Control",
+          "description": "All models Overwatch on a 5+. Pistols Overwatch on a 4+. Other instances of Snap Shots are still performed on a 6+."
+        },
+        {
+          "name": "Triplex Pattern Lasgun",
+          "description": "All Lasguns have the following option Weapon Profile in addition to the standard Lasgun profile; Range: 12, S:5, AP: -, Rules: Heavy 1, Gets Hot! PDF (Planetary Defense Force):"
+        }
+      ]
     },
     {
-      "name": "Praetorian Guard"
+      "name": "Praetorian Guard",
+      "rules": [
+        {
+          "name": "Command Dependent",
+          "description": "All models gain Stubborn, but may only perform the following actions when a HQ or Advisor Slot is within 12\u201d; Move, Advance, Charge."
+        }
+      ]
     },
     {
-      "name": "Tallarn Desert Raiders"
+      "name": "Tallarn Desert Raiders",
+      "rules": [
+        {
+          "name": "Like the Wind",
+          "description": "All non-vehicle models gain Stealth. Models already with Stealth gain Shroud."
+        },
+        {
+          "name": "Desert Specialists",
+          "description": "All nonvehicle Sv Stats are Sv -."
+        },
+        {
+          "name": "Strike and Fade",
+          "description": "All models automatically lose Combat Resolution."
+        }
+      ]
     },
     {
-      "name": "Tanith First and Only"
+      "name": "Tanith First and Only",
+      "rules": [
+        {
+          "name": "Camo Cloaks",
+          "description": "All Infantry models gain Stealth. This does not affect Monstrous Infantry. Page 5 of 123 Stealth Armour: All Infantry Datasheets are Sv+1, resulting in 1 worse Armour Save. This does not affect Monstrous Infantry or unique characters."
+        },
+        {
+          "name": "No Place to Call Home",
+          "description": "each model only counts as half a model for contesting objectives."
+        }
+      ]
     },
     {
-      "name": "Valhallan Ice Warriors"
+      "name": "Valhallan Ice Warriors",
+      "rules": [
+        {
+          "name": "Command Dependent",
+          "description": "All models gain Stubborn, but may only perform the following actions when a HQ or Advisor Slot is within 12\u201d; Move, Advance, Charge."
+        },
+        {
+          "name": "Poorly Equipped",
+          "description": "All Infantry and Monstrous Infantry models Sv Stats are Sv -. This does not affect unique characters."
+        },
+        {
+          "name": "Acceptable Losses",
+          "description": "Any unit may choose to test Ld to shoot into close combat with friendly models involved. If passed, they may place Flame and Blast templates over friendly models this turn. All natural rolls of a 1 to hit automatically hit a friendly unit at random involved in the melee, chosen by the owner how to allocate the wounds and saves like normal. Templates Hit all models underneath them like normal."
+        }
+      ]
     },
     {
-      "name": "Vostroyan First Born"
+      "name": "Vostroyan First Born",
+      "rules": [
+        {
+          "name": "Family Heirlooms",
+          "description": "All Infantry Sv Stats are Sv 4+."
+        },
+        {
+          "name": "Sins of the Forefathers",
+          "description": "All models suffer -1 Ld."
+        },
+        {
+          "name": "Kantrael Pattern Lasguns",
+          "description": "Replace all Lasguns profiles with the following Weapon Profile; Range: 30, S: 3, AP: -, Rules: Heavy 2"
+        },
+        {
+          "name": "A Life of Servitude",
+          "description": "each model only counts as half a model for contesting objectives. Page 6 of 123"
+        }
+      ]
     }
   ],
   "slots": {

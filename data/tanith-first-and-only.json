@@ -2,12 +2,28 @@
   "id": "tanith-first-and-only",
   "name": "Tanith First and Only",
   "difficulty": 3,
+  "rules": {},
   "subfactions": [
     {
-      "name": "Average"
+      "name": "Average",
+      "rules": []
     },
     {
-      "name": "Tanith First and Only"
+      "name": "Tanith First and Only",
+      "rules": [
+        {
+          "name": "Camo Cloaks",
+          "description": "All Infantry models gain Stealth. This does not affect Monstrous Infantry."
+        },
+        {
+          "name": "Stealth Armour",
+          "description": "All Infantry Datasheets are Sv+1, resulting in 1 worse Armour Save. This does not affect Monstrous Infantry or unique characters."
+        },
+        {
+          "name": "No Place to Call Home",
+          "description": "each model only counts as half a model for contesting objectives."
+        }
+      ]
     }
   ],
   "slots": {

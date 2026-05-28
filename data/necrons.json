@@ -2,30 +2,98 @@
   "id": "necrons",
   "name": "Necron",
   "difficulty": 1,
+  "rules": {},
   "subfactions": [
     {
-      "name": "Average"
+      "name": "Average",
+      "rules": []
     },
     {
-      "name": "Maynarkh"
+      "name": "Maynarkh",
+      "rules": [
+        {
+          "name": "Conquerors",
+          "description": "All Infantry models in this army gain Objective Secured."
+        },
+        {
+          "name": "Flayer Virus",
+          "description": "All models in this army suffer Ld-2."
+        }
+      ]
     },
     {
-      "name": "Mephrit"
+      "name": "Mephrit",
+      "rules": [
+        {
+          "name": "Leaderless",
+          "description": "Each model only counts as half a model for the purposes of Contesting and Claiming Objective Markers."
+        },
+        {
+          "name": "Infighting",
+          "description": "No unit can ever have more than one Character or Independent Character joined at any given time, or any Aura from more than one Necron Character or Independent Character affecting them at any given time. The Power of the Stars: All weapons that are not Tesla have the Rending special rule. If a model already had Rending, it may trigger on a 4+ instead of a 5+. This does not affect Auto Wounds or any other Wound that does not have a Roll To Wound. Necron Vehicles explode on a 4+ from this Dynasty."
+        }
+      ]
     },
     {
-      "name": "Nephrekh"
+      "name": "Nephrekh",
+      "rules": [
+        {
+          "name": "Abundant Precious Metals",
+          "description": "Models in this army may reroll 1s on Armour Saves."
+        },
+        {
+          "name": "Yearn for Pure Light Forms",
+          "description": "All models gain Fleet but cannot Claim or Contest Objective Markers."
+        }
+      ]
     },
     {
-      "name": "Nihilakh"
+      "name": "Nihilakh",
+      "rules": [
+        {
+          "name": "Treasure Horde",
+          "description": "All models in your army have Objective Secured for Objective Markers within your Deployment Zone."
+        },
+        {
+          "name": "Isolationists",
+          "description": "Your models cannot Claim or Contest Objective Markers inside the Enemy Deployment Zone."
+        }
+      ]
     },
     {
-      "name": "Novokh"
+      "name": "Novokh",
+      "rules": [
+        {
+          "name": "Blood Crazed",
+          "description": "All models in your army gain Shock Assault and Furious Charge. This does not affect Unique Characters."
+        }
+      ]
     },
     {
-      "name": "Szarekhan"
+      "name": "Szarekhan",
+      "rules": [
+        {
+          "name": "Dark Origins",
+          "description": "All models have I1, regardless of their Datasheet. Unique Characters are not affected by this."
+        },
+        {
+          "name": "Blackstone Experts",
+          "description": "Each unit of Infantry may attempt to Deny the Witch once per Round."
+        }
+      ]
     },
     {
-      "name": "Sautekh"
+      "name": "Sautekh",
+      "rules": [
+        {
+          "name": "Aggressive Territory Grab",
+          "description": "Models count as 2 models for the purposes of Contesting and Claiming Objective Markers that are not in an enemy Deployment Zone. Units eligible to declare charges must do so. They may still nominate to fire their weapons or advance, even if this invalidates the chance to Declare a Charge."
+        },
+        {
+          "name": "Slavers",
+          "description": "Characters and Independent Characters must accept all Challenges issued. If more than one eligible model is available, you may nominate which one accepts the Challenge."
+        }
+      ]
     }
   ],
   "slots": {

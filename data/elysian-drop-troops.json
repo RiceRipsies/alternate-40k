@@ -2,12 +2,36 @@
   "id": "elysian-drop-troops",
   "name": "Elysian Drop Troops",
   "difficulty": 3,
+  "rules": {},
   "subfactions": [
     {
-      "name": "Average"
+      "name": "Average",
+      "rules": []
     },
     {
-      "name": "Elysian Drop Troops"
+      "name": "Elysian Drop Troops",
+      "rules": [
+        {
+          "name": "Airbourne Specialists",
+          "description": "All non-Vehicle models gain the Deepstrike rule. If the model already has Deepstrike, it may reroll Deepstrike scatter dice."
+        },
+        {
+          "name": "Paratrooper Loadout",
+          "description": "each model only counts as half a model for contesting objectives."
+        },
+        {
+          "name": "Skyborne Division",
+          "description": "every model with Deepstrike or Outflank must be held in reserve during army deployment."
+        },
+        {
+          "name": "Air Superiority",
+          "description": "Lose all Heavy Support Slots and gain +1 Flyer Slot. They may not take any Lord of War that does not have High Altitude."
+        },
+        {
+          "name": "Accatran Pattern Lasgun",
+          "description": "All Lasguns are replaced with the following Weapon Profile; Range: 12, S: 3, AP: -, Rules: Assault 2."
+        }
+      ]
     }
   ],
   "slots": {

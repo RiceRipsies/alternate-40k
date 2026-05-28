@@ -2,21 +2,66 @@
   "id": "chaos-undivided",
   "name": "Chaos Undivided",
   "difficulty": 1,
+  "rules": {
+    "Daemonic": "This model has a 5+ Invulnerability Save.",
+    "Daemonic Engine": "This model has a 5+ Invulnerability Save and is immune to the secondary effects of Weapon Disabled and Crew Stun. It still takes the additional Wounds from the Penetration Charts.",
+    "Daemonic Thirst": "A weapon with this rule inflicts a Mortal Wound on its bearer in each of your Command Phases if you did not cause a Wound with the weapon during the last Turn. This does not trigger on Turn 1.",
+    "Malicious Volleys": "If this model does not count as Moving this Turn, it may treat weapons with the Bolter rule as if they were in half range.",
+    "Marks": "Marks of Chaos are optional upgrades for units. Marks perform the following enhancements to units. Stats in Bold have this baked into the profile. Psychic Mastery Level # models and units may only use the corresponding spell list with their Marks.",
+    "Mark of Khorne": "This model gains A+1 and Furious Charge. Khorne Spell List. Khorne Spells use the Sacrifice mechanic to cast. Instead of rolling to cast, a Khorne Caster spends a number of Skulls to meet the Sacrifice # requirement. Deny the Witch does not work on Sacrifice rituals. A Caster starts the game with a number of Skulls equal to their Psychic Mastery Level. They gain one Skull for each model they slay (not their unit), and may sacrifice friendly models for one Skull each within 6\u201d. Khorne Spell List S +5 points Bloodgorge User This model gains A+3, but each Sacrifice 3 roll of a 1 To Hit inflicts 1 Mortal Wound. Lasts until your next Psychic Phase. S +5 points Warp Gateway Sacrifice 2 - - S +22 points Blood Torrent Sacrifice 1 Hatred of Magick Sacrifice 1/die - - User - - S +26 points Ascension Sacrifice 30 User - - S +57 points Tear in Reality Sacrifice 10 - - S +25 points Target unit may declare Charges on the turn they arrived from Reserves. Target unit gains Shroud This model may roll 1 extra Deny the Witch dice per Sacrifice paid until your next Psychic Phase. These dice may only be used once each, but this model may Deny the Witch unlimited times with the default 2 dice for free. This model gains M+2, S+2, T+2, W+2, I+2, A+2, and is fully Healed. A model may only be ascended once. Summon 10 Bloodletters as if they had just arrived from Deepstrike, but they do not Scatter. This cannot be Cast on Turn 1.",
+    "Mark of Nurgle": "This model gains a 5+ Feel No Pain. This is an exception to the rule that prevents Vehicle\u2019s from gaining Feel No Pain. Nurgle Spell List. Nurgle Spell List S +4 points Plague Wind 4+ Assault 1, 5\u201d Blast, Poisoned Cast 7+ (3+) S +15 points Gift of Contagion 18 Target unit suffers S-1 until Cast 8+ your next Psychic Phase. S +20 points Miasma of Target unit with the Mark of Pestilence Nurgle inflicts -1 To Hit them Cast 7+ from Ranged Attacks until your next Psychic Phase. S +30 points Curse of the * Assault 6, For each successful Leper Hit, target unit takes a Cast 8+ Toughness Test. For each one Failed, they suffer 1 Mortal Wound. S +30 points Gift of Plagues Target unit suffers T-1 until Cast 7+ your next Psychic Phase. S +80 points Putrescent Vitality - -",
+    "Mark of Slaanesh": "This model gains I+1 and Counterattack. Slaanesh Spell List. Slaanesh Spell List S +10 points Phantasmgoria Cast 6+ S +15 points Cacophonic Choir Cast 8+ S +25 points Pavane of Slaanesh Cast 6+ S +30 points Symphony of Pain Cast 8+ S +45 points Hysterical Frenzy 18 Cast 7+ S +75 points Delightful Agonies Cast 7+ Target unit with the Mark of Nurgle gains S+1 and T+1 until your next Psychic Phase. Target unit suffers Ld-2. Target unit takes a Ld test. For each point they fail by the unit suffers 1 Mortal Wound. Target unit may move up to 6\u201d. Target unit suffers -1 To Hit until your next Psychic Phase. Target unit gains A+1 until your next Psychic Phase. Target unit with the Mark of Slaanesh gains a 5+ Feel No Pain until your next Psychic Phase.",
+    "Mark of Tzeentch": "This model gains a 5+ Invulnerability Save, or improves their Invulnerability Save by -1 (Improves by 1) to a maximum of 4+. When interacting with situational Invulnerability Saves such as Flare Launchers or Void Shields this ability only applies to the situational benefit and does not apply normally. If a model already has a 4+ Invulnerability Save, it instead may reroll 1s for Invulnerability Saves. Tzeentch Spell List. Tzeentch Spell List S +10 points Infernal Target unit with the Mark of Gateway Tzeentch immediately deploys Cast 6+ out of Reserves within 18\u201d of the Caster. This can happen on Turn 1. S +14 points Boon of Change Cast 6+ - - S +15 points Treason of Tzeentch Cast Target W+ - - S +20 points Bolt of Change Cast 8+ 2+ S +20 points Gaze of Fate Cast 6+ User - - S +45 points Flickering Flames 18 Cast 7+ - - Target model gains S+1, T+1, A+1 until your next Psychic Phase. Target model becomes under your control and performs their Melee or Ranged attack, treating friendly units as enemies. The Cast value for this is the target model\u2019s remaining W, and cannot target a Titanic model. You must declare the target before rolling to Cast. Assault 1, Sniper (2+), If target Independent Character dies, place a Chaos Spawn (no upgrades) in their place. If they were part of a unit, the unit is considered to be in Ongoing Melee and Engaged. This model may reroll 1 die each time it rolls any dice until your next Psychic Phase. Target unit with the Mark of Tzeentch gains Accurate until your next Psychic Phase.",
+    "Undivided": "One unit in your army may take a Pure Blessing, even if you do not have a full army of the correct Mark. Hereticus Spell List. Models with no mark also cast with this spell list. Hereticus Spell List S +10 points Infernal Gaze 3+ Assault 1, Beam Cast 7+ S +10 points Wreathing Target unit suffers -1 to Cover Shadows Saves until your next Psychic Cast 7+ Phase. S +15 points Prescience Target unit may reroll 1s To Hit Cast 7+ until your next Psychic Phase. If they can already reroll 1s To Hit they reroll 2s To Hit instead. S +20 points Pall of Despair Target unit suffers Ld-2 until Cast 7+ your next Psychic Phase. S +45 points S +60 points Dark Smoke Cast 6+ Diabolic Strength Cast 7+ - - - - Target unit gains Shroud until your next Psychic Phase. Target unit gains S+1 until your next Psychic Phase.",
+    "Pure Blessings": "Pure Blessings of Chaos are an added layer of enhancement. Most models will only gain access to Pure Blessings if they come with a Mark by default. The only way to gain a Pure Blessing is to have an entire army of the Mark of the same god, or to have an Undivided Mark for each exception. The Pure Blessing adds to the existing Mark\u2019s benefits. For example, a Mark of Khorne grants A+1 and the Pure Blessing results in A+1 for a total of A+2. Other Pure Blessings of the same army count as Marks of the same god for the purpose of army building. Stats in Bold have this baked into the profile.",
+    "Pure Blessing of Khorne": "This model gains A+1.",
+    "Pure Blessing of Nurgle": "This model or unit gains Living Rot. In each of your Command Phases, this model or unit Heals one Wound. If the model is fully Healed, the unit gains one lost model back at one Wound remaining. A unit cannot exceed its original starting size from the army roster this way. This an exception to the rule that prevents Vehicles from Healing.",
+    "Pure Blessing of Slaanesh": "This model gains I+2 and Fleet. Pure Blessing of Tzeentch \u2013This model or unit ignores the first Wound suffered in each Phase after Saves and Feel No Pains."
+  },
   "subfactions": [
     {
-      "name": "Average"
+      "name": "Average",
+      "rules": []
     },
     {
-      "name": "Alpha Legion"
+      "name": "Alpha Legion",
+      "rules": [
+        {
+          "name": "Deception Experts",
+          "description": "All units in your army gain Infiltrate. If they already had Infiltrate, they gain Scout."
+        },
+        {
+          "name": "Undivided",
+          "description": "Your Warlord must have the Mark of Undivided."
+        }
+      ]
     },
     {
-      "name": "Black Legion"
+      "name": "Black Legion",
+      "rules": [
+        {
+          "name": "Undivided",
+          "description": "Your Warlord must have the Mark of Undivided."
+        }
+      ]
     },
     {
-      "name": "Crimson Slaughter"
+      "name": "Crimson Slaughter",
+      "rules": [
+        {
+          "name": "Undivided",
+          "description": "Your Warlord must have the Mark of Undivided."
+        }
+      ]
     },
     {
-      "name": "Iron Warriors"
+      "name": "Iron Warriors",
+      "rules": [
+        {
+          "name": "Pride of the Breaker",
+          "description": "When targeting enemy units, if they are in a Terrain Feature or"
+        }
+      ]
     }
   ],
   "slots": {

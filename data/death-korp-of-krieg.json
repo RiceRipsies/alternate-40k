@@ -2,12 +2,28 @@
   "id": "death-korp-of-krieg",
   "name": "Death Korp of Krieg",
   "difficulty": 3,
+  "rules": {},
   "subfactions": [
     {
-      "name": "Average"
+      "name": "Average",
+      "rules": []
     },
     {
-      "name": "Death Korp of Krieg"
+      "name": "Death Korp of Krieg",
+      "rules": [
+        {
+          "name": "Trenching Tools",
+          "description": "All Infantry and Monstrous Infantry gain the following Weapon Profile; Range: Melee, S: User, AP: -, Rules: Extra Attack 1."
+        },
+        {
+          "name": "Command Dependent",
+          "description": "All models gain Stubborn, but may only perform the following actions when a HQ or Advisor Slot is within 12\u201d; Move, Advance, Charge."
+        },
+        {
+          "name": "Lucius Pattern",
+          "description": "All Lasguns use the following Weapon Profile instead of the standard Lasgun profile; Range: 24, S: 4, AP: -, Rules: Assault 1."
+        }
+      ]
     }
   ],
   "slots": {

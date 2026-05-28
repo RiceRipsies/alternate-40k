@@ -2,18 +2,70 @@
   "id": "traitor-guard",
   "name": "Traitor Guard",
   "difficulty": 1,
+  "rules": {
+    "Daemonic Thirst": "A weapon with this rule inflicts a Mortal Wound on its bearer in each of your Command Phases if you did not cause a Wound with the weapon during the last Turn. This does not trigger on Turn 1.",
+    "Grinding Advance": "This model counts as not moving when firing Ordnance weapons.",
+    "Insanity": "A model with Insanity will never Flee, Go to Ground, or perform the regular behavior for failing a Ld Test. Instead, it MUST move its full Movement towards the closest enemy model in their Movement Phase, or as close as it can. In the Shooting Phase, it must fire with its weapons at the closest enemy model unless this would prevent it from declaring a legal charge during the Assault Phase. If it is out of range of both weapons and 12\u201d for declaring Charges, it will Advance instead towards this model. In the Assault Phase, it must declare a Charge if able against the closest enemy model. In addition, this unit suffers -1 To Hit once it has fallen to its Insanity. This lasts until the end of the game. If a High-Altitude capable model suffers from Insanity it will spend its next movement (even if it is less than legally allowed) going to the closest enemy model it can reach. It then suffers Crash and Burn as if it had been destroyed. If it cannot reach an enemy model, it performs Crash and Burn in place instead. In either case, remove all remaining Wounds from its profile and it is considered Destroyed by whatever source caused Insanity to trigger.",
+    "Limited Ammo": "This model may not make Overwatch attacks or Snap Shots.",
+    "Marks": "Marks of Chaos are optional upgrades for units. Marks perform the following enhancements to units. Stats in Bold have this baked into the profile. Psychic Mastery Level # models and units may only use the corresponding spell list with their Marks.",
+    "Mark of Khorne": "This model gains A+1 and Furious Charge.",
+    "Mark of Nurgle": "This model gains a 5+ Feel No Pain. This is an exception to the rule that prevents Vehicle\u2019s from gaining Feel No Pain.",
+    "Mark of Slaanesh": "This model gains I+1 and Counterattack.",
+    "Mark of Tzeentch": "This model gains a 5+ Invulnerability Save, or improves their Invulnerability Save by -1 (Improves by 1) to a maximum of 4+. When interacting with situational Invulnerability Saves such as Flare Launchers or Void Shields this ability only applies to the situational benefit and does not apply normally. If a model already has a 4+ Invulnerability Save, it instead may reroll 1s for Invulnerability Saves.",
+    "Undivided": "One unit in your army may take a Pure Blessing, even if you do not have a full army of the correct Mark.",
+    "Poor Maintenance": "In each of your Command Phases, roll a d6 for each unit with this rule in your army. On a 1, the unit must decide if it will Move or Shoot this turn. If elected to Move, it may Advance and Fall Back this turn but cannot Shoot or Charge. If elected to Shoot, it may Shoot in the Shooting Phase, but cannot Move, Advance, Charge, or Fall Back. High Altitude models MUST always move and can never opt to Shoot instead of Move because of Poor Maintenance.",
+    "Reliable": "This weapon ignores the Limited Ammo rule."
+  },
   "subfactions": [
     {
-      "name": "Average"
+      "name": "Average",
+      "rules": []
     },
     {
-      "name": "Blood Pact"
+      "name": "Blood Pact",
+      "rules": [
+        {
+          "name": "Disciplined",
+          "description": "All models in your army gain Ld+1."
+        },
+        {
+          "name": "Followers of Khorne",
+          "description": "All models in your army must have the Mark of Khorne."
+        },
+        {
+          "name": "Renegades",
+          "description": "all models in your army only count as half a model for Contesting Objectives. Moebian 6th:"
+        },
+        {
+          "name": "Followers of Nurgle",
+          "description": "All models in your army must have the Mark of Nurgle."
+        },
+        {
+          "name": "Heavily Tainted",
+          "description": "All Infantry models from the Traitor Guard supplement in your army gain T+1, but suffer M-1."
+        }
+      ]
     },
     {
-      "name": "Traitor PDF"
+      "name": "Traitor PDF",
+      "rules": []
     },
     {
-      "name": "Vraksian Renegade Militia"
+      "name": "Vraksian Renegade Militia",
+      "rules": [
+        {
+          "name": "Calculated Defenses",
+          "description": "Models in your army cannot Claim or Contest Objectives in the enemy Deployment Zone."
+        },
+        {
+          "name": "Dug In",
+          "description": "All models in your army gain Stealth and all Infantry gain Objective Secured so long as they are in your Deployment Zone."
+        },
+        {
+          "name": "Followers of Undivided",
+          "description": "Your Warlord must have the Mark of Undivided. Your army may include models from The Faithless Warband."
+        }
+      ]
     }
   ],
   "slots": {

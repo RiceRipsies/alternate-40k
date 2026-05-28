@@ -2,12 +2,28 @@
   "id": "valhallan-ice-warriors",
   "name": "Valhallan Ice Warriors",
   "difficulty": 3,
+  "rules": {},
   "subfactions": [
     {
-      "name": "Average"
+      "name": "Average",
+      "rules": []
     },
     {
-      "name": "Valhallan Ice Warriors"
+      "name": "Valhallan Ice Warriors",
+      "rules": [
+        {
+          "name": "Command Dependent",
+          "description": "All models gain Stubborn, but may only perform the following actions when a HQ or Advisor Slot is within 12\u201d; Move, Advance, Charge."
+        },
+        {
+          "name": "Poorly Equipped",
+          "description": "All Infantry and Monstrous Infantry models Sv Stats are Sv -. This does not affect unique characters."
+        },
+        {
+          "name": "Acceptable Losses",
+          "description": "Any unit may choose to test Ld to shoot into close combat with friendly models involved. If passed, they may place Flame and Blast templates over friendly models this turn. All natural rolls of a 1 to hit automatically hit a friendly unit at random involved in the melee, chosen by the owner how to allocate the wounds and saves like normal. Templates Hit all models underneath them like normal."
+        }
+      ]
     }
   ],
   "slots": {

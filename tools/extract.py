@@ -595,39 +595,98 @@ def extract_faction_name(text: str) -> str:
     return 'Unknown'
 
 
+def extract_army_rules(text: str) -> dict:
+    """
+    Extract named rules with descriptions from the army abilities section.
+    Stops at 'Common Wargear' or the first slot header.
+    Returns dict: {rule_name: description_text}
+    """
+    RULE_DEF_RE  = re.compile(r'^([A-Z][A-Za-z\'\s]{1,50}?)\s+[–\-]\s+(.+)')
+    STOP_WORD_RE = re.compile(r'^(?:Common Wargear|Chapter Rules|Clan Rules|Dynasty Rules)\s*$', re.I)
+    PAGE_NUM_RE  = re.compile(r'^\d+$')
+
+    lines = text.split('\n')
+    rules: dict = {}
+    cur_name: str | None = None
+    cur_parts: list = []
+
+    def flush():
+        if cur_name and cur_parts:
+            rules[cur_name] = ' '.join(cur_parts)
+
+    for line in lines:
+        s = line.strip()
+        if identify_slot(line) or POINTS_RE.match(s) or STOP_WORD_RE.match(s):
+            flush()
+            break
+        if PAGE_NUM_RE.match(s) or not s:
+            continue
+
+        m = RULE_DEF_RE.match(s)
+        if m:
+            flush()
+            cur_name = m.group(1).strip()
+            cur_parts = [m.group(2).strip()]
+        elif cur_name:
+            cur_parts.append(s)
+
+    flush()
+    return rules
+
+
 def extract_subfactions(text: str) -> list[dict]:
     """
-    Find Chapter / Clan / Dynasty / Regiment sections and extract subfaction names.
-    Returns list of {name} dicts.
+    Find Chapter / Clan / Dynasty / Regiment sections and extract subfaction names
+    and their rules.  Returns list of {name, rules: [{name, description}]} dicts.
     """
     SUBFACTION_SECTION = re.compile(
         r'^(Chapters?|Clans?|Dynasties|Regiments?|Sects?|Brotherhoods?|Warbands?)\s*$', re.I
     )
     SUBFACTION_NAME = re.compile(r'^([A-Z][A-Za-z\s\'-]+):$')
+    SUBFACTION_RULE = re.compile(r'^-\s+([A-Za-z][A-Za-z\s\'-]+?):\s+(.+)')
     AVERAGE_RE = re.compile(r'^Average:', re.I)
 
     lines = text.split('\n')
     in_section = False
-    subfactions = [{'name': 'Average'}]  # always include Average as first option
+    subfactions: list = [{'name': 'Average', 'rules': []}]
     seen = {'average'}
+    current_sub: dict | None = None
 
     for line in lines:
         s = line.strip()
         if SUBFACTION_SECTION.match(s):
             in_section = True
+            current_sub = None
             continue
-        if in_section:
-            # Section ends when we hit a slot header
-            if identify_slot(line):
-                break
-            if AVERAGE_RE.match(s):
-                continue  # already added
-            m = SUBFACTION_NAME.match(s)
-            if m:
-                name = m.group(1).strip()
-                if name.lower() not in seen:
-                    subfactions.append({'name': name})
-                    seen.add(name.lower())
+        if not in_section:
+            continue
+        if identify_slot(line):
+            break
+        if AVERAGE_RE.match(s):
+            current_sub = subfactions[0]  # point at Average entry to capture its rules
+            continue
+
+        m_name = SUBFACTION_NAME.match(s)
+        if m_name:
+            name = m_name.group(1).strip()
+            if name.lower() not in seen:
+                current_sub = {'name': name, 'rules': []}
+                subfactions.append(current_sub)
+                seen.add(name.lower())
+            continue
+
+        if current_sub is not None:
+            m_rule = SUBFACTION_RULE.match(s)
+            if m_rule:
+                current_sub['rules'].append({
+                    'name':        m_rule.group(1).strip(),
+                    'description': m_rule.group(2).strip(),
+                })
+            elif s and current_sub['rules'] and not s.startswith('-'):
+                # Skip bare page numbers
+                if re.match(r'^\d+$', s):
+                    continue
+                current_sub['rules'][-1]['description'] += ' ' + s
 
     return subfactions
 
@@ -686,6 +745,7 @@ def process_pdf(pdf_path: Path) -> dict | None:
 
     faction_name  = extract_faction_name(text)
     meta          = extract_metadata(text)
+    army_rules    = extract_army_rules(text)
     subfactions   = extract_subfactions(text)
     weapon_tables = parse_weapon_tables_from_layout(layout_text)
     slots         = parse_codex(text, faction_name, weapon_tables)
@@ -697,6 +757,7 @@ def process_pdf(pdf_path: Path) -> dict | None:
         'id':          faction_id,
         'name':        faction_name,
         'difficulty':  meta['difficulty'],
+        'rules':       army_rules,
         'subfactions': subfactions,
         'slots':       slots,
     }

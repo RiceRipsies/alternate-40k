@@ -2,12 +2,24 @@
   "id": "armageddon-steel-legion",
   "name": "Armageddon Steel Legion",
   "difficulty": 3,
+  "rules": {},
   "subfactions": [
     {
-      "name": "Average"
+      "name": "Average",
+      "rules": []
     },
     {
-      "name": "Armageddon Steel Legion"
+      "name": "Armageddon Steel Legion",
+      "rules": [
+        {
+          "name": "Mechanized Infantry",
+          "description": "Infantry units gain a 5+ Cover Save the Turn they Disembark from a Transport. Forced Disembark does not provide this Save."
+        },
+        {
+          "name": "Hive City Inhabitants",
+          "description": "All Infantry suffer -1 cover save if it is not provided by a building, fortified terrain piece, or Mechanized Infantry."
+        }
+      ]
     }
   ],
   "slots": {

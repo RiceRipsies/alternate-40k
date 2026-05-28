@@ -2,69 +2,277 @@
   "id": "space-marines",
   "name": "Space Marines",
   "difficulty": 1,
+  "rules": {
+    "Adjusted Tactics": "During Deployment, after you have seen the Army Roster your opponent is bringing, this model may swap its current weapon(s) for legal weapon options equal to or less than the current point costs. For example, a Tactical Marine may swap its Plasma Gun for a Flamer because it costs less points.",
+    "Bolter Discipline": "This model always counts as being in half range when firing Rapid Fire weapons that have Bolter as long as it did not Move or does not count as Moving during your Movement Phase.",
+    "Know No Fear": "This unit automatically passes Pinning Tests, Rally Tests, and Fear Tests. They still will fall back if they lose Combat Resolution.",
+    "Tactical Squads": "Each unit with this rule may declare they are forming their own units during your Command Phase. They may split up as low as two models per unit. Units must be placed within Unit Coherency during Deployment. They may instead merge back into bigger units but may not exceed maximum unit size or merge with units other than their own unit name. If they do so, all suffered Wounds stack onto the most wounded models in the form of Mortal Wounds. If there are more to stack then remaining Wounds on a model, nominate another model to suffer these remaining Mortal Wounds. Independent Characters can never pass on Wounds or take on Wounds for a unit in this fashion.",
+    "Transhuman Physiology": "This model has a 5+ Feel No Pain."
+  },
   "subfactions": [
     {
-      "name": "Average"
+      "name": "Average",
+      "rules": [
+        {
+          "name": "Well Disciplined",
+          "description": "models may reroll 1s To Hit. Auras that allow reroll 1s To Hit allow all failed To Hit rolls of 1 or 2 to be rerolled instead."
+        }
+      ]
     },
     {
-      "name": "Black Templar"
+      "name": "Black Templar",
+      "rules": [
+        {
+          "name": "Justified",
+          "description": "All models in your army gain Ld+1."
+        },
+        {
+          "name": "Righteous Zeal",
+          "description": "All models in your army may reroll 1s To Wound in Melee on the phase they successfully Charged."
+        }
+      ]
     },
     {
-      "name": "Blood Angels"
+      "name": "Blood Angels",
+      "rules": [
+        {
+          "name": "Black Rage",
+          "description": "If a unit ever fails its Ld test, they suffer WS+1, BS+1 (One worse) and gain A+1 for the remainder of the game. Units suffering from the Black Rage must declare Charges if within Range, and cannot fire weapons or Advance if it would make declaring a Charge within range illegal. If a Charge cannot be declared, the unit must move towards the closest enemy unit and Advance if it still cannot Charge or Shoot them."
+        },
+        {
+          "name": "Quicksilver Blood",
+          "description": "All models in your army gain I+1."
+        },
+        {
+          "name": "Unnatural Speed",
+          "description": "All models in your army gain Counterattack."
+        }
+      ]
     },
     {
-      "name": "Blood Ravens"
+      "name": "Blood Ravens",
+      "rules": [
+        {
+          "name": "Relic Seekers",
+          "description": "Any Objective Marker that scores Victory Points for the enemy while your army has a scoreable unit within 3\u201d awards you .5 Victory Points as well."
+        },
+        {
+          "name": "Unknown Origins",
+          "description": "All models in your army suffer Ld-1."
+        }
+      ]
     },
     {
-      "name": "Crimson Fists"
+      "name": "Crimson Fists",
+      "rules": [
+        {
+          "name": "Hold the Line",
+          "description": "All models in your army may reroll failed Sv rolls of 1."
+        },
+        {
+          "name": "Unwavering",
+          "description": "All models in your army may reroll failed Ld Tests."
+        }
+      ]
     },
     {
-      "name": "Dark Angels"
+      "name": "Dark Angels",
+      "rules": [
+        {
+          "name": "Foreboding Knowledge",
+          "description": "All Characters and Independent Characters suffer Ld-1."
+        },
+        {
+          "name": "Watchers",
+          "description": "Any Character or Independent Character may take a Watcher Token. Any unit the Independent Character is in (or themselves) may reroll any one die per Phase."
+        }
+      ]
     },
     {
-      "name": "Death Watch"
+      "name": "Death Watch",
+      "rules": [
+        {
+          "name": "Extreme Trials",
+          "description": "You may treat Scouts, Bladeguard Veterans, Company Veterans, Sternguard Veterans, and Vanguard Veterans as Troop Slots."
+        },
+        {
+          "name": "Long Suffering",
+          "description": "All models in your army gain Ld+1."
+        }
+      ]
     },
     {
-      "name": "Drake Slayers"
+      "name": "Drake Slayers",
+      "rules": [
+        {
+          "name": "Monster Hunters",
+          "description": "All models in your army gain +1 To Wound Monstrous Infantry, Monsters, or Titanic Monsters in Melee."
+        },
+        {
+          "name": "Trophy Hunters",
+          "description": "No models in your army may claim Objective Markers. Emperor\u2019s Spears:"
+        },
+        {
+          "name": "Savages",
+          "description": "All models in this army have Furious Charge."
+        },
+        {
+          "name": "Aggressive Tactics",
+          "description": "All models in this army add +2\u201d to Charges."
+        }
+      ]
     },
     {
-      "name": "Exorcists"
+      "name": "Exorcists",
+      "rules": [
+        {
+          "name": "Extensive Rituals",
+          "description": "This army will always lose Initiative Rolls for who decides Attacking and Defending Players."
+        },
+        {
+          "name": "Spiritual Resolve",
+          "description": "All units in this army may Deny the Witch at Psychic Master Level 1, or +1 If they already have Psychic Mastery."
+        }
+      ]
     },
     {
-      "name": "Flesh Tearers"
+      "name": "Flesh Tearers",
+      "rules": [
+        {
+          "name": "Rip and Tear",
+          "description": "All Melee attacks made by your army are considered Rending. Rending weapons trigger on a 4+ instead of 5+ If a 4+ would still be successful."
+        },
+        {
+          "name": "Eager Warmongers",
+          "description": "All units in your army may reroll failed Charges."
+        }
+      ]
     },
     {
-      "name": "Imperial Fists"
+      "name": "Imperial Fists",
+      "rules": [
+        {
+          "name": "Imperial Fist Bolter Drill",
+          "description": "All models are always considered as sitting still for purposes of Bolter Discipline."
+        },
+        {
+          "name": "Shore up the Defenses",
+          "description": "Buildings Embarked by Imperial Fist units gain T+1 while they are inside."
+        }
+      ]
     },
     {
-      "name": "Iron Hands"
+      "name": "Iron Hands",
+      "rules": [
+        {
+          "name": "Deadly Efficiency",
+          "description": "You may treat Devastator Squads and Dreadnoughts (no variants or specialized versions) as Troop Slots or their respective Slots."
+        },
+        {
+          "name": "Heavy Fire Doctrines",
+          "description": "All models Snapshot on a 5+ with Heavy weapons, including Overwatch, instead of the usual 6+."
+        }
+      ]
     },
     {
-      "name": "Salamanders"
+      "name": "Salamanders",
+      "rules": [
+        {
+          "name": "Protect Civilians",
+          "description": "You army may only score VP based on Objectives requiring Objective Markers to be held."
+        },
+        {
+          "name": "Protect What is Already Possessed",
+          "description": "Gain +1 VP per completed Objective for Objectives 11-36 once per Turn."
+        }
+      ]
     },
     {
-      "name": "Silver Templars"
+      "name": "Silver Templars",
+      "rules": [
+        {
+          "name": "The Martial Bond",
+          "description": "All Ranged and Melee Attacks from this army have the Gauss Rule."
+        },
+        {
+          "name": "Ultima Founding",
+          "description": "This army may only include models with the Stubborn rule."
+        }
+      ]
     },
     {
-      "name": "Raven Guard"
+      "name": "Raven Guard",
+      "rules": [
+        {
+          "name": "Strike from the Shadows",
+          "description": "All models in your army gain Stealth. If they already had Stealth, they swap Stealth for Shroud instead."
+        }
+      ]
     },
     {
-      "name": "Space Wolves"
+      "name": "Space Wolves",
+      "rules": [
+        {
+          "name": "Aggressive Nature",
+          "description": "All models in your army gain Furious Charge."
+        },
+        {
+          "name": "Wolfen Fury",
+          "description": "All models in your army gain A+1 on the turn they Charge."
+        }
+      ]
     },
     {
-      "name": "Tome Keepers"
+      "name": "Tome Keepers",
+      "rules": [
+        {
+          "name": "The Pursuit of Knowledge",
+          "description": "All models in your army gain Ld+4 when within 3\u201d of an Objective."
+        },
+        {
+          "name": "Knowledge Absolute",
+          "description": "Gain 2 VP for Kingslayer instead of D3."
+        }
+      ]
     },
     {
-      "name": "Ultramarines"
+      "name": "Ultramarines",
+      "rules": []
     },
     {
-      "name": "White Consuls"
+      "name": "White Consuls",
+      "rules": [
+        {
+          "name": "Guardians of the Cadian Gate",
+          "description": "All infantry models in your army gain Objective Secured and Stubborn when within 3\u201d of an Objective Marker."
+        }
+      ]
     },
     {
-      "name": "White Scars"
+      "name": "White Scars",
+      "rules": [
+        {
+          "name": "Speed Tactics",
+          "description": "All models in your army gain Hit and Run."
+        },
+        {
+          "name": "Rapid Deployment",
+          "description": "All models in your army gain Scout."
+        }
+      ]
     },
     {
-      "name": "Wolfspears"
+      "name": "Wolfspears",
+      "rules": [
+        {
+          "name": "Bleeding the Prey",
+          "description": "If the target of Charge is at half or less of the combined unit\u2019s total Wounds from Deployment, the Charge automatically succeeds if it is within 12\u201d."
+        },
+        {
+          "name": "Ultima Founding",
+          "description": "This army may only include models with the Stubborn rule."
+        }
+      ]
     }
   ],
   "slots": {

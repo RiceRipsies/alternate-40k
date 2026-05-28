@@ -2,12 +2,28 @@
   "id": "evil-sunz",
   "name": "Evil Sunz",
   "difficulty": 1,
+  "rules": {
+    "Dakka": "Each unmodified roll of a 6 To Hit causes one additional Auto Hit. \u2018Ere We Go! \u2013 This model may reroll failed Charge rolls.",
+    "Mob Rule": "12\u201d True Aura, friendly units may treat their Ld equal to the number of models in this unit.",
+    "Poor Maintenance": "In each of your Command Phases, roll a d6 for each unit with this rule in your army. On a 1, the unit must decide if it will Move or Shoot this turn. If elected to Move, it may Advance and Fall Back this turn but cannot Shoot or Charge. If elected to Shoot, it may Shoot in the Shooting Phase, but cannot Move, Advance, Charge, or Fall Back. High Altitude models MUST always move, and can never opt to Shoot instead of Move because of Poor Maintenance."
+  },
   "subfactions": [
     {
-      "name": "Average"
+      "name": "Average",
+      "rules": []
     },
     {
-      "name": "Evil Sunz"
+      "name": "Evil Sunz",
+      "rules": [
+        {
+          "name": "Hyper ADHD Gitz",
+          "description": "Infantry models in your army only count as half a model for purposes of contesting an Objective Marker."
+        },
+        {
+          "name": "Speed Freeks",
+          "description": "All Vehicles gain M+2. Aircraft may turn 90 degrees after firing in the Shooting Phase as well as before moving in the Movement Phase."
+        }
+      ]
     }
   ],
   "slots": {

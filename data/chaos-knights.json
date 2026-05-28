@@ -2,9 +2,26 @@
   "id": "chaos-knights",
   "name": "Chaos Knights",
   "difficulty": 4,
+  "rules": {
+    "Corrupted Protector": "This model may be fielded in any Chaos army as a Lord of War Slot.",
+    "Imperial God Engine": "Each model with this ability can ignore Swarms, Infantry, and Monstrous Infantry for the purposes of Moving. It may not end its Movement with 1\u201d of an enemy unit or on top of Titanic Terrain.",
+    "Mercenary": "This model may be fielded in any Chaos army as a Heavy Support Slot.",
+    "Rotate Ion Shields": "Each model with this has a 5+ Invulnerability Save, but it can only apply to Ranged or Melee attacks. You may Declare if the Ion Shields are Rotated to protect against either Ranged or Melee attacks, but it cannot be changed again until your next Command Phase.",
+    "Marks": "Marks of Chaos are optional upgrades for units. Marks perform the following enhancements to units. Stats in Bold have this baked into the profile.",
+    "Mark of Khorne": "This model gains A+1 and Furious Charge.",
+    "Mark of Nurgle": "This model gains a 5+ Feel No Pain. This is an exception to the rule that prevents Vehicle\u2019s from gaining Feel No Pain.",
+    "Mark of Slaanesh": "This model gains I+1 and Counterattack.",
+    "Mark of Tzeentch": "This model gains a 5+ Invulnerability Save, or improves their Invulnerability Save by -1 (Improves by 1) to a maximum of 4+. When interacting with situational Invulnerability Saves such as Ion Shields, this ability only applies to the situational benefit and does not apply normally. If a model already has a 4+ Invulnerability Save, it instead may reroll 1s for Invulnerability Saves.",
+    "Undivided": "One unit in your army may take a Pure Blessing, even if you do not have a full army of the correct Mark.",
+    "Pure Blessings": "Pure Blessings of Chaos are an added layer of enhancement. Most models will only gain access to Pure Blessings if they come with a Mark by default. The only way to gain a Pure Blessing is to have an entire army of the Mark of the same god, or to have an Undivided Mark for each exception. The Pure Blessing adds to the existing Mark\u2019s benefits. For example, a Mark of Khorne grants A+1 and the Pure Blessing results in A+1 for a total of A+2. Other Pure Blessings of the same army count as Marks of the same god for the purpose of army building. Stats in Bold have this baked into the profile.",
+    "Pure Blessing of Khorne": "This model gains A+1.",
+    "Pure Blessing of Nurgle": "This model or unit gains Living Rot. In each of your Command Phases, this model or unit Heals one Wound. If the model is fully Healed, the unit gains one lost model back at one Wound remaining. A unit cannot exceed its original starting size from the army roster this way. This an exception to the rule that prevents Vehicles from Healing.",
+    "Pure Blessing of Slaanesh": "This model gains I+2 and Fleet. Pure Blessing of Tzeentch \u2013This model or unit ignores the first Wound suffered in each Phase after Saves and Feel No Pains. Lance Chaos Knight forces specialize in different aspects much like Space Marine Chapters. The following are Lances you can play with to change the play style of your forces. Corrupted Lance: - Surprising Resilience: All models in your army gain Ld+2. Harbinger\u2019s of Dread: - Deathly Terror: All models in your army gain \u201c6\u201d Aura, target unit suffers Ld-1.\u201d Helhunt Lance: - Masters of the Pack: War Dogs and Armiger Moiraxes can cast Auras another model casted onto them. Houndpack Lance: - Marked Prey: In each of your Command Phases, nominate an enemy unit. Your models may roll one extra dice and drop the lowest when Declaring Charges against that unit. Iconoclast Fiefdom: - Dreaded Masters: All of your models from the Chaos Knights supplement gain the Chaos Warband abilities of your other Chaos models in your army. Infernal Lance: - Warp Taint: Once per Round, models in your army may attempt to restore service from a Penetration Result by rolling a 1d6 and scoring 5+. Wounds are not restored from this. Lords of Dread: - Tyrannical Court: You may not Declare Charges against any unit in Melee with another one of your own models (including other Chaos forces besides Knights). So long as you are outnumbered in Melee you may reroll 1s To Hit. If you could already reroll 1s To Hit, you may reroll 1\u2019s and 2\u2019s. Traitoris Lance: - Paragons of Terror: Enemy models must pass a Ld Test to Declare Charges against your models."
+  },
   "subfactions": [
     {
-      "name": "Average"
+      "name": "Average",
+      "rules": []
     }
   ],
   "slots": {

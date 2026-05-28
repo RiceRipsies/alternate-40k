@@ -2,12 +2,20 @@
   "id": "cadian-shock",
   "name": "Cadian Shock",
   "difficulty": 3,
+  "rules": {},
   "subfactions": [
     {
-      "name": "Average"
+      "name": "Average",
+      "rules": []
     },
     {
-      "name": "Cadian Shock"
+      "name": "Cadian Shock",
+      "rules": [
+        {
+          "name": "No Place to Call Home",
+          "description": "each model only counts as half a model for the purpose of Contesting Objectives."
+        }
+      ]
     }
   ],
   "slots": {

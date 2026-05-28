@@ -2,12 +2,24 @@
   "id": "sautekh-dynasty",
   "name": "Sautekh Dynasty",
   "difficulty": 1,
+  "rules": {},
   "subfactions": [
     {
-      "name": "Average"
+      "name": "Average",
+      "rules": []
     },
     {
-      "name": "Sautekh"
+      "name": "Sautekh",
+      "rules": [
+        {
+          "name": "Aggressive Territory Grab",
+          "description": "Models count as 2 models for the purposes of Contesting and Claiming Objective Markers that are not in an enemy Deployment Zone. Units eligible to declare charges must do so. They may still nominate to fire their weapons or advance, even if this invalidates the chance to Declare a Charge."
+        },
+        {
+          "name": "Slavers",
+          "description": "Characters and Independent Characters must accept all Challenges issued. If more than one eligible model is available, you may nominate which one accepts the Challenge."
+        }
+      ]
     }
   ],
   "slots": {

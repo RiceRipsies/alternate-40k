@@ -2,42 +2,168 @@
   "id": "slaanesh",
   "name": "Slaanesh",
   "difficulty": 1,
+  "rules": {
+    "Daemonic": "This model has a 5+ Invulnerability Save.",
+    "Daemonic Engine": "This model has a 5+ Invulnerability Save and is immune to the secondary effects of Weapon Disabled and Crew Stun. It still takes the additional Wounds from the Penetration Charts.",
+    "Daemonic Thirst": "A weapon with this rule inflicts a Mortal Wound on its bearer in each of your Command Phases if you did not cause a Wound with the weapon during the last Turn. This does not trigger on Turn 1.",
+    "Malicious Volleys": "If this model does not count as Moving this Turn, it may treat weapons with the Bolter rule as if they were in half range.",
+    "Marks": "Marks of Chaos are optional upgrades for units. Marks perform the following enhancements to units. Stats in Bold have this baked into the profile. Psychic Mastery Level # models and units may only use the corresponding spell list with their Marks.",
+    "Mark of Slaanesh": "This model gains I+1 and Counterattack. Slaanesh Spell List. Slaanesh Spell List S +10 points Phantasmgoria Target unit suffers Ld-2. Cast 6+ S +15 points Cacophonic Target unit takes a Ld test. For Choir each point they fail by the unit Cast 8+ suffers 1 Mortal Wound. S +25 points Pavane of Target unit may move up to 6\u201d. Slaanesh Cast 6+ S +30 points Symphony of Target unit suffers -1 To Hit Pain until your next Psychic Phase. Cast 8+ S +45 points Hysterical Frenzy 18 Target unit gains A+1 until your Cast 7+ next Psychic Phase. S +75 points Delightful Target unit with the Mark of Agonies Slaanesh gains a 5+ Feel No Cast 7+ Pain until your next Psychic Phase.",
+    "Pure Blessings": "Pure Blessings of Chaos are an added layer of enhancement. Most models will only gain access to Pure Blessings if they come with a Mark by default. The only way to gain a Pure Blessing is to have an entire army of the Mark of the same god, or to have an Undivided Mark for each exception. The Pure Blessing adds to the existing Mark\u2019s benefits. For example, a Mark of Khorne grants A+1 and the Pure Blessing results in A+1 for a total of A+2. Other Pure Blessings of the same army count as Marks of the same god for the purpose of army building. Stats in Bold have this baked into the profile.",
+    "Pure Blessing of Slaanesh": "This model gains I+2 and Fleet.",
+    "Sonic": "Sonic weapons inflict a -1 penalty to Cover Saves from their attacks."
+  },
   "subfactions": [
     {
-      "name": "Average"
+      "name": "Average",
+      "rules": []
     },
     {
-      "name": "Carnival of Excess"
+      "name": "Carnival of Excess",
+      "rules": [
+        {
+          "name": "Distorting Vivid Vapors",
+          "description": "Models in your army gain a 5+ Cover Save. Models in your army can never have a Cover Save better than 5+."
+        }
+      ]
     },
     {
-      "name": "Coterie of the Conceited"
+      "name": "Coterie of the Conceited",
+      "rules": [
+        {
+          "name": "Pledges to the Dark Prince",
+          "description": "In your Command Phase, you MUST pledge a number of enemy Slots to be destroyed before your End Phase. You cannot pledge less than 1. If you succeed in your goal of # Slots destroyed or exceed it, your Warlord Heals # and can exceed their starting Wound Count as an exception to the normal rules. If you fail to destroy # Slots, your Warlord suffers 1d3 Mortal Wounds. Emperor\u2019s Children:"
+        },
+        {
+          "name": "Degenerates",
+          "description": "Models in your army count each wound caused in Melee as 2 points instead of 1 for purposes of Combat Resolution."
+        },
+        {
+          "name": "Sadistic Psychopaths",
+          "description": "Models must declare Charges whenever they are able to do so and cannot do anything that would make Declaring Charges illegal (i.e. such as shooting heavy weapons, advancing, etc. so long as they are within 12\u201d of an enemy)."
+        }
+      ]
     },
     {
-      "name": "Faultless"
+      "name": "Faultless",
+      "rules": [
+        {
+          "name": "Prideful Arrogance",
+          "description": "No unit in your army may have more than 1 joined Independent Character at a time."
+        },
+        {
+          "name": "Transhuman Speed",
+          "description": "All models in your army gain M+2."
+        }
+      ]
     },
     {
-      "name": "Glittering Myriad"
+      "name": "Glittering Myriad",
+      "rules": [
+        {
+          "name": "IFV Specialists",
+          "description": "Models in your army gain a 5+ Cover Save until your next Command Phase when they Disembark or Force Disembark from a Transport."
+        },
+        {
+          "name": "The Need for Speed",
+          "description": "Models in your army only count as half a model for Contesting Objective Markers."
+        }
+      ]
     },
     {
-      "name": "Konstrictus"
+      "name": "Konstrictus",
+      "rules": [
+        {
+          "name": "Eyeball Artisans",
+          "description": "Models in your army will never pursue fleeing units and automatically pass all Hold tests. They will not perform the 3\u201d move after winning combat. All enemy units within 6\u201d suffer Ld-1 and take a Fear Test, with the -1 wearing off in their next Command Phase."
+        }
+      ]
     },
     {
-      "name": "Mercurial Host"
+      "name": "Mercurial Host",
+      "rules": [
+        {
+          "name": "Arrogant Superiority",
+          "description": "Your opponent is always considered to have rolled higher than you for Initiative."
+        },
+        {
+          "name": "Tactical Perfection",
+          "description": "For each 1000 points in your army, you may redeploy 1 unit after Deployment. This is done after Infiltrators and Scouts are placed or perform their moves."
+        }
+      ]
     },
     {
-      "name": "Peerless Bladesmen"
+      "name": "Peerless Bladesmen",
+      "rules": [
+        {
+          "name": "Expert Duelists",
+          "description": "Models in your army gain Furious Charge."
+        },
+        {
+          "name": "Pride Before the Fall",
+          "description": "Models in your army suffer -1 To Hit for the rest of the game if their unit loses Combat Resolution."
+        }
+      ]
     },
     {
-      "name": "Rapid Evisceration"
+      "name": "Rapid Evisceration",
+      "rules": [
+        {
+          "name": "Troop Carrier Combat Stimulants",
+          "description": "On your turn, models that Disembarked from a Transport in your army gains S+1. This bonus is removed during your End Phase."
+        },
+        {
+          "name": "Excessive Glitter",
+          "description": "Enemy models performing Overwatch attacks against your models gain a +1 To Hit as an exception to the rules for Snap Shots."
+        },
+        {
+          "name": "Rapid Deployment",
+          "description": "Models in your army may charge on the turn they Disembark from a Transport that does not have Assault Ramps, but treat the charge as Disorganized. Slaanesh\u2019s Chosen:"
+        },
+        {
+          "name": "Eager to Please",
+          "description": "Models in your army may reroll failed Charges."
+        },
+        {
+          "name": "Repulsed by Weakness",
+          "description": "If a unit in your army fail a Charge, every model in the unit must roll a Dangerous Terrain Test."
+        }
+      ]
     },
     {
-      "name": "Threnodic Choir"
+      "name": "Threnodic Choir",
+      "rules": [
+        {
+          "name": "Excessive Audio",
+          "description": "All friendly models in your army suffer a -1 penalty to Cover Saves."
+        },
+        {
+          "name": "Tectonic Plate Disruption",
+          "description": "Once per battle, in your Command Phase you may declare a Tectonic Plate Disruption. If you do so, Open Terrain counts as Difficult Terrain, and Difficult Terrain Counts as Dangerous Terrain. The effect lasts until your next Command Phase."
+        }
+      ]
     },
     {
-      "name": "Thrill Seekers"
+      "name": "Thrill Seekers",
+      "rules": [
+        {
+          "name": "Thrill of the Hunt",
+          "description": "Models in your army gain Hit and Run and MUST pursue fleeing units."
+        }
+      ]
     },
     {
-      "name": "Transcendent Spectacle"
+      "name": "Transcendent Spectacle",
+      "rules": [
+        {
+          "name": "Emotional Fug",
+          "description": "Friendly models within 6\u201d of a Daemonic Engine gain Stubborn."
+        },
+        {
+          "name": "Prone to Overindulgence",
+          "description": "Units in your army suffer 1 Auto Wound for each point they lose Combat Resolution by. This stacks with the Auto Wounds caused by Fearless models losing Combat Resolution."
+        }
+      ]
     }
   ],
   "slots": {

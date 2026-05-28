@@ -2,24 +2,96 @@
   "id": "tzeentch",
   "name": "Tzeentch",
   "difficulty": 1,
+  "rules": {
+    "Daemonic": "This model has a 5+ Invulnerability Save.",
+    "Daemonic Engine": "This model has a 5+ Invulnerability Save and is immune to the secondary effects of Weapon Disabled and Crew Stun. It still takes the additional Wounds from the Penetration Charts.",
+    "Daemonic Thirst": "A weapon with this rule inflicts a Mortal Wound on its bearer in each of your Command Phases if you did not cause a Wound with the weapon during the last Turn. This does not trigger on Turn 1.",
+    "Malicious Volleys": "If this model does not count as Moving this Turn, it may treat weapons with the Bolter rule as if they were in half range.",
+    "Marks": "Marks of Chaos are optional upgrades for units. Marks perform the following enhancements to units. Stats in Bold have this baked into the profile. Psychic Mastery Level # models and units may only use the corresponding spell list with their Marks.",
+    "Mark of Tzeentch": "This model gains a 5+ Invulnerability Save, or improves their Invulnerability Save by -1 (Improves by 1) to a maximum of 4+. When interacting with situational Invulnerability Saves such as Flare Launchers or Void Shields this ability only applies to the situational benefit and does not apply normally. If the model already has a 4+ Invulnerability Save, it may instead reroll 1s for Invulnerability Saves. Tzeentch Spell List. Tzeentch Spell List S +10 points Infernal Target unit with the Mark of Gateway Tzeentch immediately deploys Cast 6+ out of Reserves within 18\u201d of the Caster. This can happen on Turn 1. S +14 points Boon of Change 18 Target model gains S+1, T+1, Cast 6+ A+1 until your next Psychic Phase. S +15 points Treason of The Cast Value is the target Tzeentch non-Titanic model\u2019s remaining Cast Target W+ Wounds. This model immediately performs its Melee or Ranged attacks against one of its friendly units, but not itself. S +20 points Bolt of Change Cast 8+ 2+ S +20 points Gaze of Fate Cast 6+ User - - S +45 points Flickering Flames 18 Cast 7+ - - Assault 1, Sniper (2+), If target Independent Character dies, place a Chaos Spawn (no upgrades) in their place. If they were part of a unit, the unit is considered to be in Ongoing Melee and Engaged. This model may reroll 1 die each time it rolls any dice until your next Psychic Phase. Target unit with the Mark of Tzeentch gains Accurate until your next Psychic Phase.",
+    "Pure Blessings": "Pure Blessings of Chaos are an added layer of enhancement. Most models will only gain access to Pure Blessings if they come with a Mark by default. The only way to gain a Pure Blessing is to have an entire army of the Mark of the same god, or to have an Undivided Mark for each exception. The Pure Blessing adds to the existing Mark\u2019s benefits. For example, a Mark of Khorne grants A+1 and the Pure Blessing results in A+1 for a total of A+2. Other Pure Blessings of the same army count as Marks of the same god for the purpose of army building. Stats in Bold have this baked into the profile. Pure Blessing of Tzeentch \u2013This model or unit ignores the first Wound suffered in each Phase after Saves and Feel No Pains."
+  },
   "subfactions": [
     {
-      "name": "Average"
+      "name": "Average",
+      "rules": []
     },
     {
-      "name": "Cult of the Athanaeans"
+      "name": "Cult of the Athanaeans",
+      "rules": [
+        {
+          "name": "Tactical Relay",
+          "description": "Models in your army with Psychic Mastery Level # and the Mark of Tzeentch suffer -2 to Deny the Witch."
+        },
+        {
+          "name": "Telepathics",
+          "description": "Models in your army with Psychic Mastery Level # and the Mark of Tzeentch gain Objective Secured. Each of these qualifying models in your army also allows you to redeploy after Infiltrators and Scouts are done performing their abilities but before the game begins."
+        },
+        {
+          "name": "Thousand Sons",
+          "description": "You may include any Thousand Sons units in your army."
+        }
+      ]
     },
     {
-      "name": "Cult of the Corvidae"
+      "name": "Cult of the Corvidae",
+      "rules": [
+        {
+          "name": "Overwhelming Visions",
+          "description": "Models in your army with Psychic Mastery Level # and the Mark of Tzeentch cannot claim Objective Markers."
+        },
+        {
+          "name": "Precognition",
+          "description": "Models in your army with Psychic Mastery Level # and the Mark of Tzeentch grant their unit (or themselves instead when in a challenge) +1 die to each set of dice being rolled. You must select one die to ignore once the roll is complete."
+        },
+        {
+          "name": "Thousand Sons",
+          "description": "You may include any Thousand Sons units in your army."
+        }
+      ]
     },
     {
-      "name": "Cult of the Pavoni"
+      "name": "Cult of the Pavoni",
+      "rules": [
+        {
+          "name": "Arrogant Sorcerers",
+          "description": "Models in your army with Psychic Master Level # and the Mark of Tzeentch must accept all Challenges issued to their unit and must Issue Challenges whenever they can."
+        },
+        {
+          "name": "Bio Lighting",
+          "description": "Models in your army with Psychic Mastery Level # and the Mark of Tzeentch gain Tesla on all Melee attacks."
+        },
+        {
+          "name": "Thousand Sons",
+          "description": "You may include any Thousand Sons units in your army."
+        }
+      ]
     },
     {
-      "name": "Cult of the Pyrae"
+      "name": "Cult of the Pyrae",
+      "rules": [
+        {
+          "name": "Pyro Kinetics",
+          "description": "Units in your army that contain a model with Psychic Mastery Level # and the Mark of Tzeentch are only injured by Flame and Hellstorm Template weapons on a 6+, but inflict one Auto Wound on each Terrain or Fortification within 3\u201d for each Hit that fails to Wound them."
+        },
+        {
+          "name": "Thousand Sons",
+          "description": "You may include any Thousand Sons units in your army."
+        }
+      ]
     },
     {
-      "name": "Cult of the Raptora"
+      "name": "Cult of the Raptora",
+      "rules": [
+        {
+          "name": "Kine Shielding",
+          "description": "Models in your army with Psychic Mastery Level # and the Mark of Tzeentch may cast a 6\u201d Aura, 4+ Feel No Pain to a target unit. For reach roll of a 1 on Feel No Pains on that unit, the Aura Casting model suffers 1 Mortal Wound. Unlike typical Auras, this model can declare it ends the Kine Shielding once an opponent has announced they are attacking the shielded unit but has not rolled to attack yet. If the Kine Shielding ends, the model cannot be recast it until your next Psychic Phase."
+        },
+        {
+          "name": "Thousand Sons",
+          "description": "You may include any Thousand Sons units in your army."
+        }
+      ]
     }
   ],
   "slots": {

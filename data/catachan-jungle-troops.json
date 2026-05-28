@@ -2,12 +2,32 @@
   "id": "catachan-jungle-troops",
   "name": "Catachan Jungle Troops",
   "difficulty": 3,
+  "rules": {},
   "subfactions": [
     {
-      "name": "Average"
+      "name": "Average",
+      "rules": []
     },
     {
-      "name": "Catachan Jungle Troops"
+      "name": "Catachan Jungle Troops",
+      "rules": [
+        {
+          "name": "Carbines",
+          "description": "All Lasguns and Hotshot Lasguns are R-6."
+        },
+        {
+          "name": "Catachan Fangs",
+          "description": "All Infantry and Monstrous Infantry gain the following weapon: Catachan Fang RMelee S+1 AP- Rules None."
+        },
+        {
+          "name": "Flak Vests",
+          "description": "All Infantry and Monstrous Infantry Datasheets are Sv+1, resulting in 1 worse Armour Save except unique characters."
+        },
+        {
+          "name": "Jungle Grit",
+          "description": "All T3 Infantry gain T+1. Models with Bold already have this baked into their profile."
+        }
+      ]
     }
   ],
   "slots": {

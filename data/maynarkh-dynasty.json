@@ -2,12 +2,24 @@
   "id": "maynarkh-dynasty",
   "name": "Maynarkh Dynasty",
   "difficulty": 1,
+  "rules": {},
   "subfactions": [
     {
-      "name": "Average"
+      "name": "Average",
+      "rules": []
     },
     {
-      "name": "Maynarkh"
+      "name": "Maynarkh",
+      "rules": [
+        {
+          "name": "Conquerors",
+          "description": "All Infantry models in this army gain Objective Secured."
+        },
+        {
+          "name": "Flayer Virus",
+          "description": "All models in this army suffer Ld-2."
+        }
+      ]
     }
   ],
   "slots": {

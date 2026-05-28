@@ -2,24 +2,105 @@
   "id": "khorne",
   "name": "Khorne",
   "difficulty": 2,
+  "rules": {
+    "Daemonic": "This model has a 5+ Invulnerability Save.",
+    "Daemonic Engine": "This model has a 5+ Invulnerability Save and is immune to the secondary effects of Weapon Disabled and Crew Stun. It still takes the additional Wounds from the Penetration Charts.",
+    "Daemonic Thirst": "A weapon with this rule inflicts a Mortal Wound on its bearer in each of your Command Phases if you did not cause a Wound with the weapon during the last Turn. This does not trigger on Turn 1.",
+    "Malicious Volleys": "If this model does not count as Moving this Turn, it may treat weapons with the Bolter rule as if they were in half range.",
+    "Marks": "Marks of Chaos are optional upgrades for units. Marks perform the following enhancements to units. Stats in Bold have this baked into the profile. Psychic Mastery Level # models and units may only use the corresponding spell list with their Marks.",
+    "Mark of Khorne": "This model gains A+1 and Furious Charge. Khorne Spell List. Khorne Spells use the Sacrifice mechanic to cast. Instead of rolling to cast, a Khorne Caster spends a number of Skulls to meet the Sacrifice # requirement. Deny the Witch does not work on Sacrifice rituals. A Caster starts the game with a number of Skulls equal to their Psychic Mastery Level. They gain one Skull for each model they slay (not their unit), and may sacrifice friendly models for one Skull each within 6\u201d. Khorne Spell List S +5 points Bloodgorge Sacrifice 3 User - - S +5 points Warp Gateway Sacrifice 2 - - S +22 points Blood Torrent Sacrifice 1 Hatred of Magick Sacrifice 1/die - - User - - S +25 points This model gains A+3, but each roll of a 1 To Hit inflicts 1 Mortal Wound. Lasts until your next Psychic Phase. Target unit may declare Charges on the turn they arrived from Reserves. Target unit gains Shroud This model may roll 1 extra Deny the Witch dice per Sacrifice paid until your next Psychic Phase. These dice may only be used once each, but this model may Deny the Witch unlimited times with the default 2 dice for free. S +26 points Ascension Sacrifice 30 User - - S +57 points Tear in Reality Sacrifice 10 - - This model gains M+2, S+2, T+2, W+2, I+2, A+2, and is fully Healed. A model may only be ascended once. Summon 10 Bloodletters as if they had just arrived from Deepstrike, but they do not Scatter. This cannot be Cast on Turn 1.",
+    "Pure Blessings": "Pure Blessings of Chaos are an added layer of enhancement. Most models will only gain access to Pure Blessings if they come with a Mark by default. The only way to gain a Pure Blessing is to have an entire army of the Mark of the same god, or to have an Undivided Mark for each exception. The Pure Blessing adds to the existing Mark\u2019s benefits. For example, a Mark of Khorne grants A+1 and the Pure Blessing results in A+1 for a total of A+2. Other Pure Blessings of the same army count as Marks of the same god for the purpose of army building. Stats in Bold have this baked into the profile. Please note that a unit with the Mark of Khorne by default will not include a Pure Blessing of Khorne A+1 baked into its profile if it is an upgrade option.",
+    "Pure Blessing of Khorne": "This model gains A+1."
+  },
   "subfactions": [
     {
-      "name": "Average"
+      "name": "Average",
+      "rules": []
     },
     {
-      "name": "Brazen Beasts"
+      "name": "Brazen Beasts",
+      "rules": [
+        {
+          "name": "Daemonic Engine Stables",
+          "description": "All Daemonic Engines in your army gain Scout."
+        },
+        {
+          "name": "Khorne Consecration",
+          "description": "All models in your army automatically Restrain during Combat Resolution and never Pursue."
+        },
+        {
+          "name": "Seeking Violence",
+          "description": "All Infantry models in your army count as half a model for Contesting Objective Markers."
+        },
+        {
+          "name": "Khorne",
+          "description": "Your Warlord must have the Mark of Khorne."
+        }
+      ]
     },
     {
-      "name": "Disciples of the Red Angel"
+      "name": "Disciples of the Red Angel",
+      "rules": [
+        {
+          "name": "Daemonic Guard",
+          "description": "Your army can only include units with the Daemonic or Daemonic Engine keyword. All models in your army gain Bodyguard but cannot Claim or Contest Objective Markers."
+        },
+        {
+          "name": "Fearsome Foes",
+          "description": "All units in your army gain the following ability. Fearsome Foes - 6\u201d Aura, target unit must take a Fear Test."
+        },
+        {
+          "name": "Khorne",
+          "description": "Your Warlord must have the Mark of Khorne."
+        }
+      ]
     },
     {
-      "name": "Fire Riders"
+      "name": "Fire Riders",
+      "rules": [
+        {
+          "name": "Bridge of Fire",
+          "description": "All models in your army gain Outflank."
+        },
+        {
+          "name": "Redblade Rider Flagship",
+          "description": "All models in your army must start in Reserve."
+        },
+        {
+          "name": "World Eaters",
+          "description": "Your army may include World Eaters units."
+        },
+        {
+          "name": "Khorne",
+          "description": "Your Warlord must have the Mark of Khorne."
+        }
+      ]
     },
     {
-      "name": "The Butcherhorde"
+      "name": "The Butcherhorde",
+      "rules": [
+        {
+          "name": "Bloodthirsty Madmen",
+          "description": "All models in your army Auto Hit their own unit on a 1 To Hit in Melee. Kharn inflicts a Mortal Wound instead of an Auto Hit."
+        },
+        {
+          "name": "World Eaters",
+          "description": "Your army may include World Eaters units."
+        },
+        {
+          "name": "Khorne",
+          "description": "Your Warlord must have the Mark of Khorne."
+        }
+      ]
     },
     {
-      "name": "World Eaters"
+      "name": "World Eaters",
+      "rules": [
+        {
+          "name": "Barely Restrained Bloodlust",
+          "description": "All units in your army must roll a Ld test in your Command Phase. If they fail, they must perform a Compulsory Move directly towards the closest enemy model. They must perform Charges against this target if able to, and cannot Advance or fire weapons that would disqualify them from Charging. Origin of the Berzerker: Khorne Berzerkers may be taken as a Troop Choice in your army. Only Seeing Red: All models in your army gain +2 to Charge rolls. Khorne: Your Warlord must have the Mark of Khorne."
+        }
+      ]
     }
   ],
   "slots": {

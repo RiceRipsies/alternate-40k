@@ -2,12 +2,28 @@
   "id": "tallarn-desert-raiders",
   "name": "Tallarn Desert Raiders",
   "difficulty": 3,
+  "rules": {},
   "subfactions": [
     {
-      "name": "Average"
+      "name": "Average",
+      "rules": []
     },
     {
-      "name": "Tallarn Desert Raiders"
+      "name": "Tallarn Desert Raiders",
+      "rules": [
+        {
+          "name": "Like the Wind",
+          "description": "All non-vehicle models gain Stealth. Models already with Stealth gain Shroud."
+        },
+        {
+          "name": "Desert Specialists",
+          "description": "All nonvehicle Sv Stats are Sv -."
+        },
+        {
+          "name": "Strike and Fade",
+          "description": "All models automatically lose Combat Resolution."
+        }
+      ]
     }
   ],
   "slots": {

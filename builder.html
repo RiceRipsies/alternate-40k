@@ -738,19 +738,59 @@ button {
 }
 
 .play-rules {
-  font-size: 12px;
-  color: var(--text-dim);
-  line-height: 1.7;
   display: flex;
-  flex-wrap: wrap;
-  gap: 4px 0;
+  flex-direction: column;
+  gap: 8px;
 }
 
-.play-rule {
-  display: inline;
+.play-rule-name {
+  font-size: 12px;
+  font-weight: 600;
+  color: var(--text);
 }
-.play-rule + .play-rule::before {
-  content: ' · ';
+
+.play-rule-desc {
+  font-size: 11px;
+  color: var(--text-dim);
+  line-height: 1.5;
+  margin-top: 1px;
+}
+
+.play-subfaction-block {
+  border: 1px solid var(--border);
+  border-radius: 3px;
+  background: var(--bg2);
+  margin-bottom: 20px;
+  overflow: hidden;
+}
+
+.play-subfaction-header {
+  background: var(--bg3);
+  padding: 10px 16px;
+  border-bottom: 1px solid var(--border);
+  display: flex;
+  align-items: baseline;
+  gap: 8px;
+}
+
+.play-subfaction-label {
+  font-size: 10px;
+  letter-spacing: 1.5px;
+  text-transform: uppercase;
+  color: var(--text-dim);
+}
+
+.play-subfaction-name {
+  font-size: 14px;
+  font-weight: 700;
+  color: var(--gold);
+}
+
+.play-subfaction-rules {
+  padding: 12px 16px;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
 }
 
 #play-btn {
@@ -976,6 +1016,7 @@ const state = {
   pendingUnit: null,
   pendingOpts: {},
   pendingModels: {},  // { modelName: { current, min, max, ptsEach } }
+  editingIdx: null,   // index in state.list when editing an existing entry
 };
 
 // ── DOM REFS ─────────────────────────────────────────────────────
@@ -1124,10 +1165,15 @@ function renderSlots() {
   });
 
   // Bind unit entries (click to re-configure)
-  slotsContainer.querySelectorAll('.unit-entry').forEach(entry => {
-    entry.addEventListener('click', (e) => {
+  slotsContainer.querySelectorAll('.unit-entry').forEach(el => {
+    el.addEventListener('click', (e) => {
       if (e.target.classList.contains('remove-unit')) return;
-      // Future: re-open config for existing entry
+      const idx = parseInt(el.dataset.idx);
+      const entry = state.list[idx];
+      if (!entry) return;
+      state.browsingSlot = entry.slotKey;
+      openUnitModal(entry.unit, entry, idx);
+      if (window.innerWidth <= 700) closeForcePanel();
     });
   });
 }
@@ -1211,9 +1257,10 @@ D('cancel-browse').addEventListener('click', () => {
 });
 
 // ── UNIT MODAL ───────────────────────────────────────────────────
-function openUnitModal(unit) {
+function openUnitModal(unit, existingEntry = null, existingIdx = null) {
   state.pendingUnit = unit;
-  state.pendingOpts = {};
+  state.pendingOpts = existingEntry ? { ...existingEntry.opts } : {};
+  state.editingIdx = existingIdx;
 
   D('modal-unit-name').textContent = unit.name;
   updateModalPts();
@@ -1235,7 +1282,8 @@ function openUnitModal(unit) {
   for (const cm of variableModels) {
     const key = cm.name.toLowerCase();
     const ptsEach = addCosts[key] ?? addCosts['models'] ?? 0;
-    state.pendingModels[cm.name] = { current: cm.min, min: cm.min, max: cm.max, ptsEach };
+    const savedCount = existingEntry?.models?.[cm.name] ?? cm.min;
+    state.pendingModels[cm.name] = { current: savedCount, min: cm.min, max: cm.max, ptsEach };
   }
 
   D('modal-models').innerHTML = variableModels.length ? `
@@ -1306,6 +1354,13 @@ function openUnitModal(unit) {
     </div>` : ''}
   ` : '';
 
+  // Restore pre-selected radio buttons (editing mode)
+  D('modal-options').querySelectorAll('input[type=radio]').forEach(inp => {
+    const groupIdx = parseInt(inp.name.split('-')[1]);
+    const choiceIdx = parseInt(inp.value);
+    if ((state.pendingOpts[groupIdx] ?? -1) === choiceIdx) inp.checked = true;
+  });
+
   // Click-to-toggle deselect
   D('modal-options').querySelectorAll('input[type=radio]').forEach(inp => {
     inp.addEventListener('click', () => {
@@ -1328,6 +1383,8 @@ function openUnitModal(unit) {
     <div class="rules-list">
       ${allRules.map(r => `<span class="rule-tag">${r}</span>`).join('')}
     </div>` : '';
+
+  D('modal-add').textContent = existingIdx !== null ? 'Save Changes' : 'Add to Army';
 
   modalBackdrop.classList.add('open');
   document.body.style.overflow = 'hidden';
@@ -1374,6 +1431,7 @@ function closeModal() {
   state.pendingUnit = null;
   state.pendingOpts = {};
   state.pendingModels = {};
+  state.editingIdx = null;
 }
 
 D('modal-close').addEventListener('click', closeModal);
@@ -1391,12 +1449,18 @@ D('modal-add').addEventListener('click', () => {
     const ci = state.pendingOpts[gi] ?? -1;
     if (ci >= 0) pts += (opt.choices?.[ci]?.pts_delta ?? 0);
   });
-  state.list.push({
-    slotKey: state.browsingSlot, unit,
+  const entry = {
+    slotKey: state.editingIdx !== null ? state.list[state.editingIdx].slotKey : state.browsingSlot,
+    unit,
     opts: { ...state.pendingOpts },
     models: Object.fromEntries(Object.entries(state.pendingModels).map(([k,v]) => [k, v.current])),
     pts,
-  });
+  };
+  if (state.editingIdx !== null) {
+    state.list[state.editingIdx] = entry;
+  } else {
+    state.list.push(entry);
+  }
   closeModal();
   renderSlots();
   updatePoints();
@@ -1417,7 +1481,7 @@ function updatePoints() {
   const limit = parseInt(ptsLimit.value) || 0;
   ptsUsed.textContent = total;
   ptsDisplay.classList.toggle('over', limit > 0 && total > limit);
-  D('play-btn').style.display = state.list.length ? '' : 'none';
+  D('play-btn').style.display = state.list.length ? 'block' : 'none';
 }
 
 // ── PLAY MODE ────────────────────────────────────────────────────
@@ -1468,8 +1532,31 @@ function getEffectiveWargear(entry) {
 function renderPlayMode() {
   const STAT_KEYS_INF = ['M','WS','BS','S','T','W','I','A','Ld','Sv'];
   const STAT_KEYS_VEH = ['M','WS','BS','S','FA','SA','RA','W','I','A','Ld','Sv'];
+  const armyRules = state.codex?.rules ?? {};
 
-  const html = SLOTS.flatMap(slot => {
+  // Subfaction block
+  let subfactionHtml = '';
+  if (state.subfaction) {
+    const sf = (state.codex?.subfactions ?? []).find(s => s.name === state.subfaction);
+    if (sf?.rules?.length) {
+      subfactionHtml = `
+      <div class="play-subfaction-block">
+        <div class="play-subfaction-header">
+          <span class="play-subfaction-label">Chapter / Doctrine</span>
+          <span class="play-subfaction-name">${sf.name}</span>
+        </div>
+        <div class="play-subfaction-rules">
+          ${sf.rules.map(r => `
+            <div>
+              <div class="play-rule-name">${r.name}</div>
+              <div class="play-rule-desc">${r.description}</div>
+            </div>`).join('')}
+        </div>
+      </div>`;
+    }
+  }
+
+  const html = subfactionHtml + SLOTS.flatMap(slot => {
     const entries = state.list.filter(e => e.slotKey === slot.key);
     if (!entries.length) return [];
 
@@ -1501,8 +1588,9 @@ function renderPlayMode() {
         `<span class="play-wargear-item${w.upgraded ? ' upgraded' : ''}">${w.name}</span>`
       ).join('');
 
-      // Rules — collect from all models, deduplicate
-      const allRules = [...new Set((unit.models ?? []).flatMap(m => m.rules ?? []))];
+      // Rules — collect from all models, deduplicate, look up descriptions
+      const allRules = [...new Set((unit.models ?? []).flatMap(m => m.rules ?? []))]
+        .map(name => ({ name, description: armyRules[name] ?? '' }));
 
       return `
       <div class="play-unit">
@@ -1528,7 +1616,13 @@ function renderPlayMode() {
           ${allRules.length ? `
           <div>
             <div class="play-section-label">Abilities</div>
-            <div class="play-rules">${allRules.map(r => `<span class="play-rule">${r}</span>`).join('')}</div>
+            <div class="play-rules">
+              ${allRules.map(r => `
+                <div>
+                  <div class="play-rule-name">${r.name}</div>
+                  ${r.description ? `<div class="play-rule-desc">${r.description}</div>` : ''}
+                </div>`).join('')}
+            </div>
           </div>` : ''}
         </div>
       </div>`;

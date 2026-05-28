@@ -2,12 +2,24 @@
   "id": "szarekhan-dynasty",
   "name": "Szarekhan Dynasty",
   "difficulty": 1,
+  "rules": {},
   "subfactions": [
     {
-      "name": "Average"
+      "name": "Average",
+      "rules": []
     },
     {
-      "name": "Szarekhan"
+      "name": "Szarekhan",
+      "rules": [
+        {
+          "name": "Dark Origins",
+          "description": "All models have I1, regardless of their Datasheet. Unique Characters are not affected by this."
+        },
+        {
+          "name": "Blackstone Experts",
+          "description": "Each unit of Infantry may attempt to Deny the Witch once per Round."
+        }
+      ]
     }
   ],
   "slots": {
