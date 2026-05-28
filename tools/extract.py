@@ -74,6 +74,15 @@ SUBSECTION_LABELS = {
 
 
 # ── Helper ────────────────────────────────────────────────────────────────────
+def _normalise_text(text: str) -> str:
+    """Normalise Unicode punctuation to ASCII equivalents for consistent parsing."""
+    return (text
+        .replace('‘', "'").replace('’', "'")   # curly single quotes → '
+        .replace('“', '"').replace('”', '"')   # curly double quotes → "
+        .replace('–', '-').replace('—', '-')   # en/em dash → -
+    )
+
+
 def pdf_to_text(pdf_path: Path) -> str:
     result = subprocess.run(
         ['pdftotext', str(pdf_path), '-'],
@@ -81,7 +90,7 @@ def pdf_to_text(pdf_path: Path) -> str:
     )
     if result.returncode != 0:
         raise RuntimeError(f"pdftotext failed for {pdf_path}: {result.stderr}")
-    return result.stdout
+    return _normalise_text(result.stdout)
 
 
 def pdf_to_text_layout(pdf_path: Path) -> str:
@@ -91,7 +100,7 @@ def pdf_to_text_layout(pdf_path: Path) -> str:
     )
     if result.returncode != 0:
         raise RuntimeError(f"pdftotext -layout failed for {pdf_path}: {result.stderr}")
-    return result.stdout
+    return _normalise_text(result.stdout)
 
 
 def parse_weapon_tables_from_layout(layout_text: str) -> dict:

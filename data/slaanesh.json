@@ -8,8 +8,8 @@
     "Daemonic Thirst": "A weapon with this rule inflicts a Mortal Wound on its bearer in each of your Command Phases if you did not cause a Wound with the weapon during the last Turn. This does not trigger on Turn 1.",
     "Malicious Volleys": "If this model does not count as Moving this Turn, it may treat weapons with the Bolter rule as if they were in half range.",
     "Marks": "Marks of Chaos are optional upgrades for units. Marks perform the following enhancements to units. Stats in Bold have this baked into the profile. Psychic Mastery Level # models and units may only use the corresponding spell list with their Marks.",
-    "Mark of Slaanesh": "This model gains I+1 and Counterattack. Slaanesh Spell List. Slaanesh Spell List S +10 points Phantasmgoria Target unit suffers Ld-2. Cast 6+ S +15 points Cacophonic Target unit takes a Ld test. For Choir each point they fail by the unit Cast 8+ suffers 1 Mortal Wound. S +25 points Pavane of Target unit may move up to 6\u201d. Slaanesh Cast 6+ S +30 points Symphony of Target unit suffers -1 To Hit Pain until your next Psychic Phase. Cast 8+ S +45 points Hysterical Frenzy 18 Target unit gains A+1 until your Cast 7+ next Psychic Phase. S +75 points Delightful Target unit with the Mark of Agonies Slaanesh gains a 5+ Feel No Cast 7+ Pain until your next Psychic Phase.",
-    "Pure Blessings": "Pure Blessings of Chaos are an added layer of enhancement. Most models will only gain access to Pure Blessings if they come with a Mark by default. The only way to gain a Pure Blessing is to have an entire army of the Mark of the same god, or to have an Undivided Mark for each exception. The Pure Blessing adds to the existing Mark\u2019s benefits. For example, a Mark of Khorne grants A+1 and the Pure Blessing results in A+1 for a total of A+2. Other Pure Blessings of the same army count as Marks of the same god for the purpose of army building. Stats in Bold have this baked into the profile.",
+    "Mark of Slaanesh": "This model gains I+1 and Counterattack. Slaanesh Spell List. Slaanesh Spell List S +10 points Phantasmgoria Target unit suffers Ld-2. Cast 6+ S +15 points Cacophonic Target unit takes a Ld test. For Choir each point they fail by the unit Cast 8+ suffers 1 Mortal Wound. S +25 points Pavane of Target unit may move up to 6\". Slaanesh Cast 6+ S +30 points Symphony of Target unit suffers -1 To Hit Pain until your next Psychic Phase. Cast 8+ S +45 points Hysterical Frenzy 18 Target unit gains A+1 until your Cast 7+ next Psychic Phase. S +75 points Delightful Target unit with the Mark of Agonies Slaanesh gains a 5+ Feel No Cast 7+ Pain until your next Psychic Phase.",
+    "Pure Blessings": "Pure Blessings of Chaos are an added layer of enhancement. Most models will only gain access to Pure Blessings if they come with a Mark by default. The only way to gain a Pure Blessing is to have an entire army of the Mark of the same god, or to have an Undivided Mark for each exception. The Pure Blessing adds to the existing Mark's benefits. For example, a Mark of Khorne grants A+1 and the Pure Blessing results in A+1 for a total of A+2. Other Pure Blessings of the same army count as Marks of the same god for the purpose of army building. Stats in Bold have this baked into the profile.",
     "Pure Blessing of Slaanesh": "This model gains I+2 and Fleet.",
     "Sonic": "Sonic weapons inflict a -1 penalty to Cover Saves from their attacks."
   },
@@ -32,15 +32,20 @@
       "rules": [
         {
           "name": "Pledges to the Dark Prince",
-          "description": "In your Command Phase, you MUST pledge a number of enemy Slots to be destroyed before your End Phase. You cannot pledge less than 1. If you succeed in your goal of # Slots destroyed or exceed it, your Warlord Heals # and can exceed their starting Wound Count as an exception to the normal rules. If you fail to destroy # Slots, your Warlord suffers 1d3 Mortal Wounds. Emperor\u2019s Children:"
-        },
+          "description": "In your Command Phase, you MUST pledge a number of enemy Slots to be destroyed before your End Phase. You cannot pledge less than 1. If you succeed in your goal of # Slots destroyed or exceed it, your Warlord Heals # and can exceed their starting Wound Count as an exception to the normal rules. If you fail to destroy # Slots, your Warlord suffers 1d3 Mortal Wounds."
+        }
+      ]
+    },
+    {
+      "name": "Emperor's Children",
+      "rules": [
         {
           "name": "Degenerates",
           "description": "Models in your army count each wound caused in Melee as 2 points instead of 1 for purposes of Combat Resolution."
         },
         {
           "name": "Sadistic Psychopaths",
-          "description": "Models must declare Charges whenever they are able to do so and cannot do anything that would make Declaring Charges illegal (i.e. such as shooting heavy weapons, advancing, etc. so long as they are within 12\u201d of an enemy)."
+          "description": "Models must declare Charges whenever they are able to do so and cannot do anything that would make Declaring Charges illegal (i.e. such as shooting heavy weapons, advancing, etc. so long as they are within 12\" of an enemy)."
         }
       ]
     },
@@ -75,7 +80,7 @@
       "rules": [
         {
           "name": "Eyeball Artisans",
-          "description": "Models in your army will never pursue fleeing units and automatically pass all Hold tests. They will not perform the 3\u201d move after winning combat. All enemy units within 6\u201d suffer Ld-1 and take a Fear Test, with the -1 wearing off in their next Command Phase."
+          "description": "Models in your army will never pursue fleeing units and automatically pass all Hold tests. They will not perform the 3\" move after winning combat. All enemy units within 6\" suffer Ld-1 and take a Fear Test, with the -1 wearing off in their next Command Phase."
         }
       ]
     },
@@ -118,8 +123,13 @@
         },
         {
           "name": "Rapid Deployment",
-          "description": "Models in your army may charge on the turn they Disembark from a Transport that does not have Assault Ramps, but treat the charge as Disorganized. Slaanesh\u2019s Chosen:"
-        },
+          "description": "Models in your army may charge on the turn they Disembark from a Transport that does not have Assault Ramps, but treat the charge as Disorganized."
+        }
+      ]
+    },
+    {
+      "name": "Slaanesh's Chosen",
+      "rules": [
         {
           "name": "Eager to Please",
           "description": "Models in your army may reroll failed Charges."
@@ -157,7 +167,7 @@
       "rules": [
         {
           "name": "Emotional Fug",
-          "description": "Friendly models within 6\u201d of a Daemonic Engine gain Stubborn."
+          "description": "Friendly models within 6\" of a Daemonic Engine gain Stubborn."
         },
         {
           "name": "Prone to Overindulgence",
@@ -565,7 +575,7 @@
             "range": "8",
             "S": "3",
             "AP": "-",
-            "type": "Grenade 1, 3\u201d Blast"
+            "type": "Grenade 1, 3\" Blast"
           },
           "Krak Grenades": {
             "range": "8",
@@ -638,12 +648,12 @@
         }
       },
       {
-        "name": "Syll\u2019Esske the Vengeful Alliance",
+        "name": "Syll'Esske the Vengeful Alliance",
         "points_base": 465,
-        "composition": "1 Syll\u2019Esske",
+        "composition": "1 Syll'Esske",
         "models": [
           {
-            "name": "Syll\u2019Esske",
+            "name": "Syll'Esske",
             "stats": {
               "M": "10",
               "WS": "2+",
@@ -938,7 +948,7 @@
             "range": "8",
             "S": "3",
             "AP": "-",
-            "type": "Grenade 1, 3\u201d Blast"
+            "type": "Grenade 1, 3\" Blast"
           },
           "Krak Grenades": {
             "range": "8",
@@ -1309,7 +1319,7 @@
             "range": "8",
             "S": "3",
             "AP": "-",
-            "type": "Grenade 1, 3\u201d Blast"
+            "type": "Grenade 1, 3\" Blast"
           },
           "Krak Grenades": {
             "range": "8",
@@ -1510,13 +1520,13 @@
             "range": "36",
             "S": "8",
             "AP": "3+",
-            "type": "Heavy 1, 3\u201d Blast, Sonic, Monsterbane, Pinning"
+            "type": "Heavy 1, 3\" Blast, Sonic, Monsterbane, Pinning"
           },
           "Frag Grenades": {
             "range": "8",
             "S": "3",
             "AP": "-",
-            "type": "Grenade 1, 3\u201d Blast"
+            "type": "Grenade 1, 3\" Blast"
           },
           "Krak Grenades": {
             "range": "8",
@@ -1575,13 +1585,13 @@
             "range": "36",
             "S": "8",
             "AP": "3+",
-            "type": "Heavy 1 x2, 3\u201d Blast, Sonic, Monsterbane, Pinning, Hull, Primary"
+            "type": "Heavy 1 x2, 3\" Blast, Sonic, Monsterbane, Pinning, Hull, Primary"
           },
           "Havoc Launcher": {
             "range": "48",
             "S": "5",
             "AP": "5+",
-            "type": "Heavy 1, 3\u201d Blast, Hull 21"
+            "type": "Heavy 1, 3\" Blast, Hull 21"
           }
         }
       }
@@ -1923,7 +1933,7 @@
             "range": "36",
             "S": "6",
             "AP": "3+",
-            "type": "Assault 1, 5\u201d Blast, Pinning"
+            "type": "Assault 1, 5\" Blast, Pinning"
           },
           "The Souleater Sword": {
             "range": "Melee",

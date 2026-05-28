@@ -64,6 +64,10 @@
       "name": "Novokh",
       "rules": [
         {
+          "name": "Ferric's Blight",
+          "description": "All models from this Dynasty suffer Sv+1, resulting in 1 worse Armour Save. This does not affect Unique Characters."
+        },
+        {
           "name": "Blood Crazed",
           "description": "All models in your army gain Shock Assault and Furious Charge. This does not affect Unique Characters."
         }
@@ -79,6 +83,10 @@
         {
           "name": "Blackstone Experts",
           "description": "Each unit of Infantry may attempt to Deny the Witch once per Round."
+        },
+        {
+          "name": "King's Chosen",
+          "description": "Every Infantry and Monstrous Infantry model has Bodyguard."
         }
       ]
     },
@@ -607,7 +615,7 @@
             "range": "18",
             "S": "6",
             "AP": "4+",
-            "type": "Assault 1, 3\u201d Blast"
+            "type": "Assault 1, 3\" Blast"
           },
           "Flensing Claw": {
             "range": "Melee",
@@ -773,7 +781,7 @@
             "range": "18",
             "S": "6",
             "AP": "4+",
-            "type": "Assault 1, 3\u201d Blast"
+            "type": "Assault 1, 3\" Blast"
           },
           "Unmaker Gauntlet": {
             "range": "Melee",
@@ -1131,7 +1139,7 @@
             "range": "Melee",
             "S": "+2",
             "AP": "3+",
-            "type": "Psionic Shockwave \u2013 All Characters and Independent Characters slain by this model explode in a S4 AP- in a 6\u201d Radius. This does not affect friendly models. 15"
+            "type": "Psionic Shockwave - All Characters and Independent Characters slain by this model explode in a S4 AP- in a 6\" Radius. This does not affect friendly models. 15"
           }
         }
       }
@@ -1197,7 +1205,7 @@
             "range": "18",
             "S": "5",
             "AP": "4+",
-            "type": "Assault 1, 3\u201d Blast, No User 3+ No Invulnerability Saves"
+            "type": "Assault 1, 3\" Blast, No User 3+ No Invulnerability Saves"
           },
           "Entropic Lance Melee": {
             "range": "18 or",
@@ -1932,7 +1940,7 @@
             "range": "24",
             "S": "6",
             "AP": "5+",
-            "type": "Heavy 1 x2, 3\u201d Blasts"
+            "type": "Heavy 1 x2, 3\" Blasts"
           }
         }
       },
@@ -2020,7 +2028,7 @@
             "range": "5",
             "S": "24",
             "AP": "4 5+ Rapid Fire 1 x5 (x2), Gauss,",
-            "type": "Broadside \u2013 Each set of 5 Linked Gauss Flayers may only fire out one side each as if they were Hull Mounted on a Vehicle."
+            "type": "Broadside - Each set of 5 Linked Gauss Flayers may only fire out one side each as if they were Hull Mounted on a Vehicle."
           }
         }
       },
@@ -2211,7 +2219,7 @@
             "range": "24",
             "S": "7",
             "AP": "4+",
-            "type": "Heavy 1, 5\u201d Blast, Hull, Primary"
+            "type": "Heavy 1, 5\" Blast, Hull, Primary"
           },
           "Heat Ray Flame": {
             "range": "24",
@@ -2307,7 +2315,7 @@
             "range": "24",
             "S": "6",
             "AP": "5+",
-            "type": "Heavy 1, 3\u201d Blast"
+            "type": "Heavy 1, 3\" Blast"
           },
           "2 Linked Tesla per model": {
             "range": "24",
@@ -2454,7 +2462,7 @@
             "range": "12",
             "S": "10",
             "AP": "1+",
-            "type": "Heavy 1, 3\u201d Blast, Monsterbane"
+            "type": "Heavy 1, 3\" Blast, Monsterbane"
           }
         }
       },
@@ -2526,7 +2534,7 @@
             "range": "12",
             "S": "10",
             "AP": "1+",
-            "type": "Heavy 1, 3\u201d Blast, Monsterbane"
+            "type": "Heavy 1, 3\" Blast, Monsterbane"
           }
         }
       },
@@ -2771,7 +2779,7 @@
             "range": "36",
             "S": "8",
             "AP": "2+",
-            "type": "Heavy 1, 5\u201d Blast, Lance, Monsterbane"
+            "type": "Heavy 1, 5\" Blast, Lance, Monsterbane"
           },
           "2 Linked Gauss Flayers": {
             "range": "24",
@@ -2845,7 +2853,7 @@
             "range": "36",
             "S": "7",
             "AP": "4+",
-            "type": "Heavy 1, 5\u201d Blast"
+            "type": "Heavy 1, 5\" Blast"
           }
         }
       },
@@ -2913,7 +2921,7 @@
             "range": "36",
             "S": "7",
             "AP": "4+",
-            "type": "Heavy 1, 5\u201d Blast"
+            "type": "Heavy 1, 5\" Blast"
           }
         }
       },
@@ -3025,7 +3033,7 @@
             "range": "72",
             "S": "D",
             "AP": "1+",
-            "type": "Heavy 1, 3\u201d Blast, Destroyer, Monsterbane, Hull, Primary"
+            "type": "Heavy 1, 3\" Blast, Destroyer, Monsterbane, Hull, Primary"
           },
           "5 Linked Gauss Flayers": {
             "range": "24",
@@ -3108,7 +3116,7 @@
             "range": "24",
             "S": "6",
             "AP": "5+",
-            "type": "Heavy 1 x2, 3\u201d Blast, Hull"
+            "type": "Heavy 1 x2, 3\" Blast, Hull"
           },
           "2 Linked Gauss Cannons": {
             "range": "24",
@@ -3176,7 +3184,7 @@
             "range": "36",
             "S": "10",
             "AP": "1+",
-            "type": "Heavy 2, 3\u201d Blast, Melta, (Monsterbane)"
+            "type": "Heavy 2, 3\" Blast, Melta, (Monsterbane)"
           }
         }
       }
@@ -3227,7 +3235,7 @@
             "range": "24",
             "S": "10",
             "AP": "1+",
-            "type": "Heavy 1, 3\u201d Blast, Lance, Monsterbane, Hull, Primary 37"
+            "type": "Heavy 1, 3\" Blast, Lance, Monsterbane, Hull, Primary 37"
           }
         }
       },
@@ -3278,7 +3286,7 @@
             "range": "Bomb",
             "S": "10",
             "AP": "1+",
-            "type": "Heavy 1, 5\u201d Blast, Pinning, Monsterbane, Hull, Primary"
+            "type": "Heavy 1, 5\" Blast, Pinning, Monsterbane, Hull, Primary"
           }
         }
       },
@@ -3327,7 +3335,7 @@
             "range": "Bomb",
             "S": "10",
             "AP": "1+",
-            "type": "Heavy 1, 5\u201d Blast, Pinning, Monsterbane, Hull, Primary"
+            "type": "Heavy 1, 5\" Blast, Pinning, Monsterbane, Hull, Primary"
           }
         }
       }
@@ -3385,12 +3393,12 @@
     ],
     "lord_of_war": [
       {
-        "name": "C\u2019Tan Shards",
+        "name": "C'Tan Shard of the Deceiver",
         "points_base": 374,
-        "composition": "1 C\u2019Tan Shard of the Deceiver",
+        "composition": "1 C'Tan Shard of the Deceiver",
         "models": [
           {
-            "name": "C\u2019Tan Shard of the Deceiver",
+            "name": "Deceiver",
             "stats": {
               "M": "8",
               "WS": "2+",
@@ -3403,11 +3411,6 @@
               "Ld": "10",
               "Sv": "3+"
             },
-            "rules": []
-          },
-          {
-            "name": "Deceiver",
-            "stats": {},
             "rules": [
               "Monster",
               "Unique",
@@ -3426,16 +3429,23 @@
         ],
         "options": [
           {
-            "description": "May choose one C\u2019Tan Power or randomly choose one each turn for +27 points",
+            "description": "May choose one C'Tan Power or randomly choose one each turn for +27 points",
             "choices": []
           }
         ],
-        "weapons": {}
+        "weapons": {
+          "Golden Fists Power +16 points Power +17 points Power +18 points Power +29 points Power +40 points": {
+            "range": "Melee",
+            "S": "+3",
+            "AP": "3+",
+            "type": "Sniper (2+) Cosmic Fire 24 6 4+ Assault 1, 5\" Blast, Ignores Cover Time's Arrow 24 5 2+ Assault 2, Sniper (3+) Transdimensiona 24 9 1+ Assault 1, Tesla, Monsterbane l Thunderbolt Seismic Assault 24 6 4+ Assault 10 Antimatter 24 8 3+ Assault 1, 5\" Blast, Meteor Monsterbane 40"
+          }
+        }
       },
       {
-        "name": "C\u2019Tan Shard of the Nightbringer",
+        "name": "C'Tan Shard of the Nightbringer",
         "points_base": 338,
-        "composition": "1 C\u2019Tan Shard of the Nightbringer",
+        "composition": "1 C'Tan Shard of the Nightbringer",
         "models": [
           {
             "name": "Nightbringer",
@@ -3469,7 +3479,7 @@
         ],
         "options": [
           {
-            "description": "May choose one C\u2019Tan Power or randomly choose one each turn for +27 points",
+            "description": "May choose one C'Tan Power or randomly choose one each turn for +27 points",
             "choices": []
           }
         ],
@@ -3483,9 +3493,9 @@
         }
       },
       {
-        "name": "C\u2019Tan Shard of the Void Dragon",
+        "name": "C'Tan Shard of the Void Dragon",
         "points_base": 382,
-        "composition": "1 C\u2019Tan Shard of the Void Dragon",
+        "composition": "1 C'Tan Shard of the Void Dragon",
         "models": [
           {
             "name": "Void Dragon",
@@ -3519,7 +3529,7 @@
         ],
         "options": [
           {
-            "description": "May choose one C\u2019Tan Power or randomly choose one each turn for +27 points",
+            "description": "May choose one C'Tan Power or randomly choose one each turn for +27 points",
             "choices": []
           }
         ],
@@ -3539,9 +3549,9 @@
         }
       },
       {
-        "name": "C\u2019Tan Shard Transcendent",
+        "name": "C'Tan Shard Transcendent",
         "points_base": 275,
-        "composition": "1 C\u2019Tan Shard of the Transcendent",
+        "composition": "1 C'Tan Shard of the Transcendent",
         "models": [
           {
             "name": "Transcendent",
@@ -3572,7 +3582,7 @@
         ],
         "options": [
           {
-            "description": "May choose up to two C\u2019Tan Powers or randomly choose two each turn for +54 points",
+            "description": "May choose up to two C'Tan Powers or randomly choose two each turn for +54 points",
             "choices": []
           }
         ],
@@ -3682,13 +3692,13 @@
             "range": "36",
             "S": "8",
             "AP": "2+",
-            "type": "Heavy 1, 5\u201d Blast, Monsterbane, Hull"
+            "type": "Heavy 1, 5\" Blast, Monsterbane, Hull"
           },
           "2 Linked Synaptic Obliterators and Transdimensiona l Projectors": {
             "range": "72",
             "S": "D",
             "AP": "1+",
-            "type": "Heavy 1 x2, Monsterbane, Hull And And And 24 6 3+ Heavy 1 x2, 3\u201d Blast, Hull 45"
+            "type": "Heavy 1 x2, Monsterbane, Hull And And And 24 6 3+ Heavy 1 x2, 3\" Blast, Hull 45"
           }
         }
       },
@@ -3829,7 +3839,7 @@
             "range": "24",
             "S": "8",
             "AP": "3+",
-            "type": "Heavy 1, 5\u201d Blast, Ordnance, Monsterbane, Hull"
+            "type": "Heavy 1, 5\" Blast, Ordnance, Monsterbane, Hull"
           },
           "4 Gauss Arc Fluxes": {
             "range": "24",
@@ -3841,7 +3851,7 @@
             "range": "24",
             "S": "10",
             "AP": "1+",
-            "type": "Heavy 1 x4, 3\u201d Blast, Lance, Monsterbane, Sponson 48"
+            "type": "Heavy 1 x4, 3\" Blast, Lance, Monsterbane, Sponson 48"
           }
         }
       },
@@ -3888,7 +3898,7 @@
             "range": "24",
             "S": "D",
             "AP": "1+",
-            "type": "Heavy 1, 5\u201d Blast, Destroyer, Monsterbane, Hull"
+            "type": "Heavy 1, 5\" Blast, Destroyer, Monsterbane, Hull"
           },
           "4 Gauss Arc Fluxes": {
             "range": "24",
@@ -3900,7 +3910,7 @@
             "range": "24",
             "S": "10",
             "AP": "1+",
-            "type": "Heavy 1 x4, 3\u201d Blast, Lance, Monsterbane, Sponson 49"
+            "type": "Heavy 1 x4, 3\" Blast, Lance, Monsterbane, Sponson 49"
           }
         }
       },
@@ -3950,7 +3960,7 @@
             "range": "72",
             "S": "D",
             "AP": "1+",
-            "type": "Heavy 1, 10\u201d Blast, Destroyer, Monsterbane, Hull"
+            "type": "Heavy 1, 10\" Blast, Destroyer, Monsterbane, Hull"
           },
           "4 Gauss Arc Fluxes": {
             "range": "24",
@@ -3962,7 +3972,7 @@
             "range": "24",
             "S": "10",
             "AP": "1+",
-            "type": "Heavy 1 x4, 3\u201d Blast, Lance, Monsterbane, Sponson 50"
+            "type": "Heavy 1 x4, 3\" Blast, Lance, Monsterbane, Sponson 50"
           }
         }
       }

@@ -1273,12 +1273,33 @@ async function loadSubfactionCodex(subfactionName) {
   if (state.browsingSlot) renderUnitList(D('unit-search').value);
 }
 
+// ── SUBFACTION RULE HELPERS ──────────────────────────────────────
+// Returns the rules array for the active subfaction, checking both the
+// parent codex and the chapter-specific codex file (where they usually live).
+function getSubfactionRules() {
+  const name = state.subfaction;
+  if (!name) return [];
+  // Prefer rules from the subfaction's own codex file
+  const fromChapterCodex = (state.subfactionCodex?.subfactions ?? [])
+    .find(s => s.name === name)?.rules ?? [];
+  if (fromChapterCodex.length) return fromChapterCodex;
+  // Fall back to the parent codex subfaction entry
+  return (state.codex?.subfactions ?? []).find(s => s.name === name)?.rules ?? [];
+}
+
+// Returns a merged rules dict: parent codex rules + subfaction codex rules
+function getEffectiveArmyRules() {
+  return {
+    ...(state.subfactionCodex?.rules ?? {}),
+    ...(state.codex?.rules ?? {}),
+  };
+}
+
 // ── FORCE-ORG HELPERS ────────────────────────────────────────────
 function getActiveForcOrg() {
-  const sf = (state.codex?.subfactions ?? []).find(s => s.name === state.subfaction);
   const changes = [];
   const eligible = [];   // {units: [str], slot: str}
-  for (const rule of sf?.rules ?? []) {
+  for (const rule of getSubfactionRules()) {
     const fo = rule.force_org;
     if (!fo) continue;
     for (const c of fo.slot_changes ?? []) changes.push(c);
@@ -1326,9 +1347,8 @@ function getExtraEligibleUnits(slotKey) {
 function renderForceOrgNotice() {
   const notice = D('force-org-notice');
   if (!notice) return;
-  const sf = (state.codex?.subfactions ?? []).find(s => s.name === state.subfaction);
   const lines = [];
-  for (const rule of sf?.rules ?? []) {
+  for (const rule of getSubfactionRules()) {
     const fo = rule.force_org;
     if (!fo) continue;
     if (fo.troops_eligible) {
@@ -1776,21 +1796,21 @@ function getEffectiveWargear(entry) {
 function renderPlayMode() {
   const STAT_KEYS_INF = ['M','WS','BS','S','T','W','I','A','Ld','Sv'];
   const STAT_KEYS_VEH = ['M','WS','BS','S','FA','SA','RA','W','I','A','Ld','Sv'];
-  const armyRules = state.codex?.rules ?? {};
+  const armyRules = getEffectiveArmyRules();
 
   // Subfaction block
   let subfactionHtml = '';
   if (state.subfaction) {
-    const sf = (state.codex?.subfactions ?? []).find(s => s.name === state.subfaction);
-    if (sf?.rules?.length) {
+    const sfRules = getSubfactionRules();
+    if (sfRules.length) {
       subfactionHtml = `
       <div class="play-subfaction-block">
         <div class="play-subfaction-header">
           <span class="play-subfaction-label">Chapter / Doctrine</span>
-          <span class="play-subfaction-name">${sf.name}</span>
+          <span class="play-subfaction-name">${state.subfaction}</span>
         </div>
         <div class="play-subfaction-rules">
-          ${sf.rules.map(r => `
+          ${sfRules.map(r => `
             <div>
               <div class="play-rule-name">${r.name}</div>
               <div class="play-rule-desc">${r.description}</div>
@@ -1969,8 +1989,8 @@ D('play-back-btn').addEventListener('click', () => { closePlayMode(); });
   }
 
   function lookupKeyword(name) {
-    // 1. Codex-specific rules (highest priority)
-    const codexRules = state.codex?.rules ?? {};
+    // 1. Codex-specific rules (parent + subfaction codex merged)
+    const codexRules = getEffectiveArmyRules();
     if (codexRules[name]) return codexRules[name];
     // 2. Core keywords exact match
     const coreKw = state.coreKeywords;
