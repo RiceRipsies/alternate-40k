@@ -303,29 +303,11 @@
           }
         ],
         "weapons": {
-          "Staff of": {
+          "Staff of Tomorrow": {
             "range": "Melee",
             "S": "+2",
             "AP": "2+",
-            "type": "Sniper (2+), Independent"
-          },
-          "Characters slain by this weapon": {
-            "range": "",
-            "S": "",
-            "AP": "",
-            "type": ""
-          },
-          "a Chaos Spawn within": {
-            "range": "6\u201d",
-            "S": "",
-            "AP": "",
-            "type": ""
-          },
-          "no upgrades": {
-            "range": "",
-            "S": "",
-            "AP": "",
-            "type": "7"
+            "type": "Sniper (2+), Independent Characters slain by this weapon spawn a Chaos Spawn within 6\u201d with no upgrades 7"
           }
         }
       },
@@ -375,56 +357,15 @@
         "options": [
           {
             "description": "May take up to one of each Spell",
-            "choices": [
-              {
-                "name": "Gaze of Magnus",
-                "pts_delta": 0
-              }
-            ]
+            "choices": []
           }
         ],
         "weapons": {
-          "Blade of Magnus": {
+          "Blade of Magnus Cast 8+": {
             "range": "Melee",
             "S": "User",
             "AP": "1+",
-            "type": "Sniper (2+), Independent"
-          },
-          "slain by this weapon": {
-            "range": "",
-            "S": "",
-            "AP": "",
-            "type": ""
-          },
-          "a Chaos Spawn within": {
-            "range": "6\u201d",
-            "S": "",
-            "AP": "",
-            "type": ""
-          },
-          "no upgrades": {
-            "range": "",
-            "S": "",
-            "AP": "",
-            "type": ""
-          },
-          "Gaze of Magnus": {
-            "range": "18",
-            "S": "D",
-            "AP": "1+",
-            "type": "Assault 1, Beam, Destroyer,"
-          },
-          "8+": {
-            "range": "Monsterbane",
-            "S": "",
-            "AP": "",
-            "type": "8"
-          },
-          "0-3/Troop Slot Purchased": {
-            "range": "",
-            "S": "",
-            "AP": "",
-            "type": ""
+            "type": "Sniper (2+), Independent Characters slain by this weapon spawn a Chaos Spawn within 6\u201d with no upgrades Monsterbane 8"
           }
         }
       }
@@ -969,15 +910,15 @@
                 "pts_delta": 0
               },
               {
-                "name": "Inferno Combi",
+                "name": "Inferno Combi Flamer",
                 "pts_delta": 1
               },
               {
-                "name": "Inferno Combi",
+                "name": "Inferno Combi Plasma",
                 "pts_delta": 6
               },
               {
-                "name": "Inferno Combi",
+                "name": "Inferno Combi Melta",
                 "pts_delta": 21
               },
               {
@@ -1048,17 +989,23 @@
             "AP": "3+",
             "type": "Reroll failed To Wound rolls"
           },
-          "Inferno Combi": {
+          "Inferno Combi Flamer": {
             "range": "Flame",
             "S": "4",
             "AP": "5+",
-            "type": "Assault 1"
+            "type": "Assault 1 Or Or Or Or"
           },
-          "Or": {
-            "range": "Or",
-            "S": "Or",
-            "AP": "Or",
-            "type": ""
+          "Inferno Combi Plasma": {
+            "range": "24",
+            "S": "7",
+            "AP": "2+",
+            "type": "Rapid Fire 1, Gets Hot! Or Or Or Or"
+          },
+          "Inferno Combi Melta": {
+            "range": "12",
+            "S": "8",
+            "AP": "1+",
+            "type": "Assault 1, Melta, Or Or Or (Monsterbane), Or 14"
           },
           "Soulreaper Cannon": {
             "range": "24",
@@ -1131,12 +1078,6 @@
             "S": "+2",
             "AP": "4+",
             "type": "Psychic Bane, Concussion"
-          },
-          "Attack": {
-            "range": "0-3",
-            "S": "",
-            "AP": "",
-            "type": ""
           }
         }
       }
@@ -1299,7 +1240,7 @@
                 "pts_delta": 0
               },
               {
-                "name": "Autopistol and",
+                "name": "Autopistol and Chainsword Melee",
                 "pts_delta": 1
               },
               {
@@ -1320,35 +1261,17 @@
             "AP": "4+",
             "type": "Furious Charge"
           },
-          "Autopistol and": {
+          "Autopistol and Chainsword Melee": {
             "range": "12",
             "S": "3",
             "AP": "-",
-            "type": "Pistol 1"
-          },
-          "And": {
-            "range": "And",
-            "S": "And",
-            "AP": "And",
-            "type": ""
-          },
-          "User": {
-            "range": "6+",
-            "S": "Rending",
-            "AP": "",
-            "type": ""
+            "type": "Pistol 1 And And And And User 6+ Rending"
           },
           "Fatecaster Greatbow": {
             "range": "24",
             "S": "5",
             "AP": "4+",
             "type": "Assault 2 17"
-          },
-          "Support": {
-            "range": "0-3",
-            "S": "",
-            "AP": "",
-            "type": ""
           }
         }
       }
@@ -1466,107 +1389,11 @@
           }
         ],
         "weapons": {
-          "Enormous Claws": {
+          "Enormous Claws Touch Madness Unreality": {
             "range": "Melee",
             "S": "User",
             "AP": "3+",
-            "type": "None"
-          },
-          "1": {
-            "range": "Warp Flare",
-            "S": "12",
-            "AP": "5 3+ Assault 1, 3\u201d Blast",
-            "type": ""
-          },
-          "2": {
-            "range": "Chaotic Infusion",
-            "S": "6",
-            "AP": "-",
-            "type": "- Target unit with the Mark of"
-          },
-          "3": {
-            "range": "Temporal Flux",
-            "S": "6",
-            "AP": "-",
-            "type": "- Target unit with the Mark of"
-          },
-          "4": {
-            "range": "Ephemeral",
-            "S": "6",
-            "AP": "Target unit with the Mark of",
-            "type": ""
-          },
-          "5": {
-            "range": "Maelstrom of",
-            "S": "12",
-            "AP": "-",
-            "type": "- Target enemy unit suffers -2 Ld"
-          },
-          "6": {
-            "range": "Beam of",
-            "S": "12",
-            "AP": "D 2+ Assault 1, Beam, Destroyer,",
-            "type": ""
-          },
-          "gains S+1 until your": {
-            "range": "",
-            "S": "",
-            "AP": "",
-            "type": ""
-          },
-          "may reroll failed": {
-            "range": "",
-            "S": "",
-            "AP": "",
-            "type": ""
-          },
-          "Shooting Phase": {
-            "range": "",
-            "S": "",
-            "AP": "",
-            "type": ""
-          },
-          "until your next": {
-            "range": "",
-            "S": "",
-            "AP": "",
-            "type": ""
-          },
-          "Phase": {
-            "range": "",
-            "S": "",
-            "AP": "",
-            "type": ""
-          },
-          "Tzeentch gains Rending on all": {
-            "range": "",
-            "S": "",
-            "AP": "",
-            "type": ""
-          },
-          "and": {
-            "range": "Melee",
-            "S": "",
-            "AP": "",
-            "type": ""
-          },
-          "next Shooting Phase": {
-            "range": "",
-            "S": "",
-            "AP": "",
-            "type": ""
-          },
-          "until your next Shooting Phase": {
-            "range": "",
-            "S": "",
-            "AP": "",
-            "type": "19"
-          },
-          "Monsterbane": {
-            "range": "",
-            "S": "",
-            "AP": "",
-            "type": ""
+            "type": "None Tzeentch gains S+1 until your next Shooting Phase Tzeentch may reroll failed Charges until your next Shooting Phase Tzeentch gains Rending on all Ranged and Melee Attacks until your next Shooting Phase until your next Shooting Phase 19 Monsterbane"
           }
         }
       },
@@ -1620,17 +1447,11 @@
             "AP": "3+",
             "type": "Assault 1"
           },
-          "2 Linked Hellfyre": {
+          "2 Linked Hellfyre Missile Racks": {
             "range": "36",
             "S": "3",
             "AP": "6+",
-            "type": "Heavy 1 x2, 3\u201d Blast, Ignores"
-          },
-          "Racks": {
-            "range": "Cover",
-            "S": "",
-            "AP": "",
-            "type": ""
+            "type": "Heavy 1 x2, 3\u201d Blast, Ignores Cover"
           },
           "Lightning Claw": {
             "range": "Melee",
@@ -1643,12 +1464,6 @@
             "S": "8",
             "AP": "1+",
             "type": "Assault 1, Melta, (Monsterbane)"
-          },
-          "of War": {
-            "range": "0-1",
-            "S": "",
-            "AP": "",
-            "type": ""
           }
         }
       }
@@ -1696,23 +1511,11 @@
           }
         ],
         "weapons": {
-          "Staff of": {
+          "Staff of Cataclysm Melee": {
             "range": "72",
             "S": "9",
             "AP": "3+",
-            "type": "Heavy 1, Apocalypse Barrage"
-          },
-          "And": {
-            "range": "And",
-            "S": "And",
-            "AP": "And",
-            "type": ""
-          },
-          "X2": {
-            "range": "1+",
-            "S": "Slow, Monsterbane",
-            "AP": "",
-            "type": ""
+            "type": "Heavy 1, Apocalypse Barrage And And And And X2 1+ Slow, Monsterbane"
           }
         }
       },
@@ -1769,31 +1572,13 @@
             "range": "Melee",
             "S": "User",
             "AP": "3+",
-            "type": "Sniper (3+), Independent"
+            "type": "Sniper (3+), Independent Characters slain by this weapon spawn a Chaos Spawn within 6\u201d with no upgrades"
           },
           "Baleful Sword": {
             "range": "Melee",
             "S": "+1",
             "AP": "2+",
             "type": "Extra Attack 1, Auxiliary 22"
-          },
-          "slain by this weapon": {
-            "range": "",
-            "S": "",
-            "AP": "",
-            "type": ""
-          },
-          "a Chaos Spawn within": {
-            "range": "6\u201d",
-            "S": "",
-            "AP": "",
-            "type": ""
-          },
-          "no upgrades": {
-            "range": "",
-            "S": "",
-            "AP": "",
-            "type": ""
           }
         }
       }

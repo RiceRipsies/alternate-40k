@@ -1687,18 +1687,22 @@ function renderPlayMode() {
       // Weapon profiles for selected wargear
       const unitWeapons = unit.weapons ?? {};
       function findWeaponProfile(name) {
-        // 1. Unit's own weapon table
-        if (unitWeapons[name]) return unitWeapons[name];
-        // 2. Global registry
         const gw = state.globalWeapons;
-        if (gw[name]) return gw[name];
-        // 3. Normalised: remove leading count ("2 Heavy Flamers" → "Heavy Flamer")
-        const singular = name.replace(/^\d+\s+/, '').replace(/s$/, '');
-        if (gw[singular]) return gw[singular];
-        // 4. Collapse spaces ("Chain Sword" → "Chainsword")
-        const nospace = name.replace(/\s+/g, '');
-        const match = Object.keys(gw).find(k => k.replace(/\s+/g, '') === nospace);
-        if (match) return gw[match];
+        const all = { ...unitWeapons, ...gw };
+        // 1. Exact match (unit-local first, then global)
+        if (all[name]) return all[name];
+        // 2. Strip trailing vehicle slot code: "Heavy Flamer H" → "Heavy Flamer"
+        const noSlot = name.replace(/\s+[A-Z]$/, '').trim();
+        if (noSlot !== name && all[noSlot]) return all[noSlot];
+        // 3. Strip leading count + singularise: "2 Heavy Flamers" → "Heavy Flamer"
+        const singular = name.replace(/^\d+\s+(sets?\s+of\s+)?\d*\s*/i, '')
+                              .replace(/s$/i, '').trim();
+        if (singular !== name && all[singular]) return all[singular];
+        // 4. Case-insensitive space-collapse: "Chain Sword" → "Chainsword"
+        const norm = s => s.toLowerCase().replace(/\s+/g, '');
+        const normName = norm(name);
+        const match = Object.keys(all).find(k => norm(k) === normName);
+        if (match) return all[match];
         return null;
       }
       const selectedWeaponProfiles = wgItems

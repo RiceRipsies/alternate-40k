@@ -89,13 +89,7 @@
             "range": "Melee",
             "S": "10",
             "AP": "1+",
-            "type": "Slow, Monsterbane, Reroll"
-          },
-          "To Wound rolls": {
-            "range": "",
-            "S": "",
-            "AP": "",
-            "type": "3"
+            "type": "Slow, Monsterbane, Reroll failed To Wound rolls 3"
           }
         }
       },
@@ -145,17 +139,11 @@
         ],
         "options": [],
         "weapons": {
-          "Blood Song": {
+          "Blood Song And": {
             "range": "12",
             "S": "8",
             "AP": "1+",
-            "type": "Assault 1, Melta,"
-          },
-          "And": {
-            "range": "And",
-            "S": "(Monsterbane) And",
-            "AP": "",
-            "type": ""
+            "type": "Assault 1, Melta, And And (Monsterbane) And"
           },
           "Bolt Pistol": {
             "range": "12",
@@ -237,36 +225,32 @@
             "description": "May take up to one S for each level of Psychic Mastery.",
             "choices": [
               {
-                "name": "Sanguine Sword",
+                "name": "Sanguine Sword Cast 7+",
                 "pts_delta": 0
               },
               {
-                "name": "Cause",
+                "name": "Cause Misfortune Cast 7+",
                 "pts_delta": 10
               },
               {
-                "name": "Forewarning",
+                "name": "Forewarning Cast 6+",
                 "pts_delta": 10
               },
               {
-                "name": "Bolster",
+                "name": "Bolster Cast 6+",
                 "pts_delta": 15
               },
               {
-                "name": "Enfeeble",
+                "name": "Enfeeble Cast 8+",
                 "pts_delta": 20
               },
               {
-                "name": "Endurance",
+                "name": "Endurance Cast 7+",
                 "pts_delta": 20
               },
               {
-                "name": "Melting Beam",
+                "name": "Melting Beam Cast 7+",
                 "pts_delta": 22
-              },
-              {
-                "name": "Phase",
-                "pts_delta": 0
               }
             ]
           },
@@ -305,89 +289,47 @@
             "AP": "4+",
             "type": "Grenade 1, Nonblast"
           },
-          "Sanguine Sword": {
+          "Sanguine Sword Cast 7+": {
             "range": "User",
             "S": "-",
             "AP": "-",
-            "type": "Vitarus hits at S10, AP1+, and"
+            "type": "Vitarus hits at S10, AP1+, and ignores Invulnerability Saves until your next Psychic Phase"
           },
-          "Cause": {
+          "Cause Misfortune Cast 7+": {
             "range": "18",
             "S": "-",
             "AP": "-",
-            "type": "Target unit gains Rending on all"
+            "type": "Target unit gains Rending on all Ranged and Melee Attacks until your next Psychic Phase"
           },
-          "Forewarning": {
+          "Forewarning Cast 6+": {
             "range": "18",
             "S": "-",
             "AP": "-",
-            "type": "Target unit gains 4+ Cover Save"
+            "type": "Target unit gains 4+ Cover Save until your next Psychic Phase"
           },
-          "Bolster": {
+          "Bolster Cast 6+": {
             "range": "18",
             "S": "-",
             "AP": "-",
-            "type": "Target unit counts as having"
+            "type": "Target unit counts as having not Moved for the purposes of Shooting until your next Psychic Phase 5"
           },
-          "Enfeeble": {
+          "Enfeeble Cast 8+": {
             "range": "18",
             "S": "-",
             "AP": "-",
-            "type": "Target unit suffers T-1 until"
+            "type": "Target unit suffers T-1 until your next Psychic Phase"
           },
-          "Endurance": {
+          "Endurance Cast 7+": {
             "range": "18",
             "S": "-",
             "AP": "-",
-            "type": "Target unit gains T+1 until your"
+            "type": "Target unit gains T+1 until your next Psychic Phase"
           },
-          "Melting Beam": {
+          "Melting Beam Cast 7+": {
             "range": "18",
             "S": "8",
             "AP": "1+",
             "type": "Assault 1, Armourbane, Beam"
-          },
-          "7+": {
-            "range": "ignores Invulnerability Saves",
-            "S": "",
-            "AP": "",
-            "type": ""
-          },
-          "6+": {
-            "range": "until your next Psychic Phase",
-            "S": "",
-            "AP": "",
-            "type": ""
-          },
-          "8+": {
-            "range": "your next Psychic Phase",
-            "S": "",
-            "AP": "",
-            "type": ""
-          },
-          "your next Psychic Phase": {
-            "range": "",
-            "S": "",
-            "AP": "",
-            "type": ""
-          },
-          "Ranged and": {
-            "range": "Melee",
-            "S": "",
-            "AP": "",
-            "type": ""
-          },
-          "until your next": {
-            "range": "",
-            "S": "",
-            "AP": "",
-            "type": ""
-          },
-          "Phase": {
-            "range": "",
-            "S": "",
-            "AP": "",
-            "type": "5"
           }
         }
       },
@@ -477,19 +419,7 @@
             "range": "12-240",
             "S": "D/10",
             "AP": "1+",
-            "type": "/1+ Heavy 1, 15\u201d Blast, Destroyer, /8     /1+       Ordnance, Monsterbane,"
-          },
-          "Fire, Ignores Cover, The": {
-            "range": "",
-            "S": "",
-            "AP": "",
-            "type": ""
-          },
-          "is Nigh, T Minus": {
-            "range": "5,",
-            "S": "",
-            "AP": "",
-            "type": "Only, Turret"
+            "type": "/1+ Heavy 1, 15\u201d Blast, Destroyer, /8     /1+       Ordnance, Monsterbane, Indirect Fire, Ignores Cover, The Hour is Nigh, T Minus 5, One Use Only, Turret"
           }
         }
       },
@@ -541,7 +471,7 @@
             "description": "May take one B M+6, Fly, Deepstrike A+1. Gain Transhuman Physiology, Bulky, Stubborn. Lose Objective Secured, Grenades.",
             "choices": [
               {
-                "name": "The Blood",
+                "name": "The Blood Crozius Flame",
                 "pts_delta": 0
               },
               {
@@ -558,29 +488,17 @@
             "AP": "5+",
             "type": "Pistol 1"
           },
-          "The Blood": {
+          "The Blood Crozius Flame": {
             "range": "Melee",
             "S": "+2",
             "AP": "3+",
-            "type": "Concussion"
+            "type": "Concussion And And And And 5 4+ Assault 1, One Use Only"
           },
           "Power Fist": {
             "range": "Melee",
             "S": "X2",
             "AP": "2+",
             "type": "Slow, Monsterbane"
-          },
-          "And": {
-            "range": "And",
-            "S": "And",
-            "AP": "And",
-            "type": ""
-          },
-          "5": {
-            "range": "4+",
-            "S": "Assault 1, One Use Only",
-            "AP": "",
-            "type": ""
           },
           "Frag Grenades": {
             "range": "8",
@@ -593,12 +511,6 @@
             "S": "6",
             "AP": "4+",
             "type": "Grenade 1, Nonblast 8"
-          },
-          "0-3/Troop Slot Purchased": {
-            "range": "",
-            "S": "",
-            "AP": "",
-            "type": ""
           }
         }
       }
@@ -817,17 +729,11 @@
         ],
         "options": [],
         "weapons": {
-          "Dual Blood": {
+          "Dual Blood Talons": {
             "range": "Melee",
             "S": "X2",
             "AP": "1+",
-            "type": "Slow, Monsterbane, Extra"
-          },
-          "Attack": {
-            "range": "1,",
-            "S": "",
-            "AP": "",
-            "type": ""
+            "type": "Slow, Monsterbane, Extra Attack 1, Primary"
           },
           "Stormbolter": {
             "range": "24",
@@ -1001,12 +907,6 @@
             "S": "6",
             "AP": "4+",
             "type": "Grenade 1, Nonblast"
-          },
-          "0-3 Slots": {
-            "range": "",
-            "S": "",
-            "AP": "",
-            "type": ""
           }
         }
       },
@@ -1199,12 +1099,6 @@
             "S": "8",
             "AP": "1+",
             "type": "Grenade 1, Armourbane, Monsterbane, Nonblast"
-          },
-          "of War": {
-            "range": "0-1",
-            "S": "",
-            "AP": "",
-            "type": ""
           }
         }
       }

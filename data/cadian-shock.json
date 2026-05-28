@@ -449,29 +449,35 @@
           }
         ],
         "weapons": {
-          "Nova Eradicator": {
+          "Nova Eradicator Cannon": {
             "range": "36",
             "S": "6",
             "AP": "4+",
-            "type": "Heavy 1, 5\u201d Blast, Ignores"
+            "type": "Heavy 1, 5\u201d Blast, Ignores Cover, Turret, Primary 9"
           },
-          "Executioner": {
+          "Executioner Plasma Cannon": {
             "range": "36",
             "S": "7",
             "AP": "2+",
-            "type": "Heavy 3, 3\u201d Blast, Get\u2019s Hot!,"
+            "type": "Heavy 3, 3\u201d Blast, Get\u2019s Hot!, Turret, Primary"
           },
-          "Vanquisher": {
+          "Vanquisher Battle Cannon": {
             "range": "72",
             "S": "D",
             "AP": "2+",
-            "type": "Heavy 1, Destroyer,"
+            "type": "Heavy 1, Destroyer, Monsterbane, Turret, Primary"
           },
-          "2 Linked": {
+          "2 Linked Lascannons": {
             "range": "48",
             "S": "9",
             "AP": "2+",
-            "type": "Heavy 1 x2, Monsterbane,"
+            "type": "Heavy 1 x2, Monsterbane, Turret, Primary"
+          },
+          "2 Linked Exterminator Autocannons": {
+            "range": "48",
+            "S": "7",
+            "AP": "4+",
+            "type": "Heavy 2 x2, Reroll Misses, Monsterbane, Turret, Primary"
           },
           "Punisher Gatling Gun": {
             "range": "24",
@@ -479,11 +485,11 @@
             "AP": "-",
             "type": "Heavy 20, Turret, Primary"
           },
-          "Conqueror": {
+          "Conqueror Battle Cannon and Stormbolter": {
             "range": "48 and 8",
             "S": "3+",
             "AP": "Heavy 1, 5\u201d Blast, Coaxial,",
-            "type": ""
+            "type": "24 and and Turret and Rapid Fire 2, 4 5+ Coaxial, Monsterbane, Turret, Primary"
           },
           "Battle Cannon": {
             "range": "72",
@@ -491,65 +497,17 @@
             "AP": "3+",
             "type": "Heavy 1, 5\u201d Blast, Ordnance, Monsterbane, Turret, Primary"
           },
-          "Demolisher": {
+          "Demolisher Cannon": {
             "range": "24",
             "S": "10",
             "AP": "2+",
-            "type": "Heavy 1, 5\u201d Blast, Ordnance,"
+            "type": "Heavy 1, 5\u201d Blast, Ordnance, Monsterbane, Turret, Primary"
           },
-          "Long Vanquisher": {
+          "Long Vanquisher Cannon with Stormbolter": {
             "range": "72",
             "S": "D",
             "AP": "2+",
-            "type": "Heavy 1, Destroyer, Accurate,"
-          },
-          "Cover, Turret, Primary": {
-            "range": "",
-            "S": "",
-            "AP": "",
-            "type": "9"
-          },
-          "Monsterbane, Turret, Primary": {
-            "range": "",
-            "S": "",
-            "AP": "",
-            "type": ""
-          },
-          "with": {
-            "range": "And",
-            "S": "And",
-            "AP": "And Coaxial, Turret, Primary",
-            "type": ""
-          },
-          "Cannon": {
-            "range": "Turret, Primary",
-            "S": "",
-            "AP": "",
-            "type": ""
-          },
-          "Turret, Primary": {
-            "range": "",
-            "S": "",
-            "AP": "",
-            "type": ""
-          },
-          "Monsterbane, Turret, Primary Autocannons": {
-            "range": "",
-            "S": "",
-            "AP": "",
-            "type": ""
-          },
-          "Stormbolter": {
-            "range": "4",
-            "S": "5+",
-            "AP": "Coaxial, Monsterbane, Turret,",
-            "type": "Primary"
-          },
-          "24": {
-            "range": "4",
-            "S": "5+",
-            "AP": "Rapid Fire 2, Coaxial, Turret",
-            "type": ""
+            "type": "Heavy 1, Destroyer, Accurate, And And And Coaxial, Turret, Primary 24 4 5+ Rapid Fire 2, Coaxial, Turret"
           },
           "Heavy Flamer": {
             "range": "Flame",
@@ -593,11 +551,11 @@
             "AP": "4+",
             "type": "Heavy 2 x2, Monsterbane, Sponson"
           },
-          "2 Plasma": {
+          "2 Plasma Cannons": {
             "range": "36",
             "S": "7",
             "AP": "2+",
-            "type": "Heavy 1 x2, 3\u201d Blast, Gets Hot!,"
+            "type": "Heavy 1 x2, 3\u201d Blast, Gets Hot!, Sponson"
           },
           "2 Multimeltas": {
             "range": "24",
@@ -605,11 +563,11 @@
             "AP": "1+",
             "type": "Heavy 2 x2, Melta, (Monsterbane), Sponson"
           },
-          "Sponson": {
-            "range": "",
-            "S": "",
-            "AP": "",
-            "type": ""
+          "Stormbolter": {
+            "range": "24",
+            "S": "4",
+            "AP": "5+",
+            "type": "Rapid Fire 2, Turret"
           },
           "Light Stubber": {
             "range": "36",
@@ -629,17 +587,11 @@
             "AP": "6+",
             "type": "Dozerblade, Accurate"
           },
-          "Hunter Killer": {
+          "Hunter Killer Missile": {
             "range": "120",
             "S": "10",
             "AP": "3+",
-            "type": "Heavy 1, Monsterbane, One"
-          },
-          "Use Only, Hull": {
-            "range": "",
-            "S": "",
-            "AP": "",
-            "type": "10"
+            "type": "Heavy 1, Monsterbane, One Use Only, Hull 10"
           }
         }
       },
@@ -691,12 +643,6 @@
             "range": "Melee",
             "S": "+1",
             "AP": "3+",
-            "type": ""
-          },
-          "Slots": {
-            "range": "0-3/Troop",
-            "S": "",
-            "AP": "",
             "type": ""
           }
         }

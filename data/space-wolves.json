@@ -87,16 +87,12 @@
                 "pts_delta": 1
               },
               {
-                "name": "2 Linked",
+                "name": "2 Linked Lascannons",
                 "pts_delta": 6
               },
               {
-                "name": "Heavy Plasma",
+                "name": "Heavy Plasma Cannon",
                 "pts_delta": 13
-              },
-              {
-                "name": "Monsterbane, Hull, Primary",
-                "pts_delta": 0
               }
             ]
           },
@@ -111,23 +107,11 @@
           }
         ],
         "weapons": {
-          "True Claw and": {
+          "True Claw and Heavy Flamer Flame": {
             "range": "Melee",
             "S": "+3",
             "AP": "2+",
-            "type": "Primary"
-          },
-          "Flamer": {
-            "range": "And",
-            "S": "And",
-            "AP": "And And",
-            "type": ""
-          },
-          "5": {
-            "range": "4+",
-            "S": "Assault 1, Hull",
-            "AP": "",
-            "type": ""
+            "type": "Primary And And And And 5 4+ Assault 1, Hull"
           },
           "Assault Cannon": {
             "range": "36",
@@ -141,35 +125,17 @@
             "AP": "1+",
             "type": "Heavy 1, Lance, Monsterbane,"
           },
-          "2 Linked": {
+          "2 Linked Lascannons": {
             "range": "48",
             "S": "9",
             "AP": "2+",
-            "type": "Heavy 1 x2, Monsterbane, Hull,"
+            "type": "Heavy 1 x2, Monsterbane, Hull, Primary"
           },
-          "Heavy Plasma": {
+          "Heavy Plasma Cannon": {
             "range": "48",
             "S": "8",
             "AP": "2+",
-            "type": "Heavy 1, 5\u201d Blast,"
-          },
-          "Or": {
-            "range": "Or",
-            "S": "Hull, Primary Or",
-            "AP": "",
-            "type": ""
-          },
-          "Primary": {
-            "range": "",
-            "S": "",
-            "AP": "",
-            "type": ""
-          },
-          "Monsterbane, Hull, Primary": {
-            "range": "",
-            "S": "",
-            "AP": "",
-            "type": ""
+            "type": "Heavy 1, 5\u201d Blast, Monsterbane, Hull, Primary"
           }
         }
       },
@@ -322,13 +288,7 @@
             "range": "24",
             "S": "4",
             "AP": "5+",
-            "type": ""
-          },
-          "Fire": {
-            "range": "2,",
-            "S": "",
-            "AP": "",
-            "type": ""
+            "type": "Rapid Fire 2, Bolter"
           },
           "Morkai": {
             "range": "Melee",
@@ -336,35 +296,17 @@
             "AP": "3+",
             "type": "None"
           },
-          "Tyrnak and": {
+          "Tyrnak and Fenrir": {
             "range": "Melee",
             "S": "4",
             "AP": "-",
-            "type": "Auxiliary, Extra Attack 3,"
-          },
-          "Rending": {
-            "range": "",
-            "S": "",
-            "AP": "",
-            "type": ""
+            "type": "Auxiliary, Extra Attack 3, Rending"
           },
           "Orbital Strike": {
             "range": "12-240 D/10 1+/1+ Heavy 1, 15\u201d Blast, Destroyer,",
             "S": "",
             "AP": "",
-            "type": "/8   /1+   Ordnance, Monsterbane,"
-          },
-          "Fire, Ignores Cover, The": {
-            "range": "",
-            "S": "",
-            "AP": "",
-            "type": ""
-          },
-          "is Nigh, T Minus": {
-            "range": "5,",
-            "S": "",
-            "AP": "",
-            "type": "Only"
+            "type": "/8   /1+   Ordnance, Monsterbane, Indirect Fire, Ignores Cover, The Hour is Nigh, T Minus 5, One Use Only"
           }
         }
       },
@@ -422,35 +364,35 @@
             "description": "May take up to 2 additional S",
             "choices": [
               {
-                "name": "Blizzard",
+                "name": "Blizzard Cast 7+",
                 "pts_delta": 0
               },
               {
-                "name": "Thunderbolt",
+                "name": "Thunderbolt Cast 8+",
                 "pts_delta": 0
               },
               {
-                "name": "Cause",
+                "name": "Cause Misfortune Cast 7+",
                 "pts_delta": 10
               },
               {
-                "name": "Forewarning",
+                "name": "Forewarning Cast 6+",
                 "pts_delta": 10
               },
               {
-                "name": "Bolster",
+                "name": "Bolster Cast 6+",
                 "pts_delta": 15
               },
               {
-                "name": "Enfeeble",
+                "name": "Enfeeble Cast 8+",
                 "pts_delta": 20
               },
               {
-                "name": "Endurance",
+                "name": "Endurance Cast 7+",
                 "pts_delta": 20
               },
               {
-                "name": "Melting Beam",
+                "name": "Melting Beam Cast 7+",
                 "pts_delta": 22
               }
             ]
@@ -478,101 +420,59 @@
             "AP": "-",
             "type": "Extra Attack 2, Auxiliary"
           },
-          "Staff of the": {
+          "Staff of the Stormcaller": {
             "range": "Melee",
             "S": "+2",
             "AP": "4+",
-            "type": "Concussive, Psychic Bane,"
+            "type": "Concussive, Psychic Bane, Wyrdbane"
           },
-          "Wyrdbane": {
-            "range": "",
-            "S": "",
-            "AP": "",
-            "type": ""
-          },
-          "Blizzard": {
+          "Blizzard Cast 7+": {
             "range": "18",
             "S": "5",
             "AP": "-",
             "type": "Assault 1, 5\u201d Blast, Slow"
           },
-          "Thunderbolt": {
+          "Thunderbolt Cast 8+": {
             "range": "18",
             "S": "9",
             "AP": "-",
             "type": "Assault 2, Tesla, Monsterbane"
           },
-          "Cause": {
+          "Cause Misfortune Cast 7+": {
             "range": "18",
             "S": "-",
             "AP": "-",
-            "type": "Target unit gains Rending on all"
+            "type": "Target unit gains Rending on all Ranged and Melee Attacks until your next Psychic Phase"
           },
-          "Forewarning": {
+          "Forewarning Cast 6+": {
             "range": "18",
             "S": "-",
             "AP": "-",
-            "type": "Target unit gains 4+ Cover Save"
+            "type": "Target unit gains 4+ Cover Save until your next Psychic Phase"
           },
-          "Bolster": {
+          "Bolster Cast 6+": {
             "range": "18",
             "S": "-",
             "AP": "-",
-            "type": "Target unit counts as having"
+            "type": "Target unit counts as having not Moved for the purposes of Shooting until your next Psychic Phase"
           },
-          "Enfeeble": {
+          "Enfeeble Cast 8+": {
             "range": "18",
             "S": "-",
             "AP": "-",
-            "type": "Target unit suffers T-1 until"
+            "type": "Target unit suffers T-1 until your next Psychic Phase"
           },
-          "Endurance": {
+          "Endurance Cast 7+": {
             "range": "18",
             "S": "-",
             "AP": "-",
-            "type": "Target unit gains T+1 until your"
+            "type": "Target unit gains T+1 until your next Psychic Phase"
           },
-          "Melting Beam": {
+          "Melting Beam Cast 7+": {
             "range": "18",
             "S": "8",
             "AP": "1+",
-            "type": "Assault 1, Armourbane, Beam"
-          },
-          "7+": {
-            "range": "",
-            "S": "",
-            "AP": "",
-            "type": ""
-          },
-          "8+": {
-            "range": "",
-            "S": "",
-            "AP": "",
-            "type": ""
-          },
-          "6+": {
-            "range": "until your next Psychic Phase",
-            "S": "",
-            "AP": "",
-            "type": ""
-          },
-          "Ranged and": {
-            "range": "Melee",
-            "S": "",
-            "AP": "",
-            "type": ""
-          },
-          "until your next": {
-            "range": "",
-            "S": "",
-            "AP": "",
-            "type": ""
-          },
-          "Phase": {
-            "range": "",
-            "S": "",
-            "AP": "",
-            "type": ""
+            "type": "Assault 1, Armourbane, Beam 7"
           }
         }
       },
@@ -727,23 +627,11 @@
             "AP": "2+",
             "type": "Pistol 1, Gets Hot!"
           },
-          "Crozium": {
+          "Crozium Arcanum Flame": {
             "range": "Melee",
             "S": "+2",
             "AP": "4+",
-            "type": "Concussion 9"
-          },
-          "And": {
-            "range": "And",
-            "S": "And",
-            "AP": "And",
-            "type": ""
-          },
-          "5": {
-            "range": "4+",
-            "S": "Assault 1, One Use Only",
-            "AP": "",
-            "type": ""
+            "type": "Concussion 9 And And And And 5 4+ Assault 1, One Use Only"
           },
           "Frag Grenades": {
             "range": "8",
@@ -756,12 +644,6 @@
             "S": "6",
             "AP": "4+",
             "type": "Grenade 1, Nonblast"
-          },
-          "0-3 Per Troop Choice": {
-            "range": "",
-            "S": "",
-            "AP": "",
-            "type": ""
           }
         }
       }
@@ -823,29 +705,17 @@
           }
         ],
         "weapons": {
-          "Foehammer": {
+          "Foehammer Melee": {
             "range": "12",
             "S": "10",
             "AP": "1+",
-            "type": "Assault 1, Monsterbane"
+            "type": "Assault 1, Monsterbane 10 1+ Slow, Monsterbane"
           },
           "Anvil Shield": {
             "range": "Melee",
             "S": "+1",
             "AP": "4+",
             "type": "Auxiliary 10"
-          },
-          "Or": {
-            "range": "Or",
-            "S": "Or",
-            "AP": "",
-            "type": ""
-          },
-          "10": {
-            "range": "1+",
-            "S": "Slow, Monsterbane",
-            "AP": "",
-            "type": ""
           }
         }
       },
@@ -906,17 +776,11 @@
             "AP": "3+",
             "type": "Extra Attack 1"
           },
-          "Thunderwolf": {
+          "Thunderwolf Mount": {
             "range": "Melee",
             "S": "User",
             "AP": "-",
-            "type": "Extra Attack 1, Rending,"
-          },
-          "Auxiliary": {
-            "range": "",
-            "S": "",
-            "AP": "",
-            "type": ""
+            "type": "Extra Attack 1, Rending, Auxiliary"
           },
           "Frag Grenades": {
             "range": "8",
@@ -998,13 +862,7 @@
             "range": "Melee",
             "S": "X2",
             "AP": "2+",
-            "type": "Slow, Monsterbane, Auxiliary,"
-          },
-          "Arm": {
-            "range": "",
-            "S": "",
-            "AP": "",
-            "type": "12"
+            "type": "Slow, Monsterbane, Auxiliary, Servo Arm 12"
           }
         }
       },
@@ -1124,17 +982,11 @@
         ],
         "options": [],
         "weapons": {
-          "Dual Lightning": {
+          "Dual Lightning Claws": {
             "range": "Melee",
             "S": "User",
             "AP": "3+",
-            "type": "Extra Attack 1, Reroll all failed"
-          },
-          "To Hit and To Wound rolls,": {
-            "range": "",
-            "S": "",
-            "AP": "",
-            "type": "Primary"
+            "type": "Extra Attack 1, Reroll all failed To Hit and To Wound rolls, Primary"
           },
           "Stormbolter": {
             "range": "24",
@@ -1306,35 +1158,17 @@
             "AP": "5+",
             "type": "Pistol 1"
           },
-          "Crozium": {
+          "Crozium Arcanum Flame": {
             "range": "Melee",
             "S": "+2",
             "AP": "4+",
-            "type": "Concussion"
+            "type": "Concussion Or Or Or Or 5 4+ Assault 1, One Use Only"
           },
           "Ritual Dagger": {
             "range": "Melee",
             "S": "User",
             "AP": "-",
             "type": "Extra Attack 1 16"
-          },
-          "Or": {
-            "range": "Or",
-            "S": "Or",
-            "AP": "Or",
-            "type": ""
-          },
-          "5": {
-            "range": "4+",
-            "S": "Assault 1, One Use Only",
-            "AP": "",
-            "type": ""
-          },
-          "2-6 Slots": {
-            "range": "",
-            "S": "",
-            "AP": "",
-            "type": ""
           }
         }
       }
@@ -1639,12 +1473,6 @@
             "S": "6",
             "AP": "4+",
             "type": "Grenade 1, Nonblast 18"
-          },
-          "0-3 Slots": {
-            "range": "",
-            "S": "",
-            "AP": "",
-            "type": ""
           }
         }
       }
@@ -1744,17 +1572,11 @@
             "AP": "6+",
             "type": "Assault 3"
           },
-          "Special Issue": {
+          "Special Issue Bolt Pistol": {
             "range": "18",
             "S": "4",
             "AP": "3+",
             "type": "Pistol 1"
-          },
-          "Pistol": {
-            "range": "",
-            "S": "",
-            "AP": "",
-            "type": ""
           },
           "Combat Knife": {
             "range": "Melee",
@@ -1998,7 +1820,7 @@
                 "pts_delta": 19
               },
               {
-                "name": "Dual Lightning",
+                "name": "Dual Lightning Claws",
                 "pts_delta": 4
               }
             ]
@@ -2023,23 +1845,11 @@
             "AP": "1+",
             "type": "Slow, Monsterbane"
           },
-          "Dual Lightning": {
+          "Dual Lightning Claws": {
             "range": "Melee",
             "S": "User",
             "AP": "3+",
-            "type": "Reroll failed To Wound rolls,"
-          },
-          "Extra Attack": {
-            "range": "1",
-            "S": "",
-            "AP": "",
-            "type": ""
-          },
-          "Attack": {
-            "range": "0-3",
-            "S": "",
-            "AP": "",
-            "type": ""
+            "type": "Reroll failed To Wound rolls, Extra Attack 1"
           }
         }
       }
@@ -2296,11 +2106,11 @@
                 "pts_delta": 18
               },
               {
-                "name": "Dual Lightning",
+                "name": "Dual Lightning Claws",
                 "pts_delta": 1
               },
               {
-                "name": "Thunderwolf",
+                "name": "Thunderwolf Mount",
                 "pts_delta": 0
               },
               {
@@ -2401,29 +2211,17 @@
             "AP": "1+",
             "type": "Slow, Monsterbane"
           },
-          "Dual Lightning": {
+          "Dual Lightning Claws": {
             "range": "Melee",
             "S": "User",
             "AP": "3+",
-            "type": "Reroll failed To Wound rolls,"
+            "type": "Reroll failed To Wound rolls, Extra Attack 1"
           },
-          "Extra Attack": {
-            "range": "1",
-            "S": "",
-            "AP": "",
-            "type": ""
-          },
-          "Thunderwolf": {
+          "Thunderwolf Mount": {
             "range": "Melee",
             "S": "User",
             "AP": "-",
-            "type": "Extra Attack 1, Rending,"
-          },
-          "Auxiliary": {
-            "range": "",
-            "S": "",
-            "AP": "",
-            "type": ""
+            "type": "Extra Attack 1, Rending, Auxiliary"
           },
           "Frag Grenades": {
             "range": "8",
@@ -2523,12 +2321,6 @@
             "S": "User",
             "AP": "-",
             "type": "Rending 25"
-          },
-          "0-2 Slots": {
-            "range": "",
-            "S": "",
-            "AP": "",
-            "type": ""
           }
         }
       }
@@ -2587,18 +2379,6 @@
               {
                 "name": "2 Linked Lascannons",
                 "pts_delta": 2
-              },
-              {
-                "name": "Sponson Launchers",
-                "pts_delta": 0
-              },
-              {
-                "name": "Heavy Bolters",
-                "pts_delta": 0
-              },
-              {
-                "name": "(Monsterbane), Sponson Multimeltas",
-                "pts_delta": 0
               }
             ]
           },
@@ -2613,17 +2393,11 @@
           }
         ],
         "weapons": {
-          "Helfrost": {
+          "Helfrost Destructor": {
             "range": "36",
             "S": "10",
             "AP": "1+",
-            "type": "Heavy 1, Lance, Monsterbane,"
-          },
-          "Or": {
-            "range": "Or",
-            "S": "Hull, Primary Or",
-            "AP": "",
-            "type": "8       3+         Heavy 1, 5\u201d Blast, Monsterbane, Hull, Primary"
+            "type": "Heavy 1, Lance, Monsterbane, Or Or Hull, Primary Or 8       3+         Heavy 1, 5\u201d Blast, Monsterbane, Hull, Primary"
           },
           "2 Linked Stormstrike Missile Launchers": {
             "range": "72",
@@ -2637,35 +2411,23 @@
             "AP": "2+",
             "type": "Heavy 1 x2, Monsterbane, Hull"
           },
-          "2 Skyhammer": {
+          "2 Skyhammer Missile Launchers": {
             "range": "60",
             "S": "7",
             "AP": "4+",
-            "type": "Heavy 1 x2, Monsterbane,"
+            "type": "Heavy 1 x2, Monsterbane, Sponson"
           },
-          "2 Sets of": {
+          "2 Sets of Linked Heavy Bolters": {
             "range": "2",
             "S": "36",
             "AP": "5 4+ Heavy 3 x2 (x2), Sponson",
             "type": ""
           },
-          "Sponson Launchers": {
-            "range": "",
-            "S": "",
-            "AP": "",
-            "type": ""
-          },
-          "Heavy Bolters": {
-            "range": "",
-            "S": "",
-            "AP": "",
-            "type": ""
-          },
-          "(Monsterbane), Sponson Multimeltas": {
-            "range": "",
-            "S": "",
-            "AP": "",
-            "type": "26"
+          "2 Sets of Linked Multimeltas": {
+            "range": "2",
+            "S": "24",
+            "AP": "8 1+ Heavy 2 x2 (x2), Melta,",
+            "type": "(Monsterbane), Sponson 26"
           }
         }
       },
@@ -2717,18 +2479,6 @@
               {
                 "name": "2 Linked Lascannons",
                 "pts_delta": 0
-              },
-              {
-                "name": "Sponson Launchers",
-                "pts_delta": 0
-              },
-              {
-                "name": "Heavy Bolters",
-                "pts_delta": 0
-              },
-              {
-                "name": "(Monsterbane), Sponson Multimeltas",
-                "pts_delta": 0
               }
             ]
           },
@@ -2743,23 +2493,11 @@
           }
         ],
         "weapons": {
-          "2 Linked Helfrost": {
+          "2 Linked Helfrost Cannons": {
             "range": "36",
             "S": "8",
             "AP": "1+",
-            "type": "Heavy 1 x2, Lance,"
-          },
-          "Or": {
-            "range": "Or",
-            "S": "Or",
-            "AP": "Monsterbane, Turret, Primary",
-            "type": ""
-          },
-          "1 x2,": {
-            "range": "3\u201d",
-            "S": "",
-            "AP": "",
-            "type": "Primary"
+            "type": "Heavy 1 x2, Lance, Or Or Or Monsterbane, Turret, Primary Heavy 1 x2, 3\u201d Blast, Turret, Primary"
           },
           "2 Linked Lascannons": {
             "range": "48",
@@ -2767,35 +2505,23 @@
             "AP": "2+",
             "type": "Heavy 1 x2, Monsterbane, Hull"
           },
-          "2 Skyhammer": {
+          "2 Skyhammer Missile Launchers": {
             "range": "60",
             "S": "7",
             "AP": "4+",
-            "type": "Heavy 1 x2, Monsterbane,"
+            "type": "Heavy 1 x2, Monsterbane, Sponson"
           },
-          "2 Sets of": {
+          "2 Sets of Linked Heavy Bolters": {
             "range": "2",
             "S": "36",
             "AP": "5 4+ Heavy 3 x2 (x2), Sponson",
             "type": ""
           },
-          "Sponson Launchers": {
-            "range": "",
-            "S": "",
-            "AP": "",
-            "type": ""
-          },
-          "Heavy Bolters": {
-            "range": "",
-            "S": "",
-            "AP": "",
-            "type": ""
-          },
-          "(Monsterbane), Sponson Multimeltas": {
-            "range": "",
-            "S": "",
-            "AP": "",
-            "type": "27"
+          "2 Sets of Linked Multimeltas": {
+            "range": "2",
+            "S": "24",
+            "AP": "8 1+ Heavy 2 x2 (x2), Melta,",
+            "type": "(Monsterbane), Sponson 27"
           }
         }
       }

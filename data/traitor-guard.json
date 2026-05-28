@@ -444,23 +444,23 @@
             "description": "May swap Nova Eradicator Cannon for T",
             "choices": [
               {
-                "name": "Nova Eradicator",
+                "name": "Nova Eradicator Cannon",
                 "pts_delta": 0
               },
               {
-                "name": "Executioner",
+                "name": "Executioner Plasma Cannon",
                 "pts_delta": 4
               },
               {
-                "name": "Vanquisher",
+                "name": "Vanquisher Battle Cannon",
                 "pts_delta": 9
               },
               {
-                "name": "2 Linked",
+                "name": "2 Linked Lascannons",
                 "pts_delta": 15
               },
               {
-                "name": "2 Linked",
+                "name": "2 Linked Exterminator Autocannons",
                 "pts_delta": 16
               },
               {
@@ -468,7 +468,7 @@
                 "pts_delta": 33
               },
               {
-                "name": "Conqueror",
+                "name": "Conqueror Battle Cannon and Stormbolter",
                 "pts_delta": 39
               },
               {
@@ -476,24 +476,12 @@
                 "pts_delta": 45
               },
               {
-                "name": "Demolisher",
+                "name": "Demolisher Cannon",
                 "pts_delta": 57
               },
               {
-                "name": "Long Vanquisher",
+                "name": "Long Vanquisher Cannon with Stormbolter",
                 "pts_delta": 60
-              },
-              {
-                "name": "Cover, Turret, Primary",
-                "pts_delta": 0
-              },
-              {
-                "name": "Monsterbane, Turret, Primary",
-                "pts_delta": 0
-              },
-              {
-                "name": "with",
-                "pts_delta": 0
               }
             ]
           },
@@ -530,7 +518,7 @@
                 "pts_delta": 20
               },
               {
-                "name": "2 Plasma",
+                "name": "2 Plasma Cannons",
                 "pts_delta": 24
               },
               {
@@ -573,7 +561,7 @@
             "description": "May take one M",
             "choices": [
               {
-                "name": "Hunter Killer",
+                "name": "Hunter Killer Missile",
                 "pts_delta": 5
               }
             ]
@@ -622,29 +610,35 @@
           }
         ],
         "weapons": {
-          "Nova Eradicator": {
+          "Nova Eradicator Cannon": {
             "range": "36",
             "S": "6",
             "AP": "4+",
-            "type": "Heavy 1, 5\u201d Blast, Ignores"
+            "type": "Heavy 1, 5\u201d Blast, Ignores Cover, Turret, Primary"
           },
-          "Executioner": {
+          "Executioner Plasma Cannon": {
             "range": "36",
             "S": "7",
             "AP": "2+",
-            "type": "Heavy 3, 3\u201d Blast, Get\u2019s Hot!,"
+            "type": "Heavy 3, 3\u201d Blast, Get\u2019s Hot!, Turret, Primary"
           },
-          "Vanquisher": {
+          "Vanquisher Battle Cannon": {
             "range": "72",
             "S": "D",
             "AP": "2+",
-            "type": "Heavy 1, Destroyer,"
+            "type": "Heavy 1, Destroyer, Monsterbane, Turret, Primary"
           },
-          "2 Linked": {
+          "2 Linked Lascannons": {
             "range": "48",
             "S": "9",
             "AP": "2+",
-            "type": "Heavy 1 x2, Monsterbane,"
+            "type": "Heavy 1 x2, Monsterbane, Turret, Primary"
+          },
+          "2 Linked Exterminator Autocannons": {
+            "range": "48",
+            "S": "7",
+            "AP": "4+",
+            "type": "Heavy 2 x2, Reroll Misses, Monsterbane, Turret, Primary"
           },
           "Punisher Gatling Gun": {
             "range": "24",
@@ -652,11 +646,11 @@
             "AP": "-",
             "type": "Heavy 20, Turret, Primary"
           },
-          "Conqueror": {
+          "Conqueror Battle Cannon and Stormbolter": {
             "range": "48 and 8",
             "S": "3+",
             "AP": "Heavy 1, 5\u201d Blast, Coaxial,",
-            "type": ""
+            "type": "24 and and Turret and Rapid Fire 2, 4 5+ Coaxial, Monsterbane, Turret, Primary"
           },
           "Battle Cannon": {
             "range": "72",
@@ -664,65 +658,17 @@
             "AP": "3+",
             "type": "Heavy 1, 5\u201d Blast, Ordnance, Monsterbane, Turret, Primary"
           },
-          "Demolisher": {
+          "Demolisher Cannon": {
             "range": "24",
             "S": "10",
             "AP": "2+",
-            "type": "Heavy 1, 5\u201d Blast, Ordnance,"
+            "type": "Heavy 1, 5\u201d Blast, Ordnance, Monsterbane, Turret, Primary"
           },
-          "Long Vanquisher": {
+          "Long Vanquisher Cannon with Stormbolter": {
             "range": "72",
             "S": "D",
             "AP": "2+",
-            "type": "Heavy 1, Destroyer, Accurate,"
-          },
-          "Cover, Turret, Primary": {
-            "range": "",
-            "S": "",
-            "AP": "",
-            "type": ""
-          },
-          "Monsterbane, Turret, Primary": {
-            "range": "",
-            "S": "",
-            "AP": "",
-            "type": ""
-          },
-          "with": {
-            "range": "And",
-            "S": "And",
-            "AP": "And Coaxial, Turret, Primary",
-            "type": ""
-          },
-          "Cannon": {
-            "range": "Turret, Primary",
-            "S": "",
-            "AP": "",
-            "type": ""
-          },
-          "Turret, Primary": {
-            "range": "",
-            "S": "",
-            "AP": "",
-            "type": ""
-          },
-          "Monsterbane, Turret, Primary Autocannons": {
-            "range": "",
-            "S": "",
-            "AP": "",
-            "type": ""
-          },
-          "Stormbolter": {
-            "range": "4",
-            "S": "5+",
-            "AP": "Coaxial, Monsterbane, Turret,",
-            "type": "Primary"
-          },
-          "24": {
-            "range": "4",
-            "S": "5+",
-            "AP": "Rapid Fire 2, Coaxial, Turret",
-            "type": ""
+            "type": "Heavy 1, Destroyer, Accurate, And And And Coaxial, Turret, Primary 24 4 5+ Rapid Fire 2, Coaxial, Turret"
           },
           "Heavy Flamer": {
             "range": "Flame",
@@ -760,11 +706,11 @@
             "AP": "6+",
             "type": "Heavy 3 x2, Sponson"
           },
-          "2 Plasma": {
+          "2 Plasma Cannons": {
             "range": "36",
             "S": "7",
             "AP": "2+",
-            "type": "Heavy 1 x2, 3\u201d Blast, Gets Hot!,"
+            "type": "Heavy 1 x2, 3\u201d Blast, Gets Hot!, Sponson"
           },
           "2 Autocannons": {
             "range": "48",
@@ -778,11 +724,11 @@
             "AP": "1+",
             "type": "Heavy 2 x2, Melta, (Monsterbane), Sponson"
           },
-          "Sponson": {
-            "range": "",
-            "S": "",
-            "AP": "",
-            "type": ""
+          "Stormbolter": {
+            "range": "24",
+            "S": "4",
+            "AP": "5+",
+            "type": "Rapid Fire 2, Turret"
           },
           "Light Stubber": {
             "range": "36",
@@ -802,17 +748,11 @@
             "AP": "6+",
             "type": "Dozerblade, Accurate 9"
           },
-          "Hunter Killer": {
+          "Hunter Killer Missile": {
             "range": "120",
             "S": "10",
             "AP": "3+",
-            "type": "Heavy 1, Monsterbane, One"
-          },
-          "Use Only, Hull": {
-            "range": "",
-            "S": "",
-            "AP": "",
-            "type": ""
+            "type": "Heavy 1, Monsterbane, One Use Only, Hull"
           }
         }
       },
@@ -896,7 +836,7 @@
             "description": "May take one M",
             "choices": [
               {
-                "name": "Hunter Killer",
+                "name": "Hunter Killer Missile",
                 "pts_delta": 5
               }
             ]
@@ -985,17 +925,11 @@
             "AP": "6+",
             "type": "Dozerblade, Accurate"
           },
-          "Hunter Killer": {
+          "Hunter Killer Missile": {
             "range": "120",
             "S": "10",
             "AP": "3+",
-            "type": "Heavy 1, Monsterbane, One"
-          },
-          "Use Only, Hull": {
-            "range": "",
-            "S": "",
-            "AP": "",
-            "type": "10"
+            "type": "Heavy 1, Monsterbane, One Use Only, Hull 10"
           }
         }
       },
@@ -1038,7 +972,7 @@
             "description": "May take up to one Spell",
             "choices": [
               {
-                "name": "Mass Sedition",
+                "name": "Mass Sedition Cast 8+",
                 "pts_delta": 0
               }
             ]
@@ -1057,29 +991,11 @@
             "AP": "4+",
             "type": "Concussion, Psychicbane"
           },
-          "Mass Sedition": {
+          "Mass Sedition Cast 8+": {
             "range": "18",
             "S": "-",
             "AP": "-",
-            "type": "Target non-Titanic unit can only"
-          },
-          "8+": {
-            "range": "perform Snap Shots until your",
-            "S": "",
-            "AP": "",
-            "type": ""
-          },
-          "Psychic Phase.": {
-            "range": "",
-            "S": "",
-            "AP": "",
-            "type": ""
-          },
-          "0-3/Troop Slot Purchased": {
-            "range": "",
-            "S": "",
-            "AP": "",
-            "type": ""
+            "type": "Target non-Titanic unit can only perform Snap Shots until your next Psychic Phase."
           }
         }
       }
@@ -1518,13 +1434,7 @@
             "range": "6",
             "S": "8",
             "AP": "1+",
-            "type": "Grenade 1, Armourbane,"
-          },
-          "Non-Blast": {
-            "range": "",
-            "S": "",
-            "AP": "",
-            "type": ""
+            "type": "Grenade 1, Armourbane, Monsterbane Non-Blast"
           }
         }
       },
@@ -1615,7 +1525,7 @@
             "description": "May take one M",
             "choices": [
               {
-                "name": "Hunter Killer",
+                "name": "Hunter Killer Missile",
                 "pts_delta": 5
               }
             ]
@@ -1678,23 +1588,11 @@
             "AP": "6+",
             "type": "Heavy 3, Turret"
           },
-          "Hunter Killer": {
+          "Hunter Killer Missile": {
             "range": "120",
             "S": "10",
             "AP": "3+",
-            "type": "Heavy 1, Monsterbane, One"
-          },
-          "Use Only, Hull": {
-            "range": "",
-            "S": "",
-            "AP": "",
-            "type": "15"
-          },
-          "2-6 Slots": {
-            "range": "",
-            "S": "",
-            "AP": "",
-            "type": ""
+            "type": "Heavy 1, Monsterbane, One Use Only, Hull 15"
           }
         }
       },
@@ -1786,7 +1684,7 @@
             "description": "May take one M",
             "choices": [
               {
-                "name": "Hunter Killer",
+                "name": "Hunter Killer Missile",
                 "pts_delta": 5
               }
             ]
@@ -1849,23 +1747,11 @@
             "AP": "6+",
             "type": "Heavy 3, Turret"
           },
-          "Hunter Killer": {
+          "Hunter Killer Missile": {
             "range": "120",
             "S": "10",
             "AP": "3+",
-            "type": "Heavy 1, Monsterbane, One"
-          },
-          "Use Only, Hull": {
-            "range": "",
-            "S": "",
-            "AP": "",
-            "type": "15"
-          },
-          "2-6 Slots": {
-            "range": "",
-            "S": "",
-            "AP": "",
-            "type": ""
+            "type": "Heavy 1, Monsterbane, One Use Only, Hull 15"
           }
         }
       }
@@ -2026,16 +1912,12 @@
                 "pts_delta": 1
               },
               {
-                "name": "Autopistol and",
+                "name": "Autopistol and Brutal Weapon Melee",
                 "pts_delta": 1
               },
               {
-                "name": "Laspistol and",
+                "name": "Laspistol and Brutal Weapon Melee",
                 "pts_delta": 2
-              },
-              {
-                "name": "Weapon",
-                "pts_delta": 0
               },
               {
                 "name": "Sniper Rifle",
@@ -2046,7 +1928,7 @@
                 "pts_delta": 7
               },
               {
-                "name": "Grenade",
+                "name": "Grenade Launcher",
                 "pts_delta": 8
               },
               {
@@ -2058,7 +1940,7 @@
                 "pts_delta": 24
               },
               {
-                "name": "Demolition",
+                "name": "Demolition Charge",
                 "pts_delta": 7
               },
               {
@@ -2211,29 +2093,17 @@
             "AP": "4+",
             "type": "Concussion"
           },
-          "Autopistol and": {
+          "Autopistol and Brutal Weapon Melee": {
             "range": "12",
             "S": "3",
             "AP": "-",
-            "type": "Pistol 1"
+            "type": "Pistol 1 And And And And User - Extra Attack 1"
           },
-          "Laspistol and": {
+          "Laspistol and Brutal Weapon Melee": {
             "range": "12",
             "S": "3",
             "AP": "-",
-            "type": "Pistol 1, Reliable"
-          },
-          "Weapon": {
-            "range": "And",
-            "S": "And",
-            "AP": "And And",
-            "type": ""
-          },
-          "User": {
-            "range": "-",
-            "S": "Extra Attack 1",
-            "AP": "",
-            "type": ""
+            "type": "Pistol 1, Reliable And And And And User - Extra Attack 1"
           },
           "Sniper Rifle": {
             "range": "36",
@@ -2247,11 +2117,11 @@
             "AP": "5+",
             "type": "Assault 1"
           },
-          "Grenade": {
+          "Grenade Launcher": {
             "range": "24",
             "S": "6",
             "AP": "4+",
-            "type": "Assault 1"
+            "type": "Assault 1 Or Or Or Or"
           },
           "Plasma Gun": {
             "range": "24",
@@ -2265,23 +2135,11 @@
             "AP": "1+",
             "type": "Assault 1, Melta, (Monsterbane)"
           },
-          "Or": {
-            "range": "Or",
-            "S": "Or",
-            "AP": "Or",
-            "type": ""
-          },
-          "Demolition": {
+          "Demolition Charge": {
             "range": "6",
             "S": "10",
             "AP": "2+",
-            "type": "Assault 1, 5\u201d Blast,"
-          },
-          "Monsterbane, One Use Only": {
-            "range": "",
-            "S": "",
-            "AP": "",
-            "type": ""
+            "type": "Assault 1, 5\u201d Blast, Monsterbane, One Use Only"
           },
           "Heavy Flamer": {
             "range": "Flame",
@@ -2348,12 +2206,6 @@
             "S": "3",
             "AP": "-",
             "type": "Grenade 1, 3\u201d Blast 17"
-          },
-          "0-3 Slots": {
-            "range": "",
-            "S": "",
-            "AP": "",
-            "type": ""
           }
         }
       }
@@ -2526,16 +2378,12 @@
                 "pts_delta": 1
               },
               {
-                "name": "Autopistol and",
+                "name": "Autopistol and Brutal Weapon Melee",
                 "pts_delta": 1
               },
               {
-                "name": "Laspistol and",
+                "name": "Laspistol and Brutal Weapon Melee",
                 "pts_delta": 2
-              },
-              {
-                "name": "Weapon",
-                "pts_delta": 0
               },
               {
                 "name": "Sniper Rifle",
@@ -2546,7 +2394,7 @@
                 "pts_delta": 7
               },
               {
-                "name": "Grenade",
+                "name": "Grenade Launcher",
                 "pts_delta": 8
               },
               {
@@ -2558,7 +2406,7 @@
                 "pts_delta": 24
               },
               {
-                "name": "Demolition",
+                "name": "Demolition Charge",
                 "pts_delta": 7
               },
               {
@@ -2735,29 +2583,17 @@
             "AP": "2+",
             "type": "Slow, Monsterbane, +1 To Penetrate"
           },
-          "Autopistol and": {
+          "Autopistol and Brutal Weapon Melee": {
             "range": "12",
             "S": "3",
             "AP": "-",
-            "type": "Pistol 1"
+            "type": "Pistol 1 And And And And User - Extra Attack 1"
           },
-          "Laspistol and": {
+          "Laspistol and Brutal Weapon Melee": {
             "range": "12",
             "S": "3",
             "AP": "-",
-            "type": "Pistol 1, Reliable"
-          },
-          "Weapon": {
-            "range": "And",
-            "S": "And",
-            "AP": "And And",
-            "type": ""
-          },
-          "User": {
-            "range": "-",
-            "S": "Extra Attack 1",
-            "AP": "",
-            "type": ""
+            "type": "Pistol 1, Reliable And And And And User - Extra Attack 1"
           },
           "Sniper Rifle": {
             "range": "36",
@@ -2771,11 +2607,11 @@
             "AP": "5+",
             "type": "Assault 1"
           },
-          "Grenade": {
+          "Grenade Launcher": {
             "range": "24",
             "S": "6",
             "AP": "4+",
-            "type": "Assault 1"
+            "type": "Assault 1 Or Or Or Or"
           },
           "Plasma Gun": {
             "range": "24",
@@ -2789,23 +2625,11 @@
             "AP": "1+",
             "type": "Assault 1, Melta, (Monsterbane)"
           },
-          "Or": {
-            "range": "Or",
-            "S": "Or",
-            "AP": "Or",
-            "type": ""
-          },
-          "Demolition": {
+          "Demolition Charge": {
             "range": "6",
             "S": "10",
             "AP": "2+",
-            "type": "Assault 1, 5\u201d Blast,"
-          },
-          "Monsterbane, One Use Only": {
-            "range": "",
-            "S": "",
-            "AP": "",
-            "type": ""
+            "type": "Assault 1, 5\u201d Blast, Monsterbane, One Use Only"
           },
           "Heavy Flamer": {
             "range": "Flame",
@@ -3088,7 +2912,7 @@
                 "pts_delta": 12
               },
               {
-                "name": "Frag Bombs",
+                "name": "Frag Bombs per model",
                 "pts_delta": 2
               }
             ]
@@ -3125,23 +2949,11 @@
             "AP": "2+",
             "type": "Auxiliary, Slow, Destroyer, Monsterbane"
           },
-          "Frag Bombs": {
+          "Frag Bombs per model": {
             "range": "8",
             "S": "4",
             "AP": "-",
             "type": "Grenade 1, 3\u201d Blast"
-          },
-          "model": {
-            "range": "",
-            "S": "",
-            "AP": "",
-            "type": ""
-          },
-          "Attack": {
-            "range": "0-3",
-            "S": "",
-            "AP": "",
-            "type": ""
           }
         }
       },
@@ -3217,7 +3029,7 @@
                 "pts_delta": 12
               },
               {
-                "name": "Frag Bombs",
+                "name": "Frag Bombs per model",
                 "pts_delta": 2
               }
             ]
@@ -3254,23 +3066,11 @@
             "AP": "2+",
             "type": "Auxiliary, Slow, Destroyer, Monsterbane"
           },
-          "Frag Bombs": {
+          "Frag Bombs per model": {
             "range": "8",
             "S": "4",
             "AP": "-",
             "type": "Grenade 1, 3\u201d Blast"
-          },
-          "model": {
-            "range": "",
-            "S": "",
-            "AP": "",
-            "type": ""
-          },
-          "Attack": {
-            "range": "0-3",
-            "S": "",
-            "AP": "",
-            "type": ""
           }
         }
       }
@@ -3418,7 +3218,7 @@
                 "pts_delta": 7
               },
               {
-                "name": "Grenade",
+                "name": "Grenade Launcher",
                 "pts_delta": 8
               },
               {
@@ -3430,7 +3230,7 @@
                 "pts_delta": 24
               },
               {
-                "name": "Demolition",
+                "name": "Demolition Charge",
                 "pts_delta": 7
               },
               {
@@ -3551,11 +3351,11 @@
             "AP": "5+",
             "type": "Assault 1"
           },
-          "Grenade": {
+          "Grenade Launcher": {
             "range": "24 or",
             "S": "6 or",
             "AP": "4+",
-            "type": "or Assault 1 or"
+            "type": "or Assault 1 or 24 3 - Assault 1, 3\u201d Blast"
           },
           "Plasma Gun": {
             "range": "24",
@@ -3569,23 +3369,11 @@
             "AP": "1+",
             "type": "Assault 1, Melta, (Monsterbane)"
           },
-          "Demolition": {
+          "Demolition Charge": {
             "range": "6",
             "S": "10",
             "AP": "2+",
-            "type": "Assault 1, 5\u201d Blast,"
-          },
-          "Monsterbane, One Use Only": {
-            "range": "",
-            "S": "",
-            "AP": "",
-            "type": ""
-          },
-          "24": {
-            "range": "3",
-            "S": "-",
-            "AP": "Assault 1, 3\u201d Blast",
-            "type": ""
+            "type": "Assault 1, 5\u201d Blast, Monsterbane, One Use Only"
           },
           "Frag Grenades": {
             "range": "8",
@@ -3729,7 +3517,7 @@
                 "pts_delta": 7
               },
               {
-                "name": "Grenade",
+                "name": "Grenade Launcher",
                 "pts_delta": 8
               },
               {
@@ -3741,7 +3529,7 @@
                 "pts_delta": 24
               },
               {
-                "name": "Demolition",
+                "name": "Demolition Charge",
                 "pts_delta": 7
               },
               {
@@ -3862,11 +3650,11 @@
             "AP": "5+",
             "type": "Assault 1"
           },
-          "Grenade": {
+          "Grenade Launcher": {
             "range": "24 or",
             "S": "6 or",
             "AP": "4+",
-            "type": "or Assault 1 or"
+            "type": "or Assault 1 or 24 3 - Assault 1, 3\u201d Blast"
           },
           "Plasma Gun": {
             "range": "24",
@@ -3880,23 +3668,11 @@
             "AP": "1+",
             "type": "Assault 1, Melta, (Monsterbane)"
           },
-          "24": {
-            "range": "3",
-            "S": "-",
-            "AP": "Assault 1, 3\u201d Blast",
-            "type": ""
-          },
-          "Demolition": {
+          "Demolition Charge": {
             "range": "6",
             "S": "10",
             "AP": "2+",
-            "type": "Assault 1, 5\u201d Blast,"
-          },
-          "Monsterbane, One Use Only": {
-            "range": "",
-            "S": "",
-            "AP": "",
-            "type": ""
+            "type": "Assault 1, 5\u201d Blast, Monsterbane, One Use Only"
           },
           "Frag Grenades": {
             "range": "8",
@@ -4002,7 +3778,7 @@
                 "pts_delta": 4
               },
               {
-                "name": "Hunter Killer",
+                "name": "Hunter Killer Missile",
                 "pts_delta": 5
               },
               {
@@ -4073,17 +3849,11 @@
             "AP": "6+",
             "type": "Rending"
           },
-          "Hunter Killer": {
+          "Hunter Killer Missile": {
             "range": "120",
             "S": "10",
             "AP": "3+",
-            "type": "Heavy 1, Monsterbane, One"
-          },
-          "Use Only, Hull": {
-            "range": "",
-            "S": "",
-            "AP": "",
-            "type": "28"
+            "type": "Heavy 1, Monsterbane, One Use Only, Hull 28"
           }
         }
       },
@@ -4171,7 +3941,7 @@
                 "pts_delta": 4
               },
               {
-                "name": "Hunter Killer",
+                "name": "Hunter Killer Missile",
                 "pts_delta": 5
               },
               {
@@ -4234,17 +4004,11 @@
             "AP": "6+",
             "type": "Rending 29"
           },
-          "Hunter Killer": {
+          "Hunter Killer Missile": {
             "range": "120",
             "S": "10",
             "AP": "3+",
-            "type": "Heavy 1, Monsterbane, One"
-          },
-          "Use Only, Hull": {
-            "range": "",
-            "S": "",
-            "AP": "",
-            "type": ""
+            "type": "Heavy 1, Monsterbane, One Use Only, Hull"
           }
         }
       },
@@ -4314,7 +4078,7 @@
             "description": "May add up to 7 more Powerlifter Sentinels for +54 points each Any model may take one M Any model may take any E one time each The entire unit may take one B",
             "choices": [
               {
-                "name": "Hunter Killer",
+                "name": "Hunter Killer Missile",
                 "pts_delta": 5
               },
               {
@@ -4365,17 +4129,11 @@
             "AP": "6+",
             "type": "Rending"
           },
-          "Hunter Killer": {
+          "Hunter Killer Missile": {
             "range": "120",
             "S": "10",
             "AP": "3+",
-            "type": "Heavy 1, Monsterbane, One"
-          },
-          "Use Only, Hull": {
-            "range": "",
-            "S": "",
-            "AP": "",
-            "type": "30"
+            "type": "Heavy 1, Monsterbane, One Use Only, Hull 30"
           }
         }
       },
@@ -4511,11 +4269,11 @@
                 "pts_delta": 1
               },
               {
-                "name": "Castigator",
+                "name": "Castigator Gatling Cannon",
                 "pts_delta": 18
               },
               {
-                "name": "Heavy",
+                "name": "Heavy Lascannon",
                 "pts_delta": 30
               },
               {
@@ -4523,7 +4281,7 @@
                 "pts_delta": 0
               },
               {
-                "name": "Coaxial",
+                "name": "Coaxial Meltagun",
                 "pts_delta": 17
               },
               {
@@ -4574,29 +4332,17 @@
             "AP": "1+",
             "type": "Heavy 1, Coaxial, Melta, (Monsterbane), 3\u201d Blast, Turret, Primary"
           },
-          "Castigator": {
+          "Castigator Gatling Cannon": {
             "range": "24",
             "S": "5",
             "AP": "-",
-            "type": "Heavy 12, Coaxial, Turret,"
+            "type": "Heavy 12, Coaxial, Turret, Primary 32"
           },
-          "Heavy": {
+          "Heavy Lascannon": {
             "range": "60",
             "S": "10",
             "AP": "1+",
-            "type": "Heavy 1, Coaxial, Ordnance,"
-          },
-          "Cannon": {
-            "range": "Primary",
-            "S": "",
-            "AP": "",
-            "type": "32"
-          },
-          "Monsterbane, Turret, Primary": {
-            "range": "",
-            "S": "",
-            "AP": "",
-            "type": ""
+            "type": "Heavy 1, Coaxial, Ordnance, Monsterbane, Turret, Primary"
           },
           "Coaxial Heavy Stubber": {
             "range": "36",
@@ -4604,17 +4350,11 @@
             "AP": "6+",
             "type": "Heavy 3, Coaxial, Turret"
           },
-          "Coaxial": {
+          "Coaxial Meltagun": {
             "range": "12",
             "S": "8",
             "AP": "1+",
-            "type": "Assault 1, Coaxial, Melta,"
-          },
-          "(Monsterbane), Turret": {
-            "range": "",
-            "S": "",
-            "AP": "",
-            "type": ""
+            "type": "Assault 1, Coaxial, Melta, (Monsterbane), Turret"
           }
         }
       },
@@ -4690,7 +4430,7 @@
                 "pts_delta": 11
               },
               {
-                "name": "Hunter Killer",
+                "name": "Hunter Killer Missile",
                 "pts_delta": 5
               },
               {
@@ -4777,17 +4517,11 @@
             "AP": "6+",
             "type": "Heavy 3, Turret"
           },
-          "Hunter Killer": {
+          "Hunter Killer Missile": {
             "range": "120",
             "S": "10",
             "AP": "3+",
-            "type": "Heavy 1, Monsterbane, One"
-          },
-          "Use Only, Hull": {
-            "range": "",
-            "S": "",
-            "AP": "",
-            "type": ""
+            "type": "Heavy 1, Monsterbane, One Use Only, Hull"
           }
         }
       },
@@ -4835,11 +4569,11 @@
                 "pts_delta": 0
               },
               {
-                "name": "Tauros Grenade",
+                "name": "Tauros Grenade Launcher",
                 "pts_delta": 6
               },
               {
-                "name": "Hunter Killer",
+                "name": "Hunter Killer Missile",
                 "pts_delta": 5
               },
               {
@@ -4884,29 +4618,17 @@
             "AP": "4+",
             "type": "Assault 1, Hull, Primary"
           },
-          "Tauros Grenade": {
+          "Tauros Grenade Launcher": {
             "range": "36",
             "S": "6 or",
             "AP": "4+",
-            "type": "or Assault 2, Hull, Primary"
+            "type": "or Assault 2, Hull, Primary 3 - Assault 2, 3\u201d Blast, Hull, Primary"
           },
-          "3": {
-            "range": "-",
-            "S": "Assault 2, 3\u201d Blast, Hull,",
-            "AP": "",
-            "type": "Primary"
-          },
-          "Hunter Killer": {
+          "Hunter Killer Missile": {
             "range": "120",
             "S": "10",
             "AP": "3+",
-            "type": "Heavy 1, Monsterbane, One"
-          },
-          "Use Only, Hull": {
-            "range": "",
-            "S": "",
-            "AP": "",
-            "type": "34"
+            "type": "Heavy 1, Monsterbane, One Use Only, Hull 34"
           }
         }
       },
@@ -4958,7 +4680,7 @@
                 "pts_delta": 24
               },
               {
-                "name": "Hunter Killer",
+                "name": "Hunter Killer Missile",
                 "pts_delta": 5
               },
               {
@@ -5009,17 +4731,11 @@
             "AP": "2+",
             "type": "Heavy 1 x2, Turret, Primary"
           },
-          "Hunter Killer": {
+          "Hunter Killer Missile": {
             "range": "120",
             "S": "10",
             "AP": "3+",
-            "type": "Heavy 1, Monsterbane, One"
-          },
-          "Use Only, Hull": {
-            "range": "",
-            "S": "",
-            "AP": "",
-            "type": "35"
+            "type": "Heavy 1, Monsterbane, One Use Only, Hull 35"
           }
         }
       },
@@ -5091,7 +4807,7 @@
                 "pts_delta": 9
               },
               {
-                "name": "Hunter Killer",
+                "name": "Hunter Killer Missile",
                 "pts_delta": 5
               },
               {
@@ -5178,17 +4894,11 @@
             "AP": "6+",
             "type": "Dozerblade, Accurate"
           },
-          "Hunter Killer": {
+          "Hunter Killer Missile": {
             "range": "120",
             "S": "10",
             "AP": "3+",
-            "type": "Heavy 1, Monsterbane, One"
-          },
-          "Use Only, Hull": {
-            "range": "",
-            "S": "",
-            "AP": "",
-            "type": "36"
+            "type": "Heavy 1, Monsterbane, One Use Only, Hull 36"
           }
         }
       },
@@ -5271,7 +4981,7 @@
                 "pts_delta": 9
               },
               {
-                "name": "Hunter Killer",
+                "name": "Hunter Killer Missile",
                 "pts_delta": 5
               },
               {
@@ -5370,17 +5080,11 @@
             "AP": "6+",
             "type": "Dozerblade, Accurate"
           },
-          "Hunter Killer": {
+          "Hunter Killer Missile": {
             "range": "120",
             "S": "10",
             "AP": "3+",
-            "type": "Heavy 1, Monsterbane, One"
-          },
-          "Use Only, Hull": {
-            "range": "",
-            "S": "",
-            "AP": "",
-            "type": "37"
+            "type": "Heavy 1, Monsterbane, One Use Only, Hull 37"
           }
         }
       },
@@ -5450,7 +5154,7 @@
                 "pts_delta": 9
               },
               {
-                "name": "Hunter Killer",
+                "name": "Hunter Killer Missile",
                 "pts_delta": 5
               },
               {
@@ -5531,17 +5235,11 @@
             "AP": "6+",
             "type": "Dozerblade, Accurate"
           },
-          "Hunter Killer": {
+          "Hunter Killer Missile": {
             "range": "120",
             "S": "10",
             "AP": "3+",
-            "type": "Heavy 1, Monsterbane, One"
-          },
-          "Use Only, Hull": {
-            "range": "",
-            "S": "",
-            "AP": "",
-            "type": "38"
+            "type": "Heavy 1, Monsterbane, One Use Only, Hull 38"
           }
         }
       },
@@ -5627,7 +5325,7 @@
                 "pts_delta": 7
               },
               {
-                "name": "Hunter Killer",
+                "name": "Hunter Killer Missile",
                 "pts_delta": 5
               },
               {
@@ -5690,17 +5388,11 @@
             "AP": "2+",
             "type": "Heavy 1, Monsterbane, Hull, Primary"
           },
-          "Hunter Killer": {
+          "Hunter Killer Missile": {
             "range": "120",
             "S": "10",
             "AP": "3+",
-            "type": "Heavy 1, Monsterbane, One"
-          },
-          "Use Only, Hull": {
-            "range": "",
-            "S": "",
-            "AP": "",
-            "type": "39"
+            "type": "Heavy 1, Monsterbane, One Use Only, Hull 39"
           }
         }
       },
@@ -5784,12 +5476,8 @@
                 "pts_delta": 14
               },
               {
-                "name": "Hunter Killer",
+                "name": "Hunter Killer Missile",
                 "pts_delta": 5
-              },
-              {
-                "name": "Support",
-                "pts_delta": 0
               },
               {
                 "name": "Augar Array",
@@ -5851,29 +5539,11 @@
             "AP": "2+",
             "type": "Heavy 1, Monsterbane, Turret, Primary"
           },
-          "Hunter Killer": {
+          "Hunter Killer Missile": {
             "range": "120",
             "S": "10",
             "AP": "3+",
-            "type": "Heavy 1, Monsterbane, One"
-          },
-          "Use Only, Hull": {
-            "range": "",
-            "S": "",
-            "AP": "",
-            "type": "40"
-          },
-          "Support": {
-            "range": "0-3",
-            "S": "",
-            "AP": "",
-            "type": ""
-          },
-          "Tanks": {
-            "range": "",
-            "S": "",
-            "AP": "",
-            "type": ""
+            "type": "Heavy 1, Monsterbane, One Use Only, Hull 40"
           }
         }
       }
@@ -5998,19 +5668,15 @@
             "description": "May take up to 2 more Destroyers for +142 points each Any Destroyer may swap Heavy Laser Destroyer Array for H Any Destroyer may take one M Any Destroyer may take one P Any Destroyer may take one D Any Destroyer may take any E one time each The entire unit may take one B",
             "choices": [
               {
-                "name": "Heavy Laser",
+                "name": "Heavy Laser Destroyer Array",
                 "pts_delta": 0
               },
               {
-                "name": "Demolisher",
+                "name": "Demolisher Cannon",
                 "pts_delta": 22
               },
               {
-                "name": "Array",
-                "pts_delta": 0
-              },
-              {
-                "name": "Hunter Killer",
+                "name": "Hunter Killer Missile",
                 "pts_delta": 5
               },
               {
@@ -6065,41 +5731,23 @@
           }
         ],
         "weapons": {
-          "Heavy Laser": {
+          "Heavy Laser Destroyer Array": {
             "range": "60",
             "S": "9",
             "AP": "2+",
-            "type": "Heavy 2, Ordnance,"
+            "type": "Heavy 2, Ordnance, Monsterbane , Hull, Primary"
           },
-          "Demolisher": {
+          "Demolisher Cannon": {
             "range": "24",
             "S": "10",
             "AP": "2+",
-            "type": "Heavy 1, 5\u201d Blast, Ordnance,"
+            "type": "Heavy 1, 5\u201d Blast, Ordnance, Monsterbane, Hull, Primary 42"
           },
-          "Array": {
-            "range": "Monsterbane , Hull, Primary",
-            "S": "",
-            "AP": "",
-            "type": ""
-          },
-          "Monsterbane, Hull, Primary": {
-            "range": "",
-            "S": "",
-            "AP": "",
-            "type": "42"
-          },
-          "Hunter Killer": {
+          "Hunter Killer Missile": {
             "range": "120",
             "S": "10",
             "AP": "3+",
-            "type": "Heavy 1, Monsterbane, One"
-          },
-          "Use Only, Hull": {
-            "range": "",
-            "S": "",
-            "AP": "",
-            "type": ""
+            "type": "Heavy 1, Monsterbane, One Use Only, Hull"
           },
           "Stormbolter": {
             "range": "24",
@@ -6167,23 +5815,23 @@
             "description": "May take up to two more Leman Russ Tanks for +151 points each Any Leman Russ may swap Nova Eradicator Cannon for T Any Leman Russ may swap Heavy Flamer H for H Any Leman Russ may take a set of S Any Leman Russ may take one P Any Leman Russ may take one D Any Leman Russ may take one M Any Leman Russ may take any E one time each The entire unit may take one B",
             "choices": [
               {
-                "name": "Nova Eradicator",
+                "name": "Nova Eradicator Cannon",
                 "pts_delta": 0
               },
               {
-                "name": "Executioner",
+                "name": "Executioner Plasma Cannon",
                 "pts_delta": 4
               },
               {
-                "name": "Vanquisher",
+                "name": "Vanquisher Battle Cannon",
                 "pts_delta": 9
               },
               {
-                "name": "2 Linked",
+                "name": "2 Linked Lascannons",
                 "pts_delta": 15
               },
               {
-                "name": "2 Linked",
+                "name": "2 Linked Exterminator Autocannons",
                 "pts_delta": 16
               },
               {
@@ -6191,7 +5839,7 @@
                 "pts_delta": 33
               },
               {
-                "name": "Conqueror",
+                "name": "Conqueror Battle Cannon and Stormbolter",
                 "pts_delta": 39
               },
               {
@@ -6199,24 +5847,12 @@
                 "pts_delta": 45
               },
               {
-                "name": "Demolisher",
+                "name": "Demolisher Cannon",
                 "pts_delta": 57
               },
               {
-                "name": "Long Vanquisher",
+                "name": "Long Vanquisher Cannon with Stormbolter",
                 "pts_delta": 60
-              },
-              {
-                "name": "Cover, Turret, Primary",
-                "pts_delta": 0
-              },
-              {
-                "name": "Monsterbane, Turret, Primary",
-                "pts_delta": 0
-              },
-              {
-                "name": "with",
-                "pts_delta": 0
               },
               {
                 "name": "Heavy Flamer",
@@ -6243,7 +5879,7 @@
                 "pts_delta": 20
               },
               {
-                "name": "2 Plasma",
+                "name": "2 Plasma Cannons",
                 "pts_delta": 24
               },
               {
@@ -6271,7 +5907,7 @@
                 "pts_delta": 9
               },
               {
-                "name": "Hunter Killer",
+                "name": "Hunter Killer Missile",
                 "pts_delta": 5
               },
               {
@@ -6310,29 +5946,35 @@
           }
         ],
         "weapons": {
-          "Nova Eradicator": {
+          "Nova Eradicator Cannon": {
             "range": "36",
             "S": "6",
             "AP": "4+",
-            "type": "Heavy 1, 5\u201d Blast, Ignores"
+            "type": "Heavy 1, 5\u201d Blast, Ignores Cover, Turret, Primary"
           },
-          "Executioner": {
+          "Executioner Plasma Cannon": {
             "range": "36",
             "S": "7",
             "AP": "2+",
-            "type": "Heavy 3, 3\u201d Blast, Get\u2019s Hot!,"
+            "type": "Heavy 3, 3\u201d Blast, Get\u2019s Hot!, Turret, Primary"
           },
-          "Vanquisher": {
+          "Vanquisher Battle Cannon": {
             "range": "72",
             "S": "D",
             "AP": "2+",
-            "type": "Heavy 1, Destroyer,"
+            "type": "Heavy 1, Destroyer, Monsterbane, Turret, Primary 43"
           },
-          "2 Linked": {
+          "2 Linked Lascannons": {
             "range": "48",
             "S": "9",
             "AP": "2+",
-            "type": "Heavy 1 x2, Monsterbane,"
+            "type": "Heavy 1 x2, Monsterbane, Turret, Primary"
+          },
+          "2 Linked Exterminator Autocannons": {
+            "range": "48",
+            "S": "7",
+            "AP": "4+",
+            "type": "Heavy 2 x2, Reroll Misses, Monsterbane, Turret, Primary"
           },
           "Punisher Gatling Gun": {
             "range": "24",
@@ -6340,11 +5982,11 @@
             "AP": "-",
             "type": "Heavy 20, Turret, Primary"
           },
-          "Conqueror": {
+          "Conqueror Battle Cannon and Stormbolter": {
             "range": "48 and 8",
             "S": "3+",
             "AP": "Heavy 1, 5\u201d Blast, Coaxial,",
-            "type": ""
+            "type": "24 and and Turret and Rapid Fire 2, 4 5+ Coaxial, Monsterbane, Turret, Primary"
           },
           "Battle Cannon": {
             "range": "72",
@@ -6352,65 +5994,17 @@
             "AP": "3+",
             "type": "Heavy 1, 5\u201d Blast, Ordnance, Monsterbane, Turret, Primary"
           },
-          "Demolisher": {
+          "Demolisher Cannon": {
             "range": "24",
             "S": "10",
             "AP": "2+",
-            "type": "Heavy 1, 5\u201d Blast, Ordnance,"
+            "type": "Heavy 1, 5\u201d Blast, Ordnance, Monsterbane, Turret, Primary"
           },
-          "Long Vanquisher": {
+          "Long Vanquisher Cannon with Stormbolter": {
             "range": "72",
             "S": "D",
             "AP": "2+",
-            "type": "Heavy 1, Destroyer, Accurate,"
-          },
-          "Cover, Turret, Primary": {
-            "range": "",
-            "S": "",
-            "AP": "",
-            "type": ""
-          },
-          "Monsterbane, Turret, Primary": {
-            "range": "",
-            "S": "",
-            "AP": "",
-            "type": ""
-          },
-          "with": {
-            "range": "And",
-            "S": "And",
-            "AP": "And Coaxial, Turret, Primary",
-            "type": ""
-          },
-          "Cannon": {
-            "range": "Turret, Primary",
-            "S": "",
-            "AP": "",
-            "type": ""
-          },
-          "Turret, Primary": {
-            "range": "",
-            "S": "",
-            "AP": "",
-            "type": ""
-          },
-          "Monsterbane, Turret, Primary Autocannons": {
-            "range": "",
-            "S": "",
-            "AP": "",
-            "type": ""
-          },
-          "Stormbolter": {
-            "range": "4",
-            "S": "5+",
-            "AP": "Coaxial, Monsterbane, Turret,",
-            "type": "Primary"
-          },
-          "24": {
-            "range": "4",
-            "S": "5+",
-            "AP": "Rapid Fire 2, Coaxial, Turret",
-            "type": ""
+            "type": "Heavy 1, Destroyer, Accurate, And And And Coaxial, Turret, Primary 24 4 5+ Rapid Fire 2, Coaxial, Turret"
           },
           "Heavy Flamer": {
             "range": "Flame",
@@ -6448,11 +6042,11 @@
             "AP": "6+",
             "type": "Heavy 3 x2, Sponson"
           },
-          "2 Plasma": {
+          "2 Plasma Cannons": {
             "range": "36",
             "S": "7",
             "AP": "2+",
-            "type": "Heavy 1 x2, 3\u201d Blast, Gets Hot!,"
+            "type": "Heavy 1 x2, 3\u201d Blast, Gets Hot!, Sponson"
           },
           "2 Autocannons": {
             "range": "48",
@@ -6466,11 +6060,11 @@
             "AP": "1+",
             "type": "Heavy 2 x2, Melta, (Monsterbane), Sponson"
           },
-          "Sponson": {
-            "range": "",
-            "S": "",
-            "AP": "",
-            "type": ""
+          "Stormbolter": {
+            "range": "24",
+            "S": "4",
+            "AP": "5+",
+            "type": "Rapid Fire 2, Turret"
           },
           "Light Stubber": {
             "range": "36",
@@ -6490,17 +6084,11 @@
             "AP": "6+",
             "type": "Dozerblade, Accurate"
           },
-          "Hunter Killer": {
+          "Hunter Killer Missile": {
             "range": "120",
             "S": "10",
             "AP": "3+",
-            "type": "Heavy 1, Monsterbane, One"
-          },
-          "Use Only, Hull": {
-            "range": "",
-            "S": "",
-            "AP": "",
-            "type": "44"
+            "type": "Heavy 1, Monsterbane, One Use Only, Hull 44"
           }
         }
       },
@@ -6546,7 +6134,7 @@
             "description": "May swap 2 Linked Lascannons for T",
             "choices": [
               {
-                "name": "2 Linked",
+                "name": "2 Linked Lascannons",
                 "pts_delta": 0
               },
               {
@@ -6556,10 +6144,6 @@
               {
                 "name": "Battle Cannon",
                 "pts_delta": 26
-              },
-              {
-                "name": "Turret, Primary",
-                "pts_delta": 0
               }
             ]
           },
@@ -6575,7 +6159,7 @@
                 "pts_delta": 7
               },
               {
-                "name": "Demolisher",
+                "name": "Demolisher Cannon",
                 "pts_delta": 15
               },
               {
@@ -6629,7 +6213,7 @@
             "description": "May take one M",
             "choices": [
               {
-                "name": "Hunter Killer",
+                "name": "Hunter Killer Missile",
                 "pts_delta": 5
               }
             ]
@@ -6678,11 +6262,11 @@
           }
         ],
         "weapons": {
-          "2 Linked": {
+          "2 Linked Lascannons": {
             "range": "48",
             "S": "9",
             "AP": "2+",
-            "type": "Heavy 1 x2, Monsterbane,"
+            "type": "Heavy 1 x2, Monsterbane, Turret, Primary"
           },
           "Heavy Bolter Pill Box": {
             "range": "36",
@@ -6696,12 +6280,6 @@
             "AP": "3+",
             "type": "Heavy 1, 5\u201d Blast, Ordnance, Monsterbane, Sponson, Primary"
           },
-          "Turret, Primary": {
-            "range": "",
-            "S": "",
-            "AP": "",
-            "type": ""
-          },
           "Heavy Bolter": {
             "range": "36",
             "S": "5",
@@ -6714,17 +6292,11 @@
             "AP": "2+",
             "type": "Heavy 1, Monsterbane, Hull"
           },
-          "Demolisher": {
+          "Demolisher Cannon": {
             "range": "24",
             "S": "10",
             "AP": "2+",
-            "type": "Heavy 1, 5\u201d Blast, Ordnance,"
-          },
-          "Monsterbane, Hull, Primary": {
-            "range": "",
-            "S": "",
-            "AP": "",
-            "type": ""
+            "type": "Heavy 1, 5\u201d Blast, Ordnance, Monsterbane, Hull, Primary"
           },
           "2 Heavy Stubbers": {
             "range": "36",
@@ -6780,17 +6352,11 @@
             "AP": "6+",
             "type": "Heavy 3, Turret"
           },
-          "Hunter Killer": {
+          "Hunter Killer Missile": {
             "range": "120",
             "S": "10",
             "AP": "3+",
-            "type": "Heavy 1, Monsterbane, One"
-          },
-          "Use Only, Hull": {
-            "range": "",
-            "S": "",
-            "AP": "",
-            "type": ""
+            "type": "Heavy 1, Monsterbane, One Use Only, Hull"
           }
         }
       },
@@ -6834,16 +6400,12 @@
             "description": "May swap Neutron Laser Projector for H",
             "choices": [
               {
-                "name": "Neutron Laser",
+                "name": "Neutron Laser Projector",
                 "pts_delta": 0
               },
               {
-                "name": "2 Linked",
+                "name": "2 Linked Infernus Cannons",
                 "pts_delta": 50
-              },
-              {
-                "name": "Monsterbane, Shock pulse,",
-                "pts_delta": 0
               }
             ]
           },
@@ -6901,7 +6463,7 @@
             "description": "May take one M",
             "choices": [
               {
-                "name": "Hunter Killer",
+                "name": "Hunter Killer Missile",
                 "pts_delta": 5
               }
             ]
@@ -6950,29 +6512,17 @@
           }
         ],
         "weapons": {
-          "Neutron Laser": {
+          "Neutron Laser Projector": {
             "range": "72",
             "S": "D",
             "AP": "1+",
-            "type": "Heavy 1, 3\u201d Blast, Destroyer,"
+            "type": "Heavy 1, 3\u201d Blast, Destroyer, Monsterbane, Shock pulse, Hull, Primary"
           },
-          "2 Linked": {
+          "2 Linked Infernus Cannons": {
             "range": "Hell-",
             "S": "7",
             "AP": "3+",
-            "type": "Assault 1 x2, Hull, Primary,"
-          },
-          "Monsterbane, Shock pulse,": {
-            "range": "",
-            "S": "",
-            "AP": "",
-            "type": "Hull, Primary"
-          },
-          "storm Cannons": {
-            "range": "Enlarged Fuel Tanks",
-            "S": "",
-            "AP": "",
-            "type": ""
+            "type": "Assault 1 x2, Hull, Primary, storm Enlarged Fuel Tanks"
           },
           "2 Heavy Stubbers": {
             "range": "36",
@@ -7028,23 +6578,11 @@
             "AP": "6+",
             "type": "Heavy 3, Turret"
           },
-          "Hunter Killer": {
+          "Hunter Killer Missile": {
             "range": "120",
             "S": "10",
             "AP": "3+",
-            "type": "Heavy 1, Monsterbane, One"
-          },
-          "Use Only, Hull": {
-            "range": "",
-            "S": "",
-            "AP": "",
-            "type": ""
-          },
-          "Alpha Leman Russ": {
-            "range": "Points: 165",
-            "S": "",
-            "AP": "",
-            "type": ""
+            "type": "Heavy 1, Monsterbane, One Use Only, Hull"
           }
         }
       },
@@ -7172,23 +6710,23 @@
             "description": "May take up to two more Ragnoraks for +188 points each Any Leman Russ may swap Nova Eradicator Cannon for T Any Ragnorak may swap Heavy Flamer H for H Any Ragnorak may swap 2 Heavy Flamers for S Any Ragnorak may take one P Any Ragnorak may take one D Any Ragnorak may take one M Any Ragnorak may take any E one time each The entire unit may take one B",
             "choices": [
               {
-                "name": "Nova Eradicator",
+                "name": "Nova Eradicator Cannon",
                 "pts_delta": 0
               },
               {
-                "name": "Executioner",
+                "name": "Executioner Plasma Cannon",
                 "pts_delta": 4
               },
               {
-                "name": "Vanquisher",
+                "name": "Vanquisher Battle Cannon",
                 "pts_delta": 9
               },
               {
-                "name": "2 Linked",
+                "name": "2 Linked Lascannons",
                 "pts_delta": 15
               },
               {
-                "name": "2 Linked",
+                "name": "2 Linked Exterminator Autocannons",
                 "pts_delta": 16
               },
               {
@@ -7196,7 +6734,7 @@
                 "pts_delta": 33
               },
               {
-                "name": "Conqueror",
+                "name": "Conqueror Battle Cannon and Stormbolter",
                 "pts_delta": 39
               },
               {
@@ -7204,24 +6742,12 @@
                 "pts_delta": 45
               },
               {
-                "name": "Demolisher",
+                "name": "Demolisher Cannon",
                 "pts_delta": 57
               },
               {
-                "name": "Long Vanquisher",
+                "name": "Long Vanquisher Cannon with Stormbolter",
                 "pts_delta": 60
-              },
-              {
-                "name": "Cover, Turret, Primary",
-                "pts_delta": 0
-              },
-              {
-                "name": "Monsterbane, Turret, Primary",
-                "pts_delta": 0
-              },
-              {
-                "name": "with",
-                "pts_delta": 0
               },
               {
                 "name": "Heavy Flamer",
@@ -7240,7 +6766,7 @@
                 "pts_delta": 0
               },
               {
-                "name": "2 Plasma",
+                "name": "2 Plasma Cannons",
                 "pts_delta": 1
               },
               {
@@ -7276,7 +6802,7 @@
                 "pts_delta": 9
               },
               {
-                "name": "Hunter Killer",
+                "name": "Hunter Killer Missile",
                 "pts_delta": 5
               },
               {
@@ -7315,29 +6841,35 @@
           }
         ],
         "weapons": {
-          "Nova Eradicator": {
+          "Nova Eradicator Cannon": {
             "range": "36",
             "S": "6",
             "AP": "4+",
-            "type": "Heavy 1, 5\u201d Blast, Ignores"
+            "type": "Heavy 1, 5\u201d Blast, Ignores Cover, Turret, Primary"
           },
-          "Executioner": {
+          "Executioner Plasma Cannon": {
             "range": "36",
             "S": "7",
             "AP": "2+",
-            "type": "Heavy 3, 3\u201d Blast, Get\u2019s Hot!,"
+            "type": "Heavy 3, 3\u201d Blast, Get\u2019s Hot!, Turret, Primary"
           },
-          "Vanquisher": {
+          "Vanquisher Battle Cannon": {
             "range": "72",
             "S": "8",
             "AP": "3+",
-            "type": "Heavy 1, Armourbane,"
+            "type": "Heavy 1, Armourbane, Monsterbane, Turret, Primary"
           },
-          "2 Linked": {
+          "2 Linked Lascannons": {
             "range": "48",
             "S": "9",
             "AP": "2+",
-            "type": "Heavy 1 x2, Monsterbane,"
+            "type": "Heavy 1 x2, Monsterbane, Turret, Primary"
+          },
+          "2 Linked Exterminator Autocannons": {
+            "range": "48",
+            "S": "7",
+            "AP": "4+",
+            "type": "Heavy 2 x2, Reroll Misses, Monsterbane, Turret, Primary"
           },
           "Punisher Gatling Gun": {
             "range": "24",
@@ -7345,11 +6877,11 @@
             "AP": "-",
             "type": "Heavy 20, Turret, Primary 49"
           },
-          "Conqueror": {
+          "Conqueror Battle Cannon and Stormbolter": {
             "range": "48 and 8",
             "S": "3+",
             "AP": "Heavy 1, 5\u201d Blast, Coaxial,",
-            "type": ""
+            "type": "24 and and Turret and Rapid Fire 2, 4 5+ Coaxial, Monsterbane, Turret, Primary"
           },
           "Battle Cannon": {
             "range": "72",
@@ -7357,65 +6889,17 @@
             "AP": "3+",
             "type": "Heavy 1, 5\u201d Blast, Ordnance, Monsterbane, Turret, Primary"
           },
-          "Demolisher": {
+          "Demolisher Cannon": {
             "range": "24",
             "S": "10",
             "AP": "2+",
-            "type": "Heavy 1, 5\u201d Blast, Ordnance,"
+            "type": "Heavy 1, 5\u201d Blast, Ordnance, Monsterbane, Turret, Primary"
           },
-          "Long Vanquisher": {
+          "Long Vanquisher Cannon with Stormbolter": {
             "range": "72",
             "S": "D",
             "AP": "2+",
-            "type": "Heavy 1, Destroyer, Accurate,"
-          },
-          "Cover, Turret, Primary": {
-            "range": "",
-            "S": "",
-            "AP": "",
-            "type": ""
-          },
-          "Monsterbane, Turret, Primary": {
-            "range": "",
-            "S": "",
-            "AP": "",
-            "type": ""
-          },
-          "with": {
-            "range": "And",
-            "S": "And",
-            "AP": "And Coaxial, Turret, Primary",
-            "type": ""
-          },
-          "Cannon": {
-            "range": "Turret, Primary",
-            "S": "",
-            "AP": "",
-            "type": ""
-          },
-          "Turret, Primary": {
-            "range": "",
-            "S": "",
-            "AP": "",
-            "type": ""
-          },
-          "Monsterbane, Turret, Primary Autocannons": {
-            "range": "",
-            "S": "",
-            "AP": "",
-            "type": ""
-          },
-          "Stormbolter": {
-            "range": "4",
-            "S": "5+",
-            "AP": "Coaxial, Monsterbane, Turret,",
-            "type": "Primary"
-          },
-          "24": {
-            "range": "4",
-            "S": "5+",
-            "AP": "Rapid Fire 2, Coaxial, Turret",
-            "type": ""
+            "type": "Heavy 1, Destroyer, Accurate, And And And Coaxial, Turret, Primary 24 4 5+ Rapid Fire 2, Coaxial, Turret"
           },
           "Heavy Flamer": {
             "range": "Flame",
@@ -7441,11 +6925,11 @@
             "AP": "4+",
             "type": "Assault 1 x2, Hull"
           },
-          "2 Plasma": {
+          "2 Plasma Cannons": {
             "range": "36",
             "S": "7",
             "AP": "2+",
-            "type": "Heavy 1 x2, 3\u201d Blast, Gets Hot!,"
+            "type": "Heavy 1 x2, 3\u201d Blast, Gets Hot!, Hull"
           },
           "2 Heavy Bolters": {
             "range": "36",
@@ -7471,11 +6955,11 @@
             "AP": "1+",
             "type": "Heavy 2 x2, Melta, (Monsterbane), Hull"
           },
-          "Hull": {
-            "range": "",
-            "S": "",
-            "AP": "",
-            "type": ""
+          "Stormbolter": {
+            "range": "24",
+            "S": "4",
+            "AP": "5+",
+            "type": "Rapid Fire 2, Turret"
           },
           "Light Stubber": {
             "range": "36",
@@ -7495,17 +6979,11 @@
             "AP": "6+",
             "type": "Dozerblade, Accurate"
           },
-          "Hunter Killer": {
+          "Hunter Killer Missile": {
             "range": "120",
             "S": "10",
             "AP": "3+",
-            "type": "Heavy 1, Monsterbane, One"
-          },
-          "Use Only, Hull": {
-            "range": "",
-            "S": "",
-            "AP": "",
-            "type": ""
+            "type": "Heavy 1, Monsterbane, One Use Only, Hull"
           }
         }
       },
@@ -7550,36 +7028,16 @@
             "description": "May swap Oppressor Cannon and Autocannon for T",
             "choices": [
               {
-                "name": "Oppressor",
+                "name": "Oppressor Cannon and Autocannon",
                 "pts_delta": 0
               },
               {
-                "name": "Earthshaker",
+                "name": "Earthshaker Cannon",
                 "pts_delta": 59
               },
               {
-                "name": "2 Linked Battle",
+                "name": "2 Linked Battle Cannons",
                 "pts_delta": 79
-              },
-              {
-                "name": "Monsterbane, Coaxial, Turret,",
-                "pts_delta": 0
-              },
-              {
-                "name": "Monsterbane, Indirect, Turret,",
-                "pts_delta": 0
-              },
-              {
-                "name": "Monsterbane, Hull",
-                "pts_delta": 0
-              },
-              {
-                "name": "And",
-                "pts_delta": 0
-              },
-              {
-                "name": "48",
-                "pts_delta": 0
               }
             ]
           },
@@ -7587,20 +7045,16 @@
             "description": "May swap Castigator Gatling Cannon for H1",
             "choices": [
               {
-                "name": "Castigator",
+                "name": "Castigator Gatling Cannon",
                 "pts_delta": 0
               },
               {
-                "name": "Pulveriser",
+                "name": "Pulveriser Cannon",
                 "pts_delta": 6
               },
               {
-                "name": "Demolisher",
+                "name": "Demolisher Cannon",
                 "pts_delta": 32
-              },
-              {
-                "name": "Cannon",
-                "pts_delta": 0
               }
             ]
           },
@@ -7612,7 +7066,7 @@
                 "pts_delta": 11
               },
               {
-                "name": "2 Linked",
+                "name": "2 Linked Meltaguns",
                 "pts_delta": 25
               }
             ]
@@ -7629,7 +7083,7 @@
                 "pts_delta": 47
               },
               {
-                "name": "2 sets of",
+                "name": "2 sets of Linked Lascannons",
                 "pts_delta": 72
               }
             ]
@@ -7664,7 +7118,7 @@
             "description": "May take one M",
             "choices": [
               {
-                "name": "Hunter Killer",
+                "name": "Hunter Killer Missile",
                 "pts_delta": 5
               }
             ]
@@ -7679,83 +7133,41 @@
           }
         ],
         "weapons": {
-          "Oppressor": {
+          "Oppressor Cannon and Autocannon": {
             "range": "72",
             "S": "D",
             "AP": "2+",
-            "type": "Heavy 1, Destroyer, Accurate"
+            "type": "Heavy 1, Destroyer, Accurate Monsterbane, Coaxial, Turret, And And And Primary 48 7 4+ Heavy 2, Monsterbane, Coaxial, Turret, Primary"
           },
-          "Earthshaker": {
+          "Earthshaker Cannon": {
             "range": "240",
             "S": "9",
             "AP": "3+",
-            "type": "Heavy 1, 5\u201d Blast, Ordnance,"
+            "type": "Heavy 1, 5\u201d Blast, Ordnance, Monsterbane, Indirect, Turret, Primary"
           },
-          "2 Linked Battle": {
+          "2 Linked Battle Cannons": {
             "range": "72",
             "S": "8",
             "AP": "3+",
-            "type": "Heavy 1 x2, 5\u201d Blast, Ordnance,"
+            "type": "Heavy 1 x2, 5\u201d Blast, Ordnance, Monsterbane, Turret, Primary"
           },
-          "Monsterbane, Coaxial, Turret,": {
-            "range": "",
-            "S": "",
-            "AP": "",
-            "type": ""
-          },
-          "Monsterbane, Indirect, Turret,": {
-            "range": "",
-            "S": "",
-            "AP": "",
-            "type": "Primary"
-          },
-          "Monsterbane, Hull": {
-            "range": "",
-            "S": "",
-            "AP": "",
-            "type": ""
-          },
-          "And": {
-            "range": "And",
-            "S": "And",
-            "AP": "Primary",
-            "type": ""
-          },
-          "48": {
-            "range": "7",
-            "S": "4+",
-            "AP": "Heavy 2, Monsterbane, Coaxial,",
-            "type": "Turret, Primary"
-          },
-          "Monsterbane, Turret, Primary": {
-            "range": "",
-            "S": "",
-            "AP": "",
-            "type": ""
-          },
-          "Castigator": {
+          "Castigator Gatling Cannon": {
             "range": "24",
             "S": "5",
             "AP": "-",
             "type": "Heavy 12, Hull"
           },
-          "Pulveriser": {
+          "Pulveriser Cannon": {
             "range": "36",
             "S": "8",
             "AP": "3+",
-            "type": "Heavy 1, 3\u201d Blast, Ordnance,"
+            "type": "Heavy 1, 3\u201d Blast, Ordnance, Monsterbane, Hull"
           },
-          "Demolisher": {
+          "Demolisher Cannon": {
             "range": "24",
             "S": "10",
             "AP": "2+",
-            "type": "Heavy 1, 5\u201d Blast, Ordnance,"
-          },
-          "Cannon": {
-            "range": "",
-            "S": "",
-            "AP": "",
-            "type": ""
+            "type": "Heavy 1, 5\u201d Blast, Ordnance, Monsterbane, Hull"
           },
           "2 Linked Heavy Stubbers": {
             "range": "36",
@@ -7763,17 +7175,11 @@
             "AP": "6+",
             "type": "Heavy 3 x2, Hull"
           },
-          "2 Linked": {
+          "2 Linked Meltaguns": {
             "range": "12",
             "S": "8",
             "AP": "1+",
-            "type": "Assault 1 x2, Melta"
-          },
-          "(Monsterbane), Hull": {
-            "range": "",
-            "S": "",
-            "AP": "",
-            "type": ""
+            "type": "Assault 1 x2, Melta (Monsterbane), Hull"
           },
           "2 Heavy Bolters": {
             "range": "36",
@@ -7787,17 +7193,11 @@
             "AP": "1+",
             "type": "Heavy 2 x2, Melta, (Monsterbane), Sponson"
           },
-          "2 sets of": {
+          "2 sets of Linked Lascannons": {
             "range": "2",
             "S": "48",
             "AP": "9 2+ Heavy 1 x2 (x2), Monsterbane,",
-            "type": ""
-          },
-          "Sponson Lascannons": {
-            "range": "",
-            "S": "",
-            "AP": "",
-            "type": ""
+            "type": "Sponson"
           },
           "Stormbolter": {
             "range": "24",
@@ -7823,17 +7223,11 @@
             "AP": "6+",
             "type": "Dozerblade, Accurate"
           },
-          "Hunter Killer": {
+          "Hunter Killer Missile": {
             "range": "120",
             "S": "10",
             "AP": "3+",
-            "type": "Heavy 1, Monsterbane, One"
-          },
-          "Use Only, Hull": {
-            "range": "",
-            "S": "",
-            "AP": "",
-            "type": ""
+            "type": "Heavy 1, Monsterbane, One Use Only, Hull"
           }
         }
       },
@@ -7956,16 +7350,7 @@
         "options": [
           {
             "description": "May take up to 2 more Deathstrike Missile Carriers for +202 points each Any Deathstrike Missile Carrier",
-            "choices": [
-              {
-                "name": "240",
-                "pts_delta": 0
-              },
-              {
-                "name": "Use Only, Hull",
-                "pts_delta": 0
-              }
-            ]
+            "choices": []
           },
           {
             "description": "may swap Heavy Flamer for H Any Deathstrike Missile Carrier",
@@ -8010,7 +7395,7 @@
             "description": "may take one M Any Deathstrike Missile Carrier",
             "choices": [
               {
-                "name": "Hunter Killer",
+                "name": "Hunter Killer Missile",
                 "pts_delta": 5
               }
             ]
@@ -8054,41 +7439,11 @@
           }
         ],
         "weapons": {
-          "Deathstrike": {
+          "Deathstrike Missile": {
             "range": "12 to",
             "S": "D/10 1+/1+ Heavy 1, 15\u201d Blast, Destroyer,",
             "AP": "",
-            "type": ""
-          },
-          "240": {
-            "range": "/8",
-            "S": "/1+",
-            "AP": "Ordnance, Monsterbane,",
-            "type": ""
-          },
-          "Use Only, Hull": {
-            "range": "",
-            "S": "",
-            "AP": "",
-            "type": ""
-          },
-          "Fire, Ignores Cover,": {
-            "range": "",
-            "S": "",
-            "AP": "",
-            "type": ""
-          },
-          "Use Only, T Minus": {
-            "range": "5,",
-            "S": "",
-            "AP": "",
-            "type": ""
-          },
-          "is Nigh, Hull": {
-            "range": "",
-            "S": "",
-            "AP": "",
-            "type": "53"
+            "type": "240 /8 /1+ Ordnance, Monsterbane, Indirect Fire, Ignores Cover, One Use Only, T Minus 5, The Hour is Nigh, Hull 53"
           },
           "Heavy Flamer": {
             "range": "Flame",
@@ -8126,11 +7481,11 @@
             "AP": "6+",
             "type": "Dozerblade, Accurate"
           },
-          "Hunter Killer": {
+          "Hunter Killer Missile": {
             "range": "120",
             "S": "10",
             "AP": "3+",
-            "type": "Heavy 1, Monsterbane, One"
+            "type": "Heavy 1, Monsterbane, One Use Only, Hull"
           }
         }
       },
@@ -8197,7 +7552,7 @@
                 "pts_delta": 9
               },
               {
-                "name": "Hunter Killer",
+                "name": "Hunter Killer Missile",
                 "pts_delta": 5
               },
               {
@@ -8236,17 +7591,11 @@
           }
         ],
         "weapons": {
-          "Storm Eagle": {
+          "Storm Eagle Rack": {
             "range": "24 to",
             "S": "9",
             "AP": "2+",
-            "type": "Heavy 1, 7\u201d Blast, Ordnance,"
-          },
-          "240": {
-            "range": "Monsterbane, Indirect Fire,",
-            "S": "",
-            "AP": "",
-            "type": "Hull, Primary"
+            "type": "Heavy 1, 7\u201d Blast, Ordnance, 240 Monsterbane, Indirect Fire, Hull, Primary"
           },
           "Heavy Flamer": {
             "range": "Flame",
@@ -8284,17 +7633,11 @@
             "AP": "6+",
             "type": "Dozerblade, Accurate"
           },
-          "Hunter Killer": {
+          "Hunter Killer Missile": {
             "range": "120",
             "S": "10",
             "AP": "3+",
-            "type": "Heavy 1, Monsterbane, One"
-          },
-          "Use Only, Hull": {
-            "range": "",
-            "S": "",
-            "AP": "",
-            "type": ""
+            "type": "Heavy 1, Monsterbane, One Use Only, Hull"
           }
         }
       },
@@ -8363,7 +7706,7 @@
                 "pts_delta": 9
               },
               {
-                "name": "Hunter Killer",
+                "name": "Hunter Killer Missile",
                 "pts_delta": 5
               },
               {
@@ -8402,89 +7745,41 @@
           }
         ],
         "weapons": {
-          "Heavy Griffon": {
+          "Heavy Griffon Mortar": {
             "range": "12-48",
             "S": "6",
             "AP": "4+",
-            "type": "Heavy 1, 5\u201d Blast, Pinning,"
+            "type": "Heavy 1, 5\u201d Blast, Pinning, Indirect, Hull, Primary 55"
           },
-          "Earthshaker": {
+          "Earthshaker Cannon": {
             "range": "240",
             "S": "9",
             "AP": "3+",
-            "type": "Heavy 1, 5\u201d Blast, Ordnance,"
+            "type": "Heavy 1, 5\u201d Blast, Ordnance, Monsterbane, Indirect, Hull, Primary"
           },
-          "4 Linked": {
+          "4 Linked Stormshard Mortars": {
             "range": "12-48",
             "S": "4",
             "AP": "6+",
-            "type": "Heavy 1 x4, 3\u201d Blast, Ignores"
+            "type": "Heavy 1 x4, 3\u201d Blast, Ignores Cover, Rending, Pinning, Indirect, Turret, Primary"
           },
-          "Medusa Siege": {
+          "Medusa Siege Cannon": {
             "range": "48",
             "S": "10",
             "AP": "2+",
-            "type": "Heavy 1, 5\u201d Blast, Ordnance,"
+            "type": "Heavy 1, 5\u201d Blast, Ordnance, Monsterbane, Indirect, Hull, Monsterbane, Indirect, Hull, Primary"
           },
-          "Heavy Colossus": {
+          "Heavy Colossus Siege Mortar": {
             "range": "24-240 10",
             "S": "2+",
             "AP": "Heavy 1, 10\u201d Blast, Ordnance,",
-            "type": ""
+            "type": "Indirect Fire, Ignore Cover, Behemoth Shells, Monsterbane, Hull, Primary"
           },
-          "4 Linked Long": {
+          "4 Linked Long Autocannons": {
             "range": "72",
             "S": "7",
             "AP": "4+",
-            "type": "Heavy 2 x4, Monsterbane, AA,"
-          },
-          "Indirect, Hull, Primary": {
-            "range": "",
-            "S": "",
-            "AP": "",
-            "type": "55"
-          },
-          "Monsterbane, Indirect, Hull,": {
-            "range": "",
-            "S": "",
-            "AP": "",
-            "type": "Primary"
-          },
-          "Cover, Rending, Pinning,": {
-            "range": "",
-            "S": "",
-            "AP": "",
-            "type": ""
-          },
-          "Indirect, Turret, Primary": {
-            "range": "",
-            "S": "",
-            "AP": "",
-            "type": ""
-          },
-          "Or": {
-            "range": "Or",
-            "S": "Primary",
-            "AP": "",
-            "type": "Monsterbane, Indirect, Hull, Primary"
-          },
-          "Mortar": {
-            "range": "Indirect Fire, Ignore Cover,",
-            "S": "",
-            "AP": "",
-            "type": ""
-          },
-          "Shells,": {
-            "range": "",
-            "S": "",
-            "AP": "",
-            "type": "Monsterbane, Hull, Primary"
-          },
-          "Turret, Primary": {
-            "range": "",
-            "S": "",
-            "AP": "",
-            "type": ""
+            "type": "Heavy 2 x4, Monsterbane, AA, Turret, Primary"
           },
           "Heavy Flamer": {
             "range": "Flame",
@@ -8522,17 +7817,11 @@
             "AP": "6+",
             "type": "Dozerblade, Accurate"
           },
-          "Hunter Killer": {
+          "Hunter Killer Missile": {
             "range": "120",
             "S": "10",
             "AP": "3+",
-            "type": "Heavy 1, Monsterbane, One"
-          },
-          "Use Only, Hull": {
-            "range": "",
-            "S": "",
-            "AP": "",
-            "type": "56"
+            "type": "Heavy 1, Monsterbane, One Use Only, Hull 56"
           }
         }
       },
@@ -8586,17 +7875,11 @@
           }
         ],
         "weapons": {
-          "Earthshaker": {
+          "Earthshaker Cannon": {
             "range": "240",
             "S": "9",
             "AP": "3+",
-            "type": "Heavy 1, 5\u201d Blast, Ordnance,"
-          },
-          "Monsterbane, Indirect, Turret,": {
-            "range": "",
-            "S": "",
-            "AP": "",
-            "type": "Primary 57"
+            "type": "Heavy 1, 5\u201d Blast, Ordnance, Monsterbane, Indirect, Turret, Primary 57"
           }
         }
       },
@@ -8614,29 +7897,29 @@
         "fixed_wargear": [],
         "options": [],
         "weapons": {
-          "Griffon Heavy": {
+          "Griffon Heavy Mortar": {
             "range": "12-48",
             "S": "6",
             "AP": "4+",
-            "type": "Heavy 1, 5\u201d Blast, Pinning,"
+            "type": "Heavy 1, 5\u201d Blast, Pinning, Indirect"
           },
-          "Heavy": {
+          "Heavy Lascannon": {
             "range": "60",
             "S": "10",
             "AP": "1+",
-            "type": "Heavy 1, Ordnance,"
+            "type": "Heavy 1, Ordnance, Monsterbane"
           },
-          "Bombast Field": {
+          "Bombast Field Gun": {
             "range": "12-72",
             "S": "8",
             "AP": "3+",
-            "type": "Heavy 1, 3\u201d Blast,"
+            "type": "Heavy 1, 3\u201d Blast, Monsterbane, Pinning, Indirect"
           },
-          "Hedgehog": {
+          "Hedgehog Launcher": {
             "range": "12-48",
             "S": "4",
             "AP": "6+",
-            "type": "Heavy 1, Apocalypse Barrage,"
+            "type": "Heavy 1, Apocalypse Barrage, Pinning, Indirect"
           },
           "Malleus Rocket Launcher": {
             "range": "12-72",
@@ -8644,35 +7927,11 @@
             "AP": "5+",
             "type": "Heavy 2, 5\u201d Blast, Indirect"
           },
-          "Heavy Quad": {
+          "Heavy Quad Launcher": {
             "range": "12-60",
             "S": "5",
             "AP": "5+",
-            "type": "Heavy 4, 3\u201d Blast, Pinning,"
-          },
-          "Indirect": {
-            "range": "",
-            "S": "",
-            "AP": "",
-            "type": ""
-          },
-          "Monsterbane": {
-            "range": "",
-            "S": "",
-            "AP": "",
-            "type": ""
-          },
-          "Monsterbane, Pinning, Indirect": {
-            "range": "",
-            "S": "",
-            "AP": "",
-            "type": ""
-          },
-          "Pinning, Indirect": {
-            "range": "",
-            "S": "",
-            "AP": "",
-            "type": ""
+            "type": "Heavy 4, 3\u201d Blast, Pinning, Indirect 58"
           }
         }
       },
@@ -8701,20 +7960,12 @@
             "description": "May add up to 2 more Heavy Artillery pieces for +227 points each Any model may swap Earthshaker Cannon for H Any model may take up to one of each E The entire unit may take one B",
             "choices": [
               {
-                "name": "Earthshaker",
+                "name": "Earthshaker Cannon",
                 "pts_delta": 0
               },
               {
-                "name": "Medusa Siege",
+                "name": "Medusa Siege Cannon",
                 "pts_delta": 48
-              },
-              {
-                "name": "Monsterbane, Indirect",
-                "pts_delta": 0
-              },
-              {
-                "name": "Monsterbane, Hull, Primary,",
-                "pts_delta": 0
               },
               {
                 "name": "Camo Netting",
@@ -8740,35 +7991,17 @@
           }
         ],
         "weapons": {
-          "Earthshaker": {
+          "Earthshaker Cannon": {
             "range": "240",
             "S": "9",
             "AP": "3+",
-            "type": "Heavy 1, 5\u201d Blast, Ordnance,"
+            "type": "Heavy 1, 5\u201d Blast, Ordnance, Monsterbane, Indirect"
           },
-          "Medusa Siege": {
+          "Medusa Siege Cannon": {
             "range": "12-48",
             "S": "10",
             "AP": "2+",
-            "type": "Heavy 1, 5\u201d Blast, Ordnance,"
-          },
-          "Monsterbane, Indirect": {
-            "range": "",
-            "S": "",
-            "AP": "",
-            "type": ""
-          },
-          "Monsterbane, Hull, Primary,": {
-            "range": "",
-            "S": "",
-            "AP": "",
-            "type": ""
-          },
-          "Or": {
-            "range": "Or",
-            "S": "Indirect",
-            "AP": "",
-            "type": "Monsterbane, Indirect 59"
+            "type": "Heavy 1, 5\u201d Blast, Ordnance, Monsterbane, Hull, Primary, Monsterbane, Indirect 59"
           }
         }
       },
@@ -8820,17 +8053,11 @@
           }
         ],
         "weapons": {
-          "4 Linked Long": {
+          "4 Linked Long Autocannons": {
             "range": "72",
             "S": "7",
             "AP": "4+",
-            "type": "Heavy 2 x4, Monsterbane, AA,"
-          },
-          "Turret, Primary": {
-            "range": "",
-            "S": "",
-            "AP": "",
-            "type": ""
+            "type": "Heavy 2 x4, Monsterbane, AA, Turret, Primary"
           }
         }
       },
@@ -8869,17 +8096,11 @@
           }
         ],
         "weapons": {
-          "Storm Eagle": {
+          "Storm Eagle Rack": {
             "range": "24 to",
             "S": "9",
             "AP": "2+",
-            "type": "Heavy 1, 7\u201d Blast, Ordnance,"
-          },
-          "240": {
-            "range": "Monsterbane, Indirect Fire,",
-            "S": "",
-            "AP": "",
-            "type": "Hull, Primary"
+            "type": "Heavy 1, 7\u201d Blast, Ordnance, 240 Monsterbane, Indirect Fire, Hull, Primary"
           }
         }
       },
@@ -9018,23 +8239,11 @@
             "AP": "-",
             "type": "Grenade 1, 3\u201d Blast 62"
           },
-          "Cyclops": {
+          "Cyclops Demolition Charge": {
             "range": "-",
             "S": "10",
             "AP": "1+",
-            "type": "Heavy 1, 5\u201d Blast, Ordnance,"
-          },
-          "Monsterbane, One User Only,": {
-            "range": "",
-            "S": "",
-            "AP": "",
-            "type": ""
-          },
-          "Deadly Payload": {
-            "range": "",
-            "S": "",
-            "AP": "",
-            "type": ""
+            "type": "Heavy 1, 5\u201d Blast, Ordnance, Monsterbane, One User Only, Deadly Payload"
           }
         }
       },
@@ -9069,23 +8278,11 @@
             "AP": "4+",
             "type": "Heavy 3 x4"
           },
-          "4 Linked Heavy": {
+          "4 Linked Heavy Laser Destroyers": {
             "range": "60",
             "S": "9",
             "AP": "2+",
-            "type": "Heavy 1 x4, Ordnance,"
-          },
-          "Destroyers": {
-            "range": "Monsterbane",
-            "S": "",
-            "AP": "",
-            "type": "63"
-          },
-          "0-2 Slots": {
-            "range": "",
-            "S": "",
-            "AP": "",
-            "type": ""
+            "type": "Heavy 1 x4, Ordnance, Monsterbane 63"
           }
         }
       }
@@ -9247,7 +8444,11 @@
                 "pts_delta": 12
               },
               {
-                "name": "2 Linked",
+                "name": "2 Linked Autocannons",
+                "pts_delta": 16
+              },
+              {
+                "name": "2 Linked Hellstrike Missiles",
                 "pts_delta": 16
               },
               {
@@ -9270,35 +8471,17 @@
             "AP": "6+",
             "type": "Heavy 3 x2, Hull, Primary"
           },
-          "2 Linked": {
+          "2 Linked Autocannons": {
             "range": "48",
             "S": "7",
             "AP": "4+",
-            "type": "Heavy 2 x2, Monsterbane,"
+            "type": "Heavy 2 x2, Monsterbane, Turret, Primary"
           },
-          "Turret, Primary": {
-            "range": "",
-            "S": "",
-            "AP": "",
-            "type": ""
-          },
-          "Monsterbane, One Use Only,": {
-            "range": "",
-            "S": "",
-            "AP": "",
-            "type": ""
-          },
-          "Hull, Primary": {
-            "range": "",
-            "S": "",
-            "AP": "",
-            "type": ""
-          },
-          "Strike Fighter": {
-            "range": "Points: 191",
-            "S": "",
-            "AP": "",
-            "type": ""
+          "2 Linked Hellstrike Missiles": {
+            "range": "72",
+            "S": "8",
+            "AP": "3+",
+            "type": "Heavy 1 x2, Ordnance, Monsterbane, One Use Only, Hull, Primary"
           }
         }
       },
@@ -9515,15 +8698,15 @@
             "description": "May take up to 2 more Thunderbolts for +196 points each Any Thunderbolt may take W Any Thunderbolt may take up to one E each The entire unit may take one B",
             "choices": [
               {
-                "name": "2 Linked Tactical",
+                "name": "2 Linked Tactical Bomb Racks",
                 "pts_delta": 16
               },
               {
-                "name": "2 Linked",
+                "name": "2 Linked Hellstrike Missile Racks",
                 "pts_delta": 32
               },
               {
-                "name": "2 Linked Hellfury",
+                "name": "2 Linked Hellfury Missile Racks",
                 "pts_delta": 36
               },
               {
@@ -9562,35 +8745,23 @@
             "AP": "2+",
             "type": "Heavy 1 x2, Monsterbane, Hull"
           },
-          "2 Linked Tactical": {
+          "2 Linked Tactical Bomb Racks": {
             "range": "Bomb",
             "S": "6",
             "AP": "4+",
-            "type": "Heavy 1 x2, 3\u201d Blast, Pinning,"
+            "type": "Heavy 1 x2, 3\u201d Blast, Pinning, Hull"
           },
-          "2 Linked": {
+          "2 Linked Hellstrike Missile Racks": {
             "range": "72",
             "S": "8",
             "AP": "3+",
-            "type": "Heavy 1 x2, Ordnance,"
+            "type": "Heavy 1 x2, Ordnance, Monsterbane, Hull 67"
           },
-          "2 Linked Hellfury": {
+          "2 Linked Hellfury Missile Racks": {
             "range": "72",
             "S": "4",
             "AP": "5+",
-            "type": "Heavy 1 x2, 5\u201d Blast, Ignores"
-          },
-          "Racks": {
-            "range": "Hull",
-            "S": "",
-            "AP": "",
-            "type": ""
-          },
-          "Missile Racks": {
-            "range": "Monsterbane, Hull",
-            "S": "",
-            "AP": "",
-            "type": "67"
+            "type": "Heavy 1 x2, 5\u201d Blast, Ignores Cover, Hull"
           }
         }
       },
@@ -9646,7 +8817,7 @@
                 "pts_delta": 6
               },
               {
-                "name": "2 Linked",
+                "name": "2 Linked Lascannons",
                 "pts_delta": 18
               },
               {
@@ -9654,32 +8825,20 @@
                 "pts_delta": 18
               },
               {
-                "name": "2 Linked",
+                "name": "2 Linked Hellstrike Missiles",
                 "pts_delta": 0
               },
               {
-                "name": "2 Linked Hellfury",
+                "name": "2 Linked Hellfury Missiles",
                 "pts_delta": 2
               },
               {
-                "name": "2 Linked",
+                "name": "2 Linked Multiple Rocket Pods",
                 "pts_delta": 2
               },
               {
                 "name": "4 Linked Lascannons",
                 "pts_delta": 32
-              },
-              {
-                "name": "Monsterbane, One Use Only,",
-                "pts_delta": 0
-              },
-              {
-                "name": "Hull",
-                "pts_delta": 0
-              },
-              {
-                "name": "Cover, One Use Only, Hull",
-                "pts_delta": 0
               },
               {
                 "name": "Chaff Launcher",
@@ -9717,17 +8876,11 @@
             "AP": "2+",
             "type": "Heavy 1, Monsterbane, Hull, Primary"
           },
-          "2 Linked": {
+          "2 Linked Lascannons": {
             "range": "48",
             "S": "9",
             "AP": "2+",
-            "type": "Heavy 1 x2, Monsterbane, Hull,"
-          },
-          "Primary": {
-            "range": "",
-            "S": "",
-            "AP": "",
-            "type": ""
+            "type": "Heavy 1 x2, Monsterbane, Hull, Primary"
           },
           "2 Linked Heavy Bolters": {
             "range": "36",
@@ -9735,41 +8888,29 @@
             "AP": "4+",
             "type": "Heavy 3 x2, Sponson 68"
           },
-          "2 Linked Hellfury": {
+          "2 Linked Hellstrike Missiles": {
+            "range": "72",
+            "S": "8",
+            "AP": "3+",
+            "type": "Heavy 1 x2, Ordnance, Monsterbane, One Use Only, Hull"
+          },
+          "2 Linked Hellfury Missiles": {
             "range": "72",
             "S": "4",
             "AP": "5+",
-            "type": "Heavy 1 x2, 5\u201d Blast, Ignores"
+            "type": "Heavy 1 x2, 5\u201d Blast, Ignores Cover, One Use Only, Hull"
+          },
+          "2 Linked Multiple Rocket Pods": {
+            "range": "48",
+            "S": "4",
+            "AP": "6+",
+            "type": "Heavy 1 x2, 5\u201d Blast, Hull"
           },
           "4 Linked Lascannons": {
             "range": "48",
             "S": "9",
             "AP": "2+",
             "type": "Heavy 1 x4, Monsterbane, Hull"
-          },
-          "Monsterbane, One Use Only,": {
-            "range": "",
-            "S": "",
-            "AP": "",
-            "type": ""
-          },
-          "Hull": {
-            "range": "",
-            "S": "",
-            "AP": "",
-            "type": ""
-          },
-          "Cover, One Use Only, Hull": {
-            "range": "",
-            "S": "",
-            "AP": "",
-            "type": ""
-          },
-          "Rocket Pods": {
-            "range": "",
-            "S": "",
-            "AP": "",
-            "type": ""
           }
         }
       },
@@ -9824,28 +8965,16 @@
                 "pts_delta": 6
               },
               {
-                "name": "2 Linked",
+                "name": "2 Linked Hellstrike Missiles",
                 "pts_delta": 0
               },
               {
-                "name": "2 Linked Hellfury",
+                "name": "2 Linked Hellfury Missiles",
                 "pts_delta": 2
               },
               {
-                "name": "2 Linked",
+                "name": "2 Linked Multiple Rocket Pods",
                 "pts_delta": 2
-              },
-              {
-                "name": "Monsterbane, One Use Only,",
-                "pts_delta": 0
-              },
-              {
-                "name": "Hull",
-                "pts_delta": 0
-              },
-              {
-                "name": "Cover, One Use Only, Hull",
-                "pts_delta": 0
               },
               {
                 "name": "Chaff Launcher",
@@ -9883,47 +9012,23 @@
             "AP": "2+",
             "type": "Heavy 1, Monsterbane, Hull, Primary"
           },
-          "2 Linked": {
+          "2 Linked Hellstrike Missiles": {
             "range": "72",
             "S": "8",
             "AP": "3+",
-            "type": "Heavy 1 x2, Ordnance,"
+            "type": "Heavy 1 x2, Ordnance, Monsterbane, One Use Only, Hull 69"
           },
-          "2 Linked Hellfury": {
+          "2 Linked Hellfury Missiles": {
             "range": "72",
             "S": "4",
             "AP": "5+",
-            "type": "Heavy 1 x2, 5\u201d Blast, Ignores"
+            "type": "Heavy 1 x2, 5\u201d Blast, Ignores Cover, One Use Only, Hull"
           },
-          "Monsterbane, One Use Only,": {
-            "range": "",
-            "S": "",
-            "AP": "",
-            "type": ""
-          },
-          "Hull": {
-            "range": "",
-            "S": "",
-            "AP": "",
-            "type": "69"
-          },
-          "Cover, One Use Only, Hull": {
-            "range": "",
-            "S": "",
-            "AP": "",
-            "type": ""
-          },
-          "Rocket Pods": {
-            "range": "",
-            "S": "",
-            "AP": "",
-            "type": ""
-          },
-          "Strike Fighter Squadron": {
-            "range": "Points: 170",
-            "S": "",
-            "AP": "",
-            "type": ""
+          "2 Linked Multiple Rocket Pods": {
+            "range": "48",
+            "S": "4",
+            "AP": "6+",
+            "type": "Heavy 1 x2, 5\u201d Blast, Hull"
           }
         }
       },
@@ -10039,31 +9144,35 @@
                 "pts_delta": 0
               },
               {
-                "name": "2 Linked",
+                "name": "2 Linked Autocannons",
                 "pts_delta": 4
               },
               {
-                "name": "2 Linked Tactical",
+                "name": "2 Linked Hellstrike Missiles",
                 "pts_delta": 4
               },
               {
-                "name": "2 Linked Hellfury",
+                "name": "2 Linked Tactical Bomb Racks",
+                "pts_delta": 4
+              },
+              {
+                "name": "2 Linked Hellfury Missiles",
                 "pts_delta": 6
               },
               {
-                "name": "2 Linked",
+                "name": "2 Linked Multiple Rocket Pods",
                 "pts_delta": 8
               },
               {
-                "name": "2 linked",
+                "name": "2 linked Lascannons",
                 "pts_delta": 12
               },
               {
-                "name": "2 Linked Missile",
+                "name": "2 Linked Missile Launchers",
                 "pts_delta": 12
               },
               {
-                "name": "2 Linked",
+                "name": "2 Linked Punisher Gatling gun",
                 "pts_delta": 44
               },
               {
@@ -10102,89 +9211,53 @@
             "AP": "6+",
             "type": "Heavy 3 x2, Hull, Primary"
           },
-          "2 Linked": {
+          "2 Linked Autocannons": {
             "range": "48",
             "S": "7",
             "AP": "4+",
-            "type": "Heavy 2 x2, Monsterbane, Hull,"
+            "type": "Heavy 2 x2, Monsterbane, Hull, Primary"
           },
-          "2 Linked Tactical": {
+          "2 Linked Hellstrike Missiles": {
+            "range": "72",
+            "S": "8",
+            "AP": "3+",
+            "type": "Heavy 1 x2, Ordnance, Monsterbane, One Use Only, Hull, Primary"
+          },
+          "2 Linked Tactical Bomb Racks": {
             "range": "Bomb",
             "S": "6",
             "AP": "4+",
-            "type": "Heavy 1 x2, 3\u201d Blast, Pinning,"
+            "type": "Heavy 1 x2, 3\u201d Blast, Pinning, Hull, Primary"
           },
-          "2 Linked Hellfury": {
+          "2 Linked Hellfury Missiles": {
             "range": "72",
             "S": "4",
             "AP": "5+",
-            "type": "Heavy 1 x2, 5\u201d Blast, Ignores"
+            "type": "Heavy 1 x2, 5\u201d Blast, Ignores Cover, One Use Only, Hull, Primary"
           },
-          "2 linked": {
+          "2 Linked Multiple Rocket Pods": {
+            "range": "48",
+            "S": "4",
+            "AP": "6+",
+            "type": "Heavy 1 x2, 5\u201d Blast, Hull"
+          },
+          "2 linked Lascannons": {
             "range": "48",
             "S": "9",
             "AP": "2+",
-            "type": "Heavy 1 x2, Monsterbane, Hull,"
+            "type": "Heavy 1 x2, Monsterbane, Hull, Primary 71"
           },
-          "2 Linked Missile": {
+          "2 Linked Missile Launchers": {
             "range": "48 or",
             "S": "8 or",
             "AP": "3+",
-            "type": "or Heavy 1 x2, Monsterbane, Hull"
+            "type": "or Heavy 1 x2, Monsterbane, Hull 48 4 6+ Heavy 1 x2, 3\u201d Blast, Hull, Primary"
           },
-          "Primary": {
-            "range": "",
-            "S": "",
-            "AP": "",
-            "type": ""
-          },
-          "Monsterbane, One Use Only,": {
-            "range": "",
-            "S": "",
-            "AP": "",
-            "type": ""
-          },
-          "Hull, Primary": {
-            "range": "",
-            "S": "",
-            "AP": "",
-            "type": ""
-          },
-          "Cover, One Use Only, Hull,": {
-            "range": "",
-            "S": "",
-            "AP": "",
-            "type": "Primary"
-          },
-          "Racks": {
-            "range": "Hull, Primary",
-            "S": "",
-            "AP": "",
-            "type": ""
-          },
-          "Rocket Pods": {
-            "range": "",
-            "S": "",
-            "AP": "",
-            "type": ""
-          },
-          "48": {
-            "range": "4",
-            "S": "6+",
-            "AP": "Heavy 1 x2, 3\u201d Blast, Hull,",
-            "type": "Primary"
-          },
-          "Gatling gun": {
-            "range": "",
-            "S": "",
-            "AP": "",
-            "type": ""
-          },
-          "Transport": {
-            "range": "0-1/Legal",
-            "S": "",
-            "AP": "",
-            "type": ""
+          "2 Linked Punisher Gatling gun": {
+            "range": "24",
+            "S": "5",
+            "AP": "-",
+            "type": "Heavy 20 x2, Hull, Primary"
           }
         }
       }
@@ -10259,7 +9332,7 @@
             "description": "May take one M",
             "choices": [
               {
-                "name": "Hunter Killer",
+                "name": "Hunter Killer Missile",
                 "pts_delta": 5
               }
             ]
@@ -10320,17 +9393,11 @@
             "AP": "6+",
             "type": "Dozerblade, Accurate 72"
           },
-          "Hunter Killer": {
+          "Hunter Killer Missile": {
             "range": "120",
             "S": "10",
             "AP": "3+",
-            "type": "Heavy 1, Monsterbane, One"
-          },
-          "Use Only, Hull": {
-            "range": "",
-            "S": "",
-            "AP": "",
-            "type": ""
+            "type": "Heavy 1, Monsterbane, One Use Only, Hull"
           }
         }
       },
@@ -10397,15 +9464,15 @@
                 "pts_delta": 13
               },
               {
-                "name": "Light Battle",
+                "name": "Light Battle Cannon",
                 "pts_delta": 15
               },
               {
-                "name": "Chimero Hunter",
+                "name": "Chimero Hunter Killer Launcher",
                 "pts_delta": 24
               },
               {
-                "name": "4 Linked",
+                "name": "4 Linked Autocannons",
                 "pts_delta": 55
               }
             ]
@@ -10453,7 +9520,7 @@
             "description": "May take one M",
             "choices": [
               {
-                "name": "Hunter Killer",
+                "name": "Hunter Killer Missile",
                 "pts_delta": 5
               }
             ]
@@ -10532,41 +9599,23 @@
             "AP": "4+",
             "type": "Heavy 3 x2, Turret, Primary"
           },
-          "Light Battle": {
+          "Light Battle Cannon": {
             "range": "48",
             "S": "8",
             "AP": "3+",
-            "type": "Heavy 1, 3\u201d Blast,"
+            "type": "Heavy 1, 3\u201d Blast, Monsterbane, Turret, Primary"
           },
-          "Chimero Hunter": {
+          "Chimero Hunter Killer Launcher": {
             "range": "120",
             "S": "10",
             "AP": "3+",
-            "type": "Heavy 1, Monsterbane, Turret,"
+            "type": "Heavy 1, Monsterbane, Turret, Primary"
           },
-          "4 Linked": {
+          "4 Linked Autocannons": {
             "range": "48",
             "S": "7",
             "AP": "4+",
-            "type": "Heavy 2 x4, Monsterbane,"
-          },
-          "Monsterbane, Turret, Primary": {
-            "range": "",
-            "S": "",
-            "AP": "",
-            "type": ""
-          },
-          "Launcher": {
-            "range": "Primary",
-            "S": "",
-            "AP": "",
-            "type": ""
-          },
-          "Turret, Primary": {
-            "range": "",
-            "S": "",
-            "AP": "",
-            "type": ""
+            "type": "Heavy 2 x4, Monsterbane, Turret, Primary"
           },
           "3 Linked Lasguns": {
             "range": "24",
@@ -10598,17 +9647,11 @@
             "AP": "6+",
             "type": "Dozerblade, Accurate"
           },
-          "Hunter Killer": {
+          "Hunter Killer Missile": {
             "range": "120",
             "S": "10",
             "AP": "3+",
-            "type": "Heavy 1, Monsterbane, One"
-          },
-          "Use Only, Hull": {
-            "range": "",
-            "S": "",
-            "AP": "",
-            "type": ""
+            "type": "Heavy 1, Monsterbane, One Use Only, Hull"
           }
         }
       },
@@ -10748,7 +9791,7 @@
             "description": "May take one M",
             "choices": [
               {
-                "name": "Hunter Killer",
+                "name": "Hunter Killer Missile",
                 "pts_delta": 5
               }
             ]
@@ -10830,17 +9873,11 @@
             "AP": "6+",
             "type": "Dozerblade, Accurate"
           },
-          "Hunter Killer": {
+          "Hunter Killer Missile": {
             "range": "120",
             "S": "10",
             "AP": "3+",
-            "type": "Heavy 1, Monsterbane, One"
-          },
-          "Use Only, Hull": {
-            "range": "",
-            "S": "",
-            "AP": "",
-            "type": "75"
+            "type": "Heavy 1, Monsterbane, One Use Only, Hull 75"
           }
         }
       },
@@ -10918,7 +9955,7 @@
             "description": "May take one M",
             "choices": [
               {
-                "name": "Hunter Killer",
+                "name": "Hunter Killer Missile",
                 "pts_delta": 5
               }
             ]
@@ -11003,17 +10040,11 @@
             "AP": "6+",
             "type": "Heavy 3, Turret"
           },
-          "Hunter Killer": {
+          "Hunter Killer Missile": {
             "range": "120",
             "S": "10",
             "AP": "3+",
-            "type": "Heavy 1, Monsterbane, One"
-          },
-          "Use Only, Hull": {
-            "range": "",
-            "S": "",
-            "AP": "",
-            "type": "76"
+            "type": "Heavy 1, Monsterbane, One Use Only, Hull 76"
           }
         }
       },
@@ -11096,7 +10127,7 @@
             "description": "May take one M",
             "choices": [
               {
-                "name": "Hunter Killer",
+                "name": "Hunter Killer Missile",
                 "pts_delta": 5
               }
             ]
@@ -11181,17 +10212,11 @@
             "AP": "6+",
             "type": "Dozerblade, Accurate"
           },
-          "Hunter Killer": {
+          "Hunter Killer Missile": {
             "range": "120",
             "S": "10",
             "AP": "3+",
-            "type": "Heavy 1, Monsterbane, One"
-          },
-          "Use Only, Hull": {
-            "range": "",
-            "S": "",
-            "AP": "",
-            "type": "77"
+            "type": "Heavy 1, Monsterbane, One Use Only, Hull 77"
           }
         }
       },
@@ -11235,19 +10260,19 @@
             "description": "May take one T",
             "choices": [
               {
-                "name": "Light Battle",
+                "name": "Light Battle Cannon",
                 "pts_delta": 28
               },
               {
-                "name": "2 Linked Missile",
+                "name": "2 Linked Missile Launchers",
                 "pts_delta": 24
               },
               {
-                "name": "2 Linked",
+                "name": "2 Linked Autocannons",
                 "pts_delta": 34
               },
               {
-                "name": "2 Linked Taurox",
+                "name": "2 Linked Taurox Gatling Gun",
                 "pts_delta": 62
               }
             ]
@@ -11286,7 +10311,7 @@
             "description": "May take one M",
             "choices": [
               {
-                "name": "Hunter Killer",
+                "name": "Hunter Killer Missile",
                 "pts_delta": 5
               }
             ]
@@ -11335,65 +10360,35 @@
           }
         ],
         "weapons": {
-          "Light Battle": {
+          "Light Battle Cannon": {
             "range": "48",
             "S": "8",
             "AP": "3+",
-            "type": "Heavy 1, 3\u201d Blast,"
+            "type": "Heavy 1, 3\u201d Blast, Monsterbane, Turret, Primary"
           },
-          "2 Linked Missile": {
+          "2 Linked Missile Launchers": {
             "range": "48",
             "S": "8",
             "AP": "3+",
-            "type": "Heavy 1 x2, Monsterbane,"
+            "type": "Heavy 1 x2, Monsterbane, or or or Turret, Primary Primary"
           },
-          "2 Linked": {
+          "2 Linked Autocannons": {
             "range": "48",
             "S": "7",
             "AP": "4+",
-            "type": "Heavy 2, Monsterbane, Turret,"
+            "type": "Heavy 2, Monsterbane, Turret, Primary"
           },
-          "2 Linked Taurox": {
+          "2 Linked Taurox Gatling Gun": {
             "range": "24",
             "S": "4",
             "AP": "-",
             "type": "Heavy 10 x2, Turret, Primary"
-          },
-          "Monsterbane, Turret, Primary": {
-            "range": "",
-            "S": "",
-            "AP": "",
-            "type": ""
-          },
-          "or": {
-            "range": "or",
-            "S": "or",
-            "AP": "Turret, Primary",
-            "type": "Primary"
-          },
-          "Primary": {
-            "range": "",
-            "S": "",
-            "AP": "",
-            "type": ""
-          },
-          "Gun": {
-            "range": "",
-            "S": "",
-            "AP": "",
-            "type": ""
           },
           "2 Linked Hotshot Volleyguns": {
             "range": "24",
             "S": "3",
             "AP": "3+",
             "type": "Rapid Fire 2 x2, Hull"
-          },
-          "2 Linked Autocannons": {
-            "range": "48",
-            "S": "7",
-            "AP": "4+",
-            "type": "Heavy 2 x2, Monsterbane, Hull"
           },
           "Stormbolter": {
             "range": "24",
@@ -11413,17 +10408,11 @@
             "AP": "6+",
             "type": "Heavy 3, Turret"
           },
-          "Hunter Killer": {
+          "Hunter Killer Missile": {
             "range": "120",
             "S": "10",
             "AP": "3+",
-            "type": "Heavy 1, Monsterbane, One"
-          },
-          "Use Only, Hull": {
-            "range": "",
-            "S": "",
-            "AP": "",
-            "type": ""
+            "type": "Heavy 1, Monsterbane, One Use Only, Hull"
           }
         }
       },
@@ -11478,7 +10467,7 @@
                 "pts_delta": 3
               },
               {
-                "name": "2 Linked Terrax",
+                "name": "2 Linked Terrax Volkite Chargers",
                 "pts_delta": 4
               }
             ]
@@ -11529,17 +10518,11 @@
             "AP": "1+",
             "type": "Accurate, Monsterbane, Primary"
           },
-          "Terrax Melta": {
+          "Terrax Melta Cutter": {
             "range": "12",
             "S": "8",
             "AP": "1+",
-            "type": "Heavy 5, Melta, (Monsterbane),"
-          },
-          "Hull, Primary": {
-            "range": "",
-            "S": "",
-            "AP": "",
-            "type": ""
+            "type": "Heavy 5, Melta, (Monsterbane), Hull, Primary"
           },
           "Storm Bolter": {
             "range": "24",
@@ -11553,29 +10536,11 @@
             "AP": "4+",
             "type": "Assault 1, Hull"
           },
-          "2 Linked Terrax": {
+          "2 Linked Terrax Volkite Chargers": {
             "range": "18",
             "S": "5",
             "AP": "4+",
-            "type": "Heavy 1 x2, Beam, Hull"
-          },
-          "Chargers": {
-            "range": "",
-            "S": "",
-            "AP": "",
-            "type": "79"
-          },
-          "of War": {
-            "range": "0-1",
-            "S": "",
-            "AP": "",
-            "type": ""
-          },
-          "Chassis": {
-            "range": "",
-            "S": "",
-            "AP": "",
-            "type": ""
+            "type": "Heavy 1 x2, Beam, Hull 79"
           }
         }
       }
@@ -11637,11 +10602,11 @@
             "description": "May take up to 2 S or one SS",
             "choices": [
               {
-                "name": "Lascannon and",
+                "name": "Lascannon and Linked Heavy Flamers x2",
                 "pts_delta": 83
               },
               {
-                "name": "Lascannon and",
+                "name": "Lascannon and Linked Heavy Bolters x2",
                 "pts_delta": 87
               },
               {
@@ -11663,7 +10628,7 @@
             "description": "May take one M",
             "choices": [
               {
-                "name": "Hunter Killer",
+                "name": "Hunter Killer Missile",
                 "pts_delta": 5
               }
             ]
@@ -11721,35 +10686,17 @@
           }
         ],
         "weapons": {
-          "Baneblade": {
+          "Baneblade Cannon and Autocannon": {
             "range": "72 and 10",
             "S": "2+",
             "AP": "Heavy 1, 10\u201d Blast, Ordnance,",
-            "type": ""
+            "type": "48 and and Monsterbane, Coaxial, Turret 7 4+ and Heavy 2, Coaxial, Turret"
           },
-          "and": {
-            "range": "48",
-            "S": "and",
-            "AP": "and Monsterbane, Coaxial, Turret",
-            "type": ""
-          },
-          "Monsterbane, Hull": {
-            "range": "",
-            "S": "",
-            "AP": "",
-            "type": ""
-          },
-          "7": {
-            "range": "4+",
-            "S": "and Heavy 2, Coaxial, Turret",
-            "AP": "",
-            "type": ""
-          },
-          "Demolisher": {
+          "Demolisher Cannon": {
             "range": "24",
             "S": "10",
             "AP": "2+",
-            "type": "Heavy 1, 5\u201d Blast, Ordnance,"
+            "type": "Heavy 1, 5\u201d Blast, Ordnance, Monsterbane, Hull"
           },
           "2 Linked Heavy Bolters": {
             "range": "36",
@@ -11757,23 +10704,17 @@
             "AP": "4+",
             "type": "Heavy 3 x2, Hull"
           },
-          "Lascannon and": {
+          "Lascannon and Linked Heavy Flamers x2": {
             "range": "2",
             "S": "48 and 9",
             "AP": "2+",
-            "type": "Heavy 1, Monsterbane, Turret"
+            "type": "Heavy 1, Monsterbane, Turret Flame and and and Assault 1 x2, Sponson (x2) 5 4+"
           },
-          "Heavy": {
-            "range": "Flame and",
-            "S": "and",
-            "AP": "and Assault 1 x2, Sponson (x2)",
-            "type": ""
-          },
-          "x2": {
-            "range": "5",
-            "S": "4+",
-            "AP": "",
-            "type": ""
+          "Lascannon and Linked Heavy Bolters x2": {
+            "range": "2",
+            "S": "48 and 9",
+            "AP": "2+",
+            "type": "Heavy 1, Monsterbane, Turret 36 and and and Heavy 3 x2, Sponson (x2) 5 4+"
           },
           "Baneblade Dozerblade": {
             "range": "Melee +1",
@@ -11781,17 +10722,11 @@
             "AP": "Accurate",
             "type": "80"
           },
-          "Hunter Killer": {
+          "Hunter Killer Missile": {
             "range": "120",
             "S": "10",
             "AP": "3+",
-            "type": "Heavy 1, Monsterbane, One"
-          },
-          "Use Only, Hull": {
-            "range": "",
-            "S": "",
-            "AP": "",
-            "type": ""
+            "type": "Heavy 1, Monsterbane, One Use Only, Hull"
           },
           "Stormbolter": {
             "range": "24",
@@ -11855,11 +10790,11 @@
             "description": "May take up to 2 S or one SS",
             "choices": [
               {
-                "name": "Lascannon and",
+                "name": "Lascannon and Linked Heavy Flamers x2",
                 "pts_delta": 83
               },
               {
-                "name": "Lascannon and",
+                "name": "Lascannon and Linked Heavy Bolters x2",
                 "pts_delta": 87
               },
               {
@@ -11881,7 +10816,7 @@
             "description": "May take one M",
             "choices": [
               {
-                "name": "Hunter Killer",
+                "name": "Hunter Killer Missile",
                 "pts_delta": 5
               }
             ]
@@ -11951,23 +10886,17 @@
             "AP": "4+",
             "type": "Heavy 3 x2, Hull"
           },
-          "Lascannon and": {
+          "Lascannon and Linked Heavy Flamers x2": {
             "range": "2",
             "S": "48 and 9",
             "AP": "2+",
-            "type": "Heavy 1, Monsterbane, Turret"
+            "type": "Heavy 1, Monsterbane, Turret Flame and and and Assault 1 x2, Sponson (x2) 5 4+"
           },
-          "Heavy": {
-            "range": "Flame and",
-            "S": "and",
-            "AP": "and Assault 1 x2, Sponson (x2)",
-            "type": ""
-          },
-          "x2": {
-            "range": "5",
-            "S": "4+",
-            "AP": "",
-            "type": ""
+          "Lascannon and Linked Heavy Bolters x2": {
+            "range": "2",
+            "S": "48 and 9",
+            "AP": "2+",
+            "type": "Heavy 1, Monsterbane, Turret 36 and and and Heavy 3 x2, Sponson (x2) 5 4+ 81"
           },
           "Baneblade Dozerblade": {
             "range": "Melee",
@@ -11975,17 +10904,11 @@
             "AP": "2+",
             "type": "Accurate"
           },
-          "Hunter Killer": {
+          "Hunter Killer Missile": {
             "range": "120",
             "S": "10",
             "AP": "3+",
-            "type": "Heavy 1, Monsterbane, One"
-          },
-          "Use Only, Hull": {
-            "range": "",
-            "S": "",
-            "AP": "",
-            "type": ""
+            "type": "Heavy 1, Monsterbane, One Use Only, Hull"
           },
           "Stormbolter": {
             "range": "24",
@@ -12049,11 +10972,11 @@
             "description": "May take up to 2 S or one SS",
             "choices": [
               {
-                "name": "Lascannon and",
+                "name": "Lascannon and Linked Heavy Flamers x2",
                 "pts_delta": 83
               },
               {
-                "name": "Lascannon and",
+                "name": "Lascannon and Linked Heavy Bolters x2",
                 "pts_delta": 87
               },
               {
@@ -12075,7 +10998,7 @@
             "description": "May take one M",
             "choices": [
               {
-                "name": "Hunter Killer",
+                "name": "Hunter Killer Missile",
                 "pts_delta": 5
               }
             ]
@@ -12145,23 +11068,17 @@
             "AP": "4+",
             "type": "Heavy 3 x2, Hull"
           },
-          "Lascannon and": {
+          "Lascannon and Linked Heavy Flamers x2": {
             "range": "2",
             "S": "48 and 9",
             "AP": "2+",
-            "type": "Heavy 1, Monsterbane, Turret"
+            "type": "Heavy 1, Monsterbane, Turret Flame and and and Assault 1 x2, Sponson (x2) 5 4+ 82"
           },
-          "Heavy": {
-            "range": "Flame and",
-            "S": "and",
-            "AP": "and Assault 1 x2, Sponson (x2)",
-            "type": ""
-          },
-          "x2": {
-            "range": "5",
-            "S": "4+",
-            "AP": "",
-            "type": "82"
+          "Lascannon and Linked Heavy Bolters x2": {
+            "range": "2",
+            "S": "48 and 9",
+            "AP": "2+",
+            "type": "Heavy 1, Monsterbane, Turret 36 and and and Heavy 3 x2, Sponson (x2) 5 4+"
           },
           "Baneblade Dozerblade": {
             "range": "Melee +1",
@@ -12169,17 +11086,11 @@
             "AP": "Accurate",
             "type": ""
           },
-          "Hunter Killer": {
+          "Hunter Killer Missile": {
             "range": "120",
             "S": "10",
             "AP": "3+",
-            "type": "Heavy 1, Monsterbane, One"
-          },
-          "Use Only, Hull": {
-            "range": "",
-            "S": "",
-            "AP": "",
-            "type": ""
+            "type": "Heavy 1, Monsterbane, One Use Only, Hull"
           },
           "Stormbolter": {
             "range": "24",
@@ -12321,23 +11232,17 @@
             "AP": "4+",
             "type": "Heavy 3 x2, Hull"
           },
-          "Lascannon and": {
+          "Lascannon and Linked Heavy Flamers x2": {
             "range": "2",
             "S": "48 and 9",
             "AP": "2+",
-            "type": "Heavy 1, Monsterbane, Turret"
+            "type": "Heavy 1, Monsterbane, Turret Flame and and and Assault 1 x2, Sponson (x2) 5 4+"
           },
-          "Heavy": {
-            "range": "Flame and",
-            "S": "and",
-            "AP": "and Assault 1 x2, Sponson (x2)",
-            "type": ""
-          },
-          "x2": {
-            "range": "5",
-            "S": "4+",
-            "AP": "",
-            "type": ""
+          "Lascannon and Linked Heavy Bolters x2": {
+            "range": "2",
+            "S": "48 and 9",
+            "AP": "2+",
+            "type": "Heavy 1, Monsterbane, Turret 36 and and and Heavy 3 x2, Sponson (x2) 5 4+ 83"
           },
           "Baneblade Dozerblade": {
             "range": "Melee",
@@ -12345,17 +11250,11 @@
             "AP": "2+",
             "type": "Accurate"
           },
-          "Hunter Killer": {
+          "Hunter Killer Missile": {
             "range": "120",
             "S": "10",
             "AP": "3+",
-            "type": "Heavy 1, Monsterbane, One"
-          },
-          "Use Only, Hull": {
-            "range": "",
-            "S": "",
-            "AP": "",
-            "type": ""
+            "type": "Heavy 1, Monsterbane, One Use Only, Hull"
           },
           "Stormbolter": {
             "range": "24",
@@ -12420,11 +11319,11 @@
             "description": "May take up to 2 S or one SS",
             "choices": [
               {
-                "name": "Lascannon and",
+                "name": "Lascannon and Linked Heavy Flamers x2",
                 "pts_delta": 83
               },
               {
-                "name": "Lascannon and",
+                "name": "Lascannon and Linked Heavy Bolters x2",
                 "pts_delta": 87
               },
               {
@@ -12446,7 +11345,7 @@
             "description": "May take one M",
             "choices": [
               {
-                "name": "Hunter Killer",
+                "name": "Hunter Killer Missile",
                 "pts_delta": 5
               }
             ]
@@ -12504,35 +11403,17 @@
           }
         ],
         "weapons": {
-          "Hellhammer": {
+          "Hellhammer Cannon and Autocannon": {
             "range": "36 and 10",
             "S": "2+",
             "AP": "Heavy 1, 10\u201d Blast, Ordnance,",
-            "type": ""
+            "type": "and and Monsterbane, Ignores Cover, Coaxial, Turret and 48 7 4+ Heavy 2, Coaxial, Turret"
           },
-          "and": {
-            "range": "and",
-            "S": "and",
-            "AP": "Monsterbane, Ignores Cover,",
-            "type": "Coaxial, Turret and"
-          },
-          "Monsterbane, Hull": {
-            "range": "",
-            "S": "",
-            "AP": "",
-            "type": ""
-          },
-          "48": {
-            "range": "7",
-            "S": "4+",
-            "AP": "Heavy 2, Coaxial, Turret",
-            "type": ""
-          },
-          "Demolisher": {
+          "Demolisher Cannon": {
             "range": "24",
             "S": "10",
             "AP": "2+",
-            "type": "Heavy 1, 5\u201d Blast, Ordnance,"
+            "type": "Heavy 1, 5\u201d Blast, Ordnance, Monsterbane, Hull"
           },
           "2 Linked Heavy Bolters": {
             "range": "36",
@@ -12540,23 +11421,17 @@
             "AP": "4+",
             "type": "Heavy 3 x2, Hull"
           },
-          "Lascannon and": {
+          "Lascannon and Linked Heavy Flamers x2": {
             "range": "2",
             "S": "48 and 9",
             "AP": "2+",
-            "type": "Heavy 1, Monsterbane, Turret"
+            "type": "Heavy 1, Monsterbane, Turret Flame and and and Assault 1 x2, Sponson (x2) 5 4+"
           },
-          "Heavy": {
-            "range": "Flame and",
-            "S": "and",
-            "AP": "and Assault 1 x2, Sponson (x2)",
-            "type": ""
-          },
-          "x2": {
-            "range": "5",
-            "S": "4+",
-            "AP": "",
-            "type": ""
+          "Lascannon and Linked Heavy Bolters x2": {
+            "range": "2",
+            "S": "48 and 9",
+            "AP": "2+",
+            "type": "Heavy 1, Monsterbane, Turret 36 and and and Heavy 3 x2, Sponson (x2) 5 4+ 84"
           },
           "Baneblade Dozerblade": {
             "range": "Melee",
@@ -12564,17 +11439,11 @@
             "AP": "2+",
             "type": "Accurate"
           },
-          "Hunter Killer": {
+          "Hunter Killer Missile": {
             "range": "120",
             "S": "10",
             "AP": "3+",
-            "type": "Heavy 1, Monsterbane, One"
-          },
-          "Use Only, Hull": {
-            "range": "",
-            "S": "",
-            "AP": "",
-            "type": ""
+            "type": "Heavy 1, Monsterbane, One Use Only, Hull"
           },
           "Stormbolter": {
             "range": "24",
@@ -12646,11 +11515,11 @@
             "description": "May take up to 2 S or one SS",
             "choices": [
               {
-                "name": "Lascannon and",
+                "name": "Lascannon and Linked Heavy Flamers x2",
                 "pts_delta": 83
               },
               {
-                "name": "Lascannon and",
+                "name": "Lascannon and Linked Heavy Bolters x2",
                 "pts_delta": 87
               },
               {
@@ -12672,7 +11541,7 @@
             "description": "May take one M",
             "choices": [
               {
-                "name": "Hunter Killer",
+                "name": "Hunter Killer Missile",
                 "pts_delta": 5
               }
             ]
@@ -12742,23 +11611,17 @@
             "AP": "4+",
             "type": "Heavy 3 x2, Hull"
           },
-          "Lascannon and": {
+          "Lascannon and Linked Heavy Flamers x2": {
             "range": "2",
             "S": "48 and 9",
             "AP": "2+",
-            "type": "Heavy 1, Monsterbane, Turret"
+            "type": "Heavy 1, Monsterbane, Turret Flame and and and Assault 1 x2, Sponson (x2) 5 4+"
           },
-          "Heavy": {
-            "range": "Flame and",
-            "S": "and",
-            "AP": "and Assault 1 x2, Sponson (x2)",
-            "type": ""
-          },
-          "x2": {
-            "range": "5",
-            "S": "4+",
-            "AP": "",
-            "type": ""
+          "Lascannon and Linked Heavy Bolters x2": {
+            "range": "2",
+            "S": "48 and 9",
+            "AP": "2+",
+            "type": "Heavy 1, Monsterbane, Turret 36 and and and Heavy 3 x2, Sponson (x2) 5 4+"
           },
           "Baneblade Dozerblade": {
             "range": "Melee +1",
@@ -12766,17 +11629,11 @@
             "AP": "Accurate",
             "type": "85"
           },
-          "Hunter Killer": {
+          "Hunter Killer Missile": {
             "range": "120",
             "S": "10",
             "AP": "3+",
-            "type": "Heavy 1, Monsterbane, One"
-          },
-          "Use Only, Hull": {
-            "range": "",
-            "S": "",
-            "AP": "",
-            "type": ""
+            "type": "Heavy 1, Monsterbane, One Use Only, Hull"
           },
           "Stormbolter": {
             "range": "24",
@@ -12840,11 +11697,11 @@
             "description": "May take up to 2 S or one SS",
             "choices": [
               {
-                "name": "Lascannon and",
+                "name": "Lascannon and Linked Heavy Flamers x2",
                 "pts_delta": 83
               },
               {
-                "name": "Lascannon and",
+                "name": "Lascannon and Linked Heavy Bolters x2",
                 "pts_delta": 87
               },
               {
@@ -12866,7 +11723,7 @@
             "description": "May take one M",
             "choices": [
               {
-                "name": "Hunter Killer",
+                "name": "Hunter Killer Missile",
                 "pts_delta": 5
               }
             ]
@@ -12924,17 +11781,11 @@
           }
         ],
         "weapons": {
-          "Plasma Blastgun": {
+          "Plasma Blastgun and Heavy Bolter and": {
             "range": "72",
             "S": "9",
             "AP": "2+",
-            "type": "Heavy 2, 7\u201d Blast, Ordnance,"
-          },
-          "Heavy Bolter and": {
-            "range": "and",
-            "S": "And",
-            "AP": "Monsterbane, Coaxial, Hull and",
-            "type": ""
+            "type": "Heavy 2, 7\u201d Blast, Ordnance, and And Monsterbane, Coaxial, Hull and"
           },
           "2 Linked Heavy Bolters": {
             "range": "36",
@@ -12942,23 +11793,17 @@
             "AP": "4+",
             "type": "Heavy 3 x2, Hull"
           },
-          "Lascannon and": {
+          "Lascannon and Linked Heavy Flamers x2": {
             "range": "2",
             "S": "9",
             "AP": "2+",
-            "type": "Heavy 1, Monsterbane, Turret"
+            "type": "Heavy 1, Monsterbane, Turret Flame and and and Assault 1 x2, Sponson (x2) 5 4+"
           },
-          "Heavy": {
-            "range": "Flame",
-            "S": "and",
-            "AP": "and and Assault 1 x2, Sponson (x2)",
-            "type": ""
-          },
-          "x2": {
-            "range": "5",
-            "S": "4+",
-            "AP": "",
-            "type": ""
+          "Lascannon and Linked Heavy Bolters x2": {
+            "range": "2",
+            "S": "9",
+            "AP": "2+",
+            "type": "Heavy 1, Monsterbane, Turret 36 and and and Heavy 3 x2, Sponson (x2) 5 4+"
           },
           "Baneblade Dozerblade": {
             "range": "Melee",
@@ -12966,17 +11811,11 @@
             "AP": "2+",
             "type": "Accurate"
           },
-          "Hunter Killer": {
+          "Hunter Killer Missile": {
             "range": "120",
             "S": "10",
             "AP": "3+",
-            "type": "Heavy 1, Monsterbane, One"
-          },
-          "Use Only, Hull": {
-            "range": "",
-            "S": "",
-            "AP": "",
-            "type": ""
+            "type": "Heavy 1, Monsterbane, One Use Only, Hull"
           },
           "Stormbolter": {
             "range": "24",
@@ -13107,17 +11946,11 @@
           }
         ],
         "weapons": {
-          "Vulcan": {
+          "Vulcan Megabolter": {
             "range": "60",
             "S": "6",
             "AP": "3+",
-            "type": "Heavy 20, Full Power to the"
-          },
-          "Weapon, Hull": {
-            "range": "",
-            "S": "",
-            "AP": "",
-            "type": ""
+            "type": "Heavy 20, Full Power to the Weapon, Hull"
           },
           "2 Linked Heavy Bolters": {
             "range": "36",
@@ -13125,23 +11958,17 @@
             "AP": "4+",
             "type": "Heavy 3 x2, Hull"
           },
-          "Lascannon and": {
+          "Lascannon and Linked Heavy Flamers x2": {
             "range": "2",
             "S": "48 and 9",
             "AP": "2+",
-            "type": "Heavy 1, Monsterbane, Turret"
+            "type": "Heavy 1, Monsterbane, Turret Flame and and and Assault 1 x2, Sponson (x2) 5 4+"
           },
-          "Heavy": {
-            "range": "Flame and",
-            "S": "and",
-            "AP": "and Assault 1 x2, Sponson (x2)",
-            "type": ""
-          },
-          "x2": {
-            "range": "5",
-            "S": "4+",
-            "AP": "",
-            "type": ""
+          "Lascannon and Linked Heavy Bolters x2": {
+            "range": "2",
+            "S": "48 and 9",
+            "AP": "2+",
+            "type": "Heavy 1, Monsterbane, Turret 36 and and and Heavy 3 x2, Sponson (x2) 5 4+"
           },
           "Baneblade Dozerblade": {
             "range": "Melee +1",
@@ -13149,17 +11976,11 @@
             "AP": "Accurate",
             "type": ""
           },
-          "Hunter Killer": {
+          "Hunter Killer Missile": {
             "range": "120",
             "S": "10",
             "AP": "3+",
-            "type": "Heavy 1, Monsterbane, One"
-          },
-          "Use Only, Hull": {
-            "range": "",
-            "S": "",
-            "AP": "",
-            "type": ""
+            "type": "Heavy 1, Monsterbane, One Use Only, Hull"
           },
           "Stormbolter": {
             "range": "24",
@@ -13249,7 +12070,7 @@
             "description": "May take one M",
             "choices": [
               {
-                "name": "Hunter Killer",
+                "name": "Hunter Killer Missile",
                 "pts_delta": 5
               }
             ]
@@ -13316,17 +12137,11 @@
           }
         ],
         "weapons": {
-          "2 Linked Battle": {
+          "2 Linked Battle Cannons": {
             "range": "72",
             "S": "8",
             "AP": "3+",
-            "type": "Heavy 1 x2, 5\u201d Blast, Ordnance,"
-          },
-          "Monsterbane, Turret": {
-            "range": "",
-            "S": "",
-            "AP": "",
-            "type": ""
+            "type": "Heavy 1 x2, 5\u201d Blast, Ordnance, Monsterbane, Turret"
           },
           "4 Lascannons": {
             "range": "48",
@@ -13352,17 +12167,11 @@
             "AP": "2+",
             "type": "Accurate"
           },
-          "Hunter Killer": {
+          "Hunter Killer Missile": {
             "range": "120",
             "S": "10",
             "AP": "3+",
-            "type": "Heavy 1, Monsterbane, One"
-          },
-          "Use Only, Hull": {
-            "range": "",
-            "S": "",
-            "AP": "",
-            "type": ""
+            "type": "Heavy 1, Monsterbane, One Use Only, Hull"
           },
           "Stormbolter": {
             "range": "24",
@@ -13428,20 +12237,12 @@
             "description": "May swap Stormhammer Cannon and Multilaser for T",
             "choices": [
               {
-                "name": "Stormhammer",
+                "name": "Stormhammer Cannon and Multilaser",
                 "pts_delta": 0
               },
               {
-                "name": "Stormhammer",
+                "name": "Stormhammer Cannon and Lascannon",
                 "pts_delta": 17
-              },
-              {
-                "name": "and",
-                "pts_delta": 0
-              },
-              {
-                "name": "36",
-                "pts_delta": 0
               }
             ]
           },
@@ -13471,7 +12272,7 @@
             "description": "May take one M",
             "choices": [
               {
-                "name": "Hunter Killer",
+                "name": "Hunter Killer Missile",
                 "pts_delta": 5
               }
             ]
@@ -13529,41 +12330,23 @@
           }
         ],
         "weapons": {
-          "Stormhammer": {
+          "Stormhammer Cannon and Multilaser": {
             "range": "60",
             "S": "9",
             "AP": "2+",
-            "type": "Heavy 1, 5\u201d Blast, Ordnance,"
+            "type": "Heavy 1, 5\u201d Blast, Ordnance, And And And Monsterbane, Coaxial, Turret 36 6 6+ Heavy 3, Coaxial, Turret"
           },
-          "and": {
-            "range": "And",
-            "S": "And",
-            "AP": "And Monsterbane, Coaxial, Turret",
-            "type": ""
+          "Stormhammer Cannon and Lascannon": {
+            "range": "60",
+            "S": "9",
+            "AP": "2+",
+            "type": "Heavy 1, 5\u201d Blast, Ordnance, And And And Monsterbane, Coaxial, Turret 48 9 2+ Heavy 1, Monsterbane, Coaxial, Turret"
           },
-          "36": {
-            "range": "6",
-            "S": "6+",
-            "AP": "Heavy 3, Coaxial, Turret",
-            "type": ""
-          },
-          "48": {
-            "range": "9",
-            "S": "2+",
-            "AP": "Heavy 1, Monsterbane, Coaxial,",
-            "type": "Turret"
-          },
-          "2 Linked Battle": {
+          "2 Linked Battle Cannons": {
             "range": "72",
             "S": "8",
             "AP": "3+",
-            "type": "Heavy 1 x2, 5\u201d Blast, Ordnance,"
-          },
-          "Monsterbane, Hull": {
-            "range": "",
-            "S": "",
-            "AP": "",
-            "type": ""
+            "type": "Heavy 1 x2, 5\u201d Blast, Ordnance, Monsterbane, Hull"
           },
           "Lascannon": {
             "range": "48",
@@ -13589,17 +12372,11 @@
             "AP": "2+",
             "type": "Accurate"
           },
-          "Hunter Killer": {
+          "Hunter Killer Missile": {
             "range": "120",
             "S": "10",
             "AP": "3+",
-            "type": "Heavy 1, Monsterbane, One"
-          },
-          "Use Only, Hull": {
-            "range": "",
-            "S": "",
-            "AP": "",
-            "type": ""
+            "type": "Heavy 1, Monsterbane, One Use Only, Hull"
           },
           "Stormbolter": {
             "range": "24",
@@ -13662,11 +12439,11 @@
             "description": "May take up to 2 S or one SS",
             "choices": [
               {
-                "name": "Lascannon and",
+                "name": "Lascannon and Linked Heavy Flamers x2",
                 "pts_delta": 83
               },
               {
-                "name": "Lascannon and",
+                "name": "Lascannon and Linked Heavy Bolters x2",
                 "pts_delta": 87
               },
               {
@@ -13688,7 +12465,7 @@
             "description": "May take one M",
             "choices": [
               {
-                "name": "Hunter Killer",
+                "name": "Hunter Killer Missile",
                 "pts_delta": 5
               }
             ]
@@ -13746,17 +12523,11 @@
           }
         ],
         "weapons": {
-          "Stormsword": {
+          "Stormsword Siege Cannon": {
             "range": "36",
             "S": "10",
             "AP": "1+",
-            "type": "Heavy 1, 10\u201d Blast, Ordnance,"
-          },
-          "Cannon": {
-            "range": "Monsterbane, Ignores Cover,",
-            "S": "",
-            "AP": "",
-            "type": "Hull"
+            "type": "Heavy 1, 10\u201d Blast, Ordnance, Monsterbane, Ignores Cover, Hull"
           },
           "2 Linked Heavy Bolters": {
             "range": "36",
@@ -13764,23 +12535,17 @@
             "AP": "4+",
             "type": "Heavy 3 x2, Hull"
           },
-          "Lascannon and": {
+          "Lascannon and Linked Heavy Flamers x2": {
             "range": "2",
             "S": "48 and 9",
             "AP": "2+",
-            "type": "Heavy 1, Monsterbane, Turret"
+            "type": "Heavy 1, Monsterbane, Turret Flame and and and Assault 1 x2, Sponson (x2) 5 4+"
           },
-          "Heavy": {
-            "range": "Flame and",
-            "S": "and",
-            "AP": "and Assault 1 x2, Sponson (x2)",
-            "type": ""
-          },
-          "x2": {
-            "range": "5",
-            "S": "4+",
-            "AP": "",
-            "type": ""
+          "Lascannon and Linked Heavy Bolters x2": {
+            "range": "2",
+            "S": "48 and 9",
+            "AP": "2+",
+            "type": "Heavy 1, Monsterbane, Turret 36 and and and Heavy 3 x2, Sponson (x2) 5 4+"
           },
           "Baneblade Dozerblade": {
             "range": "Melee +1",
@@ -13788,17 +12553,11 @@
             "AP": "Accurate",
             "type": ""
           },
-          "Hunter Killer": {
+          "Hunter Killer Missile": {
             "range": "120",
             "S": "10",
             "AP": "3+",
-            "type": "Heavy 1, Monsterbane, One"
-          },
-          "Use Only, Hull": {
-            "range": "",
-            "S": "",
-            "AP": "",
-            "type": ""
+            "type": "Heavy 1, Monsterbane, One Use Only, Hull"
           },
           "Stormbolter": {
             "range": "24",
@@ -13817,12 +12576,6 @@
             "S": "5",
             "AP": "6+",
             "type": "Heavy 3, Turret 90"
-          },
-          "Chassis": {
-            "range": "",
-            "S": "",
-            "AP": "",
-            "type": ""
           }
         }
       },
@@ -13888,7 +12641,7 @@
             "description": "May take one M",
             "choices": [
               {
-                "name": "Hunter Killer",
+                "name": "Hunter Killer Missile",
                 "pts_delta": 5
               }
             ]
@@ -13920,23 +12673,11 @@
           }
         ],
         "weapons": {
-          "3 Linked": {
+          "3 Linked Colossus Siege Mortars": {
             "range": "24-240 6",
             "S": "3+",
             "AP": "Heavy 1 x3, 7\u201d Blast, Ordnance,",
-            "type": ""
-          },
-          "Siege": {
-            "range": "Indirect Fire, Ignore Cover, Hull,",
-            "S": "",
-            "AP": "",
-            "type": ""
-          },
-          "Primary": {
-            "range": "",
-            "S": "",
-            "AP": "",
-            "type": ""
+            "type": "Indirect Fire, Ignore Cover, Hull, Primary"
           },
           "Heavy Flamers": {
             "range": "Flame",
@@ -13962,17 +12703,11 @@
             "AP": "2+",
             "type": "Heavy 1, Monsterbane, Sponson"
           },
-          "Hunter Killer": {
+          "Hunter Killer Missile": {
             "range": "120",
             "S": "10",
             "AP": "3+",
-            "type": "Heavy 1, Monsterbane, One"
-          },
-          "Use Only, Hull": {
-            "range": "",
-            "S": "",
-            "AP": "",
-            "type": ""
+            "type": "Heavy 1, Monsterbane, One Use Only, Hull"
           },
           "Stormbolter": {
             "range": "24",
@@ -14055,7 +12790,7 @@
             "description": "May take one M",
             "choices": [
               {
-                "name": "Hunter Killer",
+                "name": "Hunter Killer Missile",
                 "pts_delta": 5
               }
             ]
@@ -14087,23 +12822,11 @@
           }
         ],
         "weapons": {
-          "3 Linked": {
+          "3 Linked Colossus Siege Mortars": {
             "range": "24-240 6",
             "S": "3+",
             "AP": "Heavy 1 x3, 7\u201d Blast, Ordnance,",
-            "type": ""
-          },
-          "Siege": {
-            "range": "Indirect Fire, Ignore Cover, Hull,",
-            "S": "",
-            "AP": "",
-            "type": ""
-          },
-          "Primary": {
-            "range": "",
-            "S": "",
-            "AP": "",
-            "type": ""
+            "type": "Indirect Fire, Ignore Cover, Hull, Primary"
           },
           "Heavy Flamers": {
             "range": "Flame",
@@ -14129,17 +12852,11 @@
             "AP": "2+",
             "type": "Heavy 1, Monsterbane, Sponson"
           },
-          "Hunter Killer": {
+          "Hunter Killer Missile": {
             "range": "120",
             "S": "10",
             "AP": "3+",
-            "type": "Heavy 1, Monsterbane, One"
-          },
-          "Use Only, Hull": {
-            "range": "",
-            "S": "",
-            "AP": "",
-            "type": ""
+            "type": "Heavy 1, Monsterbane, One Use Only, Hull"
           },
           "Stormbolter": {
             "range": "24",
@@ -14316,7 +13033,7 @@
             "description": "May take one M",
             "choices": [
               {
-                "name": "Hunter Killer",
+                "name": "Hunter Killer Missile",
                 "pts_delta": 5
               }
             ]
@@ -14374,17 +13091,11 @@
           }
         ],
         "weapons": {
-          "2 Linked": {
+          "2 Linked Macharius Battle Cannons": {
             "range": "72",
             "S": "8",
             "AP": "3+",
-            "type": "Heavy 1 x2, 7\u201d Blast, Ordnance,"
-          },
-          "Battle Cannons": {
-            "range": "Monsterbane, Turret",
-            "S": "",
-            "AP": "",
-            "type": ""
+            "type": "Heavy 1 x2, 7\u201d Blast, Ordnance, Monsterbane, Turret"
           },
           "2 Linked Heavy Stubbers": {
             "range": "36",
@@ -14410,17 +13121,11 @@
             "AP": "4+",
             "type": "Heavy 3 x2, Sponson"
           },
-          "Hunter Killer": {
+          "Hunter Killer Missile": {
             "range": "120",
             "S": "10",
             "AP": "3+",
-            "type": "Heavy 1, Monsterbane, One"
-          },
-          "Use Only, Hull": {
-            "range": "",
-            "S": "",
-            "AP": "",
-            "type": ""
+            "type": "Heavy 1, Monsterbane, One Use Only, Hull"
           },
           "Stormbolter": {
             "range": "24",
@@ -14499,7 +13204,7 @@
             "description": "May take one M",
             "choices": [
               {
-                "name": "Hunter Killer",
+                "name": "Hunter Killer Missile",
                 "pts_delta": 5
               }
             ]
@@ -14581,17 +13286,11 @@
             "AP": "4+",
             "type": "Heavy 3 x2, Sponson"
           },
-          "Hunter Killer": {
+          "Hunter Killer Missile": {
             "range": "120",
             "S": "10",
             "AP": "3+",
-            "type": "Heavy 1, Monsterbane, One"
-          },
-          "Use Only, Hull": {
-            "range": "",
-            "S": "",
-            "AP": "",
-            "type": ""
+            "type": "Heavy 1, Monsterbane, One Use Only, Hull"
           },
           "Stormbolter": {
             "range": "24",
@@ -14670,7 +13369,7 @@
             "description": "May take one M",
             "choices": [
               {
-                "name": "Hunter Killer",
+                "name": "Hunter Killer Missile",
                 "pts_delta": 5
               }
             ]
@@ -14728,23 +13427,11 @@
           }
         ],
         "weapons": {
-          "2 Linked Long": {
+          "2 Linked Long Vanquisher Battle Cannons": {
             "range": "72",
             "S": "D",
             "AP": "2+",
-            "type": "Heavy 1 x2, Destroyer,"
-          },
-          "Monsterbane, Accurate, Turret": {
-            "range": "",
-            "S": "",
-            "AP": "",
-            "type": ""
-          },
-          "Cannons": {
-            "range": "",
-            "S": "",
-            "AP": "",
-            "type": ""
+            "type": "Heavy 1 x2, Destroyer, Monsterbane, Accurate, Turret"
           },
           "2 Linked Heavy Stubbers": {
             "range": "36",
@@ -14770,17 +13457,11 @@
             "AP": "4+",
             "type": "Heavy 3 x2, Sponson"
           },
-          "Hunter Killer": {
+          "Hunter Killer Missile": {
             "range": "120",
             "S": "10",
             "AP": "3+",
-            "type": "Heavy 1, Monsterbane, One"
-          },
-          "Use Only, Hull": {
-            "range": "",
-            "S": "",
-            "AP": "",
-            "type": ""
+            "type": "Heavy 1, Monsterbane, One Use Only, Hull"
           },
           "Stormbolter": {
             "range": "24",
@@ -14859,7 +13540,7 @@
             "description": "May take one M",
             "choices": [
               {
-                "name": "Hunter Killer",
+                "name": "Hunter Killer Missile",
                 "pts_delta": 5
               }
             ]
@@ -14947,17 +13628,11 @@
             "AP": "4+",
             "type": "Heavy 3 x2, Sponson"
           },
-          "Hunter Killer": {
+          "Hunter Killer Missile": {
             "range": "120",
             "S": "10",
             "AP": "3+",
-            "type": "Heavy 1, Monsterbane, One"
-          },
-          "Use Only, Hull": {
-            "range": "",
-            "S": "",
-            "AP": "",
-            "type": ""
+            "type": "Heavy 1, Monsterbane, One Use Only, Hull"
           },
           "Stormbolter": {
             "range": "24",
@@ -15041,7 +13716,7 @@
             "description": "May take one M",
             "choices": [
               {
-                "name": "Hunter Killer",
+                "name": "Hunter Killer Missile",
                 "pts_delta": 5
               }
             ]
@@ -15099,17 +13774,11 @@
           }
         ],
         "weapons": {
-          "2 Linked": {
+          "2 Linked Earthshaker Cannons": {
             "range": "240",
             "S": "9",
             "AP": "3+",
-            "type": "Heavy 1 x2, 5\u201d Blast, Ordnance,"
-          },
-          "Monsterbane, Indirect, Hull Cannons": {
-            "range": "",
-            "S": "",
-            "AP": "",
-            "type": ""
+            "type": "Heavy 1 x2, 5\u201d Blast, Ordnance, Monsterbane, Indirect, Hull"
           },
           "Heavy Flamers": {
             "range": "Flame",
@@ -15135,17 +13804,11 @@
             "AP": "2+",
             "type": "Heavy 1, Monsterbane, Sponson"
           },
-          "Hunter Killer": {
+          "Hunter Killer Missile": {
             "range": "120",
             "S": "10",
             "AP": "3+",
-            "type": "Heavy 1, Monsterbane, One"
-          },
-          "Use Only, Hull": {
-            "range": "",
-            "S": "",
-            "AP": "",
-            "type": ""
+            "type": "Heavy 1, Monsterbane, One Use Only, Hull"
           },
           "Stormbolter": {
             "range": "24",
@@ -15241,7 +13904,7 @@
             "description": "May take one M",
             "choices": [
               {
-                "name": "Hunter Killer",
+                "name": "Hunter Killer Missile",
                 "pts_delta": 5
               }
             ]
@@ -15335,17 +13998,11 @@
             "AP": "2+",
             "type": "Heavy 1, Monsterbane, Sponson"
           },
-          "Hunter Killer": {
+          "Hunter Killer Missile": {
             "range": "120",
             "S": "10",
             "AP": "3+",
-            "type": "Heavy 1, Monsterbane, One"
-          },
-          "Use Only, Hull": {
-            "range": "",
-            "S": "",
-            "AP": "",
-            "type": ""
+            "type": "Heavy 1, Monsterbane, One Use Only, Hull"
           },
           "Stormbolter": {
             "range": "24",
@@ -15364,12 +14021,6 @@
             "S": "5",
             "AP": "6+",
             "type": "Heavy 3, Turret 98"
-          },
-          "Chassis": {
-            "range": "",
-            "S": "",
-            "AP": "",
-            "type": ""
           }
         }
       },
@@ -15415,11 +14066,11 @@
             "description": "May take one B",
             "choices": [
               {
-                "name": "Hellstorm Bomb",
+                "name": "Hellstorm Bomb Rack",
                 "pts_delta": 24
               },
               {
-                "name": "Heavy Bomb",
+                "name": "Heavy Bomb Cluster Rack",
                 "pts_delta": 60
               },
               {
@@ -15455,17 +14106,11 @@
           }
         ],
         "weapons": {
-          "2 Linked": {
+          "2 Linked Lascannons": {
             "range": "48",
             "S": "9",
             "AP": "2+",
-            "type": "Heavy 1 x2, Monsterbane, Hull,"
-          },
-          "Primary": {
-            "range": "",
-            "S": "",
-            "AP": "",
-            "type": ""
+            "type": "Heavy 1 x2, Monsterbane, Hull, Primary"
           },
           "2 Linked Heavy Bolters": {
             "range": "36",
@@ -15473,23 +14118,17 @@
             "AP": "4+",
             "type": "Heavy 3 x2, AA, Turret"
           },
-          "Hellstorm Bomb": {
+          "Hellstorm Bomb Rack": {
             "range": "Bomb",
             "S": "5",
             "AP": "4+",
-            "type": "Heavy 1, Hellstorm, Hull,"
+            "type": "Heavy 1, Hellstorm, Hull, Primary"
           },
-          "Heavy Bomb": {
+          "Heavy Bomb Cluster Rack": {
             "range": "Bomb",
             "S": "6",
             "AP": "4+",
-            "type": "Heavy 1, Apocalypse Barrage,"
-          },
-          "Rack": {
-            "range": "Hull, Primary",
-            "S": "",
-            "AP": "",
-            "type": ""
+            "type": "Heavy 1, Apocalypse Barrage, Hull, Primary"
           }
         }
       },
@@ -15539,7 +14178,7 @@
                 "pts_delta": 12
               },
               {
-                "name": "Heavy Bomb",
+                "name": "Heavy Bomb Cluster",
                 "pts_delta": 30
               }
             ]
@@ -15579,17 +14218,11 @@
             "AP": "4+",
             "type": "Heavy 1, Hellstorm, One Use Only, Hull, Primary"
           },
-          "Heavy Bomb": {
+          "Heavy Bomb Cluster": {
             "range": "Bomb",
             "S": "6",
             "AP": "4+",
-            "type": "Heavy 1, Apocalypse Barrage,"
-          },
-          "One Use Only, Hull, Primary": {
-            "range": "",
-            "S": "",
-            "AP": "",
-            "type": ""
+            "type": "Heavy 1, Apocalypse Barrage, One Use Only, Hull, Primary"
           }
         }
       },
@@ -15649,17 +14282,11 @@
             "AP": "4+",
             "type": "Heavy 3 x2, Turret"
           },
-          "2 Linked": {
+          "2 Linked Autocannons": {
             "range": "48",
             "S": "7",
             "AP": "4+",
-            "type": "Heavy 2 x2, Monsterbane, AA,"
-          },
-          "Turret": {
-            "range": "",
-            "S": "",
-            "AP": "",
-            "type": ""
+            "type": "Heavy 2 x2, Monsterbane, AA, Turret"
           }
         }
       }
@@ -15684,23 +14311,11 @@
         ],
         "options": [],
         "weapons": {
-          "2 Linked": {
+          "2 Linked Turbolaser Destructors": {
             "range": "96",
             "S": "D",
             "AP": "1+",
-            "type": "Heavy 1 x2, 5\u201d Blast, Destroyer,"
-          },
-          "Monsterbane, Turret Destructors": {
-            "range": "",
-            "S": "",
-            "AP": "",
-            "type": ""
-          },
-          "0-1/1000 points": {
-            "range": "",
-            "S": "",
-            "AP": "",
-            "type": ""
+            "type": "Heavy 1 x2, 5\u201d Blast, Destroyer, Monsterbane, Turret"
           }
         }
       },
@@ -15730,15 +14345,15 @@
                 "pts_delta": 0
               },
               {
-                "name": "2 Linked Long",
+                "name": "2 Linked Long Lascannons",
                 "pts_delta": 28
               },
               {
-                "name": "2 Linked",
+                "name": "2 Linked Autocannons",
                 "pts_delta": 34
               },
               {
-                "name": "4 Linked",
+                "name": "4 Linked Autocannons",
                 "pts_delta": 40
               }
             ]
@@ -15751,29 +14366,23 @@
             "AP": "2+",
             "type": "Heavy 1, Monsterbane, AA, Turret"
           },
-          "2 Linked Long": {
+          "2 Linked Long Lascannons": {
             "range": "72",
             "S": "9",
             "AP": "2+",
-            "type": "Heavy 1 x2, Monsterbane, AA,"
+            "type": "Heavy 1 x2, Monsterbane, AA, Turret"
           },
-          "2 Linked": {
+          "2 Linked Autocannons": {
             "range": "48",
             "S": "7",
             "AP": "4+",
-            "type": "Heavy 2 x2, Monsterbane, AA,"
+            "type": "Heavy 2 x2, Monsterbane, AA, Turret"
           },
-          "4 Linked": {
+          "4 Linked Autocannons": {
             "range": "48",
             "S": "7",
             "AP": "4+",
-            "type": "Heavy 2 x4, Monsterbane, AA,"
-          },
-          "Turret": {
-            "range": "",
-            "S": "",
-            "AP": "",
-            "type": ""
+            "type": "Heavy 2 x4, Monsterbane, AA, Turret 102"
           }
         }
       },
@@ -15796,11 +14405,11 @@
         ],
         "options": [],
         "weapons": {
-          "Plasma": {
+          "Plasma Obliterator": {
             "range": "72",
             "S": "8",
             "AP": "2+",
-            "type": "Heavy 1, 7\u201d Blast,"
+            "type": "Heavy 1, 7\u201d Blast, Monsterbane, Turret"
           },
           "Macro Cannon": {
             "range": "72",
@@ -15808,35 +14417,11 @@
             "AP": "1+",
             "type": "Heavy 1, 5\u201d Blast, Destroyer, Monsterbane, Turret"
           },
-          "+271": {
+          "+271 Missile Silo": {
             "range": "Deathstrike",
             "S": "12 to",
             "AP": "D/10 1+/1+ Heavy 1, 15\u201d Blast, Destroyer,",
-            "type": ""
-          },
-          "Monsterbane, Turret": {
-            "range": "",
-            "S": "",
-            "AP": "",
-            "type": ""
-          },
-          "Silo": {
-            "range": "240",
-            "S": "/8",
-            "AP": "/1+ Ordnance, Monsterbane,",
-            "type": ""
-          },
-          "Fire, Ignores Cover,": {
-            "range": "",
-            "S": "",
-            "AP": "",
-            "type": ""
-          },
-          "Hour is Nigh, T Minus": {
-            "range": "5,",
-            "S": "",
-            "AP": "",
-            "type": "Turret 103"
+            "type": "240 /8 /1+ Ordnance, Monsterbane, Indirect Fire, Ignores Cover, The Hour is Nigh, T Minus 5, Turret 103"
           }
         }
       },

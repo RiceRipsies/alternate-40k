@@ -101,7 +101,7 @@ def parse_weapon_tables_from_layout(layout_text: str) -> dict:
     """
     WEAPON_TABLE_HDR = re.compile(r'Selection\s+Name\s+Range', re.I)
     UNIT_STAT_HDR    = re.compile(r'^(.+?)\s{2,}M\s+WS\s+BS\s+S\b', re.I)
-    ENTRY_RE         = re.compile(r'^([A-Z][A-Z0-9]*(?:\s+\+\d+\s+points?)?)\s+(.+)', re.I)
+    ENTRY_RE         = re.compile(r'^([A-Z][A-Z0-9]*(?:\s+\+\d+\s+points?)?)\s+(.+)')
     PTS_RE           = re.compile(r'\+(\d+)\s+points?', re.I)
     RANGE_STOP       = re.compile(r'^\d|^Melee$|^Flame$|^\*$', re.I)
     AP_RE            = re.compile(r'^(\d+\+|\*|-)\s*(.*)')

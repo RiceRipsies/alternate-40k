@@ -271,12 +271,6 @@
             "S": "3",
             "AP": "3+",
             "type": "Grenade 1, Haywire (3+),"
-          },
-          "model": {
-            "range": "Nonblast",
-            "S": "",
-            "AP": "",
-            "type": ""
           }
         }
       },
@@ -827,12 +821,6 @@
             "S": "8",
             "AP": "1+",
             "type": "Assault 2, Melta, (Monsterbane) 15"
-          },
-          "0-3/Troop Slot Purchased": {
-            "range": "",
-            "S": "",
-            "AP": "",
-            "type": ""
           }
         }
       }
@@ -1535,23 +1523,11 @@
           }
         ],
         "weapons": {
-          "Kroot Rifle": {
+          "Kroot Rifle Melee": {
             "range": "24",
             "S": "4",
             "AP": "5+",
-            "type": "Assault 1"
-          },
-          "Or": {
-            "range": "Or",
-            "S": "Or",
-            "AP": "",
-            "type": ""
-          },
-          "+1": {
-            "range": "5+",
-            "S": "None",
-            "AP": "",
-            "type": ""
+            "type": "Assault 1 +1 5+ None"
           },
           "Shaper\u2019s Blade": {
             "range": "Melee",
@@ -1605,23 +1581,11 @@
           }
         ],
         "weapons": {
-          "Kroot Rifle": {
+          "Kroot Rifle Melee": {
             "range": "24",
             "S": "4",
             "AP": "5+",
-            "type": "Assault 1"
-          },
-          "Or": {
-            "range": "Or",
-            "S": "Or",
-            "AP": "",
-            "type": ""
-          },
-          "+1": {
-            "range": "5+",
-            "S": "None",
-            "AP": "",
-            "type": ""
+            "type": "Assault 1 +1 5+ None"
           },
           "Shaper\u2019s Blade": {
             "range": "Melee",
@@ -1828,23 +1792,11 @@
         ],
         "options": [],
         "weapons": {
-          "Kroot Rifle": {
+          "Kroot Rifle Melee": {
             "range": "24",
             "S": "4",
             "AP": "5+",
-            "type": "Assault 1"
-          },
-          "Or": {
-            "range": "Or",
-            "S": "Or",
-            "AP": "",
-            "type": ""
-          },
-          "+1": {
-            "range": "5+",
-            "S": "None",
-            "AP": "",
-            "type": "23"
+            "type": "Assault 1 +1 5+ None 23"
           },
           "Kroot Pistol": {
             "range": "12",
@@ -1892,23 +1844,11 @@
         ],
         "options": [],
         "weapons": {
-          "Kroot Rifle": {
+          "Kroot Rifle Melee": {
             "range": "24",
             "S": "4",
             "AP": "5+",
-            "type": "Assault 1"
-          },
-          "Or": {
-            "range": "Or",
-            "S": "Or",
-            "AP": "",
-            "type": ""
-          },
-          "+1": {
-            "range": "5+",
-            "S": "None",
-            "AP": "",
-            "type": "23"
+            "type": "Assault 1 +1 5+ None 23"
           },
           "Kroot Pistol": {
             "range": "12",
@@ -2277,12 +2217,6 @@
             "S": "3",
             "AP": "3+",
             "type": "Grenade 1, Haywire (3+),"
-          },
-          "model": {
-            "range": "Nonblast",
-            "S": "",
-            "AP": "",
-            "type": ""
           }
         }
       },
@@ -2457,7 +2391,7 @@
                 "pts_delta": 6
               },
               {
-                "name": "Grenade",
+                "name": "Grenade Launcher",
                 "pts_delta": 7
               },
               {
@@ -2626,19 +2560,13 @@
             "range": "48",
             "S": "8",
             "AP": "3+",
-            "type": "Heavy 1, Monsterbane, Limited"
+            "type": "Heavy 1, Monsterbane, Limited Ammo"
           },
           "Lascannon": {
             "range": "48",
             "S": "9",
             "AP": "2+",
             "type": "Heavy 1, Monsterbane"
-          },
-          "Or": {
-            "range": "Or",
-            "S": "Ammo Or",
-            "AP": "",
-            "type": "Ammo"
           },
           "Sniper Rifle": {
             "range": "36",
@@ -2652,11 +2580,11 @@
             "AP": "5+",
             "type": "Assault 1, Limited Ammo"
           },
-          "Grenade": {
+          "Grenade Launcher": {
             "range": "24",
             "S": "6",
             "AP": "4+",
-            "type": "Assault 1, Limited Ammo"
+            "type": "Assault 1, Limited Ammo Or Or Or Or Ammo"
           },
           "Plasma Gun": {
             "range": "24",
@@ -2753,7 +2681,7 @@
                 "pts_delta": 1
               },
               {
-                "name": "Kroot Scattergun",
+                "name": "Kroot Scattergun Melee",
                 "pts_delta": 1
               },
               {
@@ -2777,7 +2705,7 @@
                 "pts_delta": 3
               },
               {
-                "name": "Knives",
+                "name": "Knives Melee",
                 "pts_delta": 0
               },
               {
@@ -2796,29 +2724,11 @@
           }
         ],
         "weapons": {
-          "Kroot Rifle": {
+          "Kroot Rifle Melee": {
             "range": "24",
             "S": "4",
             "AP": "5+",
-            "type": "Assault 1"
-          },
-          "Or": {
-            "range": "Or",
-            "S": "Or",
-            "AP": "",
-            "type": ""
-          },
-          "+1": {
-            "range": "5+",
-            "S": "None",
-            "AP": "",
-            "type": ""
-          },
-          "User": {
-            "range": "-",
-            "S": "Extra Attack 1, Rending",
-            "AP": "",
-            "type": "31"
+            "type": "Assault 1 +1 5+ None"
           },
           "Accelerator Bow": {
             "range": "24",
@@ -2826,11 +2736,11 @@
             "AP": "3+",
             "type": "Assault 1"
           },
-          "Kroot Scattergun": {
+          "Kroot Scattergun Melee": {
             "range": "12",
             "S": "4",
             "AP": "5+",
-            "type": "Assault 2, Scatter"
+            "type": "Assault 2, Scatter +1 5+ None"
           },
           "Pulse Rifle": {
             "range": "30",
@@ -2862,11 +2772,11 @@
             "AP": "5+",
             "type": "Pistol 1"
           },
-          "Knives": {
+          "Knives Melee": {
             "range": "6",
             "S": "3",
             "AP": "-",
-            "type": "Pistol 2, Rending"
+            "type": "Pistol 2, Rending User - Extra Attack 1, Rending 31"
           },
           "Dvorgite Skinner": {
             "range": "12",
@@ -2879,12 +2789,6 @@
             "S": "5",
             "AP": "5+",
             "type": "Heavy 1, 3\u201d Blast, Rending"
-          },
-          "0-3 Slots": {
-            "range": "",
-            "S": "",
-            "AP": "",
-            "type": ""
           }
         }
       }
@@ -2933,12 +2837,6 @@
             "S": "5",
             "AP": "5+",
             "type": "Pistol 1 32"
-          },
-          "Helpers Grizzled": {
-            "range": "Points: 75",
-            "S": "",
-            "AP": "",
-            "type": ""
           }
         }
       },
@@ -3300,12 +3198,6 @@
             "S": "7",
             "AP": "4+",
             "type": "Assault 2, Monsterbane 36"
-          },
-          "Walkers": {
-            "range": "",
-            "S": "",
-            "AP": "",
-            "type": ""
           }
         }
       },
@@ -3904,13 +3796,7 @@
             "range": "8",
             "S": "3",
             "AP": "3+",
-            "type": "Grenade 1, Haywire (3+),"
-          },
-          "model": {
-            "range": "Nonblast",
-            "S": "",
-            "AP": "",
-            "type": "43"
+            "type": "Grenade 1, Haywire (3+), 43"
           }
         }
       },
@@ -4001,7 +3887,7 @@
                 "pts_delta": 3
               },
               {
-                "name": "Airbursting",
+                "name": "Airbursting Fragmentation Launcher",
                 "pts_delta": 7
               }
             ]
@@ -4030,23 +3916,11 @@
             "AP": "2+",
             "type": "Assault 1, Sniper (2+)"
           },
-          "Airbursting": {
+          "Airbursting Fragmentation Launcher": {
             "range": "18",
             "S": "5",
             "AP": "4+",
-            "type": "Assault 1, Indirect Fire, 3\u201d Blast,"
-          },
-          "Ignores Cover Launcher": {
-            "range": "",
-            "S": "",
-            "AP": "",
-            "type": ""
-          },
-          "Infantry": {
-            "range": "",
-            "S": "",
-            "AP": "",
-            "type": ""
+            "type": "Assault 1, Indirect Fire, 3\u201d Blast, Ignores Cover"
           }
         }
       },
@@ -4090,17 +3964,11 @@
           }
         ],
         "weapons": {
-          "2 Linked Long": {
+          "2 Linked Long Burst Cannons": {
             "range": "36",
             "S": "5",
             "AP": "5+",
             "type": "Assault 4 x2"
-          },
-          "Cannons": {
-            "range": "",
-            "S": "",
-            "AP": "",
-            "type": ""
           },
           "Seeker Missile": {
             "range": "72",
@@ -4181,23 +4049,11 @@
             "AP": "2+",
             "type": "Extra Attack 1"
           },
-          "Kroot Rifle": {
+          "Kroot Rifle Melee": {
             "range": "24",
             "S": "4",
             "AP": "5+",
-            "type": "Assault 1 45"
-          },
-          "Or": {
-            "range": "Or",
-            "S": "Or",
-            "AP": "",
-            "type": ""
-          },
-          "+1": {
-            "range": "5+",
-            "S": "None",
-            "AP": "",
-            "type": ""
+            "type": "Assault 1 45 +1 5+ None"
           }
         }
       },
@@ -4244,41 +4100,23 @@
             "AP": "2+",
             "type": "Rapid Fire 1 x2, Hull, Primary"
           },
-          "2 Linked Missile": {
+          "2 Linked Missile Pods": {
             "range": "36",
             "S": "7",
             "AP": "4+",
-            "type": "Assault 2 x2, Monsterbane,"
+            "type": "Assault 2 x2, Monsterbane, Hull, Primary"
           },
-          "2 Linked Rail": {
+          "2 Linked Rail Rifles": {
             "range": "48",
             "S": "6",
             "AP": "3+",
-            "type": "Heavy 1 x2, Sniper (2+), Hull,"
+            "type": "Heavy 1 x2, Sniper (2+), Hull, Primary"
           },
-          "2 Linked Fusion": {
+          "2 Linked Fusion Blasters": {
             "range": "18",
             "S": "8",
             "AP": "1+",
-            "type": "Assault 2 x2, Melta,"
-          },
-          "Hull, Primary": {
-            "range": "",
-            "S": "",
-            "AP": "",
-            "type": ""
-          },
-          "Primary": {
-            "range": "",
-            "S": "",
-            "AP": "",
-            "type": ""
-          },
-          "(Monsterbane), Hull, Primary": {
-            "range": "",
-            "S": "",
-            "AP": "",
-            "type": "46"
+            "type": "Assault 2 x2, Melta, (Monsterbane), Hull, Primary 46"
           }
         }
       },
@@ -4370,20 +4208,16 @@
                 "pts_delta": 0
               },
               {
-                "name": "2 Linked Missile",
+                "name": "2 Linked Missile Pods",
                 "pts_delta": 8
               },
               {
-                "name": "2 Linked Rail",
+                "name": "2 Linked Rail Rifles",
                 "pts_delta": 16
               },
               {
-                "name": "2 Linked Fusion",
+                "name": "2 Linked Fusion Blasters",
                 "pts_delta": 20
-              },
-              {
-                "name": "Primary",
-                "pts_delta": 0
               },
               {
                 "name": "Black Sun Filters",
@@ -4407,41 +4241,23 @@
             "AP": "2+",
             "type": "Rapid Fire 1 x2, Hull, Primary"
           },
-          "2 Linked Missile": {
+          "2 Linked Missile Pods": {
             "range": "36",
             "S": "7",
             "AP": "4+",
-            "type": "Assault 2 x2, Monsterbane,"
+            "type": "Assault 2 x2, Monsterbane, Hull, Primary"
           },
-          "2 Linked Rail": {
+          "2 Linked Rail Rifles": {
             "range": "48",
             "S": "6",
             "AP": "3+",
-            "type": "Heavy 1 x2, Sniper (2+), Hull,"
+            "type": "Heavy 1 x2, Sniper (2+), Hull, Primary"
           },
-          "2 Linked Fusion": {
+          "2 Linked Fusion Blasters": {
             "range": "18",
             "S": "8",
             "AP": "1+",
-            "type": "Assault 2 x2, Melta,"
-          },
-          "Hull, Primary": {
-            "range": "",
-            "S": "",
-            "AP": "",
-            "type": ""
-          },
-          "Primary": {
-            "range": "",
-            "S": "",
-            "AP": "",
-            "type": ""
-          },
-          "(Monsterbane), Hull, Primary": {
-            "range": "",
-            "S": "",
-            "AP": "",
-            "type": "48"
+            "type": "Assault 2 x2, Melta, (Monsterbane), Hull, Primary 48"
           }
         }
       },
@@ -4670,7 +4486,7 @@
             "description": "May take up to 2 more Great Knarlocs for +147 points each Any Great Knarloc may swap one Kroot Rifle for S",
             "choices": [
               {
-                "name": "Kroot Bolt",
+                "name": "Kroot Bolt Thrower",
                 "pts_delta": 29
               }
             ]
@@ -4689,17 +4505,11 @@
             "AP": "5+",
             "type": "Assault 1"
           },
-          "Kroot Bolt": {
+          "Kroot Bolt Thrower": {
             "range": "36",
             "S": "8",
             "AP": "3+",
-            "type": "Assault 1, 3\u201d Blast,"
-          },
-          "Monsterbane": {
-            "range": "",
-            "S": "",
-            "AP": "",
-            "type": ""
+            "type": "Assault 1, 3\u201d Blast, Monsterbane"
           }
         }
       },
@@ -4981,7 +4791,7 @@
             "description": "May take up to 2 more AX-5-2s for +220 points each Any AX-5-2 may swap Swiftstrike Railgun for T Any AX-5-2 may swap 2 Cyclic Ion Blasters for S Any AX-5-2 may take up to 2 of each M Any AX-5-2 may take up to one of each E",
             "choices": [
               {
-                "name": "Swiftstrike",
+                "name": "Swiftstrike Railgun",
                 "pts_delta": 0
               },
               {
@@ -4989,12 +4799,8 @@
                 "pts_delta": 10
               },
               {
-                "name": "Heavy Burst",
+                "name": "Heavy Burst Cannon",
                 "pts_delta": 15
-              },
-              {
-                "name": "Monsterbane, Hull, Primary",
-                "pts_delta": 0
               },
               {
                 "name": "2 Cyclic Ion Blasters",
@@ -5028,11 +4834,11 @@
           }
         ],
         "weapons": {
-          "Swiftstrike": {
+          "Swiftstrike Railgun": {
             "range": "36",
             "S": "10",
             "AP": "1+",
-            "type": "Heavy 1, Ordnance,"
+            "type": "Heavy 1, Ordnance, Monsterbane, Hull, Primary"
           },
           "Ion Cannon": {
             "range": "60",
@@ -5040,23 +4846,11 @@
             "AP": "3+",
             "type": "Heavy 1, 5\u201d Blast, Monsterbane, Hull, Primary"
           },
-          "Heavy Burst": {
+          "Heavy Burst Cannon": {
             "range": "36",
             "S": "6",
             "AP": "4+",
-            "type": "Heavy 12, Rending, Hull,"
-          },
-          "Monsterbane, Hull, Primary": {
-            "range": "",
-            "S": "",
-            "AP": "",
-            "type": ""
-          },
-          "Primary": {
-            "range": "",
-            "S": "",
-            "AP": "",
-            "type": ""
+            "type": "Heavy 12, Rending, Hull, Primary"
           },
           "2 Linked Missile Pods": {
             "range": "36",
@@ -5131,10 +4925,6 @@
                 "pts_delta": 6
               },
               {
-                "name": "Turret, Primary",
-                "pts_delta": 0
-              },
-              {
                 "name": "Black Sun Filters",
                 "pts_delta": 2
               },
@@ -5166,17 +4956,11 @@
             "AP": "4+",
             "type": "Assault 2, Monsterbane, Sponson, Primary"
           },
-          "Quad Ion": {
+          "Quad Ion Cannon": {
             "range": "48",
             "S": "8",
             "AP": "3+",
-            "type": "Heavy 1 x4, Monsterbane,"
-          },
-          "Turret, Primary": {
-            "range": "",
-            "S": "",
-            "AP": "",
-            "type": ""
+            "type": "Heavy 1 x4, Monsterbane, Turret, Primary"
           },
           "Seeker Missile": {
             "range": "72",
@@ -5316,7 +5100,7 @@
             "description": "May take one M",
             "choices": [
               {
-                "name": "Seeker Missile",
+                "name": "Seeker Missile Rack",
                 "pts_delta": 20
               }
             ]
@@ -5327,29 +5111,17 @@
           }
         ],
         "weapons": {
-          "2 Linked Heavy": {
+          "2 Linked Heavy Railguns": {
             "range": "120",
             "S": "D",
             "AP": "1+",
-            "type": "Heavy 1 x2, Destroyer,"
+            "type": "Heavy 1 x2, Destroyer, Monsterbane, Hull, Primary"
           },
-          "2 Linked Missile": {
+          "2 Linked Missile Pods": {
             "range": "36",
             "S": "7",
             "AP": "4+",
-            "type": "Assault 2 x2, Monsterbane,"
-          },
-          "Monsterbane, Hull, Primary": {
-            "range": "",
-            "S": "",
-            "AP": "",
-            "type": ""
-          },
-          "Hull, Primary": {
-            "range": "",
-            "S": "",
-            "AP": "",
-            "type": ""
+            "type": "Assault 2 x2, Monsterbane, Hull, Primary"
           },
           "Burst Cannon": {
             "range": "18",
@@ -5363,17 +5135,11 @@
             "AP": "-",
             "type": "Assault 1, Marker Light, Hull, Primary"
           },
-          "Seeker Missile": {
+          "Seeker Missile Rack": {
             "range": "72",
             "S": "10",
             "AP": "3+",
-            "type": "Heavy 1, Monsterbane, Indirect"
-          },
-          "Fire, Ignores Cover, Seeker": {
-            "range": "",
-            "S": "",
-            "AP": "",
-            "type": "Missile, Hull, Primary 62"
+            "type": "Heavy 1, Monsterbane, Indirect Fire, Ignores Cover, Seeker Missile, Hull, Primary 62"
           }
         }
       },
@@ -5422,7 +5188,7 @@
             "description": "May take one M or DB If DB was taken, any Drone may swap Marker Light for D",
             "choices": [
               {
-                "name": "Seeker Missile",
+                "name": "Seeker Missile Rack",
                 "pts_delta": 20
               },
               {
@@ -5457,29 +5223,17 @@
           }
         ],
         "weapons": {
-          "2 Linked Ion": {
+          "2 Linked Ion Cannons": {
             "range": "60",
             "S": "8",
             "AP": "3+",
-            "type": "Heavy 1 x2, 5\u201d Blast,"
+            "type": "Heavy 1 x2, 5\u201d Blast, Monsterbane, Hull, Primary"
           },
-          "2 Linked Missile": {
+          "2 Linked Missile Pods": {
             "range": "36",
             "S": "7",
             "AP": "4+",
-            "type": "Assault 2 x2, Monsterbane,"
-          },
-          "Monsterbane, Hull, Primary": {
-            "range": "",
-            "S": "",
-            "AP": "",
-            "type": ""
-          },
-          "Hull, Primary": {
-            "range": "",
-            "S": "",
-            "AP": "",
-            "type": ""
+            "type": "Assault 2 x2, Monsterbane, Hull, Primary"
           },
           "Burst Cannon": {
             "range": "18",
@@ -5487,17 +5241,11 @@
             "AP": "5+",
             "type": "Assault 4, Turret, Primary"
           },
-          "Seeker Missile": {
+          "Seeker Missile Rack": {
             "range": "72",
             "S": "10",
             "AP": "3+",
-            "type": "Heavy 1, Monsterbane, Indirect"
-          },
-          "Fire, Ignores Cover, Seeker": {
-            "range": "",
-            "S": "",
-            "AP": "",
-            "type": "Missile, Hull, Primary"
+            "type": "Heavy 1, Monsterbane, Indirect Fire, Ignores Cover, Seeker Missile, Hull, Primary"
           },
           "Marker Light": {
             "range": "72",
@@ -5583,7 +5331,7 @@
             "description": "May take one M or DB If DB was taken, any Drone may swap Marker Light for D",
             "choices": [
               {
-                "name": "Seeker Missile",
+                "name": "Seeker Missile Rack",
                 "pts_delta": 20
               },
               {
@@ -5622,29 +5370,17 @@
           }
         ],
         "weapons": {
-          "2 Linked Ion": {
+          "2 Linked Ion Cannons": {
             "range": "60",
             "S": "8",
             "AP": "3+",
-            "type": "Heavy 1 x2, 5\u201d Blast,"
+            "type": "Heavy 1 x2, 5\u201d Blast, Monsterbane, Hull, Primary"
           },
-          "2 Linked Missile": {
+          "2 Linked Missile Pods": {
             "range": "36",
             "S": "7",
             "AP": "4+",
-            "type": "Assault 2 x2, Monsterbane,"
-          },
-          "Monsterbane, Hull, Primary": {
-            "range": "",
-            "S": "",
-            "AP": "",
-            "type": ""
-          },
-          "Hull, Primary": {
-            "range": "",
-            "S": "",
-            "AP": "",
-            "type": ""
+            "type": "Assault 2 x2, Monsterbane, Hull, Primary"
           },
           "Burst Cannon": {
             "range": "18",
@@ -5652,17 +5388,11 @@
             "AP": "5+",
             "type": "Assault 4, Turret, Primary"
           },
-          "Seeker Missile": {
+          "Seeker Missile Rack": {
             "range": "72",
             "S": "10",
             "AP": "3+",
-            "type": "Heavy 1, Monsterbane, Indirect"
-          },
-          "Fire, Ignores Cover, Seeker": {
-            "range": "",
-            "S": "",
-            "AP": "",
-            "type": "Missile, Hull, Primary"
+            "type": "Heavy 1, Monsterbane, Indirect Fire, Ignores Cover, Seeker Missile, Hull, Primary"
           },
           "Marker Light": {
             "range": "72",
@@ -5760,17 +5490,11 @@
           }
         ],
         "weapons": {
-          "2 Linked Long": {
+          "2 Linked Long Burst Cannons": {
             "range": "36",
             "S": "5",
             "AP": "5+",
             "type": "Assault 4 x2, Turret, Primary"
-          },
-          "Cannons": {
-            "range": "",
-            "S": "",
-            "AP": "",
-            "type": ""
           },
           "Missile Pod": {
             "range": "36",
@@ -5783,12 +5507,6 @@
             "S": "10",
             "AP": "3+",
             "type": "Heavy 1, Monsterbane, Indirect Fire, Ignores Cover, Seeker Missile, One Use Only, Hull, Primary"
-          },
-          "Walker": {
-            "range": "",
-            "S": "",
-            "AP": "",
-            "type": ""
           }
         }
       },
@@ -5825,47 +5543,29 @@
         ],
         "options": [],
         "weapons": {
-          "Pulse Blast": {
+          "Pulse Blast Cannon": {
             "range": "72",
             "S": "D",
             "AP": "1+",
-            "type": "Heavy 2, Destroyer,"
+            "type": "Heavy 2, Destroyer, Monsterbane, Hull, Primary"
           },
-          "Pulse Driver": {
+          "Pulse Driver Cannon": {
             "range": "72",
             "S": "10",
             "AP": "2+",
-            "type": "Heavy 1, 7\u201d Blast, Ordnance,"
+            "type": "Heavy 1, 7\u201d Blast, Ordnance, Monsterbane, Hull, Primary"
           },
-          "Monsterbane, Hull, Primary": {
-            "range": "",
-            "S": "",
-            "AP": "",
-            "type": ""
-          },
-          "2 Linked Cluster": {
+          "2 Linked Cluster Rocket Pods": {
             "range": "48",
             "S": "5",
             "AP": "5+",
-            "type": "Heavy 1 x2, 5\u201d Blast, Hull,"
+            "type": "Heavy 1 x2, 5\u201d Blast, Hull, Primary"
           },
-          "2 Linked Smart": {
+          "2 Linked Smart Missile Pod": {
             "range": "30",
             "S": "5",
             "AP": "5+",
-            "type": "Assault 2 x2, Ignores Cover,"
-          },
-          "Pods": {
-            "range": "Primary",
-            "S": "",
-            "AP": "",
-            "type": ""
-          },
-          "Pod": {
-            "range": "Hull, Primary",
-            "S": "",
-            "AP": "",
-            "type": ""
+            "type": "Assault 2 x2, Ignores Cover, Hull, Primary"
           },
           "2 Linked Flamers": {
             "range": "Flame",
@@ -5879,23 +5579,11 @@
             "AP": "5+",
             "type": "Assault 4 x2, Turret, Primary 66"
           },
-          "2 Linked": {
+          "2 Linked Airbursting Fragmentation Launchers": {
             "range": "18",
             "S": "4",
             "AP": "5+",
-            "type": "Assault 1 x2, Indirect Fire, 3\u201d"
-          },
-          "Blast, Ignores Cover, Turret,": {
-            "range": "",
-            "S": "",
-            "AP": "",
-            "type": ""
-          },
-          "Primary Launchers": {
-            "range": "",
-            "S": "",
-            "AP": "",
-            "type": ""
+            "type": "Assault 1 x2, Indirect Fire, 3\u201d Blast, Ignores Cover, Turret, Primary"
           },
           "Seeker Missile": {
             "range": "72",
@@ -5948,20 +5636,16 @@
             "description": "May swap 3 Linked Pulse Ordnance Drivers for T",
             "choices": [
               {
-                "name": "3 Linked Pulse",
+                "name": "3 Linked Pulse Destroyers",
                 "pts_delta": 0
               },
               {
-                "name": "2 Linked Nexus",
+                "name": "2 Linked Nexus Meteor Missile Pods",
                 "pts_delta": 70
               },
               {
-                "name": "2 Linked Cluster",
+                "name": "2 Linked Cluster Rocket Pods",
                 "pts_delta": 93
-              },
-              {
-                "name": "Ignores Invulnerability saves,",
-                "pts_delta": 0
               }
             ]
           },
@@ -5969,16 +5653,12 @@
             "description": "May swap either Tri-Axis Ion Cannon for S",
             "choices": [
               {
-                "name": "Tri-Axis Ion",
+                "name": "Tri-Axis Ion Cannon",
                 "pts_delta": 0
               },
               {
-                "name": "Fusion",
+                "name": "Fusion Eradicator Array",
                 "pts_delta": 2
-              },
-              {
-                "name": "Primary",
-                "pts_delta": 0
               }
             ]
           },
@@ -5988,95 +5668,47 @@
           }
         ],
         "weapons": {
-          "3 Linked Pulse": {
+          "3 Linked Pulse Destroyers": {
             "range": "72",
             "S": "10",
             "AP": "1+",
-            "type": "Heavy 1 x3, 5\u201d Blast, Ordnance,"
+            "type": "Heavy 1 x3, 5\u201d Blast, Ordnance, Monsterbane, Hull, Primary"
           },
-          "2 Linked Nexus": {
+          "2 Linked Nexus Meteor Missile Pods": {
             "range": "24-120 10",
             "S": "1+",
             "AP": "Heavy 1 x2, Indirect Fire, 10\u201d",
-            "type": ""
+            "type": "Blast, Ordnance, Monsterbane, Hull, Primary"
           },
-          "2 Linked Cluster": {
+          "2 Linked Cluster Rocket Pods": {
             "range": "120",
             "S": "D",
             "AP": "1+",
-            "type": "Heavy 1, 10\u201d Blast, Destroyer,"
+            "type": "Heavy 1, 10\u201d Blast, Destroyer, And And And Monsterbane, Hull, Primary Barrage, Pinning, Hull, Primary"
           },
-          "Ignores Invulnerability saves,": {
-            "range": "",
-            "S": "",
-            "AP": "",
-            "type": ""
-          },
-          "Monsterbane, Hull, Primary": {
-            "range": "",
-            "S": "",
-            "AP": "",
-            "type": ""
-          },
-          "Missile": {
-            "range": "Blast, Ordnance, Monsterbane,",
-            "S": "",
-            "AP": "",
-            "type": ""
-          },
-          "Hull, Primary": {
-            "range": "",
-            "S": "",
-            "AP": "",
-            "type": ""
-          },
-          "Pods": {
-            "range": "And",
-            "S": "And",
-            "AP": "And Monsterbane, Hull, Primary",
-            "type": "Barrage, Pinning, Hull, Primary"
-          },
-          "Tri-Axis Ion": {
+          "Tri-Axis Ion Cannon": {
             "range": "60",
             "S": "9",
             "AP": "3+",
-            "type": "Heavy 3, Monsterbane, Hull,"
+            "type": "Heavy 3, Monsterbane, Hull, Primary"
           },
-          "Fusion": {
+          "Fusion Eradicator Array": {
             "range": "24",
             "S": "D",
             "AP": "1+",
-            "type": "Heavy 1, Melta, (Monsterbane),"
+            "type": "Heavy 1, Melta, (Monsterbane), Hull, Primary 67"
           },
-          "Primary": {
-            "range": "",
-            "S": "",
-            "AP": "",
-            "type": ""
-          },
-          "Array": {
-            "range": "Hull, Primary",
-            "S": "",
-            "AP": "",
-            "type": "67"
-          },
-          "2 Linked Smart": {
+          "2 Linked Smart Missile Pods": {
             "range": "30",
             "S": "5",
             "AP": "5+",
-            "type": "Assault 2 x2, Ignores Cover,"
+            "type": "Assault 2 x2, Ignores Cover, Turret, Primary"
           },
           "2 Linked Burst Cannons": {
             "range": "18",
             "S": "5",
             "AP": "5+",
             "type": "Assault 4 x2, Turret, Primary"
-          },
-          "0-1/1000 points": {
-            "range": "",
-            "S": "",
-            "AP": "",
-            "type": ""
           }
         }
       }

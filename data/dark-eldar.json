@@ -362,7 +362,7 @@
                 "pts_delta": 3
               },
               {
-                "name": "Sharnet and",
+                "name": "Sharnet and Impaler",
                 "pts_delta": 4
               },
               {
@@ -405,7 +405,7 @@
             "range": "Melee",
             "S": "User",
             "AP": "5+",
-            "type": "Extra Attack 1, Reroll failed To"
+            "type": "Extra Attack 1, Reroll failed To Hit Rolls."
           },
           "Power Sword": {
             "range": "Melee",
@@ -419,29 +419,17 @@
             "AP": "Poisoned (3+)",
             "type": ""
           },
-          "Sharnet and": {
+          "Sharnet and Impaler": {
             "range": "Melee",
             "S": "User 5+",
             "AP": "Extra Attack 1, Reroll 1s To Hit",
-            "type": ""
+            "type": "and To Wound"
           },
           "Archite Glaive": {
             "range": "Melee",
             "S": "+2",
             "AP": "2+",
             "type": "Counterattack"
-          },
-          "Rolls.": {
-            "range": "",
-            "S": "",
-            "AP": "",
-            "type": ""
-          },
-          "and To Wound": {
-            "range": "",
-            "S": "",
-            "AP": "",
-            "type": ""
           }
         }
       },
@@ -508,32 +496,28 @@
             "description": "May take up to one S for each level of Psychic Mastery",
             "choices": [
               {
-                "name": "Twilight",
+                "name": "Twilight Pathways Cast 6+",
                 "pts_delta": 5
               },
               {
-                "name": "Fog of Dreams",
+                "name": "Fog of Dreams Cast 6+",
                 "pts_delta": 10
               },
               {
-                "name": "Mirror of Minds",
+                "name": "Mirror of Minds Cast 6+",
                 "pts_delta": 10
               },
               {
-                "name": "Shard of Light",
+                "name": "Shard of Light Cast 8+",
                 "pts_delta": 15
               },
               {
-                "name": "Veil of Tears",
+                "name": "Veil of Tears Cast 5+",
                 "pts_delta": 15
               },
               {
-                "name": "Webway Dance",
+                "name": "Webway Dance Cast 8+",
                 "pts_delta": 30
-              },
-              {
-                "name": "Phase.",
-                "pts_delta": 0
               }
             ]
           }
@@ -563,89 +547,41 @@
             "AP": "4+",
             "type": "Grenade 1, Nonblast, Blind"
           },
-          "Twilight": {
+          "Twilight Pathways Cast 6+": {
             "range": "18",
             "S": "-",
             "AP": "-",
-            "type": "Target unit may reroll failed"
+            "type": "Target unit may reroll failed Charges until your next Psychic Phase."
           },
-          "Fog of Dreams": {
+          "Fog of Dreams Cast 6+": {
             "range": "18",
             "S": "-",
             "AP": "-",
             "type": "Target unit suffers Ld-2."
           },
-          "Mirror of Minds": {
+          "Mirror of Minds Cast 6+": {
             "range": "18",
             "S": "-",
             "AP": "-",
-            "type": "Target one model. Both"
+            "type": "Target one model. Both models roll a d6 and add their Ld to it. If this model\u2019s score is higher, target model suffers 2 Mortal Wound."
           },
-          "Shard of Light": {
+          "Shard of Light Cast 8+": {
             "range": "18",
             "S": "-",
             "AP": "-",
-            "type": "Target nonTitanic unit suffers"
+            "type": "Target nonTitanic unit suffers -1 To Hit until your next Psychic Phase."
           },
-          "Veil of Tears": {
+          "Veil of Tears Cast 5+": {
             "range": "18",
             "S": "-",
             "AP": "-",
-            "type": "Target unit gains a 4+ Cover"
+            "type": "Target unit gains a 4+ Cover Save until your next Psychic Phase."
           },
-          "Webway Dance": {
+          "Webway Dance Cast 8+": {
             "range": "18",
             "S": "-",
             "AP": "-",
-            "type": "Target friendly unit with"
-          },
-          "Charges until your next": {
-            "range": "",
-            "S": "",
-            "AP": "",
-            "type": ""
-          },
-          "6+": {
-            "range": "Psychic Phase.",
-            "S": "",
-            "AP": "",
-            "type": ""
-          },
-          "8+": {
-            "range": "-1 To Hit until your next",
-            "S": "",
-            "AP": "",
-            "type": ""
-          },
-          "5+": {
-            "range": "Save until your next Psychic",
-            "S": "",
-            "AP": "",
-            "type": "Phase."
-          },
-          "to it. If this model\u2019s score": {
-            "range": "",
-            "S": "",
-            "AP": "",
-            "type": ""
-          },
-          "higher, target model suffers": {
-            "range": "",
-            "S": "",
-            "AP": "",
-            "type": "2 Mortal Wound."
-          },
-          "Phase.": {
-            "range": "",
-            "S": "",
-            "AP": "",
-            "type": ""
-          },
-          "back in Reserves.": {
-            "range": "",
-            "S": "",
-            "AP": "",
-            "type": "6"
+            "type": "Target friendly unit with Deepstrike or Outflank is placed back in Reserves. 6"
           }
         }
       },
@@ -878,29 +814,17 @@
         ],
         "options": [],
         "weapons": {
-          "Penetrating": {
+          "Penetrating Blades Melee": {
             "range": "6",
             "S": "3",
             "AP": "2+",
-            "type": "Pistol 2"
+            "type": "Pistol 2 Or Or Or Or User 2+ Extra Attack 1"
           },
           "Hair Razors": {
             "range": "Melee",
             "S": "User",
             "AP": "-",
             "type": "Auxiliary, Extra Attack 3, -1             Rending"
-          },
-          "Or": {
-            "range": "Or",
-            "S": "Or",
-            "AP": "Or",
-            "type": ""
-          },
-          "User": {
-            "range": "2+",
-            "S": "Extra Attack 1",
-            "AP": "",
-            "type": ""
           }
         }
       },
@@ -1006,29 +930,17 @@
           }
         ],
         "weapons": {
-          "Kha-Vir The": {
+          "Kha-Vir The Sword of Shadows": {
             "range": "Melee",
             "S": "+1",
             "AP": "3+",
             "type": "Ignores Invulnerability Saves"
-          },
-          "of Shadows": {
-            "range": "",
-            "S": "",
-            "AP": "",
-            "type": ""
           },
           "Plasma Grenades": {
             "range": "8",
             "S": "4",
             "AP": "4+",
             "type": "Grenade 1, Nonblast, Blind 10"
-          },
-          "0-3/Troop Slot Purchased": {
-            "range": "",
-            "S": "",
-            "AP": "",
-            "type": ""
           }
         }
       }
@@ -1278,23 +1190,17 @@
             "AP": "3+",
             "type": "Auxiliary"
           },
-          "Haywire": {
+          "Haywire Grenades": {
             "range": "8",
             "S": "3",
             "AP": "3+",
-            "type": "Grenade 1, Haywire (3+),"
+            "type": "Grenade 1, Haywire (3+), Nonblast"
           },
           "Plasma Grenades": {
             "range": "8",
             "S": "4",
             "AP": "4+",
             "type": "Grenade 1, Nonblast, Blind"
-          },
-          "Nonblast": {
-            "range": "",
-            "S": "",
-            "AP": "",
-            "type": ""
           }
         }
       },
@@ -1387,23 +1293,11 @@
         ],
         "options": [],
         "weapons": {
-          "Demiklaives": {
+          "Demiklaives User": {
             "range": "Melee +1",
             "S": "2+",
             "AP": "None",
-            "type": ""
-          },
-          "Or": {
-            "range": "Or",
-            "S": "",
-            "AP": "",
-            "type": ""
-          },
-          "3+": {
-            "range": "Extra Attack 1",
-            "S": "",
-            "AP": "",
-            "type": ""
+            "type": "3+ Extra Attack 1"
           }
         }
       },
@@ -1444,23 +1338,11 @@
         ],
         "options": [],
         "weapons": {
-          "Demiklaives": {
+          "Demiklaives User": {
             "range": "Melee +1",
             "S": "2+",
             "AP": "None",
-            "type": ""
-          },
-          "Or": {
-            "range": "Or",
-            "S": "",
-            "AP": "",
-            "type": ""
-          },
-          "3+": {
-            "range": "Extra Attack 1",
-            "S": "",
-            "AP": "",
-            "type": ""
+            "type": "3+ Extra Attack 1"
           }
         }
       },
@@ -1507,12 +1389,6 @@
             "range": "Melee +2",
             "S": "2+",
             "AP": "Ignores Feel No Pain",
-            "type": ""
-          },
-          "2-6 Slots": {
-            "range": "",
-            "S": "",
-            "AP": "",
             "type": ""
           }
         }
@@ -1865,7 +1741,7 @@
                 "pts_delta": 0
               },
               {
-                "name": "Shardnet and",
+                "name": "Shardnet and Impaler",
                 "pts_delta": 3
               },
               {
@@ -1908,13 +1784,13 @@
             "range": "Melee",
             "S": "User 5+",
             "AP": "Extra Attack 1, Reroll failed To",
-            "type": ""
+            "type": "Hit rolls"
           },
-          "Shardnet and": {
+          "Shardnet and Impaler": {
             "range": "Melee",
             "S": "User 5+",
             "AP": "Extra Attack 1, Reroll 1s To Hit",
-            "type": ""
+            "type": "and To Wound 18"
           },
           "Agonizer": {
             "range": "Melee",
@@ -1927,24 +1803,6 @@
             "S": "+1",
             "AP": "3+",
             "type": "None"
-          },
-          "rolls": {
-            "range": "",
-            "S": "",
-            "AP": "",
-            "type": ""
-          },
-          "and To Wound": {
-            "range": "",
-            "S": "",
-            "AP": "",
-            "type": "18"
-          },
-          "0-3 Slots": {
-            "range": "",
-            "S": "",
-            "AP": "",
-            "type": ""
           }
         }
       }
@@ -2026,7 +1884,7 @@
                 "pts_delta": 0
               },
               {
-                "name": "Shardnet and",
+                "name": "Shardnet and Impaler",
                 "pts_delta": 3
               },
               {
@@ -2069,13 +1927,13 @@
             "range": "Melee",
             "S": "User 5+",
             "AP": "Extra Attack 1, Reroll failed To",
-            "type": ""
+            "type": "Hit rolls"
           },
-          "Shardnet and": {
+          "Shardnet and Impaler": {
             "range": "Melee",
             "S": "User 5+",
             "AP": "Extra Attack 1, Reroll 1s To Hit",
-            "type": ""
+            "type": "and To Wound 19"
           },
           "Agonizer": {
             "range": "Melee",
@@ -2088,18 +1946,6 @@
             "S": "+1",
             "AP": "3+",
             "type": "None"
-          },
-          "rolls": {
-            "range": "",
-            "S": "",
-            "AP": "",
-            "type": ""
-          },
-          "and To Wound": {
-            "range": "",
-            "S": "",
-            "AP": "",
-            "type": "19"
           }
         }
       },
@@ -2159,7 +2005,7 @@
             "description": "May add up to 5 more Incubi for +37 points each Klaivex may swap Demiklaives for M",
             "choices": [
               {
-                "name": "Demiklaives",
+                "name": "Demiklaives User",
                 "pts_delta": 0
               },
               {
@@ -2170,28 +2016,16 @@
           }
         ],
         "weapons": {
-          "Demiklaives": {
+          "Demiklaives User": {
             "range": "Melee +1",
             "S": "2+",
             "AP": "None",
-            "type": ""
+            "type": "3+ Extra Attack 1"
           },
           "Klaive": {
             "range": "Melee +2",
             "S": "2+",
             "AP": "None",
-            "type": ""
-          },
-          "Or": {
-            "range": "Or",
-            "S": "",
-            "AP": "",
-            "type": ""
-          },
-          "3+": {
-            "range": "Extra Attack 1",
-            "S": "",
-            "AP": "",
             "type": ""
           }
         }
@@ -2540,12 +2374,6 @@
             "S": "3",
             "AP": "4+",
             "type": "Heavy 1, Sniper (3+), Psychicbane"
-          },
-          "Infantry": {
-            "range": "",
-            "S": "",
-            "AP": "",
-            "type": ""
           }
         }
       },
@@ -2659,12 +2487,6 @@
             "S": "3",
             "AP": "6+",
             "type": "Assault 1"
-          },
-          "Attack": {
-            "range": "0-3",
-            "S": "",
-            "AP": "",
-            "type": ""
           }
         }
       }
@@ -2769,14 +2591,6 @@
             "description": "May add up to 5 more Cloud Dancers for +42 points each Felarch may swap 2 Linked Splinter Rifles for S or H Felarch may take one M Up to two Cloud Dancers may swap 2 Linked Splinter Rifles for S or H",
             "choices": [
               {
-                "name": "Rifles",
-                "pts_delta": 0
-              },
-              {
-                "name": "Pistols",
-                "pts_delta": 0
-              },
-              {
                 "name": "Shredder",
                 "pts_delta": 0
               },
@@ -2785,7 +2599,7 @@
                 "pts_delta": 20
               },
               {
-                "name": "Splinter",
+                "name": "Splinter Cannon",
                 "pts_delta": 13
               },
               {
@@ -2800,23 +2614,11 @@
           }
         ],
         "weapons": {
-          "2 Linked": {
+          "2 Linked Splinter Rifles": {
             "range": "18",
             "S": "3",
             "AP": "-",
             "type": "Assault 2 x2, Poisoned (3+)"
-          },
-          "Rifles": {
-            "range": "",
-            "S": "",
-            "AP": "",
-            "type": ""
-          },
-          "Pistols": {
-            "range": "",
-            "S": "",
-            "AP": "",
-            "type": ""
           },
           "Shredder": {
             "range": "12",
@@ -2830,11 +2632,11 @@
             "AP": "2+",
             "type": "Assault 1, Lance, Monsterbane"
           },
-          "Splinter": {
+          "Splinter Cannon": {
             "range": "36",
             "S": "3",
             "AP": "5+",
-            "type": "Rapid Fire 3, Poisoned (3+),"
+            "type": "Rapid Fire 3, Poisoned (3+), Repulsor"
           },
           "Dark Lance": {
             "range": "36",
@@ -2842,11 +2644,11 @@
             "AP": "2+",
             "type": "Heavy 1, Lance, Monsterbane, Repulsor"
           },
-          "Repulsor": {
-            "range": "",
-            "S": "",
-            "AP": "",
-            "type": ""
+          "2 Linked Splinter Pistols": {
+            "range": "12",
+            "S": "3",
+            "AP": "-",
+            "type": "Pistol 1 x2, Poisoned (3+)"
           },
           "Void Sabre": {
             "range": "Melee",
@@ -3104,7 +2906,7 @@
                 "pts_delta": 6
               },
               {
-                "name": "Cluster",
+                "name": "Cluster Caltrops",
                 "pts_delta": 9
               }
             ]
@@ -3153,17 +2955,11 @@
             "AP": "3+",
             "type": "Poisoned (3+)"
           },
-          "Cluster": {
+          "Cluster Caltrops": {
             "range": "Melee",
             "S": "+2",
             "AP": "-",
-            "type": "Auxiliary, 1d6 Impact Hits,"
-          },
-          "Rending": {
-            "range": "",
-            "S": "",
-            "AP": "",
-            "type": "27"
+            "type": "Auxiliary, 1d6 Impact Hits, Rending 27"
           }
         }
       },
@@ -3263,7 +3059,7 @@
                 "pts_delta": 20
               },
               {
-                "name": "Splinter",
+                "name": "Splinter Cannon",
                 "pts_delta": 13
               },
               {
@@ -3322,23 +3118,17 @@
             "AP": "2+",
             "type": "Assault 1, Lance, Monsterbane"
           },
-          "Splinter": {
+          "Splinter Cannon": {
             "range": "36",
             "S": "3",
             "AP": "5+",
-            "type": "Rapid Fire 3, Poisoned (3+),"
+            "type": "Rapid Fire 3, Poisoned (3+), Repulsor 28"
           },
           "Dark Lance": {
             "range": "36",
             "S": "9",
             "AP": "2+",
             "type": "Heavy 1, Lance, Monsterbane, Repulsor"
-          },
-          "Repulsor": {
-            "range": "",
-            "S": "",
-            "AP": "",
-            "type": "28"
           }
         }
       },
@@ -3421,12 +3211,6 @@
             "S": "6",
             "AP": "2+",
             "type": "Grenade 1, 3\u201d Blast"
-          },
-          "Infantry": {
-            "range": "",
-            "S": "",
-            "AP": "",
-            "type": ""
           }
         }
       },
@@ -3460,12 +3244,6 @@
             "S": "Extra Attack 1",
             "AP": "",
             "type": "29"
-          },
-          "Support": {
-            "range": "0-3",
-            "S": "",
-            "AP": "",
-            "type": ""
           }
         }
       }
@@ -3686,31 +3464,19 @@
             "description": "May add up to two more Voidweavers for +45 points each Any model may swap Haywire Cannon for T Any model may take one S Any model may take up to one of each E",
             "choices": [
               {
-                "name": "Haywire",
+                "name": "Haywire Cannon",
                 "pts_delta": 0
               },
               {
-                "name": "Prismatic",
+                "name": "Prismatic Cannon",
                 "pts_delta": 32
               },
               {
-                "name": "Sponson, Primary",
-                "pts_delta": 0
-              },
-              {
-                "name": "Or",
-                "pts_delta": 0
-              },
-              {
-                "name": "Sponson",
-                "pts_delta": 0
-              },
-              {
-                "name": "Haywire",
+                "name": "Haywire Cannon",
                 "pts_delta": 6
               },
               {
-                "name": "Prismatic",
+                "name": "Prismatic Cannon",
                 "pts_delta": 38
               },
               {
@@ -3729,53 +3495,23 @@
           }
         ],
         "weapons": {
-          "Haywire": {
+          "Haywire Cannon": {
             "range": "24",
             "S": "3",
             "AP": "3+",
-            "type": "Assault 2, Haywire (3+),"
+            "type": "Assault 2, Haywire (3+), Sponson, Primary"
           },
-          "Prismatic": {
+          "Prismatic Cannon": {
             "range": "24",
             "S": "9",
             "AP": "1+",
-            "type": "Assault 1, Lance,"
-          },
-          "Sponson, Primary": {
-            "range": "",
-            "S": "",
-            "AP": "",
-            "type": ""
-          },
-          "Or": {
-            "range": "Or",
-            "S": "Or",
-            "AP": "Monsterbane, Sponson,",
-            "type": ""
-          },
-          "Sponson": {
-            "range": "",
-            "S": "",
-            "AP": "",
-            "type": ""
-          },
-          "1,": {
-            "range": "5\u2019",
-            "S": "",
-            "AP": "",
-            "type": "Primary"
+            "type": "Assault 1, Lance, Or Or Or Monsterbane, Sponson, Assault 1, 5\u2019 Blast, Sponson, Primary"
           },
           "2 Linked Shuriken Catapults": {
             "range": "18",
             "S": "3",
             "AP": "-",
             "type": "Assault 2 x2, Rending, Hull"
-          },
-          "0-2 Slots": {
-            "range": "",
-            "S": "",
-            "AP": "",
-            "type": ""
           }
         }
       },
@@ -3806,31 +3542,19 @@
             "description": "May add up to two more Voidweavers for +45 points each Any model may swap Haywire Cannon for T Any model may take one S Any model may take up to one of each E",
             "choices": [
               {
-                "name": "Haywire",
+                "name": "Haywire Cannon",
                 "pts_delta": 0
               },
               {
-                "name": "Prismatic",
+                "name": "Prismatic Cannon",
                 "pts_delta": 32
               },
               {
-                "name": "Sponson, Primary",
-                "pts_delta": 0
-              },
-              {
-                "name": "Or",
-                "pts_delta": 0
-              },
-              {
-                "name": "Sponson",
-                "pts_delta": 0
-              },
-              {
-                "name": "Haywire",
+                "name": "Haywire Cannon",
                 "pts_delta": 6
               },
               {
-                "name": "Prismatic",
+                "name": "Prismatic Cannon",
                 "pts_delta": 38
               },
               {
@@ -3849,53 +3573,23 @@
           }
         ],
         "weapons": {
-          "Haywire": {
+          "Haywire Cannon": {
             "range": "24",
             "S": "3",
             "AP": "3+",
-            "type": "Assault 2, Haywire (3+),"
+            "type": "Assault 2, Haywire (3+), Sponson, Primary"
           },
-          "Prismatic": {
+          "Prismatic Cannon": {
             "range": "24",
             "S": "9",
             "AP": "1+",
-            "type": "Assault 1, Lance,"
-          },
-          "Sponson, Primary": {
-            "range": "",
-            "S": "",
-            "AP": "",
-            "type": ""
-          },
-          "Or": {
-            "range": "Or",
-            "S": "Or",
-            "AP": "Monsterbane, Sponson,",
-            "type": ""
-          },
-          "Sponson": {
-            "range": "",
-            "S": "",
-            "AP": "",
-            "type": ""
-          },
-          "1,": {
-            "range": "5\u2019",
-            "S": "",
-            "AP": "",
-            "type": "Primary"
+            "type": "Assault 1, Lance, Or Or Or Monsterbane, Sponson, Assault 1, 5\u2019 Blast, Sponson, Primary"
           },
           "2 Linked Shuriken Catapults": {
             "range": "18",
             "S": "3",
             "AP": "-",
             "type": "Assault 2 x2, Rending, Hull"
-          },
-          "0-2 Slots": {
-            "range": "",
-            "S": "",
-            "AP": "",
-            "type": ""
           }
         }
       }
@@ -3930,29 +3624,17 @@
           }
         ],
         "weapons": {
-          "Splinterstorm": {
+          "Splinterstorm Cannon": {
             "range": "36",
             "S": "3",
             "AP": "-",
-            "type": "Heavy 10, Poisoned (3+), Hull,"
+            "type": "Heavy 10, Poisoned (3+), Hull, Primary"
           },
-          "2 Linked Dark": {
+          "2 Linked Dark Lances": {
             "range": "36",
             "S": "9",
             "AP": "2+",
-            "type": "Heavy 1 x2, Lance,"
-          },
-          "Primary": {
-            "range": "",
-            "S": "",
-            "AP": "",
-            "type": ""
-          },
-          "Monsterbane, Hull, Primary": {
-            "range": "",
-            "S": "",
-            "AP": "",
-            "type": "33"
+            "type": "Heavy 1 x2, Lance, Monsterbane, Hull, Primary 33"
           }
         }
       },
@@ -3983,44 +3665,32 @@
             "description": "May add up to two more Razorwings for +170 points each Any model may swap 2 Linked Splinter Rifles for H Any model may swap 2 Linked Disintegrator Cannons for W Any model may swap 2 Linked Necrotoxin Missiles for M Any model may take up to one of each E",
             "choices": [
               {
-                "name": "2 Linked",
+                "name": "2 Linked Splinter Rifles",
                 "pts_delta": 0
               },
               {
-                "name": "Splinter",
+                "name": "Splinter Cannon",
                 "pts_delta": 5
-              },
-              {
-                "name": "Rifles",
-                "pts_delta": 0
-              },
-              {
-                "name": "Hull, Primary",
-                "pts_delta": 0
               },
               {
                 "name": "2 Linked Disintegrator Cannons",
                 "pts_delta": 0
               },
               {
-                "name": "2 Linked Dark",
+                "name": "2 Linked Dark Lances",
                 "pts_delta": 16
               },
               {
-                "name": "2 Linked",
+                "name": "2 Linked Necrotoxin Missiles",
                 "pts_delta": 0
               },
               {
-                "name": "2 Linked",
+                "name": "2 Linked Monoscythe Missiles",
+                "pts_delta": 0
+              },
+              {
+                "name": "2 Linked Shatterfield Missiles",
                 "pts_delta": 6
-              },
-              {
-                "name": "Poisoned (3+), One Use Only,",
-                "pts_delta": 0
-              },
-              {
-                "name": "Hull, Primary",
-                "pts_delta": 0
               },
               {
                 "name": "Night Shields",
@@ -4030,29 +3700,17 @@
           }
         ],
         "weapons": {
-          "2 Linked": {
+          "2 Linked Splinter Rifles": {
             "range": "18",
             "S": "3",
             "AP": "-",
-            "type": "Assault 2 x2, Poisoned (3+),"
+            "type": "Assault 2 x2, Poisoned (3+), Hull, Primary"
           },
-          "Splinter": {
+          "Splinter Cannon": {
             "range": "36",
             "S": "3",
             "AP": "5+",
-            "type": "Rapid Fire 3, Poisoned (3+),"
-          },
-          "Rifles": {
-            "range": "Hull, Primary",
-            "S": "",
-            "AP": "",
-            "type": ""
-          },
-          "Hull, Primary": {
-            "range": "",
-            "S": "",
-            "AP": "",
-            "type": ""
+            "type": "Rapid Fire 3, Poisoned (3+), Hull, Primary"
           },
           "2 Linked Disintegrator Cannons": {
             "range": "36",
@@ -4060,35 +3718,29 @@
             "AP": "2+",
             "type": "Heavy 3 x2, Hull, Primary"
           },
-          "2 Linked Dark": {
+          "2 Linked Dark Lances": {
             "range": "36",
             "S": "9",
             "AP": "2+",
-            "type": "Heavy 1 x2, Lance,"
+            "type": "Heavy 1 x2, Lance, Monsterbane, Hull, Primary"
           },
-          "Monsterbane, Hull, Primary": {
-            "range": "",
-            "S": "",
-            "AP": "",
-            "type": ""
+          "2 Linked Necrotoxin Missiles": {
+            "range": "48",
+            "S": "3",
+            "AP": "3+",
+            "type": "Heavy 1 x2, 5\u201d Blast, Poisoned (3+), One Use Only, Hull, Primary"
           },
-          "Poisoned (3+), One Use Only,": {
-            "range": "",
-            "S": "",
-            "AP": "",
-            "type": ""
+          "2 Linked Monoscythe Missiles": {
+            "range": "48",
+            "S": "6",
+            "AP": "5+",
+            "type": "Heavy 1 x2, 5\u201d Blast, One Use Only, Hull, Primary"
           },
-          "Only, Hull, Primary Missiles": {
-            "range": "",
-            "S": "",
-            "AP": "",
-            "type": ""
-          },
-          "One Use Only, Hull, Primary Missiles": {
-            "range": "",
-            "S": "",
-            "AP": "",
-            "type": "34"
+          "2 Linked Shatterfield Missiles": {
+            "range": "48",
+            "S": "7",
+            "AP": "-",
+            "type": "Heavy 1 x2, 5\u201d Blast, Rending, One Use Only, Hull, Primary 34"
           }
         }
       },
@@ -4118,32 +3770,24 @@
             "description": "May add up to two more Voidravens for +209 points each Any model may swap 2 Linked Dark Lances for W Any model may swap Necrotoxin Missile Rack for M Any model may take up to one of each E",
             "choices": [
               {
-                "name": "2 Linked Dark",
+                "name": "2 Linked Dark Lances",
                 "pts_delta": 0
               },
               {
-                "name": "2 Linked",
+                "name": "2 Linked Darkscythes",
                 "pts_delta": 22
               },
               {
-                "name": "Monsterbane, Hull, Primary",
+                "name": "Necrotoxin Missile Rack",
                 "pts_delta": 0
               },
               {
-                "name": "Necrotoxin",
+                "name": "Monoscythe Missile Rack",
                 "pts_delta": 0
               },
               {
-                "name": "Monoscythe",
-                "pts_delta": 0
-              },
-              {
-                "name": "Shatterfield",
+                "name": "Shatterfield Missile Rack",
                 "pts_delta": 6
-              },
-              {
-                "name": "Rack",
-                "pts_delta": 0
               },
               {
                 "name": "Night Shields",
@@ -4153,65 +3797,41 @@
           }
         ],
         "weapons": {
-          "2 Linked Dark": {
+          "2 Linked Dark Lances": {
             "range": "36",
             "S": "9",
             "AP": "2+",
-            "type": "Heavy 1 x2, Lance,"
+            "type": "Heavy 1 x2, Lance, Monsterbane, Hull, Primary"
           },
-          "2 Linked": {
+          "2 Linked Darkscythes": {
             "range": "24",
             "S": "D",
             "AP": "2+",
-            "type": "Heavy 1 x2, 3\u201d Blast,"
+            "type": "Heavy 1 x2, 3\u201d Blast, Destroyer, Monsterbane, Hull, Primary"
           },
-          "Monsterbane, Hull, Primary": {
-            "range": "",
-            "S": "",
-            "AP": "",
-            "type": ""
-          },
-          "Destroyer, Monsterbane,": {
-            "range": "",
-            "S": "",
-            "AP": "",
-            "type": "Hull, Primary"
-          },
-          "Necrotoxin": {
+          "Necrotoxin Missile Rack": {
             "range": "48",
             "S": "3",
             "AP": "3+",
-            "type": "Heavy 1 x2, 5\u201d Blast,"
+            "type": "Heavy 1 x2, 5\u201d Blast, Poisoned (3+), Hull, Primary"
           },
-          "Monoscythe": {
+          "Monoscythe Missile Rack": {
             "range": "48",
             "S": "6",
             "AP": "5+",
-            "type": "Heavy 1 x2, 5\u201d Blast, Hull,"
+            "type": "Heavy 1 x2, 5\u201d Blast, Hull, Primary"
           },
-          "Shatterfield": {
+          "Shatterfield Missile Rack": {
             "range": "48",
             "S": "7",
             "AP": "-",
-            "type": "Heavy 1 x2, 5\u201d Blast, Rending,"
-          },
-          "Rack": {
-            "range": "Poisoned (3+), Hull, Primary",
-            "S": "",
-            "AP": "",
-            "type": ""
+            "type": "Heavy 1 x2, 5\u201d Blast, Rending, Hull, Primary"
           },
           "Void Mines": {
             "range": "Bomb",
             "S": "9",
             "AP": "2+",
             "type": "Heavy 1, 5\u201d Blast, Lance, Monsterbane, Hull, Primary 35"
-          },
-          "Transport": {
-            "range": "0-1/Legal",
-            "S": "",
-            "AP": "",
-            "type": ""
           }
         }
       }
@@ -4350,16 +3970,12 @@
             "description": "May swap 2 Linked Splinter Rifles for H",
             "choices": [
               {
-                "name": "2 Linked",
+                "name": "2 Linked Splinter Rifles",
                 "pts_delta": 0
               },
               {
-                "name": "Splinter",
+                "name": "Splinter Cannon",
                 "pts_delta": 5
-              },
-              {
-                "name": "Rifles",
-                "pts_delta": 0
               }
             ]
           },
@@ -4382,29 +3998,17 @@
           }
         ],
         "weapons": {
-          "2 Linked": {
+          "2 Linked Splinter Rifles": {
             "range": "18",
             "S": "3",
             "AP": "-",
-            "type": "Assault 2 x2, Poisoned (3+),"
+            "type": "Assault 2 x2, Poisoned (3+), Hull, Primary"
           },
-          "Splinter": {
+          "Splinter Cannon": {
             "range": "36",
             "S": "3",
             "AP": "5+",
-            "type": "Rapid Fire 3, Poisoned (3+),"
-          },
-          "Rifles": {
-            "range": "Hull, Primary",
-            "S": "",
-            "AP": "",
-            "type": ""
-          },
-          "Hull, Primary": {
-            "range": "",
-            "S": "",
-            "AP": "",
-            "type": ""
+            "type": "Rapid Fire 3, Poisoned (3+), Hull, Primary"
           }
         }
       },
@@ -4451,23 +4055,11 @@
           }
         ],
         "weapons": {
-          "2 Linked": {
+          "2 Linked Shuriken Cannons": {
             "range": "24",
             "S": "6",
             "AP": "5+",
-            "type": "Assault 3 x2, Rending, Hull,"
-          },
-          "Primary Cannons": {
-            "range": "",
-            "S": "",
-            "AP": "",
-            "type": ""
-          },
-          "of War": {
-            "range": "0-1",
-            "S": "",
-            "AP": "",
-            "type": ""
+            "type": "Assault 3 x2, Rending, Hull, Primary"
           }
         }
       }
@@ -4522,13 +4114,7 @@
             "range": "Melee User 2+",
             "S": "Poisoned (2+), Ignores",
             "AP": "",
-            "type": ""
-          },
-          "Saves": {
-            "range": "",
-            "S": "",
-            "AP": "",
-            "type": "38"
+            "type": "Invulnerability Saves 38"
           }
         }
       },
@@ -4587,11 +4173,11 @@
             "AP": "2+",
             "type": "Assault 6 x2, Hull, Primary"
           },
-          "Dire Scythe": {
+          "Dire Scythe Blades": {
             "range": "Melee",
             "S": "X2",
             "AP": "2+",
-            "type": "Slow, Accurate,"
+            "type": "Slow, Accurate, Monsterbane, Primary"
           },
           "Chain Snares": {
             "range": "Melee",
@@ -4599,23 +4185,11 @@
             "AP": "Auxiliary, Accurate, Rending",
             "type": ""
           },
-          "Monsterbane, Primary": {
-            "range": "",
-            "S": "",
-            "AP": "",
-            "type": ""
-          },
           "Shock Prow": {
             "range": "Melee",
             "S": "User -",
             "AP": "Accurate, Tesla",
             "type": "39"
-          },
-          "0-1/1000 points": {
-            "range": "",
-            "S": "",
-            "AP": "",
-            "type": ""
           }
         }
       }

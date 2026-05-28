@@ -73,31 +73,31 @@
             "description": "May take up to one S",
             "choices": [
               {
-                "name": "Mirage",
+                "name": "Mirage Cast 6+",
                 "pts_delta": 0
               },
               {
-                "name": "Cause",
+                "name": "Cause Misfortune Cast 7+",
                 "pts_delta": 10
               },
               {
-                "name": "Forewarning",
+                "name": "Forewarning Cast 6+",
                 "pts_delta": 10
               },
               {
-                "name": "Bolster",
+                "name": "Bolster Cast 6+ Shooting until your next Psychic Phase",
                 "pts_delta": 15
               },
               {
-                "name": "Enfeeble",
+                "name": "Enfeeble Cast 8+",
                 "pts_delta": 20
               },
               {
-                "name": "Endurance",
+                "name": "Endurance Cast 7+",
                 "pts_delta": 20
               },
               {
-                "name": "Melting Beam",
+                "name": "Melting Beam Cast 7+",
                 "pts_delta": 22
               }
             ]
@@ -137,83 +137,47 @@
             "AP": "4+",
             "type": "Grenade 1, Nonblast"
           },
-          "Mirage": {
+          "Mirage Cast 6+": {
             "range": "18",
             "S": "-",
             "AP": "-",
-            "type": "Target unit gains Shroud until"
+            "type": "Target unit gains Shroud until your next Psychic Phase. 3"
           },
-          "Cause": {
+          "Cause Misfortune Cast 7+": {
             "range": "18",
             "S": "-",
             "AP": "-",
-            "type": "Target unit gains Rending on all"
+            "type": "Target unit gains Rending on all Ranged and Melee Attacks until your next Psychic Phase"
           },
-          "Forewarning": {
+          "Forewarning Cast 6+": {
             "range": "18",
             "S": "-",
             "AP": "-",
-            "type": "Target unit gains 4+ Cover Save"
+            "type": "Target unit gains 4+ Cover Save until your next Psychic Phase"
           },
-          "Bolster": {
+          "Bolster Cast 6+ Shooting until your next Psychic Phase": {
             "range": "18",
             "S": "-",
             "AP": "-",
-            "type": "Target unit counts as having"
+            "type": "Target unit counts as having not Moved for the purposes of"
           },
-          "Enfeeble": {
+          "Enfeeble Cast 8+": {
             "range": "18",
             "S": "-",
             "AP": "-",
-            "type": "Target unit suffers T-1 until"
+            "type": "Target unit suffers T-1 until your next Psychic Phase"
           },
-          "Endurance": {
+          "Endurance Cast 7+": {
             "range": "18",
             "S": "-",
             "AP": "-",
-            "type": "Target unit gains T+1 until your"
+            "type": "Target unit gains T+1 until your next Psychic Phase"
           },
-          "Melting Beam": {
+          "Melting Beam Cast 7+": {
             "range": "18",
             "S": "8",
             "AP": "1+",
-            "type": "Assault 1, Armourbane, Beam"
-          },
-          "6+": {
-            "range": "your next Psychic Phase.",
-            "S": "",
-            "AP": "",
-            "type": "3"
-          },
-          "7+": {
-            "range": "your next Psychic Phase",
-            "S": "",
-            "AP": "",
-            "type": ""
-          },
-          "8+": {
-            "range": "your next Psychic Phase",
-            "S": "",
-            "AP": "",
-            "type": ""
-          },
-          "Ranged and": {
-            "range": "Melee",
-            "S": "",
-            "AP": "",
-            "type": ""
-          },
-          "until your next": {
-            "range": "",
-            "S": "",
-            "AP": "",
-            "type": ""
-          },
-          "Phase": {
-            "range": "",
-            "S": "",
-            "AP": "",
-            "type": ""
+            "type": "Assault 1, Armourbane, Beam 4"
           }
         }
       }

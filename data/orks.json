@@ -203,23 +203,11 @@
             "AP": "-",
             "type": "Assault 2 x3, Dakka, Scatter"
           },
-          "Killa Jet": {
+          "Killa Jet Flame": {
             "range": "6",
             "S": "8",
             "AP": "1+",
-            "type": "Assault 2, Melta,"
-          },
-          "Or": {
-            "range": "Or",
-            "S": "(Monsterbane) Or",
-            "AP": "",
-            "type": ""
-          },
-          "5": {
-            "range": "4+",
-            "S": "Assault 1",
-            "AP": "",
-            "type": "4"
+            "type": "Assault 2, Melta, 5 4+ Assault 1 4"
           },
           "Choppa": {
             "range": "Melee",
@@ -406,19 +394,13 @@
             "range": "24",
             "S": "8",
             "AP": "3+",
-            "type": "Assault 1, Monsterbane, Dakka"
+            "type": "Assault 1, Monsterbane, Dakka 5"
           },
           "Meltagun": {
             "range": "12",
             "S": "8",
             "AP": "1+",
             "type": "Assault 1, Melta, Dakka, (Monsterbane)"
-          },
-          "Or": {
-            "range": "Or",
-            "S": "Or",
-            "AP": "",
-            "type": ""
           },
           "Choppa": {
             "range": "Melee",
@@ -598,12 +580,6 @@
             "S": "3",
             "AP": "-",
             "type": "Grenade 1, 3\u201d Blast 6"
-          },
-          "0-3/Troop Slot Purchased": {
-            "range": "",
-            "S": "",
-            "AP": "",
-            "type": ""
           }
         }
       }
@@ -682,17 +658,23 @@
             "AP": "-",
             "type": "Pistol 1, Dakka"
           },
-          "Kustom Mega": {
+          "Kustom Mega Slugga": {
             "range": "12",
             "S": "8",
             "AP": "2+",
-            "type": "Pistol 1, Dakka, Gets Hot!,"
+            "type": "Pistol 1, Dakka, Gets Hot!, Monsterbane"
           },
           "Kombi Burna": {
             "range": "Flame",
             "S": "4",
             "AP": "5+",
             "type": "Assault 1"
+          },
+          "Kustom Mega Blasta": {
+            "range": "24",
+            "S": "8",
+            "AP": "2+",
+            "type": "Assault 1, Dakka, Gets Hot!, Monsterbane"
           },
           "Rokkit Launcha": {
             "range": "24",
@@ -722,18 +704,6 @@
             "range": "36",
             "S": "2d6",
             "AP": "1d6+ Heavy 1d3, Dakka, Tesla",
-            "type": ""
-          },
-          "Or": {
-            "range": "Or",
-            "S": "Or",
-            "AP": "",
-            "type": ""
-          },
-          "Monsterbane": {
-            "range": "",
-            "S": "",
-            "AP": "",
             "type": ""
           },
           "Choppa": {
@@ -848,17 +818,23 @@
             "AP": "-",
             "type": "Pistol 1, Dakka"
           },
-          "Kustom Mega": {
+          "Kustom Mega Slugga": {
             "range": "12",
             "S": "8",
             "AP": "2+",
-            "type": "Pistol 1, Dakka, Gets Hot!,"
+            "type": "Pistol 1, Dakka, Gets Hot!, Monsterbane"
           },
           "Kombi Burna": {
             "range": "Flame",
             "S": "4",
             "AP": "5+",
             "type": "Assault 1"
+          },
+          "Kustom Mega Blasta": {
+            "range": "24",
+            "S": "8",
+            "AP": "2+",
+            "type": "Assault 1, Dakka, Gets Hot!, Monsterbane"
           },
           "Rokkit Launcha": {
             "range": "24",
@@ -888,18 +864,6 @@
             "range": "36",
             "S": "2d6",
             "AP": "1d6+ Heavy 1d3, Dakka, Tesla",
-            "type": ""
-          },
-          "Or": {
-            "range": "Or",
-            "S": "Or",
-            "AP": "",
-            "type": ""
-          },
-          "Monsterbane": {
-            "range": "",
-            "S": "",
-            "AP": "",
             "type": ""
           },
           "Choppa": {
@@ -1030,43 +994,34 @@
         "options": [
           {
             "description": "May take Psychic Mastery Level 2 for +15 points",
-            "choices": [
-              {
-                "name": "Strength changes Da Krunch",
-                "pts_delta": 0
-              }
-            ]
+            "choices": []
           },
           {
             "description": "May take up to one S for each Psychic Mastery Level",
             "choices": [
               {
-                "name": "\u2018Ead Banger",
+                "name": "\u2018Ead Banger Cast 6+",
                 "pts_delta": 15
               },
               {
-                "name": "Da Jump",
+                "name": "Da Jump Cast 6+",
                 "pts_delta": 15
               },
               {
-                "name": "Waaagh! Energy",
+                "name": "Waaagh! Energy Cast 6+",
                 "pts_delta": 15
               },
               {
-                "name": "Da Krunch",
+                "name": "Da Krunch Cast 7+",
                 "pts_delta": 18
               },
               {
-                "name": "Power Vomit",
+                "name": "Power Vomit Cast 7+",
                 "pts_delta": 24
               },
               {
-                "name": "Warpath",
+                "name": "Warpath Cast 6+",
                 "pts_delta": 45
-              },
-              {
-                "name": "Assault",
-                "pts_delta": 0
               }
             ]
           },
@@ -1087,95 +1042,41 @@
             "AP": "4+",
             "type": "Concussion, Psychicbane"
           },
-          "\u2018Ead Banger": {
+          "\u2018Ead Banger Cast 6+": {
             "range": "18",
             "S": "-",
             "AP": "-",
-            "type": "Sniper (*+), target model takes"
+            "type": "Sniper (*+), target model takes a Toughness test on 2d6. If it fails, it suffers 1 Mortal Wound."
           },
-          "Da Jump": {
+          "Da Jump Cast 6+": {
             "range": "6",
             "S": "-",
             "AP": "-",
-            "type": "Friendly target unit is removed"
+            "type": "Friendly target unit is removed from the table and immediately Deepstrikes. This special Deepstrike does not grant the usual 4+ Cover Save. If targeting a Vehicle the Cast is 8+ instead."
           },
-          "Waaagh! Energy": {
+          "Waaagh! Energy Cast 6+": {
             "range": "18",
             "S": "-",
             "AP": "-",
-            "type": "Target unit gains Furious"
+            "type": "Target unit gains Furious Charge until your next Psychic Phase."
           },
-          "Da Krunch": {
+          "Da Krunch Cast 7+": {
             "range": "18",
             "S": "2d6",
             "AP": "3+",
-            "type": "Assault 1, 5\u201d Blast, Krunch \u2013"
+            "type": "Assault 1, 5\u201d Blast, Krunch \u2013 Any roll of double 1s or 6s for Scatter centers the blast on the Caster instead without Scattering. Any roll of a Double 9 for Strength changes Da Krunch to Assault 2 for this casting."
           },
-          "Power Vomit": {
+          "Power Vomit Cast 7+": {
             "range": "Flame",
             "S": "7",
             "AP": "2+",
             "type": "Assault 1"
           },
-          "Warpath": {
+          "Warpath Cast 6+": {
             "range": "12",
             "S": "-",
             "AP": "-",
-            "type": "Target unit gains A+1 until your"
-          },
-          "6+": {
-            "range": "a Toughness test on 2d6. If it",
-            "S": "",
-            "AP": "",
-            "type": "fails, it suffers 1 Mortal Wound."
-          },
-          "7+": {
-            "range": "Any roll of double 1s or 6s for",
-            "S": "",
-            "AP": "",
-            "type": ""
-          },
-          "does not grant the": {
-            "range": "",
-            "S": "",
-            "AP": "",
-            "type": ""
-          },
-          "4+ Cover Save. If": {
-            "range": "",
-            "S": "",
-            "AP": "",
-            "type": ""
-          },
-          "a Vehicle the Cast is": {
-            "range": "",
-            "S": "",
-            "AP": "",
-            "type": "8+ instead."
-          },
-          "centers the blast on the": {
-            "range": "",
-            "S": "",
-            "AP": "",
-            "type": ""
-          },
-          "instead without": {
-            "range": "",
-            "S": "",
-            "AP": "",
-            "type": "Scattering. Any roll of a Double 9"
-          },
-          "Strength changes Da Krunch": {
-            "range": "",
-            "S": "",
-            "AP": "",
-            "type": ""
-          },
-          "Assault": {
-            "range": "2",
-            "S": "",
-            "AP": "",
-            "type": ""
+            "type": "Target unit gains A+1 until your next Psychic Phase."
           }
         }
       },
@@ -1221,7 +1122,7 @@
                 "pts_delta": 0
               },
               {
-                "name": "Kustom Mega",
+                "name": "Kustom Mega Slugga",
                 "pts_delta": 11
               },
               {
@@ -1229,7 +1130,7 @@
                 "pts_delta": 8
               },
               {
-                "name": "Kustom Mega",
+                "name": "Kustom Mega Blasta",
                 "pts_delta": 11
               },
               {
@@ -1247,10 +1148,6 @@
               {
                 "name": "Meltagun",
                 "pts_delta": 24
-              },
-              {
-                "name": "Monsterbane",
-                "pts_delta": 0
               }
             ]
           },
@@ -1305,17 +1202,23 @@
             "AP": "-",
             "type": "Pistol 1, Dakka"
           },
-          "Kustom Mega": {
+          "Kustom Mega Slugga": {
             "range": "12",
             "S": "8",
             "AP": "2+",
-            "type": "Pistol 1, Dakka, Gets Hot!,"
+            "type": "Pistol 1, Dakka, Gets Hot!, Monsterbane"
           },
           "Kombi Burna": {
             "range": "Flame",
             "S": "4",
             "AP": "5+",
             "type": "Assault 1"
+          },
+          "Kustom Mega Blasta": {
+            "range": "24",
+            "S": "8",
+            "AP": "2+",
+            "type": "Assault 1, Dakka, Gets Hot!, Monsterbane"
           },
           "Rokkit Launcha": {
             "range": "24",
@@ -1340,18 +1243,6 @@
             "S": "8",
             "AP": "1+",
             "type": "Assault 1, Melta, Dakka, (Monsterbane)"
-          },
-          "Or": {
-            "range": "Or",
-            "S": "Or",
-            "AP": "",
-            "type": ""
-          },
-          "Monsterbane": {
-            "range": "",
-            "S": "",
-            "AP": "",
-            "type": ""
           },
           "Choppa": {
             "range": "Melee",
@@ -1680,12 +1571,6 @@
             "S": "+2",
             "AP": "2+",
             "type": "Tesla"
-          },
-          "2-6 Slots": {
-            "range": "",
-            "S": "",
-            "AP": "",
-            "type": ""
           }
         }
       }
@@ -1786,10 +1671,6 @@
               {
                 "name": "Power Klaw",
                 "pts_delta": 10
-              },
-              {
-                "name": "And",
-                "pts_delta": 0
               }
             ]
           },
@@ -1809,7 +1690,7 @@
                 "pts_delta": 12
               },
               {
-                "name": "Tankbusta",
+                "name": "Tankbusta Bombz",
                 "pts_delta": 7
               },
               {
@@ -1850,12 +1731,6 @@
             "AP": "1+",
             "type": "Assault 1, Dakka, Melta, (Monsterbane)"
           },
-          "Or": {
-            "range": "Or",
-            "S": "Or",
-            "AP": "",
-            "type": ""
-          },
           "Choppa": {
             "range": "Melee",
             "S": "User",
@@ -1886,23 +1761,11 @@
             "AP": "2+",
             "type": "Slow, Monsterbane"
           },
-          "and M": {
+          "and M Choppa Melee": {
             "range": "Slugga and",
             "S": "12",
             "AP": "4 - Pistol 1, Dakka",
-            "type": ""
-          },
-          "And": {
-            "range": "And",
-            "S": "And",
-            "AP": "And",
-            "type": ""
-          },
-          "User": {
-            "range": "-",
-            "S": "Extra Attack 1",
-            "AP": "",
-            "type": ""
+            "type": "And And And And User - Extra Attack 1"
           },
           "Burna": {
             "range": "Flame",
@@ -1922,17 +1785,11 @@
             "AP": "3+",
             "type": "Assault 1, Monsterbane, Dakka"
           },
-          "Tankbusta": {
+          "Tankbusta Bombz": {
             "range": "6",
             "S": "8",
             "AP": "1+",
-            "type": "Grenade 1, Nonblast,"
-          },
-          "Armourbane, Monsterbane": {
-            "range": "",
-            "S": "",
-            "AP": "",
-            "type": ""
+            "type": "Grenade 1, Nonblast, Armourbane, Monsterbane"
           },
           "Stikkbombz": {
             "range": "8",
@@ -1985,12 +1842,6 @@
             "S": "3",
             "AP": "-",
             "type": "Pistol 1, Dakka"
-          },
-          "0-3 Slots": {
-            "range": "",
-            "S": "",
-            "AP": "",
-            "type": ""
           }
         }
       }
@@ -2131,12 +1982,6 @@
             "S": "8",
             "AP": "1+",
             "type": "Assault 1, Dakka, Melta, (Monsterbane)"
-          },
-          "Or": {
-            "range": "Or",
-            "S": "Or",
-            "AP": "",
-            "type": ""
           },
           "Choppa": {
             "range": "Melee",
@@ -2281,10 +2126,6 @@
               {
                 "name": "Power Klaw",
                 "pts_delta": 10
-              },
-              {
-                "name": "And",
-                "pts_delta": 0
               }
             ]
           },
@@ -2304,7 +2145,7 @@
                 "pts_delta": 12
               },
               {
-                "name": "Tankbusta",
+                "name": "Tankbusta Bombz",
                 "pts_delta": 7
               }
             ]
@@ -2341,12 +2182,6 @@
             "AP": "1+",
             "type": "Assault 1, Dakka, Melta, (Monsterbane)"
           },
-          "Or": {
-            "range": "Or",
-            "S": "Or",
-            "AP": "",
-            "type": ""
-          },
           "Choppa": {
             "range": "Melee",
             "S": "User",
@@ -2377,23 +2212,11 @@
             "AP": "2+",
             "type": "Slow, Monsterbane"
           },
-          "and M": {
+          "and M Choppa Melee": {
             "range": "Slugga and",
             "S": "12",
             "AP": "4 - Pistol 1, Dakka",
-            "type": ""
-          },
-          "And": {
-            "range": "And",
-            "S": "And",
-            "AP": "And",
-            "type": ""
-          },
-          "User": {
-            "range": "-",
-            "S": "Extra Attack 1",
-            "AP": "",
-            "type": ""
+            "type": "And And And And User - Extra Attack 1"
           },
           "Burna": {
             "range": "Flame",
@@ -2413,17 +2236,11 @@
             "AP": "3+",
             "type": "Assault 1, Monsterbane, Dakka"
           },
-          "Tankbusta": {
+          "Tankbusta Bombz": {
             "range": "6",
             "S": "8",
             "AP": "1+",
-            "type": "Grenade 1, Nonblast,"
-          },
-          "Armourbane, Monsterbane": {
-            "range": "",
-            "S": "",
-            "AP": "",
-            "type": ""
+            "type": "Grenade 1, Nonblast, Armourbane, Monsterbane"
           },
           "Stikkbombz": {
             "range": "8",
@@ -2584,12 +2401,6 @@
             "AP": "1+",
             "type": "Assault 1, Dakka, Melta, (Monsterbane)"
           },
-          "Or": {
-            "range": "Or",
-            "S": "Or",
-            "AP": "",
-            "type": ""
-          },
           "Choppa": {
             "range": "Melee",
             "S": "User",
@@ -2724,7 +2535,7 @@
                 "pts_delta": 9
               },
               {
-                "name": "Tankbusta",
+                "name": "Tankbusta Bombz",
                 "pts_delta": 7
               },
               {
@@ -2753,17 +2564,11 @@
             "AP": "3+",
             "type": "Pistol 1 x2, Dakka"
           },
-          "Tankbusta": {
+          "Tankbusta Bombz": {
             "range": "6",
             "S": "8",
             "AP": "1+",
-            "type": "Grenade 1, Nonblast,"
-          },
-          "Armourbane, Monsterbane": {
-            "range": "",
-            "S": "",
-            "AP": "",
-            "type": ""
+            "type": "Grenade 1, Nonblast, Armourbane, Monsterbane"
           },
           "Choppa": {
             "range": "Melee",
@@ -2800,12 +2605,6 @@
             "S": "3",
             "AP": "-",
             "type": "Grenade 1, 3\u201d Blast"
-          },
-          "Infantry": {
-            "range": "",
-            "S": "",
-            "AP": "",
-            "type": ""
           }
         }
       },
@@ -2911,7 +2710,7 @@
                 "pts_delta": 9
               },
               {
-                "name": "Tankbusta",
+                "name": "Tankbusta Bombz",
                 "pts_delta": 7
               },
               {
@@ -2940,17 +2739,11 @@
             "AP": "3+",
             "type": "Pistol 1 x2, Dakka"
           },
-          "Tankbusta": {
+          "Tankbusta Bombz": {
             "range": "6",
             "S": "8",
             "AP": "1+",
-            "type": "Grenade 1, Nonblast,"
-          },
-          "Armourbane, Monsterbane": {
-            "range": "",
-            "S": "",
-            "AP": "",
-            "type": ""
+            "type": "Grenade 1, Nonblast, Armourbane, Monsterbane"
           },
           "Choppa": {
             "range": "Melee",
@@ -2987,12 +2780,6 @@
             "S": "3",
             "AP": "-",
             "type": "Grenade 1, 3\u201d Blast"
-          },
-          "Infantry": {
-            "range": "",
-            "S": "",
-            "AP": "",
-            "type": ""
           }
         }
       },
@@ -3110,12 +2897,6 @@
             "AP": "3+",
             "type": "Assault 1, Monsterbane, Dakka"
           },
-          "Or": {
-            "range": "Or",
-            "S": "Or",
-            "AP": "",
-            "type": ""
-          },
           "Killsaw": {
             "range": "Melee",
             "S": "+2",
@@ -3214,7 +2995,7 @@
                 "pts_delta": 2
               },
               {
-                "name": "Kustom Mega",
+                "name": "Kustom Mega Blasta",
                 "pts_delta": 3
               },
               {
@@ -3263,23 +3044,17 @@
             "AP": "3+",
             "type": "Assault 1, Dakka, Monsterbane, Hull, Primary"
           },
-          "Kustom Mega": {
+          "Kustom Mega Blasta": {
             "range": "24",
             "S": "8",
             "AP": "2+",
-            "type": "Assault 1, Dakka, Monsterbane,"
+            "type": "Assault 1, Dakka, Monsterbane, Gets Hot!, Hull, Primary"
           },
           "Grotzooka": {
             "range": "18",
             "S": "6",
             "AP": "5+",
             "type": "Heavy 2, 3\u201d Blast, Hull, Primary"
-          },
-          "Gets Hot!, Hull, Primary": {
-            "range": "",
-            "S": "",
-            "AP": "",
-            "type": ""
           },
           "Kan Klaw": {
             "range": "Melee",
@@ -3337,7 +3112,7 @@
                 "pts_delta": 5
               },
               {
-                "name": "Kustom Mega",
+                "name": "Kustom Mega Blasta",
                 "pts_delta": 5
               },
               {
@@ -3353,11 +3128,11 @@
                 "pts_delta": 18
               },
               {
-                "name": "2 Linked Kustom",
+                "name": "2 Linked Kustom Mega Blastas",
                 "pts_delta": 18
               },
               {
-                "name": "2 Linked Rokkit",
+                "name": "2 Linked Rokkit Launchas",
                 "pts_delta": 22
               }
             ]
@@ -3374,7 +3149,7 @@
                 "pts_delta": 28
               },
               {
-                "name": "2 Linked Grot",
+                "name": "2 Linked Grot Bomms",
                 "pts_delta": 46
               },
               {
@@ -3456,11 +3231,11 @@
             "AP": "5+",
             "type": "Assault 3, Dakka, Turret"
           },
-          "Kustom Mega": {
+          "Kustom Mega Blasta": {
             "range": "24",
             "S": "8",
             "AP": "2+",
-            "type": "Assault 1, Dakka, Gets Hot!,"
+            "type": "Assault 1, Dakka, Gets Hot!, Turret"
           },
           "Rokkit Launcha": {
             "range": "24",
@@ -3480,35 +3255,17 @@
             "AP": "5+",
             "type": "Assault 3 x2, Dakka, Turret"
           },
-          "2 Linked Kustom": {
+          "2 Linked Kustom Mega Blastas": {
             "range": "24",
             "S": "8",
             "AP": "2+",
-            "type": "Assault 1 x2, Dakka,"
+            "type": "Assault 1 x2, Dakka, Monsterbane, Gets Hot!, Turret"
           },
-          "2 Linked Rokkit": {
+          "2 Linked Rokkit Launchas": {
             "range": "24",
             "S": "8",
             "AP": "3+",
-            "type": "Assault 1 x2, Dakka,"
-          },
-          "Turret": {
-            "range": "",
-            "S": "",
-            "AP": "",
-            "type": ""
-          },
-          "Blastas": {
-            "range": "Monsterbane, Gets Hot!, Turret",
-            "S": "",
-            "AP": "",
-            "type": ""
-          },
-          "Monsterbane, Turret": {
-            "range": "",
-            "S": "",
-            "AP": "",
-            "type": ""
+            "type": "Assault 1 x2, Dakka, Monsterbane, Turret"
           },
           "Big Zzappa": {
             "range": "36",
@@ -3522,23 +3279,17 @@
             "AP": "3+",
             "type": "Assault 1, Primary, Turret"
           },
-          "2 Linked Grot": {
+          "2 Linked Grot Bomms": {
             "range": "72",
             "S": "8",
             "AP": "3+",
-            "type": "Heavy 1 x2, 5\u201d Blast, Indirect"
+            "type": "Heavy 1 x2, 5\u201d Blast, Indirect Fire, Monsterbane, One Use 23 Only, May reroll Scatter Dice, Hull, Primary"
           },
           "Boom Gun": {
             "range": "36",
             "S": "8",
             "AP": "3+",
             "type": "Heavy 1, 5\u201d Blast, Monsterbane, Turret, Primary"
-          },
-          "Fire, Monsterbane, One Use": {
-            "range": "",
-            "S": "",
-            "AP": "",
-            "type": "23 Only, May reroll Scatter Dice, Hull, Primary"
           },
           "Reinforced Ram": {
             "range": "Melee",
@@ -3563,12 +3314,6 @@
             "S": "+3",
             "AP": "2+",
             "type": "Extra Attack 1"
-          },
-          "Attack": {
-            "range": "0-3",
-            "S": "",
-            "AP": "",
-            "type": ""
           }
         }
       }
@@ -3767,12 +3512,6 @@
             "AP": "3+",
             "type": "Assault 1, Monsterbane, Dakka"
           },
-          "Or": {
-            "range": "Or",
-            "S": "Or",
-            "AP": "",
-            "type": ""
-          },
           "Choppa": {
             "range": "Melee",
             "S": "User",
@@ -3908,10 +3647,6 @@
                 "pts_delta": 10
               },
               {
-                "name": "And",
-                "pts_delta": 0
-              },
-              {
                 "name": "Boss Nob",
                 "pts_delta": 8
               }
@@ -3933,7 +3668,7 @@
                 "pts_delta": 12
               },
               {
-                "name": "Tankbusta",
+                "name": "Tankbusta Bombz",
                 "pts_delta": 7
               },
               {
@@ -3968,12 +3703,6 @@
             "AP": "3+",
             "type": "Assault 1, Monsterbane, Dakka"
           },
-          "Or": {
-            "range": "Or",
-            "S": "Or",
-            "AP": "",
-            "type": ""
-          },
           "Choppa": {
             "range": "Melee",
             "S": "User",
@@ -4004,23 +3733,11 @@
             "AP": "2+",
             "type": "Slow, Monsterbane"
           },
-          "and M": {
+          "and M Choppa Melee": {
             "range": "Slugga and",
             "S": "12",
             "AP": "4 - Pistol 1, Dakka",
-            "type": ""
-          },
-          "And": {
-            "range": "And",
-            "S": "And",
-            "AP": "And",
-            "type": ""
-          },
-          "User": {
-            "range": "-",
-            "S": "Extra Attack 1",
-            "AP": "",
-            "type": ""
+            "type": "And And And And User - Extra Attack 1"
           },
           "Burna": {
             "range": "Flame",
@@ -4040,17 +3757,11 @@
             "AP": "3+",
             "type": "Assault 1, Monsterbane, Dakka 27"
           },
-          "Tankbusta": {
+          "Tankbusta Bombz": {
             "range": "6",
             "S": "8",
             "AP": "1+",
-            "type": "Grenade 1, Nonblast,"
-          },
-          "Armourbane, Monsterbane": {
-            "range": "",
-            "S": "",
-            "AP": "",
-            "type": ""
+            "type": "Grenade 1, Nonblast, Armourbane, Monsterbane"
           },
           "Stikkbombz": {
             "range": "8",
@@ -4418,7 +4129,7 @@
                 "pts_delta": 28
               },
               {
-                "name": "2 Linked Grot",
+                "name": "2 Linked Grot Bomms",
                 "pts_delta": 46
               },
               {
@@ -4479,23 +4190,17 @@
             "AP": "3+",
             "type": "Assault 1, Primary, Turret"
           },
-          "2 Linked Grot": {
+          "2 Linked Grot Bomms": {
             "range": "72",
             "S": "8",
             "AP": "3+",
-            "type": "Heavy 1 x2, 5\u201d Blast, Indirect"
+            "type": "Heavy 1 x2, 5\u201d Blast, Indirect Fire, Monsterbane, One Use Only, May reroll Scatter Dice, Hull, Primary"
           },
           "Boom Gun": {
             "range": "36",
             "S": "8",
             "AP": "3+",
             "type": "Heavy 1, 5\u201d Blast, Monsterbane, Turret, Primary 30"
-          },
-          "Fire, Monsterbane, One Use": {
-            "range": "",
-            "S": "",
-            "AP": "",
-            "type": "Only, May reroll Scatter Dice, Hull, Primary"
           }
         }
       },
@@ -4659,17 +4364,11 @@
             "AP": "5+",
             "type": "Assault 3 x2, Dakka, Hull"
           },
-          "2 Linked Wing": {
+          "2 Linked Wing Missile Rackz": {
             "range": "24",
             "S": "8",
             "AP": "3+",
-            "type": "Assault 1 x2, Dakka,"
-          },
-          "Rackz": {
-            "range": "Armourbane, Hull",
-            "S": "",
-            "AP": "",
-            "type": ""
+            "type": "Assault 1 x2, Dakka, Armourbane, Hull"
           },
           "Nose Drill": {
             "range": "Melee",
@@ -4746,29 +4445,17 @@
           }
         ],
         "weapons": {
-          "Heavy Squig": {
+          "Heavy Squig Launcha": {
             "range": "36",
             "S": "8",
             "AP": "2+",
-            "type": "Assault 1, Dakka, Monsterbane,"
+            "type": "Assault 1, Dakka, Monsterbane, Or Or Or Hull, Primary Or 32 Assault 1, 5\u201d Blast, Hull, Primary"
           },
-          "Or": {
-            "range": "Or",
-            "S": "Or",
-            "AP": "Hull, Primary Or",
-            "type": "32"
-          },
-          "1,": {
-            "range": "5\u201d",
-            "S": "",
-            "AP": "",
-            "type": "Primary"
-          },
-          "2 Linked Squig": {
+          "2 Linked Squig Launchaz": {
             "range": "36",
             "S": "7",
             "AP": "3+",
-            "type": "Assault 1 x2, Dakka, Hull"
+            "type": "Assault 1 x2, Dakka, Hull Or Or Or Or"
           },
           "Shotgun": {
             "range": "12",
@@ -4854,17 +4541,11 @@
           }
         ],
         "weapons": {
-          "Kustom Shokk": {
+          "Kustom Shokk Rifle": {
             "range": "24",
             "S": "8",
             "AP": "2+",
-            "type": "Assault 2, Dakka, Tesla, Gets"
-          },
-          "Hot!, Hull, Primary": {
-            "range": "",
-            "S": "",
-            "AP": "",
-            "type": ""
+            "type": "Assault 2, Dakka, Tesla, Gets Hot!, Hull, Primary"
           },
           "Rokkit Launcha": {
             "range": "24",
@@ -4949,7 +4630,7 @@
                 "pts_delta": 0
               },
               {
-                "name": "Kustom Mega",
+                "name": "Kustom Mega Blasta",
                 "pts_delta": 2
               },
               {
@@ -5006,35 +4687,17 @@
             "AP": "3+",
             "type": "Assault 1, Dakka, Monsterbane, Hull"
           },
-          "Kustom Mega": {
+          "Kustom Mega Blasta": {
             "range": "24",
             "S": "8",
             "AP": "2+",
-            "type": "Assault 1, Dakka, Monsterbane,"
-          },
-          "Gets Hot!": {
-            "range": "",
-            "S": "",
-            "AP": "",
-            "type": ""
-          },
-          "Gets Hot!, Turret, Primary": {
-            "range": "",
-            "S": "",
-            "AP": "",
-            "type": ""
+            "type": "Assault 1, Dakka, Monsterbane, Gets Hot!"
           },
           "Grotzooka": {
             "range": "18",
             "S": "6",
             "AP": "5+",
             "type": "Heavy 2, 3\u201d Blast, Turret, Primary"
-          },
-          "Support": {
-            "range": "0-3",
-            "S": "",
-            "AP": "",
-            "type": ""
           }
         }
       }
@@ -5201,17 +4864,11 @@
             "AP": "3+",
             "type": "Assault 1, Dakka, Monsterbane"
           },
-          "Kustom Mega": {
+          "Kustom Mega Blasta": {
             "range": "12",
             "S": "8",
             "AP": "2+",
-            "type": "Pistol 1, Dakka, Gets Hot!"
-          },
-          "Monsterbane": {
-            "range": "",
-            "S": "",
-            "AP": "",
-            "type": ""
+            "type": "Pistol 1, Dakka, Gets Hot! Monsterbane"
           },
           "Deffgun": {
             "range": "48",
@@ -5268,7 +4925,7 @@
                 "pts_delta": 46
               },
               {
-                "name": "Kustom Mega",
+                "name": "Kustom Mega Blasta Kannon",
                 "pts_delta": 72
               }
             ]
@@ -5299,17 +4956,11 @@
             "AP": "1+",
             "type": "Heavy 1, 3\u201d Blast, Destroyer, Monsterbane"
           },
-          "Kustom Mega": {
+          "Kustom Mega Blasta Kannon": {
             "range": "36",
             "S": "8",
             "AP": "2+",
-            "type": "Assault 1, 7\u201d Blast"
-          },
-          "Kannon": {
-            "range": "",
-            "S": "",
-            "AP": "",
-            "type": "37"
+            "type": "Assault 1, 7\u201d Blast 37"
           }
         }
       },
@@ -5351,7 +5002,7 @@
                 "pts_delta": 46
               },
               {
-                "name": "Kustom Mega",
+                "name": "Kustom Mega Blasta Kannon",
                 "pts_delta": 72
               }
             ]
@@ -5382,17 +5033,11 @@
             "AP": "1+",
             "type": "Heavy 1, 3\u201d Blast, Destroyer, Monsterbane"
           },
-          "Kustom Mega": {
+          "Kustom Mega Blasta Kannon": {
             "range": "36",
             "S": "8",
             "AP": "2+",
-            "type": "Assault 1, 7\u201d Blast"
-          },
-          "Kannon": {
-            "range": "",
-            "S": "",
-            "AP": "",
-            "type": "37"
+            "type": "Assault 1, 7\u201d Blast 37"
           }
         }
       },
@@ -5474,43 +5119,34 @@
           },
           {
             "description": "May swap Psychic Mastery 1 for Transport +5 and 360 Firing Ports +5 for +15 points",
-            "choices": [
-              {
-                "name": "Strength changes Da Krunch",
-                "pts_delta": 0
-              }
-            ]
+            "choices": []
           },
           {
             "description": "May take up to one S for each Psychic Mastery Level",
             "choices": [
               {
-                "name": "\u2018Ead Banger",
+                "name": "\u2018Ead Banger Cast 6+",
                 "pts_delta": 15
               },
               {
-                "name": "Da Jump",
+                "name": "Da Jump Cast 6+",
                 "pts_delta": 15
               },
               {
-                "name": "Waaagh! Energy",
+                "name": "Waaagh! Energy Cast 6+",
                 "pts_delta": 15
               },
               {
-                "name": "Da Krunch",
+                "name": "Da Krunch Cast 7+",
                 "pts_delta": 18
               },
               {
-                "name": "Power Vomit",
+                "name": "Power Vomit Cast 7+",
                 "pts_delta": 24
               },
               {
-                "name": "Warpath",
+                "name": "Warpath Cast 6+",
                 "pts_delta": 45
-              },
-              {
-                "name": "Assault",
-                "pts_delta": 0
               }
             ]
           }
@@ -5540,101 +5176,41 @@
             "AP": "3+",
             "type": "Auxiliary, Extra Attack 1 39"
           },
-          "\u2018Ead Banger": {
+          "\u2018Ead Banger Cast 6+": {
             "range": "18",
             "S": "-",
             "AP": "-",
-            "type": "Sniper (*+), target model takes"
+            "type": "Sniper (*+), target model takes a Toughness test on 2d6. If it fails, it suffers 1 Mortal Wound."
           },
-          "Da Jump": {
+          "Da Jump Cast 6+": {
             "range": "6",
             "S": "-",
             "AP": "-",
-            "type": "Friendly target unit is removed"
+            "type": "Friendly target unit is removed from the table and immediately Deepstrikes. This special Deepstrike does not grant the usual 4+ Cover Save. If targeting a Vehicle the Cast is 8+ instead."
           },
-          "Waaagh! Energy": {
+          "Waaagh! Energy Cast 6+": {
             "range": "18",
             "S": "-",
             "AP": "-",
-            "type": "Target unit gains Furious"
+            "type": "Target unit gains Furious Charge until your next Psychic Phase."
           },
-          "Da Krunch": {
+          "Da Krunch Cast 7+": {
             "range": "18",
             "S": "2d6",
             "AP": "3+",
-            "type": "Assault 1, 5\u201d Blast, Krunch \u2013"
+            "type": "Assault 1, 5\u201d Blast, Krunch \u2013 Any roll of double 1s or 6s for Scatter centers the blast on the Caster instead without Scattering. Any roll of a Double for Strength changes Da Krunch to Assault 2 for this casting."
           },
-          "Power Vomit": {
+          "Power Vomit Cast 7+": {
             "range": "Flame",
             "S": "7",
             "AP": "2+",
             "type": "Assault 1"
           },
-          "Warpath": {
+          "Warpath Cast 6+": {
             "range": "12",
             "S": "-",
             "AP": "-",
-            "type": "Target unit gains A+1 until your"
-          },
-          "6+": {
-            "range": "a Toughness test on 2d6. If it",
-            "S": "",
-            "AP": "",
-            "type": "fails, it suffers 1 Mortal Wound."
-          },
-          "7+": {
-            "range": "Any roll of double 1s or 6s for",
-            "S": "",
-            "AP": "",
-            "type": ""
-          },
-          "does not grant the": {
-            "range": "",
-            "S": "",
-            "AP": "",
-            "type": ""
-          },
-          "4+ Cover Save. If": {
-            "range": "",
-            "S": "",
-            "AP": "",
-            "type": ""
-          },
-          "a Vehicle the Cast is": {
-            "range": "",
-            "S": "",
-            "AP": "",
-            "type": "8+ instead."
-          },
-          "centers the blast on the": {
-            "range": "",
-            "S": "",
-            "AP": "",
-            "type": ""
-          },
-          "instead without": {
-            "range": "",
-            "S": "",
-            "AP": "",
-            "type": "Scattering. Any roll of a Double"
-          },
-          "Strength changes Da Krunch": {
-            "range": "",
-            "S": "",
-            "AP": "",
-            "type": ""
-          },
-          "Assault": {
-            "range": "2",
-            "S": "",
-            "AP": "",
-            "type": ""
-          },
-          "Walkers": {
-            "range": "",
-            "S": "",
-            "AP": "",
-            "type": ""
+            "type": "Target unit gains A+1 until your next Psychic Phase."
           }
         }
       },
@@ -5684,43 +5260,34 @@
           },
           {
             "description": "May swap Psychic Mastery 1 for Transport +5 and 360 Firing Ports +5 for +15 points",
-            "choices": [
-              {
-                "name": "Strength changes Da Krunch",
-                "pts_delta": 0
-              }
-            ]
+            "choices": []
           },
           {
             "description": "May take up to one S for each Psychic Mastery Level",
             "choices": [
               {
-                "name": "\u2018Ead Banger",
+                "name": "\u2018Ead Banger Cast 6+",
                 "pts_delta": 15
               },
               {
-                "name": "Da Jump",
+                "name": "Da Jump Cast 6+",
                 "pts_delta": 15
               },
               {
-                "name": "Waaagh! Energy",
+                "name": "Waaagh! Energy Cast 6+",
                 "pts_delta": 15
               },
               {
-                "name": "Da Krunch",
+                "name": "Da Krunch Cast 7+",
                 "pts_delta": 18
               },
               {
-                "name": "Power Vomit",
+                "name": "Power Vomit Cast 7+",
                 "pts_delta": 24
               },
               {
-                "name": "Warpath",
+                "name": "Warpath Cast 6+",
                 "pts_delta": 45
-              },
-              {
-                "name": "Assault",
-                "pts_delta": 0
               }
             ]
           }
@@ -5750,101 +5317,41 @@
             "AP": "3+",
             "type": "Auxiliary, Extra Attack 1 39"
           },
-          "\u2018Ead Banger": {
+          "\u2018Ead Banger Cast 6+": {
             "range": "18",
             "S": "-",
             "AP": "-",
-            "type": "Sniper (*+), target model takes"
+            "type": "Sniper (*+), target model takes a Toughness test on 2d6. If it fails, it suffers 1 Mortal Wound."
           },
-          "Da Jump": {
+          "Da Jump Cast 6+": {
             "range": "6",
             "S": "-",
             "AP": "-",
-            "type": "Friendly target unit is removed"
+            "type": "Friendly target unit is removed from the table and immediately Deepstrikes. This special Deepstrike does not grant the usual 4+ Cover Save. If targeting a Vehicle the Cast is 8+ instead."
           },
-          "Waaagh! Energy": {
+          "Waaagh! Energy Cast 6+": {
             "range": "18",
             "S": "-",
             "AP": "-",
-            "type": "Target unit gains Furious"
+            "type": "Target unit gains Furious Charge until your next Psychic Phase."
           },
-          "Da Krunch": {
+          "Da Krunch Cast 7+": {
             "range": "18",
             "S": "2d6",
             "AP": "3+",
-            "type": "Assault 1, 5\u201d Blast, Krunch \u2013"
+            "type": "Assault 1, 5\u201d Blast, Krunch \u2013 Any roll of double 1s or 6s for Scatter centers the blast on the Caster instead without Scattering. Any roll of a Double for Strength changes Da Krunch to Assault 2 for this casting."
           },
-          "Power Vomit": {
+          "Power Vomit Cast 7+": {
             "range": "Flame",
             "S": "7",
             "AP": "2+",
             "type": "Assault 1"
           },
-          "Warpath": {
+          "Warpath Cast 6+": {
             "range": "12",
             "S": "-",
             "AP": "-",
-            "type": "Target unit gains A+1 until your"
-          },
-          "6+": {
-            "range": "a Toughness test on 2d6. If it",
-            "S": "",
-            "AP": "",
-            "type": "fails, it suffers 1 Mortal Wound."
-          },
-          "7+": {
-            "range": "Any roll of double 1s or 6s for",
-            "S": "",
-            "AP": "",
-            "type": ""
-          },
-          "does not grant the": {
-            "range": "",
-            "S": "",
-            "AP": "",
-            "type": ""
-          },
-          "4+ Cover Save. If": {
-            "range": "",
-            "S": "",
-            "AP": "",
-            "type": ""
-          },
-          "a Vehicle the Cast is": {
-            "range": "",
-            "S": "",
-            "AP": "",
-            "type": "8+ instead."
-          },
-          "centers the blast on the": {
-            "range": "",
-            "S": "",
-            "AP": "",
-            "type": ""
-          },
-          "instead without": {
-            "range": "",
-            "S": "",
-            "AP": "",
-            "type": "Scattering. Any roll of a Double"
-          },
-          "Strength changes Da Krunch": {
-            "range": "",
-            "S": "",
-            "AP": "",
-            "type": ""
-          },
-          "Assault": {
-            "range": "2",
-            "S": "",
-            "AP": "",
-            "type": ""
-          },
-          "Walkers": {
-            "range": "",
-            "S": "",
-            "AP": "",
-            "type": ""
+            "type": "Target unit gains A+1 until your next Psychic Phase."
           }
         }
       },
@@ -5894,7 +5401,7 @@
                 "pts_delta": 8
               },
               {
-                "name": "Kustom Mega",
+                "name": "Kustom Mega Blasta",
                 "pts_delta": 4
               },
               {
@@ -5946,11 +5453,11 @@
             "AP": "2+",
             "type": "Auxiliary"
           },
-          "Kustom Mega": {
+          "Kustom Mega Blasta": {
             "range": "24",
             "S": "8",
             "AP": "2+",
-            "type": "Assault 1, Dakka, Gets Hot!,"
+            "type": "Assault 1, Dakka, Gets Hot!, Monsterbane, Hull"
           },
           "Skorcha": {
             "range": "Flame",
@@ -5969,12 +5476,6 @@
             "S": "8",
             "AP": "3+",
             "type": "Assault 1, Dakka, Monsterbane, Hull"
-          },
-          "Monsterbane, Hull": {
-            "range": "",
-            "S": "",
-            "AP": "",
-            "type": ""
           }
         }
       },
@@ -6025,17 +5526,11 @@
           }
         ],
         "weapons": {
-          "Deffstorm Mega": {
+          "Deffstorm Mega Shoota": {
             "range": "36",
             "S": "6",
             "AP": "3+",
-            "type": "Assault 18, Dakka, Sponson,"
-          },
-          "Primary": {
-            "range": "",
-            "S": "",
-            "AP": "",
-            "type": ""
+            "type": "Assault 18, Dakka, Sponson, Primary"
           },
           "Rokkit Launcha": {
             "range": "24",
@@ -6102,7 +5597,7 @@
             "description": "May swap any Skorcha for H",
             "choices": [
               {
-                "name": "Kustom Mega",
+                "name": "Kustom Mega Blasta",
                 "pts_delta": 0
               },
               {
@@ -6163,11 +5658,11 @@
           }
         ],
         "weapons": {
-          "Kustom Mega": {
+          "Kustom Mega Blasta": {
             "range": "24",
             "S": "8",
             "AP": "2+",
-            "type": "Assault 1, Dakka, Gets Hot!,"
+            "type": "Assault 1, Dakka, Gets Hot!, Monsterbane, Hull"
           },
           "Skorcha": {
             "range": "Flame",
@@ -6186,12 +5681,6 @@
             "S": "8",
             "AP": "3+",
             "type": "Assault 1, Dakka, Monsterbane, Hull"
-          },
-          "Monsterbane, Hull": {
-            "range": "",
-            "S": "",
-            "AP": "",
-            "type": ""
           },
           "Killsaw": {
             "range": "Melee",
@@ -6285,7 +5774,7 @@
             "description": "May take one G",
             "choices": [
               {
-                "name": "Rokkit Bomm",
+                "name": "Rokkit Bomm Rackz",
                 "pts_delta": 6
               }
             ]
@@ -6343,17 +5832,11 @@
             "AP": "2+",
             "type": "Slow, Monsterbane, Primary"
           },
-          "Rokkit Bomm": {
+          "Rokkit Bomm Rackz": {
             "range": "24",
             "S": "5",
             "AP": "4+",
-            "type": "Assault 1, 3\u201d Blast, Indirect Fire,"
-          },
-          "Hull": {
-            "range": "",
-            "S": "",
-            "AP": "",
-            "type": "43"
+            "type": "Assault 1, 3\u201d Blast, Indirect Fire, Hull 43"
           }
         }
       },
@@ -6419,17 +5902,11 @@
           }
         ],
         "weapons": {
-          "Kustom Mega": {
+          "Kustom Mega Blasta Kannon": {
             "range": "36",
             "S": "8",
             "AP": "2+",
-            "type": "Assault 1, 7\u201d Blast,"
-          },
-          "Kannon": {
-            "range": "Monsterbane, Sponson,",
-            "S": "",
-            "AP": "",
-            "type": "Primary"
+            "type": "Assault 1, 7\u201d Blast, Monsterbane, Sponson, Primary"
           },
           "Rokkit Launcha": {
             "range": "24",
@@ -6600,7 +6077,7 @@
                 "pts_delta": 78
               },
               {
-                "name": "4 Linked Flakka",
+                "name": "4 Linked Flakka Gunz",
                 "pts_delta": 80
               },
               {
@@ -6691,23 +6168,17 @@
             "AP": "2+",
             "type": "Heavy 1, 5\u201d Blast, Turret, Primary"
           },
-          "4 Linked Flakka": {
+          "4 Linked Flakka Gunz": {
             "range": "36",
             "S": "7",
             "AP": "4+",
-            "type": "Assault 2 x4, Dakka, AA,"
+            "type": "Assault 2 x4, Dakka, AA, Monsterbane, Turret, Primary"
           },
           "Big Lobba": {
             "range": "72",
             "S": "9",
             "AP": "2+",
             "type": "Heavy 1, 5\u201d Blast, Indirect, Pinning, Turret, Primary"
-          },
-          "Monsterbane, Turret, Primary": {
-            "range": "",
-            "S": "",
-            "AP": "",
-            "type": ""
           },
           "Skorcha": {
             "range": "Flame",
@@ -6805,19 +6276,19 @@
                 "pts_delta": 0
               },
               {
-                "name": "2 Linked Kustom",
+                "name": "2 Linked Kustom Mega Blastaz",
                 "pts_delta": 4
               },
               {
-                "name": "2 Linked Rokkit",
+                "name": "2 Linked Rokkit Launchaz",
                 "pts_delta": 8
               },
               {
-                "name": "2 Linked",
+                "name": "2 Linked Grotzookaz",
                 "pts_delta": 14
               },
               {
-                "name": "4 Linked Big",
+                "name": "4 Linked Big Shootaz",
                 "pts_delta": 30
               },
               {
@@ -6833,7 +6304,7 @@
                 "pts_delta": 4
               },
               {
-                "name": "2 Rokkit",
+                "name": "2 Rokkit Launchaz",
                 "pts_delta": 6
               },
               {
@@ -6849,7 +6320,7 @@
                 "pts_delta": 2
               },
               {
-                "name": "Kustom Mega",
+                "name": "Kustom Mega Blasta",
                 "pts_delta": 2
               },
               {
@@ -6903,53 +6374,29 @@
             "AP": "4+",
             "type": "Assault 1 x2, Turret, Primary"
           },
-          "2 Linked Kustom": {
+          "2 Linked Kustom Mega Blastaz": {
             "range": "24",
             "S": "8",
             "AP": "2+",
-            "type": "Assault 1 x2, Dakka, Gets Hot!"
+            "type": "Assault 1 x2, Dakka, Gets Hot! Monsterbane, Turret, Primary"
           },
-          "2 Linked Rokkit": {
+          "2 Linked Rokkit Launchaz": {
             "range": "24",
             "S": "8",
             "AP": "3+",
-            "type": "Assault 1 x2, Dakka,"
+            "type": "Assault 1 x2, Dakka, Monsterbane, Turret, Primary"
           },
-          "2 Linked": {
+          "2 Linked Grotzookaz": {
             "range": "18",
             "S": "6",
             "AP": "5+",
-            "type": "Heavy 2 x2, 3\u201d Blast, Turret,"
+            "type": "Heavy 2 x2, 3\u201d Blast, Turret, Primary"
           },
-          "4 Linked Big": {
+          "4 Linked Big Shootaz": {
             "range": "36",
             "S": "5",
             "AP": "5+",
-            "type": "Assault 3 x4, Dakka, Turret,"
-          },
-          "Blastaz": {
-            "range": "Monsterbane, Turret, Primary",
-            "S": "",
-            "AP": "",
-            "type": ""
-          },
-          "Monsterbane, Turret, Primary": {
-            "range": "",
-            "S": "",
-            "AP": "",
-            "type": ""
-          },
-          "Monsterbane, Sponson": {
-            "range": "",
-            "S": "",
-            "AP": "",
-            "type": ""
-          },
-          "Primary": {
-            "range": "",
-            "S": "",
-            "AP": "",
-            "type": ""
+            "type": "Assault 3 x4, Dakka, Turret, Primary"
           },
           "2 Skorchaz": {
             "range": "Flame",
@@ -6969,11 +6416,11 @@
             "AP": "5+",
             "type": "Assault 3 x2, Dakka, Sponson 47"
           },
-          "2 Rokkit": {
+          "2 Rokkit Launchaz": {
             "range": "24",
             "S": "8",
             "AP": "3+",
-            "type": "Assault 1 x2, Dakka,"
+            "type": "Assault 1 x2, Dakka, Monsterbane, Sponson"
           },
           "2 Grotzookaz": {
             "range": "18",
@@ -6993,11 +6440,11 @@
             "AP": "5+",
             "type": "Assault 3, Dakka, Turret"
           },
-          "Kustom Mega": {
+          "Kustom Mega Blasta": {
             "range": "24",
             "S": "8",
             "AP": "2+",
-            "type": "Assault 1, Dakka, Gets Hot!,"
+            "type": "Assault 1, Dakka, Gets Hot!, Monsterbane, Turret"
           },
           "Rokkit Launcha": {
             "range": "24",
@@ -7010,12 +6457,6 @@
             "S": "6",
             "AP": "5+",
             "type": "Heavy 2, 3\u201d Blast, Turret"
-          },
-          "Monsterbane, Turret": {
-            "range": "",
-            "S": "",
-            "AP": "",
-            "type": ""
           },
           "Shoota": {
             "range": "18",
@@ -7102,7 +6543,7 @@
                 "pts_delta": 51
               },
               {
-                "name": "4 Linked Flakka",
+                "name": "4 Linked Flakka Gunz",
                 "pts_delta": 80
               },
               {
@@ -7185,17 +6626,11 @@
             "AP": "3+",
             "type": "Heavy 1, 5\u201d Blast, Turret, Primary"
           },
-          "4 Linked Flakka": {
+          "4 Linked Flakka Gunz": {
             "range": "36",
             "S": "7",
             "AP": "4+",
-            "type": "Assault 2 x4, Dakka, AA,"
-          },
-          "Monsterbane, Turret, Primary": {
-            "range": "",
-            "S": "",
-            "AP": "",
-            "type": ""
+            "type": "Assault 2 x4, Dakka, AA, Monsterbane, Turret, Primary"
           },
           "Reinforced Ram": {
             "range": "Melee",
@@ -7272,7 +6707,7 @@
                 "pts_delta": 0
               },
               {
-                "name": "Kill Krusha",
+                "name": "Kill Krusha Kannon",
                 "pts_delta": 9
               },
               {
@@ -7310,7 +6745,7 @@
                 "pts_delta": 12
               },
               {
-                "name": "2 Linked Rokkit",
+                "name": "2 Linked Rokkit Launchaz",
                 "pts_delta": 14
               }
             ]
@@ -7357,23 +6792,17 @@
             "AP": "3+",
             "type": "Heavy 20, Dakka, Hull, Primary"
           },
-          "Kill Krusha": {
+          "Kill Krusha Kannon": {
             "range": "60",
             "S": "D",
             "AP": "1+",
-            "type": "Heavy 1, 3\u201d Blast, Destroyer,"
+            "type": "Heavy 1, 3\u201d Blast, Destroyer, Or Or Monsterbane, Hull, Primary Or 8       3+       Heavy 1, 5\u201d Blast, Ordnance, Monsterbane, Hull, Primary"
           },
           "Belly Gun": {
             "range": "72",
             "S": "7",
             "AP": "3+",
             "type": "Heavy 1, 10\u201d Blast, Ordnance, Hull, Primary"
-          },
-          "Or": {
-            "range": "Or",
-            "S": "Monsterbane, Hull, Primary Or",
-            "AP": "",
-            "type": "8       3+       Heavy 1, 5\u201d Blast, Ordnance, Monsterbane, Hull, Primary"
           },
           "2 Big Shootaz": {
             "range": "36",
@@ -7405,35 +6834,17 @@
             "AP": "5+",
             "type": "Assault 3 x2, Dakka, Hull"
           },
-          "2 Linked Rokkit": {
+          "2 Linked Rokkit Launchaz": {
             "range": "24",
             "S": "8",
             "AP": "3+",
-            "type": "Assault 1 x2, Dakka,"
-          },
-          "Monsterbane, Hull": {
-            "range": "",
-            "S": "",
-            "AP": "",
-            "type": ""
+            "type": "Assault 1 x2, Dakka, Monsterbane, Hull"
           },
           "Grot Bomm": {
             "range": "72",
             "S": "8",
             "AP": "3+",
-            "type": "Heavy 1, 5\u201d Blast, Reroll Scatter Dice, Indirect, Monsterbane,"
-          },
-          "Use Only, Hull": {
-            "range": "",
-            "S": "",
-            "AP": "",
-            "type": ""
-          },
-          "0-2 Slots": {
-            "range": "",
-            "S": "",
-            "AP": "",
-            "type": ""
+            "type": "Heavy 1, 5\u201d Blast, Reroll Scatter Dice, Indirect, Monsterbane, One Use Only, Hull"
           }
         }
       }
@@ -7506,41 +6917,23 @@
           }
         ],
         "weapons": {
-          "4 Linked Big": {
+          "4 Linked Big Shootaz": {
             "range": "36",
             "S": "5",
             "AP": "5+",
-            "type": "Assault 3 x4, Dakka, Hull,"
-          },
-          "Primary": {
-            "range": "",
-            "S": "",
-            "AP": "",
-            "type": ""
+            "type": "Assault 3 x4, Dakka, Hull, Primary"
           },
           "2 Linked Bommz": {
             "range": "Bomb",
             "S": "6",
             "AP": "4+",
-            "type": "Heavy 1, 5\u201d Blast, Pinning, One"
+            "type": "Heavy 1, 5\u201d Blast, Pinning, One Use Only, Hull"
           },
           "2 Linked Rokkitz": {
             "range": "72",
             "S": "8",
             "AP": "3+",
-            "type": "Assault 1 x2, Dakka, Monsterbane, Armourbane,"
-          },
-          "Only, Hull": {
-            "range": "",
-            "S": "",
-            "AP": "",
-            "type": ""
-          },
-          "Use Only, Hull": {
-            "range": "",
-            "S": "",
-            "AP": "",
-            "type": "50"
+            "type": "Assault 1 x2, Dakka, Monsterbane, Armourbane, One Use Only, Hull 50"
           }
         }
       },
@@ -7585,23 +6978,15 @@
             "description": "May add up to two more Bommerz for +143 points each Any model may swap 2 Linked Burna Bommz for B Any model may take one W The unit may take up to one of each E",
             "choices": [
               {
-                "name": "2 Linked Burna",
+                "name": "2 Linked Burna Bommz",
                 "pts_delta": 0
               },
               {
-                "name": "2 Linked Boom",
+                "name": "2 Linked Boom Bommz",
                 "pts_delta": 16
               },
               {
-                "name": "Cover, One Use Only, Hull",
-                "pts_delta": 0
-              },
-              {
-                "name": "One Use Only, Hull",
-                "pts_delta": 0
-              },
-              {
-                "name": "2 Linked Skorcha",
+                "name": "2 Linked Skorcha Missilez",
                 "pts_delta": 10
               },
               {
@@ -7632,17 +7017,11 @@
           }
         ],
         "weapons": {
-          "2 Linked Supa": {
+          "2 Linked Supa Shootaz": {
             "range": "36",
             "S": "6",
             "AP": "4+",
-            "type": "Assault 3 x2, Dakka, Hull,"
-          },
-          "Primary": {
-            "range": "",
-            "S": "",
-            "AP": "",
-            "type": ""
+            "type": "Assault 3 x2, Dakka, Hull, Primary"
           },
           "Big Shoota": {
             "range": "36",
@@ -7650,59 +7029,35 @@
             "AP": "5+",
             "type": "Assault 3, Dakka, AA, Hull"
           },
-          "2 Linked Burna": {
+          "2 Linked Burna Bommz": {
             "range": "Bomb",
             "S": "5",
             "AP": "3+",
-            "type": "Heavy 1 x2, 5\u201d Blast, Ignores"
+            "type": "Heavy 1 x2, 5\u201d Blast, Ignores Cover, One Use Only, Hull"
           },
-          "2 Linked Boom": {
+          "2 Linked Boom Bommz": {
             "range": "Bomb",
             "S": "7",
             "AP": "2+",
-            "type": "Heavy 1, 5\u201d Blast, Armourbane,"
+            "type": "Heavy 1, 5\u201d Blast, Armourbane, One Use Only, Hull"
           },
-          "Cover, One Use Only, Hull": {
-            "range": "",
-            "S": "",
-            "AP": "",
-            "type": ""
-          },
-          "One Use Only, Hull": {
-            "range": "",
-            "S": "",
-            "AP": "",
-            "type": ""
-          },
-          "2 Linked Skorcha": {
+          "2 Linked Skorcha Missilez": {
             "range": "24",
             "S": "5",
             "AP": "4+",
-            "type": "Heavy 1 x2, 5\u201d Blast, Ignores"
+            "type": "Heavy 1 x2, 5\u201d Blast, Ignores Cover, One Use Only, Hull"
           },
           "2 Linked Bommz": {
             "range": "Bomb",
             "S": "6",
             "AP": "4+",
-            "type": "Heavy 1, 5\u201d Blast, Pinning, One"
+            "type": "Heavy 1, 5\u201d Blast, Pinning, One Use Only, Hull"
           },
           "2 Linked Rokkitz": {
             "range": "72",
             "S": "8",
             "AP": "3+",
-            "type": "Assault 1 x2, Dakka, Monsterbane, Armourbane,"
-          },
-          "Only, Hull": {
-            "range": "",
-            "S": "",
-            "AP": "",
-            "type": ""
-          },
-          "Use Only, Hull": {
-            "range": "",
-            "S": "",
-            "AP": "",
-            "type": "51"
+            "type": "Assault 1 x2, Dakka, Monsterbane, Armourbane, One Use Only, Hull 51"
           }
         }
       },
@@ -7747,16 +7102,12 @@
             "description": "May add up to two more Blastjetz for +156 points each Any model may swap 2 Linked Kustom Mega Kannonz for H Any model may take one T The unit may take up to one of each E",
             "choices": [
               {
-                "name": "2 Linked Kustom",
+                "name": "2 Linked Kustom Mega Kannonz",
                 "pts_delta": 0
               },
               {
-                "name": "2 Linked",
+                "name": "2 Linked Tellyporty Mega Blastaz",
                 "pts_delta": 18
-              },
-              {
-                "name": "Kannonz",
-                "pts_delta": 0
               },
               {
                 "name": "2 Linked Supa Shootaz",
@@ -7772,41 +7123,23 @@
             "AP": "1+",
             "type": "Heavy 1, 3\u201d Blast, Hull, Primary"
           },
-          "2 Linked Kustom": {
+          "2 Linked Kustom Mega Kannonz": {
             "range": "36",
             "S": "8",
             "AP": "2+",
-            "type": "Heavy 1 x2, 3\u201d Blast, Gets Hot!,"
+            "type": "Heavy 1 x2, 3\u201d Blast, Gets Hot!, Hull, Primary"
           },
-          "2 Linked": {
+          "2 Linked Tellyporty Mega Blastaz": {
             "range": "18",
             "S": "D",
             "AP": "2+",
-            "type": "Heavy 1, Dakka, Destroyer,"
-          },
-          "Kannonz": {
-            "range": "Hull, Primary",
-            "S": "",
-            "AP": "",
-            "type": ""
-          },
-          "Mega Blastaz": {
-            "range": "Monsterbane, Hull",
-            "S": "",
-            "AP": "",
-            "type": ""
+            "type": "Heavy 1, Dakka, Destroyer, Monsterbane, Hull"
           },
           "2 Linked Supa Shootaz": {
             "range": "36",
             "S": "6",
             "AP": "4+",
             "type": "Assault 3 x2, Dakka, AA, Turret"
-          },
-          "Transport": {
-            "range": "0-1/Legal",
-            "S": "",
-            "AP": "",
-            "type": ""
           }
         }
       },
@@ -7850,16 +7183,12 @@
             "description": "May add up to two more Blastjetz for +156 points each Any model may swap 2 Linked Kustom Mega Kannonz for H Any model may take one T The unit may take up to one of each E",
             "choices": [
               {
-                "name": "2 Linked Kustom",
+                "name": "2 Linked Kustom Mega Kannonz",
                 "pts_delta": 0
               },
               {
-                "name": "2 Linked",
+                "name": "2 Linked Tellyporty Mega Blastaz",
                 "pts_delta": 18
-              },
-              {
-                "name": "Kannonz",
-                "pts_delta": 0
               },
               {
                 "name": "2 Linked Supa Shootaz",
@@ -7875,41 +7204,23 @@
             "AP": "1+",
             "type": "Heavy 1, 3\u201d Blast, Hull, Primary"
           },
-          "2 Linked Kustom": {
+          "2 Linked Kustom Mega Kannonz": {
             "range": "36",
             "S": "8",
             "AP": "2+",
-            "type": "Heavy 1 x2, 3\u201d Blast, Gets Hot!,"
+            "type": "Heavy 1 x2, 3\u201d Blast, Gets Hot!, Hull, Primary"
           },
-          "2 Linked": {
+          "2 Linked Tellyporty Mega Blastaz": {
             "range": "18",
             "S": "D",
             "AP": "2+",
-            "type": "Heavy 1, Dakka, Destroyer,"
-          },
-          "Kannonz": {
-            "range": "Hull, Primary",
-            "S": "",
-            "AP": "",
-            "type": ""
-          },
-          "Mega Blastaz": {
-            "range": "Monsterbane, Hull",
-            "S": "",
-            "AP": "",
-            "type": ""
+            "type": "Heavy 1, Dakka, Destroyer, Monsterbane, Hull"
           },
           "2 Linked Supa Shootaz": {
             "range": "36",
             "S": "6",
             "AP": "4+",
             "type": "Assault 3 x2, Dakka, AA, Turret"
-          },
-          "Transport": {
-            "range": "0-1/Legal",
-            "S": "",
-            "AP": "",
-            "type": ""
           }
         }
       }
@@ -7958,16 +7269,12 @@
             "description": "May swap 2 Linked Rattler Kannonz for H",
             "choices": [
               {
-                "name": "2 Linked Rattler",
+                "name": "2 Linked Rattler Kannonz",
                 "pts_delta": 0
               },
               {
-                "name": "2 Linked",
+                "name": "2 Linked Deffgunz",
                 "pts_delta": 10
-              },
-              {
-                "name": "Primary",
-                "pts_delta": 0
               }
             ]
           },
@@ -7979,7 +7286,7 @@
                 "pts_delta": 0
               },
               {
-                "name": "Kustom Mega",
+                "name": "Kustom Mega Blasta",
                 "pts_delta": 0
               },
               {
@@ -8024,29 +7331,17 @@
           }
         ],
         "weapons": {
-          "2 Linked Rattler": {
+          "2 Linked Rattler Kannonz": {
             "range": "24",
             "S": "4",
             "AP": "6+",
-            "type": "Assault 2d6, Dakka, Jam!, Hull,"
+            "type": "Assault 2d6, Dakka, Jam!, Hull, Primary"
           },
-          "2 Linked": {
+          "2 Linked Deffgunz": {
             "range": "48",
             "S": "7",
             "AP": "4+",
-            "type": "Heavy d3+1, Dakka,"
-          },
-          "Primary": {
-            "range": "",
-            "S": "",
-            "AP": "",
-            "type": ""
-          },
-          "Monsterbane, Hull, Primary": {
-            "range": "",
-            "S": "",
-            "AP": "",
-            "type": ""
+            "type": "Heavy d3+1, Dakka, Monsterbane, Hull, Primary"
           },
           "Skorcha": {
             "range": "Flame",
@@ -8054,11 +7349,11 @@
             "AP": "4+",
             "type": "Assault 1, Hull, Primary"
           },
-          "Kustom Mega": {
+          "Kustom Mega Blasta": {
             "range": "24",
             "S": "8",
             "AP": "2+",
-            "type": "Assault 1, Dakka, Monsterbane,"
+            "type": "Assault 1, Dakka, Monsterbane, Hull"
           },
           "Big Shoota": {
             "range": "36",
@@ -8072,23 +7367,11 @@
             "AP": "3+",
             "type": "Assault 1, Dakka, Monsterbane, Hull"
           },
-          "Hull": {
-            "range": "",
-            "S": "",
-            "AP": "",
-            "type": ""
-          },
           "Bigg Bomm": {
             "range": "Bomb",
             "S": "6",
             "AP": "4+",
             "type": "Heavy 1, 5\u201d Blast, One Use Only, Hull"
-          },
-          "of War": {
-            "range": "0-1",
-            "S": "",
-            "AP": "",
-            "type": ""
           }
         }
       }
@@ -8180,41 +7463,23 @@
             "AP": "1+",
             "type": "Heavy 1, Dakka, Destroyer, Monsterbane, Hull"
           },
-          "3 Linked Big": {
+          "3 Linked Big Shootaz": {
             "range": "36",
             "S": "5",
             "AP": "5+",
-            "type": "Assault 3 x3, Dakka, Hull,"
-          },
-          "Primary": {
-            "range": "",
-            "S": "",
-            "AP": "",
-            "type": ""
+            "type": "Assault 3 x3, Dakka, Hull, Primary"
           },
           "Crushing Feet": {
             "range": "Bomb",
             "S": "10",
             "AP": "1+",
-            "type": "Heavy 1, 7\u201d Blast, No Scatter,"
-          },
-          "Not Hit Self, Hull, Primary": {
-            "range": "",
-            "S": "",
-            "AP": "",
-            "type": ""
+            "type": "Heavy 1, 7\u201d Blast, No Scatter, Does Not Hit Self, Hull, Primary"
           },
           "Supa Rokkit": {
             "range": "120",
             "S": "8",
             "AP": "3+",
-            "type": "Heavy 1, 5\u201d Blast, Ordnance,"
-          },
-          "Use Only, Hull, Primary": {
-            "range": "",
-            "S": "",
-            "AP": "",
-            "type": ""
+            "type": "Heavy 1, 5\u201d Blast, Ordnance, One Use Only, Hull, Primary"
           }
         }
       },
@@ -8263,7 +7528,7 @@
                 "pts_delta": 0
               },
               {
-                "name": "2 Linked Big",
+                "name": "2 Linked Big Zzappaz",
                 "pts_delta": 13
               },
               {
@@ -8296,7 +7561,7 @@
                 "pts_delta": 78
               },
               {
-                "name": "4 Linked Flakka",
+                "name": "4 Linked Flakka Gunz",
                 "pts_delta": 80
               }
             ]
@@ -8326,11 +7591,11 @@
                 "pts_delta": 7
               },
               {
-                "name": "2 Linked Big",
+                "name": "2 Linked Big Shootaz",
                 "pts_delta": 12
               },
               {
-                "name": "2 Linked Rokkit",
+                "name": "2 Linked Rokkit Launchaz",
                 "pts_delta": 14
               }
             ]
@@ -8395,23 +7660,17 @@
             "AP": "5+",
             "type": "Heavy 1, 3\u201d Blast, Indirect Fire, Pinning, Sponson, Primary"
           },
-          "2 Linked Big": {
+          "2 Linked Big Zzappaz": {
             "range": "36",
             "S": "6",
             "AP": "-",
-            "type": "Assault 3 x2, Dakka, Tesla,"
+            "type": "Assault 3 x2, Dakka, Tesla, Sponson, Primary"
           },
           "Boom Gun": {
             "range": "36",
             "S": "8",
             "AP": "3+",
             "type": "Heavy 1, 5\u201d Blast, Sponson, Primary"
-          },
-          "Sponson, Primary": {
-            "range": "",
-            "S": "",
-            "AP": "",
-            "type": ""
           },
           "Killkannon": {
             "range": "24",
@@ -8431,17 +7690,11 @@
             "AP": "2+",
             "type": "Heavy 1, 5\u201d Blast, Turret, Primary"
           },
-          "4 Linked Flakka": {
+          "4 Linked Flakka Gunz": {
             "range": "36",
             "S": "7",
             "AP": "4+",
-            "type": "Assault 2 x4, Dakka, AA,"
-          },
-          "Monsterbane, Turret, Primary": {
-            "range": "",
-            "S": "",
-            "AP": "",
-            "type": ""
+            "type": "Assault 2 x4, Dakka, AA, Monsterbane, Turret, Primary"
           },
           "2 Big Shootaz": {
             "range": "36",
@@ -8467,23 +7720,17 @@
             "AP": "3+",
             "type": "Assault 1, Dakka, Monsterbane, Hull, Primary"
           },
-          "2 Linked Rokkit": {
+          "2 Linked Big Shootaz": {
+            "range": "36",
+            "S": "5",
+            "AP": "5+",
+            "type": "Assault 3 x2, Dakka, Hull, Primary"
+          },
+          "2 Linked Rokkit Launchaz": {
             "range": "24",
             "S": "8",
             "AP": "3+",
-            "type": "Assault 1 x2, Dakka,"
-          },
-          "Primary": {
-            "range": "",
-            "S": "",
-            "AP": "",
-            "type": ""
-          },
-          "Monsterbane, Hull, Primary": {
-            "range": "",
-            "S": "",
-            "AP": "",
-            "type": ""
+            "type": "Assault 1 x2, Dakka, Monsterbane, Hull, Primary"
           },
           "Grabbin Klaw": {
             "range": "Melee",
@@ -8651,11 +7898,11 @@
             "AP": "3+",
             "type": "Heavy 1, 5\u201d Blast, Ordnance, Hull, Primary"
           },
-          "4 Linked Big": {
+          "4 Linked Big Shootaz": {
             "range": "36",
             "S": "5",
             "AP": "5+",
-            "type": "Assault 3 x4, Dakka, Hull,"
+            "type": "Assault 3 x4, Dakka, Hull, Primary"
           },
           "Big Shoota": {
             "range": "36",
@@ -8669,23 +7916,11 @@
             "AP": "4+",
             "type": "Assault 1, Hull, Primary"
           },
-          "Primary": {
-            "range": "",
-            "S": "",
-            "AP": "",
-            "type": ""
-          },
           "Mega Klaw": {
             "range": "Melee",
             "S": "D",
             "AP": "1+",
             "type": "Slow, Destroyer, Monsterbane, Primary"
-          },
-          "0-1/1000 points": {
-            "range": "",
-            "S": "",
-            "AP": "",
-            "type": ""
           }
         }
       }
