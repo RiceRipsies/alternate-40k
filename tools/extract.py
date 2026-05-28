@@ -412,6 +412,14 @@ def parse_codex(text: str, source_name: str, weapon_tables: dict | None = None) 
                 # "ModelName:" lines introduce per-model wargear sections
                 if sl.endswith(':') and not sl.startswith('Special'):
                     current_model_wg = sl[:-1]
+                elif fixed_wargear and sl and (
+                    sl[0].islower() or
+                    # Single-word uppercase continuation of a numbered item:
+                    # "2 Dreadnought Missile" + "Launchers"
+                    (' ' not in sl and not sl[0].isdigit() and
+                     fixed_wargear[-1] and fixed_wargear[-1][0].isdigit())
+                ):
+                    fixed_wargear[-1] += ' ' + sl
                 else:
                     fixed_wargear.append(sl)
 

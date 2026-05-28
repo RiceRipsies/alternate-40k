@@ -1621,10 +1621,13 @@ function openUnitModal(unit, existingEntry = null, existingIdx = null) {
     </div>` : '';
 
   // ── Options (wargear swaps / upgrades) ──
-  // Separate options that were already consumed as model-add steppers
-  const addModelRe = /(?:add|take)(?:\s+up\s+to)?\s+\d+\s+more\s+[\w\s']+?\s+for\s+\+\d+\s+points?\s+each/i;
-  const opts = (unit.options ?? []).map((opt, gi) => ({ ...opt, gi }))
-    .filter(opt => !addModelRe.test(opt.description));
+  // Strip add-model text from descriptions (already handled by model steppers).
+  // Keep the option if it still has choices; drop it only if the description was
+  // purely about adding models and has no choices of its own.
+  const opts = (unit.options ?? []).map((opt, gi) => {
+    const desc = (opt.description ?? '').replace(_ADD_MODEL_RE, '').trim();
+    return { ...opt, description: desc, gi };
+  }).filter(opt => opt.choices?.length || opt.description.trim());
 
   const choiceOpts  = opts.filter(o => o.choices?.length);
   const infoOpts    = opts.filter(o => !o.choices?.length);
@@ -1694,13 +1697,14 @@ function parseCompositionModels(comp) {
   return result;
 }
 
+const _WORD_TO_NUM = {one:1,two:2,three:3,four:4,five:5,six:6,seven:7,eight:8,nine:9,ten:10,fifteen:15,twenty:20};
+const _ADD_MODEL_RE = /(?:add|take)(?:\s+up\s+to)?\s+(\d+|one|two|three|four|five|six|seven|eight|nine|ten|fifteen|twenty)\s+more\s+([\w\s']+?)\s+for\s+\+(\d+)\s+points?\s+each/i;
+
 function extractAddModelCosts(options) {
   const costs = {};
   for (const opt of options) {
-    const m = (opt.description ?? '').match(
-      /(?:add|take)(?:\s+up\s+to)?\s+\d+\s+more\s+([\w\s']+?)\s+for\s+\+(\d+)\s+points?\s+each/i
-    );
-    if (m) costs[m[1].trim().toLowerCase()] = parseInt(m[2]);
+    const m = (opt.description ?? '').match(_ADD_MODEL_RE);
+    if (m) costs[m[2].trim().toLowerCase()] = parseInt(m[3]);
   }
   return costs;
 }
