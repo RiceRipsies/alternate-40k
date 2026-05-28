@@ -600,6 +600,20 @@ button {
   flex: 1;
 }
 
+#play-back-btn {
+  background: transparent;
+  border: 1px solid var(--border);
+  color: var(--text-dim);
+  padding: 6px 14px;
+  font-size: 12px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  border-radius: 2px;
+  font-family: inherit;
+  white-space: nowrap;
+}
+#play-back-btn:hover { border-color: var(--gold); color: var(--gold); }
+
 
 #play-units {
   padding: 24px 32px 40px;
@@ -1039,6 +1053,7 @@ button {
     <div id="view-play">
       <div id="play-topbar">
         <h2 id="play-title">Army Roster</h2>
+        <button id="play-back-btn">← Build Mode</button>
       </div>
       <div id="play-units"></div>
     </div>
@@ -1140,10 +1155,11 @@ const forcePanel    = D('force-panel');
 
 // ── INIT ─────────────────────────────────────────────────────────
 async function init() {
+  const noCache = { cache: 'no-cache' };
   const [factionsRes, kwRes, wpRes] = await Promise.all([
-    fetch('data/factions.json').catch(() => null),
-    fetch('data/core-keywords.json').catch(() => null),
-    fetch('data/weapons.json').catch(() => null),
+    fetch('data/factions.json', noCache).catch(() => null),
+    fetch('data/core-keywords.json', noCache).catch(() => null),
+    fetch('data/weapons.json', noCache).catch(() => null),
   ]);
   if (!factionsRes?.ok) { D('faction-list-container').innerHTML = '<div class="empty-state">Could not load factions. Run the data extractor first.</div>'; return; }
   state.factions = await factionsRes.json();
@@ -1203,7 +1219,7 @@ async function selectFaction(id) {
   saveList();
 
   // Load codex async — slots are already interactive above
-  const res = await fetch(`data/${meta.file}`).catch(() => null);
+  const res = await fetch(`data/${meta.file}`, { cache: 'no-cache' }).catch(() => null);
   if (res?.ok) {
     state.codex = await res.json();
     populateSubfactions();
@@ -1686,7 +1702,6 @@ function openPlayMode() {
   playView.style.display = 'flex';
   playView.style.flexDirection = 'column';
   D('play-title').textContent = state.faction?.name ?? 'Army Roster';
-  D('play-btn').textContent = '← Build Mode';
   renderPlayMode();
   if (window.innerWidth <= 700) closeForcePanel();
 }
@@ -1694,7 +1709,6 @@ function openPlayMode() {
 function closePlayMode() {
   playView.style.display = 'none';
   armyView.style.display = '';
-  D('play-btn').textContent = 'Play Mode ▶';
 }
 
 function getEffectiveWargear(entry) {
@@ -1886,13 +1900,8 @@ function renderPlayMode() {
   D('play-units').innerHTML = html || `<div class="empty-state" style="padding:48px 0">No units in your list yet.</div>`;
 }
 
-D('play-btn').addEventListener('click', () => {
-  if (playView.style.display === 'none' || !playView.style.display) {
-    openPlayMode();
-  } else {
-    closePlayMode();
-  }
-});
+D('play-btn').addEventListener('click', () => { openPlayMode(); });
+D('play-back-btn').addEventListener('click', () => { closePlayMode(); });
 
 // ── KEYWORD POPUP ─────────────────────────────────────────────────
 (function() {
