@@ -691,8 +691,10 @@ def parse_codex(text: str, source_name: str, weapon_tables: dict | None = None) 
                 len(unit_name) <= 2 or
                 unit_name[0].isdigit() or                      # "0-1 Lord of War Slots" etc.
                 re.match(r'^[A-Z0-9\+\-]+$', unit_name) or   # bare stat/code like "AP", "3+"
+                re.match(r'^[A-Z]{1,4}\s*\+\d+\s+points?', unit_name) or  # "P +5 points", "T +33 points"
                 SP_WG_HDR_RE.match(unit_name) or
-                SP_WG_UPG_RE.match(unit_name)):
+                SP_WG_UPG_RE.match(unit_name) or
+                WEAPON_HDR_RE.match(unit_name)):                           # "Name", "Range", "AP" etc.
             continue
 
         unit = {
