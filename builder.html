@@ -941,9 +941,8 @@ button {
   #play-units { padding: 16px 16px 32px; }
 }
 
-/* ── EXPORT PANEL ── */
-#export-btn {
-  margin: auto 16px 16px;
+/* ── EXPORT / IMPORT PANEL ── */
+#export-btn, #save-army-btn, #import-army-btn {
   background: transparent;
   border: 1px solid var(--border);
   color: var(--text-dim);
@@ -952,9 +951,24 @@ button {
   text-transform: uppercase;
   letter-spacing: 1px;
   border-radius: 2px;
+  cursor: pointer;
+}
+#export-btn:hover, #save-army-btn:hover, #import-army-btn:hover {
+  border-color: var(--gold);
+  color: var(--gold);
+}
+#export-btn {
+  margin: auto 16px 6px;
   width: calc(100% - 32px);
 }
-#export-btn:hover { border-color: var(--gold); color: var(--gold); }
+#army-io-row {
+  display: flex;
+  gap: 6px;
+  margin: 0 16px 16px;
+}
+#save-army-btn, #import-army-btn {
+  flex: 1;
+}
 
 /* ── MOBILE ── */
 @media (max-width: 700px) {
@@ -1050,7 +1064,12 @@ button {
 
     <button id="play-btn">Play Mode ▶</button>
 
-    <button id="export-btn">Export list ↓</button>
+    <button id="export-btn">Print list ↓</button>
+    <div id="army-io-row">
+      <button id="save-army-btn">Save army ↓</button>
+      <button id="import-army-btn">Import army ↑</button>
+    </div>
+    <input type="file" id="import-file-input" accept=".json" style="display:none">
   </aside>
 
   <!-- RIGHT: faction selector or unit browser -->
@@ -2126,31 +2145,188 @@ ptsLimit.addEventListener('input', updatePoints);
 // ── EXPORT ───────────────────────────────────────────────────────
 D('export-btn').addEventListener('click', () => {
   if (!state.faction) { alert('No faction selected.'); return; }
-  const limit = ptsLimit.value;
-  const total = state.list.reduce((s, e) => s + e.pts, 0);
-  let text = `ALTERNATE 40K — ARMY LIST\n`;
-  text += `${state.faction.name}${state.subfaction ? ` (${state.subfaction})` : ''}\n`;
-  text += `Points: ${total}${limit ? ` / ${limit}` : ''}\n`;
-  text += '─'.repeat(40) + '\n\n';
 
-  SLOTS.forEach(slot => {
+  const limit   = ptsLimit.value;
+  const total   = state.list.reduce((s, e) => s + e.pts, 0);
+  const armyRules   = getEffectiveArmyRules();
+  const wargearDict = getEffectiveWargearDict();
+  const gw          = state.globalWeapons;
+
+  function findWeaponProfile(unit, name) {
+    const all = { ...(unit.weapons ?? {}), ...gw };
+    if (all[name]) return all[name];
+    const noSlot = name.replace(/\s+[A-Z]$/, '').trim();
+    if (noSlot !== name && all[noSlot]) return all[noSlot];
+    const singular = name.replace(/^\d+\s+(sets?\s+of\s+)?\d*\s*/i, '').replace(/s$/i, '').trim();
+    if (singular !== name && all[singular]) return all[singular];
+    const norm = s => s.toLowerCase().replace(/\s+/g, '');
+    const match = Object.keys(all).find(k => norm(k) === norm(name));
+    return match ? all[match] : null;
+  }
+
+  // ── Subfaction rules block ──
+  const sfRules = getSubfactionRules();
+  const sfBlock = (state.subfaction && sfRules.length) ? `
+    <section class="rules-block">
+      <h3 class="rules-title">${state.subfaction} — Chapter Rules</h3>
+      ${sfRules.map(r => `
+        <div class="rule-row">
+          <span class="rule-name">${r.name}</span>
+          <span class="rule-desc">${r.description ?? ''}</span>
+        </div>`).join('')}
+    </section>` : '';
+
+  // ── Unit cards ──
+  const STAT_KEYS_INF = ['M','WS','BS','S','T','W','I','A','Ld','Sv'];
+  const STAT_KEYS_VEH = ['M','WS','BS','S','FA','SA','RA','W','I','A','Ld','Sv'];
+
+  const slotSections = SLOTS.flatMap(slot => {
     const entries = state.list.filter(e => e.slotKey === slot.key);
-    if (!entries.length) return;
-    text += `${slot.label.toUpperCase()}\n`;
-    entries.forEach(e => {
-      const modelSummary = Object.entries(e.models ?? {})
-        .map(([name, c]) => `${c} ${name}`).join(', ');
-      text += `  ${e.unit.name}${modelSummary ? ` (${modelSummary})` : ''} — ${e.pts} pts\n`;
-      const wg = getEffectiveWargear(e).map(w => w.name);
-      if (wg.length) text += `    Wargear: ${wg.join(', ')}\n`;
-    });
-    text += '\n';
-  });
+    if (!entries.length) return [];
 
-  const blob = new Blob([text], { type: 'text/plain' });
+    const cards = entries.map(entry => {
+      const { unit, models: modelCounts, pts } = entry;
+      const hasVehicle = unit.models?.some(m => m.stats?.FA !== undefined);
+      const statKeys   = hasVehicle ? STAT_KEYS_VEH : STAT_KEYS_INF;
+      const multiModel = (unit.models?.length ?? 0) > 1;
+
+      const headerRow = (multiModel ? '<th></th>' : '') + statKeys.map(k => `<th>${k}</th>`).join('');
+      const statRows  = (unit.models ?? []).map(m =>
+        `<tr>${multiModel ? `<td class="model-col">${m.name}</td>` : ''}${statKeys.map(k => `<td>${m.stats?.[k] ?? '—'}</td>`).join('')}</tr>`
+      ).join('');
+
+      const modelSummary = Object.entries(modelCounts ?? {}).map(([n, c]) => `${c} ${n}`).join(', ');
+      const compLine = modelSummary || unit.composition || '';
+
+      const wgItems = getEffectiveWargear(entry);
+
+      // Weapon profiles
+      const weapons = wgItems
+        .map(w => ({ name: w.name, p: findWeaponProfile(unit, w.name) }))
+        .filter(w => w.p?.range || w.p?.S);
+
+      const weaponTable = weapons.length ? `
+        <div class="section-block">
+          <div class="section-label">Weapon Profiles</div>
+          <table class="weapon-table">
+            <thead><tr><th>Weapon</th><th>Rng</th><th>S</th><th>AP</th><th>Type</th></tr></thead>
+            <tbody>
+              ${weapons.map(w => `<tr>
+                <td>${w.name}</td>
+                <td>${w.p.range || '—'}</td>
+                <td>${w.p.S || '—'}</td>
+                <td>${w.p.AP || '—'}</td>
+                <td>${w.p.type || '—'}</td>
+              </tr>`).join('')}
+            </tbody>
+          </table>
+        </div>` : '';
+
+      // Wargear effects
+      const wgEffects = wgItems
+        .filter(w => !findWeaponProfile(unit, w.name) && wargearDict[w.name])
+        .map(w => `<div><span class="eff-name">${w.name}:</span> ${wargearDict[w.name]}</div>`)
+        .join('');
+
+      // Rules
+      const allRules  = [...new Set((unit.models ?? []).flatMap(m => m.rules ?? []))]
+        .map(name => ({ name, description: armyRules[name] ?? '' }));
+      const abilities = allRules.filter(r => r.description);
+      const keywords  = allRules.filter(r => !r.description);
+
+      return `
+      <div class="unit-card">
+        <div class="unit-header">
+          <span class="unit-name">${unit.name}</span>
+          <span class="unit-pts">${pts} pts</span>
+        </div>
+        ${compLine ? `<div class="unit-comp">${compLine}</div>` : ''}
+        <div class="stats-wrap">
+          <table class="stats-table">
+            <thead><tr>${headerRow}</tr></thead>
+            <tbody>${statRows}</tbody>
+          </table>
+        </div>
+        ${wgItems.length ? `<div class="section-block">
+          <div class="section-label">Wargear</div>
+          <div class="wargear-list">${wgItems.map(w => w.name).join(' · ')}</div>
+        </div>` : ''}
+        ${weaponTable}
+        ${wgEffects ? `<div class="section-block"><div class="section-label">Wargear Effects</div>${wgEffects}</div>` : ''}
+        ${abilities.length ? `<div class="section-block">
+          <div class="section-label">Abilities</div>
+          ${abilities.map(r => `<div><span class="eff-name">${r.name}:</span> ${r.description}</div>`).join('')}
+        </div>` : ''}
+        ${keywords.length ? `<div class="section-block">
+          <div class="section-label">Keywords</div>
+          <div class="keywords">${keywords.map(r => r.name).join(' · ')}</div>
+        </div>` : ''}
+      </div>`;
+    }).join('');
+
+    return [`<section class="slot-section">
+      <h2 class="slot-title">${slot.label}</h2>
+      ${cards}
+    </section>`];
+  }).join('');
+
+  const html = `<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>${state.faction.name} Army List</title>
+<style>
+  *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+  body { font-family: 'Segoe UI', Arial, sans-serif; font-size: 11px; color: #111; background: #fff; padding: 16px; }
+  h1  { font-size: 18px; margin-bottom: 2px; }
+  .subtitle { font-size: 13px; color: #555; margin-bottom: 4px; }
+  .pts-line { font-size: 13px; font-weight: bold; margin-bottom: 16px; }
+  .rules-block { border: 1px solid #ccc; padding: 8px 10px; margin-bottom: 16px; border-radius: 3px; }
+  .rules-title { font-size: 12px; font-weight: bold; margin-bottom: 6px; text-transform: uppercase; letter-spacing: .5px; }
+  .rule-row { margin-bottom: 4px; font-size: 10.5px; }
+  .rule-name { font-weight: bold; margin-right: 4px; }
+  .rule-desc { color: #333; }
+  .slot-title { font-size: 13px; font-weight: bold; text-transform: uppercase; letter-spacing: 1px;
+                border-bottom: 2px solid #111; padding-bottom: 3px; margin: 16px 0 8px; }
+  .unit-card { border: 1px solid #bbb; border-radius: 3px; margin-bottom: 10px; page-break-inside: avoid; overflow: hidden; }
+  .unit-header { display: flex; justify-content: space-between; align-items: center;
+                 background: #111; color: #fff; padding: 5px 8px; }
+  .unit-name { font-weight: bold; font-size: 12px; }
+  .unit-pts  { font-size: 11px; white-space: nowrap; }
+  .unit-comp { font-size: 10px; color: #555; padding: 2px 8px; background: #f5f5f5; border-bottom: 1px solid #ddd; }
+  .stats-wrap { overflow-x: auto; }
+  .stats-table { width: 100%; border-collapse: collapse; font-size: 10.5px; }
+  .stats-table th { background: #e8e8e8; text-align: center; padding: 3px 6px; border: 1px solid #ccc; font-weight: bold; font-size: 10px; }
+  .stats-table td { text-align: center; padding: 3px 6px; border: 1px solid #ddd; }
+  .stats-table .model-col { text-align: left; font-weight: bold; white-space: nowrap; }
+  .section-block { padding: 4px 8px; border-top: 1px solid #eee; font-size: 10.5px; }
+  .section-label { font-size: 9px; text-transform: uppercase; letter-spacing: .6px; color: #777; margin-bottom: 2px; font-weight: bold; }
+  .wargear-list { color: #222; }
+  .weapon-table { width: 100%; border-collapse: collapse; margin-top: 3px; font-size: 10px; }
+  .weapon-table th { background: #f0f0f0; text-align: left; padding: 2px 6px; border: 1px solid #ccc; font-size: 9px; }
+  .weapon-table td { padding: 2px 6px; border: 1px solid #e0e0e0; vertical-align: top; }
+  .eff-name { font-weight: bold; margin-right: 3px; }
+  .keywords { color: #444; }
+  @media print {
+    body { padding: 0; font-size: 10px; }
+    .slot-title { margin-top: 10px; }
+    @page { margin: 15mm; }
+  }
+</style>
+</head>
+<body>
+  <h1>${state.faction.name}</h1>
+  ${state.subfaction ? `<div class="subtitle">${state.subfaction}</div>` : ''}
+  <div class="pts-line">Points: ${total}${limit ? ` / ${limit}` : ''}</div>
+  ${sfBlock}
+  ${slotSections}
+</body>
+</html>`;
+
+  const blob = new Blob([html], { type: 'text/html' });
   const a = document.createElement('a');
   a.href = URL.createObjectURL(blob);
-  a.download = `${state.faction.id}-army-list.txt`;
+  a.download = `${state.faction.id}-army-list.html`;
   a.click();
 });
 
@@ -2166,9 +2342,9 @@ function saveList() {
   } catch {}
 }
 
-async function restoreList() {
+async function restoreList(saved) {
   try {
-    const saved = JSON.parse(localStorage.getItem('alt40k-list') ?? 'null');
+    if (!saved) saved = JSON.parse(localStorage.getItem('alt40k-list') ?? 'null');
     if (!saved?.factionId) return;
     ptsLimit.value = saved.limit ?? 2000;
     await selectFaction(saved.factionId);
@@ -2194,6 +2370,48 @@ async function restoreList() {
     }
   } catch {}
 }
+
+// ── SAVE / IMPORT ARMY ───────────────────────────────────────────
+D('save-army-btn').addEventListener('click', () => {
+  if (!state.faction) { alert('No faction selected.'); return; }
+  const data = {
+    factionId: state.faction.id,
+    subfaction: state.subfaction,
+    list: state.list.map(e => ({ slotKey: e.slotKey, unitName: e.unit.name, opts: e.opts, models: e.models, pts: e.pts })),
+    limit: ptsLimit.value,
+  };
+  const blob = new Blob([JSON.stringify(data, null, 2)], { type: 'application/json' });
+  const a = document.createElement('a');
+  a.href = URL.createObjectURL(blob);
+  a.download = `${state.faction.id}-army${state.subfaction ? '-' + state.subfaction.toLowerCase().replace(/\s+/g, '-') : ''}.json`;
+  a.click();
+});
+
+D('import-army-btn').addEventListener('click', () => {
+  if (state.list.length > 0) {
+    if (!confirm('This will replace your current army list. Continue?')) return;
+  }
+  D('import-file-input').click();
+});
+
+D('import-file-input').addEventListener('change', async e => {
+  const file = e.target.files?.[0];
+  if (!file) return;
+  e.target.value = '';
+  try {
+    const text = await file.text();
+    const data = JSON.parse(text);
+    if (!data.factionId || !Array.isArray(data.list)) {
+      alert('Invalid army file.');
+      return;
+    }
+    state.list = [];
+    await restoreList(data);
+    saveList();
+  } catch {
+    alert('Could not read army file.');
+  }
+});
 
 // ── MOBILE ROSTER TOGGLE ─────────────────────────────────────────
 function openForcePanel() {
