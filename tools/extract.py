@@ -57,7 +57,7 @@ UPGRADE_LINE_RE  = re.compile(r'^([A-Z]+(?:\s*\+\d+\s*points?)?)\s+(.+?)\s+\+(\d
 # continuation lines like "may swap Boltgun" that are word-wrapped chapter-variant text).
 OPTION_LINE_RE   = re.compile(r'^(?:May|Any)\b')
 # Lines like "Sergeant(s) may swap…", "One Marine may swap…" — subject BEFORE the word "may"
-OPTION_SUBJ_RE   = re.compile(r'^\w[\w\s()]+\smay\b', re.I)
+OPTION_SUBJ_RE   = re.compile(r'^\w[\w\s()]+\s(?:may|can)\b', re.I)
 # Chapter-specific option lines (e.g. "Any Space Wolf Dreadnought may swap...") — drop from generic codex
 # Matches any option line that mentions a specific chapter name — used to drop
 # cross-chapter variant options from parent codexes like space-marines.json.
@@ -621,7 +621,13 @@ def parse_codex(text: str, source_name: str, weapon_tables: dict | None = None) 
         # ── Build options list for builder ────────────────────────────────
         # Keep original text for code matching; strip trailing codes for display
         # e.g. "swap Boltgun for OR or A" → "swap Boltgun"
-        _CODE_TAIL_RE = re.compile(r'(?:\s+(?:for|or|of each)\s+[A-Z]{1,4})+\s*$')
+        _CODE_TAIL_RE = re.compile(
+            r'(?:'
+            r'\s+(?:for(?:\s+the\s+same)?|or|of\s+each|one)\s+[A-Z]{1,4}'   # "for H", "for the same R"
+            r'|\s+up\s+to\s+(?:\d+|two|three|four|five|six|seven|eight|nine|ten)\s+[A-Z]{1,4}'  # "up to 2 M"
+            r'|\s+[A-Z]{1,3}'                                                  # bare trailing code " H"
+            r')+\s*$'
+        )
         options = []
         for opt_line in options_text:
             options.append({'_raw': opt_line, 'description': opt_line, 'choices': []})
