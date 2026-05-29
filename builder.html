@@ -1621,26 +1621,40 @@ function openUnitModal(unit, existingEntry = null, existingIdx = null) {
     </div>` : '';
 
   // ── Options (wargear swaps / upgrades) ──
-  // Strip add-model text from descriptions (already handled by model steppers).
-  // Keep the option if it still has choices; drop it only if the description was
-  // purely about adding models and has no choices of its own.
-  const opts = (unit.options ?? []).map((opt, gi) => {
+  // Build a flat array of option objects with a string `key` for state tracking.
+  // "May swap any X" options are expanded into one group per weapon instance when
+  // fixed_wargear contains "N X" (N > 1), e.g. "2 Volkite Culverins" → 2 groups.
+  const fixedWg = unit.fixed_wargear ?? [];
+  const opts = [];
+  (unit.options ?? []).forEach((opt, gi) => {
     const desc = (opt.description ?? '').replace(_ADD_MODEL_RE, '').trim();
-    return { ...opt, description: desc, gi };
-  }).filter(opt => opt.choices?.length || opt.description.trim());
+    if (!opt.choices?.length && !desc) return;
+    if (opt.choices?.length) {
+      const count = getSwapAnyCount(desc, fixedWg);
+      if (count > 1) {
+        for (let i = 0; i < count; i++) {
+          opts.push({ ...opt, description: desc, key: `${gi}_${i}`, _swapSlot: i + 1, _swapTotal: count });
+        }
+        return;
+      }
+    }
+    opts.push({ ...opt, description: desc, key: String(gi) });
+  });
 
-  const choiceOpts  = opts.filter(o => o.choices?.length);
-  const infoOpts    = opts.filter(o => !o.choices?.length);
+  const choiceOpts = opts.filter(o => o.choices?.length);
+  const infoOpts   = opts.filter(o => !o.choices?.length);
 
   D('modal-options').innerHTML = (choiceOpts.length || infoOpts.length) ? `
     ${choiceOpts.length ? `<div class="option-group">
       <div class="option-group-label">Options</div>
       ${choiceOpts.map(opt => `
-        <div class="option-group-label" style="font-size:11px;color:var(--text-dim);margin-top:8px;text-transform:none;letter-spacing:0">${opt.description}</div>
+        <div class="option-group-label" style="font-size:11px;color:var(--text-dim);margin-top:8px;text-transform:none;letter-spacing:0">
+          ${opt.description}${opt._swapTotal ? ` <span style="opacity:.6">(slot ${opt._swapSlot} of ${opt._swapTotal})</span>` : ''}
+        </div>
         ${opt.choices.map((c, ci) => `
           <div class="option-row">
-            <input type="radio" name="opt-${opt.gi}" id="opt-${opt.gi}-${ci}" value="${ci}">
-            <label for="opt-${opt.gi}-${ci}">${c.name}</label>
+            <input type="radio" name="opt-${opt.key}" id="opt-${opt.key}-${ci}" value="${ci}">
+            <label for="opt-${opt.key}-${ci}">${c.name}</label>
             <span class="opt-pts">${c.pts_delta > 0 ? '+' : ''}${c.pts_delta ?? 0} pts</span>
           </div>`).join('')}
       `).join('')}
@@ -1653,21 +1667,21 @@ function openUnitModal(unit, existingEntry = null, existingIdx = null) {
 
   // Restore pre-selected radio buttons (editing mode)
   D('modal-options').querySelectorAll('input[type=radio]').forEach(inp => {
-    const groupIdx = parseInt(inp.name.split('-')[1]);
+    const key = inp.name.replace('opt-', '');
     const choiceIdx = parseInt(inp.value);
-    if ((state.pendingOpts[groupIdx] ?? -1) === choiceIdx) inp.checked = true;
+    if ((state.pendingOpts[key] ?? -1) === choiceIdx) inp.checked = true;
   });
 
   // Click-to-toggle deselect
   D('modal-options').querySelectorAll('input[type=radio]').forEach(inp => {
     inp.addEventListener('click', () => {
-      const groupIdx = parseInt(inp.name.split('-')[1]);
+      const key = inp.name.replace('opt-', '');
       const choiceIdx = parseInt(inp.value);
-      if (state.pendingOpts[groupIdx] === choiceIdx) {
+      if (state.pendingOpts[key] === choiceIdx) {
         inp.checked = false;
-        state.pendingOpts[groupIdx] = -1;
+        state.pendingOpts[key] = -1;
       } else {
-        state.pendingOpts[groupIdx] = choiceIdx;
+        state.pendingOpts[key] = choiceIdx;
       }
       updateModalPts();
     });
@@ -1709,6 +1723,19 @@ function extractAddModelCosts(options) {
   return costs;
 }
 
+// Returns how many instances of the swapped weapon exist in fixedWargear for "May swap any X" options.
+function getSwapAnyCount(optDesc, fixedWargear) {
+  const m = optDesc.match(/may\s+swap\s+any\s+(.+)/i);
+  if (!m) return 1;
+  const stem = m[1].trim().toLowerCase().replace(/s$/, '');
+  for (const wg of fixedWargear) {
+    const wgM = typeof wg === 'string' ? wg.match(/^(\d+)\s+(.+)$/) : null;
+    if (!wgM || parseInt(wgM[1]) < 2) continue;
+    if (wgM[2].toLowerCase().replace(/s$/, '') === stem) return parseInt(wgM[1]);
+  }
+  return 1;
+}
+
 function updateModalPts() {
   const unit = state.pendingUnit;
   if (!unit) return;
@@ -1716,10 +1743,12 @@ function updateModalPts() {
   for (const pm of Object.values(state.pendingModels)) {
     pts += (pm.current - pm.min) * pm.ptsEach;
   }
-  (unit.options ?? []).forEach((opt, gi) => {
-    const ci = state.pendingOpts[gi] ?? -1;
-    if (ci >= 0) pts += (opt.choices?.[ci]?.pts_delta ?? 0);
-  });
+  for (const [key, ci] of Object.entries(state.pendingOpts)) {
+    if (ci < 0) continue;
+    const gi = parseInt(key);   // parseInt('0_1') === 0, parseInt('2') === 2
+    const opt = (unit.options ?? [])[gi];
+    if (opt) pts += opt.choices?.[ci]?.pts_delta ?? 0;
+  }
   D('modal-pts').textContent = pts;
 }
 
@@ -1743,10 +1772,12 @@ D('modal-add').addEventListener('click', () => {
   for (const pm of Object.values(state.pendingModels)) {
     pts += (pm.current - pm.min) * pm.ptsEach;
   }
-  (unit.options ?? []).forEach((opt, gi) => {
-    const ci = state.pendingOpts[gi] ?? -1;
-    if (ci >= 0) pts += (opt.choices?.[ci]?.pts_delta ?? 0);
-  });
+  for (const [key, ci] of Object.entries(state.pendingOpts)) {
+    if (ci < 0) continue;
+    const gi = parseInt(key);
+    const opt = (unit.options ?? [])[gi];
+    if (opt) pts += opt.choices?.[ci]?.pts_delta ?? 0;
+  }
   const entry = {
     slotKey: state.editingIdx !== null ? state.list[state.editingIdx].slotKey : state.browsingSlot,
     unit,
@@ -1801,24 +1832,40 @@ function closePlayMode() {
 
 function getEffectiveWargear(entry) {
   const { unit, opts } = entry;
-  const wargear = [...(unit.fixed_wargear ?? [])];
+  // Expand "N weapon" items so per-instance swaps can target individual entries
+  const wargear = [];
+  for (const wg of (unit.fixed_wargear ?? [])) {
+    const m = typeof wg === 'string' ? wg.match(/^(\d+)\s+(.+)$/) : null;
+    if (m && parseInt(m[1]) > 1) {
+      for (let i = 0; i < parseInt(m[1]); i++) wargear.push(m[2]);
+    } else {
+      wargear.push(typeof wg === 'string' ? wg : wg.name ?? wg);
+    }
+  }
   const upgrades = [];
 
+  // Group all selections by original option index gi (parseInt handles "gi_instance" keys)
+  const selsByGi = {};
+  for (const [key, ci] of Object.entries(opts ?? {})) {
+    if (ci < 0) continue;
+    const gi = parseInt(key);
+    (selsByGi[gi] = selsByGi[gi] ?? []).push(ci);
+  }
+
   (unit.options ?? []).forEach((opt, gi) => {
-    const ci = opts[gi] ?? -1;
-    if (ci < 0 || !opt.choices?.length) return;
-    const choice = opt.choices[ci];
-    if (!choice) return;
-
-    if (choice.pts_delta === 0) return; // keeping the default, no change needed
-
-    // Replace the base weapon (first choice) in fixed wargear if present
-    const baseName = opt.choices[0]?.name ?? '';
-    const baseIdx = wargear.findIndex(w => w.toLowerCase() === baseName.toLowerCase());
-    if (baseIdx >= 0) {
-      wargear.splice(baseIdx, 1, { name: choice.name, upgraded: true });
-    } else {
-      upgrades.push({ name: choice.name, upgraded: true });
+    if (!opt.choices?.length) return;
+    for (const ci of (selsByGi[gi] ?? [])) {
+      const choice = opt.choices[ci];
+      if (!choice || choice.pts_delta === 0) continue;
+      const baseName = opt.choices[0]?.name ?? '';
+      const baseIdx = wargear.findIndex(w =>
+        (typeof w === 'string' ? w : w.name).toLowerCase() === baseName.toLowerCase()
+      );
+      if (baseIdx >= 0) {
+        wargear.splice(baseIdx, 1, { name: choice.name, upgraded: true });
+      } else {
+        upgrades.push({ name: choice.name, upgraded: true });
+      }
     }
   });
 
