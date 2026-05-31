@@ -56,8 +56,14 @@ UPGRADE_LINE_RE  = re.compile(r'^([A-Z]+(?:\s*\+\d+\s*points?)?)\s+(.+?)\s+\+(\d
 # Capitalised May / Any starts a new option (case-sensitive — avoids matching lowercase
 # continuation lines like "may swap Boltgun" that are word-wrapped chapter-variant text).
 OPTION_LINE_RE   = re.compile(r'^(?:May|Any)\b')
-# Lines like "Sergeant(s) may swap…", "One Marine may swap…" — subject BEFORE the word "may"
-OPTION_SUBJ_RE   = re.compile(r'^\w[\w\s()]+\s(?:may|can)\b', re.I)
+# Lines like "Sergeant(s) may swap…", "One Marine may swap…", "The entire Squad…", "Up to Two…"
+OPTION_SUBJ_RE   = re.compile(
+    r'^\w[\w\s()]+\s(?:may|can)\b'
+    r'|^(?:The\s+(?:entire|rest|whole)|Up\s+to)\s+\w',
+    re.I,
+)
+# Trailing hanging prepositions that indicate the next line continues the same sentence
+_OPT_HANGING_RE  = re.compile(r'\b(?:except\s+for|except|for|and|or|but|with|to)\s*$', re.I)
 # Chapter-specific option lines (e.g. "Any Space Wolf Dreadnought may swap...") — drop from generic codex
 # Matches any option line that mentions a specific chapter name — used to drop
 # cross-chapter variant options from parent codexes like space-marines.json.
@@ -174,6 +180,11 @@ def parse_weapon_tables_from_layout(layout_text: str) -> dict:
                 rest       = m.group(2)
                 rest_parts = re.split(r'\s{2,}', rest)
 
+                # "per [model]" at start of rest is a pts-rate suffix that wrapped from the
+                # selection column — skip it so the actual weapon name is used instead.
+                if rest_parts and re.match(r'^per\b', rest_parts[0], re.I) and len(rest_parts) > 1:
+                    rest_parts = rest_parts[1:]
+
                 # Extract name — stop at range-like tokens
                 raw_name_chunk = rest_parts[0] if rest_parts else ''
                 name_words: list = []
@@ -212,6 +223,7 @@ def parse_weapon_tables_from_layout(layout_text: str) -> dict:
                 continue
 
             leading = len(clean_line) - len(clean_line.lstrip())
+            _CODE_SUFFIX_RE = re.compile(r'^(?:model|each|every|wound)\s*$', re.I)
             if stripped and current_entry:
                 if stripped.lower().startswith('or'):
                     pass  # skip combo-weapon alternate profile lines
@@ -221,9 +233,16 @@ def parse_weapon_tables_from_layout(layout_text: str) -> dict:
                     first_word = stripped.split()[0]
                     if not first_word[0].isdigit():
                         cont_parts = re.split(r'\s{2,}', stripped)
-                        current_entry['name'] += ' ' + cont_parts[0].strip()
-                        if len(cont_parts) > 1:
-                            current_entry['type'] = (current_entry['type'] + ' ' + ' '.join(cont_parts[1:])).strip()
+                        if _CODE_SUFFIX_RE.match(cont_parts[0]) and len(cont_parts) > 1:
+                            # First part is a pts-rate suffix in the selection column (e.g.
+                            # "model" from "R +1 point per / model"); second part continues name.
+                            current_entry['name'] += ' ' + cont_parts[1].strip()
+                            if len(cont_parts) > 2:
+                                current_entry['type'] = (current_entry['type'] + ' ' + ' '.join(cont_parts[2:])).strip()
+                        else:
+                            current_entry['name'] += ' ' + cont_parts[0].strip()
+                            if len(cont_parts) > 1:
+                                current_entry['type'] = (current_entry['type'] + ' ' + ' '.join(cont_parts[1:])).strip()
                 elif leading > 45:
                     # Rules-text continuation (far-right column, typically col 50+)
                     current_entry['type'] = (current_entry['type'] + ' ' + stripped).strip()
@@ -471,6 +490,10 @@ def parse_codex(text: str, source_name: str, weapon_tables: dict | None = None) 
             elif state == 'OPTIONS':
                 is_new_opt = OPTION_LINE_RE.match(sl) or OPTION_SUBJ_RE.match(sl)
                 is_chapter = CHAPTER_VARIANT_RE.search(sl)
+                # If the current option ends with a hanging preposition/conjunction
+                # the new line is a mid-sentence continuation, not a new option.
+                if is_new_opt and options_text and _OPT_HANGING_RE.search(options_text[-1]):
+                    is_new_opt = False
                 if is_new_opt:
                     if is_chapter:
                         in_chapter_variant = True

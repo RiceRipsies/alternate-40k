@@ -1209,6 +1209,7 @@ const state = {
   browsingSlot: null,
   pendingUnit: null,
   pendingOpts: {},
+  pendingSteppers: {},
   pendingModels: {},  // { modelName: { current, min, max, ptsEach } }
   editingIdx: null,   // index in state.list when editing an existing entry
   coreKeywords: {},   // loaded from data/core-keywords.json
@@ -1727,6 +1728,7 @@ function attachTagHandlers(container, unit) {
 function openUnitModal(unit, existingEntry = null, existingIdx = null) {
   state.pendingUnit = unit;
   state.pendingOpts = existingEntry ? { ...existingEntry.opts } : {};
+  state.pendingSteppers = existingEntry ? { ...existingEntry.steppers } : {};
   state.editingIdx = existingIdx;
 
   D('modal-unit-name').textContent = unit.name;
@@ -1805,8 +1807,16 @@ function openUnitModal(unit, existingEntry = null, existingIdx = null) {
   (unit.options ?? []).forEach((opt, gi) => {
     const desc = (opt.description ?? '').replace(_ADD_MODEL_RE, '').trim();
     if (!opt.choices?.length && !desc) return;
-    if (!opt.choices?.length && /^May (?:take|swap|replace|use|upgrade)\s*$/i.test(desc)) return;
+    if (!opt.choices?.length && /^May(?:\s+(?:take|swap|replace|use|upgrade))?\s*$/i.test(desc)) return;
     if (opt.choices?.length) {
+      // "Up to N models may swap X for Y" → stepper (single-choice only)
+      const upToM = desc.match(/^up\s+to\s+(\d+|one|two|three|four|five|six|seven|eight|nine|ten|fifteen|twenty)\s+/i);
+      if (upToM && opt.choices.length === 1) {
+        const word = upToM[1].toLowerCase();
+        const maxN = parseInt(upToM[1]) || _WORD_TO_NUM[word] || 1;
+        opts.push({ ...opt, description: desc, key: String(gi), _stepperMax: maxN });
+        return;
+      }
       const count = getSwapAnyCount(desc, fixedWg);
       if (count > 1) {
         for (let i = 0; i < count; i++) {
@@ -1818,10 +1828,30 @@ function openUnitModal(unit, existingEntry = null, existingIdx = null) {
     opts.push({ ...opt, description: desc, key: String(gi) });
   });
 
-  const choiceOpts = opts.filter(o => o.choices?.length);
-  const infoOpts   = opts.filter(o => !o.choices?.length);
+  const stepperOpts  = opts.filter(o => o._stepperMax);
+  const choiceOpts   = opts.filter(o => o.choices?.length && !o._stepperMax);
+  const infoOpts     = opts.filter(o => !o.choices?.length);
 
-  D('modal-options').innerHTML = (choiceOpts.length || infoOpts.length) ? `
+  D('modal-options').innerHTML = (stepperOpts.length || choiceOpts.length || infoOpts.length) ? `
+    ${stepperOpts.length ? `<div class="option-group">
+      <div class="option-group-label">Model Upgrades</div>
+      ${stepperOpts.map(opt => {
+        const c = opt.choices[0];
+        const cur = state.pendingSteppers[opt.key] ?? 0;
+        return `<div class="option-row" style="align-items:center">
+          <div style="flex:1;font-size:12px;color:var(--text-dim)">${opt.description}</div>
+          <div style="display:flex;align-items:center;gap:8px">
+            <div class="stepper">
+              <button class="stepper-btn upg-dec" data-upg="${opt.key}" ${cur <= 0 ? 'disabled' : ''}>−</button>
+              <span class="stepper-val upg-count" data-upg="${opt.key}">${cur}</span>
+              <button class="stepper-btn upg-inc" data-upg="${opt.key}" data-max="${opt._stepperMax}" ${cur >= opt._stepperMax ? 'disabled' : ''}>+</button>
+            </div>
+            <span style="min-width:80px;font-size:13px">${c.name}</span>
+            <span class="opt-pts">${c.pts_delta > 0 ? '+' : ''}${c.pts_delta ?? 0} pts each</span>
+          </div>
+        </div>`;
+      }).join('')}
+    </div>` : ''}
     ${choiceOpts.length ? `<div class="option-group">
       <div class="option-group-label">Options</div>
       ${choiceOpts.map(opt => `
@@ -1860,6 +1890,23 @@ function openUnitModal(unit, existingEntry = null, existingIdx = null) {
       } else {
         state.pendingOpts[key] = choiceIdx;
       }
+      updateModalPts();
+    });
+  });
+
+  // Upgrade stepper buttons
+  D('modal-options').querySelectorAll('.upg-dec, .upg-inc').forEach(btn => {
+    btn.addEventListener('click', () => {
+      const key = btn.dataset.upg;
+      const max = parseInt(btn.dataset.max ?? '99');
+      const cur = state.pendingSteppers[key] ?? 0;
+      state.pendingSteppers[key] = btn.classList.contains('upg-dec')
+        ? Math.max(0, cur - 1)
+        : Math.min(max, cur + 1);
+      const val = state.pendingSteppers[key];
+      D('modal-options').querySelector(`.upg-count[data-upg="${key}"]`).textContent = val;
+      D('modal-options').querySelector(`.upg-dec[data-upg="${key}"]`).disabled = val <= 0;
+      D('modal-options').querySelector(`.upg-inc[data-upg="${key}"]`).disabled = val >= max;
       updateModalPts();
     });
   });
@@ -1927,6 +1974,12 @@ function updateModalPts() {
     const opt = (unit.options ?? [])[gi];
     if (opt) pts += opt.choices?.[ci]?.pts_delta ?? 0;
   }
+  for (const [key, count] of Object.entries(state.pendingSteppers ?? {})) {
+    if (!count) continue;
+    const gi = parseInt(key);
+    const opt = (unit.options ?? [])[gi];
+    if (opt) pts += count * (opt.choices?.[0]?.pts_delta ?? 0);
+  }
   D('modal-pts').textContent = pts;
 }
 
@@ -1956,10 +2009,17 @@ D('modal-add').addEventListener('click', () => {
     const opt = (unit.options ?? [])[gi];
     if (opt) pts += opt.choices?.[ci]?.pts_delta ?? 0;
   }
+  for (const [key, count] of Object.entries(state.pendingSteppers ?? {})) {
+    if (!count) continue;
+    const gi = parseInt(key);
+    const opt = (unit.options ?? [])[gi];
+    if (opt) pts += count * (opt.choices?.[0]?.pts_delta ?? 0);
+  }
   const entry = {
     slotKey: state.editingIdx !== null ? state.list[state.editingIdx].slotKey : state.browsingSlot,
     unit,
     opts: { ...state.pendingOpts },
+    steppers: { ...state.pendingSteppers },
     models: Object.fromEntries(Object.entries(state.pendingModels).map(([k,v]) => [k, v.current])),
     pts,
   };

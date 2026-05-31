@@ -948,14 +948,6 @@
                 "pts_delta": 10
               }
             ]
-          },
-          {
-            "description": "May take",
-            "choices": []
-          },
-          {
-            "description": "May take",
-            "choices": []
           }
         ],
         "weapons": {
@@ -1652,10 +1644,6 @@
                 "pts_delta": 10
               }
             ]
-          },
-          {
-            "description": "May take",
-            "choices": []
           }
         ],
         "weapons": {
@@ -2117,10 +2105,6 @@
                 "pts_delta": 8
               }
             ]
-          },
-          {
-            "description": "May take",
-            "choices": []
           }
         ],
         "weapons": {
@@ -2969,10 +2953,6 @@
                 "pts_delta": 34
               }
             ]
-          },
-          {
-            "description": "May take",
-            "choices": []
           }
         ],
         "weapons": {
@@ -3219,14 +3199,6 @@
                 "pts_delta": 19
               }
             ]
-          },
-          {
-            "description": "May take",
-            "choices": []
-          },
-          {
-            "description": "May take",
-            "choices": []
           }
         ],
         "weapons": {
@@ -5224,7 +5196,7 @@
                 "pts_delta": 0
               },
               {
-                "name": "per",
+                "name": "Auto Bolt Rifle",
                 "pts_delta": 0
               },
               {
@@ -5316,11 +5288,11 @@
             "AP": "4+",
             "type": "Rapid Fire 1, Bolter"
           },
-          "per": {
-            "range": "Auto Bolt Rifle",
-            "S": "24",
-            "AP": "4 6+ Assault 3",
-            "type": "35"
+          "Auto Bolt Rifle": {
+            "range": "24",
+            "S": "4",
+            "AP": "6+",
+            "type": "Assault 3 35"
           },
           "Stalker Bolt Rifle": {
             "range": "36",
@@ -5937,7 +5909,7 @@
             ]
           },
           {
-            "description": "Up to Two Marines may swap Heavy Bolt Rifles for H The entire Squad except for",
+            "description": "Up to Two Marines may swap Heavy Bolt Rifles",
             "choices": [
               {
                 "name": "Heavy Bolter",
@@ -5946,18 +5918,18 @@
             ]
           },
           {
-            "description": "those who swapped for H can swap their Bolt Rifles",
+            "description": "The entire Squad except for those who swapped for H can swap their Bolt Rifles",
             "choices": [
               {
                 "name": "Heavy Bolt Rifle",
                 "pts_delta": 0
               },
               {
-                "name": "per model",
+                "name": "Executor Bolt Rifle",
                 "pts_delta": 1
               },
               {
-                "name": "per model",
+                "name": "Hellstorm Bolt Rifle",
                 "pts_delta": 2
               }
             ]
@@ -6018,11 +5990,17 @@
             "AP": "4+",
             "type": "Rapid Fire 1, Bolter"
           },
-          "per model": {
-            "range": "Executor Bolt",
-            "S": "36",
-            "AP": "5 3+ Heavy 1",
-            "type": "Rifle"
+          "Executor Bolt Rifle": {
+            "range": "36",
+            "S": "5",
+            "AP": "3+",
+            "type": "Heavy 1"
+          },
+          "Hellstorm Bolt Rifle": {
+            "range": "30",
+            "S": "5",
+            "AP": "5+",
+            "type": "Assault 3"
           },
           "Heavy Bolter": {
             "range": "36",
@@ -14727,11 +14705,11 @@
                 "pts_delta": 0
               },
               {
-                "name": "per Plasma",
+                "name": "30",
                 "pts_delta": 3
               },
               {
-                "name": "per Heavy Plasma",
+                "name": "36",
                 "pts_delta": 8
               }
             ]
@@ -14744,17 +14722,17 @@
             "AP": "2+",
             "type": "Assault 3, Gets Hot!"
           },
-          "per Plasma": {
-            "range": "30",
-            "S": "7",
-            "AP": "2+",
-            "type": "Rapid Fire 1, Gets Hot!"
+          "30": {
+            "range": "7",
+            "S": "2+",
+            "AP": "Rapid Fire 1, Gets Hot!",
+            "type": ""
           },
-          "per Heavy Plasma": {
-            "range": "36",
-            "S": "9",
-            "AP": "2+",
-            "type": "Heavy 1, Monsterbane, Gets"
+          "36": {
+            "range": "9",
+            "S": "2+",
+            "AP": "Heavy 1, Monsterbane, Gets",
+            "type": ""
           },
           "Bolt Pistol": {
             "range": "12",
@@ -19833,14 +19811,6 @@
                 "pts_delta": 58
               }
             ]
-          },
-          {
-            "description": "May take",
-            "choices": []
-          },
-          {
-            "description": "May take",
-            "choices": []
           },
           {
             "description": "May take up to one",

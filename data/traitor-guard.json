@@ -803,10 +803,6 @@
                 "pts_delta": 21
               }
             ]
-          },
-          {
-            "description": "May take",
-            "choices": []
           }
         ],
         "weapons": {
@@ -1766,10 +1762,6 @@
                 "pts_delta": 21
               }
             ]
-          },
-          {
-            "description": "May take",
-            "choices": []
           }
         ],
         "weapons": {
@@ -2696,7 +2688,7 @@
             ]
           },
           {
-            "description": "Up to three Traitors may swap Autogun for S or take one SD One Traitor that did not swap for",
+            "description": "Up to three Traitors may swap Autogun for S or take one SD One Traitor that did not swap for S or take SD may take",
             "choices": [
               {
                 "name": "Sniper Rifle",
@@ -2723,10 +2715,6 @@
                 "pts_delta": 7
               }
             ]
-          },
-          {
-            "description": "S or take SD may take",
-            "choices": []
           },
           {
             "description": "Any Heavy Weapon Team may swap Heavy Flamer",
@@ -4038,7 +4026,7 @@
                 "pts_delta": 0
               },
               {
-                "name": "per",
+                "name": "Krak Grenades",
                 "pts_delta": 1
               },
               {
@@ -4231,11 +4219,11 @@
             "AP": "-",
             "type": "Grenade 1, 3\" Blast"
           },
-          "per": {
-            "range": "Krak Grenades",
-            "S": "8",
-            "AP": "6 4+ Grenade 1, Non-Blast",
-            "type": ""
+          "Krak Grenades": {
+            "range": "8",
+            "S": "6",
+            "AP": "4+",
+            "type": "Grenade 1, Non-Blast"
           },
           "Melta Bombs": {
             "range": "6",
@@ -5872,6 +5860,10 @@
           },
           {
             "description": "Any Tauros Venators may take",
+            "choices": []
+          },
+          {
+            "description": "up to two",
             "choices": [
               {
                 "name": "Hunter Killer Missile",
@@ -7995,10 +7987,6 @@
           },
           {
             "description": "May take",
-            "choices": []
-          },
-          {
-            "description": "May take",
             "choices": [
               {
                 "name": "Hunter Killer Missile",
@@ -8274,10 +8262,6 @@
                 "pts_delta": 13
               }
             ]
-          },
-          {
-            "description": "May take",
-            "choices": []
           },
           {
             "description": "May take",
@@ -11230,7 +11214,11 @@
             ]
           },
           {
-            "description": "Any Valkyrie Sky Talon may take up to one E each",
+            "description": "Any Valkyrie Sky Talon may take",
+            "choices": []
+          },
+          {
+            "description": "up to one E each",
             "choices": [
               {
                 "name": "Chaff Launcher",
@@ -11401,7 +11389,11 @@
             ]
           },
           {
-            "description": "Any Vulture Gunship may take up to one E each",
+            "description": "Any Vulture Gunship may take",
+            "choices": []
+          },
+          {
+            "description": "up to one E each",
             "choices": [
               {
                 "name": "Chaff Launcher",
@@ -17002,10 +16994,6 @@
                 "pts_delta": 18
               }
             ]
-          },
-          {
-            "description": "May take",
-            "choices": []
           }
         ],
         "weapons": {

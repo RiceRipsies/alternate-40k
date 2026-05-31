@@ -4139,7 +4139,7 @@
         ],
         "options": [
           {
-            "description": "Ministorum Priest may swap Laspistol",
+            "description": "Ministorum Priest may swap Laspistol for OP or OR Ministorum Priest may swap Chainsword",
             "choices": [
               {
                 "name": "Laspistol",
@@ -4164,12 +4164,7 @@
               {
                 "name": "Plasma Gun",
                 "pts_delta": 9
-              }
-            ]
-          },
-          {
-            "description": "Ministorum Priest may swap Chainsword",
-            "choices": [
+              },
               {
                 "name": "Chainsword",
                 "pts_delta": 0
@@ -6206,7 +6201,7 @@
             ]
           },
           {
-            "description": "Two Veteran Guardsman may be swapped for a Veteran Heavy Weapons Team for +4 points Veteran Heavy Weapons Team may swap Heavy Flamer for H Up to three Veteran Guardsman may swap Lasgun for S or take",
+            "description": "Two Veteran Guardsman may be swapped for a Veteran Heavy Weapons Team for +4 points Veteran Heavy Weapons Team may swap Heavy Flamer",
             "choices": [
               {
                 "name": "Heavy Flamer",
@@ -6247,7 +6242,12 @@
               {
                 "name": "Lascannon",
                 "pts_delta": 14
-              },
+              }
+            ]
+          },
+          {
+            "description": "Up to three Veteran Guardsman may swap Lasgun for S or take",
+            "choices": [
               {
                 "name": "Sniper Rifle",
                 "pts_delta": 6
@@ -9716,6 +9716,10 @@
           },
           {
             "description": "Any Tauros Venators may take",
+            "choices": []
+          },
+          {
+            "description": "up to two",
             "choices": [
               {
                 "name": "Hunter Killer Missile",
@@ -9834,6 +9838,10 @@
           },
           {
             "description": "Any Tauros Venators may take",
+            "choices": []
+          },
+          {
+            "description": "up to two",
             "choices": [
               {
                 "name": "Hunter Killer Missile",
@@ -14646,7 +14654,11 @@
             ]
           },
           {
-            "description": "Any Valkyrie Sky Talon may take up to one E each",
+            "description": "Any Valkyrie Sky Talon may take",
+            "choices": []
+          },
+          {
+            "description": "up to one E each",
             "choices": [
               {
                 "name": "Chaff Launcher",
@@ -14777,7 +14789,11 @@
             ]
           },
           {
-            "description": "Any Vulture Gunship may take up to one E each",
+            "description": "Any Vulture Gunship may take",
+            "choices": []
+          },
+          {
+            "description": "up to one E each",
             "choices": [
               {
                 "name": "Chaff Launcher",
@@ -18317,10 +18333,6 @@
           },
           {
             "description": "May take one S2",
-            "choices": []
-          },
-          {
-            "description": "May take",
             "choices": []
           }
         ],
