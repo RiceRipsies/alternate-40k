@@ -14,7 +14,26 @@
     "Zephyr's Grace": "6\" Aura, this model and target unit gain Fleet",
     "Seeker Missile": "This weapon may only be fired by any friendly unit expending a Marker Light Token when Declaring Shooting and the target being in this weapon's Firing Arc. Only the unit firing the Seeker Missile is considered to be firing it as a Heavy # weapon.",
     "Sense of Stone": "6\" Aura, this model and target Infantry unit gain 5+ Feel No Pain.",
-    "Storm of Fire": "6\" Aura, this model and target unit reroll 1s To Hit."
+    "Storm of Fire": "6\" Aura, this model and target unit reroll 1s To Hit.",
+    "Calm of Tide": "6\" Aura, this model and target unit gain Fearless.",
+    "Missile Strike": "In addition to the unit's attacks against the target unit, they may fire a Seeker",
+    "Savior Protocol": "After all Saves and Feel No Pains are taken by models in the same unit as this",
+    "Black Sun Filters": "This model gains Night Vision",
+    "Black Sun Filter": "This model gains Night Vision",
+    "Blind Grenades": "Charges against this unit are Disorganized Charges. This unit is considered",
+    "Blind Grenade": "Charges against this unit are Disorganized Charges. This unit is considered",
+    "Counterfire Defense System": "This model performs Overwatch on 5+.",
+    "Decoy Launcher": "This model gains a 5+ Invulnerability Save against Ranged attacks.",
+    "Early Warning System": "All weapons on this model gain AA.",
+    "Greater Good Vox Broadcast": "6\" Aura, target unit must roll a Ld Test with a -1 penalty to",
+    "Positional Relay": "6\" Aura, target unit does not scatter when Deepstriking. This Aura is cast",
+    "Shield Generator": "This model and its unit gain a 5+ Invulnerability Save.",
+    "Standard": "This model grants two Auras.",
+    "Vectored Thrusters": "This model gains Fleet and Hit and Run. Commander R'alai R'alai Drone Wargear R'alai: Experimental Pulse Submunition Rifle Eclipse Shield Drone: Marker Light",
+    "Vectored Thruster": "This model gains Fleet and Hit and Run. Commander R'alai R'alai Drone Wargear R'alai: Experimental Pulse Submunition Rifle Eclipse Shield Drone: Marker Light",
+    "Eclipse Shield": "Sv-1 (Improves by 1), 4+ Invulnerability Save.",
+    "Lone Warrior": "This model may never join friendly units or be targeted from Auras that are not from itself.",
+    "Master of War": "6\" Aura, this model and target unit may reroll 1s To Hit. Drone: Infantry Primitive AI Savior Protocols Deepstrike Jump"
   },
   "wargear": {
     "Black Sun Filters": "This model gains Night Vision",
@@ -34,78 +53,5 @@
       "rules": []
     }
   ],
-  "slots": {
-    "hq": [
-      {
-        "name": "M WS BS S FA SA RA W I A Ld Sv",
-        "points_base": 192,
-        "composition": "1 R'alai 0-2 Drones",
-        "models": [
-          {
-            "name": "8 3+ 2+ 5 11 11 10 8 2 4 9 3+",
-            "stats": {
-              "M": "6",
-              "WS": "5+",
-              "BS": "4+",
-              "S": "3",
-              "T": "3",
-              "W": "1",
-              "I": "2",
-              "A": "1",
-              "Ld": "5",
-              "Sv": "4+"
-            },
-            "rules": [
-              "Independent Character",
-              "Vehicle",
-              "Combat Walker",
-              "Unique",
-              "Kel'Shan",
-              "Deepstrike",
-              "Jump",
-              "Lone Warrior",
-              "Master of War",
-              "Infantry",
-              "Primitive AI",
-              "Savior Protocols",
-              "Deepstrike",
-              "Jump",
-              "E Early Warning System +0",
-              "E Counterfire Defense Systems"
-            ]
-          }
-        ],
-        "fixed_wargear": [],
-        "options": [
-          {
-            "description": "May take up to 2 Drones for +10 points each Arra'kon may take up to one",
-            "choices": [
-              {
-                "name": "Black Sun Filters",
-                "pts_delta": 2
-              },
-              {
-                "name": "Vectored Thrusters",
-                "pts_delta": 4
-              },
-              {
-                "name": "Positional Relay",
-                "pts_delta": 5
-              }
-            ]
-          },
-          {
-            "description": "Any Drone may swap Marker Light",
-            "choices": [
-              {
-                "name": "Shield Generator",
-                "pts_delta": 6
-              }
-            ]
-          }
-        ],
-        "weapons": {}
-      }
-    ]
-  }
+  "slots": {}
 }

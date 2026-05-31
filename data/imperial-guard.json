@@ -2,7 +2,172 @@
   "id": "imperial-guard",
   "name": "Imperial Guard",
   "difficulty": 3,
-  "rules": {},
+  "rules": {
+    "Augar Array": "6\" Aura, target unit does not scatter when Deepstriking. This Aura is cast",
+    "Camo Netting": "This model gains Shroud.",
+    "Chaff Launchers": "This model has a 5+ Invulnerability Save against Ranged Attacks.",
+    "Chaff Launcher": "This model has a 5+ Invulnerability Save against Ranged Attacks.",
+    "Dozerblade": "Reroll Dangerous Terrain Tests and failed Move through Cover.",
+    "Enclosed Crew Compartment": "This model loses Open Topped.",
+    "Extra Armour": "You may treat all Crew Stun Results as Weapon Disabled.",
+    "Flare Shields": "Sv-1 (Improves by 1).",
+    "Flare Shield": "Sv-1 (Improves by 1).",
+    "Medicae Pack": "6\" Aura, this model's unit and target unit gain a 5+ Feel No Pain.",
+    "Recovery Gear": "Once per Round, Roll d6. On 5+ repair Immobilized or Crew Stun result.",
+    "Searchlight": "This unit and target unit are no longer affected by Night rules.",
+    "Smoke Launchers": "6\" range, put 5\" Smoke Cloud that causes -1 to Hit and scatters to",
+    "Smoke Launcher": "6\" range, put 5\" Smoke Cloud that causes -1 to Hit and scatters to",
+    "Standard": "This inspiring battle flag gives the model equipped the following Auras:",
+    "Vox Caster": "This model's unit may reroll failed Order Tests if the model Issuing the",
+    "Mechanized Infantry": "Infantry units gain a 5+ Cover Save the Turn they Disembark from",
+    "Hive City Inhabitants": "All Infantry suffer -1 cover save if it is not provided by a building,",
+    "Hive City Inhabitant": "All Infantry suffer -1 cover save if it is not provided by a building,",
+    "Imperial Guard's Finest": "all models may reroll 1's To Hit with ranged weapons.",
+    "No Place to Call Home": "each model only counts as half a model for the purpose of",
+    "Carbines": "All Lasguns and Hotshot Lasguns are R-6.",
+    "Carbine": "All Lasguns and Hotshot Lasguns are R-6.",
+    "Catachan Fangs": "All Infantry and Monstrous Infantry gain the following weapon:",
+    "Catachan Fang": "All Infantry and Monstrous Infantry gain the following weapon:",
+    "Flak Vests": "All Infantry and Monstrous Infantry Datasheets are Sv+1, resulting in 1 worse",
+    "Flak Vest": "All Infantry and Monstrous Infantry Datasheets are Sv+1, resulting in 1 worse",
+    "Trenching Tools": "All Infantry and Monstrous Infantry gain the following Weapon Profile;",
+    "Trenching Tool": "All Infantry and Monstrous Infantry gain the following Weapon Profile;",
+    "Command Dependent": "All models gain Stubborn, but may only perform the following",
+    "Lucius Pattern": "All Lasguns use the following Weapon Profile instead of the standard",
+    "Airbourne Specialists": "All non-Vehicle models gain the Deepstrike rule. If the model",
+    "Airbourne Specialist": "All non-Vehicle models gain the Deepstrike rule. If the model",
+    "Paratrooper Loadout": "each model only counts as half a model for contesting objectives.",
+    "Skyborne Division": "every model with Deepstrike or Outflank must be held in reserve",
+    "Air Superiority": "Lose all Heavy Support Slots and gain +1 Flyer Slot. They may not take",
+    "Accatran Pattern Lasgun": "All Lasguns are replaced with the following Weapon Profile;",
+    "Crowd Control": "All models Overwatch on a 5+. Pistols Overwatch on a 4+. Other",
+    "Triplex Pattern Lasgun": "All Lasguns have the following option Weapon Profile in addition",
+    "Tally Ho!": "All models may reroll failed Charge rolls.",
+    "Like the Wind": "All non-vehicle models gain Stealth. Models already with Stealth gain",
+    "Desert Specialists": "All nonvehicle Sv Stats are Sv -.",
+    "Desert Specialist": "All nonvehicle Sv Stats are Sv -.",
+    "Strike and Fade": "All models automatically lose Combat Resolution.",
+    "Camo Cloaks": "All Infantry models gain Stealth. This does not affect Monstrous Infantry.",
+    "Camo Cloak": "All Infantry models gain Stealth. This does not affect Monstrous Infantry.",
+    "Poorly Equipped": "All Infantry and Monstrous Infantry models Sv Stats are Sv -. This does",
+    "Acceptable Losses": "Any unit may choose to test Ld to shoot into close combat with",
+    "Acceptable Losse": "Any unit may choose to test Ld to shoot into close combat with",
+    "Family Heirlooms": "All Infantry Sv Stats are Sv 4+.",
+    "Family Heirloom": "All Infantry Sv Stats are Sv 4+.",
+    "Sins of the Forefathers": "All models suffer -1 Ld.",
+    "Sins of the Forefather": "All models suffer -1 Ld.",
+    "Kantrael Pattern Lasguns": "Replace all Lasguns profiles with the following Weapon",
+    "Kantrael Pattern Lasgun": "Replace all Lasguns profiles with the following Weapon",
+    "A Life of Servitude": "each model only counts as half a model for contesting objectives. Generic Company Command Squad Company Commander Veteran Veteran Heavy Weapons Team Wargear Company Commander: Laspistol Chainsword Frag Grenades Refractor Field Veterans: Lasgun Frag Grenades Veteran Heavy Weapon Team: Heavy Flamer Lasgun Frag Grenades",
+    "Aura of Discipline": "6\" Aura, unit may use Lord Commissar's Ld and gains Stubborn.",
+    "Summary Execution": "once per Round when a friendly Infantry unit fails a Ld test within 6\", you MUST remove the highest Ld model from that unit from the game. Ignore Commissars and Lord Commissars for highest Ld purposes. The unit automatically passes the Ld test. Order Tests do not count for this rule. Sv4+ Shroud M+6, T+1, W+1, Rules: Steed",
+    "Grinding Advance": "Do not count as moving when firing Ordnance Weapons.",
+    "Dedicated Transport": "Only Commissar Graves may embark on this model. Access Rear. 1 360 Fire Port.",
+    "Fleet Intel": "Aura, Target friendly unit arriving from Deepstrike may reroll their Scatter Dice.",
+    "Fleet Interference": "Aura, Target enemy unit arriving from Deepstrike must reroll their Scatter Dice. Page 14 of 123",
+    "Artificer Refractor Helmet": "This model has a 4+ Invulnerability Save.",
+    "Lord Solar": "6\" Aura, this model and target unit may reroll 1s To Hit and To Wound.",
+    "Command Stave": "This model is always considered to be equipped with a Vox Caster and has the range of its Orders extended up to 18\" instead of the usual 12\".",
+    "Crimson Cloak": "12\" True Aura, this model and all friendly units gain A+1 and may reroll failed Ld Tests.",
+    "Helm of Macharius": "12\" True Aura, all friendly units may use this model's Ld and Stubborn rules.",
+    "Helm of Machariu": "12\" True Aura, all friendly units may use this model's Ld and Stubborn rules.",
+    "Ferocious Strategist": "During Deployment, nominate one friendly Slot (not category) holding in Reserves. Units in this Slot cannot be Pinned when arriving by Deepstrike, event if they normally would be.",
+    "Execution": "once per Round when a friendly Infantry unit fails a Ld test within 6\", you MUST remove the highest Ld model from that unit from the game. Ignore Commissars and Lord Commissars for highest Ld purposes. The unit may reroll the Ld test. Order Tests do not count for this rule. M+6, T+1, W+1, Rules: Steed Page 17 of 123",
+    "Servo Arm": "Each model with a Servo Arm may add +1 to a Repair roll to restore a weapon or mobilize result.",
+    "Repair": "Target model in base contact Repairs 1 Wound. Roll a d6, on a 5+ restore service for one Weapon Disabled, Crew Shaken, Immobilized, or Weapon Destroyed. Servitor: Infantry Steady",
+    "Lobotomized": "This model has a 5+ Feel No Pain.",
+    "Imperial Navigator": "This model and his unit gain Outflank and may reroll the Outflank Result.",
+    "Ordnance Master": "6\" Aura, this model and target unit may reroll scatter dice for Ranged weapons.",
+    "Rosarius": "4+ Invulnerability Save",
+    "Rosariu": "4+ Invulnerability Save",
+    "Stormshield": "Sv-1 (Improves by 1) and 4+ Invulnerability Save.",
+    "Zealot": "reroll To Hit rolls in Melee on the turn you charged or were charged Crusader: Infantry",
+    "Icon of Chiros": "6\" Aura, this model and target unit may roll one additional d6 for Ld tests and discard the highest d6.",
+    "Icon of Chiro": "6\" Aura, this model and target unit may roll one additional d6 for Ld tests and discard the highest d6.",
+    "Leading From the Front": "6\" Aura, when this model is locked in Base Contact with an enemy model, target unit automatically passes all Ld Tests including Order Tests.",
+    "Navigator House Contracts": "6\" Aura, target unit loses Objective Secured. If no models had Objective Secured, the unit counts as only half the total models for Contesting Objective Markers.",
+    "Navigator House Contract": "6\" Aura, target unit loses Objective Secured. If no models had Objective Secured, the unit counts as only half the total models for Contesting Objective Markers.",
+    "Hacking Advance": "Each natural 6 Grotfret rolls To Hit in Melee generates one Auto Hit.",
+    "Shield of Faith": "Grotfret may attempt to Deny the Witch once per Round at Psychic Mastery 0.",
+    "Transport 12": "Access Rear Konig 9th Heavy Tank Company - This model ignores the Regimental rules for your army.",
+    "Hardened Crew": "This model ignores Immobilize and Weapon Disabled results on a 4+. Roll for each instance.",
+    "Ill Fated": "Arethusa still destroys non-Titanic Terrain when moving through Terrain like normal, but must roll a d6 each time it does so. On a 1 it is stuck for the rest of the game.",
+    "Dead Nerves": "5+ Feel No Pain",
+    "Dead Nerve": "5+ Feel No Pain",
+    "Loyal to the End": "If a model uses Execution or Summary Execution to remove an Independent Character from Nord Deddog's Squad, Nork removes the executioner from the game.",
+    "Heroic Sacrifice": "If Nork Deddog is slain in Melee, inflict d6 S6 AP- Auto Hits on the unit that killed him",
+    "Grappling Hook": "6\" Aura, this model and target Infantry Unit may ignore Terrain and Enemy Models when Moving.",
+    "The Ratling Twins": "Rein may reroll To Hit and To Wound if Rauss can draw Line of Sight to the target.",
+    "The Ratling Twin": "Rein may reroll To Hit and To Wound if Rauss can draw Line of Sight to the target.",
+    "Shoot Sharp and Scarper": "This model may move d6\" after Shooting. Rauss: Independent Character Unique Infantry Infiltrate Stealth",
+    "The Purifier": "6\" Aura, this model and target unit gain A+1 Pious Vorne: Independent Character Unique Infantry",
+    "Infantry Tactics": "During Deployment, you may combine any number of Guardsman Squads together from the same Platoon to form a larger Guardsman Squad. The effect lasts until the end of the game. Combined Squads may only benefit from the following Friendly Auras and abilities: Infantry Orders, Execution, Summary Execution. Heavy Weapons Team: Infantry Bulky Conscript: Page 31 of 123",
+    "Infantry Tactic": "During Deployment, you may combine any number of Guardsman Squads together from the same Platoon to form a larger Guardsman Squad. The effect lasts until the end of the game. Combined Squads may only benefit from the following Friendly Auras and abilities: Infantry Orders, Execution, Summary Execution. Heavy Weapons Team: Infantry Bulky Conscript: Page 31 of 123",
+    "Snare Mines": "All Charges against this unit are Disorganized",
+    "Snare Mine": "All Charges against this unit are Disorganized",
+    "Mercy Execution": "When the Unit suffers Mortal Wounds from casting spells, remove d3 Wyrdvanes instead of suffering the normal Mortal Wounds. Wyrdvane: Unit Psychic Mastery Level 1",
+    "Slab Shield": "Sv-1 (Improves by 1).",
+    "Brute Shield": "5+ Invulnerability Save",
+    "Heavy Repair Gear": "3\" range, target Vehicle or Titanic Vehicle recovers d3 Wounds. On a 3+, remove one Weapon Disabled, Crew Stun, Immobilize, or Weapon Destroyed Result.",
+    "Escort": "This model may join units like an Independent Character",
+    "Enlarged Fuel Tanks": "Reroll 1's to Wound with Flame Weapons. The Model explodes on a 4+ instead of 6+.",
+    "Enlarged Fuel Tank": "Reroll 1's to Wound with Flame Weapons. The Model explodes on a 4+ instead of 6+.",
+    "Auspex Array": "6\" Aura, this model and target unit inflict a -1 to Cover Saves taken from their Shooting.",
+    "Trench Crossers": "This model does not take Immobilize Tests for moving through Terrain",
+    "Trench Crosser": "This model does not take Immobilize Tests for moving through Terrain",
+    "The Hour is Nigh": "When the weapon is fired, place a marker on field at a valid target. In your next Command Phase, the missile strikes! Scatter like normal, following the 15\" Blast radius rules.",
+    "T Minus 5": "The weapon may not be fired Turn 1. The weapon cannot be destroyed or Disabled. If the weapon is marked on the field and the carrier is destroyed, the Deathstrike Missile still hits in your Command Phase.",
+    "Behemoth Shells": "When the Heavy Colossus Siege Mortar fires, it must forgo Shooting in its next Shooting Phase. The Heavy Colossus Siege Mortar may not fire on Turn 1. It may fire its other weapons normally on each Turn. This model suffers M-8.",
+    "Behemoth Shell": "When the Heavy Colossus Siege Mortar fires, it must forgo Shooting in its next Shooting Phase. The Heavy Colossus Siege Mortar may not fire on Turn 1. It may fire its other weapons normally on each Turn. This model suffers M-8.",
+    "Stable Platform": "This model may reroll the Scatter Dice.",
+    "Immobile Platform": "This model cannot move or be moved by any means except to pivot. The last direction the Earthshaker Cannon fired counts as the Front.",
+    "Mobile Artillery": "This model may only be moved by a friendly model with the Tow ability. A unit being Towed uses all available Transport Capacity regardless of its actual number",
+    "Deadly Payload": "This model explodes if it ever comes into base contact with an enemy model or if the owner wishes it Page 76 of 123",
+    "Suicide Mission": "Each Cyclops is treated as an individual unit, but is deployed with the Guardsman as if they were one. This model cannot Claim or Contest Objectives. Special Wargear:",
+    "Remote Control": "Allows any friendly Cyclops to be Detonated on command or to be moved. If no Remote Controls remain on the field, all Cyclops may not move or Detonate unless it is the 4+ to explode. Cyclops models are allowed to be targeted by Friendly Fire.",
+    "Transport 7": "Access Front",
+    "Command Ship": "Infantry Orders may be issued from Embarked units on this model with +12\" Radius",
+    "Transport 6": "Access Rear. 2 Fire Ports Side and Rear, 1 Fire Port Front.",
+    "Tow": "This model may move Mobile Artillery. The unit takes the full transport capacity when being Towed.",
+    "Subterranean Assault": "You may place up to 10 Infantry models in Reserve with this unit during Deployment. Once this model Deepstrikes successfully, the unit may Deepstrike within 6\" without scattering.",
+    "Ammunition Cache": "6\" Aura, this model and target unit replenishes all One Use Only Wargear. Deathstrike Missiles",
+    "Medicae Ambulance": "6\" Aura, target unit gains 5+ Feel No Pain.",
+    "Transport 10": "Access Sides and Rear.",
+    "All Terrain": "This model may reroll Dangerous Terrain Tests",
+    "Transport 25": "Access Sides and Rear. 5 Fire Points on Front, Sides, and Rear.",
+    "Earthshock": "Any unit Hit by this Template only Moves, Advances, Charges, and Falls Back at Half Speed until your next Command Phase.",
+    "Shadowsword Sensors": "This model may Reroll all To Hit and Scatter dice when targeting Titanic units.",
+    "Shadowsword Sensor": "This model may Reroll all To Hit and Scatter dice when targeting Titanic units.",
+    "Transport 35": "Access Rear.",
+    "Transport 50": "Access Front and Rear. Assault Ramps.",
+    "Transport 300": "Access Front and Rear. 40 Firing Ports each Side, 20 Firing Ports Front and Rear. This model is equipped with Assault Ramps.",
+    "Destructive Path": "All Terrain is destroyed by this model moving over it, including Titanic Terrain. Any model are Destroyed. This model may only pivot up to its current M value when turning. This model displaces all models when it moves including Titanic ones.",
+    "Motor Pool": "May Transport up to 10 non-Titanic Tanks, 3 Baneblade Chassis or Macharius Chassis Tanks, and 1 Arvus Lighter. Titanic and High Altitude models may only Embark or Disembark from the Rear. In the Shadow of the",
+    "Imperium": "24\" True Aura, all enemy models suffer Ld-2. Page 111 of 123",
+    "Inspiring Presence": "Orders from this model have a 24\" radius. All units testing on Orders cast from this model may use this model's Ld in place of their own.",
+    "Transport 100": "Access Rear. 20 Firing Ports each Side, 10 Firing Ports Rear.",
+    "Create Panic": "This model displaces all models when it moves, place them up to 1\" Away. Immobile units prevent this model from moving there.",
+    "Immense Bulk": "This model may only Pivot up to its current M value. It may still move as normal.",
+    "Savage": "This model and his unit may declare Charges after Advancing or Disembarking. Brains:",
+    "Jerry Rigger": "Repair d3 Wounds, on a 4+, restore a Weapon Disabled, Crew Stun, Immobilize, or Weapon Destroyed Result. Demolition Man:",
+    "Demolition Expert": "This model and his unit's Blast Templates never Scatter and may reroll 1s To Wound. Fingers: Objective Secured",
+    "Rocket Loader": "Rocket Girl may fire 1 additional time each time she is nominated to shoot. Grease Monkey:",
+    "Hijacker": "When Assaulting a Vehicle, roll a d6 before attacking. On a 5+ take control of the target Vehicle so long as it has Transport 10+ and immediately Embark regardless of Transport size. Use BS3+ for this Vehicle. If there are any Embarked units onboard, they must perform a Forced Disembark after Schaeffer's Last Chancers Embark. Hero:",
+    "Last Chance": "This model gains a 3+ Feel No Pain when taking Wounds on behalf of the Squad willingly. Ox:",
+    "Suppressive Fire": "Ranged attacks by Ox gain Grav. Rocket Girl:",
+    "Tank Buster": "This model gains Armourbane when using a Missile Launcher. Scope:",
+    "Deadeye": "models taking Pinning Tests inflicted by this model take the test at Ld-3. Shiv:",
+    "Stealth Attack": "This model and his unit gain Furious Charge and Shock Assault. Warrior Woman:",
+    "Way of the Warrior": "This model's and her unit may change their Weapon # to Pistol # and Overwatch at their BS#+ instead of the usual Overwatch #+. No model may fire more than 2 weapons as Pistols each (and removes the normal Grenade restrictions). Special Wargear:",
+    "Auspex Scanner": "This model and its unit inflict a -1 to Cover Saves from this unit's ranged attacks.",
+    "Modified Vox Caster": "12\" Aura, cancel one Aura or True Aura in effect.",
+    "Heavy Gate": "In your Command Phase you may declare if the Gate is Open or Closed. Models may not move through the Gate",
+    "Fortification": "This model may never be moved once placed on the Table, except when it is destroyed. Gate Tower: Building Titanic",
+    "Transport 20": "Access Rear",
+    "Gun Emplacement": "This an existing piece of Terrain in your Deployment Zone like normal, it is placed with the Terrain instead.",
+    "Transport 30": "6 Fire Points Front. Access Rear",
+    "Shield Generator": "6\" Aura, this model (and any models on top of this Terrain Feature) and target unit gain 5+ Invulnerability Save."
+  },
   "wargear": {
     "Augar Array": "6\" Aura, target unit does not scatter when Deepstriking. This Aura is cast when the first model is placed prior to scattering.",
     "Camo Netting": "This model gains Shroud. Page 3 of 123",
@@ -1761,79 +1926,6 @@
             "type": "Heavy 1, Monsterbane, One Use Only, Hull Page 13 of 123"
           }
         }
-      },
-      {
-        "name": "M WS BS S T W I A Ld Sv",
-        "points_base": 182,
-        "composition": "1 Graves 0-1 Vigilance",
-        "models": [
-          {
-            "name": "6 2+ 2+ 3 3 5 3 3 10 4+",
-            "stats": {
-              "M": "10",
-              "WS": "4+",
-              "BS": "2+",
-              "S": "6",
-              "FA": "13",
-              "SA": "12",
-              "RA": "10",
-              "W": "10",
-              "I": "1",
-              "A": "3",
-              "Ld": "8",
-              "Sv": "3+"
-            },
-            "rules": [
-              "Infantry",
-              "Independent Character",
-              "Unique",
-              "Aura of Discipline",
-              "Summary Execution",
-              "Vehicle",
-              "Tank",
-              "Independent Character",
-              "Unique",
-              "Open Topped"
-            ]
-          }
-        ],
-        "fixed_wargear": [],
-        "options": [
-          {
-            "description": "May take Vigilance for +211 points",
-            "choices": []
-          },
-          {
-            "description": "Vigilance may take any E one time each",
-            "choices": [
-              {
-                "name": "Augar Array",
-                "pts_delta": 5
-              },
-              {
-                "name": "Camo Netting",
-                "pts_delta": 6
-              },
-              {
-                "name": "Extra Armour",
-                "pts_delta": 5
-              },
-              {
-                "name": "Recovery Gear",
-                "pts_delta": 2
-              },
-              {
-                "name": "Searchlight",
-                "pts_delta": 1
-              },
-              {
-                "name": "Smoke Launchers",
-                "pts_delta": 10
-              }
-            ]
-          }
-        ],
-        "weapons": {}
       }
     ],
     "dedicated_transport": [
@@ -7988,9 +8080,7 @@
             ]
           }
         ],
-        "fixed_wargear": [
-          "None"
-        ],
+        "fixed_wargear": [],
         "options": [
           {
             "description": "May take",
@@ -10776,12 +10866,12 @@
     ],
     "heavy_support": [
       {
-        "name": "Battle Tanks",
+        "name": "Carnodon Squadron",
         "points_base": 134,
         "composition": "1-3 Carnodons",
         "models": [
           {
-            "name": "Carnodon Squadron",
+            "name": "Carnodon",
             "stats": {
               "M": "10",
               "WS": "5+",
@@ -10796,11 +10886,6 @@
               "Ld": "8",
               "Sv": "3+"
             },
-            "rules": []
-          },
-          {
-            "name": "Carnodon",
-            "stats": {},
             "rules": [
               "Vehicle",
               "Tank"
@@ -10818,23 +10903,92 @@
           },
           {
             "description": "Any Carnodon may swap Volkite Culverin",
-            "choices": []
+            "choices": [
+              {
+                "name": "Volkite Culverin",
+                "pts_delta": 0
+              },
+              {
+                "name": "2 Linked Multilasers",
+                "pts_delta": 7
+              },
+              {
+                "name": "2 Linked Autocannons",
+                "pts_delta": 15
+              },
+              {
+                "name": "2 Linked Lascannons",
+                "pts_delta": 31
+              }
+            ]
           },
           {
             "description": "Any Carnodon may swap 2 Heavy Flamers",
-            "choices": []
+            "choices": [
+              {
+                "name": "2 Heavy Flamers",
+                "pts_delta": 0
+              },
+              {
+                "name": "2 Heavy Bolters",
+                "pts_delta": 2
+              },
+              {
+                "name": "2 Multilasers",
+                "pts_delta": 2
+              },
+              {
+                "name": "2 Autocannons",
+                "pts_delta": 8
+              },
+              {
+                "name": "2 Lascannons",
+                "pts_delta": 20
+              }
+            ]
           },
           {
             "description": "Any Carnodon may take",
-            "choices": []
+            "choices": [
+              {
+                "name": "Stormbolter",
+                "pts_delta": 5
+              },
+              {
+                "name": "Light Stubber",
+                "pts_delta": 9
+              },
+              {
+                "name": "Heavy Flamer",
+                "pts_delta": 11
+              },
+              {
+                "name": "Heavy Stubber",
+                "pts_delta": 11
+              },
+              {
+                "name": "Multilaser",
+                "pts_delta": 13
+              }
+            ]
           },
           {
             "description": "Any Carnodon may take",
-            "choices": []
+            "choices": [
+              {
+                "name": "Dozerblade",
+                "pts_delta": 9
+              }
+            ]
           },
           {
             "description": "Any Carnodon may take",
-            "choices": []
+            "choices": [
+              {
+                "name": "Hunter Killer Missile",
+                "pts_delta": 5
+              }
+            ]
           },
           {
             "description": "Any Carnodon may take any E one time each",
@@ -10870,7 +11024,104 @@
             ]
           }
         ],
-        "weapons": {}
+        "weapons": {
+          "Volkite Culverin": {
+            "range": "48",
+            "S": "6",
+            "AP": "3+",
+            "type": "Heavy 1, Beam, Turret, Primary Page 58 of 123"
+          },
+          "2 Linked Multilasers": {
+            "range": "36",
+            "S": "6",
+            "AP": "6+",
+            "type": "Heavy 3 x2, Turret, Primary"
+          },
+          "2 Linked Autocannons": {
+            "range": "48",
+            "S": "7",
+            "AP": "4+",
+            "type": "Heavy 2, Monsterbane, Turret, Primary"
+          },
+          "2 Linked Lascannons": {
+            "range": "48",
+            "S": "9",
+            "AP": "2+",
+            "type": "Heavy 1 x2, Monsterbane, Turret, Primary"
+          },
+          "2 Heavy Flamers": {
+            "range": "Flame",
+            "S": "5",
+            "AP": "4+",
+            "type": "Assault 1 x2, Sponson"
+          },
+          "2 Heavy Bolters": {
+            "range": "36",
+            "S": "5",
+            "AP": "4+",
+            "type": "Heavy 3 x2, Sponson"
+          },
+          "2 Multilasers": {
+            "range": "36",
+            "S": "6",
+            "AP": "6+",
+            "type": "Heavy 3 x2, Sponson"
+          },
+          "2 Autocannons": {
+            "range": "48",
+            "S": "7",
+            "AP": "4+",
+            "type": "Heavy 2 x2, Monsterbane, Sponson"
+          },
+          "2 Lascannons": {
+            "range": "48",
+            "S": "9",
+            "AP": "2+",
+            "type": "Heavy 1 x2, Monsterbane, Sponson"
+          },
+          "Stormbolter": {
+            "range": "24",
+            "S": "4",
+            "AP": "5+",
+            "type": "Rapid Fire 2, Turret"
+          },
+          "Light Stubber": {
+            "range": "36",
+            "S": "4",
+            "AP": "-",
+            "type": "Heavy 3, Turret"
+          },
+          "Heavy Flamer": {
+            "range": "Flame",
+            "S": "5",
+            "AP": "4+",
+            "type": "Assault 1, Turret"
+          },
+          "Heavy Stubber": {
+            "range": "36",
+            "S": "5",
+            "AP": "6+",
+            "type": "Heavy 3, Turret"
+          },
+          "Multilaser": {
+            "range": "36",
+            "S": "6",
+            "AP": "6+",
+            "type": "Heavy 3, Turret"
+          },
+          "Dozerblade": {
+            "range": "Melee",
+            "S": "+1",
+            "AP": "6+",
+            "type": "Dozerblade, Accurate"
+          },
+          "Hunter Killer Missile": {
+            "range": "120",
+            "S": "10",
+            "AP": "3+",
+            "type": "Heavy 1, Monsterbane, One Use Only, Hull"
+          }
+        }
       },
       {
         "name": "Destroyer Squadron",
@@ -12521,12 +12772,12 @@
         }
       },
       {
-        "name": "Self-Propelled Guns",
+        "name": "Colossus Bombard Battery",
         "points_base": 167,
         "composition": "1-3 Colossus Siege Mortar",
         "models": [
           {
-            "name": "Colossus Bombard Battery",
+            "name": "Colossus Siege Mortar",
             "stats": {
               "M": "8",
               "WS": "5+",
@@ -12541,11 +12792,6 @@
               "Ld": "8",
               "Sv": "3+"
             },
-            "rules": []
-          },
-          {
-            "name": "Colossus Siege Mortar",
-            "stats": {},
             "rules": [
               "Vehicle",
               "Tank",
@@ -12563,19 +12809,51 @@
           },
           {
             "description": "Any Colossus may take",
-            "choices": []
+            "choices": [
+              {
+                "name": "Heavy Flamer",
+                "pts_delta": 5
+              },
+              {
+                "name": "Heavy Bolter",
+                "pts_delta": 6
+              }
+            ]
           },
           {
             "description": "Any Colossus may take",
-            "choices": []
+            "choices": [
+              {
+                "name": "Stormbolter",
+                "pts_delta": 5
+              },
+              {
+                "name": "Light Stubber",
+                "pts_delta": 9
+              },
+              {
+                "name": "Heavy Stubber",
+                "pts_delta": 11
+              }
+            ]
           },
           {
             "description": "Any Colossus may take",
-            "choices": []
+            "choices": [
+              {
+                "name": "Dozerblade",
+                "pts_delta": 9
+              }
+            ]
           },
           {
             "description": "Any Colossus may take",
-            "choices": []
+            "choices": [
+              {
+                "name": "Hunter Killer Missile",
+                "pts_delta": 5
+              }
+            ]
           },
           {
             "description": "Any Colossus may take any E one time each",
@@ -12631,7 +12909,56 @@
             ]
           }
         ],
-        "weapons": {}
+        "weapons": {
+          "Colossus Siege Mortar": {
+            "range": "24-240 6",
+            "S": "3+",
+            "AP": "Heavy 1, 7\" Blast, Ordnance,",
+            "type": "Indirect Fire, Ignore Cover, Hull, Primary"
+          },
+          "Heavy Flamer": {
+            "range": "Flame",
+            "S": "5",
+            "AP": "4+",
+            "type": "Assault 1, Hull"
+          },
+          "Heavy Bolter": {
+            "range": "36",
+            "S": "5",
+            "AP": "4+",
+            "type": "Heavy 3, Hull"
+          },
+          "Stormbolter": {
+            "range": "24",
+            "S": "4",
+            "AP": "5+",
+            "type": "Rapid Fire 2, Turret"
+          },
+          "Light Stubber": {
+            "range": "36",
+            "S": "4",
+            "AP": "-",
+            "type": "Heavy 3, Turret"
+          },
+          "Heavy Stubber": {
+            "range": "36",
+            "S": "5",
+            "AP": "6+",
+            "type": "Heavy 3, Turret"
+          },
+          "Dozerblade": {
+            "range": "Melee",
+            "S": "+1",
+            "AP": "6+",
+            "type": "Dozerblade, Accurate"
+          },
+          "Hunter Killer Missile": {
+            "range": "120",
+            "S": "10",
+            "AP": "3+",
+            "type": "Heavy 1, Monsterbane, One Use Only, Hull Page 69 of 123"
+          }
+        }
       },
       {
         "name": "Deathstrike Missile Battery",
@@ -13250,7 +13577,20 @@
         "models": [
           {
             "name": "Platform",
-            "stats": {},
+            "stats": {
+              "M": "-",
+              "WS": "-",
+              "BS": "4+",
+              "S": "-",
+              "FA": "12",
+              "SA": "10",
+              "RA": "10",
+              "W": "8",
+              "I": "1",
+              "A": "-",
+              "Ld": "8",
+              "Sv": "3+"
+            },
             "rules": [
               "Vehicle",
               "Tank",
@@ -13298,7 +13638,18 @@
         "models": [
           {
             "name": "Field Artillery Piece",
-            "stats": {},
+            "stats": {
+              "M": "-",
+              "WS": "4+",
+              "BS": "4+",
+              "S": "3",
+              "T": "6",
+              "W": "5",
+              "I": "3",
+              "A": "3",
+              "Ld": "8",
+              "Sv": "3+"
+            },
             "rules": []
           }
         ],
@@ -13350,7 +13701,18 @@
         "models": [
           {
             "name": "Heavy Artillery Piece",
-            "stats": {},
+            "stats": {
+              "M": "-",
+              "WS": "4+",
+              "BS": "4+",
+              "S": "3",
+              "T": "7",
+              "W": "8",
+              "I": "3",
+              "A": "3",
+              "Ld": "8",
+              "Sv": "3+"
+            },
             "rules": [
               "Monster",
               "Mobile Artillery"
@@ -13414,7 +13776,20 @@
         "models": [
           {
             "name": "Platform",
-            "stats": {},
+            "stats": {
+              "M": "-",
+              "WS": "-",
+              "BS": "4+",
+              "S": "-",
+              "FA": "12",
+              "SA": "10",
+              "RA": "10",
+              "W": "6",
+              "I": "1",
+              "A": "-",
+              "Ld": "8",
+              "Sv": "3+"
+            },
             "rules": [
               "Vehicle",
               "Immobile Platform"
@@ -13459,7 +13834,20 @@
         "models": [
           {
             "name": "Platform",
-            "stats": {},
+            "stats": {
+              "M": "-",
+              "WS": "-",
+              "BS": "4+",
+              "S": "-",
+              "FA": "12",
+              "SA": "10",
+              "RA": "10",
+              "W": "6",
+              "I": "1",
+              "A": "-",
+              "Ld": "8",
+              "Sv": "3+"
+            },
             "rules": [
               "Vehicle",
               "Immobile Platform",
@@ -13496,7 +13884,18 @@
         "models": [
           {
             "name": "Sabre Platform",
-            "stats": {},
+            "stats": {
+              "M": "-",
+              "WS": "4+",
+              "BS": "4+",
+              "S": "3",
+              "T": "6",
+              "W": "5",
+              "I": "3",
+              "A": "1",
+              "Ld": "8",
+              "Sv": "4+"
+            },
             "rules": []
           }
         ],
@@ -13657,7 +14056,18 @@
         "models": [
           {
             "name": "Tarantula",
-            "stats": {},
+            "stats": {
+              "M": "-",
+              "WS": "4+",
+              "BS": "4+",
+              "S": "3",
+              "T": "6",
+              "W": "3",
+              "I": "3",
+              "A": "3",
+              "Ld": "8",
+              "Sv": "3+"
+            },
             "rules": []
           }
         ],
@@ -13802,7 +14212,6 @@
           }
         ],
         "fixed_wargear": [
-          "none",
           "Avenger Bolt Cannon",
           "2 Linked Lascannons",
           "Heavy Stubber"
@@ -13892,166 +14301,6 @@
             "type": "Heavy 3, Sponson"
           }
         }
-      },
-      {
-        "name": "Heavy 2 x2, Monsterbane,",
-        "points_base": 202,
-        "composition": "1-3 Avenger Strike Fighters",
-        "models": [
-          {
-            "name": "Turret, Primary",
-            "stats": {
-              "M": "50",
-              "WS": "5+",
-              "BS": "4+",
-              "S": "6",
-              "FA": "12",
-              "SA": "10",
-              "RA": "10",
-              "W": "14",
-              "I": "1",
-              "A": "3",
-              "Ld": "8",
-              "Sv": "3+"
-            },
-            "rules": []
-          },
-          {
-            "name": "Heavy 1 x2, Ordnance,",
-            "stats": {},
-            "rules": [
-              "Vehicle",
-              "High Altitude",
-              "Deep Strike"
-            ]
-          },
-          {
-            "name": "Monsterbane, One Use Only,",
-            "stats": {},
-            "rules": []
-          },
-          {
-            "name": "Hull, Primary",
-            "stats": {},
-            "rules": []
-          },
-          {
-            "name": "Heavy 3, Sponson",
-            "stats": {},
-            "rules": []
-          }
-        ],
-        "fixed_wargear": [],
-        "options": [
-          {
-            "description": "May take up to 2 more Avenger Strike Fighters for +202 points each",
-            "choices": []
-          },
-          {
-            "description": "Any Avenger Strike Fighter may take",
-            "choices": []
-          },
-          {
-            "description": "Any Avenger Strike Fighter may take up to one E each",
-            "choices": [
-              {
-                "name": "Chaff Launcher",
-                "pts_delta": 9
-              }
-            ]
-          }
-        ],
-        "weapons": {}
-      },
-      {
-        "name": "Heavy 1 x2, Ordnance,",
-        "points_base": 167,
-        "composition": "1-3 Lightning Strike Fighters",
-        "models": [
-          {
-            "name": "Monsterbane, One Use Only,",
-            "stats": {
-              "M": "60",
-              "WS": "5+",
-              "BS": "4+",
-              "S": "6",
-              "FA": "11",
-              "SA": "10",
-              "RA": "10",
-              "W": "10",
-              "I": "1",
-              "A": "3",
-              "Ld": "8",
-              "Sv": "3+"
-            },
-            "rules": []
-          },
-          {
-            "name": "Hull",
-            "stats": {},
-            "rules": [
-              "Vehicle",
-              "High Altitude",
-              "Deep Strike",
-              "Interceptor"
-            ]
-          },
-          {
-            "name": "Heavy 1 x2, 3\" Blast, Pinning,",
-            "stats": {},
-            "rules": []
-          },
-          {
-            "name": "Hull",
-            "stats": {},
-            "rules": []
-          },
-          {
-            "name": "Heavy 1 x2, 5\" Blast, Ignores",
-            "stats": {},
-            "rules": []
-          },
-          {
-            "name": "Cover, One Use Only, Hull",
-            "stats": {},
-            "rules": []
-          },
-          {
-            "name": "Heavy 1 x2, Monsterbane, Hull",
-            "stats": {},
-            "rules": []
-          },
-          {
-            "name": "Heavy 1 x2, 3\" Blast, Hull",
-            "stats": {},
-            "rules": []
-          }
-        ],
-        "fixed_wargear": [],
-        "options": [
-          {
-            "description": "May take up to 2 more Lightning Strike Fighters for +167 points each",
-            "choices": []
-          },
-          {
-            "description": "Any Lightning Strike Fighter may take",
-            "choices": []
-          },
-          {
-            "description": "Any Lightning Strike Fighter may take up to one E each",
-            "choices": [
-              {
-                "name": "Chaff Launcher",
-                "pts_delta": 9
-              },
-              {
-                "name": "Chaff Launcher",
-                "pts_delta": 9
-              }
-            ]
-          }
-        ],
-        "weapons": {}
       },
       {
         "name": "Thunderbolt Squadron",
@@ -15207,12 +15456,7 @@
         ],
         "fixed_wargear": [
           "Magma Cannon",
-          "2 Linked Heavy Bolters",
-          "May take up to 2 S or one SS",
-          "May take one D",
-          "May take one M",
-          "May take one P",
-          "May take up to one of each E"
+          "2 Linked Heavy Bolters"
         ],
         "options": [
           {
@@ -15922,12 +16166,7 @@
         "fixed_wargear": [
           "Vulcan Megabolter",
           "2 Linked Heavy Bolters",
-          "2 Heavy Stubbers S",
-          "May take up to 2 S or one SS",
-          "May take one D",
-          "May take one M",
-          "May take one P",
-          "May take up to one of each E"
+          "2 Heavy Stubbers S"
         ],
         "options": [
           {
@@ -18022,11 +18261,7 @@
           "2 Linked Heavy Bolters",
           "2 Linked Assault Cannons",
           "Imperialis Volcano Cannon",
-          "2 Heavy Bolters",
-          "M WS BS S FA SA RA W",
-          "4 5+ 4+ 12 15 14 13 200",
-          "I A Ld Sv",
-          "1 15 10 3+"
+          "2 Heavy Bolters"
         ],
         "options": [
           {
@@ -18568,7 +18803,18 @@
         "models": [
           {
             "name": "Gate",
-            "stats": {},
+            "stats": {
+              "M": "-",
+              "WS": "-",
+              "BS": "4+",
+              "S": "-",
+              "T": "8",
+              "W": "20",
+              "I": "-",
+              "A": "-",
+              "Ld": "-",
+              "Sv": "3+"
+            },
             "rules": [
               "Building",
               "Titanic"
@@ -18576,23 +18822,56 @@
           },
           {
             "name": "Gate Towers",
-            "stats": {},
+            "stats": {
+              "M": "-",
+              "WS": "-",
+              "BS": "4+",
+              "S": "-",
+              "T": "8",
+              "W": "30",
+              "I": "-",
+              "A": "-",
+              "Ld": "-",
+              "Sv": "3+"
+            },
             "rules": []
           },
           {
             "name": "Walls",
-            "stats": {},
+            "stats": {
+              "M": "-",
+              "WS": "-",
+              "BS": "4+",
+              "S": "-",
+              "T": "8",
+              "W": "30",
+              "I": "-",
+              "A": "-",
+              "Ld": "-",
+              "Sv": "3+"
+            },
             "rules": []
           },
           {
             "name": "Towers",
-            "stats": {},
+            "stats": {
+              "M": "-",
+              "WS": "-",
+              "BS": "4+",
+              "S": "-",
+              "T": "8",
+              "W": "30",
+              "I": "-",
+              "A": "-",
+              "Ld": "-",
+              "Sv": "3+"
+            },
             "rules": []
           }
         ],
         "fixed_wargear": [
           "Heavy Gate",
-          "2 Linked Heavy Bolters None",
+          "2 Linked Heavy Bolters",
           "2 Linked Autocannons"
         ],
         "options": [
@@ -18631,7 +18910,18 @@
         "models": [
           {
             "name": "Primaris Redoubt",
-            "stats": {},
+            "stats": {
+              "M": "-",
+              "WS": "-",
+              "BS": "4+",
+              "S": "-",
+              "T": "8",
+              "W": "30",
+              "I": "-",
+              "A": "-",
+              "Ld": "-",
+              "Sv": "3+"
+            },
             "rules": [
               "Titanic Building"
             ]
@@ -18657,7 +18947,18 @@
         "models": [
           {
             "name": "Platform",
-            "stats": {},
+            "stats": {
+              "M": "-",
+              "WS": "-",
+              "BS": "4+",
+              "S": "-",
+              "T": "7",
+              "W": "5",
+              "I": "-",
+              "A": "-",
+              "Ld": "-",
+              "Sv": "3+"
+            },
             "rules": [
               "Building"
             ]
@@ -18723,7 +19024,18 @@
         "models": [
           {
             "name": "Aquila Strongpoint",
-            "stats": {},
+            "stats": {
+              "M": "-",
+              "WS": "-",
+              "BS": "4+",
+              "S": "-",
+              "T": "8",
+              "W": "30",
+              "I": "-",
+              "A": "-",
+              "Ld": "-",
+              "Sv": "3+"
+            },
             "rules": [
               "Titanic Building"
             ]
@@ -18779,7 +19091,18 @@
         "models": [
           {
             "name": "Imperial Bastion",
-            "stats": {},
+            "stats": {
+              "M": "-",
+              "WS": "-",
+              "BS": "4+",
+              "S": "-",
+              "T": "8",
+              "W": "30",
+              "I": "-",
+              "A": "-",
+              "Ld": "-",
+              "Sv": "3+"
+            },
             "rules": [
               "Building"
             ]
@@ -18805,7 +19128,18 @@
         "models": [
           {
             "name": "Imperial Bastion",
-            "stats": {},
+            "stats": {
+              "M": "-",
+              "WS": "-",
+              "BS": "4+",
+              "S": "-",
+              "T": "8",
+              "W": "30",
+              "I": "-",
+              "A": "-",
+              "Ld": "-",
+              "Sv": "3+"
+            },
             "rules": [
               "Building"
             ]
@@ -18831,7 +19165,18 @@
         "models": [
           {
             "name": "Vengeance Weapon Battery",
-            "stats": {},
+            "stats": {
+              "M": "-",
+              "WS": "-",
+              "BS": "4+",
+              "S": "-",
+              "T": "8",
+              "W": "20",
+              "I": "-",
+              "A": "-",
+              "Ld": "-",
+              "Sv": "3+"
+            },
             "rules": [
               "Building"
             ]
@@ -18877,7 +19222,18 @@
         "models": [
           {
             "name": "Vengeance Weapon Battery",
-            "stats": {},
+            "stats": {
+              "M": "-",
+              "WS": "-",
+              "BS": "4+",
+              "S": "-",
+              "T": "8",
+              "W": "20",
+              "I": "-",
+              "A": "-",
+              "Ld": "-",
+              "Sv": "3+"
+            },
             "rules": [
               "Building"
             ]
@@ -18923,15 +19279,24 @@
         "models": [
           {
             "name": "Void Shield Generator",
-            "stats": {},
+            "stats": {
+              "M": "-",
+              "WS": "-",
+              "BS": "4+",
+              "S": "-",
+              "T": "8",
+              "W": "20",
+              "I": "-",
+              "A": "-",
+              "Ld": "-",
+              "Sv": "3+"
+            },
             "rules": [
               "Building"
             ]
           }
         ],
-        "fixed_wargear": [
-          "none"
-        ],
+        "fixed_wargear": [],
         "options": [],
         "weapons": {}
       }

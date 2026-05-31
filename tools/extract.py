@@ -84,6 +84,8 @@ SUBSECTION_LABELS = {
     'fellblade chassis', 'spartan chassis', 'baneblade chassis', 'macharius chassis',
     'marauder chassis', 'support', 'c\'tan shards', 'other', 'monoliths',
     'fast attacks', 'heavy support', 'support tanks',
+    # Group-header labels that appear between a slot header and the actual unit name
+    'battle tanks', 'self-propelled guns', 'support vehicles',
 }
 
 
@@ -261,9 +263,9 @@ def parse_stat_values(line: str, is_vehicle: bool) -> dict:
     keys_inf = ['M','WS','BS','S','T','W','I','A','Ld','Sv']
     keys_veh = ['M','WS','BS','S','FA','SA','RA','W','I','A','Ld','Sv']
     keys = keys_veh if is_vehicle else keys_inf
-    if len(parts) < len(keys):
+    if len(parts) < len(keys) - 1:
         return {}
-    return {k: parts[i] for i, k in enumerate(keys)}
+    return {k: parts[i] for i, k in enumerate(keys) if i < len(parts)}
 
 
 # ── Core parser ───────────────────────────────────────────────────────────────
@@ -325,6 +327,7 @@ def parse_codex(text: str, source_name: str, weapon_tables: dict | None = None) 
         # ── Stat value lines (one per model, immediately follow header) ───
         stat_val_lines = []
         j = stat_hi + 1
+        _sv_cont_re = re.compile(r'^\d\+$')   # bare save continuation, e.g. "3+"
         while j < pi and j < stat_hi + 10:
             stripped = lines[j].strip()
             if not stripped:
@@ -333,8 +336,24 @@ def parse_codex(text: str, source_name: str, weapon_tables: dict | None = None) 
             if STAT_VALUES_RE.match(stripped):
                 stat_val_lines.append(stripped)
                 j += 1
+            elif stat_val_lines and _sv_cont_re.match(stripped):
+                # Sv wrapped to next line — merge onto preceding stat row
+                stat_val_lines[-1] += ' ' + stripped
+                j += 1
             else:
                 break
+
+        # Fallback: in 2-column PDFs stat values may appear anywhere in the window
+        # stat_hi..next_stat_hi. Scan that full range for lines consisting entirely
+        # of stat-like tokens with enough values to form a valid row.
+        if not stat_val_lines:
+            next_stat_hi = next((sh for sh in stat_header_idx if sh > pi), n)
+            scan_end = min(next_stat_hi, pi + 60, n)
+            _stat_only_re = re.compile(r'^(?:\d+[\+\-]?|-)(?:\s+(?:\d+[\+\-]?|-))+$')
+            for k in range(stat_hi + 1, scan_end):
+                s2 = lines[k].strip()
+                if s2 and _stat_only_re.match(s2) and parse_stat_values(s2, is_vehicle):
+                    stat_val_lines.append(s2)
 
         # ── Model names (lines between previous blank/header and stat_hi) ─
         # Collect non-empty lines going backwards; skip sub-section labels.
@@ -384,6 +403,15 @@ def parse_codex(text: str, source_name: str, weapon_tables: dict | None = None) 
             if model_name_list and model_name_list[0] == unit_name:
                 model_name_list = model_name_list  # keep — it IS the model name
 
+        # Drop phantom chassis-label models: in some PDFs a vehicle chassis name
+        # (e.g. "Dreadnought") appears on the stat-header row in the left column,
+        # ending up as the first model name but having no corresponding stat line.
+        _CHASSIS_LABELS = {'dreadnought'}
+        if (stat_val_lines and
+                len(model_name_list) > len(stat_val_lines) and
+                model_name_list[0].lower() in _CHASSIS_LABELS):
+            model_name_list = model_name_list[1:]
+
         # Build model entries
         models = []
         for mi, mn in enumerate(model_name_list):
@@ -430,8 +458,10 @@ def parse_codex(text: str, source_name: str, weapon_tables: dict | None = None) 
                 elif fixed_wargear and sl and (
                     sl[0].islower() or
                     # Single-word uppercase continuation of a numbered item:
-                    # "2 Dreadnought Missile" + "Launchers"
+                    # "2 Dreadnought Missile" + "Launchers", "2 Linked Acheron Flame" + "Cannons".
+                    # Exclude single-letter mount codes (H/S/T) and "None".
                     (' ' not in sl and not sl[0].isdigit() and
+                     len(sl) > 1 and sl.lower() != 'none' and
                      fixed_wargear[-1] and fixed_wargear[-1][0].isdigit())
                 ):
                     fixed_wargear[-1] += ' ' + sl
@@ -698,10 +728,32 @@ def parse_codex(text: str, source_name: str, weapon_tables: dict | None = None) 
                 unit_name[0].isdigit() or                      # "0-1 Lord of War Slots" etc.
                 re.match(r'^[A-Z0-9\+\-]+$', unit_name) or   # bare stat/code like "AP", "3+"
                 re.match(r'^[A-Z]{1,4}\s*\+\d+\s+points?', unit_name) or  # "P +5 points", "T +33 points"
+                STAT_HEADER_RE.match(unit_name) or             # stat header captured as name
+                re.match(r'^(?:Heavy|Rapid Fire|Assault|Pistol|Ordnance|Grenade|Melee)\s+\d', unit_name) or
                 SP_WG_HDR_RE.match(unit_name) or
                 SP_WG_UPG_RE.match(unit_name) or
                 WEAPON_HDR_RE.match(unit_name)):                           # "Name", "Range", "AP" etc.
             continue
+
+        # ── Clean up fixed_wargear ────────────────────────────────────
+        _NONE_SUFFIX_RE = re.compile(r'\s+[Nn]one$')
+        _STAT_KEYS = {'M','WS','BS','S','FA','SA','RA','T','W','I','A','Ld','Sv'}
+        cleaned_wg = []
+        for wg in fixed_wargear:
+            wg = _NONE_SUFFIX_RE.sub('', wg).strip()
+            if not wg or wg.lower() == 'none':
+                continue
+            if re.match(r'^[Mm]ay\s+(?:take|replace|swap)', wg):
+                continue
+            # Skip stat header rows (full or partial) and stat value rows
+            if STAT_HEADER_RE.match(wg):
+                continue
+            if STAT_VALUES_RE.match(wg):
+                continue
+            if all(t in _STAT_KEYS for t in wg.split()):
+                continue
+            cleaned_wg.append(wg)
+        fixed_wargear = cleaned_wg
 
         unit = {
             'name':         unit_name,
@@ -734,7 +786,7 @@ def extract_army_rules(text: str) -> dict:
     Stops at 'Common Wargear' or the first slot header.
     Returns dict: {rule_name: description_text}
     """
-    RULE_DEF_RE  = re.compile(r'^([A-Z][A-Za-z\'\s]{1,50}?)\s+[–\-]\s+(.+)')
+    RULE_DEF_RE  = re.compile(r'^([A-Z][A-Za-z\'\s\d!]{1,60}?)\s+[–\-]\s+(.+)')
     STOP_WORD_RE = re.compile(r'^(?:Common Wargear|Chapter Rules|Clan Rules|Dynasty Rules)\s*$', re.I)
     PAGE_NUM_RE  = re.compile(r'^\d+$')
 
@@ -764,6 +816,54 @@ def extract_army_rules(text: str) -> dict:
             cur_parts.append(s)
 
     flush()
+
+    # Secondary scan: pick up inline rule definitions that appear within unit
+    # sections (2-column PDFs often place rule defs in the right column, which
+    # pdftotext plain mode surfaces after slot headers).
+    # Also handles bullet-point format: "• RuleName – desc" or "• RuleName: desc"
+    _WEAPON_STAT_RE = re.compile(
+        r'^\d+"\s+(?:Rapid Fire|Heavy|Assault|Pistol|Ordnance|Melee|S\d|AP)'  # range + weapon type
+        r'|^Melee\s+S\s*(?:User|\+|\d)'                                        # melee weapon stat
+        r'|^\d+\s+[\d\+\-]+\s+[\d\+\-]',                                       # bare stat values
+        re.I,
+    )
+    BULLET_RE = re.compile(r'^[•\-]\s+([A-Z][A-Za-z\'\s\d!]{1,60}?)\s*[–\-:]\s+(.+)')
+    cur_name = None
+    cur_parts = []
+    in_unit_section = False
+
+    def flush2():
+        if cur_name and cur_parts:
+            desc = ' '.join(cur_parts)
+            if _WEAPON_STAT_RE.search(desc):
+                return
+            # Store under both the raw name and a de-pluralised form so that
+            # "Soulless Machines" (PDF) is found as "Soulless Machine" (unit rule).
+            names_to_store = [cur_name]
+            if cur_name.endswith('s') and not cur_name.endswith('ss'):
+                names_to_store.append(cur_name[:-1])
+            for n in names_to_store:
+                if n not in rules:
+                    rules[n] = desc
+
+    for line in lines:
+        s = line.strip()
+        if identify_slot(line):
+            in_unit_section = True
+        if not s or PAGE_NUM_RE.match(s):
+            if in_unit_section:
+                flush2(); cur_name = None; cur_parts = []
+            continue
+        # Match inline dash-format definitions (anywhere in text)
+        m = RULE_DEF_RE.match(s) or BULLET_RE.match(s)
+        if m:
+            flush2()
+            cur_name = m.group(1).strip()
+            cur_parts = [m.group(2).strip()]
+        elif cur_name and in_unit_section and not identify_slot(line) and not STAT_HEADER_RE.match(s):
+            cur_parts.append(s)
+
+    flush2()
     return rules
 
 
@@ -1111,6 +1211,30 @@ def extract_core_keywords(text: str) -> dict:
 
         flush_ut()
 
+    # ── Manual supplement: universal rules contextually described in rulebook ──
+    # These rules are referenced throughout but lack a formal "Name – def" block.
+    _SUPPLEMENT = {
+        'Flying':       'Flyers ignore terrain and vertical distance when moving. If the model cannot be safely positioned on a terrain piece, it must move or land elsewhere.',
+        'High Altitude':'This model must move its minimum movement of 20" in a straight line each Movement Phase, making a single turn of up to 90 degrees at the end. High Altitude models may opt to move off any table edge to enter Reserves, re-entering from your Deployment Zone the following turn. Enemies that lack AA, Flying, or High Altitude suffer -1 To Hit against this model. Blast weapons may fire Snap Shots at High Altitude models; Indirect weapons may never target them.',
+        'Hover':        'This model switches from High Altitude to Hover mode. While Hovering it follows normal vehicle/monster movement rules instead of High Altitude rules, and may be targeted and hit normally.',
+        'Fly':          'This model ignores terrain and vertical distance when moving, treating all ground as open terrain. It may not benefit from area terrain cover saves while flying.',
+        'Open Topped':  'Add +2 to the result when rolling on the Vehicle Damage Chart against this model after a Penetration. Embarked models may fire their weapons from inside as if using Fire Ports, and may be hit by Blast and Template weapons that overlap the vehicle.',
+        'Immobile':     'This model cannot Move, Advance, Charge, Flee, or Pivot for any reason.',
+        'Unique':       'Only one model or unit with this rule may be included in your army. You may not take duplicates.',
+        'Steed':        'Mounted Infantry. The model is mounted on a steed or bike and gains the relevant movement bonuses but must roll Dangerous Terrain tests when entering terrain other than Hills, may not climb terrain, and may not board Transports.',
+        'Infiltrate':   'After all other units and Infiltrators are deployed, place this unit at least 12" from enemy models, alternating with the opponent. These do not move during Scout moves.',
+        'Stealth':      'This model gains +1 to Cover Saves. If in the open it has a 6+ Cover Save. This stacks with Going to Ground up to a maximum of a 3+ Cover Save.',
+        'Fleet':        'This model may reroll its Advance distance in the Shooting Phase.',
+        'Counterattack':'When this unit is successfully charged, it may immediately make a free round of Melee attacks before the normal combat begins, provided it passes a Leadership test.',
+        'Jump':         'This model is Jump Infantry. It may move as if Flying during the Movement Phase, ignoring terrain and vertical distance. It may still be charged and fight in Melee normally.',
+        'Immobilized':       'The vehicle permanently Moves, Advances, Charges, and Flees at half speed for the rest of the game. This effect can stack, rounding down to the nearest whole number until it hits 0.',
+        'Building':          'Buildings are Fortifications placed during Terrain setup. They have levels — as a Building loses Wounds equal to a level, the top habitable level collapses. Models may embark inside a Building from any edge within 1" and benefit from the same rules as being inside a Transport. A destroyed Building follows Force Disembark rules.',
+        'Psychic Mastery Level #': 'This model has # Psychic Mastery Level(s). It may cast one spell per Psychic Phase for each Psychic Mastery Level it has (but each spell only once per Phase). It adds its Psychic Mastery Level to the 2d6 casting roll. It may also attempt to Deny the Witch once per Psychic Phase.',
+    }
+    for name, desc in _SUPPLEMENT.items():
+        if name not in keywords:
+            keywords[name] = desc
+
     return keywords
 
 
@@ -1155,6 +1279,40 @@ def build_global_weapons_registry(processed: list) -> None:
     print(f"Wrote {len(registry)} weapon profiles → {out_path}")
 
 
+def build_global_wargear_registry(processed: list) -> None:
+    """
+    Merge all codex-level wargear description dicts into data/wargear.json.
+    Used as a cross-codex fallback for non-weapon equipment lookups.
+    """
+    registry: dict = {}
+    for codex in processed:
+        for name, desc in codex.get('wargear', {}).items():
+            if name and name not in registry:
+                registry[name] = desc
+    out_path = DATA_DIR / 'wargear.json'
+    with open(out_path, 'w') as f:
+        json.dump(registry, f, indent=2, sort_keys=True)
+    print(f"Wrote {len(registry)} wargear descriptions → {out_path}")
+
+
+def build_global_rules_registry(processed: list) -> None:
+    """
+    Merge all codex-level rules dicts into data/common-rules.json.
+    Used as a cross-codex fallback when a rule isn't in the current codex.
+    Rules that appear in multiple codexes with consistent text are included;
+    any rule found in at least one codex is included.
+    """
+    registry: dict = {}
+    for codex in processed:
+        for name, desc in codex.get('rules', {}).items():
+            if name and name not in registry:
+                registry[name] = desc
+    out_path = DATA_DIR / 'common-rules.json'
+    with open(out_path, 'w') as f:
+        json.dump(registry, f, indent=2, sort_keys=True)
+    print(f"Wrote {len(registry)} common rules → {out_path}")
+
+
 def main():
     targets = sys.argv[1:]
 
@@ -1193,6 +1351,8 @@ def main():
     if processed:
         update_factions_index(processed)
         build_global_weapons_registry(processed)
+        build_global_wargear_registry(processed)
+        build_global_rules_registry(processed)
         print(f"\nDone. {len(processed)} codex file(s) written to data/")
 
     if not targets:

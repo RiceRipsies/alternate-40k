@@ -2,7 +2,104 @@
   "id": "dark-eldar",
   "name": "Dark Eldar",
   "difficulty": 5,
-  "rules": {},
+  "rules": {
+    "Beasts": "A keyword for interacting with some Codex abilities.",
+    "Beast": "A keyword for interacting with some Codex abilities.",
+    "Combat Stimulants": "This model has Furious Charge and a 5+ Feel No Pain.",
+    "Combat Stimulant": "This model has Furious Charge and a 5+ Feel No Pain.",
+    "Exposed Transport": "For each Unsaved Glance or Penetration against this model, roll a d6.",
+    "Harlequin": "This model does not use the Kabal rules your army follows.",
+    "Sudden Descent": "When this model Deepstrikes, it gains Stealth until your next Command",
+    "Clone Field": "This model has a 4+ Invulnerability Save.",
+    "Enhanced Aethersails": "This model gains Hover and High Altitude. This model must move",
+    "Enhanced Aethersail": "This model gains Hover and High Altitude. This model must move",
+    "Flip Belt": "This model ignores Terrain and Models for the purposes of Moving, Advancing,",
+    "Grisly Trophies": "6\" Aura, this model and target unit may reroll failed Ld Tests.",
+    "Grisly Trophie": "6\" Aura, this model and target unit may reroll failed Ld Tests.",
+    "Holo Fields": "This model gains a 5+ Invulnerability Save.",
+    "Holo Field": "This model gains a 5+ Invulnerability Save.",
+    "Holosuit": "This model has a 4+ Invulnerability Save.",
+    "Night Shields": "This model gains a 5+ Invulnerability Save.",
+    "Night Shield": "This model gains a 5+ Invulnerability Save.",
+    "Phantasm Grenade Launcher": "6\" Aura, this model and target unit are treated as having",
+    "Soul Trap": "This model may choose the target of its Challenge. The target may not Deny the",
+    "Spirit Stones": "This model may treat Crew Stun as Weapon Disabled results.",
+    "Spirit Stone": "This model may treat Crew Stun as Weapon Disabled results.",
+    "Splinter Racks": "This model may reroll 1s To Hit with ranged attacks.",
+    "Splinter Rack": "This model may reroll 1s To Hit with ranged attacks.",
+    "Vectored Engines": "This model may Pivot immediately after resolving Shooting attacks in",
+    "Vectored Engine": "This model may Pivot immediately after resolving Shooting attacks in",
+    "Agents of Vect": "All Infantry in your army gain Objective Secured.",
+    "Obsession for Power": "All models in your army must declare Charges if able to do so and",
+    "Skyborne Kabal": "All models in your army must start in Reserve.",
+    "Sudden Strike": "All nonbuilding models in your army gain Deepstrike. If they already have",
+    "Flawless Craftsmanship": "All weapons in your army gain Rending. If they already have",
+    "Failure is not Tolerated": "All models in your army suffer 1 Mortal Wound for each point they",
+    "Insidious Misdirection": "You may redeploy one unit per 1000 points of your roster after",
+    "Towering Arrogance": "All models in your army suffer Ld-1.",
+    "Must Strike First": "All models in your army must declare a Charge if they are able to do so.",
+    "The Spectacle of Murder": "Units in your army gain A+1 if there is an ongoing Challenge",
+    "Only the Strong Will Thrive": "All T3 models in your army gain T+1, and all models in your",
+    "Internal Treachery": "All units in your army may only ever have one friendly Aura cast on",
+    "Obsession with Speed": "All Infantry models in your army suffer Sv-1.",
+    "The Speed of the Kill": "All models in your army may reroll failed Charge rolls.",
+    "Butchers of Flesh": "All models in your army gain Shock Assault.",
+    "Flesh Samplers": "All models in your army automatically Restrain when pursuing in Melee.",
+    "Flesh Sampler": "All models in your army automatically Restrain when pursuing in Melee.",
+    "Distillers of Fear": "All enemy models in base contact with one or more of your models",
+    "Tormentor's Delight": "All Infantry models in your army only count as half a model for the",
+    "Connoisseurs of Pain": "All models in your army inflict a -1 penalty on Feel No Pains",
+    "Fleshcraft Pursuits": "Your army cannot Claim or Contest Objective Markers in the enemy Generic Archon Archon",
+    "Fleshcraft Pursuit": "Your army cannot Claim or Contest Objective Markers in the enemy Generic Archon Archon",
+    "Overlord": "6\" Aura, this model and target unit may reroll 1s To Hit.",
+    "Master of Flesh": "6\" Aura, this model and target unit may reroll 1s or Feel No Pain.",
+    "Spinal Stimulants": "This model has a 4+ Feel No Pain and Furious Charge.",
+    "Spinal Stimulant": "This model has a 4+ Feel No Pain and Furious Charge.",
+    "Bride of Death": "6\" Aura, this model and target unit may reroll 1s To Wound.",
+    "No Escape": "6\" Aura, target unit attempting to Fall Back must perform an Initiative Test against this model. If this model wins the test, the unit cannot Fall Back.",
+    "Choreographer of War": "6\" Aura, this model and target unit may reroll all failed To Wound rolls in Melee. All Charges against this model are considered Disorganized.",
+    "Stolen Precious Fluids": "For each Infantry, Monstrous Infantry, or Monster kill this model makes in Melee, she gains M+1, I+1, and A+1 to a maximum of +4.",
+    "Stolen Precious Fluid": "For each Infantry, Monstrous Infantry, or Monster kill this model makes in Melee, she gains M+1, I+1, and A+1 to a maximum of +4.",
+    "Quicksilver": "This model has a 4+ Invulnerability Save.",
+    "Out of their League": "This model rerolls all failed To Hit and To Wound rolls when in a Challenge.",
+    "Rampage": "This model gains A+d3 when outnumbered in Melee. Special Wargear:",
+    "Fresh Meat": "6\" Aura, for each point target unit loses Combat Resolution by, they suffer 1 Auto Wound.",
+    "Follower of Ynnead": "This model is not affected by your Kabal rules.",
+    "Herald of Ynnead": "6\" Aura, this model and target unit may reroll 1s To Hit and Wound.",
+    "Forcefield": "This model has a 4+ Invulnerability Save.",
+    "Grynx Familiar": "This model gains +1 To Cast.",
+    "Beast Master": "6\" Aura, target unit with the Beast keyword may reroll 1s To Hit and To Wound. M+4, Gains Deepstrike, Fly, Splinter Pods",
+    "Jester of Death": "6\" Aura, target unit must take a Fear Test. All Charges against this model are considered Disorganized.",
+    "Master of Poisons": "6\" Aura, this model and target unit gains Poison (-1) (Improves by 1) to a maximum of Poison (2+).",
+    "Master of Poison": "6\" Aura, this model and target unit gains Poison (-1) (Improves by 1) to a maximum of Poison (2+).",
+    "Brain Fruit": "6\" Aura, this model suffers 1 Mortal Wound and target Infantry model Heals 1 Wound. This ability can be used multiple times per Turn, but cannot affect the same model more than once per Turn.",
+    "Role of Slaanesh": "This model cannot join units and may not be targeted by any Auras. This model may reroll failed Charge rolls. All Charges against this model are considered Disorganized.",
+    "Four Armed Combatant": "This model may fire Pistols when nominating other Ranged weapons as well, instead of Ranged weapons OR Pistols.",
+    "Tracker": "6\" Aura, this model and target unit may reroll failed Charges.",
+    "Murderous Assault": "Each unsaved Wound this model inflicts grants another immediate attack. These extra attacks do not generate further attacks.",
+    "Champion of Ynnead": "6\" Aura, this model and target unit gains a 5+ Feel No Pain.",
+    "Warden of Yvraine": "This model may gains Bodyguard,",
+    "Chosen Escort": "This unit may reroll failed Charges. Hekatrix: Infantry Combat Stimulants Fleet",
+    "Faceless Terror": "6\" Aura, target unit must make a Fear Test. This is cast as a unit.",
+    "Shadow Crawl": "This unit may be held in Reserve. It arrives on table in Combat with one enemy unit, treated as On Going Combat. The Mandrake unit must still be at least 1\" away from all other units.",
+    "Terrifying Presence": "No Independent Characters may join this unit. Mandrake: Infantry Stealth",
+    "Psychotic Rampage": "In each of your Command Phases, perform a Ld Test. I this unit fails, it treats all units on the table as enemy units, and all units on the table may treat this unit as an enemy unit. During the Movement Phase, it must Move as much as possible to the closest enemy unit. In the Shooting Phase it must shoot the closest enemy unit, or if cannot do that, Advance towards the closest enemy unit so long as its further than 12\" away. In the Assault Phase, this unit must Declare a Charge against the closest enemy unit if possible. If it is Embarked during your Command Phase it does not have to Test.",
+    "Daemonic": "This model has a 5+ Invulnerability Save.",
+    "Savage Animal": "This model cannot Claim or Contest Objective Markers.",
+    "Spire Messengers": "12\" Aura, target model or unit gains +6\" to their Auras. Cast as a unit. Scourge: Infantry Combat Stimulants Sudden Descent Deepstrike Flying Bulky",
+    "Spire Messenger": "12\" Aura, target model or unit gains +6\" to their Auras. Cast as a unit. Scourge: Infantry Combat Stimulants Sudden Descent Deepstrike Flying Bulky",
+    "Holo Suit": "4+ Invulnerability Save.",
+    "Acrobatic Maneuvers": "This model has a 4+ Invulnerability Save.",
+    "Acrobatic Maneuver": "This model has a 4+ Invulnerability Save.",
+    "Transport 12": "Access Sides and Rear. Assault Ramps. 10 360 Fire Ports.",
+    "Transport 6": "Access Sides and Rear. Assault Ramps. 6 360 Fire Ports.",
+    "Avatar of Ynnead": "6\" True Aura, for each model slain, friend or foe, this model rolls a d6. On a 4+ it gains +1 Wound, even if it exceeds its starting Wound count.",
+    "Daemonic Avatar": "This model has a 4+ Invulnerability Save and a 5+ Feel No Pain.",
+    "Death Avatar": "6\" Aura, target unit must take a Fear Test.",
+    "Transport 16": "Access Sides and Rear. Assault Ramps. 16 360 Fire Ports.",
+    "Web Shielding": "5+ Invulnerability Save.",
+    "Webway": "Any friendly unit may arrive from Reserve as if it had Disembarked from the Webway Gate instead of normal. Access is on the Front and Back."
+  },
   "wargear": {},
   "subfactions": [
     {
@@ -3428,7 +3525,20 @@
         "models": [
           {
             "name": "Ravager",
-            "stats": {},
+            "stats": {
+              "M": "12",
+              "WS": "5+",
+              "BS": "3+",
+              "S": "6",
+              "FA": "10",
+              "SA": "10",
+              "RA": "10",
+              "W": "10",
+              "I": "1",
+              "A": "3",
+              "Ld": "9",
+              "Sv": "3+"
+            },
             "rules": [
               "Vehicle",
               "Tank",
@@ -3572,7 +3682,20 @@
         "models": [
           {
             "name": "Voidweaver",
-            "stats": {},
+            "stats": {
+              "M": "12",
+              "WS": "5+",
+              "BS": "3+",
+              "S": "5",
+              "FA": "10",
+              "SA": "10",
+              "RA": "10",
+              "W": "6",
+              "I": "1",
+              "A": "3",
+              "Ld": "9",
+              "Sv": "3+"
+            },
             "rules": [
               "Vehicle",
               "Tank",
@@ -3664,7 +3787,20 @@
         "models": [
           {
             "name": "Voidweaver",
-            "stats": {},
+            "stats": {
+              "M": "12",
+              "WS": "5+",
+              "BS": "3+",
+              "S": "5",
+              "FA": "10",
+              "SA": "10",
+              "RA": "10",
+              "W": "6",
+              "I": "1",
+              "A": "3",
+              "Ld": "9",
+              "Sv": "3+"
+            },
             "rules": [
               "Vehicle",
               "Tank",
@@ -3758,7 +3894,20 @@
         "models": [
           {
             "name": "Raven",
-            "stats": {},
+            "stats": {
+              "M": "60",
+              "WS": "5+",
+              "BS": "3+",
+              "S": "6",
+              "FA": "10",
+              "SA": "10",
+              "RA": "10",
+              "W": "10",
+              "I": "1",
+              "A": "3",
+              "Ld": "9",
+              "Sv": "3+"
+            },
             "rules": [
               "Vehicle",
               "Sudden Descent",
@@ -3810,7 +3959,20 @@
         "models": [
           {
             "name": "Razorwing",
-            "stats": {},
+            "stats": {
+              "M": "60",
+              "WS": "5+",
+              "BS": "3+",
+              "S": "6",
+              "FA": "10",
+              "SA": "10",
+              "RA": "10",
+              "W": "10",
+              "I": "1",
+              "A": "3",
+              "Ld": "9",
+              "Sv": "3+"
+            },
             "rules": [
               "Vehicle",
               "Sudden Descent",
@@ -3938,7 +4100,20 @@
         "models": [
           {
             "name": "Voidraven",
-            "stats": {},
+            "stats": {
+              "M": "60",
+              "WS": "5+",
+              "BS": "3+",
+              "S": "6",
+              "FA": "10",
+              "SA": "10",
+              "RA": "10",
+              "W": "10",
+              "I": "1",
+              "A": "3",
+              "Ld": "9",
+              "Sv": "3+"
+            },
             "rules": [
               "Vehicle",
               "Sudden Descent",
@@ -4057,7 +4232,20 @@
         "models": [
           {
             "name": "Raider",
-            "stats": {},
+            "stats": {
+              "M": "12",
+              "WS": "5+",
+              "BS": "3+",
+              "S": "6",
+              "FA": "10",
+              "SA": "10",
+              "RA": "10",
+              "W": "10",
+              "I": "1",
+              "A": "3",
+              "Ld": "9",
+              "Sv": "3+"
+            },
             "rules": [
               "Vehicle",
               "Tank",
@@ -4174,7 +4362,20 @@
         "models": [
           {
             "name": "Venom",
-            "stats": {},
+            "stats": {
+              "M": "12",
+              "WS": "5+",
+              "BS": "3+",
+              "S": "6",
+              "FA": "10",
+              "SA": "10",
+              "RA": "10",
+              "W": "6",
+              "I": "1",
+              "A": "3",
+              "Ld": "9",
+              "Sv": "3+"
+            },
             "rules": [
               "Vehicle",
               "Tank",
@@ -4256,7 +4457,20 @@
         "models": [
           {
             "name": "Starweaver",
-            "stats": {},
+            "stats": {
+              "M": "12",
+              "WS": "5+",
+              "BS": "3+",
+              "S": "5",
+              "FA": "10",
+              "SA": "10",
+              "RA": "10",
+              "W": "6",
+              "I": "1",
+              "A": "3",
+              "Ld": "9",
+              "Sv": "3+"
+            },
             "rules": [
               "Vehicle",
               "Tank",
@@ -4389,7 +4603,20 @@
         "models": [
           {
             "name": "Tantalus",
-            "stats": {},
+            "stats": {
+              "M": "12",
+              "WS": "5+",
+              "BS": "3+",
+              "S": "7",
+              "FA": "12",
+              "SA": "12",
+              "RA": "10",
+              "W": "18",
+              "I": "1",
+              "A": "6",
+              "Ld": "9",
+              "Sv": "3+"
+            },
             "rules": [
               "Vehicle",
               "Tank",
@@ -4466,7 +4693,18 @@
         "models": [
           {
             "name": "Webway Gate",
-            "stats": {},
+            "stats": {
+              "M": "-",
+              "WS": "-",
+              "BS": "-",
+              "S": "-",
+              "T": "7",
+              "W": "20",
+              "I": "-",
+              "A": "-",
+              "Ld": "-",
+              "Sv": "3+"
+            },
             "rules": [
               "Building",
               "Immobile",

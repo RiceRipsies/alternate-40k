@@ -437,7 +437,11 @@ button {
   font-size: 11px;
   padding: 2px 7px;
   color: var(--text-dim);
+  cursor: pointer;
+  transition: border-color 0.12s, color 0.12s;
 }
+.wargear-tag:hover { border-color: var(--gold); color: var(--text); }
+.wargear-tag.active { border-color: var(--gold); color: var(--gold); }
 
 /* Info-only option row */
 .option-row.info-only { opacity: 0.5; font-style: italic; font-size: 12px; }
@@ -538,7 +542,40 @@ button {
   font-size: 11px;
   padding: 2px 7px;
   color: var(--text-dim);
+  cursor: pointer;
+  transition: border-color 0.12s, color 0.12s;
 }
+.rule-tag:hover { border-color: var(--gold); color: var(--text); }
+.rule-tag.active { border-color: var(--gold); color: var(--gold); }
+
+.tag-info-panel {
+  background: var(--bg3);
+  border: 1px solid var(--border);
+  border-left: 2px solid var(--gold);
+  border-radius: 2px;
+  padding: 10px 12px;
+  margin-top: 8px;
+  font-size: 12px;
+  color: var(--text);
+  line-height: 1.5;
+}
+.tag-info-name {
+  font-size: 10px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  color: var(--gold);
+  margin-bottom: 6px;
+}
+.tag-weapon-stats {
+  display: flex;
+  gap: 20px;
+  margin-bottom: 4px;
+  flex-wrap: wrap;
+}
+.tag-weapon-stat { display: flex; flex-direction: column; align-items: center; }
+.tag-weapon-stat-label { font-size: 10px; color: var(--text-dim); text-transform: uppercase; }
+.tag-weapon-stat-val { font-size: 13px; }
+.tag-weapon-type { color: var(--text-dim); font-size: 11px; margin-top: 4px; }
 
 #modal-footer {
   padding: 14px 20px;
@@ -1175,7 +1212,9 @@ const state = {
   pendingModels: {},  // { modelName: { current, min, max, ptsEach } }
   editingIdx: null,   // index in state.list when editing an existing entry
   coreKeywords: {},   // loaded from data/core-keywords.json
+  commonRules: {},    // loaded from data/common-rules.json
   globalWeapons: {},  // loaded from data/weapons.json
+  globalWargear: {},  // loaded from data/wargear.json
   subfactionCodex: null, // extra units from subfaction-specific codex file
 };
 
@@ -1199,15 +1238,19 @@ const forcePanel    = D('force-panel');
 // ── INIT ─────────────────────────────────────────────────────────
 async function init() {
   const noCache = { cache: 'no-cache' };
-  const [factionsRes, kwRes, wpRes] = await Promise.all([
+  const [factionsRes, kwRes, wpRes, crRes, wgRes] = await Promise.all([
     fetch('data/factions.json', noCache).catch(() => null),
     fetch('data/core-keywords.json', noCache).catch(() => null),
     fetch('data/weapons.json', noCache).catch(() => null),
+    fetch('data/common-rules.json', noCache).catch(() => null),
+    fetch('data/wargear.json', noCache).catch(() => null),
   ]);
   if (!factionsRes?.ok) { D('faction-list-container').innerHTML = '<div class="empty-state">Could not load factions. Run the data extractor first.</div>'; return; }
   state.factions = await factionsRes.json();
   if (kwRes?.ok) state.coreKeywords = await kwRes.json();
   if (wpRes?.ok) state.globalWeapons = await wpRes.json();
+  if (crRes?.ok) state.commonRules   = await crRes.json();
+  if (wgRes?.ok) state.globalWargear = await wgRes.json();
   renderFactionGrid();
   renderSlots();
   restoreList();
@@ -1529,7 +1572,9 @@ function renderUnitList(filter) {
   container.innerHTML = filtered.map(unit => {
     const m = unit.models?.[0];
     const stats = m?.stats ?? {};
-    const statKeys = ['M','WS','BS','S','T','W','I','A','Ld','Sv'];
+    const statKeys = stats.FA !== undefined
+      ? ['M','WS','BS','S','FA','SA','RA','W','I','A','Ld','Sv']
+      : ['M','WS','BS','S','T','W','I','A','Ld','Sv'];
     const statsHtml = statKeys.map(k => `
       <div class="mini-stat">
         <span class="mini-stat-label">${k}</span>
@@ -1569,6 +1614,115 @@ D('cancel-browse').addEventListener('click', () => {
   }
 });
 
+// ── TAG INFO POPOVER ─────────────────────────────────────────────
+function lookupRuleDesc(name) {
+  // Check all rule sources: current codex, subfaction codex, core keywords, common rules
+  const sources = [
+    state.codex?.rules,
+    state.subfactionCodex?.rules,
+    state.coreKeywords,
+    state.commonRules,
+  ];
+  for (const src of sources) {
+    if (src?.[name]) return src[name];
+  }
+  // Compact case-insensitive match: "Deepstrike" → "Deep Strike"
+  const compact = name.replace(/\s+/g, '').toLowerCase();
+  for (const src of [state.coreKeywords, state.commonRules]) {
+    for (const [k, v] of Object.entries(src ?? {})) {
+      if (k.replace(/\s+/g, '').toLowerCase() === compact) return v;
+    }
+  }
+  // Parametric: strip trailing number → '#': "Transport 12" → "Transport #", "Faith 1" → "Faith #"
+  const numStripped = name.replace(/\s+\d+$/, ' #');
+  if (numStripped !== name) {
+    for (const src of sources) {
+      if (src?.[numStripped]) return src[numStripped];
+    }
+  }
+  return null;
+}
+
+function lookupWeapon(name, unit) {
+  // Check unit weapons, then global weapons, then global wargear descriptions
+  let wp = unit.weapons?.[name] ?? state.globalWeapons?.[name];
+  if (!wp) {
+    // Strip trailing single-letter mount indicator (H=hull, S=sponson, T=turret)
+    const stripped = name.replace(/\s+[A-Z]$/, '');
+    if (stripped !== name) wp = unit.weapons?.[stripped] ?? state.globalWeapons?.[stripped];
+  }
+  return wp ?? null;
+}
+
+function lookupWargearDesc(name) {
+  // Check codex wargear, subfaction codex wargear, then global wargear library
+  const sources = [
+    state.codex?.wargear,
+    state.subfactionCodex?.wargear,
+    state.globalWargear,
+  ];
+  for (const src of sources) {
+    if (src?.[name]) return src[name];
+  }
+  // Try stripping trailing mount indicator
+  const stripped = name.replace(/\s+[A-Z]$/, '');
+  if (stripped !== name) {
+    for (const src of sources) {
+      if (src?.[stripped]) return src[stripped];
+    }
+  }
+  return null;
+}
+
+function buildTagInfoPanel(name, kind, unit) {
+  const panel = document.createElement('div');
+  panel.className = 'tag-info-panel';
+  let content = '';
+  if (kind === 'wargear') {
+    const wp = lookupWeapon(name, unit);
+    if (wp) {
+      content = `
+        <div class="tag-weapon-stats">
+          <div class="tag-weapon-stat"><span class="tag-weapon-stat-label">Rng</span><span class="tag-weapon-stat-val">${wp.range ?? '—'}</span></div>
+          <div class="tag-weapon-stat"><span class="tag-weapon-stat-label">S</span><span class="tag-weapon-stat-val">${wp.S ?? '—'}</span></div>
+          <div class="tag-weapon-stat"><span class="tag-weapon-stat-label">AP</span><span class="tag-weapon-stat-val">${wp.AP ?? '—'}</span></div>
+        </div>
+        <div class="tag-weapon-type">${wp.type ?? ''}</div>`;
+    } else {
+      const desc = lookupWargearDesc(name);
+      content = desc
+        ? `<div>${desc}</div>`
+        : `<div style="color:var(--text-dim);font-style:italic">No description available.</div>`;
+    }
+  } else {
+    const desc = lookupRuleDesc(name);
+    content = desc
+      ? `<div>${desc}</div>`
+      : `<div style="color:var(--text-dim);font-style:italic">No description available.</div>`;
+  }
+  panel.innerHTML = `<div class="tag-info-name">${name}</div>${content}`;
+  return panel;
+}
+
+function attachTagHandlers(container, unit) {
+  container.querySelectorAll('[data-kind]').forEach(tag => {
+    tag.addEventListener('click', () => {
+      const name = tag.dataset.name;
+      const kind = tag.dataset.kind;
+      const list = tag.closest('.wargear-list, .rules-list');
+      if (tag.classList.contains('active')) {
+        tag.classList.remove('active');
+        list.parentElement.querySelector('.tag-info-panel')?.remove();
+        return;
+      }
+      list.querySelectorAll('[data-kind]').forEach(t => t.classList.remove('active'));
+      list.parentElement.querySelector('.tag-info-panel')?.remove();
+      tag.classList.add('active');
+      list.after(buildTagInfoPanel(name, kind, unit));
+    });
+  });
+}
+
 // ── UNIT MODAL ───────────────────────────────────────────────────
 function openUnitModal(unit, existingEntry = null, existingIdx = null) {
   state.pendingUnit = unit;
@@ -1581,7 +1735,9 @@ function openUnitModal(unit, existingEntry = null, existingIdx = null) {
   // ── Stats (first model) ──
   const m = unit.models?.[0];
   const stats = m?.stats ?? {};
-  const statKeys = ['M','WS','BS','S','T','W','I','A','Ld','Sv'];
+  const statKeys = stats.FA !== undefined
+    ? ['M','WS','BS','S','FA','SA','RA','W','I','A','Ld','Sv']
+    : ['M','WS','BS','S','T','W','I','A','Ld','Sv'];
   D('modal-stats').innerHTML = `
     <div class="mini-stats" style="margin-bottom:14px">
       ${statKeys.map(k => `<div class="mini-stat"><span class="mini-stat-label">${k}</span>${stats[k] ?? '—'}</div>`).join('')}
@@ -1636,8 +1792,9 @@ function openUnitModal(unit, existingEntry = null, existingIdx = null) {
   D('modal-wargear').innerHTML = fixedWargear.length ? `
     <div class="option-group">
       <div class="option-group-label">Wargear</div>
-      <div class="wargear-list">${[...new Set(fixedWargear)].map(w => `<span class="wargear-tag">${w}</span>`).join('')}</div>
+      <div class="wargear-list">${[...new Set(fixedWargear)].map(w => `<span class="wargear-tag" data-name="${w.replace(/"/g,'&quot;')}" data-kind="wargear">${w}</span>`).join('')}</div>
     </div>` : '';
+  attachTagHandlers(D('modal-wargear'), unit);
 
   // ── Options (wargear swaps / upgrades) ──
   // Build a flat array of option objects with a string `key` for state tracking.
@@ -1711,8 +1868,9 @@ function openUnitModal(unit, existingEntry = null, existingIdx = null) {
   D('modal-rules').innerHTML = allRules.length ? `
     <div class="option-group-label" style="margin-top:14px">Special Rules</div>
     <div class="rules-list">
-      ${allRules.map(r => `<span class="rule-tag">${r}</span>`).join('')}
+      ${allRules.map(r => `<span class="rule-tag" data-name="${r.replace(/"/g,'&quot;')}" data-kind="rule">${r}</span>`).join('')}
     </div>` : '';
+  attachTagHandlers(D('modal-rules'), unit);
 
   D('modal-add').textContent = existingIdx !== null ? 'Save Changes' : 'Add to Army';
 

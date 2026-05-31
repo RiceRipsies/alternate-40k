@@ -2,7 +2,84 @@
   "id": "tyranids",
   "name": "Tyranid Codex",
   "difficulty": 3,
-  "rules": {},
+  "rules": {
+    "Instinctive Behavior": "A model with Instinctive Behavior will never Flee, Go to Ground,",
+    "Living Bombs": "This model cannot Claim or Contest Objectives. This model cannot",
+    "Living Bomb": "This model cannot Claim or Contest Objectives. This model cannot",
+    "Synapse": "This Aura has a 12\" Range and makes a unit automatically recover from a",
+    "Shadow in the Warp": "This Aura has a range of 18\" and inflicts a -3 To Cast penalty on",
+    "Acid Blood": "For each unsaved Wound this model suffers during the Melee Phase, inflict",
+    "Adrenal Glands": "This model gains Fleet.",
+    "Adrenal Gland": "This model gains Fleet.",
+    "Camouflaged Carapace": "This model gains Stealth.",
+    "Extended Carapace": "This model gains Sv-1 (Improves by 1).",
+    "Flesh Hooks": "This model is considered to be armed with Grenades for the purpose of",
+    "Flesh Hook": "This model is considered to be armed with Grenades for the purpose of",
+    "Psychic Barrier": "This models gains a 4+ Invulnerability Save.",
+    "Regeneration": "This model gains Heal.",
+    "Shield Claws": "This model gains Sv-1 (Improves by 1) and a 5+ Invulnerability Save.",
+    "Shield Claw": "This model gains Sv-1 (Improves by 1) and a 5+ Invulnerability Save.",
+    "Hyper Aggression": "all models in your army automatically fail Cover Saves.",
+    "Baying for Blood": "all models in your army may reroll Charge Rolls.",
+    "Furious Impact": "All models in your army gain Furious Charge.",
+    "Weakened Veins": "All models in your army suffer T-1.",
+    "Weakened Vein": "All models in your army suffer T-1.",
+    "Corrosive Blood": "All models in your army inflict one Automatic Hit at S5 AP- when",
+    "Hyper Regeneration": "All models with a Heal ability Heal +1 extra Wound at a time. This",
+    "Fast Growing Flesh": "All models with a Heal ability have T-1.",
+    "Lurking Below": "All Infantry and Monstrous Infantry models in your army gain Deepstrike.",
+    "Slithering Adaptation": "All Infantry and Monstrous Infantry models in your army except",
+    "Borrowing Fiends": "All Infantry and Monstrous Infantry models in your army suffer Range",
+    "Borrowing Fiend": "All Infantry and Monstrous Infantry models in your army suffer Range",
+    "Balethorn Cannon": "Use the following weapon profile for Stranglethorn Cannons taken in",
+    "Other Worldly Sustenance": "Infantry models in this army only count as half a model for",
+    "Enemy Intelligence": "all models in this army gain the Infiltrate rule.",
+    "Built for Speed": "all models in this army suffer Sv+1 (Armour saves worsens by 1)",
+    "Reserved Tactics": "Infantry models in this army only count as half a model for purposes of",
+    "Reserved Tactic": "Infantry models in this army only count as half a model for purposes of",
+    "Massive Biomass Loss": "Infantry models in this army only count as half a model for the",
+    "Bio Plague": "All Monsters and Titanic Monsters in your army gain A+1 but suffer 1 Mortal Generic Broodlord Broodlord",
+    "Lightning Reflexes": "5+ Invulnerability Save",
+    "Lightning Reflexe": "5+ Invulnerability Save",
+    "Psychic Absorption": "Each time an enemy unit successfully Casts a Spell within 18\", this model Heals 1 Wound. This ability ignores the usual restriction of Healing 1 Wound per Turn.",
+    "Synaptic Backlash": "When this model is slain, each Tyranid model within 12\" suffers a Mortal Wound on a 1-2 instead of just 1.",
+    "Synaptic Relay": "Place a Token on a target friendly unit within 6\". It gains S+1 until the end of the game. In each of your Command Phases, roll a d6 for each model in the unit. For each 1 the unit suffers 1 Mortal Wound.",
+    "Earthshaker": "Units hit by this Spell Move, Advance, Charge, and Fall Back at half speed until your next Psychic Phase.",
+    "Blade Parry": "This model has a 3+ Invulnerability Save in Melee",
+    "Hive Commander": "6\" Aura, this model and target unit may Advance and Charge in the same Turn",
+    "Chameleon Skin": "Shroud, but a minimum of a 5+ total Cover Save in the open",
+    "Warp Field": "3+ Invulnerability Save",
+    "Alpha Warrior": "6\" Aura, this model and target unit may reroll 1s To Hit",
+    "Volatile": "When each model dies, they explode on a 4+ like a Vehicle with a d6\" radius, S4 AP-",
+    "Shrouding Spores": "6\" Aura, this unit and target unit has a 5+ Cover Save (cast as a unit)",
+    "Shrouding Spore": "6\" Aura, this unit and target unit has a 5+ Cover Save (cast as a unit)",
+    "Hive Node": "12\" Aura, target unit may use the Hive Node's Ld in place of their own.",
+    "Gulp": "When a Gulp weapon successfully hits on a 6, you may pick the target of the attack. If all Saves fail, swallow the target! The model is Embarked on the Gulp model and may only make Snap Shots on Ranged and Melee attacks. In each of your Command Phases, the model suffers a Mortal Wound. If the Gulp model is slain, all Embarked units Disembark upon its demise.",
+    "Psycholastic Cloud": "6\" Aura, any roll of a 1 or 6 To Cast causes one Mortal Wound to the Caster. This does not count as Perils of the Warp.",
+    "Pysker Feeder": "This model gains Sniper (2+) to target models with Psychic Mastery Level # in Melee.",
+    "Termagaunt Gestation": "During your Command Phase, spawn 2d6 Termagaunts with the default options as a new unit within 6\". A roll of a double ends the use of this ability for this model for the game, but still summons the number rolled this turn.",
+    "Blind": "If target unit is successfully Wounded by this weapon, it suffers -1 To Hit",
+    "Brood Bombs": "upon death, this model explodes using its Meiotic Bomb profile. Before removing this model, spawn D3+1 Spore Mine models with default Wargear by Deepstriking them with the target area being this model. Instead of Direct Hits, use the tiny arrow to scatter in that direction equal to the 2d6\".",
+    "Brood Bomb": "upon death, this model explodes using its Meiotic Bomb profile. Before removing this model, spawn D3+1 Spore Mine models with default Wargear by Deepstriking them with the target area being this model. Instead of Direct Hits, use the tiny arrow to scatter in that direction equal to the 2d6\".",
+    "Ambushers": "This unit may be held for placement after all Infiltrators are placed and Scouts move, but cannot start the game with any Independent Characters joined with their unit. Write down a piece of terrain in secret that is not occupied by enemy troops. If at any point an enemy unit enters the cover, this unit is immediately revealed, is placed into base contact, and is treated as Ongoing Combat. You may reveal this unit during any of your Command Phases and use them as normal. If the terrain piece is destroyed and they are not revealed, reveal them and then Force Disembark them like normal. Fleet",
+    "Ambusher": "This unit may be held for placement after all Infiltrators are placed and Scouts move, but cannot start the game with any Independent Characters joined with their unit. Write down a piece of terrain in secret that is not occupied by enemy troops. If at any point an enemy unit enters the cover, this unit is immediately revealed, is placed into base contact, and is treated as Ongoing Combat. You may reveal this unit during any of your Command Phases and use them as normal. If the terrain piece is destroyed and they are not revealed, reveal them and then Force Disembark them like normal. Fleet",
+    "Bio Static Field": "5+ Invulnerability Save",
+    "Burrow": "This model may go back into Reserves at the end of your Movement Phase if it did not arrive from Reserves this Turn.",
+    "Terror from the Deep": "This model uses its Emergence Hole weapon when it arrives from Deepstrike. Place the 5\" Blast instead of this model when arriving and resolve all Scatters and Hits per normal. Push all non-Titanic models out of the way to the minimum amount, leaving this model 1\" away from enemy models. If a Titanic model or Terrain piece is hit, this model then tests for Deepstrike Mishap. This model may charge the turn it arrives from Reserves.",
+    "Chosen Target": "During Deployment, this model chooses one enemy model in the enemy player's list. This model may reroll 1s To Wound against that model.",
+    "Tremor Sense": "This model does not collide with other models or Terrain when Deepstriking. It will move to 1\" away from them as close to its Arrival Point.",
+    "Tunneler": "This model has a Transport Capacity of 30. All Embarked units must Disembark the same Movement Phase that this model arrives from Reserves.",
+    "Mine Launcher": "This model may not make Snap Shots with any Mine Launcher weapon",
+    "Weapon Beast": "This model may shoot twice in the Shooting Phase or Overwatch twice if it did not move in its last Movement Phase.",
+    "Psychic Scream": "12\" Aura, target unit suffers Ld-1 and must take a Fear Test.",
+    "Mine Layer": "At the end of each of your Movement Phases, Summon a Spore Mine with default Wargear and Deepstrike it along the flight path this model just moved.",
+    "Drop Pod": "This model acts like a Titanic unit when arriving by Deepstrike for displacing models and causing Auto Hits.",
+    "Transport 20": "Access Point Front, Sides, and Rear",
+    "Transport Spore": "Models with up to 14 Wounds may Embark in place of the normal Transport rule.",
+    "Soul Absorption": "For each model this model kills, roll 1d6. On a 4+ this model Heals 1 Wound. This ignores the normal Heal restrictions, but cannot exceed the models starting Wound count.",
+    "Bio Titan Warp Field": "5+ Invulnerability Save",
+    "Spore Mine Cyst": "This model spawns 3 Spore Mines with default Wargear within 4\" in each of your Command Phases."
+  },
   "wargear": {
     "Acid Blood": "For each unsaved Wound this model suffers during the Melee Phase, inflict one S5 AP- Autohit on the unit responsible for the damage. Resolve as soon as Saves and Feel No Pains are resolved before moving to the next Initiative Step.",
     "Adrenal Glands": "This model gains Fleet.",
@@ -1660,9 +1737,7 @@
             ]
           }
         ],
-        "fixed_wargear": [
-          "None"
-        ],
+        "fixed_wargear": [],
         "options": [
           {
             "description": "May take up to 7 more Rippers for +14 points each",
@@ -2736,11 +2811,7 @@
         "fixed_wargear": [
           "Monstrous Scything Talons",
           "Stinger Salvo",
-          "May swap Massive Scything",
-          "Talons for M",
-          "May take one F",
-          "May take up to 2 Spells",
-          "May take up to one of each B"
+          "Talons for M"
         ],
         "options": [
           {
@@ -3740,9 +3811,7 @@
             ]
           }
         ],
-        "fixed_wargear": [
-          "None"
-        ],
+        "fixed_wargear": [],
         "options": [
           {
             "description": "May take up to 7 more Skyslashers for +22 points each",
@@ -5046,7 +5115,18 @@
         "models": [
           {
             "name": "Tyrannocyte",
-            "stats": {},
+            "stats": {
+              "M": "-",
+              "WS": "4+",
+              "BS": "4+",
+              "S": "5",
+              "T": "5",
+              "W": "12",
+              "I": "2",
+              "A": "3",
+              "Ld": "5",
+              "Sv": "4+"
+            },
             "rules": [
               "Monster",
               "Instinctive Behavior",
@@ -5386,7 +5466,18 @@
         "models": [
           {
             "name": "Capillary Tower",
-            "stats": {},
+            "stats": {
+              "M": "-",
+              "WS": "-",
+              "BS": "4+",
+              "S": "-",
+              "T": "8",
+              "W": "30",
+              "I": "-",
+              "A": "-",
+              "Ld": "10",
+              "Sv": "3+"
+            },
             "rules": [
               "Titanic Building",
               "Immobile",
@@ -5434,7 +5525,18 @@
         "models": [
           {
             "name": "Sporocyst",
-            "stats": {},
+            "stats": {
+              "M": "-",
+              "WS": "4+",
+              "BS": "4+",
+              "S": "5",
+              "T": "5",
+              "W": "12",
+              "I": "2",
+              "A": "3",
+              "Ld": "10",
+              "Sv": "4+"
+            },
             "rules": [
               "Monster",
               "Instinctive Behavior",

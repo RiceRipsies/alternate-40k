@@ -2,7 +2,30 @@
   "id": "armageddon-steel-legion",
   "name": "Armageddon Steel Legion",
   "difficulty": 3,
-  "rules": {},
+  "rules": {
+    "Augar Array": "6\" Aura, target unit does not scatter when Deepstriking. This Aura is cast",
+    "Camo Netting": "This model gains Shroud.",
+    "Chaff Launchers": "This model has a 5+ Invulnerability Save against Ranged Attacks.",
+    "Chaff Launcher": "This model has a 5+ Invulnerability Save against Ranged Attacks.",
+    "Dozerblade": "Reroll Dangerous Terrain Tests and failed Move through Cover.",
+    "Enclosed Crew Compartment": "This model loses Open Topped.",
+    "Extra Armour": "You may treat all Crew Stun Results as Weapon Disabled.",
+    "Medicae Pack": "6\" Aura, this model's unit and target unit gain a 5+ Feel No Pain.",
+    "Recovery Gear": "Roll d6, on 5+ repair Immobilized or Crew Stun result.",
+    "Searchlight": "This unit and target unit are no longer affected by Night rules.",
+    "Smoke Launchers": "6\" range, put 5\" Smoke Cloud that causes -1 to Hit and scatters to",
+    "Smoke Launcher": "6\" range, put 5\" Smoke Cloud that causes -1 to Hit and scatters to",
+    "Standard": "This inspiring battle flag gives the model equipped the following Auras:",
+    "Vox Caster": "This model's unit may reroll failed Order Tests if the model Issuing the",
+    "Mechanized Infantry": "Infantry units gain a 5+ Cover Save the Turn they Disembark from",
+    "Hive City Inhabitants": "All Infantry suffer -1 cover save if it is not provided by a building, Lord Commissar Yarrick Lord Commissar Yarrick Fortress of Arrogance Fortress of Arrogance Wargear Lord Commissar Yarrick: Bolt Pistol Stormbolter Bale Eye Battle Klaw Frag Grenades Krak Grenades Forcefield Fortress of Arrogance: Baneblade Cannon Autocannon Demolisher Cannon 2 Linked Heavy Bolters",
+    "Hive City Inhabitant": "All Infantry suffer -1 cover save if it is not provided by a building, Lord Commissar Yarrick Lord Commissar Yarrick Fortress of Arrogance Fortress of Arrogance Wargear Lord Commissar Yarrick: Bolt Pistol Stormbolter Bale Eye Battle Klaw Frag Grenades Krak Grenades Forcefield Fortress of Arrogance: Baneblade Cannon Autocannon Demolisher Cannon 2 Linked Heavy Bolters",
+    "Aura of Discipline": "6\" Aura, unit may use Lord Commissar's Ld and gains Stubborn.",
+    "Summary Execution": "once per Round when a friendly Infantry unit fails a Ld test within 6\", you MUST remove the highest Ld model from that unit from the game. Ignore Commissars and Lord Commissars for highest Ld purposes. The unit automatically passes the Ld test. Order Tests do not count for this rule.",
+    "Inspirational Hero": "6\" Aura, this model and target unit may reroll failed To Hit rolls in Melee.",
+    "Iron Will": "After being Slain, do not remove this model from the table. In your Command Phase, roll a d6. On a 3+ Yarrick gets back up with 1 Wound remaining. Fortress of Arrogance: Titanic Vehicle",
+    "Preacher Platform": "Yarrick may ride taking up no space. Extends Yarrick's Auras up to 24\". Gives Yarrick a 360 Shooting Port. Special Wargear: Forcefield: 4+ Invulnerability Save"
+  },
   "wargear": {
     "Augar Array": "6\" Aura, target unit does not scatter when Deepstriking. This Aura is cast when the first model is placed prior to scattering.",
     "Camo Netting": "This model gains Shroud.",
@@ -36,71 +59,5 @@
       ]
     }
   ],
-  "slots": {
-    "hq": [
-      {
-        "name": "M WS BS S T W I A Ld Sv",
-        "points_base": 217,
-        "composition": "1 Lord Commissar Yarrick 0-1 Fortress of Arrogance",
-        "models": [
-          {
-            "name": "6 2+ 2+ 3 4 5 3 3 10 4+",
-            "stats": {},
-            "rules": [
-              "Armageddon Steel Legion",
-              "Independent Character",
-              "Unique",
-              "Infantry",
-              "Stubborn",
-              "Infantry Orders 1",
-              "Aura of Discipline",
-              "Summary Execution",
-              "Inspirational Hero",
-              "Melee.",
-              "Iron Will",
-              "Titanic Vehicle"
-            ]
-          }
-        ],
-        "fixed_wargear": [],
-        "options": [
-          {
-            "description": "Lord Commissar Yarrick may take the Fortress of Arrogance as a Dedicated transport for +869 points.",
-            "choices": []
-          },
-          {
-            "description": "The Fortress of Arrogance may take up to 2 S or",
-            "choices": [
-              {
-                "name": "Side Skirts",
-                "pts_delta": 10
-              }
-            ]
-          },
-          {
-            "description": "The Fortress of Arrogance may take",
-            "choices": []
-          },
-          {
-            "description": "The Fortress of Arrogance may take up to one",
-            "choices": [
-              {
-                "name": "Augar Array",
-                "pts_delta": 5
-              },
-              {
-                "name": "Recovery Gear",
-                "pts_delta": 2
-              },
-              {
-                "name": "Searchlight",
-                "pts_delta": 1
-              }
-            ]
-          }
-        ],
-        "weapons": {}
-      }
-    ]
-  }
+  "slots": {}
 }

@@ -2,7 +2,62 @@
   "id": "grey-knights",
   "name": "Grey Knights",
   "difficulty": 2,
-  "rules": {},
+  "rules": {
+    "Adjusted Tactics": "During Deployment, after you have seen the Army Roster your opponent is bringing, this model may swap its current weapon(s) for legal weapon options equal to or less than the current point costs. For example, a Tactical Marine may swap its Plasma Gun for a Flamer because it costs less points.",
+    "Adjusted Tactic": "During Deployment, after you have seen the Army Roster your opponent is bringing, this model may swap its current weapon(s) for legal weapon options equal to or less than the current point costs. For example, a Tactical Marine may swap its Plasma Gun for a Flamer because it costs less points.",
+    "Bolter Discipline": "This model always counts as being in half range when firing Rapid Fire weapons that have Bolter as long as it did not Move or does not count as Moving during your Movement Phase.",
+    "Know No Fear": "This unit automatically passes Pinning Tests, Rally Tests, and Fear Tests. They still will fall back if they lose Combat Resolution.",
+    "Spells": "Almost every unit in the Codex can cast Spells. If a unit takes a Spell, it is cast as part of all the models that make up the unit in the Datasheet, not including Independent Characters. Due to redundancy, this list is placed here to avoid wasting large amounts of space. Spell +10 points",
+    "Spell": "Almost every unit in the Codex can cast Spells. If a unit takes a Spell, it is cast as part of all the models that make up the unit in the Datasheet, not including Independent Characters. Due to redundancy, this list is placed here to avoid wasting large amounts of space. Spell +10 points",
+    "Tactical Squads": "Each unit with this rule may declare they are forming their own units during your Command Phase. They may split up as low as two models per unit. Units must be placed within Unit Coherency during Deployment. They may instead merge back into bigger units but may not exceed maximum unit size or merge with units other than their own unit name. If they do so, all suffered Wounds stack onto the most wounded models in the form of Mortal Wounds. If there are more to stack then remaining Wounds on a model, nominate another model to suffer these remaining Mortal Wounds. Independent Characters can never pass on Wounds or take on Wounds for a unit in this fashion.",
+    "Tactical Squad": "Each unit with this rule may declare they are forming their own units during your Command Phase. They may split up as low as two models per unit. Units must be placed within Unit Coherency during Deployment. They may instead merge back into bigger units but may not exceed maximum unit size or merge with units other than their own unit name. If they do so, all suffered Wounds stack onto the most wounded models in the form of Mortal Wounds. If there are more to stack then remaining Wounds on a model, nominate another model to suffer these remaining Mortal Wounds. Independent Characters can never pass on Wounds or take on Wounds for a unit in this fashion.",
+    "Wrist Mount": "This weapon can be fired in Melee as if this model was a Monstrous Infantry and this model may still Declare Charges after firing it as if they had fired Assault Weapons. Brotherhoods Grey Knights form Brotherhoods, each with their own traditions and combat doctrines that dictate how they conduct war in the 40k universe. Each Brotherhood has specialty rules that make the army more immersive to their lore and specialize their abilities on the battlefield. Your entire army MUST be from the same Brotherhood. Unique models will have the key word for which Brotherhood they must belong to if any. Average: -",
+    "Iron Halo": "4+ Invulnerability Save",
+    "Battle Drills": "6\" Aura, this model and target unit may Reroll 1s To Hit.",
+    "Battle Drill": "6\" Aura, this model and target unit may Reroll 1s To Hit.",
+    "The Hour is Nigh": "When the weapon is fired, place a marker on field at a valid target. In your next Command Phase, the barrage strikes! Scatter like normal, following the 15\" Blast radius rules.",
+    "T Minus 5": "The weapon may not be fired Turn 1. If the weapon is marked on the field and the carrier is destroyed, the Orbital Strike still hits in your Command Phase. W+1, A+1, gain Orbital Strike, gain Psychic Mastery Level +1, Unique.",
+    "Rosarius": "4+ Invulnerability Save",
+    "Rosariu": "4+ Invulnerability Save",
+    "Canticle of Hate": "6\" Aura, this model and target unit treat Rapid Fire # weapons as Assault # weapons.",
+    "Zealot": "This model may reroll all failed To Hit rolls on the Phase it Charged or was Charged. This model gains A+3 6\" Aura, target unit takes Ld Tests on 3d6, discarding the lowest die. 6\" Aura, target Unit gains 5+ Invulnerability Save. 6\" Aura, this model and Target unit gain BS-1 (Improves by 1). 6\" Aura, this model and target Unit gain A+1 and reroll 1s To Wound in Melee.",
+    "Psychic Hood": "Gain +1 to Deny the Witch",
+    "Psychic Locus": "6\" Aura, this model and target unit double the Range of their Spells.",
+    "Psychic Locu": "6\" Aura, this model and target unit double the Range of their Spells.",
+    "Fate Entwined": "Each phase, Stern or Stern's unit may reroll a single d6. If you do so, the opponent can also do so for one of their units during the same phase.",
+    "Sword Master": "This model may reroll 1s To Wound and 1s for Armour Saves when it is in Melee.",
+    "Helps or Hinders": "In each Melee Phase, roll a d6. On a 13, this weapon gives A+1. On 46 It gives A+d6.",
+    "Helps or Hinder": "In each Melee Phase, roll a d6. On a 13, this weapon gives A+1. On 46 It gives A+d6.",
+    "Purity of Spirit": "6\" Aura, this model and target unit may reroll 1s To Cast Spells.",
+    "Bane of Evil": "6\" Aura, this model and target unit may rerolls 1s To Wound.",
+    "Stormshield": "Sv-1 (Improves by 1), 4+ Invulnerability Save",
+    "Apothecary": "6\" Aura, this model and target unit gain 5+ Feel No Pain.",
+    "Company Standard": "6\" Aura, this model and target unit may reroll Ld tests and gain A+1.",
+    "Refractor Field": "5+ Invulnerability Save",
+    "Glory Hunter": "This model may choose the target of its Challenge. The target may not deny the Challenge.",
+    "Servo Arms": "gain +2 To Repair rolls.",
+    "Servo Arm": "gain +2 To Repair rolls.",
+    "Awaken the Machine": "6\" Aura, target Vehicle unit gains BS-1 (Improves by 1).",
+    "Repair": "Repair 1 Wound on Target Vehicle. Roll a d6, on a 5+, restore a Weapon Disabled, Destroyed, Crew Stun, or Immobilize secondary result.",
+    "Terminator Honours": "5+ Invulnerability Save",
+    "Terminator Honour": "5+ Invulnerability Save",
+    "Personal Teleporter": "This model ignores Terrain and other Models during the Movement Phase.",
+    "Transport 16": "Access Front, Assault Ramps Reroll Dangerous Terrain Tests and failed Move through Cover Roll d6, on 5+ repair Immobilized or Crew Stun result You may treat all Crew Stun Results as Crew Shaken",
+    "Force Shielding": "5+ Invulnerability Save",
+    "Transport 12": "Access Front and Rear.",
+    "Dreadnought Transport": "This model may carry one Dreadnought with 13 Wounds or less.",
+    "Grav Chute Insertion": "Models may Disembark from this model if it is not Hovering. They may do so along any point it passed over during the Stormraven's movement. Each model must take a Dangerous Terrain Test that deploys this way. Dreadnoughts may not Disembark via Grave Chute Insertion. This model has a 5+ Invulnerability Save against Ranged Attacks",
+    "Transport 6": "Access Sides. Reroll Dangerous Terrain Tests and failed Move through Cover",
+    "Transport 30": "Access Front and Sides, Assault Ramps. 5+ Invulnerability Save vs Ranged Attacks",
+    "Transport 15": "Access Front and Sides, Assault Ramps.",
+    "Tank Transport": "This model may Transport up to 2 Rhinos (or model that uses the Rhino Chassis) or 1 Land Raider (or model that uses a Land Raider Chassis). These do not benefit from the Assault Ramps. 5+ Invulnerability Save vs Ranged Attacks",
+    "Heavy Gate": "In your Command Phase you may declare if the Gate is Open or Closed. Models may not move through the Gate when it is Closed. The Gate cannot be Closed if models are Obstructing the Gate.",
+    "Fortification": "This model may never be moved once placed on the Table, except when it is destroyed. Gate Tower: Building Titanic",
+    "Transport 10": "4 Fire Ports Front, Sides, Rear. Access Rear Wall: Building Titanic",
+    "Transport 20": "Access Rear",
+    "Gun Emplacement": "This an existing piece of Terrain in your Deployment Zone like normal, it is placed with the Terrain instead.",
+    "Shield Generator": "6\" Aura, this model (and any models on top of this Terrain Feature) and target unit gain 5+ Invulnerability Save."
+  },
   "wargear": {},
   "subfactions": [
     {
@@ -3943,9 +3998,7 @@
             ]
           }
         ],
-        "fixed_wargear": [
-          "None"
-        ],
+        "fixed_wargear": [],
         "options": [
           {
             "description": "May take",
@@ -4241,7 +4294,18 @@
         "models": [
           {
             "name": "Gate",
-            "stats": {},
+            "stats": {
+              "M": "-",
+              "WS": "-",
+              "BS": "4+",
+              "S": "-",
+              "T": "8",
+              "W": "20",
+              "I": "-",
+              "A": "-",
+              "Ld": "-",
+              "Sv": "3+"
+            },
             "rules": [
               "Building",
               "Titanic"
@@ -4249,23 +4313,56 @@
           },
           {
             "name": "Gate Towers",
-            "stats": {},
+            "stats": {
+              "M": "-",
+              "WS": "-",
+              "BS": "4+",
+              "S": "-",
+              "T": "8",
+              "W": "30",
+              "I": "-",
+              "A": "-",
+              "Ld": "-",
+              "Sv": "3+"
+            },
             "rules": []
           },
           {
             "name": "Walls",
-            "stats": {},
+            "stats": {
+              "M": "-",
+              "WS": "-",
+              "BS": "4+",
+              "S": "-",
+              "T": "8",
+              "W": "30",
+              "I": "-",
+              "A": "-",
+              "Ld": "-",
+              "Sv": "3+"
+            },
             "rules": []
           },
           {
             "name": "Towers",
-            "stats": {},
+            "stats": {
+              "M": "-",
+              "WS": "-",
+              "BS": "4+",
+              "S": "-",
+              "T": "8",
+              "W": "30",
+              "I": "-",
+              "A": "-",
+              "Ld": "-",
+              "Sv": "3+"
+            },
             "rules": []
           }
         ],
         "fixed_wargear": [
           "Heavy Gate",
-          "2 Linked Heavy Bolters None",
+          "2 Linked Heavy Bolters",
           "2 Linked Autocannons"
         ],
         "options": [
@@ -4306,7 +4403,18 @@
         "models": [
           {
             "name": "Primaris Redoubt",
-            "stats": {},
+            "stats": {
+              "M": "-",
+              "WS": "-",
+              "BS": "4+",
+              "S": "-",
+              "T": "8",
+              "W": "30",
+              "I": "-",
+              "A": "-",
+              "Ld": "-",
+              "Sv": "3+"
+            },
             "rules": [
               "Building"
             ]
@@ -4332,7 +4440,18 @@
         "models": [
           {
             "name": "Platform",
-            "stats": {},
+            "stats": {
+              "M": "-",
+              "WS": "-",
+              "BS": "4+",
+              "S": "-",
+              "T": "7",
+              "W": "5",
+              "I": "-",
+              "A": "-",
+              "Ld": "-",
+              "Sv": "3+"
+            },
             "rules": [
               "Building"
             ]
@@ -4398,7 +4517,18 @@
         "models": [
           {
             "name": "Aquila Strongpoint",
-            "stats": {},
+            "stats": {
+              "M": "-",
+              "WS": "-",
+              "BS": "4+",
+              "S": "-",
+              "T": "8",
+              "W": "30",
+              "I": "-",
+              "A": "-",
+              "Ld": "-",
+              "Sv": "3+"
+            },
             "rules": [
               "Building"
             ]
@@ -4436,7 +4566,18 @@
         "models": [
           {
             "name": "Hammerfall Bunker",
-            "stats": {},
+            "stats": {
+              "M": "-",
+              "WS": "-",
+              "BS": "3+",
+              "S": "-",
+              "T": "8",
+              "W": "20",
+              "I": "-",
+              "A": "-",
+              "Ld": "-",
+              "Sv": "3+"
+            },
             "rules": [
               "Building"
             ]
@@ -4475,7 +4616,18 @@
         "models": [
           {
             "name": "Hammerfall Bunker",
-            "stats": {},
+            "stats": {
+              "M": "-",
+              "WS": "-",
+              "BS": "3+",
+              "S": "-",
+              "T": "8",
+              "W": "20",
+              "I": "-",
+              "A": "-",
+              "Ld": "-",
+              "Sv": "3+"
+            },
             "rules": [
               "Building"
             ]
@@ -4514,7 +4666,18 @@
         "models": [
           {
             "name": "Plasma Obliterator",
-            "stats": {},
+            "stats": {
+              "M": "-",
+              "WS": "-",
+              "BS": "4+",
+              "S": "-",
+              "T": "8",
+              "W": "30",
+              "I": "-",
+              "A": "-",
+              "Ld": "-",
+              "Sv": "3+"
+            },
             "rules": [
               "Building"
             ]
@@ -4540,7 +4703,18 @@
         "models": [
           {
             "name": "Plasma Obliterator",
-            "stats": {},
+            "stats": {
+              "M": "-",
+              "WS": "-",
+              "BS": "4+",
+              "S": "-",
+              "T": "8",
+              "W": "30",
+              "I": "-",
+              "A": "-",
+              "Ld": "-",
+              "Sv": "3+"
+            },
             "rules": [
               "Building"
             ]
@@ -4566,15 +4740,24 @@
         "models": [
           {
             "name": "Void Shield Generator",
-            "stats": {},
+            "stats": {
+              "M": "-",
+              "WS": "-",
+              "BS": "4+",
+              "S": "-",
+              "T": "8",
+              "W": "20",
+              "I": "-",
+              "A": "-",
+              "Ld": "-",
+              "Sv": "3+"
+            },
             "rules": [
               "Building"
             ]
           }
         ],
-        "fixed_wargear": [
-          "none"
-        ],
+        "fixed_wargear": [],
         "options": [],
         "weapons": {}
       },
@@ -4585,15 +4768,24 @@
         "models": [
           {
             "name": "Void Shield Generator",
-            "stats": {},
+            "stats": {
+              "M": "-",
+              "WS": "-",
+              "BS": "4+",
+              "S": "-",
+              "T": "8",
+              "W": "20",
+              "I": "-",
+              "A": "-",
+              "Ld": "-",
+              "Sv": "3+"
+            },
             "rules": [
               "Building"
             ]
           }
         ],
-        "fixed_wargear": [
-          "none"
-        ],
+        "fixed_wargear": [],
         "options": [],
         "weapons": {}
       }

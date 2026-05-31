@@ -2,7 +2,48 @@
   "id": "cadian-shock",
   "name": "Cadian Shock",
   "difficulty": 3,
-  "rules": {},
+  "rules": {
+    "Augar Array": "6\" Aura, target unit does not scatter when Deepstriking. This Aura is cast",
+    "Camo Netting": "This model gains Shroud.",
+    "Chaff Launchers": "This model has a 5+ Invulnerability Save against Ranged Attacks.",
+    "Chaff Launcher": "This model has a 5+ Invulnerability Save against Ranged Attacks.",
+    "Dozerblade": "Reroll Dangerous Terrain Tests and failed Move through Cover.",
+    "Enclosed Crew Compartment": "This model loses Open Topped.",
+    "Extra Armour": "You may treat all Crew Stun Results as Weapon Disabled.",
+    "Medicae Pack": "6\" Aura, this model's unit and target unit gain a 5+ Feel No Pain.",
+    "Recovery Gear": "Roll d6, on 5+ repair Immobilized or Crew Stun result.",
+    "Searchlight": "This unit and target unit are no longer affected by Night rules.",
+    "Smoke Launchers": "6\" range, put 5\" Smoke Cloud that causes -1 to Hit and scatters to",
+    "Smoke Launcher": "6\" range, put 5\" Smoke Cloud that causes -1 to Hit and scatters to",
+    "Standard": "This inspiring battle flag gives the model equipped the following Auras:",
+    "Vox Caster": "This model's unit may reroll failed Order Tests if the model Issuing the",
+    "Imperial Guard's Finest": "all models may reroll 1's To Hit with ranged weapons.",
+    "No Place to Call Home": "each model only counts as half a model for the purpose of Cadian Castellan Castellan",
+    "Castellan Rank": "12\" True Aura, all friendly units automatically rally if Fleeing.",
+    "Refractor Field": "5+ Invulnerability Save",
+    "Mechanized Regiment": "6\" Aura, this model and target unit may charge as if the Transport they disembarked from this turn had Assault Ramps.",
+    "Guns Blazing": "Colonel Snake Stranski may reroll To Hit rolls with his 2 Plasma Pistols. He may also fire from his Chimera Turret Hatch without using Fire Ports. Veterans: Infantry Chimera: Vehicle Tank Aquatic",
+    "Transport 12": "Access Sides and Rear. 2 360 Fire Ports.",
+    "Command Tank": "Colonel Snake Stranski and his Command Squad cannot leave the Chimera unless it is destroyed. Reroll Dangerous Terrain Tests and failed Move through Cover 6\" Aura, target unit does not scatter when Deepstriking. This Aura is cast when the first model is placed prior to scattering. Shroud You may treat all Crew Stun Results as Crew Shaken",
+    "Supreme Commander": "Order True Aura 24\" instead of 12\".",
+    "Tactical Genius": "During Deployment, one unit gains Scout rule. For the Honour of Cadia! - Special Order, units receive Fearless and Furious Charge special rules until the end of your Turn. Veterans: Infantry Veteran Heavy Weapon Team: Infantry Bulky Reroll orders 6\" Aura, +1 Attack, 6\" Aura, reroll Ld tests 6\" Aura, this Command Squad and target unit gain 5+ Feel No Pain Sv4+ Shroud",
+    "Tactical Geniu": "During Deployment, one unit gains Scout rule. For the Honour of Cadia! - Special Order, units receive Fearless and Furious Charge special rules until the end of your Turn. Veterans: Infantry Veteran Heavy Weapon Team: Infantry Bulky Reroll orders 6\" Aura, +1 Attack, 6\" Aura, reroll Ld tests 6\" Aura, this Command Squad and target unit gain 5+ Feel No Pain Sv4+ Shroud",
+    "Grinding Advance": "Do not count as moving when firing Ordnance Weapons.",
+    "Crack Shot": "Hand of Steel has +1 Penetration and may Reroll To Wound rolls against Monsters if it does not move during the Movement Phase. Reroll Dangerous Terrain Tests and failed Move through Cover 6\" Aura, target unit does not scatter when Deepstriking. This Aura is cast when the first model is placed prior to scattering. Shroud You may treat all Crew Stun Results as Crew Shaken Roll d6, on 5+ repair Immobilized or Crew Stun result This unit and target unit are no longer affected by Night rules 6\" range, put 5\" Smoke Cloud that causes -1 to Hit and scatters to move an extra +1\" until your Command Phase. One Use Only. Use in your Shooting Phase Only.",
+    "Lord Castellan's Fury": "6\" Aura, this model and target unit gain Furious Charge",
+    "Listen Up Maggots!": "6\" Aura, one Independent Character or Character within 6\" may Use their own Ld for passing orders instead of the target unit's Ld",
+    "Star of Terra": "This model will never be Executed or Summary Executed.",
+    "Surrender!": "6\" Aura, this model and target unit automatically Rally in the Command Phase",
+    "Command Staff": "Any Unique model taken as part of Arminka's squad may join units with her, ignoring the model count requirement for joining units.",
+    "Defiant": "Sergeant Arminka Lesk and her unit may never be affected by Auras or True Auras unless it is Orders issued by her. Shand: Cadian Shock Character Unique Infantry Fearless Stubborn",
+    "Devoted Follower": "Shand will never Execute Arminka and will Execute the next model in line.",
+    "Summary Execution": "once per Round when a friendly Infantry unit fails a Ld test within 6\", you MUST remove the highest Ld model from that unit from the game. Ignore Commissars and Lord Commissars for highest Ld purposes. The unit automatically passes the Ld test. Order Tests do not count for this rule. Talbeas: Cadian Shock Character",
+    "The Emperor Protects": "6\" Aura, this model and target unit gain 5+ Invulnerability Save Grawnya: Cadian Shock Character Unique Infantry",
+    "The Emperor Protect": "6\" Aura, this model and target unit gain 5+ Invulnerability Save Grawnya: Cadian Shock Character Unique Infantry",
+    "Mixed Regiments": "During army creation, you may choose two Regiment rules, but can still only take specific Cadian Units. Jaromir: Cadian Shock Character Unique Infantry",
+    "Mixed Regiment": "During army creation, you may choose two Regiment rules, but can still only take specific Cadian Units. Jaromir: Cadian Shock Character Unique Infantry",
+    "Duty to the End": "This model has a 5+ Feel No Pain. Special Wargear:"
+  },
   "wargear": {
     "Augar Array": "6\" Aura, target unit does not scatter when Deepstriking. This Aura is cast when the first model is placed prior to scattering.",
     "Camo Netting": "This model gains Shroud.",
@@ -182,90 +223,6 @@
             "type": "Slow, Monsterbane 4"
           }
         }
-      },
-      {
-        "name": "M WS BS S T W I A Ld Sv",
-        "points_base": 435,
-        "composition": "1 Colonel Snake Stranski 4 Veterans 1 Chimera",
-        "models": [
-          {
-            "name": "6 3+ 3+ 3 3 5 3 3 9 5+",
-            "stats": {
-              "M": "12",
-              "WS": "5+",
-              "BS": "3+",
-              "S": "6",
-              "FA": "12",
-              "SA": "10",
-              "RA": "10",
-              "W": "10",
-              "I": "1",
-              "A": "3",
-              "Ld": "9",
-              "Sv": "3+"
-            },
-            "rules": []
-          },
-          {
-            "name": "6 4+ 3+ 3 3 1 3 1 7 5+",
-            "stats": {},
-            "rules": [
-              "Independent Character",
-              "Cadian Shock",
-              "Infantry",
-              "Unique",
-              "Infantry Orders 2",
-              "Mechanized Regiment",
-              "Ramps.",
-              "Guns Blazing",
-              "Ports.",
-              "Infantry",
-              "Vehicle",
-              "Tank",
-              "Aquatic",
-              "Transport 12",
-              "Command Tank",
-              "Shroud"
-            ]
-          }
-        ],
-        "fixed_wargear": [],
-        "options": [
-          {
-            "description": "Chimera may swap Heavy Flamer",
-            "choices": []
-          },
-          {
-            "description": "Chimera may swap Heavy Flamer",
-            "choices": []
-          },
-          {
-            "description": "Chimera may take",
-            "choices": []
-          },
-          {
-            "description": "Chimera may take",
-            "choices": []
-          },
-          {
-            "description": "Chimera may take any E one time each",
-            "choices": [
-              {
-                "name": "Augar Array",
-                "pts_delta": 5
-              },
-              {
-                "name": "Camo Netting",
-                "pts_delta": 6
-              },
-              {
-                "name": "Extra Armour",
-                "pts_delta": 5
-              }
-            ]
-          }
-        ],
-        "weapons": {}
       },
       {
         "name": "Lord Castellan Creed",
