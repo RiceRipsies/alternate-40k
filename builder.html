@@ -1805,6 +1805,7 @@ function openUnitModal(unit, existingEntry = null, existingIdx = null) {
   (unit.options ?? []).forEach((opt, gi) => {
     const desc = (opt.description ?? '').replace(_ADD_MODEL_RE, '').trim();
     if (!opt.choices?.length && !desc) return;
+    if (!opt.choices?.length && /^May (?:take|swap|replace|use|upgrade)\s*$/i.test(desc)) return;
     if (opt.choices?.length) {
       const count = getSwapAnyCount(desc, fixedWg);
       if (count > 1) {

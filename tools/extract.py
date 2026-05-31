@@ -710,6 +710,10 @@ def parse_codex(text: str, source_name: str, weapon_tables: dict | None = None) 
             opt.pop('_raw', None)
             opt['description'] = _CODE_TAIL_RE.sub('', opt['description']).strip()
 
+        # Drop orphaned option fragments (e.g. "May take" with no item name and no choices)
+        _FRAG_RE = re.compile(r'^May (?:take|swap|replace|use|upgrade)\s*$', re.I)
+        options = [o for o in options if not (_FRAG_RE.match(o['description']) and not o['choices'])]
+
         weapons = {}
         for code, entries in unit_wt.items():
             for entry in entries:
